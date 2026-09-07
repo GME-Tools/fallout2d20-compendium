@@ -1,0 +1,31 @@
+{
+  "_id": "H3fKh61SM4JbxMyG",
+  "_key": "!items!H3fKh61SM4JbxMyG",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/addiction.svg",
+  "name": "Fureur",
+  "system": {
+    "description": "<p>La difficulté de tous vos tests de FOR et de PER augmente de +1 quand vous n’êtes pas sous l’effet de la Fureur.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "H3fKh61SM4JbxMyG",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

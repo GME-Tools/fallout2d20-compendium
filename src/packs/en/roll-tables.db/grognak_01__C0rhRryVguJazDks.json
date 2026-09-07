@@ -1,0 +1,14 @@
+{
+  "_id": "C0rhRryVguJazDks",
+  "_key": "!tables.results!95C7laMPQoK9wwZj.C0rhRryVguJazDks",
+  "name": "Blood on the Harp",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.qx4yMqnLv4ZI6Ppx]{Blood on the Harp}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    2
+  ],
+  "drawn": false
+}

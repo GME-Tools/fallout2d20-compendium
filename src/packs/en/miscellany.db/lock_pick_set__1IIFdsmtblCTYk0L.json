@@ -1,0 +1,35 @@
+{
+  "_id": "1IIFdsmtblCTYk0L",
+  "_key": "!items!1IIFdsmtblCTYk0L",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Lockpick set.webp",
+  "name": "Lock Pick Set",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 150,
+    "description": "<p>A rolled-up leather case containing an assortment of picks and tension wrenches for opening mechanical locks, as an alternative to the cruder &ldquo;screwdriver and bobby pins&rdquo; method. Sturdier than the improvised method, but a set can become useless if too many of the picks or wrenches break.</p>",
+    "effect": "<p>Reduces difficulty of Lockpick tests by 1 (minimum 0), After 3 complications, the set is broken</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 2
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

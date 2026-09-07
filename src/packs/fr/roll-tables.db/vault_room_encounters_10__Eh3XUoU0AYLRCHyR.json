@@ -1,0 +1,14 @@
+{
+  "_id": "Eh3XUoU0AYLRCHyR",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.Eh3XUoU0AYLRCHyR",
+  "name": "Conflit !",
+  "description": "Lancez deux fois ; les deux résultats s’affrontent à mort et ignorent initialement les personnages joueurs.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

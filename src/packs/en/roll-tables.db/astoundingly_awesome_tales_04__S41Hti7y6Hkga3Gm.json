@@ -1,0 +1,14 @@
+{
+  "_id": "S41Hti7y6Hkga3Gm",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.S41Hti7y6Hkga3Gm",
+  "name": "The Mad Russian's Revenge!",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.iiFcIlhklIMxjaoC]{The Mad Russian's Revenge!}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    8
+  ],
+  "drawn": false
+}

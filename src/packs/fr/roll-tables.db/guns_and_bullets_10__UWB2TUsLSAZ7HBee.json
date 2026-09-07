@@ -1,0 +1,14 @@
+{
+  "_id": "UWB2TUsLSAZ7HBee",
+  "_key": "!tables.results!anS2tzaEW0Tct41L.UWB2TUsLSAZ7HBee",
+  "name": "Guide de la chasse aux Rouges",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.116TjNgfBwkNOSF6]{Guide de la chasse aux Rouges}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

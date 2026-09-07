@@ -1,0 +1,43 @@
+{
+  "_id": "mT6qkeV6xTG1pnex",
+  "_key": "!items!mT6qkeV6xTG1pnex",
+  "effects": [],
+  "folder": "gvTCVmcQwuzBajUx",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Attack of the Fishmen!.webp",
+  "name": "L’assaut des hommes-poisson !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +1 DC sur vos attaques contre les fangeux.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.9uBD2OLMA2YtE3ST]{L’assaut des hommes-poisson !}</p></section>",
+    "effect": "<p>Vous gagnez +1 DC sur vos attaques contre les fangeux.</p>",
+    "favorite": false,
+    "publication": "Histoires à dormir debout",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "mT6qkeV6xTG1pnex",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

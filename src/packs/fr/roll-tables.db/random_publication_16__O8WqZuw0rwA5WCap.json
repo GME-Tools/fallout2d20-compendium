@@ -1,0 +1,14 @@
+{
+  "_id": "O8WqZuw0rwA5WCap",
+  "_key": "!tables.results!MrcHRXzMqh5yK1Kx.O8WqZuw0rwA5WCap",
+  "name": "Vraies histoires de police",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.WeOABgbveKblRqPw]{Vraies histoires de police}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    16
+  ],
+  "drawn": false
+}

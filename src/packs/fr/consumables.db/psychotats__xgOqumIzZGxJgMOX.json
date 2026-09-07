@@ -1,0 +1,52 @@
+{
+  "_id": "xgOqumIzZGxJgMOX",
+  "_key": "!items!xgOqumIzZGxJgMOX",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Psychotats",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Psycho",
+    "consumableType": "chem",
+    "cost": 70,
+    "description": "<p>Cocktail de Psycho et de Mentats, il combine vigilance accrue, agressivité, acuité sensorielle et tolérance à la douleur. <strong>Dépendance au Psycho :</strong> un jet de dépendance raté vous rend dépendant. Hors de l’effet d’un Psycho, Psycho Jet, Psychobuff ou Psychotats, augmentez de +1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât de toutes les attaques physiques.</p>",
+    "duration": "lasting",
+    "effect": "<p>Toutes vos attaques infligent +2 @fos[DC] de dégâts, vous gagnez +2 en résistance aux dégâts physiques et la difficulté de vos tests de PER diminue de 1 (minimum 0).</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "xgOqumIzZGxJgMOX",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "kASXmaelLaCRPGG3",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.kASXmaelLaCRPGG3",
+  "name": "Key",
+  "description": "Key",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    53,
+    53
+  ],
+  "drawn": false
+}

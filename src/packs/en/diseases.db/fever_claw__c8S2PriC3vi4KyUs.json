@@ -1,0 +1,30 @@
+{
+  "_id": "c8S2PriC3vi4KyUs",
+  "_key": "!items!c8S2PriC3vi4KyUs",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Fever Claw",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Your ranged attacks inflict 2CD less damage (minimum 1CD)</p>",
+    "duration": 1,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

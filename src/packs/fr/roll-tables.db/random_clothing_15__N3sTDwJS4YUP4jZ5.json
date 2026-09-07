@@ -1,0 +1,14 @@
+{
+  "_id": "N3sTDwJS4YUP4jZ5",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.N3sTDwJS4YUP4jZ5",
+  "name": "Vêtements décontractés",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.mGCVgHtv7btlXFcj]{Vêtements décontractés}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    16
+  ],
+  "drawn": false
+}

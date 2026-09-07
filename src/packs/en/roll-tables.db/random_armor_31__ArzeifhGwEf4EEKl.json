@@ -1,0 +1,14 @@
+{
+  "_id": "ArzeifhGwEf4EEKl",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.ArzeifhGwEf4EEKl",
+  "name": "Heavy Combat Armor",
+  "description": "Heavy Combat Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

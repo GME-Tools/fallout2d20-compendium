@@ -1,0 +1,14 @@
+{
+  "_id": "MecC2e3txSnJQNNH",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.MecC2e3txSnJQNNH",
+  "name": "Armure lourde de combat",
+  "description": "Armure lourde de combat",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    31,
+    31
+  ],
+  "drawn": false
+}

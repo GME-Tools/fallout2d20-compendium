@@ -1,0 +1,14 @@
+{
+  "_id": "4txOXsKDAaC013WT",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.4txOXsKDAaC013WT",
+  "name": "8+4 DC Épingle à cheveuxs",
+  "description": "8+4 DC Épingle à cheveuxs",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    45,
+    45
+  ],
+  "drawn": false
+}

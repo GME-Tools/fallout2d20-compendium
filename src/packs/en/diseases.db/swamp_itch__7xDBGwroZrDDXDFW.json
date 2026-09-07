@@ -1,0 +1,30 @@
+{
+  "_id": "7xDBGwroZrDDXDFW",
+  "_key": "!items!7xDBGwroZrDDXDFW",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Swamp Itch",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>AGI tests suffer +1 difficulty</p>",
+    "duration": 1,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

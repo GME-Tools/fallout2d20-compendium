@@ -1,0 +1,14 @@
+{
+  "_id": "aDn8a3TuQ0QHAIVJ",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.aDn8a3TuQ0QHAIVJ",
+  "name": "Holodisque brouillé",
+  "description": "Holodisque brouillé",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    2,
+    2
+  ],
+  "drawn": false
+}

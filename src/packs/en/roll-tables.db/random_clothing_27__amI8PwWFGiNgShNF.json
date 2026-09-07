@@ -1,0 +1,14 @@
+{
+  "_id": "amI8PwWFGiNgShNF",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.amI8PwWFGiNgShNF",
+  "name": "Heavy Coat",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.sHVONLW2lTNyu8Mq]{Heavy Coat}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    28,
+    28
+  ],
+  "drawn": false
+}

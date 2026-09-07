@@ -1,0 +1,14 @@
+{
+  "_id": "mGSmaDR5TL7XR5ST",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.mGSmaDR5TL7XR5ST",
+  "name": "Maïs (non irradié)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.qeN8bq9CJ3EYwwAE]{Maïs (non irradié)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    38,
+    38
+  ],
+  "drawn": false
+}

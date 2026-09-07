@@ -1,0 +1,14 @@
+{
+  "_id": "3XrmGWvDFUXEkoQo",
+  "_key": "!tables.results!b0YDWI7LbsTTbsLR.3XrmGWvDFUXEkoQo",
+  "name": "L’armurier d’Harper’s Ferry",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.sJuyumHFWHrT4Kr0]{L’armurier d’Harper’s Ferry}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    16
+  ],
+  "drawn": false
+}

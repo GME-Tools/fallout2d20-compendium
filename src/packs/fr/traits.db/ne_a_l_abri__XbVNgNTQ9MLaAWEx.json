@@ -1,0 +1,34 @@
+{
+  "_id": "XbVNgNTQ9MLaAWEx",
+  "_key": "!items!XbVNgNTQ9MLaAWEx",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "name": "Né à l’Abri",
+  "system": {
+    "description": "<p>Votre jeunesse saine aux mains de médecins compétents et d’auto-docs sophistiqués implique que vous réduisez de 1, jusqu’à un minimum de 0, la difficulté de tous les tests d’END destinés à résister aux effets des maladies. De plus, le soin apporté à votre éducation vous permet de bénéficier d’un atout personnel supplémentaire au choix, qui commence donc au rang 2.</p><p>Vous pouvez décider avec le MJ du type d’expériences qui a eu lieu dans votre Abri. Une fois par quête, le MJ peut introduire une complication qui reflète la nature de cette expérimentation ou votre jeunesse passée en isolement et confinement. Dans ce cas, vous regagnez immédiatement un point de Chance.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "51-57",
+        "translatedFrom": "XbVNgNTQ9MLaAWEx",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "errata": [
+          "Q2 2024"
+        ],
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

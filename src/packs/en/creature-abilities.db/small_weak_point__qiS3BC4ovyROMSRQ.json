@@ -1,0 +1,33 @@
+{
+  "name": "Small Weak Point",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "qiS3BC4ovyROMSRQ",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">While the [creature]&rsquo;s body is covered in a toughened shell, its face is its weak point. This area is small and difficult to accurately hit. The face is treated as having a defense of 2.</span></p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!qiS3BC4ovyROMSRQ"
+}

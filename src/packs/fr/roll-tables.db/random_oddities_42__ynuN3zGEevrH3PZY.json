@@ -1,0 +1,14 @@
+{
+  "_id": "ynuN3zGEevrH3PZY",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.ynuN3zGEevrH3PZY",
+  "name": "Conteneur verrouillé",
+  "description": "Conteneur verrouillé",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    44,
+    44
+  ],
+  "drawn": false
+}

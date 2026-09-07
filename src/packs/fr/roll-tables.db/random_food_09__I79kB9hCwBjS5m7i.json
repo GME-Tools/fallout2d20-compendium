@@ -1,0 +1,14 @@
+{
+  "_id": "I79kB9hCwBjS5m7i",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.I79kB9hCwBjS5m7i",
+  "name": "Petit pain sucré",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.KZOctNYYrsfYycGB]{Petit pain sucré}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

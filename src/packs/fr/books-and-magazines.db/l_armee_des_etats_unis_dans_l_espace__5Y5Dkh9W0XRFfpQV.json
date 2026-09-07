@@ -1,0 +1,43 @@
+{
+  "_id": "5Y5Dkh9W0XRFfpQV",
+  "_key": "!items!5Y5Dkh9W0XRFfpQV",
+  "effects": [],
+  "folder": "KhW0UE056TAgf0NU",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/US Army Goes to Space.webp",
+  "name": "L’armée des États-Unis dans l’espace",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Sur une attaque avec une arme à énergie, vous infligez un coup critique dès 3 dégâts après résistance au lieu de 5.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.lkAJKVOfU1DfjLU9]{L’armée des États-Unis dans l’espace}</p></section>",
+    "effect": "<p>Sur une attaque avec une arme à énergie, vous infligez un coup critique dès 3 dégâts après résistance au lieu de 5.</p>",
+    "favorite": false,
+    "publication": "Science Tesla",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "5Y5Dkh9W0XRFfpQV",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

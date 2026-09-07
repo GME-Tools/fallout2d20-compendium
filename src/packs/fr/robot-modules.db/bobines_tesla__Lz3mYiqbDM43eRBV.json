@@ -1,0 +1,60 @@
+{
+  "_id": "Lz3mYiqbDM43eRBV",
+  "_key": "!items!Lz3mYiqbDM43eRBV",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Bobines Tesla",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 100,
+    "description": "<p>Un ensemble d’antennes installées à la surface du robot dirige des décharges électriques à courte distance vers les agresseurs proches. Les alliés ne risquent guère plus qu’une légère décharge, tandis que les ennemis peuvent subir de graves brûlures électriques.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 2, @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "effect": "<p>Peuvent être activées ou désactivées au début d’un tour. Lorsqu’elles sont actives, tous les ennemis à portée de contact subissent 4 @fos[DC] de dégâts énergétiques Perforants 1 et Étourdissants à la fin du tour du robot.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 2, Science! 1",
+    "quantity": 1,
+    "rarity": 5,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": -25
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Lz3mYiqbDM43eRBV",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "modules",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [
+          "Expert en robotique 2",
+          "Scientifique 1"
+        ],
+        "rarity": "rare",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

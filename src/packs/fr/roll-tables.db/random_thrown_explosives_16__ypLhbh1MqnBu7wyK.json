@@ -1,0 +1,14 @@
+{
+  "_id": "ypLhbh1MqnBu7wyK",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.ypLhbh1MqnBu7wyK",
+  "name": "2+1 DC Javelots",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.iodz4xm3QDXNuhxf]{2+1 DC Javelots}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    17
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "XOuIaaVIUYTWnHNS",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.XOuIaaVIUYTWnHNS",
+  "name": "1 Mine à impulsion",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.eILamwepNIAhOY0J]{1 Mine à impulsion}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    4
+  ],
+  "drawn": false
+}

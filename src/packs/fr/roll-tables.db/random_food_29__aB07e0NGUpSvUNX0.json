@@ -1,0 +1,14 @@
+{
+  "_id": "aB07e0NGUpSvUNX0",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.aB07e0NGUpSvUNX0",
+  "name": "Courge",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Qe3DSub3iHONeRaO]{Courge}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    30,
+    30
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "5ogBpCYEmyZ6gLtZ",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.5ogBpCYEmyZ6gLtZ",
+  "name": "Pre-War Money worth 5d20 Caps",
+  "description": "Pre-War Money worth 5d20 Caps",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    5
+  ],
+  "drawn": false
+}

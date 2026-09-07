@@ -1,0 +1,31 @@
+{
+  "_id": "Brw3U4pjSy5MBp6D",
+  "_key": "!items!Brw3U4pjSy5MBp6D",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "name": "Main lourde",
+  "system": {
+    "description": "<p>Votre bonus de dégâts au corps à corps augmente de +1 @fos[DC].</p><p>Vos attaques à mains nues et au corps à corps déclenchent une complication sur un 19 ou un 20, et non seulement sur un 20.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "51-57",
+        "translatedFrom": "Brw3U4pjSy5MBp6D",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

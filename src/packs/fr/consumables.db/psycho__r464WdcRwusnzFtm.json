@@ -1,0 +1,82 @@
+{
+  "_id": "r464WdcRwusnzFtm",
+  "_key": "!items!r464WdcRwusnzFtm",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Psycho.webp",
+  "name": "Psycho",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Psycho",
+    "consumableType": "chem",
+    "cost": 50,
+    "description": "<p>Puissant stimulant de combat créé par l’armée américaine. Il exacerbe l’agressivité et émousse la douleur, permettant de combattre plus durement sans souci de sa sécurité.</p><p><strong>Dépendance au Psycho :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât des attaques physiques hors des effets d’une variété de Psycho.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.483yLfgB6kJ0lWvD]{Hubélie} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.860ofdvpufUzSqE7]{Stimpak} ×1</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>Toutes vos attaques infligent +2 @fos[DC] de dégâts et vous gagnez +3 en résistance aux dégâts physiques.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "r464WdcRwusnzFtm",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Matériaux rares",
+            "canonicalName": "Rare Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "name": "Hubélie",
+            "canonicalName": "Hubflower",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.483yLfgB6kJ0lWvD"
+          },
+          {
+            "name": "Stimpak",
+            "canonicalName": "Stimpak",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.860ofdvpufUzSqE7"
+          }
+        ]
+      }
+    }
+  }
+}

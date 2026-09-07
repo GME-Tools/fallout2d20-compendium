@@ -1,0 +1,14 @@
+{
+  "_id": "uo24cLS0GCkcxcfV",
+  "_key": "!tables.results!CqwFiBMsrzOjRI6k.uo24cLS0GCkcxcfV",
+  "name": "Pillars Cultists",
+  "description": "Followers of the Pillars of the Community try to proselytize.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    7
+  ],
+  "drawn": false
+}

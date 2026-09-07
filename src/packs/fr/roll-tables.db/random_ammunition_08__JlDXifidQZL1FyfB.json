@@ -1,0 +1,14 @@
+{
+  "_id": "JlDXifidQZL1FyfB",
+  "_key": "!tables.results!sa66QXOwlO8515AT.JlDXifidQZL1FyfB",
+  "name": "Cartouche 5 mm — 5mm (12+6 DC ×10)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.299nvpoTfu1mwKTX]{Cartouche 5 mm — 5mm (12+6 DC ×10)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    9
+  ],
+  "drawn": false
+}

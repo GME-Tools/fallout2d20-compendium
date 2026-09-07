@@ -1,0 +1,71 @@
+{
+  "_id": "7vvLcpVth2gMnB7o",
+  "_key": "!items!7vvLcpVth2gMnB7o",
+  "effects": [],
+  "folder": "juv3n8NKi5aCAcep",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/The Ohio River Hermit.webp",
+  "name": "The Ohio River Hermit",
+  "system": {
+    "description": "<h2>Backwoodsman</h2>\n<p><strong>Perk:</strong> Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.</p>\n<ul>\n<li>\n<p>Reduce the difficulty of repairing a damaged item by 1 (min. 0)</p>\n</li>\n</ul>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [
+        "Compendium.fallout2d20-compendium.en-books-and-magazines.Item.0WGq8Aaq82V8nViB"
+      ],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "uuidLinksReviewed": true,
+        "magazineAutomationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated Core magazine"
+      }
+    }
+  }
+}

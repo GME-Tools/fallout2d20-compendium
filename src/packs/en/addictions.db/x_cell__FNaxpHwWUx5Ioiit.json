@@ -1,0 +1,28 @@
+{
+  "_id": "FNaxpHwWUx5Ioiit",
+  "_key": "!items!FNaxpHwWUx5Ioiit",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/X-Cell.webp",
+  "name": "X-Cell",
+  "system": {
+    "description": "<p>You increase the difficulty of all tests by +1 whenever you are not under the effects of X-Cell.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

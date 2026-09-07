@@ -1,0 +1,14 @@
+{
+  "_id": "bVrT5QPG1cp9kjHz",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.bVrT5QPG1cp9kjHz",
+  "name": "Silt Bean",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.lrllDzCjzc9atRUy]{Silt Bean}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

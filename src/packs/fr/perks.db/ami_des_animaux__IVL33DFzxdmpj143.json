@@ -1,0 +1,71 @@
+{
+  "_id": "IVL33DFzxdmpj143",
+  "_key": "!items!IVL33DFzxdmpj143",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Animal Friend.webp",
+  "name": "Ami des animaux",
+  "system": {
+    "description": "<p>Rangs : 2 Prérequis : CHR 6, niveau 1+ Au rang 1, chaque fois qu’un PNJ créature dont le profil affiche le mot-clef Mammifère, Lézard ou Insecte souhaite vous attaquer, jetez 1 : si vous obtenez un résultat autre qu’un Effet, la créature choisit de ne pas vous attaquer, bien qu’elle puisse toujours s’en prendre à un autre personnage. Au rang 2, vous pouvez entreprendre un test de CHR + Survie de difficulté 2 au prix d’une action capitale. En cas de réussite, l’animal vous considère comme amical et attaquera quiconque s’en prend à vous. Cette aptitude ne fonctionne pas sur les animaux redoutables ou légendaires. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 2,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 6
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 5,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "IVL33DFzxdmpj143",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

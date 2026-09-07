@@ -1,0 +1,32 @@
+{
+  "_id": "T00wacU0YaptZoq1",
+  "_key": "!items!T00wacU0YaptZoq1",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Buffout.webp",
+  "name": "Buffout",
+  "system": {
+    "description": "<p>La difficulté de tous vos tests de FOR et d’END augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Buffout (Buffout, Buffjet ou Bufftats).</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "T00wacU0YaptZoq1",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

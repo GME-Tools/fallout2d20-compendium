@@ -1,0 +1,71 @@
+{
+  "_id": "FLW7Fx5HVaIxuekh",
+  "_key": "!items!FLW7Fx5HVaIxuekh",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Heave Ho.webp",
+  "name": "Ho-hisse !",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : FOR 8 Lorsque vous effectuez une attaque à distance avec un projectile, vous pouvez dépenser 1 PA pour augmenter d’un niveau la portée de l’arme : de courte à moyenne ou de moyenne à longue.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 8
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "FLW7Fx5HVaIxuekh",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

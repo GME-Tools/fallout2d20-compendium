@@ -1,0 +1,70 @@
+{
+  "_id": "l0RhqycI1tg5viug",
+  "_key": "!items!l0RhqycI1tg5viug",
+  "effects": [],
+  "folder": "3PYKStGfDNV2sWN9",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Métal peint",
+  "system": {
+    "apparelType": "armor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 10,
+    "description": "\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "",
+    "modType": "material",
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 1
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "l0RhqycI1tg5viug",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 212,
+        "station": "armor",
+        "group": "metal-material",
+        "complexity": 2,
+        "skill": "Réparation",
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 3,
+          "uncommon": 0,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

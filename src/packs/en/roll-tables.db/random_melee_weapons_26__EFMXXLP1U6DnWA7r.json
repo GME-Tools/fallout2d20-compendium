@@ -1,0 +1,14 @@
+{
+  "_id": "EFMXXLP1U6DnWA7r",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.EFMXXLP1U6DnWA7r",
+  "name": "Pipe Wrench",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.ehsLCAMtk39LFHVa]{Pipe Wrench}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    27,
+    27
+  ],
+  "drawn": false
+}

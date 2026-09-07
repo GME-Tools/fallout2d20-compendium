@@ -1,0 +1,14 @@
+{
+  "_id": "CXnEvxEJnXdVBCHE",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.CXnEvxEJnXdVBCHE",
+  "name": "Vêtements résistants",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.DxWJxT0MuxkbCofe]{Vêtements résistants}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    26,
+    26
+  ],
+  "drawn": false
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "UrVd0BmoXkAxmrvv",
+  "_key": "!items!UrVd0BmoXkAxmrvv",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Medicine.png",
+  "name": "Médecine",
+  "system": {
+    "defaultAttribute": "int",
+    "description": "<p>M&eacute;decine est la comp&eacute;tence qui recouvre les connaissances, et la mise en pratique de ces derni&egrave;res, li&eacute;es &agrave; la m&eacute;decine en g&eacute;n&eacute;ral, des premiers secours &agrave; la pharmacologie, en passant par la chirurgie et le traitement de l&rsquo;empoisonnement aux radiations.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Intelligence</strong>, mais vous pouvez utiliser Agilit&eacute; pour op&eacute;rer,&nbsp;ou Charisme pour conseiller un compagnon. Employez M&eacute;decine pour stabiliser vos alli&eacute;s au combat et soigner&nbsp;leurs blessures.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "44-46",
+        "translatedFrom": "UrVd0BmoXkAxmrvv",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "mFQPBmKh1TtPABzW",
+  "_key": "!tables.results!7TlfIIW1OHVVazkg.mFQPBmKh1TtPABzW",
+  "name": "Eyebot vagabond",
+  "description": "Un Eyebot diffuse des publicités et peut-être des informations de mission.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    6
+  ],
+  "drawn": false
+}

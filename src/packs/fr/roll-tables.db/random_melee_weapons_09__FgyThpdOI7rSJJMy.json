@@ -1,0 +1,14 @@
+{
+  "_id": "FgyThpdOI7rSJJMy",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.FgyThpdOI7rSJJMy",
+  "name": "Gant de boxe",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.DnWvHyfz74QnnnGv]{Gant de boxe}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

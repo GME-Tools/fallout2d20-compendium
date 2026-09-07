@@ -1,0 +1,66 @@
+{
+  "_id": "vo4udlZQUOjzx402",
+  "_key": "!items!vo4udlZQUOjzx402",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Crispy Squirrel Bits",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 6,
+    "description": "<p><span class=\"fontstyle0\">Chunks of squirrel meat, which have been fried until crispy, often found held together on a skewer. An easy way to get a little nutrition, and not so heavy a meal that it weighs you down while you digest it.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>1</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.JoLgVDbxQV3bT11R]{Squirrel Bits} ×1</li></ul></section>",
+    "duration": "",
+    "effect": "<p></p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 6,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "skill": "Survival",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Squirrel Bits",
+            "canonicalName": "Squirrel Bits",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.JoLgVDbxQV3bT11R"
+          }
+        ]
+      }
+    }
+  }
+}

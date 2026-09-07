@@ -1,0 +1,45 @@
+{
+  "_id": "r35g8Z4aZr8Lensc",
+  "_key": "!tables!r35g8Z4aZr8Lensc",
+  "name": "Maladies aléatoires",
+  "description": "<p>Table du Livre de base, p. 193.</p>",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "xdm5lqjj8Ic0OCEw",
+    "J7kAXtK7ufbE0iKg",
+    "ebyHKKfAIGnwwrZa",
+    "36ILNFO7YGW0Tl1h",
+    "HNewVg6Y6CVySAee",
+    "0stdd85cGCqWeiSq",
+    "9DksBKEVTyXS3Tjh",
+    "CZs8ipd62Zw441hc",
+    "JUNCR0UwfAz5O1lu",
+    "yvFMc0CjV2Dslnvn",
+    "q9OvaKFf91GJ2eKZ",
+    "dFTlCIz00tyNpMT4",
+    "DM0zR6kLgRgTDEid",
+    "nWsLmVCoMiRdVI6Y",
+    "Y5HReMjcg4DcRaEv",
+    "g1ztrz4PXAsRrLT5",
+    "iXBs2qluucvEoqdR",
+    "yOo10W8hcpGqRHNq",
+    "cWCZAdI5o41kDofY",
+    "IFM1wFALSmrxvTNh"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": 193,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

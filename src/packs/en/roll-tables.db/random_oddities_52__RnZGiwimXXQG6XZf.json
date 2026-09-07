@@ -1,0 +1,14 @@
+{
+  "_id": "RnZGiwimXXQG6XZf",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.RnZGiwimXXQG6XZf",
+  "name": "Key",
+  "description": "Key",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    54,
+    54
+  ],
+  "drawn": false
+}

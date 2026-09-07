@@ -1,0 +1,14 @@
+{
+  "_id": "iBGVd1XocEEiSiZs",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.iBGVd1XocEEiSiZs",
+  "name": "Pièce d’armure assistée T-51",
+  "description": "Pièce d’armure assistée T-51",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    30,
+    30
+  ],
+  "drawn": false
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "42Qe82QKBhubp9xU",
+  "_key": "!items!42Qe82QKBhubp9xU",
+  "effects": [],
+  "folder": "JpQJNevV3gGYvAgY",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "ATH de ciblage",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 100,
+    "description": "<p>Cette modification s’installe avec la compétence Sciences.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 3</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "effect": "<p>Lorsque vous effectuez l’action mineure Viser, vous pouvez effectuer une seconde action mineure pour 0 PA tant que l’armure est alimentée.</p>",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Head",
+    "modType": "system",
+    "perks": "Science! 3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 1
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "42Qe82QKBhubp9xU",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "systems",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [
+          "Scientifique 3"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

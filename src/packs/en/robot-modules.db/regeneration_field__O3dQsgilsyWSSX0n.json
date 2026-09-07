@@ -1,0 +1,56 @@
+{
+  "_id": "O3dQsgilsyWSSX0n",
+  "_key": "!items!O3dQsgilsyWSSX0n",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Regeneration Field",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 125,
+    "description": "<p>An experimental technology designed to provide aid to injured people where extensive medical care is in short supply, the robot is fitted with a device which projects a restorative signal over a short distance which stimulates the human body&rsquo;s natural healing processes.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.GiPKNxmrkWA2k76W]{Robotics Expert} 2, @UUID[Compendium.fallout2d20-compendium.en-perks.Item.UzRkuAJkvYqK8jrl]{Science!} 2</dd><dt>Rarity</dt><dd>Rare</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "effect": "<p>Outside of combat, allies regain 2 HP at the start of each scene you are present within</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 2, Science! 2",
+    "quantity": 1,
+    "rarity": 5,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": -25
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "modules",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [
+          "Robotics Expert 2",
+          "Science! 2"
+        ],
+        "rarity": "rare",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

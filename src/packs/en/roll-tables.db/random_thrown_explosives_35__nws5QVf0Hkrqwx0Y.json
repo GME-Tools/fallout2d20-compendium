@@ -1,0 +1,14 @@
+{
+  "_id": "nws5QVf0Hkrqwx0Y",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.nws5QVf0Hkrqwx0Y",
+  "name": "1 Plasma Grenade",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.tedK8NNLvjIQf4wm]{1 Plasma Grenade}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "GGY5C3vOlzctf76N",
+  "_key": "!items!GGY5C3vOlzctf76N",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "name": "Robot Mister Handy",
+  "system": {
+    "description": "<p>Vous êtes doté d’une vision à 360° et de systèmes sensoriels améliorés qui vous permettent de détecter des odeurs, des produits chimiques et des radiations, ce qui réduit de 1 la difficulté de tous les tests de Perception basés sur la vue et l’odorat. Vous êtes immunisé aux dégâts de radiation et de poison, mais ne pouvez pas utiliser de drogues. Vous ne retirez aucun bénéfice de la nourriture, des boissons ou du repos.</p><p>Vous vous déplacez par propulsion, en flottant au-dessus du sol, et n’êtes donc pas affecté par le terrain difficile ou les obstacles. Votre charge maximale est de 75 kg ; elle ne peut pas être accrue par votre Force ou vos aptitudes, mais peut l’être grâce à une armure modifiée. Vos blessures ne guérissent pas et vous ne récupérez aucun point de vie si personne ne vous répare.</p><p>Vous disposez de trois accessoires de bras déterminés par votre pack d’équipement. Si vous optez pour un bras doté d’une arme, vous recevez également 20 munitions pour cette arme.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "51-57",
+        "translatedFrom": "GGY5C3vOlzctf76N",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

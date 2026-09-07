@@ -1,0 +1,40 @@
+{
+  "_id": "xBhJROt39tupLIhb",
+  "_key": "!items!xBhJROt39tupLIhb",
+  "effects": [],
+  "folder": "oaZmiRTFAVRizbVN",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Who Can Stop the Unstoppable GrogNaRok.webp",
+  "name": "Who Can Stop the Unstoppable Grog-Na-Rok?!",
+  "system": {
+    "cost": 100,
+    "description": "<p>Unstoppables is a comic book published by Hubris Comics prior to the Great War. The series follows an ensemble cast of characters from the Hubris Comics roster, including the Silver Shroud, Mistress of Mystery, The Inspector, Manta Man and Grognak the Barbarian. Together, they form the titular Unstoppables. The cover art for the magazine depicts imagery highlighting the heroes, villains, and the adventure of each issue.</p>\n<ul>\n<li><strong>Perk:</strong> Depending on the individual issue found, you receive a different perk, allowing you to spend Luck points to avoid a single instance of damage, which you may benefit from once. If you later learn the perk, you may use that benefit as often as you have Luck points to spend on it. Roll to determine the issue found:</li>\n</ul>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.en-perks.Item.7heg2KN3JXIllHT2]{Who Can Stop the Unstoppable Grog-Na-Rok?!}</p></section>",
+    "effect": "<p>Spend 2 Luck points to avoid all damage from an attack from a Mutated Human (including Ghouls and super mutants)</p>",
+    "favorite": false,
+    "publication": "Unstopables",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "8nJBGtcrUsO2hUDG",
+  "_key": "!items!8nJBGtcrUsO2hUDG",
+  "effects": [],
+  "folder": "Yz1YYU8QjGg1Lrdb",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Meeting People.webp",
+  "name": "Faire des rencontres",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un manuel de base sur les interactions sociales, pour ceux qui manquent d’aisance avec les autres.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez les ignorer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.tKQ4oQiQxWoM10p6]{Faire des rencontres}</p></section>",
+    "effect": "<p>Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez les ignorer.</p>",
+    "favorite": false,
+    "publication": "Faire des rencontres",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "8nJBGtcrUsO2hUDG",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

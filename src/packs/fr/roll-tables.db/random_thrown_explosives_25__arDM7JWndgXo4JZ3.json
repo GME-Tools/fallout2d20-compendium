@@ -1,0 +1,14 @@
+{
+  "_id": "arDM7JWndgXo4JZ3",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.arDM7JWndgXo4JZ3",
+  "name": "2+1 DC Grenade rondes",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.vXTMQj76ShuwQXkd]{2+1 DC Grenade rondes}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    26,
+    26
+  ],
+  "drawn": false
+}

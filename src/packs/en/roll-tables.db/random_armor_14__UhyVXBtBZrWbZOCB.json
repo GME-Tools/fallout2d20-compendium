@@ -1,0 +1,14 @@
+{
+  "_id": "UhyVXBtBZrWbZOCB",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.UhyVXBtBZrWbZOCB",
+  "name": "Sturdy Metal Armor",
+  "description": "Sturdy Metal Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    15
+  ],
+  "drawn": false
+}

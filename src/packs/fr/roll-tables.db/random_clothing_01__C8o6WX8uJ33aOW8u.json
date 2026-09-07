@@ -1,0 +1,14 @@
+{
+  "_id": "C8o6WX8uJ33aOW8u",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.C8o6WX8uJ33aOW8u",
+  "name": "Treillis de la Confrérie de l’Acier",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.jnjGlz8wOI3b2brm]{Treillis de la Confrérie de l’Acier}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    2,
+    2
+  ],
+  "drawn": false
+}

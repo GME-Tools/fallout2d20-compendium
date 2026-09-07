@@ -1,0 +1,14 @@
+{
+  "_id": "L8BkafBcOLv30RRh",
+  "_key": "!tables.results!SiDrc8mDcvwE699p.L8BkafBcOLv30RRh",
+  "name": "Piégé dans la dimension des pterreurdactyles !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.IgqLkMbelsAnYC9q]{Piégé dans la dimension des pterreurdactyles !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    16
+  ],
+  "drawn": false
+}

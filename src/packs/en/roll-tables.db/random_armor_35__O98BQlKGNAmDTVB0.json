@@ -1,0 +1,14 @@
+{
+  "_id": "O98BQlKGNAmDTVB0",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.O98BQlKGNAmDTVB0",
+  "name": "Power Armor Frame",
+  "description": "Power Armor Frame",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

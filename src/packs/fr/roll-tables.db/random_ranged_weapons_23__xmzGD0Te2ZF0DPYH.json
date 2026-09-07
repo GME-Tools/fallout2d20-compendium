@@ -1,0 +1,14 @@
+{
+  "_id": "xmzGD0Te2ZF0DPYH",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.xmzGD0Te2ZF0DPYH",
+  "name": "Fusil à verrou de fortune (Canon long, Crosse standard)",
+  "description": "Fusil à verrou de fortune (Canon long, Crosse standard)",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    24,
+    24
+  ],
+  "drawn": false
+}

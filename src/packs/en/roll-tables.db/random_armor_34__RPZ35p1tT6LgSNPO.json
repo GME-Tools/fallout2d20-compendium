@@ -1,0 +1,14 @@
+{
+  "_id": "RPZ35p1tT6LgSNPO",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.RPZ35p1tT6LgSNPO",
+  "name": "Sturdy Raider Armor",
+  "description": "Sturdy Raider Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    35,
+    35
+  ],
+  "drawn": false
+}

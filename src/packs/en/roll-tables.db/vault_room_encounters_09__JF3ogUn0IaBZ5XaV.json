@@ -1,0 +1,14 @@
+{
+  "_id": "JF3ogUn0IaBZ5XaV",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.JF3ogUn0IaBZ5XaV",
+  "name": "Ghoul Pack",
+  "description": "2-4 feral ghouls attack. On 1d20, a 1-4 adds a roamer or Reaver.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    18,
+    19
+  ],
+  "drawn": false
+}

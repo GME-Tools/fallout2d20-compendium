@@ -1,0 +1,71 @@
+{
+  "_id": "zQpZJuiwAC8Zk9a0",
+  "_key": "!items!zQpZJuiwAC8Zk9a0",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Fortune Finder.webp",
+  "name": "Dénicheur de trésors",
+  "system": {
+    "description": "<p>Rangs : 3 Prérequis : CHA 5, niveau 2+ Chaque fois que vous lancez les dés pour savoir combien d’argent vous trouvez, vous en trouvez plus. Au rang 1, vous trouvez +3 @fos[DC] supplémentaires de capsules. Au rang 2, vous trouvez +6 @fos[DC] supplémentaires de capsules. Enfin, au rang 3, vous trouvez +10 @fos[DC] supplémentaires de capsules. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 3,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 5
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 2,
+      "levelIncrease": 4,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "zQpZJuiwAC8Zk9a0",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

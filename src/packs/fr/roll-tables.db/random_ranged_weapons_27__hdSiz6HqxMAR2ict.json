@@ -1,0 +1,14 @@
+{
+  "_id": "hdSiz6HqxMAR2ict",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.hdSiz6HqxMAR2ict",
+  "name": "Carabine de combat",
+  "description": "Carabine de combat",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    28,
+    28
+  ],
+  "drawn": false
+}

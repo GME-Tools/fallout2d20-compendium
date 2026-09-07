@@ -1,0 +1,14 @@
+{
+  "_id": "qsP02W0DiGtzuie9",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.qsP02W0DiGtzuie9",
+  "name": "Board",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.CKolMtDxOzC8QdSD]{Board}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    21,
+    21
+  ],
+  "drawn": false
+}

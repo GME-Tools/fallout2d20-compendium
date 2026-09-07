@@ -1,0 +1,57 @@
+{
+  "_id": "BDGcAACYaQF0qXxX",
+  "_key": "!items!BDGcAACYaQF0qXxX",
+  "effects": [],
+  "folder": "SgneXaUay7Pkys52",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy.webp",
+  "name": "Blindage standard",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": 0,
+    "cost": 0,
+    "description": "<p>Le blindage d’usine installé sur tous les modèles Mister Handy neufs. Il ne coûte rien, car la plupart des personnages Mister Handy commencent avec celui-ci.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": true,
+      "head": true,
+      "legL": true,
+      "legR": true,
+      "torso": true
+    },
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "BDGcAACYaQF0qXxX",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Standard Plating"
+      }
+    }
+  }
+}

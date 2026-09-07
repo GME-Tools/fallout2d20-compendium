@@ -1,0 +1,43 @@
+{
+  "_id": "ouvM5DNPcc9nqgIw",
+  "_key": "!items!ouvM5DNPcc9nqgIw",
+  "effects": [],
+  "folder": "u8hGyjsUyuO3xszc",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/FH 5-07 Getting the Drop on the Communists.webp",
+  "name": "FH 5-07 Faire tomber les communistes",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Une fois, quand un ennemi vise avant de vous attaquer, vous pouvez lui faire perdre les bénéfices de la visée.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.5rxzpSKhciVgbmzP]{FH 5-07 Faire tomber les communistes}</p></section>",
+    "effect": "<p>Une fois, quand un ennemi vise avant de vous attaquer, vous pouvez lui faire perdre les bénéfices de la visée.</p>",
+    "favorite": false,
+    "publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ouvM5DNPcc9nqgIw",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

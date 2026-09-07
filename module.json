@@ -1,135 +1,530 @@
 {
-    "id": "fallout2d20-compendium",
-    "title": "Fallout 2d20 Compendium",
-    "description": "Compendium data for use with Fallout 2d20 system.",
-    "version": "0.0.9",
-    "authors": [
-        {
-            "name": "GME-Tools"
+  "id": "fallout2d20-compendium",
+  "title": "Fallout 2d20 Compendium",
+  "description": "Bilingual English and French compendium for Fallout 2d20. Version 1 covers the complete Core Rulebook with current errata.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "GME-Tools"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "fallout",
+        "type": "system",
+        "compatibility": {
+          "minimum": "11.17.1"
         }
-    ],
-    "compatibility": {
-        "minimum": "10",
-        "verified": "10.291"
+      }
+    ]
+  },
+  "url": "https://github.com/GME-Tools/fallout2d20-compendium",
+  "manifest": "https://github.com/GME-Tools/fallout2d20-compendium/releases/latest/download/module.json",
+  "download": "https://github.com/GME-Tools/fallout2d20-compendium/releases/latest/download/fallout2d20-compendium.zip",
+  "esmodules": [
+    "runtime/fallout-v14-compat.mjs"
+  ],
+  "packs": [
+    {
+      "name": "en-skills",
+      "label": "EN - Skills",
+      "path": "packs-v14/en-skills",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
-    "packs": [
-        {
-            "label": "Perks",
-            "type": "Item",
-            "name": "perks",
-            "path": "./packs/perks.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Ammunition",
-            "type": "Item",
-            "name": "ammunition",
-            "path": "./packs/ammunition.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Weapons",
-            "type": "Item",
-            "name": "weapons",
-            "path": "./packs/weapons.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Weapon Mods",
-            "type": "Item",
-            "name": "weapon-mods",
-            "path": "./packs/weapon-mods.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Apparel",
-            "type": "Item",
-            "name": "apparel",
-            "path": "./packs/apparel.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Apparel Mods",
-            "type": "Item",
-            "name": "apparel-mods",
-            "path": "packs/apparel-mods.db",
-            "system": "./fallout"
-        },
-        {
-            "label": "Traits",
-            "type": "Item",
-            "name": "traits",
-            "path": "./packs/traits.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Robot Armor",
-            "type": "Item",
-            "name": "robot-armor",
-            "path": "./packs/robot-armor.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Robot Modules",
-            "type": "Item",
-            "name": "robot-modules",
-            "path": "./packs/robot-modules.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Consumables",
-            "type": "Item",
-            "name": "consumables",
-            "path": "./packs/consumables.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Books and Magazines",
-            "type": "Item",
-            "name": "books-and-magazines",
-            "path": "./packs/books-and-magazines.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Tools and Utility Items",
-            "type": "Item",
-            "name": "tools-and-utility-items",
-            "path": "./packs/tools-and-utility-items.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Creatures",
-            "type": "Actor",
-            "name": "creatures",
-            "path": "./packs/creatures.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Creature Abilities",
-            "type": "Item",
-            "name": "creature-abilities",
-            "path": "./packs/creature-abilities.db",
-            "system": "fallout"
-        },
-        {
-            "label": "Rules",
-            "type": "JournalEntry",
-            "name": "fallout-rules",
-            "path": "./packs/rules.db",
-            "system": "fallout"
-        }
-    ],
-    "relationships": {
-        "systems": [
-            { "id": "fallout" }
-        ],
-        "requires": [
-            { "id": "babele" },
-            { "id": "fallout-fr" }
-        ]
+    {
+      "name": "en-traits",
+      "label": "EN - Traits",
+      "path": "packs-v14/en-traits",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
-    "esmodules": ["scripts/register-babele.js"],
-    "url": "https://github.com/GME-Tools/fallout2d20-compendium",
-    "manifest": "https://raw.githubusercontent.com/GME-Tools/fallout2d20-compendium/main/module.json",
-    "download": "https://github.com/GME-Tools/fallout2d20-compendium/archive/refs/heads/main.zip"
+    {
+      "name": "en-perks",
+      "label": "EN - Perks",
+      "path": "packs-v14/en-perks",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-ammunition",
+      "label": "EN - Ammunition",
+      "path": "packs-v14/en-ammunition",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-weapons",
+      "label": "EN - Weapons",
+      "path": "packs-v14/en-weapons",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-weapon-mods",
+      "label": "EN - Weapon Mods",
+      "path": "packs-v14/en-weapon-mods",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-apparel",
+      "label": "EN - Apparel",
+      "path": "packs-v14/en-apparel",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-apparel-mods",
+      "label": "EN - Apparel Mods",
+      "path": "packs-v14/en-apparel-mods",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-robot-armor",
+      "label": "EN - Robot Armor",
+      "path": "packs-v14/en-robot-armor",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-robot-modules",
+      "label": "EN - Robot Modules",
+      "path": "packs-v14/en-robot-modules",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-consumables",
+      "label": "EN - Consumables",
+      "path": "packs-v14/en-consumables",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-addictions",
+      "label": "EN - Addictions",
+      "path": "packs-v14/en-addictions",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-diseases",
+      "label": "EN - Diseases",
+      "path": "packs-v14/en-diseases",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-books-and-magazines",
+      "label": "EN - Books and Magazines",
+      "path": "packs-v14/en-books-and-magazines",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-miscellany",
+      "label": "EN - Miscellany",
+      "path": "packs-v14/en-miscellany",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-crafting-stations",
+      "label": "EN - Crafting Stations",
+      "path": "packs-v14/en-crafting-stations",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-creature-abilities",
+      "label": "EN - Creature Abilities",
+      "path": "packs-v14/en-creature-abilities",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-creatures",
+      "label": "EN - Creatures",
+      "path": "packs-v14/en-creatures",
+      "type": "Actor",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-npcs",
+      "label": "EN - NPCs",
+      "path": "packs-v14/en-npcs",
+      "type": "Actor",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "en-roll-tables",
+      "label": "EN - Roll Tables",
+      "path": "packs-v14/en-roll-tables",
+      "type": "RollTable",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-skills",
+      "label": "FR - Compétences",
+      "path": "packs-v14/fr-skills",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-traits",
+      "label": "FR - Traits",
+      "path": "packs-v14/fr-traits",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-perks",
+      "label": "FR - Aptitudes",
+      "path": "packs-v14/fr-perks",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-ammunition",
+      "label": "FR - Munitions",
+      "path": "packs-v14/fr-ammunition",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-weapons",
+      "label": "FR - Armes",
+      "path": "packs-v14/fr-weapons",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-weapon-mods",
+      "label": "FR - Mods d'armes",
+      "path": "packs-v14/fr-weapon-mods",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-apparel",
+      "label": "FR - Tenues et armures",
+      "path": "packs-v14/fr-apparel",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-apparel-mods",
+      "label": "FR - Mods de tenues et armures",
+      "path": "packs-v14/fr-apparel-mods",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-robot-armor",
+      "label": "FR - Blindages de robot",
+      "path": "packs-v14/fr-robot-armor",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-robot-modules",
+      "label": "FR - Modules de robot",
+      "path": "packs-v14/fr-robot-modules",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-consumables",
+      "label": "FR - Consommables",
+      "path": "packs-v14/fr-consumables",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-addictions",
+      "label": "FR - Addictions",
+      "path": "packs-v14/fr-addictions",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-diseases",
+      "label": "FR - Maladies",
+      "path": "packs-v14/fr-diseases",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-books-and-magazines",
+      "label": "FR - Livres et magazines",
+      "path": "packs-v14/fr-books-and-magazines",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-miscellany",
+      "label": "FR - Objets divers",
+      "path": "packs-v14/fr-miscellany",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-crafting-stations",
+      "label": "FR - Établis de fabrication",
+      "path": "packs-v14/fr-crafting-stations",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-creature-abilities",
+      "label": "FR - Capacités de créature",
+      "path": "packs-v14/fr-creature-abilities",
+      "type": "Item",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-creatures",
+      "label": "FR - Créatures",
+      "path": "packs-v14/fr-creatures",
+      "type": "Actor",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-npcs",
+      "label": "FR - PNJ",
+      "path": "packs-v14/fr-npcs",
+      "type": "Actor",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fr-roll-tables",
+      "label": "FR - Tables aléatoires",
+      "path": "packs-v14/fr-roll-tables",
+      "type": "RollTable",
+      "system": "fallout",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Fallout 2d20 - English",
+      "sorting": "a",
+      "color": "#293f5f",
+      "packs": [
+        "en-skills",
+        "en-traits",
+        "en-perks",
+        "en-ammunition",
+        "en-weapons",
+        "en-weapon-mods",
+        "en-apparel",
+        "en-apparel-mods",
+        "en-robot-armor",
+        "en-robot-modules",
+        "en-consumables",
+        "en-addictions",
+        "en-diseases",
+        "en-books-and-magazines",
+        "en-miscellany",
+        "en-crafting-stations",
+        "en-creature-abilities",
+        "en-creatures",
+        "en-npcs",
+        "en-roll-tables"
+      ]
+    },
+    {
+      "name": "Fallout 2d20 - Français",
+      "sorting": "a",
+      "color": "#c9a227",
+      "packs": [
+        "fr-skills",
+        "fr-traits",
+        "fr-perks",
+        "fr-ammunition",
+        "fr-weapons",
+        "fr-weapon-mods",
+        "fr-apparel",
+        "fr-apparel-mods",
+        "fr-robot-armor",
+        "fr-robot-modules",
+        "fr-consumables",
+        "fr-addictions",
+        "fr-diseases",
+        "fr-books-and-magazines",
+        "fr-miscellany",
+        "fr-crafting-stations",
+        "fr-creature-abilities",
+        "fr-creatures",
+        "fr-npcs",
+        "fr-roll-tables"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,14 @@
+{
+  "_id": "20BxM47aTFm0v6J0",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.20BxM47aTFm0v6J0",
+  "name": "Pages d’une histoire non terminée",
+  "description": "Pages d’une histoire non terminée",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    17
+  ],
+  "drawn": false
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "8fvlLrbWjODf6BCe",
+  "_key": "!items!8fvlLrbWjODf6BCe",
+  "effects": [],
+  "folder": "0sZTfWE1J7mKvvnK",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Plaquage de plomb",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 10,
+    "description": "<p>Cette modification s’installe avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Helm, Arms, Legs",
+    "modType": "plating",
+    "perks": "Armorer 1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 2
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 2
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "8fvlLrbWjODf6BCe",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "plating",
+        "complexity": 3,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 1"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

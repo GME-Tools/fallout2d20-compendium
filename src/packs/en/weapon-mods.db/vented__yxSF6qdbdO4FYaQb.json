@@ -1,0 +1,243 @@
+{
+  "_id": "yxSF6qdbdO4FYaQb",
+  "_key": "!items!yxSF6qdbdO4FYaQb",
+  "effects": [],
+  "folder": "FyM7apyr7UNUi2nF",
+  "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+  "name": "Vented",
+  "system": {
+    "attachable": true,
+    "attached": false,
+    "cost": 36,
+    "description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Crafting recipe - @UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftWeaponBench1]{Weapons Workbench}</h3><article><h4>smallGuns - barrel</h4><dl><dt>Complexity</dt><dd>6</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.Ba5yPRdNAvjM5StI]{Gun Nut} 4</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h5>Materials</h5><ul><li>Common Materials ×7</li><li>Uncommon Materials ×5</li><li>Rare Materials ×3</li></ul></article></section>",
+    "favorite": false,
+    "modEffects": {
+      "ammo": "",
+      "ammoPerShot": 0,
+      "damage": {
+        "damageEffect": {
+          "arc": {
+            "rank": 0,
+            "value": 0
+          },
+          "breaking": {
+            "rank": 0,
+            "value": 0
+          },
+          "burst": {
+            "rank": 0,
+            "value": 0
+          },
+          "freeze": {
+            "rank": 0,
+            "value": 0
+          },
+          "persistent": {
+            "rank": 0,
+            "value": 0
+          },
+          "piercing_x": {
+            "rank": 0,
+            "value": 0
+          },
+          "radioactive": {
+            "rank": 0,
+            "value": 0
+          },
+          "spread": {
+            "rank": 0,
+            "value": 0
+          },
+          "stun": {
+            "rank": 0,
+            "value": 0
+          },
+          "tranquilize_x": {
+            "rank": 0,
+            "value": 0
+          },
+          "vicious": {
+            "rank": 0,
+            "value": 0
+          }
+        },
+        "damageType": {
+          "energy": false,
+          "physical": false,
+          "poison": false,
+          "radiation": false
+        },
+        "overrideDamage": "modify",
+        "rating": 0,
+        "weaponQuality": {
+          "accurate": {
+            "rank": 0,
+            "value": 0
+          },
+          "ammo_hungry_x": {
+            "rank": 0,
+            "value": 0
+          },
+          "aquatic": {
+            "rank": 0,
+            "value": 0
+          },
+          "blast": {
+            "rank": 0,
+            "value": 0
+          },
+          "bombard": {
+            "rank": 0,
+            "value": 0
+          },
+          "close_quarters": {
+            "rank": 0,
+            "value": 0
+          },
+          "concealed": {
+            "rank": 0,
+            "value": 0
+          },
+          "debilitating": {
+            "rank": 0,
+            "value": 0
+          },
+          "delay_x": {
+            "rank": 0,
+            "value": 0
+          },
+          "fuel_x": {
+            "rank": 1,
+            "value": 0
+          },
+          "gatling": {
+            "rank": 0,
+            "value": 0
+          },
+          "inaccurate": {
+            "rank": 0,
+            "value": 0
+          },
+          "limited": {
+            "rank": 0,
+            "value": 0
+          },
+          "mine": {
+            "rank": 0,
+            "value": 0
+          },
+          "night_vision": {
+            "rank": 0,
+            "value": 0
+          },
+          "parry": {
+            "rank": 0,
+            "value": 0
+          },
+          "placed": {
+            "rank": 0,
+            "value": 0
+          },
+          "recoil_x": {
+            "rank": 0,
+            "value": 0
+          },
+          "recon": {
+            "rank": 0,
+            "value": 0
+          },
+          "reliable": {
+            "rank": 0,
+            "value": 1
+          },
+          "slow_load": {
+            "rank": 0,
+            "value": 0
+          },
+          "suppressed": {
+            "rank": 0,
+            "value": 0
+          },
+          "surge": {
+            "rank": 0,
+            "value": 0
+          },
+          "thrown": {
+            "rank": 0,
+            "value": 0
+          },
+          "two_handed": {
+            "rank": 0,
+            "value": 0
+          },
+          "unreliable": {
+            "rank": 0,
+            "value": -1
+          },
+          "unstable_radiation": {
+            "rank": 0,
+            "value": 0
+          },
+          "wrangle": {
+            "rank": 0,
+            "value": 0
+          }
+        }
+      },
+      "damageEffect": "",
+      "damageRating": 0,
+      "effect": "",
+      "fireRate": 1,
+      "info": "",
+      "range": 1,
+      "summary": ""
+    },
+    "modType": "barrel",
+    "namePrefix": "Vented",
+    "perks": "Gun Nut 4",
+    "qualities": "",
+    "quantity": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weaponType": "smallGuns",
+    "weight": 1
+  },
+  "type": "weapon_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "weaponModRecipes": [
+        {
+          "key": "smallGuns/barrel/Vented",
+          "source": "core_rulebook",
+          "page": 222,
+          "station": "weapons",
+          "family": "smallGuns",
+          "group": "barrel",
+          "complexity": 6,
+          "skill": "Repair",
+          "perks": [
+            "Gun Nut 4"
+          ],
+          "rarity": "uncommon",
+          "materials": {
+            "common": 7,
+            "uncommon": 5,
+            "rare": 3
+          },
+          "resolution": "family-name",
+          "candidates": 1
+        }
+      ]
+    }
+  }
+}

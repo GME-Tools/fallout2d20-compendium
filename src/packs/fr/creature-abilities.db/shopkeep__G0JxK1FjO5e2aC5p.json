@@ -1,0 +1,38 @@
+{
+  "name": "Bien achalandé",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "G0JxK1FjO5e2aC5p",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "G0JxK1FjO5e2aC5p",
+  "system": {
+    "description": "<p>Le marchand est accompagné d’un brahmine de bât ou tient une boutique. Il possède 6d20 capsules disponibles pour le commerce. Le MJ détermine les marchandises proposées.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!G0JxK1FjO5e2aC5p"
+}

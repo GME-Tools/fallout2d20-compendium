@@ -1,0 +1,51 @@
+{
+  "_id": "6Y5Gv5LAizj0KDUw",
+  "_key": "!items!6Y5Gv5LAizj0KDUw",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Pork n' Beans.webp",
+  "name": "Pork 'n' Beans",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 10,
+    "description": "<p>Une boîte contenant un repas complet : haricots mijotés dans une sauce tomate avec des morceaux de poitrine de porc salée. Malgré la rouille et l’étiquette abîmée, le contenu reste comestible, surtout réchauffé.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 4,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "6Y5Gv5LAizj0KDUw",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

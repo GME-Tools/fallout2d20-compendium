@@ -1,0 +1,71 @@
+{
+  "_id": "TzAVKNEtdWWgfx4u",
+  "_key": "!items!TzAVKNEtdWWgfx4u",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Pain Train.webp",
+  "name": "Locomotive",
+  "system": {
+    "description": "<p>Rangs : 2 Prérequis : FOR 9, END 7, niveau 1+ Au prix d’une action capitale, vous pouvez charger si vous portez une armure assistée ou êtes un super mutant. Il s’agit d’une action de déplacement et vous ne pouvez pas vous déplacer ou sprinter au cours du même tour. Lorsque vous entreprenez cette action, vous vous placez à portée de main d’un ennemi situé à portée moyenne (1 zone) ou inférieure, puis effectuez un test de FOR + Athlétisme de difficulté 2. En cas de réussite, votre ennemi subit vos dégâts à mains nues normaux et vous le renversez. Au rang 2, ajoutez +1 et l’effet de dégâts Étourdissant aux dégâts infligés. À la discrétion du MJ, des créatures particulièrement massives ou robustes peuvent ne pas être renversées par cette action. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 2,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 7
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 9
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 5,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "TzAVKNEtdWWgfx4u",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

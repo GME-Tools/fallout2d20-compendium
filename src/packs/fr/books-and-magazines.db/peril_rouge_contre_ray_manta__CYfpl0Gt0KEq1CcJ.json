@@ -1,0 +1,43 @@
+{
+  "_id": "CYfpl0Gt0KEq1CcJ",
+  "_key": "!items!CYfpl0Gt0KEq1CcJ",
+  "effects": [],
+  "folder": "oaZmiRTFAVRizbVN",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Commie-Kazi vs Manta Man.webp",
+  "name": "Péril Rouge contre Ray Manta",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.</p><p><strong>Aptitude :</strong> Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une arme à Zone d’impact.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.qItV5QGk0sN0md6p]{Péril Rouge contre Ray Manta}</p></section>",
+    "effect": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une arme à Zone d’impact.</p>",
+    "favorite": false,
+    "publication": "Les Increvables",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "CYfpl0Gt0KEq1CcJ",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

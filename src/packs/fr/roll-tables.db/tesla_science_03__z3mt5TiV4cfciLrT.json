@@ -1,0 +1,14 @@
+{
+  "_id": "z3mt5TiV4cfciLrT",
+  "_key": "!tables.results!eVG1ynZ312G42zbE.z3mt5TiV4cfciLrT",
+  "name": "La science, c’est pas sorcier !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.Xh4PnVNi5xJrCtZr]{La science, c’est pas sorcier !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    6
+  ],
+  "drawn": false
+}

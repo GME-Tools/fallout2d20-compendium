@@ -1,0 +1,14 @@
+{
+  "_id": "51dgquSieZRkQUgJ",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.51dgquSieZRkQUgJ",
+  "name": "Formal Hat",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.WeHTP6Gw6Sr6HN8N]{Formal Hat}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    37,
+    37
+  ],
+  "drawn": false
+}

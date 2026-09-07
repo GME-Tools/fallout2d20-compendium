@@ -1,0 +1,43 @@
+{
+  "_id": "9UgvihjW0x2I5vn9",
+  "_key": "!items!9UgvihjW0x2I5vn9",
+  "effects": [],
+  "folder": "UPNJfveU9QazZ1vO",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/In the Bosom of the Corsair Queen.webp",
+  "name": "Les charmes de la reine corsaire Queen",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Une attaque de corps à corps réussie que vous portez inflige automatiquement un coup critique.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.bzXcVbZZtHhGCcOs]{Les charmes de la reine corsaire Queen}</p></section>",
+    "effect": "<p>Une attaque de corps à corps réussie que vous portez inflige automatiquement un coup critique.</p>",
+    "favorite": false,
+    "publication": "Grognak le Barbare",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "9UgvihjW0x2I5vn9",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

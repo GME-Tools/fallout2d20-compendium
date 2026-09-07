@@ -1,0 +1,52 @@
+{
+  "_id": "MN5XQI0NJPPPlmsj",
+  "_key": "!items!MN5XQI0NJPPPlmsj",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Rad-X.webp",
+  "name": "Rad-X",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 40,
+    "description": "<p>Médicament préventif destiné à ceux qui vont pénétrer dans une zone fortement irradiée. Une dose aide à résister aux radiations, surtout avec d’autres protections. Sa rareté conduit souvent à le diluer : le Rad-X dilué est environ deux fois moins efficace mais plus facile à trouver.</p>",
+    "duration": "lasting",
+    "effect": "<p>+6 à la résistance aux dégâts de radiation.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "MN5XQI0NJPPPlmsj",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

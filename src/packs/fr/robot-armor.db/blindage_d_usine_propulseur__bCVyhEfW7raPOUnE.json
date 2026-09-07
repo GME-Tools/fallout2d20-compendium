@@ -1,0 +1,72 @@
+{
+  "_id": "bCVyhEfW7raPOUnE",
+  "_key": "!items!bCVyhEfW7raPOUnE",
+  "effects": [],
+  "folder": "flViDepzio5SAZsR",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Thrusters.webp",
+  "name": "Blindage d’usine (Propulseur)",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "carry": 0,
+    "cost": 10,
+    "description": "<p>Un ensemble standardisé de plaques de blindage fabriquées en usine et conçu pour s’adapter à n’importe quel modèle de Mister Handy.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "bCVyhEfW7raPOUnE",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Factory Armor (Thruster)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 2,
+        "skill": "Réparation",
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 3,
+          "uncommon": 0,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

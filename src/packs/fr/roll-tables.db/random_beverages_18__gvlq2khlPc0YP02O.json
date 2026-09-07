@@ -1,0 +1,14 @@
+{
+  "_id": "gvlq2khlPc0YP02O",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.gvlq2khlPc0YP02O",
+  "name": "Eau sale",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.smWip05JhGyTXRU1]{Eau sale}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

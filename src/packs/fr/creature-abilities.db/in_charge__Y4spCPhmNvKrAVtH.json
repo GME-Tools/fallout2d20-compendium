@@ -1,0 +1,38 @@
+{
+  "name": "Aux commandes",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Y4spCPhmNvKrAVtH",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "Y4spCPhmNvKrAVtH",
+  "system": {
+    "description": "<p>Un vétéran pillard peut consacrer une action mineure à ordonner à un pillard de niveau inférieur situé à portée Courte d’effectuer immédiatement une action mineure, ou une action majeure à ordonner à un autre pillard d’effectuer immédiatement une action majeure.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!Y4spCPhmNvKrAVtH"
+}

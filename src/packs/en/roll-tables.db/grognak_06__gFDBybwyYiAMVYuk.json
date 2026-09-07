@@ -1,0 +1,14 @@
+{
+  "_id": "gFDBybwyYiAMVYuk",
+  "_key": "!tables.results!95C7laMPQoK9wwZj.gFDBybwyYiAMVYuk",
+  "name": "Enter Maula: War Maiden of Mars",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.n5iAbo8IerJqOQNR]{Enter Maula: War Maiden of Mars}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    12
+  ],
+  "drawn": false
+}

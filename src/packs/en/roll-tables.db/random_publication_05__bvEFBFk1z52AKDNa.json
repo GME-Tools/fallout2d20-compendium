@@ -1,0 +1,14 @@
+{
+  "_id": "bvEFBFk1z52AKDNa",
+  "_key": "!tables.results!MrcHRXzMqh5yK1Kx.bvEFBFk1z52AKDNa",
+  "name": "Duck and Cover!",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.ZTVTUHilc84UzoRP]{Duck and Cover!}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    5
+  ],
+  "drawn": false
+}

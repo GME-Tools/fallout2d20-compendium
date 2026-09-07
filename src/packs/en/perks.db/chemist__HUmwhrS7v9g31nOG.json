@@ -1,0 +1,68 @@
+{
+  "_id": "HUmwhrS7v9g31nOG",
+  "_key": "!items!HUmwhrS7v9g31nOG",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Chemist.webp",
+  "name": "Chemist",
+  "system": {
+    "description": "<p>Chems you create last twice as long as normal (see p.164). In addition, you unlock chems recipes that have this perk as a requirement.</p>\n<p><strong>Requirements</strong>: INT 7</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 7
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "59-73",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

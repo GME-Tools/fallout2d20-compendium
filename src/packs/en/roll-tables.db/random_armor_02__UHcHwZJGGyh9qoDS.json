@@ -1,0 +1,14 @@
+{
+  "_id": "UHcHwZJGGyh9qoDS",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.UHcHwZJGGyh9qoDS",
+  "name": "X-01 Power Armor Piece",
+  "description": "X-01 Power Armor Piece",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

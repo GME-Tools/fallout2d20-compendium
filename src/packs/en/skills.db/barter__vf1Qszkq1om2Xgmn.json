@@ -1,0 +1,33 @@
+{
+  "_id": "vf1Qszkq1om2Xgmn",
+  "_key": "!items!vf1Qszkq1om2Xgmn",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Barter.png",
+  "name": "Barter",
+  "system": {
+    "defaultAttribute": "cha",
+    "description": "<p>Barter describes your skill with money: how savvy you are with your wealth, how easily you can make deals, or how easily you can negotiate someone down on price.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Charisma</strong> but could also be used with Perception to see how willing someone might be to change their demands, or Intelligence to know the true caps value of something. You might use Barter trying to buy or sell items, or negotiate the cost of a service.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

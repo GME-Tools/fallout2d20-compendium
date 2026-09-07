@@ -1,0 +1,71 @@
+{
+  "_id": "Vk0RIc9X6HaypmwJ",
+  "_key": "!items!Vk0RIc9X6HaypmwJ",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Entomologist.webp",
+  "name": "Entomologiste",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : INT 7 Les attaques que vous effectuez contre les personnages dont le profil affiche le mot-clef Insecte obtiennent l’effet de dégâts Perforant 1. Si elles bénéficient déjà de cet effet, la valeur de ce dernier augmente de 1.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 7
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "Vk0RIc9X6HaypmwJ",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

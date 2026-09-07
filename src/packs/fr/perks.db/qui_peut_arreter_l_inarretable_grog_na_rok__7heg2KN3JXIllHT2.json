@@ -1,0 +1,73 @@
+{
+  "_id": "7heg2KN3JXIllHT2",
+  "_key": "!items!7heg2KN3JXIllHT2",
+  "effects": [],
+  "folder": "y6eI37QhWZMaqeyZ",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Who Can Stop the Unstoppable GrogNaRok.webp",
+  "name": "Qui peut arrêter l’inarrêtable Grog-Na-Rok ?!",
+  "system": {
+    "description": "<p>Vous pouvez dépenser 2 points de Chance pour éviter tous les dégâts d’une attaque portée par un Humain Mutant, y compris une goule ou un super mutant.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [
+        "Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.xBhJROt39tupLIhb"
+      ],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "structuralBaseline": false,
+        "translationReviewed": true,
+        "uuidLinksReviewed": true,
+        "magazineAutomationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated Core magazine"
+      }
+    }
+  }
+}

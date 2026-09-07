@@ -1,0 +1,14 @@
+{
+  "_id": "50innCE0osEMnhMq",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.50innCE0osEMnhMq",
+  "name": "Medal",
+  "description": "Medal",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    5
+  ],
+  "drawn": false
+}

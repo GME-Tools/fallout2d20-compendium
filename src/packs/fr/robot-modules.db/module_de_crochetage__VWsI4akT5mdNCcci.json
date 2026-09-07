@@ -1,0 +1,57 @@
+{
+  "_id": "VWsI4akT5mdNCcci",
+  "_key": "!items!VWsI4akT5mdNCcci",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Module de crochetage",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 5,
+    "description": "<p>En plus d’un catalogue de mécanismes de verrouillage, de leurs faiblesses et de leurs configurations connues, ce module équipe une pince manipulatrice d’outils de serrurier dissimulés sur un support articulé. Le robot peut ainsi crocheter des serrures sans manipuler directement ses outils.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "effect": "<p>Réduisez de 1 la difficulté des tests de Crochetage (minimum 0). Le robot n’a pas besoin d’épingles à cheveux ni d’autres outils de crochetage.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "",
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": -5
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "VWsI4akT5mdNCcci",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "modules",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

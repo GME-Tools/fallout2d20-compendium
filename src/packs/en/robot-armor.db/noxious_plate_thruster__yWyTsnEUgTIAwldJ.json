@@ -1,0 +1,70 @@
+{
+  "_id": "yWyTsnEUgTIAwldJ",
+  "_key": "!items!yWyTsnEUgTIAwldJ",
+  "effects": [],
+  "folder": "EuwJBny4aaF8eMIv",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Thrusters.webp",
+  "name": "Noxious Plate (Thruster)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": -10,
+    "cost": 15,
+    "description": "<p>Makeshift armor coated in toxic materials which are hazardous to the health of any who seeks to inflict harm upon the robot or its companions.</p>\n<p><strong>Special:</strong> When a melee attack is made against a location fitted with noxious plate, and the attacker suffers a complication, then the attacker suffers 2 @fos[DC] Persistent (Poison) damage. In addition, melee attacks made using arms fitted with serrated plate gain the Persistent (Poison) damage effect.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.EQjZHUxYinodOU6G]{Armorer} 1</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×4</li><li>Uncommon Materials ×2</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "Armorer 1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Noxious Plate (Thruster)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 3,
+        "skill": "Repair",
+        "perks": [
+          "Armorer 1"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

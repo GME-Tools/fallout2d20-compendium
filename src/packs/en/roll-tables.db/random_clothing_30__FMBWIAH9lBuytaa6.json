@@ -1,0 +1,14 @@
+{
+  "_id": "FMBWIAH9lBuytaa6",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.FMBWIAH9lBuytaa6",
+  "name": "Utility Overalls",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.3UDbwGcAdrC2eEvd]{Utility Overalls}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    31,
+    31
+  ],
+  "drawn": false
+}

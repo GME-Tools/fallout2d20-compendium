@@ -1,0 +1,69 @@
+{
+  "_id": "RuledpduIJ0kiNAN",
+  "_key": "!items!RuledpduIJ0kiNAN",
+  "effects": [],
+  "folder": "DagwwzOUnltpJ4eB",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Vault-Tec Security Helmet.webp",
+  "name": "Vault-Tec Security Helmet",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 20,
+    "description": "<p><span class=\"fontstyle0\">Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn&rsquo;t especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside.</span> </p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": true,
+      "legL": false,
+      "legR": false,
+      "torso": false
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": false,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 1,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 2
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

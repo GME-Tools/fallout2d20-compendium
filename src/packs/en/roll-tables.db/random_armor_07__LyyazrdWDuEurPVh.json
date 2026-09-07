@@ -1,0 +1,14 @@
+{
+  "_id": "LyyazrdWDuEurPVh",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.LyyazrdWDuEurPVh",
+  "name": "T-60 Power Armor Piece",
+  "description": "T-60 Power Armor Piece",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "GWtYqGWu6nd1kX7g",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.GWtYqGWu6nd1kX7g",
+  "name": "Beware the Man Handler",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.hCRQEWSkpgvFluXe]{Beware the Man Handler}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    14
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "IFM1wFALSmrxvTNh",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.IFM1wFALSmrxvTNh",
+  "name": "Weeping Sores",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-diseases.Item.XNwJyuhYCbo5arhU]{Weeping Sores}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

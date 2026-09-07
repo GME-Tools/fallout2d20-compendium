@@ -1,0 +1,14 @@
+{
+  "_id": "o99FVFwWPV9ptG43",
+  "_key": "!tables.results!sa66QXOwlO8515AT.o99FVFwWPV9ptG43",
+  "name": "Mini-bombe nucléaire (1+1 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.gpthlPtWrerYP7Kn]{Mini-bombe nucléaire (1+1 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    39,
+    39
+  ],
+  "drawn": false
+}

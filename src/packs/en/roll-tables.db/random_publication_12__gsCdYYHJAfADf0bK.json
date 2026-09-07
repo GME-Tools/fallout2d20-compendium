@@ -1,0 +1,14 @@
+{
+  "_id": "gsCdYYHJAfADf0bK",
+  "_key": "!tables.results!MrcHRXzMqh5yK1Kx.gsCdYYHJAfADf0bK",
+  "name": "Meeting People",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.8nJBGtcrUsO2hUDG]{Meeting People}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    12,
+    12
+  ],
+  "drawn": false
+}

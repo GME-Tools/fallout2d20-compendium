@@ -1,0 +1,14 @@
+{
+  "_id": "d8wJgiGptogs2Peq",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.d8wJgiGptogs2Peq",
+  "name": "1 Plasma Mine",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.AjqE0fT244w92onq]{1 Plasma Mine}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    6,
+    6
+  ],
+  "drawn": false
+}

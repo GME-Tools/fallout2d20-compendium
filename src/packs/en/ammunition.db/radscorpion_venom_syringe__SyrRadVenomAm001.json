@@ -1,0 +1,78 @@
+{
+  "_id": "SyrRadVenomAm001",
+  "_key": "!items!SyrRadVenomAm001",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/Syringer Ammo, Radscorpion Venom.webp",
+  "name": "Radscorpion Venom Syringe",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 65,
+    "description": "<p>The weapon adds +1 CD damage and gains the Persistent (Poison) damage effect.</p><p><strong>Quantity found:</strong> 4+2 DC</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Uncommon Materials ×1</li><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.jDj6bY9Fe5a594FY]{Radscorpion Stinger} ×1</li><li>Common Materials ×1</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "4+2dc",
+    "rarity": 2,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": "",
+    "weight": 0.1
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "page": 117,
+        "errataReviewed": true,
+        "translationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "syringerEffect": {
+        "key": "Radscorpion Venom",
+        "text": "The weapon adds +1 CD damage and gains the Persistent (Poison) damage effect."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 215,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Radscorpion Stinger",
+            "canonicalName": "Radscorpion Stinger",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.jDj6bY9Fe5a594FY"
+          },
+          {
+            "name": "Common Materials",
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  }
+}

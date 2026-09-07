@@ -1,0 +1,48 @@
+{
+  "_id": "jGk6pqXEHojFBnHc",
+  "_key": "!items!jGk6pqXEHojFBnHc",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Radscorpion Egg.webp",
+  "name": "Radscorpion Egg",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 48,
+    "description": "<p><span class=\"fontstyle0\">The egg of a radscorpion. Not easy to get hold of, as they tend to be found in places where there are radscorpions.</span></p>\n<p><span class=\"fontstyle0\">Radscorpion Eggs can be used to make Radscorpion Egg Omelette.</span> </p>",
+    "duration": "",
+    "effect": "<p></p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 6,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

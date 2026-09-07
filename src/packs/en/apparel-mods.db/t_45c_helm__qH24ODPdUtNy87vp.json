@@ -1,0 +1,68 @@
+{
+  "_id": "qH24ODPdUtNy87vp",
+  "_key": "!items!qH24ODPdUtNy87vp",
+  "effects": [],
+  "folder": "U9QdR1SJ8Q85o6wa",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "T-45c Helm",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 6,
+    "description": "\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftPowerArmor01]{Power Armor Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.EQjZHUxYinodOU6G]{Armorer} 2</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 2
+    },
+    "isJunk": false,
+    "location": "Head",
+    "modType": "upgrade",
+    "perks": "1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 1
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 219,
+        "station": "power-armor",
+        "group": "upgrades",
+        "complexity": 4,
+        "skill": "Repair",
+        "perks": [
+          "Armorer 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "UZDBirrZeUxrAk7b",
+  "_key": "!items!UZDBirrZeUxrAk7b",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Small-Guns.png",
+  "name": "Armes légères",
+  "system": {
+    "defaultAttribute": "agi",
+    "description": "<p>La comp&eacute;tence Armes&nbsp;l&eacute;g&egrave;res mesure votre pr&eacute;cision avec les armes &agrave; un&nbsp;coup, les pistolets automatiques, les fusils et les fusils &agrave; pompe,&nbsp;ainsi que vos connaissances pratiques&nbsp;en la mati&egrave;re.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Agilit&eacute;</strong>, mais&nbsp;vous pouvez utiliser Charisme pour tenir quelqu&rsquo;un en&nbsp;respect avec votre arme ou Endurance pour garder votre&nbsp;arme braqu&eacute;e sur votre cible. Employez Armes l&eacute;g&egrave;res&nbsp;pour effectuer une attaque &agrave; distance avec un pistolet,&nbsp;un fusil ou un fusil &agrave; pompe.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "44-46",
+        "translatedFrom": "UZDBirrZeUxrAk7b",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

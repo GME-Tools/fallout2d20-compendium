@@ -1,0 +1,14 @@
+{
+  "_id": "qaxc4yD0Pr3DVIdJ",
+  "_key": "!tables.results!wnSUEULiOZSnr7Zq.qaxc4yD0Pr3DVIdJ",
+  "name": "Empty",
+  "description": "Empty",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    8
+  ],
+  "drawn": false
+}

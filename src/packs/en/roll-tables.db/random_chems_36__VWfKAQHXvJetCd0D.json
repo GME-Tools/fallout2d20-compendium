@@ -1,0 +1,14 @@
+{
+  "_id": "VWfKAQHXvJetCd0D",
+  "_key": "!tables.results!isNdghTYF06GBC0m.VWfKAQHXvJetCd0D",
+  "name": "Antibiotics",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.FyAoifDWRgBOPtMV]{Antibiotics}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    37,
+    37
+  ],
+  "drawn": false
+}

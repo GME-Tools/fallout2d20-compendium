@@ -1,0 +1,33 @@
+{
+  "_id": "kCGaEuF27yXyE04i",
+  "_key": "!items!kCGaEuF27yXyE04i",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Melee-Weapons.png",
+  "name": "Melee Weapons",
+  "system": {
+    "defaultAttribute": "str",
+    "description": "<p>The Melee Weapons skill describes how able you are to inflict damage and deflect blows with one-handed and two-handed melee weapons.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Strength</strong> but you might use Agility to parry a melee attack, or Charisma to threaten someone. You use Melee Weapons to make melee attacks in combat.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

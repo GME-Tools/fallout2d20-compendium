@@ -1,0 +1,72 @@
+{
+  "_id": "YDRoA6dGjWXy06hf",
+  "_key": "!items!YDRoA6dGjWXy06hf",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Grim Reapers Spirit.webp",
+  "name": "Tueur en série",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : CHA 8 Lorsque vous tuez au moins un ennemi avec une attaque, jetez 1 . Si vous obtenez un Effet, ajoutez 2 PA à la réserve du groupe.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 8
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "YDRoA6dGjWXy06hf",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Grim Reaper's Sprint"
+      }
+    }
+  }
+}

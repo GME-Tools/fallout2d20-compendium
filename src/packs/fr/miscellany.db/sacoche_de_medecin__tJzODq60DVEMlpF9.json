@@ -1,0 +1,38 @@
+{
+  "_id": "tJzODq60DVEMlpF9",
+  "_key": "!items!tJzODq60DVEMlpF9",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Doctors Bag.webp",
+  "name": "Sacoche de médecin",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 300,
+    "description": "<p>Un sac bien garni de fournitures médicales et d’instruments utiles à l’art de soigner. Il est encombrant, mais les personnes dont il sauvera la vie vous en remercieront. Une sacoche de médecin peut aussi contenir des fournitures à usage unique comme des Stimpaks, de l’eau purifiée et du RadAway, qui sont comptabilisées et utilisées séparément.</p>",
+    "effect": "<p>Réduit de 1 la difficulté des tests de Médecine (minimum 0). Lors de soins prolongés, permet de prendre en charge deux patients supplémentaires.</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 10
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "tJzODq60DVEMlpF9",
+        "structuralBaseline": true,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

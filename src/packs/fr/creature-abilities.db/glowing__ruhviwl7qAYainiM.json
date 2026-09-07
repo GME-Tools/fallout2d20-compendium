@@ -1,0 +1,38 @@
+{
+  "name": "Luminescent",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ruhviwl7qAYainiM",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "ruhviwl7qAYainiM",
+  "system": {
+    "description": "<p>Cette créature irradie ce qui l’entoure et inflige 2 DC de dégâts de radiation à toute personne à Portée de main. Ses attaques de corps à corps gagnent l’effet de dégâts Radioactif ; si elles le possèdent déjà, elles infligent à la place 2 dégâts de radiation par Effet obtenu.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!ruhviwl7qAYainiM"
+}

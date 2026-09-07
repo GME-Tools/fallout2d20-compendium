@@ -1,0 +1,14 @@
+{
+  "_id": "rGKLYjJRI5VIkaQH",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.rGKLYjJRI5VIkaQH",
+  "name": "Meilleurs amis pour la vie !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.uizbEBbI5Jl1tjeI]{Meilleurs amis pour la vie !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    2
+  ],
+  "drawn": false
+}

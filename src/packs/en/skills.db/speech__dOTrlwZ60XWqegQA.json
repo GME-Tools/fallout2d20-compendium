@@ -1,0 +1,33 @@
+{
+  "_id": "dOTrlwZ60XWqegQA",
+  "_key": "!items!dOTrlwZ60XWqegQA",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Speech.png",
+  "name": "Speech",
+  "system": {
+    "defaultAttribute": "cha",
+    "description": "<p>The Speech skill covers the techniques you&rsquo;ve learned to communicate with other people, convincing them with strong arguments, or lying to them and not getting caught.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Charisma</strong> but you might use it with Intelligence to write a speech, or Perception to figure out how susceptible your mark might be to your lie. You use Speech to convince people of your arguments, inspire others, or convincingly deceive them.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

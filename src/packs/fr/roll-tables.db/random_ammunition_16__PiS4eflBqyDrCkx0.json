@@ -1,0 +1,14 @@
+{
+  "_id": "PiS4eflBqyDrCkx0",
+  "_key": "!tables.results!sa66QXOwlO8515AT.PiS4eflBqyDrCkx0",
+  "name": "Cartouche .45s (9+4 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.VBJiFg5GpSOzyENW]{Cartouche .45s (9+4 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    17
+  ],
+  "drawn": false
+}

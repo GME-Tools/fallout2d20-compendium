@@ -1,0 +1,14 @@
+{
+  "_id": "uo24cLS0GCkcxcfV",
+  "_key": "!tables.results!CqwFiBMsrzOjRI6k.uo24cLS0GCkcxcfV",
+  "name": "Sectateurs des Piliers",
+  "description": "Des fidèles des Piliers de la Communauté tentent de convertir le groupe.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    7
+  ],
+  "drawn": false
+}

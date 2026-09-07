@@ -1,0 +1,40 @@
+{
+  "_id": "ulsqNOiPqfLdHxmK",
+  "name": "Inventory",
+  "type": "miscellany",
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.5jwQMeycCKWDROpB"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Inventory"
+      }
+    }
+  },
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": "0",
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "effect": "<p><span class=\"fontstyle0\">2</span><span class=\"fontstyle1\">CD</span><span class=\"fontstyle1\" style=\"color: #1d4596;\">&nbsp;</span><span class=\"fontstyle0\">junk items can be found on a dead ghoul&rsquo;s body, which can be salvaged as normal.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!ulsqNOiPqfLdHxmK"
+}

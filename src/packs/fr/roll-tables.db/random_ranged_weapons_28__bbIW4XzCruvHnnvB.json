@@ -1,0 +1,14 @@
+{
+  "_id": "bbIW4XzCruvHnnvB",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.bbIW4XzCruvHnnvB",
+  "name": "Scoped Fusil de chasse (Canon long, Lunette courte)",
+  "description": "Scoped Fusil de chasse (Canon long, Lunette courte)",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    29,
+    29
+  ],
+  "drawn": false
+}

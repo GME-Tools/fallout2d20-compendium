@@ -1,0 +1,14 @@
+{
+  "_id": "qXel8tUPz6W6uKW4",
+  "_key": "!tables.results!fVZuL3ahbEKecx8W.qXel8tUPz6W6uKW4",
+  "name": "FH 5-09 Le noir vous va si bien",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.lHCsUY3S6twO3Fjb]{FH 5-09 Le noir vous va si bien}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    18
+  ],
+  "drawn": false
+}

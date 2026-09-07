@@ -1,0 +1,14 @@
+{
+  "_id": "H4JezlowGWMWXWJ5",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.H4JezlowGWMWXWJ5",
+  "name": "Pâte nutritive",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.jpJw3rIHZILDnp9p]{Pâte nutritive}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

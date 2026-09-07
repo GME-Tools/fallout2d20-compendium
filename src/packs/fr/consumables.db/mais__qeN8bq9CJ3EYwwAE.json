@@ -1,0 +1,51 @@
+{
+  "_id": "qeN8bq9CJ3EYwwAE",
+  "_key": "!items!qeN8bq9CJ3EYwwAE",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Corn.webp",
+  "name": "Maïs",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 6,
+    "description": "<p>Culture polyvalente pratiquée depuis des siècles dans les Amériques, le maïs a peu changé et reste un pilier agricole. Cultivé sans radiations, il n’est pas irradié mais sa rareté augmente de +1. Il sert aussi à produire l’amidon végétal utilisé comme adhésif d’artisanat.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "qeN8bq9CJ3EYwwAE",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

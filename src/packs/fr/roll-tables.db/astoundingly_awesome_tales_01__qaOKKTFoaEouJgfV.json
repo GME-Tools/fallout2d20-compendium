@@ -1,0 +1,14 @@
+{
+  "_id": "qaOKKTFoaEouJgfV",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.qaOKKTFoaEouJgfV",
+  "name": "L’assaut des hommes-poisson !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.mT6qkeV6xTG1pnex]{L’assaut des hommes-poisson !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    2
+  ],
+  "drawn": false
+}

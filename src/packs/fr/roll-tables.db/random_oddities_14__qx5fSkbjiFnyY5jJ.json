@@ -1,0 +1,14 @@
+{
+  "_id": "qx5fSkbjiFnyY5jJ",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.qx5fSkbjiFnyY5jJ",
+  "name": "Argent d’avant-guerre worth 4d20 capsules",
+  "description": "Argent d’avant-guerre worth 4d20 capsules",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    16
+  ],
+  "drawn": false
+}

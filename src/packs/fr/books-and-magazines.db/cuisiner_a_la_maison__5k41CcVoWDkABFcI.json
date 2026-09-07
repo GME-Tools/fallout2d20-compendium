@@ -1,0 +1,43 @@
+{
+  "_id": "5k41CcVoWDkABFcI",
+  "_key": "!items!5k41CcVoWDkABFcI",
+  "effects": [],
+  "folder": "uCVhOfIjuXEULM3P",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Down Home Cookin.webp",
+  "name": "Cuisiner à la maison",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Ajoutez +2 DC de dégâts à une attaque avec une arme de Lancer autre qu’un explosif.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.1aIYFwFQGic2zHjK]{Cuisiner à la maison}</p></section>",
+    "effect": "<p>Ajoutez +2 DC de dégâts à une attaque avec une arme de Lancer autre qu’un explosif.</p>",
+    "favorite": false,
+    "publication": "L’Homme des bois",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "5k41CcVoWDkABFcI",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

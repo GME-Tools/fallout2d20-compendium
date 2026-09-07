@@ -1,0 +1,51 @@
+{
+  "_id": "joFpcSrCDtsWQxme",
+  "_key": "!items!joFpcSrCDtsWQxme",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/InstaMash.webp",
+  "name": "InstaMash",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 20,
+    "description": "<p>Un sachet de purée de pommes de terre lyophilisée encore scellé dans sa boîte en carton. Ajoutez simplement de l’eau ! Il existe des boîtes préservées identiques, mais non irradiées et d’une rareté supérieure de +1.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 4,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "joFpcSrCDtsWQxme",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

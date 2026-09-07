@@ -1,0 +1,14 @@
+{
+  "_id": "2dNjdIVxxEc091EH",
+  "_key": "!tables.results!anS2tzaEW0Tct41L.2dNjdIVxxEc091EH",
+  "name": "Take Aim, Army Style",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.yjknvThwoDmQwU3M]{Take Aim, Army Style}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    14
+  ],
+  "drawn": false
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "HEegw2EUmmEzfdDM",
+  "_key": "!items!HEegw2EUmmEzfdDM",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Sneak.png",
+  "name": "Discrétion",
+  "system": {
+    "defaultAttribute": "agi",
+    "description": "<p>La comp&eacute;tence Discr&eacute;tion recouvre&nbsp;le d&eacute;placement furtif et toute tentative de ne pas vous faire remarquer lorsque vous entreprenez une&nbsp;action physique.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Agilit&eacute;</strong>, mais&nbsp;vous pouvez utiliser Perception pour d&eacute;tecter des ennemis en embuscade ou Intelligence pour partir en rep&eacute;rage dans un b&acirc;timent. Employez Discr&eacute;tion pour vous&nbsp;d&eacute;placer en silence ou rester cach&eacute;.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "44-46",
+        "translatedFrom": "HEegw2EUmmEzfdDM",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "CrftWeaponBench1",
+  "_key": "!items!CrftWeaponBench1",
+  "name": "Établi d’armes",
+  "type": "object_or_structure",
+  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "effects": [],
+  "folder": null,
+  "system": {
+    "description": "<p>Un établi d’armes fournit les outils nécessaires pour travailler sur différents types d’armes. Son utilisation fait appel aux compétences Réparation et Science et bénéficie des aptitudes Fana d’armes, Scientifique et Forgeron.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "constructionTime": 0,
+    "effect": "<p>Fournit les outils nécessaires pour travailler sur différents types d’armes.</p>",
+    "itemType": "crafting_table",
+    "materials": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0
+    },
+    "parentItem": "",
+    "perks": "Fana d’armes, Scientifique, Forgeron",
+    "rarity": "common",
+    "skills": "Réparation, Science"
+  },
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": 209,
+        "errataReviewed": true,
+        "translationReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

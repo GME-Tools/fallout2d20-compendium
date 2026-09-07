@@ -1,0 +1,71 @@
+{
+  "_id": "VtCwIMtash7XcwxP",
+  "_key": "!items!VtCwIMtash7XcwxP",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Laser Commander.webp",
+  "name": "Commandant laser",
+  "system": {
+    "description": "<p>Rangs : 2 Prérequis : PER 8, niveau 2+ Lorsque vous effectuez une attaque avec une arme à énergie à distance, ajoutez +1 aux dégâts de l’arme par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 2,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 8
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 2,
+      "levelIncrease": 4,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "VtCwIMtash7XcwxP",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "LrCJNhXFdFxbGbrX",
+  "_key": "!tables.results!CqwFiBMsrzOjRI6k.LrCJNhXFdFxbGbrX",
+  "name": "Ingénieurs super mutants",
+  "description": "Des super mutants tentent de faire fonctionner une technologie avancée : avion, robot ou char.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    14
+  ],
+  "drawn": false
+}

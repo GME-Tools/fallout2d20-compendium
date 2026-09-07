@@ -1,0 +1,73 @@
+{
+  "_id": "cPjofC2nJegzoPXS",
+  "_key": "!items!cPjofC2nJegzoPXS",
+  "effects": [],
+  "folder": "yqwsUbSI5liyBtpj",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/FH 5-01 Whistling in the Dark.webp",
+  "name": "FH 5-01 Siffloter dans les ténèbres",
+  "system": {
+    "description": "<p>Si vous êtes repéré en tentant d’être discret, ajoutez +2 à votre résistance aux dégâts balistiques contre la première attaque reçue après avoir été repéré.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [
+        "Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.KE1PFFcFheyQriDU"
+      ],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "structuralBaseline": false,
+        "translationReviewed": true,
+        "uuidLinksReviewed": true,
+        "magazineAutomationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated Core magazine"
+      }
+    }
+  }
+}

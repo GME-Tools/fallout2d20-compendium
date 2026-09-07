@@ -1,0 +1,235 @@
+{
+  "_id": "ppzmY6xo2f66TmMC",
+  "_key": "!items!ppzmY6xo2f66TmMC",
+  "effects": [],
+  "folder": "wuijs0qVP74GkECb",
+  "img": "modules/fallout2d20-compendium/artwork/Weapons/Laser Gun.webp",
+  "name": "Laser Emitter",
+  "system": {
+    "ammo": "Fusion Cell",
+    "ammoPerShot": 1,
+    "attribute": "",
+    "canBeScrapped": true,
+    "condition": "",
+    "consumedOnUse": false,
+    "cost": 69,
+    "creatureAttribute": "body",
+    "creatureSkill": "guns",
+    "damage": {
+      "damageEffect": {
+        "arc": {
+          "rank": 0,
+          "value": 0
+        },
+        "breaking": {
+          "rank": 0,
+          "value": 0
+        },
+        "burst": {
+          "rank": 0,
+          "value": 0
+        },
+        "freeze": {
+          "rank": 0,
+          "value": 0
+        },
+        "persistent": {
+          "rank": 0,
+          "value": 0
+        },
+        "piercing_x": {
+          "rank": 1,
+          "value": 1
+        },
+        "radioactive": {
+          "rank": 0,
+          "value": 0
+        },
+        "spread": {
+          "rank": 0,
+          "value": 0
+        },
+        "stun": {
+          "rank": 0,
+          "value": 0
+        },
+        "tranquilize_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "vicious": {
+          "rank": 0,
+          "value": 0
+        }
+      },
+      "damageType": {
+        "energy": true,
+        "physical": false,
+        "poison": false,
+        "radiation": false
+      },
+      "originalDamageType": {
+        "energy": false,
+        "physical": false,
+        "poison": false,
+        "radiation": false
+      },
+      "originalRating": 0,
+      "rating": 3,
+      "weaponQuality": {
+        "accurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "ammo_hungry_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "aquatic": {
+          "rank": 0,
+          "value": 0
+        },
+        "blast": {
+          "rank": 0,
+          "value": 0
+        },
+        "bombard": {
+          "rank": 0,
+          "value": 0
+        },
+        "close_quarters": {
+          "rank": 0,
+          "value": 1
+        },
+        "concealed": {
+          "rank": 0,
+          "value": 0
+        },
+        "debilitating": {
+          "rank": 0,
+          "value": 0
+        },
+        "delay_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "fuel_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "gatling": {
+          "rank": 0,
+          "value": 0
+        },
+        "inaccurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "limited": {
+          "rank": 0,
+          "value": 0
+        },
+        "mine": {
+          "rank": 0,
+          "value": 0
+        },
+        "night_vision": {
+          "rank": 0,
+          "value": 0
+        },
+        "parry": {
+          "rank": 0,
+          "value": 0
+        },
+        "placed": {
+          "rank": 0,
+          "value": 0
+        },
+        "recoil_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "recon": {
+          "rank": 0,
+          "value": 0
+        },
+        "reliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "slow_load": {
+          "rank": 0,
+          "value": 0
+        },
+        "suppressed": {
+          "rank": 0,
+          "value": 0
+        },
+        "surge": {
+          "rank": 0,
+          "value": 0
+        },
+        "thrown": {
+          "rank": 0,
+          "value": 0
+        },
+        "two_handed": {
+          "rank": 0,
+          "value": 0
+        },
+        "unreliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "unstable_radiation": {
+          "rank": 0,
+          "value": 0
+        },
+        "wrangle": {
+          "rank": 0,
+          "value": 0
+        }
+      }
+    },
+    "description": "<p><strong>Arm Attachment:</strong> You can cut objects or make ranged attacks using a laser (see laser gun, p.101).</p>\n<p>Laser guns are high-tech weapons which emit a concentrated beam of coherent, directional light, intense enough to inflict serious damage. They were a relatively new development in the years before the Great War, and thus are not an especially common sight in the wasteland, outside of those groups who&rsquo;ve secured old military weapons caches. Most surviving models of laser gun&mdash;such as the dependable AER9, widely used by the U. S. Army&mdash;use an internal capacitor charged by a microfusion power cell.</p>\n<p>The default profile is for a laser pistol. A laser gun can accept one each of the following mods. Any Stock mods change the weapon to a laser rifle.</p>\n<ul>\n<li><strong>Capacitor:</strong> Photon Exciter, Beta Wave Tuner, Boosted Capacitor, Photon Agitator</li>\n<li><strong>Barrel:</strong> Long Barrel, Automatic Barrel, Sniper Barrel, Improved Barrel</li>\n<li><strong>Grip:</strong> Sharpshooter&rsquo;s Grip</li>\n<li><strong>Stock:</strong> Standard Stock, Marksman&rsquo;s Stock, Recoil Compensating Stock</li>\n<li><strong>Sights:</strong> Reflex Sight, Short Scope, Long Scope, Short Night Vision Scope, Long Night Vision Scope, Recon Scope</li>\n<li><strong>Muzzle:</strong> Beam Splitter, Beam Focuser, Gyro Compensating Lens</li>\n</ul>\n<p>&nbsp;</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "fireRate": 2,
+    "isJunk": false,
+    "melee": false,
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 6,
+      "modded": false
+    },
+    "naturalWeapon": false,
+    "originalAmmoPerShot": 0,
+    "quantity": 1,
+    "range": "close",
+    "rarity": 2,
+    "skill": "",
+    "source": "core_rulebook",
+    "stashed": false,
+    "tear": 0,
+    "weaponType": "energyWeapons",
+    "weight": 4
+  },
+  "type": "weapon",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Laser Emitter"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_id": "RuledpduIJ0kiNAN",
+  "_key": "!items!RuledpduIJ0kiNAN",
+  "effects": [],
+  "folder": "DagwwzOUnltpJ4eB",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Vault-Tec Security Helmet.webp",
+  "name": "Casque de sécurité Vault-Tec",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 20,
+    "description": "<p>Cette armure composée d’un long tablier pare-balles, d’épaulières et d’un casque résistant aux chocs fut distribuée en petites quantités dans chaque Abri à son personnel de sécurité. Elle offre une protection modeste sans être particulièrement encombrante, mais résiste mal aux combats lourds, puisque les Abri étaient supposés être des environnements contrôlés dépourvus des armes puissantes de l’extérieur.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": true,
+      "legL": false,
+      "legR": false,
+      "torso": false
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": false,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 1,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 2
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "RuledpduIJ0kiNAN",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

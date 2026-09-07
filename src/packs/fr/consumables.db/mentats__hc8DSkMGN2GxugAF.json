@@ -1,0 +1,82 @@
+{
+  "_id": "hc8DSkMGN2GxugAF",
+  "_key": "!items!hc8DSkMGN2GxugAF",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Mentats.webp",
+  "name": "Mentats",
+  "system": {
+    "addiction": 3,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Mentat",
+    "consumableType": "chem",
+    "cost": 50,
+    "description": "<p>Drogue récréative et stimulante populaire avant la Grande Guerre, les Mentats améliorent la mémoire et accélèrent la pensée. Leur effet bref laisse ensuite fatigue et manque de concentration ; leur dépendance provoque migraines et irritabilité.</p><p><strong>Dépendance au Mentats :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de CHA lorsque vous n’êtes sous l’effet d’aucune variété de Mentats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×3</li><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ]{Brain Fungus} ×2</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>Relancez 1d20 lors des tests de PER et d’INT.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "hc8DSkMGN2GxugAF",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Matériaux peu fréquents",
+            "canonicalName": "Uncommon Materials",
+            "quantity": 3,
+            "uuid": null
+          },
+          {
+            "name": "Matériaux rares",
+            "canonicalName": "Rare Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "name": "Brain Fungus",
+            "canonicalName": "Brain Fungus",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ"
+          }
+        ]
+      }
+    }
+  }
+}

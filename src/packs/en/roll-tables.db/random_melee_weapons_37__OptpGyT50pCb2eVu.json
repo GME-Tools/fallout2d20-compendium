@@ -1,0 +1,14 @@
+{
+  "_id": "OptpGyT50pCb2eVu",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.OptpGyT50pCb2eVu",
+  "name": "Power Fist",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.aIMdoy67zhbaYcQG]{Power Fist}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    38,
+    38
+  ],
+  "drawn": false
+}

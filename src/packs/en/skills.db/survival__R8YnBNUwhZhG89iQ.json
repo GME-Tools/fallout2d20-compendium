@@ -1,0 +1,33 @@
+{
+  "_id": "R8YnBNUwhZhG89iQ",
+  "_key": "!items!R8YnBNUwhZhG89iQ",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Survival.png",
+  "name": "Survival",
+  "system": {
+    "defaultAttribute": "end",
+    "description": "<p>The Survival skill covers all manner of practical bush craft, like hunting, foraging, fishing, building makeshift shelters, and lighting fires.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Endurance</strong> but you might also use it with Perception to figure out how long you have until nightfall, or Charisma to charm animals. You might use Survival to build a base camp, or test your resilience against malnourishment or dehydration.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

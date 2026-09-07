@@ -1,0 +1,14 @@
+{
+  "_id": "cO0KVOxZsgiwxW28",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.cO0KVOxZsgiwxW28",
+  "name": "Stimpak Diffuser",
+  "description": "Stimpak Diffuser",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    59,
+    59
+  ],
+  "drawn": false
+}

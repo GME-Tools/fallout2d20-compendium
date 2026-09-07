@@ -1,0 +1,14 @@
+{
+  "_id": "nWsLmVCoMiRdVI6Y",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.nWsLmVCoMiRdVI6Y",
+  "name": "Psychose traumatique",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-diseases.Item.7ogFbul957uLnNx0]{Psychose traumatique}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

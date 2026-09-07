@@ -1,0 +1,34 @@
+{
+  "_id": "hJ7lrJEDY0y0ij5b",
+  "_key": "!items!hJ7lrJEDY0y0ij5b",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Flatulences",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Vous devez dépenser deux fois plus de points de Chance pour obtenir l’Effet voulu.</p>",
+    "duration": 1,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "hJ7lrJEDY0y0ij5b",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

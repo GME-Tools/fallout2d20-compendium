@@ -1,0 +1,14 @@
+{
+  "_id": "HwvbxfeJuJTeEmg7",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.HwvbxfeJuJTeEmg7",
+  "name": "Rolling Pin",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.66p1lQmwPXZINPKn]{Rolling Pin}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    26,
+    26
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "CXpkvu4CM7AQN1WD",
+  "_key": "!tables.results!7TlfIIW1OHVVazkg.CXpkvu4CM7AQN1WD",
+  "name": "Chiens sauvages",
+  "description": "Des chiens sauvages affamés attaquent.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    8
+  ],
+  "drawn": false
+}

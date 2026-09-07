@@ -1,0 +1,71 @@
+{
+  "_id": "SFhtHQk4lztiJ8gw",
+  "_key": "!items!SFhtHQk4lztiJ8gw",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Meltdown.webp",
+  "name": "Fusion",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : PER 10 Lorsque vous tuez un ennemi avec une arme à énergie, il explose. Jetez un nombre de égal à la moitié de la valeur de dégâts de l’arme (arrondie à l’inférieur). Pour chaque Effet obtenu, une créature située à portée courte ou inférieure de votre victime (en commençant par la plus proche) subit un nombre de points de dégâts énergétiques égal au total obtenu sur les .</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 10
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "SFhtHQk4lztiJ8gw",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

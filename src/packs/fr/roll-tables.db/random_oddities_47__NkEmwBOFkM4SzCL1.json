@@ -1,0 +1,14 @@
+{
+  "_id": "NkEmwBOFkM4SzCL1",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.NkEmwBOFkM4SzCL1",
+  "name": "Module d’analyse comportementale",
+  "description": "Module d’analyse comportementale",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    49,
+    49
+  ],
+  "drawn": false
+}

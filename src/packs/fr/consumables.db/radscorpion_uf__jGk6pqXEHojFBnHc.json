@@ -1,0 +1,52 @@
+{
+  "_id": "jGk6pqXEHojFBnHc",
+  "_key": "!items!jGk6pqXEHojFBnHc",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Radscorpion Egg.webp",
+  "name": "radscorpion œuf",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 48,
+    "description": "<p>Œuf de radscorpion difficile à obtenir, puisqu’on le trouve généralement près de radscorpions. Il permet de préparer une omelette d’œuf de radscorpion.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 6,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "jGk6pqXEHojFBnHc",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

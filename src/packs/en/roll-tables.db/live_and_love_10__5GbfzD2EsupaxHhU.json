@@ -1,0 +1,14 @@
+{
+  "_id": "5GbfzD2EsupaxHhU",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.5GbfzD2EsupaxHhU",
+  "name": "Re-roll result",
+  "description": "Re-roll on this table.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

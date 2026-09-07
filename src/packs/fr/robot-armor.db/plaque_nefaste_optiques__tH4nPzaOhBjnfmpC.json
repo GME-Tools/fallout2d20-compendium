@@ -1,0 +1,74 @@
+{
+  "_id": "tH4nPzaOhBjnfmpC",
+  "_key": "!items!tH4nPzaOhBjnfmpC",
+  "effects": [],
+  "folder": "EuwJBny4aaF8eMIv",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Optics.webp",
+  "name": "Plaque néfaste (Optiques)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": -10,
+    "cost": 15,
+    "description": "<p>Des plaques de blindage de fortune recouvertes de substances toxiques, dangereuses pour quiconque cherche à nuire au robot ou à ses compagnons.</p><p><strong>Spécial :</strong> lorsqu’une attaque de corps à corps vise une localisation ainsi équipée et que l’attaquant subit une complication, celui-ci subit 2 @fos[DC] de dégâts de poison Persistants. Les attaques de corps à corps effectuées avec des bras ainsi équipés gagnent aussi l’effet Persistant (poison).</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": true,
+      "legL": false,
+      "legR": false,
+      "torso": false
+    },
+    "perks": "Armorer 1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "tH4nPzaOhBjnfmpC",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Noxious Plate (Optics)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 3,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 1"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

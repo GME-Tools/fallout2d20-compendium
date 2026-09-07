@@ -1,0 +1,14 @@
+{
+  "_id": "XvVGJCV8SoizNHVV",
+  "_key": "!tables.results!JFaApgVMo29GJFAu.XvVGJCV8SoizNHVV",
+  "name": "Chasser dans les Terres désolées",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.rzLGWCVR5aHjEyFy]{Chasser dans les Terres désolées}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

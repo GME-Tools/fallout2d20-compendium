@@ -1,0 +1,33 @@
+{
+  "_id": "UQ4TLtVUR2kRlYkb",
+  "_key": "!items!UQ4TLtVUR2kRlYkb",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Throwing.png",
+  "name": "Throwing",
+  "system": {
+    "defaultAttribute": "agi",
+    "description": "<p>The Throwing skill describes your ability to effectively make attacks with thrown weapons like javelins, knives, and improvised weapons.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Agility</strong> but you might also use Strength with heavy objects or Perception to judge distance. You use Throwing to make thrown attacks with specific weapons.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

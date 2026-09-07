@@ -1,0 +1,74 @@
+{
+  "_id": "wS4PyRQOedMKih10",
+  "_key": "!items!wS4PyRQOedMKih10",
+  "effects": [],
+  "folder": "ZAq7EwNs5CfYckUH",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Main Body.webp",
+  "name": "Plaque toxique (Corps principal)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": -20,
+    "cost": 30,
+    "description": "<p>Des plaques de blindage de fortune fabriquées avec du métal irradié, dangereuses pour les créatures vivantes alentour.</p><p><strong>Spécial :</strong> lorsqu’une attaque de corps à corps vise une localisation ainsi équipée et que l’attaquant subit une complication, celui-ci subit 2 @fos[DC] de dégâts de radiation. Les attaques de corps à corps effectuées avec des bras ainsi équipés gagnent aussi l’effet Radioactif.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 3</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×5</li><li>Matériaux rares ×2</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "Armorer 3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "wS4PyRQOedMKih10",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Toxic Plate (Main Body)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 5,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 3"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 5,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

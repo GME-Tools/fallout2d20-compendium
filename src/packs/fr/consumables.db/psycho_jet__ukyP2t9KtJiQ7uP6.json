@@ -1,0 +1,76 @@
+{
+  "_id": "ukyP2t9KtJiQ7uP6",
+  "_key": "!items!ukyP2t9KtJiQ7uP6",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Psycho Jet",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Psycho",
+    "consumableType": "chem",
+    "cost": 70,
+    "description": "<p>Cocktail puissant de Psycho et de Jet qui renforce l’agressivité, émousse la douleur et accélère brièvement les réflexes, provoquant une explosion de violence extrême.</p><p><strong>Dépendance au Psycho :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât des attaques physiques hors des effets d’une variété de Psycho.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Bomq1g7X0eVXrssc]{Jet} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
+    "duration": "brief",
+    "effect": "<p>Toutes vos attaques infligent +2 @fos[DC] de dégâts, vous gagnez +4 en résistance aux dégâts physiques et recevez immédiatement 4 PA, perdus s’ils ne sont pas dépensés.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ukyP2t9KtJiQ7uP6",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Jet",
+            "canonicalName": "Jet",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.Bomq1g7X0eVXrssc"
+          },
+          {
+            "name": "Psycho",
+            "canonicalName": "Psycho",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.r464WdcRwusnzFtm"
+          }
+        ]
+      }
+    }
+  }
+}

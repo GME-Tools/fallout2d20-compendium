@@ -1,0 +1,14 @@
+{
+  "_id": "NIdCqQKgmZg7AwM6",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.NIdCqQKgmZg7AwM6",
+  "name": "Gauss Rifle",
+  "description": "Gauss Rifle",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

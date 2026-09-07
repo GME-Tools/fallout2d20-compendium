@@ -1,0 +1,48 @@
+{
+  "_id": "VszpkDVgQA22ZCmx",
+  "_key": "!items!VszpkDVgQA22ZCmx",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Radstag Meat",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 50,
+    "description": "<p><span class=\"fontstyle0\">A piece of meat cut from the body of a dead radstag. It&rsquo;s bulky but can produce nutritious and satisfying meals.</span></p>\n<p><span class=\"fontstyle0\">Radstag meat can be cooked to make Grilled Radstag or used as an ingredient to make Radstag Stew.</span> </p>",
+    "duration": "",
+    "effect": "<p></p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 8,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

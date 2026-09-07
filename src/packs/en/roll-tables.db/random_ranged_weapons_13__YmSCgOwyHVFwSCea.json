@@ -1,0 +1,14 @@
+{
+  "_id": "YmSCgOwyHVFwSCea",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.YmSCgOwyHVFwSCea",
+  "name": "Assault Rifle",
+  "description": "Assault Rifle",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

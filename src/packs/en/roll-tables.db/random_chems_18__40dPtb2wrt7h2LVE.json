@@ -1,0 +1,14 @@
+{
+  "_id": "40dPtb2wrt7h2LVE",
+  "_key": "!tables.results!isNdghTYF06GBC0m.40dPtb2wrt7h2LVE",
+  "name": "Healing Salve",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.AcJArmB6p1XrVWL9]{Healing Salve}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

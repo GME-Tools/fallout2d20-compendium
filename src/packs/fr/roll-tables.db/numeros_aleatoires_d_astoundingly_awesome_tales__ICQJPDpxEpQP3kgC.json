@@ -1,0 +1,35 @@
+{
+  "_id": "ICQJPDpxEpQP3kgC",
+  "_key": "!tables!ICQJPDpxEpQP3kgC",
+  "name": "Numéros aléatoires d’Astoundingly Awesome Tales",
+  "description": "<p>Table du Livre de base, p. 173.</p>",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "qaOKKTFoaEouJgfV",
+    "Xs0JrjIbkV4pxFyS",
+    "jble9SfZo8nYZNvS",
+    "S41Hti7y6Hkga3Gm",
+    "t3QpjYo2GBREUzMm",
+    "PQMcFvmOjiOvrkxQ",
+    "ATmZBwB5ms4NICSM",
+    "Fyn4jstkDvKvJqLK",
+    "IRKTGPUQgf9M85Dc",
+    "CpUtavC1AVyhDjb0"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": 173,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

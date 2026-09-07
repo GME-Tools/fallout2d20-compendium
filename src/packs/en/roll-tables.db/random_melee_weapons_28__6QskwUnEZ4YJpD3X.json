@@ -1,0 +1,14 @@
+{
+  "_id": "6QskwUnEZ4YJpD3X",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.6QskwUnEZ4YJpD3X",
+  "name": "Knuckles",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.yB39echbNG7KpWny]{Knuckles}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    29,
+    29
+  ],
+  "drawn": false
+}

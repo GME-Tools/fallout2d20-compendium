@@ -1,0 +1,68 @@
+{
+  "_id": "UzRkuAJkvYqK8jrl",
+  "_key": "!items!UzRkuAJkvYqK8jrl",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Science!.webp",
+  "name": "Science!",
+  "system": {
+    "description": "<p>You can modify energy weapons with weapon mods, and you can also craft certain advanced armor mods. Each rank in this perk unlocks an additional rank of mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, etc.</p>\n<p>Each time you take this perk, the level requirement increases by 4.</p>\n<p><strong>Requirements</strong>: INT 6, Level 2+</p>",
+    "favorite": false,
+    "rank": {
+      "max": 3,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 6
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 2,
+      "levelIncrease": 4,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "59-73",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

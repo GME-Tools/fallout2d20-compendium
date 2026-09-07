@@ -1,0 +1,38 @@
+{
+  "_id": "vDsRqWBeKLVgq57P",
+  "_key": "!items!vDsRqWBeKLVgq57P",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Behavioral Analysis Mod",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 50,
+    "description": "<p>Employed to aid Miss Nanny model robots in their childcare duties, these behavioral analysis modules were a successful offshoot from a U.S. Military designed to engineer robots that could assist in interrogations by interpreting behavior and determining truthfulness. The fate of the original project is unknown, but the offshoot used in Miss Nanny robots was well-received.</p>",
+    "effect": "<p>Reduce the difficulty of Speech tests by 1 (min. 0)</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 1",
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "mFkceorgf7JolsV6",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.mFkceorgf7JolsV6",
+  "name": "Lampe torche",
+  "description": "Lampe torche",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    48,
+    48
+  ],
+  "drawn": false
+}

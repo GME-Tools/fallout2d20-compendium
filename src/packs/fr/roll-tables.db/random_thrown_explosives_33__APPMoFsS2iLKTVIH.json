@@ -1,0 +1,14 @@
+{
+  "_id": "APPMoFsS2iLKTVIH",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.APPMoFsS2iLKTVIH",
+  "name": "1 Mine à fragmentation",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.Ai4EeSDZl48zoJoL]{1 Mine à fragmentation}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    34,
+    34
+  ],
+  "drawn": false
+}

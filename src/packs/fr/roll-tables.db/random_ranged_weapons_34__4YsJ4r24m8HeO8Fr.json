@@ -1,0 +1,14 @@
+{
+  "_id": "4YsJ4r24m8HeO8Fr",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.4YsJ4r24m8HeO8Fr",
+  "name": "Laser Gatling",
+  "description": "Laser Gatling",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    35,
+    35
+  ],
+  "drawn": false
+}

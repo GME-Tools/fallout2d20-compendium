@@ -1,0 +1,14 @@
+{
+  "_id": "TwlyEOjOEklcnIrX",
+  "_key": "!tables.results!eVG1ynZ312G42zbE.TwlyEOjOEklcnIrX",
+  "name": "Relancez le résultat",
+  "description": "Relancez sur cette table.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

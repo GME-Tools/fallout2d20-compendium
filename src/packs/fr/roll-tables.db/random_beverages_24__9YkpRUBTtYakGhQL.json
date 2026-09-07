@@ -1,0 +1,14 @@
+{
+  "_id": "9YkpRUBTtYakGhQL",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.9YkpRUBTtYakGhQL",
+  "name": "Eau purifiée",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    25,
+    25
+  ],
+  "drawn": false
+}

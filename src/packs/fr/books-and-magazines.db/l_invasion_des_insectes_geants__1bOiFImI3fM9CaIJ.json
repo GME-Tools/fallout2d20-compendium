@@ -1,0 +1,43 @@
+{
+  "_id": "1bOiFImI3fM9CaIJ",
+  "_key": "!items!1bOiFImI3fM9CaIJ",
+  "effects": [],
+  "folder": "gvTCVmcQwuzBajUx",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Giant Insects Invade!.webp",
+  "name": "L’invasion des insectes géants !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts de radiation.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.fMq7BDUKGUIZDOEY]{L’invasion des insectes géants !}</p></section>",
+    "effect": "<p>Vous gagnez +2 en résistance aux dégâts de radiation.</p>",
+    "favorite": false,
+    "publication": "Histoires à dormir debout",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "1bOiFImI3fM9CaIJ",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

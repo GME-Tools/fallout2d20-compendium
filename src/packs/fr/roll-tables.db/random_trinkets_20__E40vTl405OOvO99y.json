@@ -1,0 +1,14 @@
+{
+  "_id": "E40vTl405OOvO99y",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.E40vTl405OOvO99y",
+  "name": "Cravate d’avant-guerre",
+  "description": "Cravate d’avant-guerre",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

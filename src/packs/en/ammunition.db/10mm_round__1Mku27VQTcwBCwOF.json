@@ -1,0 +1,44 @@
+{
+  "_id": "1Mku27VQTcwBCwOF",
+  "_key": "!items!1Mku27VQTcwBCwOF",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/10mm Round.webp",
+  "name": "10mm Round",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 2,
+    "description": "<p><span class=\"fontstyle0\">One of the most common types of pistol round found in the wastelands, manufactured in vast quantities before the Great War to accompany the large numbers of 10mm pistols they were producing as sidearms for soldiers, and as personal defense weapons for civilians.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 8+4dc # 10mm Round]]</p>",
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "8+4dc",
+    "rarity": 0,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": "",
+    "weight": 0.025
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "Ft5oUWUNdNcaQVaX",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.Ft5oUWUNdNcaQVaX",
+  "name": "Fusil de combat",
+  "description": "Fusil de combat",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    30,
+    30
+  ],
+  "drawn": false
+}

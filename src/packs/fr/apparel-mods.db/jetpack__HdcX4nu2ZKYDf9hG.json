@@ -1,0 +1,73 @@
+{
+  "_id": "HdcX4nu2ZKYDf9hG",
+  "_key": "!items!HdcX4nu2ZKYDf9hG",
+  "effects": [],
+  "folder": "JpQJNevV3gGYvAgY",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Jetpack",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 500,
+    "description": "<p>Cette modification s’installe avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>7</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 4, @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 4</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×8</li><li>Matériaux peu fréquents ×6</li><li>Matériaux rares ×4</li></ul></section>",
+    "effect": "<p>Lorsque vous vous déplacez, vous pouvez dépenser 1 charge pour activer le jetpack : déplacez-vous d’une zone supplémentaire, horizontalement ou verticalement, ou prenez assez de hauteur pour effectuer un atterrissage percutant.</p>",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Torso",
+    "modType": "system",
+    "perks": "Armorer 4, Science! 4",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 1
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "HdcX4nu2ZKYDf9hG",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "systems",
+        "complexity": 7,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 4",
+          "Scientifique 4"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 8,
+          "uncommon": 6,
+          "rare": 4
+        }
+      }
+    }
+  }
+}

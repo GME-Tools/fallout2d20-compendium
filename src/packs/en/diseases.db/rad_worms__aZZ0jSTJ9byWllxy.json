@@ -1,0 +1,30 @@
+{
+  "_id": "aZZ0jSTJ9byWllxy",
+  "_key": "!items!aZZ0jSTJ9byWllxy",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Rad Worms",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Whenever you suffer Radiation damage, add +2 to the amount suffered</p>",
+    "duration": 1,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

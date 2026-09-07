@@ -1,0 +1,82 @@
+{
+  "_id": "860ofdvpufUzSqE7",
+  "_key": "!items!860ofdvpufUzSqE7",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Stimpak.webp",
+  "name": "Stimpak",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 50,
+    "description": "<p>Le Stimpak est une seringue à usage unique combinant agents curatifs, stimulants et antidouleurs afin d’accélérer la guérison. Très efficace seul, il l’est davantage avec un Auto-Doc ou du personnel médical ; il existe aussi sous forme diluée.</p><p><strong>Utilisation :</strong> avec l’action mineure Prendre une drogue ou pendant des Premiers secours, soigne 4 PV ou une Blessure ; la version diluée soigne 2 PV mais peut toujours traiter une Blessure.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Antiseptic ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.69jE7Uteh1NARMBL]{Poche de sang} ×1</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "duration": "instant",
+    "effect": "<p>Soigne 4 PV (voir description).</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 4,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "860ofdvpufUzSqE7",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Antiseptic",
+            "canonicalName": "Antiseptic",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "name": "Poche de sang",
+            "canonicalName": "Blood Pack",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.69jE7Uteh1NARMBL"
+          },
+          {
+            "name": "Matériaux fréquents",
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  }
+}

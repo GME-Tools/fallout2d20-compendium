@@ -1,0 +1,14 @@
+{
+  "_id": "m1BCmGdLlIIZ3cAG",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.m1BCmGdLlIIZ3cAG",
+  "name": "Canne",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.1bgEBl5eFgkcDxmL]{Canne}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    15
+  ],
+  "drawn": false
+}

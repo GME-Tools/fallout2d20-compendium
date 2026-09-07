@@ -1,0 +1,14 @@
+{
+  "_id": "I7oTcjTDKoJXZXgy",
+  "_key": "!tables.results!b0YDWI7LbsTTbsLR.I7oTcjTDKoJXZXgy",
+  "name": "Nightmare in the Garden",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.9hZXkRhoJIX47mWS]{Nightmare in the Garden}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

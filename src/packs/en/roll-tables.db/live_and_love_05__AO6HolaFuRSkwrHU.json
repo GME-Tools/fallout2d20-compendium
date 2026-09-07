@@ -1,0 +1,14 @@
+{
+  "_id": "AO6HolaFuRSkwrHU",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.AO6HolaFuRSkwrHU",
+  "name": "Talk Yourself Sober",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.YFSFj5moNn7KNnT8]{Talk Yourself Sober}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    10
+  ],
+  "drawn": false
+}

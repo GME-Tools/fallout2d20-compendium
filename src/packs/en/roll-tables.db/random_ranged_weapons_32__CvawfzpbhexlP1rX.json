@@ -1,0 +1,14 @@
+{
+  "_id": "CvawfzpbhexlP1rX",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.CvawfzpbhexlP1rX",
+  "name": "Minigun",
+  "description": "Minigun",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

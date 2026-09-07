@@ -1,0 +1,14 @@
+{
+  "_id": "jsMJc1Zss6kDuv4i",
+  "_key": "!tables.results!fVZuL3ahbEKecx8W.jsMJc1Zss6kDuv4i",
+  "name": "FH 5-03 Fondamentaux du camouflage facial",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.mPUq6ivdAuHbxor6]{FH 5-03 Fondamentaux du camouflage facial}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    6
+  ],
+  "drawn": false
+}

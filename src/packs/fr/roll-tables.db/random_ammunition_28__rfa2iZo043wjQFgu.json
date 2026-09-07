@@ -1,0 +1,14 @@
+{
+  "_id": "rfa2iZo043wjQFgu",
+  "_key": "!tables.results!sa66QXOwlO8515AT.rfa2iZo043wjQFgu",
+  "name": "Clou de rail (6+3 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.yGiPeDsETWQBjCdT]{Clou de rail (6+3 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    29,
+    29
+  ],
+  "drawn": false
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "ohCdi9MG6PoEnyJr",
+  "_key": "!items!ohCdi9MG6PoEnyJr",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Radscorpion Egg Omelette.webp",
+  "name": "Radscorpion Egg Omelette",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 65,
+    "description": "<p><span class=\"fontstyle0\">Made from a radscorpion egg, these omelettes are highly prized by those who make considerable use of combat drugs, as something about the food cleanses the body to remove chemical dependencies and addictions.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>2</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.xuXzlEC3V0co3w3h]{Purified Water} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.jGk6pqXEHojFBnHc]{Radscorpion Egg} ×1</li></ul></section>",
+    "duration": "",
+    "effect": "<p>Cure all addictions</p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 9,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 2,
+        "skill": "Survival",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Purified Water",
+            "canonicalName": "Purified Water",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.xuXzlEC3V0co3w3h"
+          },
+          {
+            "name": "Radscorpion Egg",
+            "canonicalName": "Radscorpion Egg",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.jGk6pqXEHojFBnHc"
+          }
+        ]
+      }
+    }
+  }
+}

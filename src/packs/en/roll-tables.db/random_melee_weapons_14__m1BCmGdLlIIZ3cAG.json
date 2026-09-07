@@ -1,0 +1,14 @@
+{
+  "_id": "m1BCmGdLlIIZ3cAG",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.m1BCmGdLlIIZ3cAG",
+  "name": "Walking Cane",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.1bgEBl5eFgkcDxmL]{Walking Cane}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    15
+  ],
+  "drawn": false
+}

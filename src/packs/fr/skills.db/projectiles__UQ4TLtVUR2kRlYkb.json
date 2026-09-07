@@ -1,0 +1,35 @@
+{
+  "_id": "UQ4TLtVUR2kRlYkb",
+  "_key": "!items!UQ4TLtVUR2kRlYkb",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Throwing.png",
+  "name": "Projectiles",
+  "system": {
+    "defaultAttribute": "agi",
+    "description": "<p>La comp&eacute;tence Projectiles&nbsp;d&eacute;termine votre capacit&eacute; &agrave;&nbsp;r&eacute;ussir des attaques avec des&nbsp;armes de lancer telles que des&nbsp;javelots, des couteaux ou des&nbsp;armes improvis&eacute;es.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Agilit&eacute;</strong>, mais&nbsp;vous pouvez utiliser Force dans le cas d&rsquo;objets lourds,&nbsp;ou Perception pour &eacute;valuer la distance jusqu&rsquo;&agrave; la cible.&nbsp;Employez Projectiles pour effectuer une attaque de lancer&nbsp;&agrave; l&rsquo;aide d&rsquo;armes sp&eacute;cifiques.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "44-46",
+        "translatedFrom": "UQ4TLtVUR2kRlYkb",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

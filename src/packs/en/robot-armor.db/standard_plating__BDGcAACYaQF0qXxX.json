@@ -1,0 +1,53 @@
+{
+  "_id": "BDGcAACYaQF0qXxX",
+  "_key": "!items!BDGcAACYaQF0qXxX",
+  "effects": [],
+  "folder": "SgneXaUay7Pkys52",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy.webp",
+  "name": "Standard Plating",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": 0,
+    "cost": 0,
+    "description": "<p>The default factory plating provided with all brandnew Mister Handy models. This has no cost, as it&rsquo;s the default which a Mister Handy character begins with most of the time.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": true,
+      "head": true,
+      "legL": true,
+      "legR": true,
+      "torso": true
+    },
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Standard Plating"
+      }
+    }
+  }
+}

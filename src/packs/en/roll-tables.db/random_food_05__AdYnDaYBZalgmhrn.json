@@ -1,0 +1,14 @@
+{
+  "_id": "AdYnDaYBZalgmhrn",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.AdYnDaYBZalgmhrn",
+  "name": "Institute Food Packet",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.ELoNzoPfKq3BE9gc]{Institute Food Packet}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    6,
+    6
+  ],
+  "drawn": false
+}

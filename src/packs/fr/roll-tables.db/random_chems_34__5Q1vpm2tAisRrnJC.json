@@ -1,0 +1,14 @@
+{
+  "_id": "5Q1vpm2tAisRrnJC",
+  "_key": "!tables.results!isNdghTYF06GBC0m.5Q1vpm2tAisRrnJC",
+  "name": "Stimpak",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.860ofdvpufUzSqE7]{Stimpak}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    35,
+    35
+  ],
+  "drawn": false
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "9FlKDaWEsEDXBCMP",
+  "_key": "!items!9FlKDaWEsEDXBCMP",
+  "effects": [],
+  "folder": "sZsnd4w6meoCfPDE",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Laminé",
+  "system": {
+    "apparelType": "armor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 5,
+    "description": "\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "",
+    "modType": "material",
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 1
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "9FlKDaWEsEDXBCMP",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 212,
+        "station": "armor",
+        "group": "synth-material",
+        "complexity": 4,
+        "skill": "Réparation",
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

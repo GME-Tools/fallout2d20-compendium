@@ -1,0 +1,70 @@
+{
+  "_id": "R0OekXuLrtHf0j8f",
+  "_key": "!items!R0OekXuLrtHf0j8f",
+  "effects": [],
+  "folder": "zV91jOW1G58krnbG",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Tissage balistique",
+  "system": {
+    "apparelType": "clothing",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 20,
+    "description": "<p>Le tissage polymère balistique améliore la protection de certains vêtements. Une couche de ce tissu artificiel résistant leur permet de mieux supporter les impacts, les balles et les décharges énergétiques. Cette recette rare n’est connue que de quelques personnes. Toutes les modifications de tissage balistique s’installent avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "",
+    "modType": "lining",
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 0
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "R0OekXuLrtHf0j8f",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 211,
+        "station": "armor",
+        "group": "ballistic-weave",
+        "complexity": 3,
+        "skill": "Réparation",
+        "perks": [],
+        "rarity": "rare",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "gD0P7i7kDG2KHLoC",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.gD0P7i7kDG2KHLoC",
+  "name": "1 Nuke Mine",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.9wxUVAnr3YsD3Uol]{1 Nuke Mine}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    40,
+    40
+  ],
+  "drawn": false
+}

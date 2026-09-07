@@ -1,0 +1,14 @@
+{
+  "_id": "ujwQHvdEkS11CRPZ",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.ujwQHvdEkS11CRPZ",
+  "name": "Sack Hood",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.TiGee8uaRs4twpOK]{Sack Hood}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    22,
+    22
+  ],
+  "drawn": false
+}

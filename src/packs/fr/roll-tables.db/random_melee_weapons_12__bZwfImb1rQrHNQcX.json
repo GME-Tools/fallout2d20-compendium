@@ -1,0 +1,14 @@
+{
+  "_id": "bZwfImb1rQrHNQcX",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.bZwfImb1rQrHNQcX",
+  "name": "Machette",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.uGNGa0KBcJq3YFvc]{Machette}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    13
+  ],
+  "drawn": false
+}

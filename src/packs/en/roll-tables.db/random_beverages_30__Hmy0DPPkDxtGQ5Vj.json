@@ -1,0 +1,14 @@
+{
+  "_id": "Hmy0DPPkDxtGQ5Vj",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.Hmy0DPPkDxtGQ5Vj",
+  "name": "Rum",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.eH5lYeN88g16VbYT]{Rum}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    31,
+    31
+  ],
+  "drawn": false
+}

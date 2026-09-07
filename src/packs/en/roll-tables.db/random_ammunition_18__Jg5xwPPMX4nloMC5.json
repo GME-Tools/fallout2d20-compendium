@@ -1,0 +1,14 @@
+{
+  "_id": "Jg5xwPPMX4nloMC5",
+  "_key": "!tables.results!sa66QXOwlO8515AT.Jg5xwPPMX4nloMC5",
+  "name": "10mm (8+4 CD)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.1Mku27VQTcwBCwOF]{10mm (8+4 CD)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "lVEk7kFVQyam7U0T",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.lVEk7kFVQyam7U0T",
+  "name": "Armure lourde pour chien",
+  "description": "Armure lourde pour chien",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Déchiquetage",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ar1HypIBKrPwbB1e",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "ar1HypIBKrPwbB1e",
+  "system": {
+    "description": "<p>Un écorcheur peut augmenter de +1 la difficulté de son attaque de Griffes. En cas de réussite, ses dégâts augmentent de +2 DC.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!ar1HypIBKrPwbB1e"
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "eASG6sigBXkHVCZJ",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.eASG6sigBXkHVCZJ",
+  "name": "de synthétique",
+  "description": "de synthétique",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    29,
+    29
+  ],
+  "drawn": false
+}

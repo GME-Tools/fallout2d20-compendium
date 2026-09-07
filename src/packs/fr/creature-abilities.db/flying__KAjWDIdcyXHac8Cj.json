@@ -1,0 +1,38 @@
+{
+  "_id": "KAjWDIdcyXHac8Cj",
+  "name": "Vol",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "KAjWDIdcyXHac8Cj",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "system": {
+    "description": "<p>Cette créature se déplace librement dans les airs. Elle ignore la plupart des obstacles au sol et le terrain difficile, et peut traverser les zones « vides » au-dessus du champ de bataille. Elle doit consacrer au moins une action mineure par tour à se déplacer. Si elle est mise à terre, elle chute et subit 3 DC de dégâts physiques Étourdissants, +2 DC par zone qui la séparait du sol.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!KAjWDIdcyXHac8Cj"
+}

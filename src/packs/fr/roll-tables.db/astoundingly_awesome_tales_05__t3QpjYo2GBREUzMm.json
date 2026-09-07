@@ -1,0 +1,14 @@
+{
+  "_id": "t3QpjYo2GBREUzMm",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.t3QpjYo2GBREUzMm",
+  "name": "La starlette tireuse d’élite !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.sNyzZdtR8zQeKE86]{La starlette tireuse d’élite !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    10
+  ],
+  "drawn": false
+}

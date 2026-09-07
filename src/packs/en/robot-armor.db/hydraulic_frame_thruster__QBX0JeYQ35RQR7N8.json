@@ -1,0 +1,70 @@
+{
+  "_id": "QBX0JeYQ35RQR7N8",
+  "_key": "!items!QBX0JeYQ35RQR7N8",
+  "effects": [],
+  "folder": "FJhVwzslNQppZ9hj",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Thrusters.webp",
+  "name": "Hydraulic Frame (Thruster)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": 5,
+    "cost": 30,
+    "description": "<p>A specially made set of armor plates which conceal powerful hydraulics which enhance the robot&rsquo;s movements.</p>\n<p>Special: Melee attacks made from arms fitted with a hydraulic frame inflict +1 @fos[DC] damage and gain the Stun damage effect.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.EQjZHUxYinodOU6G]{Armorer} 3</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×6</li><li>Uncommon Materials ×4</li><li>Rare Materials ×2</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "Armorer 3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 3,
+      "physical": 3,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Hydraulic Frame (Thruster)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 5,
+        "skill": "Repair",
+        "perks": [
+          "Armorer 3"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "dAYTGIBNah8uiusD",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.dAYTGIBNah8uiusD",
+  "name": "Bugs!",
+  "description": "Giant radscorpions, giant ants, or mirelurks, in numbers equal to the party.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    17
+  ],
+  "drawn": false
+}

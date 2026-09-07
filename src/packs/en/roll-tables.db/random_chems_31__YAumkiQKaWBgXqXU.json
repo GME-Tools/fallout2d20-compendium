@@ -1,0 +1,14 @@
+{
+  "_id": "YAumkiQKaWBgXqXU",
+  "_key": "!tables.results!isNdghTYF06GBC0m.YAumkiQKaWBgXqXU",
+  "name": "Mentats",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.hc8DSkMGN2GxugAF]{Mentats}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "KVANAtcOEeUjCDIX",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.KVANAtcOEeUjCDIX",
+  "name": "Salisbury steak",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.kkMJnvGEeqJQKhfT]{Salisbury steak}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    26,
+    26
+  ],
+  "drawn": false
+}

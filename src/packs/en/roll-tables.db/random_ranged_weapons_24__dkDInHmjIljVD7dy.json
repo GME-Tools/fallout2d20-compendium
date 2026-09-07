@@ -1,0 +1,14 @@
+{
+  "_id": "dkDInHmjIljVD7dy",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.dkDInHmjIljVD7dy",
+  "name": "10mm Auto Pistol (Automatic Receiver)",
+  "description": "10mm Auto Pistol (Automatic Receiver)",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    25,
+    25
+  ],
+  "drawn": false
+}

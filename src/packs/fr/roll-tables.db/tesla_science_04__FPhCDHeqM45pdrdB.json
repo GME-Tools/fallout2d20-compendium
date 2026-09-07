@@ -1,0 +1,14 @@
+{
+  "_id": "FPhCDHeqM45pdrdB",
+  "_key": "!tables.results!eVG1ynZ312G42zbE.FPhCDHeqM45pdrdB",
+  "name": "Technologie de demain pour supersoldats d’aujourd’hui",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.od1qgkoqyO2SbhPV]{Technologie de demain pour supersoldats d’aujourd’hui}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    8
+  ],
+  "drawn": false
+}

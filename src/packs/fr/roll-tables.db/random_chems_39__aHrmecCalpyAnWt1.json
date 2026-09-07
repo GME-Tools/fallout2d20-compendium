@@ -1,0 +1,14 @@
+{
+  "_id": "aHrmecCalpyAnWt1",
+  "_key": "!tables.results!isNdghTYF06GBC0m.aHrmecCalpyAnWt1",
+  "name": "X-Cell",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.28PbGcZHEDssWMfB]{X-Cell}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    40,
+    40
+  ],
+  "drawn": false
+}

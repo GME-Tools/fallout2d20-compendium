@@ -1,0 +1,14 @@
+{
+  "_id": "gVw8HAjtACEwQXnV",
+  "_key": "!tables.results!eVG1ynZ312G42zbE.gVw8HAjtACEwQXnV",
+  "name": "What Is Plasma, Anyway?",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.05H6aksyvOateBtf]{What Is Plasma, Anyway?}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    4
+  ],
+  "drawn": false
+}

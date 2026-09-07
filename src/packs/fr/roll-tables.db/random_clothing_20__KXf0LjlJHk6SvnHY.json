@@ -1,0 +1,14 @@
+{
+  "_id": "KXf0LjlJHk6SvnHY",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.KXf0LjlJHk6SvnHY",
+  "name": "Harnais",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.Z2wwI1RUjgV9UuzJ]{Harnais}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    21,
+    21
+  ],
+  "drawn": false
+}

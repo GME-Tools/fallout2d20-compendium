@@ -1,0 +1,14 @@
+{
+  "_id": "WofId4PXF0UoPzal",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.WofId4PXF0UoPzal",
+  "name": "Heavy Synth Armor",
+  "description": "Heavy Synth Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    39,
+    39
+  ],
+  "drawn": false
+}

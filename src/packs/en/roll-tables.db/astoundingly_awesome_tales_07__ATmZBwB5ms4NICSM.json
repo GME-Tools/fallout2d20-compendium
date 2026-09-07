@@ -1,0 +1,14 @@
+{
+  "_id": "ATmZBwB5ms4NICSM",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.ATmZBwB5ms4NICSM",
+  "name": "Giant Insects Invade!",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.1bOiFImI3fM9CaIJ]{Giant Insects Invade!}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    14
+  ],
+  "drawn": false
+}

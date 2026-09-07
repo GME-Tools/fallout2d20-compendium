@@ -1,0 +1,14 @@
+{
+  "_id": "O6WQFG3hhHGLOzhF",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.O6WQFG3hhHGLOzhF",
+  "name": "Peaux",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.LhR6Kj541PHxZ7Bo]{Peaux}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

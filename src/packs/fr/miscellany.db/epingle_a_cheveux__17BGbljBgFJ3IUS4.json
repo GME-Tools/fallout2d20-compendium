@@ -1,0 +1,38 @@
+{
+  "_id": "17BGbljBgFJ3IUS4",
+  "_key": "!items!17BGbljBgFJ3IUS4",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Bobby Pin.webp",
+  "name": "Épingle à cheveux",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 1,
+    "description": "<p>Cette épingle à cheveux flexible à deux branches, en métal ou en plastique, servait avant la Grande Guerre à maintenir les coiffures. Elle permet aussi de crocheter les serrures lorsqu’on sait s’en servir.</p>",
+    "effect": "<p>Réduit de 1 la difficulté des tests de Crochetage (minimum 1). Une épingle se brise par complication obtenue.</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "17BGbljBgFJ3IUS4",
+        "structuralBaseline": true,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

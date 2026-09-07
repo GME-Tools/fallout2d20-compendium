@@ -1,0 +1,43 @@
+{
+  "_id": "V8SOn4RCMzgkx4u0",
+  "_key": "!items!V8SOn4RCMzgkx4u0",
+  "effects": [],
+  "folder": "UPNJfveU9QazZ1vO",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Jungle of the Bat-Babies.webp",
+  "name": "La jungle des bébés chauves-souris",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Quand vous subissez des dégâts de poison, vous gagnez +3 en résistance aux dégâts de poison.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.FgiFIu2LmrckPy5Y]{La jungle des bébés chauves-souris}</p></section>",
+    "effect": "<p>Quand vous subissez des dégâts de poison, vous gagnez +3 en résistance aux dégâts de poison.</p>",
+    "favorite": false,
+    "publication": "Grognak le Barbare",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "V8SOn4RCMzgkx4u0",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

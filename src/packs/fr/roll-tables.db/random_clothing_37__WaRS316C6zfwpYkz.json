@@ -1,0 +1,14 @@
+{
+  "_id": "WaRS316C6zfwpYkz",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.WaRS316C6zfwpYkz",
+  "name": "Masque à gaz",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.YJBboQPnSQFg8kgp]{Masque à gaz}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    38,
+    38
+  ],
+  "drawn": false
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "fVZuL3ahbEKecx8W",
+  "_key": "!tables!fVZuL3ahbEKecx8W",
+  "name": "Random U.S. Covert Operations Manual Issues",
+  "description": "<p>Core Rulebook table, p. 179.</p>",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "t7WkjPlAL0MUJCUi",
+    "J3l9AuCynVGjj6bn",
+    "jsMJc1Zss6kDuv4i",
+    "CL5jJLWX6Vo4i3VC",
+    "SXKBBylU1SHqQDDX",
+    "rbrsKCjmTYXuAr0W",
+    "7zB7mMaG2tMpT6Za",
+    "6cdWdCW3FfMtgWYc",
+    "qXel8tUPz6W6uKW4",
+    "nbzlkwkP9KUrWEt6"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "page": 179,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

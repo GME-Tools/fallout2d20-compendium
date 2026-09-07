@@ -1,0 +1,14 @@
+{
+  "_id": "dA8N9PceaPQYQbEB",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.dA8N9PceaPQYQbEB",
+  "name": "Advice from Married Men",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.8uCaW6rs4fwDWJUF]{Advice from Married Men}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    12
+  ],
+  "drawn": false
+}

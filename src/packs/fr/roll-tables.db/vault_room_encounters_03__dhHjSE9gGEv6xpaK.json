@@ -1,0 +1,14 @@
+{
+  "_id": "dhHjSE9gGEv6xpaK",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.dhHjSE9gGEv6xpaK",
+  "name": "Bande de mutants",
+  "description": "2 à 4 mutants attaquent immédiatement. Sur 1d20, un résultat de 1 à 4 indique la présence d’au moins un super mutant.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    5
+  ],
+  "drawn": false
+}

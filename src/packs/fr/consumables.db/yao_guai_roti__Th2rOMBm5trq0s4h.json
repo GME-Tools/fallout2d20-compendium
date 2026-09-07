@@ -1,0 +1,82 @@
+{
+  "_id": "Th2rOMBm5trq0s4h",
+  "_key": "!items!Th2rOMBm5trq0s4h",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Yao Guai Roast.webp",
+  "name": "yao guai rôti",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 110,
+    "description": "<p>Une pièce de yao guai rôtie avec carotte et tato. Très nourrissante, elle aiguise temporairement l’instinct meurtrier et la capacité à infliger des dégâts.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.8Fv9dZQm5Dax1INF]{Carotte} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.4Z3zGSnBGJcgR5c2]{Tato} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.9vI0sFShvxahqMSW]{yao guai viande} ×1</li></ul></section>",
+    "duration": "",
+    "effect": "<p>Vos attaques de corps à corps infligent +2 @fos[DC] de dégâts jusqu’à la fin de la scène suivante.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 14,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Th2rOMBm5trq0s4h",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 3,
+        "skill": "Survie",
+        "perks": [],
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Carotte",
+            "canonicalName": "Carrot",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.8Fv9dZQm5Dax1INF"
+          },
+          {
+            "name": "Tato",
+            "canonicalName": "Tato",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.4Z3zGSnBGJcgR5c2"
+          },
+          {
+            "name": "yao guai viande",
+            "canonicalName": "Yao Guai Meat",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.9vI0sFShvxahqMSW"
+          }
+        ]
+      }
+    }
+  }
+}

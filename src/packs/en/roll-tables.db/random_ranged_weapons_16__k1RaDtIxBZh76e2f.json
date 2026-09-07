@@ -1,0 +1,14 @@
+{
+  "_id": "k1RaDtIxBZh76e2f",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.k1RaDtIxBZh76e2f",
+  "name": "10mm Pistol",
+  "description": "10mm Pistol",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    17
+  ],
+  "drawn": false
+}

@@ -1,0 +1,33 @@
+{
+  "source": "core_rulebook",
+  "pages": "76-81",
+  "errata": "V6 (2026)",
+  "packages": {
+    "Brotherhood": ["Brotherhood of Steel Initiate", "Brotherhood of Steel Scribe"],
+    "Mister Handy": ["Miss Nanny", "Mister Farmhand", "Mister Gutsy", "Mister Handy", "Nurse Handy"],
+    "Super Mutant": ["Brute", "Skirmisher"],
+    "Vault Dweller": ["Vault-Tec Resident", "Vault-Tec Security"],
+    "Wastelander": ["Mercenary", "Raider", "Settler", "Trader", "Wanderer"]
+  },
+  "requiredDocuments": [
+    { "pack": "ammunition", "names": [".308 Round", ".38 Round", "10mm Round", "Fusion Cell"] },
+    { "pack": "apparel", "names": ["Brotherhood Scribe's Armor", "Brotherhood Scribe's Hat", "Brotherhood of Steel Fatigues", "Brotherhood of Steel Hood", "Drifter Outfit", "Formal Clothing", "Formal Hat", "Harness", "Lab Coat", "Leather Chest Piece", "Leather Left Arm", "Leather Left Leg", "Leather Right Arm", "Leather Right Leg", "Raider Chest Piece", "Raider Left Arm", "Raider Left Leg", "Raider Right Arm", "Raider Right Leg", "Tough Clothing", "Vault Jumpsuit", "Vault-Tec Security Armor", "Vault-Tec Security Helmet"] },
+    { "pack": "consumables", "names": ["Buffout", "Calmex", "Jet", "Mentats", "Mutfruit", "Purified Water", "RadAway", "Robot Repair Kit", "Stimpak", "Iguana on a Stick"] },
+    { "pack": "miscellany", "names": ["Bobby Pin", "First Aid Kit", "Holotags", "Junk", "Multi-Tool", "Pack Brahmin", "Pip-Boy"] },
+    { "pack": "robot-armor", "names": ["Mister Gutsy Plating", "Standard Plating"] },
+    { "pack": "robot-modules", "names": ["Behavioral Analysis Mod", "Diagnosis Mod", "Hazard Detection Mod", "Integral Boiler Mod", "Recon Sensors"] },
+    { "pack": "weapons", "names": [".44 Pistol", "10mm Auto Pistol", "10mm Pistol", "Baseball Bat", "Baseball Grenade", "Baton", "Board", "Buzz-Saw", "Combat Knife", "Flamer", "Hunting Rifle", "Knuckles", "Laser Emitter", "Laser Gun", "Lead Pipe", "Machete", "Molotov Cocktail", "Pincer", "Pipe Bolt-Action", "Pipe Gun", "Pipe Wrench", "Pool Cue", "Rolling Pin", "Switchblade", "Throwing Knives", "Tire Iron", "Tomahawk"] },
+    { "pack": "roll-tables", "names": ["Random Trinkets"] }
+  ],
+  "nonDocumentComponents": [
+    "Caps",
+    "Fertilizer represented as 1 uncommon material",
+    "Broken car parts represented as 5 common materials",
+    "Job advertisement note",
+    "Player-created personal trinket"
+  ],
+  "latestErrata": [
+    "Mister Farmhand fertilizer is explicitly 1 uncommon material.",
+    "Super Mutant Skirmisher receives a pipe rifle with long barrel and full stock, plus 6 + 3 CD .308 rounds."
+  ]
+}

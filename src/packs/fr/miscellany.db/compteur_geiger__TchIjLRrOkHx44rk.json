@@ -1,0 +1,38 @@
+{
+  "_id": "TchIjLRrOkHx44rk",
+  "_key": "!items!TchIjLRrOkHx44rk",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Geiger Counter.webp",
+  "name": "Compteur Geiger",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 325,
+    "description": "<p>Un compteur Geiger est un appareil relativement simple servant à détecter les radiations ionisantes. Leur intensité s’affiche sur une petite jauge et est signalée par le cliquetis caractéristique produit électroniquement afin de faciliter la détection et la surveillance.</p>",
+    "effect": "<p>Permet un test de PER + Survie de difficulté 1 pour détecter la présence et l’intensité des radiations.</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 8
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "TchIjLRrOkHx44rk",
+        "structuralBaseline": true,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "c2XK8yWqsJmMpCPD",
+  "_key": "!tables.results!sa66QXOwlO8515AT.c2XK8yWqsJmMpCPD",
+  "name": "Missile (2+1 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.7wHhQWCH5t1h8gAR]{Missile (2+1 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    35,
+    35
+  ],
+  "drawn": false
+}

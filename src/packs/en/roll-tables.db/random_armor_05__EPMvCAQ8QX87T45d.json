@@ -1,0 +1,14 @@
+{
+  "_id": "EPMvCAQ8QX87T45d",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.EPMvCAQ8QX87T45d",
+  "name": "Power Armor Frame",
+  "description": "Power Armor Frame",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    6,
+    6
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "uEIk7TMXLobCWICy",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.uEIk7TMXLobCWICy",
+  "name": "Vêtements élégants",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.RWHypmbHATEbfGdU]{Vêtements élégants}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

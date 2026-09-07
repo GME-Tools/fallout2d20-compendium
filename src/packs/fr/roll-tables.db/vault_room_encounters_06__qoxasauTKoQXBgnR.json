@@ -1,0 +1,14 @@
+{
+  "_id": "qoxasauTKoQXBgnR",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.qoxasauTKoQXBgnR",
+  "name": "Les morts",
+  "description": "Les traces d’une bataille. Un test approprié permet de trouver autant de jours d’eau pure et de nourriture saine que de réussites.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    13
+  ],
+  "drawn": false
+}

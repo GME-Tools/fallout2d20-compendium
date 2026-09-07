@@ -1,0 +1,14 @@
+{
+  "_id": "kiVY2f6v55CH2cyc",
+  "_key": "!tables.results!eVG1ynZ312G42zbE.kiVY2f6v55CH2cyc",
+  "name": "Geckos et radiations gamma",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.L7d6xppSur7dXyKt]{Geckos et radiations gamma}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    12
+  ],
+  "drawn": false
+}

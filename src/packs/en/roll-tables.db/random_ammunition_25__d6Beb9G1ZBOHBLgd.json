@@ -1,0 +1,14 @@
+{
+  "_id": "d6Beb9G1ZBOHBLgd",
+  "_key": "!tables.results!sa66QXOwlO8515AT.d6Beb9G1ZBOHBLgd",
+  "name": "Shotgun Shells (6+3 CD)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.PZWO5Wj3kzBXCJJM]{Shotgun Shells (6+3 CD)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    26,
+    26
+  ],
+  "drawn": false
+}

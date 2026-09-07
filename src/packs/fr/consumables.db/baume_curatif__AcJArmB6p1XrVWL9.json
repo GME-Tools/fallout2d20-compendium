@@ -1,0 +1,52 @@
+{
+  "_id": "AcJArmB6p1XrVWL9",
+  "_key": "!items!AcJArmB6p1XrVWL9",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Healing Salve.webp",
+  "name": "Baume curatif",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 20,
+    "description": "<p>Baume composé de plantes qui réduit la douleur et accélère la guérison. <strong>Utilisation :</strong> par l’action mineure Prendre une drogue, il soigne immédiatement 2 Santé ; appliqué pendant une action de Premiers secours, il ajoute +2 au total de Santé récupérée.</p>",
+    "duration": "instant",
+    "effect": "<p>Soigne 2 PV (voir description).</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 2,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "AcJArmB6p1XrVWL9",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

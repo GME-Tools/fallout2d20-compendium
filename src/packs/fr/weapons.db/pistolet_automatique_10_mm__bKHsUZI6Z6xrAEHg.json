@@ -1,0 +1,239 @@
+{
+  "_id": "bKHsUZI6Z6xrAEHg",
+  "_key": "!items!bKHsUZI6Z6xrAEHg",
+  "effects": [],
+  "folder": "wuijs0qVP74GkECb",
+  "img": "modules/fallout2d20-compendium/artwork/Weapons/10mm Pistol.webp",
+  "name": "Pistolet automatique 10 mm",
+  "system": {
+    "ammo": "Cartouche 10 mm",
+    "ammoPerShot": 1,
+    "attribute": "",
+    "canBeScrapped": true,
+    "condition": "",
+    "consumedOnUse": false,
+    "cost": 80,
+    "creatureAttribute": "body",
+    "creatureSkill": "guns",
+    "damage": {
+      "damageEffect": {
+        "arc": {
+          "rank": 0,
+          "value": 0
+        },
+        "breaking": {
+          "rank": 0,
+          "value": 0
+        },
+        "burst": {
+          "rank": 0,
+          "value": 1
+        },
+        "freeze": {
+          "rank": 0,
+          "value": 0
+        },
+        "persistent": {
+          "rank": 0,
+          "value": 0
+        },
+        "piercing_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "radioactive": {
+          "rank": 0,
+          "value": 0
+        },
+        "spread": {
+          "rank": 0,
+          "value": 0
+        },
+        "stun": {
+          "rank": 0,
+          "value": 0
+        },
+        "tranquilize_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "vicious": {
+          "rank": 0,
+          "value": 0
+        }
+      },
+      "damageType": {
+        "energy": false,
+        "physical": true,
+        "poison": false,
+        "radiation": false
+      },
+      "originalDamageType": {
+        "energy": false,
+        "physical": false,
+        "poison": false,
+        "radiation": false
+      },
+      "originalRating": 0,
+      "rating": 3,
+      "weaponQuality": {
+        "accurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "ammo_hungry_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "aquatic": {
+          "rank": 0,
+          "value": 0
+        },
+        "blast": {
+          "rank": 0,
+          "value": 0
+        },
+        "bombard": {
+          "rank": 0,
+          "value": 0
+        },
+        "close_quarters": {
+          "rank": 0,
+          "value": 1
+        },
+        "concealed": {
+          "rank": 0,
+          "value": 0
+        },
+        "debilitating": {
+          "rank": 0,
+          "value": 0
+        },
+        "delay_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "fuel_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "gatling": {
+          "rank": 0,
+          "value": 0
+        },
+        "inaccurate": {
+          "rank": 0,
+          "value": 1
+        },
+        "limited": {
+          "rank": 0,
+          "value": 0
+        },
+        "mine": {
+          "rank": 0,
+          "value": 0
+        },
+        "night_vision": {
+          "rank": 0,
+          "value": 0
+        },
+        "parry": {
+          "rank": 0,
+          "value": 0
+        },
+        "placed": {
+          "rank": 0,
+          "value": 0
+        },
+        "recoil_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "recon": {
+          "rank": 0,
+          "value": 0
+        },
+        "reliable": {
+          "rank": 0,
+          "value": 1
+        },
+        "slow_load": {
+          "rank": 0,
+          "value": 0
+        },
+        "suppressed": {
+          "rank": 0,
+          "value": 0
+        },
+        "surge": {
+          "rank": 0,
+          "value": 0
+        },
+        "thrown": {
+          "rank": 0,
+          "value": 0
+        },
+        "two_handed": {
+          "rank": 0,
+          "value": 0
+        },
+        "unreliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "unstable_radiation": {
+          "rank": 0,
+          "value": 0
+        },
+        "wrangle": {
+          "rank": 0,
+          "value": 0
+        }
+      }
+    },
+    "description": "<p>Munitions : cartouches 10 mm Petit, sûr, raisonnablement puissant et aisé à trouver, le pistolet 10 mm est impliqué dans l’immense majorité des combats dans les Terres désolées depuis la chute des bombes. Grâce à sa polyvalence et à la possibilité de lui appliquer des modules, un pistolet 10 mm bien entretenu garantit la sécurité de son propriétaire pendant longtemps. Un pistolet 10 mm peut accepter un mod de chaque type parmi les suivants:  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, avancée  Canon: canon long, canon à ouvertures  Poignée: poignée confort, poignée de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette de reconnaissance  Bouche: compensateur, silencieux</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "fireRate": 4,
+    "isJunk": false,
+    "melee": false,
+    "mods": {
+      "current": 1,
+      "installedMods": "",
+      "list": "<p>@UUID[Compendium.fallout2d20-compendium.fr-weapon-mods.Item.Jyy3vdkQv7YCfvFz]{Automatic}</p>",
+      "max": 6,
+      "modded": false
+    },
+    "naturalWeapon": false,
+    "originalAmmoPerShot": 0,
+    "quantity": 1,
+    "range": "close",
+    "rarity": 1,
+    "skill": "",
+    "source": "core_rulebook",
+    "stashed": false,
+    "tear": 0,
+    "weaponType": "smallGuns",
+    "weight": 5
+  },
+  "type": "weapon",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "95-121",
+        "translatedFrom": "bKHsUZI6Z6xrAEHg",
+        "extraction": "derived",
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "uuidLinksReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for 10mm Auto Pistol"
+      }
+    }
+  }
+}

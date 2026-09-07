@@ -1,0 +1,14 @@
+{
+  "_id": "XwfWk7vGpiTHOgF1",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.XwfWk7vGpiTHOgF1",
+  "name": "Laser Rifle",
+  "description": "Laser Rifle",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

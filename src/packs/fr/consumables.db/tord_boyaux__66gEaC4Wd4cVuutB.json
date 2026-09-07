@@ -1,0 +1,51 @@
+{
+  "_id": "66gEaC4Wd4cVuutB",
+  "_key": "!items!66gEaC4Wd4cVuutB",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Moonshine.webp",
+  "name": "Tord-boyaux",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "beverage",
+    "cost": 30,
+    "description": "<p>Terme courant désignant les alcools très forts distillés clandestinement ou avec des moyens improvisés. Leurs origines incertaines les rendent dangereux et souvent contaminés. Ce qui ne vous tue pas vous laissera probablement insensible et imperméable à la douleur — à moins de vous assommer complètement.</p>",
+    "duration": "",
+    "effect": "<p>Vos PV maximums augmentent de 2.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1,
+    "weight": 0.5
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "66gEaC4Wd4cVuutB",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

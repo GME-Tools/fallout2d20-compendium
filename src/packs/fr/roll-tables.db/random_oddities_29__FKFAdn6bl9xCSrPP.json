@@ -1,0 +1,14 @@
+{
+  "_id": "FKFAdn6bl9xCSrPP",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.FKFAdn6bl9xCSrPP",
+  "name": "1d20 capsules",
+  "description": "1d20 capsules",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    31,
+    31
+  ],
+  "drawn": false
+}

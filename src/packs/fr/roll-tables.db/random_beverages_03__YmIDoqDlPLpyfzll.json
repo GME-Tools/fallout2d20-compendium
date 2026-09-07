@@ -1,0 +1,14 @@
+{
+  "_id": "YmIDoqDlPLpyfzll",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.YmIDoqDlPLpyfzll",
+  "name": "Whisky",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.u9KyfdRIzyQhCjnn]{Whisky}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    4
+  ],
+  "drawn": false
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "myLKlpSjf9nqNpTN",
+  "_key": "!items!myLKlpSjf9nqNpTN",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Bobines de radiation",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 50,
+    "description": "<p>Une série d’antennes placées à la surface du robot projette des radiations mortelles à courte distance afin de blesser et repousser les intrus. Un interrupteur interne permet de désactiver les bobines lorsque des alliés s’approchent trop près, car les radiations sont tout aussi nocives pour eux.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "effect": "<p>Peuvent être activées ou désactivées au début d’un tour. Lorsqu’elles sont actives, toutes les créatures à portée de contact subissent 3 @fos[DC] de dégâts de radiation à la fin du tour du robot.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 1",
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": -10
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "myLKlpSjf9nqNpTN",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "modules",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [
+          "Expert en robotique 1"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

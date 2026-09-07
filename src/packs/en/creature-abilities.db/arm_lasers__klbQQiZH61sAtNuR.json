@@ -1,0 +1,188 @@
+{
+  "_id": "klbQQiZH61sAtNuR",
+  "name": "Arm Lasers",
+  "type": "weapon",
+  "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.aSM423jHNM9YfUdZ"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": "0",
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "equippable": true,
+    "equipped": false,
+    "melee": false,
+    "weaponType": "creatureAttack",
+    "ammo": "",
+    "ammoPerShot": 1,
+    "attribute": "body",
+    "skill": "guns",
+    "damage": {
+      "rating": 3,
+      "damageType": {
+        "physical": false,
+        "energy": true,
+        "radiation": false,
+        "poison": false
+      },
+      "damageEffect": {
+        "burst": {
+          "label": "Burst",
+          "value": true,
+          "description": ""
+        },
+        "breaking": {
+          "label": "Breaking",
+          "value": false,
+          "description": ""
+        },
+        "persistent": {
+          "label": "Persistent",
+          "value": false,
+          "description": ""
+        },
+        "piercing": {
+          "label": "Piercing",
+          "value": true,
+          "rank": 1,
+          "description": ""
+        },
+        "radioactive": {
+          "label": "Radioactive",
+          "value": false,
+          "description": ""
+        },
+        "spread": {
+          "label": "Spread",
+          "value": false,
+          "description": ""
+        },
+        "stun": {
+          "label": "Stun",
+          "value": false,
+          "description": ""
+        },
+        "vicious": {
+          "label": "Vicious",
+          "value": false,
+          "description": ""
+        }
+      },
+      "weaponQuality": {
+        "accurate": {
+          "label": "Accurate",
+          "value": false,
+          "description": ""
+        },
+        "blast": {
+          "label": "Blast",
+          "value": false,
+          "description": ""
+        },
+        "closeQuarters": {
+          "label": "Close Quarters",
+          "value": false,
+          "description": ""
+        },
+        "concealed": {
+          "label": "Concealed",
+          "value": false,
+          "description": ""
+        },
+        "debilitating": {
+          "label": "Debilitating",
+          "value": false,
+          "description": ""
+        },
+        "gatling": {
+          "label": "Gatling",
+          "value": false,
+          "description": ""
+        },
+        "inaccurate": {
+          "label": "Inaccurate",
+          "value": false,
+          "description": ""
+        },
+        "mine": {
+          "label": "Mine",
+          "value": false,
+          "description": ""
+        },
+        "nightVision": {
+          "label": "Night Vision",
+          "value": false,
+          "description": ""
+        },
+        "parry": {
+          "label": "Parry",
+          "value": false,
+          "description": ""
+        },
+        "recon": {
+          "label": "Recon",
+          "value": false,
+          "description": ""
+        },
+        "reliable": {
+          "label": "Reliable",
+          "value": false,
+          "description": ""
+        },
+        "suppressed": {
+          "label": "Suppressed",
+          "value": false,
+          "description": ""
+        },
+        "thrown": {
+          "label": "Thrown",
+          "value": false,
+          "description": ""
+        },
+        "twoHanded": {
+          "label": "Two-Handed",
+          "value": false,
+          "description": ""
+        },
+        "unreliable": {
+          "label": "Unreliable",
+          "value": false,
+          "description": ""
+        }
+      }
+    },
+    "range": "close",
+    "fireRate": 4,
+    "condition": "",
+    "mods": {
+      "max": 0,
+      "current": 0,
+      "list": ""
+    },
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!klbQQiZH61sAtNuR"
+}

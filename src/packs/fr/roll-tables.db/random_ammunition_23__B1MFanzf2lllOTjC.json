@@ -1,0 +1,14 @@
+{
+  "_id": "B1MFanzf2lllOTjC",
+  "_key": "!tables.results!sa66QXOwlO8515AT.B1MFanzf2lllOTjC",
+  "name": "Cartouche .308 — .308 ammo (6+3 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.fuCYfiQzOvr4WtJI]{Cartouche .308 — .308 ammo (6+3 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    24,
+    24
+  ],
+  "drawn": false
+}

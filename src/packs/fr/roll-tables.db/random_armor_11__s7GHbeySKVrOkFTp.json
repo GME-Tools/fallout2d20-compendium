@@ -1,0 +1,14 @@
+{
+  "_id": "s7GHbeySKVrOkFTp",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.s7GHbeySKVrOkFTp",
+  "name": "Armure lourde de métal",
+  "description": "Armure lourde de métal",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    12,
+    12
+  ],
+  "drawn": false
+}

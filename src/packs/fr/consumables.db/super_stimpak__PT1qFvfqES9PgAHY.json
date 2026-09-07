@@ -1,0 +1,52 @@
+{
+  "_id": "PT1qFvfqES9PgAHY",
+  "_key": "!items!PT1qFvfqES9PgAHY",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Super Stimpak.webp",
+  "name": "Super Stimpak",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 90,
+    "description": "<p>Version améliorée du Stimpak dotée d’un flacon supplémentaire et d’une sangle maintenant l’aiguille au bras, son cocktail plus puissant soigne bien davantage. <strong>Utilisation :</strong> par l’action mineure Prendre une drogue, il soigne immédiatement 8 Santé ou jusqu’à deux Blessures ; pendant une action de Premiers secours, il soigne 8 Santé ou jusqu’à deux Blessures en plus des autres soins.</p>",
+    "duration": "instant",
+    "effect": "<p>Soigne 8 PV (voir description).</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 8,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "PT1qFvfqES9PgAHY",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

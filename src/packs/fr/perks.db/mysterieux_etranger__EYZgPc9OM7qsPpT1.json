@@ -1,0 +1,71 @@
+{
+  "_id": "EYZgPc9OM7qsPpT1",
+  "_key": "!items!EYZgPc9OM7qsPpT1",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Mysterious Stranger.webp",
+  "name": "Mystérieux Étranger",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : CHA 7 De temps à autre, un Mystérieux étranger vous vient en aide, avec des résultats mortels. Au début d’une rencontre de combat, vous pouvez dépenser 1 point de chance. Si vous le faites, le MJ peut faire apparaître, à n’importe quel moment de la scène, le Mystérieux étranger : il effectue une unique attaque à distance contre un adversaire que vous avez déjà attaqué, ou qui vient de vous attaquer, puis disparaît. Si vous avez dépensé un point de chance, le MJ doit vous le restituer si le Mystérieux étranger n’est pas apparu. L’étranger a une AGI de 10 et une compétence Armes légères de 6, et cette dernière est un atout personnel. Il lance toujours 3d20 pour son attaque, au lieu des 2d20 habituels, et l’exécute avec un revolver .44 Magnum personnalisé, et elle inflige 8 @fos[DC] de dégâts balistiques Brutaux et Perforants 1. L’étranger apparaît toujours à la portée optimale de son arme. Toute tentative de retrouver l’étranger après son attaque est vouée à l’échec.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 7
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "EYZgPc9OM7qsPpT1",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "e6tIVbIcM6krBmSu",
+  "_key": "!items!e6tIVbIcM6krBmSu",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Dandy Boy Apples.webp",
+  "name": "Dandy Boy Apples",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 7,
+    "description": "<p>Pommes confites produites par Dandy Boy, une friandise fruitée extrêmement sucrée vendue en boîte de carton. Leur forte teneur en sucre les a bien conservées ; on en trouve encore dans les commerces en ruine ou chez ceux qui viennent de les piller.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "e6tIVbIcM6krBmSu",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

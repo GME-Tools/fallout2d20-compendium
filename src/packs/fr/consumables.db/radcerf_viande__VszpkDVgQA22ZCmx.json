@@ -1,0 +1,52 @@
+{
+  "_id": "VszpkDVgQA22ZCmx",
+  "_key": "!items!VszpkDVgQA22ZCmx",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "radcerf viande",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 50,
+    "description": "<p>Morceau volumineux prélevé sur un radcerf mort, permettant de préparer des repas nutritifs et rassasiants. Il se cuisine en radcerf grillé ou entre dans un ragoût de radcerf.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 8,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "VszpkDVgQA22ZCmx",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

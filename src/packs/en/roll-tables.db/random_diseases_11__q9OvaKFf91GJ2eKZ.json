@@ -1,0 +1,14 @@
+{
+  "_id": "q9OvaKFf91GJ2eKZ",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.q9OvaKFf91GJ2eKZ",
+  "name": "Needle Spine",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-diseases.Item.fQlyzYWzV5a2qkvO]{Needle Spine}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    11
+  ],
+  "drawn": false
+}

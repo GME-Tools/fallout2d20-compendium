@@ -1,0 +1,43 @@
+{
+  "_id": "ZHve7VSwmsyHRjom",
+  "_key": "!items!ZHve7VSwmsyHRjom",
+  "effects": [],
+  "folder": "1zjvYqW9iGXJxBbY",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Confessions of a Housebreaker.webp",
+  "name": "Confessions d’un monte-en-l’air",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’avant-guerre consacré à l’art clandestin du crochetage et aux dernières avancées des serrures mécaniques.</p><p><strong>Aptitude :</strong> Quand vous fouillez ou récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2+2 DC épingles à cheveux.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.PCA8zoHuaLjnsF7g]{Confessions d’un monte-en-l’air}</p></section>",
+    "effect": "<p>Quand vous fouillez ou récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2+2 DC épingles à cheveux.</p>",
+    "favorite": false,
+    "publication": "Gorges et pênes",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ZHve7VSwmsyHRjom",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "RkftnkHGKVnz6URN",
+  "_key": "!items!RkftnkHGKVnz6URN",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Rifleman.webp",
+  "name": "Fusilier",
+  "system": {
+    "description": "<p>Rangs : 2 Prérequis : AGI 7, niveau 2+ Lorsque vous effectuez une attaque avec une arme à distance à deux mains dotée d’une cadence de tir inférieure ou égale à 2 (à l’exception des armes lourdes), ajoutez +1 @fos[DC] aux dégâts de l’arme par rang dans cette aptitude. De plus, au rang 2, ajoutez l’effet de dégâts Perforant 1. Si l’attaque bénéficie déjà de cet effet, la valeur de ce dernier augmente de 1. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 2,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 7
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 2,
+      "levelIncrease": 4,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "RkftnkHGKVnz6URN",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "4oVio8ILeDKARoSX",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.4oVio8ILeDKARoSX",
+  "name": "Rouleau à pâtisserie",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.66p1lQmwPXZINPKn]{Rouleau à pâtisserie}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    25,
+    25
+  ],
+  "drawn": false
+}

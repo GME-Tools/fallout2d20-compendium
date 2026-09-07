@@ -1,0 +1,52 @@
+{
+  "_id": "UlhNGl3T0UejS5ZW",
+  "_key": "!items!UlhNGl3T0UejS5ZW",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Beer.webp",
+  "name": "Bière",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "beverage",
+    "cost": 5,
+    "description": "<p>L’une des plus anciennes boissons humaines, la bière est une boisson alcoolisée gazeuse issue de céréales fermentées, appréciée avant la Guerre pour se détendre. Ale, lager, stout et autres variantes ont leurs propres ingrédients et partisans, mais des effets semblables. Vous récupérez 1 capsule en ouvrant et buvant une bouteille.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": true,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "UlhNGl3T0UejS5ZW",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

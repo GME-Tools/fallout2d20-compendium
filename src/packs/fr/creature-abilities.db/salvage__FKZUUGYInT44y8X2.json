@@ -1,0 +1,44 @@
+{
+  "name": "Récupération",
+  "type": "miscellany",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.5jwQMeycCKWDROpB"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "FKZUUGYInT44y8X2",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "FKZUUGYInT44y8X2",
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": "0",
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "effect": "<p>Les récupérateurs peuvent démonter une [créature] détruite avec un test d’INT + Sciences de difficulté 1 réussi. Ils obtiennent 3 @fos[DC] cellules à fusion, +1 @fos[DC] par PA dépensé, et 1 matériau peu commun par Effet obtenu.</p>",
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!FKZUUGYInT44y8X2"
+}

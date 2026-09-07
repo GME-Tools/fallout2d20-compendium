@@ -1,0 +1,47 @@
+{
+  "_id": "4Z3zGSnBGJcgR5c2",
+  "_key": "!items!4Z3zGSnBGJcgR5c2",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Tato.webp",
+  "name": "Tato",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 7,
+    "description": "<p><span class=\"fontstyle0\">A mutated hybrid of the pre-War tomato and potato plants, with the stem and reddish skin of the former and the brownish flesh of the latter. Tatos provide decent nutrition, but taste disgusting. However, they&rsquo;re relatively easy to grow and thus are a staple of wasteland agriculture and is an ingredient in a variety of recipes.</span> </p>",
+    "duration": "",
+    "effect": "<p></p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

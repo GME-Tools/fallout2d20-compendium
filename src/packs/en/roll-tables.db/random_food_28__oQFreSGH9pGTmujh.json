@@ -1,0 +1,14 @@
+{
+  "_id": "oQFreSGH9pGTmujh",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.oQFreSGH9pGTmujh",
+  "name": "Corn",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.qeN8bq9CJ3EYwwAE]{Corn}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    29,
+    29
+  ],
+  "drawn": false
+}

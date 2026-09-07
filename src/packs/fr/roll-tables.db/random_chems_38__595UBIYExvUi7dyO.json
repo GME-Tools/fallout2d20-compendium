@@ -1,0 +1,14 @@
+{
+  "_id": "595UBIYExvUi7dyO",
+  "_key": "!tables.results!isNdghTYF06GBC0m.595UBIYExvUi7dyO",
+  "name": "Fury",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.MPGzjHEzGF9yW97k]{Fury}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    39,
+    39
+  ],
+  "drawn": false
+}

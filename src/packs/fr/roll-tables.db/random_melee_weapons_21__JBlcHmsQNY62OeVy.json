@@ -1,0 +1,14 @@
+{
+  "_id": "JBlcHmsQNY62OeVy",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.JBlcHmsQNY62OeVy",
+  "name": "Planche",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.CKolMtDxOzC8QdSD]{Planche}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    22,
+    22
+  ],
+  "drawn": false
+}

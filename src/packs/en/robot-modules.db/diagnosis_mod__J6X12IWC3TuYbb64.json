@@ -1,0 +1,38 @@
+{
+  "_id": "J6X12IWC3TuYbb64",
+  "_key": "!items!J6X12IWC3TuYbb64",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Diagnosis Mod",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 50,
+    "description": "<p>Designed to allow Mister Handy robots to be repurposed as nurses and field medics during a crisis, the diagnosis module allows the robot to discern the nature of injuries and illnesses on a patient and devise the correct treatment quickly. Proper bedside manner, however, was not included in the module.</p>",
+    "effect": "<p>Reduce the difficulty of Medicine tests by 1 (min. 0)</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 1",
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

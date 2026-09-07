@@ -1,0 +1,32 @@
+{
+  "_id": "FNaxpHwWUx5Ioiit",
+  "_key": "!items!FNaxpHwWUx5Ioiit",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/X-Cell.webp",
+  "name": "X-Cell",
+  "system": {
+    "description": "<p>La difficulté de tous vos tests augmente de +1 quand vous n’êtes pas sous l’effet du X-Cell.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "FNaxpHwWUx5Ioiit",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

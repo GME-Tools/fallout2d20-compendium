@@ -1,0 +1,52 @@
+{
+  "_id": "68eulbmhBZbFJlcs",
+  "_key": "!items!68eulbmhBZbFJlcs",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Bourbon.webp",
+  "name": "Bourbon",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "beverage",
+    "cost": 7,
+    "description": "<p>Type de whiskey typiquement américain, le bourbon est un alcool distillé, vieilli en fût et principalement produit à partir de maïs. Avant la Guerre, ses amateurs avaient la réputation d’être robustes et endurcis.</p>",
+    "duration": "",
+    "effect": "<p>Relancez 1d20 lors des tests d’END.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "68eulbmhBZbFJlcs",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

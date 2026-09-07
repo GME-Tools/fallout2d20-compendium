@@ -1,0 +1,43 @@
+{
+  "_id": "Hb3AdW5QaAHVDlNZ",
+  "_key": "!items!Hb3AdW5QaAHVDlNZ",
+  "effects": [],
+  "folder": "KhW0UE056TAgf0NU",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Will Robots Rule the World.webp",
+  "name": "Les robots dirigeront-ils le monde ?",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les Robots.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.9LAlQMlnpZ2lYqKV]{Les robots dirigeront-ils le monde ?}</p></section>",
+    "effect": "<p>Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les Robots.</p>",
+    "favorite": false,
+    "publication": "Science Tesla",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Hb3AdW5QaAHVDlNZ",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

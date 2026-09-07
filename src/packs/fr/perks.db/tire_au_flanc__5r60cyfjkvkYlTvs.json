@@ -1,0 +1,71 @@
+{
+  "_id": "5r60cyfjkvkYlTvs",
+  "_key": "!items!5r60cyfjkvkYlTvs",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Dodger.webp",
+  "name": "Tire-au-flanc",
+  "system": {
+    "description": "<p>Rangs : 2 Prérequis : AGI 6, niveau 4+ Au rang 1, lorsque vous entreprenez l’action capitale Se protéger, réduisez de 1 la difficulté du test de compétence. Au rang 2, améliorer votre défense ne vous coûte plus que 1 PA. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 6.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 2,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 6
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 4,
+      "levelIncrease": 6,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "5r60cyfjkvkYlTvs",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

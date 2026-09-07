@@ -1,0 +1,14 @@
+{
+  "_id": "hQ8tGfvRkuGqZ688",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.hQ8tGfvRkuGqZ688",
+  "name": "Armure légère pour chien",
+  "description": "Armure légère pour chien",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    24,
+    24
+  ],
+  "drawn": false
+}

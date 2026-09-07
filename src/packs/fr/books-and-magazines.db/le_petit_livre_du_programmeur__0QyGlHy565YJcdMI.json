@@ -1,0 +1,43 @@
+{
+  "_id": "0QyGlHy565YJcdMI",
+  "_key": "!items!0QyGlHy565YJcdMI",
+  "effects": [],
+  "folder": "Yz1YYU8QjGg1Lrdb",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Programmers Digest.webp",
+  "name": "Le petit livre du programmeur",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine consacré à l’informatique, à la programmation et au cryptage.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.xmOWzjBpDXRfPa9Y]{Le petit livre du programmeur}</p></section>",
+    "effect": "<p>Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau.</p>",
+    "favorite": false,
+    "publication": "Le petit livre du programmeur",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "0QyGlHy565YJcdMI",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

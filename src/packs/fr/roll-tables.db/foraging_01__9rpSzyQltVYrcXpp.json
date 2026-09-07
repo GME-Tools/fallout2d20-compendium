@@ -1,0 +1,14 @@
+{
+  "_id": "9rpSzyQltVYrcXpp",
+  "_key": "!tables.results!DDXZDnebSdYipB0t.9rpSzyQltVYrcXpp",
+  "name": "Brain Fungus",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ]{Brain Fungus}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    1
+  ],
+  "drawn": false
+}

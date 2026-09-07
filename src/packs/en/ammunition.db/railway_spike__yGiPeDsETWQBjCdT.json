@@ -1,0 +1,44 @@
+{
+  "_id": "yGiPeDsETWQBjCdT",
+  "_key": "!items!yGiPeDsETWQBjCdT",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/Railway Spike.webp",
+  "name": "Railway Spike",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 1,
+    "description": "<p><span class=\"fontstyle0\">Iron spikes designed for fastening railway tracks in place. Not as easy to find as you might think, given their mundane origins.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 6+3dc # Railway Spike]]</p>",
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "6+3dc",
+    "rarity": 2,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": "",
+    "weight": 0.2
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

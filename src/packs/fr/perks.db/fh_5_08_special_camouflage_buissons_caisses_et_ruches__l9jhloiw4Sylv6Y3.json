@@ -1,0 +1,73 @@
+{
+  "_id": "l9jhloiw4Sylv6Y3",
+  "_key": "!items!l9jhloiw4Sylv6Y3",
+  "effects": [],
+  "folder": "yqwsUbSI5liyBtpj",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/FH 5-08 Bushes, Boxes, and Beehives Camouflage Special.webp",
+  "name": "FH 5-08 Spécial camouflage : buissons, caisses et ruches",
+  "system": {
+    "description": "<p>Une attaque à mains nues ou portée avec un couteau inflige +2 DC de dégâts.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [
+        "Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.m6XUFT8MYFsgAvyH"
+      ],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "structuralBaseline": false,
+        "translationReviewed": true,
+        "uuidLinksReviewed": true,
+        "magazineAutomationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated Core magazine"
+      }
+    }
+  }
+}

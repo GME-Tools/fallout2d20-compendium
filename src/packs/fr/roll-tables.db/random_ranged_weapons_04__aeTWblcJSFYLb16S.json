@@ -1,0 +1,14 @@
+{
+  "_id": "aeTWblcJSFYLb16S",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.aeTWblcJSFYLb16S",
+  "name": "Lance-missiles",
+  "description": "Lance-missiles",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    5
+  ],
+  "drawn": false
+}

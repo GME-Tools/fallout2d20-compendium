@@ -1,0 +1,32 @@
+{
+  "_id": "6ZJOHvTML67QyE5E",
+  "_key": "!items!6ZJOHvTML67QyE5E",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Psycho.webp",
+  "name": "Psycho",
+  "system": {
+    "description": "<p>La difficulté de tous vos tests de FOR augmente de +1 et vous subissez +1 DC de dégâts de toutes les attaques physiques quand vous n’êtes pas sous l’effet d’un type de Psycho (Psycho, Psycho Jet, Psychobuff ou Psychotats).</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "6ZJOHvTML67QyE5E",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

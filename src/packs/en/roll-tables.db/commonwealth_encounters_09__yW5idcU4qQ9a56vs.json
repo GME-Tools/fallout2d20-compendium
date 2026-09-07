@@ -1,0 +1,14 @@
+{
+  "_id": "yW5idcU4qQ9a56vs",
+  "_key": "!tables.results!7TlfIIW1OHVVazkg.yW5idcU4qQ9a56vs",
+  "name": "Mirelurk Queen",
+  "description": "A mirelurk queen and brood protect a spawning pool.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    18
+  ],
+  "drawn": false
+}

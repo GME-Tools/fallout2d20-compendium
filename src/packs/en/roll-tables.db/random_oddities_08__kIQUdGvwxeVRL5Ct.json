@@ -1,0 +1,14 @@
+{
+  "_id": "kIQUdGvwxeVRL5Ct",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.kIQUdGvwxeVRL5Ct",
+  "name": "Stealth Field",
+  "description": "Stealth Field",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

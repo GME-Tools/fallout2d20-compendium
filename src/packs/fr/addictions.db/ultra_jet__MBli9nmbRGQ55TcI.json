@@ -1,0 +1,31 @@
+{
+  "_id": "MBli9nmbRGQ55TcI",
+  "_key": "!items!MBli9nmbRGQ55TcI",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/addiction.svg",
+  "name": "Ultra Jet",
+  "system": {
+    "description": "<p>La difficulté de tous vos tests d’AGI augmente de +1 et vous générez 1 PA de moins lorsque vous réussissez un test de compétence (minimum 0) quand vous n’êtes pas sous l’effet de l’Ultra Jet. Cette dépendance est permanente et ne peut être soignée par aucun moyen connu.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "MBli9nmbRGQ55TcI",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

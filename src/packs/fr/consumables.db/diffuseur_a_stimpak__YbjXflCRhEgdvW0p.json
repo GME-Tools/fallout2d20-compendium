@@ -1,0 +1,52 @@
+{
+  "_id": "YbjXflCRhEgdvW0p",
+  "_key": "!items!YbjXflCRhEgdvW0p",
+  "effects": [],
+  "folder": "SI3ySgcRWajbytaR",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Stimpak Diffuser.webp",
+  "name": "Diffuseur à Stimpak",
+  "system": {
+    "addiction": 0,
+    "addictive": "0",
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "other",
+    "cost": 100,
+    "description": "<p>Ce dispositif disperse le contenu d’un super Stimpak dans un nuage d’aérosol médicinal. <strong>Utilisation :</strong> déployé par l’action mineure Interagir, il soigne immédiatement 4 Santé à toutes les créatures non robotiques à portée Courte. Chaque utilisation consomme un super Stimpak.</p>",
+    "duration": "Instant",
+    "effect": "<p>Soigne 4 PV à toutes les cibles à portée courte.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 5,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "YbjXflCRhEgdvW0p",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

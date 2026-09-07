@@ -1,0 +1,14 @@
+{
+  "_id": "6shJIhptMvBUzy8d",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.6shJIhptMvBUzy8d",
+  "name": "Heavy Incinerator",
+  "description": "Heavy Incinerator",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    37,
+    37
+  ],
+  "drawn": false
+}

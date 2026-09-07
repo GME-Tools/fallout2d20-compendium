@@ -1,0 +1,14 @@
+{
+  "_id": "NbCzuYTCDseavpAF",
+  "_key": "!tables.results!sa66QXOwlO8515AT.NbCzuYTCDseavpAF",
+  "name": "Cartouche 5,56 mm — 5.56mm (8+4 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.J72UfCpxbBpYr6W5]{Cartouche 5,56 mm — 5.56mm (8+4 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    34,
+    34
+  ],
+  "drawn": false
+}

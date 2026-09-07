@@ -1,0 +1,34 @@
+{
+  "name": "Lab Coat",
+  "type": "special_ability",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Lab Coat.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Lab Coat"
+      }
+    }
+  },
+  "_id": "ug5NrfBuRrJ21f6w",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">Between the utility of the design, and simply feeling smarter while wearing one, a lab coat allows you to re-roll a single d20 on one INT based skill test you make each scene.</span></p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!ug5NrfBuRrJ21f6w"
+}

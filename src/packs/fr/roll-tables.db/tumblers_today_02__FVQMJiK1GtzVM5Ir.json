@@ -1,0 +1,14 @@
+{
+  "_id": "FVQMJiK1GtzVM5Ir",
+  "_key": "!tables.results!D7o5WMWvssO5XNNq.FVQMJiK1GtzVM5Ir",
+  "name": "Les épingles à cheveux : plus efficaces que les outils de crochetage ?",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.4lu6hamyxERQzWNa]{Les épingles à cheveux : plus efficaces que les outils de crochetage ?}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    8
+  ],
+  "drawn": false
+}

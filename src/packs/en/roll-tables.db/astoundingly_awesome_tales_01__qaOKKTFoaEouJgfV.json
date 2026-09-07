@@ -1,0 +1,14 @@
+{
+  "_id": "qaOKKTFoaEouJgfV",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.qaOKKTFoaEouJgfV",
+  "name": "Attack of the Fishmen!",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.mT6qkeV6xTG1pnex]{Attack of the Fishmen!}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    2
+  ],
+  "drawn": false
+}

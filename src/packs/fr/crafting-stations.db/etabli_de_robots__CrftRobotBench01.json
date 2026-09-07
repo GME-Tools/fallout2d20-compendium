@@ -1,0 +1,39 @@
+{
+  "_id": "CrftRobotBench01",
+  "_key": "!items!CrftRobotBench01",
+  "name": "Établi de robots",
+  "type": "object_or_structure",
+  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "effects": [],
+  "folder": null,
+  "system": {
+    "description": "<p>Un établi de robots fournit les outils et l’espace nécessaires pour modifier un robot. Son utilisation fait appel aux compétences Réparation et Science et bénéficie de l’aptitude Expert en robotique.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "constructionTime": 0,
+    "effect": "<p>Fournit les outils et l’espace nécessaires pour modifier un robot.</p>",
+    "itemType": "crafting_table",
+    "materials": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0
+    },
+    "parentItem": "",
+    "perks": "Expert en robotique",
+    "rarity": "common",
+    "skills": "Réparation, Science"
+  },
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": 209,
+        "errataReviewed": true,
+        "translationReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

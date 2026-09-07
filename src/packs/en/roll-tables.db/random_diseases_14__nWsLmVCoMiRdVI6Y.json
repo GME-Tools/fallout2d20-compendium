@@ -1,0 +1,14 @@
+{
+  "_id": "nWsLmVCoMiRdVI6Y",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.nWsLmVCoMiRdVI6Y",
+  "name": "Shell Shock",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-diseases.Item.7ogFbul957uLnNx0]{Shell Shock}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

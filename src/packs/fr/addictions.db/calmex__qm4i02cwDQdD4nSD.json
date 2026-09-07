@@ -1,0 +1,31 @@
+{
+  "_id": "qm4i02cwDQdD4nSD",
+  "_key": "!items!qm4i02cwDQdD4nSD",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/addiction.svg",
+  "name": "Calmex",
+  "system": {
+    "description": "<p>Vous subissez des complications sur vos tests d’AGI sur un résultat de 18 ou plus quand vous n’êtes pas sous l’effet du Calmex.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "qm4i02cwDQdD4nSD",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

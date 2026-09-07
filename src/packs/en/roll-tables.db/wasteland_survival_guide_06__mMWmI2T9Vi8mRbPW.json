@@ -1,0 +1,14 @@
+{
+  "_id": "mMWmI2T9Vi8mRbPW",
+  "_key": "!tables.results!JFaApgVMo29GJFAu.mMWmI2T9Vi8mRbPW",
+  "name": "Self Defense Secrets",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.l04nHOGBarXy6rxt]{Self Defense Secrets}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    18
+  ],
+  "drawn": false
+}

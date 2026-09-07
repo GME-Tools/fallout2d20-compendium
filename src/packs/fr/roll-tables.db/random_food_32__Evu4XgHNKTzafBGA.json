@@ -1,0 +1,14 @@
+{
+  "_id": "Evu4XgHNKTzafBGA",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.Evu4XgHNKTzafBGA",
+  "name": "Tato",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.4Z3zGSnBGJcgR5c2]{Tato}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

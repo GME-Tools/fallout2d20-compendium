@@ -1,0 +1,71 @@
+{
+  "_id": "JHMLajHU7sioJT9v",
+  "_key": "!items!JHMLajHU7sioJT9v",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Awareness.webp",
+  "name": "Sens affûtés",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : PER 7 Lorsque vous entreprenez l’action mineure Viser contre une cible située à portée courte ou inférieure, vous remarquez ses faiblesses et votre attaque est plus efficace. La prochaine attaque que vous exécutez contre cette cible obtient l’effet de dégâts Perforant 1. Si elle bénéficie déjà de cet effet, la valeur de ce dernier augmente de 1.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 7
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "JHMLajHU7sioJT9v",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

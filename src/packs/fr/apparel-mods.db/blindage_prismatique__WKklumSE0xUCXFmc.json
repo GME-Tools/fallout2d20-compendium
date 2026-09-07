@@ -1,0 +1,72 @@
+{
+  "_id": "WKklumSE0xUCXFmc",
+  "_key": "!items!WKklumSE0xUCXFmc",
+  "effects": [],
+  "folder": "0sZTfWE1J7mKvvnK",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Blindage prismatique",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 10,
+    "description": "<p>Cette modification s’installe avec la compétence Sciences.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Helm, Arms, Legs",
+    "modType": "plating",
+    "perks": "Science! 2",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 3,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 2
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "WKklumSE0xUCXFmc",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "plating",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [
+          "Scientifique 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

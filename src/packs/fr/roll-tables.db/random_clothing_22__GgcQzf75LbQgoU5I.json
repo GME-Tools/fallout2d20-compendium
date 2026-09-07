@@ -1,0 +1,14 @@
+{
+  "_id": "GgcQzf75LbQgoU5I",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.GgcQzf75LbQgoU5I",
+  "name": "Cagoule en sac",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.TiGee8uaRs4twpOK]{Cagoule en sac}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    23,
+    23
+  ],
+  "drawn": false
+}

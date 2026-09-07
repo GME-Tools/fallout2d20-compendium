@@ -1,0 +1,14 @@
+{
+  "_id": "JlDXifidQZL1FyfB",
+  "_key": "!tables.results!sa66QXOwlO8515AT.JlDXifidQZL1FyfB",
+  "name": "5mm (12+6 CD ×10)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.299nvpoTfu1mwKTX]{5mm (12+6 CD ×10)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    9
+  ],
+  "drawn": false
+}

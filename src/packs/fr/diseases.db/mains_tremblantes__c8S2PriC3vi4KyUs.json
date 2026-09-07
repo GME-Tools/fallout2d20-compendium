@@ -1,0 +1,34 @@
+{
+  "_id": "c8S2PriC3vi4KyUs",
+  "_key": "!items!c8S2PriC3vi4KyUs",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Mains tremblantes",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Vos attaques à distance infligent 2 DC de dégâts de moins, jusqu’à un minimum de 1 DC.</p>",
+    "duration": 1,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "c8S2PriC3vi4KyUs",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

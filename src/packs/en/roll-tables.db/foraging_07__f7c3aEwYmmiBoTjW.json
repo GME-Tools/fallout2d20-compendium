@@ -1,0 +1,14 @@
+{
+  "_id": "f7c3aEwYmmiBoTjW",
+  "_key": "!tables.results!DDXZDnebSdYipB0t.f7c3aEwYmmiBoTjW",
+  "name": "Mutfruit",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.ABPjUugdAt6VthAw]{Mutfruit}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    12
+  ],
+  "drawn": false
+}

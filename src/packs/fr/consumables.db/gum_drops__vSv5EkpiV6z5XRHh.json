@@ -1,0 +1,51 @@
+{
+  "_id": "vSv5EkpiV6z5XRHh",
+  "_key": "!items!vSv5EkpiV6z5XRHh",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Gumdrops.webp",
+  "name": "Gum Drops",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 5,
+    "description": "<p>Confiseries d’avant-guerre faites de petites gouttes de gélatine figée, sucrées et parfumées de saveurs agressives. Ironiquement, la variété ayant le mieux survécu portait la mention « radioactive » pour son acidité ; après des décennies sur les étagères, le terme est devenu plus littéral.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "vSv5EkpiV6z5XRHh",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

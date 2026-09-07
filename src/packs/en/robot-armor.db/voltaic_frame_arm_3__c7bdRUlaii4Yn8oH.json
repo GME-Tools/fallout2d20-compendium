@@ -1,0 +1,70 @@
+{
+  "_id": "c7bdRUlaii4Yn8oH",
+  "_key": "!items!c7bdRUlaii4Yn8oH",
+  "effects": [],
+  "folder": "vwoJVEtBEVfwEart",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 3.webp",
+  "name": "Voltaic Frame (Arm 3)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": 10,
+    "cost": 20,
+    "description": "<p>A specially made set of armor plates fitted with additional conduits and capacitors to bolster the effectiveness of energy weaponry.</p>\n<p><strong>Special:</strong> Any of the robot&rsquo;s attacks which deal energy damage inflict +1 @fos[DC] if the robot is fitted with any voltaic frame armor. This bonus increases by +1 @fos[DC] for every two additional locations fitted with Voltaic Frame (so +2 @fos[DC] for 3 pieces, or +3 @fos[DC] for 5 or more pieces)</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.EQjZHUxYinodOU6G]{Armorer} 2</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": true,
+      "legR": false,
+      "torso": false
+    },
+    "perks": "Armorer 2",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Voltaic Frame (Arm 3)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 4,
+        "skill": "Repair",
+        "perks": [
+          "Armorer 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

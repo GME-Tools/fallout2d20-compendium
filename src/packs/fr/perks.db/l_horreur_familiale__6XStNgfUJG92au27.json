@@ -1,0 +1,73 @@
+{
+  "_id": "6XStNgfUJG92au27",
+  "_key": "!items!6XStNgfUJG92au27",
+  "effects": [],
+  "folder": "juv3n8NKi5aCAcep",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Homesteading Horror.webp",
+  "name": "L’horreur familiale",
+  "system": {
+    "description": "<p>Réduisez de 1 la difficulté pour fabriquer une arme, jusqu’à un minimum de 0.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [
+        "Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.uCmxHbctgoe8jQDo"
+      ],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "structuralBaseline": false,
+        "translationReviewed": true,
+        "uuidLinksReviewed": true,
+        "magazineAutomationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated Core magazine"
+      }
+    }
+  }
+}

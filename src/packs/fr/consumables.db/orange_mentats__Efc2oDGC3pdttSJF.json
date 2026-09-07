@@ -1,0 +1,82 @@
+{
+  "_id": "Efc2oDGC3pdttSJF",
+  "_key": "!items!Efc2oDGC3pdttSJF",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Orange Mentats",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Mentat",
+    "consumableType": "chem",
+    "cost": 60,
+    "description": "<p>Une variété de Mentats qui accroît la vigilance et l’acuité sensorielle.</p><p><strong>Dépendance au Mentats :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de CHA lorsque vous n’êtes sous l’effet d’aucune variété de Mentats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.8Fv9dZQm5Dax1INF]{Carotte} ×3</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.hc8DSkMGN2GxugAF]{Mentats} ×1</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>Réduisez de 2 la difficulté des tests de PER (minimum 0). L’action mineure Viser vous permet de relancer 1d20 supplémentaire.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Efc2oDGC3pdttSJF",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Matériaux peu fréquents",
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Carotte",
+            "canonicalName": "Carrot",
+            "quantity": 3,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.8Fv9dZQm5Dax1INF"
+          },
+          {
+            "name": "Mentats",
+            "canonicalName": "Mentats",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.hc8DSkMGN2GxugAF"
+          }
+        ]
+      }
+    }
+  }
+}

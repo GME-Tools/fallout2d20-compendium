@@ -1,0 +1,43 @@
+{
+  "_id": "qcEZIWmadDggAT8K",
+  "_key": "!items!qcEZIWmadDggAT8K",
+  "effects": [],
+  "folder": "gocQZkOacBoucyNN",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Avoid Those Pesky Gun Laws!.webp",
+  "name": "Éviter ces satanées lois contre les armes !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent servir qu’à récupérer des unités de matériaux supplémentaires.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.Zl8Mt7ll7IqbgFq2]{Éviter ces satanées lois contre les armes !}</p></section>",
+    "effect": "<p>Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent servir qu’à récupérer des unités de matériaux supplémentaires.</p>",
+    "favorite": false,
+    "publication": "Armes et munitions",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "qcEZIWmadDggAT8K",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "bWjoQLIo1CdDtGKL",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.bWjoQLIo1CdDtGKL",
+  "name": "Hood or Cowl",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.Dk9UjvjZexa8J0U8]{Hood or Cowl}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

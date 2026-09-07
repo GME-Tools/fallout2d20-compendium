@@ -1,0 +1,66 @@
+{
+  "_id": "D2s5huShfKCtulYC",
+  "_key": "!items!D2s5huShfKCtulYC",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Grilled Radroach.webp",
+  "name": "Grilled Radroach",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 7,
+    "description": "<p><span class=\"fontstyle0\">A grilled chunk of meat taken from a radroach. Not especially appetizing, especially if you know where it came from, but sufficiently nutritious and filling for those with few other choices.</span></p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>1</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.i1BhSDEcs5JNub1v]{Radroach Meat} ×3</li></ul></section>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 5,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "skill": "Survival",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Radroach Meat",
+            "canonicalName": "Radroach Meat",
+            "quantity": 3,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.i1BhSDEcs5JNub1v"
+          }
+        ]
+      }
+    }
+  }
+}

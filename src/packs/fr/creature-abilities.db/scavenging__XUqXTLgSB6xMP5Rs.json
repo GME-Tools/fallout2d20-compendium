@@ -1,0 +1,45 @@
+{
+  "name": "Fouille",
+  "type": "miscellany",
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Junk.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.5jwQMeycCKWDROpB"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "XUqXTLgSB6xMP5Rs",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Scavenging"
+      }
+    }
+  },
+  "_id": "XUqXTLgSB6xMP5Rs",
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": "0",
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "effect": "<p>À la mort de la [créature], lancez 4d20 pour déterminer les capsules trouvées, puis 4 @fos[DC] et effectuez un jet sur la table de bric-à-brac aléatoire par Effet obtenu. À la discrétion du MJ, son corps ou repaire contient aussi jusqu’à trois armes et 3d20 munitions adaptées.</p>",
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!XUqXTLgSB6xMP5Rs"
+}

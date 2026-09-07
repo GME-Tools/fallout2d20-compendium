@@ -1,0 +1,14 @@
+{
+  "_id": "gETChiCmxT8HjHFT",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.gETChiCmxT8HjHFT",
+  "name": "2+1 CD Molotov Cocktails",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.NXjKSH1aRmZkq5PJ]{2+1 CD Molotov Cocktails}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

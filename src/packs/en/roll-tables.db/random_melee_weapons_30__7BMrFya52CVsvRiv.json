@@ -1,0 +1,14 @@
+{
+  "_id": "7BMrFya52CVsvRiv",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.7BMrFya52CVsvRiv",
+  "name": "Tire Iron",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.Pdmfy50DEM5oB9js]{Tire Iron}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    31,
+    31
+  ],
+  "drawn": false
+}

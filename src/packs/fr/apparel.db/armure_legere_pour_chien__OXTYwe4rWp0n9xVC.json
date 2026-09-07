@@ -1,0 +1,74 @@
+{
+  "_id": "OXTYwe4rWp0n9xVC",
+  "_key": "!items!OXTYwe4rWp0n9xVC",
+  "effects": [],
+  "folder": "CP7J0KktKe7LOSyQ",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Dog Armor.webp",
+  "name": "Armure légère pour chien",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 10,
+    "description": "<p>Les personnages ayant choisi l’atout Canigou sont accompagnés d’un fidèle compagnon canin qu’ils souhaiteront probablement protéger des dangers des Terres désolées.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": true,
+      "head": false,
+      "legL": true,
+      "legR": true,
+      "torso": true
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": false,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 1,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 1
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "OXTYwe4rWp0n9xVC",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Light Dog Armor"
+      }
+    }
+  }
+}

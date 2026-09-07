@@ -1,0 +1,36 @@
+{
+  "_id": "p3GhRmIwrYTJmuhr",
+  "_key": "!items!p3GhRmIwrYTJmuhr",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Big-Guns.png",
+  "name": "Big Guns",
+  "system": {
+    "defaultAttribute": "end",
+    "description": "<p>Big Guns is the skill that describes the training to use large weapons, from Fat Mans to gatling lasers, and everything in between.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Endurance</strong> but could also be used with Strength when you need to brace a weapon, or Agility when precision matters. You use Big Guns with weapons like miniguns, rocket launchers, Fat Mans, and gatling lasers.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "page": "44-46",
+        "errataReviewed": true,
+        "errata": [
+          "2022-09-06"
+        ],
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

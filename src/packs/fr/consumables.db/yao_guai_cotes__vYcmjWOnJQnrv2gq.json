@@ -1,0 +1,70 @@
+{
+  "_id": "vYcmjWOnJQnrv2gq",
+  "_key": "!items!vYcmjWOnJQnrv2gq",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Yao Guai Ribs.webp",
+  "name": "yao guai côtes",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 90,
+    "description": "<p>Des côtes de yao guai, nourrissantes et propres à inspirer un sentiment d’invincibilité tout en augmentant brièvement la tolérance à la douleur.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.9vI0sFShvxahqMSW]{yao guai viande} ×1</li></ul></section>",
+    "duration": "",
+    "effect": "<p>+2 à la résistance aux dégâts physiques jusqu’à la fin de la scène suivante.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 13,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "vYcmjWOnJQnrv2gq",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "skill": "Survie",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "yao guai viande",
+            "canonicalName": "Yao Guai Meat",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.9vI0sFShvxahqMSW"
+          }
+        ]
+      }
+    }
+  }
+}

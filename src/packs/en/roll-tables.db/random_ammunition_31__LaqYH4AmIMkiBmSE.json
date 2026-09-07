@@ -1,0 +1,14 @@
+{
+  "_id": "LaqYH4AmIMkiBmSE",
+  "_key": "!tables.results!sa66QXOwlO8515AT.LaqYH4AmIMkiBmSE",
+  "name": ".44 Magnum (4+2 CD)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.kxgO3CwKpqR9lYLS]{.44 Magnum (4+2 CD)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

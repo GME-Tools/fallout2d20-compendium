@@ -1,0 +1,14 @@
+{
+  "_id": "okmtCAIzfB4u6545",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.okmtCAIzfB4u6545",
+  "name": "A brightly colored bandanna",
+  "description": "A brightly colored bandanna",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

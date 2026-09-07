@@ -1,0 +1,72 @@
+{
+  "_id": "u3cKPD3k6CLScHVC",
+  "_key": "!items!u3cKPD3k6CLScHVC",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Mirelurk Egg Omelette.webp",
+  "name": "Mirelurk Egg Omelette",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 30,
+    "description": "<p><span class=\"fontstyle0\">An omelette made from a mirelurk egg. In addition to their nutritional value, when properly prepared, these omelettes can leave you feeling energized and ready for action.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>2</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.smWip05JhGyTXRU1]{Dirty Water} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.yW3xNGa8YuPtoonL]{Mirelurk Egg} ×1</li></ul></section>",
+    "duration": "",
+    "effect": "<p>Immediately add 2 AP to the group pool</p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 7,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 2,
+        "skill": "Survival",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Dirty Water",
+            "canonicalName": "Dirty Water",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.smWip05JhGyTXRU1"
+          },
+          {
+            "name": "Mirelurk Egg",
+            "canonicalName": "Mirelurk Egg",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.yW3xNGa8YuPtoonL"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "NyoiFuBl8FN4iRiZ",
+  "_key": "!items!NyoiFuBl8FN4iRiZ",
+  "effects": [],
+  "folder": "JTCRUrp6cw1DrdJi",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Insect Repellent Special.webp",
+  "name": "Numéro spécial insecticides",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série éducative d’après-guerre, rédigée et illustrée de dessins grossiers, copiée et distribuée dans les Terres désolées.</p><p><strong>Aptitude :</strong> Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.qxfqtIIZynyM2qIj]{Numéro spécial insecticides}</p></section>",
+    "effect": "<p>Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.</p>",
+    "favorite": false,
+    "publication": "Guide de survie des Terres désolées",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "NyoiFuBl8FN4iRiZ",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

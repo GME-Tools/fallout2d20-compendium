@@ -1,0 +1,14 @@
+{
+  "_id": "wwWrOk3TAYQvkTNP",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.wwWrOk3TAYQvkTNP",
+  "name": "Pool Cue",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.7lXJbtwhMJwqp40D]{Pool Cue}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    18,
+    18
+  ],
+  "drawn": false
+}

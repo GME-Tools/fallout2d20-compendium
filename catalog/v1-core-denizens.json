@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "source": "Fallout: The Roleplaying Game Core Rulebook (errata V6, February 2026)",
+  "scope": "All Core creature abilities, creatures, NPC profiles, and the unique profiles introduced by the included adventure.",
+  "creatureAbilities": [
+    {
+      "id": "1tOlUrBjCQBoGMm3",
+      "name": "Ghoul",
+      "type": "special_ability"
+    },
+    {
+      "id": "4W6I2oJwLXajyZM3",
+      "name": "Headbutt",
+      "type": "weapon"
+    },
+    {
+      "id": "5YhwOHVz7xKuNa4R",
+      "name": "Chain Gun",
+      "type": "weapon"
+    },
+    {
+      "id": "66rMd2lT2k5jy98x",
+      "name": "Dive-Bomb",
+      "type": "special_ability"
+    },
+    {
+      "id": "6fMsSknNN0qAToKw",
+      "name": "Well Equipped",
+      "type": "special_ability"
+    },
+    {
+      "id": "7HsxyEvST467DCOZ",
+      "name": "Mister Handy",
+      "type": "special_ability"
+    },
+    {
+      "id": "7rFeTLsM8ElUOvpE",
+      "name": "Flamer",
+      "type": "weapon"
+    },
+    {
+      "id": "7SVcej3ijh0EcRJm",
+      "name": "Barbarian",
+      "type": "special_ability"
+    },
+    {
+      "id": "8aR0dOmXGhUI5Ldd",
+      "name": "Pre-War Expertise",
+      "type": "special_ability"
+    },
+    {
+      "id": "9FaygzucI6T2ps1h",
+      "name": "Instutute Access",
+      "type": "special_ability"
+    },
+    {
+      "id": "aq0OHIRNncpWdyfW",
+      "name": "Pincers",
+      "type": "weapon"
+    },
+    {
+      "id": "aQHwKCHr7MgAx0pB",
+      "name": "Hatchling Spawn",
+      "type": "special_ability"
+    },
+    {
+      "id": "ar1HypIBKrPwbB1e",
+      "name": "Rend",
+      "type": "special_ability"
+    },
+    {
+      "id": "ATPXospV7nkt39wO",
+      "name": "Vertibird Training",
+      "type": "special_ability"
+    },
+    {
+      "id": "bG1kACrL4fvGNC6H",
+      "name": "Play Dead",
+      "type": "special_ability"
+    },
+    {
+      "id": "bNqpuAxEygtQVlcf",
+      "name": "Booulder Throw",
+      "type": "weapon"
+    },
+    {
+      "id": "cfKIBxPtW8lqQo8I",
+      "name": "Immune to Radiation",
+      "type": "special_ability"
+    },
+    {
+      "id": "DjgVlWCKYPG3M9Qj",
+      "name": "Weak Spot",
+      "type": "special_ability"
+    },
+    {
+      "id": "dxhwdNF8qFrPARaI",
+      "name": "Chems or Kaboom",
+      "type": "special_ability"
+    },
+    {
+      "id": "dYy0F73URJNTaojo",
+      "name": "Self-Destruct",
+      "type": "special_ability"
+    },
+    {
+      "id": "Dz2NQsMG1otXmzRU",
+      "name": "Larve Dart",
+      "type": "weapon"
+    },
+    {
+      "id": "E3hpp0UEo8PTc7mx",
+      "name": "Fire Hydrant Bat",
+      "type": "weapon"
+    },
+    {
+      "id": "Edt8jEvtmpX8EwGB",
+      "name": "Antlers",
+      "type": "weapon"
+    },
+    {
+      "id": "eHUfxhM71yCDYnFj",
+      "name": "Immune to Poison",
+      "type": "special_ability"
+    },
+    {
+      "id": "F6aM3LFy8tJs08Kw",
+      "name": "Mister Gutsy",
+      "type": "special_ability"
+    },
+    {
+      "id": "F7YqENoRYJvI3Wdd",
+      "name": "Warning Howl",
+      "type": "special_ability"
+    },
+    {
+      "id": "fHcnKFM20G8yOonY",
+      "name": "Alien",
+      "type": "special_ability"
+    },
+    {
+      "id": "FKZUUGYInT44y8X2",
+      "name": "Salvage",
+      "type": "miscellany"
+    },
+    {
+      "id": "G0JxK1FjO5e2aC5p",
+      "name": "Shopkeep",
+      "type": "special_ability"
+    },
+    {
+      "id": "gbE0315Wth0DrcdD",
+      "name": "Aquatic",
+      "type": "special_ability"
+    },
+    {
+      "id": "huozSPs5AqBrVQfH",
+      "name": "Burrow",
+      "type": "special_ability"
+    },
+    {
+      "id": "IADR8cpuEoF7TeG9",
+      "name": "Slam",
+      "type": "weapon"
+    },
+    {
+      "id": "Ilhu9MKrWHGfiHUD",
+      "name": "Sting",
+      "type": "weapon"
+    },
+    {
+      "id": "iQwm0npOuJdJZsBt",
+      "name": "Radiation  Pulse",
+      "type": "special_ability"
+    },
+    {
+      "id": "KAjWDIdcyXHac8Cj",
+      "name": "Flying",
+      "type": "special_ability"
+    },
+    {
+      "id": "kgdj4SvbtkVq3dq2",
+      "name": "Aggressive",
+      "type": "special_ability"
+    },
+    {
+      "id": "klbQQiZH61sAtNuR",
+      "name": "Arm Lasers",
+      "type": "weapon"
+    },
+    {
+      "id": "kRSBClXDVHbQohah",
+      "name": "Butchery",
+      "type": "miscellany"
+    },
+    {
+      "id": "KsupnW8VobHlSmuE",
+      "name": "Molotov",
+      "type": "special_ability"
+    },
+    {
+      "id": "kWmIbpvqCPZafkZ0",
+      "name": "Attack Dog",
+      "type": "special_ability"
+    },
+    {
+      "id": "KZTCdJ2cPIw4FP12",
+      "name": "Railroad Agent",
+      "type": "special_ability"
+    },
+    {
+      "id": "lfMWVhIeAPx7Hgrs",
+      "name": "Arm Lasers",
+      "type": "special_ability"
+    },
+    {
+      "id": "mTtWSb8QHEJwXAvI",
+      "name": "Robot",
+      "type": "special_ability"
+    },
+    {
+      "id": "ntfVlZWPlsm4TaRj",
+      "name": "Self-Destruct",
+      "type": "weapon"
+    },
+    {
+      "id": "O40WmH3GD3UYUU8j",
+      "name": "Big",
+      "type": "special_ability"
+    },
+    {
+      "id": "o5bqhbZJx5UbrjOl",
+      "name": "Action Packed",
+      "type": "special_ability"
+    },
+    {
+      "id": "o92mKNpNoldGEMB7",
+      "name": "Modified Mini Nuke",
+      "type": "special_ability"
+    },
+    {
+      "id": "OLzyUvJvK6EljAID",
+      "name": "Barbed Stinger",
+      "type": "weapon"
+    },
+    {
+      "id": "ot0eE61yfVDcR2cX",
+      "name": "Immune to Fear",
+      "type": "special_ability"
+    },
+    {
+      "id": "OtzMRD3Nzku3HXTZ",
+      "name": "Night Vision",
+      "type": "special_ability"
+    },
+    {
+      "id": "Pe6RhsbojbNHSy1k",
+      "name": "Buzzsaw",
+      "type": "weapon"
+    },
+    {
+      "id": "Q1PeZDdYCxG2DrvJ",
+      "name": "Bite",
+      "type": "weapon"
+    },
+    {
+      "id": "qiS3BC4ovyROMSRQ",
+      "name": "Small Weak Point",
+      "type": "special_ability"
+    },
+    {
+      "id": "qNgfrhZQdR2Jor3j",
+      "name": "Master Trader",
+      "type": "special_ability"
+    },
+    {
+      "id": "ruhviwl7qAYainiM",
+      "name": "Glowing",
+      "type": "special_ability"
+    },
+    {
+      "id": "SxbwfygF481ywarE",
+      "name": "Companion",
+      "type": "special_ability"
+    },
+    {
+      "id": "TLpuVGQrcffyzc0A",
+      "name": "Little",
+      "type": "special_ability"
+    },
+    {
+      "id": "tUY8Tdob59HqCbMi",
+      "name": "Heavy Object",
+      "type": "weapon"
+    },
+    {
+      "id": "TwLMICHMJWQBUFM5",
+      "name": "Power Armor",
+      "type": "special_ability"
+    },
+    {
+      "id": "u4BiP7ycq1cF9VLV",
+      "name": "Third Generation Synth",
+      "type": "special_ability"
+    },
+    {
+      "id": "u4dSSm6mBK0GDf5w",
+      "name": "Radio Transmission",
+      "type": "special_ability"
+    },
+    {
+      "id": "Ub3M8zanHwyVJRPo",
+      "name": "Laser",
+      "type": "weapon"
+    },
+    {
+      "id": "UBkpFK50PWxWnOh3",
+      "name": "Massive Strength",
+      "type": "special_ability"
+    },
+    {
+      "id": "uELIiFjqleSToyB2",
+      "name": "Claws",
+      "type": "weapon"
+    },
+    {
+      "id": "ug5NrfBuRrJ21f6w",
+      "name": "Lab Coat",
+      "type": "special_ability"
+    },
+    {
+      "id": "UgP0nf5LWNi0gRjm",
+      "name": "Pincer",
+      "type": "weapon"
+    },
+    {
+      "id": "ulsqNOiPqfLdHxmK",
+      "name": "Inventory",
+      "type": "miscellany"
+    },
+    {
+      "id": "vLVTXeKG1Y7igjVR",
+      "name": "Psycho",
+      "type": "special_ability"
+    },
+    {
+      "id": "vxymQXQ69Pd7OQoB",
+      "name": "Acid Spray",
+      "type": "weapon"
+    },
+    {
+      "id": "wd62GUG7MNJo0cyy",
+      "name": "Proboscis",
+      "type": "weapon"
+    },
+    {
+      "id": "WntJ2pe8ld6CQEmS",
+      "name": "Feral",
+      "type": "special_ability"
+    },
+    {
+      "id": "wX6j5eUYC3odgPL0",
+      "name": "Atoms Glow",
+      "type": "special_ability"
+    },
+    {
+      "id": "XnLPyuXsSPPSHRSZ",
+      "name": "Immune to Disease",
+      "type": "special_ability"
+    },
+    {
+      "id": "XUqXTLgSB6xMP5Rs",
+      "name": "Scavenging",
+      "type": "miscellany"
+    },
+    {
+      "id": "Y2gE3OAoci6UHC7r",
+      "name": "Sneaky",
+      "type": "special_ability"
+    },
+    {
+      "id": "Y4spCPhmNvKrAVtH",
+      "name": "In Charge",
+      "type": "special_ability"
+    },
+    {
+      "id": "y7gB4zpJo3GZtW9y",
+      "name": "Keen Senses",
+      "type": "special_ability"
+    },
+    {
+      "id": "ypLFMHwSBdCcrrAf",
+      "name": "Ghoul",
+      "type": "special_ability"
+    },
+    {
+      "id": "ZIFR8Yf2IMU7kL8U",
+      "name": "Let Rip",
+      "type": "special_ability"
+    },
+    {
+      "id": "zz6bRTllvwXsTigA",
+      "name": "The Chain That Binds",
+      "type": "special_ability"
+    }
+  ],
+  "creatures": [
+    {
+      "id": "0H3qgRjlSJebwJlV",
+      "name": "Machine Gun Turret (Wall Mount)",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "5h09Sqgccics7yAI",
+      "name": "Mirelurk",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "5h2teCoffvEvmmc0",
+      "name": "Laser Turret (Wall Mount)",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "6LDdGbIXyMD71XZJ",
+      "name": "Bloodbug",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "7dFUg3ts2F8gXBOb",
+      "name": "Protectron",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "AdvIncompleteSyn",
+      "name": "Incomplete Synth",
+      "type": "creature",
+      "adventure": true,
+      "page": "416-417"
+    },
+    {
+      "id": "AdvSynthRepFinal",
+      "name": "Synth Replicas (Doppelgangers)",
+      "type": "creature",
+      "adventure": true,
+      "page": "417-418"
+    },
+    {
+      "id": "AdvSynthReplica1",
+      "name": "Synth Replica",
+      "type": "creature",
+      "adventure": true,
+      "page": "411"
+    },
+    {
+      "id": "AdvSynthStrider1",
+      "name": "Institute Compound Synth Strider",
+      "type": "creature",
+      "adventure": true,
+      "page": "414-415"
+    },
+    {
+      "id": "d80SO0kdSMw8IESo",
+      "name": "Radstag",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "EQgpQic1KtLMHLTh",
+      "name": "Mole Rat",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "hzQQw0YHJ82V2ujV",
+      "name": "Glowing One",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "IAbCEplScjLbXJbe",
+      "name": "Synth Trooper",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "IgjxYB9AxoT2p6LK",
+      "name": "Brahmin",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "igURRV1X7PGMsibA",
+      "name": "Synth",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "IIt79NGkrmGwTdqa",
+      "name": "Dog",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "ImXdElGEBLAOfEy7",
+      "name": "Sentry Bot",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "J7wkSSK2x71X6tIw",
+      "name": "Bloatfly",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "LhdK7vp50TGi0esH",
+      "name": "Mirelurk Queen",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "lx8zZuKOo1MZyp8V",
+      "name": "Eyebot",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "MC01Vd8oRj5IExqk",
+      "name": "Mutant Hound",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "ohT9yKK6NcQNxK4q",
+      "name": "Deathclaw",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "ombsomk6UsjyGKdX",
+      "name": "Machine Gun Turret MK III",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "pEpzQg00ckQcj5Rl",
+      "name": "Machine Gun Turret MK I",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "POv2Na935TOgGqlX",
+      "name": "Feral Ghoul",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "pstU0qlYWsVU9fcV",
+      "name": "Machine Gun Turret MK V",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "QhWU58U2IG3RL7Mn",
+      "name": "Zetan (Aliens)",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "r3TWDtzrYFaVQsYV",
+      "name": "Super Mutant Behemoth",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "RgzuubSvRJM2wqI6",
+      "name": "Mongrel Dog",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "Sopfh6qS90uGwcjS",
+      "name": "Radroach",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "uayuUMZDN0r3ylY3",
+      "name": "Mirelurk Hatchling",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "uJzyg7CjtywzmseC",
+      "name": "Radscorpion",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "WOfXjsxCYXKmRdf8",
+      "name": "Mirelurk Hunter",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "wYEziyV0RpTlAcDh",
+      "name": "Yao Guai",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "x74HIXXeRszyQHvw",
+      "name": "Stingwing",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "xxPtEqx16A5BnLyy",
+      "name": "Laser Turret 3-Shot (Wall Mount)",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "ZezvEj5UmJ8J4kdU",
+      "name": "Synth Strider",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "zflSJmUFBiNAFEwR",
+      "name": "Dogmeat",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "ZLRYpEd3u99Sl0rT",
+      "name": "Machine Gun Turret 3-Shot (Wall Mount)",
+      "type": "creature",
+      "adventure": false
+    },
+    {
+      "id": "zlrzbc7g03tfYw81",
+      "name": "Assaultron",
+      "type": "creature",
+      "adventure": false
+    }
+  ],
+  "npcs": [
+    {
+      "id": "2e4lJEXWGLAHlxYw",
+      "name": "Miss Nanny",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "3d3yqnEmlEWEhT7x",
+      "name": "Ghoul Mercenary",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "3owi1jAoXsFfPd6l",
+      "name": "Railroad Agent",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "4jjJoCRjLCjqYdRc",
+      "name": "Elder",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "83zVRh8xf3hY0kcd",
+      "name": "Super Mutant Suicider",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "8PvNtUsJ25IlYrAd",
+      "name": "Merchant",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "9uRMSgaooTRV8AiH",
+      "name": "Super Mutant",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "9zATMFHXRcNPpTYp",
+      "name": "Ghoul Merchant",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "AdvChiefScient01",
+      "name": "Chief Scientist",
+      "type": "npc",
+      "adventure": true,
+      "page": "416-417"
+    },
+    {
+      "id": "AdvGhoulJoseph01",
+      "name": "Joseph, Ghoul",
+      "type": "npc",
+      "adventure": true,
+      "page": "405-406"
+    },
+    {
+      "id": "AdvJessiePedigru",
+      "name": "Jessie Pedigrue, Synth Replica",
+      "type": "npc",
+      "adventure": true,
+      "page": "412-413"
+    },
+    {
+      "id": "AdvQuartermaster",
+      "name": "Quartermaster",
+      "type": "npc",
+      "adventure": true,
+      "page": "407-408"
+    },
+    {
+      "id": "AdvScavenger0001",
+      "name": "Scavenger",
+      "type": "npc",
+      "adventure": true,
+      "page": "407"
+    },
+    {
+      "id": "af0Gor0Cwvb9ltP4",
+      "name": "Minuteman",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "C66qz3VvFOfpq0fl",
+      "name": "Ghoul Wastelander",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "CW2yYKulZJgqN41X",
+      "name": "Super Mutant Brute",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "fljqEhLbucbs0yYw",
+      "name": "Lancer",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "GdziN1jyypeZXfqQ",
+      "name": "Paladin",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "hYg9o0c07GNy5Vb5",
+      "name": "Raider",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "JlsfGrydBUs9ZWdx",
+      "name": "Mister Handy",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "NYUGnp6xQkeWQq6t",
+      "name": "Super Mutant Master",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "obcd9qluljZinUPE",
+      "name": "Raider Scavver",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "Of5uhcYqlXeT8peq",
+      "name": "Gunner",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "oMFPsQgVuVVcFbjY",
+      "name": "Raider Boss",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "p8beZxvgeD08lJcJ",
+      "name": "Raider Veteran",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "sPvrUZPPIdeyo7mX",
+      "name": "Scribe",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "Twv5p2s3w1avJkbO",
+      "name": "Wastelander",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "U8u2CUaEgTmEapTh",
+      "name": "Knight",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "ukEl2SlwwXudwSjq",
+      "name": "Raider Psycho",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "vmToJt8w8NC99QzD",
+      "name": "Institue Scientist",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "VtiNXIltvKLECLY9",
+      "name": "Synth Courser",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "X7ozFw9YdG9N5VQf",
+      "name": "Mister Gutsy",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "XrYlNNf7TyFxBN4N",
+      "name": "Mercenary",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "YYEjPJo55lgOBHKZ",
+      "name": "Vault Dweller",
+      "type": "npc",
+      "adventure": false
+    },
+    {
+      "id": "YYVwDhLOom9nfkMo",
+      "name": "Children of Atom",
+      "type": "npc",
+      "adventure": false
+    }
+  ]
+}

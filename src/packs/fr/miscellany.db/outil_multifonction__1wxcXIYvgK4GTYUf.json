@@ -1,0 +1,38 @@
+{
+  "_id": "1wxcXIYvgK4GTYUf",
+  "_key": "!items!1wxcXIYvgK4GTYUf",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Multi-Tool.webp",
+  "name": "Outil multifonction",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 100,
+    "description": "<p>Ce petit outil pratique réunit une pince, un coupe-fil, plusieurs petites clés et tournevis ainsi que divers instruments repliés dans ses poignées. Idéal pour qui a besoin d’outils de base tout en voyageant léger.</p>",
+    "effect": "<p>Réduit de 1 la difficulté des tests de Réparation (minimum 0).</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 1
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "1wxcXIYvgK4GTYUf",
+        "structuralBaseline": true,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

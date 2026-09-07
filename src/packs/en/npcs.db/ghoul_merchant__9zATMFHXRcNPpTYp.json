@@ -1,0 +1,1223 @@
+{
+  "name": "Ghoul Merchant",
+  "type": "npc",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Ghoul Merchant.webp",
+  "token": {
+    "name": "Ghoul Merchant",
+    "img": "modules/fallout2d20-compendium/artwork/Creatures/Ghoul%20Merchant.webp",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": ""
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "O0GOoAmCfcN8pf1i",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Unarmmed%20Strike.webp",
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
+      "system": {
+        "description": null,
+        "favorite": false,
+        "weight": "0",
+        "cost": "0",
+        "quantity": 0,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "unarmed",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "",
+        "skill": "",
+        "damage": {
+          "rating": 2,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "2TR0yWRaj0zGYgN8",
+      "name": "Inventory",
+      "type": "miscellany",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "weight": "0",
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "effect": "<p><span class=\"fontstyle0\">Drifter Outfit, 10mm Auto Pistol, Wealth 6</span></p>"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "wB2y97IRsPks0bgh",
+      "name": "Speech",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.dOTrlwZ60XWqegQA"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 3,
+        "tag": true,
+        "defaultAttribute": "cha",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "NggwFXubWn1To9mq",
+      "name": "Repair",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "int",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "QgMXytq386mfJ6OA",
+      "name": "Barter",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.vf1Qszkq1om2Xgmn"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 4,
+        "tag": true,
+        "defaultAttribute": "cha",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "gVxUXhHGiEXC2mAV",
+      "name": "Lockpick",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.SH09XavazYU9CqY4"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "per",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "JCv71wMLhSx6vUec",
+      "name": "Melee Weapons",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.kCGaEuF27yXyE04i"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": false,
+        "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "0gehTEmWx4w5GL5D",
+      "name": "Small Guns",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.UZDBirrZeUxrAk7b"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 3,
+        "tag": false,
+        "defaultAttribute": "agi",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "HB2knGrzXBHctG2A",
+      "name": "Survival",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.R8YnBNUwhZhG89iQ"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": true,
+        "defaultAttribute": "end",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "zP9AECbt0FM7h3uF",
+      "name": "Unarmed",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.en-skills.Item.5xAG0eRrcvDeJAFk"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": false,
+        "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "ocML6lgPh4wVgnBU",
+      "name": "10mm Auto Pistol",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/10mm_pistol_Fallout4.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Small, dependable, reasonably powerful, and widely available, the 10mm pistol has been a staple of wasteland combat since the bombs first fell. Its versatility and potential for customization mean that a well-looked-after 10mm pistol will keep its owner safe for a long time.</span></p>",
+        "favorite": false,
+        "weight": "4",
+        "cost": "50",
+        "quantity": 1,
+        "rarity": 1,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "smallGuns",
+        "ammo": "10mm Rounds",
+        "ammoPerShot": 1,
+        "attribute": "",
+        "skill": "",
+        "damage": {
+          "rating": 3,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": true,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": true,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": true,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 4,
+        "condition": "",
+        "mods": {
+          "max": 6,
+          "current": 0,
+          "list": "<p><span class=\"fontstyle0\">A 10mm Pistol can accept one each of the following mods:</span></p>\n<p><strong><span class=\"fontstyle3\">Receiver: </span></strong><span class=\"fontstyle3\">@Compendium[fallout2d20-compendium.weapon-mods.lZXmmJghkwx2Cfth]{Calibrated}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.6BSZSiI20H86MtAb]{Hardened}, @Compendium[fallout2d20-compendium.weapon-mods.WCJ0QR5lOk9qBuxo]{Automatic}, @Compendium[fallout2d20-compendium.weapon-mods.pNv4YuXn6LxkcLnj]{Hair Trigger}, @Compendium[fallout2d20-compendium.weapon-mods.7EV6l9KqHJ6KJpQi]{Powerful}, @Compendium[fallout2d20-compendium.weapon-mods.hXHvlCvphIQ8x4be]{Advanced}</span></p>\n<p><span class=\"fontstyle3\"><strong>Barrel:</strong> @Compendium[fallout2d20-compendium.weapon-mods.6py6TtlkeywhWQl1]{Long Barrel}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.cvoae6Grdf6NGVM4]{Ported Barrel}</span></p>\n<p><span class=\"fontstyle3\"><strong>Grip:</strong> @Compendium[fallout2d20-compendium.weapon-mods.PFcI423I5SKnvL0M]{Comfort Grip}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.oFXs4w5msufzhIVI]{Sharpshooter's Grip}</span></p>\n<p><span class=\"fontstyle3\"><strong>Magazine:</strong> @Compendium[fallout2d20-compendium.weapon-mods.COx7kAmBX5tY55ty]{Large Magazine}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.lcYV8De9jKX8legK]{Quick-Eject Magazine}, @Compendium[fallout2d20-compendium.weapon-mods.eTh6sOdMe4xVwPOj]{Large Quick-Eject Magazine}</span></p>\n<p><span class=\"fontstyle3\"><strong>Sights:</strong> @Compendium[fallout2d20-compendium.weapon-mods.WZAnlfreDNUAaX4Y]{Reflex Sight}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.K8ZOSxg9heUurjsM]{Recon Scope}</span></p>\n<p><span class=\"fontstyle3\"><strong>Muzzle:</strong> @Compendium[fallout2d20-compendium.weapon-mods.yc9XrK9oHlAwskcS]{Compensator}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.pjfCBe11xshHLSZP]{Suppressor}</span><br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "c7l5MMfHOp28wIge",
+      "name": "Double-Barrel Shotgun",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Double-barrel_shotgun_%2528Fallout_4%2529.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Before the Great War, double-barrel shotguns were mainly used for hunting and home defense, and this has changed little. They are break-action and come in an either a side-by-side or over-and-under barrel configuration. Simple to make and maintain, these shotguns are seen frequently in the Commonwealth and the rest of the wasteland.</span></p>",
+        "favorite": false,
+        "weight": "9",
+        "cost": "39",
+        "quantity": 1,
+        "rarity": 1,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "smallGuns",
+        "ammo": "Shotgun Shells",
+        "ammoPerShot": 1,
+        "attribute": "",
+        "skill": "",
+        "damage": {
+          "rating": 6,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": true,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": true,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": true,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": true,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 5,
+          "current": 0,
+          "list": "<p><span class=\"fontstyle0\">A Double-Barrel Shotgun can accept one each of the following mods:</span></p>\n<p><span class=\"fontstyle0\"><strong>Receiver:</strong> </span><span class=\"fontstyle2\">@Compendium[fallout2d20-compendium.weapon-mods.6BSZSiI20H86MtAb]{Hardened Receiver},&nbsp; @Compendium[fallout2d20-compendium.weapon-mods.pNv4YuXn6LxkcLnj]{Hair Trigger},&nbsp; @Compendium[fallout2d20-compendium.weapon-mods.7EV6l9KqHJ6KJpQi]{Powerful Receiver}, @Compendium[fallout2d20-compendium.weapon-mods.hXHvlCvphIQ8x4be]{Advanced Receiver}</span></p>\n<p><strong><span class=\"fontstyle3\">Barrel: </span></strong><span class=\"fontstyle3\">@Compendium[fallout2d20-compendium.weapon-mods.6py6TtlkeywhWQl1]{Long Barrel}, @Compendium[fallout2d20-compendium.weapon-mods.X0puCM01tdYXaMSF]{Sawed-off Barrel}&nbsp;</span></p>\n<p><span class=\"fontstyle3\"><strong>Stock:</strong> @Compendium[fallout2d20-compendium.weapon-mods.ryaBZCITyZP3DoOP]{Full Stock}</span></p>\n<p><span class=\"fontstyle3\"><strong>Sights:</strong> @Compendium[fallout2d20-compendium.weapon-mods.WZAnlfreDNUAaX4Y]{Reflex Sight}</span></p>\n<p><span class=\"fontstyle3\"><strong>Muzzle:</strong></span><span class=\"fontstyle0\"> @Compendium[fallout2d20-compendium.weapon-mods.G8G71ZleOMUrMWSK]{Muzzle Brake}</span></p>"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "t4Vnw58lYjcKAbdj",
+      "name": "Molotov Cocktail",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Molotov%20Cocktail.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Consisting of a glass bottle&mdash;normally from an alcoholic beverage&mdash;containing a flammable fuel mixture, a bit of motor oil to help it spread, and an alcohol-soaked rag stuffed in the top to act as a wick. When used, the wick is ignited and the bottle hurled at the target; the breaking bottle spreads the agitated mixture, which quickly ignites begins to burn anything in the vicinity. Cheap and effective.</span></p>",
+        "favorite": false,
+        "weight": "1",
+        "cost": "20",
+        "quantity": 1,
+        "rarity": 1,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "explosives",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "",
+        "skill": "",
+        "damage": {
+          "rating": 4,
+          "damageType": {
+            "physical": false,
+            "energy": true,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": true,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": true,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": true,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "medium",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "R09BU9FOJxtUgLyp",
+      "name": "Let Rip",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Once per combat, the Merchant may &lsquo;let rip&rsquo; with a volley from their 10mm Auto Pistol. This adds the weapon&rsquo;s Fire Rate of 4 to the weapon&rsquo;s damage for a single attack (for 7 CD total)<span class=\"fontstyle0\">, and allows them to use the Burst damage effect without spending ammo.</span> </p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "G8zAp2MaqaiuzHma",
+      "name": "Master Trader",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">When making an opposed test with Barter, the merchant&nbsp;generates one automatic success in addition to any they roll.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "HKlKzVsCqIzGXHlm",
+      "name": "Shopkeep",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The merchant is accompanied by a pack brahmin or is running a shop.They have 6d20 caps on their person for trade. The GM determines the goods available.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "u4GdUIENlwqD0HQT",
+      "name": "Ghoul",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">A ghoul is healed by radiation. They regain 1HP for every 3 points of Radiation damage inflicted upon them.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "ngJNzTkM8YQIvMQW",
+      "name": "Immune to Radiation",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>The ghoul merchant reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Actor.7TeZgMVPYOtTjglG"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "_id": "9zATMFHXRcNPpTYp",
+  "system": {
+    "origin": "Ghoul, Normal Character",
+    "level": {
+      "value": 4,
+      "currentXP": 62,
+      "nextLevelXP": 0
+    },
+    "biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Trader/ Caravan Merchant</strong></p>\n<p><span class=\"fontstyle0\">Traders and merchant caravans can be found in almost every large settlement and traveling most major highway routes across the wasteland. In settlements some set up permanent shops for patrons to visit, using abandoned buildings or makeshift stalls to sell their wares. Some merchants prefer to travel from place to place, trading and buying at each stop and occasionally on the way to the passing traveler. Merchants rarely travel alone however, using brahmin as beasts of burden and employing mercenaries as guards. Even traders with permanent stalls often employ some form of security or have a trusty weapon tucked away for emergencies.</span></p>",
+    "description": "",
+    "trait": "",
+    "health": {
+      "value": 15,
+      "min": 0,
+      "max": 15,
+      "mod": 0
+    },
+    "defense": {
+      "base": 0,
+      "value": 1,
+      "mod": 0
+    },
+    "carryWeight": {
+      "base": 200,
+      "value": 0,
+      "mod": 0
+    },
+    "initiative": {
+      "base": 0,
+      "value": 13,
+      "mod": 0
+    },
+    "resistance": {
+      "physical": {
+        "locations": "1 (Arms, Legs, Torso)"
+      },
+      "energy": {
+        "locations": "2 (Arms, Legs, Torso)"
+      },
+      "radiation": {
+        "locations": "Immune"
+      },
+      "poison": {
+        "locations": "0"
+      }
+    },
+    "meleeDamage": {
+      "base": 0,
+      "value": 0,
+      "mod": 0
+    },
+    "luckPoints": 3,
+    "conditions": {
+      "hunger": 0,
+      "thirst": 0,
+      "sleep": 0,
+      "fatigue": 0
+    },
+    "attributes": {
+      "str": {
+        "value": 5
+      },
+      "per": {
+        "value": 6
+      },
+      "end": {
+        "value": 6
+      },
+      "cha": {
+        "value": 9
+      },
+      "int": {
+        "value": 8
+      },
+      "agi": {
+        "value": 5
+      },
+      "luc": {
+        "value": 5
+      }
+    },
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!actors!9zATMFHXRcNPpTYp"
+}

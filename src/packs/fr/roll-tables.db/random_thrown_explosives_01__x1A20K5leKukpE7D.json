@@ -1,0 +1,14 @@
+{
+  "_id": "x1A20K5leKukpE7D",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.x1A20K5leKukpE7D",
+  "name": "1 Grenade Nuka",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.As1o8LGO3CIaY2mD]{1 Grenade Nuka}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    2,
+    2
+  ],
+  "drawn": false
+}

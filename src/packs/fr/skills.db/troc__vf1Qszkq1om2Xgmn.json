@@ -1,0 +1,35 @@
+{
+  "_id": "vf1Qszkq1om2Xgmn",
+  "_key": "!items!vf1Qszkq1om2Xgmn",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Barter.png",
+  "name": "Troc",
+  "system": {
+    "defaultAttribute": "cha",
+    "description": "<p>Troc repr&eacute;sente votre talent&nbsp;avec l&rsquo;argent : savez-vous&nbsp;g&eacute;rer votre argent ? Faire&nbsp;de bonnes affaires ? N&eacute;gocier&nbsp;une baisse de prix ?</p>\n<p>Son attribut S.P.E.C.I.A.L.&nbsp;par d&eacute;faut est le <strong>Charisme</strong>,&nbsp;mais vous pouvez utiliser&nbsp;Perception pour d&eacute;terminer si votre interlocuteur est&nbsp;pr&ecirc;t &agrave; changer d&rsquo;avis ou Intelligence pour estimer la&nbsp;v&eacute;ritable valeur d&rsquo;un objet. Employez Troc pour vendre&nbsp;ou acheter des objets, ou encore pour n&eacute;gocier le prix&nbsp;d&rsquo;un service.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "44-46",
+        "translatedFrom": "vf1Qszkq1om2Xgmn",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

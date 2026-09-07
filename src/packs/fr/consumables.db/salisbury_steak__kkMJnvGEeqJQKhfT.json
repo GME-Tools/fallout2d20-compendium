@@ -1,0 +1,51 @@
+{
+  "_id": "kkMJnvGEeqJQKhfT",
+  "_key": "!items!kkMJnvGEeqJQKhfT",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Salisbury Steak.webp",
+  "name": "Salisbury steak",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 20,
+    "description": "<p>Repas prêt à consommer de viande hachée mêlée de chapelure, oignon et œuf, servi avec une sauce. Emballé et scellé pour rester frais, il suffit de le réchauffer. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 5,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "kkMJnvGEeqJQKhfT",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

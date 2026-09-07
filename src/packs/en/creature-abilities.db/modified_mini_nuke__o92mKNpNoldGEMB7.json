@@ -1,0 +1,33 @@
+{
+  "_id": "o92mKNpNoldGEMB7",
+  "name": "Modified Mini Nuke",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.LHtGrDoeiVFgDoDH"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">The super mutant suicider carries a modified mini nuke. Once in close range of its target it makes an </span><span class=\"fontstyle2\"><strong>AGI + Explosives</strong> </span><span class=\"fontstyle0\">test (TN 11) to detonate the mini nuke. Anyone within close range of the super mutant suicider, including itself, suffers its effects.</span></p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!o92mKNpNoldGEMB7"
+}

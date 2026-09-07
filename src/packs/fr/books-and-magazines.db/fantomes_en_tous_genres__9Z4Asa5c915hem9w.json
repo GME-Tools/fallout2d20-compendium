@@ -1,0 +1,43 @@
+{
+  "_id": "9Z4Asa5c915hem9w",
+  "_key": "!items!9Z4Asa5c915hem9w",
+  "effects": [],
+  "folder": "Yz1YYU8QjGg1Lrdb",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/LaFantoma.webp",
+  "name": "Fantômes en tous genres",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un comic d’avant-guerre racontant les aventures d’un expert en discrétion et en infiltration.</p><p><strong>Aptitude :</strong> Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion à portée moyenne ; le personnage qui a perdu le test en opposition se dirige vers cette diversion.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.wUoc5IDZQ0ye1TDw]{Fantômes en tous genres}</p></section>",
+    "effect": "<p>Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion à portée moyenne ; le personnage qui a perdu le test en opposition se dirige vers cette diversion.</p>",
+    "favorite": false,
+    "publication": "Fantômes en tous genres",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "9Z4Asa5c915hem9w",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

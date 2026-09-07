@@ -1,0 +1,84 @@
+{
+  "_id": "YFGiyWiFUG7icRPa",
+  "_key": "!items!YFGiyWiFUG7icRPa",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Skeeto Spit",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 40,
+    "description": "<p>Derived from the secretions of a Bloodbug, and the curative properties of some wasteland plants, Skeeto Spit is a wasteland remedy which dulls the user&rsquo;s ability to feel pain. It&rsquo;s effective, lasts a reasonable amount of time, and is non-addictive, but it normally has to be homemade as it isn&rsquo;t generally produced in large quantities.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.1nJywTHNkuT8JGT4]{Blood Sac} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.ZXa7xGi9VXOzUuVN]{Bloodleaf} ×1</li><li>Uncommon Materials ×1</li><li>Common Materials ×1</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>+2 Max HP</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Blood Sac",
+            "canonicalName": "Blood Sac",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.1nJywTHNkuT8JGT4"
+          },
+          {
+            "name": "Bloodleaf",
+            "canonicalName": "Bloodleaf",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.ZXa7xGi9VXOzUuVN"
+          },
+          {
+            "name": "Uncommon Materials",
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Common Materials",
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  }
+}

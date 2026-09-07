@@ -1,0 +1,14 @@
+{
+  "_id": "JaOMKxCRgHhUvHPv",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.JaOMKxCRgHhUvHPv",
+  "name": "Junk Jet",
+  "description": "Junk Jet",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    7
+  ],
+  "drawn": false
+}

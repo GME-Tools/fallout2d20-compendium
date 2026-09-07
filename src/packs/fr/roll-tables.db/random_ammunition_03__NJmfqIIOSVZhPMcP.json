@@ -1,0 +1,14 @@
+{
+  "_id": "NJmfqIIOSVZhPMcP",
+  "_key": "!tables.results!sa66QXOwlO8515AT.NJmfqIIOSVZhPMcP",
+  "name": "CE 2 mm — 2mm EC (6+3 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.cZPDBjJXa2hCjW0K]{CE 2 mm — 2mm EC (6+3 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    4
+  ],
+  "drawn": false
+}

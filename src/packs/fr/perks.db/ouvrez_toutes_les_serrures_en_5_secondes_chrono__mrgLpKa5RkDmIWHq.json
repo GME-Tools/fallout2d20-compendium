@@ -1,0 +1,73 @@
+{
+  "_id": "mrgLpKa5RkDmIWHq",
+  "_key": "!items!mrgLpKa5RkDmIWHq",
+  "effects": [],
+  "folder": "lGOBRrvW0XU5E6o8",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Open Any Lock in 5 Seconds Flat.webp",
+  "name": "Ouvrez toutes les serrures en 5 secondes chrono",
+  "system": {
+    "description": "<p>Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l’option de PA Réduire la durée sans dépenser de PA.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [
+        "Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.M32bIhaLlqXttW9q"
+      ],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "structuralBaseline": false,
+        "translationReviewed": true,
+        "uuidLinksReviewed": true,
+        "magazineAutomationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated Core magazine"
+      }
+    }
+  }
+}

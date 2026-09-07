@@ -1,0 +1,14 @@
+{
+  "_id": "ZGuH2mMbPA9UDQQH",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.ZGuH2mMbPA9UDQQH",
+  "name": "Nuka-Cherry",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.bq6e2Hcl5CL3jpYU]{Nuka-Cherry}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    7
+  ],
+  "drawn": false
+}

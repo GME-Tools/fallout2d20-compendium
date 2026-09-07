@@ -1,0 +1,14 @@
+{
+  "_id": "PAFslRx9M1uSTt8G",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.PAFslRx9M1uSTt8G",
+  "name": "10+5 DC Épingle à cheveuxs",
+  "description": "10+5 DC Épingle à cheveuxs",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    57,
+    57
+  ],
+  "drawn": false
+}

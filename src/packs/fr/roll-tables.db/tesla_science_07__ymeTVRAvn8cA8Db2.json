@@ -1,0 +1,14 @@
+{
+  "_id": "ymeTVRAvn8cA8Db2",
+  "_key": "!tables.results!eVG1ynZ312G42zbE.ymeTVRAvn8cA8Db2",
+  "name": "L’armée des États-Unis dans l’espace",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.5Y5Dkh9W0XRFfpQV]{L’armée des États-Unis dans l’espace}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    14
+  ],
+  "drawn": false
+}

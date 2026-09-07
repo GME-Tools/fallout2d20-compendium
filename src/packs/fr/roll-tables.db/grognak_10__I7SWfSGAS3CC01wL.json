@@ -1,0 +1,14 @@
+{
+  "_id": "I7SWfSGAS3CC01wL",
+  "_key": "!tables.results!95C7laMPQoK9wwZj.I7SWfSGAS3CC01wL",
+  "name": "Quelle est donc cette sorcellerie ?",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.oR7Yb9XMHc1Yn49v]{Quelle est donc cette sorcellerie ?}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

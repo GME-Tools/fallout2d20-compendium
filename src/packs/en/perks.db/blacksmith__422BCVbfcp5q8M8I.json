@@ -1,0 +1,68 @@
+{
+  "_id": "422BCVbfcp5q8M8I",
+  "_key": "!items!422BCVbfcp5q8M8I",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Blacksmith.webp",
+  "name": "Blacksmith",
+  "system": {
+    "description": "<p>You can modify melee weapons with weapon mods. Each rank in this perk unlocks an additional rank of melee weapon mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, and rank 3 unlocks rank 3 mods. Each time you take this perk, the level requirement increases by 4.</p>\n<p><strong>Requirements</strong>: STR 6, Level 2+</p>",
+    "favorite": false,
+    "rank": {
+      "max": 3,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 6
+        }
+      },
+      "isCompanion": false,
+      "level": 2,
+      "levelIncrease": 4,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "59-73",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

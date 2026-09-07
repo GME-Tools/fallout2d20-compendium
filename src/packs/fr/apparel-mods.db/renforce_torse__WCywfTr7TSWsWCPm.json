@@ -1,0 +1,70 @@
+{
+  "_id": "WCywfTr7TSWsWCPm",
+  "_key": "!items!WCywfTr7TSWsWCPm",
+  "effects": [],
+  "folder": "3txykwrcDDfTdRcH",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Renforcé (Torse)",
+  "system": {
+    "apparelType": "armor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 30,
+    "description": "\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Torso",
+    "modType": "material",
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 2
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "WCywfTr7TSWsWCPm",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 212,
+        "station": "armor",
+        "group": "combat-material",
+        "complexity": 3,
+        "skill": "Réparation",
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

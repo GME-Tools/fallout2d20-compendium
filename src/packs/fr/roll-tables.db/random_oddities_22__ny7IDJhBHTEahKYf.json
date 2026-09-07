@@ -1,0 +1,14 @@
+{
+  "_id": "ny7IDJhBHTEahKYf",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.ny7IDJhBHTEahKYf",
+  "name": "Argent d’avant-guerre worth 3d20 capsules",
+  "description": "Argent d’avant-guerre worth 3d20 capsules",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    24,
+    24
+  ],
+  "drawn": false
+}

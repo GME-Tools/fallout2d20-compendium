@@ -1,0 +1,14 @@
+{
+  "_id": "Fb0GNhfnXAnTx64N",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.Fb0GNhfnXAnTx64N",
+  "name": "No Encounter",
+  "description": "The area is empty.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    10
+  ],
+  "drawn": false
+}

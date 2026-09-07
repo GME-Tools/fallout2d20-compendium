@@ -1,0 +1,1324 @@
+{
+  "_id": "CyxEyS2RLOuMLMa1",
+  "_key": "!items!CyxEyS2RLOuMLMa1",
+  "effects": [],
+  "folder": "zXkvl0ffMYUzEMkw",
+  "img": "modules/fallout2d20-compendium/artwork/Weapons/Junk Jet.webp",
+  "name": "Junk Jet",
+  "system": {
+    "ammo": "",
+    "ammoPerShot": 1,
+    "attribute": "",
+    "canBeScrapped": true,
+    "condition": "",
+    "consumedOnUse": false,
+    "cost": 285,
+    "creatureAttribute": "body",
+    "creatureSkill": "guns",
+    "damage": {
+      "damageEffect": {
+        "arc": {
+          "rank": 0,
+          "value": 0
+        },
+        "breaking": {
+          "rank": 0,
+          "value": 0
+        },
+        "burst": {
+          "rank": 0,
+          "value": 0
+        },
+        "freeze": {
+          "rank": 0,
+          "value": 0
+        },
+        "persistent": {
+          "rank": 0,
+          "value": 0
+        },
+        "piercing_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "radioactive": {
+          "rank": 0,
+          "value": 0
+        },
+        "spread": {
+          "rank": 0,
+          "value": 0
+        },
+        "stun": {
+          "rank": 0,
+          "value": 0
+        },
+        "tranquilize_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "vicious": {
+          "rank": 0,
+          "value": 0
+        }
+      },
+      "damageType": {
+        "energy": false,
+        "physical": true,
+        "poison": false,
+        "radiation": false
+      },
+      "originalDamageType": {
+        "energy": false,
+        "physical": false,
+        "poison": false,
+        "radiation": false
+      },
+      "originalRating": 0,
+      "rating": 6,
+      "weaponQuality": {
+        "accurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "ammo_hungry_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "aquatic": {
+          "rank": 0,
+          "value": 0
+        },
+        "blast": {
+          "rank": 0,
+          "value": 0
+        },
+        "bombard": {
+          "rank": 0,
+          "value": 0
+        },
+        "close_quarters": {
+          "rank": 0,
+          "value": 0
+        },
+        "concealed": {
+          "rank": 0,
+          "value": 0
+        },
+        "debilitating": {
+          "rank": 0,
+          "value": 0
+        },
+        "delay_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "fuel_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "gatling": {
+          "rank": 0,
+          "value": 0
+        },
+        "inaccurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "limited": {
+          "rank": 0,
+          "value": 0
+        },
+        "mine": {
+          "rank": 0,
+          "value": 0
+        },
+        "night_vision": {
+          "rank": 0,
+          "value": 0
+        },
+        "parry": {
+          "rank": 0,
+          "value": 0
+        },
+        "placed": {
+          "rank": 0,
+          "value": 0
+        },
+        "recoil_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "recon": {
+          "rank": 0,
+          "value": 0
+        },
+        "reliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "slow_load": {
+          "rank": 0,
+          "value": 0
+        },
+        "suppressed": {
+          "rank": 0,
+          "value": 0
+        },
+        "surge": {
+          "rank": 0,
+          "value": 0
+        },
+        "thrown": {
+          "rank": 0,
+          "value": 0
+        },
+        "two_handed": {
+          "rank": 0,
+          "value": 1
+        },
+        "unreliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "unstable_radiation": {
+          "rank": 0,
+          "value": 0
+        },
+        "wrangle": {
+          "rank": 0,
+          "value": 0
+        }
+      }
+    },
+    "description": "<p>Munitions: n’importe lesquelles Le Junk Jet est une arme lourde artisanale qui peut littéralement tirer n’importe quoi. Tout objet chargé dans le réservoir de l’arme est propulsé avec une force dévastatrice par le canon du Junk Jet. Naturellement, cela le rend très utile dans les situations où vous disposez de beaucoup de babioles inutiles, mais de peu de véritables munitions. Spécial: quand vous tirez avec le Junk Jet, choisissez un objet que vous transportez actuellement sur vous; cet objet est tiré par l’arme. Choisissez un objet supplémentaire pour chaque tir de munitions supplémentaire dépensé par l’attaque. Les objets doivent être assez petits pour être tenus dans une main et chargés dans le réservoir. À la fin de la scène, vous pouvez lancer 1 par objet tiré avec le Junk Jet; si vous obtenez un Effet, l’objet a survécu à l’attaque et peut être récupéré. Un Junk Jet peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au Junk Jet et s’installent avec la compétence Réparation:</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "fireRate": 1,
+    "isJunk": false,
+    "melee": false,
+    "mods": {
+      "5gXCZXtJ4E9Blg97": {
+        "_id": "5gXCZXtJ4E9Blg97",
+        "_stats": {
+          "compendiumSource": null,
+          "coreVersion": "12.331",
+          "createdTime": null,
+          "duplicateSource": null,
+          "lastModifiedBy": "LbffuJGmFEdJvA7X",
+          "modifiedTime": 1739249691510,
+          "systemId": "fallout",
+          "systemVersion": "11.14.3"
+        },
+        "effects": [],
+        "flags": {},
+        "folder": "IEE570d0qQIojCKB",
+        "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+        "name": "Viseur d’artilleur",
+        "ownership": {
+          "default": 0
+        },
+        "sort": 0,
+        "system": {
+          "attachable": true,
+          "attached": false,
+          "cost": 5,
+          "description": "",
+          "favorite": false,
+          "modEffects": {
+            "ammo": "",
+            "ammoPerShot": 0,
+            "damage": {
+              "damageEffect": {
+                "arc": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "breaking": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "burst": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "freeze": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "persistent": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "piercing_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "radioactive": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "spread": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "stun": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "tranquilize_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "vicious": {
+                  "rank": 0,
+                  "value": 0
+                }
+              },
+              "damageType": {
+                "energy": false,
+                "physical": false,
+                "poison": false,
+                "radiation": false
+              },
+              "overrideDamage": "modify",
+              "rating": 0,
+              "weaponQuality": {
+                "accurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "ammo_hungry_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "aquatic": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "blast": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "bombard": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "close_quarters": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "concealed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "debilitating": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "delay_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "gatling": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "inaccurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "limited": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "mine": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "night_vision": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "parry": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "placed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recoil_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recon": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "reliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "slow_load": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "suppressed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "surge": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "thrown": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "two_handed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unreliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unstable_radiation": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "wrangle": {
+                  "rank": 0,
+                  "value": 0
+                }
+              }
+            },
+            "damageEffect": "",
+            "damageRating": 0,
+            "effect": "<p>May re-roll hit location die</p>",
+            "fireRate": 0,
+            "info": "",
+            "range": 0,
+            "summary": ""
+          },
+          "modType": "sight",
+          "namePrefix": "Tactical",
+          "perks": "",
+          "qualities": "",
+          "quantity": 1,
+          "rarity": 0,
+          "source": "core_rulebook",
+          "stashed": false,
+          "weaponType": "bigGuns",
+          "weight": 1
+        },
+        "type": "weapon_mod"
+      },
+      "UtS1TgSmfTHRb5dW": {
+        "_id": "UtS1TgSmfTHRb5dW",
+        "_stats": {
+          "compendiumSource": null,
+          "coreVersion": "12.331",
+          "createdTime": null,
+          "duplicateSource": null,
+          "lastModifiedBy": "LbffuJGmFEdJvA7X",
+          "modifiedTime": 1738644635663,
+          "systemId": "fallout",
+          "systemVersion": "11.14.3"
+        },
+        "effects": [],
+        "flags": {},
+        "folder": "d5zExHtwM2EBYNfH",
+        "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+        "name": "Module d’électrification",
+        "ownership": {
+          "default": 0
+        },
+        "sort": 0,
+        "system": {
+          "attachable": true,
+          "attached": false,
+          "cost": 70,
+          "description": "",
+          "favorite": false,
+          "modEffects": {
+            "ammo": "",
+            "ammoPerShot": 0,
+            "damage": {
+              "damageEffect": {
+                "arc": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "breaking": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "burst": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "freeze": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "persistent": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "piercing_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "radioactive": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "spread": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "stun": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "tranquilize_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "vicious": {
+                  "rank": 0,
+                  "value": 1
+                }
+              },
+              "damageType": {
+                "energy": true,
+                "physical": false,
+                "poison": false,
+                "radiation": false
+              },
+              "overrideDamage": "modify",
+              "rating": 0,
+              "weaponQuality": {
+                "accurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "ammo_hungry_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "aquatic": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "blast": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "bombard": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "close_quarters": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "concealed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "debilitating": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "delay_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "gatling": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "inaccurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "limited": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "mine": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "night_vision": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "parry": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "placed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recoil_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recon": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "reliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "slow_load": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "suppressed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "surge": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "thrown": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "two_handed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unreliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unstable_radiation": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "wrangle": {
+                  "rank": 0,
+                  "value": 0
+                }
+              }
+            },
+            "damageEffect": "",
+            "damageRating": 0,
+            "effect": "",
+            "fireRate": 0,
+            "info": "",
+            "range": 0,
+            "summary": ""
+          },
+          "modType": "muzzle",
+          "namePrefix": "Electrified",
+          "perks": "Fana d’armes 2; Scientifique 1",
+          "qualities": "",
+          "quantity": 1,
+          "rarity": 0,
+          "source": "core_rulebook",
+          "stashed": false,
+          "weaponType": "bigGuns",
+          "weight": 1
+        },
+        "type": "weapon_mod"
+      },
+      "bCJRlQcht0typqhI": {
+        "_id": "bCJRlQcht0typqhI",
+        "_stats": {
+          "compendiumSource": null,
+          "coreVersion": "12.331",
+          "createdTime": null,
+          "duplicateSource": null,
+          "lastModifiedBy": "LbffuJGmFEdJvA7X",
+          "modifiedTime": 1738644695449,
+          "systemId": "fallout",
+          "systemVersion": "11.14.3"
+        },
+        "effects": [],
+        "flags": {},
+        "folder": "d5zExHtwM2EBYNfH",
+        "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+        "name": "Module de combustion",
+        "ownership": {
+          "default": 0
+        },
+        "sort": 0,
+        "system": {
+          "attachable": true,
+          "attached": false,
+          "cost": 130,
+          "description": "",
+          "favorite": false,
+          "modEffects": {
+            "ammo": "",
+            "ammoPerShot": 0,
+            "damage": {
+              "damageEffect": {
+                "arc": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "breaking": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "burst": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "freeze": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "persistent": {
+                  "rank": 0,
+                  "value": 1
+                },
+                "piercing_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "radioactive": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "spread": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "stun": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "tranquilize_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "vicious": {
+                  "rank": 0,
+                  "value": 0
+                }
+              },
+              "damageType": {
+                "energy": false,
+                "physical": false,
+                "poison": false,
+                "radiation": false
+              },
+              "overrideDamage": "modify",
+              "rating": 0,
+              "weaponQuality": {
+                "accurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "ammo_hungry_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "aquatic": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "blast": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "bombard": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "close_quarters": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "concealed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "debilitating": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "delay_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "gatling": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "inaccurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "limited": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "mine": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "night_vision": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "parry": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "placed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recoil_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recon": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "reliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "slow_load": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "suppressed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "surge": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "thrown": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "two_handed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unreliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unstable_radiation": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "wrangle": {
+                  "rank": 0,
+                  "value": 0
+                }
+              }
+            },
+            "damageEffect": "",
+            "damageRating": 0,
+            "effect": "<p>Persistent (Energy)</p>",
+            "fireRate": 0,
+            "info": "",
+            "range": 0,
+            "summary": ""
+          },
+          "modType": "muzzle",
+          "namePrefix": "Flaming",
+          "perks": "Fana d’armes 3; Scientifique 1",
+          "qualities": "",
+          "quantity": 1,
+          "rarity": 0,
+          "source": "core_rulebook",
+          "stashed": false,
+          "weaponType": "bigGuns",
+          "weight": 1
+        },
+        "type": "weapon_mod"
+      },
+      "cs76CKLMxYAzhNhb": {
+        "_id": "cs76CKLMxYAzhNhb",
+        "_stats": {
+          "compendiumSource": null,
+          "coreVersion": "12.331",
+          "createdTime": null,
+          "duplicateSource": null,
+          "lastModifiedBy": "LbffuJGmFEdJvA7X",
+          "modifiedTime": 1738644530111,
+          "systemId": "fallout",
+          "systemVersion": "11.14.3"
+        },
+        "effects": [],
+        "flags": {},
+        "folder": "pmCxHHhktJ8HK6JZ",
+        "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+        "name": "Canon long",
+        "ownership": {
+          "default": 0
+        },
+        "sort": 0,
+        "system": {
+          "attachable": true,
+          "attached": false,
+          "cost": 20,
+          "description": "",
+          "favorite": false,
+          "modEffects": {
+            "ammo": "",
+            "ammoPerShot": 0,
+            "damage": {
+              "damageEffect": {
+                "arc": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "breaking": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "burst": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "freeze": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "persistent": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "piercing_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "radioactive": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "spread": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "stun": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "tranquilize_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "vicious": {
+                  "rank": 0,
+                  "value": 0
+                }
+              },
+              "damageType": {
+                "energy": false,
+                "physical": false,
+                "poison": false,
+                "radiation": false
+              },
+              "overrideDamage": "modify",
+              "rating": 0,
+              "weaponQuality": {
+                "accurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "ammo_hungry_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "aquatic": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "blast": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "bombard": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "close_quarters": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "concealed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "debilitating": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "delay_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "gatling": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "inaccurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "limited": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "mine": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "night_vision": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "parry": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "placed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recoil_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recon": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "reliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "slow_load": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "suppressed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "surge": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "thrown": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "two_handed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unreliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unstable_radiation": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "wrangle": {
+                  "rank": 0,
+                  "value": 0
+                }
+              }
+            },
+            "damageEffect": "",
+            "damageRating": 0,
+            "effect": "",
+            "fireRate": 0,
+            "info": "",
+            "range": 1,
+            "summary": ""
+          },
+          "modType": "barrel",
+          "namePrefix": "Long",
+          "perks": "Fana d’armes 1",
+          "qualities": "",
+          "quantity": 1,
+          "rarity": 0,
+          "source": "core_rulebook",
+          "stashed": false,
+          "weaponType": "bigGuns",
+          "weight": 2
+        },
+        "type": "weapon_mod"
+      },
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 4,
+      "modded": false,
+      "pkYZNmGx0JPKquIC": {
+        "_id": "pkYZNmGx0JPKquIC",
+        "_stats": {
+          "compendiumSource": null,
+          "coreVersion": "12.331",
+          "createdTime": null,
+          "duplicateSource": null,
+          "lastModifiedBy": "LbffuJGmFEdJvA7X",
+          "modifiedTime": 1738644562904,
+          "systemId": "fallout",
+          "systemVersion": "11.14.3"
+        },
+        "effects": [],
+        "flags": {},
+        "folder": "nngcMvpqtEWovvJx",
+        "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+        "name": "Crosse à compensateur de recul",
+        "ownership": {
+          "default": 0
+        },
+        "sort": 0,
+        "system": {
+          "attachable": true,
+          "attached": false,
+          "cost": 40,
+          "description": "",
+          "favorite": false,
+          "modEffects": {
+            "ammo": "",
+            "ammoPerShot": 0,
+            "damage": {
+              "damageEffect": {
+                "arc": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "breaking": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "burst": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "freeze": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "persistent": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "piercing_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "radioactive": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "spread": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "stun": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "tranquilize_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "vicious": {
+                  "rank": 0,
+                  "value": 0
+                }
+              },
+              "damageType": {
+                "energy": false,
+                "physical": false,
+                "poison": false,
+                "radiation": false
+              },
+              "overrideDamage": "modify",
+              "rating": 0,
+              "weaponQuality": {
+                "accurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "ammo_hungry_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "aquatic": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "blast": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "bombard": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "close_quarters": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "concealed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "debilitating": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "delay_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "gatling": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "inaccurate": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "limited": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "mine": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "night_vision": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "parry": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "placed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recoil_x": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "recon": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "reliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "slow_load": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "suppressed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "surge": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "thrown": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "two_handed": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unreliable": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "unstable_radiation": {
+                  "rank": 0,
+                  "value": 0
+                },
+                "wrangle": {
+                  "rank": 0,
+                  "value": 0
+                }
+              }
+            },
+            "damageEffect": "",
+            "damageRating": 0,
+            "effect": "",
+            "fireRate": 1,
+            "info": "",
+            "range": 0,
+            "summary": ""
+          },
+          "modType": "stock",
+          "namePrefix": "Recoil Compensated",
+          "perks": "",
+          "qualities": "",
+          "quantity": 1,
+          "rarity": 0,
+          "source": "core_rulebook",
+          "stashed": false,
+          "weaponType": "bigGuns",
+          "weight": 2
+        },
+        "type": "weapon_mod"
+      }
+    },
+    "naturalWeapon": false,
+    "originalAmmoPerShot": 0,
+    "quantity": 1,
+    "quantityRoll": "",
+    "range": "medium",
+    "rarity": 3,
+    "skill": "",
+    "source": "core_rulebook",
+    "stashed": false,
+    "tear": 0,
+    "weaponType": "bigGuns",
+    "weight": 30
+  },
+  "type": "weapon",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "95-121",
+        "translatedFrom": "CyxEyS2RLOuMLMa1",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "extractionBleedReviewed": true
+      }
+    }
+  }
+}

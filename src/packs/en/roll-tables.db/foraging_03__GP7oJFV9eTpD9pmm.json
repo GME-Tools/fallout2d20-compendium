@@ -1,0 +1,14 @@
+{
+  "_id": "GP7oJFV9eTpD9pmm",
+  "_key": "!tables.results!DDXZDnebSdYipB0t.GP7oJFV9eTpD9pmm",
+  "name": "Carrot",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.8Fv9dZQm5Dax1INF]{Carrot}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    4
+  ],
+  "drawn": false
+}

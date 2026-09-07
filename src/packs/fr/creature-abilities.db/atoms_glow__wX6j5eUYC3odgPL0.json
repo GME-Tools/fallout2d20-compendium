@@ -1,0 +1,38 @@
+{
+  "name": "Lueur de l’Atome",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "wX6j5eUYC3odgPL0",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "wX6j5eUYC3odgPL0",
+  "system": {
+    "description": "<p>Les Enfants de l’Atome vivent dans certaines des zones les plus radioactives des Terres désolées et semblent souvent n’en subir que peu ou pas les effets. Qu’il s’agisse de chance, d’une prédisposition génétique ou d’une preuve de l’existence de l’Atome, ils gagnent +2 à leur Résistance aux dégâts de radiation.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!wX6j5eUYC3odgPL0"
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "bq6e2Hcl5CL3jpYU",
+  "_key": "!items!bq6e2Hcl5CL3jpYU",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Nuka-Cherry.webp",
+  "name": "Nuka-Cherry",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableType": "beverage",
+    "cost": 40,
+    "description": "<p>Créé après le rachat du brevet du Merle’s Very Cherry Soda, le Nuka-Cherry mêle la recette classique du Nuka-Cola à une saveur de cerise et une vive couleur rouge. Son goût rafraîchissant et ses fortes teneurs en sucre et caféine donnent un regain d’énergie. Vous récupérez 1 capsule en ouvrant et buvant une bouteille.</p>",
+    "duration": "",
+    "effect": "<p>Gagnez immédiatement 2 PA.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": true,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "bq6e2Hcl5CL3jpYU",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

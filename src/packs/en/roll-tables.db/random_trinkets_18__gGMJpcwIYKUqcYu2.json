@@ -1,0 +1,14 @@
+{
+  "_id": "gGMJpcwIYKUqcYu2",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.gGMJpcwIYKUqcYu2",
+  "name": "Overdue library book",
+  "description": "Overdue library book",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    18,
+    18
+  ],
+  "drawn": false
+}

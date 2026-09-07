@@ -1,0 +1,55 @@
+{
+  "_id": "jvM19NhHpkDowa8W",
+  "_key": "!items!jvM19NhHpkDowa8W",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Sensor Array",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 50,
+    "description": "<p>Additional sensor modules and sensory processing systems accompany the robot&rsquo;s normal optical and auditory sensors, allowing it to perceive the world in more detail and in more ways than normal eyes and ears can.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.GiPKNxmrkWA2k76W]{Robotics Expert} 1</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "effect": "<p>Re-roll 1d20 on all PER tests, May attempt PER tests to detect things which cannot normally be detected by the naked eye, such as radiation</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 1",
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": -15
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "modules",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [
+          "Robotics Expert 1"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

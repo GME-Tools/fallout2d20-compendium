@@ -1,0 +1,14 @@
+{
+  "_id": "dEGHVwyqeuFcGafT",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.dEGHVwyqeuFcGafT",
+  "name": "I Married a Robot",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.usR2XUJr38Er8QCh]{I Married a Robot}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    18
+  ],
+  "drawn": false
+}

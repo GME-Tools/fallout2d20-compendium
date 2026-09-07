@@ -1,0 +1,35 @@
+{
+  "_id": "anS2tzaEW0Tct41L",
+  "_key": "!tables!anS2tzaEW0Tct41L",
+  "name": "Random Guns and Bullets Issues",
+  "description": "<p>Core Rulebook table, p. 175.</p>",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "vaPjYoERiQDOLgQR",
+    "MCo0yyR7Cdm68CIk",
+    "tb8CsteVXc8dHQX0",
+    "zlhWeAbRw5y88eXT",
+    "yI30hRDdaMkd9ZZY",
+    "HSsq7OjVbVKF3rjN",
+    "2dNjdIVxxEc091EH",
+    "kaIeaZAGysPfPyYl",
+    "ImhZ11od2qYTAnkH",
+    "UWB2TUsLSAZ7HBee"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "page": 175,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

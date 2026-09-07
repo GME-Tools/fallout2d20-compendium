@@ -1,0 +1,14 @@
+{
+  "_id": "Le2RFngqFGaI3xrY",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.Le2RFngqFGaI3xrY",
+  "name": "Batte de baseball en aluminium",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.mmmxQfbZxwNWA45f]{Batte de baseball en aluminium}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

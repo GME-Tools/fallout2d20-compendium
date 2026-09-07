@@ -1,0 +1,74 @@
+{
+  "_id": "2RZM0aGaGT2bYY0l",
+  "_key": "!items!2RZM0aGaGT2bYY0l",
+  "effects": [],
+  "folder": "CP7J0KktKe7LOSyQ",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Dog Armor.webp",
+  "name": "Armure moyenne pour chien",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 15,
+    "description": "<p>Les personnages ayant choisi l’atout Canigou sont accompagnés d’un fidèle compagnon canin qu’ils souhaiteront probablement protéger des dangers des Terres désolées.</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": true,
+      "head": false,
+      "legL": true,
+      "legR": true,
+      "torso": true
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": false,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 2,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 2
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "2RZM0aGaGT2bYY0l",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Medium Dog Armor"
+      }
+    }
+  }
+}

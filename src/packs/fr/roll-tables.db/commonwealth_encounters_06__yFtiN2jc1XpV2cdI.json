@@ -1,0 +1,14 @@
+{
+  "_id": "yFtiN2jc1XpV2cdI",
+  "_key": "!tables.results!7TlfIIW1OHVVazkg.yFtiN2jc1XpV2cdI",
+  "name": "Meute de goules sauvages",
+  "description": "Des goules sauvages chargent, menées par un luminescent.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    12
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "56LAQROGB0M3ymuf",
+  "_key": "!tables.results!wnSUEULiOZSnr7Zq.56LAQROGB0M3ymuf",
+  "name": "2 Nuka-Cola, 1 Nuka-Cherry",
+  "description": "2 Nuka-Cola, 1 Nuka-Cherry",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

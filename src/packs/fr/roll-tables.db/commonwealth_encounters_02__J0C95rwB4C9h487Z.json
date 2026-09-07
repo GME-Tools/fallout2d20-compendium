@@ -1,0 +1,14 @@
+{
+  "_id": "J0C95rwB4C9h487Z",
+  "_key": "!tables.results!7TlfIIW1OHVVazkg.J0C95rwB4C9h487Z",
+  "name": "Marchand et mouches bouffies",
+  "description": "Un marchand fuit des mouches bouffies et récompense ses sauveteurs.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    4
+  ],
+  "drawn": false
+}

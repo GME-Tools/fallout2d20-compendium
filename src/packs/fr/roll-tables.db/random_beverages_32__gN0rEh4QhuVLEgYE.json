@@ -1,0 +1,14 @@
+{
+  "_id": "gN0rEh4QhuVLEgYE",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.gN0rEh4QhuVLEgYE",
+  "name": "Rhum",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.eH5lYeN88g16VbYT]{Rhum}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

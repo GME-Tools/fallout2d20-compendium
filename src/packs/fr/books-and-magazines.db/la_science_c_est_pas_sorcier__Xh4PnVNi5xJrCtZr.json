@@ -1,0 +1,43 @@
+{
+  "_id": "Xh4PnVNi5xJrCtZr",
+  "_key": "!items!Xh4PnVNi5xJrCtZr",
+  "effects": [],
+  "folder": "KhW0UE056TAgf0NU",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Rocket Science for Toddlers.webp",
+  "name": "La science, c’est pas sorcier !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Une attaque avec une arme à Zone d’impact inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.3gc78PRC1se8qefU]{La science, c’est pas sorcier !}</p></section>",
+    "effect": "<p>Une attaque avec une arme à Zone d’impact inflige +2 DC de dégâts.</p>",
+    "favorite": false,
+    "publication": "Science Tesla",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Xh4PnVNi5xJrCtZr",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

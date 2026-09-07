@@ -1,0 +1,14 @@
+{
+  "_id": "xE2XZcV8Aea9fc8e",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.xE2XZcV8Aea9fc8e",
+  "name": "Module de crochetage",
+  "description": "Module de crochetage",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    43,
+    43
+  ],
+  "drawn": false
+}

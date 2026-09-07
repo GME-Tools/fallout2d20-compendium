@@ -1,0 +1,34 @@
+{
+  "_id": "qBPZF0UE2yRc8lzg",
+  "_key": "!items!qBPZF0UE2yRc8lzg",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Bouffées de chaleur",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Les tests d’END gagnent +1 difficulté.</p>",
+    "duration": 3,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "qBPZF0UE2yRc8lzg",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

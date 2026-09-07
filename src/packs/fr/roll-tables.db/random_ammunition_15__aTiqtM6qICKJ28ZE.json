@@ -1,0 +1,14 @@
+{
+  "_id": "aTiqtM6qICKJ28ZE",
+  "_key": "!tables.results!sa66QXOwlO8515AT.aTiqtM6qICKJ28ZE",
+  "name": "Carburant de lance-flammes (12+6 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.0Ci0Jcpuca6rSqkL]{Carburant de lance-flammes (12+6 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    16
+  ],
+  "drawn": false
+}

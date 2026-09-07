@@ -1,0 +1,14 @@
+{
+  "_id": "3eRIdVF6RrSet16z",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.3eRIdVF6RrSet16z",
+  "name": "Tord-boyaux",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.66gEaC4Wd4cVuutB]{Tord-boyaux}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    34,
+    34
+  ],
+  "drawn": false
+}

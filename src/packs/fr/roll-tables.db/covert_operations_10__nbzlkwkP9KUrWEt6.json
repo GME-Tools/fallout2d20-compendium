@@ -1,0 +1,14 @@
+{
+  "_id": "nbzlkwkP9KUrWEt6",
+  "_key": "!tables.results!fVZuL3ahbEKecx8W.nbzlkwkP9KUrWEt6",
+  "name": "FH 5-10 Sur la pointe des pieds dans les tulipes",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.vAtCC2CaGrGOgnSL]{FH 5-10 Sur la pointe des pieds dans les tulipes}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    20
+  ],
+  "drawn": false
+}

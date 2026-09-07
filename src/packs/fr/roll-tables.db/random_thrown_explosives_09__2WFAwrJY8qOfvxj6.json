@@ -1,0 +1,14 @@
+{
+  "_id": "2WFAwrJY8qOfvxj6",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.2WFAwrJY8qOfvxj6",
+  "name": "2+1 DC Grenade à fragmentations",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.3CZ7jbXV7I5z757E]{2+1 DC Grenade à fragmentations}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

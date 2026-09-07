@@ -1,0 +1,14 @@
+{
+  "_id": "ebyHKKfAIGnwwrZa",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.ebyHKKfAIGnwwrZa",
+  "name": "Buzz Brain",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-diseases.Item.3TRX2F8Xik5lQFZD]{Buzz Brain}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

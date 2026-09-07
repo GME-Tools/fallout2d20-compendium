@@ -1,0 +1,27 @@
+{
+  "_id": "qm4i02cwDQdD4nSD",
+  "_key": "!items!qm4i02cwDQdD4nSD",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/addiction.svg",
+  "name": "Calmex",
+  "system": {
+    "description": "<p>You suffer complications on <strong>AGI</strong> tests on all rolls of 18 or higher whenever you are not under the effects of Calmex.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

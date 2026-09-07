@@ -1,0 +1,38 @@
+{
+  "name": "Grand",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "O40WmH3GD3UYUU8j",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "O40WmH3GD3UYUU8j",
+  "system": {
+    "description": "<p>Cette créature reçoit +1 point de Santé supplémentaire par niveau, mais sa Défense diminue de 1, jusqu’à un minimum de 1. Elle ne subit un Coup critique que si une attaque lui inflige au moins 7 dégâts après Résistance aux dégâts en un seul coup, au lieu de 5 ou plus.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!O40WmH3GD3UYUU8j"
+}

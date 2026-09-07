@@ -1,0 +1,14 @@
+{
+  "_id": "8bzdm7denN9vhdfr",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.8bzdm7denN9vhdfr",
+  "name": "Engineer's Armor",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.XzEQFrZXE4OPNs3g]{Engineer's Armor}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    13
+  ],
+  "drawn": false
+}

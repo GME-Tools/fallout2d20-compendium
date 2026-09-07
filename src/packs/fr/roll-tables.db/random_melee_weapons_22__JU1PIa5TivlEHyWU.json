@@ -1,0 +1,14 @@
+{
+  "_id": "JU1PIa5TivlEHyWU",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.JU1PIa5TivlEHyWU",
+  "name": "Tuyau de plomb",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.Xq6k6PuQQbneO6w0]{Tuyau de plomb}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    23,
+    23
+  ],
+  "drawn": false
+}

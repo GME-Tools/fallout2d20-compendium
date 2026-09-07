@@ -1,0 +1,14 @@
+{
+  "_id": "23JpsWOOPFGZ5QBl",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.23JpsWOOPFGZ5QBl",
+  "name": "6+3 DC Épingle à cheveuxs",
+  "description": "6+3 DC Épingle à cheveuxs",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    37,
+    37
+  ],
+  "drawn": false
+}

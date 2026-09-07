@@ -1,0 +1,71 @@
+const r = (family, group, name, complexity, perks = [], skill = "Repair", rarity = "uncommon", folder = null, id = null) => ({ family, group, name, complexity, perks, skill, rarity, folder, id, station: "weapons", page: family === "smallGuns" ? 222 : family === "energyWeapons" ? 223 : family === "bigGuns" ? 224 : 225 });
+const common = (family, group, name, complexity, folder = null, skill = "Repair", id = null) => r(family, group,name,complexity,[],skill,"common",folder,id);
+
+export const CORE_WEAPON_MOD_RECIPES = [
+  // Small guns, pp. 222-223
+  common("smallGuns","receiver","Hardened",2), r("smallGuns","receiver","Powerful",3,["Gun Nut 1"]), r("smallGuns","receiver","Advanced",5,["Gun Nut 2"]),
+  common("smallGuns","receiver","Calibrated",2), r("smallGuns","receiver","Automatic",3,["Gun Nut 1"]), r("smallGuns","receiver","Hair Trigger",4,["Gun Nut 2"]),
+  r("smallGuns","receiver",".38 Receiver",6,["Gun Nut 4"]), r("smallGuns","receiver",".308 Receiver",6,["Gun Nut 4"]), r("smallGuns","receiver",".45 Receiver",4,["Gun Nut 2"]),
+  r("smallGuns","receiver",".50 Receiver",6,["Gun Nut 4"]), r("smallGuns","receiver","Automatic Piston",4,["Gun Nut 2"]),
+  common("smallGuns","barrel","Snubnose",2), r("smallGuns","barrel","Bull Barrel",5,["Gun Nut 3"]), r("smallGuns","barrel","Long",3,["Gun Nut 1"]),
+  r("smallGuns","barrel","Ported",6,["Gun Nut 4"]), r("smallGuns","barrel","Vented",6,["Gun Nut 4"]), common("smallGuns","barrel","Sawed-Off",2), r("smallGuns","barrel","Finned",4,["Gun Nut 2"]),
+  common("smallGuns","grip","Comfort Grip",2), r("smallGuns","grip","Sharpshooter's Grip",3,["Gun Nut 1"],"Repair","uncommon",null,"4sOu5mfXcDlUVlUP"),
+  r("smallGuns","magazine","Large Magazine",4,["Gun Nut 1"]), r("smallGuns","magazine","Quick-Eject Mag",5,["Gun Nut 1"]), r("smallGuns","magazine","Large Quick-Eject Mag",5,["Gun Nut 2"]),
+  common("smallGuns","stock","Full Stock",2,null,"Repair","8nHC8z4vEY4yX7bM"), r("smallGuns","stock","Marksman's Stock",4,["Gun Nut 2"],"Repair","uncommon",null,"Q6VUr8ae7Rf7WOhA"), r("smallGuns","stock","Recoil Compensating Stock",5,["Gun Nut 3"],"Repair","uncommon",null,"H5uajcZl8MICYwfy"),
+  common("smallGuns","sight","Reflex Sight",2), common("smallGuns","sight","Short Scope",2), r("smallGuns","sight","Long Scope",4,["Science! 2"],"Repair","uncommon",null,"sg1EfJrr3S307XPy"),
+  r("smallGuns","sight","Short Night Vision Scope",4,["Science! 2"]), r("smallGuns","sight","Long Night Vision Scope",5,["Science! 3"],"Repair","uncommon",null,"nBQq6MTdf40kleS5"), r("smallGuns","sight","Recon Scope",5,["Science! 3"],"Repair","uncommon",null,"M5ox31Qif67xBC0m"),
+  common("smallGuns","muzzle","Bayonet",2), r("smallGuns","muzzle","Compensator",3,["Gun Nut 1"]), r("smallGuns","muzzle","Muzzle Break",3,["Gun Nut 1"]), r("smallGuns","muzzle","Suppressor",4,["Gun Nut 2"]),
+
+  // Energy weapons, pp. 223-224
+  common("energyWeapons","capacitor","Beta Wave Tuner",2,null,"Science"), common("energyWeapons","capacitor","Boosted Capacitor",2,null,"Science"),
+  r("energyWeapons","capacitor","Photon Exciter",3,["Science! 1"],"Science"), r("energyWeapons","capacitor","Photon Agitator",4,["Science! 2"],"Science"),
+  common("energyWeapons","capacitor","Three-Crank Capacitor",2,null,"Science"), r("energyWeapons","capacitor","Four-Crank Capacitor",3,["Science! 1"],"Science"),
+  r("energyWeapons","capacitor","Five-Crank Capacitor",4,["Science! 2"],"Science"), r("energyWeapons","capacitor","Six-Crank Capacitor",5,["Science! 3"],"Science"),
+  common("energyWeapons","barrel","Bracketed Short Barrel",3,null,"Science"), common("energyWeapons","barrel","Long Barrel",3,null,"Science"), common("energyWeapons","barrel","Splitter",3,null,"Science"),
+  r("energyWeapons","barrel","Automatic Barrel",4,["Science! 1"],"Science"), r("energyWeapons","barrel","Bracketed Long Barrel",4,["Science! 1"],"Science"),
+  r("energyWeapons","barrel","Improved Barrel",4,["Science! 1"],"Science"), r("energyWeapons","barrel","Sniper Barrel",4,["Science! 1"],"Science"), r("energyWeapons","barrel","Flamer Barrel",5,["Science! 2"],"Science"),
+  r("energyWeapons","grip","Sharpshooter's Grip",3,["Gun Nut 1"],"Repair","uncommon",null,"zAlW93haMYH8Nwp2"), common("energyWeapons","stock","Standard Stock",2), common("energyWeapons","stock","Full Stock",2,null,"Repair","bRV8rXkptjU6mz9Y"),
+  r("energyWeapons","stock","Marksman's Stock",4,["Gun Nut 2"],"Repair","uncommon",null,"zbzoOm7wspRTM8PJ"), r("energyWeapons","stock","Recoil Compensating Stock",5,["Gun Nut 3"],"Repair","uncommon",null,"pxflsyihN3fjKgYq"),
+  common("energyWeapons","sight","Reflex Sight",2), common("energyWeapons","sight","Short Scope",2), r("energyWeapons","sight","Long Scope",4,["Science! 2"],"Repair","uncommon",null,"U3fJYCYnDsxrr2Or"),
+  r("energyWeapons","sight","Short Night Vision Scope",4,["Science! 2"]), r("energyWeapons","sight","Long Night Vision Scope",5,["Science! 3"],"Repair","uncommon",null,"wvsSsznT8GDmdoUa"), r("energyWeapons","sight","Recon Scope",5,["Science! 3"],"Repair","uncommon",null,"dgWySoP4IQ9p2uyO"),
+  r("energyWeapons","muzzle","Beam Splitter",4,["Science! 1"],"Science"), r("energyWeapons","muzzle","Beam Focuser",4,["Science! 1"],"Science"), r("energyWeapons","muzzle","Gyro Compensating Lens",4,["Science! 1"],"Science"),
+
+  // Big guns, pp. 224-225. Folder IDs disambiguate same-name mods for different weapons.
+  common("bigGuns","flamer","Napalm",3), common("bigGuns","flamer","Long Barrel",3,"XK2wSRm6vu2u2hu2"), common("bigGuns","flamer","Large Tank",3), common("bigGuns","flamer","Huge Tank",4),
+  common("bigGuns","flamer","Compression Nozzle",3), common("bigGuns","flamer","Vaporization Nozzle",4),
+  r("bigGuns","gamma-gun","Deep Dish",6,["Science! 4"],"Science","uncommon","bQQgCwGbfWvQnvbj"), r("bigGuns","gamma-gun","Electric Signal Carrier Antennae",5,["Science! 3"],"Science","uncommon","W28sa1G86XSoOGE3"), r("bigGuns","gamma-gun","Signal Repeater",6,["Science! 4"],"Science","uncommon","W28sa1G86XSoOGE3"),
+  r("bigGuns","gatling-laser","Photon Exciter",6,["Science! 3"],"Science","uncommon","XtgWC9Ev4cxCj2nq"), common("bigGuns","gatling-laser","Beta Wave Tuner",4,"XtgWC9Ev4cxCj2nq","Science"),
+  common("bigGuns","gatling-laser","Boosted Capacitor",4,"YtRXRKCnP8THWkTL","Science"), r("bigGuns","gatling-laser","Photon Agitator",6,["Science! 3"],"Science","uncommon","YtRXRKCnP8THWkTL"),
+  r("bigGuns","gatling-laser","Charging Barrels",7,["Science! 4"],"Science"), r("bigGuns","gatling-laser","Reflex Sight",7,["Science! 4"],"Science","uncommon","Brw4U78MHdGIsy7A"), common("bigGuns","gatling-laser","Beam Focuser",4,"o6k96ORDTHXKtOxM","Science"),
+  r("bigGuns","junk-jet","Long Barrel",3,["Gun Nut 1"],"Repair","uncommon","pmCxHHhktJ8HK6JZ"), common("bigGuns","junk-jet","Recoil Compensating Stock",2), common("bigGuns","junk-jet","Gunner Sight",2,"CX42aHQ083WuWVzF"),
+  r("bigGuns","junk-jet","Electrification Module",6,["Gun Nut 2","Science! 1"]), r("bigGuns","junk-jet","Ignition Module",7,["Gun Nut 3","Science! 1"]),
+  r("bigGuns","minigun","Accelerated Barrel",5,["Gun Nut 3"]), r("bigGuns","minigun","Tri-Barrel",6,["Gun Nut 4"]), common("bigGuns","minigun","Gunner Sight",2,"8Uav0KQF8s6bGnC5"), r("bigGuns","minigun","Shredder",4,["Gun Nut 2"]),
+  r("bigGuns","missile-launcher","Triple Barrel",4,["Gun Nut 2"]), r("bigGuns","missile-launcher","Quad Barrel",5,["Gun Nut 3"]), r("bigGuns","missile-launcher","Scope",4,["Gun Nut 2"],"Repair","uncommon","8Uav0KQF8s6bGnC5"),
+  r("bigGuns","missile-launcher","Night Vision Scope",6,["Gun Nut 4","Science! 1"]), r("bigGuns","missile-launcher","Targeting Computer",6,["Gun Nut 2","Science! 2"]),
+  common("bigGuns","missile-launcher","Bayonet",2), r("bigGuns","missile-launcher","Stabilizer",4,["Gun Nut 2"]),
+
+  // Melee weapons, pp. 225-227
+  r("meleeWeapons","sword","Serrated Blade",3,["Blacksmith 2"],"Repair","uncommon",null,"7hxh0xRNMyflfbJp"), r("meleeWeapons","sword","Electrified Blade",4,["Blacksmith 2","Science! 1"]),
+  r("meleeWeapons","sword","Electrified Serrated Blade",5,["Blacksmith 3","Science! 1"]), r("meleeWeapons","sword","Stun Pack",5,["Blacksmith 3","Science! 1"],"Repair","uncommon","36UsRm4n8Pr0UaUy"),
+  r("meleeWeapons","combat-knife","Serrated Blade",3,["Blacksmith 1"],"Repair","uncommon",null,"vq6OcwFKhScFr26X"), r("meleeWeapons","combat-knife","Stealth Blade",4,["Blacksmith 2"]),
+  r("meleeWeapons","machete","Serrated Blade",3,["Blacksmith 1"],"Repair","uncommon","SzIlY1yfHnorPM9b"),
+  common("meleeWeapons","ripper","Curved Blade",2,"tECAlH9Iqv1vJ3i6"), r("meleeWeapons","ripper","Extended Blade",5,["Blacksmith 3"],"Repair","uncommon","tECAlH9Iqv1vJ3i6"),
+  r("meleeWeapons","shishkebab","Extra Flame Jets",5,["Blacksmith 3"]), r("meleeWeapons","switchblade","Serrated Blade",3,["Blacksmith 1"],"Repair","uncommon","ybjJSagFeVHIQgRl"),
+  common("meleeWeapons","baseball-bat","Barbed",1,null,"Repair","Sem0JhmbNdppKdJW"), common("meleeWeapons","baseball-bat","Spiked",2,"gRas49gTV8CDZ4hJ"), common("meleeWeapons","baseball-bat","Sharp",2,"gRas49gTV8CDZ4hJ"),
+  r("meleeWeapons","baseball-bat","Chain-Wrapped",3,["Blacksmith 1"],"Repair","uncommon","gRas49gTV8CDZ4hJ"), r("meleeWeapons","baseball-bat","Bladed",4,["Blacksmith 2"],"Repair","uncommon","Pq7KJHHyHnmMte4R"),
+  common("meleeWeapons","board","Spiked",1,"K1IeRyRpO9OOFVV2"), r("meleeWeapons","board","Puncturing",2,["Blacksmith 1"],"Repair","uncommon",null,"49zfOfotginM01u8"), r("meleeWeapons","board","Bladed",2,["Blacksmith 1"],"Repair","uncommon","K1IeRyRpO9OOFVV2"),
+  common("meleeWeapons","lead-pipe","Spiked",1,"r7pwoBfbx25tl1L6"), r("meleeWeapons","lead-pipe","Heavy",3,["Blacksmith 2"],"Repair","uncommon","r7pwoBfbx25tl1L6"),
+  common("meleeWeapons","pipe-wrench","Hooked",1), r("meleeWeapons","pipe-wrench","Heavy",2,["Blacksmith 1"],"Repair","uncommon",null,"wQSPWsdrMfYqPAMO"),
+  r("meleeWeapons","pipe-wrench","Puncturing",2,["Blacksmith 1"],"Repair","uncommon","sFnAMjOd2fTxG5bA"), r("meleeWeapons","pipe-wrench","Extra Heavy",3,["Blacksmith 2"]),
+  common("meleeWeapons","pool-cue","Barbed",1,"5xnlOjZqwEDGq9KM"), common("meleeWeapons","pool-cue","Sharp",1,null,"Repair","M2Tl0fVG6LzG9wtj"),
+  common("meleeWeapons","rolling-pin","Spiked",1,"LTVXHvKPOvOunXCb"), common("meleeWeapons","rolling-pin","Sharp",1,null,"Repair","EuJw4xP1fRt5hdCy"),
+  r("meleeWeapons","baton","Electrified",4,["Blacksmith 2","Science! 1"]), r("meleeWeapons","baton","Stun Pack",4,["Blacksmith 2","Science! 1"],"Repair","uncommon","pzodZYsC8tEPTWGH"),
+  r("meleeWeapons","sledgehammer","Puncturing",3,["Blacksmith 2"],"Repair","uncommon",null,"ol8d48kNa9veV1kv"), r("meleeWeapons","sledgehammer","Heavy",3,["Blacksmith 2"],"Repair","uncommon",null,"D8hF1RjpOMVHjlHp"),
+  r("meleeWeapons","super-sledge","Heating Coil",3,["Blacksmith 2"],"Repair","uncommon",null,"MvrQv0wg5FE6j7TR"), r("meleeWeapons","super-sledge","Stun Pack",5,["Blacksmith 3","Science! 1"],"Repair","uncommon","h90MorifUQMpngiI"),
+  r("meleeWeapons","tire-iron","Bladed",3,["Blacksmith 2"],"Repair","uncommon","m5KqewESbGVXLyJc"),
+  common("meleeWeapons","walking-cane","Barbed",1,"tKXXYXVZLrhcX4yZ"), common("meleeWeapons","walking-cane","Spiked",1,"tKXXYXVZLrhcX4yZ"),
+  common("meleeWeapons","boxing-glove","Spiked",1,"eTtGgz88Aq7NZ7Lt"), r("meleeWeapons","boxing-glove","Puncturing",2,["Blacksmith 1"],"Repair","uncommon","eTtGgz88Aq7NZ7Lt"), r("meleeWeapons","boxing-glove","Lead Lining",2,["Blacksmith 1"]),
+  common("meleeWeapons","deathclaw-gauntlet","Extra Claw",1,"wvK8aoD30P5a8IN6"), common("meleeWeapons","knuckles","Sharp",1,"6nnTrN2wU5QvWzgG"), common("meleeWeapons","knuckles","Spiked",1,"6nnTrN2wU5QvWzgG"),
+  r("meleeWeapons","knuckles","Puncturing",2,["Blacksmith 1"],"Repair","uncommon","6nnTrN2wU5QvWzgG"), r("meleeWeapons","knuckles","Bladed",2,["Blacksmith 1"],"Repair","uncommon","6nnTrN2wU5QvWzgG"),
+  r("meleeWeapons","power-fist","Puncturing",3,["Blacksmith 2"],"Repair","uncommon","aNsaQUScN2tDCYZ3"), r("meleeWeapons","power-fist","Heating Coil",4,["Blacksmith 3"],"Repair","uncommon",null,"hVD46UqAqiNB4f57")
+];

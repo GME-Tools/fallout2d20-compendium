@@ -1,0 +1,71 @@
+{
+  "_id": "6UWfRLqNydpXobqM",
+  "_key": "!items!6UWfRLqNydpXobqM",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Strong Back.webp",
+  "name": "Reins d’acier",
+  "system": {
+    "description": "<p>Rangs : 3 Prérequis : FOR 5, niveau 1+ Votre charge maximale augmente de 12,5 kilogrammes par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 2.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 3,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 5
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 2,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "6UWfRLqNydpXobqM",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

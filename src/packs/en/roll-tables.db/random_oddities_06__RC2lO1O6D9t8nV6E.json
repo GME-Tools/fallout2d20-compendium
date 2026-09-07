@@ -1,0 +1,14 @@
+{
+  "_id": "RC2lO1O6D9t8nV6E",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.RC2lO1O6D9t8nV6E",
+  "name": "5d20 Caps",
+  "description": "5d20 Caps",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

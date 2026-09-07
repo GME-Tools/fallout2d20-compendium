@@ -1,0 +1,14 @@
+{
+  "_id": "ULhuRHj6fjHGpKUX",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.ULhuRHj6fjHGpKUX",
+  "name": "2+1 DC Tomahawks",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.pYMfuytsOCR3mxW8]{2+1 DC Tomahawks}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    30,
+    30
+  ],
+  "drawn": false
+}

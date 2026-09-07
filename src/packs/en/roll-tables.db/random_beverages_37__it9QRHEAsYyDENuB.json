@@ -1,0 +1,14 @@
+{
+  "_id": "it9QRHEAsYyDENuB",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.it9QRHEAsYyDENuB",
+  "name": "Vodka",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.pGaN2EDIWl3lUsrx]{Vodka}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    38,
+    38
+  ],
+  "drawn": false
+}

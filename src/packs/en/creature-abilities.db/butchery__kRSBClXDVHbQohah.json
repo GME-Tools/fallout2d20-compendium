@@ -1,0 +1,39 @@
+{
+  "_id": "kRSBClXDVHbQohah",
+  "name": "Butchery",
+  "type": "miscellany",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.5jwQMeycCKWDROpB"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": "0",
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "effect": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead [creature] with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 1 portion of [creater] meat and 1 uncommon material.</span></p>",
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!kRSBClXDVHbQohah"
+}

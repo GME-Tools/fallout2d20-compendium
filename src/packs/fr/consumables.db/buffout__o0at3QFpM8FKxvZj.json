@@ -1,0 +1,52 @@
+{
+  "_id": "o0at3QFpM8FKxvZj",
+  "_key": "!items!o0at3QFpM8FKxvZj",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Buffout.webp",
+  "name": "Buffout",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Buffout",
+    "consumableType": "chem",
+    "cost": 45,
+    "description": "<p>Un stéroïde puissant et rapide devenu populaire auprès des athlètes avant la Grande Guerre. Pendant quelques minutes, il rend plus fort et plus résistant. <strong>Dépendance au Buffout :</strong> un jet de dépendance raté vous rend dépendant au Buffout. Augmentez de +1 la difficulté de tous vos tests de FOR et d’END lorsque vous n’êtes pas sous l’effet d’un Buffout, Buffjet ou Bufftats.</p>",
+    "duration": "lasting",
+    "effect": "<p>Relancez 1d20 lors de tous les tests de FOR et d’END. Vos PV maximums augmentent de 3.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "o0at3QFpM8FKxvZj",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "jEuUZzkNQSR7uQJj",
+  "_key": "!tables.results!sa66QXOwlO8515AT.jEuUZzkNQSR7uQJj",
+  "name": "Mini-Nuke (1+1 CD)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.gpthlPtWrerYP7Kn]{Mini-Nuke (1+1 CD)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    38,
+    38
+  ],
+  "drawn": false
+}

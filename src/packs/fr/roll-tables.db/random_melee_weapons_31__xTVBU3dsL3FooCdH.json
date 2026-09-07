@@ -1,0 +1,14 @@
+{
+  "_id": "xTVBU3dsL3FooCdH",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.xTVBU3dsL3FooCdH",
+  "name": "Démonte-pneu",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.Pdmfy50DEM5oB9js]{Démonte-pneu}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

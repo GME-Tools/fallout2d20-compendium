@@ -1,0 +1,14 @@
+{
+  "_id": "gAVKw7GjgSadFG6U",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.gAVKw7GjgSadFG6U",
+  "name": "1 Frag Mine",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.Ai4EeSDZl48zoJoL]{1 Frag Mine}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "Nei43KlUxbHLw6MI",
+  "_key": "!items!Nei43KlUxbHLw6MI",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Gun Fu.webp",
+  "name": "Tonton flingueur",
+  "system": {
+    "description": "<p>Rangs : 3 Prérequis : AGI 10, niveau 1+ Lorsque vous réussissez une attaque à distance, vous pouvez dépenser 1 PA et 1 munition pour toucher une cible supplémentaire située à portée courte ou inférieure de votre cible initiale. Ces deux cibles subissent les mêmes dégâts. Au rang 2, vous pouvez dépenser 2 PA et 2 munitions pour toucher deux cibles supplémentaires. Au rang 3, vous pouvez dépenser 3 PA et 3 munitions pour toucher trois cibles supplémentaires. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 3,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 10
+        },
+        "cha": {
+          "value": 0
+        },
+        "end": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 5,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "Nei43KlUxbHLw6MI",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "eBpwFa8DbIqVZ7Ji",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.eBpwFa8DbIqVZ7Ji",
+  "name": "Fusil laser",
+  "description": "Fusil laser",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "F4uIprrKWh9ApMaU",
+  "_key": "!items!F4uIprrKWh9ApMaU",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Athletics.png",
+  "name": "Athlétisme",
+  "system": {
+    "defaultAttribute": "str",
+    "description": "<p>Athl&eacute;tisme d&eacute;termine votre&nbsp;capacit&eacute; &agrave; mettre en application votre force et votre agilit&eacute;, &agrave; conna&icirc;tre vos limites&nbsp;et &agrave; vous concentrer durant&nbsp;un effort physique.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est la <strong>Force</strong>, mais&nbsp;vous pouvez utiliser Agilit&eacute;, ou Endurance lorsque vous&nbsp;faites face &agrave; une adversit&eacute; physique. Employez Athl&eacute;tisme&nbsp;pour pousser, tirer ou soulever un objet, pour sauter,&nbsp;escalader, nager ou courir.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "44-46",
+        "translatedFrom": "F4uIprrKWh9ApMaU",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

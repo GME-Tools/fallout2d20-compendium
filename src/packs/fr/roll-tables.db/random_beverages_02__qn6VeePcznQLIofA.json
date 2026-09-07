@@ -1,0 +1,14 @@
+{
+  "_id": "qn6VeePcznQLIofA",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.qn6VeePcznQLIofA",
+  "name": "Vin",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.afPpMSnBCqxLyaxx]{Vin}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

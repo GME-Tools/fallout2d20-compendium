@@ -1,0 +1,14 @@
+{
+  "_id": "fTVKYOZdwZB6Bjjh",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.fTVKYOZdwZB6Bjjh",
+  "name": "Dirty Water",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.smWip05JhGyTXRU1]{Dirty Water}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    22,
+    22
+  ],
+  "drawn": false
+}

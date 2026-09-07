@@ -1,0 +1,70 @@
+{
+  "_id": "wS4PyRQOedMKih10",
+  "_key": "!items!wS4PyRQOedMKih10",
+  "effects": [],
+  "folder": "ZAq7EwNs5CfYckUH",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Main Body.webp",
+  "name": "Toxic Plate (Main Body)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": -20,
+    "cost": 30,
+    "description": "<p>Makeshift armor made with irradiated metal plating, dangerous to living creatures nearby.</p>\n<p><strong>Special:</strong> When a melee attack is made against a location fitted with toxic plate, and the attacker suffers a complication, then the attacker suffers 2 @fos[DC] Radiation damage. In addition, melee attacks made using arms fitted with serrated plate gain the Radioactive damage effect.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.EQjZHUxYinodOU6G]{Armorer} 3</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×6</li><li>Uncommon Materials ×5</li><li>Rare Materials ×2</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "Armorer 3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Toxic Plate (Main Body)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 5,
+        "skill": "Repair",
+        "perks": [
+          "Armorer 3"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 5,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

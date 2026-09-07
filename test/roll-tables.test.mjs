@@ -1,0 +1,47 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFile, readdir } from "node:fs/promises";
+import path from "node:path";
+
+test("paired trinket tables contain a complete d20 range", async () => {
+  for (const language of ["en", "fr"]) {
+    const root = path.join("src/packs", language, "roll-tables.db");
+    const documents = await Promise.all((await readdir(root)).map(async file => JSON.parse(await readFile(path.join(root, file), "utf8"))));
+    const table = documents.find(document => document.name === (language === "en" ? "Random Trinkets" : "Babioles aléatoires"));
+    const results = documents.filter(document => document._key.startsWith(`!tables.results!${table._id}.`));
+    assert.equal(table.formula, "1d20");
+    assert.equal(results.length, 20);
+    assert.deepEqual(results.map(result => result.range[0]).sort((a, b) => a - b), Array.from({ length: 20 }, (_, index) => index + 1));
+    assert.deepEqual(new Set(table.results), new Set(results.map(result => result._id)));
+  }
+});
+
+test("each language provides every Core random table but no starting-equipment table", async () => {
+  for (const language of ["en", "fr"]) {
+    const root = path.join("src/packs", language, "roll-tables.db");
+    const documents = await Promise.all((await readdir(root)).map(async file => JSON.parse(await readFile(path.join(root, file), "utf8"))));
+    const tables = documents.filter(document => document._key.startsWith("!tables!"));
+    assert.equal(tables.length, 29);
+    assert.ok(tables.every((table) => !/Starting Equipment|Équipement de départ|Tag Skills|atouts personnels/i.test(table.name)));
+    for (const table of tables) {
+      const [dice, faces] = table.formula.split("d").map(Number);
+      const results = documents.filter((document) => document._key.startsWith(`!tables.results!${table._id}.`));
+      const covered = new Set(results.flatMap((result) => Array.from({ length: result.range[1] - result.range[0] + 1 }, (_, index) => result.range[0] + index)));
+      for (let total = dice; total <= dice * faces; total++) assert.ok(covered.has(total), `${language}/${table.name} does not cover ${total}`);
+    }
+  }
+});
+
+test("Random Publication recursively targets every publication issue table", async () => {
+  for (const language of ["en", "fr"]) {
+    const root = path.join("src/packs", language, "roll-tables.db");
+    const documents = await Promise.all((await readdir(root)).map(async (file) => JSON.parse(await readFile(path.join(root, file), "utf8"))));
+    const publication = documents.find((document) => document._key === `!tables!${document._id}` && document.name === (language === "en" ? "Random Publication" : "Publication aléatoire"));
+    const results = documents.filter((document) => document._key.startsWith(`!tables.results!${publication._id}.`));
+    const nested = results.filter((result) => result.type === "pack");
+    assert.equal(nested.length, 10);
+    assert.ok(nested.every((result) => result.documentCollection === `fallout2d20-compendium.${language}-roll-tables`));
+    const tableIds = new Set(documents.filter((document) => document._key === `!tables!${document._id}`).map((document) => document._id));
+    assert.ok(nested.every((result) => tableIds.has(result.documentId)));
+  }
+});

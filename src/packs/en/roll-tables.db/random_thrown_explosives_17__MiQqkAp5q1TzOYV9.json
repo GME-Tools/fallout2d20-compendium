@@ -1,0 +1,14 @@
+{
+  "_id": "MiQqkAp5q1TzOYV9",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.MiQqkAp5q1TzOYV9",
+  "name": "2+1 CD Javelins",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.iodz4xm3QDXNuhxf]{2+1 CD Javelins}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    18,
+    18
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "S41Hti7y6Hkga3Gm",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.S41Hti7y6Hkga3Gm",
+  "name": "La vengeance du Russe dément !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.iiFcIlhklIMxjaoC]{La vengeance du Russe dément !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    8
+  ],
+  "drawn": false
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "zsdAyshPMJ7Clyis",
+  "_key": "!items!zsdAyshPMJ7Clyis",
+  "effects": [],
+  "folder": "Yz1YYU8QjGg1Lrdb",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Boxing Times.webp",
+  "name": "La boxe pour les passionnés",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’avant-guerre destiné aux passionnés de boxe.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous réussissez une attaque avec Mains nues et dépensez des PA pour augmenter ses dégâts, vous pouvez lui ajouter l’effet Étourdissant.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.9rp4u6tgFbJk9GRT]{La boxe pour les passionnés}</p></section>",
+    "effect": "<p>Une seule fois, quand vous réussissez une attaque avec Mains nues et dépensez des PA pour augmenter ses dégâts, vous pouvez lui ajouter l’effet Étourdissant.</p>",
+    "favorite": false,
+    "publication": "La boxe pour les passionnés",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "zsdAyshPMJ7Clyis",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

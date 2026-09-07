@@ -1,0 +1,72 @@
+{
+  "_id": "7iRkK1Elj5iRfANw",
+  "_key": "!items!7iRkK1Elj5iRfANw",
+  "effects": [],
+  "folder": "0sZTfWE1J7mKvvnK",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Blindage explosif",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 10,
+    "description": "<p>Cette modification s’installe avec la compétence Sciences.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "effect": "<p>Vous gagnez +2 à toutes les résistances aux dégâts contre les armes disposant de la qualité Zone d’impact.</p>",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Helm, Arms, Legs",
+    "modType": "plating",
+    "perks": "Science! 1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 1
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "7iRkK1Elj5iRfANw",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "plating",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [
+          "Scientifique 1"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

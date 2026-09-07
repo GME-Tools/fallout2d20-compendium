@@ -1,0 +1,84 @@
+{
+  "_id": "SyrBerserkAmmo01",
+  "_key": "!items!SyrBerserkAmmo01",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/Syringer Ammo, Berserk.webp",
+  "name": "Berserk Syringe",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 50,
+    "description": "<p>If one or more Effects are rolled for the weapon's damage, the target becomes frenzied and berserk, attacking the nearest living creature (friend or foe) for the remainder of the scene.</p><p><strong>Quantity found:</strong> 4+2 DC</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Uncommon Materials ×1</li><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.68eulbmhBZbFJlcs]{Bourbon} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.smWip05JhGyTXRU1]{Dirty Water} ×1</li><li>Common Materials ×1</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "4+2dc",
+    "rarity": 2,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": "",
+    "weight": 0.1
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "page": 117,
+        "errataReviewed": true,
+        "translationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "syringerEffect": {
+        "key": "Berserk",
+        "text": "If one or more Effects are rolled for the weapon's damage, the target becomes frenzied and berserk, attacking the nearest living creature (friend or foe) for the remainder of the scene."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 215,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Bourbon",
+            "canonicalName": "Bourbon",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.68eulbmhBZbFJlcs"
+          },
+          {
+            "name": "Dirty Water",
+            "canonicalName": "Dirty Water",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.en-consumables.Item.smWip05JhGyTXRU1"
+          },
+          {
+            "name": "Common Materials",
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "QXfig6VqlFneFYTE",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.QXfig6VqlFneFYTE",
+  "name": "Pistolet Gamma",
+  "description": "Pistolet Gamma",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    40,
+    40
+  ],
+  "drawn": false
+}

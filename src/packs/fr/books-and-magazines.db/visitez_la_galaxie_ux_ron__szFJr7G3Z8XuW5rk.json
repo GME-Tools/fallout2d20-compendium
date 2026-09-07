@@ -1,0 +1,43 @@
+{
+  "_id": "szFJr7G3Z8XuW5rk",
+  "_key": "!items!szFJr7G3Z8XuW5rk",
+  "effects": [],
+  "folder": "oaZmiRTFAVRizbVN",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Visit the UxRon Galaxy.webp",
+  "name": "Visitez la galaxie Ux-Ron !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.</p><p><strong>Aptitude :</strong> Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts énergétiques infligés par une seule attaque.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.Lf2VvWWVug9jj5Ly]{Visitez la galaxie Ux-Ron !}</p></section>",
+    "effect": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts énergétiques infligés par une seule attaque.</p>",
+    "favorite": false,
+    "publication": "Les Increvables",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "szFJr7G3Z8XuW5rk",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "opho9zlvwqcLUPcK",
+  "_key": "!items!opho9zlvwqcLUPcK",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "name": "Argent d’avant-guerre",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 1,
+    "description": "",
+    "effect": "",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "opho9zlvwqcLUPcK",
+        "structuralBaseline": true,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

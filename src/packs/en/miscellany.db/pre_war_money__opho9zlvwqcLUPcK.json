@@ -1,0 +1,35 @@
+{
+  "_id": "opho9zlvwqcLUPcK",
+  "_key": "!items!opho9zlvwqcLUPcK",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "name": "Pre-War Money",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 1,
+    "description": "",
+    "effect": "",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

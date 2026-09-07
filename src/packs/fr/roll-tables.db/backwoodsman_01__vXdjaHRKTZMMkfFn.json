@@ -1,0 +1,14 @@
+{
+  "_id": "vXdjaHRKTZMMkfFn",
+  "_key": "!tables.results!b0YDWI7LbsTTbsLR.vXdjaHRKTZMMkfFn",
+  "name": "Dégage de ma pelouse !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.yqeVKyCZWStLXitm]{Dégage de ma pelouse !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    2
+  ],
+  "drawn": false
+}

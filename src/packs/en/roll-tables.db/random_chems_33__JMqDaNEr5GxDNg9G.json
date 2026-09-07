@@ -1,0 +1,14 @@
+{
+  "_id": "JMqDaNEr5GxDNg9G",
+  "_key": "!tables.results!isNdghTYF06GBC0m.JMqDaNEr5GxDNg9G",
+  "name": "Rad-X",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.MN5XQI0NJPPPlmsj]{Rad-X}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    34,
+    34
+  ],
+  "drawn": false
+}

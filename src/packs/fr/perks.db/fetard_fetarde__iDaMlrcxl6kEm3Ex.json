@@ -1,0 +1,72 @@
+{
+  "_id": "iDaMlrcxl6kEm3Ex",
+  "_key": "!items!iDaMlrcxl6kEm3Ex",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Perks/Partyboygirl.webp",
+  "name": "Fêtard/Fêtarde",
+  "system": {
+    "description": "<p>Rangs : 1 Prérequis : END 6, CHR 7 Vous ne pouvez pas devenir dépendant aux boissons alcoolisées, chaque fois que vous buvez ce type de boisson, vous regagnez +2 PV.</p>",
+    "favorite": false,
+    "rank": {
+      "max": 1,
+      "value": 0
+    },
+    "requirements": "",
+    "requirementsEx": {
+      "attributes": {
+        "agi": {
+          "value": 0
+        },
+        "cha": {
+          "value": 7
+        },
+        "end": {
+          "value": 6
+        },
+        "int": {
+          "value": 0
+        },
+        "luc": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        }
+      },
+      "isCompanion": false,
+      "level": 1,
+      "levelIncrease": 0,
+      "magazineUuids": [],
+      "notGhoul": false,
+      "notHuman": false,
+      "notRadiationImmune": false,
+      "notRobot": false,
+      "notSupermutant": false
+    },
+    "source": "core_rulebook"
+  },
+  "type": "perk",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "59-73",
+        "translatedFrom": "iDaMlrcxl6kEm3Ex",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Party Boy / Party Girl"
+      }
+    }
+  }
+}

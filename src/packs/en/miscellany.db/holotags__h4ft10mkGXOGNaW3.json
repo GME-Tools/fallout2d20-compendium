@@ -1,0 +1,35 @@
+{
+  "_id": "h4ft10mkGXOGNaW3",
+  "_key": "!items!h4ft10mkGXOGNaW3",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Holotags.webp",
+  "name": "Holotags",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 5,
+    "description": "<p>A small, durable, identifying item used by the Brotherhood of Steel. Holotags contain information to identify their wearer in case of death. They also act as a &ldquo;black box&rdquo; data recorder for a suit of Power Armor, providing the Brotherhood record of the deeds of their fallen warriors. Though not especially valuable by themselves, the Brotherhood often pays a reward to any who bring in holotags they find.</p>",
+    "effect": "<p>Identifies the fallen</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

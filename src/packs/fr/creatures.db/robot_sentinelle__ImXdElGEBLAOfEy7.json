@@ -1,0 +1,1078 @@
+{
+  "_id": "ImXdElGEBLAOfEy7",
+  "name": "Robot sentinelle",
+  "type": "creature",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Sentry Bot.webp",
+  "token": {
+    "name": "Sentry Bot",
+    "img": "modules/fallout2d20-compendium/artwork/Creatures/Sentry%20Bot.webp",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "xv8x0emozn3FsSVX",
+      "name": "Immunisé contre les radiations",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "yykTgk8H6hT6lM5N",
+      "name": "Immunisé contre le poison",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "k2DoIK8jAYAeeXWj",
+      "name": "Robot",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Cette créature est immunisée contre la faim, la soif et l’asphyxie, ainsi que contre les dégâts de poison et de radiation. Elle ne peut pas utiliser de consommables, ne guérit pas naturellement et ne peut pas être soignée avec Médecine : ses dégâts doivent être réparés.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "NDgcIjeheQ9ue8Nv",
+      "name": "Immunisé contre les maladies",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 325000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Cette créature est immunisée contre les effets de toutes les maladies et n’en subit jamais les symptômes.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "uxM0vJtboDwQ5jER",
+      "name": "Récupération",
+      "type": "miscellany",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "weight": "0",
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "effect": "<p>Les pilleurs peuvent récupérer des composants sur un robot sentinelle détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 1 réacteur à fusion et 2 DC unités de matériaux communs, +1 DC par PA dépensé, plus 1 matériau peu commun par Effet obtenu.</p>"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "oYhLl1MG1EnX340A",
+      "name": "Autodestruction",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 334375,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Si ses deux bras sont blessés, ou si sa Santé est réduite à la moitié ou moins de son maximum, le robot sentinelle se dirige vers l’ennemi le plus proche et consacre son action majeure à s’autodétruire. Cette attaque est centrée sur lui et le détruit après sa résolution.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "EvgVTalbDvWLYOHh",
+      "name": "Mitrailleuse rotative",
+      "type": "weapon",
+      "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.aSM423jHNM9YfUdZ"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "weight": "0",
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "creatureAttack",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "guns",
+        "damage": {
+          "rating": 5,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": true,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": true,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": true,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "medium",
+        "fireRate": 5,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "xeHdxLIf4iKgwg4f",
+      "name": "Sens aiguisés",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 329688,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "MtFouyRs3rHXYimE",
+      "name": "Agressif",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 332032,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "system": {
+        "description": "<p>Lorsque cette créature entre dans une scène, générez immédiatement 1 point d’Action. Si elle est alliée, ajoutez-le à la réserve du groupe ; si elle est ennemie, ajoutez-le à celle du MJ.</p>",
+        "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "E7ibAxcZ8jOCbDfl",
+      "name": "Lance-missiles",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Missle%20Launcher.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
+      "system": {
+        "description": "<p>Munitions: missiles Le lance-missiles modulaire est une arme à missiles sophistiquée hautement adaptable et polyvalente ajoutée à l’arsenal américain. Il est plus petit et plus maniable que l’ancien modèle. Il est composé d’un tube de lancement en deux parties, d’un mécanisme de tir, d’un support de montage, d’un viseur prévu pour les champs de bataille et d’un support pour un système de guidage.</p>",
+        "favorite": false,
+        "weight": "21",
+        "cost": "314",
+        "quantity": 1,
+        "rarity": 4,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "bigGuns",
+        "ammo": "Missle",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "guns",
+        "damage": {
+          "rating": 11,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": true,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": true,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "long",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 3,
+          "current": 0,
+          "list": "<p><span class=\"fontstyle0\">A Missile Launcher can accept one each of the following mods, which are unique to the Missile Launcher and </span><span class=\"fontstyle2\">installed with the <strong>Repair skill</strong></span><span class=\"fontstyle0\">:</span> </p>\n<p><strong>Barrel:</strong> @Compendium[fallout2d20-compendium.weapon-mods.vAODVRRSQAXotxZg]{Tripple Barrel}, @Compendium[fallout2d20-compendium.weapon-mods.vVns7wl6BZdtK7Q6]{Quad Barrel}</p>\n<p><strong>Sight: </strong>@Compendium[fallout2d20-compendium.weapon-mods.Sy6sr285ikSBjPAb]{Missle Launcher Scope}, @Compendium[fallout2d20-compendium.weapon-mods.BwgZQowicfaTL6Cn]{Missle Launcher Night Scope}, @Compendium[fallout2d20-compendium.weapon-mods.S2sCtna4E4UnGXnz]{Tactical Computer}</p>\n<p><strong>Muzzle: </strong>@Compendium[fallout2d20-compendium.weapon-mods.cjhhUXRxUhsF8kUZ]{Bayonet}, @Compendium[fallout2d20-compendium.weapon-mods.C9oWgEz2qwI47koM]{Stabilzer}</p>"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "nV4OEZjbEz8km27G",
+      "name": "Attaque à mains nues",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Unarmmed%20Strike.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
+      "system": {
+        "description": null,
+        "favorite": false,
+        "weight": "0",
+        "cost": "0",
+        "quantity": 0,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "unarmed",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "melee",
+        "damage": {
+          "rating": 8,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": true,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "SentrySelfDst001",
+      "name": "Autodestruction",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Unarmmed%20Strike.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
+      "system": {
+        "description": null,
+        "favorite": false,
+        "weight": "0",
+        "cost": "0",
+        "quantity": 0,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "unarmed",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "melee",
+        "damage": {
+          "rating": 6,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": true,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": true,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "SentryBigAbility",
+      "name": "Grand",
+      "type": "special_ability",
+      "img": "systems/fallout/assets/icons/mysterious-stranger.svg",
+      "system": {
+        "description": "<p>Cette créature reçoit +1 point de Santé supplémentaire par niveau, mais sa Défense diminue de 1, jusqu’à un minimum de 1. Elle ne subit un Coup critique que si une attaque lui inflige au moins 7 dégâts après Résistance aux dégâts en un seul coup, au lieu de 5 ou plus.</p>",
+        "favorite": false
+      },
+      "effects": [],
+      "folder": null
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Actor.IvGrJNmw17XEIwjW"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ImXdElGEBLAOfEy7",
+        "structuralBaseline": false,
+        "importedFromLegacy": true,
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": true,
+        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
+        "nameTranslationReviewed": true,
+        "biographyTranslationReviewed": true,
+        "originTranslationReviewed": true,
+        "embeddedNameTranslationReviewed": true,
+        "specialAbilityTextTranslationReviewed": true,
+        "embeddedWeaponTextTranslationReviewed": true,
+        "embeddedMiscellanyTextTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "extractionBleedReviewed": true
+      }
+    }
+  },
+  "system": {
+    "origin": "Robot, Créature Normale",
+    "level": {
+      "value": 15,
+      "currentXP": 109,
+      "nextLevelXP": 0
+    },
+    "biography": "<p>L’armée des États-Unis a fait usage de robots dans toute sa structure, notamment au combat, et aucune de ces machines n’était plus solide ou destructrice que le robot sentinelle. Les Laserotrons privilégiaient le combat au corps à corps et les Mister Gutsy équilibraient vitesse et puissance de feu; quant aux robots sentinelles, ils étaient conçus pour tirer parti de leur blindage lourd et de leurs armes encore plus lourdes. Ces machines impressionnantes se déplacent sur des roues plutôt que sur des jambes ou à l’aide d’un propulseur et elles disposent d’un blindage lourd qui peut sans souci résister à un tir direct de missile ou de mini-bombe nucléaire. Leur arsenal incorporé inclut un canon mitrailleur automatique et parfois des missiles. Bien que leur programmation vise à éliminer les ennemis à distance, ils sont tout aussi capables de porter des attaques au corps à corps avec un résultat dévastateur. Certains modèles contiennent même un programme d’autodestruction qui sert autant à abattre les ennemis qu’à empêcher l’unité de tomber entre de mauvaises mains. Les robots sentinelles se trouvent souvent dans des complexes militaires ou scientifiques, bien que certains modèles semblent avoir servi à des fins non militaires, telles que la sécurité générale. En de rares occasions, on a pu observer qu’un robot sentinelle, à l’instar de ses cousins Mister Handy, a pu dépasser sa programmation originelle (par exemple, Ironsides, capitaine de l’USS Constitution, et son équipage de robots, ou les unités reprogrammées et employées en tant que gardes domestiques). Dans la plupart des cas, néanmoins, rares sont ceux qui sont sortis vivants d’une rencontre avec un robot sentinelle.</p>",
+    "description": "",
+    "trait": "",
+    "powerLevel": "normal",
+    "body": {
+      "value": 10,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "mind": {
+      "value": 6,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "melee": {
+      "value": 4,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "guns": {
+      "value": 5,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "other": {
+      "value": 4,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "health": {
+      "value": 40,
+      "min": 0,
+      "max": 40,
+      "mod": 0
+    },
+    "initiative": {
+      "value": 16,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "defense": {
+      "value": 1,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "resistance": {
+      "physical": {
+        "value": 0,
+        "locations": "6 (All)"
+      },
+      "energy": {
+        "value": 0,
+        "locations": "5 (All)"
+      },
+      "radiation": {
+        "value": 0,
+        "locations": "Immune"
+      },
+      "poison": {
+        "value": 0,
+        "locations": "Immune"
+      }
+    },
+    "locations": [],
+    "injuries": "",
+    "luckPoints": null,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!actors!ImXdElGEBLAOfEy7"
+}

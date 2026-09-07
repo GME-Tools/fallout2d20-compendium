@@ -1,0 +1,14 @@
+{
+  "_id": "v7sleDEFDIkw7BwG",
+  "_key": "!tables.results!b0YDWI7LbsTTbsLR.v7sleDEFDIkw7BwG",
+  "name": "Homesteading Horror",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.uCmxHbctgoe8jQDo]{Homesteading Horror}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    6
+  ],
+  "drawn": false
+}

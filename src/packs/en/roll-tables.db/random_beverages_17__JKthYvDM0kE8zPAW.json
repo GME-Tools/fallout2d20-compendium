@@ -1,0 +1,14 @@
+{
+  "_id": "JKthYvDM0kE8zPAW",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.JKthYvDM0kE8zPAW",
+  "name": "Beer",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.UlhNGl3T0UejS5ZW]{Beer}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    18,
+    18
+  ],
+  "drawn": false
+}

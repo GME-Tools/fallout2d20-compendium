@@ -1,0 +1,14 @@
+{
+  "_id": "WiheTI9FIGTw9HkJ",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.WiheTI9FIGTw9HkJ",
+  "name": "Armure d’ingénieur",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.XzEQFrZXE4OPNs3g]{Armure d’ingénieur}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    12,
+    12
+  ],
+  "drawn": false
+}

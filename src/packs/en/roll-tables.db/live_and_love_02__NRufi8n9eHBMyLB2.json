@@ -1,0 +1,14 @@
+{
+  "_id": "NRufi8n9eHBMyLB2",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.NRufi8n9eHBMyLB2",
+  "name": "Nuke-the-Man!",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.xT9LvN0vcacln4pN]{Nuke-the-Man!}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    4
+  ],
+  "drawn": false
+}

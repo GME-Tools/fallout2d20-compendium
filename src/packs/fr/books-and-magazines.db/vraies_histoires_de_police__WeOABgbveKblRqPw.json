@@ -1,0 +1,43 @@
+{
+  "_id": "WeOABgbveKblRqPw",
+  "_key": "!items!WeOABgbveKblRqPw",
+  "effects": [],
+  "folder": "Yz1YYU8QjGg1Lrdb",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/True Police Stories.webp",
+  "name": "Vraies histoires de police",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine pulp d’avant-guerre consacré aux enquêtes criminelles et arrestations célèbres.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous lancez les dés de dégâts d’une attaque, dépensez 1 point de Chance pour choisir le résultat de jusqu’à 3 DC au lieu de les lancer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.DC6xyEVANOUPyy1I]{Vraies histoires de police}</p></section>",
+    "effect": "<p>Une seule fois, quand vous lancez les dés de dégâts d’une attaque, dépensez 1 point de Chance pour choisir le résultat de jusqu’à 3 DC au lieu de les lancer.</p>",
+    "favorite": false,
+    "publication": "Vraies histoires de police",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "WeOABgbveKblRqPw",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

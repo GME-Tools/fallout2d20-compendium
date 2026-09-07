@@ -1,0 +1,52 @@
+{
+  "_id": "MW9UpIocnupsmcFt",
+  "_key": "!items!MW9UpIocnupsmcFt",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Calmex",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 100,
+    "description": "<p>Un tranquillisant léger destiné à calmer les nerfs. Trop faible pour servir d’antidouleur, une dose apaise anxiété et peur afin que la panique ne perturbe pas les tâches délicates. <strong>Dépendance au Calmex :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, vos tests d’AGI subissent une complication sur tout résultat de 18 ou plus.</p>",
+    "duration": "lasting",
+    "effect": "<p>Relancez 1d20 lors de tous les tests de PER et d’AGI. Vos attaques furtives infligent +2 @fos[DC] de dégâts.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "MW9UpIocnupsmcFt",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

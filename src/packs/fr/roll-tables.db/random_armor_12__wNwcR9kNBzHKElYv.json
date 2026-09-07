@@ -1,0 +1,14 @@
+{
+  "_id": "wNwcR9kNBzHKElYv",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.wNwcR9kNBzHKElYv",
+  "name": "Pièce d’armure assistée de pillard",
+  "description": "Pièce d’armure assistée de pillard",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    13
+  ],
+  "drawn": false
+}

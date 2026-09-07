@@ -1,0 +1,37 @@
+{
+  "_id": "JnDm2jGRdF2YsKVI",
+  "_key": "!items.effects!fMq7BDUKGUIZDOEY.JnDm2jGRdF2YsKVI",
+  "name": "+2 to Radiation damage resistance",
+  "description": "",
+  "img": "icons/svg/aura.svg",
+  "type": "base",
+  "system": {
+    "changes": [
+      {
+        "key": "system.resistance.radiation",
+        "priority": null,
+        "value": 2,
+        "type": "add"
+      }
+    ]
+  },
+  "disabled": false,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "origin": "Item.fMq7BDUKGUIZDOEY",
+  "statuses": [],
+  "tint": "#ffffff",
+  "transfer": true,
+  "start": null,
+  "showIcon": 1,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

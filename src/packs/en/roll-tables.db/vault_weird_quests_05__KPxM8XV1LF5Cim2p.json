@@ -1,0 +1,14 @@
+{
+  "_id": "KPxM8XV1LF5Cim2p",
+  "_key": "!tables.results!3yyd2m95Aw6isb56.KPxM8XV1LF5Cim2p",
+  "name": "Mars Station",
+  "description": "A forgotten prototype vault simulates a Mars base, including altered gravity and outdoor VR.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    20
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "AIeRdkGyNltgu3VX",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.AIeRdkGyNltgu3VX",
+  "name": "Fat Man",
+  "description": "Fat Man",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "12YoWYZZY7sYGMEZ",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.12YoWYZZY7sYGMEZ",
+  "name": "Tesla Coils",
+  "description": "Tesla Coils",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    60,
+    60
+  ],
+  "drawn": false
+}

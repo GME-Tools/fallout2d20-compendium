@@ -1,0 +1,14 @@
+{
+  "_id": "QKz0elY7d8d2OEod",
+  "_key": "!tables.results!isNdghTYF06GBC0m.QKz0elY7d8d2OEod",
+  "name": "Daddy-O",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.UMI1gGwZLhCGTFVK]{Daddy-O}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    15
+  ],
+  "drawn": false
+}

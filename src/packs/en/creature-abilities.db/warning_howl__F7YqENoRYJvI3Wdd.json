@@ -1,0 +1,33 @@
+{
+  "name": "Warning Howl",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "importedFromLegacy": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "_id": "F7YqENoRYJvI3Wdd",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">During the first round of combat, a [creature] may howl as a major action. Each [creature] within Long range may make a second minor action on their next turn. No NPC may benefit from this ability more than once per combat.</span></p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!F7YqENoRYJvI3Wdd"
+}

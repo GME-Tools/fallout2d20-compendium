@@ -1,0 +1,14 @@
+{
+  "_id": "z0II1V41dSuEU9dA",
+  "_key": "!tables.results!b0YDWI7LbsTTbsLR.z0II1V41dSuEU9dA",
+  "name": "Cuisiner à la maison",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.5k41CcVoWDkABFcI]{Cuisiner à la maison}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    4
+  ],
+  "drawn": false
+}

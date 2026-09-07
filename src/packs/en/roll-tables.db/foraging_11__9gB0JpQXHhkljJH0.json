@@ -1,0 +1,14 @@
+{
+  "_id": "9gB0JpQXHhkljJH0",
+  "_key": "!tables.results!DDXZDnebSdYipB0t.9gB0JpQXHhkljJH0",
+  "name": "Hubflower",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.483yLfgB6kJ0lWvD]{Hubflower}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

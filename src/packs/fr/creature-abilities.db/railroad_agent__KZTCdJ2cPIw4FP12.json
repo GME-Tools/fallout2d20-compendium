@@ -1,0 +1,39 @@
+{
+  "name": "Agent du Réseau du Rail",
+  "type": "special_ability",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Railroad Agent.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "KZTCdJ2cPIw4FP12",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Railroad Agent"
+      }
+    }
+  },
+  "_id": "KZTCdJ2cPIw4FP12",
+  "system": {
+    "description": "<p>Sous couverture, l’agent du Réseau du Rail gagne un d20 supplémentaire à tout test de Discours impliquant une tromperie.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!KZTCdJ2cPIw4FP12"
+}

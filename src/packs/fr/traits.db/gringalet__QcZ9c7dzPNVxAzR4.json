@@ -1,0 +1,31 @@
+{
+  "_id": "QcZ9c7dzPNVxAzR4",
+  "_key": "!items!QcZ9c7dzPNVxAzR4",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "name": "Gringalet",
+  "system": {
+    "description": "<p>Vous pouvez relancer 1d20 lors de tout test d’AGI basé sur l’équilibre ou les contorsions.</p><p>Votre charge maximale est de 75 + (2,5 × FOR) kg et non de 75 + (5 × FOR) kg.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "51-57",
+        "translatedFrom": "QcZ9c7dzPNVxAzR4",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

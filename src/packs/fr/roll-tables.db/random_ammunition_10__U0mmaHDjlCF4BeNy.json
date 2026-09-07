@@ -1,0 +1,14 @@
+{
+  "_id": "U0mmaHDjlCF4BeNy",
+  "_key": "!tables.results!sa66QXOwlO8515AT.U0mmaHDjlCF4BeNy",
+  "name": "Calibre .50 — .50 ammo (4+2 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.mHatIy0FNJtYZxtU]{Calibre .50 — .50 ammo (4+2 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    11
+  ],
+  "drawn": false
+}

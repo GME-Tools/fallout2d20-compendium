@@ -1,0 +1,30 @@
+{
+  "source": "core_rulebook",
+  "chapter": 3,
+  "title": "Character Creation",
+  "pages": "42-81",
+  "categories": {
+    "skills": {
+      "pack": "skills",
+      "pages": "44-46",
+      "entries": [
+        "Athletics", "Barter", "Big Guns", "Energy Weapons", "Explosives", "Lockpick", "Medicine", "Melee Weapons", "Pilot", "Repair", "Science", "Small Guns", "Sneak", "Speech", "Survival", "Throwing", "Unarmed"
+      ]
+    },
+    "traits": {
+      "pack": "traits",
+      "pages": "51-57",
+      "entries": [
+        "The Chain that Binds", "Necrotic Post-Human", "Forced Evolution", "Mister Handy Robot", "Educated", "Fast Shot", "Gifted", "Heavy Handed", "Small Frame", "Vault Kid"
+      ],
+      "note": "Origins are entered manually on actors. All selectable and origin-granted traits are provided as draggable Items."
+    },
+    "perks": {
+      "pack": "perks",
+      "pages": "59-73",
+      "entries": [
+        "Action Boy / Girl", "Adamantium Skeleton", "Adrenalin Rush", "Animal Friend", "Aquaboy / Aquagirl", "Armorer", "Awareness", "Barbarian", "Basher", "Better Criticals", "Big Leagues", "Black Widow / Lady Killer", "Blacksmith", "Blitz", "Bloody Mess", "Can Do!", "Cap Collector", "Cautious Nature", "Center Mass", "Chem Resistant", "Chemist", "Commando", "Comprehension", "Concentrated Fire", "Daring Nature", "Demolition Expert", "Dodger", "Dogmeat", "Entomologist", "Fast Metabolism", "Faster Healing", "Finesse", "Fortune Finder", "Ghost", "Grim Reaper's Sprint", "Gun Fu", "Gun Nut", "Gunslinger", "Hacker", "Healer", "Heave Ho!", "Hunter", "Infiltrator", "Inspirational", "Intense Training", "Iron Fist", "Junktown Jerky Vendor", "Jury Rigging", "Laser Commander", "Lead Belly", "Life Giver", "Light Step", "Master Thief", "Medic", "Meltdown", "Mister Sandman", "Moving Target", "Mysterious Stranger", "Nerd Rage!", "Night Person", "Ninja", "Nuclear Physicist", "Pain Train", "Paralyzing Palm", "Party Boy / Party Girl", "Pathfinder", "Pharma Farma", "Pickpocket", "Piercing Strike", "Pyromaniac", "Quick Draw", "Quick Hands", "Rad Resistance", "Refractor", "Ricochet", "Rifleman", "Robotics Expert", "Science!", "Scoundrel", "Scrapper", "Scrounger", "Shotgun Surgeon", "Size Matters", "Skilled", "Slayer", "Smooth Talker", "Snakeater", "Sniper", "Solar Powered", "Steady Aim", "Strong Back", "Tag!", "Terrifying Presence", "Toughness"
+      ]
+    }
+  }
+}

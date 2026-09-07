@@ -1,0 +1,43 @@
+{
+  "_id": "ECXYCwNy7GKVavV3",
+  "_key": "!items!ECXYCwNy7GKVavV3",
+  "effects": [],
+  "folder": "KhW0UE056TAgf0NU",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!.webp",
+  "name": "10 hits n°1 !!! Rock-o-bot prend le pays par surprise !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous infligez un coup critique, augmentez de +2 le total des dégâts infligés.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.beJfGkUq386Kw4Sj]{10 hits n°1 !!! Rock-o-bot prend le pays par surprise !}</p></section>",
+    "effect": "<p>Une seule fois, quand vous infligez un coup critique, augmentez de +2 le total des dégâts infligés.</p>",
+    "favorite": false,
+    "publication": "Science Tesla",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ECXYCwNy7GKVavV3",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

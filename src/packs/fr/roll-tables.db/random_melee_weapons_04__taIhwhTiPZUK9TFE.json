@@ -1,0 +1,14 @@
+{
+  "_id": "taIhwhTiPZUK9TFE",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.taIhwhTiPZUK9TFE",
+  "name": "Masse",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.yrLghAxk6uynbFaq]{Masse}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    5
+  ],
+  "drawn": false
+}

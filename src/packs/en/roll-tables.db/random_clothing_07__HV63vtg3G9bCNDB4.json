@@ -1,0 +1,14 @@
+{
+  "_id": "HV63vtg3G9bCNDB4",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.HV63vtg3G9bCNDB4",
+  "name": "Hard Hat",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.BNhFyx4TZM8NoOoN]{Hard Hat}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "9XKc6BkIT4qE3lQY",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.9XKc6BkIT4qE3lQY",
+  "name": "Ripper",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.EktSYEw86GEcqHeE]{Ripper}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

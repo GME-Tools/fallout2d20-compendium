@@ -1,0 +1,14 @@
+{
+  "_id": "68pcl14fpL4YazLS",
+  "_key": "!tables.results!95C7laMPQoK9wwZj.68pcl14fpL4YazLS",
+  "name": "The Lair of the Virgin Eaters",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.G88aHNSeg4SvaCo9]{The Lair of the Virgin Eaters}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    17,
+    18
+  ],
+  "drawn": false
+}

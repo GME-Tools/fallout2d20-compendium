@@ -1,0 +1,52 @@
+{
+  "_id": "2Jc0kY7glK0GVaYe",
+  "_key": "!items!2Jc0kY7glK0GVaYe",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Bloodbug Meat.webp",
+  "name": "moustique sanguinaire viande",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 8,
+    "description": "<p>Morceau sanguinolent de tique, moustique mutant géant et agressif qui s’attaque au bétail et aux grands animaux. Il permet de préparer un steak de tique.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 7,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "2Jc0kY7glK0GVaYe",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,5610 @@
+{
+  "schemaVersion": 1,
+  "source": "Fallout: The Roleplaying Game Core Rulebook (errata V6, February 2026)",
+  "scope": "Core survival hazards, crafting stations and every Core crafting-table row represented by a draggable product.",
+  "addictions": [
+    {
+      "id": "6ZJOHvTML67QyE5E",
+      "name": "Psycho",
+      "type": "addiction"
+    },
+    {
+      "id": "EeIPWWTVBMinJmJC",
+      "name": "Day Tripper",
+      "type": "addiction"
+    },
+    {
+      "id": "FGEnNecZjnkaE7iR",
+      "name": "Overdrive",
+      "type": "addiction"
+    },
+    {
+      "id": "FNaxpHwWUx5Ioiit",
+      "name": "X-Cell",
+      "type": "addiction"
+    },
+    {
+      "id": "GYX8KWLwfQqmwghq",
+      "name": "Jet",
+      "type": "addiction"
+    },
+    {
+      "id": "H3fKh61SM4JbxMyG",
+      "name": "Fury",
+      "type": "addiction"
+    },
+    {
+      "id": "Ltcs4vrQZGNQLiCM",
+      "name": "Med-X",
+      "type": "addiction"
+    },
+    {
+      "id": "MBli9nmbRGQ55TcI",
+      "name": "Ultra Jet",
+      "type": "addiction"
+    },
+    {
+      "id": "og7kOxWxkjSPNWJL",
+      "name": "Mentat",
+      "type": "addiction"
+    },
+    {
+      "id": "QjNUilhnH8Q6y4UZ",
+      "name": "Daddy-O",
+      "type": "addiction"
+    },
+    {
+      "id": "qm4i02cwDQdD4nSD",
+      "name": "Calmex",
+      "type": "addiction"
+    },
+    {
+      "id": "T00wacU0YaptZoq1",
+      "name": "Buffout",
+      "type": "addiction"
+    }
+  ],
+  "diseases": [
+    {
+      "id": "1KIjuiaRJb7XlBO1",
+      "name": "Blood Worms",
+      "type": "disease"
+    },
+    {
+      "id": "1p7mDRDty8NiEP1t",
+      "name": "Sludge Lung",
+      "type": "disease"
+    },
+    {
+      "id": "3TRX2F8Xik5lQFZD",
+      "name": "Buzz Brain",
+      "type": "disease"
+    },
+    {
+      "id": "7ogFbul957uLnNx0",
+      "name": "Shell Shock",
+      "type": "disease"
+    },
+    {
+      "id": "7xDBGwroZrDDXDFW",
+      "name": "Swamp Itch",
+      "type": "disease"
+    },
+    {
+      "id": "aJPExcJ26s4e6TZp",
+      "name": "Flap Limb",
+      "type": "disease"
+    },
+    {
+      "id": "aZZ0jSTJ9byWllxy",
+      "name": "Rad Worms",
+      "type": "disease"
+    },
+    {
+      "id": "c8S2PriC3vi4KyUs",
+      "name": "Fever Claw",
+      "type": "disease"
+    },
+    {
+      "id": "fQlyzYWzV5a2qkvO",
+      "name": "Needle Spine",
+      "type": "disease"
+    },
+    {
+      "id": "Ftl31Ohm1RpADIHu",
+      "name": "Swamp Gas",
+      "type": "disease"
+    },
+    {
+      "id": "HJ4CUAzStbNZM2gE",
+      "name": "Dysentery",
+      "type": "disease"
+    },
+    {
+      "id": "hJ7lrJEDY0y0ij5b",
+      "name": "The Whoopsies",
+      "type": "disease"
+    },
+    {
+      "id": "JN0kxmj79ZK5fhgi",
+      "name": "Lock Joint",
+      "type": "disease"
+    },
+    {
+      "id": "n7qmRjFVgxyRGi3K",
+      "name": "Glowing Pustules",
+      "type": "disease"
+    },
+    {
+      "id": "qBPZF0UE2yRc8lzg",
+      "name": "Heat Flashes",
+      "type": "disease"
+    },
+    {
+      "id": "qVKwUqqV2M4OHj6S",
+      "name": "Snot Ear",
+      "type": "disease"
+    },
+    {
+      "id": "wgnNAjG0WqiJCJ2S",
+      "name": "Jelly Fingers",
+      "type": "disease"
+    },
+    {
+      "id": "XDokjSONPXfiHRrg",
+      "name": "Bone Worms",
+      "type": "disease"
+    },
+    {
+      "id": "XNwJyuhYCbo5arhU",
+      "name": "Weeping Sores",
+      "type": "disease"
+    },
+    {
+      "id": "z0IE0nxflkXBbLSa",
+      "name": "Parasites",
+      "type": "disease"
+    }
+  ],
+  "craftingStations": [
+    {
+      "id": "CrftArmorBench01",
+      "name": "Armor Workbench",
+      "type": "object_or_structure"
+    },
+    {
+      "id": "CrftChemBench001",
+      "name": "Chemistry Station",
+      "type": "object_or_structure"
+    },
+    {
+      "id": "CrftCookStation1",
+      "name": "Cooking Station",
+      "type": "object_or_structure"
+    },
+    {
+      "id": "CrftPowerArmor01",
+      "name": "Power Armor Station",
+      "type": "object_or_structure"
+    },
+    {
+      "id": "CrftRobotBench01",
+      "name": "Robot Workbench",
+      "type": "object_or_structure"
+    },
+    {
+      "id": "CrftWeaponBench1",
+      "name": "Weapons Workbench",
+      "type": "object_or_structure"
+    }
+  ],
+  "recipes": {
+    "objects": [
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Antibiotics",
+        "complexity": 4,
+        "perks": [
+          "Chemist"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Glowing Fungus",
+            "quantity": 3
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 2
+          },
+          {
+            "name": "Stimpak",
+            "quantity": 3
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Berry Mentats",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Mentats",
+            "quantity": 1
+          },
+          {
+            "name": "Tarberry",
+            "quantity": 2
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Buffjet",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Buffout",
+            "quantity": 1
+          },
+          {
+            "name": "Jet",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Bufftats",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Buffout",
+            "quantity": 1
+          },
+          {
+            "name": "Mentats",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Diluted RadAway",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "RadAway",
+            "quantity": 1
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Diluted Rad-X",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rad-X",
+            "quantity": 1
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Diluted Stimpak",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Stimpak",
+            "quantity": 1
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Fury",
+        "complexity": 2,
+        "perks": [
+          "Chemist"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Berserk Syringe",
+            "quantity": 1
+          },
+          {
+            "name": "Buffout",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Glowing Blood Pack",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Blood Pack",
+            "quantity": 1
+          },
+          {
+            "name": "Irradiated Blood",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Grape Mentats",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Hubflower",
+            "quantity": 2
+          },
+          {
+            "name": "Mentats",
+            "quantity": 1
+          },
+          {
+            "name": "Whiskey",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Jet",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 213
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Jet Fuel",
+        "complexity": 2,
+        "perks": [
+          "Chemist"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Flamer Fuel",
+            "quantity": 5
+          },
+          {
+            "name": "Jet",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Mentats",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Brain Fungus",
+            "quantity": 2
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Orange Mentats",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Carrot",
+            "quantity": 3
+          },
+          {
+            "name": "Mentats",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Overdrive",
+        "complexity": 3,
+        "perks": [
+          "Chemist"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Nuka-Cola",
+            "quantity": 1
+          },
+          {
+            "name": "Psycho",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Psycho",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Hubflower",
+            "quantity": 2
+          },
+          {
+            "name": "Stimpak",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Psycho Jet",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Jet",
+            "quantity": 1
+          },
+          {
+            "name": "Psycho",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Psychobuff",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Buffout",
+            "quantity": 1
+          },
+          {
+            "name": "Psycho",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "RadAway",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Glowing Fungus",
+            "quantity": 3
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Refreshing Beverage",
+        "complexity": 5,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Blood Pack",
+            "quantity": 1
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 2
+          },
+          {
+            "name": "RadAway",
+            "quantity": 2
+          },
+          {
+            "name": "Stimpak",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Robot Repair Kit",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Fusion Cell",
+            "quantity": 4
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Skeeto Spit",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Blood Sac",
+            "quantity": 1
+          },
+          {
+            "name": "Bloodleaf",
+            "quantity": 1
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Stimpak",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Antiseptic",
+            "quantity": 2
+          },
+          {
+            "name": "Blood Pack",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "consumables",
+        "name": "Ultra Jet",
+        "complexity": 4,
+        "perks": [
+          "Chemist"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Bloodleaf",
+            "quantity": 1
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Jet",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Baseball Grenade",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Common Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 214
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Frag Grenade",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Common Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Molotov Cocktail",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Explosives",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Common Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Plasma Grenade",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert",
+          "Science! 3"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Pulse Grenade",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert",
+          "Science! 2"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Bottlecap Mine",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Common Materials",
+            "quantity": 4
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Frag Mine",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Common Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Plasma Mine",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert",
+          "Science! 3"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "weapons",
+        "name": "Pulse Mine",
+        "complexity": 5,
+        "perks": [
+          "Demolition Expert",
+          "Science! 2"
+        ],
+        "skill": "Explosives",
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Rare Materials",
+            "quantity": 2
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Berserk Syringe",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Bourbon",
+            "quantity": 1
+          },
+          {
+            "name": "Dirty Water",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Bleed-Out Syringe",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Bloatfly Larva Syringe",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Bloatfly Gland",
+            "quantity": 1
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Psycho",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Endangerol Syringe",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Med-X",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Lock Joint Syringe",
+        "complexity": 5,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Dirty Water",
+            "quantity": 1
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Stingwing Barb",
+            "quantity": 1
+          },
+          {
+            "name": "Tarberry",
+            "quantity": 2
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Mind Cloud Syringe",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 2
+          },
+          {
+            "name": "Rare Materials",
+            "quantity": 3
+          },
+          {
+            "name": "Asbestos",
+            "quantity": 2
+          },
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Pax Syringe",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Mutfruit",
+            "quantity": 2
+          },
+          {
+            "name": "Nuka-Cola",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Radscorpion Venom Syringe",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Radscorpion Stinger",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "chemistry",
+        "pack": "ammunition",
+        "name": "Yellow Belly Syringe",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Uncommon Materials",
+            "quantity": 5
+          }
+        ],
+        "page": 215
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Dirty Wastelander",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Mutfruit",
+            "quantity": 1
+          },
+          {
+            "name": "Nuka-Cola",
+            "quantity": 1
+          },
+          {
+            "name": "Whiskey",
+            "quantity": 2
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Purified Water",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Dirty Water",
+            "quantity": 3
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Melon Juice",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          },
+          {
+            "name": "Melon",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mutfruit Juice",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          },
+          {
+            "name": "Mutfruit",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Tarberry Juice",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          },
+          {
+            "name": "Tarberry",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Tato Juice",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          },
+          {
+            "name": "Tato",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Baked Bloatfly",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Bloatfly Meat",
+            "quantity": 2
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Bloodbug Steak",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Bloodbug Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Cooked Softshell Meat",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Softshell Mirelurk Meat",
+            "quantity": 2
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Crispy Squirrel Bits",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Squirrel Bits",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Deathclaw Omelette",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Blood Pack",
+            "quantity": 1
+          },
+          {
+            "name": "Deathclaw Egg",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Deathclaw Steak",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Deathclaw Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Grilled Radroach",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Radroach Meat",
+            "quantity": 3
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Grilled Radstag",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Radstag Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 216
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Iguana on a Stick",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Iguana Bits",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Iguana Soup",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Carrot",
+            "quantity": 1
+          },
+          {
+            "name": "Dirty Water",
+            "quantity": 1
+          },
+          {
+            "name": "Iguana Bits",
+            "quantity": 3
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mirelurk Cake",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Mirelurk Egg",
+            "quantity": 1
+          },
+          {
+            "name": "Mirelurk Meat",
+            "quantity": 1
+          },
+          {
+            "name": "Uncommon Materials",
+            "quantity": 1
+          },
+          {
+            "name": "Razorgrain",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mirelurk Egg Omelette",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Dirty Water",
+            "quantity": 1
+          },
+          {
+            "name": "Mirelurk Egg",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mirelurk Queen Steak",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Queen Mirelurk Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mole Rat Chunks",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Mole Rat Meat",
+            "quantity": 2
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mutant Hound Chops",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Mutant Hound Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Mutt Chops",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Mongrel Dog Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Noodle Cup",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Dirty Water",
+            "quantity": 1
+          },
+          {
+            "name": "Razorgrain",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Radscorpion Egg Omelette",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Purified Water",
+            "quantity": 1
+          },
+          {
+            "name": "Radscorpion Egg",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Radscorpion Steak",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Radscorpion Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Radstag Stew",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Gourd",
+            "quantity": 1
+          },
+          {
+            "name": "Radstag Meat",
+            "quantity": 1
+          },
+          {
+            "name": "Silt Bean",
+            "quantity": 1
+          },
+          {
+            "name": "Vodka",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Ribeye Steak",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Brahmin Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Roasted Mirelurk Meat",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Mirelurk Meat",
+            "quantity": 2
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Squirrel on a Stick",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Squirrel Bits",
+            "quantity": 1
+          },
+          {
+            "name": "Common Materials",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Stingwing Filet",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Stingwing Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Vegetable Soup",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Carrot",
+            "quantity": 1
+          },
+          {
+            "name": "Dirty Water",
+            "quantity": 1
+          },
+          {
+            "name": "Tato",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Yao Guai Ribs",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Yao Guai Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Yao Guai Roast",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Carrot",
+            "quantity": 1
+          },
+          {
+            "name": "Tato",
+            "quantity": 1
+          },
+          {
+            "name": "Yao Guai Meat",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      },
+      {
+        "station": "cooking",
+        "pack": "consumables",
+        "name": "Squirrel Stew",
+        "complexity": 5,
+        "perks": [],
+        "skill": "Survival",
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Bloodleaf",
+            "quantity": 1
+          },
+          {
+            "name": "Carrot",
+            "quantity": 1
+          },
+          {
+            "name": "Dirty Water",
+            "quantity": 2
+          },
+          {
+            "name": "Squirrel Bits",
+            "quantity": 1
+          },
+          {
+            "name": "Tato",
+            "quantity": 1
+          }
+        ],
+        "page": 217
+      }
+    ],
+    "equipment": [
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "ballistic-weave",
+        "name": "Ballistic Weave",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "rare",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "ballistic-weave",
+        "name": "Ballistic Weave Mk II",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "rare",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "ballistic-weave",
+        "name": "Ballistic Weave Mk III",
+        "complexity": 3,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "rare",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "ballistic-weave",
+        "name": "Ballistic Weave Mk IV",
+        "complexity": 3,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "rare",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "ballistic-weave",
+        "name": "Ballistic Weave Mk V",
+        "complexity": 3,
+        "perks": [
+          "Armorer 4"
+        ],
+        "skill": "Repair",
+        "rarity": "rare",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "vault-suit-lining",
+        "name": "Insulated Lining",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "vault-suit-lining",
+        "name": "Treated Lining",
+        "complexity": 3,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "vault-suit-lining",
+        "name": "Resistant Lining",
+        "complexity": 4,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "vault-suit-lining",
+        "name": "Protective Lining",
+        "complexity": 5,
+        "perks": [
+          "Armorer 4",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "vault-suit-lining",
+        "name": "Shielded Lining",
+        "complexity": 6,
+        "perks": [
+          "Armorer 4",
+          "Science! 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 211
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "raider-material",
+        "name": "Welded",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "raider-material",
+        "name": "Tempered",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "raider-material",
+        "name": "Hardened",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "raider-material",
+        "name": "Buttressed",
+        "complexity": 5,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "leather-material",
+        "name": "Boiled Leather",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "leather-material",
+        "name": "Girded Leather",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "leather-material",
+        "name": "Treated Leather",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "leather-material",
+        "name": "Shadowed Leather",
+        "complexity": 5,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "leather-material",
+        "name": "Studded Leather",
+        "complexity": 6,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "metal-material",
+        "name": "Painted Metal",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "metal-material",
+        "name": "Enameled Metal",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "metal-material",
+        "name": "Shadowed Metal",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "metal-material",
+        "name": "Alloyed Metal",
+        "complexity": 5,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "metal-material",
+        "name": "Polished Metal",
+        "complexity": 6,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "combat-material",
+        "name": "Reinforced",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "combat-material",
+        "name": "Shadowed",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "combat-material",
+        "name": "Fiberglass",
+        "complexity": 5,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "combat-material",
+        "name": "Polymer",
+        "complexity": 6,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "synth-material",
+        "name": "Laminated",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "synth-material",
+        "name": "Resin",
+        "complexity": 5,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "synth-material",
+        "name": "Microcarbon",
+        "complexity": 6,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "synth-material",
+        "name": "Nanofilament",
+        "complexity": 7,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Lighter Build",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Pocketed",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Deep Pocketed",
+        "complexity": 4,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Lead Lined",
+        "complexity": 5,
+        "perks": [
+          "Armorer 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Ultra-Light Build",
+        "complexity": 5,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Padded",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Asbestos Lining",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Dense",
+        "complexity": 6,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "BioCommMesh",
+        "complexity": 7,
+        "perks": [
+          "Armorer 4",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Pneumatic",
+        "complexity": 6,
+        "perks": [
+          "Armorer 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Brawling",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Braced",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Stabilized",
+        "complexity": 4,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Aerodynamic",
+        "complexity": 5,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Weighted",
+        "complexity": 6,
+        "perks": [
+          "Armorer 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Cushioned",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "armor",
+        "pack": "apparel-mods",
+        "group": "armor-mods",
+        "name": "Muffled",
+        "complexity": 4,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 212
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "Raider II",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-45b",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-45c",
+        "complexity": 4,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-45d",
+        "complexity": 5,
+        "perks": [
+          "Armorer 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-45e",
+        "complexity": 6,
+        "perks": [
+          "Armorer 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-45f",
+        "complexity": 7,
+        "perks": [
+          "Armorer 3",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-51b",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-51c",
+        "complexity": 4,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-51d",
+        "complexity": 5,
+        "perks": [
+          "Armorer 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-51e",
+        "complexity": 6,
+        "perks": [
+          "Armorer 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-51f",
+        "complexity": 7,
+        "perks": [
+          "Armorer 3",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-60b",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-60c",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-60d",
+        "complexity": 5,
+        "perks": [
+          "Armorer 2",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-60e",
+        "complexity": 6,
+        "perks": [
+          "Armorer 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "T-60f",
+        "complexity": 7,
+        "perks": [
+          "Armorer 3",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "X-01 Mk II",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "X-01 Mk III",
+        "complexity": 4,
+        "perks": [
+          "Armorer 1",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "X-01 Mk IV",
+        "complexity": 5,
+        "perks": [
+          "Armorer 2",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "X-01 Mk V",
+        "complexity": 6,
+        "perks": [
+          "Armorer 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "upgrades",
+        "name": "X-01 Mk VI",
+        "complexity": 7,
+        "perks": [
+          "Armorer 3",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 219
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Rad Scrubber",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Sensor Array",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Targeting HUD",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Internal Database",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Welded Rebar",
+        "complexity": 2,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Core Assembly",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Blood Cleanser",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Emergency Protocols",
+        "complexity": 6,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Motion-Assist Servos",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Kinetic Dynamo",
+        "complexity": 6,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Medic Pump",
+        "complexity": 6,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Reactive Plates",
+        "complexity": 5,
+        "perks": [
+          "Armorer 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Tesla Coils",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Stealth Boy",
+        "complexity": 6,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Jetpack",
+        "complexity": 7,
+        "perks": [
+          "Armorer 4",
+          "Science! 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Rusty Knuckles",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Hydraulic Bracers",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Optimized Bracers",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Tesla Bracers",
+        "complexity": 6,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Calibrated Shocks",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Explosive Vent",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "systems",
+        "name": "Overdrive Servos",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "Titanium Plating",
+        "complexity": 4,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "Lead Plating",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "Photovoltaic Plating",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "Winterized Coating",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "Prism Shielding",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "Explosive Shielding",
+        "complexity": 3,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "power-armor",
+        "pack": "apparel-mods",
+        "group": "plating",
+        "name": "EMP Shielding",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 220
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Factory Armor",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Factory Storage Armor",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Primal Plate",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Serrated Plate",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Noxious Plate",
+        "complexity": 3,
+        "perks": [
+          "Armorer 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Toxic Plate",
+        "complexity": 5,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Actuated Frame",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Voltaic Frame",
+        "complexity": 4,
+        "perks": [
+          "Armorer 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-armor",
+        "group": "armor",
+        "name": "Hydraulic Frame",
+        "complexity": 5,
+        "perks": [
+          "Armorer 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Hacking Module",
+        "complexity": 5,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Lockpick Module",
+        "complexity": 5,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Radiation Coils",
+        "complexity": 5,
+        "perks": [
+          "Robotics Expert 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Recon Sensors",
+        "complexity": 5,
+        "perks": [
+          "Robotics Expert 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Regeneration Field",
+        "complexity": 4,
+        "perks": [
+          "Robotics Expert 2",
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "rare",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Resistance Field",
+        "complexity": 4,
+        "perks": [
+          "Robotics Expert 1",
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Sensor Array",
+        "complexity": 4,
+        "perks": [
+          "Robotics Expert 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Stealth Field",
+        "complexity": 5,
+        "perks": [
+          "Robotics Expert 1"
+        ],
+        "skill": "Science",
+        "rarity": "rare",
+        "page": 221
+      },
+      {
+        "station": "robot",
+        "pack": "robot-modules",
+        "group": "modules",
+        "name": "Tesla Coils",
+        "complexity": 5,
+        "perks": [
+          "Robotics Expert 2",
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "rare",
+        "page": 221
+      }
+    ],
+    "weaponMods": [
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Hardened",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Powerful",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Advanced",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Calibrated",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Automatic",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Hair Trigger",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": ".38 Receiver",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": ".308 Receiver",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": ".45 Receiver",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": ".50 Receiver",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "receiver",
+        "name": "Automatic Piston",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Snubnose",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Bull Barrel",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Long",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Ported",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Vented",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Sawed-Off",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "barrel",
+        "name": "Finned",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "grip",
+        "name": "Comfort Grip",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "grip",
+        "name": "Sharpshooter's Grip",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "4sOu5mfXcDlUVlUP",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "magazine",
+        "name": "Large Magazine",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "magazine",
+        "name": "Quick-Eject Mag",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "magazine",
+        "name": "Large Quick-Eject Mag",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "stock",
+        "name": "Full Stock",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": "8nHC8z4vEY4yX7bM",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "stock",
+        "name": "Marksman's Stock",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "Q6VUr8ae7Rf7WOhA",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "stock",
+        "name": "Recoil Compensating Stock",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "H5uajcZl8MICYwfy",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "sight",
+        "name": "Reflex Sight",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "sight",
+        "name": "Short Scope",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "sight",
+        "name": "Long Scope",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "sg1EfJrr3S307XPy",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "sight",
+        "name": "Short Night Vision Scope",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "sight",
+        "name": "Long Night Vision Scope",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "nBQq6MTdf40kleS5",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "sight",
+        "name": "Recon Scope",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "M5ox31Qif67xBC0m",
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "muzzle",
+        "name": "Bayonet",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "muzzle",
+        "name": "Compensator",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "muzzle",
+        "name": "Muzzle Break",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "smallGuns",
+        "group": "muzzle",
+        "name": "Suppressor",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 222
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Beta Wave Tuner",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Boosted Capacitor",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Photon Exciter",
+        "complexity": 3,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Photon Agitator",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Three-Crank Capacitor",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Four-Crank Capacitor",
+        "complexity": 3,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Five-Crank Capacitor",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "capacitor",
+        "name": "Six-Crank Capacitor",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Bracketed Short Barrel",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Long Barrel",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Splitter",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Automatic Barrel",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Bracketed Long Barrel",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Improved Barrel",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Sniper Barrel",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "barrel",
+        "name": "Flamer Barrel",
+        "complexity": 5,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "grip",
+        "name": "Sharpshooter's Grip",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "zAlW93haMYH8Nwp2",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "stock",
+        "name": "Standard Stock",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "stock",
+        "name": "Full Stock",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": "bRV8rXkptjU6mz9Y",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "stock",
+        "name": "Marksman's Stock",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "zbzoOm7wspRTM8PJ",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "stock",
+        "name": "Recoil Compensating Stock",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "pxflsyihN3fjKgYq",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "sight",
+        "name": "Reflex Sight",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "sight",
+        "name": "Short Scope",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "sight",
+        "name": "Long Scope",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "U3fJYCYnDsxrr2Or",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "sight",
+        "name": "Short Night Vision Scope",
+        "complexity": 4,
+        "perks": [
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "sight",
+        "name": "Long Night Vision Scope",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "wvsSsznT8GDmdoUa",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "sight",
+        "name": "Recon Scope",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "dgWySoP4IQ9p2uyO",
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "muzzle",
+        "name": "Beam Splitter",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "muzzle",
+        "name": "Beam Focuser",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "energyWeapons",
+        "group": "muzzle",
+        "name": "Gyro Compensating Lens",
+        "complexity": 4,
+        "perks": [
+          "Science! 1"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 223
+      },
+      {
+        "family": "bigGuns",
+        "group": "flamer",
+        "name": "Napalm",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "flamer",
+        "name": "Long Barrel",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "XK2wSRm6vu2u2hu2",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "flamer",
+        "name": "Large Tank",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "flamer",
+        "name": "Huge Tank",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "flamer",
+        "name": "Compression Nozzle",
+        "complexity": 3,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "flamer",
+        "name": "Vaporization Nozzle",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gamma-gun",
+        "name": "Deep Dish",
+        "complexity": 6,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": "bQQgCwGbfWvQnvbj",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gamma-gun",
+        "name": "Electric Signal Carrier Antennae",
+        "complexity": 5,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": "W28sa1G86XSoOGE3",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gamma-gun",
+        "name": "Signal Repeater",
+        "complexity": 6,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": "W28sa1G86XSoOGE3",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Photon Exciter",
+        "complexity": 6,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": "XtgWC9Ev4cxCj2nq",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Beta Wave Tuner",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": "XtgWC9Ev4cxCj2nq",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Boosted Capacitor",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": "YtRXRKCnP8THWkTL",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Photon Agitator",
+        "complexity": 6,
+        "perks": [
+          "Science! 3"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": "YtRXRKCnP8THWkTL",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Charging Barrels",
+        "complexity": 7,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Reflex Sight",
+        "complexity": 7,
+        "perks": [
+          "Science! 4"
+        ],
+        "skill": "Science",
+        "rarity": "uncommon",
+        "folder": "Brw4U78MHdGIsy7A",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "gatling-laser",
+        "name": "Beam Focuser",
+        "complexity": 4,
+        "perks": [],
+        "skill": "Science",
+        "rarity": "common",
+        "folder": "o6k96ORDTHXKtOxM",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "junk-jet",
+        "name": "Long Barrel",
+        "complexity": 3,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "pmCxHHhktJ8HK6JZ",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "junk-jet",
+        "name": "Recoil Compensating Stock",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "junk-jet",
+        "name": "Gunner Sight",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "CX42aHQ083WuWVzF",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "junk-jet",
+        "name": "Electrification Module",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "junk-jet",
+        "name": "Ignition Module",
+        "complexity": 7,
+        "perks": [
+          "Gun Nut 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "minigun",
+        "name": "Accelerated Barrel",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "minigun",
+        "name": "Tri-Barrel",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "minigun",
+        "name": "Gunner Sight",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "8Uav0KQF8s6bGnC5",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "minigun",
+        "name": "Shredder",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Triple Barrel",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Quad Barrel",
+        "complexity": 5,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Scope",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "8Uav0KQF8s6bGnC5",
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Night Vision Scope",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 4",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Targeting Computer",
+        "complexity": 6,
+        "perks": [
+          "Gun Nut 2",
+          "Science! 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Bayonet",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "bigGuns",
+        "group": "missile-launcher",
+        "name": "Stabilizer",
+        "complexity": 4,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 224
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "sword",
+        "name": "Serrated Blade",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "7hxh0xRNMyflfbJp",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "sword",
+        "name": "Electrified Blade",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "sword",
+        "name": "Electrified Serrated Blade",
+        "complexity": 5,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "sword",
+        "name": "Stun Pack",
+        "complexity": 5,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "36UsRm4n8Pr0UaUy",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "combat-knife",
+        "name": "Serrated Blade",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "vq6OcwFKhScFr26X",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "combat-knife",
+        "name": "Stealth Blade",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "machete",
+        "name": "Serrated Blade",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "SzIlY1yfHnorPM9b",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "ripper",
+        "name": "Curved Blade",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "tECAlH9Iqv1vJ3i6",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "ripper",
+        "name": "Extended Blade",
+        "complexity": 5,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "tECAlH9Iqv1vJ3i6",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "shishkebab",
+        "name": "Extra Flame Jets",
+        "complexity": 5,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "switchblade",
+        "name": "Serrated Blade",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "ybjJSagFeVHIQgRl",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baseball-bat",
+        "name": "Barbed",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": "Sem0JhmbNdppKdJW",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baseball-bat",
+        "name": "Spiked",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "gRas49gTV8CDZ4hJ",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baseball-bat",
+        "name": "Sharp",
+        "complexity": 2,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "gRas49gTV8CDZ4hJ",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baseball-bat",
+        "name": "Chain-Wrapped",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "gRas49gTV8CDZ4hJ",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baseball-bat",
+        "name": "Bladed",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "Pq7KJHHyHnmMte4R",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "board",
+        "name": "Spiked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "K1IeRyRpO9OOFVV2",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "board",
+        "name": "Puncturing",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "49zfOfotginM01u8",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "board",
+        "name": "Bladed",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "K1IeRyRpO9OOFVV2",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "lead-pipe",
+        "name": "Spiked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "r7pwoBfbx25tl1L6",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "lead-pipe",
+        "name": "Heavy",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "r7pwoBfbx25tl1L6",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "pipe-wrench",
+        "name": "Hooked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "pipe-wrench",
+        "name": "Heavy",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "wQSPWsdrMfYqPAMO",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "pipe-wrench",
+        "name": "Puncturing",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "sFnAMjOd2fTxG5bA",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "pipe-wrench",
+        "name": "Extra Heavy",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "pool-cue",
+        "name": "Barbed",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "5xnlOjZqwEDGq9KM",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "pool-cue",
+        "name": "Sharp",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": "M2Tl0fVG6LzG9wtj",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "rolling-pin",
+        "name": "Spiked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "LTVXHvKPOvOunXCb",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "rolling-pin",
+        "name": "Sharp",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": null,
+        "id": "EuJw4xP1fRt5hdCy",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baton",
+        "name": "Electrified",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "baton",
+        "name": "Stun Pack",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 2",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "pzodZYsC8tEPTWGH",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "sledgehammer",
+        "name": "Puncturing",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "ol8d48kNa9veV1kv",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "sledgehammer",
+        "name": "Heavy",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "D8hF1RjpOMVHjlHp",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "super-sledge",
+        "name": "Heating Coil",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "MvrQv0wg5FE6j7TR",
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "super-sledge",
+        "name": "Stun Pack",
+        "complexity": 5,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "h90MorifUQMpngiI",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "tire-iron",
+        "name": "Bladed",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "m5KqewESbGVXLyJc",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "walking-cane",
+        "name": "Barbed",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "tKXXYXVZLrhcX4yZ",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "walking-cane",
+        "name": "Spiked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "tKXXYXVZLrhcX4yZ",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "boxing-glove",
+        "name": "Spiked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "eTtGgz88Aq7NZ7Lt",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "boxing-glove",
+        "name": "Puncturing",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "eTtGgz88Aq7NZ7Lt",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "boxing-glove",
+        "name": "Lead Lining",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "deathclaw-gauntlet",
+        "name": "Extra Claw",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "wvK8aoD30P5a8IN6",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "knuckles",
+        "name": "Sharp",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "6nnTrN2wU5QvWzgG",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "knuckles",
+        "name": "Spiked",
+        "complexity": 1,
+        "perks": [],
+        "skill": "Repair",
+        "rarity": "common",
+        "folder": "6nnTrN2wU5QvWzgG",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "knuckles",
+        "name": "Puncturing",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "6nnTrN2wU5QvWzgG",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "knuckles",
+        "name": "Bladed",
+        "complexity": 2,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "6nnTrN2wU5QvWzgG",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "power-fist",
+        "name": "Puncturing",
+        "complexity": 3,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": "aNsaQUScN2tDCYZ3",
+        "id": null,
+        "station": "weapons",
+        "page": 225
+      },
+      {
+        "family": "meleeWeapons",
+        "group": "power-fist",
+        "name": "Heating Coil",
+        "complexity": 4,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "skill": "Repair",
+        "rarity": "uncommon",
+        "folder": null,
+        "id": "hVD46UqAqiNB4f57",
+        "station": "weapons",
+        "page": 225
+      }
+    ]
+  },
+  "rollTables": [
+    {
+      "id": "3yyd2m95Aw6isb56",
+      "name": "Wacky Vault Quests",
+      "type": "RollTable"
+    },
+    {
+      "id": "4o3aHx9pc3VRaj3l",
+      "name": "Random Food",
+      "type": "RollTable"
+    },
+    {
+      "id": "6pqldVfbwVJ0pi1I",
+      "name": "Vault Room Encounters",
+      "type": "RollTable"
+    },
+    {
+      "id": "7bCzBGx1Boi3WUK7",
+      "name": "Random Live & Love Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "7TlfIIW1OHVVazkg",
+      "name": "Random Commonwealth Encounters",
+      "type": "RollTable"
+    },
+    {
+      "id": "8qbsFQvYkxdUNbTb",
+      "name": "Random Thrown and Explosive Weapons",
+      "type": "RollTable"
+    },
+    {
+      "id": "95C7laMPQoK9wwZj",
+      "name": "Random Grognak the Barbarian Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "anS2tzaEW0Tct41L",
+      "name": "Random Guns and Bullets Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "b0YDWI7LbsTTbsLR",
+      "name": "Random Backwoodsman Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "CqwFiBMsrzOjRI6k",
+      "name": "Random Weird Wasteland Encounters",
+      "type": "RollTable"
+    },
+    {
+      "id": "D7o5WMWvssO5XNNq",
+      "name": "Random Tumblers Today Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "DDXZDnebSdYipB0t",
+      "name": "Foraging",
+      "type": "RollTable"
+    },
+    {
+      "id": "EFFiEfGrDCgLoSVH",
+      "name": "Random Ranged Weapons",
+      "type": "RollTable"
+    },
+    {
+      "id": "eVG1ynZ312G42zbE",
+      "name": "Random Tesla Science Magazine Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "fVZuL3ahbEKecx8W",
+      "name": "Random U.S. Covert Operations Manual Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "ICQJPDpxEpQP3kgC",
+      "name": "Random Astoundingly Awesome Tales Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "isNdghTYF06GBC0m",
+      "name": "Random Chems",
+      "type": "RollTable"
+    },
+    {
+      "id": "IUjXwH5WZ4VeoO3q",
+      "name": "Random Melee Weapons",
+      "type": "RollTable"
+    },
+    {
+      "id": "JFaApgVMo29GJFAu",
+      "name": "Random Wasteland Survival Guide Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "kWVLTeXI0nuBpydx",
+      "name": "Random Clothing",
+      "type": "RollTable"
+    },
+    {
+      "id": "MrcHRXzMqh5yK1Kx",
+      "name": "Random Publication",
+      "type": "RollTable"
+    },
+    {
+      "id": "NSMq85o2aSfE60Aa",
+      "name": "Random Trinkets",
+      "type": "RollTable"
+    },
+    {
+      "id": "r35g8Z4aZr8Lensc",
+      "name": "Random Diseases",
+      "type": "RollTable"
+    },
+    {
+      "id": "sa66QXOwlO8515AT",
+      "name": "Random Ammunition",
+      "type": "RollTable"
+    },
+    {
+      "id": "scdsIt3PE06QKFcf",
+      "name": "Random Armor",
+      "type": "RollTable"
+    },
+    {
+      "id": "SiDrc8mDcvwE699p",
+      "name": "Random Unstoppables Issues",
+      "type": "RollTable"
+    },
+    {
+      "id": "sUeIHeJSvRZp5me7",
+      "name": "Random Oddities and Valuables",
+      "type": "RollTable"
+    },
+    {
+      "id": "vB9rCF7wmmGcBzNZ",
+      "name": "Random Beverages",
+      "type": "RollTable"
+    },
+    {
+      "id": "wnSUEULiOZSnr7Zq",
+      "name": "Nuka-Cola Machine",
+      "type": "RollTable"
+    }
+  ]
+}

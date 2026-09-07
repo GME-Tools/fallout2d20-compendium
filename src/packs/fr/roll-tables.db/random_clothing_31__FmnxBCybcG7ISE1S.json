@@ -1,0 +1,14 @@
+{
+  "_id": "FmnxBCybcG7ISE1S",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.FmnxBCybcG7ISE1S",
+  "name": "Chapeau décontracté",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-apparel.Item.hKGbIZhOnncmk7UT]{Chapeau décontracté}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "xmzGD0Te2ZF0DPYH",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.xmzGD0Te2ZF0DPYH",
+  "name": "Pipe Bolt Action Rifle (Long Barrel, Standard Stock)",
+  "description": "Pipe Bolt Action Rifle (Long Barrel, Standard Stock)",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    24,
+    24
+  ],
+  "drawn": false
+}

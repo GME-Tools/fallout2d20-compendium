@@ -1,0 +1,14 @@
+{
+  "_id": "EYIRtCIGJnGcTpD1",
+  "_key": "!tables.results!isNdghTYF06GBC0m.EYIRtCIGJnGcTpD1",
+  "name": "Day Tripper",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.hWlAJa2j3N2LaiPx]{Day Tripper}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    4
+  ],
+  "drawn": false
+}

@@ -1,0 +1,592 @@
+# Illustrations restant à fournir — Core Rulebook
+
+> Généré par `npm run report:missing-artwork`. Chaque entrée utilise actuellement un placeholder Foundry ou Fallout. Les illustrations partagées jugées pertinentes sont acceptées et signalées séparément dans les métadonnées.
+
+Total : 544 fiches anglaises canoniques encore munies d’un placeholder (la fiche française partage la même décision graphique).
+
+## traits (10)
+
+- Educated
+- Fast Shot
+- Forced Evolution
+- Gifted
+- Heavy Handed
+- Mister Handy Robot
+- Necrotic Post-Human
+- Small Frame
+- The Chain that Binds
+- Vault Kid
+
+## perks (1)
+
+- Future Weapons Today
+
+## ammunition (1)
+
+- Syringer Ammo
+
+## weapon-mods (155)
+
+- .308 Receiver
+- .38 Receiver
+- .45 Receiver
+- .50 Receiver
+- Accelerated Barrel
+- Advanced
+- Automatic
+- Automatic Barrel
+- Automatic Piston
+- Barbed
+- Barbed
+- Barbed
+- Barbed
+- Bayonet
+- Bayonet
+- Beam Focuser
+- Beam Focuser
+- Beam Splitter
+- Beta Wave Tuner
+- Beta Wave Tuner
+- Bladed
+- Bladed
+- Bladed
+- Bladed
+- Bladed
+- Boosted Capacitor
+- Boosted Capacitor
+- Bracketed Long Barrel
+- Bracketed Short Barrel
+- Bull Barrel
+- Calibrated
+- Capacitor Boosting Coil
+- Capactor Boosting Coil
+- Chain-Wrapped
+- Chain-Wrapped
+- Charging Barrels
+- Comfort Grip
+- Compensator
+- Compression Nozzle
+- Curved Blade
+- Deep Dish
+- Electric Signal Carrier Antennae
+- Electrification Module
+- Electrified
+- Electrified Blade
+- Electrified Serrated Blade
+- Extended Blade
+- Extra Claw
+- Extra Flame Jets
+- Extra Heavy
+- Finned
+- Five-Crank Capacitor
+- Flamer Barrel
+- Four-Crank Capacitor
+- Full Capacitors
+- Full Stock
+- Full Stock
+- Gunner Sight
+- Gunner Sight
+- Gyro Compensating Lens
+- Hair Trigger
+- Hardened
+- Heating Coil
+- Heating Coil
+- Heavy
+- Heavy
+- Heavy
+- Hooked
+- Huge Tank
+- Ignition Module
+- Improved Barrel
+- Large Magazine
+- Large Quick-Eject Mag
+- Large Tank
+- Lead Lining
+- Long
+- Long Barrel
+- Long Barrel
+- Long Barrel
+- Long Night Vision Scope
+- Long Night Vision Scope
+- Long Scope
+- Long Scope
+- Marksman's Stock
+- Marksman's Stock
+- Muzzle Break
+- Napalm
+- Night Vision Scope
+- Photon Agitator
+- Photon Agitator
+- Photon Exciter
+- Photon Exciter
+- Ported
+- Powerful
+- Puncturing
+- Puncturing
+- Puncturing
+- Puncturing
+- Puncturing
+- Puncturing
+- Quad Barrel
+- Quick-Eject Mag
+- Recoil Compensating Stock
+- Recoil Compensating Stock
+- Recoil Compensating Stock
+- Recon Scope
+- Recon Scope
+- Reflex Sight
+- Reflex Sight
+- Reflex Sight
+- Sawed-Off
+- Scope
+- Serrated Blade
+- Serrated Blade
+- Serrated Blade
+- Serrated Blade
+- Sharp
+- Sharp
+- Sharp
+- Sharp
+- Sharp
+- Sharpshooter's Grip
+- Sharpshooter's Grip
+- Shielded Barrel
+- Short Night Vision Scope
+- Short Night Vision Scope
+- Short Scope
+- Short Scope
+- Shredder
+- Signal Repeater
+- Six-Crank Capacitor
+- Sniper Barrel
+- Snubnose
+- Spiked
+- Spiked
+- Spiked
+- Spiked
+- Spiked
+- Spiked
+- Spiked
+- Spiked
+- Splitter
+- Stabilizer
+- Standard Stock
+- Stealth Blade
+- Stun Pack
+- Stun Pack
+- Stun Pack
+- Suppressor
+- Targeting Computer
+- Three-Crank Capacitor
+- Tri-Barrel
+- Triple Barrel
+- Vaporization Nozzle
+- Vented
+
+## apparel-mods (196)
+
+- Aerodynamic
+- Alloyed Metal
+- Alloyed Metal (Torso)
+- Asbestos Lining
+- Ballistic Weave
+- Ballistic Weave Mk II
+- Ballistic Weave Mk III
+- Ballistic Weave Mk IV
+- Ballistic Weave Mk V
+- BioCommMesh
+- Blood Cleanser
+- Boiled Leather
+- Boiled Leather (Torso)
+- Braced
+- Brawling
+- Buttressed
+- Buttressed (Torso)
+- Calibrated Shocks
+- Core Assembly
+- Cushioned
+- Deep Pocketed
+- Deep Pocketed (Torso)
+- Dense
+- Emergency Protocols
+- EMP Shielding
+- EMP Shielding (Torso)
+- Enameled Metal
+- Enameled Metal (Torso)
+- Explosive Shielding
+- Explosive Shielding (Torso)
+- Explosive Vent
+- Fiberglass
+- Fiberglass (Torso)
+- Girded Leather
+- Girded Leather (Torso)
+- Hardened
+- Hardened (Torso)
+- Hydraulic Bracers
+- Insulated Lining
+- Internal Database
+- Jetpack
+- Kinetic Dynamo
+- Laminated
+- Laminated (Torso)
+- Lead Lined
+- Lead Lined (Torso)
+- Lead Plating
+- Lead Plating (Torso)
+- Lighter Build
+- Lighter Build (Torso)
+- Medic Pump
+- Microcarbon
+- Microcarbon (Torso)
+- Mk II Arm
+- Mk II Chest Piece
+- Mk II Helm
+- Mk II Leg
+- Mk III Arm
+- Mk III Chest Piece
+- Mk III Helm
+- Mk III Leg
+- Mk IV Arm
+- Mk IV ChestPiece
+- Mk IV Helm
+- Mk IV Leg
+- Mk V Arm
+- Mk V Chest Piece
+- Mk V Helm
+- Mk V Leg
+- Mk VI Arm
+- Mk VI ChestPiece
+- Mk VI Helm
+- Mk VI Leg
+- Motion-Assist Servos
+- Muffled
+- Nanofilament
+- Nanofilament (Torso)
+- Optimized Bracers
+- Overdrive Servos
+- Padded
+- Painted Metal
+- Painted Metal (Torso)
+- Photovoltaic Plating
+- Photovoltaic Plating (Torso)
+- Pneumatic
+- Pocketed
+- Pocketed (Torso)
+- Polished Metal
+- Polished Metal (Torso)
+- Polymer
+- Polymer (Torso)
+- Prism Shielding
+- Prism Shielding (Torso)
+- Protective Lining
+- Rad Scrubber
+- Raider II Arm
+- Raider II Chest Piece
+- Raider II Helm
+- Raider II Leg
+- Reactive Plates
+- Reinforced
+- Reinforced (Torso)
+- Resin
+- Resin (Torso)
+- Resistant Lining
+- Rusty Knuckles
+- Sensor Array
+- Shadowed
+- Shadowed (Torso)
+- Shadowed Leather
+- Shadowed Leather (Torso)
+- Shadowed Metal
+- Shadowed Metal (Torso)
+- Shielded Lining
+- Stabilized
+- Stealth Boy
+- Studded Leather
+- Studded Leather (Torso)
+- T-45b Arm
+- T-45b Chest Piece
+- T-45b Helm
+- T-45b Leg
+- T-45c Arm
+- T-45c Chest Piece
+- T-45c Helm
+- T-45c Leg
+- T-45d Arm
+- T-45d Chest Piece
+- T-45d Helm
+- T-45d Leg
+- T-45e Arm
+- T-45e Chest Piece
+- T-45e Helm
+- T-45e Leg
+- T-45f Arm
+- T-45f Chest Piece
+- T-45f Helm
+- T-45f Leg
+- T-51b Arm
+- T-51b Chest Piece
+- T-51b Helm
+- T-51b Leg
+- T-51c Arm
+- T-51c Chest Piece
+- T-51c Helm
+- T-51c Leg
+- T-51d Arm
+- T-51d Chest Piece
+- T-51d Helm
+- T-51d Leg
+- T-51e Arm
+- T-51e Chest Piece
+- T-51e Helm
+- T-51e Leg
+- T-51f Arm
+- T-51f Chest Piece
+- T-51f Helm
+- T-51f Leg
+- T-60b Arm
+- T-60b Chest Piece
+- T-60b Helm
+- T-60b Leg
+- T-60c Arm
+- T-60c Chest Piece
+- T-60c Helm
+- T-60c Leg
+- T-60d Arm
+- T-60d Chest Piece
+- T-60d Helm
+- T-60d Leg
+- T-60e Arm
+- T-60e Chest Piece
+- T-60e Helm
+- T-60e Leg
+- T-60f Arm
+- T-60f Chest Piece
+- T-60f Helm
+- T-60f Leg
+- Targeting HUD
+- Tempered
+- Tempered (Torso)
+- Tesla Bracers
+- Tesla Coils
+- Titanium Plating
+- Titanium Plating (Torso)
+- Treated Leather
+- Treated Leather (Torso)
+- Treated Lining
+- Ultra Light Build
+- Ultra Light Build (Torso)
+- Weighted
+- Welded
+- Welded (Torso)
+- Welded Rebar
+- Winterized Coating
+- Winterized Coating (Torso)
+
+## robot-modules (13)
+
+- Behavioral Analysis Mod
+- Diagnosis Mod
+- Hacking Mod
+- Hazard Detection Mod
+- Integral Boiler Mod
+- Lockpick Module
+- Radiation Coils
+- Recon Sensors
+- Regeneration Field
+- Resistance Field
+- Sensor Array
+- Stealth Field
+- Tesla Coils
+
+## consumables (40)
+
+- Antibiotics
+- Asbestos
+- Berry Mentats
+- BlamCo Brand Mac and Cheese
+- BlamCo Brand Mac and Cheese (Preserved)
+- Bloatfly Gland
+- Blood Sac
+- Bloodbug Steak
+- Bloodleaf
+- Buffjet
+- Bufftats
+- Calmex
+- Crispy Squirrel Bits
+- Dirty Wastelander
+- Fury
+- Glowing Fungus
+- Grape Mentats
+- Hubflower
+- Irradiated Blood
+- Jet
+- Jet Fuel
+- Mirelurk Meat
+- Nuka-Cola Quantum
+- Orange Mentats
+- Overdrive
+- Psycho Jet
+- Psychobuff
+- Psychotats
+- Rad-X (Diluted)
+- RadAway (Diluted)
+- Radscorpion Stinger
+- Radstag Hide
+- Radstag Meat
+- Ribeye Steak
+- Skeeto Spit
+- Softshell Mirelurk Meat
+- Stimpak (Diluted)
+- Stingwing Barb
+- Ultra Jet
+- Yao Guai Meat
+
+## addictions (5)
+
+- Calmex
+- Fury
+- Jet
+- Overdrive
+- Ultra Jet
+
+## diseases (20)
+
+- Blood Worms
+- Bone Worms
+- Buzz Brain
+- Dysentery
+- Fever Claw
+- Flap Limb
+- Glowing Pustules
+- Heat Flashes
+- Jelly Fingers
+- Lock Joint
+- Needle Spine
+- Parasites
+- Rad Worms
+- Shell Shock
+- Sludge Lung
+- Snot Ear
+- Swamp Gas
+- Swamp Itch
+- The Whoopsies
+- Weeping Sores
+
+## books-and-magazines (1)
+
+- Future Weapons Today
+
+## miscellany (1)
+
+- Pre-War Money
+
+## crafting-stations (6)
+
+- Armor Workbench
+- Chemistry Station
+- Cooking Station
+- Power Armor Station
+- Robot Workbench
+- Weapons Workbench
+
+## creature-abilities (66)
+
+- Acid Spray
+- Action Packed
+- Aggressive
+- Alien
+- Antlers
+- Aquatic
+- Arm Lasers
+- Arm Lasers
+- Atoms Glow
+- Attack Dog
+- Barbarian
+- Barbed Stinger
+- Big
+- Bite
+- Booulder Throw
+- Burrow
+- Butchery
+- Chems or Kaboom
+- Claws
+- Companion
+- Dive-Bomb
+- Feral
+- Flying
+- Ghoul
+- Ghoul
+- Glowing
+- Hatchling Spawn
+- Headbutt
+- Heavy Object
+- Immune to Disease
+- Immune to Fear
+- Immune to Poison
+- Immune to Radiation
+- In Charge
+- Instutute Access
+- Keen Senses
+- Laser
+- Let Rip
+- Little
+- Massive Strength
+- Master Trader
+- Modified Mini Nuke
+- Molotov
+- Night Vision
+- Pincer
+- Pincers
+- Play Dead
+- Power Armor
+- Pre-War Expertise
+- Radio Transmission
+- Rend
+- Robot
+- Salvage
+- Self-Destruct
+- Self-Destruct
+- Shopkeep
+- Slam
+- Small Weak Point
+- Sneaky
+- Sting
+- The Chain That Binds
+- Third Generation Synth
+- Vertibird Training
+- Warning Howl
+- Weak Spot
+- Well Equipped
+
+## roll-tables (29)
+
+- Foraging
+- Nuka-Cola Machine
+- Random Ammunition
+- Random Armor
+- Random Astoundingly Awesome Tales Issues
+- Random Backwoodsman Issues
+- Random Beverages
+- Random Chems
+- Random Clothing
+- Random Commonwealth Encounters
+- Random Diseases
+- Random Food
+- Random Grognak the Barbarian Issues
+- Random Guns and Bullets Issues
+- Random Live & Love Issues
+- Random Melee Weapons
+- Random Oddities and Valuables
+- Random Publication
+- Random Ranged Weapons
+- Random Tesla Science Magazine Issues
+- Random Thrown and Explosive Weapons
+- Random Trinkets
+- Random Tumblers Today Issues
+- Random U.S. Covert Operations Manual Issues
+- Random Unstoppables Issues
+- Random Wasteland Survival Guide Issues
+- Random Weird Wasteland Encounters
+- Vault Room Encounters
+- Wacky Vault Quests
+

@@ -1,0 +1,14 @@
+{
+  "_id": "WVocye4YJsyuan4j",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.WVocye4YJsyuan4j",
+  "name": "A silver locket",
+  "description": "A silver locket",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    4
+  ],
+  "drawn": false
+}

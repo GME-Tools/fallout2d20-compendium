@@ -1,0 +1,48 @@
+{
+  "_id": "aLYfeWM0Uxv7H1Ax",
+  "_key": "!items!aLYfeWM0Uxv7H1Ax",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Brahmin Meat.webp",
+  "name": "Brahmin Meat",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 28,
+    "description": "<p><span class=\"fontstyle0\">A slab of meat from the two-headed mutant cattle that roam the wastelands. Not massively dissimilar to beef from before the War, though somewhat radioactive due to coming from a mutant animal.</span></p>\n<p><span class=\"fontstyle0\">Can be cooked to produce ribeye steak.</span> </p>",
+    "duration": "",
+    "effect": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

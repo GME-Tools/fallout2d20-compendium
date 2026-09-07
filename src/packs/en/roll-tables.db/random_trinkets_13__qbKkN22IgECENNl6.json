@@ -1,0 +1,14 @@
+{
+  "_id": "qbKkN22IgECENNl6",
+  "_key": "!tables.results!NSMq85o2aSfE60Aa.qbKkN22IgECENNl6",
+  "name": "Cosmetics case",
+  "description": "Cosmetics case",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    13
+  ],
+  "drawn": false
+}

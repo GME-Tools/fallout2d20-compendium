@@ -1,0 +1,14 @@
+{
+  "_id": "0n2yxezWcihyHaaq",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.0n2yxezWcihyHaaq",
+  "name": "2+1 CD Frag Grenades",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.3CZ7jbXV7I5z757E]{2+1 CD Frag Grenades}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    11
+  ],
+  "drawn": false
+}

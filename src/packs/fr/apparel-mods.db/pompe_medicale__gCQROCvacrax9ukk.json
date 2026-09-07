@@ -1,0 +1,72 @@
+{
+  "_id": "gCQROCvacrax9ukk",
+  "_key": "!items!gCQROCvacrax9ukk",
+  "effects": [],
+  "folder": "JpQJNevV3gGYvAgY",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Pompe médicale",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 100,
+    "description": "<p>Cette modification s’installe avec la compétence Sciences.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>6</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 4</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×7</li><li>Matériaux peu fréquents ×5</li><li>Matériaux rares ×3</li></ul></section>",
+    "effect": "<p>Tant que l’armure est alimentée, lorsque vos PV passent sous la moitié de leur maximum, vous utilisez immédiatement un Stimpak pour récupérer 3 PV ou soigner une Blessure.</p>",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Torso",
+    "modType": "system",
+    "perks": "Science! 4",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 2
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "gCQROCvacrax9ukk",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "systems",
+        "complexity": 6,
+        "skill": "Science",
+        "perks": [
+          "Scientifique 4"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 7,
+          "uncommon": 5,
+          "rare": 3
+        }
+      }
+    }
+  }
+}

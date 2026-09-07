@@ -1,0 +1,48 @@
+{
+  "_id": "68eulbmhBZbFJlcs",
+  "_key": "!items!68eulbmhBZbFJlcs",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Bourbon.webp",
+  "name": "Bourbon",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "beverage",
+    "cost": 7,
+    "description": "<p><span class=\"fontstyle0\">A distinctly American type of whiskey, bourbon is a barrel-aged, distilled spirit made mainly of corn. PreWar, those who favored it tended to get a reputation as being tough or rugged.</span> </p>",
+    "duration": "",
+    "effect": "<p>Reroll 1d20 on END tests</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

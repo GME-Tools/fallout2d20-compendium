@@ -1,0 +1,14 @@
+{
+  "_id": "0FWlYyooCCLAweOU",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.0FWlYyooCCLAweOU",
+  "name": "Rats-taupes",
+  "description": "Trois fois plus nombreux que les membres du groupe, ils envahissent la pièce en mordant tout ce qui bouge.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    15
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "DinDr6mBoFVsCdqX",
+  "_key": "!tables.results!3yyd2m95Aw6isb56.DinDr6mBoFVsCdqX",
+  "name": "Rampant AI",
+  "description": "A self-aware computer or robot forces the characters to help complete its programmed mission.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    4
+  ],
+  "drawn": false
+}

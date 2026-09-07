@@ -1,0 +1,14 @@
+{
+  "_id": "G5XA6kst57CXOGrc",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.G5XA6kst57CXOGrc",
+  "name": "de métal",
+  "description": "de métal",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    23,
+    23
+  ],
+  "drawn": false
+}

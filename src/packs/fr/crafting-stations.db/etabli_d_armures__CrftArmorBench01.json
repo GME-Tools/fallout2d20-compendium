@@ -1,0 +1,39 @@
+{
+  "_id": "CrftArmorBench01",
+  "_key": "!items!CrftArmorBench01",
+  "name": "Établi d’armures",
+  "type": "object_or_structure",
+  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "effects": [],
+  "folder": null,
+  "system": {
+    "description": "<p>Un établi d’armures fournit les outils nécessaires pour travailler les armures et les vêtements, mais pas les armures assistées. Son utilisation fait appel à la compétence Réparation et bénéficie de l’aptitude Armurier.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "constructionTime": 0,
+    "effect": "<p>Fournit les outils nécessaires pour travailler les armures et les vêtements, mais pas les armures assistées.</p>",
+    "itemType": "crafting_table",
+    "materials": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0
+    },
+    "parentItem": "",
+    "perks": "Armurier",
+    "rarity": "common",
+    "skills": "Réparation"
+  },
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": 209,
+        "errataReviewed": true,
+        "translationReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

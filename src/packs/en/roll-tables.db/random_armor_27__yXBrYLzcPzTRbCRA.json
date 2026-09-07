@@ -1,0 +1,14 @@
+{
+  "_id": "yXBrYLzcPzTRbCRA",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.yXBrYLzcPzTRbCRA",
+  "name": "Heavy Leather Armor",
+  "description": "Heavy Leather Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    28,
+    28
+  ],
+  "drawn": false
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "M32bIhaLlqXttW9q",
+  "_key": "!items!M32bIhaLlqXttW9q",
+  "effects": [],
+  "folder": "1zjvYqW9iGXJxBbY",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Open Any Lock in 5 Seconds Flat.webp",
+  "name": "Ouvrez toutes les serrures en 5 secondes chrono",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un magazine d’avant-guerre consacré à l’art clandestin du crochetage et aux dernières avancées des serrures mécaniques.</p><p><strong>Aptitude :</strong> Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l’option de PA Réduire la durée sans dépenser de PA.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.mrgLpKa5RkDmIWHq]{Ouvrez toutes les serrures en 5 secondes chrono}</p></section>",
+    "effect": "<p>Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l’option de PA Réduire la durée sans dépenser de PA.</p>",
+    "favorite": false,
+    "publication": "Gorges et pênes",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "M32bIhaLlqXttW9q",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

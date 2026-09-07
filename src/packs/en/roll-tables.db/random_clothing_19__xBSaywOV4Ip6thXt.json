@@ -1,0 +1,14 @@
+{
+  "_id": "xBSaywOV4Ip6thXt",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.xBSaywOV4Ip6thXt",
+  "name": "Harness",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.Z2wwI1RUjgV9UuzJ]{Harness}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

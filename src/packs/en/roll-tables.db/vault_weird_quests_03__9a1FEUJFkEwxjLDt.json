@@ -1,0 +1,14 @@
+{
+  "_id": "9a1FEUJFkEwxjLDt",
+  "_key": "!tables.results!3yyd2m95Aw6isb56.9a1FEUJFkEwxjLDt",
+  "name": "On the Record",
+  "description": "The vault is empty and immaculate; music still plays and movement is always heard in the next room.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    12
+  ],
+  "drawn": false
+}

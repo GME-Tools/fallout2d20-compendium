@@ -1,0 +1,14 @@
+{
+  "_id": "cumwBsdFW4Pw5oiu",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.cumwBsdFW4Pw5oiu",
+  "name": "Nuka-Cola",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.Uxxc3gTKcLNpcBLU]{Nuka-Cola}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    9
+  ],
+  "drawn": false
+}

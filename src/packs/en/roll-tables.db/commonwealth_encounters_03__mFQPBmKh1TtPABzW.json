@@ -1,0 +1,14 @@
+{
+  "_id": "mFQPBmKh1TtPABzW",
+  "_key": "!tables.results!7TlfIIW1OHVVazkg.mFQPBmKh1TtPABzW",
+  "name": "Wandering Eyebot",
+  "description": "An Eyebot broadcasts advertisements and possible mission information.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    6
+  ],
+  "drawn": false
+}

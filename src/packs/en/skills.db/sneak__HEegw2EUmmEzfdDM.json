@@ -1,0 +1,33 @@
+{
+  "_id": "HEegw2EUmmEzfdDM",
+  "_key": "!items!HEegw2EUmmEzfdDM",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Sneak.png",
+  "name": "Sneak",
+  "system": {
+    "defaultAttribute": "agi",
+    "description": "<p>The Sneak skill covers stealthy movement and any physical actions you take not to be noticed.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Agility</strong> but you might use it with Perception to find enemies hiding in ambush, or Intelligence to case a building. You use Sneak to move silently or stay hidden.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

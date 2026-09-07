@@ -1,0 +1,14 @@
+{
+  "_id": "DHyYMu1jDKHhcfrV",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.DHyYMu1jDKHhcfrV",
+  "name": "Sword",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.M9xO5ZKoGsqbPxWr]{Sword}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

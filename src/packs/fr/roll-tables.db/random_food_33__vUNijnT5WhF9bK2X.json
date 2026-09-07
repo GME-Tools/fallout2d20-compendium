@@ -1,0 +1,14 @@
+{
+  "_id": "vUNijnT5WhF9bK2X",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.vUNijnT5WhF9bK2X",
+  "name": "InstaMash (conservé)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.yqGACHwwNS8DBo4B]{InstaMash (conservé)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    34,
+    34
+  ],
+  "drawn": false
+}

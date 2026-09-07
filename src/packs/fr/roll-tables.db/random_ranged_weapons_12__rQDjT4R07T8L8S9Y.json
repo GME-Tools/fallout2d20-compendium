@@ -1,0 +1,14 @@
+{
+  "_id": "rQDjT4R07T8L8S9Y",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.rQDjT4R07T8L8S9Y",
+  "name": "Fusil de chasse",
+  "description": "Fusil de chasse",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    13
+  ],
+  "drawn": false
+}

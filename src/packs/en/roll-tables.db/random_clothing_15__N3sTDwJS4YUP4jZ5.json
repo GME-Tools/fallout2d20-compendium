@@ -1,0 +1,14 @@
+{
+  "_id": "N3sTDwJS4YUP4jZ5",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.N3sTDwJS4YUP4jZ5",
+  "name": "Casual Clothing",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.mGCVgHtv7btlXFcj]{Casual Clothing}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    16,
+    16
+  ],
+  "drawn": false
+}

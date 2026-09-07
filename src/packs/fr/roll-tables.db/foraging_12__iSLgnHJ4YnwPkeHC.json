@@ -1,0 +1,14 @@
+{
+  "_id": "iSLgnHJ4YnwPkeHC",
+  "_key": "!tables.results!DDXZDnebSdYipB0t.iSLgnHJ4YnwPkeHC",
+  "name": "Feuille de sang",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ZXa7xGi9VXOzUuVN]{Feuille de sang}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

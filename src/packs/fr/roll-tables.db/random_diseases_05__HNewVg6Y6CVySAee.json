@@ -1,0 +1,14 @@
+{
+  "_id": "HNewVg6Y6CVySAee",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.HNewVg6Y6CVySAee",
+  "name": "Mains tremblantes",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-diseases.Item.c8S2PriC3vi4KyUs]{Mains tremblantes}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    5,
+    5
+  ],
+  "drawn": false
+}

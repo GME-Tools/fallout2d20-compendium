@@ -1,0 +1,14 @@
+{
+  "_id": "KxSMsE1rTKUCJEj5",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.KxSMsE1rTKUCJEj5",
+  "name": "Flamer",
+  "description": "Flamer",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

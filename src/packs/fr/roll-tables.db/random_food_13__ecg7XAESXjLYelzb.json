@@ -1,0 +1,14 @@
+{
+  "_id": "ecg7XAESXjLYelzb",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.ecg7XAESXjLYelzb",
+  "name": "écureuil morceaux",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.JoLgVDbxQV3bT11R]{écureuil morceaux}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "IP6BzlZXDMs6uqNY",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.IP6BzlZXDMs6uqNY",
+  "name": "Sturdy Synth Armor",
+  "description": "Sturdy Synth Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    33,
+    33
+  ],
+  "drawn": false
+}

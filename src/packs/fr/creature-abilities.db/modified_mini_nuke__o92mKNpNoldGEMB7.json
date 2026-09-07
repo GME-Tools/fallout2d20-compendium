@@ -1,0 +1,38 @@
+{
+  "_id": "o92mKNpNoldGEMB7",
+  "name": "Mini-bombe nucléaire modifiée",
+  "type": "special_ability",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.LHtGrDoeiVFgDoDH"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "o92mKNpNoldGEMB7",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "system": {
+    "description": "<p>Une fois à portée Courte de sa cible, le kamikaze super mutant effectue un test d’<strong>AGI + Explosifs</strong> (SR 11) pour faire exploser sa mini-bombe nucléaire modifiée. Toute personne à portée Courte du kamikaze, lui compris, en subit les effets.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!o92mKNpNoldGEMB7"
+}

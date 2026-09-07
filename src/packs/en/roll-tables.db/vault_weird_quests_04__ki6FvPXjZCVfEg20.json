@@ -1,0 +1,14 @@
+{
+  "_id": "ki6FvPXjZCVfEg20",
+  "_key": "!tables.results!3yyd2m95Aw6isb56.ki6FvPXjZCVfEg20",
+  "name": "Experiment Continued",
+  "description": "A robotic Overseer wants new subjects for the vault’s supersoldier experiment.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    16
+  ],
+  "drawn": false
+}

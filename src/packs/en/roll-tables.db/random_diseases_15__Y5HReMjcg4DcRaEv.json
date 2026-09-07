@@ -1,0 +1,14 @@
+{
+  "_id": "Y5HReMjcg4DcRaEv",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.Y5HReMjcg4DcRaEv",
+  "name": "Sludge Lung",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-diseases.Item.1p7mDRDty8NiEP1t]{Sludge Lung}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    15
+  ],
+  "drawn": false
+}

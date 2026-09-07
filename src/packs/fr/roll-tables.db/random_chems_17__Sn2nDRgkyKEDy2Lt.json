@@ -1,0 +1,14 @@
+{
+  "_id": "Sn2nDRgkyKEDy2Lt",
+  "_key": "!tables.results!isNdghTYF06GBC0m.Sn2nDRgkyKEDy2Lt",
+  "name": "Baume curatif",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.AcJArmB6p1XrVWL9]{Baume curatif}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    18,
+    18
+  ],
+  "drawn": false
+}

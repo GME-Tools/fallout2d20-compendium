@@ -1,0 +1,73 @@
+{
+  "_id": "5b56DVzDm2X2ueX4",
+  "_key": "!items!5b56DVzDm2X2ueX4",
+  "effects": [],
+  "folder": "lLsTAfSqwrufEQub",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "T-51f - Plastron",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 45,
+    "description": "\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>7</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 3, @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×8</li><li>Matériaux peu fréquents ×6</li><li>Matériaux rares ×4</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 7
+    },
+    "isJunk": false,
+    "location": "Torso",
+    "modType": "upgrade",
+    "perks": "5",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 5
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "5b56DVzDm2X2ueX4",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": false,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 219,
+        "station": "power-armor",
+        "group": "upgrades",
+        "complexity": 7,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 3",
+          "Scientifique 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 8,
+          "uncommon": 6,
+          "rare": 4
+        }
+      }
+    }
+  }
+}

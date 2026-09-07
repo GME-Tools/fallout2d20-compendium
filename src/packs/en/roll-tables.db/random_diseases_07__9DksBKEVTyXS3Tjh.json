@@ -1,0 +1,14 @@
+{
+  "_id": "9DksBKEVTyXS3Tjh",
+  "_key": "!tables.results!r35g8Z4aZr8Lensc.9DksBKEVTyXS3Tjh",
+  "name": "Glowing Pustules",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-diseases.Item.n7qmRjFVgxyRGi3K]{Glowing Pustules}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    7
+  ],
+  "drawn": false
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "4yO3TrAohgWDMhDI",
+  "_key": "!items!4yO3TrAohgWDMhDI",
+  "effects": [],
+  "folder": "u8hGyjsUyuO3xszc",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/FH 5-04 Not the Soldiers Youre Looking For.webp",
+  "name": "FH 5-04 Ce ne sont pas les soldats que vous recherchez",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Vos attaques contre les PNJ personnages infligent +1 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.g6qVETrGj3ide6hr]{FH 5-04 Ce ne sont pas les soldats que vous recherchez}</p></section>",
+    "effect": "<p>Vos attaques contre les PNJ personnages infligent +1 DC de dégâts.</p>",
+    "favorite": false,
+    "publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "4yO3TrAohgWDMhDI",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

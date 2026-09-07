@@ -1,0 +1,14 @@
+{
+  "_id": "Ako6EOtErtBjeKqI",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.Ako6EOtErtBjeKqI",
+  "name": "Heavy Dog Armor",
+  "description": "Heavy Dog Armor",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    9,
+    9
+  ],
+  "drawn": false
+}

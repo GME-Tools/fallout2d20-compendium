@@ -1,0 +1,14 @@
+{
+  "_id": "FmnxBCybcG7ISE1S",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.FmnxBCybcG7ISE1S",
+  "name": "Casual Hat",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.hKGbIZhOnncmk7UT]{Casual Hat}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    32,
+    32
+  ],
+  "drawn": false
+}

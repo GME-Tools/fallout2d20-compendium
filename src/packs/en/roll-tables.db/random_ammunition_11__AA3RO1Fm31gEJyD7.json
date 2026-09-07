@@ -1,0 +1,14 @@
+{
+  "_id": "AA3RO1Fm31gEJyD7",
+  "_key": "!tables.results!sa66QXOwlO8515AT.AA3RO1Fm31gEJyD7",
+  "name": "Syringer Ammo (4+2 CD)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.HTHVoUBhAzf3CTuI]{Syringer Ammo (4+2 CD)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    12,
+    12
+  ],
+  "drawn": false
+}

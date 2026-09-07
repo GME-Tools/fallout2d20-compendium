@@ -1,0 +1,14 @@
+{
+  "_id": "Le2RFngqFGaI3xrY",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.Le2RFngqFGaI3xrY",
+  "name": "Aluminum Baseball Bat",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.mmmxQfbZxwNWA45f]{Aluminum Baseball Bat}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

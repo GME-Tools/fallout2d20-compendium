@@ -1,0 +1,14 @@
+{
+  "_id": "jxbx38Gce98t9Dkj",
+  "_key": "!tables.results!7bCzBGx1Boi3WUK7.jxbx38Gce98t9Dkj",
+  "name": "Une expérience marquante",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.LATCQmWWljVCwMnt]{Une expérience marquante}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    16
+  ],
+  "drawn": false
+}

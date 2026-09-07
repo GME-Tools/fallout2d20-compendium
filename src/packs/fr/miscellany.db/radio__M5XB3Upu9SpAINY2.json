@@ -1,0 +1,38 @@
+{
+  "_id": "M5XB3Upu9SpAINY2",
+  "_key": "!items!M5XB3Upu9SpAINY2",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Radio.webp",
+  "name": "Radio",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 75,
+    "description": "<p>Cet appareil reçoit des signaux radio et les transforme en sons intelligibles. Employée avant comme après la Guerre pour le divertissement et les messages d’urgence, une radio reste tributaire du signal reçu. La plupart des régions possèdent quelques stations diffusant de vieilles musiques, et diverses factions utilisent les tours encore debout pour communiquer à longue distance, mais la portée de ces signaux demeure limitée.</p>",
+    "effect": "<p>Capte et diffuse les transmissions radio.</p>",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 2
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "M5XB3Upu9SpAINY2",
+        "structuralBaseline": true,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

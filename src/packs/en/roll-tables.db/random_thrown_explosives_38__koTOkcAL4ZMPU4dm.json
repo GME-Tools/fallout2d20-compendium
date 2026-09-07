@@ -1,0 +1,14 @@
+{
+  "_id": "koTOkcAL4ZMPU4dm",
+  "_key": "!tables.results!8qbsFQvYkxdUNbTb.koTOkcAL4ZMPU4dm",
+  "name": "1 Pulse Grenade",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.LCUp8GGg6nyJ8wa9]{1 Pulse Grenade}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    39,
+    39
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "QsoJPj4lqDInu4la",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.QsoJPj4lqDInu4la",
+  "name": "Fusil de fortune (Canon long, Crosse standard)",
+  "description": "Fusil de fortune (Canon long, Crosse standard)",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "JxiSYIAxxp7ihpHY",
+  "_key": "!tables.results!kWVLTeXI0nuBpydx.JxiSYIAxxp7ihpHY",
+  "name": "Cage Armor",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-apparel.Item.vWq7tmY6iChl2g2t]{Cage Armor}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    39,
+    39
+  ],
+  "drawn": false
+}

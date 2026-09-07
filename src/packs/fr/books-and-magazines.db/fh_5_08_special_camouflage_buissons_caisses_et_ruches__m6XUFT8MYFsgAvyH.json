@@ -1,0 +1,43 @@
+{
+  "_id": "m6XUFT8MYFsgAvyH",
+  "_key": "!items!m6XUFT8MYFsgAvyH",
+  "effects": [],
+  "folder": "u8hGyjsUyuO3xszc",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/FH 5-08 Bushes, Boxes, and Beehives Camouflage Special.webp",
+  "name": "FH 5-08 Spécial camouflage : buissons, caisses et ruches",
+  "system": {
+    "cost": 100,
+    "description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Une attaque à mains nues ou portée avec un couteau inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.l9jhloiw4Sylv6Y3]{FH 5-08 Spécial camouflage : buissons, caisses et ruches}</p></section>",
+    "effect": "<p>Une attaque à mains nues ou portée avec un couteau inflige +2 DC de dégâts.</p>",
+    "favorite": false,
+    "publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "m6XUFT8MYFsgAvyH",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

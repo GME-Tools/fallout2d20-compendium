@@ -1,0 +1,14 @@
+{
+  "_id": "gFDBybwyYiAMVYuk",
+  "_key": "!tables.results!95C7laMPQoK9wwZj.gFDBybwyYiAMVYuk",
+  "name": "Maula : la Vierge guerrière de Mars",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.n5iAbo8IerJqOQNR]{Maula : la Vierge guerrière de Mars}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    12
+  ],
+  "drawn": false
+}

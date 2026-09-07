@@ -1,0 +1,47 @@
+{
+  "_id": "HTHVoUBhAzf3CTuI",
+  "_key": "!items!HTHVoUBhAzf3CTuI",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/ammo.svg",
+  "name": "Seringue",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 0,
+    "description": "<p>Il existe différents types de seringues décrits ci-dessous, souvent fabriqués de manière artisanale par les chimistes des Terres désolées. Aucun des Effets indiqués ci-dessous ne peut s’appliquer plus d’une fois en même temps à une seule cible. Types de seringue NOM DE LA MUNITION EFFET COÛT Artibloc L’arme gagne l’effet de dégâts Étourdissant. 40 Dangerol Si vous obtenez un ou plusieurs Effets sur le jet de dégâts de l’arme, la résistance aux dégâts balistiques de la cible est réduite de 2 pour le reste de la scène. 60 Embrumaze Si vous obtenez un ou plusieurs Effets sur le jet de dégâts de l’arme, la cible devient confuse et la difficulté de tous ses tests de PER augmente de +2 pendant un nombre de rounds égal au nombre d’Effets obtenus. 73 Escampoudréine Si vous obtenez un ou plusieurs Effets sur le jet de dégâts de l’arme, la cible doit utiliser au moins une de ses actions à chaque tour pour s’éloigner de tous les ennemis par la route la plus directe. Cet effet dure pendant un nombre de rounds égal au nombre d’Effets obtenus. 55 Folie furieuse Si vous obtenez un ou plusieurs Effets sur le jet de dégâts de l’arme, la cible entre dans une frénésie de folie furieuse et attaque la créature vivante la plus proche (amie ou ennemie) pendant le reste de la scène. 50 Hémorragie L’arme gagne l’effet de dégâts Persistant. 17 Larve de mouche bouffie Si vous obtenez un ou plusieurs Effets sur le jet de dégâts de l’arme, à la mort de la cible, une mouche bouffie émerge de son cadavre. 10 Pax Si vous obtenez un ou plusieurs Effets sur le jet de dégâts de l’arme, la cible ne peut pas effectuer d’action hostile ou agressive pendant un nombre de rounds égal au nombre d’Effets obtenus. 39 Venin de radscorpion L’arme ajoute +1 à ses dégâts et gagne l’effet de dégâts Persistant (Poison). 65</p>",
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "4+2dc",
+    "rarity": 2,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": "",
+    "weight": 0.1
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "91-94",
+        "translatedFrom": "HTHVoUBhAzf3CTuI",
+        "extraction": "pdftotext-raw",
+        "translationReviewed": false,
+        "diceSymbolsReviewed": true,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

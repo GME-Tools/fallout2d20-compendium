@@ -1,0 +1,14 @@
+{
+  "_id": "9Vv5BFGgWW38Ri1W",
+  "_key": "!tables.results!sa66QXOwlO8515AT.9Vv5BFGgWW38Ri1W",
+  "name": "Cartouche Gamma (4+2 DC)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.PPA4fiWvfoRf0ZBs]{Cartouche Gamma (4+2 DC)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

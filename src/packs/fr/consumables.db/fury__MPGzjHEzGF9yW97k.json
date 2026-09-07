@@ -1,0 +1,78 @@
+{
+  "_id": "MPGzjHEzGF9yW97k",
+  "_key": "!items!MPGzjHEzGF9yW97k",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Fury",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 30,
+    "description": "<p>Stimulant de combat extrêmement puissant qui donne un sentiment d’invincibilité, anesthésie presque la douleur et rend son utilisateur dangereusement téméraire au corps à corps, mais peu attentif au reste.</p><p><strong>Dépendance au Fury :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et de PER hors de ses effets.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Chimiste</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.SyrBerserkAmmo01]{Seringue frénétique} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.o0at3QFpM8FKxvZj]{Buffout} ×1</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>Gagnez +3 en résistance aux dégâts physiques et +3 @fos[DC] aux dégâts de corps à corps. Augmentez de 2 la difficulté de tous les tests de PER.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "MPGzjHEzGF9yW97k",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [
+          "Chimiste"
+        ],
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "name": "Seringue frénétique",
+            "canonicalName": "Berserk Syringe",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-ammunition.Item.SyrBerserkAmmo01"
+          },
+          {
+            "name": "Buffout",
+            "canonicalName": "Buffout",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.o0at3QFpM8FKxvZj"
+          }
+        ]
+      }
+    }
+  }
+}

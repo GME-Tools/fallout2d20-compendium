@@ -1,0 +1,14 @@
+{
+  "_id": "Fyn4jstkDvKvJqLK",
+  "_key": "!tables.results!ICQJPDpxEpQP3kgC.Fyn4jstkDvKvJqLK",
+  "name": "Lasers mortels !",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.6rHaK2QtsSPGvSpJ]{Lasers mortels !}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    16
+  ],
+  "drawn": false
+}

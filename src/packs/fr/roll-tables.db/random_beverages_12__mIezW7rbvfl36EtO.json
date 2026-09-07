@@ -1,0 +1,14 @@
+{
+  "_id": "mIezW7rbvfl36EtO",
+  "_key": "!tables.results!vB9rCF7wmmGcBzNZ.mIezW7rbvfl36EtO",
+  "name": "Bourbon",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.68eulbmhBZbFJlcs]{Bourbon}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    13
+  ],
+  "drawn": false
+}

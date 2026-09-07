@@ -1,0 +1,14 @@
+{
+  "_id": "sDD8DgOlgrs5HBPD",
+  "_key": "!tables.results!isNdghTYF06GBC0m.sDD8DgOlgrs5HBPD",
+  "name": "RadAway",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.vDzTAi2iRrZ5XTcc]{RadAway}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

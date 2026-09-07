@@ -1,0 +1,76 @@
+{
+  "_id": "fP4pQsWzcH6F83q4",
+  "_key": "!items!fP4pQsWzcH6F83q4",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Buffjet",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Buffout",
+    "consumableType": "chem",
+    "cost": 75,
+    "description": "<p>Mélange puissant et très addictif de Buffout et de Jet, il améliore les capacités physiques, les réflexes et provoque une poussée d’adrénaline.</p><p><strong>Dépendance au Buffout :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et d’END hors des effets du Buffout, du Buffjet ou du Bufftats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.o0at3QFpM8FKxvZj]{Buffout} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Bomq1g7X0eVXrssc]{Jet} ×1</li></ul></section>",
+    "duration": "brief",
+    "effect": "<p>Réduisez de 1 la difficulté de tous les tests de FOR et d’END (minimum 0), gagnez +4 PV maximums et recevez immédiatement 3 PA, perdus s’ils ne sont pas dépensés. Les actions supplémentaires coûtent 1 PA de moins.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "fP4pQsWzcH6F83q4",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Buffout",
+            "canonicalName": "Buffout",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.o0at3QFpM8FKxvZj"
+          },
+          {
+            "name": "Jet",
+            "canonicalName": "Jet",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.Bomq1g7X0eVXrssc"
+          }
+        ]
+      }
+    }
+  }
+}

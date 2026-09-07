@@ -1,0 +1,14 @@
+{
+  "_id": "OeM5fzfLS3skSKxD",
+  "_key": "!tables.results!sa66QXOwlO8515AT.OeM5fzfLS3skSKxD",
+  "name": "Réacteur à fusion (1)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.9DjIa4OVZOUAZ00i]{Réacteur à fusion (1)}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    7
+  ],
+  "drawn": false
+}

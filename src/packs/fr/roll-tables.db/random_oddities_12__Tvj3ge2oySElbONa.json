@@ -1,0 +1,14 @@
+{
+  "_id": "Tvj3ge2oySElbONa",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.Tvj3ge2oySElbONa",
+  "name": "Sacoche de médecin",
+  "description": "Sacoche de médecin",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    14,
+    14
+  ],
+  "drawn": false
+}

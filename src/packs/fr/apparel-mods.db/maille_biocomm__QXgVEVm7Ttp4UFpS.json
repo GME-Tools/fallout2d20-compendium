@@ -1,0 +1,73 @@
+{
+  "_id": "QXgVEVm7Ttp4UFpS",
+  "_key": "!items!QXgVEVm7Ttp4UFpS",
+  "effects": [],
+  "folder": "hX1IhpilWGz9MjVG",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Maille BioComm",
+  "system": {
+    "apparelType": "armor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 9,
+    "description": "<p>Les améliorations d’armure s’appliquent à tous les types d’armure, à l’exception de l’armure de sécurité Vault-Tec. Elles s’installent toutes avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>7</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 4, @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×8</li><li>Matériaux peu fréquents ×6</li><li>Matériaux rares ×4</li></ul></section>",
+    "effect": "<p>La durée d’effet des drogues est doublée.</p>",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Torso",
+    "modType": "upgrade",
+    "perks": "Armorer 4, Science! 2",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 2
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "QXgVEVm7Ttp4UFpS",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 212,
+        "station": "armor",
+        "group": "armor-mods",
+        "complexity": 7,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 4",
+          "Scientifique 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 8,
+          "uncommon": 6,
+          "rare": 4
+        }
+      }
+    }
+  }
+}

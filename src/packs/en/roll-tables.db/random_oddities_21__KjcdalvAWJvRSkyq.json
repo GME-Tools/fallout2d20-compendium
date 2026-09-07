@@ -1,0 +1,14 @@
+{
+  "_id": "KjcdalvAWJvRSkyq",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.KjcdalvAWJvRSkyq",
+  "name": "Backpack, Large",
+  "description": "Backpack, Large",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    23,
+    23
+  ],
+  "drawn": false
+}

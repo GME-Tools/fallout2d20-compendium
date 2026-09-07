@@ -1,0 +1,69 @@
+{
+  "_id": "7B2xH72N9Xpe5HV0",
+  "_key": "!items!7B2xH72N9Xpe5HV0",
+  "effects": [],
+  "folder": "U9QdR1SJ8Q85o6wa",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "T-45f Helm",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 15,
+    "description": "\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-crafting-stations.Item.CrftPowerArmor01]{Power Armor Station}</dd><dt>Complexity</dt><dd>7</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.en-perks.Item.EQjZHUxYinodOU6G]{Armorer} 3, @UUID[Compendium.fallout2d20-compendium.en-perks.Item.UzRkuAJkvYqK8jrl]{Science!} 2</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×8</li><li>Uncommon Materials ×6</li><li>Rare Materials ×4</li></ul></section>",
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 4
+    },
+    "isJunk": false,
+    "location": "Head",
+    "modType": "upgrade",
+    "perks": "3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 3
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 219,
+        "station": "power-armor",
+        "group": "upgrades",
+        "complexity": 7,
+        "skill": "Repair",
+        "perks": [
+          "Armorer 3",
+          "Science! 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 8,
+          "uncommon": 6,
+          "rare": 4
+        }
+      }
+    }
+  }
+}

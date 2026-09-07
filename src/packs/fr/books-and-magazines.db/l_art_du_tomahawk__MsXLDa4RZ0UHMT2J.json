@@ -1,0 +1,43 @@
+{
+  "_id": "MsXLDa4RZ0UHMT2J",
+  "_key": "!items!MsXLDa4RZ0UHMT2J",
+  "effects": [],
+  "folder": "uCVhOfIjuXEULM3P",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Art of the Tomahawk.webp",
+  "name": "L’art du tomahawk",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Réduisez de 1 la difficulté d’un test pour ne pas contracter une maladie, jusqu’à un minimum de 0.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.I7DFjAhnEzDZmdL7]{L’art du tomahawk}</p></section>",
+    "effect": "<p>Réduisez de 1 la difficulté d’un test pour ne pas contracter une maladie, jusqu’à un minimum de 0.</p>",
+    "favorite": false,
+    "publication": "L’Homme des bois",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "MsXLDa4RZ0UHMT2J",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

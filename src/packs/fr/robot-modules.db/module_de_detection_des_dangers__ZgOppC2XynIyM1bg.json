@@ -1,0 +1,42 @@
+{
+  "_id": "ZgOppC2XynIyM1bg",
+  "_key": "!items!ZgOppC2XynIyM1bg",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/robot_mod.svg",
+  "name": "Module de détection des dangers",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 25,
+    "description": "<p>Conçu pour des robots bon marché chargés de neutraliser les pièges aux côtés des soldats, ce système modifie les capteurs du robot pour identifier et classer les menaces environnementales. Réaffecté aux Miss Nanny pour repérer les dangers domestiques, il conserve toutefois une tendance à s’en approcher pour les examiner de plus près.</p>",
+    "effect": "<p>Réduisez de 1 la difficulté des tests de Survie visant à détecter et neutraliser des pièges ou dangers similaires (minimum 0).</p>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "",
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "ZgOppC2XynIyM1bg",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

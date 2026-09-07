@@ -1,0 +1,14 @@
+{
+  "_id": "H4JezlowGWMWXWJ5",
+  "_key": "!tables.results!4o3aHx9pc3VRaj3l.H4JezlowGWMWXWJ5",
+  "name": "Food Paste",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.jpJw3rIHZILDnp9p]{Food Paste}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    36,
+    36
+  ],
+  "drawn": false
+}

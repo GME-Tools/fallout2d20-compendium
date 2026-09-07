@@ -1,0 +1,14 @@
+{
+  "_id": "NsqgLNFpEbm1I8C1",
+  "_key": "!tables.results!MrcHRXzMqh5yK1Kx.NsqgLNFpEbm1I8C1",
+  "name": "Fantômes en tous genres",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.9Z4Asa5c915hem9w]{Fantômes en tous genres}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    1,
+    1
+  ],
+  "drawn": false
+}

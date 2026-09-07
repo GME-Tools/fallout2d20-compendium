@@ -1,0 +1,82 @@
+{
+  "_id": "RkEPnMsHQmgy4olE",
+  "_key": "!items!RkEPnMsHQmgy4olE",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Berry Mentats",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Mentat",
+    "consumableType": "chem",
+    "cost": 60,
+    "description": "<p>Des Mentats reformulés pour stimuler l’activité cérébrale et la mémoire.</p><p><strong>Dépendance au Mentats :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de CHA lorsque vous n’êtes sous l’effet d’aucune variété de Mentats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.hc8DSkMGN2GxugAF]{Mentats} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Bvn11vBFx1OnUoJr]{Baie de goudron} ×2</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>Réduisez de 2 la difficulté des tests d’INT (minimum 0).</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "RkEPnMsHQmgy4olE",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Matériaux rares",
+            "canonicalName": "Rare Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Mentats",
+            "canonicalName": "Mentats",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.hc8DSkMGN2GxugAF"
+          },
+          {
+            "name": "Baie de goudron",
+            "canonicalName": "Tarberry",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.Bvn11vBFx1OnUoJr"
+          }
+        ]
+      }
+    }
+  }
+}

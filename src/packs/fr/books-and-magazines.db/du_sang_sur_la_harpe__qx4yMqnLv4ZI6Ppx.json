@@ -1,0 +1,43 @@
+{
+  "_id": "qx4yMqnLv4ZI6Ppx",
+  "_key": "!items!qx4yMqnLv4ZI6Ppx",
+  "effects": [],
+  "folder": "UPNJfveU9QazZ1vO",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Blood on the Harp.webp",
+  "name": "Du sang sur la harpe",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Une attaque de corps à corps réussie que vous portez inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.56snTc6VYoTJqCMi]{Du sang sur la harpe}</p></section>",
+    "effect": "<p>Une attaque de corps à corps réussie que vous portez inflige +2 DC de dégâts.</p>",
+    "favorite": false,
+    "publication": "Grognak le Barbare",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "qx4yMqnLv4ZI6Ppx",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

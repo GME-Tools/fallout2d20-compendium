@@ -1,0 +1,48 @@
+{
+  "_id": "JjjhTOQLnB2htZe0",
+  "_key": "!items!JjjhTOQLnB2htZe0",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "name": "Mirelurk Meat",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 18,
+    "description": "<p><span class=\"fontstyle0\">The meat from dead mirelurks. This tends to be tougher and of poorer quality than the meat which comes from the weaker softshell mirelurk, but it is still entirely edible.</span></p>\n<p><span class=\"fontstyle0\">Mirelurk meat is a key ingredient in Mirelurk Cake and can be cooked to produce roasted mirelurk meat.</span> </p>",
+    "duration": "",
+    "effect": "<p></p>\n<p>&nbsp;</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 6,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

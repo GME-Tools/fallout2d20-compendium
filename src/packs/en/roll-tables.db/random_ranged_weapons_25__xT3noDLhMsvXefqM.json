@@ -1,0 +1,14 @@
+{
+  "_id": "xT3noDLhMsvXefqM",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.xT3noDLhMsvXefqM",
+  "name": "Double-Barrel Shotgun",
+  "description": "Double-Barrel Shotgun",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    26,
+    26
+  ],
+  "drawn": false
+}

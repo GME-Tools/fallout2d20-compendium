@@ -1,0 +1,14 @@
+{
+  "_id": "Eh3XUoU0AYLRCHyR",
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.Eh3XUoU0AYLRCHyR",
+  "name": "Conflict!",
+  "description": "Roll twice; both results are locked in mortal combat and initially ignore the player characters.",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

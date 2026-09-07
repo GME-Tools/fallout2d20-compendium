@@ -1,0 +1,29 @@
+{
+  "_id": "oTNPMKqeDqEsWxpo",
+  "_key": "!items!oTNPMKqeDqEsWxpo",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "name": "Gifted",
+  "system": {
+    "description": "<p>Choose two S.P.E.C.I.A.L. attributes and increase them by +1 each.</p>\n<p>Your maximum number of Luck points is one fewer than your Luck attribute.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "page": "51-57",
+        "coreCharacterCreationReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

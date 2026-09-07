@@ -1,0 +1,14 @@
+{
+  "_id": "JrHf5ZE4UCBu5rAG",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.JrHf5ZE4UCBu5rAG",
+  "name": "Syringer",
+  "description": "Syringer",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    12,
+    12
+  ],
+  "drawn": false
+}

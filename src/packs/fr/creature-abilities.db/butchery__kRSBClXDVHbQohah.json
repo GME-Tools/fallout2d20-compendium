@@ -1,0 +1,44 @@
+{
+  "_id": "kRSBClXDVHbQohah",
+  "name": "Dépeçage",
+  "type": "miscellany",
+  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.5jwQMeycCKWDROpB"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "kRSBClXDVHbQohah",
+        "structuralBaseline": true,
+        "importedFromLegacy": true,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": "0",
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "effect": "<p>Les récupérateurs peuvent dépecer une [créature] morte avec un test d’END + Survie de difficulté 0 réussi. Ils obtiennent 1 portion de viande de [créature] et 1 matériau peu commun.</p>",
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!kRSBClXDVHbQohah"
+}

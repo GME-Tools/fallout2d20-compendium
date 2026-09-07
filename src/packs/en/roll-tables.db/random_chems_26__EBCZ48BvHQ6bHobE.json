@@ -1,0 +1,14 @@
+{
+  "_id": "EBCZ48BvHQ6bHobE",
+  "_key": "!tables.results!isNdghTYF06GBC0m.EBCZ48BvHQ6bHobE",
+  "name": "Buffout",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-consumables.Item.o0at3QFpM8FKxvZj]{Buffout}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    27,
+    27
+  ],
+  "drawn": false
+}

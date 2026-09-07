@@ -1,0 +1,14 @@
+{
+  "_id": "0lPvoGrl1oyfzRpL",
+  "_key": "!tables.results!JFaApgVMo29GJFAu.0lPvoGrl1oyfzRpL",
+  "name": "Spécial coupons",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.lc4MTpvhDkQ7ApOS]{Spécial coupons}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    12
+  ],
+  "drawn": false
+}

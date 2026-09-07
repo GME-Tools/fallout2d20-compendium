@@ -1,0 +1,14 @@
+{
+  "_id": "kRVFj8jEH044FslQ",
+  "_key": "!tables.results!EFFiEfGrDCgLoSVH.kRVFj8jEH044FslQ",
+  "name": "Fusil plasma (Canon long, Crosse standard)",
+  "description": "Fusil plasma (Canon long, Crosse standard)",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    34,
+    34
+  ],
+  "drawn": false
+}

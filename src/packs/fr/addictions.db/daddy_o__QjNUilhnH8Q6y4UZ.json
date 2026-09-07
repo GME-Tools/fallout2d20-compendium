@@ -1,0 +1,32 @@
+{
+  "_id": "QjNUilhnH8Q6y4UZ",
+  "_key": "!items!QjNUilhnH8Q6y4UZ",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Daddy-O.webp",
+  "name": "Daddy-O",
+  "system": {
+    "description": "<p>La difficulté de tous vos tests de PER et d’INT augmente de +1 quand vous n’êtes pas sous l’effet du Daddy-O.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "QjNUilhnH8Q6y4UZ",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "3W3LSN9wwD48gaaL",
+  "_key": "!items!3W3LSN9wwD48gaaL",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "name": "Évolution forcée",
+  "system": {
+    "description": "<p>Votre Force et votre Endurance augmentent de 2 et la valeur maximale de ces attributs est portée à 12. En revanche, votre Intelligence et votre Charisme ne peuvent jamais être supérieurs à 6. Chacune de vos compétences est limitée au rang 4. Vous êtes complètement immunisé aux dégâts de radiation et de poison.</p><p>Vous mesurez plus de 2,10 m et votre corps est épais et musculeux. Votre peau est verte, jaune ou grisâtre, quelle qu’ait été sa couleur d’origine. Vous ne semblez pas vieillir, mais vous êtes stérile. Les seules armures que vous pouvez porter doivent être spécialement conçues pour les super mutants.</p>",
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": "51-57",
+        "translatedFrom": "3W3LSN9wwD48gaaL",
+        "translationReviewed": true,
+        "errataReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "diceSymbolsReviewed": true,
+        "structuralBaseline": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

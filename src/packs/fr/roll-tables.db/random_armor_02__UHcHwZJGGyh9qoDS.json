@@ -1,0 +1,14 @@
+{
+  "_id": "UHcHwZJGGyh9qoDS",
+  "_key": "!tables.results!scdsIt3PE06QKFcf.UHcHwZJGGyh9qoDS",
+  "name": "Pièce d’armure assistée X-01",
+  "description": "Pièce d’armure assistée X-01",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

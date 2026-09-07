@@ -1,0 +1,4747 @@
+{
+  "schemaVersion": 1,
+  "source": "Fallout: The Roleplaying Game Core Rulebook (errata V6, February 2026)",
+  "scope": "All draggable equipment in the Core Rulebook; recipes are inventoried separately in the survival and crafting catalog.",
+  "packs": {
+    "ammunition": [
+      {
+        "id": "0Ci0Jcpuca6rSqkL",
+        "name": "Flamer Fuel",
+        "type": "ammo"
+      },
+      {
+        "id": "1Mku27VQTcwBCwOF",
+        "name": "10mm Round",
+        "type": "ammo"
+      },
+      {
+        "id": "299nvpoTfu1mwKTX",
+        "name": "5mm Round",
+        "type": "ammo"
+      },
+      {
+        "id": "7wHhQWCH5t1h8gAR",
+        "name": "Missile",
+        "type": "ammo"
+      },
+      {
+        "id": "9DjIa4OVZOUAZ00i",
+        "name": "Fusion Core",
+        "type": "ammo"
+      },
+      {
+        "id": "aYG2QbgizqTfxAiy",
+        "name": "Plasma Cartridge",
+        "type": "ammo"
+      },
+      {
+        "id": "cZPDBjJXa2hCjW0K",
+        "name": "2mm Electromagnetic Cartridge",
+        "type": "ammo"
+      },
+      {
+        "id": "fuCYfiQzOvr4WtJI",
+        "name": ".308 Round",
+        "type": "ammo"
+      },
+      {
+        "id": "gpthlPtWrerYP7Kn",
+        "name": "Mini-Nuke",
+        "type": "ammo"
+      },
+      {
+        "id": "HTHVoUBhAzf3CTuI",
+        "name": "Syringer Ammo",
+        "type": "ammo"
+      },
+      {
+        "id": "J72UfCpxbBpYr6W5",
+        "name": "5.56mm Round",
+        "type": "ammo"
+      },
+      {
+        "id": "K5VQLz4YU7eZIkAF",
+        "name": "Flare",
+        "type": "ammo"
+      },
+      {
+        "id": "kxgO3CwKpqR9lYLS",
+        "name": ".44 Magnum Round",
+        "type": "ammo"
+      },
+      {
+        "id": "mHatIy0FNJtYZxtU",
+        "name": ".50 Round",
+        "type": "ammo"
+      },
+      {
+        "id": "Oc7xNpMREJ8N5u3v",
+        "name": "Fusion Cell",
+        "type": "ammo"
+      },
+      {
+        "id": "PPA4fiWvfoRf0ZBs",
+        "name": "Gamma Round",
+        "type": "ammo"
+      },
+      {
+        "id": "PZWO5Wj3kzBXCJJM",
+        "name": "Shotgun Shell",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrBerserkAmmo01",
+        "name": "Berserk Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrBleedOutAmmo1",
+        "name": "Bleed-Out Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrBloatflyAmmo1",
+        "name": "Bloatfly Larva Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrEndangerolA01",
+        "name": "Endangerol Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrLockJointAm01",
+        "name": "Lock Joint Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrMindCloudAm01",
+        "name": "Mind Cloud Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrPaxAmmo000001",
+        "name": "Pax Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrRadVenomAm001",
+        "name": "Radscorpion Venom Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "SyrYellowBelly01",
+        "name": "Yellow Belly Syringe",
+        "type": "ammo"
+      },
+      {
+        "id": "UJQaP4A50u2tSG6G",
+        "name": ".38 Round",
+        "type": "ammo"
+      },
+      {
+        "id": "VBJiFg5GpSOzyENW",
+        "name": ".45 Round",
+        "type": "ammo"
+      },
+      {
+        "id": "yGiPeDsETWQBjCdT",
+        "name": "Railway Spike",
+        "type": "ammo"
+      }
+    ],
+    "weapons": [
+      {
+        "id": "1bgEBl5eFgkcDxmL",
+        "name": "Walking Cane",
+        "type": "weapon"
+      },
+      {
+        "id": "244Kf3MVUhEQQGsw",
+        "name": "Submachine Gun",
+        "type": "weapon"
+      },
+      {
+        "id": "3CZ7jbXV7I5z757E",
+        "name": "Frag Grenade",
+        "type": "weapon"
+      },
+      {
+        "id": "3wCThKbCsMgAdrSg",
+        "name": "Syringer",
+        "type": "weapon"
+      },
+      {
+        "id": "4YCB81rMWJSZcgRI",
+        "name": "Bottlecap Mine",
+        "type": "weapon"
+      },
+      {
+        "id": "5gIryFE7WITrmSvY",
+        "name": "Fat Man",
+        "type": "weapon"
+      },
+      {
+        "id": "5TAOMd3GGpapiM6Q",
+        "name": "Minigun",
+        "type": "weapon"
+      },
+      {
+        "id": "61inErKDohHmHoAV",
+        "name": "Throwing Knives",
+        "type": "weapon"
+      },
+      {
+        "id": "66p1lQmwPXZINPKn",
+        "name": "Rolling Pin",
+        "type": "weapon"
+      },
+      {
+        "id": "6xbkky55saFOXZSk",
+        "name": "Combat Knife",
+        "type": "weapon"
+      },
+      {
+        "id": "75n1EFSJw8xxti6s",
+        "name": "Flamer",
+        "type": "weapon"
+      },
+      {
+        "id": "7lXJbtwhMJwqp40D",
+        "name": "Pool Cue",
+        "type": "weapon"
+      },
+      {
+        "id": "8RVrftHzFootwBD5",
+        "name": "Shishkebab",
+        "type": "weapon"
+      },
+      {
+        "id": "9wxUVAnr3YsD3Uol",
+        "name": "Nuke Mine",
+        "type": "weapon"
+      },
+      {
+        "id": "ADp33L4FN7QcbCJy",
+        "name": "Super Sledge",
+        "type": "weapon"
+      },
+      {
+        "id": "Ai4EeSDZl48zoJoL",
+        "name": "Frag Mine",
+        "type": "weapon"
+      },
+      {
+        "id": "aIMdoy67zhbaYcQG",
+        "name": "Power Fist",
+        "type": "weapon"
+      },
+      {
+        "id": "AjqE0fT244w92onq",
+        "name": "Plasma Mine",
+        "type": "weapon"
+      },
+      {
+        "id": "As1o8LGO3CIaY2mD",
+        "name": "Nuka Grenade",
+        "type": "weapon"
+      },
+      {
+        "id": "bKHsUZI6Z6xrAEHg",
+        "name": "10mm Auto Pistol",
+        "type": "weapon"
+      },
+      {
+        "id": "bpbgoX9mNr23pFHR",
+        "name": "Hunting Rifle",
+        "type": "weapon"
+      },
+      {
+        "id": "ccLXYRUueArLgLst",
+        "name": "Heavy Incinerator",
+        "type": "weapon"
+      },
+      {
+        "id": "CKolMtDxOzC8QdSD",
+        "name": "Board",
+        "type": "weapon"
+      },
+      {
+        "id": "CUlCBsWk1qipT1Ff",
+        "name": "Combat Shotgun",
+        "type": "weapon"
+      },
+      {
+        "id": "CyxEyS2RLOuMLMa1",
+        "name": "Junk Jet",
+        "type": "weapon"
+      },
+      {
+        "id": "d0qmxHsuKN14qmua",
+        "name": "Baseball Bat",
+        "type": "weapon"
+      },
+      {
+        "id": "DnWvHyfz74QnnnGv",
+        "name": "Boxing Glove",
+        "type": "weapon"
+      },
+      {
+        "id": "ECuihimhpmedOziD",
+        "name": "Gamma Gun",
+        "type": "weapon"
+      },
+      {
+        "id": "Ee4TwfZnYmCF8CDE",
+        "name": "Gauss Rifle",
+        "type": "weapon"
+      },
+      {
+        "id": "ehsLCAMtk39LFHVa",
+        "name": "Pipe Wrench",
+        "type": "weapon"
+      },
+      {
+        "id": "eILamwepNIAhOY0J",
+        "name": "Pulse Mine",
+        "type": "weapon"
+      },
+      {
+        "id": "EktSYEw86GEcqHeE",
+        "name": "Ripper",
+        "type": "weapon"
+      },
+      {
+        "id": "fJI5l0xbl26ylvTI",
+        "name": "Institute Laser",
+        "type": "weapon"
+      },
+      {
+        "id": "ijD12AylGdTDshsy",
+        "name": "Switchblade",
+        "type": "weapon"
+      },
+      {
+        "id": "iodz4xm3QDXNuhxf",
+        "name": "Javelin",
+        "type": "weapon"
+      },
+      {
+        "id": "iUh6c0EcJfZil9cZ",
+        "name": "Railway Rifle",
+        "type": "weapon"
+      },
+      {
+        "id": "jZstb7cuVXCJXPnj",
+        "name": "Baton",
+        "type": "weapon"
+      },
+      {
+        "id": "LCUp8GGg6nyJ8wa9",
+        "name": "Pulse Grenade",
+        "type": "weapon"
+      },
+      {
+        "id": "ldIbeCgUhfS2AVHV",
+        "name": "Pipe Revolver",
+        "type": "weapon"
+      },
+      {
+        "id": "M4xWjxuABTWOefg2",
+        "name": "Plasma Gun",
+        "type": "weapon"
+      },
+      {
+        "id": "M9xO5ZKoGsqbPxWr",
+        "name": "Sword",
+        "type": "weapon"
+      },
+      {
+        "id": "mmmxQfbZxwNWA45f",
+        "name": "Aluminum Baseball Bat",
+        "type": "weapon"
+      },
+      {
+        "id": "mRB3W7wrHDbWhb9i",
+        "name": "10mm Pistol",
+        "type": "weapon"
+      },
+      {
+        "id": "NRN7soVtcTwCRqaL",
+        "name": "Laser Gun",
+        "type": "weapon"
+      },
+      {
+        "id": "NXjKSH1aRmZkq5PJ",
+        "name": "Molotov Cocktail",
+        "type": "weapon"
+      },
+      {
+        "id": "nZ7XeE2gQy2EEgWH",
+        "name": "Flare Gun",
+        "type": "weapon"
+      },
+      {
+        "id": "o1QbQfhTLFphrxkB",
+        "name": "Laser Musket",
+        "type": "weapon"
+      },
+      {
+        "id": "obRp9CZJJ6liIl49",
+        "name": "Pipe Bolt-Action",
+        "type": "weapon"
+      },
+      {
+        "id": "OF1614SY9gYdGnjI",
+        "name": "Handy Rock",
+        "type": "weapon"
+      },
+      {
+        "id": "Pdmfy50DEM5oB9js",
+        "name": "Tire Iron",
+        "type": "weapon"
+      },
+      {
+        "id": "PiFmAFrgnIJqwkNw",
+        "name": "Pipe Gun",
+        "type": "weapon"
+      },
+      {
+        "id": "ppzmY6xo2f66TmMC",
+        "name": "Laser Emitter",
+        "type": "weapon"
+      },
+      {
+        "id": "pSshPAISbTrdooAk",
+        "name": "Gun Bash",
+        "type": "weapon"
+      },
+      {
+        "id": "pYMfuytsOCR3mxW8",
+        "name": "Tomahawk",
+        "type": "weapon"
+      },
+      {
+        "id": "q3RjTNEYvfHVBzVk",
+        "name": "Flamer",
+        "type": "weapon"
+      },
+      {
+        "id": "qRc6hN6zHdrsZ0nd",
+        "name": "Combat Rifle",
+        "type": "weapon"
+      },
+      {
+        "id": "QuYxQccl5EHdXTcT",
+        "name": "Unarmed Strike",
+        "type": "weapon"
+      },
+      {
+        "id": "QYgc3wH8JS3YGJ34",
+        "name": "Buzz-Saw",
+        "type": "weapon"
+      },
+      {
+        "id": "s3RYAqoL6U3CVVeb",
+        "name": "Missile Launcher",
+        "type": "weapon"
+      },
+      {
+        "id": "tedK8NNLvjIQf4wm",
+        "name": "Plasma Grenade",
+        "type": "weapon"
+      },
+      {
+        "id": "tNyHslvLL11qSlhc",
+        "name": "Double-Barrel Shotgun",
+        "type": "weapon"
+      },
+      {
+        "id": "tWhlezJ5cgDZ7SQO",
+        "name": "Gun Bash (1H)",
+        "type": "weapon"
+      },
+      {
+        "id": "uGNGa0KBcJq3YFvc",
+        "name": "Machete",
+        "type": "weapon"
+      },
+      {
+        "id": "uyx46lw2PXh08m1P",
+        "name": "Gatling Laser",
+        "type": "weapon"
+      },
+      {
+        "id": "VBDdPeRHrRcaZhGn",
+        "name": "Deathclaw Gauntlet",
+        "type": "weapon"
+      },
+      {
+        "id": "VFRfwbor9PwEKdRZ",
+        "name": "Pincer",
+        "type": "weapon"
+      },
+      {
+        "id": "vXTMQj76ShuwQXkd",
+        "name": "Baseball Grenade",
+        "type": "weapon"
+      },
+      {
+        "id": "wqNw0xItJ29W24sm",
+        "name": ".44 Pistol",
+        "type": "weapon"
+      },
+      {
+        "id": "Xq6k6PuQQbneO6w0",
+        "name": "Lead Pipe",
+        "type": "weapon"
+      },
+      {
+        "id": "yB39echbNG7KpWny",
+        "name": "Knuckles",
+        "type": "weapon"
+      },
+      {
+        "id": "yrLghAxk6uynbFaq",
+        "name": "Sledgehammer",
+        "type": "weapon"
+      },
+      {
+        "id": "ZN2h6VGlcHQKzveB",
+        "name": "Assault Rifle",
+        "type": "weapon"
+      }
+    ],
+    "weapon-mods": [
+      {
+        "id": "067VeMDTeThvISLa",
+        "name": "Quick-Eject Mag",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "0RvRMyyemOK3vkOl",
+        "name": "Lead Lining",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "20d7BlwbNESRwXC9",
+        "name": "Deep Dish",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "2aqYiSm1nrIYHgoA",
+        "name": "Muzzle Break",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "2bv9B55Mk73ypTCZ",
+        "name": "Stun Pack",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "3GI1TF4vKxSitRWJ",
+        "name": "Quad Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "41rymX7pm90tz0V8",
+        "name": "Powerful",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "49zfOfotginM01u8",
+        "name": "Puncturing",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "4c34BzfVex4YKgA3",
+        "name": "Calibrated",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "4hbEFa5bvVFUlMBO",
+        "name": "Bladed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "4sOu5mfXcDlUVlUP",
+        "name": "Sharpshooter's Grip",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "5eT7jnRBQdbsVQmN",
+        "name": "Four-Crank Capacitor",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "5gXCZXtJ4E9Blg97",
+        "name": "Gunner Sight",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "5rADQbFyMO7zjDSi",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "5TezV1CMuZiRXrKU",
+        "name": "Photon Agitator",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "6hh0Evmfv0N8kX81",
+        "name": "Capactor Boosting Coil",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "6oW2tdrYzdu0klW4",
+        "name": "Tri-Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "7hxh0xRNMyflfbJp",
+        "name": "Serrated Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "7OZouPhriL9tzrOD",
+        "name": "Puncturing",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "8kEOp1jQBdQkbGXu",
+        "name": "Bracketed Short Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "8nHC8z4vEY4yX7bM",
+        "name": "Full Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Ac56Ox5nVHcJ8PIA",
+        "name": "Ported",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "aCMBNHf2jilKz2Zg",
+        "name": "Finned",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "aDXdsogK2fIHtBNE",
+        "name": "Bull Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "aKnqi2PPZyD6qLGe",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "AMOEO5RXltJZM8kz",
+        "name": "Reflex Sight",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "AS0Amn04UTnwJOgG",
+        "name": "Hooked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "bCJRlQcht0typqhI",
+        "name": "Ignition Module",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "bhpEF2ZReAacz7NI",
+        "name": "Long Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "bIT0zIivG6SUyyne",
+        "name": "Extended Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "bIxeUpjoKTniv7P7",
+        "name": "Barbed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "brS0allrFP0vQ5Ac",
+        "name": "Bladed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "bRV8rXkptjU6mz9Y",
+        "name": "Full Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "bS7ZxJKZA2JAhPV8",
+        "name": "Full Capacitors",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "BX0Ox0ZdWJBDNsVl",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "CapaBoostCoil001",
+        "name": "Capacitor Boosting Coil",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "cAqagnqyBpSC4wgM",
+        "name": "Napalm",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "CFl42Fhuv4nToKcP",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "CMVHMX7fGVSi9SzJ",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "cs76CKLMxYAzhNhb",
+        "name": "Long Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "CYODpO6JvopXWYW7",
+        "name": "Bayonet",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "d00JoA8hC0XcVnlc",
+        "name": "Extra Flame Jets",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "D8hF1RjpOMVHjlHp",
+        "name": "Heavy",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "dgUAFqVrT3FPOVUf",
+        "name": "Chain-Wrapped",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "dgWySoP4IQ9p2uyO",
+        "name": "Recon Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "dh2R5SMlhGBmDuAU",
+        "name": "Large Magazine",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "DqTXjqNAMlbHJa3V",
+        "name": "Stabilizer",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "DQwdlCs54hWqQaZa",
+        "name": "Gunner Sight",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "dZh7tFPH917IF3UO",
+        "name": "Suppressor",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "DzJyQzGFhcMKPyRG",
+        "name": "Electrified Serrated Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "e1ycQYWvjDktlxvu",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "eakJcz2neDjGIWWP",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "EFY7drbYyPo1zGOh",
+        "name": "Shredder",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "egIL4wuvntMHhlqr",
+        "name": "Compensator",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "EuJw4xP1fRt5hdCy",
+        "name": "Sharp",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Fa2RBTtGci73smRF",
+        "name": "Puncturing",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "FJ6lsU2xzeKbDRhq",
+        "name": "Beam Splitter",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "frKj2bS1FVy8Ny3O",
+        "name": "Spiked",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "fTMm3IipqcnU6tm4",
+        "name": "Sharp",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "fyaQkFSXyexqZc0u",
+        "name": "Short Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "G1qWroic6MwSgnnp",
+        "name": "Bracketed Long Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "G6FJ1gEgiS2553IN",
+        "name": "Stun Pack",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "GFJP4TRDRaOQoOe8",
+        "name": "Serrated Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "GROQd2poQkix32N4",
+        "name": "Hair Trigger",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "H5uajcZl8MICYwfy",
+        "name": "Recoil Compensating Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "hfiueRXOH8ryrfrv",
+        "name": "Sharp",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "hPa4NWlG4PcbM3E2",
+        "name": "Night Vision Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "HuhiTQsXyRgw5tZS",
+        "name": "Bladed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "hVD46UqAqiNB4f57",
+        "name": "Heating Coil",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "hzqISjGQIiMI1ZP7",
+        "name": "Beta Wave Tuner",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Iec8KCIeHqCk886z",
+        "name": "Sawed-Off",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ihEGX2Ame6p1WW82",
+        "name": "Five-Crank Capacitor",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "iiF3omvvTgVv5LoP",
+        "name": "Shielded Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "inrCFrHdrIQrEXf1",
+        "name": "Photon Exciter",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "iqpxSXwVu0d13y7j",
+        "name": "Barbed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "IT15FDgwEelj1LYg",
+        "name": "Beam Focuser",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "J4QJRw5GkCdMirdr",
+        "name": "Extra Heavy",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "jFCFFp1zj7awhWpN",
+        "name": "Sniper Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Jyy3vdkQv7YCfvFz",
+        "name": "Automatic",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "KkRxsFbFTL89H3Ra",
+        "name": "Triple Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "LANB6wzhO8pIEsxK",
+        "name": "Puncturing",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "M2Tl0fVG6LzG9wtj",
+        "name": "Sharp",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "M5ox31Qif67xBC0m",
+        "name": "Recon Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "mcjlBsMoWIiiNoVw",
+        "name": "Photon Exciter",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "MIMSkUavfShkeY8x",
+        "name": "Long Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "MvrQv0wg5FE6j7TR",
+        "name": "Heating Coil",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "mzi2nNJcbhMEnWIE",
+        "name": "Beam Focuser",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "nBQq6MTdf40kleS5",
+        "name": "Long Night Vision Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "nGgcu0NLeLIbc3Pi",
+        "name": "Automatic Piston",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "nO1q1OhQfQk9u6su",
+        "name": "Boosted Capacitor",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Noh6VL5rCdM73QuX",
+        "name": "Comfort Grip",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "OIr7YaCzlNRUM8Oq",
+        "name": "Gyro Compensating Lens",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "oiW2VvXVdhGgw4oL",
+        "name": ".38 Receiver",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ol8d48kNa9veV1kv",
+        "name": "Puncturing",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "op1VoOjGnziZ2S8V",
+        "name": "Standard Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ozBpt70cekLpM7aH",
+        "name": "Signal Repeater",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "p0r6B1DzWapL4wU5",
+        "name": "Advanced",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "pk8yYPVKXuuatunI",
+        "name": "Bayonet",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "pkYZNmGx0JPKquIC",
+        "name": "Recoil Compensating Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "pxflsyihN3fjKgYq",
+        "name": "Recoil Compensating Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Q6VUr8ae7Rf7WOhA",
+        "name": "Marksman's Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "qASlWkpHosmgn97l",
+        "name": "Reflex Sight",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "QgUHARJjhqOXBP7u",
+        "name": "Snubnose",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "QostVNNHMRLN7mhi",
+        "name": "Splitter",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "QOvb0xmQA91HIs8S",
+        "name": "Improved Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "rdA0goilCAmpEqWx",
+        "name": "Electric Signal Carrier Antennae",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "rh3GtWKomZnQpS1H",
+        "name": "Reflex Sight",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "RpKbC7YEiI2c8h1N",
+        "name": "Accelerated Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "rTLDO0WUB9euiP9T",
+        "name": "Targeting Computer",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "RyggZv9PwKChzJwB",
+        "name": "Long",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "s1TJG5B9uGwUVZJg",
+        "name": "Compression Nozzle",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "S8t6WX5aWZl3rXqT",
+        "name": "Stun Pack",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "SBiPJoDN1jWmENgs",
+        "name": "Barbed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "Sem0JhmbNdppKdJW",
+        "name": "Barbed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "sg1EfJrr3S307XPy",
+        "name": "Long Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "SoqIXVkZsUGhfofi",
+        "name": "Puncturing",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "t2DeDQRZXpZyN9ux",
+        "name": "Electrified",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "TQN26Hjy3pxpkrzT",
+        "name": "Curved Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "TxOsscfkniBk2a85",
+        "name": "Short Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "U3fJYCYnDsxrr2Or",
+        "name": "Long Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "uaOXQJwoub6ZmUdc",
+        "name": "Sharp",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ueMDFFORXGGfNuYb",
+        "name": "Three-Crank Capacitor",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ULmvHBqIQuMGNg1o",
+        "name": "Boosted Capacitor",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "uOWSNksbDqlUOhJN",
+        "name": "Bladed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "UtS1TgSmfTHRb5dW",
+        "name": "Electrification Module",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "uUiwz6PvOMdkU6yE",
+        "name": "Serrated Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "uWW6Yc9ZzjBHnlrz",
+        "name": "Flamer Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "vd2lBLBAJXhwijay",
+        "name": "Electrified Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "VJOrfCwfPhDnMP18",
+        "name": "Heavy",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "VMMDaoy4SbwdLJaX",
+        "name": "Charging Barrels",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "vQ2PsttSdFUUDpN2",
+        "name": "Large Tank",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "vq6OcwFKhScFr26X",
+        "name": "Serrated Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "VvTZfUz7HZMu3eAq",
+        "name": "Stealth Blade",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "VxocOrbl9H7nkXfx",
+        "name": "Extra Claw",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "vyesQvmRObpdSNpO",
+        "name": "Short Night Vision Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "WD7u8h2fsH35rD8t",
+        "name": "Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "wo7U8PuV8h8oa0JY",
+        "name": "Automatic Barrel",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "wQSPWsdrMfYqPAMO",
+        "name": "Heavy",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "wUd5pTA33zRH1AWW",
+        "name": "Short Night Vision Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "wvsSsznT8GDmdoUa",
+        "name": "Long Night Vision Scope",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "wWjvfUfknZOxxJlt",
+        "name": "Hardened",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "X7M3lII0wjlKV7l3",
+        "name": "Photon Agitator",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "x7XsKzM5Iyisd9lA",
+        "name": "Large Quick-Eject Mag",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "xBtUynQ88d6dGQgL",
+        "name": "Bladed",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "xg5FEwwagDUpedcL",
+        "name": "Beta Wave Tuner",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "xhKCtkvzwtowzx9K",
+        "name": "Vaporization Nozzle",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "XShTCPVSPhRDhMBo",
+        "name": ".50 Receiver",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ybNloPq9nZTqGAur",
+        "name": ".308 Receiver",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "yK9zc6hPHk1IRq01",
+        "name": "Chain-Wrapped",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "yxSF6qdbdO4FYaQb",
+        "name": "Vented",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "zAlW93haMYH8Nwp2",
+        "name": "Sharpshooter's Grip",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "zbzoOm7wspRTM8PJ",
+        "name": "Marksman's Stock",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "zGyzL9NMjix36tgh",
+        "name": "Huge Tank",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "zpUwoy1BLHyUXuvy",
+        "name": ".45 Receiver",
+        "type": "weapon_mod"
+      },
+      {
+        "id": "ztDgncL17xwZiN9p",
+        "name": "Six-Crank Capacitor",
+        "type": "weapon_mod"
+      }
+    ],
+    "apparel": [
+      {
+        "id": "17SJL8PoJweKD216",
+        "name": "Heavy Leather Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "1INSoLtiLJ9carIR",
+        "name": "Metal Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "1kOtnBKd9CjpYOHW",
+        "name": "Heavy Raider Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "1t9ZfJxVs14n5wTX",
+        "name": "Brotherhood Scribe's Hat",
+        "type": "apparel"
+      },
+      {
+        "id": "1UDHhxbyQuOtX9EH",
+        "name": "Sturdy Leather Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "2RZM0aGaGT2bYY0l",
+        "name": "Medium Dog Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "3K2oXJT9AJviSub3",
+        "name": "T-45 Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "3UDbwGcAdrC2eEvd",
+        "name": "Utility Coveralls",
+        "type": "apparel"
+      },
+      {
+        "id": "5T8HTf7E0y1Mu9Zu",
+        "name": "T-45 Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "6GQTHH3zEYZdMSQk",
+        "name": "Heavy Leather Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "6sBpDpcwfP4yRDaf",
+        "name": "Sturdy Metal Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "71Syqx4X35IjLNdc",
+        "name": "X-01 Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "74x1Ud7U3UdJkNG5",
+        "name": "Synth Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "7dmvo8Xlhqt5ZrCa",
+        "name": "Sturdy Metal Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "7jDRCZhKskZtGDNI",
+        "name": "Raider Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "82hgjmzTXmd4VdEs",
+        "name": "X-01 Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "8clrDybuYV1mobB9",
+        "name": "Sturdy Leather Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "8EDm7MYx0I9F1MR7",
+        "name": "Heavy Metal Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "8jzwxVjy2Me2QUua",
+        "name": "Vault-Tec Security Armor (Complete)",
+        "type": "apparel"
+      },
+      {
+        "id": "8Try1WliRR1U2s5z",
+        "name": "Sturdy Combat Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "9F62PApg0a3qLdBi",
+        "name": "Sturdy Synth Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "9Joxg8p3lwcIDyYn",
+        "name": "Combat Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "aA9RTmukDKwJd59o",
+        "name": "Heavy Raider Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "aOmUGU0KhxIusQzy",
+        "name": "Vault Jumpsuit",
+        "type": "apparel"
+      },
+      {
+        "id": "AYWFgC8JcoSbQIHK",
+        "name": "Heavy Combat Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "BeGAdzye5MeP3kUO",
+        "name": "T-51 Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "bkqZSzYTzimVzixK",
+        "name": "Heavy Synth Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "BNhFyx4TZM8NoOoN",
+        "name": "Hard Hat",
+        "type": "apparel"
+      },
+      {
+        "id": "C5I8RYOlLIq7prve",
+        "name": "Dog Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "C5ifa1Dx7rIxx65I",
+        "name": "Raider Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "c7zZXvkqJBtTSTsh",
+        "name": "Heavy Synth Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "CCrzErrpyLp7Ruz4",
+        "name": "Raider Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "cdwX7EVolnIWRaZi",
+        "name": "Lab Coat",
+        "type": "apparel"
+      },
+      {
+        "id": "CiIPyniHdWUcmTWD",
+        "name": "Combat Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "crVLXWXaVEkAIOG9",
+        "name": "Combat Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "ctWJbJpYQ9Q30TWc",
+        "name": "T-60 Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "cWQkvo0MZ17HuKE4",
+        "name": "Heavy Combat Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "DacGyxZmdShxIBTi",
+        "name": "Heavy Metal Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "DEpvfGFbc6KIebfH",
+        "name": "Brotherhood of Steel Uniform",
+        "type": "apparel"
+      },
+      {
+        "id": "Dk9UjvjZexa8J0U8",
+        "name": "Hood or Cowl",
+        "type": "apparel"
+      },
+      {
+        "id": "DxWJxT0MuxkbCofe",
+        "name": "Tough Clothing",
+        "type": "apparel"
+      },
+      {
+        "id": "Dz2dC6613RP6KqA9",
+        "name": "Sturdy Metal Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "Ece0BCI67om6qF2y",
+        "name": "Heavy Metal Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "eFk2o4BJK1wcWTDN",
+        "name": "Sturdy Raider Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "Ey3twO4uaBQugVLc",
+        "name": "Heavy Synth Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "F15SCdqO8m3rhpkc",
+        "name": "Raider Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "f23UwUVmMqA60No3",
+        "name": "Leather Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "feCOuP7GQkP0kHFW",
+        "name": "Combat Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "fEynmIak6yIuBFXW",
+        "name": "Combat Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "FMIxSD1qOjPkn1NB",
+        "name": "Sturdy Combat Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "Fn3CiQjQCfE9IMy4",
+        "name": "Raider Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "fqiqy8TsiH2y4ZW4",
+        "name": "Sturdy Combat Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "g3Y0zWDI9VUNoUWK",
+        "name": "T-51 Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "g5Y59atwvxDXMvoE",
+        "name": "Sturdy Leather Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "GELhqQk4utDnWXmE",
+        "name": "Heavy Combat Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "giRILdjCelBn3rjL",
+        "name": "T-60 Helm",
+        "type": "apparel"
+      },
+      {
+        "id": "gqnFXfaRTRmuiUKr",
+        "name": "Metal Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "gyQbcEzyP00f1OZt",
+        "name": "Heavy Metal Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "HClBdbJwrzkUCuZZ",
+        "name": "Sturdy Leather Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "hKGbIZhOnncmk7UT",
+        "name": "Casual Hat",
+        "type": "apparel"
+      },
+      {
+        "id": "hLHlZT5mDbRSzXOp",
+        "name": "Leather Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "HoENHW1I1IwXWvbr",
+        "name": "Sturdy Metal Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "I2KcUoQK3ZNCZ4F4",
+        "name": "Sturdy Leather Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "IONsTORca0MOKJgh",
+        "name": "T-45 Helm",
+        "type": "apparel"
+      },
+      {
+        "id": "j3Q6RHDSuhadGvdm",
+        "name": "Military Fatigues",
+        "type": "apparel"
+      },
+      {
+        "id": "j4paWkmIghe0FS59",
+        "name": "Heavy Synth Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "jDM5n3gg5yoS2dx3",
+        "name": "Sturdy Combat Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "jnjGlz8wOI3b2brm",
+        "name": "Brotherhood of Steel Fatigues",
+        "type": "apparel"
+      },
+      {
+        "id": "JoAG6npPBsUrc4ox",
+        "name": "Heavy Combat Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "jRNRzVKtIkwZ0zN7",
+        "name": "T-60 Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "jrSZkw346rKVnTfc",
+        "name": "X-01 Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "JTHWr7cr6HeS2mN5",
+        "name": "Raider Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "jv0C9MAbuq1t9wkX",
+        "name": "X-01 Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "kA4GLtGmdIoqMmPP",
+        "name": "Sturdy Combat Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "KecolhJEc6uRNCDP",
+        "name": "Sturdy Combat Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "KHaYrUpFfR6ieQu9",
+        "name": "Sturdy Synth Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "KLN1PeBwMBoPhlCd",
+        "name": "T-45 Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "kRun2GR8nZLirYHD",
+        "name": "Spike Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "KSd9eiC0XaVlIXkN",
+        "name": "Raider Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "LhR6Kj541PHxZ7Bo",
+        "name": "Hides",
+        "type": "apparel"
+      },
+      {
+        "id": "lp5ZpYjbFhe8IUcx",
+        "name": "Armor Frame",
+        "type": "apparel"
+      },
+      {
+        "id": "Luele6U32M5YDKlj",
+        "name": "Army Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "LVtFl6zabIs1mrcb",
+        "name": "Sturdy Raider Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "lVYblrMAgEfHnWTR",
+        "name": "Brotherhood Scribe's Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "lW7UmLaX9cJtuYIV",
+        "name": "Raider Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "Mfgi1OgjnrIm0BFV",
+        "name": "Hazmat Suit",
+        "type": "apparel"
+      },
+      {
+        "id": "mGCVgHtv7btlXFcj",
+        "name": "Casual Clothing",
+        "type": "apparel"
+      },
+      {
+        "id": "mHzuqe2DaDduUxJs",
+        "name": "Metal Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "MmpO0xvqhLs7Z5v6",
+        "name": "Synth Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "MoUxwJnXAhE0g8Vx",
+        "name": "Heavy Metal Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "MPPkcoTlL9Ccu92E",
+        "name": "Heavy Metal Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "nFohkafKN9JdtaY9",
+        "name": "Sturdy Synth Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "NJm96SJKxbdONtKU",
+        "name": "X-01 Helm",
+        "type": "apparel"
+      },
+      {
+        "id": "Nss40H02BrRolRLM",
+        "name": "Combat Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "nu0CMwCsoeJfTVUx",
+        "name": "Heavy Leather Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "O0JqnMYioFaGTVbM",
+        "name": "Synth Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "oSfwWZHqhaoBlJlG",
+        "name": "Metal Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "ot5oxDDNH4Fg18Id",
+        "name": "Heavy Synth Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "otpTV8rjo98GRwZw",
+        "name": "Synth Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "oVvBb3T24ydKgaiy",
+        "name": "Sturdy Leather Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "OXTYwe4rWp0n9xVC",
+        "name": "Light Dog Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "Qefc7PpsmKmkFs0r",
+        "name": "Heavy Combat Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "qEljKwu1UzA9BoL6",
+        "name": "Raider Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "qhSyguZQ4a8wqYpn",
+        "name": "Heavy Raider Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "qlSLcOpcqCUgyb8V",
+        "name": "T-45 Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "qo1Ronb9wh7MnpXI",
+        "name": "Sturdy Metal Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "qqDWrw8j82P7DPc9",
+        "name": "T-45 Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "QqkYk9XZKuzQvFFb",
+        "name": "Heavy Metal Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "qwD45ugL9z0szLZQ",
+        "name": "Road Leathers",
+        "type": "apparel"
+      },
+      {
+        "id": "QX9YgFGANsHkpTQd",
+        "name": "Drifter Outfit",
+        "type": "apparel"
+      },
+      {
+        "id": "R5C2M6PVdPyW65pt",
+        "name": "Heavy Leather Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "R5svV8jJwgZSd2So",
+        "name": "Sturdy Combat Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "rCNWvE2OVtQErwSa",
+        "name": "Heavy Raider Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "rJkPrPBc1LmIFMKu",
+        "name": "Synth Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "RuledpduIJ0kiNAN",
+        "name": "Vault-Tec Security Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "RWHypmbHATEbfGdU",
+        "name": "Formal Clothing",
+        "type": "apparel"
+      },
+      {
+        "id": "rzaHjoMSp3xL2dUF",
+        "name": "Sturdy Synth Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "SbGvygde4xeHRGJt",
+        "name": "Heavy Leather Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "SEh4XYH6BXZDNAOk",
+        "name": "Heavy Synth Helmet",
+        "type": "apparel"
+      },
+      {
+        "id": "sEsSb1c3LzdTMpM2",
+        "name": "Sturdy Raider Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "sGXPYqACKtkrBAhx",
+        "name": "Metal Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "sHVONLW2lTNyu8Mq",
+        "name": "Heavy Coat",
+        "type": "apparel"
+      },
+      {
+        "id": "srvcceooKSoDZ9oH",
+        "name": "Sturdy Raider Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "SVyJbXzmGVpfRPZq",
+        "name": "Leather Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "tG3w6b6Bx5jFpeSW",
+        "name": "Sturdy Synth Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "th5iQbnAiLsKzIVV",
+        "name": "Raider Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "TiGee8uaRs4twpOK",
+        "name": "Sack Hood",
+        "type": "apparel"
+      },
+      {
+        "id": "TMaT9gY04hSW3fF8",
+        "name": "Sturdy Raider Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "U38QzZYOaKw1oC3h",
+        "name": "Raider Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "Uc0qmDLuWKDmnR4O",
+        "name": "Sturdy Metal Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "uC3L44Jd1lpnTteV",
+        "name": "Leather Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "uK2iQe7F74HQwsNs",
+        "name": "Heavy Dog Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "UolcghI8rwVUXpam",
+        "name": "Sturdy Raider Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "uQyolHk8smMTNe0H",
+        "name": "Combat Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "UUBwEiScNx5pNBiE",
+        "name": "Heavy Synth Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "UYhmJZwhnlwIR8fD",
+        "name": "Leather Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "UYuniDcNwxokqGHW",
+        "name": "Leather Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "v55iaviJCqWOVY2Q",
+        "name": "Heavy Leather Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "VbocpE9suK7meAfY",
+        "name": "T-51 Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "VcWcoUmXcFk6rOka",
+        "name": "T-60 Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "vinehrp26vkj6pQj",
+        "name": "Brotherhood of Steel Hood",
+        "type": "apparel"
+      },
+      {
+        "id": "VQ5yHv7pOivssCrT",
+        "name": "Sturdy Synth Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "vWq7tmY6iChl2g2t",
+        "name": "Cage Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "WeHTP6Gw6Sr6HN8N",
+        "name": "Formal Hat",
+        "type": "apparel"
+      },
+      {
+        "id": "X1lZVeTRwlll5KDL",
+        "name": "Sturdy Metal Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "X9cMnQidJyiDg29B",
+        "name": "T-51 Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "x9NMj9JoWYEOJdDs",
+        "name": "Metal Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "XCxUCHrYFRdsgCqk",
+        "name": "Raider Helm",
+        "type": "apparel"
+      },
+      {
+        "id": "Xd2p6XdKQuDkXVqQ",
+        "name": "Synth Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "xeg9hpAU6eauic3p",
+        "name": "Heavy Combat Right Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "xEiw9lX3nYE1uoT0",
+        "name": "Welder's Visor",
+        "type": "apparel"
+      },
+      {
+        "id": "XJ3mQc6tGsm9Q12N",
+        "name": "X-01 Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "XzEQFrZXE4OPNs3g",
+        "name": "Engineer's Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "y8xpvgAazNCC0qua",
+        "name": "Synth Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "YJBboQPnSQFg8kgp",
+        "name": "Gas Mask",
+        "type": "apparel"
+      },
+      {
+        "id": "ylQsJrmkFumlUEeC",
+        "name": "Vault-Tec Security Armor",
+        "type": "apparel"
+      },
+      {
+        "id": "Yq8LSP8WI8hkaeIh",
+        "name": "Metal Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "YYbLmTtpw4LbcQZP",
+        "name": "T-51 Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "YZyjpoAFfRJDvufP",
+        "name": "Heavy Raider Right Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "Z2wwI1RUjgV9UuzJ",
+        "name": "Harness",
+        "type": "apparel"
+      },
+      {
+        "id": "z5Qy6X4pCeRPEWUs",
+        "name": "T-60 Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "z99d3r4zPwD4ZYMe",
+        "name": "Sturdy Synth Chest Piece",
+        "type": "apparel"
+      },
+      {
+        "id": "ZhmOXmBcKKxcPEv8",
+        "name": "T-51 Helm",
+        "type": "apparel"
+      },
+      {
+        "id": "zkC1k0Z55VIsnYKA",
+        "name": "Heavy Combat Left Leg",
+        "type": "apparel"
+      },
+      {
+        "id": "ZyjXbSyiFKjT20iR",
+        "name": "Heavy Raider Left Arm",
+        "type": "apparel"
+      },
+      {
+        "id": "zZa8B73OW8EyQoMu",
+        "name": "T-60 Right Leg",
+        "type": "apparel"
+      }
+    ],
+    "apparel-mods": [
+      {
+        "id": "0wIVX8zUon56LDsB",
+        "name": "Welded",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "143I7SjRcQBq9sht",
+        "name": "EMP Shielding",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "19b26SvJv3xOMCC4",
+        "name": "T-51c Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "1QSjzncDxrx59OUf",
+        "name": "Mk VI ChestPiece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "20FKglk8LkB8A1c0",
+        "name": "Mk IV Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "27Sls5dfZTAfQIgf",
+        "name": "T-45e Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "2SqnqGHd7D3y4O5E",
+        "name": "Rad Scrubber",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "3d0refqygOWlr08D",
+        "name": "Brawling",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "3wSPEqbGcAysqqaq",
+        "name": "T-45e Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "42Qe82QKBhubp9xU",
+        "name": "Targeting HUD",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "4Oo36CKsvvcXj9o6",
+        "name": "Raider II Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "4OR9FcaH6xrrKpBo",
+        "name": "Treated Leather",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "4PtjwYY1RpNnvExC",
+        "name": "Deep Pocketed (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "4S9R2wqowQKgJ3q5",
+        "name": "Mk III Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "5b56DVzDm2X2ueX4",
+        "name": "T-51f Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "5sQU0kdQbhyacSdu",
+        "name": "Pocketed (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "67Crgv7xKULJ0j9J",
+        "name": "Girded Leather (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "6Auqz8lwvuB7UFdy",
+        "name": "Lighter Build (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "6HktMjmw1GkHhudw",
+        "name": "Resistant Lining",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "6OY0YUH32cpkcCuH",
+        "name": "T-45b Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "6qONvqbWs9mgnwZ2",
+        "name": "Raider II Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "7B2xH72N9Xpe5HV0",
+        "name": "T-45f Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "7IO8gCf1f2bCK4a0",
+        "name": "Lead Plating (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "7iRkK1Elj5iRfANw",
+        "name": "Explosive Shielding",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "7KURZ8oGIgDt6YxK",
+        "name": "T-45b Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "8CQVJWspeg2CQmHI",
+        "name": "T-60e Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "8ctHjfdxTRHeBlXp",
+        "name": "Raider II Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "8F9G1Cg2OmluAbG1",
+        "name": "Pneumatic",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "8fvlLrbWjODf6BCe",
+        "name": "Lead Plating",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "8JID23VwOdXqwESb",
+        "name": "Ballistic Weave Mk II",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "8Z8lfXud9r26HHkZ",
+        "name": "T-45d Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "908vI94cQ4wdtSaI",
+        "name": "Tesla Coils",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "9FlKDaWEsEDXBCMP",
+        "name": "Laminated",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "9WnVnLYY7epjkydJ",
+        "name": "EMP Shielding (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ae5urfGJTUVqw7C6",
+        "name": "Mk V Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "AKhF3AMqHuvZ1STc",
+        "name": "T-45b Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Aqhxp38UDkBJ1EJ0",
+        "name": "Mk VI Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Au7oeIQaSymmXqnP",
+        "name": "Shadowed Leather (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "b3YiI203jynIQG7V",
+        "name": "Fiberglass (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "bCszZlE3SxSa2e1G",
+        "name": "T-51f Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "BEH1dYkTDpTKwNHX",
+        "name": "Boiled Leather (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "bGnNLaG7QGVNRLmT",
+        "name": "T-51c Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "cMFQXRN9ZrDIU23Y",
+        "name": "Hydraulic Bracers",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "cVxi6JY2Z5HeVM4v",
+        "name": "Nanofilament (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "CY6POFBbU0qeLsHG",
+        "name": "Shadowed Leather",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "d0avgvGTDFSOEcMP",
+        "name": "Enameled Metal",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "dAP4X9pvIKfDE56r",
+        "name": "Shadowed Metal (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "dCYE8deU6qI7GARe",
+        "name": "Emergency Protocols",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "DSrje3suQ5wYyMYp",
+        "name": "Reinforced",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "DtPOAGbxzkA9Ypyj",
+        "name": "T-45d Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "dVYTLN7YCoy2g97C",
+        "name": "T-60c Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "DxewSX1ooPKoNPPs",
+        "name": "Photovoltaic Plating",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "dZdw4Kj5WZ3Y01Lh",
+        "name": "T-51b Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "e7ySHkXMm9o7Aovi",
+        "name": "Asbestos Lining",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "EBkTneYU3Usezhgt",
+        "name": "Shadowed",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "EGyC3Cs5bYfGmIbh",
+        "name": "T-51e Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "eJRm4a5fGv7fIWgn",
+        "name": "Treated Lining",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "En57MQ3hn0DkcHJy",
+        "name": "Sensor Array",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "EoYPJPrpfi9ZRDy5",
+        "name": "T-60c Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "eP0k4kn5PUwNE7OE",
+        "name": "T-60f Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ew9m8xT2GbnWCHeu",
+        "name": "Ballistic Weave Mk V",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "EYNQabnyteOkkeoP",
+        "name": "Shadowed Metal",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "f2TJFwW2vfMqrmAY",
+        "name": "Mk II Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "faqvoA7iZx90tXnH",
+        "name": "Winterized Coating (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "fGvLq6Ku80a5cTSg",
+        "name": "Ballistic Weave Mk IV",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "FheuMFwO0W6c9nGf",
+        "name": "T-60e Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Fi4sOOvTpfCKlBVS",
+        "name": "Kinetic Dynamo",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Fov5IU0CbgDuZUuO",
+        "name": "Blood Cleanser",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "FRPz5uD3tZ7hMjir",
+        "name": "Polymer",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "FySCG1SWS7SABvE7",
+        "name": "Deep Pocketed",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "G1BevsRBcrOLIkSf",
+        "name": "T-45d Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "gCQROCvacrax9ukk",
+        "name": "Medic Pump",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "GDI7gRGYrMxEpm99",
+        "name": "Buttressed",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "gI1rYMmsXnPOqctB",
+        "name": "Hardened",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "GQvToNs1kHcwOPII",
+        "name": "Muffled",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "gujEG9KDg5dMAUsY",
+        "name": "T-45c Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "gVTTVLDe6xQMbv5K",
+        "name": "Protective Lining",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "gW3K5z7MFRZoBDQa",
+        "name": "Fiberglass",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "gySESs8tqQfig1qH",
+        "name": "Polished Metal",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "GZr9XRGzDiWvXMla",
+        "name": "T-60b Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "HdcX4nu2ZKYDf9hG",
+        "name": "Jetpack",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "hJDcOKYapml78um8",
+        "name": "Titanium Plating (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "HlZVuMrkMKwSx0gT",
+        "name": "Stealth Boy",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "hqDB2ZzF92HmuN64",
+        "name": "T-60f Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "hWUuQFc4H82qxPec",
+        "name": "Resin",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "HYslGbiJZcpnqQdh",
+        "name": "T-51b Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "HzkbfPbv401sMTXA",
+        "name": "Alloyed Metal (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "hZZpdrBclyd6MzHk",
+        "name": "Raider II Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "i4FIoiiBSSxvToiZ",
+        "name": "T-51f Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "i5ocwMr1TQ96nsi7",
+        "name": "Shadowed (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "i9dDeSF3mXAeJgEZ",
+        "name": "T-51f Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "IbLyK0Sjkfks5BL3",
+        "name": "Treated Leather (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "igmcUhE1lEq2NPcP",
+        "name": "T-60d Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "iigJa7Sxwi1um5tb",
+        "name": "Ultra Light Build",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "IIhwRw2S19A9hrEV",
+        "name": "Studded Leather",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "iiIFQHQgzaPihtGA",
+        "name": "T-60f Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ItcCB3lRheDwUokU",
+        "name": "T-51c Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "j49aEIpiBTjvbGbO",
+        "name": "T-45f Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "JAN0jzOhkMyI3U1w",
+        "name": "Prism Shielding (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "JCala9JIwLsgpDig",
+        "name": "Reactive Plates",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "jDw4c8ElBglnHYHP",
+        "name": "T-60e Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "JhWkQaODUdoyEp7d",
+        "name": "Enameled Metal (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "JI5elkyiOp0sq33b",
+        "name": "T-51d Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "JpGZrBzUJTLieuRJ",
+        "name": "Explosive Vent",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "jQN0cvQRoPLzNwi5",
+        "name": "Mk III Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "K63y4mcKxr792XLB",
+        "name": "Tesla Bracers",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "kcEI3V2j23v89jGT",
+        "name": "Mk V Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "kGts8ZQ6Lr4bkF9M",
+        "name": "Titanium Plating",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "KRuKJ0eR46ZycdGM",
+        "name": "Pocketed",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "kRuMVjqK0tr5aZDY",
+        "name": "Ballistic Weave Mk III",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Kt14LMMm7zn0V5w2",
+        "name": "Polished Metal (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "l0RhqycI1tg5viug",
+        "name": "Painted Metal",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "LAb83LVky6vSxUuH",
+        "name": "Polymer (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "LBXtsM7QHqmo4gnH",
+        "name": "T-51e Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "LQGTYf4MpGnQ8bi7",
+        "name": "Mk IV Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "lqvdGQ6axRjBfNoe",
+        "name": "Photovoltaic Plating (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "lRwdket2A4FxBzpQ",
+        "name": "Lead Lined",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "lX3JRbJLh0mYyQJd",
+        "name": "Microcarbon",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "LXuDtTGg54qdcwsX",
+        "name": "T-60d Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "mgzavWT1TZT1qdoR",
+        "name": "Winterized Coating",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "MYF3miuCrGR3jUjb",
+        "name": "T-45b Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "nbeJXBz0LccZvmJP",
+        "name": "T-60c Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "NKMOWl7fiN0nIl1G",
+        "name": "Girded Leather",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "nq7nPjVuJCN7lGpz",
+        "name": "Welded (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "nrkgX6ccemqUDUb1",
+        "name": "Mk V Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Oawiwwrdx2ZU0xgA",
+        "name": "Tempered",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "oO7frtQFoeNU9yl8",
+        "name": "Aerodynamic",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "owac6l9MM0H8RoLF",
+        "name": "T-51e Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "p0DwgxYf9LqKdtD2",
+        "name": "Insulated Lining",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "PCloS69pzVlT1gUM",
+        "name": "Mk IV ChestPiece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Pfh0zvUkSVL49AeL",
+        "name": "T-45e Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "plJeCoLSGJIVzF69",
+        "name": "Alloyed Metal",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "pZ2FIyhKvuL7EPT0",
+        "name": "Overdrive Servos",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "q48esitA3U4tmuXT",
+        "name": "Padded",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "qH24ODPdUtNy87vp",
+        "name": "T-45c Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "qIO7j6PYi4ocPi9h",
+        "name": "Mk II Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "qp17f82dYxaR8fGw",
+        "name": "T-45d Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "qWlZAyV7iemeqrmU",
+        "name": "T-45e Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "qwU5VY4f3vsx4i6z",
+        "name": "Mk II Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "QXgVEVm7Ttp4UFpS",
+        "name": "BioCommMesh",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "R0OekXuLrtHf0j8f",
+        "name": "Ballistic Weave",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "r1vFai9QqhzIhXiA",
+        "name": "T-51c Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "R6Z0Qp7iPfeZr0lp",
+        "name": "Mk IV Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "R7MSARmaFbVPiunS",
+        "name": "Welded Rebar",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "RR7Vs2f9fJxRK7nq",
+        "name": "T-45c Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "RrhtyBPhjtENsF6w",
+        "name": "Calibrated Shocks",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "RsBNLi8xBR14JKwj",
+        "name": "T-51e Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "RvH2R9EpAEtwzfsp",
+        "name": "Cushioned",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "SnqbemTKEDFKEwi7",
+        "name": "T-60b Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Su9jHSoBdvTPSMD8",
+        "name": "Mk V Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "SUBvV0XNUQzeCfOH",
+        "name": "Microcarbon (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "suU2pnzcO5KYUF9N",
+        "name": "Mk II Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "SW0MOzUjhhMYjJrr",
+        "name": "Resin (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "sWsqLIvepWlGgTtY",
+        "name": "Boiled Leather",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "sX2oKETLQ733d01Z",
+        "name": "T-51d Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "SZGWmJhEwwoXU1PR",
+        "name": "Lead Lined (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "t2wGFT9GqqzS3Qt9",
+        "name": "Core Assembly",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ttjB1mPeas5mpm8O",
+        "name": "Buttressed (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "tWP01ABVj2P3dPak",
+        "name": "Nanofilament",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "uLZD28tMAPybOcdn",
+        "name": "Tempered (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "uQYF58G4PuexOVGS",
+        "name": "T-60f Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "v6Y7ypBdjXorV8ek",
+        "name": "T-45f Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "vCzArLcyEN25Awf3",
+        "name": "Lighter Build",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "vHVe3ysJaNtHLOTS",
+        "name": "T-60c Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "VL3DtHbWeTyr8Kjb",
+        "name": "T-51b Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "VMzxtew6VJQCzIIk",
+        "name": "Shielded Lining",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Vr2IfyQOyGYvS3sn",
+        "name": "Weighted",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "vSd1iRQkY71KJirx",
+        "name": "T-51d Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "vuySzeWEI174mwLc",
+        "name": "Motion-Assist Servos",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "VWq6f7jz0J0TRGUS",
+        "name": "Mk VI Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "vZs57HCeBc9iOVUR",
+        "name": "Explosive Shielding (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "WBODl13DtVwIr7KL",
+        "name": "T-60b Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "wchyh9LXoAUTHYKT",
+        "name": "Braced",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "WCywfTr7TSWsWCPm",
+        "name": "Reinforced (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "WKklumSE0xUCXFmc",
+        "name": "Prism Shielding",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "wLaFI7WPiiBEFiN9",
+        "name": "T-45c Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "WQ9FY8kJaZyYOshD",
+        "name": "T-51d Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "x0fAswh4AE8aeWJW",
+        "name": "T-60d Helm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "Xm3NOI9pHqcAOiar",
+        "name": "T-45f Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "xwgy9oa25Drcpk1w",
+        "name": "T-60b Chest Piece",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "XYvAnkqTE6TUIvzs",
+        "name": "Dense",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "YcGcdWoYlrPMOXHP",
+        "name": "T-60d Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "yo6HaIGzpgIuuEMD",
+        "name": "Painted Metal (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "yoRbLyIzNTy0VwGT",
+        "name": "Hardened (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "YSEXVlKztyVBQ0f4",
+        "name": "T-51b Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "YsLy9bVbtP056YN7",
+        "name": "Mk III Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "YswtxgeapixbJdL6",
+        "name": "Mk III Arm",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "yWvt9clbKolwdbm1",
+        "name": "Ultra Light Build (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "yYvoh87QTiCX6J8Q",
+        "name": "Studded Leather (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "zALOB7gLXndAThjj",
+        "name": "Internal Database",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ZHnH96ic3qiVPJ25",
+        "name": "Stabilized",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ZhrilZpyh7l9kkQD",
+        "name": "Laminated (Torso)",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ZiNEsPVsZJflvKVh",
+        "name": "T-60e Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "ZsGBPsT9kf1lVrFw",
+        "name": "Optimized Bracers",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "zt3R2qkvtmgV3WLH",
+        "name": "Mk VI Leg",
+        "type": "apparel_mod"
+      },
+      {
+        "id": "zX0aUfac1HnsEvZO",
+        "name": "Rusty Knuckles",
+        "type": "apparel_mod"
+      }
+    ],
+    "robot-armor": [
+      {
+        "id": "0d7qFZHVsWYFhFoI",
+        "name": "Actuated Frame (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "2B6NdSIDwwqjTqZn",
+        "name": "Primal Plate (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "5922ioSDVB2hnY72",
+        "name": "Voltaic Frame (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "9EqSrg7jA5qcLniC",
+        "name": "Primal Plate (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "acP42rzsrff1QOU2",
+        "name": "Toxic Plate (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "agLROEPeyQHPmptB",
+        "name": "Hydraulic Frame (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "ai8sQG55s9dcHrH2",
+        "name": "Voltaic Frame (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "bCVyhEfW7raPOUnE",
+        "name": "Factory Armor (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "BDGcAACYaQF0qXxX",
+        "name": "Standard Plating",
+        "type": "robot_armor"
+      },
+      {
+        "id": "bjYeD4BiCQS4kEGu",
+        "name": "Factory Armor (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "Bw8LJy7nJMkiXcBo",
+        "name": "Factory Armor (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "ByXJVAAdbklXkx4F",
+        "name": "Actuated Frame (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "c7bdRUlaii4Yn8oH",
+        "name": "Voltaic Frame (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "D8Y0T7cpVY4XgXWq",
+        "name": "Hydraulic Frame (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "eBkpFQgUgEY577D8",
+        "name": "Factory Armor (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "F0EnePOunzae56lJ",
+        "name": "Serrated Plate (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "f51NNsrFdLVVsNqJ",
+        "name": "Noxious Plate (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "g81eSQdioCxlp7Dm",
+        "name": "Noxious Plate (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "hNlPV160j8Uk9qAZ",
+        "name": "Actuated Frame (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "HYNVUjwQxMO4KXIe",
+        "name": "Actuated Frame (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "i3ORYuQ06JEuR1Sg",
+        "name": "Primal Plate (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "ItAAKsRwZQEbmwIF",
+        "name": "Factory Armor (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "IU0gtAAG6EOwvSXA",
+        "name": "Voltaic Frame (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "JDKYtZyqEV2lQvFx",
+        "name": "Hydraulic Frame (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "Kf577cR3G6pb7Mkt",
+        "name": "Noxious Plate (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "KIeIEy9kJXroD5wH",
+        "name": "Voltaic Frame (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "l2R15upfww3XvNHA",
+        "name": "Actuated Frame (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "LLnQeNnD1C4zlqXv",
+        "name": "Actuated Frame (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "MIbiWiYfApYYj1ft",
+        "name": "Serrated Plate (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "MOmIwergCNwfesgP",
+        "name": "Toxic Plate (Arm 1)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "mqCbnQQasrmkZsvU",
+        "name": "Factory Storage Armor (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "OkcwSvkgUoyWp5s1",
+        "name": "Hydraulic Frame (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "oXFQizWTeO3HB4GA",
+        "name": "Primal Plate (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "p6isTJnOmQhUGLck",
+        "name": "Toxic Plate (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "q13iMNcRH0zc729C",
+        "name": "Toxic Plate (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "qAnuaudKfDpd72Sl",
+        "name": "Voltaic Frame (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "QBX0JeYQ35RQR7N8",
+        "name": "Hydraulic Frame (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "Qe00ZMs3pujwwgjs",
+        "name": "Primal Plate (Thruster)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "RDjyaSvAT6HzfEBn",
+        "name": "Primal Plate (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "SfpbSl7s62PyLVD1",
+        "name": "Serrated Plate (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "ShuSwxf2xbRbpn9D",
+        "name": "Noxious Plate (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "tH4nPzaOhBjnfmpC",
+        "name": "Noxious Plate (Optics)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "TsWbvZ5RsybpeN2y",
+        "name": "Mister Gutsy Plating",
+        "type": "robot_armor"
+      },
+      {
+        "id": "UCJpZzvuttkA0QgE",
+        "name": "Serrated Plate (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "VgbaAYRw7EgisEiA",
+        "name": "Serrated Plate (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "vqETiW7Kb0SgXV43",
+        "name": "Serrated Plate (Arm 2)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "WaHiQ6eWFNacsUJ3",
+        "name": "Factory Armor (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "WfmNUwj6vf1J1B1D",
+        "name": "Hydraulic Frame (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "wGGosbG83Om5a1ac",
+        "name": "Toxic Plate (Arm 3)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "wS4PyRQOedMKih10",
+        "name": "Toxic Plate (Main Body)",
+        "type": "robot_armor"
+      },
+      {
+        "id": "yWyTsnEUgTIAwldJ",
+        "name": "Noxious Plate (Thruster)",
+        "type": "robot_armor"
+      }
+    ],
+    "robot-modules": [
+      {
+        "id": "a1R1RTaNUfdDmEeS",
+        "name": "Recon Sensors",
+        "type": "robot_mod"
+      },
+      {
+        "id": "bzUxVWw6gLP5ZgNq",
+        "name": "Integral Boiler Mod",
+        "type": "robot_mod"
+      },
+      {
+        "id": "haxyBQO6QGu0KOGj",
+        "name": "Hacking Mod",
+        "type": "robot_mod"
+      },
+      {
+        "id": "hk5GDwOsxYVsudxG",
+        "name": "Resistance Field",
+        "type": "robot_mod"
+      },
+      {
+        "id": "J6X12IWC3TuYbb64",
+        "name": "Diagnosis Mod",
+        "type": "robot_mod"
+      },
+      {
+        "id": "jvM19NhHpkDowa8W",
+        "name": "Sensor Array",
+        "type": "robot_mod"
+      },
+      {
+        "id": "Lz3mYiqbDM43eRBV",
+        "name": "Tesla Coils",
+        "type": "robot_mod"
+      },
+      {
+        "id": "myLKlpSjf9nqNpTN",
+        "name": "Radiation Coils",
+        "type": "robot_mod"
+      },
+      {
+        "id": "O3dQsgilsyWSSX0n",
+        "name": "Regeneration Field",
+        "type": "robot_mod"
+      },
+      {
+        "id": "tYXeeRpgmtDiaB9t",
+        "name": "Stealth Field",
+        "type": "robot_mod"
+      },
+      {
+        "id": "vDsRqWBeKLVgq57P",
+        "name": "Behavioral Analysis Mod",
+        "type": "robot_mod"
+      },
+      {
+        "id": "VWsI4akT5mdNCcci",
+        "name": "Lockpick Module",
+        "type": "robot_mod"
+      },
+      {
+        "id": "ZgOppC2XynIyM1bg",
+        "name": "Hazard Detection Mod",
+        "type": "robot_mod"
+      }
+    ],
+    "consumables": [
+      {
+        "id": "0lnW7AJMNs7SxdpP",
+        "name": "Mutt Chops",
+        "type": "consumable"
+      },
+      {
+        "id": "1nJywTHNkuT8JGT4",
+        "name": "Blood Sac",
+        "type": "consumable"
+      },
+      {
+        "id": "1yXCbQZHNLtwuPcT",
+        "name": "Stealth Boy",
+        "type": "consumable"
+      },
+      {
+        "id": "28PbGcZHEDssWMfB",
+        "name": "X-Cell",
+        "type": "consumable"
+      },
+      {
+        "id": "2Huj9yJeWsIQTrZs",
+        "name": "Mole Rat Chunks",
+        "type": "consumable"
+      },
+      {
+        "id": "2Jc0kY7glK0GVaYe",
+        "name": "Bloodbug Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "2xM0ZATPyWbbrfja",
+        "name": "Salisbury Steak (Preserved)",
+        "type": "consumable"
+      },
+      {
+        "id": "3ZJaIPmXe788xhiz",
+        "name": "Jet Fuel",
+        "type": "consumable"
+      },
+      {
+        "id": "483yLfgB6kJ0lWvD",
+        "name": "Hubflower",
+        "type": "consumable"
+      },
+      {
+        "id": "4Z3zGSnBGJcgR5c2",
+        "name": "Tato",
+        "type": "consumable"
+      },
+      {
+        "id": "5uXBOucct2TglTlF",
+        "name": "Iguana Bits",
+        "type": "consumable"
+      },
+      {
+        "id": "66gEaC4Wd4cVuutB",
+        "name": "Moonshine",
+        "type": "consumable"
+      },
+      {
+        "id": "68eulbmhBZbFJlcs",
+        "name": "Bourbon",
+        "type": "consumable"
+      },
+      {
+        "id": "69jE7Uteh1NARMBL",
+        "name": "Blood Pack",
+        "type": "consumable"
+      },
+      {
+        "id": "6Y5Gv5LAizj0KDUw",
+        "name": "Pork 'n' Beans",
+        "type": "consumable"
+      },
+      {
+        "id": "72L3DVPU3uiGPpNm",
+        "name": "Glowing Fungus",
+        "type": "consumable"
+      },
+      {
+        "id": "7e60Vl5tVoU4MIlJ",
+        "name": "Bufftats",
+        "type": "consumable"
+      },
+      {
+        "id": "7MwNIxhzzbQUGbX4",
+        "name": "Mongrel Dog Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "860ofdvpufUzSqE7",
+        "name": "Stimpak",
+        "type": "consumable"
+      },
+      {
+        "id": "8Fv9dZQm5Dax1INF",
+        "name": "Carrot",
+        "type": "consumable"
+      },
+      {
+        "id": "8Ju0FLCWLvXs5zXw",
+        "name": "Mirelurk Cake",
+        "type": "consumable"
+      },
+      {
+        "id": "8pR2J9OAo0Mtx0D4",
+        "name": "Deathclaw Omelette",
+        "type": "consumable"
+      },
+      {
+        "id": "9vI0sFShvxahqMSW",
+        "name": "Yao Guai Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "ABPjUugdAt6VthAw",
+        "name": "Mutfruit",
+        "type": "consumable"
+      },
+      {
+        "id": "AcJArmB6p1XrVWL9",
+        "name": "Healing Salve",
+        "type": "consumable"
+      },
+      {
+        "id": "afPpMSnBCqxLyaxx",
+        "name": "Wine",
+        "type": "consumable"
+      },
+      {
+        "id": "aLYfeWM0Uxv7H1Ax",
+        "name": "Brahmin Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "AMCmZ1rbCC4adfMT",
+        "name": "Stingwing Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "Anqgdr6ITj1TUFuj",
+        "name": "Mutfruit Juice",
+        "type": "consumable"
+      },
+      {
+        "id": "Bomq1g7X0eVXrssc",
+        "name": "Jet",
+        "type": "consumable"
+      },
+      {
+        "id": "bq6e2Hcl5CL3jpYU",
+        "name": "Nuka-Cherry",
+        "type": "consumable"
+      },
+      {
+        "id": "Bvn11vBFx1OnUoJr",
+        "name": "Tarberry",
+        "type": "consumable"
+      },
+      {
+        "id": "c97rLLOxIIQCFFQi",
+        "name": "Mirelurk Queen Steak",
+        "type": "consumable"
+      },
+      {
+        "id": "C9aDwtqBulwGksyh",
+        "name": "RadAway (Diluted)",
+        "type": "consumable"
+      },
+      {
+        "id": "cNP3hldtBtuAG5eu",
+        "name": "Softshell Mirelurk Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "D2s5huShfKCtulYC",
+        "name": "Grilled Radroach",
+        "type": "consumable"
+      },
+      {
+        "id": "Dh09YQNclfQtitwT",
+        "name": "Mutant Hound Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "dwRYe59wr0CAurtm",
+        "name": "Stingwing Barb",
+        "type": "consumable"
+      },
+      {
+        "id": "e6tIVbIcM6krBmSu",
+        "name": "Dandy Boy Apples",
+        "type": "consumable"
+      },
+      {
+        "id": "e9NVSnBtY4oWIam9",
+        "name": "Squirrel on a Stick",
+        "type": "consumable"
+      },
+      {
+        "id": "Efc2oDGC3pdttSJF",
+        "name": "Orange Mentats",
+        "type": "consumable"
+      },
+      {
+        "id": "eH5lYeN88g16VbYT",
+        "name": "Rum",
+        "type": "consumable"
+      },
+      {
+        "id": "ELoNzoPfKq3BE9gc",
+        "name": "Institute Food Packet",
+        "type": "consumable"
+      },
+      {
+        "id": "fP4pQsWzcH6F83q4",
+        "name": "Buffjet",
+        "type": "consumable"
+      },
+      {
+        "id": "FqwVy0rYtfInhHoH",
+        "name": "Tarberry Juice",
+        "type": "consumable"
+      },
+      {
+        "id": "fW1WgqRVyT76erlQ",
+        "name": "Melon Juice",
+        "type": "consumable"
+      },
+      {
+        "id": "FyAoifDWRgBOPtMV",
+        "name": "Antibiotics",
+        "type": "consumable"
+      },
+      {
+        "id": "FZqdiNkmpwz5NBJ3",
+        "name": "Dirty Wastelander",
+        "type": "consumable"
+      },
+      {
+        "id": "g2KCQ2KwunOMVBh8",
+        "name": "BlamCo Brand Mac and Cheese",
+        "type": "consumable"
+      },
+      {
+        "id": "gezE6P44AYqRQvim",
+        "name": "Noodle Cup",
+        "type": "consumable"
+      },
+      {
+        "id": "gg2H82rn5B2SXOrF",
+        "name": "Canned Dog Food",
+        "type": "consumable"
+      },
+      {
+        "id": "gKcwpsDkmmUMmxP9",
+        "name": "Bloatfly Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "gpsiVMF0IkQQiy6A",
+        "name": "Bloodbug Steak",
+        "type": "consumable"
+      },
+      {
+        "id": "hc8DSkMGN2GxugAF",
+        "name": "Mentats",
+        "type": "consumable"
+      },
+      {
+        "id": "hWlAJa2j3N2LaiPx",
+        "name": "Day Tripper",
+        "type": "consumable"
+      },
+      {
+        "id": "HxBsbNa9k0mXE4H7",
+        "name": "BlamCo Brand Mac and Cheese (Preserved)",
+        "type": "consumable"
+      },
+      {
+        "id": "i1BhSDEcs5JNub1v",
+        "name": "Radroach Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "ItcIh4WKCACIyolW",
+        "name": "Stimpak (Diluted)",
+        "type": "consumable"
+      },
+      {
+        "id": "jC25W4O796xzZr0O",
+        "name": "Iguana Soup",
+        "type": "consumable"
+      },
+      {
+        "id": "jDj6bY9Fe5a594FY",
+        "name": "Radscorpion Stinger",
+        "type": "consumable"
+      },
+      {
+        "id": "jGk6pqXEHojFBnHc",
+        "name": "Radscorpion Egg",
+        "type": "consumable"
+      },
+      {
+        "id": "jhYtRwmXiTvaMuvY",
+        "name": "Ultra Jet",
+        "type": "consumable"
+      },
+      {
+        "id": "JjjhTOQLnB2htZe0",
+        "name": "Mirelurk Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "joFpcSrCDtsWQxme",
+        "name": "InstaMash",
+        "type": "consumable"
+      },
+      {
+        "id": "JoLgVDbxQV3bT11R",
+        "name": "Squirrel Bits",
+        "type": "consumable"
+      },
+      {
+        "id": "jpJw3rIHZILDnp9p",
+        "name": "Food Paste",
+        "type": "consumable"
+      },
+      {
+        "id": "KAvEuz7SKIaCWEF8",
+        "name": "Sugar Bombs",
+        "type": "consumable"
+      },
+      {
+        "id": "KgKwCYEKl95sQQZN",
+        "name": "Razorgrain",
+        "type": "consumable"
+      },
+      {
+        "id": "kkMJnvGEeqJQKhfT",
+        "name": "Salisbury Steak",
+        "type": "consumable"
+      },
+      {
+        "id": "kVf8NhlrDSjJHFYo",
+        "name": "Bloatfly Gland",
+        "type": "consumable"
+      },
+      {
+        "id": "KXreAKBJPNwyBwMb",
+        "name": "Nuka-Cola Quantum",
+        "type": "consumable"
+      },
+      {
+        "id": "KZOctNYYrsfYycGB",
+        "name": "Sweet Roll",
+        "type": "consumable"
+      },
+      {
+        "id": "lrllDzCjzc9atRUy",
+        "name": "Silt Bean",
+        "type": "consumable"
+      },
+      {
+        "id": "mGyKuUfzHD8BwTMp",
+        "name": "Deathclaw Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "mk8SR0w1UisPaDy1",
+        "name": "Brahmin Milk",
+        "type": "consumable"
+      },
+      {
+        "id": "MlGblqUyUcVhqQLY",
+        "name": "Tato Juice",
+        "type": "consumable"
+      },
+      {
+        "id": "MN5XQI0NJPPPlmsj",
+        "name": "Rad-X",
+        "type": "consumable"
+      },
+      {
+        "id": "MPGzjHEzGF9yW97k",
+        "name": "Fury",
+        "type": "consumable"
+      },
+      {
+        "id": "Mu6IEkhB5z32qzjY",
+        "name": "Roasted Mirelurk Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "MW9UpIocnupsmcFt",
+        "name": "Calmex",
+        "type": "consumable"
+      },
+      {
+        "id": "n6asYMleVsDYBbdC",
+        "name": "Radstag Stew",
+        "type": "consumable"
+      },
+      {
+        "id": "NE0ZUJrG0TMiG5f9",
+        "name": "Psychobuff",
+        "type": "consumable"
+      },
+      {
+        "id": "nhavbYpdWvlnL7tR",
+        "name": "Fancy Lads Snack Cakes",
+        "type": "consumable"
+      },
+      {
+        "id": "nMvfzS3mTgqejqh2",
+        "name": "Ribeye Steak",
+        "type": "consumable"
+      },
+      {
+        "id": "nOUCuf8jnEhLJkcJ",
+        "name": "Vegetable Soup",
+        "type": "consumable"
+      },
+      {
+        "id": "NPNBKxo6yByOIuQs",
+        "name": "Sugar Bombs (Preserved)",
+        "type": "consumable"
+      },
+      {
+        "id": "o0at3QFpM8FKxvZj",
+        "name": "Buffout",
+        "type": "consumable"
+      },
+      {
+        "id": "O8ozF1U9N1ZZ9axl",
+        "name": "Potted Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "ohCdi9MG6PoEnyJr",
+        "name": "Radscorpion Egg Omelette",
+        "type": "consumable"
+      },
+      {
+        "id": "OMWPk4ci2lfZmc6X",
+        "name": "Potato Crisps",
+        "type": "consumable"
+      },
+      {
+        "id": "PCTsMsjBtQzvc1aD",
+        "name": "Radstag Hide",
+        "type": "consumable"
+      },
+      {
+        "id": "pGaN2EDIWl3lUsrx",
+        "name": "Vodka",
+        "type": "consumable"
+      },
+      {
+        "id": "PT1qFvfqES9PgAHY",
+        "name": "Super Stimpak",
+        "type": "consumable"
+      },
+      {
+        "id": "PuL9AevtWz8clHFZ",
+        "name": "Brain Fungus",
+        "type": "consumable"
+      },
+      {
+        "id": "pV3wtJn1fqwTcBMj",
+        "name": "Med-X",
+        "type": "consumable"
+      },
+      {
+        "id": "PVf7RRNJLAIY2b2t",
+        "name": "Irradiated Blood",
+        "type": "consumable"
+      },
+      {
+        "id": "Qe3DSub3iHONeRaO",
+        "name": "Gourd",
+        "type": "consumable"
+      },
+      {
+        "id": "qeN8bq9CJ3EYwwAE",
+        "name": "Corn",
+        "type": "consumable"
+      },
+      {
+        "id": "qJUTRSy9Ic1L18BG",
+        "name": "Squirrel Stew",
+        "type": "consumable"
+      },
+      {
+        "id": "qvvShn56H3E1bb1O",
+        "name": "Baked Bloatfly",
+        "type": "consumable"
+      },
+      {
+        "id": "r464WdcRwusnzFtm",
+        "name": "Psycho",
+        "type": "consumable"
+      },
+      {
+        "id": "r5HGZTe9sYtWopL7",
+        "name": "Mole Rat Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "R9JlPSqlCfooNqFz",
+        "name": "Rad-X (Diluted)",
+        "type": "consumable"
+      },
+      {
+        "id": "RcNc9VxnJn25PmUF",
+        "name": "Overdrive",
+        "type": "consumable"
+      },
+      {
+        "id": "rj3fi0X9aQNceJF6",
+        "name": "Refreshing Beverage",
+        "type": "consumable"
+      },
+      {
+        "id": "RkEPnMsHQmgy4olE",
+        "name": "Berry Mentats",
+        "type": "consumable"
+      },
+      {
+        "id": "RXpTSDERvwv1nuZ5",
+        "name": "Robot Repair Kit",
+        "type": "consumable"
+      },
+      {
+        "id": "rzdZZUKOl7QaMRPt",
+        "name": "Radscorpion Steak",
+        "type": "consumable"
+      },
+      {
+        "id": "SHoKAwc6q8kNlt0r",
+        "name": "Addictol",
+        "type": "consumable"
+      },
+      {
+        "id": "smWip05JhGyTXRU1",
+        "name": "Dirty Water",
+        "type": "consumable"
+      },
+      {
+        "id": "Th2rOMBm5trq0s4h",
+        "name": "Yao Guai Roast",
+        "type": "consumable"
+      },
+      {
+        "id": "TlRxjXMYh0k1ljWl",
+        "name": "Melon",
+        "type": "consumable"
+      },
+      {
+        "id": "u3cKPD3k6CLScHVC",
+        "name": "Mirelurk Egg Omelette",
+        "type": "consumable"
+      },
+      {
+        "id": "u9KyfdRIzyQhCjnn",
+        "name": "Whiskey",
+        "type": "consumable"
+      },
+      {
+        "id": "ue9pFVAT1prcq70t",
+        "name": "Grape Mentats",
+        "type": "consumable"
+      },
+      {
+        "id": "ukyP2t9KtJiQ7uP6",
+        "name": "Psycho Jet",
+        "type": "consumable"
+      },
+      {
+        "id": "UlhNGl3T0UejS5ZW",
+        "name": "Beer",
+        "type": "consumable"
+      },
+      {
+        "id": "UMI1gGwZLhCGTFVK",
+        "name": "Daddy-O",
+        "type": "consumable"
+      },
+      {
+        "id": "uPYpLRvtS4R79qW2",
+        "name": "Fancy Lads Snack Cakes (Preserved)",
+        "type": "consumable"
+      },
+      {
+        "id": "uxikQYkupNqpmTyR",
+        "name": "Iguana on a Stick",
+        "type": "consumable"
+      },
+      {
+        "id": "Uxxc3gTKcLNpcBLU",
+        "name": "Nuka-Cola",
+        "type": "consumable"
+      },
+      {
+        "id": "vDzTAi2iRrZ5XTcc",
+        "name": "RadAway",
+        "type": "consumable"
+      },
+      {
+        "id": "VIoOx0NE579BpX4t",
+        "name": "Queen Mirelurk Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "vKPqt12nZaVKaTM4",
+        "name": "Grilled Radstag",
+        "type": "consumable"
+      },
+      {
+        "id": "vo4udlZQUOjzx402",
+        "name": "Crispy Squirrel Bits",
+        "type": "consumable"
+      },
+      {
+        "id": "vSv5EkpiV6z5XRHh",
+        "name": "Gum Drops",
+        "type": "consumable"
+      },
+      {
+        "id": "VszpkDVgQA22ZCmx",
+        "name": "Radstag Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "VUNnTzfG6Kywnt5O",
+        "name": "Perfectly Preserved Pie",
+        "type": "consumable"
+      },
+      {
+        "id": "vYcmjWOnJQnrv2gq",
+        "name": "Yao Guai Ribs",
+        "type": "consumable"
+      },
+      {
+        "id": "wiBxvaJTsmYQuAof",
+        "name": "Radscorpion Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "WU676EmpwjUR59Cg",
+        "name": "Stingwing Filet",
+        "type": "consumable"
+      },
+      {
+        "id": "wvr60yBKV9FfAMOv",
+        "name": "Deathclaw Egg",
+        "type": "consumable"
+      },
+      {
+        "id": "XEZtPJZ7SBhlIfGq",
+        "name": "Deathclaw Steak",
+        "type": "consumable"
+      },
+      {
+        "id": "xgOqumIzZGxJgMOX",
+        "name": "Psychotats",
+        "type": "consumable"
+      },
+      {
+        "id": "xqBDl5Gnc7Q335BN",
+        "name": "Cooked Softshell Meat",
+        "type": "consumable"
+      },
+      {
+        "id": "xQxEHsZuVRSR1yeB",
+        "name": "Asbestos",
+        "type": "consumable"
+      },
+      {
+        "id": "xTlLPA95S9y3Neqk",
+        "name": "Yum-Yum Deviled Eggs",
+        "type": "consumable"
+      },
+      {
+        "id": "xuXzlEC3V0co3w3h",
+        "name": "Purified Water",
+        "type": "consumable"
+      },
+      {
+        "id": "YbjXflCRhEgdvW0p",
+        "name": "Stimpak Diffuser",
+        "type": "consumable"
+      },
+      {
+        "id": "YFGiyWiFUG7icRPa",
+        "name": "Skeeto Spit",
+        "type": "consumable"
+      },
+      {
+        "id": "yqGACHwwNS8DBo4B",
+        "name": "InstaMash (Preserved)",
+        "type": "consumable"
+      },
+      {
+        "id": "YQPVshPe6pooP0zZ",
+        "name": "Glowing Blood Pack",
+        "type": "consumable"
+      },
+      {
+        "id": "yW3xNGa8YuPtoonL",
+        "name": "Mirelurk Egg",
+        "type": "consumable"
+      },
+      {
+        "id": "zCjOPQmaqITpaspN",
+        "name": "Cram",
+        "type": "consumable"
+      },
+      {
+        "id": "zP8u8sVBiiSGbcTB",
+        "name": "Mutant Hound Chops",
+        "type": "consumable"
+      },
+      {
+        "id": "ZXa7xGi9VXOzUuVN",
+        "name": "Bloodleaf",
+        "type": "consumable"
+      }
+    ],
+    "books-and-magazines": [
+      {
+        "id": "05H6aksyvOateBtf",
+        "name": "What Is Plasma, Anyway?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "0GXqsrMeNMoA9iCS",
+        "name": "Farming the Wastes",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "0pTA0wlRQUQ2oAHk",
+        "name": "Surrounded by the Dead!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "0QyGlHy565YJcdMI",
+        "name": "Programmer's Digest",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "0WGq8Aaq82V8nViB",
+        "name": "The Ohio River Hermit",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "116TjNgfBwkNOSF6",
+        "name": "Guide to Hunting Commies!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "13RpvXhUn7TdKjEA",
+        "name": "Attack of the Metal Men!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "1bOiFImI3fM9CaIJ",
+        "name": "Giant Insects Invade!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "2RauaAfTO24MIsP2",
+        "name": "FH 5-05 Who Goes There?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "4jcc9O3jIgAhUulK",
+        "name": "The Moon: A Communist Doomsday Device?!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "4lu6hamyxERQzWNa",
+        "name": "Bobby Pins: More Effective Than Lockpicks?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "4yO3TrAohgWDMhDI",
+        "name": "FH 5-04 Not the Soldiers You’re Looking For",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "5k41CcVoWDkABFcI",
+        "name": "Down Home Cookin'",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "5Y5Dkh9W0XRFfpQV",
+        "name": "U.S. Army Goes to Space",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "6rHaK2QtsSPGvSpJ",
+        "name": "Deadly Lasers!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "78JHpLZz5rQeTMP9",
+        "name": "Cometh the Trickster",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "8nJBGtcrUsO2hUDG",
+        "name": "Meeting People",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "8uCaW6rs4fwDWJUF",
+        "name": "Advice from Married Men",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "9hZXkRhoJIX47mWS",
+        "name": "Nightmare in the Garden",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "9UgvihjW0x2I5vn9",
+        "name": "In the Bosom of the Corsair Queen",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "9W6IRymdpOZXKmHG",
+        "name": "FH 5-06 Squeaky Floorboard, Sudden Death",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "9Z4Asa5c915hem9w",
+        "name": "¡La Fantoma!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "AJEifHfxya4EViFy",
+        "name": "Bear-Proofing your Campsite",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "CndyqCypQg50fKrr",
+        "name": "Giant Super Weapons!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "CYfpl0Gt0KEq1CcJ",
+        "name": "Commie-Kazi vs. Manta Man",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "DBYRYX03IcO2aTQG",
+        "name": "The Future of Hunting?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "ECXYCwNy7GKVavV3",
+        "name": "10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "EIzEOJH0iP4JzWnw",
+        "name": "The Bright Side of Radiation Poisoning",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "FQDIJeABc0a1g7Nt",
+        "name": "Massachusetts Surgical Journal",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "fYekpImbXPFZgNkz",
+        "name": "Carnivorous Rabbits of Appalachia",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "fYy1RCAJMGPRO9WJ",
+        "name": "Plasma: The Weapon of Tomorrow",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "G88aHNSeg4SvaCo9",
+        "name": "The Lair of the Virgin Eaters",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "GUbEJnFDx9p0CvbD",
+        "name": "Locksmith Certification Special — Pass with Flying Colors",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "h5GN8irnNWKC3xMD",
+        "name": "The Appalachia Squirrel Massacre",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "Hb3AdW5QaAHVDlNZ",
+        "name": "Will Robots Rule the World?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "hCRQEWSkpgvFluXe",
+        "name": "Beware the Man Handler",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "hhLOBbowNeo4VSDe",
+        "name": "Demon Slaves, Demon Sands",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "hQmjix9JtmveUaBz",
+        "name": "Water Aerobics for Ghouls",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "IB9mafYkrD1E7EuV",
+        "name": "Tales of a Junktown Jerky Vendor",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "IgqLkMbelsAnYC9q",
+        "name": "Trapped in the Dimension of the Pterror-dactyls",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "iiFcIlhklIMxjaoC",
+        "name": "The Mad Russian's Revenge!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "IRIhIXR0X1PnThvd",
+        "name": "Future Weapons Today",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "J86ayEuqmagF9OH0",
+        "name": "Rise of the Mutants!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "jKcPooNmifCreXOn",
+        "name": "Future of Warfare?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "jPdCfq2T6pELwzbK",
+        "name": "Curse of the Burned!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "KE1PFFcFheyQriDU",
+        "name": "FH 5-01 Whistling in the Dark",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "l04nHOGBarXy6rxt",
+        "name": "Self Defense Secrets",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "L7d6xppSur7dXyKt",
+        "name": "Geckos and Gamma Radiation",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "LATCQmWWljVCwMnt",
+        "name": "An Experience to Remember",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "lc4MTpvhDkQ7ApOS",
+        "name": "Coupon Spectacular",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "lHCsUY3S6twO3Fjb",
+        "name": "FH 5-09 Look Better in Black",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "M32bIhaLlqXttW9q",
+        "name": "Open Any Lock in 5 Seconds Flat",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "m6XUFT8MYFsgAvyH",
+        "name": "FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "mbkQ1d1IQjlSE6HG",
+        "name": "Hardy as a Sasquatch",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "mBOgGCUFastqsi1c",
+        "name": "Fixin' Things",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "mPUq6ivdAuHbxor6",
+        "name": "FH 5-03 Facepaint Fundamentals",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "MsXLDa4RZ0UHMT2J",
+        "name": "Art of the Tomahawk",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "mT0Wf89P2UGLZ83y",
+        "name": "Street Guns of Detroit",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "mT6qkeV6xTG1pnex",
+        "name": "Attack of the Fishmen!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "n5iAbo8IerJqOQNR",
+        "name": "Enter Maula: War Maiden of Mars",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "NyoiFuBl8FN4iRiZ",
+        "name": "Insect Repellent Special",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "od1qgkoqyO2SbhPV",
+        "name": "Tomorrow's Technology for Today's Super Soldiers",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "oR7Yb9XMHc1Yn49v",
+        "name": "What Sorcery is This?",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "ouvM5DNPcc9nqgIw",
+        "name": "FH 5-07 Getting the Drop on the Communists",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "PKilL8to3SDZHUAU",
+        "name": "The Secretary Charmer",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "qcEZIWmadDggAT8K",
+        "name": "Avoid Those Pesky Gun Laws!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "qJ0xswPVJhHeBwLT",
+        "name": "Lasers & Hunting: Acceptable Overkill",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "qx4yMqnLv4ZI6Ppx",
+        "name": "Blood on the Harp",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "rV3tvVvTmDGs7E0t",
+        "name": "FH 5-02 Urban Camouflage",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "rzLGWCVR5aHjEyFy",
+        "name": "Hunting in the Wastes",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "S71PQOPJq2vV0pH8",
+        "name": "Lost in the Snows of Lust",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "sJuyumHFWHrT4Kr0",
+        "name": "The Gunsmith of Harper’s Ferry",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "sNyzZdtR8zQeKE86",
+        "name": "The Starlet Sniper!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "szFJr7G3Z8XuW5rk",
+        "name": "Visit the Ux-Ron Galaxy!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "szr8VmfdWra3zwXO",
+        "name": "Dr. Brainwash and His Army of De-Capitalists!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "uCmxHbctgoe8jQDo",
+        "name": "Homesteading Horror",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "uizbEBbI5Jl1tjeI",
+        "name": "Life Long Best Friends!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "usR2XUJr38Er8QCh",
+        "name": "I Married a Robot",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "UvPtfBpiOmAmiKg2",
+        "name": "Little Guns for Little Ladies",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "V8SOn4RCMzgkx4u0",
+        "name": "Jungle of the Bat-Babies",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "vAtCC2CaGrGOgnSL",
+        "name": "FH 5-10 Tiptoe Through the Tulips",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "vcIgVqypELu1vP9C",
+        "name": "Fatherless Cur!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "WeOABgbveKblRqPw",
+        "name": "True Police Stories",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "xBhJROt39tupLIhb",
+        "name": "Who Can Stop the Unstoppable Grog-Na-Rok?!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "Xh4PnVNi5xJrCtZr",
+        "name": "Rocket Science for Toddlers",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "xT9LvN0vcacln4pN",
+        "name": "Nuke-the-Man!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "YFSFj5moNn7KNnT8",
+        "name": "Talk Yourself Sober",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "yjknvThwoDmQwU3M",
+        "name": "Take Aim, Army Style",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "yqeVKyCZWStLXitm",
+        "name": "Get Off My Lawn",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "YVmBhcEYI0eLLDM8",
+        "name": "Mysteries of the Master Key Exposed!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "ZHve7VSwmsyHRjom",
+        "name": "Confessions of a Housebreaker",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "zpcKGtIDvZn8Z1ut",
+        "name": "Science Gone Mad!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "zsdAyshPMJ7Clyis",
+        "name": "Boxing Times",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "ZTVTUHilc84UzoRP",
+        "name": "Duck and Cover!",
+        "type": "books_and_magz"
+      },
+      {
+        "id": "ZVFaC4f8Ki48eTdx",
+        "name": "Trim the Fat!",
+        "type": "books_and_magz"
+      }
+    ],
+    "miscellany": [
+      {
+        "id": "17BGbljBgFJ3IUS4",
+        "name": "Bobby Pin",
+        "type": "miscellany"
+      },
+      {
+        "id": "180k1U9dkW1ub7bH",
+        "name": "Holotape Player",
+        "type": "miscellany"
+      },
+      {
+        "id": "1IIFdsmtblCTYk0L",
+        "name": "Lock Pick Set",
+        "type": "miscellany"
+      },
+      {
+        "id": "1wxcXIYvgK4GTYUf",
+        "name": "Multi-Tool",
+        "type": "miscellany"
+      },
+      {
+        "id": "2RPjtHdYZ4YAT38a",
+        "name": "Backpack, Small",
+        "type": "miscellany"
+      },
+      {
+        "id": "Fkgwa1FrCdfQPvhl",
+        "name": "Pip-Boy",
+        "type": "miscellany"
+      },
+      {
+        "id": "h4ft10mkGXOGNaW3",
+        "name": "Holotags",
+        "type": "miscellany"
+      },
+      {
+        "id": "KBFbae9bid01j20J",
+        "name": "Lantern",
+        "type": "miscellany"
+      },
+      {
+        "id": "M5XB3Upu9SpAINY2",
+        "name": "Radio",
+        "type": "miscellany"
+      },
+      {
+        "id": "M7QQFcLD08YuKOqE",
+        "name": "Pack Brahmin",
+        "type": "miscellany"
+      },
+      {
+        "id": "O9gGqJE0CfsOYccB",
+        "name": "Junk",
+        "type": "miscellany"
+      },
+      {
+        "id": "opho9zlvwqcLUPcK",
+        "name": "Pre-War Money",
+        "type": "miscellany"
+      },
+      {
+        "id": "TchIjLRrOkHx44rk",
+        "name": "Geiger Counter",
+        "type": "miscellany"
+      },
+      {
+        "id": "tJzODq60DVEMlpF9",
+        "name": "Doctor's Bag",
+        "type": "miscellany"
+      },
+      {
+        "id": "tPN8cOC5ZLjMLSGO",
+        "name": "Deluxe Toolkit",
+        "type": "miscellany"
+      },
+      {
+        "id": "TyM9dMuF2apvJdIW",
+        "name": "Signal Flare",
+        "type": "miscellany"
+      },
+      {
+        "id": "UyuLMMopW2wqFOwA",
+        "name": "Flashlight",
+        "type": "miscellany"
+      },
+      {
+        "id": "vOXz7dt1WUCZu2Al",
+        "name": "Torch",
+        "type": "miscellany"
+      },
+      {
+        "id": "WY4ifZBy6XUHesiv",
+        "name": "Electronic Lockpicker",
+        "type": "miscellany"
+      },
+      {
+        "id": "WyjtxDmxyBdGcD6n",
+        "name": "First Aid Kit",
+        "type": "miscellany"
+      },
+      {
+        "id": "YaLiZAL7RIksO9Sc",
+        "name": "Backpack, Large",
+        "type": "miscellany"
+      }
+    ]
+  }
+}

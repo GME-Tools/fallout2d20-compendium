@@ -1,0 +1,34 @@
+{
+  "_id": "XNwJyuhYCbo5arhU",
+  "_key": "!items!XNwJyuhYCbo5arhU",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Irritations suintantes",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Lorsque vous subissez des dégâts physiques, vous subissez +1 dégât physique au début de votre prochain tour, en ignorant la résistance aux dégâts.</p>",
+    "duration": 3,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "XNwJyuhYCbo5arhU",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

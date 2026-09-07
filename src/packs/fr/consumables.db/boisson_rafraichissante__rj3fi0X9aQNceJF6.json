@@ -1,0 +1,93 @@
+{
+  "_id": "rj3fi0X9aQNceJF6",
+  "_key": "!items!rj3fi0X9aQNceJF6",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Refreshing Beverage.webp",
+  "name": "Boisson rafraîchissante",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableType": "beverage",
+    "cost": 110,
+    "description": "<p>Mystérieuse panacée élaborée avec des fournitures médicales, cette boisson restaure la santé et purge radiations et dépendances. Sa recette s’est transmise oralement, mais ses nombreux ingrédients la rendent rare.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×3</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.69jE7Uteh1NARMBL]{Poche de sang} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.vDzTAi2iRrZ5XTcc]{RadAway} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.860ofdvpufUzSqE7]{Stimpak} ×1</li></ul></section>",
+    "duration": "",
+    "effect": "<p>Soigne 10 dégâts de radiation et supprime toutes les dépendances.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 11,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 5,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1,
+    "weight": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "rj3fi0X9aQNceJF6",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Matériaux rares",
+            "canonicalName": "Rare Materials",
+            "quantity": 3,
+            "uuid": null
+          },
+          {
+            "name": "Poche de sang",
+            "canonicalName": "Blood Pack",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.69jE7Uteh1NARMBL"
+          },
+          {
+            "name": "Eau purifiée",
+            "canonicalName": "Purified Water",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.xuXzlEC3V0co3w3h"
+          },
+          {
+            "name": "RadAway",
+            "canonicalName": "RadAway",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.vDzTAi2iRrZ5XTcc"
+          },
+          {
+            "name": "Stimpak",
+            "canonicalName": "Stimpak",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.860ofdvpufUzSqE7"
+          }
+        ]
+      }
+    }
+  }
+}

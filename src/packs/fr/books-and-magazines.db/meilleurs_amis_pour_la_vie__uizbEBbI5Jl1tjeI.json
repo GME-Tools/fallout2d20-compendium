@@ -1,0 +1,43 @@
+{
+  "_id": "uizbEBbI5Jl1tjeI",
+  "_key": "!items!uizbEBbI5Jl1tjeI",
+  "effects": [],
+  "folder": "uxLAl0WJVbJc5bGK",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Life Long Best Friends!.webp",
+  "name": "Meilleurs amis pour la vie !",
+  "system": {
+    "cost": 100,
+    "description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Tous les membres du groupe gagnent +1 PV maximum pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.fr-perks.Item.SKyP3uQ4CQCcdKZs]{Meilleurs amis pour la vie !}</p></section>",
+    "effect": "<p>Tous les membres du groupe gagnent +1 PV maximum pendant une scène.</p>",
+    "favorite": false,
+    "publication": "Vie et amour",
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "uizbEBbI5Jl1tjeI",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "tbEGn43O1LAETF9O",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.tbEGn43O1LAETF9O",
+  "name": "Holotape Player",
+  "description": "Holotape Player",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    22,
+    22
+  ],
+  "drawn": false
+}

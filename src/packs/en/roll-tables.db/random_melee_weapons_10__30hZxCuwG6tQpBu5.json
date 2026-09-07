@@ -1,0 +1,14 @@
+{
+  "_id": "30hZxCuwG6tQpBu5",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.30hZxCuwG6tQpBu5",
+  "name": "Baton",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.jZstb7cuVXCJXPnj]{Baton}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    11,
+    11
+  ],
+  "drawn": false
+}

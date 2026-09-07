@@ -1,0 +1,72 @@
+{
+  "_id": "RDjyaSvAT6HzfEBn",
+  "_key": "!items!RDjyaSvAT6HzfEBn",
+  "effects": [],
+  "folder": "J39WOsgoviJbw4Tq",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Main Body.webp",
+  "name": "Plaque primitive (Corps principal)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": -20,
+    "cost": 20,
+    "description": "<p>Un blindage supplémentaire de fortune fixé à la structure d’un robot afin de mieux le protéger des dangers physiques. Son encombrement et sa conception rudimentaire réduisent toutefois sa capacité de charge.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li><li>Matériaux peu fréquents ×1</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "RDjyaSvAT6HzfEBn",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Primal Plate (Main Body)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 2,
+        "skill": "Réparation",
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 3,
+          "uncommon": 1,
+          "rare": 0
+        }
+      }
+    }
+  }
+}

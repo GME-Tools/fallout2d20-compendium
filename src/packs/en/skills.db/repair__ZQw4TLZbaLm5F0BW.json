@@ -1,0 +1,33 @@
+{
+  "_id": "ZQw4TLZbaLm5F0BW",
+  "_key": "!items!ZQw4TLZbaLm5F0BW",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Repair.png",
+  "name": "Repair",
+  "system": {
+    "defaultAttribute": "int",
+    "description": "<p>Building and repairing items, from guns to buildings, simple traps to complex mechanisms, fall under the Repair skill.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Intelligence</strong> but you might use Strength to get some heavy machinery operating again, or Perception to investigate a problem with an engine. You use Repair to fix and modify weapons, repair robots, craft items from scratch, or build defenses.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "en",
+        "upstream": "Muttley/foundryvtt-fallout",
+        "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "page": "44-46",
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

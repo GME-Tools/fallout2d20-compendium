@@ -1,0 +1,14 @@
+{
+  "_id": "ycAPRjqtlBd1wTP1",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.ycAPRjqtlBd1wTP1",
+  "name": "Cran d’arrêt",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-weapons.Item.ijD12AylGdTDshsy]{Cran d’arrêt}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    19,
+    19
+  ],
+  "drawn": false
+}

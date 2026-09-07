@@ -1,0 +1,14 @@
+{
+  "_id": "CBFM1IY2woyjphVX",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.CBFM1IY2woyjphVX",
+  "name": "Shishkebab",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.8RVrftHzFootwBD5]{Shishkebab}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false
+}

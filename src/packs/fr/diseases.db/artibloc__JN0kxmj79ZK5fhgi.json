@@ -1,0 +1,34 @@
+{
+  "_id": "JN0kxmj79ZK5fhgi",
+  "_key": "!items!JN0kxmj79ZK5fhgi",
+  "effects": [],
+  "folder": null,
+  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "name": "Artibloc",
+  "system": {
+    "daysInfected": 0,
+    "description": "<p>Vous devez dépenser 1 PA pour effectuer une attaque de corps à corps.</p>",
+    "duration": 1,
+    "favorite": false,
+    "infectionActive": false,
+    "source": "core_rulebook"
+  },
+  "type": "disease",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "JN0kxmj79ZK5fhgi",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  }
+}

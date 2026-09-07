@@ -1,0 +1,14 @@
+{
+  "_id": "0ImMB0Rt89ZqeLkP",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.0ImMB0Rt89ZqeLkP",
+  "name": "Deathclaw Gauntlet",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-weapons.Item.VBDdPeRHrRcaZhGn]{Deathclaw Gauntlet}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    2,
+    2
+  ],
+  "drawn": false
+}

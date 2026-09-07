@@ -1,0 +1,48 @@
+{
+  "_id": "CrftCookStation1",
+  "_key": "!items!CrftCookStation1",
+  "name": "Poste de cuisine",
+  "type": "object_or_structure",
+  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "effects": [],
+  "folder": null,
+  "system": {
+    "description": "<p>Un poste de cuisine fournit un feu et les ustensiles nécessaires pour cuisiner les aliments et les boissons. Son utilisation fait appel à la compétence Survie. Il peut être fabriqué sans établi et fonctionne pendant huit heures, après quoi sa réparation nécessite 1 matériau fréquent.</p>",
+    "favorite": false,
+    "source": "core_rulebook",
+    "constructionTime": 0,
+    "effect": "<p>Fournit un feu et les ustensiles nécessaires pour cuisiner. Il fonctionne huit heures avant de nécessiter 1 matériau fréquent pour être réparé.</p>",
+    "itemType": "crafting_table",
+    "materials": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0
+    },
+    "parentItem": "",
+    "perks": "",
+    "rarity": "common",
+    "skills": "Survie"
+  },
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "page": 209,
+        "errataReviewed": true,
+        "translationReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "complexity": 2,
+        "skill": "Survie",
+        "perks": [],
+        "rarity": "common",
+        "materials": [],
+        "station": "cooking",
+        "errata": "V6-2026"
+      }
+    }
+  }
+}

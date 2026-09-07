@@ -1,0 +1,14 @@
+{
+  "_id": "KCitaPiV8setz6tT",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.KCitaPiV8setz6tT",
+  "name": "Radio",
+  "description": "Radio",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    20,
+    20
+  ],
+  "drawn": false
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "agLROEPeyQHPmptB",
+  "_key": "!items!agLROEPeyQHPmptB",
+  "effects": [],
+  "folder": "FJhVwzslNQppZ9hj",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 3.webp",
+  "name": "Châssis hydraulique (Bras 3)",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "carry": 5,
+    "cost": 30,
+    "description": "<p>Des plaques de blindage spécialement conçues qui dissimulent de puissants systèmes hydrauliques améliorant les mouvements du robot.</p><p><strong>Spécial :</strong> les attaques de corps à corps effectuées avec des bras équipés d’un châssis hydraulique infligent +1 @fos[DC] de dégâts et gagnent l’effet Étourdissant.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 3</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": true,
+      "legR": false,
+      "torso": false
+    },
+    "perks": "Armorer 3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 3,
+      "physical": 3,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "agLROEPeyQHPmptB",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Hydraulic Frame (Arm 3)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 5,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 3"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  }
+}

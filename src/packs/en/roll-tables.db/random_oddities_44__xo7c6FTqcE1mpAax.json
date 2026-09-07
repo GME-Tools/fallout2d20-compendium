@@ -1,0 +1,14 @@
+{
+  "_id": "xo7c6FTqcE1mpAax",
+  "_key": "!tables.results!sUeIHeJSvRZp5me7.xo7c6FTqcE1mpAax",
+  "name": "Stealth Boy",
+  "description": "Stealth Boy",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    46,
+    46
+  ],
+  "drawn": false
+}

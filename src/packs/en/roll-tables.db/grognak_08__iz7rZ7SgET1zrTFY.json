@@ -1,0 +1,14 @@
+{
+  "_id": "iz7rZ7SgET1zrTFY",
+  "_key": "!tables.results!95C7laMPQoK9wwZj.iz7rZ7SgET1zrTFY",
+  "name": "Lost in the Snows of Lust",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-books-and-magazines.Item.S71PQOPJq2vV0pH8]{Lost in the Snows of Lust}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    15,
+    16
+  ],
+  "drawn": false
+}

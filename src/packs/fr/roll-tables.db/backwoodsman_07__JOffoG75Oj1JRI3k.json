@@ -1,0 +1,14 @@
+{
+  "_id": "JOffoG75Oj1JRI3k",
+  "_key": "!tables.results!b0YDWI7LbsTTbsLR.JOffoG75Oj1JRI3k",
+  "name": "L’art du tomahawk",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-books-and-magazines.Item.MsXLDa4RZ0UHMT2J]{L’art du tomahawk}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    13,
+    14
+  ],
+  "drawn": false
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "GQvToNs1kHcwOPII",
+  "_key": "!items!GQvToNs1kHcwOPII",
+  "effects": [],
+  "folder": "a6NtcgmV821A7tRN",
+  "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
+  "name": "Insonorisé",
+  "system": {
+    "apparelType": "armor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 2,
+    "description": "<p>Les améliorations d’armure s’appliquent à tous les types d’armure, à l’exception de l’armure de sécurité Vault-Tec. Elles s’installent toutes avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-perks.Item.EQjZHUxYinodOU6G]{Armurier} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "effect": "<p>Relancez 1d20 lors des tests de Discrétion.</p>",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Legs",
+    "modType": "upgrade",
+    "perks": "Armorer 2",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": "",
+    "weight": 0
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "GQvToNs1kHcwOPII",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": false,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 212,
+        "station": "armor",
+        "group": "armor-mods",
+        "complexity": 4,
+        "skill": "Réparation",
+        "perks": [
+          "Armurier 2"
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 5,
+          "uncommon": 3,
+          "rare": 0
+        }
+      }
+    }
+  }
+}
