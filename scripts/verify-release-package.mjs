@@ -42,6 +42,9 @@ const expected = (await listFiles(stage)).map(file => path.relative(dist, file).
 assert.deepEqual(names, expected, "ZIP contents differ from the staged release");
 assert.ok(names.includes(`${moduleId}/module.json`));
 assert.ok(names.includes(`${moduleId}/CHANGELOG.md`));
+for (const language of manifest.languages ?? []) {
+  assert.ok(names.includes(`${moduleId}/${language.path}`), `localization missing from release: ${language.path}`);
+}
 assert.ok(names.some(name => name.startsWith(`${moduleId}/packs-v14/`)));
 assert.ok(names.every(name => !name.includes("/src/") && !name.includes("/scripts/") && !name.endsWith(".psd")), "development files leaked into ZIP");
 

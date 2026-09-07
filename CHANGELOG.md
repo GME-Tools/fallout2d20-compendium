@@ -6,6 +6,7 @@ All notable changes to this private module are documented here.
 
 ### Added
 
+- Client-scoped English, French, or bilingual compendium navigation, defaulting to both for every role while keeping hidden packs and their UUIDs available.
 - Validated multi-publication registry with localized titles, source editions, languages, errata and translation status.
 - Backward-compatible structured provenance for secondary identical appearances, with precise validation diagnostics.
 - Regression tests locking all V1 document identities, UUID inputs and pack declarations.

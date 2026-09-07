@@ -22,6 +22,14 @@ Do not edit generated packs. Authoritative documents live under `src/packs/en/` 
 
 Publications are declared in the validated registry at `scripts/data/publications.mjs`; provenance, reprint/variant policy, and publication-aware folder and catalog conventions are documented in `docs/MULTI-PUBLICATION-REGISTRY.md`.
 
+## Visible languages
+
+In Foundry's settings, **Visible compendium languages** lets each browser show
+English packs, French packs, or both. The client-scoped default is both, so the
+V1.0.0 navigation is unchanged. A hidden language can be restored from the same
+setting; hiding affects only the Compendium sidebar and does not unload packs or
+break UUID links.
+
 ## Documentation
 
 - [Project scope](docs/PROJECT.md)

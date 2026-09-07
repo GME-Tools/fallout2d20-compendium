@@ -1,0 +1,15 @@
+{
+  "fallout2d20-compendium": {
+    "settings": {
+      "languageVisibility": {
+        "name": "Langues visibles des compendiums",
+        "hint": "Choisissez les packs de ce module affichés dans votre navigation. Les packs masqués restent accessibles aux liens et aux UUID.",
+        "choices": {
+          "both": "Anglais et français",
+          "en": "Anglais",
+          "fr": "Français"
+        }
+      }
+    }
+  }
+}

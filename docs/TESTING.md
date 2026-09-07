@@ -29,6 +29,13 @@ provenance-marked French Actors use the Core convention (`STR × 5 + 75 kg`),
 kilogram inventory totals. Newly created Actors without provenance are covered;
 English and external Actors delegate unchanged only in pound-configured worlds.
 
+Language-visibility regression tests verify the client-scoped `languageVisibility`
+setting for GM and player clients, all three choices, the safe fallback for an
+unknown stored value, initial directory rendering and live rerendering after a
+change. They also assert that filtering only removes this module's sidebar
+entries: all 40 collections remain in `game.packs` and a hidden document UUID
+continues to resolve.
+
 The CI matrix runs the same checks on Node.js 20 and 23. It also verifies the generated LevelDB pack contents and release archive rather than merely checking that those files exist.
 
 ## Foundry smoke test
@@ -73,3 +80,10 @@ node ci/run_foundry_browser_validation.mjs
 ```
 
 This opens a real Chromium client, loads every module pack, resolves all embedded UUID links, renders representative Item, Actor, and RollTable sheets, draws every English Core table, and creates then removes representative world documents and an embedded Item.
+
+For US-104, use separate GM and player browser profiles in the dedicated world.
+On each profile, exercise English, French, and both; reconnect and confirm that
+the client choice persists independently. For each single-language choice,
+resolve and open a known UUID from the hidden language in the console and
+confirm `game.packs` still contains all 40 module packs. No user world is an
+acceptable target for this check.

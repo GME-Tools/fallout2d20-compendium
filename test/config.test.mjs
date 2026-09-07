@@ -24,3 +24,15 @@ test("the manifest exposes only the two publication-neutral language folders", a
   assert.deepEqual(manifest.packFolders.map(({ name }) => name), ["Fallout 2d20 - English", "Fallout 2d20 - Français"]);
   assert.deepEqual(new Set(manifest.packFolders.flatMap(({ packs }) => packs)), new Set(manifest.packs.map(({ name }) => name)));
 });
+
+test("the manifest loads the English and French setting localizations", async () => {
+  const manifest = JSON.parse(await readFile("module.json", "utf8"));
+  assert.deepEqual(manifest.languages, [
+    { lang: "en", name: "English", path: "lang/en.json" },
+    { lang: "fr", name: "Français", path: "lang/fr.json" }
+  ]);
+  for (const { path } of manifest.languages) {
+    const translations = JSON.parse(await readFile(path, "utf8"));
+    assert.ok(translations["fallout2d20-compendium"]?.settings?.languageVisibility);
+  }
+});
