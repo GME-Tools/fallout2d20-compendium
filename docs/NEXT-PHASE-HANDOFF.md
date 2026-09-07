@@ -5,11 +5,13 @@ The actionable backlog for separate work conversations is maintained in
 the owner on 2026-09-07; implementation stories may now follow their recorded
 dependencies without making implicit structural decisions.
 
-`US-101`, `US-102`, and `US-103` are complete and accepted. The French Core
+`US-101`, `US-102`, `US-103`, and `US-104` are complete and accepted. The French Core
 weight audit now enforces exact `kg = lb / 2` values for root and embedded
 Items and carrying capacity, while the compatibility runtime corrects Actor
-encumbrance in kilogram-configured worlds. `US-104` is the next story on the
-consolidation sequence and must be handled in a separate conversation.
+encumbrance in kilogram-configured worlds. Language visibility is client scoped
+and keeps hidden packs registered. US-105 generalizes registry-driven quality
+controls while retaining Core editorial regressions. US-106 remains a separate
+qualification and delivery story and is not started here.
 
 ## Starting point
 

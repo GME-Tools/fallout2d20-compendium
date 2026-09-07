@@ -109,6 +109,37 @@ from secondary appearances. Core-specific V1 catalogs, report names and
 regression scripts retain their existing names because they are stable reviewed
 evidence, not generic infrastructure.
 
+## Publication audit contract
+
+US-105 adds a pure, registry-driven audit in
+`scripts/lib/publication-audit.mjs`. Its input is a registry, normalized root
+document records, reviewed duplicate approvals, and optional reviewed inventory
+coordinates. It returns diagnostics and a result for every registered
+publication, including a publication with zero occurrences.
+
+The generic invariants are:
+
+- provenance and registered language/edition/translation/errata metadata;
+- globally unambiguous document IDs within each language, plus bilingual
+  publication occurrence parity;
+- local, language-correct module UUIDs;
+- identical-reprint reuse, distinct approved mechanical variants, and reviewed
+  same-name editorial groups;
+- paired image path and artwork classification;
+- exact comparison with an injected publication inventory when one is supplied.
+
+Inventory coordinates use `<language>/<pack>/<document-id>`. Audit code only
+reads and compares these references; it has no snapshot or write operation.
+`scripts/data/publication-audit-contracts.mjs` routes the Core to its existing
+specialized reviewed catalogs and tests. A future reviewed catalog can provide
+an exact coordinate list without changing Core tests.
+
+Diagnostics identify the source file (or fixture coordinate), publication,
+language, pack, document ID, and relevant field. A `variant` appearance is
+rejected because variants are documents; a `corrected` appearance explicitly
+requires owner arbitration; only `identical` is accepted as a secondary
+appearance.
+
 ## V1 identity guarantee
 
 US-102 does not edit `src/packs/`, `module.json`, or generated `packs-v14/`.

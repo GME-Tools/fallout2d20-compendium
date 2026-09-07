@@ -31,4 +31,12 @@ test("unknown publications and malformed registry entries have precise diagnosti
   const registry = structuredClone(PUBLICATIONS);
   registry.BadId = { id: "BadId" };
   assert.throws(() => validatePublicationRegistry(registry), /publications\.BadId: id must use lower-case snake_case/);
+
+  const invalidErrata = structuredClone(PUBLICATIONS);
+  invalidErrata.core_rulebook.editions.en[0].errata = ["unknown-erratum"];
+  assert.throws(() => validatePublicationRegistry(invalidErrata), /editions\.en\[0\]\.errata: must contain only declared errata ids/);
+
+  const invalidTranslation = structuredClone(PUBLICATIONS);
+  invalidTranslation.core_rulebook.editions.fr[0].translation = "unreviewed";
+  assert.throws(() => validatePublicationRegistry(invalidTranslation), /editions\.fr\[0\]\.translation: must be original, official, or project/);
 });

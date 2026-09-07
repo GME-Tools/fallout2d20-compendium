@@ -16,6 +16,22 @@ Validation is warning-free. Approved duplicate display names are recorded as exa
 
 Publication-registry and provenance tests accept unchanged V1 flags, reject unknown publications and invalid secondary appearances, and lock the complete V1 document identity set and pack declarations. The content audit reports first and secondary appearance counts by registered publication.
 
+The US-105 publication audit additionally checks every registry entry,
+including an empty one, for cross-pack identity collisions, per-publication
+bilingual occurrence parity, language-local resolvable UUIDs, paired artwork,
+reviewed duplicate/variant classification, and optional exact inventory
+coordinates. Registry editions carry the authoritative translation and errata
+status. Reviewed inventory inputs are never generated or rewritten by
+`audit`, `validate`, `rebuild:core`, or `ci`; Core inventory snapshots remain a
+manual owner-reviewed maintenance command outside those pipelines.
+
+Core-only tests remain responsible for the V1 editorial decisions: exact
+domain inventories and recipes, Core errata, detailed French translations,
+magazine automation, extraction cleanup, exact artwork counts, and French
+weights. `test/publication-audit.test.mjs` supplies minimal positive and
+negative fixtures and proves that a registered empty or pilot publication does
+not require modifying those tests.
+
 `npm run audit:weights` exhaustively pairs every physical Core Item weight by
 pack and stable ID, including embedded Actor Items, Actor carrying capacity,
 robot carry modifiers, and the mod snapshots held by weapons and apparel. French values must be finite JSON numbers exactly equal to

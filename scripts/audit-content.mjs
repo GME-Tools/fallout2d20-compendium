@@ -3,10 +3,18 @@ import path from "node:path";
 import { LANGUAGES, PACKS } from "./config.mjs";
 import { listFiles } from "./lib/files.mjs";
 import { validateProvenance } from "./lib/provenance.mjs";
+import { PUBLICATIONS } from "./data/publications.mjs";
 
 const rows = [];
 const issues = [];
-const publicationCounts = {};
+const publicationCounts = Object.fromEntries(Object.entries(PUBLICATIONS).map(([id, publication]) => [id, {
+  firstAppearances: 0,
+  secondaryAppearances: 0,
+  languages: [...publication.languages],
+  editions: Object.fromEntries(publication.languages.map(language => [language, publication.editions[language].map(edition => ({
+    id: edition.id, translation: edition.translation, errata: [...edition.errata]
+  }))]))
+}]));
 
 function isRootDocument(document) {
   return /^!(?:items|actors|tables)![^.!]+$/.test(document._key ?? "");
@@ -40,10 +48,8 @@ for (const pack of PACKS) {
       const document = JSON.parse(await readFile(file, "utf8"));
       if (!isRootDocument(document)) continue;
       const provenance = validateProvenance(document, { language });
-      publicationCounts[provenance.book] ??= { firstAppearances: 0, secondaryAppearances: 0 };
       publicationCounts[provenance.book].firstAppearances++;
       for (const appearance of provenance.appearances) {
-        publicationCounts[appearance.book] ??= { firstAppearances: 0, secondaryAppearances: 0 };
         publicationCounts[appearance.book].secondaryAppearances++;
       }
       documentsByLanguage[language].set(document._id, document);
@@ -98,7 +104,7 @@ for (const pack of PACKS) {
 }
 
 const totals = Object.fromEntries(LANGUAGES.map(language => [language, rows.reduce((sum, row) => sum + row[language], 0)]));
-const audit = { generatedAt: new Date().toISOString(), source: "core_rulebook", errata: "V6 (2026)", totals, publications: publicationCounts, packs: rows, issues };
+const audit = { schemaVersion: 2, generatedAt: new Date().toISOString(), totals, publications: publicationCounts, packs: rows, issues };
 await mkdir("reports", { recursive: true });
 await writeFile("reports/content-audit.json", `${JSON.stringify(audit, null, 2)}\n`);
 

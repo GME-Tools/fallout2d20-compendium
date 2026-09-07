@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-09-07T13:58:48.526Z",
-  "source": "core_rulebook",
-  "errata": "V6 (2026)",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-07T15:42:51.055Z",
   "totals": {
     "en": 1382,
     "fr": 1382
@@ -9,7 +8,31 @@
   "publications": {
     "core_rulebook": {
       "firstAppearances": 2764,
-      "secondaryAppearances": 0
+      "secondaryAppearances": 0,
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "editions": {
+        "en": [
+          {
+            "id": "en-digital-2023-02",
+            "translation": "original",
+            "errata": [
+              "errata-v6-2026"
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "id": "fr-official",
+            "translation": "official",
+            "errata": [
+              "errata-v6-2026"
+            ]
+          }
+        ]
+      }
     }
   },
   "packs": [

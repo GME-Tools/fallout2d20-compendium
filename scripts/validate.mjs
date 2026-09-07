@@ -5,6 +5,9 @@ import { listFiles } from "./lib/files.mjs";
 import { imageDimensions } from "./lib/image-dimensions.mjs";
 import { approvedDuplicateNameGroups, duplicateGroupSignature } from "./data/approved-core-duplicate-names.mjs";
 import { validateProvenance } from "./lib/provenance.mjs";
+import { auditPublicationDocuments } from "./lib/publication-audit.mjs";
+import { PUBLICATIONS } from "./data/publications.mjs";
+import { PUBLICATION_DUPLICATE_APPROVALS, PUBLICATION_INVENTORY_CONTRACTS } from "./data/publication-audit-contracts.mjs";
 
 const errors = [];
 const warnings = [];
@@ -13,6 +16,7 @@ const namesByPack = new Map();
 const documentIdsByPack = new Map();
 let documentCount = 0;
 let recordCount = 0;
+const publicationRecords = [];
 
 function issue(list, file, message) {
   list.push(`${path.relative(process.cwd(), file)}: ${message}`);
@@ -46,6 +50,7 @@ for (const language of LANGUAGES) {
         continue;
       }
       documentCount++;
+      publicationRecords.push({ language, pack: pack.name, type: pack.type, file, document });
       if (!/^[A-Za-z0-9]{16}$/.test(document._id ?? "")) issue(errors, file, "_id must contain 16 alphanumeric characters");
       if (!document.name?.trim()) issue(errors, file, "name is required");
       if (!document.type && pack.type !== "RollTable") issue(errors, file, "document type is required");
@@ -84,6 +89,18 @@ for (const language of LANGUAGES) {
     }
   }
 }
+
+for (const [publicationId, contract] of Object.entries(PUBLICATION_INVENTORY_CONTRACTS)) {
+  if (!PUBLICATIONS[publicationId]) errors.push(`publication inventory contract: unknown publication ${JSON.stringify(publicationId)}`);
+  if (contract.mode !== "specialized") errors.push(`publication ${publicationId}: unsupported inventory contract mode ${JSON.stringify(contract.mode)}`);
+  for (const catalog of contract.catalogs ?? []) {
+    try { await stat(path.resolve(catalog)); }
+    catch { errors.push(`publication ${publicationId}: reviewed inventory does not exist: ${catalog}`); }
+  }
+}
+
+const publicationAudit = auditPublicationDocuments({ registry: PUBLICATIONS, records: publicationRecords, duplicateApprovals: PUBLICATION_DUPLICATE_APPROVALS });
+errors.push(...publicationAudit.errors);
 
 for (const language of LANGUAGES) {
   for (const pack of PACKS) {

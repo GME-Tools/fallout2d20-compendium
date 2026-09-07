@@ -6,6 +6,7 @@ All notable changes to this private module are documented here.
 
 ### Added
 
+- Registry-driven publication audits for identity collisions, bilingual parity, UUIDs, reprints/variants, duplicate approvals, artwork and read-only inventories, including empty/pilot publication fixtures and precise negative diagnostics.
 - Client-scoped English, French, or bilingual compendium navigation, defaulting to both for every role while keeping hidden packs and their UUIDs available.
 - Validated multi-publication registry with localized titles, source editions, languages, errata and translation status.
 - Backward-compatible structured provenance for secondary identical appearances, with precise validation diagnostics.
@@ -13,6 +14,7 @@ All notable changes to this private module are documented here.
 
 ### Changed
 
+- Generated content audits now emit registry edition, translation and errata metadata for every registered publication, including publications with no content.
 - Core authoring scripts now resolve `core_rulebook` through the publication registry instead of a global source constant.
 - Content audits now validate provenance and count first and secondary appearances by publication.
 
