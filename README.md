@@ -28,4 +28,5 @@ Do not edit generated packs. Authoritative documents live under `src/packs/en/` 
 - [Editorial decisions](docs/EDITORIAL-DECISIONS.md)
 - [Generated content audit](reports/content-audit.md)
 - [Version 1 content plan](docs/V1-CONTENT-PLAN.md)
+- [Next-phase handoff and framing](docs/NEXT-PHASE-HANDOFF.md)
 - [Changelog](CHANGELOG.md)
