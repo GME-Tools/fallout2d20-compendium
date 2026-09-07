@@ -1,6 +1,9 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { MODULE_ID, SOURCE_ID, documentKey } from "./config.mjs";
+import { MODULE_ID, documentKey } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const extractedTextPath = process.argv[2];
@@ -88,7 +91,7 @@ for (const source of sourceDocuments) {
   document._key = documentKey("Item", document._id);
   const sourceFlags = source.flags[MODULE_ID].source;
   document.flags[MODULE_ID].source = {
-    book: SOURCE_ID, language: "fr", page: "95-121", translatedFrom: document._id,
+    book: sourceId, language: "fr", page: "95-121", translatedFrom: document._id,
     extraction: officialHeadings[englishName] ? "pdftotext-raw" : "derived",
     translationReviewed: false, diceSymbolsReviewed: false,
     errataReviewed: sourceFlags.errataReviewed ?? false,

@@ -201,7 +201,7 @@
     "source": "core_rulebook",
     "stashed": false,
     "weaponType": "energyWeapons",
-    "weight": 1
+    "weight": 0.5
   },
   "type": "weapon_mod",
   "flags": {

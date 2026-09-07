@@ -1,5 +1,16 @@
 # Next-phase handoff
 
+The actionable backlog for separate work conversations is maintained in
+`docs/NEXT-PHASE-USER-STORIES.md`. Its `US-000` framing gate was accepted by
+the owner on 2026-09-07; implementation stories may now follow their recorded
+dependencies without making implicit structural decisions.
+
+`US-101`, `US-102`, and `US-103` are complete and accepted. The French Core
+weight audit now enforces exact `kg = lb / 2` values for root and embedded
+Items and carrying capacity, while the compatibility runtime corrects Actor
+encumbrance in kilogram-configured worlds. `US-104` is the next story on the
+consolidation sequence and must be handled in a separate conversation.
+
 ## Starting point
 
 Version `1.0.0` is published at <https://github.com/GME-Tools/fallout2d20-compendium/releases/tag/v1.0.0> from commit `81daa06`.

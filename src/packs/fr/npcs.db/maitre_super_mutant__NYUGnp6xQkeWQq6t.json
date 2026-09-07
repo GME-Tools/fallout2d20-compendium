@@ -112,7 +112,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -311,7 +311,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -475,7 +475,7 @@
       "system": {
         "description": "<p>Munitions: cartouches 5 mm Le minigun est une arme motorisée à tir rapide sur le modèle de la Gatling fréquemment employée par l’armée ou par d’autres factions moins puissantes qui ont réussi à acquérir ce type d’arme. Les miniguns sont utilisés comme arme montée latérale sur les vertiptères ou comme armes de poing lourdes d’assaut et de soutien. Grâce à sa cadence de tir élevée, l’arme peut produire des résultats dévastateurs, mais consomme pour cela des munitions à un rythme effarant; il est donc difficile de ne pas tomber à court de cartouches. Un minigun peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au minigun et s’installent avec la compétence Réparation:</p>",
         "favorite": false,
-        "weight": "27",
+        "weight": 13.5,
         "cost": "382",
         "quantity": 1,
         "rarity": 2,
@@ -653,7 +653,7 @@
       "system": {
         "description": "<p>Munitions: missiles Le lance-missiles modulaire est une arme à missiles sophistiquée hautement adaptable et polyvalente ajoutée à l’arsenal américain. Il est plus petit et plus maniable que l’ancien modèle. Il est composé d’un tube de lancement en deux parties, d’un mécanisme de tir, d’un support de montage, d’un viseur prévu pour les champs de bataille et d’un support pour un système de guidage.</p>",
         "favorite": false,
-        "weight": "21",
+        "weight": 10.5,
         "cost": "314",
         "quantity": 1,
         "rarity": 4,
@@ -900,7 +900,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 250,
+      "base": 125,
       "value": 0,
       "mod": 0
     },

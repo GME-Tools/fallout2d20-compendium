@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -571,7 +571,7 @@
       "system": {
         "description": "<p>Une grenade à fragmentation basique, composée d’un noyau explosif dans un boîtier métallique conçu pour répandre des éclats quand la détonation se produit. Elle est simple et très efficace. Prenez juste bien garde de lancer la grenade et pas la goupille.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>Établi de chimie</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>Explosifs</dd><dt>Aptitudes</dt><dd>Expert en démolition</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×2</li><li>Matériaux peu fréquents ×3</li></ul></section>",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "50",
         "quantity": 1,
         "rarity": 2,
@@ -748,7 +748,7 @@
       "system": {
         "description": "<p>Munitions: cartouches .308 Un fusil à verrou généralement manié par les super mutants et les pillards. Son design simple l’avait rendu populaire parmi les chasseurs et les survivalistes avant la Grande Guerre et il est très facilement personnalisable. Suggérer que la pétoire à canon court sans fioritures maniée par un super mutant pourrait être transformée en fusil de sniper de précision semble fantaisiste, mais cela décrit parfaitement le fusil de chasse. Un fusil de chasse peut accepter un mod de chaque type parmi les suivants:  Culasse: optimisée, calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon long, canon à ouvertures, canon ventilé  Crosse: crosse complète, crosse de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, silencieux</p>",
         "favorite": false,
-        "weight": "10",
+        "weight": 5,
         "cost": "55",
         "quantity": 1,
         "rarity": 2,
@@ -1006,7 +1006,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 230,
+      "base": 115,
       "value": 0,
       "mod": 0
     },

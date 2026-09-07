@@ -100,3 +100,104 @@ test("rendering a weapon sheet restores and preserves a localized ammunition sel
     clearFoundryMocks();
   }
 });
+
+test("French module Actors use exact kilogram capacity and inventory calculations", async () => {
+  installFoundryMocks({ ready: false });
+  class FalloutActorMock {
+    get useKgs() { return false; }
+    _getItemsTotalWeight() { return 999; }
+    _calculateEncumbrance() { this.englishCalculation = true; }
+    _prepareRobotData() { this.robotPrepared = true; }
+  }
+  CONFIG.Actor = { documentClass: FalloutActorMock };
+  game.settings = { get: (_system, key) => key === "carryBaseRobot" ? 150 : 150 };
+  try {
+    const runtime = await import(`${runtimeUrl.href}?weights`);
+    assert.equal(runtime.installFrenchWeightRuntime(), true);
+    const actor = new FalloutActorMock();
+    actor.type = "npc";
+    actor.flags = { "fallout2d20-compendium": { source: { book: "core_rulebook", language: "fr" } } };
+    actor.system = {
+      attributes: { str: { value: 6 } },
+      carryWeight: { base: 105, value: 0, mod: 2.5 },
+      materials: { junk: 2, common: 3, uncommon: 0, rare: 0 }
+    };
+    actor.items = [
+      { type: "weapon", system: { weight: 4.5, quantity: 2, stashed: false, isJunk: false } },
+      { type: "miscellany", system: { weight: 1, quantity: 3, stashed: false, isJunk: true } }
+    ];
+    actor.perkLevel = () => 0;
+    actor._calculateEncumbrance();
+    assert.equal(actor.useKgs, true);
+    assert.deepEqual(actor.system.carryWeight, { base: 105, value: 107.5, mod: 2.5, total: 15.5 });
+    assert.equal(actor.system.encumbranceLevel, 0);
+  } finally {
+    clearFoundryMocks();
+  }
+});
+
+test("French robot capacity preserves fractional carry modifiers while English Actors delegate", async () => {
+  installFoundryMocks({ ready: false });
+  class FalloutActorMock {
+    get useKgs() { return false; }
+    _getItemsTotalWeight() { return 12; }
+    _calculateEncumbrance() { this.englishCalculation = true; }
+    _prepareRobotData() { this.robotPrepared = true; this.system.carryWeight.base += 999; }
+  }
+  CONFIG.Actor = { documentClass: FalloutActorMock };
+  game.settings = { get: () => 150 };
+  try {
+    const runtime = await import(`${runtimeUrl.href}?robot-weights`);
+    runtime.installFrenchWeightRuntime();
+    const robot = new FalloutActorMock();
+    robot.type = "robot";
+    robot.flags = { "fallout2d20-compendium": { source: { book: "core_rulebook", language: "fr" } } };
+    robot.system = { carryWeight: { base: 0, value: 0, mod: 0 }, materials: {} };
+    robot.items = [{ type: "robot_armor", system: { carry: 2.5, equipped: true, stashed: false, weight: 0, quantity: 1 } }];
+    robot.perkLevel = () => 0;
+    robot._prepareRobotData();
+    assert.equal(robot.system.carryWeight.base, 77.5);
+    assert.equal(robot.system.carryWeight.value, 77.5);
+
+    const english = new FalloutActorMock();
+    english.flags = { "fallout2d20-compendium": { source: { book: "core_rulebook", language: "en" } } };
+    english._calculateEncumbrance();
+    assert.equal(english.englishCalculation, true);
+    assert.equal(english.useKgs, false);
+  } finally {
+    clearFoundryMocks();
+  }
+});
+
+test("a newly created Actor uses the configured 75 kg base without converting it again", async () => {
+  installFoundryMocks({ ready: false });
+  class FalloutActorMock {
+    get useKgs() { return game.settings.get("fallout", "carryUnit") === "kgs"; }
+    _getItemsTotalWeight() { return 999; }
+    _calculateEncumbrance() { this.system.carryWeight.base = 98; }
+    _prepareRobotData() {}
+  }
+  CONFIG.Actor = { documentClass: FalloutActorMock };
+  game.settings = { get: (_system, key) => ({ carryUnit: "kgs", carryBase: 75, carryBaseRobot: 75 })[key] };
+  try {
+    const runtime = await import(`${runtimeUrl.href}?new-actor-kgs`);
+    runtime.installFrenchWeightRuntime();
+    const actor = new FalloutActorMock();
+    actor.type = "character";
+    actor.flags = {};
+    actor.system = {
+      attributes: { str: { value: 5 } },
+      carryWeight: { base: 0, value: 0, mod: 0 },
+      materials: { junk: 0, common: 0, uncommon: 0, rare: 0 }
+    };
+    actor.items = [];
+    actor.perkLevel = () => 0;
+    actor._calculateEncumbrance();
+    assert.equal(actor.system.carryWeight.base, 100);
+    assert.equal(actor.system.carryWeight.value, 100);
+    assert.equal(actor.system.carryWeight.total, 0);
+    assert.equal(actor.useKgs, true);
+  } finally {
+    clearFoundryMocks();
+  }
+});

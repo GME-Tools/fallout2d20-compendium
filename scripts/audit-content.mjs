@@ -2,9 +2,11 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { LANGUAGES, PACKS } from "./config.mjs";
 import { listFiles } from "./lib/files.mjs";
+import { validateProvenance } from "./lib/provenance.mjs";
 
 const rows = [];
 const issues = [];
+const publicationCounts = {};
 
 function isRootDocument(document) {
   return /^!(?:items|actors|tables)![^.!]+$/.test(document._key ?? "");
@@ -37,10 +39,16 @@ for (const pack of PACKS) {
     for (const file of files) {
       const document = JSON.parse(await readFile(file, "utf8"));
       if (!isRootDocument(document)) continue;
+      const provenance = validateProvenance(document, { language });
+      publicationCounts[provenance.book] ??= { firstAppearances: 0, secondaryAppearances: 0 };
+      publicationCounts[provenance.book].firstAppearances++;
+      for (const appearance of provenance.appearances) {
+        publicationCounts[appearance.book] ??= { firstAppearances: 0, secondaryAppearances: 0 };
+        publicationCounts[appearance.book].secondaryAppearances++;
+      }
       documentsByLanguage[language].set(document._id, document);
       row[language]++;
       if (document.flags?.["fallout2d20-compendium"]?.source?.errataReviewed) row[`${language}ErrataReviewed`]++;
-      const provenance = document.flags?.["fallout2d20-compendium"]?.source;
       if (provenance?.translationReviewed) row[`${language}TranslationReviewed`]++;
       if (provenance?.structuralBaseline) row[`${language}StructuralBaseline`]++;
     }
@@ -90,7 +98,7 @@ for (const pack of PACKS) {
 }
 
 const totals = Object.fromEntries(LANGUAGES.map(language => [language, rows.reduce((sum, row) => sum + row[language], 0)]));
-const audit = { generatedAt: new Date().toISOString(), source: "core_rulebook", errata: "V6 (2026)", totals, packs: rows, issues };
+const audit = { generatedAt: new Date().toISOString(), source: "core_rulebook", errata: "V6 (2026)", totals, publications: publicationCounts, packs: rows, issues };
 await mkdir("reports", { recursive: true });
 await writeFile("reports/content-audit.json", `${JSON.stringify(audit, null, 2)}\n`);
 

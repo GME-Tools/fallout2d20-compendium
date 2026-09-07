@@ -20,12 +20,15 @@ npm run package
 
 Do not edit generated packs. Authoritative documents live under `src/packs/en/` and `src/packs/fr/`, one JSON file per Foundry document.
 
+Publications are declared in the validated registry at `scripts/data/publications.mjs`; provenance, reprint/variant policy, and publication-aware folder and catalog conventions are documented in `docs/MULTI-PUBLICATION-REGISTRY.md`.
+
 ## Documentation
 
 - [Project scope](docs/PROJECT.md)
 - [Testing and Foundry smoke test](docs/TESTING.md)
 - [Foundry v14 qualification](docs/V14-QUALIFICATION.md)
 - [Editorial decisions](docs/EDITORIAL-DECISIONS.md)
+- [Multi-publication registry and provenance](docs/MULTI-PUBLICATION-REGISTRY.md)
 - [Generated content audit](reports/content-audit.md)
 - [Version 1 content plan](docs/V1-CONTENT-PLAN.md)
 - [Next-phase handoff and framing](docs/NEXT-PHASE-HANDOFF.md)

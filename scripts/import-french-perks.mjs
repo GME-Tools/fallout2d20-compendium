@@ -1,6 +1,9 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { MODULE_ID, SOURCE_ID, documentKey } from "./config.mjs";
+import { MODULE_ID, documentKey } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const extractedTextPath = process.argv[2];
@@ -69,7 +72,7 @@ for (let position = 0; position < headings.length; position++) {
   document._key = documentKey("Item", document._id);
   const englishSource = document.flags[MODULE_ID].source;
   document.flags[MODULE_ID].source = {
-    book: SOURCE_ID,
+    book: sourceId,
     language: "fr",
     page: "59-73",
     translatedFrom: document._id,

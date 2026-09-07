@@ -8,7 +8,7 @@
   "system": {
     "apparelType": "plating",
     "canBeScrapped": true,
-    "carry": -10,
+    "carry": -5,
     "cost": 0,
     "description": "<p>Semblable au blindage standard mais doté de meilleures propriétés d’absorption thermique pour renforcer sa protection contre les armes à énergie, il équipe normalement les Mister Gutsy. C’est le blindage par défaut de tout personnage Mister Handy qui choisit l’archétype de départ Mister Gutsy.</p>",
     "equippable": true,

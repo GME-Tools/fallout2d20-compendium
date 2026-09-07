@@ -14,6 +14,21 @@ It also reads every compiled LevelDB record back and compares it with its JSON s
 
 Validation is warning-free. Approved duplicate display names are recorded as exact stable-ID groups; a new duplicate or an obsolete approval fails validation. Missing dedicated illustrations are tracked separately in `reports/missing-core-artwork.md` and use valid placeholders until replacement artwork is supplied.
 
+Publication-registry and provenance tests accept unchanged V1 flags, reject unknown publications and invalid secondary appearances, and lock the complete V1 document identity set and pack declarations. The content audit reports first and secondary appearance counts by registered publication.
+
+`npm run audit:weights` exhaustively pairs every physical Core Item weight by
+pack and stable ID, including embedded Actor Items, Actor carrying capacity,
+robot carry modifiers, and the mod snapshots held by weapons and apparel. French values must be finite JSON numbers exactly equal to
+the numeric English value divided by two; no rounding or exception is currently
+allowed. The deterministic paired inventory is written to
+`reports/us103-french-weight-inventory.json`.
+
+Runtime regression tests verify that kilogram-configured worlds and
+provenance-marked French Actors use the Core convention (`STR × 5 + 75 kg`),
+25 kg encumbrance increments, exact fractional robot carry modifiers and
+kilogram inventory totals. Newly created Actors without provenance are covered;
+English and external Actors delegate unchanged only in pound-configured worlds.
+
 The CI matrix runs the same checks on Node.js 20 and 23. It also verifies the generated LevelDB pack contents and release archive rather than merely checking that those files exist.
 
 ## Foundry smoke test

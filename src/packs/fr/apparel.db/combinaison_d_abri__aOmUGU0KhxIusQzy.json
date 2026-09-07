@@ -77,7 +77,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -233,7 +233,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -286,7 +286,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -442,7 +442,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -570,7 +570,7 @@
     "shadowed": false,
     "source": "core_rulebook",
     "stashed": false,
-    "weight": 1
+    "weight": 0.5
   },
   "type": "apparel",
   "flags": {

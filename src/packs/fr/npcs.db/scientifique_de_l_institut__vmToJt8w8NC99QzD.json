@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -409,7 +409,7 @@
       "system": {
         "description": "<p>Munitions: cellules à fusion Développés par l’Institut après la Grande Guerre, les lasers de l’Institut ont un design et une fonction différents des armes laser d’avant-guerre utilisées par les autres factions, par exemple la Confrérie de l’Acier. Échangeant la puissance brute contre une succession rapide de rayons, ces lasers peuvent émettre une volée fulgurante de tirs de suppression. Le profil par défaut représente un pistolet de l’Institut. Un laser de l’Institut peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de l’Institut ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon : canon long, canon automatique, canon amélioré  Crosse: crosse standard  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
         "favorite": false,
-        "weight": "4",
+        "weight": 2,
         "cost": "50",
         "quantity": 1,
         "rarity": 2,
@@ -644,7 +644,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 190,
+      "base": 95,
       "value": 0,
       "mod": 0
     },

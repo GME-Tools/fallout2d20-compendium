@@ -2,6 +2,24 @@
 
 All notable changes to this private module are documented here.
 
+## Unreleased
+
+### Added
+
+- Validated multi-publication registry with localized titles, source editions, languages, errata and translation status.
+- Backward-compatible structured provenance for secondary identical appearances, with precise validation diagnostics.
+- Regression tests locking all V1 document identities, UUID inputs and pack declarations.
+
+### Changed
+
+- Core authoring scripts now resolve `core_rulebook` through the publication registry instead of a global source constant.
+- Content audits now validate provenance and count first and secondary appearances by publication.
+
+### Fixed
+
+- Convert every French Core Item weight and carrying-capacity value, including embedded Actor equipment, robot modifiers and nested mod snapshots, with the authoritative exact `kg = lb / 2` rule and enforce it with an exhaustive audit.
+- Correct Fallout's derived carrying-capacity calculation for every Actor in kilogram-configured worlds and for this module's French Actors, including newly created Actors and fractional robot modifiers, while leaving pound-configured English or external documents unchanged.
+
 ## 1.0.0 — 2026-09-07
 
 ### Added

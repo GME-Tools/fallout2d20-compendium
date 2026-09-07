@@ -216,7 +216,7 @@
     "stashed": false,
     "tear": 0,
     "weaponType": "explosives",
-    "weight": 1
+    "weight": 0.5
   },
   "type": "weapon",
   "flags": {

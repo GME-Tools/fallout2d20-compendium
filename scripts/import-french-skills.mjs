@@ -1,6 +1,9 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { MODULE_ID, SOURCE_ID, documentKey } from "./config.mjs";
+import { MODULE_ID, documentKey } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const legacyPath = "lang/packs/fr/fallout.skills.json";
@@ -21,7 +24,7 @@ for (const filename of (await readdir(englishRoot)).filter(file => file.endsWith
   document.system.description = translation.description;
   document._key = documentKey("Item", document._id);
   document.flags[MODULE_ID].source = {
-    book: SOURCE_ID,
+    book: sourceId,
     language: "fr",
     page: document.flags[MODULE_ID].source.page ?? "44-46",
     translatedFrom: document._id,

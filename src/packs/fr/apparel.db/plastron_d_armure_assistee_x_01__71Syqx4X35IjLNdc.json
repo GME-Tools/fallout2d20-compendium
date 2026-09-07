@@ -77,7 +77,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -129,7 +129,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 5
+          "weight": 2.5
         },
         "type": "apparel_mod"
       },
@@ -181,7 +181,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -234,7 +234,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 4
+          "weight": 2
         },
         "type": "apparel_mod"
       },
@@ -286,7 +286,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -338,7 +338,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -390,7 +390,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -442,7 +442,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -494,7 +494,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -547,7 +547,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 4
+          "weight": 2
         },
         "type": "apparel_mod"
       },
@@ -599,7 +599,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -651,7 +651,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 3
+          "weight": 1.5
         },
         "type": "apparel_mod"
       },
@@ -704,7 +704,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -756,7 +756,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "apparel_mod"
       },
@@ -808,7 +808,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -861,7 +861,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -914,7 +914,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 4
+          "weight": 2
         },
         "type": "apparel_mod"
       },
@@ -968,7 +968,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -1022,7 +1022,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -1075,7 +1075,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       },
@@ -1127,7 +1127,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "summary": "",
-          "weight": 2
+          "weight": 1
         },
         "type": "apparel_mod"
       }
@@ -1147,7 +1147,7 @@
     "shadowed": false,
     "source": "core_rulebook",
     "stashed": false,
-    "weight": 20
+    "weight": 10
   },
   "type": "apparel",
   "flags": {

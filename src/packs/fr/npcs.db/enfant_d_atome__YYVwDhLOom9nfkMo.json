@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -463,7 +463,7 @@
       "system": {
         "description": "<p>Munitions: cartouches Gamma Le pistolet Gamma est une arme d’apparence grossière qui émet des déflagrations de rayonnement ionisant à haute intensité dirigées sur un point précis, ce qui peut se révéler dévastateur pour toute créature qui n’est pas immunisée contre les radiations ou au moins très résistante à leurs effets, mais fait très peu de mal aux autres cibles. Un pistolet Gamma peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au pistolet Gamma et s’installent avec la compétence Sciences:</p>",
         "favorite": false,
-        "weight": "3",
+        "weight": 1.5,
         "cost": "156",
         "quantity": 1,
         "rarity": 5,
@@ -700,7 +700,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 200,
+      "base": 100,
       "value": 0,
       "mod": 0
     },

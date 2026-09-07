@@ -77,6 +77,7 @@ test("French ammunition is complete, described, and structurally paired with Eng
     assert.equal(document.system.cost, source.system.cost);
     assert.equal(document.system.rarity, source.system.rarity);
     assert.equal(document.system.quantityRoll, source.system.quantityRoll);
+    assert.equal(document.system.weight, source.system.weight / 2);
     assert.equal(document.flags["fallout2d20-compendium"].source.language, "fr");
   }
 });
@@ -94,9 +95,10 @@ test("French weapons are complete, described, and retain English mechanical data
     const source = english.get(document._id);
     assert.ok(source, `French weapon ${document.name} has no English counterpart`);
     assert.ok(document.system.description.replace(/<[^>]+>/g, "").trim().length >= 20, `${document.name} has no description`);
-    for (const property of ["cost", "rarity", "weight", "fireRate", "damageRating"]) {
+    for (const property of ["cost", "rarity", "fireRate", "damageRating"]) {
       assert.deepEqual(document.system[property], source.system[property], `${document.name} changed ${property}`);
     }
+    assert.equal(document.system.weight, source.system.weight / 2, `${document.name} has an unconverted weight`);
     const expectedAmmo = frenchAmmunitionNames[source.system.ammo] ?? source.system.ammo;
     assert.equal(document.system.ammo, expectedAmmo, `${document.name} has an untranslated ammunition reference`);
     assert.deepEqual(document.system.damage, source.system.damage, `${document.name} changed its damage automation`);
@@ -110,9 +112,10 @@ test("French weapon modifications exhaustively preserve English mechanics", asyn
   for (const document of french) {
     const source = english.get(document._id);
     assert.ok(source, `French weapon mod ${document.name} has no English counterpart`);
-    for (const property of ["cost", "weight", "rarity", "modType", "weaponType"]) {
+    for (const property of ["cost", "rarity", "modType", "weaponType"]) {
       assert.deepEqual(document.system[property], source.system[property], `${document.name} changed ${property}`);
     }
+    assert.equal(document.system.weight, source.system.weight / 2, `${document.name} has an unconverted weight`);
     const expectedEffects = structuredClone(source.system.modEffects);
     if (expectedEffects.ammo) expectedEffects.ammo = frenchAmmunitionNames[expectedEffects.ammo] ?? expectedEffects.ammo;
     assert.deepEqual(document.system.modEffects, expectedEffects, `${document.name} changed its automation beyond its localized ammunition reference`);

@@ -36,5 +36,5 @@ for (const language of ["en", "fr"]) test(`${language} scalar actor errata V6 ar
   const wastelander = await actor(language, "npcs", "Wastelander");
   assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => wastelander.system.attributes[k].value), [6,5,7,4,5,5,4]);
   assert.equal(wastelander.system.initiative.value, 10);
-  assert.equal(wastelander.system.carryWeight.base, 210);
+  assert.equal(wastelander.system.carryWeight.base, language === "fr" ? 105 : 210);
 });

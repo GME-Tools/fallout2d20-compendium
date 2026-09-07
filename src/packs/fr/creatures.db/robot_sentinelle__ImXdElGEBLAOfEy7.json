@@ -155,7 +155,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -205,7 +205,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -427,7 +427,7 @@
       "system": {
         "description": "<p>Munitions: missiles Le lance-missiles modulaire est une arme à missiles sophistiquée hautement adaptable et polyvalente ajoutée à l’arsenal américain. Il est plus petit et plus maniable que l’ancien modèle. Il est composé d’un tube de lancement en deux parties, d’un mécanisme de tir, d’un support de montage, d’un viseur prévu pour les champs de bataille et d’un support pour un système de guidage.</p>",
         "favorite": false,
-        "weight": "21",
+        "weight": 10.5,
         "cost": "314",
         "quantity": 1,
         "rarity": 4,
@@ -605,7 +605,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -783,7 +783,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,

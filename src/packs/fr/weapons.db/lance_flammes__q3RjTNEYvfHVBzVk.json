@@ -412,7 +412,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "bigGuns",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -629,7 +629,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "bigGuns",
-          "weight": 7
+          "weight": 3.5
         },
         "type": "weapon_mod"
       },
@@ -1068,7 +1068,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "bigGuns",
-          "weight": 3
+          "weight": 1.5
         },
         "type": "weapon_mod"
       },
@@ -1502,7 +1502,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "bigGuns",
-          "weight": 6
+          "weight": 3
         },
         "type": "weapon_mod"
       }
@@ -1518,7 +1518,7 @@
     "stashed": false,
     "tear": 0,
     "weaponType": "bigGuns",
-    "weight": 16
+    "weight": 8
   },
   "type": "weapon",
   "flags": {

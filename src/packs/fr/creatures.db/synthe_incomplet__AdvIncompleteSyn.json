@@ -178,7 +178,7 @@
       "system": {
         "description": "<p>Une attaque portée sans arme, à coups de poing, de pied ou avec une autre partie du corps.</p>",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -355,7 +355,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,

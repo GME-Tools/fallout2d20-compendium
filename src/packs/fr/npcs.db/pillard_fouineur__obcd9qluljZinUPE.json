@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -490,7 +490,7 @@
       "system": {
         "description": "<p>La machette est un long couteau acéré conçu pour débroussailler une végétation dense ou résistante. Elle est un outil utile pour les mêmes raisons qu’elle est une arme efficace. Certaines machettes présentes dans les Terres désolées étaient des lames conçues à cet effet, mais d’autres sont des outils artisanaux, généralement fabriqués avec une lame de métal aiguisée, par exemple récupérée sur une tondeuse à gazon, fixée à une poignée simple par des écrous, de la corde, du scotch ou autre chose encore. Les machettes peuvent accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
         "favorite": false,
-        "weight": "5",
+        "weight": 2.5,
         "cost": "25",
         "quantity": 1,
         "rarity": 1,
@@ -694,7 +694,7 @@
       "system": {
         "description": "<p>Munitions: calibre 12 Les fusils de combat sont des fusils conçus pour mener des assauts, généralement pour une force militaire; ils sont parfaits pour le combat rapproché dans des tunnels, des bâtiments ou les rues en ruines d’anciennes villes. Un fusil de combat peut accepter un mod de chaque type parmi les suivants:  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, avancée  Canon: canon long, canon à ouvertures  Crosse: crosse complète, crosse de tireur d’élite, crosse à compensateur de recul  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, compensateur, frein de bouche, silencieux</p>",
         "favorite": false,
-        "weight": "11",
+        "weight": 5.5,
         "cost": "87",
         "quantity": 1,
         "rarity": 2,
@@ -931,7 +931,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 210,
+      "base": 105,
       "value": 0,
       "mod": 0
     },

@@ -1,4 +1,100 @@
 const MODULE_ID = "fallout2d20-compendium";
+const PATCHED = Symbol.for(`${MODULE_ID}.frenchWeightRuntimePatched`);
+
+export function isFrenchModuleDocument(document) {
+  const source = document?.flags?.[MODULE_ID]?.source;
+  return source?.book === "core_rulebook" && source?.language === "fr";
+}
+
+export function usesExactKilograms(document) {
+  return isFrenchModuleDocument(document) || game.settings.get("fallout", "carryUnit") === "kgs";
+}
+
+export function configuredKilogramBase(value) {
+  return game.settings.get("fallout", "carryUnit") === "kgs" ? number(value) : number(value) / 2;
+}
+
+function number(value) {
+  const parsed = Number.parseFloat(value);
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
+export function frenchItemsTotalWeight(actor) {
+  let physicalItems = [...(actor.items ?? [])].filter(item => !item.system?.stashed && item.system?.weight != null);
+  if (actor.type === "character") {
+    physicalItems = physicalItems.filter(item => item.system?.apparelType !== "powerArmor" || !item.system?.powerArmor?.powered);
+  } else if (actor.isCreature) {
+    physicalItems = physicalItems.filter(item => item.type !== "consumable" || !item.system?.butchery);
+  }
+  let junkWeight = number(actor.system?.materials?.junk);
+  let materialWeight = 0;
+  for (const material of ["common", "uncommon", "rare"]) materialWeight += number(actor.system?.materials?.[material]) / 2;
+  let itemsWeight = 0;
+  for (const item of physicalItems) {
+    const itemWeight = number(item.system?.weight);
+    const quantity = number(item.system?.quantity);
+    if (item.system?.isJunk) junkWeight += itemWeight * quantity;
+    else itemsWeight += itemWeight * quantity;
+  }
+  if (actor.perkLevel?.("Pack Rat") > 0) junkWeight /= 2;
+  return Number.parseFloat((itemsWeight + junkWeight + materialWeight).toFixed(2));
+}
+
+export function prepareFrenchEncumbrance(actor, carryBaseKilograms) {
+  const strength = number(actor.system?.attributes?.str?.value);
+  actor.system.carryWeight.base = strength * 5 + number(carryBaseKilograms);
+  actor.system.carryWeight.value = actor.system.carryWeight.base + number(actor.system.carryWeight.mod);
+  actor.system.carryWeight.total = frenchItemsTotalWeight(actor);
+  const excess = actor.system.carryWeight.total - actor.system.carryWeight.value;
+  actor.system.encumbranceLevel = excess > 0 ? Math.ceil(excess / 25) : 0;
+}
+
+export function prepareFrenchRobotEncumbrance(actor, sourceBase, carryBaseKilograms) {
+  const carryModifier = [...(actor.items ?? [])]
+    .filter(item => item.type === "robot_armor" && item.system?.equipped && !item.system?.stashed)
+    .reduce((total, item) => total + number(item.system.carry), 0);
+  actor.system.carryWeight.base = number(sourceBase) + number(carryBaseKilograms) + carryModifier;
+  actor.system.carryWeight.value = actor.system.carryWeight.base + number(actor.system.carryWeight.mod);
+  actor.system.carryWeight.total = frenchItemsTotalWeight(actor);
+  const excess = actor.system.carryWeight.total - actor.system.carryWeight.value;
+  actor.system.encumbranceLevel = excess > 0 ? Math.ceil(excess / 25) : 0;
+}
+
+export function installFrenchWeightRuntime() {
+  const ActorClass = globalThis.CONFIG?.Actor?.documentClass;
+  const prototype = ActorClass?.prototype;
+  if (!prototype || prototype[PATCHED]) return false;
+  const useKgs = Object.getOwnPropertyDescriptor(prototype, "useKgs");
+  const calculateEncumbrance = prototype._calculateEncumbrance;
+  const prepareRobotData = prototype._prepareRobotData;
+  const itemsTotalWeight = prototype._getItemsTotalWeight;
+  if (!useKgs?.get || typeof calculateEncumbrance !== "function" || typeof prepareRobotData !== "function" || typeof itemsTotalWeight !== "function") return false;
+
+  Object.defineProperty(prototype, "useKgs", {
+    configurable: true,
+    get() {
+      if (usesExactKilograms(this)) return true;
+      return useKgs.get.call(this);
+    }
+  });
+  prototype._getItemsTotalWeight = function (...args) {
+    return usesExactKilograms(this) ? frenchItemsTotalWeight(this) : itemsTotalWeight.apply(this, args);
+  };
+  prototype._calculateEncumbrance = function (...args) {
+    if (!usesExactKilograms(this)) return calculateEncumbrance.apply(this, args);
+    return prepareFrenchEncumbrance(this, configuredKilogramBase(game.settings.get("fallout", "carryBase")));
+  };
+  prototype._prepareRobotData = function (...args) {
+    if (!usesExactKilograms(this) || this.type !== "robot") return prepareRobotData.apply(this, args);
+    const sourceBase = this.system.carryWeight.base;
+    const result = prepareRobotData.apply(this, args);
+    prepareFrenchRobotEncumbrance(this, sourceBase, configuredKilogramBase(game.settings.get("fallout", "carryBaseRobot")));
+    return result;
+  };
+  Object.defineProperty(prototype, PATCHED, { value: true });
+  console.info(`${MODULE_ID} | Installed exact French kilogram and carrying-capacity compatibility.`);
+  return true;
+}
 
 export async function restoreAmmunitionConfiguration() {
   try {
@@ -40,9 +136,11 @@ export async function preserveAmmunitionSelection(app, html) {
 }
 
 async function stabilizeAmmunitionConfiguration() {
+  installFrenchWeightRuntime();
   await restoreAmmunitionConfiguration();
 }
 
 Hooks.on("renderItemSheet", preserveAmmunitionSelection);
+Hooks.once("init", installFrenchWeightRuntime);
 if (globalThis.game?.ready) stabilizeAmmunitionConfiguration();
 else Hooks.once("ready", stabilizeAmmunitionConfiguration);

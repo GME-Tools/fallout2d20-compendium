@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -489,7 +489,7 @@
       "system": {
         "description": "<p>Munitions : cartouches 10 mm Petit, sûr, raisonnablement puissant et aisé à trouver, le pistolet 10 mm est impliqué dans l’immense majorité des combats dans les Terres désolées depuis la chute des bombes. Grâce à sa polyvalence et à la possibilité de lui appliquer des modules, un pistolet 10 mm bien entretenu garantit la sécurité de son propriétaire pendant longtemps. Un pistolet 10 mm peut accepter un mod de chaque type parmi les suivants:  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, avancée  Canon: canon long, canon à ouvertures  Poignée: poignée confort, poignée de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette de reconnaissance  Bouche: compensateur, silencieux</p>",
         "favorite": false,
-        "weight": "4",
+        "weight": 2,
         "cost": "50",
         "quantity": 1,
         "rarity": 1,
@@ -666,7 +666,7 @@
       "system": {
         "description": "<p>Munitions: calibre 12 Avant la Grande Guerre, les fusils à double canon étaient surtout utilisés pour la chasse et la défense personnelle, et cela n’a pas beaucoup changé. Ce sont des armes à bascule et les deux canons sont soit côte à côte, soit l’un au-dessus de l’autre. Simples à fabriquer et à entretenir, ces fusils sont courants dans le Commonwealth et dans le reste des Terres désolées. Un fusil à double canon peut accepter un mod de chaque type parmi les suivants:  Culasse : renforcée, haute sensibilité, puissante, avancée  Canon: canon long, canon scié  Crosse: crosse complète  Viseur: viseur laser  Bouche: frein de bouche</p>",
         "favorite": false,
-        "weight": "9",
+        "weight": 4.5,
         "cost": "39",
         "quantity": 1,
         "rarity": 1,
@@ -844,7 +844,7 @@
       "system": {
         "description": "<p>Composé d’une bouteille de verre (généralement d’un alcool quelconque) contenant un mélange de carburants inflammable, d’un peu d’huile de moteur pour aider le feu à se répandre et d’un chiffon imbibé d’alcool enfoncé dans le goulot pour servir de mèche. Pour utiliser le cocktail Molotov, il faut allumer la mèche et lancer la bouteille sur la cible; la bouteille se brise et répand le mélange remué, qui s’enflamme rapidement et se met à brûler tout ce qui se trouve à proximité. Bon marché et efficace.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>Établi de chimie</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>Explosifs</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li><li>Matériaux peu fréquents ×2</li></ul></section>",
         "favorite": false,
-        "weight": "1",
+        "weight": 0.5,
         "cost": "20",
         "quantity": 1,
         "rarity": 1,
@@ -1124,7 +1124,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 200,
+      "base": 100,
       "value": 0,
       "mod": 0
     },

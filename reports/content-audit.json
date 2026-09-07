@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-09-07T08:35:22.807Z",
+  "generatedAt": "2026-09-07T13:58:48.526Z",
   "source": "core_rulebook",
   "errata": "V6 (2026)",
   "totals": {
     "en": 1382,
     "fr": 1382
+  },
+  "publications": {
+    "core_rulebook": {
+      "firstAppearances": 2764,
+      "secondaryAppearances": 0
+    }
   },
   "packs": [
     {

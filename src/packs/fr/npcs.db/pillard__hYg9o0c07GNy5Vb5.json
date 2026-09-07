@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -490,7 +490,7 @@
       "system": {
         "description": "<p>Un outil simple en forme de L souvent présent dans les voitures et les garages; les démonte-pneus sont des armes bien pratiques quand ils ne servent pas à changer les pneus d’une voiture. Un démonte-pneu peut accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
         "favorite": false,
-        "weight": "2",
+        "weight": 1,
         "cost": "25",
         "quantity": 1,
         "rarity": 1,
@@ -668,7 +668,7 @@
       "system": {
         "description": "<p>Munitions: cartouches .38 Une arme artisanale grossière, généralement maniée par ceux qui ne peuvent pas fabriquer, acheter ou trouver quoi que ce soit de mieux. Les armes de fortune sont rudimentaires, peu fiables, mais assez efficaces. La forme la plus courante de l’arme de fortune est un petit pistolet de poing simple semi-automatique, chambré pour utiliser les cartouches .38 aisées à trouver, mais des gens entreprenants (ou désespérés) appliquent parfois des modules à ces armes pour qu’elles tirent automatiquement ou deviennent des armes de précision. Une arme de fortune peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de fortune ».  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, culasse .45  Canon : canon long, canon à ouvertures, canon à ailettes  Poignée: poignée de tireur d’élite</p>",
         "favorite": false,
-        "weight": "2",
+        "weight": 1,
         "cost": "30",
         "quantity": 1,
         "rarity": 0,
@@ -905,7 +905,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 210,
+      "base": 105,
       "value": 0,
       "mod": 0
     },

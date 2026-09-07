@@ -1,6 +1,9 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { MODULE_ID, SOURCE_ID, documentKey } from "./config.mjs";
+import { MODULE_ID, documentKey } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const sourceArgument = process.argv[2];
@@ -50,7 +53,7 @@ async function emit(target, document) {
   document.flags[MODULE_ID] = {
     ...document.flags[MODULE_ID],
     source: {
-      book: SOURCE_ID,
+      book: sourceId,
       language: "en",
       upstream: "Muttley/foundryvtt-fallout",
       upstreamRevision: revision,
@@ -66,7 +69,7 @@ for (const [upstream, defaultTarget] of Object.entries(mappings)) {
   const directory = path.join(packsRoot, `${upstream}.db`);
   for (const filename of (await readdir(directory)).filter(file => file.endsWith(".json")).sort()) {
     const document = JSON.parse(await readFile(path.join(directory, filename), "utf8"));
-    if (document.system?.source !== SOURCE_ID) continue;
+    if (document.system?.source !== sourceId) continue;
     const target = upstream === "apparel" && document.type === "robot_armor" ? "robot-armor" : defaultTarget;
     await emit(target, document);
   }
@@ -76,7 +79,7 @@ await mkdir("reports", { recursive: true });
 await writeFile("reports/system-baseline.json", `${JSON.stringify({
   upstream: "https://github.com/Muttley/foundryvtt-fallout",
   revision,
-  importedSource: SOURCE_ID,
+  importedSource: sourceId,
   counts
 }, null, 2)}\n`);
 console.log(`Synchronized ${Object.values(counts).reduce((sum, count) => sum + count, 0)} Core documents from Fallout system revision ${revision}.`);

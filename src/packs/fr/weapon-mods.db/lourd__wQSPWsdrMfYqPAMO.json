@@ -201,7 +201,7 @@
     "source": "core_rulebook",
     "stashed": false,
     "weaponType": "meleeWeapons",
-    "weight": 9
+    "weight": 4.5
   },
   "type": "weapon_mod",
   "flags": {

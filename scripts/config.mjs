@@ -1,5 +1,4 @@
 export const MODULE_ID = "fallout2d20-compendium";
-export const SOURCE_ID = "core_rulebook";
 export const LANGUAGES = ["en", "fr"];
 
 export const PACKS = [

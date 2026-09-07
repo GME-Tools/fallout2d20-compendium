@@ -629,7 +629,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -846,7 +846,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -1280,7 +1280,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -1497,7 +1497,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -1931,7 +1931,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -2149,7 +2149,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "energyWeapons",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -2367,7 +2367,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "energyWeapons",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -2584,7 +2584,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -2801,7 +2801,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -3018,7 +3018,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -3235,7 +3235,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -3453,7 +3453,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -3670,7 +3670,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -3887,7 +3887,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -4108,7 +4108,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -4543,7 +4543,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "energyWeapons",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -4760,7 +4760,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -5194,7 +5194,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -5411,7 +5411,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -5845,7 +5845,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "smallGuns",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       }
@@ -5860,7 +5860,7 @@
     "stashed": false,
     "tear": 0,
     "weaponType": "smallGuns",
-    "weight": 2
+    "weight": 1
   },
   "type": "weapon",
   "flags": {

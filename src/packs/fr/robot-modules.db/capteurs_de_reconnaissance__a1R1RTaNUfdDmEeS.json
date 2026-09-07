@@ -19,7 +19,7 @@
     "rarity": 3,
     "source": "core_rulebook",
     "stashed": false,
-    "weight": -5
+    "weight": -2.5
   },
   "type": "robot_mod",
   "flags": {

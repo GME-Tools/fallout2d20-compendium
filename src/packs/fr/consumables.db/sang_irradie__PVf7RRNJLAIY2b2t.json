@@ -29,7 +29,7 @@
     "source": "core_rulebook",
     "stashed": false,
     "thirstReduction": 1,
-    "weight": 0.3
+    "weight": 0.15
   },
   "type": "consumable",
   "flags": {

@@ -413,7 +413,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "meleeWeapons",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -631,7 +631,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "meleeWeapons",
-          "weight": 2
+          "weight": 1
         },
         "type": "weapon_mod"
       },
@@ -1068,7 +1068,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "meleeWeapons",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       },
@@ -1290,7 +1290,7 @@
           "source": "core_rulebook",
           "stashed": false,
           "weaponType": "meleeWeapons",
-          "weight": 1
+          "weight": 0.5
         },
         "type": "weapon_mod"
       }
@@ -1306,7 +1306,7 @@
     "stashed": false,
     "tear": 0,
     "weaponType": "meleeWeapons",
-    "weight": 3
+    "weight": 1.5
   },
   "type": "weapon",
   "flags": {

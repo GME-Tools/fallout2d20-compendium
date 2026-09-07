@@ -2,7 +2,10 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { CORE_ROLL_TABLES } from "./data/core-roll-tables.mjs";
-import { MODULE_ID, SOURCE_ID, documentKey, packId } from "./config.mjs";
+import { MODULE_ID, documentKey, packId } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const trinkets = {
@@ -68,7 +71,7 @@ function localizedResult(language, result) {
 async function writeTable(language, definition, root) {
   const tableId = stableId(`core:${definition.key}`);
   const resultIds = definition.results.map((_, index) => stableId(`core:${definition.key}:${index + 1}`));
-  const table = { _id: tableId, _key: documentKey("RollTable", tableId), name: definition.names[language], description: `<p>${language === "fr" ? "Table du Livre de base" : "Core Rulebook table"}, p. ${definition.page}.</p>`, img: "icons/svg/d20-grey.svg", formula: definition.formula, replacement: true, displayRoll: true, folder: null, results: resultIds, flags: { [MODULE_ID]: { source: { book: SOURCE_ID, language, page: definition.page, errataReviewed: true } } } };
+  const table = { _id: tableId, _key: documentKey("RollTable", tableId), name: definition.names[language], description: `<p>${language === "fr" ? "Table du Livre de base" : "Core Rulebook table"}, p. ${definition.page}.</p>`, img: "icons/svg/d20-grey.svg", formula: definition.formula, replacement: true, displayRoll: true, folder: null, results: resultIds, flags: { [MODULE_ID]: { source: { book: sourceId, language, page: definition.page, errataReviewed: true } } } };
   await writeFile(path.join(root, `${slugify(table.name)}__${tableId}.json`), `${JSON.stringify(table, null, 2)}\n`);
   for (let index = 0; index < definition.results.length; index++) {
     const source = definition.results[index], resultId = resultIds[index], localized = localizedResult(language, source);

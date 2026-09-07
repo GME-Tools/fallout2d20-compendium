@@ -27,7 +27,7 @@ Scenes, pregenerated characters, general rules journals, and non-Core supplement
 - `packs-v14/` is generated LevelDB output and must never be edited manually.
 - English and French packs are separate and grouped by language in Foundry. Pack and folder names remain publication-neutral so later books can extend them.
 - IDs remain stable across edits and paired EN/FR documents reuse the same document ID in their respective packs. Cross-document references must use UUIDs rather than names.
-- Source provenance and errata review state live under `flags.fallout2d20-compendium.source`.
+- Source provenance and errata review state live under `flags.fallout2d20-compendium.source`. Registered publications, first and secondary appearances, and folder/catalog conventions are defined in `docs/MULTI-PUBLICATION-REGISTRY.md`.
 - The current Fallout system's Core documents provide a v14-compatible technical baseline. They remain subject to line-by-line PDF and errata review and are not treated as editorial authority.
 
 ## Image policy

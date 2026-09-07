@@ -67,7 +67,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -244,7 +244,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -489,7 +489,7 @@
       "system": {
         "description": "<p>La machette est un long couteau acéré conçu pour débroussailler une végétation dense ou résistante. Elle est un outil utile pour les mêmes raisons qu’elle est une arme efficace. Certaines machettes présentes dans les Terres désolées étaient des lames conçues à cet effet, mais d’autres sont des outils artisanaux, généralement fabriqués avec une lame de métal aiguisée, par exemple récupérée sur une tondeuse à gazon, fixée à une poignée simple par des écrous, de la corde, du scotch ou autre chose encore. Les machettes peuvent accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
         "favorite": false,
-        "weight": "5",
+        "weight": 2.5,
         "cost": "25",
         "quantity": 1,
         "rarity": 1,
@@ -666,7 +666,7 @@
       "system": {
         "description": "<p>Munitions: calibre 12 Avant la Grande Guerre, les fusils à double canon étaient surtout utilisés pour la chasse et la défense personnelle, et cela n’a pas beaucoup changé. Ce sont des armes à bascule et les deux canons sont soit côte à côte, soit l’un au-dessus de l’autre. Simples à fabriquer et à entretenir, ces fusils sont courants dans le Commonwealth et dans le reste des Terres désolées. Un fusil à double canon peut accepter un mod de chaque type parmi les suivants:  Culasse : renforcée, haute sensibilité, puissante, avancée  Canon: canon long, canon scié  Crosse: crosse complète  Viseur: viseur laser  Bouche: frein de bouche</p>",
         "favorite": false,
-        "weight": "9",
+        "weight": 4.5,
         "cost": "39",
         "quantity": 1,
         "rarity": 1,
@@ -925,7 +925,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 220,
+      "base": 110,
       "value": 0,
       "mod": 0
     },

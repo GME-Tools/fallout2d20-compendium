@@ -4,6 +4,7 @@ import { LANGUAGES, MODULE_ID, PACKS, documentKey } from "./config.mjs";
 import { listFiles } from "./lib/files.mjs";
 import { imageDimensions } from "./lib/image-dimensions.mjs";
 import { approvedDuplicateNameGroups, duplicateGroupSignature } from "./data/approved-core-duplicate-names.mjs";
+import { validateProvenance } from "./lib/provenance.mjs";
 
 const errors = [];
 const warnings = [];
@@ -51,7 +52,11 @@ for (const language of LANGUAGES) {
       if ("data" in document) issue(errors, file, "legacy data property found; use system");
       if (pack.type !== "RollTable" && !document.system) issue(errors, file, "system object is required");
       if (document._key !== documentKey(pack.type, document._id)) issue(errors, file, "_key does not match pack type and _id");
-      if (!document.flags?.[MODULE_ID]?.source) issue(errors, file, "source provenance flag is required");
+      try {
+        validateProvenance(document, { moduleId: MODULE_ID, language });
+      } catch (error) {
+        issue(errors, file, error.message);
+      }
       const scopedId = `${language}/${pack.name}/${document._id}`;
       documentIds.add(document._id);
       const previous = ids.get(scopedId);

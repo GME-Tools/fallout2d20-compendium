@@ -1,6 +1,9 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { MODULE_ID, SOURCE_ID, documentKey } from "./config.mjs";
+import { MODULE_ID, documentKey } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const packs = [
@@ -24,7 +27,7 @@ for (const [pack, type] of packs) {
     document.flags[MODULE_ID] = {
       ...(document.flags[MODULE_ID] ?? {}),
       source: {
-        book: SOURCE_ID,
+        book: sourceId,
         language: "fr",
         translatedFrom: document._id,
         structuralBaseline: true,

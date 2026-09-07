@@ -202,7 +202,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -379,7 +379,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -666,7 +666,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -694,7 +694,7 @@
       "system": {
         "description": "<p>Munitions : cartouches 10 mm Petit, sûr, raisonnablement puissant et aisé à trouver, le pistolet 10 mm est impliqué dans l’immense majorité des combats dans les Terres désolées depuis la chute des bombes. Grâce à sa polyvalence et à la possibilité de lui appliquer des modules, un pistolet 10 mm bien entretenu garantit la sécurité de son propriétaire pendant longtemps. Un pistolet 10 mm peut accepter un mod de chaque type parmi les suivants:  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, avancée  Canon: canon long, canon à ouvertures  Poignée: poignée confort, poignée de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette de reconnaissance  Bouche: compensateur, silencieux</p>",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -930,7 +930,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 150,
+      "base": 75,
       "value": 0,
       "mod": 0
     },

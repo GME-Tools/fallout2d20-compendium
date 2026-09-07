@@ -68,7 +68,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -245,7 +245,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -517,7 +517,7 @@
       "system": {
         "description": "<p>Munitions: cellules à fusion Le mousquet laser est une forme artisanale de fusil laser, combinant une technologie avancée avec des mécanismes étrangement primitifs, très utilisé par les groupes paramilitaires comme les Miliciens. Le mousquet laser doit être amorcé manuellement: le tireur charge le condensateur artisanal en tournant une manivelle à l’arrière de l’arme. Même si ces appareils semblent rudimentaires, ils peuvent devenir de puissantes armes de précision, surtout avec un condensateur ayant reçu des modules pour accueillir une plus grosse charge. Spécial: tirer avec un mousquet laser consomme chaque fois 2 tirs de munitions. Chaque module de condensateur pour le mousquet laser augmente à la fois les dégâts et le nombre de tirs consommés. Vous pouvez réduire le nombre de tirs consommés en réduisant les dégâts de –1 par tir consommé en moins que la normale (4 de dégâts et 1 tir consommé minimum). Un mousquet laser peut accepter un mod de chaque type parmi les suivants:  Condensateur: condensateur à trois charges, condensateur à quatre charges, condensateur à cinq charges, condensateur à six charges  Canon: canon long, canon court à fixation, canon long à fixation  Crosse: crosse complète  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation Les mods de condensateur pour le mousquet laser sont réservés au mousquet laser et s’installent avec la compétence Sciences. Nous les présentons ici et non plus tard dans le chapitre.</p>",
         "favorite": false,
-        "weight": "13",
+        "weight": 6.5,
         "cost": "57",
         "quantity": 1,
         "rarity": 1,
@@ -732,7 +732,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 210,
+      "base": 105,
       "value": 0,
       "mod": 0
     },

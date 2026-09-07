@@ -201,7 +201,7 @@
     "source": "core_rulebook",
     "stashed": false,
     "weaponType": "bigGuns",
-    "weight": 5
+    "weight": 2.5
   },
   "type": "weapon_mod",
   "flags": {

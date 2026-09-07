@@ -112,7 +112,7 @@
       "system": {
         "description": "<p>Une simple longue planche de bois avec une poignée enveloppée de scotch adhésif. Les planches sont des armes de corps à corps lourdes, généralement appréciées par les super mutants qui ont assez de force pour les manier efficacement. Une planche peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
         "favorite": false,
-        "weight": "3",
+        "weight": 1.5,
         "cost": "20",
         "quantity": 1,
         "rarity": 0,
@@ -290,7 +290,7 @@
       "system": {
         "description": null,
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 0,
         "rarity": 0,
@@ -468,7 +468,7 @@
       "system": {
         "description": "<p>Munitions: cartouches .308 Une arme artisanale, généralement maniée par ceux qui ne peuvent pas fabriquer, acheter ou trouver quoi que ce soit de mieux. Les armes de fortune sont rudimentaires, peu fiables, mais assez efficaces. Les armes à verrou de fortune ont tendance à être chambrées pour utiliser des cartouches du calibre d’un fusil, échangeant la cadence de tir contre la puissance et la simplicité. Une arme à verrou de fortune peut accepter un mod de chaque type parmi les suivants. Vous ne pouvez pas prendre à la fois un mod de poignée et un mod de crosse. Un mod de crosse change le nom de l’arme en « fusil à verrou de fortune ».  Culasse: calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon raccourci, canon long, canon à ouvertures, canon à ailettes  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, compensateur, frein de bouche, silencieux</p>",
         "favorite": false,
-        "weight": "3",
+        "weight": 1.5,
         "cost": "30",
         "quantity": 1,
         "rarity": 0,
@@ -667,7 +667,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "weight": "0",
+        "weight": 0,
         "cost": "0",
         "quantity": 1,
         "rarity": 0,
@@ -922,7 +922,7 @@
       "mod": 0
     },
     "carryWeight": {
-      "base": 240,
+      "base": 120,
       "value": 0,
       "mod": 0
     },

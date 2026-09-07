@@ -1,6 +1,9 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { LEGACY_PACK_MAP, MODULE_ID, PACKS, SOURCE_ID, documentKey } from "./config.mjs";
+import { LEGACY_PACK_MAP, MODULE_ID, PACKS, documentKey } from "./config.mjs";
+import { getPublication } from "./data/publications.mjs";
+
+const sourceId = getPublication("core_rulebook").id;
 import { slugify } from "./lib/files.mjs";
 
 const SOURCE_ROOT = path.resolve("src/packs/en");
@@ -24,11 +27,11 @@ function migrateDocument(document, pack) {
   const migrated = migrateShape(document);
   migrated._key = documentKey(pack.type, migrated._id);
   migrated.system ??= {};
-  if (pack.type !== "RollTable") migrated.system.source ||= SOURCE_ID;
+  if (pack.type !== "RollTable") migrated.system.source ||= sourceId;
   migrated.flags ??= {};
   migrated.flags[MODULE_ID] = {
     ...migrated.flags[MODULE_ID],
-    source: { book: SOURCE_ID, language: "en", importedFromLegacy: true }
+    source: { book: sourceId, language: "en", importedFromLegacy: true }
   };
   return migrated;
 }

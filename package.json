@@ -8,6 +8,7 @@
   },
   "scripts": {
     "audit": "node scripts/audit-content.mjs",
+    "audit:weights": "node scripts/audit-french-weights.mjs",
     "report:missing-artwork": "node scripts/report-missing-core-artwork.mjs",
     "artwork:normalize": "node scripts/normalize-artwork.mjs",
     "artwork:check": "node scripts/normalize-artwork.mjs --check",
@@ -57,7 +58,7 @@
     "verify:package": "node scripts/verify-release-package.mjs",
     "test": "node --test",
     "validate": "node scripts/validate.mjs",
-    "ci": "npm run audit && npm run validate && npm test && npm run build && npm run verify:build && npm run package && npm run verify:package"
+    "ci": "npm run audit && npm run audit:weights && npm run validate && npm test && npm run build && npm run verify:build && npm run package && npm run verify:package"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",
