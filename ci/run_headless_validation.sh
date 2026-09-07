@@ -17,6 +17,7 @@ if [[ ! -f "$foundry_main" ]]; then
 fi
 
 smoke_port="${FOUNDRY_SMOKE_PORT:-30001}"
+smoke_hostname="${FOUNDRY_SMOKE_HOSTNAME:-127.0.0.1}"
 smoke_log="$(mktemp)"
 foundry_pid=""
 cleanup() {
@@ -28,7 +29,7 @@ cleanup() {
 }
 trap cleanup EXIT
 
-"$foundry_node" "$foundry_main" --dataPath="$FOUNDRY_DATA_PATH" --world="$FOUNDRY_WORLD" --port="$smoke_port" --noupdate >"$smoke_log" 2>&1 &
+"$foundry_node" "$foundry_main" --dataPath="$FOUNDRY_DATA_PATH" --world="$FOUNDRY_WORLD" --hostname="$smoke_hostname" --port="$smoke_port" --noupdate >"$smoke_log" 2>&1 &
 foundry_pid=$!
 
 for _ in $(seq 1 60); do
@@ -37,13 +38,17 @@ for _ in $(seq 1 60); do
     echo "Foundry stopped before becoming ready." >&2
     exit 1
   fi
-  if curl --fail --silent "http://127.0.0.1:${smoke_port}/" >/dev/null 2>&1; then
+  if curl --fail --silent "http://${smoke_hostname}:${smoke_port}/" >/dev/null 2>&1; then
     if grep -Eiq "(error|failed).*fallout2d20-compendium|fallout2d20-compendium.*(error|failed)|embedded (items|effects) records.*undefined" "$smoke_log"; then
       cat "$smoke_log" >&2
       echo "Foundry reported a module startup error or missing embedded records." >&2
       exit 1
     fi
     echo "Foundry v14 answered with world '$FOUNDRY_WORLD'; no module startup error was logged."
+    if [[ "${FOUNDRY_SMOKE_HOLD:-0}" == "1" ]]; then
+      echo "Foundry remains available at http://${smoke_hostname}:${smoke_port}/ until this process is stopped."
+      wait "$foundry_pid"
+    fi
     exit 0
   fi
   sleep 1

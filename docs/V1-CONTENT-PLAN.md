@@ -8,7 +8,7 @@ The inventory is organized by book chapter and game-facing document category. St
 | Equipment | 84-188 | Equipment, mods, ammunition, consumables, books, magazines, miscellany | Complete and inventoried |
 | Survival | 190-227 | Diseases, addictions, crafting stations and recipes | Complete and inventoried |
 | Denizens | 332-400, 405-418 | Creatures, NPCs, abilities, attacks, inventories and adventure profiles | Complete and inventoried |
-| Cross-cutting | All applicable | EN/FR parity, UUID links, automation, square artwork | In progress |
+| Cross-cutting | All applicable | EN/FR parity, UUID links, automation, square artwork | Complete for V1; tracked artwork debt remains |
 
 The checked-in inventories are the non-regression references for the Core scope:
 

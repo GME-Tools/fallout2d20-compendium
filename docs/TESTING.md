@@ -2,7 +2,7 @@
 
 ## Local checks
 
-Use Node.js 20 (CI/Oracle) or Node.js 23 (local development):
+Use Node.js 20 or 23 for module build tooling and CI:
 
 ```sh
 npm ci
@@ -72,6 +72,8 @@ For an installed Foundry v14 server and a dedicated world with the module enable
 
 With that server running and Playwright installed outside the repository, run `ci/run_foundry_browser_validation.mjs`. Set `PLAYWRIGHT_MODULE` to Playwright's `index.mjs` when it is not installed in this project, and optionally set `FOUNDRY_URL`, `FOUNDRY_USERNAME`, and `FOUNDRY_PASSWORD`. The scenario validates every pack and UUID, imports representative documents, preserves embedded records, renders sheets, and draws from the Trinkets table. A final human visual review remains useful for layout and artwork quality.
 
+Set `FOUNDRY_EXPECTED_VERSION` and `FOUNDRY_EXPECTED_SYSTEM_VERSION` for a release qualification. If Playwright's managed browser is unavailable, `PLAYWRIGHT_EXECUTABLE_PATH` may identify a compatible locally installed Chromium executable.
+
 For a repeatable server-start smoke test, prepare a dedicated world with the module enabled, close any running Foundry process, then run:
 
 ```sh
@@ -83,7 +85,9 @@ FOUNDRY_WORLD=fallout2d20-smoke \
 
 `FOUNDRY_APP_PATH` accepts either the root of the Node distribution (containing `main.js`) or the desktop installation root (containing `resources/app/main.js`). Set `FOUNDRY_NODE` when the required Node runtime is not the default executable.
 
-The script starts the installed Foundry server on port `30001` (override with `FOUNDRY_SMOKE_PORT`), waits for an HTTP response, and fails on module startup errors. This local/Oracle check is intentionally separate from GitHub CI because the Foundry application is licensed and is not stored in the repository.
+The script starts the installed Foundry server on `127.0.0.1:30001` (override with `FOUNDRY_SMOKE_HOSTNAME` and `FOUNDRY_SMOKE_PORT`), waits for an HTTP response, and fails on module startup errors. Keep the default loopback binding for local qualification; use another bind address only in a controlled dedicated environment. This local/Oracle check is intentionally separate from GitHub CI because the Foundry application is licensed and is not stored in the repository. Use the Node runtime required by the installed Foundry release: Foundry 14.367 requires Node 24.13.1 or later in the Node 24 line. This is independent of the Node 20/23 module build matrix.
+
+Set `FOUNDRY_SMOKE_HOLD=1` to keep the validated server running on loopback while the browser scenario executes; stopping the script also stops its Foundry child process.
 
 With the dedicated server still running and Playwright installed outside the repository, the browser-level functional smoke test can be run with:
 
@@ -103,3 +107,10 @@ the client choice persists independently. For each single-language choice,
 resolve and open a known UUID from the hidden language in the console and
 confirm `game.packs` still contains all 40 module packs. No user world is an
 acceptable target for this check.
+
+`ci/run_foundry_us106_validation.mjs` automates the US-106 capacity and
+multi-role checks in a disposable world. It creates and removes a temporary
+player and Actor, verifies a new Strength 5 Actor has 100 kg capacity, and
+checks independent persisted English/French visibility with hidden UUIDs still
+resolvable. Run it only against the same isolated server used for the browser
+scenario.

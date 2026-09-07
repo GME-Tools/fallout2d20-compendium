@@ -1,6 +1,6 @@
 # Fallout 2d20 Compendium
 
-Private bilingual English/French compendium module for Fallout 2d20 on Foundry Virtual Tabletop v14. Version 1 focuses on the Core Rulebook; later versions may add other Fallout 2d20 publications.
+Private bilingual English/French compendium module for Fallout 2d20 on Foundry Virtual Tabletop v14. Version 1.0.1 consolidates the complete Core Rulebook compendiums and their multi-publication foundation without adding another publication.
 
 The project is being rebuilt around readable document sources, reproducible LevelDB packs, automated quality checks, and GitHub release packaging. For version 1, the English Core Rulebook plus Errata Log V6 (2026) is the canonical mechanical source; French documents are adapted from the official French book and checked against that canon.
 
@@ -25,8 +25,8 @@ Publications are declared in the validated registry at `scripts/data/publication
 ## Visible languages
 
 In Foundry's settings, **Visible compendium languages** lets each browser show
-English packs, French packs, or both. The client-scoped default is both, so the
-V1.0.0 navigation is unchanged. A hidden language can be restored from the same
+English packs, French packs, or both. The client-scoped default is both and
+preserves V1.0.0 navigation. A hidden language can be restored from the same
 setting; hiding affects only the Compendium sidebar and does not unload packs or
 break UUID links.
 

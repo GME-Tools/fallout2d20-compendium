@@ -7,14 +7,21 @@ const baseUrl = process.env.FOUNDRY_URL || "http://127.0.0.1:30001";
 const username = process.env.FOUNDRY_USERNAME || "Gamemaster";
 const password = process.env.FOUNDRY_PASSWORD || "";
 const ammoTimeout = Number(process.env.FOUNDRY_AMMO_TIMEOUT || 30_000);
+const expectedFoundryVersion = process.env.FOUNDRY_EXPECTED_VERSION;
+const expectedSystemVersion = process.env.FOUNDRY_EXPECTED_SYSTEM_VERSION;
+const executablePath = process.env.PLAYWRIGHT_EXECUTABLE_PATH;
 
-const browser = await chromium.launch({ headless: true, args: ["--no-sandbox"] });
+const browser = await chromium.launch({ headless: true, executablePath, args: ["--no-sandbox"] });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 const browserErrors = [];
+const failedResources = [];
 page.on("console", message => {
   if (message.type() === "error") browserErrors.push(message.text());
 });
 page.on("pageerror", error => browserErrors.push(error.message));
+page.on("response", response => {
+  if (response.status() >= 400) failedResources.push({ status: response.status(), url: response.url() });
+});
 
 try {
   await page.goto(baseUrl, { waitUntil: "networkidle" });
@@ -128,8 +135,10 @@ try {
     };
   });
 
-  assert.equal(result.foundryVersion, "14.367");
+  assert.match(result.foundryVersion, /^14\./, "Foundry v14 is required");
+  if (expectedFoundryVersion) assert.equal(result.foundryVersion, expectedFoundryVersion);
   assert.equal(result.systemId, "fallout");
+  if (expectedSystemVersion) assert.equal(result.systemVersion, expectedSystemVersion);
   assert.equal(result.packCount, 40);
   assert.equal(result.documentCount, 2764);
   assert.deepEqual(result.unresolvedUuids, []);
@@ -137,7 +146,7 @@ try {
   assert.ok(result.actorEmbeddedItems.frCreature > 0);
   assert.deepEqual(result.perkEffects, { en: 1, fr: 1 });
   for (const [check, passed] of Object.entries(result.importChecks)) assert.equal(passed, true, check);
-  assert.deepEqual(browserErrors, []);
+  assert.deepEqual({ browserErrors, failedResources }, { browserErrors: [], failedResources: [] });
   console.log(JSON.stringify(result, null, 2));
 } catch (error) {
   const diagnostics = await page.evaluate(() => ({
@@ -150,7 +159,7 @@ try {
       .map(entry => entry.name)
       .filter(name => name.includes("fallout-v14-compat"))
   })).catch(() => ({ url: page.url() }));
-  console.error(JSON.stringify({ diagnostics, browserErrors }, null, 2));
+  console.error(JSON.stringify({ diagnostics, browserErrors, failedResources }, null, 2));
   throw error;
 } finally {
   await browser.close();

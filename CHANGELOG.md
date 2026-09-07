@@ -4,6 +4,8 @@ All notable changes to this private module are documented here.
 
 ## Unreleased
 
+## 1.0.1 — 2026-09-07
+
 ### Added
 
 - Registry-driven publication audits for identity collisions, bilingual parity, UUIDs, reprints/variants, duplicate approvals, artwork and read-only inventories, including empty/pilot publication fixtures and precise negative diagnostics.
@@ -22,6 +24,12 @@ All notable changes to this private module are documented here.
 
 - Convert every French Core Item weight and carrying-capacity value, including embedded Actor equipment, robot modifiers and nested mod snapshots, with the authoritative exact `kg = lb / 2` rule and enforce it with an exhaustive audit.
 - Correct Fallout's derived carrying-capacity calculation for every Actor in kilogram-configured worlds and for this module's French Actors, including newly created Actors and fractional robot modifiers, while leaving pound-configured English or external documents unchanged.
+
+### Qualification
+
+- Preserve all 2,764 V1 root identities and 40 categorical bilingual pack declarations while verifying 5,532 compiled LevelDB records.
+- Qualify the release candidate on Foundry 14.367 with Fallout 11.17.1, the latest stable compatible pair available when this lot started and the previously qualified pair.
+- Document the rollback procedure and the owner's explicit V1.0.1 waiver replacing the pre-release Oracle gate with post-release user validation.
 
 ## 1.0.0 — 2026-09-07
 
