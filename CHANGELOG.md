@@ -4,6 +4,12 @@ All notable changes to this private module are documented here.
 
 ## Unreleased
 
+### Changed
+
+- Reduce default agent context with a concise repository instruction file,
+  current-state summary, routed story contracts, and archived historical
+  handoff/backlog documents.
+
 ## 1.0.1 — 2026-09-07
 
 ### Added

@@ -32,6 +32,8 @@ break UUID links.
 
 ## Documentation
 
+- [Current state and minimal context](docs/STATE.md)
+- [Backlog index and per-story contracts](docs/NEXT-PHASE-USER-STORIES.md)
 - [Project scope](docs/PROJECT.md)
 - [Testing and Foundry smoke test](docs/TESTING.md)
 - [Foundry v14 qualification](docs/V14-QUALIFICATION.md)
@@ -39,5 +41,5 @@ break UUID links.
 - [Multi-publication registry and provenance](docs/MULTI-PUBLICATION-REGISTRY.md)
 - [Generated content audit](reports/content-audit.md)
 - [Version 1 content plan](docs/V1-CONTENT-PLAN.md)
-- [Next-phase handoff and framing](docs/NEXT-PHASE-HANDOFF.md)
+- [Current handoff](docs/NEXT-PHASE-HANDOFF.md)
 - [Changelog](CHANGELOG.md)
