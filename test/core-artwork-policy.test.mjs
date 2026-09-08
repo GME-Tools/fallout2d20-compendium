@@ -32,7 +32,7 @@ test("every canonical document has an explicit artwork decision shared by both l
       counts[decision.artworkStatus]++;
     }
   }
-  assert.deepEqual(counts,{dedicated:724,shared:628,placeholder:30});
+  assert.deepEqual(counts,{dedicated:692,shared:658,placeholder:30});
 });
 
 test("the missing-artwork report matches the classified placeholders", async () => {

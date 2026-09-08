@@ -4,6 +4,7 @@ import path from "node:path";
 import { LANGUAGES, PACKS, documentKey, packId } from "./config.mjs";
 import { listFiles } from "./lib/files.mjs";
 import { flattenDocument } from "./lib/foundry-pack.mjs";
+import { loadCanonicalCreatureAbilities, materializeCanonicalCreatureAbilities } from "./lib/canonical-creature-abilities.mjs";
 
 const outputArgumentIndex = process.argv.indexOf("--output");
 const outputArgument = outputArgumentIndex >= 0 ? process.argv[outputArgumentIndex + 1] : "packs-v14";
@@ -12,6 +13,7 @@ const outputRoot = path.resolve(outputArgument);
 await mkdir(outputRoot, { recursive: true });
 
 for (const language of LANGUAGES) {
+  const canonicalCreatureAbilities = await loadCanonicalCreatureAbilities(language);
   for (const pack of PACKS) {
     const id = packId(language, pack.name);
     const output = path.join(outputRoot, id);
@@ -23,7 +25,10 @@ for (const language of LANGUAGES) {
     let records = 0;
     const keys = new Set();
     for (const file of files) {
-      const document = JSON.parse(await readFile(file, "utf8"));
+      const sourceDocument = JSON.parse(await readFile(file, "utf8"));
+      const document = ["creatures", "npcs"].includes(pack.name)
+        ? materializeCanonicalCreatureAbilities(sourceDocument, canonicalCreatureAbilities)
+        : sourceDocument;
       const key = document._key || documentKey(pack.type, document._id);
       for (const [recordKey, value] of flattenDocument(document, key)) {
         if (keys.has(recordKey)) throw new Error(`${id}: duplicate LevelDB key ${recordKey}`);

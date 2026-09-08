@@ -240,6 +240,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK"
         }
       },
       "system": {
@@ -340,7 +343,7 @@
     },
     {
       "_id": "2yedRCg3UmHJlUfF",
-      "name": "La chaîne qui lie",
+      "name": "Chaîne de Cohésion",
       "type": "special_ability",
       "img": "systems/fallout/assets/ico/thumb-up.webp",
       "effects": [],
@@ -349,6 +352,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "zz6bRTllvwXsTigA"
         }
       },
       "system": {
@@ -675,7 +681,7 @@
     },
     {
       "_id": "7p5bsvPBWdWl3enT",
-      "name": "Entraînement au Vertiptère",
+      "name": "Entraînement vertiptère",
       "type": "special_ability",
       "img": "systems/fallout/assets/ico/thumb-up.webp",
       "effects": [],
@@ -684,6 +690,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ATPXospV7nkt39wO"
         }
       },
       "system": {

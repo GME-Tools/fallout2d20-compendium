@@ -1,2 +1,0 @@
-import{readFile,readdir,rm}from"node:fs/promises";import path from"node:path";
-let removed=0;for(const language of["en","fr"])for(const pack of["creatures","npcs"]){const root=path.join("src/packs",language,`${pack}.db`);for(const file of(await readdir(root)).filter(f=>f.endsWith(".json"))){const target=path.join(root,file),doc=JSON.parse(await readFile(target,"utf8"));if(doc.flags?.["fallout2d20-compendium"]?.source?.adventure){await rm(target);removed++}}}console.log(`Removed ${removed} generated Core adventure actor documents.`);

@@ -41,11 +41,11 @@ test("US-202 decisions are P1-only, paired, traceable, square WebP assets", asyn
   }
 });
 
-test("US-202 resolves all 66 P1 identities", async () => {
+test("US-202 resolves all 65 retained P1 identities", async () => {
   const rows = (await readFile("artwork/inventory/us-201-artwork-inventory.jsonl", "utf8")).trim().split("\n").map(JSON.parse);
   const p1 = rows.filter(row => row.priority === "P1");
-  assert.equal(p1.length, 66);
+  assert.equal(p1.length, 65);
   assert.equal(p1.filter(row => row.current_status === "placeholder").length, 0);
-  assert.equal(p1.filter(row => row.current_status === "dedicated").length, 61);
-  assert.equal(p1.filter(row => row.current_status === "shared").length, 5);
+  assert.equal(p1.filter(row => row.current_status === "dedicated").length, 29);
+  assert.equal(p1.filter(row => row.current_status === "shared").length, 36);
 });

@@ -62,6 +62,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "kRSBClXDVHbQohah"
         }
       },
       "system": {
@@ -90,6 +93,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I"
         }
       },
       "system": {
@@ -112,6 +118,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "eHUfxhM71yCDYnFj"
         }
       },
       "system": {
@@ -134,6 +143,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.aSM423jHNM9YfUdZ"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "uELIiFjqleSToyB2"
         }
       },
       "system": {
@@ -311,6 +323,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.aSM423jHNM9YfUdZ"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "Ilhu9MKrWHGfiHUD"
         }
       },
       "system": {
@@ -488,6 +503,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "O40WmH3GD3UYUU8j"
         }
       },
       "system": {
@@ -501,7 +519,7 @@
     },
     {
       "_id": "GFfFLA3TxsGVEgmV",
-      "name": "Creusement",
+      "name": "Fouissage",
       "type": "special_ability",
       "img": "systems/fallout/assets/ico/thumb-up.webp",
       "effects": [],
@@ -510,6 +528,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "huozSPs5AqBrVQfH"
         }
       },
       "system": {
@@ -532,6 +553,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "DjgVlWCKYPG3M9Qj"
         }
       },
       "system": {

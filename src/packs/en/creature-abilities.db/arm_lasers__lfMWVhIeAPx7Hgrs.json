@@ -1,7 +1,7 @@
 {
   "name": "Arm Lasers",
   "type": "special_ability",
-  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/arm-lasers.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Protectron.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -15,8 +15,8 @@
         "language": "en",
         "importedFromLegacy": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated",
-        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-01.png, cell 7; generated 2026-09-07"
+        "artworkStatus": "shared",
+        "artworkSource": "shared from sole user actor 7dFUg3ts2F8gXBOb"
       }
     }
   },

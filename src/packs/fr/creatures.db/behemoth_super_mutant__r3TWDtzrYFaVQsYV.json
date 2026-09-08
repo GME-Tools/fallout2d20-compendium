@@ -62,6 +62,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I"
         }
       },
       "system": {
@@ -84,6 +87,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "kgdj4SvbtkVq3dq2"
         }
       },
       "system": {
@@ -97,13 +103,17 @@
     },
     {
       "_id": "RHs6PzwnURxjMZYQ",
-      "name": "Batte-bouche d’incendie",
+      "name": "Batte lance d’incendie",
       "type": "weapon",
       "img": "modules/fallout2d20-compendium/artwork/Creature%20Abilities/Fire%20Hydrant%20Bat.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "E3hpp0UEo8PTc7mx"
+        }
+      },
       "system": {
         "description": "",
         "favorite": false,
@@ -270,13 +280,17 @@
     },
     {
       "_id": "itEiNKWV96tfxABX",
-      "name": "Lancer de rocher",
+      "name": "Jet de rocher",
       "type": "weapon",
       "img": "icons/magic/earth/strike-stone-stalactite-blood-red.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "bNqpuAxEygtQVlcf"
+        }
+      },
       "system": {
         "description": "",
         "favorite": false,
@@ -452,6 +466,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ot0eE61yfVDcR2cX"
         }
       },
       "system": {
@@ -474,6 +491,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "O40WmH3GD3UYUU8j"
         }
       },
       "system": {
@@ -496,6 +516,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "XUqXTLgSB6xMP5Rs"
         }
       },
       "system": {
@@ -524,6 +547,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "7SVcej3ijh0EcRJm"
         }
       },
       "system": {

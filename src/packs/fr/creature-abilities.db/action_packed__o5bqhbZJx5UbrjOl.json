@@ -1,7 +1,7 @@
 {
   "name": "Plein d’action",
   "type": "special_ability",
-  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/action-packed.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Raider Boss.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -20,8 +20,8 @@
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated",
-        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-01.png, cell 2; generated 2026-09-07"
+        "artworkStatus": "shared",
+        "artworkSource": "shared from sole user actor oMFPsQgVuVVcFbjY"
       }
     }
   },

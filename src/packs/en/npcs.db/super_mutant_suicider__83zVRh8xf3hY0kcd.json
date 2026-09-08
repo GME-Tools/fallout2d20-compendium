@@ -62,6 +62,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "eHUfxhM71yCDYnFj"
         }
       },
       "system": {
@@ -84,6 +87,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I"
         }
       },
       "system": {
@@ -284,6 +290,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "7SVcej3ijh0EcRJm"
         }
       },
       "system": {
@@ -306,6 +315,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK"
         }
       },
       "system": {
@@ -844,7 +856,11 @@
       "effects": [],
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "o92mKNpNoldGEMB7"
+        }
+      },
       "system": {
         "description": "<p><span class=\"fontstyle0\">The super mutant suicider carries a modified mini nuke. Once in close range of its target it makes an </span><span class=\"fontstyle2\"><strong>AGI + Explosives</strong> </span><span class=\"fontstyle0\">test (TN 11) to detonate the mini nuke. Anyone within close range of the super mutant suicider, including itself, suffers its effects.</span></p>",
         "favorite": false

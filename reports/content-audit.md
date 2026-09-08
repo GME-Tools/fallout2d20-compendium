@@ -20,10 +20,10 @@
 | books-and-magazines | Item | 95 | 95 | 0 | 0 | 95 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | miscellany | Item | 21 | 21 | 0 | 0 | 21 | 21 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | crafting-stations | Item | 6 | 6 | 6 | 6 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| creature-abilities | Item | 80 | 80 | 0 | 0 | 80 | 80 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
-| creatures | Actor | 40 | 40 | 26 | 26 | 4 | 0 | 3 | 0 | 0 | 0 | 21 | 0 | 0 |
+| creature-abilities | Item | 78 | 78 | 0 | 0 | 78 | 78 | 6 | 0 | 0 | 0 | 0 | 0 | 0 |
+| creatures | Actor | 40 | 40 | 26 | 26 | 4 | 0 | 3 | 0 | 0 | 0 | 20 | 0 | 0 |
 | npcs | Actor | 35 | 35 | 28 | 28 | 5 | 0 | 5 | 0 | 0 | 0 | 12 | 0 | 0 |
 | roll-tables | RollTable | 30 | 30 | 30 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-Total: EN 1382; FR 1382.
+Total: EN 1380; FR 1380.
 Actionable editorial issues: 0. See `reports/content-audit.json` for document identifiers.

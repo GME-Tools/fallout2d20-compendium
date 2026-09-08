@@ -62,6 +62,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "KAjWDIdcyXHac8Cj"
         }
       },
       "system": {
@@ -84,6 +87,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "TLpuVGQrcffyzc0A"
         }
       },
       "system": {
@@ -106,6 +112,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I"
         }
       },
       "system": {
@@ -128,6 +137,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "kRSBClXDVHbQohah"
         }
       },
       "system": {
@@ -147,7 +159,7 @@
     },
     {
       "_id": "pQy7pLBB8U43zaGz",
-      "name": "Proboscis",
+      "name": "Trompe",
       "type": "weapon",
       "img": "modules/fallout2d20-compendium/artwork/Creature%20Abilities/Proboscis.webp",
       "effects": [],
@@ -156,6 +168,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.aSM423jHNM9YfUdZ"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "wd62GUG7MNJo0cyy"
         }
       },
       "system": {
@@ -333,6 +348,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "eHUfxhM71yCDYnFj"
         }
       },
       "system": {

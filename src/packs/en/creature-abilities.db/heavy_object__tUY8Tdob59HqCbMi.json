@@ -1,7 +1,7 @@
 {
   "name": "Heavy Object",
   "type": "weapon",
-  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/heavy-object.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Deathclaw.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -15,8 +15,8 @@
         "language": "en",
         "importedFromLegacy": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated",
-        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-02.png, cell 11; generated 2026-09-07"
+        "artworkStatus": "shared",
+        "artworkSource": "shared from sole user actor ohT9yKK6NcQNxK4q"
       }
     }
   },
@@ -24,7 +24,7 @@
   "system": {
     "description": "",
     "favorite": false,
-    "weight": "0",
+    "weight": 0,
     "cost": "0",
     "quantity": 1,
     "rarity": 0,

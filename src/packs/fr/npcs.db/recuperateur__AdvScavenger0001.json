@@ -239,6 +239,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK"
         }
       },
       "system": {

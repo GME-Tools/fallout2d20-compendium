@@ -62,6 +62,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "kRSBClXDVHbQohah"
         }
       },
       "system": {
@@ -90,6 +93,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.aSM423jHNM9YfUdZ"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "Edt8jEvtmpX8EwGB"
         }
       },
       "system": {

@@ -12,8 +12,8 @@
 ## Stable baseline
 
 - 40 categorical bilingual packs.
-- 1,382 root documents per language; 2,764 total.
-- 5,532 compiled LevelDB records.
+- 1,380 root documents per language; 2,760 total.
+- 5,546 compiled LevelDB records.
 - 29 Core RollTables per language.
 - 3,565 audited French weight/capacity fields.
 - 544 canonical English placeholders mirrored in French remain planned V1.0.2

@@ -14,7 +14,7 @@ const rows = mergeEditorial(derived, previousRows);
 for (const row of rows) if (row.current_status !== "placeholder" && row.current_artwork_source) {
   const url=row.current_artwork_source.match(/Owner-approved URL: (https?:\/\/\S+?);/)?.[1];
   Object.assign(row,{
-    candidate_source_kind:url?"owner-approved-web":row.current_artwork_source.startsWith("AI-generated")?"generated-private":row.current_artwork_source.startsWith("US-202 reuse")?"repository-reviewed-asset":row.current_artwork_source.startsWith("Owner-supplied repository asset")?"owner-supplied-game-asset":row.candidate_source_kind,
+    candidate_source_kind:url?"owner-approved-web":row.current_artwork_source.startsWith("AI-generated")?"generated-private":row.current_artwork_source.startsWith("US-202 reuse")||row.current_artwork_source.startsWith("shared from sole user actor")?"repository-reviewed-asset":row.current_artwork_source.startsWith("Owner-supplied repository asset")?"owner-supplied-game-asset":row.candidate_source_kind,
     candidate_source:row.current_artwork_source,
     candidate_locator:url ?? row.current_image,
     provenance_or_permission_expected:"Integrated artwork provenance recorded on the paired documents.",

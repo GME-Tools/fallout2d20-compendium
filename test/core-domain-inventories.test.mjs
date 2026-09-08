@@ -75,7 +75,7 @@ test("the denizen inventory exactly covers abilities, creatures, NPCs, and adven
     })));
     assert.deepEqual(actual, denizens[pack]);
   }
-  assert.equal(denizens.creatureAbilities.length, 80);
+  assert.equal(denizens.creatureAbilities.length, 78);
   assert.equal(denizens.creatures.length, 40);
   assert.equal(denizens.npcs.length, 35);
   assert.equal([...denizens.creatures, ...denizens.npcs].filter(({ adventure }) => adventure).length, 9);

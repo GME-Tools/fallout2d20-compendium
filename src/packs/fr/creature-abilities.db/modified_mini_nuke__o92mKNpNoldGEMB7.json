@@ -1,8 +1,8 @@
 {
   "_id": "o92mKNpNoldGEMB7",
-  "name": "Mini-bombe nucléaire modifiée",
+  "name": "Mini-nuke modifié",
   "type": "special_ability",
-  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/modified-mini-nuke.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Super Mutant Suicider.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -21,8 +21,8 @@
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated",
-        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-03.png, cell 8; generated 2026-09-07"
+        "artworkStatus": "shared",
+        "artworkSource": "shared from sole user actor 83zVRh8xf3hY0kcd"
       }
     }
   },

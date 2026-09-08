@@ -2,7 +2,7 @@
 
 > Généré par `npm run artwork:inventory`. Ne pas éditer ce rapport; éditer uniquement les champs éditoriaux de `artwork/inventory/us-201-artwork-inventory.jsonl`.
 
-Total : 544 identités canoniques uniques, chacune représentant une paire EN/FR.
+Total : 543 identités canoniques uniques, chacune représentant une paire EN/FR.
 
 ## Par pack
 
@@ -13,7 +13,7 @@ Total : 544 identités canoniques uniques, chacune représentant une paire EN/FR
 | books-and-magazines | 1 |
 | consumables | 40 |
 | crafting-stations | 6 |
-| creature-abilities | 66 |
+| creature-abilities | 65 |
 | diseases | 20 |
 | miscellany | 1 |
 | perks | 1 |
@@ -36,7 +36,7 @@ Total : 544 identités canoniques uniques, chacune représentant une paire EN/FR
 | perk | 1 |
 | robot_mod | 13 |
 | RollTable | 30 |
-| special_ability | 49 |
+| special_ability | 48 |
 | trait | 10 |
 | weapon | 15 |
 | weapon_mod | 155 |
@@ -45,7 +45,7 @@ Total : 544 identités canoniques uniques, chacune représentant une paire EN/FR
 
 | Priorité | Total |
 | --- | ---: |
-| P1 | 66 |
+| P1 | 65 |
 | P3 | 96 |
 | P4 | 382 |
 
@@ -53,17 +53,18 @@ Total : 544 identités canoniques uniques, chacune représentant une paire EN/FR
 
 | Source | Total |
 | --- | ---: |
-| generated-private | 65 |
+| generated-private | 32 |
 | none | 1 |
 | owned-official-pdf | 29 |
 | owner-supplied-game-asset | 449 |
+| repository-reviewed-asset | 32 |
 
 ## Par blocage
 
 | Blocage | Total |
 | --- | ---: |
 | No precise allowed source locator is recorded; owner asset or page-level direction required. | 1 |
-| none | 543 |
+| none | 542 |
 
 ## Groupes de partage proposés
 

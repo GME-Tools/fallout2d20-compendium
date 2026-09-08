@@ -1,7 +1,7 @@
 {
   "name": "Vision nocturne",
   "type": "special_ability",
-  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/night-vision.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Assaultron.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -20,8 +20,8 @@
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated",
-        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-03.png, cell 10; generated 2026-09-07"
+        "artworkStatus": "shared",
+        "artworkSource": "shared from sole user actor zlrzbc7g03tfYw81"
       }
     }
   },

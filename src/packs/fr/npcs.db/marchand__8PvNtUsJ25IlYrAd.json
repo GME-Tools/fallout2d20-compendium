@@ -240,6 +240,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.5jwQMeycCKWDROpB"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK"
         }
       },
       "system": {
@@ -1016,6 +1019,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "ZIFR8Yf2IMU7kL8U"
         }
       },
       "system": {
@@ -1038,6 +1044,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "qNgfrhZQdR2Jor3j"
         }
       },
       "system": {
@@ -1060,6 +1069,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {
+          "canonicalCreatureAbilityId": "G0JxK1FjO5e2aC5p"
         }
       },
       "system": {

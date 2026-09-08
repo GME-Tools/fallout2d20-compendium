@@ -50,7 +50,7 @@
     },
     {
       "id": "9FaygzucI6T2ps1h",
-      "name": "Instutute Access",
+      "name": "Institute Access",
       "type": "special_ability"
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "id": "bNqpuAxEygtQVlcf",
-      "name": "Booulder Throw",
+      "name": "Boulder Throw",
       "type": "weapon"
     },
     {
@@ -170,7 +170,7 @@
     },
     {
       "id": "iQwm0npOuJdJZsBt",
-      "name": "Radiation  Pulse",
+      "name": "Radiation Pulse",
       "type": "special_ability"
     },
     {
@@ -324,11 +324,6 @@
       "type": "weapon"
     },
     {
-      "id": "ug5NrfBuRrJ21f6w",
-      "name": "Lab Coat",
-      "type": "special_ability"
-    },
-    {
       "id": "UgP0nf5LWNi0gRjm",
       "name": "Pincer",
       "type": "weapon"
@@ -386,11 +381,6 @@
     {
       "id": "y7gB4zpJo3GZtW9y",
       "name": "Keen Senses",
-      "type": "special_ability"
-    },
-    {
-      "id": "ypLFMHwSBdCcrrAf",
-      "name": "Ghoul",
       "type": "special_ability"
     },
     {

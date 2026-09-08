@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-08T13:57:53.927Z",
+  "generatedAt": "2026-09-08T17:24:54.471Z",
   "totals": {
-    "en": 1382,
-    "fr": 1382
+    "en": 1380,
+    "fr": 1380
   },
   "publications": {
     "core_rulebook": {
-      "firstAppearances": 2764,
+      "firstAppearances": 2760,
       "secondaryAppearances": 0,
       "languages": [
         "en",
@@ -375,17 +375,17 @@
     {
       "pack": "creature-abilities",
       "type": "Item",
-      "en": 80,
+      "en": 78,
       "enErrataReviewed": 0,
       "enImageWarnings": 0,
       "enTranslationReviewed": 0,
       "enStructuralBaseline": 0,
-      "fr": 80,
+      "fr": 78,
       "frErrataReviewed": 0,
       "frImageWarnings": 0,
-      "frTranslationReviewed": 80,
-      "frStructuralBaseline": 80,
-      "frUntranslatedNames": 7,
+      "frTranslationReviewed": 78,
+      "frStructuralBaseline": 78,
+      "frUntranslatedNames": 6,
       "frUntranslatedDescriptions": 0,
       "frUntranslatedOtherText": 0,
       "frUntranslatedBiographies": 0,
@@ -410,7 +410,7 @@
       "frUntranslatedDescriptions": 0,
       "frUntranslatedOtherText": 0,
       "frUntranslatedBiographies": 0,
-      "frUntranslatedEmbeddedNames": 21,
+      "frUntranslatedEmbeddedNames": 20,
       "frUntranslatedEmbeddedText": 0,
       "frExtractionBleed": 0
     },
