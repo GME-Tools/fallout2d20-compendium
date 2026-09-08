@@ -3,9 +3,9 @@
   "rounding": "none",
   "exceptions": [],
   "totals": {
-    "fields": 3564,
+    "fields": 3570,
     "rootAndNested": 3177,
-    "actorEmbedded": 231,
+    "actorEmbedded": 237,
     "carryModifiers": 51,
     "actorCapacity": 105,
     "errors": 0
@@ -40663,7 +40663,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/acid_spray__vxymQXQ69Pd7OQoB.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40675,7 +40675,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/antlers__Edt8jEvtmpX8EwGB.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40687,7 +40687,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/arm_lasers__klbQQiZH61sAtNuR.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40699,7 +40699,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/barbed_stinger__OLzyUvJvK6EljAID.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40711,19 +40711,19 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/bite__Q1PeZDdYCxG2DrvJ.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
     },
     {
       "pack": "creature-abilities",
-      "document": "Booulder Throw",
+      "document": "Boulder Throw",
       "id": "bNqpuAxEygtQVlcf",
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/booulder_throw__bNqpuAxEygtQVlcf.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40735,7 +40735,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/butchery__kRSBClXDVHbQohah.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40747,7 +40747,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/buzzsaw__Pe6RhsbojbNHSy1k.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40759,7 +40759,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/chain_gun__5YhwOHVz7xKuNa4R.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40771,7 +40771,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/claws__uELIiFjqleSToyB2.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40783,7 +40783,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/fire_hydrant_bat__E3hpp0UEo8PTc7mx.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40795,7 +40795,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/flamer__7rFeTLsM8ElUOvpE.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40807,7 +40807,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/headbutt__4W6I2oJwLXajyZM3.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40819,7 +40819,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/heavy_object__tUY8Tdob59HqCbMi.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40831,7 +40831,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/inventory__ulsqNOiPqfLdHxmK.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40843,7 +40843,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/larve_dart__Dz2NQsMG1otXmzRU.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40855,7 +40855,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/laser__Ub3M8zanHwyVJRPo.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40867,7 +40867,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/pincer__UgP0nf5LWNi0gRjm.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40879,7 +40879,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/pincers__aq0OHIRNncpWdyfW.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40891,7 +40891,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/proboscis__wd62GUG7MNJo0cyy.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40903,7 +40903,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/salvage__FKZUUGYInT44y8X2.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40915,7 +40915,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/scavenging__XUqXTLgSB6xMP5Rs.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40927,7 +40927,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/self_destruct__ntfVlZWPlsm4TaRj.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40939,7 +40939,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/slam__IADR8cpuEoF7TeG9.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -40951,7 +40951,7 @@
       "scope": "root",
       "path": "$root.system.weight",
       "frenchFile": "src/packs/fr/creature-abilities.db/sting__Ilhu9MKrWHGfiHUD.json",
-      "english": "0",
+      "english": 0,
       "french": 0,
       "expected": 0,
       "status": "correct"
@@ -42039,7 +42039,7 @@
       "document": "Super Mutant Behemoth",
       "id": "r3TWDtzrYFaVQsYV",
       "scope": "actor-embedded",
-      "embeddedDocument": "Booulder Throw",
+      "embeddedDocument": "Boulder Throw",
       "embeddedId": "itEiNKWV96tfxABX",
       "path": "items.itEiNKWV96tfxABX.system.weight",
       "frenchFile": "src/packs/fr/creatures.db/behemoth_super_mutant__r3TWDtzrYFaVQsYV.json",
@@ -43012,6 +43012,95 @@
       "english": "4",
       "french": 2,
       "expected": 2,
+      "status": "correct"
+    },
+    {
+      "pack": "npcs",
+      "document": "Institue Scientist",
+      "id": "vmToJt8w8NC99QzD",
+      "scope": "actor-embedded",
+      "embeddedDocument": "Lab Coat",
+      "embeddedId": "dKl7LDRKWs55Nh69",
+      "path": "items.dKl7LDRKWs55Nh69.system.weight",
+      "frenchFile": "src/packs/fr/npcs.db/scientifique_de_l_institut__vmToJt8w8NC99QzD.json",
+      "english": 2,
+      "french": 1,
+      "expected": 1,
+      "status": "correct"
+    },
+    {
+      "pack": "npcs",
+      "document": "Institue Scientist",
+      "id": "vmToJt8w8NC99QzD",
+      "scope": "actor-embedded",
+      "embeddedDocument": "Lab Coat",
+      "embeddedId": "dKl7LDRKWs55Nh69",
+      "nestedId": "8JID23VwOdXqwESb",
+      "path": "items.dKl7LDRKWs55Nh69.system.mods.8JID23VwOdXqwESb.system.weight",
+      "frenchFile": "src/packs/fr/npcs.db/scientifique_de_l_institut__vmToJt8w8NC99QzD.json",
+      "english": 0,
+      "french": 0,
+      "expected": 0,
+      "status": "correct"
+    },
+    {
+      "pack": "npcs",
+      "document": "Institue Scientist",
+      "id": "vmToJt8w8NC99QzD",
+      "scope": "actor-embedded",
+      "embeddedDocument": "Lab Coat",
+      "embeddedId": "dKl7LDRKWs55Nh69",
+      "nestedId": "R0OekXuLrtHf0j8f",
+      "path": "items.dKl7LDRKWs55Nh69.system.mods.R0OekXuLrtHf0j8f.system.weight",
+      "frenchFile": "src/packs/fr/npcs.db/scientifique_de_l_institut__vmToJt8w8NC99QzD.json",
+      "english": 0,
+      "french": 0,
+      "expected": 0,
+      "status": "correct"
+    },
+    {
+      "pack": "npcs",
+      "document": "Institue Scientist",
+      "id": "vmToJt8w8NC99QzD",
+      "scope": "actor-embedded",
+      "embeddedDocument": "Lab Coat",
+      "embeddedId": "dKl7LDRKWs55Nh69",
+      "nestedId": "ew9m8xT2GbnWCHeu",
+      "path": "items.dKl7LDRKWs55Nh69.system.mods.ew9m8xT2GbnWCHeu.system.weight",
+      "frenchFile": "src/packs/fr/npcs.db/scientifique_de_l_institut__vmToJt8w8NC99QzD.json",
+      "english": 0,
+      "french": 0,
+      "expected": 0,
+      "status": "correct"
+    },
+    {
+      "pack": "npcs",
+      "document": "Institue Scientist",
+      "id": "vmToJt8w8NC99QzD",
+      "scope": "actor-embedded",
+      "embeddedDocument": "Lab Coat",
+      "embeddedId": "dKl7LDRKWs55Nh69",
+      "nestedId": "fGvLq6Ku80a5cTSg",
+      "path": "items.dKl7LDRKWs55Nh69.system.mods.fGvLq6Ku80a5cTSg.system.weight",
+      "frenchFile": "src/packs/fr/npcs.db/scientifique_de_l_institut__vmToJt8w8NC99QzD.json",
+      "english": 0,
+      "french": 0,
+      "expected": 0,
+      "status": "correct"
+    },
+    {
+      "pack": "npcs",
+      "document": "Institue Scientist",
+      "id": "vmToJt8w8NC99QzD",
+      "scope": "actor-embedded",
+      "embeddedDocument": "Lab Coat",
+      "embeddedId": "dKl7LDRKWs55Nh69",
+      "nestedId": "kRuMVjqK0tr5aZDY",
+      "path": "items.dKl7LDRKWs55Nh69.system.mods.kRuMVjqK0tr5aZDY.system.weight",
+      "frenchFile": "src/packs/fr/npcs.db/scientifique_de_l_institut__vmToJt8w8NC99QzD.json",
+      "english": 0,
+      "french": 0,
+      "expected": 0,
       "status": "correct"
     },
     {

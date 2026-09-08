@@ -4,11 +4,34 @@ All notable changes to this private module are documented here.
 
 ## Unreleased
 
+## 1.0.2 — 2026-09-08
+
+### Added
+
+- Reviewed artwork for the V1 Core compendiums, reducing tracked placeholders from 544 to 30 RollTable icons.
+- Canonical creature-ability links for 377 embedded Actor items and build-time materialization from the bilingual creature-ability packs.
+- Regression coverage for canonical creature abilities and single-user artwork reuse.
+
 ### Changed
 
 - Reduce default agent context with a concise repository instruction file,
   current-state summary, routed story contracts, and archived historical
   handoff/backlog documents.
+- Reuse the corresponding Actor portrait for 32 AI-illustrated creature abilities that have exactly one creature or NPC user.
+- Replace the Institute Scientist pseudo-ability Lab Coat with the canonical apparel item.
+- Remove retired project history, legacy reconstruction tooling, obsolete reports, and superseded source artwork.
+
+### Fixed
+
+- Correct creature attacks and official French ability names against the Core Rulebook and current errata.
+- Remove the duplicate Ghoul ability while preserving and relinking every embedded use to the retained stable identity.
+- Normalize creature-ability weights and correct inherited English naming errors.
+
+### Qualification
+
+- Preserve 40 bilingual packs with 2,760 root documents and verify 5,546 compiled Foundry v14 LevelDB records.
+- Validate the release candidate on Foundry 14.367 with Fallout 11.17.1 in a disposable local world.
+- Retain 30 explicitly tracked RollTable placeholders; artwork completeness is not claimed.
 
 ## 1.0.1 — 2026-09-07
 
