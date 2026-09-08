@@ -2,11 +2,10 @@
 
 ## Context budget
 
-Start with this file and `docs/STATE.md`. Read only the requested story under
-`docs/stories/` and the contracts listed by that story. Do not read archived
-handoffs, completed-story reports, generated JSON inventories, or unrelated
-stories unless a concrete question requires them. Use targeted `rg` searches
-and narrow excerpts; do not dump large JSON, pack lists, or full diffs.
+Start with this file and `docs/STATE.md`. Read only the requested story and the
+contracts it names. Never inspect `archive/`, generated reports, inventories,
+or unrelated stories unless the task explicitly requires historical evidence.
+Use targeted `rg` searches and narrow excerpts.
 
 ## Scope and authority
 
@@ -36,7 +35,10 @@ and narrow excerpts; do not dump large JSON, pack lists, or full diffs.
 - French Core physical values use exact `kg = lb / 2` where covered.
 - Language visibility is client-scoped: `both`, `en`, `fr`; default and fallback
   are `both`; hidden packs remain registered and UUID-resolvable.
-- PDFs and temporary extraction inputs remain ignored and uncommitted.
+- PDFs and temporary extraction inputs remain ignored and uncommitted. Create
+  task-specific import tooling only when a publication is actually integrated;
+  checked-in canonical documents do not require permanent replay scripts for
+  every historical transformation.
 
 The accepted V1.0.1 baseline is 40 packs, 2,764 root identities, 5,532 compiled
 records and 3,565 audited French weight/capacity fields. Tests, rather than

@@ -8,6 +8,6 @@ const unreferenced=images.filter(file=>{
   const relative=file.replaceAll(path.sep,"/"),modulePath=`modules/fallout2d20-compendium/${relative}`;
   return !sourceText.includes(relative)&&!sourceText.includes(encodeURI(relative))&&!sourceText.includes(modulePath)&&!sourceText.includes(encodeURI(modulePath));
 });
-const report=`# Images d’artwork non référencées par src\n\n> Généré par \`node scripts/report-unreferenced-artwork.mjs\`. Une image est considérée référencée lorsque son chemin local ou son chemin de module apparaît dans une fiche JSON sous \`src/\`. Les copies de provenance placées sous \`artwork/sources/\` sont donc volontairement signalées si aucune fiche ne les utilise directement.\n\nTotal : ${unreferenced.length} image(s) sur ${images.length}.\n\n${unreferenced.map(file=>`- \`${file.replaceAll(path.sep,"/")}\``).join("\n") || "Aucune."}\n`;
+const report=`# Images d’artwork non référencées par src\n\n> Généré par \`npm run report:artwork\`. Une image est considérée référencée lorsque son chemin local ou son chemin de module apparaît dans une fiche JSON sous \`src/\`.\n\nTotal : ${unreferenced.length} image(s) sur ${images.length}.\n\n${unreferenced.map(file=>`- \`${file.replaceAll(path.sep,"/")}\``).join("\n") || "Aucune."}\n`;
 await writeFile("reports/unreferenced-artwork.md",report);
 console.log(`Reported ${unreferenced.length} unreferenced artwork image(s) out of ${images.length}.`);

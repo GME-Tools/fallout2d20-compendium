@@ -22,8 +22,8 @@ bilingual occurrence parity, language-local resolvable UUIDs, paired artwork,
 reviewed duplicate/variant classification, and optional exact inventory
 coordinates. Registry editions carry the authoritative translation and errata
 status. Reviewed inventory inputs are never generated or rewritten by
-`audit`, `validate`, `rebuild:core`, or `ci`; Core inventory snapshots remain a
-manual owner-reviewed maintenance command outside those pipelines.
+`audit`, `validate`, or `ci`; reviewed inventories remain manual owner-reviewed
+inputs outside those pipelines.
 
 Core-only tests remain responsible for the V1 editorial decisions: exact
 domain inventories and recipes, Core errata, detailed French translations,

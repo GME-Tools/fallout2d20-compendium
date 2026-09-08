@@ -18,6 +18,4 @@ US-301 -> US-303 --\
 US-302 -> US-304 ---+-> US-305 -> US-306
 ```
 
-The complete accepted backlog is archived at
-`docs/archive/NEXT-PHASE-USER-STORIES-2026-09-07.md`. Consult it only for
-historical wording or a disputed requirement.
+The compact story contracts are the authoritative backlog.

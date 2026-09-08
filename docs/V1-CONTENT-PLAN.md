@@ -17,9 +17,9 @@ The checked-in inventories are the non-regression references for the Core scope:
 - `catalog/v1-core-denizens.json`: 80 abilities, 40 creatures and 35 NPCs, including all 9 distinct profiles introduced by the adventure.
 - `catalog/v1-core-character-creation.json` and `catalog/v1-core-starting-equipment.json`: character-creation and starting-package quality-control inventories.
 
-Starting packages and personal-item selections are not published as RollTables. The 29 genuinely random Core tables are included in each language: trinkets, publications and magazine issues, diseases, scavenging loot, Vault encounters, and Commonwealth encounters. Inventories are updated manually with `node scripts/snapshot-core-inventories.mjs` only after source review; the rebuild never rewrites its own expected results.
+Starting packages and personal-item selections are not published as RollTables. The genuinely random Core tables are included in each language. Reviewed inventories change manually only after source review; automation never rewrites its own expected results.
 
-The character-creation review also restores Fallout dice symbols lost by PDF text extraction and applies the cumulative Armorer, Gun Nut, Barbarian, Vault Kid, and Super Mutant Skirmisher errata. These corrections are a deterministic rebuild step and are covered by exact regression tests.
+The checked-in documents include reviewed PDF extraction corrections and errata. Exact regression tests protect those results.
 
 ## Cross-cutting progress
 

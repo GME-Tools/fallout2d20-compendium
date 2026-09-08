@@ -36,7 +36,6 @@ break UUID links.
 - [Backlog index and per-story contracts](docs/NEXT-PHASE-USER-STORIES.md)
 - [Project scope](docs/PROJECT.md)
 - [Testing and Foundry smoke test](docs/TESTING.md)
-- [Foundry v14 qualification](docs/V14-QUALIFICATION.md)
 - [Editorial decisions](docs/EDITORIAL-DECISIONS.md)
 - [Multi-publication registry and provenance](docs/MULTI-PUBLICATION-REGISTRY.md)
 - [Generated content audit](reports/content-audit.md)

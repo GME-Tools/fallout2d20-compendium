@@ -22,5 +22,5 @@
 ## Read next
 
 Select one story in `docs/NEXT-PHASE-USER-STORIES.md`. Its file lists the only
-additional contracts normally required. Historical evidence lives under
-`docs/archive/` and `reports/` and is read on demand.
+additional contracts normally required. Retired tooling and historical evidence
+live under `archive/` and are excluded from normal agent context.

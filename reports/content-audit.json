@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-08T12:36:08.074Z",
+  "generatedAt": "2026-09-08T13:57:53.927Z",
   "totals": {
     "en": 1382,
     "fr": 1382
@@ -259,7 +259,7 @@
       "frImageWarnings": 0,
       "frTranslationReviewed": 137,
       "frStructuralBaseline": 0,
-      "frUntranslatedNames": 48,
+      "frUntranslatedNames": 26,
       "frUntranslatedDescriptions": 0,
       "frUntranslatedOtherText": 0,
       "frUntranslatedBiographies": 0,
