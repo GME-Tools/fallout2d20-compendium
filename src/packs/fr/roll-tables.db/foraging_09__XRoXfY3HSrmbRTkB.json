@@ -1,8 +1,8 @@
 {
   "_id": "XRoXfY3HSrmbRTkB",
   "_key": "!tables.results!DDXZDnebSdYipB0t.XRoXfY3HSrmbRTkB",
-  "name": "Haricot vaseux",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.lrllDzCjzc9atRUy]{Haricot vaseux}",
+  "name": "Haricot envasé",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.lrllDzCjzc9atRUy]{Haricot envasé}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

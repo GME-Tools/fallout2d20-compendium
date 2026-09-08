@@ -5597,6 +5597,11 @@
       "type": "RollTable"
     },
     {
+      "id": "SyringeTypeTbl01",
+      "name": "Random Syringer Ammunition Type",
+      "type": "RollTable"
+    },
+    {
       "id": "vB9rCF7wmmGcBzNZ",
       "name": "Random Beverages",
       "type": "RollTable"

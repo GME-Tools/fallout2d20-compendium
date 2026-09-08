@@ -3,7 +3,7 @@
   "_key": "!items!CrftCookStation1",
   "name": "Poste de cuisine",
   "type": "object_or_structure",
-  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Crafting/Cooking Station.webp",
   "effects": [],
   "folder": null,
   "system": {
@@ -31,8 +31,9 @@
         "page": 209,
         "errataReviewed": true,
         "translationReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Crafting/Cooking Station.webp; recorded 2026-09-08"
       },
       "recipe": {
         "complexity": 2,

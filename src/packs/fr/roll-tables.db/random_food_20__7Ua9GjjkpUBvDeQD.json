@@ -1,8 +1,8 @@
 {
   "_id": "7Ua9GjjkpUBvDeQD",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.7Ua9GjjkpUBvDeQD",
-  "name": "Canned Dog Food",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.gg2H82rn5B2SXOrF]{Canned Dog Food}",
+  "name": "Pâtée pour chien",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.gg2H82rn5B2SXOrF]{Pâtée pour chien}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

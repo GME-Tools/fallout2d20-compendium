@@ -3,7 +3,7 @@
   "_key": "!items!VszpkDVgQA22ZCmx",
   "effects": [],
   "folder": "9QCCOyxmiCDBRWbX",
-  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Radstag Meat.webp",
   "name": "Radstag Meat",
   "system": {
     "addiction": 0,
@@ -40,8 +40,9 @@
         "upstream": "Muttley/foundryvtt-fallout",
         "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Radstag Meat.webp; recorded 2026-09-08"
       }
     }
   }

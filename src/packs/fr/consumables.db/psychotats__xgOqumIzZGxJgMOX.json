@@ -3,7 +3,7 @@
   "_key": "!items!xgOqumIzZGxJgMOX",
   "effects": [],
   "folder": "n3Q9X70ZsFFCTZqu",
-  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Psycho.webp",
   "name": "Psychotats",
   "system": {
     "addiction": 1,
@@ -43,9 +43,10 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Psycho.webp; recorded 2026-09-08"
       }
     }
   }

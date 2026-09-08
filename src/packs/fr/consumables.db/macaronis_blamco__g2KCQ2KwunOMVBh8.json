@@ -1,0 +1,52 @@
+{
+  "_id": "g2KCQ2KwunOMVBh8",
+  "_key": "!items!g2KCQ2KwunOMVBh8",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Blamco Mac and Cheese (Irr).webp",
+  "name": "Macaronis Blamco",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 10,
+    "description": "<p>Produit de restauration rapide d’avant-guerre retrouvé des années plus tard dans les Terres désolées, généralement dans une boîte vivement colorée illustrée de macaronis au fromage prêts à servir. Il existe des boîtes préservées identiques, mais non irradiées et d’une rareté supérieure de +1.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 4,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "g2KCQ2KwunOMVBh8",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Blamco Mac and Cheese (Irr).webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

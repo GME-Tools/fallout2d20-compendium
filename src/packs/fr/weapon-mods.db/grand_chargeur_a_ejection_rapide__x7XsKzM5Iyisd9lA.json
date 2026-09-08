@@ -3,7 +3,7 @@
   "_key": "!items!x7XsKzM5Iyisd9lA",
   "effects": [],
   "folder": "x1P0jevw8Gl185wf",
-  "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
   "name": "Grand chargeur à éjection rapide",
   "system": {
     "attachable": true,
@@ -213,8 +213,11 @@
         "translatedFrom": "x7XsKzM5Iyisd9lA",
         "translationReviewed": true,
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
       },
       "weaponModRecipes": [
         {

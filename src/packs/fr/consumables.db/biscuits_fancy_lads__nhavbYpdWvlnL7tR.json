@@ -1,0 +1,51 @@
+{
+  "_id": "nhavbYpdWvlnL7tR",
+  "_key": "!items!nhavbYpdWvlnL7tR",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Fancy Lads Snack Cakes.webp",
+  "name": "Biscuits Fancy Lads",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 18,
+    "description": "<p>Petits gâteaux glacés si chargés en sucre et édulcorants qu’ils sont pratiquement impérissables. Présentés comme « l’en-cas préféré de l’Amérique », ils existent en de nombreuses saveurs douloureusement sucrées. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "nhavbYpdWvlnL7tR",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "Pincer",
   "type": "weapon",
-  "img": "icons/commodities/tech/claw-mechanical.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 1.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -14,8 +14,11 @@
         "book": "core_rulebook",
         "language": "en",
         "importedFromLegacy": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "US-202 reuse of the reviewed Core Pincer equipment asset: artwork/Apparel/Mr Handy Arm 1.webp",
+        "artworkSharingGroup": "shared-core-pincer-equipment",
+        "artworkSharingJustification": "The creature ability and the existing equipment document are the same robotic pincer attack/component."
       }
     }
   },

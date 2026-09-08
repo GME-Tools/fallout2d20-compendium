@@ -4,7 +4,7 @@
   "effects": [],
   "folder": "ajMustngwNZwFiQS",
   "img": "modules/fallout2d20-compendium/artwork/Consumables/Nuka-Cherry.webp",
-  "name": "Nuka-Cherry",
+  "name": "Nuka Cherry",
   "system": {
     "addiction": 0,
     "addictive": false,
@@ -42,7 +42,7 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
+        "nameTranslationReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated"
       }

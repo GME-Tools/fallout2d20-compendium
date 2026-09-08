@@ -29,7 +29,7 @@ test("the static equipment inventory exactly matches every English equipment pac
     assert.equal(new Set(expected.map(({ id }) => id)).size, expected.length, `${pack} repeats a document id`);
     count += expected.length;
   }
-  assert.equal(count, 944);
+  assert.equal(count, 943);
 });
 
 test("all inventoried equipment has a structurally paired French document", async () => {
@@ -62,7 +62,7 @@ test("survival hazards, stations, and all Core random tables exactly match their
   }
   const tables = (await documents("en", "roll-tables")).filter((document) => document._key === `!tables!${document._id}`);
   assert.deepEqual(sorted(tables.map(entry)), survival.rollTables);
-  assert.equal(survival.rollTables.length, 29);
+  assert.equal(survival.rollTables.length, 30);
 });
 
 test("the denizen inventory exactly covers abilities, creatures, NPCs, and adventure profiles", async () => {

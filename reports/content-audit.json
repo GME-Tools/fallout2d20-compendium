@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-07T16:33:12.982Z",
+  "generatedAt": "2026-09-08T12:36:08.074Z",
   "totals": {
     "en": 1382,
     "fr": 1382
@@ -102,12 +102,12 @@
     {
       "pack": "ammunition",
       "type": "Item",
-      "en": 29,
+      "en": 28,
       "enErrataReviewed": 10,
       "enImageWarnings": 0,
       "enTranslationReviewed": 0,
       "enStructuralBaseline": 0,
-      "fr": 29,
+      "fr": 28,
       "frErrataReviewed": 10,
       "frImageWarnings": 0,
       "frTranslationReviewed": 9,
@@ -438,13 +438,13 @@
     {
       "pack": "roll-tables",
       "type": "RollTable",
-      "en": 29,
-      "enErrataReviewed": 29,
+      "en": 30,
+      "enErrataReviewed": 30,
       "enImageWarnings": 0,
       "enTranslationReviewed": 0,
       "enStructuralBaseline": 0,
-      "fr": 29,
-      "frErrataReviewed": 29,
+      "fr": 30,
+      "frErrataReviewed": 30,
       "frImageWarnings": 0,
       "frTranslationReviewed": 0,
       "frStructuralBaseline": 0,

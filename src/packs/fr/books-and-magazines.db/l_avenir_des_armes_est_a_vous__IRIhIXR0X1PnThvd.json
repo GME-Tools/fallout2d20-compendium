@@ -3,7 +3,7 @@
   "_key": "!items!IRIhIXR0X1PnThvd",
   "effects": [],
   "folder": "Yz1YYU8QjGg1Lrdb",
-  "img": "systems/fallout/assets/icons/items/books_and_magz.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Future Weapons Today.webp",
   "name": "L’avenir des armes est à vous",
   "system": {
     "cost": 100,
@@ -35,8 +35,11 @@
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
         "uuidLinksReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Books and Magazines/Future Weapons Today.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-magazine-future-weapons-today",
+        "artworkSharingJustification": "Owner-approved magazine and associated perk sharing."
       }
     }
   }

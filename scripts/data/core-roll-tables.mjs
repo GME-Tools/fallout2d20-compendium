@@ -1,5 +1,5 @@
 const byTotal = (formula, values) => ({ formula, results: values.map((value, index) => ({ range: [index + Number(formula[0]), index + Number(formula[0])], ...value })) });
-const item = (name, pack, label = name) => ({ name: label, link: { name, pack } });
+const item = (name, pack, label = name) => name === "Syringer Ammo" ? { name: `${label}; determine type`, description: "" } : ({ name: label, link: { name, pack } });
 const text = (name, description = "") => ({ name, description });
 
 export const CORE_ROLL_TABLES = [

@@ -4,7 +4,7 @@
   "effects": [],
   "folder": "ajMustngwNZwFiQS",
   "img": "modules/fallout2d20-compendium/artwork/Consumables/Nuka-Cola.webp",
-  "name": "Nuka-Cola",
+  "name": "Nuka Cola",
   "system": {
     "addiction": 0,
     "addictive": false,
@@ -43,7 +43,7 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
+        "nameTranslationReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated"
       }

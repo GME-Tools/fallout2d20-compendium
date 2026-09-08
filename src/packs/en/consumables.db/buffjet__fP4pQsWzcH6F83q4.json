@@ -3,7 +3,7 @@
   "_key": "!items!fP4pQsWzcH6F83q4",
   "effects": [],
   "folder": "n3Q9X70ZsFFCTZqu",
-  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Buffjet.webp",
   "name": "Buffjet",
   "system": {
     "addiction": 1,
@@ -40,8 +40,9 @@
         "upstream": "Muttley/foundryvtt-fallout",
         "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Buffjet.webp; recorded 2026-09-08"
       },
       "recipe": {
         "source": "core_rulebook",

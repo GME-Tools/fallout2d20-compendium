@@ -1,8 +1,8 @@
 {
   "_id": "GraIBBHfacXeoEx2",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.GraIBBHfacXeoEx2",
-  "name": "Caroubier",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.KgKwCYEKl95sQQZN]{Caroubier}",
+  "name": "Blé surin",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.KgKwCYEKl95sQQZN]{Blé surin}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

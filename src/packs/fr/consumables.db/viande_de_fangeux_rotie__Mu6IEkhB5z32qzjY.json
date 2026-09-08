@@ -1,0 +1,70 @@
+{
+  "_id": "Mu6IEkhB5z32qzjY",
+  "_key": "!items!Mu6IEkhB5z32qzjY",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Roasted Mirelurk Meat.webp",
+  "name": "Viande de fangeux rôtie",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 40,
+    "description": "<p>Une portion de viande de fangeux rôtie. Moins énergisante que la chair tendre, elle revigore néanmoins le corps et l’esprit.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.JjjhTOQLnB2htZe0]{Viande de fangeux} ×2</li></ul></section>",
+    "duration": "",
+    "effect": "<p>Gagnez 1 PA au début de la scène suivante.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 8,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "Mu6IEkhB5z32qzjY",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "skill": "Survie",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Viande de fangeux",
+            "canonicalName": "Mirelurk Meat",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.JjjhTOQLnB2htZe0"
+          }
+        ]
+      }
+    }
+  }
+}

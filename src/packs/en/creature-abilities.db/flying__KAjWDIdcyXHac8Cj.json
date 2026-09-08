@@ -2,7 +2,7 @@
   "_id": "KAjWDIdcyXHac8Cj",
   "name": "Flying",
   "type": "special_ability",
-  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/flying.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -15,8 +15,9 @@
         "book": "core_rulebook",
         "language": "en",
         "importedFromLegacy": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-02.png, cell 6; generated 2026-09-07"
       }
     }
   },

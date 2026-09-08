@@ -3,7 +3,7 @@
   "_key": "!items!Brw3U4pjSy5MBp6D",
   "effects": [],
   "folder": null,
-  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Traits/HeavyHanded.webp",
   "name": "Heavy Handed",
   "system": {
     "description": "<p>Your Melee Damage bonus increases by +1 @fos[DC]</p>\n<p>Your melee and unarmed attacks suffer a complication on a 19 or 20, rather than only a 20.</p>",
@@ -21,8 +21,9 @@
         "errataReviewed": true,
         "page": "51-57",
         "coreCharacterCreationReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Traits/HeavyHanded.webp; recorded 2026-09-08"
       }
     }
   }

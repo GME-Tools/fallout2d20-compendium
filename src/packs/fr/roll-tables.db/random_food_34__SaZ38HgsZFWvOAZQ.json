@@ -1,8 +1,8 @@
 {
   "_id": "SaZ38HgsZFWvOAZQ",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.SaZ38HgsZFWvOAZQ",
-  "name": "Salisbury steak (conservé)",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.2xM0ZATPyWbbrfja]{Salisbury steak (conservé)}",
+  "name": "Steak Salisbury (préservé)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.2xM0ZATPyWbbrfja]{Steak Salisbury (préservé)}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

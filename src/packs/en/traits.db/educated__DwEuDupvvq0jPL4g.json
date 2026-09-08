@@ -3,7 +3,7 @@
   "_key": "!items!DwEuDupvvq0jPL4g",
   "effects": [],
   "folder": null,
-  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Traits/Educated.webp",
   "name": "Educated",
   "system": {
     "description": "<p>You have one additional tag skill.</p>\n<p>When you fail a skill test using a skill other than a tag skill, the GM gains 1 AP.</p>",
@@ -21,8 +21,9 @@
         "errataReviewed": true,
         "page": "51-57",
         "coreCharacterCreationReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Traits/Educated.webp; recorded 2026-09-08"
       }
     }
   }

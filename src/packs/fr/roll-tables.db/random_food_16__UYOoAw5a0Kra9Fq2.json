@@ -1,8 +1,8 @@
 {
   "_id": "UYOoAw5a0Kra9Fq2",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.UYOoAw5a0Kra9Fq2",
-  "name": "Potted viande",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.O8ozF1U9N1ZZ9axl]{Potted viande}",
+  "name": "Viande en boîte",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.O8ozF1U9N1ZZ9axl]{Viande en boîte}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

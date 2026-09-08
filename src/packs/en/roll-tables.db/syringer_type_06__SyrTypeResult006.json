@@ -1,0 +1,14 @@
+{
+  "_id": "SyrTypeResult006",
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult006",
+  "name": "Mind Cloud Syringe",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.SyrMindCloudAm01]{Mind Cloud Syringe}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    6,
+    6
+  ],
+  "drawn": false
+}

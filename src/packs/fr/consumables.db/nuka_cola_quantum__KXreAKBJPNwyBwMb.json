@@ -3,8 +3,8 @@
   "_key": "!items!KXreAKBJPNwyBwMb",
   "effects": [],
   "folder": "ajMustngwNZwFiQS",
-  "img": "systems/fallout/assets/icons/items/consumable.svg",
-  "name": "Nuka-Cola Quantum",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Nuka Cola Quantum.webp",
+  "name": "Nuka Cola Quantum",
   "system": {
     "addiction": 0,
     "addictive": false,
@@ -42,9 +42,10 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Nuka Cola Quantum.webp; recorded 2026-09-08"
       }
     }
   }

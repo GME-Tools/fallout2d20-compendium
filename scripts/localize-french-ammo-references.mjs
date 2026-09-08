@@ -4,7 +4,8 @@ import path from "node:path";
 const ammunitionNames = JSON.parse(await readFile("catalog/v1-core-ammunition-fr-names.json", "utf8"));
 let changed = 0;
 
-const localize = (value) => ammunitionNames[value] ?? value;
+// Syringer Ammo is a weapon-facing category, not an Item in the ammunition pack.
+const localize = (value) => value === "Syringer Ammo" ? "Seringue" : ammunitionNames[value] ?? value;
 
 for (const pack of ["weapons", "weapon-mods"]) {
   const root = path.join("src", "packs", "fr", `${pack}.db`);

@@ -13,7 +13,7 @@
     "consumableGroup": "Mentat",
     "consumableType": "chem",
     "cost": 50,
-    "description": "<p>Drogue récréative et stimulante populaire avant la Grande Guerre, les Mentats améliorent la mémoire et accélèrent la pensée. Leur effet bref laisse ensuite fatigue et manque de concentration ; leur dépendance provoque migraines et irritabilité.</p><p><strong>Dépendance au Mentats :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de CHA lorsque vous n’êtes sous l’effet d’aucune variété de Mentats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×3</li><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ]{Brain Fungus} ×2</li></ul></section>",
+    "description": "<p>Drogue récréative et stimulante populaire avant la Grande Guerre, les Mentats améliorent la mémoire et accélèrent la pensée. Leur effet bref laisse ensuite fatigue et manque de concentration ; leur dépendance provoque migraines et irritabilité.</p><p><strong>Dépendance au Mentats :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de CHA lorsque vous n’êtes sous l’effet d’aucune variété de Mentats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×3</li><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ]{Fausse morille} ×2</li></ul></section>",
     "duration": "lasting",
     "effect": "<p>Relancez 1d20 lors des tests de PER et d’INT.</p>",
     "favorite": false,
@@ -43,7 +43,7 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
+        "nameTranslationReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated"
       },
@@ -70,7 +70,7 @@
             "uuid": null
           },
           {
-            "name": "Brain Fungus",
+            "name": "Fausse morille",
             "canonicalName": "Brain Fungus",
             "quantity": 2,
             "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ"

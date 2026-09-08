@@ -1,8 +1,8 @@
 {
   "_id": "vDIAaftiRVO1rl9a",
   "_key": "!tables.results!DDXZDnebSdYipB0t.vDIAaftiRVO1rl9a",
-  "name": "Tato",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.4Z3zGSnBGJcgR5c2]{Tato}",
+  "name": "Pomate",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.4Z3zGSnBGJcgR5c2]{Pomate}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

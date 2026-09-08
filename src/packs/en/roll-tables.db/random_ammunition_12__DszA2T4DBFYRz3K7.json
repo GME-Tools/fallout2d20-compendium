@@ -1,14 +1,16 @@
 {
   "_id": "DszA2T4DBFYRz3K7",
   "_key": "!tables.results!sa66QXOwlO8515AT.DszA2T4DBFYRz3K7",
-  "name": "Syringer Ammo (4+2 CD)",
-  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.HTHVoUBhAzf3CTuI]{Syringer Ammo (4+2 CD)}",
-  "type": "text",
+  "name": "Syringer Ammo (4+2 CD; determine type)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-roll-tables.RollTable.SyringeTypeTbl01]{Syringer Ammo (4+2 CD; determine type)}",
+  "type": "pack",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,
   "range": [
     13,
     13
   ],
-  "drawn": false
+  "drawn": false,
+  "documentCollection": "fallout2d20-compendium.en-roll-tables",
+  "documentId": "SyringeTypeTbl01"
 }

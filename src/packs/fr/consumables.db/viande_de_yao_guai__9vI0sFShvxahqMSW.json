@@ -1,0 +1,53 @@
+{
+  "_id": "9vI0sFShvxahqMSW",
+  "_key": "!items!9vI0sFShvxahqMSW",
+  "effects": [],
+  "folder": "9QCCOyxmiCDBRWbX",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Yao Guai Meat.webp",
+  "name": "Viande de yao guai",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": true,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 85,
+    "description": "<p>Viande dangereuse à obtenir sur les féroces ours mutants des Terres désolées. Très recherchée et nutritive, elle reste irradiée si elle est mangée crue. Elle se cuisine en côtes ou rôti de yao guai.</p>",
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 9,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.5
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "9vI0sFShvxahqMSW",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Yao Guai Meat.webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

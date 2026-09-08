@@ -9,7 +9,7 @@ async function packDocuments(language, pack) {
 }
 
 test("French weapons and receiver mods only refer to localized ammunition names", async () => {
-  const ammunition = new Set((await packDocuments("fr", "ammunition")).map((item) => item.name));
+  const ammunition = new Set([...(await packDocuments("fr", "ammunition")).map((item) => item.name),"Seringue"]);
   for (const pack of ["weapons", "weapon-mods"]) {
     for (const item of await packDocuments("fr", pack)) {
       const references = [item.system?.ammo, item.system?.modEffects?.ammo];

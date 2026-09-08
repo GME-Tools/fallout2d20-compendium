@@ -1,8 +1,8 @@
 {
   "_id": "9rpSzyQltVYrcXpp",
   "_key": "!tables.results!DDXZDnebSdYipB0t.9rpSzyQltVYrcXpp",
-  "name": "Brain Fungus",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ]{Brain Fungus}",
+  "name": "Fausse morille",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.PuL9AevtWz8clHFZ]{Fausse morille}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

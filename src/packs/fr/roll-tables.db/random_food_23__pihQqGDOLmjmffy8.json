@@ -1,8 +1,8 @@
 {
   "_id": "pihQqGDOLmjmffy8",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.pihQqGDOLmjmffy8",
-  "name": "Mutfruit",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ABPjUugdAt6VthAw]{Mutfruit}",
+  "name": "Fruit mutant",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ABPjUugdAt6VthAw]{Fruit mutant}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

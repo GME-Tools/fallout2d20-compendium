@@ -3,7 +3,7 @@
   "_key": "!items!1KIjuiaRJb7XlBO1",
   "effects": [],
   "folder": null,
-  "img": "systems/fallout/assets/icons/items/disease.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Diseases.webp",
   "name": "Vers sanguins",
   "system": {
     "daysInfected": 0,
@@ -26,8 +26,11 @@
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
         "nameTranslationReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Diseases.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-disease-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all diseases."
       }
     }
   }

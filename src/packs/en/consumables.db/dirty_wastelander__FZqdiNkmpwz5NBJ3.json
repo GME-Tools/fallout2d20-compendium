@@ -3,7 +3,7 @@
   "_key": "!items!FZqdiNkmpwz5NBJ3",
   "effects": [],
   "folder": "ajMustngwNZwFiQS",
-  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Dirty Wastelander.webp",
   "name": "Dirty Wastelander",
   "system": {
     "addiction": 0,
@@ -40,8 +40,9 @@
         "upstream": "Muttley/foundryvtt-fallout",
         "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Dirty Wastelander.webp; recorded 2026-09-08"
       },
       "recipe": {
         "source": "core_rulebook",

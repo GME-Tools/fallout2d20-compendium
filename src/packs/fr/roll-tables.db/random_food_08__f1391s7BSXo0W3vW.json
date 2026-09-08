@@ -1,8 +1,8 @@
 {
   "_id": "f1391s7BSXo0W3vW",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.f1391s7BSXo0W3vW",
-  "name": "Fancy Lads Snack Cakes (conservé)",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.uPYpLRvtS4R79qW2]{Fancy Lads Snack Cakes (conservé)}",
+  "name": "Biscuits Fancy Lads (préservés)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.uPYpLRvtS4R79qW2]{Biscuits Fancy Lads (préservés)}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

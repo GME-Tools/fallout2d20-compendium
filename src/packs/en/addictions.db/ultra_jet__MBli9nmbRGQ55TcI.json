@@ -3,7 +3,7 @@
   "_key": "!items!MBli9nmbRGQ55TcI",
   "effects": [],
   "folder": null,
-  "img": "systems/fallout/assets/icons/items/addiction.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Jet.webp",
   "name": "Ultra Jet",
   "system": {
     "description": "<p>You increase the difficulty of all <strong>AGI</strong> tests by +1, and you generate one fewer AP whenever you succeed at a skill test (minimum 0) whenever you are not under the effects of Ultra Jet. This addiction is permanent and cannot be cured by any known means.</p>",
@@ -19,8 +19,11 @@
         "upstream": "Muttley/foundryvtt-fallout",
         "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Jet.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-ultra-jet",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
       }
     }
   }

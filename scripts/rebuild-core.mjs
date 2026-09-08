@@ -34,6 +34,7 @@ const steps=[
   "link-core-recipe-metadata.mjs",
   "link-core-content.mjs",
   "create-core-roll-tables.mjs",
+  "create-syringer-type-table.mjs",
   "fix-french-weights.mjs",
   "enrich-core-artwork.mjs",
   "report-missing-core-artwork.mjs"

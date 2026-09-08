@@ -1,8 +1,8 @@
 {
   "_id": "AdYnDaYBZalgmhrn",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.AdYnDaYBZalgmhrn",
-  "name": "Ration alimentaire de l’Institut",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ELoNzoPfKq3BE9gc]{Ration alimentaire de l’Institut}",
+  "name": "Pack de nourriture de l’Institut",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ELoNzoPfKq3BE9gc]{Pack de nourriture de l’Institut}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

@@ -1,8 +1,8 @@
 {
   "_id": "hLBWdwfT6GCARCTs",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.hLBWdwfT6GCARCTs",
-  "name": "Sugar Bombs (conservé)",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.NPNBKxo6yByOIuQs]{Sugar Bombs (conservé)}",
+  "name": "Bombes sucrées (préservées)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.NPNBKxo6yByOIuQs]{Bombes sucrées (préservées)}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

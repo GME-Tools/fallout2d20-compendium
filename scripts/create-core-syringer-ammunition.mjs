@@ -39,11 +39,11 @@ const definitions = [
 for (const language of ["en", "fr"]) {
   const directory = path.join(root, "src", "packs", language, "ammunition.db");
   await mkdir(directory, { recursive: true });
-  const genericFile = (await readdir(directory)).find((name) => name.endsWith("__HTHVoUBhAzf3CTuI.json"));
-  if (!genericFile) throw new Error(`Missing ${language} Syringer Ammo baseline`);
-  const generic = JSON.parse(await readFile(path.join(directory, genericFile), "utf8"));
+  const templateFile = (await readdir(directory)).find((name) => name.endsWith("__SyrBerserkAmmo01.json"));
+  if (!templateFile) throw new Error(`Missing ${language} Syringer ammunition variant template`);
+  const generic = JSON.parse(await readFile(path.join(directory, templateFile), "utf8"));
   for (const existing of await readdir(directory)) {
-    if (!existing.endsWith(".json") || existing === genericFile) continue;
+    if (!existing.endsWith(".json")) continue;
     const candidate = JSON.parse(await readFile(path.join(directory, existing), "utf8"));
     if (candidate.flags?.["fallout2d20-compendium"]?.syringerEffect) await rm(path.join(directory, existing));
   }
@@ -61,7 +61,7 @@ for (const language of ["en", "fr"]) {
     document.system.cost = cost;
     document.system.description = `<p>${effect}</p><p><strong>${language === "en" ? "Quantity found" : "Quantité trouvée"}:</strong> 4+2 DC</p>`;
     document.flags["fallout2d20-compendium"] = {
-      source: { book: "core_rulebook", language, page: 117, errataReviewed: true, translationReviewed: language === "fr" },
+      source: { book: "core_rulebook", language, page: 117, errataReviewed: true, translationReviewed: language === "fr", artworkReviewed: true, artworkStatus: "dedicated" },
       syringerEffect: { key: enName.replace(/ Syringe$/, ""), text: effect }
     };
     const slug = name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");

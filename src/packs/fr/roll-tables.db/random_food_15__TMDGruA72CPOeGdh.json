@@ -1,8 +1,8 @@
 {
   "_id": "TMDGruA72CPOeGdh",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.TMDGruA72CPOeGdh",
-  "name": "Sugar Bombs",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.KAvEuz7SKIaCWEF8]{Sugar Bombs}",
+  "name": "Bombes sucrées",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.KAvEuz7SKIaCWEF8]{Bombes sucrées}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

@@ -99,7 +99,7 @@ test("French weapons are complete, described, and retain English mechanical data
       assert.deepEqual(document.system[property], source.system[property], `${document.name} changed ${property}`);
     }
     assert.equal(document.system.weight, source.system.weight / 2, `${document.name} has an unconverted weight`);
-    const expectedAmmo = frenchAmmunitionNames[source.system.ammo] ?? source.system.ammo;
+    const expectedAmmo = source.system.ammo === "Syringer Ammo" ? "Seringue" : frenchAmmunitionNames[source.system.ammo] ?? source.system.ammo;
     assert.equal(document.system.ammo, expectedAmmo, `${document.name} has an untranslated ammunition reference`);
     assert.deepEqual(document.system.damage, source.system.damage, `${document.name} changed its damage automation`);
   }

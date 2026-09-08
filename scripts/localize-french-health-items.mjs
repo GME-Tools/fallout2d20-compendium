@@ -2,6 +2,7 @@ import { readFile, readdir, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { MODULE_ID } from "./config.mjs";
 import { slugify } from "./lib/files.mjs";
+import { FRENCH_CORE_CONSUMABLE_NAMES } from "./data/french-core-consumable-names.mjs";
 
 const diseases = {
   "Blood Worms": "Vers de sang", "Bone Worms": "Vers des os", "Buzz Brain": "Cerveau bourdonnant", Dysentery: "Dysenterie",
@@ -19,7 +20,7 @@ const exact = {
   Melon: "Melon", "Melon Juice": "Jus de melon", Moonshine: "Tord-boyaux", Mutfruit: "Mutfruit", "Mutfruit Juice": "Jus de mutfruit",
   "Noodle Cup": "Bol de nouilles", "Perfectly Preserved Pie": "Tarte parfaitement conservée", "Purified Water": "Eau purifiée",
   Razorgrain: "Caroubier", "Refreshing Beverage": "Boisson rafraîchissante", "Robot Repair Kit": "Kit de réparation de robot",
-  Rum: "Rhum", "Silt Bean": "Haricot vaseux", "Skeeto Spit": "Crachat de moustique", "Stealth Boy": "Stealth Boy",
+  Rum: "Rhum", "Silt Bean": "Haricot vaseux", "Skeeto Spit": "Bave de scrito", "Crispy Squirrel Bits": "Bouchées d’écureuil croustillant", "Stealth Boy": "Stealth Boy",
   "Stimpak Diffuser": "Diffuseur à Stimpak", "Super Stimpak": "Super Stimpak", "Sweet Roll": "Petit pain sucré",
   Tarberry: "Baie de goudron", "Tarberry Juice": "Jus de baie de goudron", Tato: "Tato", "Tato Juice": "Jus de tato",
   "Vegetable Soup": "Soupe de légumes", Vodka: "Vodka", Whiskey: "Whisky", Wine: "Vin"
@@ -44,7 +45,7 @@ async function localizePack(pack, translate) {
   for (const file of (await readdir(root)).filter(file => file.endsWith(".json"))) {
     const oldPath = path.join(root, file);
     const document = JSON.parse(await readFile(oldPath, "utf8"));
-    document.name = translate(document.name);
+    document.name = translate(document.name,document);
     const provenance = document.flags[MODULE_ID].source;
     provenance.structuralBaseline = false;
     provenance.nameTranslationReviewed = false;
@@ -55,7 +56,7 @@ async function localizePack(pack, translate) {
   }
 }
 
-await localizePack("consumables", consumable);
+await localizePack("consumables", (name,document) => FRENCH_CORE_CONSUMABLE_NAMES[document._id] ?? consumable(name));
 await localizePack("addictions", name => name === "Mentat" ? "Mentats" : name);
 await localizePack("diseases", name => diseases[name] ?? (() => { throw new Error(`Missing disease translation: ${name}`); })());
 console.log("Localized consumable, addiction, and disease names.");

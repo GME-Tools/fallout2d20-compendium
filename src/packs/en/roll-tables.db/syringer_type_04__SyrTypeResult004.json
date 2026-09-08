@@ -1,0 +1,14 @@
+{
+  "_id": "SyrTypeResult004",
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult004",
+  "name": "Endangerol Syringe",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.SyrEndangerolA01]{Endangerol Syringe}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    4,
+    4
+  ],
+  "drawn": false
+}

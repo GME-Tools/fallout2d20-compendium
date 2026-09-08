@@ -43,7 +43,7 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
+        "nameTranslationReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated"
       }

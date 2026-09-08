@@ -12,7 +12,7 @@ The inventory is organized by book chapter and game-facing document category. St
 
 The checked-in inventories are the non-regression references for the Core scope:
 
-- `catalog/v1-core-equipment.json`: 944 draggable documents across 10 equipment packs.
+- `catalog/v1-core-equipment.json`: 943 draggable documents across 10 equipment packs.
 - `catalog/v1-core-survival-and-crafting.json`: 12 addictions, 20 diseases, 6 crafting stations, 339 recipe rows, and the Core random tables.
 - `catalog/v1-core-denizens.json`: 80 abilities, 40 creatures and 35 NPCs, including all 9 distinct profiles introduced by the adventure.
 - `catalog/v1-core-character-creation.json` and `catalog/v1-core-starting-equipment.json`: character-creation and starting-package quality-control inventories.

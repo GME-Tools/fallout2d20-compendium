@@ -1,0 +1,14 @@
+{
+  "_id": "SyrTypeResult008",
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult008",
+  "name": "Radscorpion Venom Syringe",
+  "description": "@UUID[Compendium.fallout2d20-compendium.en-ammunition.Item.SyrRadVenomAm001]{Radscorpion Venom Syringe}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    8,
+    8
+  ],
+  "drawn": false
+}

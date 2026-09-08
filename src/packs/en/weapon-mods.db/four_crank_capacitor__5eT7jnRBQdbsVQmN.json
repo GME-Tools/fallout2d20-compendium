@@ -3,7 +3,7 @@
   "_key": "!items!5eT7jnRBQdbsVQmN",
   "effects": [],
   "folder": "BGxwoJXEELKGsKXk",
-  "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
   "name": "Four-Crank Capacitor",
   "system": {
     "attachable": true,
@@ -212,8 +212,11 @@
         "upstream": "Muttley/foundryvtt-fallout",
         "upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
       },
       "weaponModRecipes": [
         {

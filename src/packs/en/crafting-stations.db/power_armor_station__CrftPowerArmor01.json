@@ -3,7 +3,7 @@
   "_key": "!items!CrftPowerArmor01",
   "name": "Power Armor Station",
   "type": "object_or_structure",
-  "img": "systems/fallout/assets/icons/items/miscellany.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Crafting/Power Armor Station.webp",
   "effects": [],
   "folder": null,
   "system": {
@@ -31,8 +31,9 @@
         "page": 209,
         "errataReviewed": true,
         "translationReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Crafting/Power Armor Station.webp; recorded 2026-09-08"
       }
     }
   }

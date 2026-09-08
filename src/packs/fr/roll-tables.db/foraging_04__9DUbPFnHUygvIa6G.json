@@ -1,8 +1,8 @@
 {
   "_id": "9DUbPFnHUygvIa6G",
   "_key": "!tables.results!DDXZDnebSdYipB0t.9DUbPFnHUygvIa6G",
-  "name": "Maïs",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.qeN8bq9CJ3EYwwAE]{Maïs}",
+  "name": "Épi de maïs",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.qeN8bq9CJ3EYwwAE]{Épi de maïs}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

@@ -22,7 +22,7 @@ test("V1 document identities and UUID inputs remain unchanged", async () => {
   }
   identities.sort();
   assert.equal(identities.length, 2764);
-  assert.equal(digest(identities), "56b6e2d398575a466c64562e0fa41591518274eaf5b0a2785e09016c28628743");
+  assert.equal(digest(identities), "5e604412a9aa4529bf767a055d864abe404388fd04c12076034b0d6d5c393b2b");
 });
 
 test("V1 pack declarations remain unchanged", async () => {

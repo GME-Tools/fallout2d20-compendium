@@ -1,0 +1,89 @@
+{
+  "_id": "YFGiyWiFUG7icRPa",
+  "_key": "!items!YFGiyWiFUG7icRPa",
+  "effects": [],
+  "folder": "n3Q9X70ZsFFCTZqu",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Skeeto Spit.webp",
+  "name": "Bave de scrito",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 40,
+    "description": "<p>Remède non addictif produit avec des sécrétions de tique et des plantes des Terres désolées. Il émousse durablement la douleur, mais doit généralement être fabriqué artisanalement.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.1nJywTHNkuT8JGT4]{Poche de sang animal} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ZXa7xGi9VXOzUuVN]{Feuille de sang} ×1</li><li>Matériaux peu fréquents ×1</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "duration": "lasting",
+    "effect": "<p>Vos PV maximums augmentent de 2.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.05
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "YFGiyWiFUG7icRPa",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Skeeto Spit.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Poche de sang animal",
+            "canonicalName": "Blood Sac",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.1nJywTHNkuT8JGT4"
+          },
+          {
+            "name": "Feuille de sang",
+            "canonicalName": "Bloodleaf",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.ZXa7xGi9VXOzUuVN"
+          },
+          {
+            "name": "Matériaux peu fréquents",
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Matériaux fréquents",
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@
 | skills | Item | 17 | 17 | 17 | 17 | 17 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | traits | Item | 10 | 10 | 10 | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | perks | Item | 189 | 189 | 94 | 94 | 189 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ammunition | Item | 29 | 29 | 10 | 10 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ammunition | Item | 28 | 28 | 10 | 10 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | weapons | Item | 72 | 72 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 | weapon-mods | Item | 155 | 155 | 1 | 1 | 155 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | apparel | Item | 166 | 166 | 0 | 0 | 166 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -23,7 +23,7 @@
 | creature-abilities | Item | 80 | 80 | 0 | 0 | 80 | 80 | 7 | 0 | 0 | 0 | 0 | 0 | 0 |
 | creatures | Actor | 40 | 40 | 26 | 26 | 4 | 0 | 3 | 0 | 0 | 0 | 21 | 0 | 0 |
 | npcs | Actor | 35 | 35 | 28 | 28 | 5 | 0 | 5 | 0 | 0 | 0 | 12 | 0 | 0 |
-| roll-tables | RollTable | 29 | 29 | 29 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| roll-tables | RollTable | 30 | 30 | 30 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 Total: EN 1382; FR 1382.
 Actionable editorial issues: 0. See `reports/content-audit.json` for document identifiers.

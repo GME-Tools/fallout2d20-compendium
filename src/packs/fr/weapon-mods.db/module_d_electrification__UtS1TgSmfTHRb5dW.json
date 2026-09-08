@@ -3,7 +3,7 @@
   "_key": "!items!UtS1TgSmfTHRb5dW",
   "effects": [],
   "folder": "Htqdrwq1W92U4qPP",
-  "img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
   "name": "Module d’électrification",
   "system": {
     "attachable": true,
@@ -213,8 +213,11 @@
         "translatedFrom": "UtS1TgSmfTHRb5dW",
         "translationReviewed": true,
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
       },
       "weaponModRecipes": [
         {

@@ -1,8 +1,8 @@
 {
   "_id": "FhpUWJ7Z2Zh2BGos",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.FhpUWJ7Z2Zh2BGos",
-  "name": "Baie de goudron",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Bvn11vBFx1OnUoJr]{Baie de goudron}",
+  "name": "Goudrelle",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Bvn11vBFx1OnUoJr]{Goudrelle}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

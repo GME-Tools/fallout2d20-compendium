@@ -1,8 +1,8 @@
 {
   "_id": "DDZ3oysdVwCXgtug",
   "_key": "!tables.results!DDXZDnebSdYipB0t.DDZ3oysdVwCXgtug",
-  "name": "Glowing Fungus",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.72L3DVPU3uiGPpNm]{Glowing Fungus}",
+  "name": "Champignons luminescents",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.72L3DVPU3uiGPpNm]{Champignons luminescents}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

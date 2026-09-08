@@ -1,14 +1,16 @@
 {
   "_id": "AA3RO1Fm31gEJyD7",
   "_key": "!tables.results!sa66QXOwlO8515AT.AA3RO1Fm31gEJyD7",
-  "name": "Seringue (4+2 DC)",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.HTHVoUBhAzf3CTuI]{Seringue (4+2 DC)}",
-  "type": "text",
+  "name": "Munitions de seringue (4+2 DC ; déterminer le type)",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-roll-tables.RollTable.SyringeTypeTbl01]{Munitions de seringue (4+2 DC ; déterminer le type)}",
+  "type": "pack",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,
   "range": [
     12,
     12
   ],
-  "drawn": false
+  "drawn": false,
+  "documentCollection": "fallout2d20-compendium.fr-roll-tables",
+  "documentId": "SyringeTypeTbl01"
 }

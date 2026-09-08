@@ -1,8 +1,8 @@
 {
   "_id": "EAFmLfyZgzNEWK8e",
   "_key": "!tables.results!4o3aHx9pc3VRaj3l.EAFmLfyZgzNEWK8e",
-  "name": "BlamCo Brand Mac and Cheese",
-  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.g2KCQ2KwunOMVBh8]{BlamCo Brand Mac and Cheese}",
+  "name": "Macaronis Blamco",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.g2KCQ2KwunOMVBh8]{Macaronis Blamco}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
   "weight": 1,

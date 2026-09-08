@@ -1,7 +1,7 @@
 {
   "name": "Bois",
   "type": "weapon",
-  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/antlers.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -19,8 +19,9 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-01.png, cell 5; generated 2026-09-07"
       }
     }
   },

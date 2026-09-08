@@ -28,7 +28,6 @@ const headings = [
   ["Fusion Cell", "CELLULE À FUSION"],
   ["Gamma Round", "CARTOUCHE GAMMA"],
   ["Railway Spike", "CLOU DE RAIL"],
-  ["Syringer Ammo", "SERINGUE"],
   [".44 Magnum Round", "CARTOUCHE .44"],
   [".50 Round", "CALIBRE .50"],
   ["5.56mm Round", "CARTOUCHE 5,56 MM"],

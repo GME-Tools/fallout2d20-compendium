@@ -3,7 +3,7 @@
   "_key": "!items!RcNc9VxnJn25PmUF",
   "effects": [],
   "folder": "n3Q9X70ZsFFCTZqu",
-  "img": "systems/fallout/assets/icons/items/consumable.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Overdrive.webp",
   "name": "Overdrive",
   "system": {
     "addiction": 1,
@@ -13,7 +13,7 @@
     "consumableGroup": "",
     "consumableType": "chem",
     "cost": 55,
-    "description": "<p>Forme améliorée du Psycho qui stimule massivement l’agressivité et rend son utilisateur beaucoup plus dangereux au combat.</p><p><strong>Dépendance au Overdrive :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et d’AGI hors de ses effets.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Chimiste</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Uxxc3gTKcLNpcBLU]{Nuka-Cola} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
+    "description": "<p>Forme améliorée du Psycho qui stimule massivement l’agressivité et rend son utilisateur beaucoup plus dangereux au combat.</p><p><strong>Dépendance au Overdrive :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et d’AGI hors de ses effets.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Chimiste</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Uxxc3gTKcLNpcBLU]{Nuka Cola} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
     "duration": "lasting",
     "effect": "<p>Toutes vos attaques infligent +3 @fos[DC] de dégâts. Vous pouvez relancer jusqu’à 3 @fos[DC] par jet de dégâts.</p>",
     "favorite": false,
@@ -43,9 +43,12 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Overdrive.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-overdrive",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
       },
       "recipe": {
         "source": "core_rulebook",
@@ -66,7 +69,7 @@
             "uuid": null
           },
           {
-            "name": "Nuka-Cola",
+            "name": "Nuka Cola",
             "canonicalName": "Nuka-Cola",
             "quantity": 1,
             "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.Uxxc3gTKcLNpcBLU"

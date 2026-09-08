@@ -12,6 +12,13 @@
     "report:missing-artwork": "node scripts/report-missing-core-artwork.mjs",
     "artwork:normalize": "node scripts/normalize-artwork.mjs",
     "artwork:check": "node scripts/normalize-artwork.mjs --check",
+    "artwork:inventory": "node scripts/generate-artwork-inventory.mjs",
+    "artwork:inventory:check": "node scripts/generate-artwork-inventory.mjs --check",
+    "artwork:us202": "node scripts/apply-us-202-artwork.mjs",
+    "artwork:us202:check": "node scripts/apply-us-202-artwork.mjs --check",
+    "artwork:owner-shared": "node scripts/apply-owner-shared-artwork.mjs",
+    "artwork:owner-added": "node scripts/classify-owner-added-artwork.mjs",
+    "content:syringer-table": "node scripts/create-syringer-type-table.mjs",
     "artwork:enrich": "node scripts/enrich-core-artwork.mjs",
     "build": "node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs",
     "verify:build": "node scripts/verify-built-packs.mjs",
@@ -39,6 +46,7 @@
     "localize:fr:apparel-names": "node scripts/localize-french-apparel-names.mjs",
     "localize:fr:armor-support": "node scripts/localize-french-armor-support.mjs",
     "localize:fr:health-items": "node scripts/localize-french-health-items.mjs",
+    "localize:fr:consumable-names": "node scripts/apply-french-core-consumable-names.mjs",
     "localize:fr:conditions": "node scripts/localize-french-conditions.mjs",
     "clean:fr:pdf-extraction": "node scripts/clean-french-pdf-extraction-bleed.mjs",
     "create:crafting-stations": "node scripts/create-core-crafting-stations.mjs",
@@ -58,7 +66,7 @@
     "verify:package": "node scripts/verify-release-package.mjs",
     "test": "node --test",
     "validate": "node scripts/validate.mjs",
-    "ci": "npm run audit && npm run audit:weights && npm run validate && npm test && npm run build && npm run verify:build && npm run package && npm run verify:package"
+    "ci": "npm run artwork:us202:check && npm run artwork:inventory:check && npm run audit && npm run audit:weights && npm run validate && npm test && npm run build && npm run verify:build && npm run package && npm run verify:package"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",

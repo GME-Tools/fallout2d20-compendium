@@ -13,7 +13,7 @@
     "consumableGroup": "",
     "consumableType": "chem",
     "cost": 80,
-    "description": "<p>Drogue intraveineuse qui absorbe les radiations dans le sang puis les expulse par son puissant effet diurétique ; boire ensuite beaucoup d’eau propre est conseillé. Elle existe aussi sous forme diluée.</p><p><strong>Utilisation :</strong> avec l’action mineure Prendre une drogue ou pendant des Premiers secours, soigne 4 dégâts de radiation ; la version diluée en soigne 2.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.72L3DVPU3uiGPpNm]{Glowing Fungus} ×3</li><li>Matériaux fréquents ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée} ×1</li></ul></section>",
+    "description": "<p>Drogue intraveineuse qui absorbe les radiations dans le sang puis les expulse par son puissant effet diurétique ; boire ensuite beaucoup d’eau propre est conseillé. Elle existe aussi sous forme diluée.</p><p><strong>Utilisation :</strong> avec l’action mineure Prendre une drogue ou pendant des Premiers secours, soigne 4 dégâts de radiation ; la version diluée en soigne 2.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.72L3DVPU3uiGPpNm]{Champignons luminescents} ×3</li><li>Matériaux fréquents ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée} ×1</li></ul></section>",
     "duration": "instant",
     "effect": "<p>Soigne 4 dégâts de radiation (voir description).</p>",
     "favorite": false,
@@ -43,7 +43,7 @@
         "translationReviewed": true,
         "diceSymbolsReviewed": false,
         "errataReviewed": false,
-        "nameTranslationReviewed": false,
+        "nameTranslationReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated"
       },
@@ -64,7 +64,7 @@
             "uuid": null
           },
           {
-            "name": "Glowing Fungus",
+            "name": "Champignons luminescents",
             "canonicalName": "Glowing Fungus",
             "quantity": 3,
             "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.72L3DVPU3uiGPpNm"

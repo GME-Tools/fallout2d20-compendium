@@ -1,0 +1,14 @@
+{
+  "_id": "SyrTypeResult007",
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult007",
+  "name": "Seringue Pax",
+  "description": "@UUID[Compendium.fallout2d20-compendium.fr-ammunition.Item.SyrPaxAmmo000001]{Seringue Pax}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    7
+  ],
+  "drawn": false
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "FZqdiNkmpwz5NBJ3",
+  "_key": "!items!FZqdiNkmpwz5NBJ3",
+  "effects": [],
+  "folder": "ajMustngwNZwFiQS",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Dirty Wastelander.webp",
+  "name": "Gnôle des Terres désolées",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 10,
+    "description": "<p>Boisson extrêmement alcoolisée mêlant whisky, Nuka-Cola et mutfruit. Elle produit les effets habituels de l’alcool, mais bien plus fortement.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.fr-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.ABPjUugdAt6VthAw]{Fruit mutant} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.Uxxc3gTKcLNpcBLU]{Nuka Cola} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.fr-consumables.Item.u9KyfdRIzyQhCjnn]{Whisky} ×2</li></ul></section>",
+    "duration": "",
+    "effect": "<p>Réduisez de 1 la difficulté de tous les tests de FOR et augmentez de 2 celle de tous les tests d’INT.</p>",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0.5
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "language": "fr",
+        "translatedFrom": "FZqdiNkmpwz5NBJ3",
+        "structuralBaseline": false,
+        "importedFromLegacy": false,
+        "translationReviewed": true,
+        "diceSymbolsReviewed": false,
+        "errataReviewed": false,
+        "nameTranslationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Dirty Wastelander.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 3,
+        "skill": "Survie",
+        "perks": [],
+        "rarity": "rare",
+        "materials": [
+          {
+            "name": "Fruit mutant",
+            "canonicalName": "Mutfruit",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.ABPjUugdAt6VthAw"
+          },
+          {
+            "name": "Nuka Cola",
+            "canonicalName": "Nuka-Cola",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.Uxxc3gTKcLNpcBLU"
+          },
+          {
+            "name": "Whisky",
+            "canonicalName": "Whiskey",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.fr-consumables.Item.u9KyfdRIzyQhCjnn"
+          }
+        ]
+      }
+    }
+  }
+}

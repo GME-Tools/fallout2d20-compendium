@@ -37,6 +37,6 @@ test("the checked-in exhaustive inventory records no exception or audit error", 
   assert.equal(report.rule, "kg = lb / 2");
   assert.equal(report.rounding, "none");
   assert.deepEqual(report.exceptions, []);
-  assert.deepEqual(report.totals, { fields: 3565, rootAndNested: 3178, actorEmbedded: 231, carryModifiers: 51, actorCapacity: 105, errors: 0 });
+  assert.deepEqual(report.totals, { fields: 3564, rootAndNested: 3177, actorEmbedded: 231, carryModifiers: 51, actorCapacity: 105, errors: 0 });
   assert.equal(report.records.filter(record => record.status !== "correct").length, 0);
 });

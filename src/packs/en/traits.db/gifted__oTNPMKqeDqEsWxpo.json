@@ -3,7 +3,7 @@
   "_key": "!items!oTNPMKqeDqEsWxpo",
   "effects": [],
   "folder": null,
-  "img": "systems/fallout/assets/icons/items/trait.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Traits/Gifted.webp",
   "name": "Gifted",
   "system": {
     "description": "<p>Choose two S.P.E.C.I.A.L. attributes and increase them by +1 each.</p>\n<p>Your maximum number of Luck points is one fewer than your Luck attribute.</p>",
@@ -21,8 +21,9 @@
         "errataReviewed": true,
         "page": "51-57",
         "coreCharacterCreationReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Traits/Gifted.webp; recorded 2026-09-08"
       }
     }
   }

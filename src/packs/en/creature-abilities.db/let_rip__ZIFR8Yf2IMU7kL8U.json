@@ -2,7 +2,7 @@
   "_id": "ZIFR8Yf2IMU7kL8U",
   "name": "Let Rip",
   "type": "special_ability",
-  "img": "systems/fallout/assets/ico/thumb-up.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/let-rip.webp",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -15,8 +15,9 @@
         "book": "core_rulebook",
         "language": "en",
         "importedFromLegacy": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder"
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-03.png, cell 4; generated 2026-09-07"
       }
     }
   },
