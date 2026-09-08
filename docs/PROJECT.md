@@ -32,7 +32,7 @@ Scenes, pregenerated characters, general rules journals, and non-Core supplement
 
 ## Image policy
 
-Images are square WebP files. The preferred maximum is 150 KiB; 300 KiB is the exceptional ceiling. Each document carries one explicit status: `dedicated`, `shared`, or `placeholder`. A shared illustration is acceptable for variants, components, associated magazine perks, and other entries for which the same source artwork is genuinely representative. Placeholders remain listed in `reports/missing-core-artwork.md` until suitable book/game artwork is supplied. Paired EN/FR documents always share the same image and classification.
+Images are square WebP files. The preferred maximum is 150 KiB; 300 KiB is the exceptional ceiling. Each document carries one explicit status: `dedicated`, `shared`, or `placeholder`. A shared illustration is acceptable when the same source artwork is genuinely representative. The reviewed inventory and contact sheet under `artwork/inventory/` track remaining placeholders. Paired EN/FR documents always share the same image and classification.
 
 ## Definition of done for a content lot
 

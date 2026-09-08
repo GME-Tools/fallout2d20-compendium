@@ -4,7 +4,7 @@ import test from "node:test";
 import { imageDimensions } from "../scripts/lib/image-dimensions.mjs";
 
 test("owner-supplied priority equipment artwork is paired, bounded and traceable",async()=>{
-  const rows=(await readFile("artwork/inventory/us-201-artwork-inventory.jsonl","utf8")).trim().split("\n").map(JSON.parse);
+  const rows=(await readFile("artwork/inventory/artwork-inventory.jsonl","utf8")).trim().split("\n").map(JSON.parse);
   const packs=new Set(["addictions","books-and-magazines","consumables","perks"]);
   const selected=rows.filter(row=>packs.has(row.pack)&&row.current_artwork_source?.startsWith("Owner-supplied repository asset"));
   assert.equal(selected.length,47);

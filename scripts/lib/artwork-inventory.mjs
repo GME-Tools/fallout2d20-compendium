@@ -2,12 +2,8 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { MODULE_ID, PACKS, packId } from "../config.mjs";
 
-export const INVENTORY_PATH = "artwork/inventory/us-201-artwork-inventory.jsonl";
-export const CONTACT_SHEET_PATH = "artwork/inventory/us-201-contact-sheets.html";
-export const US_202_CONTACT_SHEET_PATH = "artwork/inventory/us-202-p1-contact-sheet.html";
-export const US_203_CONTACT_SHEET_PATH = "artwork/inventory/us-203-equipment-contact-sheet.html";
-export const SUMMARY_PATH = "reports/us-201-artwork-inventory-summary.md";
-export const WANTED_LIST_PATH = "reports/us-201-images-to-find.md";
+export const INVENTORY_PATH = "artwork/inventory/artwork-inventory.jsonl";
+export const CONTACT_SHEET_PATH = "artwork/inventory/contact-sheet.html";
 export const EXPECTED_COUNT = 543;
 export const PRIORITIES = Object.freeze(["P1", "P2", "P3", "P4"]);
 export const REVIEW_STATES = Object.freeze(["pending-owner", "approved", "rejected", "blocked"]);
@@ -108,7 +104,7 @@ export async function deriveInventory(includedIdentities = new Set()) {
         provenance_or_permission_expected: locator ? "Record extraction filename, PDF edition, page, crop bounds, and owner confirmation of lawful possession." : "Owner must supply an allowed official asset and its ownership or explicit approval record.",
         blocker: locator ? null : "No precise allowed source locator is recorded; owner asset or page-level direction required.",
         review_state: "pending-owner",
-        owner_decision_required: proposedGroup ? "Approve or reject the proposed sharing group and candidate provenance before US-202." : "Select an allowed source and approve its provenance before US-202."
+        owner_decision_required: proposedGroup ? "Approve or reject the proposed sharing group and candidate provenance before integration." : "Select an allowed source and approve its provenance before integration."
       });
     }
   }

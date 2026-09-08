@@ -34,8 +34,3 @@ test("every canonical document has an explicit artwork decision shared by both l
   }
   assert.deepEqual(counts,{dedicated:692,shared:658,placeholder:30});
 });
-
-test("the missing-artwork report matches the classified placeholders", async () => {
-  const report = await readFile("reports/missing-core-artwork.md","utf8");
-  assert.match(report,/Total : 30 fiches anglaises canoniques/);
-});

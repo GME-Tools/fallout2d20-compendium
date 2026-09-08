@@ -3,12 +3,12 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
 import { MODULE_ID } from "../scripts/config.mjs";
-import { US_202_ARTWORK_DECISIONS } from "../scripts/data/us-202-artwork-decisions.mjs";
+import { ARTWORK_REUSE_DECISIONS } from "../scripts/data/artwork-reuse-decisions.mjs";
 import { imageDimensions } from "../scripts/lib/image-dimensions.mjs";
 
-test("US-202 decisions are P1-only, paired, traceable, square WebP assets", async () => {
-  assert.deepEqual(Object.keys(US_202_ARTWORK_DECISIONS), ["creature-abilities:UgP0nf5LWNi0gRjm"]);
-  for (const [identity, decision] of Object.entries(US_202_ARTWORK_DECISIONS)) {
+test("reviewed artwork reuse decisions are paired, traceable, square WebP assets", async () => {
+  assert.deepEqual(Object.keys(ARTWORK_REUSE_DECISIONS), ["creature-abilities:UgP0nf5LWNi0gRjm"]);
+  for (const [identity, decision] of Object.entries(ARTWORK_REUSE_DECISIONS)) {
     const [pack, id] = identity.split(":");
     assert.equal(pack, "creature-abilities");
     assert.match(decision.image, /\.webp$/i);
@@ -41,8 +41,8 @@ test("US-202 decisions are P1-only, paired, traceable, square WebP assets", asyn
   }
 });
 
-test("US-202 resolves all 65 retained P1 identities", async () => {
-  const rows = (await readFile("artwork/inventory/us-201-artwork-inventory.jsonl", "utf8")).trim().split("\n").map(JSON.parse);
+test("all priority Actor and ability artwork is resolved", async () => {
+  const rows = (await readFile("artwork/inventory/artwork-inventory.jsonl", "utf8")).trim().split("\n").map(JSON.parse);
   const p1 = rows.filter(row => row.priority === "P1");
   assert.equal(p1.length, 65);
   assert.equal(p1.filter(row => row.current_status === "placeholder").length, 0);

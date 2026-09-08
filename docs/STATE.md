@@ -1,7 +1,8 @@
 # Current project state
 
 - Current release: `1.0.2`, tag `v1.0.2`.
-- Completed: US-000, US-101 through US-106, and US-201 through US-205.
+- Released V1 work is summarized by the stable baseline below; completed story
+  contracts and transient qualification reports have been removed.
 - Current milestone: V1.1.0 GM Toolkit and Starter Set.
 - Qualified matrix at V1.0.2: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
 - Release gate policy: latest stable compatible v14/Fallout pair plus the prior

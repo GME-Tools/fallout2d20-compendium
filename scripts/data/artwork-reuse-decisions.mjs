@@ -1,4 +1,4 @@
-export const US_202_ARTWORK_DECISIONS = Object.freeze({
+export const ARTWORK_REUSE_DECISIONS = Object.freeze({
   "creature-abilities:UgP0nf5LWNi0gRjm": Object.freeze({
     image: "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 1.webp",
     artworkStatus: "shared",

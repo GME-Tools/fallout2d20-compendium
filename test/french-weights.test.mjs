@@ -2,7 +2,6 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { PACKS } from "../scripts/config.mjs";
 import { auditFrenchWeightComparisons, collectFrenchWeightComparisons, compareFrenchWeight } from "../scripts/lib/french-weights.mjs";
-import { readFile } from "node:fs/promises";
 
 const base = { pack: "weapons", document: "Test Weapon", id: "TestWeight000001", path: "$root.system.weight" };
 
@@ -30,13 +29,4 @@ test("all root, nested-mod, and Actor-embedded French weights match the English 
   assert.ok(comparisons.some(entry => entry.scope === "root" && entry.path.includes(".system.mods.")));
   assert.ok(comparisons.some(entry => entry.scope === "actor-embedded"));
   assert.deepEqual(auditFrenchWeightComparisons(comparisons).map(issue => issue.message), []);
-});
-
-test("the checked-in exhaustive inventory records no exception or audit error", async () => {
-  const report = JSON.parse(await readFile("reports/us103-french-weight-inventory.json", "utf8"));
-  assert.equal(report.rule, "kg = lb / 2");
-  assert.equal(report.rounding, "none");
-  assert.deepEqual(report.exceptions, []);
-  assert.deepEqual(report.totals, { fields: 3570, rootAndNested: 3177, actorEmbedded: 237, carryModifiers: 51, actorCapacity: 105, errors: 0 });
-  assert.equal(report.records.filter(record => record.status !== "correct").length, 0);
 });

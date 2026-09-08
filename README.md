@@ -38,7 +38,4 @@ break UUID links.
 - [Testing and Foundry smoke test](docs/TESTING.md)
 - [Editorial decisions](docs/EDITORIAL-DECISIONS.md)
 - [Multi-publication registry and provenance](docs/MULTI-PUBLICATION-REGISTRY.md)
-- [Generated content audit](reports/content-audit.md)
-- [Version 1 content plan](docs/V1-CONTENT-PLAN.md)
-- [Current handoff](docs/NEXT-PHASE-HANDOFF.md)
 - [Changelog](CHANGELOG.md)
