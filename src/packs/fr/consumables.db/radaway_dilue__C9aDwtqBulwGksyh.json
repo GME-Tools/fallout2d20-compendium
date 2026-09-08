@@ -3,7 +3,7 @@
   "_key": "!items!C9aDwtqBulwGksyh",
   "effects": [],
   "folder": "n3Q9X70ZsFFCTZqu",
-  "img": "modules/fallout2d20-compendium/artwork/Consumables/Radaway.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/RadAway.webp",
   "name": "RadAway (dilué)",
   "system": {
     "addiction": 0,
@@ -46,7 +46,7 @@
         "nameTranslationReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated",
-        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Radaway.webp; recorded 2026-09-08"
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/RadAway.webp; recorded 2026-09-08"
       },
       "recipe": {
         "source": "core_rulebook",
