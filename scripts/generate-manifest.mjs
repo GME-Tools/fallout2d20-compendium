@@ -7,7 +7,7 @@ const base = JSON.parse(await readFile("module.base.json", "utf8"));
 base.packs = LANGUAGES.flatMap(language => PACKS.map(pack => ({
   name: packId(language, pack.name),
   label: `${language.toUpperCase()} - ${pack.label[language]}`,
-  path: `packs-v14/${packId(language, pack.name)}`,
+  path: `packs/${packId(language, pack.name)}`,
   type: pack.type,
   system: "fallout",
   ownership: { PLAYER: "OBSERVER", ASSISTANT: "OWNER" }

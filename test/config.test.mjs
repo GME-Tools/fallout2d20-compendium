@@ -21,6 +21,7 @@ test("all configured document types are supported by the pack compiler", () => {
 
 test("the manifest exposes only the two publication-neutral language folders", async () => {
   const manifest = JSON.parse(await readFile("module.json", "utf8"));
+  assert.ok(manifest.packs.every(pack => pack.path.startsWith("packs/")));
   assert.deepEqual(manifest.packFolders.map(({ name }) => name), ["Fallout 2d20 - English", "Fallout 2d20 - Français"]);
   assert.deepEqual(new Set(manifest.packFolders.flatMap(({ packs }) => packs)), new Set(manifest.packs.map(({ name }) => name)));
 });

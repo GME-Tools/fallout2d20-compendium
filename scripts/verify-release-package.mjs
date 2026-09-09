@@ -45,7 +45,7 @@ assert.ok(names.includes(`${moduleId}/CHANGELOG.md`));
 for (const language of manifest.languages ?? []) {
   assert.ok(names.includes(`${moduleId}/${language.path}`), `localization missing from release: ${language.path}`);
 }
-assert.ok(names.some(name => name.startsWith(`${moduleId}/packs-v14/`)));
+assert.ok(names.some(name => name.startsWith(`${moduleId}/packs/`)));
 assert.ok(names.every(name => !name.includes("/src/") && !name.includes("/scripts/") && !name.endsWith(".psd")), "development files leaked into ZIP");
 
 console.log(`Verified release archive (${names.length} files, ${Math.ceil(archive.length / 1024 / 1024)} MiB).`);

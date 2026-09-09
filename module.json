@@ -2,7 +2,7 @@
   "id": "fallout2d20-compendium",
   "title": "Fallout 2d20 Compendium",
   "description": "Bilingual English and French compendium for Fallout 2d20. Version 1 covers the complete Core Rulebook with current errata.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "GME-Tools"
@@ -46,7 +46,7 @@
     {
       "name": "en-skills",
       "label": "EN - Skills",
-      "path": "packs-v14/en-skills",
+      "path": "packs/en-skills",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -57,7 +57,7 @@
     {
       "name": "en-traits",
       "label": "EN - Traits",
-      "path": "packs-v14/en-traits",
+      "path": "packs/en-traits",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -68,7 +68,7 @@
     {
       "name": "en-perks",
       "label": "EN - Perks",
-      "path": "packs-v14/en-perks",
+      "path": "packs/en-perks",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -79,7 +79,7 @@
     {
       "name": "en-ammunition",
       "label": "EN - Ammunition",
-      "path": "packs-v14/en-ammunition",
+      "path": "packs/en-ammunition",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -90,7 +90,7 @@
     {
       "name": "en-weapons",
       "label": "EN - Weapons",
-      "path": "packs-v14/en-weapons",
+      "path": "packs/en-weapons",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -101,7 +101,7 @@
     {
       "name": "en-weapon-mods",
       "label": "EN - Weapon Mods",
-      "path": "packs-v14/en-weapon-mods",
+      "path": "packs/en-weapon-mods",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -112,7 +112,7 @@
     {
       "name": "en-apparel",
       "label": "EN - Apparel",
-      "path": "packs-v14/en-apparel",
+      "path": "packs/en-apparel",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -123,7 +123,7 @@
     {
       "name": "en-apparel-mods",
       "label": "EN - Apparel Mods",
-      "path": "packs-v14/en-apparel-mods",
+      "path": "packs/en-apparel-mods",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -134,7 +134,7 @@
     {
       "name": "en-robot-armor",
       "label": "EN - Robot Armor",
-      "path": "packs-v14/en-robot-armor",
+      "path": "packs/en-robot-armor",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -145,7 +145,7 @@
     {
       "name": "en-robot-modules",
       "label": "EN - Robot Modules",
-      "path": "packs-v14/en-robot-modules",
+      "path": "packs/en-robot-modules",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -156,7 +156,7 @@
     {
       "name": "en-consumables",
       "label": "EN - Consumables",
-      "path": "packs-v14/en-consumables",
+      "path": "packs/en-consumables",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -167,7 +167,7 @@
     {
       "name": "en-addictions",
       "label": "EN - Addictions",
-      "path": "packs-v14/en-addictions",
+      "path": "packs/en-addictions",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -178,7 +178,7 @@
     {
       "name": "en-diseases",
       "label": "EN - Diseases",
-      "path": "packs-v14/en-diseases",
+      "path": "packs/en-diseases",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -189,7 +189,7 @@
     {
       "name": "en-books-and-magazines",
       "label": "EN - Books and Magazines",
-      "path": "packs-v14/en-books-and-magazines",
+      "path": "packs/en-books-and-magazines",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -200,7 +200,7 @@
     {
       "name": "en-miscellany",
       "label": "EN - Miscellany",
-      "path": "packs-v14/en-miscellany",
+      "path": "packs/en-miscellany",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -211,7 +211,7 @@
     {
       "name": "en-crafting-stations",
       "label": "EN - Crafting Stations",
-      "path": "packs-v14/en-crafting-stations",
+      "path": "packs/en-crafting-stations",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -222,7 +222,7 @@
     {
       "name": "en-denizens",
       "label": "EN - Denizens of the Wasteland",
-      "path": "packs-v14/en-denizens",
+      "path": "packs/en-denizens",
       "type": "Actor",
       "system": "fallout",
       "ownership": {
@@ -233,7 +233,7 @@
     {
       "name": "en-roll-tables",
       "label": "EN - Roll Tables",
-      "path": "packs-v14/en-roll-tables",
+      "path": "packs/en-roll-tables",
       "type": "RollTable",
       "system": "fallout",
       "ownership": {
@@ -244,7 +244,7 @@
     {
       "name": "fr-skills",
       "label": "FR - Compétences",
-      "path": "packs-v14/fr-skills",
+      "path": "packs/fr-skills",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -255,7 +255,7 @@
     {
       "name": "fr-traits",
       "label": "FR - Traits",
-      "path": "packs-v14/fr-traits",
+      "path": "packs/fr-traits",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -266,7 +266,7 @@
     {
       "name": "fr-perks",
       "label": "FR - Aptitudes",
-      "path": "packs-v14/fr-perks",
+      "path": "packs/fr-perks",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -277,7 +277,7 @@
     {
       "name": "fr-ammunition",
       "label": "FR - Munitions",
-      "path": "packs-v14/fr-ammunition",
+      "path": "packs/fr-ammunition",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -288,7 +288,7 @@
     {
       "name": "fr-weapons",
       "label": "FR - Armes",
-      "path": "packs-v14/fr-weapons",
+      "path": "packs/fr-weapons",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -299,7 +299,7 @@
     {
       "name": "fr-weapon-mods",
       "label": "FR - Mods d'armes",
-      "path": "packs-v14/fr-weapon-mods",
+      "path": "packs/fr-weapon-mods",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -310,7 +310,7 @@
     {
       "name": "fr-apparel",
       "label": "FR - Tenues et armures",
-      "path": "packs-v14/fr-apparel",
+      "path": "packs/fr-apparel",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -321,7 +321,7 @@
     {
       "name": "fr-apparel-mods",
       "label": "FR - Mods de tenues et armures",
-      "path": "packs-v14/fr-apparel-mods",
+      "path": "packs/fr-apparel-mods",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -332,7 +332,7 @@
     {
       "name": "fr-robot-armor",
       "label": "FR - Blindages de robot",
-      "path": "packs-v14/fr-robot-armor",
+      "path": "packs/fr-robot-armor",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -343,7 +343,7 @@
     {
       "name": "fr-robot-modules",
       "label": "FR - Modules de robot",
-      "path": "packs-v14/fr-robot-modules",
+      "path": "packs/fr-robot-modules",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -354,7 +354,7 @@
     {
       "name": "fr-consumables",
       "label": "FR - Consommables",
-      "path": "packs-v14/fr-consumables",
+      "path": "packs/fr-consumables",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -365,7 +365,7 @@
     {
       "name": "fr-addictions",
       "label": "FR - Addictions",
-      "path": "packs-v14/fr-addictions",
+      "path": "packs/fr-addictions",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -376,7 +376,7 @@
     {
       "name": "fr-diseases",
       "label": "FR - Maladies",
-      "path": "packs-v14/fr-diseases",
+      "path": "packs/fr-diseases",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -387,7 +387,7 @@
     {
       "name": "fr-books-and-magazines",
       "label": "FR - Livres et magazines",
-      "path": "packs-v14/fr-books-and-magazines",
+      "path": "packs/fr-books-and-magazines",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -398,7 +398,7 @@
     {
       "name": "fr-miscellany",
       "label": "FR - Objets divers",
-      "path": "packs-v14/fr-miscellany",
+      "path": "packs/fr-miscellany",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -409,7 +409,7 @@
     {
       "name": "fr-crafting-stations",
       "label": "FR - Établis de fabrication",
-      "path": "packs-v14/fr-crafting-stations",
+      "path": "packs/fr-crafting-stations",
       "type": "Item",
       "system": "fallout",
       "ownership": {
@@ -420,7 +420,7 @@
     {
       "name": "fr-denizens",
       "label": "FR - Résidents des Terres désolées",
-      "path": "packs-v14/fr-denizens",
+      "path": "packs/fr-denizens",
       "type": "Actor",
       "system": "fallout",
       "ownership": {
@@ -431,7 +431,7 @@
     {
       "name": "fr-roll-tables",
       "label": "FR - Tables aléatoires",
-      "path": "packs-v14/fr-roll-tables",
+      "path": "packs/fr-roll-tables",
       "type": "RollTable",
       "system": "fallout",
       "ownership": {

@@ -29,5 +29,5 @@ test("pack declarations omit standalone creature abilities", async () => {
   const manifest = JSON.parse(await readFile("module.json", "utf8"));
   const packs = manifest.packs.map(({ name, path, type }) => ({ name, path, type }));
   assert.equal(packs.length, 36);
-  assert.equal(digest(packs), "046d80146d98e6571de5df038a64b8bb5911fadd27184a6688a3700160844e06");
+  assert.equal(digest(packs), "6810e46dd39c09bbbef495240232752a5d82174512e1a0a033c9099588e1a809");
 });

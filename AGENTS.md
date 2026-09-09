@@ -24,7 +24,7 @@ Use targeted `rg` searches and narrow excerpts.
   documents.
 - Generated readable language views: `generated/source-packs/`; never edit or
   commit them.
-- Generated LevelDB: `packs-v14/`; never edit it directly.
+- Generated Foundry v14 LevelDB: `packs/`; never edit it directly.
 - Publication registry: `scripts/data/publications.mjs`.
 - Reviewed inventories: `catalog/`; never regenerate them automatically.
 - Publication and provenance contract: `docs/MULTI-PUBLICATION-REGISTRY.md`.

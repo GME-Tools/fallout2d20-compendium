@@ -142,7 +142,7 @@ appearance.
 
 ## V1 identity guarantee
 
-US-102 does not edit `src/packs/`, `module.json`, or generated `packs-v14/`.
+US-102 does not edit `src/packs/`, `module.json`, or generated `packs/`.
 The regression suite fixes the ordered identity set
 `(language, pack, _id, _key)` for all 2,764 V1 root documents and the 40 pack
 declarations. Because Foundry UUIDs are formed from the module ID, pack ID and

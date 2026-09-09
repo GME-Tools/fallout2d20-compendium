@@ -12,7 +12,7 @@ npm run ci
 `npm run ci` is the authoritative local gate. It validates artwork and source
 documents, audits bilingual content and French weights, runs the tests, builds
 all Foundry v14 LevelDB packs, packages the module, and verifies both generated
-packs and the ZIP. Outputs are `packs-v14/` and `dist/`; neither is source.
+packs and the ZIP. Outputs are `packs/` and `dist/`; neither is source.
 
 Useful focused commands:
 
@@ -34,7 +34,7 @@ reprints, UUIDs, artwork decisions, translations, recipes and runtime behavior.
 ## Foundry smoke test
 
 Use a dedicated or disposable world, never a user world. Close Foundry before
-rebuilding the installed `packs-v14/` directory.
+rebuilding the installed `packs/` directory.
 
 At minimum:
 

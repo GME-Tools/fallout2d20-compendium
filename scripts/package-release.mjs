@@ -10,7 +10,7 @@ const stage = path.join(dist, moduleId);
 await rm(dist, { recursive: true, force: true });
 await mkdir(stage, { recursive: true });
 
-for (const entry of ["module.json", "README.md", "CHANGELOG.md", "lang", "packs-v14", "runtime"]) {
+for (const entry of ["module.json", "README.md", "CHANGELOG.md", "lang", "packs", "runtime"]) {
   await cp(entry, path.join(stage, entry), { recursive: true });
 }
 for (const file of await listFiles("artwork", file => /\.(?:jpe?g|png|svg|webp)$/i.test(file))) {

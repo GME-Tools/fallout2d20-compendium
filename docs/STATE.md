@@ -1,10 +1,10 @@
 # Current project state
 
-- Current release: `1.0.4`, tag `v1.0.4`.
+- Current release: `1.0.5`, tag `v1.0.5`.
 - Released V1 work is summarized by the stable baseline below; completed story
   contracts and transient qualification reports have been removed.
 - Current milestone: V1.1.0 GM Toolkit and Starter Set.
-- Qualified matrix at V1.0.4: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
+- Qualified matrix at V1.0.5: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
 - Release gate policy: latest stable compatible v14/Fallout pair plus the prior
   pair while available; Oracle is pre-release unless the owner documents a
   waiver. V1.0.2 received an explicit owner waiver after local qualification.

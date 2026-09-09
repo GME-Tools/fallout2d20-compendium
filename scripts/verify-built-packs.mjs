@@ -28,7 +28,7 @@ for (const language of LANGUAGES) {
       }
     }
 
-    const database = new ClassicLevel(path.resolve("packs-v14", packId(language, pack.name)), {
+    const database = new ClassicLevel(path.resolve("packs", packId(language, pack.name)), {
       keyEncoding: "utf8",
       valueEncoding: "json",
       readOnly: true

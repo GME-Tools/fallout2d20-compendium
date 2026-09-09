@@ -2,6 +2,14 @@
 
 All notable changes to this private module are documented here.
 
+## 1.0.5 — 2026-09-09
+
+### Changed
+
+- Remove the obsolete tracked NeDB compendiums and use `packs/` exclusively for
+  generated Foundry v14 LevelDB output, replacing the temporary `packs-v14/`
+  name throughout the build and release pipeline.
+
 ## 1.0.4 — 2026-09-09
 
 ### Changed

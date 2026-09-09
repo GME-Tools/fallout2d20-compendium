@@ -16,7 +16,7 @@ npm run build
 npm run package
 ```
 
-`npm run ci` runs the complete local quality and packaging pipeline. Generated LevelDB packs are written to `packs-v14/`; the installable archive is written to `dist/`.
+`npm run ci` runs the complete local quality and packaging pipeline. Generated Foundry v14 LevelDB packs are written to `packs/`; the installable archive is written to `dist/`.
 
 Do not edit generated packs. Shared authoritative documents live under `src/packs/canonical/`; sparse localized values live under `src/packs/locales/en/` and `src/packs/locales/fr/`.
 

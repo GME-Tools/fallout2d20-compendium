@@ -7,7 +7,7 @@ import { flattenDocument } from "./lib/foundry-pack.mjs";
 import { folderRecords } from "./data/pack-folders.mjs";
 
 const outputArgumentIndex = process.argv.indexOf("--output");
-const outputArgument = outputArgumentIndex >= 0 ? process.argv[outputArgumentIndex + 1] : "packs-v14";
+const outputArgument = outputArgumentIndex >= 0 ? process.argv[outputArgumentIndex + 1] : "packs";
 if (!outputArgument) throw new Error("--output requires a directory path");
 const outputRoot = path.resolve(outputArgument);
 await mkdir(outputRoot, { recursive: true });

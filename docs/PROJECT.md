@@ -31,7 +31,7 @@ Scenes, pregenerated characters, general rules journals, and non-Core supplement
   resolves them recursively, including Actor abilities/equipment and weapon
   mods, so changes to a referenced document propagate unless an instance field
   is explicitly overridden.
-- `packs-v14/` is generated LevelDB output and must never be edited manually.
+- `packs/` is generated Foundry v14 LevelDB output and must never be edited manually.
 - English and French packs are separate and grouped by language in Foundry. Pack and folder names remain publication-neutral so later books can extend them.
 - IDs remain stable across edits and paired EN/FR documents reuse the same document ID in their respective packs. The documented migration from `creatures` and `npcs` to `denizens` is the sole current pack-ID exception. Source links are language-neutral; materialization emits the language-specific UUIDs required by Foundry.
 - `scripts/data/pack-folders.mjs` is the authoritative bilingual folder
