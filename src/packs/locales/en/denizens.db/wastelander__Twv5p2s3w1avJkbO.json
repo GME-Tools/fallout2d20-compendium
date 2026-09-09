@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p>Machete, Double-Barrel Shotgun, 10+5 CD Shotgun Shells, Wealth 1</p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p>Machete, Double-Barrel Shotgun, 10+5 CD Shotgun Shells, Wealth 1</p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Repair",
     "/items/3/name": "Barter",
     "/items/4/name": "Melee Weapons",
@@ -22,7 +23,7 @@
     "/items/11/name": "Double-Barrel Shotgun",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 210,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Wastelander</strong></p>\n<p><span class=\"fontstyle0\">Wastelander is the colloquial name given to the masses of individuals who roam, travel, and settle across the wasteland. Many are unextraordinary people who just seek to survive by any means necessary. Some are more competent than others when it comes to combat, while others might possess unique skills reflecting their background and life experience. They can hail from any settlement across the commonwealth and from any background.</span></p>",
     "/name": "Wastelander"
   }

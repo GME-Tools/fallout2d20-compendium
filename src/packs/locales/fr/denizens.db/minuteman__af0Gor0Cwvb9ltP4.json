@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Vêtements résistants, Richesse 2.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Vêtements résistants, Richesse 2.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes de corps à corps",
     "/items/3/name": "Survie",
     "/items/4/name": "Armes à énergie",
@@ -31,7 +33,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 105,
-    "/system/origin": "Humain, Personnage Normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>Parfois vus comme la milice des gens du commun, les miliciens étaient autrefois une faction d’importance dans tout le Commonwealth. Leur influence a beaucoup baissé ces dernières années, mais certains d’entre eux font toujours ce qu’ils peuvent pour venir en aide à ceux dans le besoin. La vue d’un milicien est toujours une bonne nouvelle… surtout si l’on se trouve dans un campement menacé par de multiples dangers.</p>",
     "/name": "Milicien"
   }

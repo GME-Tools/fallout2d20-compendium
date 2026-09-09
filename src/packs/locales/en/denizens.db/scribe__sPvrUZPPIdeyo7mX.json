@@ -4,13 +4,15 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Brotherhood Scribe&rsquo;s Armor, Laser Pistol, Brotherhood of Steel Holotags, Wealth 2</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Brotherhood Scribe&rsquo;s Armor, Laser Pistol, Brotherhood of Steel Holotags, Wealth 2</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Energy Weapons",
     "/items/3/name": "Repair",
     "/items/4/name": "Science",
     "/items/5/name": "Speech",
-    "/items/6/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">As a major action, a Scribe can order a Brotherhood character of lower level to immediately perform a major action. The Scribe assists that action with </span><strong><span class=\"fontstyle2\">CHA + Speech</span></strong><span class=\"fontstyle0\">.</span></p>",
+    "/items/6/system/description": "<p><span class=\"fontstyle0\">As a major action, a Scribe can order a Brotherhood character of lower level to immediately perform a major action. The Scribe assists that action with </span><strong><span class=\"fontstyle2\">CHA + Speech</span></strong><span class=\"fontstyle0\">.</span></p>",
+    "/items/6/name": "The Chain That Binds",
     "/items/7/name": "Lockpick",
     "/items/8/name": "Medicine",
     "/items/9/name": "Sneak",
@@ -18,10 +20,11 @@
     "/items/11/system/description": "<p><span class=\"fontstyle0\">Laser guns are high-tech weapons which emit a concentrated beam of coherent, directional light, intense enough to inflict serious damage. They were a relatively new development in the years before the Great War, and thus are not an especially common sight in the wasteland, outside of those groups who&rsquo;ve secured old military weapons caches. Most surviving models of laser gun&mdash;such as the dependable AER9, widely used by the U. S. Army&mdash;use an internal capacitor charged by a microfusion power cell.</span></p>",
     "/items/11/system/weight": "4",
     "/items/11/name": "Laser Pistol",
-    "/items/12/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The Scribe gains a bonus d20 when making tests to examine, identify or use pre-War technology.</span><br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/12/system/description": "<p><span class=\"fontstyle0\">The Scribe gains a bonus d20 when making tests to examine, identify or use pre-War technology.</span><br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/12/name": "Pre-War Expertise",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 200,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p><strong>Brotherhood of Steel</strong></p>\n<p><span class=\"fontstyle0\">The Brotherhood of Steel are either known as an organization committed to protecting and serving humanity, or an overzealous order who would reign as tyrants over the wasteland and its people, depending on who you asked. The Brotherhood is committed to their order and structure as well as their mission to keep dangerous technology out of the hands of the undeserving and undesirable. No matter your option on the Brotherhood of Steel, there is no denying they have a strong chain of command and a goal that unifies them. This can make them make strong allies or formidable enemies.</span></p>\n<p><strong>Scribe</strong></p>\n<p><span class=\"fontstyle0\">Scribes are the recordkeepers and scholars of the Brotherhood of Steel. While they can fight and receive the same basic combat training as any other member, this is not their primary role. Scribes handle the cataloguing, repair, acquisition, and study of any technology that finds its way into the Brotherhood&rsquo;s hands. They sometimes accompany field units if their expertise is required in retrieving or locating an artifact of importance, but most Scribes stay within the base of operations of the chapter.</span></p>"
   }
 }

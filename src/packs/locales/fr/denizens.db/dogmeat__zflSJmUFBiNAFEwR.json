@@ -2,6 +2,14 @@
   "_key": "!actors!zflSJmUFBiNAFEwR",
   "_file": "canigou__zflSJmUFBiNAFEwR.json",
   "values": {
+    "/items/0/system/weight": 0,
+    "/items/0/name": "Morsure",
+    "/items/1/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>",
+    "/items/1/name": "Sens aiguisés",
+    "/items/2/system/description": "<p>Lorsque Canigou assiste l’une de vos attaques, il doit se déplacer à Portée de main de la cible. Si l’attaque réussit, il inflige également ses propres dégâts de corps à corps à la cible.</p>",
+    "/items/2/name": "Chien d’attaque",
+    "/items/3/system/description": "<p>L’Initiative de Canigou est identique à la vôtre et sa charge maximale est de 25 kg. Son niveau est égal au vôtre et augmente avec lui. Augmentez son Corps ou son Esprit de +1 au niveau 3, puis à chaque niveau impair. Augmentez sa Santé de +1 par niveau et lors de chaque augmentation de Corps. Les dégâts de sa Morsure augmentent de +1 DC au niveau 5, puis tous les 5 niveaux.</p>",
+    "/items/3/name": "Compagnon",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "zflSJmUFBiNAFEwR",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -15,7 +23,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Mammifère, Créature Normale",
+    "/system/origin": "Mammifère",
     "/system/biography": "<p>Les chiens sont courants dans les Terres désolées et font partie des rares espèces de créatures à ne pas avoir complètement muté. Les chiens non mutants existent dans de nombreuses communautés et font office d’animaux domestiques ou de gardes. Ils semblent disposer de la même intelligence et du même potentiel que leurs ancêtres d’avant-guerre. Néanmoins, tous les chiens ne sont pas amicaux. Des meutes de chiens mutants, enragés et irradiés, parcourent les Terres désolées. Bien que des rumeurs parlent de gentils chiens mutants, ces créatures essaient le plus souvent de dévorer les voyageurs pour se nourrir. La fourrure de ces chiens mutants, s’ils en ont encore, est en général éparse, et leur peau ressemble à celle d’une goule.</p>",
     "/name": "Canigou"
   }

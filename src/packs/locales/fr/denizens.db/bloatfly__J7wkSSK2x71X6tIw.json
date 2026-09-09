@@ -2,7 +2,16 @@
   "_key": "!actors!J7wkSSK2x71X6tIw",
   "_file": "mouche_bouffie__J7wkSSK2x71X6tIw.json",
   "values": {
-    "/items/3/$overrides/~1system~1effect": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de mouche bouffie et 1 glande de mouche bouffie.</p>",
+    "/items/0/system/description": "<p>Cette créature se déplace librement dans les airs. Elle ignore la plupart des obstacles au sol et le terrain difficile, et peut traverser les zones « vides » au-dessus du champ de bataille. Elle doit consacrer au moins une action mineure par tour à se déplacer. Si elle est mise à terre, elle chute et subit 3 DC de dégâts physiques Étourdissants, +2 DC par zone qui la séparait du sol.</p>",
+    "/items/0/name": "Vol",
+    "/items/1/system/description": "<p>La Santé normale de cette petite créature devient Corps + la moitié de son niveau, arrondie au supérieur, mais sa Défense augmente de 1. Elle est tuée par tout coup qui lui inflige une Blessure.</p>",
+    "/items/1/name": "Petit",
+    "/items/2/system/weight": 0,
+    "/items/2/name": "Projection de larve",
+    "/items/3/$overrides/~1system~1description": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de mouche bouffie et 1 glande de mouche bouffie.</p>",
+    "/items/4/$overrides/~1system~1description": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de mouche bouffie et 1 glande de mouche bouffie.</p>",
+    "/items/5/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/5/name": "Immunisé contre les radiations",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "J7wkSSK2x71X6tIw",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -15,7 +24,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Insecte Mutant, Créature Normale",
+    "/system/origin": "Insecte Mutant",
     "/system/biography": "<p>Les radiations nucléaires ont transformé les mouches à viande, courantes avant la Grande Guerre, en redoutables créatures surdimensionnées du nom de mouches bouffies. Facilement reconnaissables à leur carapace brunvert mouchetée et à leur apparence charnue et boursouflée, ces créatures ne sont pas des vermines classiques. Les mouches bouffies vivent souvent dans les marais, en nuées de trois à quatre individus. Elles attaquent à distance en propulsant de leur abdomen leurs propres larves, caractérisées par leur aiguillon. Agressives, les mouches bouffies poursuivent sans relâche des proies bien plus grandes qu’elles. Souvent, elles vivent aux côtés de tiques et de darillons à proximité des étendues d’eau ou de carcasses pourrissantes.</p>",
     "/name": "Mouche bouffie"
   }

@@ -26,7 +26,7 @@ test("localized source packs are generated rather than maintained", async () => 
     }
     assert.deepEqual(keys.en, keys.fr, pack.name);
   }
-  assert.equal(records, 3998);
+  assert.equal(records, 3842);
 });
 
 test("canonical sources contain only language-neutral pack references", async () => {
@@ -37,5 +37,5 @@ test("canonical sources contain only language-neutral pack references", async ()
     assert.doesNotMatch(text, /Compendium\.fallout2d20-compendium\.(?:en|fr)-/, file);
     references += (text.match(/"\$ref"/g) ?? []).length;
   }
-  assert.equal(references, 777);
+  assert.equal(references, 437);
 });

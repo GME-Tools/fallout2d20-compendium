@@ -65,8 +65,7 @@ test("survival hazards, stations, and all Core random tables exactly match their
   assert.equal(survival.rollTables.length, 30);
 });
 
-test("the denizen inventory exactly covers abilities, creatures, NPCs, and adventure profiles", async () => {
-  assert.deepEqual(sorted((await documents("en", "creature-abilities")).map(entry)), denizens.creatureAbilities);
+test("the denizen inventory exactly covers creatures, NPCs, and adventure profiles", async () => {
   const actual = sorted((await documents("en", "denizens")).map((document) => ({
     ...entry(document),
     adventure: document.flags?.[moduleId]?.source?.adventure === true,
@@ -80,7 +79,7 @@ test("the denizen inventory exactly covers abilities, creatures, NPCs, and adven
 });
 
 test("every inventoried denizen document has a French counterpart with the same stable id and type", async () => {
-  for (const [field, pack] of [["creatureAbilities", "creature-abilities"], ["denizens", "denizens"]]) {
+  for (const [field, pack] of [["denizens", "denizens"]]) {
     const french = new Map((await documents("fr", pack)).map((document) => [document._id, document]));
     const expectedDocuments = field === "denizens" ? [...denizens.creatures, ...denizens.npcs] : denizens[field];
     assert.equal(french.size, expectedDocuments.length, `${pack} has a language count mismatch`);

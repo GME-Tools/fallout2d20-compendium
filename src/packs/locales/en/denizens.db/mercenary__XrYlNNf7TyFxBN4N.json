@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Combat Armor Chest Piece, Combat Armor Leg x2, Combat Armor Arm x2, Combat Rifle, Wealth 2</span></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Combat Armor Chest Piece, Combat Armor Leg x2, Combat Armor Arm x2, Combat Rifle, Wealth 2</span></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Melee Weapons",
     "/items/3/name": "Survival",
     "/items/4/name": "Energy Weapons",
@@ -25,10 +26,11 @@
     "/items/14/system/description": "<p><span class=\"fontstyle0\">Consisting of a glass bottle&mdash;normally from an alcoholic beverage&mdash;containing a flammable fuel mixture, a bit of motor oil to help it spread, and an alcohol-soaked rag stuffed in the top to act as a wick. When used, the wick is ignited and the bottle hurled at the target; the breaking bottle spreads the agitated mixture, which quickly ignites begins to burn anything in the vicinity. Cheap and effective.</span></p>",
     "/items/14/system/weight": "1",
     "/items/14/name": "Molotov Cocktail",
-    "/items/15/$overrides/~1system~1description": "<p>Once per combat, the mercenary may &lsquo;let rip&rsquo; with a volley from their Combat Rifle. This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD total).</p>",
+    "/items/15/system/description": "<p>Once per combat, the mercenary may &lsquo;let rip&rsquo; with a volley from their Combat Rifle. This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD total).</p>",
+    "/items/15/name": "Let Rip",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 210,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Mercenary</strong></p>\n<p><span class=\"fontstyle0\">Sometimes thought of as the people&rsquo;s militia, the Minutemen were once a prominent faction throughout the Commonwealth. Their influence has dwindled in recent years however but several them still do what they can to help those in need. From helping to establish settlements and then defending them from dangers, the sight of a Minute Man is always welcome.</span></p>",
     "/name": "Mercenary"
   }

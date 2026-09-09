@@ -1,9 +1,0 @@
-{
-  "_key": "!items!cfKIBxPtW8lqQo8I",
-  "_file": "immune_to_radiation__cfKIBxPtW8lqQo8I.json",
-  "values": {
-    "/name": "Immune to Radiation",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p>The [creature] reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>"
-  }
-}

@@ -2,10 +2,6 @@
   "_key": "!actors!xxPtEqx16A5BnLyy",
   "_file": "tourelle_laser_a_3_tirs_murale__xxPtEqx16A5BnLyy.json",
   "values": {
-    "/items/4/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur une tourelle laser détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 3d20 cellules à fusion et 2 DC matériaux peu communs.</p>",
-    "/items/6/system/description": "<p>Munitions: cellules à fusion Les armes laser sont des armes à la technologie très avancée qui émettent un rayon concentré de lumière cohérente directionnelle suffisamment intense pour infliger de sérieux dégâts. Elles furent inventées relativement peu de temps avant la Grande Guerre et ne sont donc pas très répandues dans les Terres désolées, en dehors des groupes qui ont mis la main sur d’anciennes caches d’armes militaires. La plupart des modèles d’arme laser encore en état de marche (par exemple l’AER9, connu pour sa fiabilité et très usité par l’armée des États-Unis) utilisent un condensateur interne chargé par une cellule d’alimentation à microfusion. Le profil par défaut représente un pistolet laser. Une arme laser peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil laser ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: canon long, canon automatique, canon de précision, canon amélioré  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
-    "/items/6/system/weight": 2,
-    "/items/6/name": "Arme laser",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "xxPtEqx16A5BnLyy",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -19,8 +15,20 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Robot, Créature Normale",
     "/system/biography": "<p>Variante de la tourelle laser, ce modèle 3 coups tire presque aussi rapidement qu’une Gatling laser, même si ce qui est gagné en dégâts infligés est perdu en précision. Elle couvre un rayon plus large que la tourelle à rafale unique, ce qui lui offre la possibilité de toucher plusieurs cibles à la fois. Ch</p>",
+    "/items/0/system/description": "<p>Cette créature est immunisée contre la faim, la soif et l’asphyxie, ainsi que contre les dégâts de poison et de radiation. Elle ne peut pas utiliser de consommables, ne guérit pas naturellement et ne peut pas être soignée avec Médecine : ses dégâts doivent être réparés.</p>",
+    "/items/1/system/description": "<p>Cette créature est immunisée contre les effets de toutes les maladies et n’en subit jamais les symptômes.</p>",
+    "/items/1/name": "Immunisé contre les maladies",
+    "/items/2/system/description": "<p>La Santé normale de cette petite créature devient Corps + la moitié de son niveau, arrondie au supérieur, mais sa Défense augmente de 1. Elle est tuée par tout coup qui lui inflige une Blessure.</p>",
+    "/items/2/name": "Petit",
+    "/items/3/system/description": "<p>Munitions: cellules à fusion Les armes laser sont des armes à la technologie très avancée qui émettent un rayon concentré de lumière cohérente directionnelle suffisamment intense pour infliger de sérieux dégâts. Elles furent inventées relativement peu de temps avant la Grande Guerre et ne sont donc pas très répandues dans les Terres désolées, en dehors des groupes qui ont mis la main sur d’anciennes caches d’armes militaires. La plupart des modèles d’arme laser encore en état de marche (par exemple l’AER9, connu pour sa fiabilité et très usité par l’armée des États-Unis) utilisent un condensateur interne chargé par une cellule d’alimentation à microfusion. Le profil par défaut représente un pistolet laser. Une arme laser peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil laser ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: canon long, canon automatique, canon de précision, canon amélioré  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
+    "/items/3/system/weight": 2,
+    "/items/3/name": "Arme laser",
+    "/items/4/$overrides/~1system~1description": "<p>Les pilleurs peuvent récupérer des composants sur une tourelle laser détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 3d20 cellules à fusion et 2 DC matériaux peu communs.</p>",
+    "/items/5/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
+    "/items/5/name": "Immunisé contre le poison",
+    "/items/6/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/6/name": "Immunisé contre les radiations",
     "/name": "Tourelle laser à 3 tirs (murale)"
   }
 }

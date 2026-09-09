@@ -2,9 +2,6 @@
   "_key": "!actors!ZLRYpEd3u99Sl0rT",
   "_file": "tourelle_mitrailleuse_a_3_tirs_murale__ZLRYpEd3u99Sl0rT.json",
   "values": {
-    "/items/4/system/weight": 0,
-    "/items/4/name": "Mitrailleuse",
-    "/items/5/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur une tourelle de mitrailleuse détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 3d20 cartouches de 10 mm et 2 DC matériaux peu communs.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "ZLRYpEd3u99Sl0rT",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -18,8 +15,19 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Robot, Créature Normale",
     "/system/biography": "<p>La version 3 coups de cette tourelle est capable de fournir une cadence de tir plus soutenue, ce qui en fait un minigun de taille réduite fixé au mur. Elle ne tire, certes, que du 10 mm, mais qu’elle le fasse trois balles à la fois cause plus de dégâts à ses cibles, surtout à courte portée.</p>",
+    "/items/0/system/description": "<p>Cette créature est immunisée contre la faim, la soif et l’asphyxie, ainsi que contre les dégâts de poison et de radiation. Elle ne peut pas utiliser de consommables, ne guérit pas naturellement et ne peut pas être soignée avec Médecine : ses dégâts doivent être réparés.</p>",
+    "/items/1/system/description": "<p>Cette créature est immunisée contre les effets de toutes les maladies et n’en subit jamais les symptômes.</p>",
+    "/items/1/name": "Immunisé contre les maladies",
+    "/items/2/system/weight": 0,
+    "/items/2/name": "Mitrailleuse",
+    "/items/3/system/description": "<p>La Santé normale de cette petite créature devient Corps + la moitié de son niveau, arrondie au supérieur, mais sa Défense augmente de 1. Elle est tuée par tout coup qui lui inflige une Blessure.</p>",
+    "/items/3/name": "Petit",
+    "/items/4/$overrides/~1system~1description": "<p>Les pilleurs peuvent récupérer des composants sur une tourelle de mitrailleuse détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 3d20 cartouches de 10 mm et 2 DC matériaux peu communs.</p>",
+    "/items/5/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
+    "/items/5/name": "Immunisé contre le poison",
+    "/items/6/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/6/name": "Immunisé contre les radiations",
     "/name": "Tourelle mitrailleuse à 3 tirs (murale)"
   }
 }

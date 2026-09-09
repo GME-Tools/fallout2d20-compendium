@@ -227,20 +227,29 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ulsqNOiPqfLdHxmK"
-      },
-      "$overrides": {
-        "/_id": "2TR0yWRaj0zGYgN8",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK",
-        "/_key": {
-          "$delete": true
+      "_id": "2TR0yWRaj0zGYgN8",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
         }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
@@ -1054,54 +1063,68 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "dxhwdNF8qFrPARaI"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "dxhwdNF8qFrPARaI",
-        "/_id": "wrSZRm5lWEUQgWQy",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Raider Psycho.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "wrSZRm5lWEUQgWQy",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "KsupnW8VobHlSmuE"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "KsupnW8VobHlSmuE",
-        "/_id": "SMTu1VDFhGf3YGsQ",
-        "/_key": {
-          "$delete": true
+      "name": "Molotov",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Raider Psycho.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "SMTu1VDFhGf3YGsQ",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "vLVTXeKG1Y7igjVR"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "vLVTXeKG1Y7igjVR",
-        "/_id": "L3HvdRQAOR3qk533",
-        "/_key": {
-          "$delete": true
+      "name": "Psycho",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Consumables/Psycho.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "L3HvdRQAOR3qk533",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     }
   ],
@@ -1201,7 +1224,12 @@
       }
     },
     "injuries": "",
-    "source": "core_rulebook"
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": false,
+      "radiation": false
+    }
   },
   "ownership": {
     "default": 0,

@@ -228,20 +228,29 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ulsqNOiPqfLdHxmK"
-      },
-      "$overrides": {
-        "/_id": "2TR0yWRaj0zGYgN8",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK",
-        "/_key": {
-          "$delete": true
+      "_id": "2TR0yWRaj0zGYgN8",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
         }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
@@ -349,20 +358,24 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "zz6bRTllvwXsTigA"
-      },
-      "$overrides": {
-        "/_id": "2yedRCg3UmHJlUfF",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "zz6bRTllvwXsTigA",
-        "/_key": {
-          "$delete": true
+      "_id": "2yedRCg3UmHJlUfF",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/the-chain-that-binds.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
@@ -645,20 +658,24 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "8aR0dOmXGhUI5Ldd"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "8aR0dOmXGhUI5Ldd",
-        "/_id": "11ppi45jhxoLoR8m",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Brotherhood of Steel Scribe.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "11ppi45jhxoLoR8m",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     }
   ],
@@ -758,7 +775,12 @@
       }
     },
     "injuries": "",
-    "source": "core_rulebook"
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": false,
+      "radiation": false
+    }
   },
   "ownership": {
     "default": 0,

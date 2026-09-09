@@ -51,175 +51,687 @@
   },
   "items": [
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "cfKIBxPtW8lqQo8I"
-      },
-      "$overrides": {
-        "/_id": "yqWgB6uyQOo9Oe2y",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/sort": 200000,
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I",
-        "/_key": {
-          "$delete": true
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/claws.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.aSM423jHNM9YfUdZ"
         }
+      },
+      "_id": "RKspcD9xnittc0yN",
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "creatureAttack",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "melee",
+        "damage": {
+          "rating": 6,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": true,
+              "rank": 1,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": ""
+        },
+        "source": "core_rulebook",
+        "creatureAttribute": "body",
+        "creatureSkill": "melee"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Deathclaw.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.aSM423jHNM9YfUdZ"
+        }
+      },
+      "_id": "VTesNOiemGysyQ4v",
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "creatureAttack",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "melee",
+        "damage": {
+          "rating": 4,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": true,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": ""
+        },
+        "source": "core_rulebook",
+        "creatureAttribute": "body",
+        "creatureSkill": "melee"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Deathclaw.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.aSM423jHNM9YfUdZ"
+        }
+      },
+      "_id": "YGQVG4xhI5yNAwcB",
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "creatureAttack",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "body",
+        "skill": "guns",
+        "damage": {
+          "rating": 4,
+          "damageType": {
+            "physical": true,
+            "energy": false,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": false,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": false,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": true,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": false,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": false,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": true,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": false,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "medium",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 0,
+          "current": 0,
+          "list": ""
+        },
+        "source": "core_rulebook",
+        "creatureAttribute": "body",
+        "creatureSkill": "guns"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/big.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "_id": "SEH1ypaa7viyWE2X",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/keen-senses.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "_id": "Vr10Yf0TldyyAlYo",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Deathclaw.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "_id": "vUX6N2MwruYRyQ4G",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/weak-spot.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "_id": "I8ZNUnexMD6nOflP",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Deathclaw.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
+      "_id": "erHEWljg38uY3p9G",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
       "$ref": {
-        "pack": "creature-abilities",
-        "id": "kRSBClXDVHbQohah"
+        "pack": "consumables",
+        "id": "mGyKuUfzHD8BwTMp"
       },
       "$overrides": {
-        "/_id": "P8eLw79pxn9wztKe",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/sort": 300000,
+        "/_id": "bhypXlBjsRSYqJe9",
+        "/_key": {
+          "$delete": true
+        },
+        "/folder": null,
+        "/sort": 0,
+        "/system/quantity": 1,
+        "/system/quantityRoll": "2dc",
+        "/system/butchery": true,
         "/flags/fallout2d20-compendium/source": {
           "$delete": true
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "kRSBClXDVHbQohah",
-        "/_key": {
-          "$delete": true
-        }
+        "/flags/fallout2d20-compendium/canonicalPack": "consumables",
+        "/flags/fallout2d20-compendium/canonicalItemId": "mGyKuUfzHD8BwTMp",
+        "/flags/fallout2d20-compendium/embeddedYield": true
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "uELIiFjqleSToyB2"
-      },
-      "$overrides": {
-        "/img": "icons/creatures/claws/claw-straight-orange.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
+      "_id": "yqWgB6uyQOo9Oe2y",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "uELIiFjqleSToyB2",
-        "/_id": "RKspcD9xnittc0yN",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "IADR8cpuEoF7TeG9"
+        "fallout2d20-compendium": {}
       },
-      "$overrides": {
-        "/img": "icons/skills/wounds/injury-pain-body-orange.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "IADR8cpuEoF7TeG9",
-        "/_id": "VTesNOiemGysyQ4v",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "tUY8Tdob59HqCbMi"
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
       },
-      "$overrides": {
-        "/img": "icons/skills/ranged/bullet-ball-pink.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "tUY8Tdob59HqCbMi",
-        "/_id": "YGQVG4xhI5yNAwcB",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "O40WmH3GD3UYUU8j"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "O40WmH3GD3UYUU8j",
-        "/_id": "SEH1ypaa7viyWE2X",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "y7gB4zpJo3GZtW9y"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "y7gB4zpJo3GZtW9y",
-        "/_id": "Vr10Yf0TldyyAlYo",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ar1HypIBKrPwbB1e"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ar1HypIBKrPwbB1e",
-        "/_id": "vUX6N2MwruYRyQ4G",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "DjgVlWCKYPG3M9Qj"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "DjgVlWCKYPG3M9Qj",
-        "/_id": "I8ZNUnexMD6nOflP",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "UBkpFK50PWxWnOh3"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "UBkpFK50PWxWnOh3",
-        "/_id": "erHEWljg38uY3p9G",
-        "/_key": {
-          "$delete": true
-        }
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     }
   ],
@@ -319,7 +831,18 @@
     "locations": [],
     "injuries": "",
     "luckPoints": null,
-    "source": "core_rulebook"
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": false,
+      "radiation": true
+    },
+    "butchery": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0,
+      "tn": 1
+    }
   },
   "ownership": {
     "default": 0,

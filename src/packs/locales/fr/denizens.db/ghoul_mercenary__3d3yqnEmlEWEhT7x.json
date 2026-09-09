@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Plastron d’armure de combat, 2 protections de jambe d’armure de combat, 2 protections de bras d’armure de combat, Carabine de combat, Richesse 2.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Plastron d’armure de combat, 2 protections de jambe d’armure de combat, 2 protections de bras d’armure de combat, Carabine de combat, Richesse 2.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes de corps à corps",
     "/items/3/name": "Survie",
     "/items/4/name": "Armes à énergie",
@@ -24,7 +26,12 @@
     "/items/14/system/description": "<p>Composé d’une bouteille de verre (généralement d’un alcool quelconque) contenant un mélange de carburants inflammable, d’un peu d’huile de moteur pour aider le feu à se répandre et d’un chiffon imbibé d’alcool enfoncé dans le goulot pour servir de mèche. Pour utiliser le cocktail Molotov, il faut allumer la mèche et lancer la bouteille sur la cible; la bouteille se brise et répand le mélange remué, qui s’enflamme rapidement et se met à brûler tout ce qui se trouve à proximité. Bon marché et efficace.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>Établi de chimie</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>Explosifs</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li><li>Matériaux peu fréquents ×2</li></ul></section>",
     "/items/14/system/weight": 0.5,
     "/items/14/name": "Cocktail Molotov",
-    "/items/15/$overrides/~1system~1description": "<p>Une fois par combat, le mercenaire ajoute la Cadence 2 de sa Carabine de combat aux dégâts d’une attaque, soit 7 DC.</p>",
+    "/items/15/system/description": "<p>Une fois par combat, le mercenaire ajoute la Cadence 2 de sa Carabine de combat aux dégâts d’une attaque, soit 7 DC.</p>",
+    "/items/15/name": "Se lâcher",
+    "/items/16/system/description": "<p>Cette goule est soignée par les radiations. Elle récupère 1 point de Santé pour chaque tranche de 3 points de dégâts de radiation qui lui sont infligés.</p>",
+    "/items/16/name": "Goule",
+    "/items/17/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/17/name": "Immunisé contre les radiations",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "3d3yqnEmlEWEhT7x",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -39,7 +46,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 105,
-    "/system/origin": "Goule, Personnage Normal",
+    "/system/origin": "Goule",
     "/system/biography": "<p>Les artilleurs ne sont pas les seuls à vendre leurs services: bon nombre d’autres individus et de groupes vendent leurs armes et leur violence contre une poignée de capsules. On peut les trouver, parfois, escortant des marchands et les protégeant contre les dangers des pillards et de la vie sauvage, mais d’autres gardent aussi les campements, ou des survivants. Un mercenaire bien entraîné, connaissant la région et ses dangers, se paye rubis sur l’ongle… et bon nombre d’entre eux n’hésiteront pas à s’en prendre à vous pour une poignée de capsules.</p>",
     "/name": "Mercenaire goule"
   }

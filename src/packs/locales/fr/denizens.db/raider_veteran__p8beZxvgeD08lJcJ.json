@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Armure à pointes, Carabine de combat, Machette, Richesse 2.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Armure à pointes, Carabine de combat, Machette, Richesse 2.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes légères",
     "/items/3/name": "Armes de corps à corps",
     "/items/4/name": "Survie",
@@ -23,7 +25,10 @@
     "/items/13/system/description": "<p>Composé d’une bouteille de verre (généralement d’un alcool quelconque) contenant un mélange de carburants inflammable, d’un peu d’huile de moteur pour aider le feu à se répandre et d’un chiffon imbibé d’alcool enfoncé dans le goulot pour servir de mèche. Pour utiliser le cocktail Molotov, il faut allumer la mèche et lancer la bouteille sur la cible; la bouteille se brise et répand le mélange remué, qui s’enflamme rapidement et se met à brûler tout ce qui se trouve à proximité. Bon marché et efficace.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>Établi de chimie</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>Explosifs</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li><li>Matériaux peu fréquents ×2</li></ul></section>",
     "/items/13/system/weight": 0.5,
     "/items/13/name": "Cocktail Molotov",
-    "/items/15/$overrides/~1system~1description": "<p>Une fois par combat, le vétéran pillard ajoute la Cadence 2 de sa Carabine de combat aux dégâts d’une attaque, soit 7 DC.</p>",
+    "/items/14/system/description": "<p>Un vétéran pillard peut consacrer une action mineure à ordonner à un pillard de niveau inférieur situé à portée Courte d’effectuer immédiatement une action mineure, ou une action majeure à ordonner à un autre pillard d’effectuer immédiatement une action majeure.</p>",
+    "/items/14/name": "Aux commandes",
+    "/items/15/system/description": "<p>Une fois par combat, le vétéran pillard ajoute la Cadence 2 de sa Carabine de combat aux dégâts d’une attaque, soit 7 DC.</p>",
+    "/items/15/name": "Se lâcher",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "p8beZxvgeD08lJcJ",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -38,7 +43,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 105,
-    "/system/origin": "Pillard Humain, Personnage Notable",
+    "/system/origin": "Pillard Humain",
     "/system/biography": "<p>Réussir à rester en vie envers et contre tout vous fait souvent gagner au moins une once de respect parmi vos pairs et c’est bel et bien le cas des pillards vétérans. Leur armure améliorée et leur armement puissant démontrent leur capacité, non seulement à survivre, mais encore à prospérer dans les Terres désolées… et en font des ennemis redoutables. À la fois bons en combat et intelligents, il serait risqué de les sous-estimer.</p>",
     "/name": "Pillard vétéran"
   }

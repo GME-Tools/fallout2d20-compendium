@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Cuirs de route, Arme de fortune, Démonte-pneu, Richesse 1.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Cuirs de route, Arme de fortune, Démonte-pneu, Richesse 1.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Réparation",
     "/items/3/name": "Armes légères",
     "/items/4/name": "Médecine",
@@ -19,7 +21,8 @@
     "/items/11/system/description": "<p>Munitions: cartouches .38 Une arme artisanale grossière, généralement maniée par ceux qui ne peuvent pas fabriquer, acheter ou trouver quoi que ce soit de mieux. Les armes de fortune sont rudimentaires, peu fiables, mais assez efficaces. La forme la plus courante de l’arme de fortune est un petit pistolet de poing simple semi-automatique, chambré pour utiliser les cartouches .38 aisées à trouver, mais des gens entreprenants (ou désespérés) appliquent parfois des modules à ces armes pour qu’elles tirent automatiquement ou deviennent des armes de précision. Une arme de fortune peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de fortune ».  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, culasse .45  Canon : canon long, canon à ouvertures, canon à ailettes  Poignée: poignée de tireur d’élite</p>",
     "/items/11/system/weight": 1,
     "/items/11/name": "Arme de fortune",
-    "/items/12/$overrides/~1system~1description": "<p>Une fois par combat, le pillard ajoute la Cadence 2 de son Arme de fortune aux dégâts d’une attaque, soit 5 DC.</p>",
+    "/items/12/system/description": "<p>Une fois par combat, le pillard ajoute la Cadence 2 de son Arme de fortune aux dégâts d’une attaque, soit 5 DC.</p>",
+    "/items/12/name": "Se lâcher",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "hYg9o0c07GNy5Vb5",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -34,7 +37,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 105,
-    "/system/origin": "Pillard Humain, Personnage Normal",
+    "/system/origin": "Pillard Humain",
     "/system/biography": "<p>Un pillard classique et solitaire est à peu près aussi menaçant qu’une capsule de Nuka-Cola sous la semelle, malheureusement pour les voyageurs, ils le savent et ne se déplacent presque qu’en groupe. Les pillards portent en général des armures de bric et de broc, dont les diverses parties ont été dérobées à leurs précédentes victimes, ainsi que des armes obtenues de la même manière. Les pillards se montrent hostiles envers toute personne ne faisant pas partie de leur groupe et vont jusqu’à se battre contre des gangs rivaux.</p>",
     "/name": "Pillard"
   }

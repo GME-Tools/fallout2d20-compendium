@@ -4,7 +4,11 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Blaster alien",
-    "/items/1/$overrides/~1system~1effect": "<p>Blaster alien et 5d20 munitions de blaster alien.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Blaster alien et 5d20 munitions de blaster alien.</p>",
+    "/items/1/name": "Inventaire",
+    "/items/2/system/description": "<p>Le Zétan ne peut pas être raisonné ni influencé par des tests de Discours.</p>",
+    "/items/2/name": "Extra-terrestre",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "QhWU58U2IG3RL7Mn",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -17,7 +21,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Extra-terrestre, Créature Normale",
+    "/system/origin": "Extra-terrestre",
     "/system/biography": "<p>On voit rarement ces créatures dans les Terres désolées. On murmure que le Commonwealth a été le site d’un crash de l’un de leurs vaisseaux. Les Zetans sont plus petits que les humains de taille habituelle et ont une peau jaune-vert. Ce sont des bipèdes, leurs deux longs bras se terminent par trois doigts démesurés. Leur crâne a une forme de poire à l’envers, leur visage est étroit, leur front et leurs tempes larges. Ils possèdent deux yeux d’un noir d’encre, des fentes pouvant porter le nom de narines et des dents pointues. De leurs blessures s’écoule un sang vert pâle. Il s’assombrit en séchant. Leur cerveau, s’il est mis à nu est souvent vert lui aussi. Les Zetans disposent d’un pistolet extra-terrestre, à la technologie inconnue sur Terre.</p>",
     "/name": "Zétans (extra-terrestres)"
   }

@@ -10,10 +10,6 @@ export const APPROVED_CORE_DUPLICATE_NAME_GROUPS = {
     ["th5iQbnAiLsKzIVV", "U38QzZYOaKw1oC3h"],
     ["C5ifa1Dx7rIxx65I", "KSd9eiC0XaVlIXkN"]
   ],
-  "creature-abilities": [
-    ["klbQQiZH61sAtNuR", "lfMWVhIeAPx7Hgrs"],
-    ["dYy0F73URJNTaojo", "ntfVlZWPlsm4TaRj"]
-  ],
   weapons: [
     ["75n1EFSJw8xxti6s", "q3RjTNEYvfHVBzVk"]
   ],

@@ -2,7 +2,6 @@
   "_key": "!actors!6LDdGbIXyMD71XZJ",
   "_file": "tique__6LDdGbIXyMD71XZJ.json",
   "values": {
-    "/items/3/$overrides/~1system~1effect": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de sanguinaire et 1 poche de sang.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "6LDdGbIXyMD71XZJ",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -15,8 +14,20 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Insecte Mutant, Créature Normale",
+    "/system/origin": "Insecte Mutant",
     "/system/biography": "<p>Les tiques sont des moustiques mutants que l’on croise dans les marais, dans les zones d’eau stagnante ou à proximité des charognes. Adultes, elles présentent un corps brun-rouge sombre et long de plus de cinquante centimètres, leur trompe acérée peut perforer certains types d’armures. En général, les tiques crachent du sang irradié pour aveugler leur proie avant de percer la victime désorientée de leur trompe pour boire son sang. Les brahmines et les autres créatures domestiques succombent souvent face à ces insectes, tout comme les voyageurs imprudents qui sous-estiment le danger que représente une nuée.</p>",
+    "/items/0/system/description": "<p>Cette créature se déplace librement dans les airs. Elle ignore la plupart des obstacles au sol et le terrain difficile, et peut traverser les zones « vides » au-dessus du champ de bataille. Elle doit consacrer au moins une action mineure par tour à se déplacer. Si elle est mise à terre, elle chute et subit 3 DC de dégâts physiques Étourdissants, +2 DC par zone qui la séparait du sol.</p>",
+    "/items/0/name": "Vol",
+    "/items/1/system/description": "<p>La Santé normale de cette petite créature devient Corps + la moitié de son niveau, arrondie au supérieur, mais sa Défense augmente de 1. Elle est tuée par tout coup qui lui inflige une Blessure.</p>",
+    "/items/1/name": "Petit",
+    "/items/2/system/weight": 0,
+    "/items/2/name": "Trompe",
+    "/items/3/$overrides/~1system~1description": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de sanguinaire et 1 poche de sang.</p>",
+    "/items/4/$overrides/~1system~1description": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de sanguinaire et 1 poche de sang.</p>",
+    "/items/5/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/5/name": "Immunisé contre les radiations",
+    "/items/6/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
+    "/items/6/name": "Immunisé contre le poison",
     "/name": "Tique"
   }
 }

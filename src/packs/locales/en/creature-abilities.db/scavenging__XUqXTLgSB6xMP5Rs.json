@@ -1,9 +1,0 @@
-{
-  "_key": "!items!XUqXTLgSB6xMP5Rs",
-  "_file": "scavenging__XUqXTLgSB6xMP5Rs.json",
-  "values": {
-    "/name": "Scavenging",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/effect": "<p><span class=\"fontstyle0\">Upon the [creature]&rsquo;s death the players can find several items and caps among its body and lair. Roll 4d20 for the number of caps that can be found, roll 4CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">and for each effect rolled make a single roll on the random junk table. The lair or body may also contain up to three weapons, and 3d20 rounds of ammunition appropriate to the weapons found, at the GM's discretion.</span></p>"
-  }
-}

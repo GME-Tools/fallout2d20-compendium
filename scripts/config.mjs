@@ -18,7 +18,6 @@ export const PACKS = [
   { name: "books-and-magazines", label: { en: "Books and Magazines", fr: "Livres et magazines" }, type: "Item" },
   { name: "miscellany", label: { en: "Miscellany", fr: "Objets divers" }, type: "Item" },
   { name: "crafting-stations", label: { en: "Crafting Stations", fr: "Établis de fabrication" }, type: "Item" },
-  { name: "creature-abilities", label: { en: "Creature Abilities", fr: "Capacités de créature" }, type: "Item" },
   { name: "denizens", label: { en: "Denizens of the Wasteland", fr: "Résidents des Terres désolées" }, type: "Actor" },
   { name: "roll-tables", label: { en: "Roll Tables", fr: "Tables aléatoires" }, type: "RollTable" }
 ];
@@ -29,7 +28,6 @@ export const LEGACY_PACK_MAP = {
   "apparel": "apparel",
   "books-and-magazines": "books-and-magazines",
   "consumables": "consumables",
-  "creature-abilities": "creature-abilities",
   "perks": "perks",
   "robot-armor": "robot-armor",
   "robot-modules": "robot-modules",

@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Vêtements résistants, Richesse 2.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Vêtements résistants, Richesse 2.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes de corps à corps",
     "/items/3/name": "Survie",
     "/items/4/name": "Armes à énergie",
@@ -19,6 +21,8 @@
     "/items/13/system/description": "<p>Munitions: cartouches .308 Un fusil à verrou généralement manié par les super mutants et les pillards. Son design simple l’avait rendu populaire parmi les chasseurs et les survivalistes avant la Grande Guerre et il est très facilement personnalisable. Suggérer que la pétoire à canon court sans fioritures maniée par un super mutant pourrait être transformée en fusil de sniper de précision semble fantaisiste, mais cela décrit parfaitement le fusil de chasse. Un fusil de chasse peut accepter un mod de chaque type parmi les suivants:  Culasse: optimisée, calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon long, canon à ouvertures, canon ventilé  Crosse: crosse complète, crosse de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, silencieux</p>",
     "/items/13/system/weight": 5,
     "/items/13/name": "Fusil de chasse",
+    "/items/14/system/description": "<p>Sous couverture, l’agent du Réseau du Rail gagne un d20 supplémentaire à tout test de Discours impliquant une tromperie.</p>",
+    "/items/14/name": "Agent du Réseau du Rail",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "3owi1jAoXsFfPd6l",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -33,7 +37,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 100,
-    "/system/origin": "Humain, Personnage Normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>La faction secrète du Réseau du Rail cherche à libérer les synthétiques de troisième génération contrôlés par l’Institut. Ses agents travaillent souvent dans l’ombre, agissent et s’habillent de la façon la plus discrète possible. Ils préfèrent s’en remettre au subterfuge pour mener leurs missions à bien. Cela ne les empêche toutefois pas de sortir leurs armes lorsqu’on leur met des bâtons dans les roues ou que l’on pactise avec leurs ennemis, par exemple la Confrérie de l’Acier. Ch</p>",
     "/name": "Agent du Réseau du Rail"
   }

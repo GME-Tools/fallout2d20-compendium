@@ -15,7 +15,7 @@ await mkdir(outputRoot, { recursive: true });
 // These packs were deliberately merged into `denizens`. Remove their compiled
 // databases so an incremental build cannot leave obsolete packs in an archive.
 for (const language of LANGUAGES) {
-  for (const retiredPack of ["creatures", "npcs"]) {
+  for (const retiredPack of ["creatures", "npcs", "creature-abilities"]) {
     await rm(path.join(outputRoot, packId(language, retiredPack)), { recursive: true, force: true });
   }
 }

@@ -2,7 +2,11 @@
   "_key": "!actors!IgjxYB9AxoT2p6LK",
   "_file": "brahmine__IgjxYB9AxoT2p6LK.json",
   "values": {
-    "/items/1/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer une brahmine mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de brahmine et 2 matériaux peu communs.</p>",
+    "/items/0/system/weight": 0,
+    "/items/0/name": "Coup de tête",
+    "/items/1/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer une brahmine mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de brahmine et 2 matériaux peu communs.</p>",
+    "/items/2/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/2/name": "Immunisé contre les radiations",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "IgjxYB9AxoT2p6LK",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -15,7 +19,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Mammifère Mutant, Créature Normale",
+    "/system/origin": "Mammifère Mutant",
     "/system/biography": "<p>Essentielles dans la plupart des communautés, les brahmines font partie des créatures les plus courantes des Terres désolées. Ces pièces de bétail mutant partagent de nombreuses caractéristiques avec les vaches d’avant-guerre, même si elles ont développé une seconde tête et des pis surdimensionnés en raison des retombées nucléaires. Elles fournissent du lait et de la viande, ainsi que du cuir. Des troupeaux de brahmines sauvages parcourent les Terres désolées, mais le plus souvent, ces animaux sont élevés en guise de bétail ou servent de bêtes de somme pour les marchands. Leur robustesse et leur corpulence leur confèrent une résistance suffisante pour Ch</p>",
     "/name": "Brahmine"
   }

@@ -10,10 +10,10 @@ const item=(actor,name)=>actor.items.find(entry=>entry.name===name||entry.name==
 
 for(const language of ["en","fr"]) test(`${language} embedded actor data implements cumulative Core errata`,async()=>{
   const all=await actors(language);
-  assert.match(item(all.get("Bloodbug"),"Butchery").system.effect,/blood sac|poche de sang/);
-  assert.match(item(all.get("Bloatfly"),"Butchery").system.effect,/bloatfly gland|glande de mouche bouffie/);
-  assert.match(item(all.get("Radscorpion"),"Butchery").system.effect,/stinger|dard/);
-  assert.match(item(all.get("Stingwing"),"Butchery").system.effect,/barb|dard/);
+  assert.match(item(all.get("Bloodbug"),"Blood Sac").system.description,/blood sac|poche de sang/);
+  assert.match(item(all.get("Bloatfly"),"Bloatfly Gland").system.description,/bloatfly gland|glande de mouche bouffie/);
+  assert.match(item(all.get("Radscorpion"),"Radscorpion Stinger").system.description,/stinger|dard/);
+  assert.match(item(all.get("Stingwing"),"Stingwing Barb").system.description,/barb|dard/);
   const acid=item(all.get("Mirelurk Queen"),"Acid Spray");assert.equal(acid.system.damage.rating,10);assert.equal(acid.system.damage.damageType.poison,true);assert.equal(acid.system.damage.damageEffect.radioactive.value,true);assert.equal(acid.system.damage.damageEffect.piercing.value,true);
   for(const name of ["Machine Gun Turret MK I","Machine Gun Turret MK III"])assert.equal(item(all.get(name),"Machine Gun").system.damage.damageEffect.stun.value,false);
   const sentry=all.get("Sentry Bot");assert.equal(item(sentry,"Self Destruct").system.damage.rating,6);assert.equal(item(sentry,"Self Destruct").system.damage.weaponQuality.blast.value,true);assert.ok(item(sentry,"Big"));

@@ -5,7 +5,9 @@
     "/token/name": "Récupérateur",
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "Cuirs de route, Fusil à double canon, Richesse 1.",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "Cuirs de route, Fusil à double canon, Richesse 1.",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Réparation",
     "/items/3/name": "Troc",
     "/items/4/name": "Armes de corps à corps",
@@ -30,7 +32,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 100,
-    "/system/origin": "Humain, Personnage normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>Ce récupérateur vient réclamer le solde impayé d’une livraison de Stimpaks. L’amnésie de l’intendant rend le conflit violent, mais le récupérateur fournit aussi un indice important sur le comportement récent de Joseph.</p>",
     "/name": "Récupérateur"
   }

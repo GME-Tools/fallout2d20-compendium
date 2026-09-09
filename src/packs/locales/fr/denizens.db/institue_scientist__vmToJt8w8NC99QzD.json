@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Blouse de laboratoire, Laser de l’Institut et 2d20 cellules à fusion.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Blouse de laboratoire, Laser de l’Institut et 2d20 cellules à fusion.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes à énergie",
     "/items/3/name": "Discours",
     "/items/4/name": "Sciences",
@@ -27,7 +29,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 95,
-    "/system/origin": "Humain, Personnage Normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>La plupart des individus vivant dans l’Institut sont des scientifiques au passé et aux domaines de compétences divers. Ils peuvent superviser des projets demandant des savoirs portant sur la robotique, la biologie, la création de tissus synthétiques, la physique et la génétique pour ne citer que ceux-là. Ils représentent la ressource principale de l’Institut, lui permettant d’améliorer et de développer la technologie dont il dispose.</p>",
     "/name": "Scientifique de l’Institut"
   }

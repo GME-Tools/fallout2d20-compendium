@@ -49,6 +49,115 @@
     "y": null,
     "elevation": null
   },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Actor.RYTaWNHhkgjDUBpq"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "importedFromLegacy": true,
+        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "system": {
+    "level": {
+      "value": 4,
+      "currentXP": 31,
+      "nextLevelXP": 0
+    },
+    "description": "",
+    "trait": "",
+    "powerLevel": "normal",
+    "body": {
+      "value": 6,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "mind": {
+      "value": 4,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "melee": {
+      "value": 2,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "guns": {
+      "value": 2,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "other": {
+      "value": 2,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "health": {
+      "value": 10,
+      "min": 0,
+      "max": 10,
+      "mod": 0
+    },
+    "initiative": {
+      "value": 11,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "defense": {
+      "value": 1,
+      "min": 0,
+      "max": 1,
+      "mod": 0
+    },
+    "resistance": {
+      "physical": {
+        "value": 0,
+        "locations": "2 (Head, Legs, Arms); 1 (Torso)"
+      },
+      "energy": {
+        "value": 0,
+        "locations": "3 (Head, Legs, Arms); 2 (Torso)"
+      },
+      "radiation": {
+        "value": 0,
+        "locations": "Immune"
+      },
+      "poison": {
+        "value": 0,
+        "locations": "Immune"
+      }
+    },
+    "locations": [],
+    "injuries": "",
+    "luckPoints": null,
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": true,
+      "radiation": true
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!actors!igURRV1X7PGMsibA",
+  "$folder": "synths",
   "items": [
     {
       "_id": "qhC4YwPxj4FB6pIW",
@@ -401,210 +510,138 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "mTtWSb8QHEJwXAvI"
-      },
-      "$overrides": {
-        "/_id": "RXmOc1NdwQQn7RfO",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "mTtWSb8QHEJwXAvI",
-        "/_key": {
-          "$delete": true
+      "_id": "RXmOc1NdwQQn7RfO",
+      "name": "Robot",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/robot.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "eHUfxhM71yCDYnFj"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "eHUfxhM71yCDYnFj",
-        "/_id": "EawYhE0ig3n6ex5B",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-fear.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "QChQJ9QZHqMa8jBF",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "cfKIBxPtW8lqQo8I"
-      },
-      "$overrides": {
-        "/_id": "CxHQQtgCCjQDPhOX",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-disease.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "vFBcleoDVSY9A7Nf",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ot0eE61yfVDcR2cX"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ot0eE61yfVDcR2cX",
-        "/_id": "QChQJ9QZHqMa8jBF",
-        "/_key": {
-          "$delete": true
+      "_id": "JLSviAhNqtQ2Mzf0",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
         }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "XnLPyuXsSPPSHRSZ"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-poison.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "XnLPyuXsSPPSHRSZ",
-        "/_id": "vFBcleoDVSY9A7Nf",
-        "/_key": {
-          "$delete": true
-        }
+        "fallout2d20-compendium": {}
+      },
+      "_id": "EawYhE0ig3n6ex5B",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ulsqNOiPqfLdHxmK"
-      },
-      "$overrides": {
-        "/_id": "JLSviAhNqtQ2Mzf0",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
+      "_id": "CxHQQtgCCjQDPhOX",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK",
-        "/_key": {
-          "$delete": true
-        }
+        "fallout2d20-compendium": {}
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "flags": {
-    "core": {
-      "sourceId": "Actor.RYTaWNHhkgjDUBpq"
-    },
-    "fallout2d20-compendium": {
-      "source": {
-        "book": "core_rulebook",
-        "importedFromLegacy": true,
-        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
-        "errataReviewed": true,
-        "artworkReviewed": true,
-        "artworkStatus": "dedicated"
-      }
-    }
-  },
-  "system": {
-    "level": {
-      "value": 4,
-      "currentXP": 31,
-      "nextLevelXP": 0
-    },
-    "description": "",
-    "trait": "",
-    "powerLevel": "normal",
-    "body": {
-      "value": 6,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "mind": {
-      "value": 4,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "melee": {
-      "value": 2,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "guns": {
-      "value": 2,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "other": {
-      "value": 2,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "health": {
-      "value": 10,
-      "min": 0,
-      "max": 10,
-      "mod": 0
-    },
-    "initiative": {
-      "value": 11,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "defense": {
-      "value": 1,
-      "min": 0,
-      "max": 1,
-      "mod": 0
-    },
-    "resistance": {
-      "physical": {
-        "value": 0,
-        "locations": "2 (Head, Legs, Arms); 1 (Torso)"
-      },
-      "energy": {
-        "value": 0,
-        "locations": "3 (Head, Legs, Arms); 2 (Torso)"
-      },
-      "radiation": {
-        "value": 0,
-        "locations": "Immune"
-      },
-      "poison": {
-        "value": 0,
-        "locations": "Immune"
-      }
-    },
-    "locations": [],
-    "injuries": "",
-    "luckPoints": null,
-    "source": "core_rulebook"
-  },
-  "ownership": {
-    "default": 0,
-    "I8FU1gA0rIKN7NHn": 3
-  },
-  "_key": "!actors!igURRV1X7PGMsibA",
-  "$folder": "synths"
+  ]
 }

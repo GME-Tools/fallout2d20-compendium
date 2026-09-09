@@ -35,7 +35,9 @@ The referenced localized document is cloned first, then the JSON-pointer
 overrides are applied recursively. `{ "$delete": true }` explicitly removes a
 field inherited from the referenced document. A missing reference, wrong pack,
 or unknown ID is a build error. Copies without `$ref` are autonomous by design
-and require an explicit future editorial exception.
+and require an explicit editorial exception. Denizen abilities are the
+documented exception: the published Actor instance is authoritative because
+identically named abilities may legitimately vary by denizen or publication.
 
 ## Editing and verification
 

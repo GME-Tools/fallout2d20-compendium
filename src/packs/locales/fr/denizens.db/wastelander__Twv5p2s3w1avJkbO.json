@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Machette, Fusil à canon scié, 10+5 DC Cartouches de fusil, Richesse 1</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Machette, Fusil à canon scié, 10+5 DC Cartouches de fusil, Richesse 1</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Réparation",
     "/items/3/name": "Troc",
     "/items/4/name": "Armes de corps à corps",
@@ -33,7 +35,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 105,
-    "/system/origin": "Humain, Personnage Normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>« Habitants des Terres désolées » est le nom donné aux très nombreux individus qui errent, voyagent et se fixent dans tout le territoire. Beaucoup d’entre eux n’ont rien de remarquable, et ne cherchent qu’à survivre à tout prix. Certains sortent de l’ordinaire et savent manier les armes, par exemple, pendant que d’autres peuvent maîtriser des compétences uniques, reflétant leur expérience de la vie et leur passé. Ils peuvent venir de n’importe quel village du Commonwealth et de toutes les strates de la société.</p>",
     "/name": "Habitant des Terres désolées"
   }

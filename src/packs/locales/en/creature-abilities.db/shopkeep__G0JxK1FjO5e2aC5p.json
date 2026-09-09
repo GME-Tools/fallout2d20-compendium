@@ -1,9 +1,0 @@
-{
-  "_key": "!items!G0JxK1FjO5e2aC5p",
-  "_file": "shopkeep__G0JxK1FjO5e2aC5p.json",
-  "values": {
-    "/name": "Shopkeep",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">The merchant is accompanied by a pack brahmin or is running a shop.They have 6d20 caps on their person for trade. The GM determines the goods available.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>"
-  }
-}

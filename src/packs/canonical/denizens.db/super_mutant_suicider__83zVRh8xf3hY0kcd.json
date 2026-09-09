@@ -49,42 +49,116 @@
     "y": null,
     "elevation": null
   },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Actor.1aYUWdt4trZwjRiC"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "importedFromLegacy": true,
+        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "system": {
+    "level": {
+      "value": 6,
+      "currentXP": 45,
+      "nextLevelXP": 0
+    },
+    "description": "",
+    "trait": "",
+    "health": {
+      "value": 12,
+      "min": 0,
+      "max": 12,
+      "mod": 0
+    },
+    "defense": {
+      "base": 0,
+      "value": 1,
+      "mod": 0
+    },
+    "carryWeight": {
+      "value": 0,
+      "mod": 0
+    },
+    "initiative": {
+      "base": 0,
+      "value": 12,
+      "mod": 0
+    },
+    "resistance": {
+      "physical": {
+        "locations": "3 (Torso); 2 (Arms, Legs, Head)"
+      },
+      "energy": {
+        "locations": "4 (Torso); 2 (Arms, Legs, Head)"
+      },
+      "radiation": {
+        "locations": "Immune"
+      },
+      "poison": {
+        "locations": "Immune"
+      }
+    },
+    "meleeDamage": {
+      "base": 1,
+      "value": 0,
+      "mod": 0
+    },
+    "luckPoints": 0,
+    "conditions": {
+      "hunger": 0,
+      "thirst": 0,
+      "sleep": 0,
+      "fatigue": 0
+    },
+    "attributes": {
+      "str": {
+        "value": 8
+      },
+      "per": {
+        "value": 5
+      },
+      "end": {
+        "value": 6
+      },
+      "cha": {
+        "value": 4
+      },
+      "int": {
+        "value": 4
+      },
+      "agi": {
+        "value": 7
+      },
+      "luc": {
+        "value": 4
+      }
+    },
+    "injuries": "",
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": true,
+      "radiation": true
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!actors!83zVRh8xf3hY0kcd",
+  "$folder": "super-mutants",
   "items": [
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "eHUfxhM71yCDYnFj"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "eHUfxhM71yCDYnFj",
-        "/_id": "BicdAjOlI5usgXMA",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "cfKIBxPtW8lqQo8I"
-      },
-      "$overrides": {
-        "/_id": "lH45aSUIgVqHGMUw",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/sort": -50000,
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I",
-        "/_key": {
-          "$delete": true
-        }
-      }
-    },
     {
       "_id": "EtI6YuFQSrZzUCiM",
       "type": "weapon",
@@ -262,38 +336,50 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "7SVcej3ijh0EcRJm"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/sort": -100000,
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "7SVcej3ijh0EcRJm",
-        "/_id": "Ktpp16vLljDpLqcp",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/barbarian.webp",
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "Ktpp16vLljDpLqcp",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ulsqNOiPqfLdHxmK"
-      },
-      "$overrides": {
-        "/_id": "WurwwIOrr69njqvW",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK",
-        "/_key": {
-          "$delete": true
+      "_id": "WurwwIOrr69njqvW",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
         }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
@@ -799,128 +885,64 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "o92mKNpNoldGEMB7"
+      "_id": "LHtGrDoeiVFgDoDH",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Super Mutant Suicider.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
       },
-      "$overrides": {
-        "/_id": "LHtGrDoeiVFgDoDH",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/core": {
-          "$delete": true
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-poison.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
+        "fallout2d20-compendium": {}
+      },
+      "_id": "BicdAjOlI5usgXMA",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "lH45aSUIgVqHGMUw",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",
+      "effects": [],
+      "folder": null,
+      "sort": -50000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "o92mKNpNoldGEMB7",
-        "/_key": {
-          "$delete": true
-        }
+        "fallout2d20-compendium": {}
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "flags": {
-    "core": {
-      "sourceId": "Actor.1aYUWdt4trZwjRiC"
-    },
-    "fallout2d20-compendium": {
-      "source": {
-        "book": "core_rulebook",
-        "importedFromLegacy": true,
-        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
-        "errataReviewed": true,
-        "artworkReviewed": true,
-        "artworkStatus": "dedicated"
-      }
-    }
-  },
-  "system": {
-    "level": {
-      "value": 6,
-      "currentXP": 45,
-      "nextLevelXP": 0
-    },
-    "description": "",
-    "trait": "",
-    "health": {
-      "value": 12,
-      "min": 0,
-      "max": 12,
-      "mod": 0
-    },
-    "defense": {
-      "base": 0,
-      "value": 1,
-      "mod": 0
-    },
-    "carryWeight": {
-      "value": 0,
-      "mod": 0
-    },
-    "initiative": {
-      "base": 0,
-      "value": 12,
-      "mod": 0
-    },
-    "resistance": {
-      "physical": {
-        "locations": "3 (Torso); 2 (Arms, Legs, Head)"
-      },
-      "energy": {
-        "locations": "4 (Torso); 2 (Arms, Legs, Head)"
-      },
-      "radiation": {
-        "locations": "Immune"
-      },
-      "poison": {
-        "locations": "Immune"
-      }
-    },
-    "meleeDamage": {
-      "base": 1,
-      "value": 0,
-      "mod": 0
-    },
-    "luckPoints": 0,
-    "conditions": {
-      "hunger": 0,
-      "thirst": 0,
-      "sleep": 0,
-      "fatigue": 0
-    },
-    "attributes": {
-      "str": {
-        "value": 8
-      },
-      "per": {
-        "value": 5
-      },
-      "end": {
-        "value": 6
-      },
-      "cha": {
-        "value": 4
-      },
-      "int": {
-        "value": 4
-      },
-      "agi": {
-        "value": 7
-      },
-      "luc": {
-        "value": 4
-      }
-    },
-    "injuries": "",
-    "source": "core_rulebook"
-  },
-  "ownership": {
-    "default": 0,
-    "I8FU1gA0rIKN7NHn": 3
-  },
-  "_key": "!actors!83zVRh8xf3hY0kcd",
-  "$folder": "super-mutants"
+  ]
 }

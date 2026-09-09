@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Combat Armor Chest Piece, Leather Leg x2, Leather Arm x2, Combat Rifle or Laser Gun, Wealth 2</span></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Combat Armor Chest Piece, Leather Leg x2, Leather Arm x2, Combat Rifle or Laser Gun, Wealth 2</span></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Melee Weapons",
     "/items/3/name": "Survival",
     "/items/4/name": "Energy Weapons",
@@ -19,10 +20,11 @@
     "/items/10/system/description": "<p><span class=\"fontstyle0\">A pre-War weapon found across the wastelands and used in large numbers by various aggressive factions. Combat Rifles are a rugged and adaptable design, able to be modified to fill a variety of different battlefield roles.</span></p>",
     "/items/10/system/weight": "11",
     "/items/10/name": "Combat Rilfe",
-    "/items/11/$overrides/~1system~1description": "<p>Once per combat, the gunner may &lsquo;let rip&rsquo; with a volley from their&nbsp; <span class=\"fontstyle0\">Combat Rifle or Laser Gun.</span> This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD total).</p>",
+    "/items/11/system/description": "<p>Once per combat, the gunner may &lsquo;let rip&rsquo; with a volley from their&nbsp; <span class=\"fontstyle0\">Combat Rifle or Laser Gun.</span> This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD total).</p>",
+    "/items/11/name": "Let Rip",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 200,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Gunner</strong></p>\n<p><span class=\"fontstyle0\">The gunners are perhaps the most prolific of the wasteland&rsquo;s toughs aside from raiders. While they advertise as guns for hire, getting close enough to offer them the caps for a job can prove to be difficult. Often choosing destroyed overpasses as bases of operation with some choosing to use elevators to reach the upper levels and stay off the ground, the gunners are highly territorial. They defend the areas they occupy fiercely and are even known to use reprogrammed Assaultrons as part of their weapons arsenal.</span></p>",
     "/name": "Gunner"
   }

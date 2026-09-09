@@ -225,20 +225,29 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ulsqNOiPqfLdHxmK"
-      },
-      "$overrides": {
-        "/_id": "2TR0yWRaj0zGYgN8",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK",
-        "/_key": {
-          "$delete": true
+      "_id": "2TR0yWRaj0zGYgN8",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
         }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
@@ -572,37 +581,24 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "cfKIBxPtW8lqQo8I"
-      },
-      "$overrides": {
-        "/_id": "cygEOtwhqIdITZ6K",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/ghoul.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
-      }
-    },
-    {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "1tOlUrBjCQBoGMm3"
       },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "1tOlUrBjCQBoGMm3",
-        "/_id": "1fNhFFjKADwel5FN",
-        "/_key": {
-          "$delete": true
-        }
+      "_id": "1fNhFFjKADwel5FN",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
@@ -619,6 +615,28 @@
       },
       "system": {
         "favorite": false
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "cygEOtwhqIdITZ6K",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        },
+        "fallout2d20-compendium": {}
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
       },
       "ownership": {
         "default": 0,
@@ -723,7 +741,12 @@
         "value": 4
       }
     },
-    "source": "core_rulebook"
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": false,
+      "radiation": true
+    }
   },
   "ownership": {
     "default": 0,

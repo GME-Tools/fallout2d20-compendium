@@ -2,7 +2,21 @@
 
 All notable changes to this private module are documented here.
 
-## Unreleased
+## 1.0.4 — 2026-09-09
+
+### Changed
+
+- Remove the standalone creature-ability compendiums and make all 377 ability
+  instances authoritative within their denizen sheets.
+- Reassign the former creature-ability illustrations directly to their
+  corresponding embedded denizen abilities.
+- Normalize all denizen origins and body types, populate the radiation and
+  poison immunity fields used by Fallout 11.17.1 while retaining matching
+  descriptive abilities, and repair all 31 creature attacks to use the current
+  creature attribute/skill fields.
+- Replace descriptive Butchery and Salvage pseudo-items with actor test
+  difficulties and embedded, rollable yields linked to the canonical item
+  packs.
 
 ## 1.0.3 — 2026-09-09
 

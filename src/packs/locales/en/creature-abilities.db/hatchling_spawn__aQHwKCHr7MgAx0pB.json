@@ -1,9 +1,0 @@
-{
-  "_key": "!items!aQHwKCHr7MgAx0pB",
-  "_file": "hatchling_spawn__aQHwKCHr7MgAx0pB.json",
-  "values": {
-    "/name": "Hatchling Spawn",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">Once per round the GM may spend 4 AP as a major action to spawn a group of 4 [creature] hatchlings. If this action is taken, the [creature] queen may not make an attack as a major action in the same round.</span></p>"
-  }
-}

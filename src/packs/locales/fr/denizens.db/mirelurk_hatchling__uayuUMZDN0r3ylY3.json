@@ -2,7 +2,15 @@
   "_key": "!actors!uayuUMZDN0r3ylY3",
   "_file": "jeune_fangeux__uayuUMZDN0r3ylY3.json",
   "values": {
-    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un jeune fangeux mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de fangeux.</p>",
+    "/items/0/system/weight": 0,
+    "/items/0/name": "Pinces",
+    "/items/1/system/description": "<p>La Santé normale de cette petite créature devient Corps + la moitié de son niveau, arrondie au supérieur, mais sa Défense augmente de 1. Elle est tuée par tout coup qui lui inflige une Blessure.</p>",
+    "/items/1/name": "Petit",
+    "/items/2/system/description": "<p>Cette créature peut nager et rester immergée indéfiniment sans devoir remonter respirer. Elle ne subit aucune augmentation de difficulté pour les attaques ou déplacements effectués sous l’eau.</p>",
+    "/items/2/name": "Aquatique",
+    "/items/3/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un jeune fangeux mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de fangeux.</p>",
+    "/items/4/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/4/name": "Immunisé contre les radiations",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "uayuUMZDN0r3ylY3",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -16,7 +24,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Crustacé Mutant, Créature Normale",
+    "/system/origin": "Crustacé Mutant",
     "/system/biography": "<p>Le terme « jeune fangeux » désigne l’ensemble des fangeux non adultes. Les fangeux pondent des œufs, souvent dans un nid bien protégé. De temps à autre, si ce nid est perturbé, les œufs éclosent en réponse au stimulus. Les jeunes fangeux ne représentent pas une grande menace pour un individu compétent, pour peu que la nuée ne Ch</p>",
     "/name": "Jeune fangeux"
   }

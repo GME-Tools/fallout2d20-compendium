@@ -1,9 +1,0 @@
-{
-  "_key": "!items!y7gB4zpJo3GZtW9y",
-  "_file": "keen_senses__y7gB4zpJo3GZtW9y.json",
-  "values": {
-    "/name": "Keen Senses",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">One or more of the [creature]'s senses are especially keen; they can attempt to detect creatures or objects which characters normally cannot, and they reduce the difficulty of all other </span><span class=\"fontstyle2\"><strong>PER</strong> </span><span class=\"fontstyle0\">tests by 1 (to a minimum of 0).</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>"
-  }
-}

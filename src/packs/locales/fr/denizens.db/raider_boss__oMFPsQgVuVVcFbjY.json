@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Plastron de pillard lourd, 2 protections de jambe de pillard robustes, 2 protections de bras de pillard lourdes, 3 Grenades à fragmentation, Fusil de chasse, Richesse 2.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Plastron de pillard lourd, 2 protections de jambe de pillard robustes, 2 protections de bras de pillard lourdes, 3 Grenades à fragmentation, Fusil de chasse, Richesse 2.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Réparation",
     "/items/3/name": "Armes légères",
     "/items/4/name": "Armes de corps à corps",
@@ -22,6 +24,10 @@
     "/items/14/system/description": "<p>Munitions: cartouches .308 Un fusil à verrou généralement manié par les super mutants et les pillards. Son design simple l’avait rendu populaire parmi les chasseurs et les survivalistes avant la Grande Guerre et il est très facilement personnalisable. Suggérer que la pétoire à canon court sans fioritures maniée par un super mutant pourrait être transformée en fusil de sniper de précision semble fantaisiste, mais cela décrit parfaitement le fusil de chasse. Un fusil de chasse peut accepter un mod de chaque type parmi les suivants:  Culasse: optimisée, calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon long, canon à ouvertures, canon ventilé  Crosse: crosse complète, crosse de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, silencieux</p>",
     "/items/14/system/weight": 5,
     "/items/14/name": "Fusil de chasse",
+    "/items/15/system/description": "<p>Lorsque cette créature entre dans une scène, générez immédiatement 1 point d’Action. Si elle est alliée, ajoutez-le à la réserve du groupe ; si elle est ennemie, ajoutez-le à celle du MJ.</p>",
+    "/items/15/name": "Agressif",
+    "/items/16/system/description": "<p>Ce personnage commence chaque scène avec une réserve personnelle de 4 points d’Action, qu’il peut dépenser à la place de toute autre source.</p>",
+    "/items/16/name": "Plein d’action",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "oMFPsQgVuVVcFbjY",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -35,7 +41,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 115,
-    "/system/origin": "Pillard Humain, Personnage Majeur",
+    "/system/origin": "Pillard Humain",
     "/system/biography": "<p>Les chefs pillards sont à la tête d’un gang. Ils possèdent, en général, de meilleures armes et armures que leurs suivants et ont tendance à être des combattants endurcis. Ils ont atteint leur position par la force, le sens du commandement et les bains de sang et ce sont ces mêmes qualités qui leur font garder leur rang.</p>",
     "/name": "Chef pillard"
   }

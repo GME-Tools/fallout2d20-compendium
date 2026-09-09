@@ -2,11 +2,12 @@
   "_key": "!actors!d80SO0kdSMw8IESo",
   "_file": "radstag__d80SO0kdSMw8IESo.json",
   "values": {
-    "/items/0/$overrides/~1system~1weight": "0",
-    "/items/0/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead radstag with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 2CD portions of radstag meat.&nbsp;</span> If an Effect is rolled, it also yields a radstag hide.</p>",
-    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Antlers",
+    "/items/1/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead radstag with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 2CD portions of radstag meat.&nbsp;</span> If an Effect is rolled, it also yields a radstag hide.</p>",
+    "/items/2/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead radstag with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 2CD portions of radstag meat.&nbsp;</span> If an Effect is rolled, it also yields a radstag hide.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/origin": "Mutated Mammal, Normal Creature",
+    "/system/origin": "Mutated Mammal",
     "/system/biography": "<p><span class=\"fontstyle0\">These creatures are the mutated descendants of the common deer. While they retain a mostly unchanged form in that their body remains deer-like and they sport antlers, they suffer the same mutation as brahmin in having two heads. The inner eye of each head is blind, requiring the radstag to navigate using both heads. Like brahmin, both heads can move independently. The other strange mutation that is very </span><span class=\"fontstyle0\">apparent is the additional two legs that hang undeveloped from the front of the creature&rsquo;s chest. While the radstag can bend these legs when needed for comfort, such as when laying down, they are otherwise useless. While radstags still retain a coat, it is often mangey in places from radiation, and rabid radstags often lose their coat in places. These creatures travel in packs and are usually docile unless threatened.</span></p>",
     "/name": "Radstag"
   }

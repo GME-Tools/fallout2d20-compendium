@@ -1,9 +1,0 @@
-{
-  "_key": "!items!KZTCdJ2cPIw4FP12",
-  "_file": "railroad_agent__KZTCdJ2cPIw4FP12.json",
-  "values": {
-    "/name": "Railroad Agent",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">When working undercover, the Railroad agent gains a bonus d20 in any Speech tests where deception is involved.</span></p>"
-  }
-}

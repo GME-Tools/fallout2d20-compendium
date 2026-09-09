@@ -1,9 +1,0 @@
-{
-  "_key": "!items!DjgVlWCKYPG3M9Qj",
-  "_file": "weak_spot__DjgVlWCKYPG3M9Qj.json",
-  "values": {
-    "/name": "Weak Spot",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">If an attacker chooses to target the [creatures]&rsquo;s torso, it ignores the creature&rsquo;s DR. This does not apply against hits which hit the head due to random chance.</span></p>"
-  }
-}

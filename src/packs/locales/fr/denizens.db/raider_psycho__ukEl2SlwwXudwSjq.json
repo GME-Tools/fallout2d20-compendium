@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Cuirs de route, Plastron en cuir, Fusil à double canon, Machette, Richesse 1.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Cuirs de route, Plastron en cuir, Fusil à double canon, Machette, Richesse 1.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Réparation",
     "/items/3/name": "Armes légères",
     "/items/4/name": "Armes de corps à corps",
@@ -25,6 +27,10 @@
     "/items/15/system/description": "<p>Composé d’une bouteille de verre (généralement d’un alcool quelconque) contenant un mélange de carburants inflammable, d’un peu d’huile de moteur pour aider le feu à se répandre et d’un chiffon imbibé d’alcool enfoncé dans le goulot pour servir de mèche. Pour utiliser le cocktail Molotov, il faut allumer la mèche et lancer la bouteille sur la cible; la bouteille se brise et répand le mélange remué, qui s’enflamme rapidement et se met à brûler tout ce qui se trouve à proximité. Bon marché et efficace.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>Établi de chimie</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>Explosifs</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li><li>Matériaux peu fréquents ×2</li></ul></section>",
     "/items/15/system/weight": 0.5,
     "/items/15/name": "Cocktail Molotov",
+    "/items/16/system/description": "<p>Le pillard psychopathe transporte soit un @Compendium[fallout2d20-compendium.weapons.2QqNsOyxIyKG4rhC]{Cocktail Molotov}, soit une dose de @Compendium[fallout2d20-compendium.consumables.K0ZP86MJKMOWl4Ig]{Psycho}. Le premier de ces deux objets qu’il utilise détermine celui qu’il transporte ; il ne peut pas employer l’autre pendant ce combat.</p>",
+    "/items/16/name": "PCP ou TNT",
+    "/items/17/system/description": "<p>Une fois par combat, le pillard psychopathe peut lancer un Cocktail Molotov en utilisant le profil ci-dessus.</p>",
+    "/items/18/system/description": "<p>Par une action mineure, le pillard psychopathe peut consommer une dose de Psycho. Jusqu’à la fin du combat, il ajoute +2 DC à tous ses jets de dégâts et +2 à ses Résistances aux dégâts physiques et énergétiques.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "ukEl2SlwwXudwSjq",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -39,7 +45,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 110,
-    "/system/origin": "Pillard Humain, Personnage Normal",
+    "/system/origin": "Pillard Humain",
     "/system/biography": "<p>Ces pillards, nommés d’après leur dépendance au Psycho, sont parmi les représentants les plus hostiles et agressifs de leur groupe. En combat, ils sont heureux de manier leurs armes de corps à corps, entretenant leur rage et leur résistance à la douleur avec leur drogue favorite. Les identifier n’est pas toujours évident au premier abord, mais on peut noter qu’ils portent peu d’armes à feu et que leur armure leur recouvre surtout le crâne, les bras et le torse, afin de les protéger en combat rapproché.</p>",
     "/name": "Pillard psycho"
   }

@@ -1,9 +1,0 @@
-{
-  "_key": "!items!u4dSSm6mBK0GDf5w",
-  "_file": "radio_transmission__u4dSSm6mBK0GDf5w.json",
-  "values": {
-    "/name": "Radio Transmission",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p>The [creature] can receive and send radio transmissions, as well as playing these aloud. The [creature] can be heard playing these transmissions aloud from long range.</p>"
-  }
-}

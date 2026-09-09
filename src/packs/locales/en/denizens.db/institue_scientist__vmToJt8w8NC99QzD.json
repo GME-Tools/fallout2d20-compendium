@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Lab Coat, Institute Laser, 2d20 Fusion Cells</span></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Lab Coat, Institute Laser, 2d20 Fusion Cells</span></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Energy Weapons",
     "/items/3/name": "Speech",
     "/items/4/name": "Science",
@@ -16,7 +17,7 @@
     "/items/7/name": "Institute Laser",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 190,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Institue Scientist</strong></p>\n<p><span class=\"fontstyle0\">Most of the human individuals who reside within the Institute are scientists with varying backgrounds and fields of specialty. They can oversee projects that require knowledge of everything from robotics, biology, synthetic tissue creation, physics and genetics to name just a few and are the Institute's best resource for improving and developing technology.</span></p>",
     "/name": "Institue Scientist"
   }

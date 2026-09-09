@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Road Leathers, Leather Chest Piece, Double-Barreled Shotgun, Machete, Wealth 1</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Road Leathers, Leather Chest Piece, Double-Barreled Shotgun, Machete, Wealth 1</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Repair",
     "/items/3/name": "Small Guns",
     "/items/4/name": "Melee Weapons",
@@ -26,11 +27,13 @@
     "/items/15/system/description": "<p><span class=\"fontstyle0\">Consisting of a glass bottle&mdash;normally from an alcoholic beverage&mdash;containing a flammable fuel mixture, a bit of motor oil to help it spread, and an alcohol-soaked rag stuffed in the top to act as a wick. When used, the wick is ignited and the bottle hurled at the target; the breaking bottle spreads the agitated mixture, which quickly ignites begins to burn anything in the vicinity. Cheap and effective.</span></p>",
     "/items/15/system/weight": "1",
     "/items/15/name": "Molotov Cocktail",
-    "/items/17/$overrides/~1system~1description": "<p>Once per combat, a raider psycho may throw a Molotov Cocktail, using the profile above.</p>\n<p>&nbsp;</p>",
-    "/items/18/$overrides/~1system~1description": "<p>A raider psycho may use a dose of Psycho as a minor action. For the remainder of the combat, the raider psycho&nbsp;adds +2 DC to all damage rolls they make and add +2 to Physical and Energy damage resistances.</p>",
+    "/items/16/system/description": "<p>A raider psycho carries either one @Compendium[fallout2d20-compendium.weapons.2QqNsOyxIyKG4rhC]{Molotov Cocktail} or one dose of @Compendium[fallout2d20-compendium.consumables.K0ZP86MJKMOWl4Ig]{Psycho}. Which they are carrying is determined by which of the following actions they take first: after using one, they may not use the other in that combat.</p>\n<p>&nbsp;</p>",
+    "/items/16/name": "Chems or Kaboom",
+    "/items/17/system/description": "<p>Once per combat, a raider psycho may throw a Molotov Cocktail, using the profile above.</p>\n<p>&nbsp;</p>",
+    "/items/18/system/description": "<p>A raider psycho may use a dose of Psycho as a minor action. For the remainder of the combat, the raider psycho&nbsp;adds +2 DC to all damage rolls they make and add +2 to Physical and Energy damage resistances.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 220,
-    "/system/origin": "Human Raider, Normal Character",
+    "/system/origin": "Human Raider",
     "/system/biography": "<p><strong>Raiders</strong></p>\n<p><span class=\"fontstyle0\">There are many groups throughout the wasteland who band together for survival at any cost. The harsh life that comes with the post-nuclear apocalypse has a habit of bringing out the worst of humanity. Raider gangs often represent some of these less-than-favorable individuals. While they are not a centralized faction, with many groups waring among themselves, the &lsquo;raider&rsquo; designation is often given to any group of people who reject the peaceful ways of most settlements and instead rely on raiding, theft, violence, and murder for their survival. They often set up settlements of their own and defend them viciously, employing both personal weapons, automated turrets and even attack dogs to keep people out. Chems use is also rampant among raider groups, which is also attributed to their increased rage, paranoia, and unpredictable behavior.</span></p>\n<p><strong>Raider Psycho</strong></p>\n<p><span class=\"fontstyle0\">Aptly named for their dependence on the Psycho, these raiders are among some of the most hostile and aggressive. They opt for melee weapons in fights, using Psycho to fuel their rage and make them less susceptible to pain in close combat. Telling a raider psycho apart from others is not always easy, but they tend to lack firearms and have tougher armor that covers more of the head, arms and torso to protect them in melee combat.</span></p>",
     "/name": "Raider Psycho"
   }

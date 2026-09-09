@@ -1,9 +1,0 @@
-{
-  "_key": "!items!dYy0F73URJNTaojo",
-  "_file": "self_destruct__dYy0F73URJNTaojo.json",
-  "values": {
-    "/name": "Self-Destruct",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">If the [creature] has both its arms or legs injured, or it has been reduced to half or fewer of its maximum HP, it will move towards the nearest enemy and use its major action to self-destruct. This self-destruct is an attack centered upon itself and destroys the [creature] after it attempts this attack.</span></p>"
-  }
-}

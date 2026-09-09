@@ -1,9 +1,0 @@
-{
-  "_key": "!items!SxbwfygF481ywarE",
-  "_file": "companion__SxbwfygF481ywarE.json",
-  "values": {
-    "/name": "Companion",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">Dogmeat's Initiative is the same as yours. His carry weight is 50 lbs. Dogmeat&rsquo;s level is the same as yours and increases whenever you level up. Increase either Dogmeat&rsquo;s Body or Mind by +1 when you reach level 3 or any odd numbered level after that. Increase Dogmeat&rsquo;s HP by +1 per level, and with any increases to Body. Increase Dogmeat&rsquo;s bite damage by +1</span><span class=\"fontstyle2\">CD</span><span class=\"fontstyle2\" style=\"color: #1d4596;\">&nbsp;</span><span class=\"fontstyle0\">at 5th level and every 5 levels beyond that.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>"
-  }
-}

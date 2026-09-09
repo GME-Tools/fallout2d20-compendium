@@ -1,9 +1,0 @@
-{
-  "_key": "!items!TLpuVGQrcffyzc0A",
-  "_file": "little__TLpuVGQrcffyzc0A.json",
-  "values": {
-    "/name": "Little",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">The [creature] is smaller than most characters. The creature&rsquo;s normal HP decreases to Body + &frac12; level (rounded up), but its Defense increases by 1. Further, it is slain by any hit which inflicts an Injury.</span></p>"
-  }
-}

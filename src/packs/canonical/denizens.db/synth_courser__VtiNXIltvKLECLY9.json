@@ -49,6 +49,115 @@
     "y": null,
     "elevation": null
   },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Actor.7TeZgMVPYOtTjglG"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "importedFromLegacy": true,
+        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "system": {
+    "level": {
+      "value": 11,
+      "currentXP": 162,
+      "nextLevelXP": 0
+    },
+    "description": "",
+    "trait": "",
+    "health": {
+      "value": 23,
+      "min": 0,
+      "max": 23,
+      "mod": 0
+    },
+    "defense": {
+      "base": 0,
+      "value": 2,
+      "mod": 0
+    },
+    "carryWeight": {
+      "value": 0,
+      "mod": 0
+    },
+    "initiative": {
+      "base": 0,
+      "value": 17,
+      "mod": 0
+    },
+    "resistance": {
+      "physical": {
+        "locations": "4 (Arms, Legs Torso); 2 (Head)"
+      },
+      "energy": {
+        "locations": "4 (Arms, Legs Torso); 2 (Head)"
+      },
+      "radiation": {
+        "locations": "Immune"
+      },
+      "poison": {
+        "locations": "Immune"
+      }
+    },
+    "meleeDamage": {
+      "base": 1,
+      "value": 0,
+      "mod": 0
+    },
+    "luckPoints": 2,
+    "conditions": {
+      "hunger": 0,
+      "thirst": 0,
+      "sleep": 0,
+      "fatigue": 0
+    },
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "per": {
+        "value": 8
+      },
+      "end": {
+        "value": 8
+      },
+      "cha": {
+        "value": 6
+      },
+      "int": {
+        "value": 8
+      },
+      "agi": {
+        "value": 7
+      },
+      "luc": {
+        "value": 4
+      }
+    },
+    "injuries": "",
+    "source": "core_rulebook",
+    "bodyType": "humanoid",
+    "immunities": {
+      "poison": true,
+      "radiation": true
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!actors!VtiNXIltvKLECLY9",
+  "$folder": "synths",
   "items": [
     {
       "_id": "35uzjycQjARkfO1e",
@@ -610,244 +719,180 @@
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "mTtWSb8QHEJwXAvI"
-      },
-      "$overrides": {
-        "/_id": "R1cEgj76GzWZz47l",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "mTtWSb8QHEJwXAvI",
-        "/_key": {
-          "$delete": true
+      "_id": "R1cEgj76GzWZz47l",
+      "name": "Robot",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/robot.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "eHUfxhM71yCDYnFj"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "eHUfxhM71yCDYnFj",
-        "/_id": "cmiI9eWQ1hYPuqv2",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-fear.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "f89CMk7Rc3bLagZJ",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "cfKIBxPtW8lqQo8I"
-      },
-      "$overrides": {
-        "/_id": "F3rxaIUI94K7YRig",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "cfKIBxPtW8lqQo8I",
-        "/_key": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-disease.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "_id": "zGniGCOK3g4EsDsY",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ot0eE61yfVDcR2cX"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ot0eE61yfVDcR2cX",
-        "/_id": "f89CMk7Rc3bLagZJ",
-        "/_key": {
-          "$delete": true
+      "_id": "5rQa19VlKIJa0c0H",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Synth Courser.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "XnLPyuXsSPPSHRSZ"
-      },
-      "$overrides": {
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "XnLPyuXsSPPSHRSZ",
-        "/_id": "zGniGCOK3g4EsDsY",
-        "/_key": {
-          "$delete": true
+      "_id": "w2L5Ax6zGtXLu4o1",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/third-generation-synth.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         }
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "9FaygzucI6T2ps1h"
-      },
-      "$overrides": {
-        "/_id": "5rQa19VlKIJa0c0H",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
-        },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "9FaygzucI6T2ps1h",
-        "/_key": {
-          "$delete": true
+      "_id": "2TR0yWRaj0zGYgN8",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
         }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "u4BiP7ycq1cF9VLV"
-      },
-      "$overrides": {
-        "/_id": "w2L5Ax6zGtXLu4o1",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-poison.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "u4BiP7ycq1cF9VLV",
-        "/_key": {
-          "$delete": true
-        }
+        "fallout2d20-compendium": {}
+      },
+      "_id": "cmiI9eWQ1hYPuqv2",
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     },
     {
-      "$ref": {
-        "pack": "creature-abilities",
-        "id": "ulsqNOiPqfLdHxmK"
-      },
-      "$overrides": {
-        "/_id": "2TR0yWRaj0zGYgN8",
-        "/img": "systems/fallout/assets/ico/thumb-up.webp",
-        "/flags/fallout2d20-compendium/source": {
-          "$delete": true
+      "_id": "F3rxaIUI94K7YRig",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
         },
-        "/flags/fallout2d20-compendium/canonicalCreatureAbilityId": "ulsqNOiPqfLdHxmK",
-        "/_key": {
-          "$delete": true
-        }
+        "fallout2d20-compendium": {}
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
       }
     }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "flags": {
-    "core": {
-      "sourceId": "Actor.7TeZgMVPYOtTjglG"
-    },
-    "fallout2d20-compendium": {
-      "source": {
-        "book": "core_rulebook",
-        "importedFromLegacy": true,
-        "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
-        "errataReviewed": true,
-        "artworkReviewed": true,
-        "artworkStatus": "dedicated"
-      }
-    }
-  },
-  "system": {
-    "level": {
-      "value": 11,
-      "currentXP": 162,
-      "nextLevelXP": 0
-    },
-    "description": "",
-    "trait": "",
-    "health": {
-      "value": 23,
-      "min": 0,
-      "max": 23,
-      "mod": 0
-    },
-    "defense": {
-      "base": 0,
-      "value": 2,
-      "mod": 0
-    },
-    "carryWeight": {
-      "value": 0,
-      "mod": 0
-    },
-    "initiative": {
-      "base": 0,
-      "value": 17,
-      "mod": 0
-    },
-    "resistance": {
-      "physical": {
-        "locations": "4 (Arms, Legs Torso); 2 (Head)"
-      },
-      "energy": {
-        "locations": "4 (Arms, Legs Torso); 2 (Head)"
-      },
-      "radiation": {
-        "locations": "Immune"
-      },
-      "poison": {
-        "locations": "Immune"
-      }
-    },
-    "meleeDamage": {
-      "base": 1,
-      "value": 0,
-      "mod": 0
-    },
-    "luckPoints": 2,
-    "conditions": {
-      "hunger": 0,
-      "thirst": 0,
-      "sleep": 0,
-      "fatigue": 0
-    },
-    "attributes": {
-      "str": {
-        "value": 7
-      },
-      "per": {
-        "value": 8
-      },
-      "end": {
-        "value": 8
-      },
-      "cha": {
-        "value": 6
-      },
-      "int": {
-        "value": 8
-      },
-      "agi": {
-        "value": 7
-      },
-      "luc": {
-        "value": 4
-      }
-    },
-    "injuries": "",
-    "source": "core_rulebook"
-  },
-  "ownership": {
-    "default": 0,
-    "I8FU1gA0rIKN7NHn": 3
-  },
-  "_key": "!actors!VtiNXIltvKLECLY9",
-  "$folder": "synths"
+  ]
 }

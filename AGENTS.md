@@ -35,7 +35,9 @@ Use targeted `rg` searches and narrow excerpts.
 - Preserve categorical bilingual packs, stable IDs, `_key` values and UUIDs,
   except for the documented `creatures`/`npcs` to `denizens` pack migration.
 - Store cross-pack dependencies as language-neutral canonical references and
-  declare only instance-specific overrides on embedded copies.
+  declare only instance-specific overrides on embedded copies. Denizen
+  abilities are intentionally autonomous embedded Items, not cross-pack
+  dependencies.
 - `system.source` is the first appearance; secondary identical appearances use
   structured flags and do not create another document.
 - English errata-corrected Core mechanics are canonical; French uses the

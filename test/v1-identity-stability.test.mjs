@@ -7,7 +7,7 @@ function digest(value) {
   return createHash("sha256").update(JSON.stringify(value)).digest("hex");
 }
 
-test("document IDs and keys remain stable through the denizens pack migration", async () => {
+test("published root identities include the accepted standalone ability removal", async () => {
   const identities = [];
   for (const language of ["en", "fr"]) {
     for (const directory of await readdir(`generated/source-packs/${language}`, { withFileTypes: true })) {
@@ -21,13 +21,13 @@ test("document IDs and keys remain stable through the denizens pack migration", 
     }
   }
   identities.sort();
-  assert.equal(identities.length, 2760);
-  assert.equal(digest(identities), "befa2871865711dc9690e8d923a534e3ce6fccbc3c9b0a438e086a88a75fee32");
+  assert.equal(identities.length, 2604);
+  assert.equal(digest(identities), "27fdd16bf9131eb89ce95b6ac9d1a91a7b1d923c5096b106ac070e63b372d4df");
 });
 
-test("pack declarations include the accepted denizens migration", async () => {
+test("pack declarations omit standalone creature abilities", async () => {
   const manifest = JSON.parse(await readFile("module.json", "utf8"));
   const packs = manifest.packs.map(({ name, path, type }) => ({ name, path, type }));
-  assert.equal(packs.length, 38);
-  assert.equal(digest(packs), "d5619a220af0ecb19426841bf9abf33e4ad9a17b3058cd5fe764ef9d423d55fb");
+  assert.equal(packs.length, 36);
+  assert.equal(digest(packs), "046d80146d98e6571de5df038a64b8bb5911fadd27184a6688a3700160844e06");
 });

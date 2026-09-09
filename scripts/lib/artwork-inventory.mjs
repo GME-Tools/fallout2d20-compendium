@@ -4,7 +4,7 @@ import { MODULE_ID, PACKS, packId } from "../config.mjs";
 
 export const INVENTORY_PATH = "artwork/inventory/artwork-inventory.jsonl";
 export const CONTACT_SHEET_PATH = "artwork/inventory/contact-sheet.html";
-export const EXPECTED_COUNT = 543;
+export const EXPECTED_COUNT = 478;
 export const PRIORITIES = Object.freeze(["P1", "P2", "P3", "P4"]);
 export const REVIEW_STATES = Object.freeze(["pending-owner", "approved", "rejected", "blocked"]);
 export const SOURCE_KINDS = Object.freeze(["owned-official-pdf", "owner-supplied-game-asset", "approved-modiphius-bethesda", "owner-approved-web", "generated-private", "repository-reviewed-asset", "none"]);
@@ -27,7 +27,7 @@ async function loadPack(language, pack) {
 }
 
 function priority(pack, document) {
-  if (pack === "denizens" || pack === "creature-abilities") return "P1";
+  if (pack === "denizens") return "P1";
   if (pack === "ammunition" || document.type === "weapon" || document.type === "apparel") return "P2";
   if (["consumables", "addictions", "diseases", "books-and-magazines", "roll-tables"].includes(pack)) return "P3";
   return "P4";

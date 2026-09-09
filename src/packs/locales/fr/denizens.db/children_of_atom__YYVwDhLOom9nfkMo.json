@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Vêtements résistants, Pistolet Gamma, 2d20 cartouches Gamma, Richesse 1.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Vêtements résistants, Pistolet Gamma, 2d20 cartouches Gamma, Richesse 1.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes de corps à corps",
     "/items/3/name": "Survie",
     "/items/4/name": "Discrétion",
@@ -15,6 +17,8 @@
     "/items/9/system/description": "<p>Munitions: cartouches Gamma Le pistolet Gamma est une arme d’apparence grossière qui émet des déflagrations de rayonnement ionisant à haute intensité dirigées sur un point précis, ce qui peut se révéler dévastateur pour toute créature qui n’est pas immunisée contre les radiations ou au moins très résistante à leurs effets, mais fait très peu de mal aux autres cibles. Un pistolet Gamma peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au pistolet Gamma et s’installent avec la compétence Sciences:</p>",
     "/items/9/system/weight": 1.5,
     "/items/9/name": "Pistolet Gamma",
+    "/items/10/system/description": "<p>Les Enfants de l’Atome vivent dans certaines des zones les plus radioactives des Terres désolées et semblent souvent n’en subir que peu ou pas les effets. Qu’il s’agisse de chance, d’une prédisposition génétique ou d’une preuve de l’existence de l’Atome, ils gagnent +2 à leur Résistance aux dégâts de radiation.</p>",
+    "/items/10/name": "Que vive l’Atome",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "YYVwDhLOom9nfkMo",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -29,7 +33,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 100,
-    "/system/origin": "Humain, Personnage Normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>Certains affirment que les Enfants d’Atome sont des fanatiques, d’autres qu’ils forment un culte comme un autre… Quoi qu’il en soit, on peut en trouver dans toutes les Terres désolées et ils vénèrent les matériaux radioactifs ainsi que leurs effets. Ils se regroupent souvent dans un lieu précis, hautement radioactif ou mieux encore: un site possédant un support matériel devant lequel ils peuvent prier, comme un cratère de bombe nucléaire. Étrangement, les Enfants d’Atome semblent peu souffrir des radiations, s’élevant pourtant parfois à un taux cent fois supérieur à ce qui tuerait un humain. Eux ne semblent pas tomber malades ni devenir des goules. Lorsqu’on les croise, ils tentent toujours de répandre la bonne parole de l’Atome, mais certains groupes sont paranoïaques et hostiles aux étrangers.</p>",
     "/name": "Enfant d’Atome"
   }

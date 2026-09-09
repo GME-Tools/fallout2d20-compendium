@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Tough Clothing, Gamma Gun, 2d20 Gamma Rounds, Wealth 1</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Tough Clothing, Gamma Gun, 2d20 Gamma Rounds, Wealth 1</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Melee Weapons",
     "/items/3/name": "Survival",
     "/items/4/name": "Sneak",
@@ -16,9 +17,11 @@
     "/items/9/system/description": "<p><span class=\"fontstyle0\">A crude-looking weapon, the gamma gun emits directed blasts of high-intensity ionizing radiation which can be devastating to any creature not immune nor massively resistant to radiation, while leaving other targets largely unharmed.</span></p>",
     "/items/9/system/weight": "3",
     "/items/9/name": "Gamma Gun",
+    "/items/10/system/description": "<p><span class=\"fontstyle0\">Children of Atom are used to living in some of the most radioactive parts of the wasteland, and often seem to suffer little to no effect from the radiation. Whether this is luck, genetic disposition or truly proof of Atom&rsquo;s existence, they gain +2 to their Radiation DR.</span></p>",
+    "/items/10/name": "Atoms Glow",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 200,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Children of Atom</strong></p>\n<p><span class=\"fontstyle0\">Some claim they are religious fanatics; others see them as a cult, but either way the Children of Atom can be found across the wasteland worshiping radioactive material and its effects. They often congregate in sites that are high in radiation, even more so if there is something physical for them to worship such as the impact crater of a nuclear bomb. Strangely, the Children of Atom seem to suffer decreased effects to radiation, with some living near sources a hundred times the safe limit without suffering sickness or ghoulification. When encountered in the wasteland they often try to spread the word of Atom, but some groups can be paranoid and turn hostile towards outsiders.</span></p>",
     "/name": "Children of Atom"
   }

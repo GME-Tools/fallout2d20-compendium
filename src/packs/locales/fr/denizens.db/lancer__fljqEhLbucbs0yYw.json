@@ -4,10 +4,14 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Uniforme de la Confrérie de l’Acier (Blouson d’aviateur), Fusil laser, Holoplaques de la Confrérie de l’Acier, Richesse 2.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Uniforme de la Confrérie de l’Acier (Blouson d’aviateur), Fusil laser, Holoplaques de la Confrérie de l’Acier, Richesse 2.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Armes à énergie",
     "/items/3/name": "Réparation",
     "/items/4/name": "Sciences",
+    "/items/5/system/description": "<p>Par une action majeure, ce membre de la Confrérie peut ordonner à un personnage de la Confrérie de niveau inférieur d’effectuer immédiatement une action majeure. Il assiste cette action avec <strong>CHA + Discours</strong>.</p>",
+    "/items/5/name": "Chaîne de Cohésion",
     "/items/6/name": "Athlétisme",
     "/items/7/name": "Armes lourdes",
     "/items/8/name": "Explosifs",
@@ -16,6 +20,8 @@
     "/items/11/system/description": "<p>Munitions: cellules à fusion Les armes laser sont des armes à la technologie très avancée qui émettent un rayon concentré de lumière cohérente directionnelle suffisamment intense pour infliger de sérieux dégâts. Elles furent inventées relativement peu de temps avant la Grande Guerre et ne sont donc pas très répandues dans les Terres désolées, en dehors des groupes qui ont mis la main sur d’anciennes caches d’armes militaires. La plupart des modèles d’arme laser encore en état de marche (par exemple l’AER9, connu pour sa fiabilité et très usité par l’armée des États-Unis) utilisent un condensateur interne chargé par une cellule d’alimentation à microfusion. Le profil par défaut représente un pistolet laser. Une arme laser peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil laser ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: canon long, canon automatique, canon de précision, canon amélioré  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
     "/items/11/system/weight": 6.5,
     "/items/11/name": "Fusil laser à canon long",
+    "/items/12/system/description": "<p>Le pilote gagne un d20 supplémentaire lors d’un test pour piloter un Vertiptère.</p>",
+    "/items/12/name": "Entraînement vertiptère",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "fljqEhLbucbs0yYw",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -29,7 +35,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 100,
-    "/system/origin": "Humain, Personnage Normal",
+    "/system/origin": "Humain",
     "/system/biography": "<p>Les lanciers sont les membres de la Confrérie qui pilotent les vertiptères. Ils suivent un entraînement spécial, afin d’apprendre comment faire voler et entretenir la flotte possédée par l’organisation. Ce sont eux qui lui permettent le transport de troupes et le soutien aérien. Non seulement les lanciers doivent connaître leur véhicule sur le bout du doigt, mais aussi savoir voler sous un feu soutenu. Ils se concentrent, certes, sur le combat aérien, mais ils possèdent aussi des armes laser au cas où ils se retrouveraient au sol, au milieu d’une échauffourée.</p>",
     "/name": "Lancier"
   }

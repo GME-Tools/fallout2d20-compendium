@@ -8,7 +8,7 @@ This module is the bilingual Fallout 2d20 Compendium. Its identity and technical
 
 Version 1 provides every reusable, structured game element from the Fallout 2d20 Core Rulebook in English and French. The English February 2023 digital release is canonical for this source, with Errata Log V6 (2026) applied before French adaptation.
 
-Included content covers items, traits, perks, skills, equipment, mods, consumables, addictions, diseases, creature abilities, denizens (creatures and NPCs), and rollable tables. Full element-specific descriptions are retained when present. Equipment referenced by character archetypes must exist in its normal pack and in the relevant roll table.
+Included content covers items, traits, perks, skills, equipment, mods, consumables, addictions, diseases, denizens (creatures and NPCs with autonomous embedded abilities), and rollable tables. Full element-specific descriptions are retained when present. Equipment referenced by character archetypes must exist in its normal pack and in the relevant roll table.
 
 Origins remain a manually entered actor field because the Fallout system does not expose them as a supported Item type. Every selectable or origin-granted trait is provided as a draggable Item in both languages; the module does not add an origin assistant.
 

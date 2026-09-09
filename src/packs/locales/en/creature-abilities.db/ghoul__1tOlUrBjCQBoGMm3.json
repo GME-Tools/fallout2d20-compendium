@@ -1,9 +1,0 @@
-{
-  "_key": "!items!1tOlUrBjCQBoGMm3",
-  "_file": "ghoul__1tOlUrBjCQBoGMm3.json",
-  "values": {
-    "/name": "Ghoul",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">A [creature] is healed by radiation. It regains 1HP for every 3 points of Radiation damage inflicted upon it.</span></p>"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "_key": "!items!WntJ2pe8ld6CQEmS",
-  "_file": "feral__WntJ2pe8ld6CQEmS.json",
-  "values": {
-    "/name": "Feral",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">The feral [creature] is unintelligent, driven purely by feral instinct. Feral NPCs cannot be persuaded or influenced by Speech tests. Feral NPCs will move towards and attack the nearest enemy. If they cannot detect an enemy, they move towards the nearest source of bright light or loud noise. Failing that, they move around randomly or simply lie down and do nothing.</span></p>"
-  }
-}

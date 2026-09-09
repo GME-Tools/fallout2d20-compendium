@@ -2,7 +2,15 @@
   "_key": "!actors!RgzuubSvRJM2wqI6",
   "_file": "cabot__RgzuubSvRJM2wqI6.json",
   "values": {
-    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un chien bâtard mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de chien bâtard.</p>",
+    "/items/0/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>",
+    "/items/0/name": "Sens aiguisés",
+    "/items/1/system/weight": 0,
+    "/items/1/name": "Morsure",
+    "/items/2/system/description": "<p>Lorsque cette créature entre dans une scène, générez immédiatement 1 point d’Action. Si elle est alliée, ajoutez-le à la réserve du groupe ; si elle est ennemie, ajoutez-le à celle du MJ.</p>",
+    "/items/2/name": "Agressif",
+    "/items/3/system/description": "<p>Cette créature est dépourvue d’intelligence et guidée uniquement par ses instincts sauvages. Elle ne peut pas être persuadée ou influencée par des tests de Discours. Elle se déplace vers l’ennemi le plus proche et l’attaque. Si elle ne détecte aucun ennemi, elle se dirige vers la source de lumière vive ou de bruit intense la plus proche. À défaut, elle se déplace au hasard ou reste sans rien faire.</p>",
+    "/items/3/name": "Sauvage",
+    "/items/4/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un chien bâtard mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de chien bâtard.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "RgzuubSvRJM2wqI6",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -16,7 +24,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Mammifère Mutant, Créature Normale",
+    "/system/origin": "Mammifère Mutant",
     "/system/biography": "<p>Les chiens sont courants dans les Terres désolées et font partie des rares espèces de créatures à ne pas avoir complètement muté. Les chiens non mutants existent dans de nombreuses communautés et font office d’animaux domestiques ou de gardes. Ils semblent disposer de la même intelligence et du même potentiel que leurs ancêtres d’avant-guerre. Néanmoins, tous les chiens ne sont pas amicaux. Des meutes de chiens mutants, enragés et irradiés, parcourent les Terres désolées. Bien que des rumeurs parlent de gentils chiens mutants, ces créatures essaient le plus souvent de dévorer les voyageurs pour se nourrir. La fourrure de ces chiens mutants, s’ils en ont encore, est en général éparse, et leur peau ressemble à celle d’une goule.</p>",
     "/name": "Cabot"
   }

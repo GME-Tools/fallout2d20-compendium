@@ -5,8 +5,9 @@
     "/token/name": "Scavenger",
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p>Road Leathers, Double-Barreled Shotgun, Wealth 1.</p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p>Road Leathers, Double-Barreled Shotgun, Wealth 1.</p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Repair",
     "/items/3/name": "Barter",
     "/items/4/name": "Melee Weapons",
@@ -23,7 +24,7 @@
     "/items/11/name": "Double-Barrel Shotgun",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 200,
-    "/system/origin": "Human, Normal Character",
+    "/system/origin": "Human",
     "/system/biography": "<p>This scavenger arrives at the settlement to collect the unpaid balance for a shipment of Stimpaks. The quartermaster's memory loss turns the dispute violent, though the scavenger also provides an important clue about Joseph's recent behavior.</p>",
     "/name": "Scavenger"
   }

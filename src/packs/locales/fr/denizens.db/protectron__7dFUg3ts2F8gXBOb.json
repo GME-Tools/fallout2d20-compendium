@@ -2,9 +2,6 @@
   "_key": "!actors!7dFUg3ts2F8gXBOb",
   "_file": "protectron__7dFUg3ts2F8gXBOb.json",
   "values": {
-    "/items/4/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur un Protectron détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 2 DC unités de matériaux communs, +1 DC par PA dépensé, plus 1 matériau peu commun par Effet obtenu.</p>",
-    "/items/9/$overrides/~1system~1description": "<p>Une fois par combat, le Protectron ajoute la Cadence 4 de ses Lasers de bras aux dégâts d’une attaque, soit 7 DC, et peut employer Rafale sans dépenser de munitions. Si un Laser de bras est blessé, cette attaque n’inflige plus que 5 DC.</p>",
-    "/items/10/$overrides/~1system~1description": "<p>Si ses deux bras sont blessés, ou si sa Santé est réduite à la moitié ou moins de son maximum, le Protectron se dirige vers l’ennemi le plus proche et consacre son action majeure à s’autodétruire. Cette attaque est centrée sur lui et le détruit après sa résolution.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "7dFUg3ts2F8gXBOb",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -17,7 +14,25 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Robot, Créature Normale",
-    "/system/biography": "<p>Cette autre gamme de robots de RobCo, couronnée de succès elle aussi, a été conçue comme ouvrier multifonctions. Les Protectrons peuvent aider dans les entreprises du bâtiment, dans les bureaux et dans les services publics. Même si ces unités disposent d’une arme laser, celle-ci n’est pas destinée au combat, mais à la protection du robot. Les Protectrons peuvent également s’autodétruire pour anéantir leur agresseur. Diverses personnalités peuvent être programmées dans l’unité, en plus de la personnalité par défaut: pompier, policier, ouvrier du bâtiment, secouriste ou agent de métro. Qu’ils soient actifs ou inactifs, les Protectrons se trouvent dans de nombreux lieux des Terres désolées, comme les stations de métro, les bâtiments publics, les immeubles de bureaux et divers sites industriels.</p>"
+    "/system/biography": "<p>Cette autre gamme de robots de RobCo, couronnée de succès elle aussi, a été conçue comme ouvrier multifonctions. Les Protectrons peuvent aider dans les entreprises du bâtiment, dans les bureaux et dans les services publics. Même si ces unités disposent d’une arme laser, celle-ci n’est pas destinée au combat, mais à la protection du robot. Les Protectrons peuvent également s’autodétruire pour anéantir leur agresseur. Diverses personnalités peuvent être programmées dans l’unité, en plus de la personnalité par défaut: pompier, policier, ouvrier du bâtiment, secouriste ou agent de métro. Qu’ils soient actifs ou inactifs, les Protectrons se trouvent dans de nombreux lieux des Terres désolées, comme les stations de métro, les bâtiments publics, les immeubles de bureaux et divers sites industriels.</p>",
+    "/items/0/system/description": "<p>Cette créature est immunisée contre la faim, la soif et l’asphyxie, ainsi que contre les dégâts de poison et de radiation. Elle ne peut pas utiliser de consommables, ne guérit pas naturellement et ne peut pas être soignée avec Médecine : ses dégâts doivent être réparés.</p>",
+    "/items/1/system/description": "<p>Cette créature est immunisée contre les effets de toutes les maladies et n’en subit jamais les symptômes.</p>",
+    "/items/1/name": "Immunisé contre les maladies",
+    "/items/2/system/weight": 0,
+    "/items/2/name": "Griffes",
+    "/items/3/system/weight": 0,
+    "/items/3/name": "Lasers de bras",
+    "/items/4/system/weight": 0,
+    "/items/4/name": "Autodestruction",
+    "/items/5/system/description": "<p>Si l’un des bras du Protectron subit une Blessure, la Cadence de ses Lasers de bras tombe à 2. Si ses deux bras sont blessés, il ne peut plus attaquer avec ses Lasers de bras.</p>",
+    "/items/5/name": "Lasers de bras",
+    "/items/6/system/description": "<p>Une fois par combat, le Protectron ajoute la Cadence 4 de ses Lasers de bras aux dégâts d’une attaque, soit 7 DC, et peut employer Rafale sans dépenser de munitions. Si un Laser de bras est blessé, cette attaque n’inflige plus que 5 DC.</p>",
+    "/items/6/name": "Se lâcher",
+    "/items/7/system/description": "<p>Si ses deux bras sont blessés, ou si sa Santé est réduite à la moitié ou moins de son maximum, le Protectron se dirige vers l’ennemi le plus proche et consacre son action majeure à s’autodétruire. Cette attaque est centrée sur lui et le détruit après sa résolution.</p>",
+    "/items/7/name": "Autodestruction",
+    "/items/8/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/8/name": "Immunisé contre les radiations",
+    "/items/9/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
+    "/items/9/name": "Immunisé contre le poison"
   }
 }

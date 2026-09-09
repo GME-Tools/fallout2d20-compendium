@@ -4,8 +4,9 @@
   "values": {
     "/items/0/system/weight": "0",
     "/items/0/name": "Unarmed Strike",
-    "/items/1/$overrides/~1system~1weight": "0",
-    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Road Leathers, Pipe Gun, Tire Iron, Wealth 1</span></p>",
+    "/items/1/system/weight": "0",
+    "/items/1/system/effect": "<p><span class=\"fontstyle0\">Road Leathers, Pipe Gun, Tire Iron, Wealth 1</span></p>",
+    "/items/1/name": "Inventory",
     "/items/2/name": "Repair",
     "/items/3/name": "Small Guns",
     "/items/4/name": "Medicine",
@@ -20,10 +21,11 @@
     "/items/11/system/description": "<p><span class=\"fontstyle0\">A crude, homemade weapon, normally seen in the hands of those who can&rsquo;t make, buy, or scavenge anything better, pipe guns are crude and somewhat unreliable, but effective enough. The most common form of pipe gun is a simple little semi-auto handgun, chambered for the common .38 round, but </span><span class=\"fontstyle0\">enterprising (or desperate) souls have been known to modify these guns for automatic fire or precision sniping.</span></p>",
     "/items/11/system/weight": "2",
     "/items/11/name": "Pipe Gun",
-    "/items/12/$overrides/~1system~1description": "<p>Once per combat, the Raider may &lsquo;let rip&rsquo; with a volley from their Pipe Gun. This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 5 DC total).</p>",
+    "/items/12/system/description": "<p>Once per combat, the Raider may &lsquo;let rip&rsquo; with a volley from their Pipe Gun. This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 5 DC total).</p>",
+    "/items/12/name": "Let Rip",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/carryWeight/base": 210,
-    "/system/origin": "Human Raider, Normal Character",
+    "/system/origin": "Human Raider",
     "/system/biography": "<p><strong>Raiders</strong></p>\n<p><span class=\"fontstyle0\">There are many groups throughout the wasteland who band together for survival at any cost. The harsh life that comes with the post-nuclear apocalypse has a habit of bringing out the worst of humanity. Raider gangs often represent some of these less-than-favorable individuals. While they are not a centralized faction, with many groups waring among themselves, the &lsquo;raider&rsquo; designation is often given to any group of people who reject the peaceful ways of most settlements and instead rely on raiding, theft, violence, and murder for their survival. They often set up settlements of their own and defend them viciously, employing both personal weapons, automated turrets and even attack dogs to keep people out. Chems use is also rampant among raider groups, which is also attributed to their increased rage, paranoia, and unpredictable behavior.</span></p>\n<p><strong>Raider</strong></p>\n<p><span class=\"fontstyle0\">The average raider is not much of a threat on their own, but unfortunately for most travelers, they are very rarely alone. Raiders usually wear patchwork armor assembled from the belongings of their previous victims, and carry weapons salvaged from them, as well. Most are hostile to anyone outside of their own gang and will even fight raiders from other rival groups.</span></p>",
     "/name": "Raider"
   }

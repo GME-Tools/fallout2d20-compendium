@@ -1,9 +1,0 @@
-{
-  "_key": "!items!kWmIbpvqCPZafkZ0",
-  "_file": "attack_dog__kWmIbpvqCPZafkZ0.json",
-  "values": {
-    "/name": "Attack Dog",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p><span class=\"fontstyle0\">When Dogmeat assists on one of your attacks, he must move within Reach of the target, and he inflicts his own melee damage on the target if the attack is successful.</span></p>"
-  }
-}

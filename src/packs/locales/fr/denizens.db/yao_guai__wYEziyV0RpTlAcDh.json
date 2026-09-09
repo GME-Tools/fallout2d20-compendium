@@ -2,7 +2,17 @@
   "_key": "!actors!wYEziyV0RpTlAcDh",
   "_file": "yao_guai__wYEziyV0RpTlAcDh.json",
   "values": {
-    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un yao guai mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 1. Ils obtiennent 2 DC portions de viande de yao guai ; un Effet fournit aussi 2 matériaux communs.</p>",
+    "/items/0/system/weight": 0,
+    "/items/0/name": "Griffes",
+    "/items/1/system/weight": 0,
+    "/items/1/name": "Morsure",
+    "/items/2/system/description": "<p>Cette créature reçoit +1 point de Santé supplémentaire par niveau, mais sa Défense diminue de 1, jusqu’à un minimum de 1. Elle ne subit un Coup critique que si une attaque lui inflige au moins 7 dégâts après Résistance aux dégâts en un seul coup, au lieu de 5 ou plus.</p>",
+    "/items/2/name": "Grand",
+    "/items/3/system/description": "<p>Lorsque cette créature entre dans une scène, générez immédiatement 1 point d’Action. Si elle est alliée, ajoutez-le à la réserve du groupe ; si elle est ennemie, ajoutez-le à celle du MJ.</p>",
+    "/items/3/name": "Agressif",
+    "/items/4/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un yao guai mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 1. Ils obtiennent 2 DC portions de viande de yao guai ; un Effet fournit aussi 2 matériaux communs.</p>",
+    "/items/5/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/5/name": "Immunisé contre les radiations",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "wYEziyV0RpTlAcDh",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -16,7 +26,7 @@
     "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
-    "/system/origin": "Mammifère Mutant, Créature Normale",
+    "/system/origin": "Mammifère Mutant",
     "/system/biography": "<p>Ces terrifiantes créatures sont tout ce qu’il reste de la population d’ours dans le monde d’après-guerre. Le yao guai a subi d’énormes mutations: il présente de plus grandes griffes et une masse musculaire plus importante que son ancêtre. Associées à une morsure puissante, ces caractéristiques font de ces créatures une menace qu’aucun voyageur ne souhaite rencontrer. Territoriaux, les yao guai sont aussi très protecteurs envers leurs petits, voire envers leur éventuel groupe. On a même entendu parler de yao guai s’en prenant à des écorcheurs parce qu’ils menaçaient leur territoire.</p>",
     "/name": "Yao guai"
   }

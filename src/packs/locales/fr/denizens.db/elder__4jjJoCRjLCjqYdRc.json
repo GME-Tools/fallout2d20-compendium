@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Uniforme de la Confrérie de l’Acier (Manteau de combat blindé), Fusil laser à canon long et Holoplaques de la Confrérie de l’Acier.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Uniforme de la Confrérie de l’Acier (Manteau de combat blindé), Fusil laser à canon long et Holoplaques de la Confrérie de l’Acier.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Athlétisme",
     "/items/3/name": "Troc",
     "/items/4/name": "Armes à énergie",
@@ -20,6 +22,8 @@
     "/items/14/system/description": "<p>Munitions: cellules à fusion Les armes laser sont des armes à la technologie très avancée qui émettent un rayon concentré de lumière cohérente directionnelle suffisamment intense pour infliger de sérieux dégâts. Elles furent inventées relativement peu de temps avant la Grande Guerre et ne sont donc pas très répandues dans les Terres désolées, en dehors des groupes qui ont mis la main sur d’anciennes caches d’armes militaires. La plupart des modèles d’arme laser encore en état de marche (par exemple l’AER9, connu pour sa fiabilité et très usité par l’armée des États-Unis) utilisent un condensateur interne chargé par une cellule d’alimentation à microfusion. Le profil par défaut représente un pistolet laser. Une arme laser peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil laser ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: canon long, canon automatique, canon de précision, canon amélioré  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
     "/items/14/system/weight": 6.5,
     "/items/14/name": "Fusil laser à canon long",
+    "/items/15/system/description": "<p>Par une action majeure, ce membre de la Confrérie peut ordonner à un personnage de la Confrérie de niveau inférieur d’effectuer immédiatement une action majeure. Il assiste cette action avec <strong>CHA + Discours</strong>.</p>",
+    "/items/15/name": "Chaîne de Cohésion",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "4jjJoCRjLCjqYdRc",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -33,7 +37,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 110,
-    "/system/origin": "Humain, Personnage Majeur",
+    "/system/origin": "Humain",
     "/system/biography": "<p>Les anciens forment le conseil des chefs de la Confrérie de l’Acier. Afin d’atteindre leur position élevée, ils doivent escalader chaque échelon de l’organisation et, avant d’être nommés Ancien, doivent au moins être paladin. Bien que le Conseil des Anciens soit responsable de toute l’organisation, un ou plusieurs Anciens peuvent chapeauter leur propre chapitre, dans diverses parties des Terres désolées.</p>",
     "/name": "Ancien"
   }

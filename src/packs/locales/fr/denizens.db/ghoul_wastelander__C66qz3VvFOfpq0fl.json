@@ -4,7 +4,9 @@
   "values": {
     "/items/0/system/weight": 0,
     "/items/0/name": "Attaque à mains nues",
-    "/items/1/$overrides/~1system~1effect": "<p>Cuirs de route, Fusil à double canon, Richesse.</p>",
+    "/items/1/system/weight": 0,
+    "/items/1/system/effect": "<p>Cuirs de route, Fusil à double canon, Richesse.</p>",
+    "/items/1/name": "Inventaire",
     "/items/2/name": "Réparation",
     "/items/3/name": "Troc",
     "/items/4/name": "Armes de corps à corps",
@@ -19,6 +21,10 @@
     "/items/11/system/description": "<p>Munitions: calibre 12 Avant la Grande Guerre, les fusils à double canon étaient surtout utilisés pour la chasse et la défense personnelle, et cela n’a pas beaucoup changé. Ce sont des armes à bascule et les deux canons sont soit côte à côte, soit l’un au-dessus de l’autre. Simples à fabriquer et à entretenir, ces fusils sont courants dans le Commonwealth et dans le reste des Terres désolées. Un fusil à double canon peut accepter un mod de chaque type parmi les suivants:  Culasse : renforcée, haute sensibilité, puissante, avancée  Canon: canon long, canon scié  Crosse: crosse complète  Viseur: viseur laser  Bouche: frein de bouche</p>",
     "/items/11/system/weight": 4.5,
     "/items/11/name": "Fusil à double canon",
+    "/items/12/system/description": "<p>Cette goule est soignée par les radiations. Elle récupère 1 point de Santé pour chaque tranche de 3 points de dégâts de radiation qui lui sont infligés.</p>",
+    "/items/12/name": "Goule",
+    "/items/13/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/13/name": "Immunisé contre les radiations",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "C66qz3VvFOfpq0fl",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
@@ -34,7 +40,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 110,
-    "/system/origin": "Goule, Personnage Normal",
+    "/system/origin": "Goule",
     "/system/biography": "<p>« Habitants des Terres désolées » est le nom donné aux très nombreux individus qui errent, voyagent et se fixent dans tout le territoire. Beaucoup d’entre eux n’ont rien de remarquable, et ne cherchent qu’à survivre à tout prix. Certains sortent de l’ordinaire et savent manier les armes, par exemple, pendant que d’autres peuvent maîtriser des compétences uniques, reflétant leur expérience de la vie et leur passé. Ils peuvent venir de n’importe quel village du Commonwealth et de toutes les strates de la société.</p>",
     "/name": "Goule des Terres désolées"
   }

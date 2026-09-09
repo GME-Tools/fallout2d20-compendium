@@ -1,9 +1,0 @@
-{
-  "_key": "!items!dxhwdNF8qFrPARaI",
-  "_file": "chems_or_kaboom__dxhwdNF8qFrPARaI.json",
-  "values": {
-    "/name": "Chems or Kaboom",
-    "/flags/fallout2d20-compendium/source/language": "en",
-    "/system/description": "<p>A raider psycho carries either one @Compendium[fallout2d20-compendium.weapons.2QqNsOyxIyKG4rhC]{Molotov Cocktail} or one dose of @Compendium[fallout2d20-compendium.consumables.K0ZP86MJKMOWl4Ig]{Psycho}. Which they are carrying is determined by which of the following actions they take first: after using one, they may not use the other in that combat.</p>\n<p>&nbsp;</p>"
-  }
-}

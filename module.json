@@ -220,17 +220,6 @@
       }
     },
     {
-      "name": "en-creature-abilities",
-      "label": "EN - Creature Abilities",
-      "path": "packs-v14/en-creature-abilities",
-      "type": "Item",
-      "system": "fallout",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "en-denizens",
       "label": "EN - Denizens of the Wasteland",
       "path": "packs-v14/en-denizens",
@@ -429,17 +418,6 @@
       }
     },
     {
-      "name": "fr-creature-abilities",
-      "label": "FR - Capacités de créature",
-      "path": "packs-v14/fr-creature-abilities",
-      "type": "Item",
-      "system": "fallout",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "fr-denizens",
       "label": "FR - Résidents des Terres désolées",
       "path": "packs-v14/fr-denizens",
@@ -484,7 +462,6 @@
         "en-books-and-magazines",
         "en-miscellany",
         "en-crafting-stations",
-        "en-creature-abilities",
         "en-denizens",
         "en-roll-tables"
       ]
@@ -510,7 +487,6 @@
         "fr-books-and-magazines",
         "fr-miscellany",
         "fr-crafting-stations",
-        "fr-creature-abilities",
         "fr-denizens",
         "fr-roll-tables"
       ]
