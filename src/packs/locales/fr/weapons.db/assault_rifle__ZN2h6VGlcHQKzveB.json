@@ -1,0 +1,17 @@
+{
+  "_key": "!items!ZN2h6VGlcHQKzveB",
+  "_file": "fusil_d_assaut__ZN2h6VGlcHQKzveB.json",
+  "values": {
+    "/system/ammo": "Cartouche 5,56 mm",
+    "/system/description": "<p>Munitions: cartouches 5,56 mm Ce fusil à emprunt de gaz est très courant dans les Terres désolées. Il très apprécié pour son faible recul, sa précision raisonnable et les modules qu’on peut facilement y installer. La plupart des versions en circulation n’ont qu’un tir semi-automatique, mais l’arme peut aisément recevoir un module de tir automatique. Un fusil d’assaut peut accepter un mod de chaque type parmi les suivants:</p>",
+    "/system/weight": 6.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZN2h6VGlcHQKzveB",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Fusil d’assaut"
+  }
+}

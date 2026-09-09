@@ -1,0 +1,13 @@
+{
+  "_key": "!items!qcEZIWmadDggAT8K",
+  "_file": "avoid_those_pesky_gun_laws__qcEZIWmadDggAT8K.json",
+  "values": {
+    "/name": "Avoid Those Pesky Gun Laws!",
+    "/system/description": "<p>A magazine series catering to weapons enthusiasts, with articles dedicated to hunting, weapons, gun law, and the portrayal of practical use of firearms.</p>\n<ul>\n<li><strong>Perk:</strong> Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found:</li>\n</ul>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Zl8Mt7ll7IqbgFq2]{Avoid Those Pesky Gun Laws!}</p></section>",
+    "/system/effect": "<p>When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials</p>",
+    "/system/publication": "Guns and Bullets",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

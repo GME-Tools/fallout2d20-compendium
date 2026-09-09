@@ -1,0 +1,14 @@
+{
+  "_key": "!items!OtzMRD3Nzku3HXTZ",
+  "_file": "night_vision__OtzMRD3Nzku3HXTZ.json",
+  "values": {
+    "/name": "Vision nocturne",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "OtzMRD3Nzku3HXTZ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette créature voit dans l’obscurité totale. Elle ignore les augmentations de difficulté dues à une faible luminosité ou à l’obscurité et peut tenter les tests que ces conditions rendraient normalement impossibles.</p>"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ldIbeCgUhfS2AVHV",
+  "_file": "revolver_de_fortune__ldIbeCgUhfS2AVHV.json",
+  "values": {
+    "/system/ammo": "Cartouche .45",
+    "/system/description": "<p>Munitions: cartouches .45 Comme les autres formes d’arme de fortune, le revolver de fortune est une arme artisanale, mais dans ce cas précis fabriquée sur le modèle d’un revolver. Il trouve un équilibre entre le pouvoir d’arrêt de l’arme à verrou de fortune et la cadence de tir de l’arme de fortune, sa nature d’arme improvisée le rend tout aussi adapté aux modules. Un revolver de fortune peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil ».  Culasse: calibrée, renforcée, puissante, culasse .38, culasse .308  Canon : canon long, canon à ouvertures, canon à ailettes  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, compensateur, frein de bouche, silencieux</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ldIbeCgUhfS2AVHV",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Revolver de fortune"
+  }
+}

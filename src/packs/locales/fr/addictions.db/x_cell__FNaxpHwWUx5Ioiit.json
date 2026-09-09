@@ -1,0 +1,14 @@
+{
+  "_key": "!items!FNaxpHwWUx5Ioiit",
+  "_file": "x_cell__FNaxpHwWUx5Ioiit.json",
+  "values": {
+    "/system/description": "<p>La difficulté de tous vos tests augmente de +1 quand vous n’êtes pas sous l’effet du X-Cell.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "FNaxpHwWUx5Ioiit",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

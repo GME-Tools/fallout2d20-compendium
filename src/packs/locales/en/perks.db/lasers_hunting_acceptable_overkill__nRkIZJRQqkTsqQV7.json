@@ -1,0 +1,9 @@
+{
+  "_key": "!items!nRkIZJRQqkTsqQV7",
+  "_file": "lasers_hunting_acceptable_overkill__nRkIZJRQqkTsqQV7.json",
+  "values": {
+    "/name": "Lasers & Hunting: Acceptable Overkill",
+    "/system/description": "<p>One attack with a Laser weapon gains the Vicious damage effect if it didn&rsquo;t already have it</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

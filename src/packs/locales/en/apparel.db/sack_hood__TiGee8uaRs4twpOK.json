@@ -1,0 +1,12 @@
+{
+  "_key": "!items!TiGee8uaRs4twpOK",
+  "_file": "sack_hood__TiGee8uaRs4twpOK.json",
+  "values": {
+    "/name": "Sack Hood",
+    "/system/description": "<p><span class=\"fontstyle0\">A tough fabric hood made from a burlap or canvas sack. Provides a little protection from dust and fumes and radiation by covering the whole head. Conveniently, it has eyeholes cut out, and some versions add in some form of makeshift breathing apparatus, though the effectiveness of these is dubious at best.</span> </p>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!RWHypmbHATEbfGdU",
+  "_file": "vetements_elegants__RWHypmbHATEbfGdU.json",
+  "values": {
+    "/name": "Vêtements élégants",
+    "/system/description": "<p>Un beau costume, une jolie robe ou une autre tenue élégante sur mesure, conçue pour flatter plutôt que protéger et utile pour impressionner. <strong>Spécial :</strong> une fois par scène, elle permet de relancer un d20 d’un test fondé sur le CHA. Elle peut recevoir du Tissage balistique.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "RWHypmbHATEbfGdU",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

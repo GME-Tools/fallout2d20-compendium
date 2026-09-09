@@ -1,0 +1,11 @@
+{
+  "_key": "!items!xmOWzjBpDXRfPa9Y",
+  "_file": "le_petit_livre_du_programmeur__xmOWzjBpDXRfPa9Y.json",
+  "values": {
+    "/name": "Le petit livre du programmeur",
+    "/system/description": "<p>Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

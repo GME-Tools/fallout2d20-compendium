@@ -1,0 +1,16 @@
+{
+  "_key": "!items!gKcwpsDkmmUMmxP9",
+  "_file": "viande_de_mouche_bouffie__gKcwpsDkmmUMmxP9.json",
+  "values": {
+    "/name": "Viande de mouche bouffie",
+    "/system/description": "<p>Morceau grossier prélevé sur une mouche bouffie morte. Nourrissant mais peu appétissant, même cuit. Il permet de préparer une mouche bouffie au four.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "gKcwpsDkmmUMmxP9",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!beJfGkUq386Kw4Sj",
+  "_file": "10_hits_n_1_rock_o_bot_prend_le_pays_par_surprise__beJfGkUq386Kw4Sj.json",
+  "values": {
+    "/name": "10 hits n°1 !!! Rock-o-bot prend le pays par surprise !",
+    "/system/description": "<p>Une seule fois, quand vous infligez un coup critique, augmentez de +2 le total des dégâts infligés.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

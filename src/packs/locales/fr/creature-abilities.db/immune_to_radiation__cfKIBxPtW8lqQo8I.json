@@ -1,0 +1,14 @@
+{
+  "_key": "!items!cfKIBxPtW8lqQo8I",
+  "_file": "immune_to_radiation__cfKIBxPtW8lqQo8I.json",
+  "values": {
+    "/name": "Immunisé contre les radiations",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cfKIBxPtW8lqQo8I",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>"
+  }
+}

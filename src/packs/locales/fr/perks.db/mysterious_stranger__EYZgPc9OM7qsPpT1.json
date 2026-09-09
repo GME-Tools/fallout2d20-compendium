@@ -1,0 +1,14 @@
+{
+  "_key": "!items!EYZgPc9OM7qsPpT1",
+  "_file": "mysterieux_etranger__EYZgPc9OM7qsPpT1.json",
+  "values": {
+    "/name": "Mystérieux Étranger",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHA 7 De temps à autre, un Mystérieux étranger vous vient en aide, avec des résultats mortels. Au début d’une rencontre de combat, vous pouvez dépenser 1 point de chance. Si vous le faites, le MJ peut faire apparaître, à n’importe quel moment de la scène, le Mystérieux étranger : il effectue une unique attaque à distance contre un adversaire que vous avez déjà attaqué, ou qui vient de vous attaquer, puis disparaît. Si vous avez dépensé un point de chance, le MJ doit vous le restituer si le Mystérieux étranger n’est pas apparu. L’étranger a une AGI de 10 et une compétence Armes légères de 6, et cette dernière est un atout personnel. Il lance toujours 3d20 pour son attaque, au lieu des 2d20 habituels, et l’exécute avec un revolver .44 Magnum personnalisé, et elle inflige 8 @fos[DC] de dégâts balistiques Brutaux et Perforants 1. L’étranger apparaît toujours à la portée optimale de son arme. Toute tentative de retrouver l’étranger après son attaque est vouée à l’échec.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "EYZgPc9OM7qsPpT1",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

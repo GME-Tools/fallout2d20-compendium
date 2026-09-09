@@ -1,0 +1,16 @@
+{
+  "_key": "!items!CUlCBsWk1qipT1Ff",
+  "_file": "fusil_de_combat__CUlCBsWk1qipT1Ff.json",
+  "values": {
+    "/system/ammo": "Calibre 12",
+    "/system/description": "<p>Munitions: calibre 12 Les fusils de combat sont des fusils conçus pour mener des assauts, généralement pour une force militaire; ils sont parfaits pour le combat rapproché dans des tunnels, des bâtiments ou les rues en ruines d’anciennes villes. Un fusil de combat peut accepter un mod de chaque type parmi les suivants:  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, avancée  Canon: canon long, canon à ouvertures  Crosse: crosse complète, crosse de tireur d’élite, crosse à compensateur de recul  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, compensateur, frein de bouche, silencieux</p>",
+    "/system/weight": 5.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CUlCBsWk1qipT1Ff",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Fusil de combat"
+  }
+}

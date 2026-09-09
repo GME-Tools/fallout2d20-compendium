@@ -1,0 +1,18 @@
+{
+  "_key": "!items!42Qe82QKBhubp9xU",
+  "_file": "ath_de_ciblage__42Qe82QKBhubp9xU.json",
+  "values": {
+    "/name": "ATH de ciblage",
+    "/system/description": "<p>Cette modification s’installe avec la compétence Sciences.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 3</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/effect": "<p>Lorsque vous effectuez l’action mineure Viser, vous pouvez effectuer une seconde action mineure pour 0 PA tant que l’armure est alimentée.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "42Qe82QKBhubp9xU",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Scientifique 3"
+  }
+}

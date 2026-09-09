@@ -1,0 +1,28 @@
+{
+  "_id": "vOXz7dt1WUCZu2Al",
+  "_key": "!items!vOXz7dt1WUCZu2Al",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Torch.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 10,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

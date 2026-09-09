@@ -1,0 +1,11 @@
+{
+  "_key": "!items!XDokjSONPXfiHRrg",
+  "_file": "bone_worms__XDokjSONPXfiHRrg.json",
+  "values": {
+    "/name": "Bone Worms",
+    "/system/description": "<p>Attacks against you which hit your arms or legs inflict +4CD damage</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

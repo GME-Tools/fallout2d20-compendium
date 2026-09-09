@@ -1,0 +1,15 @@
+{
+  "_key": "!items!qBPZF0UE2yRc8lzg",
+  "_file": "bouffees_de_chaleur__qBPZF0UE2yRc8lzg.json",
+  "values": {
+    "/name": "Bouffées de chaleur",
+    "/system/description": "<p>Les tests d’END gagnent +1 difficulté.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "qBPZF0UE2yRc8lzg",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

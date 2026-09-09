@@ -1,0 +1,43 @@
+{
+  "_id": "PVf7RRNJLAIY2b2t",
+  "_key": "!items!PVf7RRNJLAIY2b2t",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Irradiated Blood.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "beverage",
+    "cost": 50,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 2,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Irradiated Blood.webp; recorded 2026-09-08"
+      }
+    }
+  },
+  "$folder": "beverages"
+}

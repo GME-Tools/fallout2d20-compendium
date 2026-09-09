@@ -1,0 +1,29 @@
+{
+  "_id": "M5XB3Upu9SpAINY2",
+  "_key": "!items!M5XB3Upu9SpAINY2",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Radio.webp",
+  "name": "Radio",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 75,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

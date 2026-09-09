@@ -1,0 +1,10 @@
+{
+  "_key": "!items!Ltcs4vrQZGNQLiCM",
+  "_file": "med_x__Ltcs4vrQZGNQLiCM.json",
+  "values": {
+    "/system/description": "<p>You increase the difficulty of all <strong>AGI</strong> tests by +1, and suffer +1 @fos[DC] additional damage from all physical attacks whenever you are not under the effects of Med-X.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

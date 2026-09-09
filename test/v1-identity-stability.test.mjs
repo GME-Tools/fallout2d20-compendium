@@ -7,27 +7,27 @@ function digest(value) {
   return createHash("sha256").update(JSON.stringify(value)).digest("hex");
 }
 
-test("V1 document identities and UUID inputs remain unchanged", async () => {
+test("document IDs and keys remain stable through the denizens pack migration", async () => {
   const identities = [];
   for (const language of ["en", "fr"]) {
-    for (const directory of await readdir(`src/packs/${language}`, { withFileTypes: true })) {
+    for (const directory of await readdir(`generated/source-packs/${language}`, { withFileTypes: true })) {
       if (!directory.isDirectory() || !directory.name.endsWith(".db")) continue;
       const pack = directory.name.slice(0, -3);
-      for (const file of await readdir(`src/packs/${language}/${directory.name}`)) {
+      for (const file of await readdir(`generated/source-packs/${language}/${directory.name}`)) {
         if (!file.endsWith(".json")) continue;
-        const document = JSON.parse(await readFile(`src/packs/${language}/${directory.name}/${file}`));
+        const document = JSON.parse(await readFile(`generated/source-packs/${language}/${directory.name}/${file}`));
         if (/^!(items|actors|tables)![^.!]+$/.test(document._key ?? "")) identities.push(`${language}/${pack}/${document._id}/${document._key}`);
       }
     }
   }
   identities.sort();
   assert.equal(identities.length, 2760);
-  assert.equal(digest(identities), "e7aaa54ca2e569c29562e240bbf5fc1d49b5be1cda2872ecc9d72a7176d76075");
+  assert.equal(digest(identities), "befa2871865711dc9690e8d923a534e3ce6fccbc3c9b0a438e086a88a75fee32");
 });
 
-test("V1 pack declarations remain unchanged", async () => {
+test("pack declarations include the accepted denizens migration", async () => {
   const manifest = JSON.parse(await readFile("module.json", "utf8"));
   const packs = manifest.packs.map(({ name, path, type }) => ({ name, path, type }));
-  assert.equal(packs.length, 40);
-  assert.equal(digest(packs), "b0a9ec3d008887c479c30ec96bdbdc38c0a48d99ac3c50088315450241452f3e");
+  assert.equal(packs.length, 38);
+  assert.equal(digest(packs), "d5619a220af0ecb19426841bf9abf33e4ad9a17b3058cd5fe764ef9d423d55fb");
 });

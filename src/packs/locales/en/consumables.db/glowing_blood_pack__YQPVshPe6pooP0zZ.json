@@ -1,0 +1,16 @@
+{
+  "_key": "!items!YQPVshPe6pooP0zZ",
+  "_file": "glowing_blood_pack__YQPVshPe6pooP0zZ.json",
+  "values": {
+    "/name": "Glowing Blood Pack",
+    "/system/description": "<p><span class=\"fontstyle0\">A blood bag filled with a luminescent green fluid. If you can stomach the acrid, metallic taste, they have potent restorative properties and help protect the body against radiation poisoning for a short while.</span></p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Rare Materials ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL]{Blood Pack} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.PVf7RRNJLAIY2b2t]{Irradiated Blood} ×1</li></ul></section>",
+    "/system/effect": "<p>+5 to Radiation damage resistance</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Rare Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Blood Pack",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Irradiated Blood"
+  }
+}

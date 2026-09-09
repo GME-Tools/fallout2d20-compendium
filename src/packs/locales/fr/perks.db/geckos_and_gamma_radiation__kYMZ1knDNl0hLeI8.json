@@ -1,0 +1,11 @@
+{
+  "_key": "!items!kYMZ1knDNl0hLeI8",
+  "_file": "geckos_et_radiations_gamma__kYMZ1knDNl0hLeI8.json",
+  "values": {
+    "/name": "Geckos et radiations gamma",
+    "/system/description": "<p>Une attaque contre une créature Mutante inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

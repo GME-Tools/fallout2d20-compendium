@@ -1,0 +1,11 @@
+{
+  "_key": "!items!YUHxXpiMFWmEtbXB",
+  "_file": "petites_armes_pour_petites_dames__YUHxXpiMFWmEtbXB.json",
+  "values": {
+    "/name": "Petites armes pour petites dames",
+    "/system/description": "<p>Une attaque avec une arme maniée avec Armes légères gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

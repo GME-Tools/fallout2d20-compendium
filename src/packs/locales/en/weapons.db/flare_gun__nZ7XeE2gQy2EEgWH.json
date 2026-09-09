@@ -1,0 +1,13 @@
+{
+  "_key": "!items!nZ7XeE2gQy2EEgWH",
+  "_file": "flare_gun__nZ7XeE2gQy2EEgWH.json",
+  "values": {
+    "/system/ammo": "Flare",
+    "/system/description": "<p><span class=\"fontstyle0\">A Flare gun is a break-action single-shot device not really designed to inflict damage. Rather, it shoots signal flares which are used by many factions to signal for assistance by firing them high into the air.</span> </p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Flare Gun"
+  }
+}

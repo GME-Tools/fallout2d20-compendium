@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Xh4PnVNi5xJrCtZr",
+  "_file": "la_science_c_est_pas_sorcier__Xh4PnVNi5xJrCtZr.json",
+  "values": {
+    "/name": "La science, c’est pas sorcier !",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Une attaque avec une arme à Zone d’impact inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.3gc78PRC1se8qefU]{La science, c’est pas sorcier !}</p></section>",
+    "/system/effect": "<p>Une attaque avec une arme à Zone d’impact inflige +2 DC de dégâts.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Xh4PnVNi5xJrCtZr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

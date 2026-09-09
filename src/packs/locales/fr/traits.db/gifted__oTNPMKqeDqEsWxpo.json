@@ -1,0 +1,13 @@
+{
+  "_key": "!items!oTNPMKqeDqEsWxpo",
+  "_file": "doue__oTNPMKqeDqEsWxpo.json",
+  "values": {
+    "/name": "Doué",
+    "/system/description": "<p>Choisissez deux attributs S.P.E.C.I.A.L. : augmentez leur valeur de +1.</p><p>Votre nombre de points de Chance maximum est inférieur de 1 à la valeur de votre attribut de Chance.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "oTNPMKqeDqEsWxpo",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

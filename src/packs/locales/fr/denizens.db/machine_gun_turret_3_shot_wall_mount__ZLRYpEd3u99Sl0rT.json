@@ -1,0 +1,25 @@
+{
+  "_key": "!actors!ZLRYpEd3u99Sl0rT",
+  "_file": "tourelle_mitrailleuse_a_3_tirs_murale__ZLRYpEd3u99Sl0rT.json",
+  "values": {
+    "/items/4/system/weight": 0,
+    "/items/4/name": "Mitrailleuse",
+    "/items/5/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur une tourelle de mitrailleuse détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 3d20 cartouches de 10 mm et 2 DC matériaux peu communs.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZLRYpEd3u99Sl0rT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Robot, Créature Normale",
+    "/system/biography": "<p>La version 3 coups de cette tourelle est capable de fournir une cadence de tir plus soutenue, ce qui en fait un minigun de taille réduite fixé au mur. Elle ne tire, certes, que du 10 mm, mais qu’elle le fasse trois balles à la fois cause plus de dégâts à ses cibles, surtout à courte portée.</p>",
+    "/name": "Tourelle mitrailleuse à 3 tirs (murale)"
+  }
+}

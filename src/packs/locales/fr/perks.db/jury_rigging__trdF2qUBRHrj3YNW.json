@@ -1,0 +1,14 @@
+{
+  "_key": "!items!trdF2qUBRHrj3YNW",
+  "_file": "bricolage__trdF2qUBRHrj3YNW.json",
+  "values": {
+    "/name": "Bricolage",
+    "/system/description": "<p>Rangs : 1 Prérequis : aucun Vous pouvez réparer un objet sans avoir besoin de pièces détachées. Néanmoins, cette réparation est temporaire : l’objet se brisera à nouveau lors de la prochaine complication que vous obtiendrez en l’utilisant. De plus, la marge de complication de tout test de compétence effectué à l’aide de cet objet augmente de 1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "trdF2qUBRHrj3YNW",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

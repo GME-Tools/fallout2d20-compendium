@@ -1,0 +1,23 @@
+{
+  "_key": "!actors!vmToJt8w8NC99QzD",
+  "_file": "institue_scientist__vmToJt8w8NC99QzD.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Unarmed Strike",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Lab Coat, Institute Laser, 2d20 Fusion Cells</span></p>",
+    "/items/2/name": "Energy Weapons",
+    "/items/3/name": "Speech",
+    "/items/4/name": "Science",
+    "/items/5/name": "Medicine",
+    "/items/6/name": "Repair",
+    "/items/7/system/description": "<p><span class=\"fontstyle0\">Developed by The Institute after the Great War, Institute lasers differ in design and function from the pre-War lasers used by other factions such as the Brotherhood of Steel. Eschewing raw power for a rapid succession of beams, these lasers can lay down a searing volley of suppressive fire.</span></p>",
+    "/items/7/system/weight": "4",
+    "/items/7/name": "Institute Laser",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 190,
+    "/system/origin": "Human, Normal Character",
+    "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Institue Scientist</strong></p>\n<p><span class=\"fontstyle0\">Most of the human individuals who reside within the Institute are scientists with varying backgrounds and fields of specialty. They can oversee projects that require knowledge of everything from robotics, biology, synthetic tissue creation, physics and genetics to name just a few and are the Institute's best resource for improving and developing technology.</span></p>",
+    "/name": "Institue Scientist"
+  }
+}

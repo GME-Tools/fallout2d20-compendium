@@ -1,0 +1,18 @@
+{
+  "_key": "!items!r464WdcRwusnzFtm",
+  "_file": "psycho__r464WdcRwusnzFtm.json",
+  "values": {
+    "/system/description": "<p>Puissant stimulant de combat créé par l’armée américaine. Il exacerbe l’agressivité et émousse la douleur, permettant de combattre plus durement sans souci de sa sécurité.</p><p><strong>Dépendance au Psycho :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât des attaques physiques hors des effets d’une variété de Psycho.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.483yLfgB6kJ0lWvD]{Hubélie} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7]{Stimpak} ×1</li></ul></section>",
+    "/system/effect": "<p>Toutes vos attaques infligent +2 @fos[DC] de dégâts et vous gagnez +3 en résistance aux dégâts physiques.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "r464WdcRwusnzFtm",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Hubélie"
+  }
+}

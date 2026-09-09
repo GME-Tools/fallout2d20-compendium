@@ -37,7 +37,7 @@ for (const pack of PACKS) {
   const row = { pack: pack.name, type: pack.type };
   const documentsByLanguage = {};
   for (const language of LANGUAGES) {
-    const files = await listFiles(path.resolve("src/packs", language, `${pack.name}.db`), file => file.endsWith(".json"));
+    const files = await listFiles(path.resolve("generated/source-packs", language, `${pack.name}.db`), file => file.endsWith(".json"));
     row[language] = 0;
     row[`${language}ErrataReviewed`] = 0;
     row[`${language}ImageWarnings`] = 0;

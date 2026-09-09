@@ -1,0 +1,11 @@
+{
+  "_key": "!items!XbVNgNTQ9MLaAWEx",
+  "_file": "vault_kid__XbVNgNTQ9MLaAWEx.json",
+  "values": {
+    "/name": "Vault Kid",
+    "/system/description": "<p>Your healthier start to life at the hands of trained doctors and sophisticated auto-docs means you reduce the difficulty of all END tests to resist the effects of disease by 1, to a minimum of 0. In addition, your carefully-planned upbringing means you have one additional tag skill of your choice.</p>\n<p>You may also work with the Gamemaster to determine what sort of experiment took place within your Vault. Once per quest, the GM may introduce a complication which reflects the nature of the experiment you unwittingly took part in, or introduce a complication related to your early life of isolation and confinement within the Vault. If the GM does this, you immediately regain one Luck Point.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

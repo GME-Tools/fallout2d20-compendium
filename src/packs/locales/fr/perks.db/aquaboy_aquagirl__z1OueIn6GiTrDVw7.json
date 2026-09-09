@@ -1,0 +1,14 @@
+{
+  "_key": "!items!z1OueIn6GiTrDVw7",
+  "_file": "amphibie__z1OueIn6GiTrDVw7.json",
+  "values": {
+    "/name": "Amphibie",
+    "/system/description": "<p>Rangs : 2 Prérequis : END 5, niveau 1+ L’eau est votre alliée. Au rang 1, vous ne subissez plus de dégâts de radiation lorsque vous nagez dans une eau irradiée et vous pouvez retenir votre souffle deux fois plus longtemps. Au rang 2, les ennemis ajoutent +2 à la difficulté de leurs tests pour vous repérer lorsque vous êtes complètement immergé. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 3.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "z1OueIn6GiTrDVw7",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

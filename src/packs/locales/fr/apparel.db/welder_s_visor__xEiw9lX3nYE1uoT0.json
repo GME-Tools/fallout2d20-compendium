@@ -1,0 +1,16 @@
+{
+  "_key": "!items!xEiw9lX3nYE1uoT0",
+  "_file": "visiere_de_soudeur__xEiw9lX3nYE1uoT0.json",
+  "values": {
+    "/name": "Visière de soudeur",
+    "/system/description": "<p>Une casquette renforcée munie d’une plaque faciale métallique et d’un verre teinté durci protégeant les yeux pendant la soudure. La visière se relève selon les besoins. Les scribes et ingénieurs de la Confrérie en portent souvent pour travailler le métal.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xEiw9lX3nYE1uoT0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

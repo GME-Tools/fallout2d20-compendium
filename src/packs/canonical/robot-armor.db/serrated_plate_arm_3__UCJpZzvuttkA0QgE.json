@@ -1,0 +1,64 @@
+{
+  "_id": "UCJpZzvuttkA0QgE",
+  "_key": "!items!UCJpZzvuttkA0QgE",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 3.webp",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "cost": 15,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": true,
+      "legR": false,
+      "torso": false
+    },
+    "perks": "Armorer 1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Serrated Plate (Arm 3)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 3,
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  },
+  "$folder": "serrated"
+}

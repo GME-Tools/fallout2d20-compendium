@@ -1,0 +1,21 @@
+{
+  "_key": "!items!jC25W4O796xzZr0O",
+  "_file": "soupe_d_iguane__jC25W4O796xzZr0O.json",
+  "values": {
+    "/name": "Soupe d’iguane",
+    "/system/description": "<p>Une soupe de carottes et de morceaux d’iguane, plus rassasiante que chacun de ses ingrédients pris séparément.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.8Fv9dZQm5Dax1INF]{Carotte} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1]{Eau sale} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.5uXBOucct2TglTlF]{Ragoût d’iguane} ×3</li></ul></section>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jC25W4O796xzZr0O",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Carotte",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Eau sale",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Ragoût d’iguane"
+  }
+}

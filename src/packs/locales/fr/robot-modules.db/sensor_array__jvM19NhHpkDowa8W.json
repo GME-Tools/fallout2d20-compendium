@@ -1,0 +1,18 @@
+{
+  "_key": "!items!jvM19NhHpkDowa8W",
+  "_file": "reseau_de_capteurs__jvM19NhHpkDowa8W.json",
+  "values": {
+    "/name": "Réseau de capteurs",
+    "/system/description": "<p>Des capteurs et systèmes de traitement sensoriel supplémentaires complètent les détecteurs optiques et auditifs normaux du robot. Ils lui permettent de percevoir son environnement avec davantage de précision et par des moyens inaccessibles aux yeux et aux oreilles ordinaires.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "/system/effect": "<p>Relancez 1d20 lors de tous les tests de PER. Vous pouvez tenter des tests de PER pour détecter ce que l’œil nu ne perçoit normalement pas, comme les radiations.</p>",
+    "/system/weight": -7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jvM19NhHpkDowa8W",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en robotique 1"
+  }
+}

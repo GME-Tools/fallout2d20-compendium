@@ -1,0 +1,14 @@
+{
+  "_key": "!items!f2TJFwW2vfMqrmAY",
+  "_file": "mk_ii_chest_piece__f2TJFwW2vfMqrmAY.json",
+  "values": {
+    "/name": "Mk II Chest Piece",
+    "/system/description": "\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Power Armor Station}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Common Materials ×4</li><li>Uncommon Materials ×3</li></ul></section>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Repair",
+    "/flags/fallout2d20-compendium/recipe/materials/uncommon": 3
+  }
+}

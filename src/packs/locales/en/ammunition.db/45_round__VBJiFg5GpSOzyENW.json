@@ -1,0 +1,12 @@
+{
+  "_key": "!items!VBJiFg5GpSOzyENW",
+  "_file": "45_round__VBJiFg5GpSOzyENW.json",
+  "values": {
+    "/name": ".45 Round",
+    "/system/description": "<p><span class=\"fontstyle0\">A decent round which combines reasonable stopping power with manageable recoil and decent accuracy. It&rsquo;s used by a few different weapons found commonly in the wastelands and isn&rsquo;t too scarce.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 8+4dc # .45 Round]]</p>",
+    "/system/weight": 0.029,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

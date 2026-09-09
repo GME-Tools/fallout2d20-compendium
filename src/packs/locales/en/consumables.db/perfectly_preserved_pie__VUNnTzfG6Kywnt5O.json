@@ -1,0 +1,12 @@
+{
+  "_key": "!items!VUNnTzfG6Kywnt5O",
+  "_file": "perfectly_preserved_pie__VUNnTzfG6Kywnt5O.json",
+  "values": {
+    "/name": "Perfectly Preserved Pie",
+    "/system/description": "<p><span class=\"fontstyle0\">Contained within the storage of a Port-A-Diner, this slice of fruit pie has been shielded from the radioactive environment since before the Great War, meaning that isn&rsquo;t irradiated at all. Copious quantities of preservatives were used in making the pie, so it&rsquo;s still as edible as it was the day it was made.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

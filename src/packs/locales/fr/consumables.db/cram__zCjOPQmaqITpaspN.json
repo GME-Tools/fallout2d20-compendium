@@ -1,0 +1,15 @@
+{
+  "_key": "!items!zCjOPQmaqITpaspN",
+  "_file": "cram__zCjOPQmaqITpaspN.json",
+  "values": {
+    "/system/description": "<p>Boîte de viande transformée produite en masse avant la Guerre pour pallier les pénuries et servir de ration militaire. Sa languette d’ouverture et son emballage préservent longtemps le contenu, ce qui la rend précieuse aux survivalistes et récupérateurs.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zCjOPQmaqITpaspN",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ZTVTUHilc84UzoRP",
+  "_file": "a_couvert__ZTVTUHilc84UzoRP.json",
+  "values": {
+    "/name": "À couvert !",
+    "/system/description": "<p>Un livre d’avant-guerre sur la fabrication, l’utilisation et le désamorçage d’explosifs.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol. Dans ce cas, ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.gD1wycvvp1ivtXdY]{À couvert !}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol. Dans ce cas, ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme.</p>",
+    "/system/publication": "À couvert !",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZTVTUHilc84UzoRP",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!xBhJROt39tupLIhb",
+  "_file": "qui_peut_arreter_l_inarretable_grog_na_rok__xBhJROt39tupLIhb.json",
+  "values": {
+    "/name": "Qui peut arrêter l’inarrêtable Grog-Na-Rok ?!",
+    "/system/description": "<p>Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.</p><p><strong>Aptitude :</strong> Vous pouvez dépenser 2 points de Chance pour éviter tous les dégâts d’une attaque portée par un Humain Mutant, y compris une goule ou un super mutant.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.7heg2KN3JXIllHT2]{Qui peut arrêter l’inarrêtable Grog-Na-Rok ?!}</p></section>",
+    "/system/effect": "<p>Vous pouvez dépenser 2 points de Chance pour éviter tous les dégâts d’une attaque portée par un Humain Mutant, y compris une goule ou un super mutant.</p>",
+    "/system/publication": "Les Increvables",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xBhJROt39tupLIhb",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

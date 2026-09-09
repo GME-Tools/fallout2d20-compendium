@@ -1,0 +1,16 @@
+{
+  "_key": "!items!QX9YgFGANsHkpTQd",
+  "_file": "tenue_de_vagabond__QX9YgFGANsHkpTQd.json",
+  "values": {
+    "/name": "Tenue de vagabond",
+    "/system/description": "<p>Un trench-coat de cuir, de solides gants et bottes en peau, un jean et une chemise forment une tenue résistante, confortable sur la durée et assez chaude pour ceux qui parcourent les Terres désolées.</p>",
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "QX9YgFGANsHkpTQd",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

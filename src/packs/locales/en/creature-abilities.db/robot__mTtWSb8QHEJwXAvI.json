@@ -1,0 +1,8 @@
+{
+  "_key": "!items!mTtWSb8QHEJwXAvI",
+  "_file": "robot__mTtWSb8QHEJwXAvI.json",
+  "values": {
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] is a robot. They are immune to the effects of starvation, thirst, and suffocation. They are also immune to Poison and Radiation damage. However, machines cannot use food and drink or other consumables, they do not heal naturally, and the Medicine skill cannot be used to heal them: damage to them must be repaired.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>"
+  }
+}

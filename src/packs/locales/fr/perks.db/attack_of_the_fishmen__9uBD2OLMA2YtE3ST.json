@@ -1,0 +1,11 @@
+{
+  "_key": "!items!9uBD2OLMA2YtE3ST",
+  "_file": "l_assaut_des_hommes_poisson__9uBD2OLMA2YtE3ST.json",
+  "values": {
+    "/name": "L’assaut des hommes-poisson !",
+    "/system/description": "<p>Vous gagnez +1 DC sur vos attaques contre les fangeux.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftPowerArmor01",
+  "_file": "etabli_d_armures_assistees__CrftPowerArmor01.json",
+  "values": {
+    "/name": "Établi d’armures assistées",
+    "/system/description": "<p>Un établi d’armures assistées permet de travailler sur les armures assistées. Son utilisation fait appel aux compétences Réparation et Science et bénéficie des aptitudes Armurier et Scientifique.</p>",
+    "/system/effect": "<p>Fournit l’espace et les outils nécessaires pour travailler sur les armures assistées.</p>",
+    "/system/perks": "Armurier, Scientifique",
+    "/system/skills": "Réparation, Science",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!1t9ZfJxVs14n5wTX",
+  "_file": "chapeau_de_scribe_de_la_confrerie__1t9ZfJxVs14n5wTX.json",
+  "values": {
+    "/name": "Chapeau de scribe de la Confrérie",
+    "/system/description": "<p>Cette légère casquette de cuir avec lunettes accompagne l’armure de scribe de la Confrérie et protège la tête dans les environnements dangereux.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1t9ZfJxVs14n5wTX",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

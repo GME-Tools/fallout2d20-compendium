@@ -1,0 +1,65 @@
+{
+  "_id": "VL3DtHbWeTyr8Kjb",
+  "_key": "!items!VL3DtHbWeTyr8Kjb",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 4,
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 1
+    },
+    "isJunk": false,
+    "location": "Head",
+    "modType": "upgrade",
+    "perks": "1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": ""
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 219,
+        "station": "power-armor",
+        "group": "upgrades",
+        "complexity": 3,
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  },
+  "$folder": "power-upgrade-t51"
+}

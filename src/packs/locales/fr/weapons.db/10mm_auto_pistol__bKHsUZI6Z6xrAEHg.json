@@ -1,0 +1,16 @@
+{
+  "_key": "!items!bKHsUZI6Z6xrAEHg",
+  "_file": "pistolet_automatique_10_mm__bKHsUZI6Z6xrAEHg.json",
+  "values": {
+    "/system/ammo": "Cartouche 10 mm",
+    "/system/description": "<p>Munitions : cartouches 10 mm Petit, sûr, raisonnablement puissant et aisé à trouver, le pistolet 10 mm est impliqué dans l’immense majorité des combats dans les Terres désolées depuis la chute des bombes. Grâce à sa polyvalence et à la possibilité de lui appliquer des modules, un pistolet 10 mm bien entretenu garantit la sécurité de son propriétaire pendant longtemps. Un pistolet 10 mm peut accepter un mod de chaque type parmi les suivants:  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, avancée  Canon: canon long, canon à ouvertures  Poignée: poignée confort, poignée de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette de reconnaissance  Bouche: compensateur, silencieux</p>",
+    "/system/weight": 2.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "bKHsUZI6Z6xrAEHg",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Pistolet automatique 10 mm"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!YLA9JETKbkkHd3uz",
+  "_file": "tir_groupe__YLA9JETKbkkHd3uz.json",
+  "values": {
+    "/name": "Tir groupé",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 8, AGI 6 Lorsque vous effectuez une attaque à distance et dépensez des munitions pour augmenter les dégâts, vous pouvez relancer jusqu’à 3 @fos[DC] de votre jet de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YLA9JETKbkkHd3uz",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

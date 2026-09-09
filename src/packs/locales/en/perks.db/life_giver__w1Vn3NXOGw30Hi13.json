@@ -1,0 +1,11 @@
+{
+  "_key": "!items!w1Vn3NXOGw30Hi13",
+  "_file": "life_giver__w1Vn3NXOGw30Hi13.json",
+  "values": {
+    "/name": "Life Giver",
+    "/system/description": "<p>Increase your maximum health points by your Endurance rank. Each time you take this perk, the level requirement increases by 5.</p>\n<p><strong>Requirements</strong>: Level 5+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!72L3DVPU3uiGPpNm",
+  "_file": "champignons_luminescents__72L3DVPU3uiGPpNm.json",
+  "values": {
+    "/name": "Champignons luminescents",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "72L3DVPU3uiGPpNm",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

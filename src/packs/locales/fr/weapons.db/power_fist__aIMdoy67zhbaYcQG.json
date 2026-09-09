@@ -1,0 +1,16 @@
+{
+  "_key": "!items!aIMdoy67zhbaYcQG",
+  "_file": "poing_assiste__aIMdoy67zhbaYcQG.json",
+  "values": {
+    "/system/description": "<p>Un poing assisté est un gantelet ou un brassard d’avantbras renforcé doté d’un vérin pneumatique puissant par-dessus les jointures des doigts. Conçu pour être utilisé lors des chantiers de démolition, il a aussi été employé par l’armée pour percer des brèches dans des fortifications et abattre des barricades ennemies… et des ennemis. Un poing assisté peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "aIMdoy67zhbaYcQG",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Poing assisté"
+  }
+}

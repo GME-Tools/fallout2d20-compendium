@@ -1,0 +1,11 @@
+{
+  "_key": "!items!OIVq6l91X8x6r6zi",
+  "_file": "maula_la_vierge_guerriere_de_mars__OIVq6l91X8x6r6zi.json",
+  "values": {
+    "/name": "Maula : la Vierge guerrière de Mars",
+    "/system/description": "<p>Quand vous portez une attaque avec une arme de corps à corps à Deux mains, vous gagnez l’effet de dégâts Perforant 1, ou +1 à un effet Perforant existant.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

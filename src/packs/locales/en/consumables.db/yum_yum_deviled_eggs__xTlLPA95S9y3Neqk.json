@@ -1,0 +1,12 @@
+{
+  "_key": "!items!xTlLPA95S9y3Neqk",
+  "_file": "yum_yum_deviled_eggs__xTlLPA95S9y3Neqk.json",
+  "values": {
+    "/name": "Yum-Yum Deviled Eggs",
+    "/system/description": "<p><span class=\"fontstyle0\">Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

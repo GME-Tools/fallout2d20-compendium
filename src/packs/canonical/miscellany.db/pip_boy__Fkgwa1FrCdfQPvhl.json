@@ -1,0 +1,30 @@
+{
+  "_id": "Fkgwa1FrCdfQPvhl",
+  "_key": "!items!Fkgwa1FrCdfQPvhl",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Pip-Boy.webp",
+  "name": "Pip-Boy",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 0,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

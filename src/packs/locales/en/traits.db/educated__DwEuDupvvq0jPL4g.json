@@ -1,0 +1,11 @@
+{
+  "_key": "!items!DwEuDupvvq0jPL4g",
+  "_file": "educated__DwEuDupvvq0jPL4g.json",
+  "values": {
+    "/name": "Educated",
+    "/system/description": "<p>You have one additional tag skill.</p>\n<p>When you fail a skill test using a skill other than a tag skill, the GM gains 1 AP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

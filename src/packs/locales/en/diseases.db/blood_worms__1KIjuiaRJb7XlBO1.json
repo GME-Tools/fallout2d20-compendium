@@ -1,0 +1,11 @@
+{
+  "_key": "!items!1KIjuiaRJb7XlBO1",
+  "_file": "blood_worms__1KIjuiaRJb7XlBO1.json",
+  "values": {
+    "/name": "Blood Worms",
+    "/system/description": "<p>Attacks against you inflict +2CD damage</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

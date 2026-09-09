@@ -1,0 +1,13 @@
+{
+  "_key": "!items!ECuihimhpmedOziD",
+  "_file": "gamma_gun__ECuihimhpmedOziD.json",
+  "values": {
+    "/system/ammo": "Gamma Round",
+    "/system/description": "<p>A crude-looking weapon, the gamma gun emits directed blasts of high-intensity ionizing radiation which can be devastating to any creature not immune nor massively resistant to radiation, while leaving other targets largely unharmed.</p>\n<p>A gamma gun can accept one each of the following mods, which are unique to the gamma gun and installed with the Science skill:</p>\n<ul>\n<li><strong>Dish:&nbsp;</strong>Deep Dish</li>\n<li><strong>Muzzle:&nbsp;</strong>Electric Signal Carrier Antennaem Signal Repeater</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 3,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Gamma Gun"
+  }
+}

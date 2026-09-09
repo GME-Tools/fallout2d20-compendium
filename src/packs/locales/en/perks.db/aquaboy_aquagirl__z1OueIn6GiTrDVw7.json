@@ -1,0 +1,11 @@
+{
+  "_key": "!items!z1OueIn6GiTrDVw7",
+  "_file": "aquaboy_aquagirl__z1OueIn6GiTrDVw7.json",
+  "values": {
+    "/name": "Aquaboy / Aquagirl",
+    "/system/description": "<p>Water is your ally. At rank 1, you no longer take radiation damage from swimming in irradiated water, and you can hold your breath for twice as long as normal.</p>\n<p>At rank 2, enemies add +2 to the difficulty to tests to detect you while you are submerged underwater. Each time you take this perk, the level requirement increases by 3.</p>\n<p><strong>Requirements</strong>: END 5, Level 1+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

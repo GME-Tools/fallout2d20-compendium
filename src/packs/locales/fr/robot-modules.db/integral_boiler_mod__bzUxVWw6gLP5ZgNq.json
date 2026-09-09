@@ -1,0 +1,17 @@
+{
+  "_key": "!items!bzUxVWw6gLP5ZgNq",
+  "_file": "module_de_chaudiere_integree__bzUxVWw6gLP5ZgNq.json",
+  "values": {
+    "/name": "Module de chaudière intégrée",
+    "/system/description": "<p>Équipement standard du modèle domestique Mister Handy, cette chaudière interne servait à préparer thé et café ainsi qu’à fournir de l’eau chaude pour la cuisine et le ménage. Après la Guerre, les unités encore fonctionnelles sont recherchées : faire bouillir l’eau permet de la purifier. Un mécanisme autonettoyant évite sa contamination entre deux usages, mais demande un certain temps.</p>",
+    "/system/effect": "<p>Une fois par scène hors combat, transformez 2 unités d’eau sale en 1 unité d’eau purifiée en dix minutes.</p>",
+    "/system/weight": -5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "bzUxVWw6gLP5ZgNq",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

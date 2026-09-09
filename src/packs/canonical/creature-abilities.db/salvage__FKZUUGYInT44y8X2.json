@@ -1,0 +1,37 @@
+{
+  "type": "miscellany",
+  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/salvage.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.5jwQMeycCKWDROpB"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "importedFromLegacy": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-04.png, cell 2; generated 2026-09-07"
+      }
+    }
+  },
+  "_id": "FKZUUGYInT44y8X2",
+  "system": {
+    "description": "",
+    "favorite": false,
+    "weight": 0,
+    "cost": "0",
+    "quantity": 1,
+    "rarity": 0,
+    "stashed": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!FKZUUGYInT44y8X2"
+}

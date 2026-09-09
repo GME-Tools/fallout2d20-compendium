@@ -1,0 +1,16 @@
+{
+  "_key": "!items!0pTA0wlRQUQ2oAHk",
+  "_file": "encercle_par_les_morts__0pTA0wlRQUQ2oAHk.json",
+  "values": {
+    "/name": "Encerclé par les morts !",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +1 DC sur vos attaques quand vous dépensez un ou plusieurs tirs de munitions pour obtenir des dégâts bonus.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.pk42jPbAVMosmA0k]{Encerclé par les morts !}</p></section>",
+    "/system/effect": "<p>Vous gagnez +1 DC sur vos attaques quand vous dépensez un ou plusieurs tirs de munitions pour obtenir des dégâts bonus.</p>",
+    "/system/publication": "Histoires à dormir debout",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "0pTA0wlRQUQ2oAHk",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

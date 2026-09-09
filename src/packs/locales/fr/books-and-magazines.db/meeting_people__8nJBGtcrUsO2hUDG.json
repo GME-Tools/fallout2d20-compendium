@@ -1,0 +1,16 @@
+{
+  "_key": "!items!8nJBGtcrUsO2hUDG",
+  "_file": "faire_des_rencontres__8nJBGtcrUsO2hUDG.json",
+  "values": {
+    "/name": "Faire des rencontres",
+    "/system/description": "<p>Un manuel de base sur les interactions sociales, pour ceux qui manquent d’aisance avec les autres.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez les ignorer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.tKQ4oQiQxWoM10p6]{Faire des rencontres}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez les ignorer.</p>",
+    "/system/publication": "Faire des rencontres",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8nJBGtcrUsO2hUDG",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

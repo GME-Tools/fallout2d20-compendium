@@ -1,0 +1,15 @@
+{
+  "_key": "!items!299nvpoTfu1mwKTX",
+  "_file": "cartouche_5_mm__299nvpoTfu1mwKTX.json",
+  "values": {
+    "/name": "Cartouche 5 mm",
+    "/system/description": "<p>Des cartouches de fusil de petit calibre, normalement utilisées par les militaires dans les miniguns. Les réserves de ces cartouches sont rares, mais une cache contient généralement une grande quantité de cartouches. Le problème est que les armes qui s’en servent consomment des munitions à un rythme prodigieusement élevé et une boîte pleine de cartouches 5 mm ne dure souvent pas longtemps.</p>",
+    "/system/weight": 0.004,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "299nvpoTfu1mwKTX",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

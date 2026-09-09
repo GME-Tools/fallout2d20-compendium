@@ -1,0 +1,14 @@
+{
+  "_key": "!items!GiPKNxmrkWA2k76W",
+  "_file": "expert_en_robotique__GiPKNxmrkWA2k76W.json",
+  "values": {
+    "/name": "Expert en robotique",
+    "/system/description": "<p>Rangs : 3 Prérequis : INT 8, niveau 2+ Au rang 1, vous pouvez modifier l’armure des robots, leurs armes montées et leurs modules avec des mods de rang 1. Au rang 2, vous débloquez l’accès aux mods de rang 2 et vous réduisez de 1 la difficulté de tous vos tests de réparation de robots. Au rang 3, vous débloquez l’accès aux mods de rang 3 et vous pouvez reprogrammer les robots pour qu’ils remplissent une tout autre fonction ou altérer leur comportement, si le MJ vous y autorise. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "GiPKNxmrkWA2k76W",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!d80SO0kdSMw8IESo",
+  "_file": "radcerf__d80SO0kdSMw8IESo.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un radcerf mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 2 DC portions de viande de radcerf ; un Effet fournit aussi 1 peau de radcerf.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "d80SO0kdSMw8IESo",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Mammifère Mutant, Créature Normale",
+    "/system/biography": "<p>Ces créatures sont les descendants mutants du cerf commun. Bien que leur anatomie ait peu changé (leur corps restant celui d’un cerf doté de bois), ils ont subi la même mutation que les brahmines et ont donc deux têtes. L’œil intérieur de chaque tête est aveugle, ce qui oblige un radcerf à s’orienter avec ses deux têtes, même si, comme chez les brahmines, chacune d’entre elles peut bouger indépendamment de l’autre. Les radcerfs ont subi une autre mutation étrange et bien visible: deux pattes supplémentaires, non développées, pendent de leur buste. Bien qu’ils puissent les plier s’ils ont besoin de se mettre à l’aise, par exemple lorsqu’ils se couchent, elles sont la plupart du temps inutiles. Le pelage des radcerfs, quoique existant, est souvent miteux par endroit en raison des radiations. Chez les radcerfs enragés, il tombe en général par plaques. Ces créatures voyagent en troupeau et sont la plupart du temps dociles si l’on ne les menace pas.</p>",
+    "/name": "Radcerf"
+  }
+}

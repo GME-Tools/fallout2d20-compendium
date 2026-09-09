@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ugnoJLCjVbVsAqOj",
+  "_file": "pistolero__ugnoJLCjVbVsAqOj.json",
+  "values": {
+    "/name": "Pistolero",
+    "/system/description": "<p>Rangs : 2 Prérequis : AGI 7, niveau 2+ Lorsque vous effectuez une attaque avec une arme à distance à une main dotée d’une cadence de tir inférieure ou égale à 2, ajoutez +1 @fos[DC] aux dégâts de l’arme par rang dans cette aptitude. De plus, vous pouvez relancer le dé de localisation des dégâts. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ugnoJLCjVbVsAqOj",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

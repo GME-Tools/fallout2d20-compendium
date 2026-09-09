@@ -1,0 +1,11 @@
+{
+  "_key": "!items!xfBuEJQHYAmds5XG",
+  "_file": "j_ai_epouse_un_robot__xfBuEJQHYAmds5XG.json",
+  "values": {
+    "/name": "J’ai épousé un robot",
+    "/system/description": "<p>Vous gagnez +2 à toutes les résistances aux dégâts contre les Robots pendant une scène.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

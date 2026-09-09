@@ -1,0 +1,14 @@
+{
+  "_key": "!items!zlPvWlAVWezHiFXX",
+  "_file": "physicien_nucleaire__zlPvWlAVWezHiFXX.json",
+  "values": {
+    "/name": "Physicien nucléaire",
+    "/system/description": "<p>Rangs : 1 Prérequis : INT 9 Chaque fois que vous utilisez une arme qui inflige des dégâts de radiation ou est dotée de l’effet de dégâts Radioactif, chaque Effet que vous obtenez inflige 1 point de dégâts de radiation supplémentaire. De plus, les réacteurs à fusion que vous utilisez disposent de 3 charges supplémentaires.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zlPvWlAVWezHiFXX",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "MW9UpIocnupsmcFt",
+  "_key": "!items!MW9UpIocnupsmcFt",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Calmex.webp",
+  "name": "Calmex",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 100,
+    "duration": "lasting",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Calmex.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-calmex",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
+      }
+    }
+  },
+  "$folder": "chems"
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!xTNbBLx2nxvf1mIE",
+  "_file": "can_do__xTNbBLx2nxvf1mIE.json",
+  "values": {
+    "/name": "Can Do!",
+    "/system/description": "<p>When you are scavenging a location that contains food, you gain 1 additional random food item, without spending AP.</p>\n<p><strong>Requirements</strong>: LCK 5</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

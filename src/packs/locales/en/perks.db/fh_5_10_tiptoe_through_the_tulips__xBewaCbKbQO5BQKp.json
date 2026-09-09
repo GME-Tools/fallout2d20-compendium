@@ -1,0 +1,9 @@
+{
+  "_key": "!items!xBewaCbKbQO5BQKp",
+  "_file": "fh_5_10_tiptoe_through_the_tulips__xBewaCbKbQO5BQKp.json",
+  "values": {
+    "/name": "FH 5-10 Tiptoe Through the Tulips",
+    "/system/description": "<p>When you spend a Luck point to re-roll a d20 on an AGI test, instead count that die as if it had rolled a 1</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

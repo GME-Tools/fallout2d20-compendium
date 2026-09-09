@@ -1,0 +1,14 @@
+{
+  "_key": "!items!GYX8KWLwfQqmwghq",
+  "_file": "jet__GYX8KWLwfQqmwghq.json",
+  "values": {
+    "/system/description": "<p>La difficulté de tous vos tests d’AGI augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Jet (Jet ou Jet Fuel ; l’Ultra Jet possède une dépendance différente).</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "GYX8KWLwfQqmwghq",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

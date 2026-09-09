@@ -1,0 +1,16 @@
+{
+  "_key": "!items!s3RYAqoL6U3CVVeb",
+  "_file": "lance_missiles__s3RYAqoL6U3CVVeb.json",
+  "values": {
+    "/system/description": "<p>Munitions: missiles Le lance-missiles modulaire est une arme à missiles sophistiquée hautement adaptable et polyvalente ajoutée à l’arsenal américain. Il est plus petit et plus maniable que l’ancien modèle. Il est composé d’un tube de lancement en deux parties, d’un mécanisme de tir, d’un support de montage, d’un viseur prévu pour les champs de bataille et d’un support pour un système de guidage.</p>",
+    "/system/weight": 10.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "s3RYAqoL6U3CVVeb",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Lance-missiles"
+  }
+}

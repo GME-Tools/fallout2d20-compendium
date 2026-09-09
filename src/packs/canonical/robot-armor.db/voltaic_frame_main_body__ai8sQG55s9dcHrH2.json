@@ -1,0 +1,64 @@
+{
+  "_id": "ai8sQG55s9dcHrH2",
+  "_key": "!items!ai8sQG55s9dcHrH2",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Main Body.webp",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "cost": 40,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": true
+    },
+    "perks": "Armorer 2",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Voltaic Frame (Main Body)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 4,
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 5,
+          "uncommon": 4,
+          "rare": 0
+        }
+      }
+    }
+  },
+  "$folder": "voltaic"
+}

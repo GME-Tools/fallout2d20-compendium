@@ -1,0 +1,9 @@
+{
+  "_key": "!items!iQofqWEFwGokog1G",
+  "_file": "street_guns_of_detroit__iQofqWEFwGokog1G.json",
+  "values": {
+    "/name": "Street Guns of Detroit",
+    "/system/description": "<p>Gain an extra 2 AP after one successful attack. This AP must be spent immediately: it cannot be saved</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

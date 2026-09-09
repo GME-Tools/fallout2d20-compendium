@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Xrh0LthwODfn0McZ",
+  "_file": "better_criticals__Xrh0LthwODfn0McZ.json",
+  "values": {
+    "/name": "Better Criticals",
+    "/system/description": "<p>When you inflict one or more points of damage to an enemy, you may spend 1 Luck Point to automatically inflict a critical hit, causing an injury.</p>\n<p><strong>Requirements</strong>: LCK 9</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

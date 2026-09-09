@@ -1,0 +1,16 @@
+{
+  "_key": "!items!qJ0xswPVJhHeBwLT",
+  "_file": "les_lasers_et_la_chasse_carnager_c_est_ok__qJ0xswPVJhHeBwLT.json",
+  "values": {
+    "/name": "Les lasers et la chasse : carnager c’est OK",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque avec une arme laser gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.nRkIZJRQqkTsqQV7]{Les lasers et la chasse : carnager c’est OK}</p></section>",
+    "/system/effect": "<p>Une attaque avec une arme laser gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "qJ0xswPVJhHeBwLT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

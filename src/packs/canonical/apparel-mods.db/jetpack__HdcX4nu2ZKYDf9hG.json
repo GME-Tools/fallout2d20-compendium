@@ -1,0 +1,66 @@
+{
+  "_id": "HdcX4nu2ZKYDf9hG",
+  "_key": "!items!HdcX4nu2ZKYDf9hG",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
+  "name": "Jetpack",
+  "system": {
+    "apparelType": "powerArmor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 500,
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "Torso",
+    "modType": "system",
+    "perks": "Armorer 4, Science! 4",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 0,
+      "physical": 0,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": ""
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 220,
+        "station": "power-armor",
+        "group": "systems",
+        "complexity": 7,
+        "perks": [
+          null,
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 8,
+          "uncommon": 6,
+          "rare": 4
+        }
+      }
+    }
+  },
+  "$folder": "power-systems"
+}

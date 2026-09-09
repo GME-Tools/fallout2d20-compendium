@@ -1,0 +1,31 @@
+{
+  "_key": "!items!v55iaviJCqWOVY2Q",
+  "_file": "armure_lourde_de_cuir_plastron__v55iaviJCqWOVY2Q.json",
+  "values": {
+    "/name": "Armure lourde de cuir Plastron",
+    "/system/description": "<p>Fabriquées en peau animale tannée et traitée, ces pièces de cuir durci protègent modestement des impacts et tirs tout en isolant de la chaleur et des autres énergies dangereuses. Chaque pièce accepte deux mods : un Matériau et une Amélioration. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Tous les mods de Matériau s’installent avec Réparation. Matériaux : Cuir bouilli, Cuir ceinturé, Cuir traité, Cuir ombré, Cuir clouté.</p>",
+    "/system/mods/4PtjwYY1RpNnvExC/system/weight": 2,
+    "/system/mods/5sQU0kdQbhyacSdu/system/weight": 1,
+    "/system/mods/67Crgv7xKULJ0j9J/system/weight": 1,
+    "/system/mods/6Auqz8lwvuB7UFdy/system/weight": -1,
+    "/system/mods/8F9G1Cg2OmluAbG1/system/weight": 1,
+    "/system/mods/Au7oeIQaSymmXqnP/system/weight": 1,
+    "/system/mods/BEH1dYkTDpTKwNHX/system/weight": 1,
+    "/system/mods/IbLyK0Sjkfks5BL3/system/weight": 1,
+    "/system/mods/QXgVEVm7Ttp4UFpS/system/weight": 1,
+    "/system/mods/SZGWmJhEwwoXU1PR/system/weight": 2,
+    "/system/mods/XYvAnkqTE6TUIvzs/system/weight": 2,
+    "/system/mods/e7ySHkXMm9o7Aovi/system/weight": 2,
+    "/system/mods/q48esitA3U4tmuXT/system/weight": 2,
+    "/system/mods/yWvt9clbKolwdbm1/system/weight": -3,
+    "/system/mods/yYvoh87QTiCX6J8Q/system/weight": 2,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "v55iaviJCqWOVY2Q",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

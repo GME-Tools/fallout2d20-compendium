@@ -1,0 +1,16 @@
+{
+  "_key": "!items!05H6aksyvOateBtf",
+  "_file": "qu_est_ce_que_le_plasma_d_abord__05H6aksyvOateBtf.json",
+  "values": {
+    "/name": "Qu’est-ce que le Plasma, d’abord ?",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les armes plasma.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.MsNkQ2J8T75NE3uJ]{Qu’est-ce que le Plasma, d’abord ?}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les armes plasma.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "05H6aksyvOateBtf",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

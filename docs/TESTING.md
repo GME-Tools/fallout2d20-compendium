@@ -16,6 +16,8 @@ packs and the ZIP. Outputs are `packs-v14/` and `dist/`; neither is source.
 
 Useful focused commands:
 
+- `npm run source:materialize`: rebuild disposable readable EN/FR JSON views
+  from the canonical documents and language overlays.
 - `npm run validate`: schemas, identities, links, provenance and diagnostics.
 - `npm test`: regression suite without rebuilding.
 - `npm run audit`: untranslated text and extraction bleed.
@@ -43,9 +45,11 @@ At minimum:
 5. Check UUID links, embedded Items, sheets and table draws.
 6. Record genuine editorial ambiguity in `docs/EDITORIAL-DECISIONS.md`.
 
-For compilation without replacing installed packs:
+For compilation without replacing installed packs (materialize sources first
+when invoking the compiler directly):
 
 ```sh
+npm run source:materialize
 node scripts/build-packs.mjs --output /tmp/fallout2d20-packs
 ```
 

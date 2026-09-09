@@ -1,0 +1,11 @@
+{
+  "_key": "!items!scI8HRzH0QjDb1bh",
+  "_file": "le_chirurgien_du_massachusetts__scI8HRzH0QjDb1bh.json",
+  "values": {
+    "/name": "Le chirurgien du Massachusetts",
+    "/system/description": "<p>Une seule fois, quand vous prodiguez des soins à un autre personnage et assistez son test d’END + Survie pour guérir des blessures, considérez que votre dé d’assistance a obtenu 1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

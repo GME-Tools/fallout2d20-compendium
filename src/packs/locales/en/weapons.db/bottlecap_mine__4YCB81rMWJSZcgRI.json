@@ -1,0 +1,16 @@
+{
+  "_key": "!items!4YCB81rMWJSZcgRI",
+  "_file": "bottlecap_mine__4YCB81rMWJSZcgRI.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">The Bottlecap mine is crudely put together, yet a formidable explosive. Bottlecap mines are constructed from a simple container such as a lunchbox, filled with bottle caps and a crude explosive mixture, and </span><span class=\"fontstyle0\">fitted with a sensor and a detonator. The explosive force hurls the caps over a wide area at such speed that they are essentially shrapnel.</span></p>\n<p><span class=\"fontstyle2\"><strong>Special:</strong>&nbsp;</span><span class=\"fontstyle0\">when constructing a Bottlecap mine, you may add extra bottlecaps; every 10 caps added increases the damage by +1 @fos[DC]</span><span class=\"fontstyle0\">. When the mine detonates, roll the damage rating a second time: the total rolled is the number of intact caps found in the zone where the mine detonated.</span></p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosives}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Demolition Expert}</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×4</li><li>Uncommon Materials ×1</li></ul></section>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Demolition Expert",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Common Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosives",
+    "/name": "Bottlecap Mine"
+  }
+}

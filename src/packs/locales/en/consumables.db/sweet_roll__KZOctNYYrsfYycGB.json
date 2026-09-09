@@ -1,0 +1,12 @@
+{
+  "_key": "!items!KZOctNYYrsfYycGB",
+  "_file": "sweet_roll__KZOctNYYrsfYycGB.json",
+  "values": {
+    "/name": "Sweet Roll",
+    "/system/description": "<p><span class=\"fontstyle0\">A small, sweetened pastry or baked confection normally made as a treat for children or people who need a bit of cheering up.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

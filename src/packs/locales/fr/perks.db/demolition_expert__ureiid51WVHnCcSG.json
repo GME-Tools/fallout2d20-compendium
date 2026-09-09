@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ureiid51WVHnCcSG",
+  "_file": "expert_en_demolition__ureiid51WVHnCcSG.json",
+  "values": {
+    "/name": "Expert en démolition",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 6, CHA 6 Lorsque vous effectuez une attaque à l’aide d’une arme dotée de la qualité Zone d’impact, l’attaque obtient l’effet de dégâts Brutal. De plus, vous débloquez les recettes d’explosifs qui nécessitent de posséder cette aptitude.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ureiid51WVHnCcSG",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_key": "!items!ue9pFVAT1prcq70t",
+  "_file": "mentats_raisin__ue9pFVAT1prcq70t.json",
+  "values": {
+    "/name": "Mentats raisin",
+    "/system/description": "<p>Des Mentats modifiés pour réduire l’anxiété sociale, accroître l’assurance et faciliter la lecture du langage corporel.</p><p><strong>Dépendance au Mentats :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de CHA lorsque vous n’êtes sous l’effet d’aucune variété de Mentats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.483yLfgB6kJ0lWvD]{Hubélie} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.hc8DSkMGN2GxugAF]{Mentats} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.u9KyfdRIzyQhCjnn]{Whisky} ×1</li></ul></section>",
+    "/system/effect": "<p>Réduisez de 2 la difficulté des tests de CHA (minimum 0) et relancez 1d20 lors des tests de Troc.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ue9pFVAT1prcq70t",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Hubélie",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Whisky"
+  }
+}

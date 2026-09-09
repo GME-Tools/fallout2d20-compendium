@@ -1,0 +1,14 @@
+{
+  "_key": "!items!JHMLajHU7sioJT9v",
+  "_file": "sens_affutes__JHMLajHU7sioJT9v.json",
+  "values": {
+    "/name": "Sens affûtés",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 7 Lorsque vous entreprenez l’action mineure Viser contre une cible située à portée courte ou inférieure, vous remarquez ses faiblesses et votre attaque est plus efficace. La prochaine attaque que vous exécutez contre cette cible obtient l’effet de dégâts Perforant 1. Si elle bénéficie déjà de cet effet, la valeur de ce dernier augmente de 1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "JHMLajHU7sioJT9v",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

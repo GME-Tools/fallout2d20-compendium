@@ -1,0 +1,11 @@
+{
+  "_key": "!items!YeQmWe6K2QMAEaep",
+  "_file": "lasers_mortels__YeQmWe6K2QMAEaep.json",
+  "values": {
+    "/name": "Lasers mortels !",
+    "/system/description": "<p>Vous gagnez +1 DC sur vos attaques avec des armes à énergie.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

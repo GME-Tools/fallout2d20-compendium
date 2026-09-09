@@ -1,0 +1,11 @@
+{
+  "_key": "!items!oRB1ZIvzhsUMElSc",
+  "_file": "viser_et_tirer_comme_a_l_armee__oRB1ZIvzhsUMElSc.json",
+  "values": {
+    "/name": "Viser et tirer, comme à l’armée",
+    "/system/description": "<p>Une attaque avec visée effectuée avec une arme dépourvue de la qualité Précis inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

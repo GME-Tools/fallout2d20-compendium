@@ -1,0 +1,30 @@
+{
+  "_key": "!items!JoAG6npPBsUrc4ox",
+  "_file": "armure_lourde_de_combat_plastron__JoAG6npPBsUrc4ox.json",
+  "values": {
+    "/name": "Armure lourde de combat Plastron",
+    "/system/description": "<p>Conçues avant la Guerre pour les soldats américains, ces pièces protègent des attaques physiques comme énergétiques sans être encombrantes. La Confrérie de l’Acier les emploie lorsque l’armure assistée est indisponible ou inadaptée. Chaque pièce sauf le casque accepte deux mods : un Matériau et une Amélioration ; le casque accepte seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Tous les mods de Matériau s’installent avec Réparation. Matériaux : Renforcé, Ombré, Fibre de verre, Polymère.</p>",
+    "/system/mods/4PtjwYY1RpNnvExC/system/weight": 2,
+    "/system/mods/5sQU0kdQbhyacSdu/system/weight": 1,
+    "/system/mods/6Auqz8lwvuB7UFdy/system/weight": -1,
+    "/system/mods/8F9G1Cg2OmluAbG1/system/weight": 1,
+    "/system/mods/LAb83LVky6vSxUuH/system/weight": 2,
+    "/system/mods/QXgVEVm7Ttp4UFpS/system/weight": 1,
+    "/system/mods/SZGWmJhEwwoXU1PR/system/weight": 2,
+    "/system/mods/WCywfTr7TSWsWCPm/system/weight": 1,
+    "/system/mods/XYvAnkqTE6TUIvzs/system/weight": 2,
+    "/system/mods/b3YiI203jynIQG7V/system/weight": 1,
+    "/system/mods/e7ySHkXMm9o7Aovi/system/weight": 2,
+    "/system/mods/i5ocwMr1TQ96nsi7/system/weight": 1,
+    "/system/mods/q48esitA3U4tmuXT/system/weight": 2,
+    "/system/mods/yWvt9clbKolwdbm1/system/weight": -3,
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "JoAG6npPBsUrc4ox",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

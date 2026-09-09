@@ -1,0 +1,15 @@
+{
+  "_key": "!items!mHatIy0FNJtYZxtU",
+  "_file": "calibre_50__mHatIy0FNJtYZxtU.json",
+  "values": {
+    "/name": "Calibre .50",
+    "/system/description": "<p>De grosses cartouches très destructrices utilisées uniquement dans les fusils les plus puissants. Elles servaient normalement pour les mitrailleuses lourdes et les fusils antimatériel avant la Guerre, donc elles ont tendance à être rares, sauf si une base militaire se trouve à proximité. Un tir de calibre .50 réduit tout ce qu’il touche en charpie, mais chaque tir doit être exploité au maximum.</p>",
+    "/system/weight": 0.0375,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mHatIy0FNJtYZxtU",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

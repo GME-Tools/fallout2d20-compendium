@@ -1,0 +1,15 @@
+{
+  "_key": "!items!fuCYfiQzOvr4WtJI",
+  "_file": "cartouche_308__fuCYfiQzOvr4WtJI.json",
+  "values": {
+    "/name": "Cartouche .308",
+    "/system/description": "<p>Une cartouche de balles de fusil à fort impact, normalement utilisée dans les fusils de chasse et dans certains fusils à verrou de fortune. Elles sont suffisamment répandues dans les Terres désolées pour qu’une arme utilisant des cartouches .308 ait peu de chances de tomber à court de munitions très souvent.</p>",
+    "/system/weight": 0.0205,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fuCYfiQzOvr4WtJI",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

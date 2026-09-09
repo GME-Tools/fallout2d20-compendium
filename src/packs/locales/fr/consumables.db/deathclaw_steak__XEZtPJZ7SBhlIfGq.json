@@ -1,0 +1,19 @@
+{
+  "_key": "!items!XEZtPJZ7SBhlIfGq",
+  "_file": "steak_d_ecorcheur__XEZtPJZ7SBhlIfGq.json",
+  "values": {
+    "/name": "Steak d’écorcheur",
+    "/system/description": "<p>Une tranche de viande d’écorcheur cuite, assez nourrissante pour constituer l’unique repas de la journée et qui procure temporairement force et vigueur.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.mGyKuUfzHD8BwTMp]{Viande d’écorcheur} ×1</li></ul></section>",
+    "/system/effect": "<p>Relancez 1d20 lors de tous les tests de FOR jusqu’à la fin de la scène suivante.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "XEZtPJZ7SBhlIfGq",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Viande d’écorcheur"
+  }
+}

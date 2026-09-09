@@ -1,0 +1,16 @@
+{
+  "_key": "!items!1yXCbQZHNLtwuPcT",
+  "_file": "stealth_boy__1yXCbQZHNLtwuPcT.json",
+  "values": {
+    "/system/description": "<p>Le Stealth Boy 3001 est un appareil compact d’avant-guerre générant un champ de réfraction modulé qui transmet la lumière d’un côté à l’autre, produisant un camouflage actif presque parfait : transparence déformée en mouvement, quasi-invisibilité à l’arrêt. Rétroconçu à partir d’armures furtives chinoises capturées, il n’a jamais été perfectionné et épuise sa batterie en environ 30 secondes. Une utilisation prolongée peut causer des altérations neurologiques permanentes, délires paranoïaques et hallucinations. <strong>Utilisation :</strong> activez-le par l’action mineure Interagir. Il fonctionne pendant trois tours complets — le tour actuel et les deux suivants — puis devient du bric-à-brac. Vous et votre équipement devenez presque invisibles : les ennemis ajoutent +2 à la difficulté des tests pour vous repérer, bien qu’ils puissent vous entendre ou détecter autrement. Même repéré, vous gagnez +2 en Défense.</p>",
+    "/system/effect": "<p>Invisibilité (voir description).</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1yXCbQZHNLtwuPcT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

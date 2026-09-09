@@ -1,0 +1,13 @@
+{
+  "_key": "!items!H6W082nVJtDeSthQ",
+  "_file": "commando__H6W082nVJtDeSthQ.json",
+  "values": {
+    "/system/description": "<p>Rangs : 2 Prérequis : AGI 8, niveau 2+ Lorsque vous effectuez une attaque à distance avec une arme dotée d’une cadence de tir supérieure ou égale à 3 (à l’exception des armes lourdes), ajoutez +1 aux dégâts de l’arme par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 3.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "H6W082nVJtDeSthQ",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

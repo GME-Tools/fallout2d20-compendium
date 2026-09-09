@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ycaluMjkY5xApFFl",
+  "_file": "marchand_de_sable__ycaluMjkY5xApFFl.json",
+  "values": {
+    "/name": "Marchand de sable",
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 9 Lorsque vous effectuez une attaque furtive avec une arme équipée d’un silencieux, ajoutez +2 @fos[DC] aux dégâts de l’arme. Vous ne tirez aucun bénéfice de cette aptitude si vous portez une armure assistée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ycaluMjkY5xApFFl",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!116TjNgfBwkNOSF6",
+  "_file": "guide_de_la_chasse_aux_rouges__116TjNgfBwkNOSF6.json",
+  "values": {
+    "/name": "Guide de la chasse aux Rouges",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque contre un ennemi d’un niveau inférieur au vôtre inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.BoK3Po9WKYHAv4Y9]{Guide de la chasse aux Rouges}</p></section>",
+    "/system/effect": "<p>Une attaque contre un ennemi d’un niveau inférieur au vôtre inflige +2 DC de dégâts.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "116TjNgfBwkNOSF6",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

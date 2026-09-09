@@ -1,0 +1,16 @@
+{
+  "_key": "!items!3UDbwGcAdrC2eEvd",
+  "_file": "combinaison_utilitaire__3UDbwGcAdrC2eEvd.json",
+  "values": {
+    "/name": "Combinaison utilitaire",
+    "/system/description": "<p>Tenue polyvalente appréciée des mécaniciens, conçue pour le travail pénible et salissant sur des machines, avec gants épais et ceinture à outils. <strong>Spécial :</strong> elle augmente de +5 la charge maximale de son porteur.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "3UDbwGcAdrC2eEvd",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "TsWbvZ5RsybpeN2y",
+  "_key": "!items!TsWbvZ5RsybpeN2y",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr. Gutsy.webp",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "cost": 0,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": true,
+      "head": true,
+      "legL": true,
+      "legR": true,
+      "torso": true
+    },
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 2,
+      "physical": 2,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Mister Gutsy Plating"
+      }
+    }
+  },
+  "$folder": "gutsy"
+}

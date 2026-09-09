@@ -1,0 +1,11 @@
+{
+  "_key": "!items!QcZ9c7dzPNVxAzR4",
+  "_file": "small_frame__QcZ9c7dzPNVxAzR4.json",
+  "values": {
+    "/name": "Small Frame",
+    "/system/description": "<p>You may re-roll 1d20 on all AGI tests which rely on balance or contortion.</p>\n<p>Your carry weight is 150 + (5 x STR) lbs., rather than 150 + (10 x STR) lbs.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

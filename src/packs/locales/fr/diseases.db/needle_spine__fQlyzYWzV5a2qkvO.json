@@ -1,0 +1,15 @@
+{
+  "_key": "!items!fQlyzYWzV5a2qkvO",
+  "_file": "aiguillose__fQlyzYWzV5a2qkvO.json",
+  "values": {
+    "/name": "Aiguillose",
+    "/system/description": "<p>Votre charge maximale diminue de 10.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fQlyzYWzV5a2qkvO",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

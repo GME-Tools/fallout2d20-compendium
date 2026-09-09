@@ -1,0 +1,11 @@
+{
+  "_key": "!items!3gc78PRC1se8qefU",
+  "_file": "la_science_c_est_pas_sorcier__3gc78PRC1se8qefU.json",
+  "values": {
+    "/name": "La science, c’est pas sorcier !",
+    "/system/description": "<p>Une attaque avec une arme à Zone d’impact inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

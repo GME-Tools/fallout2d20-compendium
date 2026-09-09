@@ -1,0 +1,62 @@
+{
+  "_id": "hNlPV160j8Uk9qAZ",
+  "_key": "!items!hNlPV160j8Uk9qAZ",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 1.webp",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "cost": 15,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": false,
+      "head": false,
+      "legL": false,
+      "legR": false,
+      "torso": false
+    },
+    "perks": "",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 1,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Actuated Frame (Arm 1)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 2,
+        "perks": [],
+        "rarity": "common",
+        "materials": {
+          "common": 3,
+          "uncommon": 0,
+          "rare": 0
+        }
+      }
+    }
+  },
+  "$folder": "actuated"
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!1IIFdsmtblCTYk0L",
+  "_file": "jeu_de_crochets__1IIFdsmtblCTYk0L.json",
+  "values": {
+    "/name": "Jeu de crochets",
+    "/system/description": "<p>Un étui de cuir enroulé contenant divers crochets et tendeurs destinés à ouvrir les serrures mécaniques, plus élaboré que la méthode improvisée au tournevis et à l’épingle à cheveux. Plus solide que cette dernière, le jeu devient toutefois inutilisable si trop de ses outils se brisent.</p>",
+    "/system/effect": "<p>Réduit de 1 la difficulté des tests de Crochetage (minimum 0). Le jeu se brise après trois complications.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1IIFdsmtblCTYk0L",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

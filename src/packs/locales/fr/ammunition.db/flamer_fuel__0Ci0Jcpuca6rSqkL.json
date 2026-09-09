@@ -1,0 +1,15 @@
+{
+  "_key": "!items!0Ci0Jcpuca6rSqkL",
+  "_file": "carburant_de_lance_flammes__0Ci0Jcpuca6rSqkL.json",
+  "values": {
+    "/name": "Carburant de lance-flammes",
+    "/system/description": "<p>Un mélange chimique hautement inflammable conçu pour être utilisé dans un lance-flammes. La qualité du carburant de lance-flammes est variable, mais c’est généralement une substance visqueuse qui continue de brûler à température élevée ou pendant une longue durée pour donner une arme efficace. Quand un personnage trouve du carburant de lanceflammes, il se présente sous la forme d’un jerrycan qui contient assez de carburant pour le nombre de tirs générés.</p>",
+    "/system/weight": 0.0045,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "0Ci0Jcpuca6rSqkL",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

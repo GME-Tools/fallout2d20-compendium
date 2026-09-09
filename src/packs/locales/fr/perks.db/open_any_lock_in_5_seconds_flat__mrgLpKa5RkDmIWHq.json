@@ -1,0 +1,11 @@
+{
+  "_key": "!items!mrgLpKa5RkDmIWHq",
+  "_file": "ouvrez_toutes_les_serrures_en_5_secondes_chrono__mrgLpKa5RkDmIWHq.json",
+  "values": {
+    "/name": "Ouvrez toutes les serrures en 5 secondes chrono",
+    "/system/description": "<p>Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l’option de PA Réduire la durée sans dépenser de PA.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

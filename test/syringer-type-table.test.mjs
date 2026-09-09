@@ -4,7 +4,7 @@ import path from "node:path";
 import test from "node:test";
 
 const tableId="SyringeTypeTbl01",ammoIds=new Set(["SyrBerserkAmmo01","SyrBleedOutAmmo1","SyrBloatflyAmmo1","SyrEndangerolA01","SyrLockJointAm01","SyrMindCloudAm01","SyrPaxAmmo000001","SyrRadVenomAm001","SyrYellowBelly01"]);
-const docs=async(language,pack)=>Promise.all((await readdir(`src/packs/${language}/${pack}.db`)).filter(file=>file.endsWith(".json")).map(file=>readFile(path.join(`src/packs/${language}/${pack}.db`,file),"utf8").then(JSON.parse)));
+const docs=async(language,pack)=>Promise.all((await readdir(`generated/source-packs/${language}/${pack}.db`)).filter(file=>file.endsWith(".json")).map(file=>readFile(path.join(`generated/source-packs/${language}/${pack}.db`,file),"utf8").then(JSON.parse)));
 
 test("generic Syringer Ammo is replaced by a bilingual 1d9 type table",async()=>{
   for(const language of ["en","fr"]){

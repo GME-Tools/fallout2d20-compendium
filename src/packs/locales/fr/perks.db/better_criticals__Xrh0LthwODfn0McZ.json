@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Xrh0LthwODfn0McZ",
+  "_file": "coups_super_critiques__Xrh0LthwODfn0McZ.json",
+  "values": {
+    "/name": "Coups super critiques",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHA 9 Lorsque vous infligez au moins 1 point de dégâts à un ennemi, vous pouvez dépenser 1 point de chance pour lui faire subir automatiquement un coup critique et ainsi causer une blessure.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Xrh0LthwODfn0McZ",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

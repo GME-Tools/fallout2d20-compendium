@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult007",
+  "_file": "syringer_type_07__SyrTypeResult007.json",
+  "values": {
+    "/name": "Pax Syringe",
+    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrPaxAmmo000001]{Pax Syringe}"
+  }
+}

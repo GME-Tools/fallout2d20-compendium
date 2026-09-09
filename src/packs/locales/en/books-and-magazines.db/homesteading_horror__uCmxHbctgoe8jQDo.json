@@ -1,0 +1,13 @@
+{
+  "_key": "!items!uCmxHbctgoe8jQDo",
+  "_file": "homesteading_horror__uCmxHbctgoe8jQDo.json",
+  "values": {
+    "/name": "Homesteading Horror",
+    "/system/description": "<p>Thrilling, true stories for rugged men! Backwoodsman is a magazine series containing articles and stories about outdoor survival, for people who like to talk about surviving in the wild.</p>\n<ul>\n<li><strong>Perk:</strong> Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found:</li>\n</ul>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.6XStNgfUJG92au27]{Homesteading Horror}</p></section>",
+    "/system/effect": "<p>Reduce the difficulty of crafting a weapon by 1 (min. of 0)</p>",
+    "/system/publication": "Backwoodsman",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

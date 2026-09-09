@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ItAAKsRwZQEbmwIF",
+  "_file": "blindage_d_usine_optiques__ItAAKsRwZQEbmwIF.json",
+  "values": {
+    "/name": "Blindage d’usine (Optiques)",
+    "/system/description": "<p>Un ensemble standardisé de plaques de blindage fabriquées en usine et conçu pour s’adapter à n’importe quel modèle de Mister Handy.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li></ul></section>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ItAAKsRwZQEbmwIF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation"
+  }
+}

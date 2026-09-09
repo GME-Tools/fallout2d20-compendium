@@ -1,0 +1,34 @@
+{
+  "_id": "szr8VmfdWra3zwXO",
+  "_key": "!items!szr8VmfdWra3zwXO",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Dr. Brainwash and His Army of De-Capitalists!.webp",
+  "system": {
+    "cost": 100,
+    "favorite": false,
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "uuidLinksReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "$folder": "unstoppables"
+}

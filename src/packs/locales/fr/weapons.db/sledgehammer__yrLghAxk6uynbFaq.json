@@ -1,0 +1,16 @@
+{
+  "_key": "!items!yrLghAxk6uynbFaq",
+  "_file": "masse__yrLghAxk6uynbFaq.json",
+  "values": {
+    "/system/description": "<p>Les masses sont des armes primitives qui servaient d’outils avant la Grande Guerre pour excaver ou pour démolir des choses. Même si la masse n’est généralement pas considérée comme une arme puissante, quelqu’un de fort (ou un super mutant) peut la manier comme une massue pour profiter pleinement du poids de l’objet. Une masse peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 6,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yrLghAxk6uynbFaq",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Masse"
+  }
+}

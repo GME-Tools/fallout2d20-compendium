@@ -1,0 +1,12 @@
+{
+  "_key": "!items!iodz4xm3QDXNuhxf",
+  "_file": "javelin__iodz4xm3QDXNuhxf.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A short spear, not typically sturdy enough for close-in fighting, a javelin can be thrown a considerable distance.</span></p>",
+    "/system/weight": 4,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Javelin"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_key": "!items!OtzMRD3Nzku3HXTZ",
+  "_file": "night_vision__OtzMRD3Nzku3HXTZ.json",
+  "values": {
+    "/name": "Night Vision",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] can see in complete darkness. It ignores all difficulty increases caused by dim light or darkness, and they may attempt skill tests that would normally be impossible in.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>"
+  }
+}

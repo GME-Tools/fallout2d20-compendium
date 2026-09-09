@@ -1,0 +1,17 @@
+{
+  "_key": "!items!bCJRlQcht0typqhI",
+  "_file": "module_de_combustion__bCJRlQcht0typqhI.json",
+  "values": {
+    "/name": "Module de combustion",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>bigGuns - junk-jet</h4><dl><dt>Complexité</dt><dd>7</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Ba5yPRdNAvjM5StI]{Fana d’armes} 3, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×8</li><li>Matériaux peu fréquents ×6</li><li>Matériaux rares ×4</li></ul></article></section>",
+    "/system/perks": "Fana d’armes 3; Scientifique 1",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "107-110",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "bCJRlQcht0typqhI",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 3",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/1": "Scientifique 1"
+  }
+}

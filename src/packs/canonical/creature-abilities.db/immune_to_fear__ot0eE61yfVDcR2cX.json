@@ -1,0 +1,31 @@
+{
+  "type": "special_ability",
+  "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-fear.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.bXl361asqDDzZnLf"
+    },
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "importedFromLegacy": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "AI-generated for private US-202 use from artwork/sources/generated/us-202/abilities-02.png, cell 13; generated 2026-09-07"
+      }
+    }
+  },
+  "_id": "ot0eE61yfVDcR2cX",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "ownership": {
+    "default": 0,
+    "I8FU1gA0rIKN7NHn": 3
+  },
+  "_key": "!items!ot0eE61yfVDcR2cX"
+}

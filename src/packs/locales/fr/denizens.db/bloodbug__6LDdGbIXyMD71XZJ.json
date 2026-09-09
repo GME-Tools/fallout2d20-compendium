@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!6LDdGbIXyMD71XZJ",
+  "_file": "tique__6LDdGbIXyMD71XZJ.json",
+  "values": {
+    "/items/3/$overrides/~1system~1effect": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de sanguinaire et 1 poche de sang.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "6LDdGbIXyMD71XZJ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Insecte Mutant, Créature Normale",
+    "/system/biography": "<p>Les tiques sont des moustiques mutants que l’on croise dans les marais, dans les zones d’eau stagnante ou à proximité des charognes. Adultes, elles présentent un corps brun-rouge sombre et long de plus de cinquante centimètres, leur trompe acérée peut perforer certains types d’armures. En général, les tiques crachent du sang irradié pour aveugler leur proie avant de percer la victime désorientée de leur trompe pour boire son sang. Les brahmines et les autres créatures domestiques succombent souvent face à ces insectes, tout comme les voyageurs imprudents qui sous-estiment le danger que représente une nuée.</p>",
+    "/name": "Tique"
+  }
+}

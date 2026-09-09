@@ -1,0 +1,10 @@
+{
+  "_key": "!items!U8yM23ldUGYYtta1",
+  "_file": "blitz__U8yM23ldUGYYtta1.json",
+  "values": {
+    "/system/description": "<p>When you move into reach of an opponent and make a melee attack against them in one turn, you may re-roll one d20 on your attack.</p>\n<p>At rank 2, you also inflict +1CD damage with that attack. Each time you take this perk, the level requirement increases by 3.</p>\n<p><strong>Requirements</strong>: AGI 9, Level 1+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

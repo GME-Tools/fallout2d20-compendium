@@ -1,0 +1,11 @@
+{
+  "_key": "!items!LSUSRTgMyqfN1EQx",
+  "_file": "la_vengeance_du_russe_dement__LSUSRTgMyqfN1EQx.json",
+  "values": {
+    "/name": "La vengeance du Russe dément !",
+    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts de poison.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "qm4i02cwDQdD4nSD",
+  "_key": "!items!qm4i02cwDQdD4nSD",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Calmex.webp",
+  "name": "Calmex",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Calmex.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-calmex",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
+      }
+    }
+  }
+}

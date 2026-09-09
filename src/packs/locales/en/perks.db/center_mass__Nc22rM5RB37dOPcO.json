@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Nc22rM5RB37dOPcO",
+  "_file": "center_mass__Nc22rM5RB37dOPcO.json",
+  "values": {
+    "/name": "Center Mass",
+    "/system/description": "<p>When you make a ranged attack, you may choose to strike your target&rsquo;s Torso location (or equivalent, for creatures that use a different location table) without increasing the difficulty of the attack. In addition, you may re-roll 1d20 when making the test for your attack.</p>\n<p><strong>Requirements</strong>: AGI 7</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

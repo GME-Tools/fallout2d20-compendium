@@ -1,0 +1,19 @@
+{
+  "_key": "!items!vYcmjWOnJQnrv2gq",
+  "_file": "cotelettes_de_yao_guai__vYcmjWOnJQnrv2gq.json",
+  "values": {
+    "/name": "Côtelettes de yao guai",
+    "/system/description": "<p>Des côtes de yao guai, nourrissantes et propres à inspirer un sentiment d’invincibilité tout en augmentant brièvement la tolérance à la douleur.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.9vI0sFShvxahqMSW]{Viande de yao guai} ×1</li></ul></section>",
+    "/system/effect": "<p>+2 à la résistance aux dégâts physiques jusqu’à la fin de la scène suivante.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vYcmjWOnJQnrv2gq",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Viande de yao guai"
+  }
+}

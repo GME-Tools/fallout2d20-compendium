@@ -4,6 +4,35 @@ All notable changes to this private module are documented here.
 
 ## Unreleased
 
+## 1.0.3 — 2026-09-09
+
+### Added
+
+- Generated bilingual folder taxonomies for apparel, mods, publications,
+  consumables, perks, robot armor, RollTables, weapons, and denizens.
+- Canonical language-neutral references with explicit embedded overrides for
+  reusable creature abilities, equipment, and modifications.
+
+### Changed
+
+- Replace the parallel complete English and French source trees with one
+  canonical source and sparse JSON-pointer localization overlays.
+- Generate all readable localized source views during validation and build.
+- Rename source files from opaque keys to readable English slugs while
+  preserving document IDs and `_key` values.
+- Merge the former creature and NPC packs into `denizens`, labelled
+  “Denizens of the Wasteland” and “Résidents des Terres désolées”. This is an
+  intentional Actor compendium UUID break; intra-module links are migrated.
+
+### Qualification
+
+- Validate 2,760 documents and 3,570 French weight/capacity fields with no
+  errors or warnings.
+- Verify 5,816 records, including 270 folders, across 38 Foundry v14 LevelDB
+  packs and verify the generated release archive.
+- Validate module startup in a disposable world on Foundry 14.367 with Fallout
+  11.17.1.
+
 ## 1.0.2 — 2026-09-08
 
 ### Added

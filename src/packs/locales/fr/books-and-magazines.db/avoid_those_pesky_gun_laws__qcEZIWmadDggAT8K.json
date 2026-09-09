@@ -1,0 +1,16 @@
+{
+  "_key": "!items!qcEZIWmadDggAT8K",
+  "_file": "eviter_ces_satanees_lois_contre_les_armes__qcEZIWmadDggAT8K.json",
+  "values": {
+    "/name": "Éviter ces satanées lois contre les armes !",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent servir qu’à récupérer des unités de matériaux supplémentaires.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Zl8Mt7ll7IqbgFq2]{Éviter ces satanées lois contre les armes !}</p></section>",
+    "/system/effect": "<p>Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent servir qu’à récupérer des unités de matériaux supplémentaires.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "qcEZIWmadDggAT8K",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

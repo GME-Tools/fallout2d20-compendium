@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftArmorBench01",
+  "_file": "etabli_d_armures__CrftArmorBench01.json",
+  "values": {
+    "/name": "Établi d’armures",
+    "/system/description": "<p>Un établi d’armures fournit les outils nécessaires pour travailler les armures et les vêtements, mais pas les armures assistées. Son utilisation fait appel à la compétence Réparation et bénéficie de l’aptitude Armurier.</p>",
+    "/system/effect": "<p>Fournit les outils nécessaires pour travailler les armures et les vêtements, mais pas les armures assistées.</p>",
+    "/system/perks": "Armurier",
+    "/system/skills": "Réparation",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_key": "!items!2B6NdSIDwwqjTqZn",
+  "_file": "plaque_primitive_bras_3__2B6NdSIDwwqjTqZn.json",
+  "values": {
+    "/name": "Plaque primitive (Bras 3)",
+    "/system/carry": -5,
+    "/system/description": "<p>Un blindage supplémentaire de fortune fixé à la structure d’un robot afin de mieux le protéger des dangers physiques. Son encombrement et sa conception rudimentaire réduisent toutefois sa capacité de charge.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li></ul></section>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "2B6NdSIDwwqjTqZn",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation"
+  }
+}

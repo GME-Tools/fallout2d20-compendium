@@ -1,0 +1,9 @@
+{
+  "_key": "!items!zz6bRTllvwXsTigA",
+  "_file": "the_chain_that_binds__zz6bRTllvwXsTigA.json",
+  "values": {
+    "/name": "The Chain That Binds",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">As a major action, a [creature] can order a [creature] of lower level to immediately perform a major action. The [creature] assists that action with </span><strong><span class=\"fontstyle2\">CHA + Speech</span></strong><span class=\"fontstyle0\">.</span></p>"
+  }
+}

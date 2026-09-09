@@ -1,0 +1,20 @@
+{
+  "_key": "!items!eILamwepNIAhOY0J",
+  "_file": "mine_a_impulsion__eILamwepNIAhOY0J.json",
+  "values": {
+    "/system/description": "<p>Cette mine est composée d’un puissant dispositif d’IEM raccordé à un détonateur de proximité, puis mis à l’abri dans une lourde boîte métallique. Ces engins ne font pas beaucoup de mal aux cibles biologiques, mais ils infligent de très gros dégâts aux ennemis robotiques et les étourdissent ou même les mettent hors service de manière permanente. Spécial: les mines à impulsion n’infligent de dégâts qu’aux robots, aux synthés, aux armures assistées (mais non aux porteurs à l’intérieur) et aux autres cibles mécaniques ou technologiques. Tout ordinateur se trouvant dans la zone d’impact subit également des dégâts à cause de la grenade. Mais contre toute autre cible, les mines à impulsion infligent 0 dé de dégâts.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosifs}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Expert en démolition}, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×3</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "eILamwepNIAhOY0J",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en démolition",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 2",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosifs",
+    "/name": "Mine à impulsion"
+  }
+}

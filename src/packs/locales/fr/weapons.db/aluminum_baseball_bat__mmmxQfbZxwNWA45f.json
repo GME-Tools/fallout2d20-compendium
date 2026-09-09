@@ -1,0 +1,17 @@
+{
+  "_key": "!items!mmmxQfbZxwNWA45f",
+  "_file": "batte_de_baseball_en_aluminium__mmmxQfbZxwNWA45f.json",
+  "values": {
+    "/system/mods/5rADQbFyMO7zjDSi/$overrides/~1system~1weight": 0.5,
+    "/system/description": "<p>Autrefois, les battes de baseball étaient utilisées pour jouer au baseball, le sport considéré comme le loisir numéro un aux États-Unis pendant l’ère d’avant-guerre. Deux cents ans plus tard, elles ont été reconverties en armes de corps à corps rudimentaires, mais efficaces. Même si la plupart sont fabriquées dans un unique morceau de bois (généralement du frêne bien que d’autres bois durs puissent être utilisés), quelques-unes sont plutôt faites en aluminium, ce qui donne une batte plus légère et plus dure. Une batte de baseball peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation. Vous ne pouvez appliquer un mod à une batte de baseball en aluminium que si vous possédez l’aptitude Forgeron 1.</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mmmxQfbZxwNWA45f",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Batte de baseball en aluminium"
+  }
+}

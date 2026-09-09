@@ -1,0 +1,16 @@
+{
+  "_key": "!items!CYfpl0Gt0KEq1CcJ",
+  "_file": "peril_rouge_contre_ray_manta__CYfpl0Gt0KEq1CcJ.json",
+  "values": {
+    "/name": "Péril Rouge contre Ray Manta",
+    "/system/description": "<p>Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.</p><p><strong>Aptitude :</strong> Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une arme à Zone d’impact.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.qItV5QGk0sN0md6p]{Péril Rouge contre Ray Manta}</p></section>",
+    "/system/effect": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une arme à Zone d’impact.</p>",
+    "/system/publication": "Les Increvables",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CYfpl0Gt0KEq1CcJ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!mT0Wf89P2UGLZ83y",
+  "_file": "flingues_de_rue_a_detroit__mT0Wf89P2UGLZ83y.json",
+  "values": {
+    "/name": "Flingues de rue à Détroit",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.iQofqWEFwGokog1G]{Flingues de rue à Détroit}</p></section>",
+    "/system/effect": "<p>Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mT0Wf89P2UGLZ83y",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

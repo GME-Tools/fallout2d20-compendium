@@ -1,0 +1,59 @@
+{
+  "_id": "xuXzlEC3V0co3w3h",
+  "_key": "!items!xuXzlEC3V0co3w3h",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Purified Water.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "beverage",
+    "cost": 20,
+    "duration": "",
+    "effect": "",
+    "favorite": false,
+    "group": "",
+    "hp": 3,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 2
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Dirty Water",
+            "quantity": 3,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "beverages"
+}

@@ -1,0 +1,17 @@
+{
+  "_key": "!items!n6asYMleVsDYBbdC",
+  "_file": "radstag_stew__n6asYMleVsDYBbdC.json",
+  "values": {
+    "/name": "Radstag Stew",
+    "/system/description": "<p><span class=\"fontstyle0\">Strips of radstag meat, with vegetables and some alcohol, cooked to make a thick, hearty stew. Filling and satisfying, the stew also help fortify the body, making you more resistant to extreme heat for a while.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Rare</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Qe3DSub3iHONeRaO]{Gourd} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.VszpkDVgQA22ZCmx]{Radstag Meat} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.lrllDzCjzc9atRUy]{Silt Bean} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.pGaN2EDIWl3lUsrx]{Vodka} ×1</li></ul></section>",
+    "/system/effect": "<p>+3 Energy damage resistance until end of next scene</p>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Gourd",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Radstag Meat",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Silt Bean"
+  }
+}

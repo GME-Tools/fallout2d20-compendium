@@ -1,0 +1,14 @@
+{
+  "_key": "!items!wE5dyJKCl7gysWci",
+  "_file": "boyaux_plombes__wE5dyJKCl7gysWci.json",
+  "values": {
+    "/name": "Boyaux plombés",
+    "/system/description": "<p>Rangs : 2 Prérequis : END 6, niveau 1+ Au rang 1, vous pouvez relancer le @fos[DC] qui détermine si vous subissez des dégâts de radiation en consommant de la nourriture ou une boisson irradiée. Au rang 2, vous êtes immunisé aux dégâts de radiation infligés par la consommation de nourriture ou de boisson irradiée. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "wE5dyJKCl7gysWci",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

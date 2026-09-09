@@ -1,0 +1,11 @@
+{
+  "_key": "!items!siFrRn6TjSmxGKas",
+  "_file": "en_finir_avec_le_gras__siFrRn6TjSmxGKas.json",
+  "values": {
+    "/name": "En finir avec le gras !",
+    "/system/description": "<p>Vous récupérez deux fois plus de PV en mangeant des fruits ou des légumes pendant une scène.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "_id": "mmmxQfbZxwNWA45f",
+  "_key": "!items!mmmxQfbZxwNWA45f",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Weapons/Aluminum Baseball Bat.webp",
+  "system": {
+    "ammo": "",
+    "ammoPerShot": 1,
+    "attribute": "",
+    "canBeScrapped": true,
+    "condition": "",
+    "consumedOnUse": false,
+    "cost": 39,
+    "creatureAttribute": "body",
+    "creatureSkill": "melee",
+    "damage": {
+      "damageEffect": {
+        "arc": {
+          "rank": 0,
+          "value": 0
+        },
+        "breaking": {
+          "rank": 0,
+          "value": 0
+        },
+        "burst": {
+          "rank": 0,
+          "value": 0
+        },
+        "freeze": {
+          "rank": 0,
+          "value": 0
+        },
+        "persistent": {
+          "rank": 0,
+          "value": 0
+        },
+        "piercing_x": {
+          "rank": 1,
+          "value": 1
+        },
+        "radioactive": {
+          "rank": 0,
+          "value": 0
+        },
+        "spread": {
+          "rank": 0,
+          "value": 0
+        },
+        "stun": {
+          "rank": 0,
+          "value": 0
+        },
+        "tranquilize_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "vicious": {
+          "rank": 0,
+          "value": 0
+        }
+      },
+      "damageType": {
+        "energy": false,
+        "physical": true,
+        "poison": false,
+        "radiation": false
+      },
+      "originalDamageType": {
+        "energy": false,
+        "physical": false,
+        "poison": false,
+        "radiation": false
+      },
+      "originalRating": 5,
+      "rating": 6,
+      "weaponQuality": {
+        "accurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "ammo_hungry_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "aquatic": {
+          "rank": 0,
+          "value": 0
+        },
+        "blast": {
+          "rank": 0,
+          "value": 0
+        },
+        "bombard": {
+          "rank": 0,
+          "value": 0
+        },
+        "close_quarters": {
+          "rank": 0,
+          "value": 0
+        },
+        "concealed": {
+          "rank": 0,
+          "value": 0
+        },
+        "debilitating": {
+          "rank": 0,
+          "value": 0
+        },
+        "delay_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "fuel_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "gatling": {
+          "rank": 0,
+          "value": 0
+        },
+        "inaccurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "limited": {
+          "rank": 0,
+          "value": 0
+        },
+        "mine": {
+          "rank": 0,
+          "value": 0
+        },
+        "night_vision": {
+          "rank": 0,
+          "value": 0
+        },
+        "parry": {
+          "rank": 0,
+          "value": 0
+        },
+        "placed": {
+          "rank": 0,
+          "value": 0
+        },
+        "recoil_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "recon": {
+          "rank": 0,
+          "value": 0
+        },
+        "reliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "slow_load": {
+          "rank": 0,
+          "value": 0
+        },
+        "suppressed": {
+          "rank": 0,
+          "value": 0
+        },
+        "surge": {
+          "rank": 0,
+          "value": 0
+        },
+        "thrown": {
+          "rank": 0,
+          "value": 0
+        },
+        "two_handed": {
+          "rank": 0,
+          "value": 1
+        },
+        "unreliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "unstable_radiation": {
+          "rank": 0,
+          "value": 0
+        },
+        "wrangle": {
+          "rank": 0,
+          "value": 0
+        }
+      }
+    },
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "fireRate": 0,
+    "isJunk": false,
+    "melee": false,
+    "mods": {
+      "5rADQbFyMO7zjDSi": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "5rADQbFyMO7zjDSi"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/folder": "Pq7KJHHyHnmMte4R",
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/attached": true,
+          "/system/cost": 7,
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": "Compendium.fallout2d20-compendium.{language}-weapon-mods.Item.BX0Ox0ZdWJBDNsVl",
+            "coreVersion": "12.331",
+            "createdTime": 1742160872931,
+            "duplicateSource": "Item.BX0Ox0ZdWJBDNsVl",
+            "lastModifiedBy": "VPaZZj6iFrBVseNS",
+            "modifiedTime": 1742160923979,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "VPaZZj6iFrBVseNS": 3,
+            "default": 0
+          },
+          "/sort": 300000
+        }
+      },
+      "HuhiTQsXyRgw5tZS": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "HuhiTQsXyRgw5tZS"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": "Compendium.fallout2d20-compendium.{language}-weapon-mods.Item.4hbEFa5bvVFUlMBO",
+            "coreVersion": "12.331",
+            "createdTime": 1742160856454,
+            "duplicateSource": "Item.4hbEFa5bvVFUlMBO",
+            "lastModifiedBy": "VPaZZj6iFrBVseNS",
+            "modifiedTime": 1742160899227,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "VPaZZj6iFrBVseNS": 3,
+            "default": 0
+          },
+          "/sort": 200000
+        }
+      },
+      "Sem0JhmbNdppKdJW": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "Sem0JhmbNdppKdJW"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": "Compendium.fallout2d20-compendium.{language}-weapon-mods.Item.SBiPJoDN1jWmENgs",
+            "coreVersion": "12.331",
+            "createdTime": 1742160849851,
+            "duplicateSource": "Item.SBiPJoDN1jWmENgs",
+            "lastModifiedBy": "VPaZZj6iFrBVseNS",
+            "modifiedTime": 1742160888468,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "VPaZZj6iFrBVseNS": 3,
+            "default": 0
+          },
+          "/sort": 100000
+        }
+      },
+      "current": 0,
+      "dgUAFqVrT3FPOVUf": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "dgUAFqVrT3FPOVUf"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/folder": "Pq7KJHHyHnmMte4R",
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": "Compendium.fallout2d20-compendium.{language}-weapon-mods.Item.yK9zc6hPHk1IRq01",
+            "coreVersion": "12.331",
+            "createdTime": 1742160861977,
+            "duplicateSource": "Item.yK9zc6hPHk1IRq01",
+            "lastModifiedBy": "VPaZZj6iFrBVseNS",
+            "modifiedTime": 1742160906910,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "VPaZZj6iFrBVseNS": 3,
+            "default": 0
+          },
+          "/sort": 150000
+        }
+      },
+      "installedMods": "Spiked",
+      "list": "",
+      "max": 0,
+      "modded": true,
+      "uaOXQJwoub6ZmUdc": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "uaOXQJwoub6ZmUdc"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": "Compendium.fallout2d20-compendium.{language}-weapon-mods.Item.hfiueRXOH8ryrfrv",
+            "coreVersion": "12.331",
+            "createdTime": 1742160868834,
+            "duplicateSource": "Item.hfiueRXOH8ryrfrv",
+            "lastModifiedBy": "VPaZZj6iFrBVseNS",
+            "modifiedTime": 1742160914821,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "VPaZZj6iFrBVseNS": 3,
+            "default": 0
+          },
+          "/sort": 125000
+        }
+      }
+    },
+    "naturalWeapon": false,
+    "originalAmmoPerShot": 0,
+    "quantity": 1,
+    "quantityRoll": "",
+    "range": "close",
+    "rarity": 2,
+    "skill": "",
+    "source": "core_rulebook",
+    "stashed": false,
+    "tear": 0,
+    "weaponType": "meleeWeapons"
+  },
+  "type": "weapon",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "$folder": "meleeWeapons"
+}

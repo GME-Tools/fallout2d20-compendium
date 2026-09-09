@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ulsqNOiPqfLdHxmK",
+  "_file": "inventory__ulsqNOiPqfLdHxmK.json",
+  "values": {
+    "/name": "Inventaire",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ulsqNOiPqfLdHxmK",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/effect": "<p>Le corps d’une goule morte contient 2 @fos[DC] objets de bric-à-brac, récupérables normalement.</p>"
+  }
+}

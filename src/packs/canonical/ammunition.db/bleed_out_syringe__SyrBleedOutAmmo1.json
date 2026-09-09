@@ -1,0 +1,64 @@
+{
+  "_id": "SyrBleedOutAmmo1",
+  "_key": "!items!SyrBleedOutAmmo1",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/Syringer Ammo, Bleedout.webp",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 17,
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "4+2dc",
+    "rarity": 2,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": ""
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 117,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "syringerEffect": {
+        "key": "Bleed-Out"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 215,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Uncommon Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  }
+}

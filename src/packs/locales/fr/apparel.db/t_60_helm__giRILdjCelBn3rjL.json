@@ -1,0 +1,31 @@
+{
+  "_key": "!items!giRILdjCelBn3rjL",
+  "_file": "casque_d_armure_assistee_t_60__giRILdjCelBn3rjL.json",
+  "values": {
+    "/name": "Casque d’armure assistée T-60",
+    "/system/description": "<p>Conçue après la victoire d’Anchorage pour remplacer la T-51, la T-60 était en cours de distribution aux unités stationnées aux États-Unis lorsque les bombes tombèrent ; de grands stocks attendaient encore leur déploiement. La Confrérie de l’Acier s’en est emparée et en a fait un symbole. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Améliorations propres : T-60b à T-60f.</p>",
+    "/system/mods/2SqnqGHd7D3y4O5E/system/weight": 0.5,
+    "/system/mods/42Qe82QKBhubp9xU/system/weight": 0.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/En57MQ3hn0DkcHJy/system/weight": 0.5,
+    "/system/mods/EoYPJPrpfi9ZRDy5/system/weight": 1.5,
+    "/system/mods/FheuMFwO0W6c9nGf/system/weight": 1,
+    "/system/mods/GZr9XRGzDiWvXMla/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/iiIFQHQgzaPihtGA/system/weight": 1.5,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/x0fAswh4AE8aeWJW/system/weight": 1,
+    "/system/mods/zALOB7gLXndAThjj/system/weight": 0.5,
+    "/system/weight": 6,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "giRILdjCelBn3rjL",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

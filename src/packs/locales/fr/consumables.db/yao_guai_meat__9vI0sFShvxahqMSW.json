@@ -1,0 +1,17 @@
+{
+  "_key": "!items!9vI0sFShvxahqMSW",
+  "_file": "viande_de_yao_guai__9vI0sFShvxahqMSW.json",
+  "values": {
+    "/name": "Viande de yao guai",
+    "/system/description": "<p>Viande dangereuse à obtenir sur les féroces ours mutants des Terres désolées. Très recherchée et nutritive, elle reste irradiée si elle est mangée crue. Elle se cuisine en côtes ou rôti de yao guai.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9vI0sFShvxahqMSW",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

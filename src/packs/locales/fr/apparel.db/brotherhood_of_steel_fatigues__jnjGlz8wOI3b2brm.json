@@ -1,0 +1,16 @@
+{
+  "_key": "!items!jnjGlz8wOI3b2brm",
+  "_file": "treillis_de_la_confrerie_de_l_acier__jnjGlz8wOI3b2brm.json",
+  "values": {
+    "/name": "Treillis de la Confrérie de l’Acier",
+    "/system/description": "<p>Tenue robuste du personnel de la Confrérie : pull militaire, pantalon, gants, bottes et brelage portant les insignes de rang et de fonction. La couleur indique certaines spécialités : blanc pour les médecins, bleu marine pour le personnel aérien. Non conçue pour le combat, elle résiste assez pour protéger un peu des dangers.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jnjGlz8wOI3b2brm",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

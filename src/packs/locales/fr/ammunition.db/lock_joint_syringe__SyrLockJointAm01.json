@@ -1,0 +1,17 @@
+{
+  "_key": "!items!SyrLockJointAm01",
+  "_file": "seringue_bloque_articulation__SyrLockJointAm01.json",
+  "values": {
+    "/name": "Seringue bloque-articulation",
+    "/system/description": "<p>L’arme gagne l’effet de dégâts Étourdissants.</p><p><strong>Quantité trouvée:</strong> 4+2 DC</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1]{Eau sale} ×1</li><li>Matériaux peu fréquents ×2</li><li>Matériaux fréquents ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.dwRYe59wr0CAurtm]{Dard de darillon} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bvn11vBFx1OnUoJr]{Goudrelle} ×2</li></ul></section>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/syringerEffect/text": "L’arme gagne l’effet de dégâts Étourdissants.",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Eau sale",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Matériaux fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Dard de darillon",
+    "/flags/fallout2d20-compendium/recipe/materials/4/name": "Goudrelle"
+  }
+}

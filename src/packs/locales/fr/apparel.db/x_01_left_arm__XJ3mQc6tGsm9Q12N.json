@@ -1,0 +1,31 @@
+{
+  "_key": "!items!XJ3mQc6tGsm9Q12N",
+  "_file": "bras_gauche_d_armure_assistee_x_01__XJ3mQc6tGsm9Q12N.json",
+  "values": {
+    "/name": "Bras gauche d’armure assistée X-01",
+    "/system/description": "<p>Encore au stade de prototype lorsque les bombes tombèrent, la X-01 fut achevée après la Guerre par des vestiges de l’armée américaine. Supérieure aux modèles précédents mais jamais produite en masse, elle est extrêmement rare. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Elle accepte les systèmes normaux et tous les plaquages sauf le Revêtement hivernal. Améliorations propres : Mk II à Mk VI. Plaquage propre : Blindage IEM.</p>",
+    "/system/mods/143I7SjRcQBq9sht/system/weight": 0.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/K63y4mcKxr792XLB/system/weight": 0.5,
+    "/system/mods/R6Z0Qp7iPfeZr0lp/system/weight": 1,
+    "/system/mods/VWq6f7jz0J0TRGUS/system/weight": 2,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/YswtxgeapixbJdL6/system/weight": 1,
+    "/system/mods/ZsGBPsT9kf1lVrFw/system/weight": 0.5,
+    "/system/mods/ae5urfGJTUVqw7C6/system/weight": 1.5,
+    "/system/mods/cMFQXRN9ZrDIU23Y/system/weight": 0.5,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/qwU5VY4f3vsx4i6z/system/weight": 0.5,
+    "/system/mods/zX0aUfac1HnsEvZO/system/weight": 0.5,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "XJ3mQc6tGsm9Q12N",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

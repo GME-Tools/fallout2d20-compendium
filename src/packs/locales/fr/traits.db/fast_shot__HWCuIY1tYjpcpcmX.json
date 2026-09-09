@@ -1,0 +1,13 @@
+{
+  "_key": "!items!HWCuIY1tYjpcpcmX",
+  "_file": "tir_rapide__HWCuIY1tYjpcpcmX.json",
+  "values": {
+    "/name": "Tir rapide",
+    "/system/description": "<p>Si vous entreprenez une seconde action capitale au combat afin d’effectuer une attaque à distance, il ne vous en coûte que 1 PA et non 2.</p><p>Vous ne tirez aucun bénéfice de l’action mineure Viser : vous êtes trop impatient.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "HWCuIY1tYjpcpcmX",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

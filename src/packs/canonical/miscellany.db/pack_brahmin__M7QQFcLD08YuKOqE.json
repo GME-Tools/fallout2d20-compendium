@@ -1,0 +1,29 @@
+{
+  "_id": "M7QQFcLD08YuKOqE",
+  "_key": "!items!M7QQFcLD08YuKOqE",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Pack Brahmin.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 200,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

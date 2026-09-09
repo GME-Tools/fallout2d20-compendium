@@ -1,0 +1,16 @@
+{
+  "_key": "!items!NE0ZUJrG0TMiG5f9",
+  "_file": "psychobuff__NE0ZUJrG0TMiG5f9.json",
+  "values": {
+    "/system/description": "<p>Cocktail très addictif de Psycho et de stéroïdes Buffout, combinant force, endurance et agressivité extrêmes.</p><p><strong>Dépendance au Psycho :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât des attaques physiques hors des effets d’une variété de Psycho.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.o0at3QFpM8FKxvZj]{Buffout} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
+    "/system/effect": "<p>Toutes vos attaques infligent +2 @fos[DC] de dégâts, vos PV maximums augmentent de 4 et la difficulté de tous vos tests de FOR et d’END diminue de 1 (minimum 0).</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "NE0ZUJrG0TMiG5f9",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

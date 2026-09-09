@@ -1,0 +1,11 @@
+{
+  "_key": "!items!fMU0zfQYyhkwZ6Ck",
+  "_file": "medic__fMU0zfQYyhkwZ6Ck.json",
+  "values": {
+    "/name": "Medic",
+    "/system/description": "<p>When you use the First Aid action to try to treat an injury, you can re-roll 1d20.</p>\n<p><strong>Requirements</strong>: INT 8</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

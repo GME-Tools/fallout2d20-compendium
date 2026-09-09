@@ -1,0 +1,11 @@
+{
+  "_key": "!items!7wHhQWCH5t1h8gAR",
+  "_file": "missile__7wHhQWCH5t1h8gAR.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">Compact high-explosive rockets designed to be launched from a missile launcher. They are capable of steering to a target under control from a guidance system, if the launcher has one, which means that makeshift rockets won&rsquo;t work in their place.</span></p>\n<p><span class=\"fontstyle0\">When found by a character with the Scavenger perk, roll only +1</span><span class=\"fontstyle2\">C</span><span class=\"fontstyle2\">D </span><span class=\"fontstyle0\">per Rank, rather than the normal bonus amount.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 2+1dc # Missile]]</p>",
+    "/system/weight": 7,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

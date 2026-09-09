@@ -1,0 +1,31 @@
+{
+  "_key": "!items!X1lZVeTRwlll5KDL",
+  "_file": "armure_renforcee_de_metal_plastron__X1lZVeTRwlll5KDL.json",
+  "values": {
+    "/name": "Armure renforcée de métal Plastron",
+    "/system/description": "<p>Des plaques métalliques façonnées et maintenues par des sangles de cuir ou de tissu offrent une bonne protection contre les impacts et les balles, mais moindre contre l’énergie car le métal conduit la chaleur. Chaque pièce sauf le casque accepte un Matériau et une Amélioration ; le casque accepte seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Installation avec Réparation. Matériaux : Métal peint, émaillé, ombré, allié ou poli.</p>",
+    "/system/mods/4PtjwYY1RpNnvExC/system/weight": 2,
+    "/system/mods/5sQU0kdQbhyacSdu/system/weight": 1,
+    "/system/mods/6Auqz8lwvuB7UFdy/system/weight": -1,
+    "/system/mods/8F9G1Cg2OmluAbG1/system/weight": 1,
+    "/system/mods/HzkbfPbv401sMTXA/system/weight": 3,
+    "/system/mods/JhWkQaODUdoyEp7d/system/weight": 2,
+    "/system/mods/Kt14LMMm7zn0V5w2/system/weight": 4,
+    "/system/mods/QXgVEVm7Ttp4UFpS/system/weight": 1,
+    "/system/mods/SZGWmJhEwwoXU1PR/system/weight": 2,
+    "/system/mods/XYvAnkqTE6TUIvzs/system/weight": 2,
+    "/system/mods/dAP4X9pvIKfDE56r/system/weight": 2,
+    "/system/mods/e7ySHkXMm9o7Aovi/system/weight": 2,
+    "/system/mods/q48esitA3U4tmuXT/system/weight": 2,
+    "/system/mods/yWvt9clbKolwdbm1/system/weight": -3,
+    "/system/mods/yo6HaIGzpgIuuEMD/system/weight": 1,
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "X1lZVeTRwlll5KDL",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Vk0RIc9X6HaypmwJ",
+  "_file": "entomologiste__Vk0RIc9X6HaypmwJ.json",
+  "values": {
+    "/name": "Entomologiste",
+    "/system/description": "<p>Rangs : 1 Prérequis : INT 7 Les attaques que vous effectuez contre les personnages dont le profil affiche le mot-clef Insecte obtiennent l’effet de dégâts Perforant 1. Si elles bénéficient déjà de cet effet, la valeur de ce dernier augmente de 1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Vk0RIc9X6HaypmwJ",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

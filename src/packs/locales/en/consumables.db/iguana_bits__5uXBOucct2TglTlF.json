@@ -1,0 +1,12 @@
+{
+  "_key": "!items!5uXBOucct2TglTlF",
+  "_file": "iguana_bits__5uXBOucct2TglTlF.json",
+  "values": {
+    "/name": "Iguana Bits",
+    "/system/description": "<p><span class=\"fontstyle0\">Chunks of raw iguana meat, in a small can or another sealed container. At least, you </span><span class=\"fontstyle2\">hope </span><span class=\"fontstyle0\">that&rsquo;s iguana meat. You don&rsquo;t see many iguanas around.</span></p>\n<p><span class=\"fontstyle0\">Iguana bits are an ingredient in Iguana on a Stick and Iguana Soup.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

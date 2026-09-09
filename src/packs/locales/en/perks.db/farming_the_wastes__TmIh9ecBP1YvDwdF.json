@@ -1,0 +1,9 @@
+{
+  "_key": "!items!TmIh9ecBP1YvDwdF",
+  "_file": "farming_the_wastes__TmIh9ecBP1YvDwdF.json",
+  "values": {
+    "/name": "Farming the Wastes",
+    "/system/description": "<p>Consuming a fruit or vegetable food item heals twice as many HP</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_key": "!actors!Sopfh6qS90uGwcjS",
+  "_file": "radroach__Sopfh6qS90uGwcjS.json",
+  "values": {
+    "/items/0/$overrides/~1system~1weight": "0",
+    "/items/0/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead radroach with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 1 portion of radroach meat.</span></p>",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/2/$overrides/~1system~1description": "<p>The radroach reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/3/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The radroach reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span></p>",
+    "/items/4/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The radroach is smaller than most characters. The creature&rsquo;s normal HP decreases to Body + &frac12; level (rounded up), but its Defense increases by 1. Further, it is slain by any hit which inflicts an Injury.</span></p>",
+    "/items/5/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">A radroach has a TN of 10 for <strong>Sneak </strong>tests, and rolls +1d20 on sneak attacks.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/origin": "Mutated Insect, Normal Creature",
+    "/system/biography": "<p><span class=\"fontstyle0\">Cockroaches were a common pest in pre-War America, and after the bombs fell and brought about a nuclear apocalypse, not much changed. Dubbed as radroaches for their radioactive bite, these creatures are far larger than their ancestors but are still as much of a pest. Often infesting ruined buildings, rubbish heaps, and other dark, dank locations, they attack their prey by jumping at them and attacking with their pincers. While easy to deal with in small numbers, swarms can easily overwhelm the unprepared and devastate settlements if left unchecked.</span></p>",
+    "/name": "Radroach"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!ZezvEj5UmJ8J4kdU",
+  "_file": "synthetique_marcheur__ZezvEj5UmJ8J4kdU.json",
+  "values": {
+    "/items/0/system/description": "<p>Munitions: cellules à fusion Développés par l’Institut après la Grande Guerre, les lasers de l’Institut ont un design et une fonction différents des armes laser d’avant-guerre utilisées par les autres factions, par exemple la Confrérie de l’Acier. Échangeant la puissance brute contre une succession rapide de rayons, ces lasers peuvent émettre une volée fulgurante de tirs de suppression. Le profil par défaut représente un pistolet de l’Institut. Un laser de l’Institut peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de l’Institut ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon : canon long, canon automatique, canon amélioré  Crosse: crosse standard  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
+    "/items/0/system/weight": 2,
+    "/items/0/name": "Laser de l’Institut",
+    "/items/1/system/description": "<p>Une matraque télescopique correspondant au modèle utilisé par la police et les entreprises de sécurité privées avant la Grande Guerre. Les agents de sécurité de Vault- Tec au sein de chaque Abri disposaient d’un stock de ces armes, aussi sont-elles encore fréquemment utilisées comme armes de corps à corps légères de secours. Une matraque peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/items/1/system/weight": 1,
+    "/items/1/name": "Matraque électrique",
+    "/items/7/$overrides/~1system~1effect": "<p>Armure de synthétique robuste, Fusil laser de l’Institut (Agitateur de photons, Canon long, Lunette courte), Matraque électrique, 3d20 Cellules à fusion</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZezvEj5UmJ8J4kdU",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/system/origin": "Synthétique Robotique, Créature Normale",
+    "/system/biography": "<p>Les marcheurs synthétiques sont semblables aux synthétiques communs, dans le sens où ils ne possèdent pas la même conscience que ceux de la troisième génération et qu’on les trouve dans le périmètre de l’Institut qu’ils servent à protéger. Les marcheurs, toutefois, sont des synthétiques de seconde génération et ressemblent plus aux humains que leurs congénères de la première. Ils sont souvent dotés d’une couche de matière recouvrant au moins partiellement leurs organes mécaniques et leurs membres: une tentative archaïque de création de peau synthétique. Malheureusement, celle-ci a mal vieilli et s’est déchirée, révélant par endroits leurs composants robotiques. Les visages des marcheurs synthétiques ont aussi des traits proches de ceux des humains, mais peu d’entre eux disposent d’un visage complet… quant à leurs cheveux, ils sont tous chauves. Ils sont plus forts et solides que les synthétiques de première génération et se battent bien mieux.</p>",
+    "/name": "Synthétique marcheur"
+  }
+}

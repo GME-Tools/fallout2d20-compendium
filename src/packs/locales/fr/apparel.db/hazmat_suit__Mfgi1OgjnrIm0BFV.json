@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Mfgi1OgjnrIm0BFV",
+  "_file": "combinaison_antiradiations__Mfgi1OgjnrIm0BFV.json",
+  "values": {
+    "/name": "Combinaison antiradiations",
+    "/system/description": "<p>Une combinaison entièrement fermée destinée à la manipulation de matières dangereuses. Ses matériaux résistent mal à la violence, mais la porter rend pratiquement immunisé contre les radiations.</p>",
+    "/system/weight": 2.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Mfgi1OgjnrIm0BFV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_key": "!actors!Sopfh6qS90uGwcjS",
+  "_file": "radcafard__Sopfh6qS90uGwcjS.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer une radcafard mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de radcafard.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Sopfh6qS90uGwcjS",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Insecte Mutant, Créature Normale",
+    "/system/biography": "<p>Dans les États-Unis d’avant-guerre, les cafards étaient déjà des vermines courantes, après la chute des bombes et l’apocalypse nucléaire, rien n’a vraiment changé. Surnommés radcafards en raison de leur morsure radioactive, ces créatures sont plus imposantes que leurs ancêtres, mais n’en restent pas moins des vermines. Les radcafards infestent souvent des bâtiments en ruine, des tas de déchets et d’autres lieux humides et sombres. Ils sautent sur leur proie pour l’attaquer de leurs pinces. Il est facile de venir à bout de quelques radcafards, mais une nuée peut aisément submerger une personne mal préparée et dévaster une communauté si les habitants ne maîtrisent pas la menace.</p>",
+    "/name": "Radcafard"
+  }
+}

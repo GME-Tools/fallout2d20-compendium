@@ -1,0 +1,30 @@
+{
+  "_key": "!items!qEljKwu1UzA9BoL6",
+  "_file": "raider_chest_piece__qEljKwu1UzA9BoL6.json",
+  "values": {
+    "/name": "Raider Chest Piece",
+    "/system/description": "<p>Makeshift armor pieces made from scrap metal and salvaged Power Armor parts too damaged to undergo proper repair. Due to the improvised nature of its design, raider Power Armor is relatively weak compared to its fully functional counterparts.</p>\n<p>Each piece of Raider Power Armor can accept two mods: an upgrade mod and a system mod. All Unique Raider Power Upgrade Mods are installed with the Repair Skill.</p>\n<p>Raider Power Armor can make use of all the normal system mods (p.144) except for Tesla Arms, and may also use the following system mod which is installed with the Repair Skill:</p>\n<ul>\n<li><strong>Unique Raider Power Armor Upgrade Mods:</strong> Raider II</li>\n<li><strong>Unique Raider Power Armor System Mod:</strong> Welded Rebar</li>\n</ul>",
+    "/system/mods/4Oo36CKsvvcXj9o6/system/weight": 2,
+    "/system/mods/7IO8gCf1f2bCK4a0/system/weight": 4,
+    "/system/mods/908vI94cQ4wdtSaI/system/weight": 2,
+    "/system/mods/Fi4sOOvTpfCKlBVS/system/weight": 2,
+    "/system/mods/Fov5IU0CbgDuZUuO/system/weight": 2,
+    "/system/mods/HdcX4nu2ZKYDf9hG/system/weight": 1,
+    "/system/mods/HlZVuMrkMKwSx0gT/system/weight": 1,
+    "/system/mods/JAN0jzOhkMyI3U1w/system/weight": 4,
+    "/system/mods/JCala9JIwLsgpDig/system/weight": 2,
+    "/system/mods/R7MSARmaFbVPiunS/system/weight": 2,
+    "/system/mods/dCYE8deU6qI7GARe/system/weight": 2,
+    "/system/mods/faqvoA7iZx90tXnH/system/weight": 2,
+    "/system/mods/gCQROCvacrax9ukk/system/weight": 2,
+    "/system/mods/hJDcOKYapml78um8/system/weight": 2,
+    "/system/mods/lqvdGQ6axRjBfNoe/system/weight": 2,
+    "/system/mods/t2wGFT9GqqzS3Qt9/system/weight": 2,
+    "/system/mods/vZs57HCeBc9iOVUR/system/weight": 2,
+    "/system/mods/vuySzeWEI174mwLc/system/weight": 2,
+    "/system/weight": 22,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

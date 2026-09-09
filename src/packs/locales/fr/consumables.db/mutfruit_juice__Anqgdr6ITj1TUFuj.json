@@ -1,0 +1,20 @@
+{
+  "_key": "!items!Anqgdr6ITj1TUFuj",
+  "_file": "jus_de_fruit_mutant__Anqgdr6ITj1TUFuj.json",
+  "values": {
+    "/name": "Jus de fruit mutant",
+    "/system/description": "<p>Jus de pulpe de mutfruit, vif et revigorant, qui éveille l’esprit et remet le corps en mouvement.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ABPjUugdAt6VthAw]{Fruit mutant} ×1</li></ul></section>",
+    "/system/effect": "<p>Relancez 1d20 lors de tous les tests d’AGI.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Anqgdr6ITj1TUFuj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Eau purifiée",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Fruit mutant"
+  }
+}

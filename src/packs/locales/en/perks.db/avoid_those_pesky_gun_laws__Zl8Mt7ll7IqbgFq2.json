@@ -1,0 +1,9 @@
+{
+  "_key": "!items!Zl8Mt7ll7IqbgFq2",
+  "_file": "avoid_those_pesky_gun_laws__Zl8Mt7ll7IqbgFq2.json",
+  "values": {
+    "/name": "Avoid Those Pesky Gun Laws!",
+    "/system/description": "<p>When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

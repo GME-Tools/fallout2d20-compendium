@@ -1,0 +1,69 @@
+{
+  "_id": "3ZJaIPmXe788xhiz",
+  "_key": "!items!3ZJaIPmXe788xhiz",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Jet.webp",
+  "name": "Jet Fuel",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Jet",
+    "consumableType": "chem",
+    "cost": 60,
+    "duration": "lasting",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Jet.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "canonicalName": "Flamer Fuel",
+            "quantity": 5,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-ammunition.Item.0Ci0Jcpuca6rSqkL"
+          },
+          {
+            "name": "Jet",
+            "canonicalName": "Jet",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

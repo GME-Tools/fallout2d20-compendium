@@ -1,0 +1,11 @@
+{
+  "_key": "!items!fMq7BDUKGUIZDOEY",
+  "_file": "l_invasion_des_insectes_geants__fMq7BDUKGUIZDOEY.json",
+  "values": {
+    "/name": "L’invasion des insectes géants !",
+    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts de radiation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

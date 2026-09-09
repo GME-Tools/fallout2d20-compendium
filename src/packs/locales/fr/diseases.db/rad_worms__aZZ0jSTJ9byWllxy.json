@@ -1,0 +1,15 @@
+{
+  "_key": "!items!aZZ0jSTJ9byWllxy",
+  "_file": "radvers__aZZ0jSTJ9byWllxy.json",
+  "values": {
+    "/name": "Radvers",
+    "/system/description": "<p>Lorsque vous subissez des dégâts de radiation, ajoutez +2 au total de ces dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "aZZ0jSTJ9byWllxy",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

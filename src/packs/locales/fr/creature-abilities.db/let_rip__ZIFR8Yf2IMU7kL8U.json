@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ZIFR8Yf2IMU7kL8U",
+  "_file": "let_rip__ZIFR8Yf2IMU7kL8U.json",
+  "values": {
+    "/name": "Se lâcher",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZIFR8Yf2IMU7kL8U",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Une fois par combat, cette créature peut déchaîner une salve : elle ajoute la Cadence de son arme aux dégâts d’une seule attaque.</p>"
+  }
+}

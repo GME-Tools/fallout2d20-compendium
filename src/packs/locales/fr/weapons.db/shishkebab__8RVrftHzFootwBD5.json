@@ -1,0 +1,16 @@
+{
+  "_key": "!items!8RVrftHzFootwBD5",
+  "_file": "flambeur__8RVrftHzFootwBD5.json",
+  "values": {
+    "/system/description": "<p>Le Flambeur est une « épée enflammée » artisanale, elle existe sous diverses formes dans les Terres désolées. Certaines versions sont construites à partir de véritables épées, tandis que d’autres sont des assemblages de composants hétéroclites. Mais tous les Flambeurs ont quelques éléments en commun: un réservoir ou un bidon de carburant sous une forme ou sous une autre (soit fixé à l’arme elle-même, soit porté par celui qui la manie et reliée au Flambeur par un tuyau en plastique), une flamme pilote et un mécanisme de déclenchement généralement récupéré sur une moto. Quand le Flambeur est employé, le carburant est projeté le long de la lame et enflammé par la flamme pilote, entourant l’épée de flammes. Les Flambeurs peuvent accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8RVrftHzFootwBD5",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Flambeur"
+  }
+}

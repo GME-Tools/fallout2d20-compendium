@@ -4,7 +4,7 @@ import path from "node:path";
 import test from "node:test";
 import { CORE_WEAPON_MOD_RECIPES } from "../scripts/data/core-weapon-mod-recipes.mjs";
 
-async function load(language){const dir=path.join("src","packs",language,"weapon-mods.db");return Promise.all((await readdir(dir)).filter(f=>f.endsWith(".json")).map(async f=>JSON.parse(await readFile(path.join(dir,f),"utf8"))));}
+async function load(language){const dir=path.join("generated", "source-packs",language,"weapon-mods.db");return Promise.all((await readdir(dir)).filter(f=>f.endsWith(".json")).map(async f=>JSON.parse(await readFile(path.join(dir,f),"utf8"))));}
 
 test("weapon-mod recipe inventory covers every Core table row",()=>{
   assert.equal(CORE_WEAPON_MOD_RECIPES.length,146);

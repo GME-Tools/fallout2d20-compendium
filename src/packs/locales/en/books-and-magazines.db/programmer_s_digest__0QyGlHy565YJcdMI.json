@@ -1,0 +1,13 @@
+{
+  "_key": "!items!0QyGlHy565YJcdMI",
+  "_file": "programmer_s_digest__0QyGlHy565YJcdMI.json",
+  "values": {
+    "/name": "Programmer's Digest",
+    "/system/description": "<p>A magazine aimed at computer afficionados, discussing programming languages, encryption and decryption techniques, and the latest software.</p>\n<ul>\n<li><strong>Perk:</strong> Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt. If you learn this Perk, you may do this whenever you are locked out of a computer.<span class=\"fontstyle0\">A magazine aimed at computer afficionados, discussing programming languages, encryption and decryption techniques, and the latest software.</span></li>\n</ul>\n<p><span class=\"fontstyle0\">@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.xmOWzjBpDXRfPa9Y]{Programmer's Digest}</span></p>",
+    "/system/effect": "<p>Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt.</p>",
+    "/system/publication": "",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

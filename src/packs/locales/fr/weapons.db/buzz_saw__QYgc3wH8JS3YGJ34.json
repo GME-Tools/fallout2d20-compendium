@@ -1,0 +1,14 @@
+{
+  "_key": "!items!QYgc3wH8JS3YGJ34",
+  "_file": "scie_circulaire__QYgc3wH8JS3YGJ34.json",
+  "values": {
+    "/system/description": "<p>Une scie circulaire montée sur un bras robotique, conçue pour découper les matériaux et les adversaires à portée de main.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "QYgc3wH8JS3YGJ34",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Scie circulaire"
+  }
+}

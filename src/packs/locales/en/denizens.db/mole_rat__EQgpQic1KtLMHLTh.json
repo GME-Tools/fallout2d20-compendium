@@ -1,0 +1,16 @@
+{
+  "_key": "!actors!EQgpQic1KtLMHLTh",
+  "_file": "mole_rat__EQgpQic1KtLMHLTh.json",
+  "values": {
+    "/items/0/$overrides/~1system~1weight": "0",
+    "/items/0/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead mole rat with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 1 portions of mole rat meat and 1 common material.</span></p>",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/2/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">As a major action, the mole rat may burrow underground to get away from its enemies and prepare for its next attack. On its next turn it can use its minor action to appear above ground anywhere within medium range of the place it burrowed. For the cost of 1 AP it may also add an extra CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">to its bite attack after emerging.</span></p>",
+    "/items/3/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">One or more of the mole rat's senses are especially keen; they can attempt to detect creatures or objects which characters normally cannot, and they reduce the difficulty of all other </span><span class=\"fontstyle2\"><strong>PER</strong> </span><span class=\"fontstyle0\">tests by 1 (to a minimum of 0).</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/4/$overrides/~1system~1description": "<p>The mole rat reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/origin": "Mutated Mammal, Normal Creature",
+    "/system/biography": "<p><span class=\"fontstyle0\">These rodents are the mutated form of the pre-War naked mole rat. They thrive almost anywhere in the wasteland, despite the number of creatures that would prey on them. They create their burrows underground, protecting them from most predators. They are much larger, akin to dogs in size, than their pre-War counterparts and are usually incredible vicious when hunting prey or defending their burrows. Mole rats live and hunt in packs, with their burrowing ability giving them the element of surprise in most situations, and a quick escape should their prey overwhelm them. With oversized front teeth and the ability to lunge at their prey with a surprising speed, mole rats are not to be underestimated. While they are most often mindless, savage creatures, some individuals in the wasteland have been able to train and domesticate the rodents as one would with a dog.</span></p>",
+    "/name": "Mole Rat"
+  }
+}

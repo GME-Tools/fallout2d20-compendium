@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!MC01Vd8oRj5IExqk",
+  "_file": "molosse_mutant__MC01Vd8oRj5IExqk.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un molosse mutant mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 1. Ils obtiennent 1 DC portions de viande de molosse mutant, +1 par PA dépensé ; un Effet fournit aussi 1 matériau commun.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "MC01Vd8oRj5IExqk",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Mammifère Mutant, Créature Normale",
+    "/system/biography": "<p>Ces chiens mutants ne ressemblent que très peu à leurs homologues domestiques ou enragés. Ces derniers deviennent fous à cause des radiations, mais les molosses mutants ne sont pas des créatures naturelles: ils ont été créés par une exposition au virus à évolution forcée. Beaucoup plus grands qu’un chien normal, ils bénéficient d’une musculature surdéveloppée et font preuve d’une agressivité décuplée. En revanche, ils subissent la même dégradation de leurs capacités mentales que les super mutants. Leur fourrure a complètement disparu, et leur peau est verdâtre et mouchetée. On les croise presque toujours en compagnie de super mutants qui s’en servent de chiens de garde. Personne ne sait s’il s’agit là de leur but premier ou si, à l’instar des humains avec les chiens, les super mutants les considèrent comme leurs meilleurs amis.</p>",
+    "/name": "Molosse mutant"
+  }
+}

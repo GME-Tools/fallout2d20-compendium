@@ -1,0 +1,14 @@
+{
+  "_key": "!items!wX6j5eUYC3odgPL0",
+  "_file": "atoms_glow__wX6j5eUYC3odgPL0.json",
+  "values": {
+    "/name": "Que vive l’Atome",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "wX6j5eUYC3odgPL0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Les Enfants de l’Atome vivent dans certaines des zones les plus radioactives des Terres désolées et semblent souvent n’en subir que peu ou pas les effets. Qu’il s’agisse de chance, d’une prédisposition génétique ou d’une preuve de l’existence de l’Atome, ils gagnent +2 à leur Résistance aux dégâts de radiation.</p>"
+  }
+}

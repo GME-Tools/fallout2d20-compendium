@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Luele6U32M5YDKlj",
+  "_file": "casque_militaire__Luele6U32M5YDKlj.json",
+  "values": {
+    "/name": "Casque militaire",
+    "/system/description": "<p>Un casque de métal, plastique et céramique légère conçu pour protéger la tête d’un soldat des éclats. Un rembourrage intérieur assure un maintien sûr.</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Luele6U32M5YDKlj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

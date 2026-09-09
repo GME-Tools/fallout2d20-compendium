@@ -1,0 +1,14 @@
+{
+  "_key": "!items!huozSPs5AqBrVQfH",
+  "_file": "burrow__huozSPs5AqBrVQfH.json",
+  "values": {
+    "/name": "Fouissage",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "huozSPs5AqBrVQfH",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Par une action majeure, cette créature s’enfouit sous terre. À son prochain tour, elle peut employer une action mineure pour réapparaître n’importe où à portée Moyenne de son point de départ. En dépensant 1 PA, elle ajoute +1 DC à son attaque après avoir émergé.</p>"
+  }
+}

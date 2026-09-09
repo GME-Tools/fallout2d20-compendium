@@ -1,0 +1,12 @@
+{
+  "_key": "!items!VBDdPeRHrRcaZhGn",
+  "_file": "deathclaw_gauntlet__VBDdPeRHrRcaZhGn.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">Made from the severed fingers and talons of a deathclaw and mounted on a cuff which fits over the wrist, these allow the wearer to strike with some of the lethal force of the claws&rsquo; previous owner.</span></p>\n<p><span class=\"fontstyle0\">A Deathclaw Gauntlet can accept the following mod which is </span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span></p>\n<ul>\n<li><strong>Deathclaw Gauntlet:&nbsp;</strong>Extra Claw</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 10,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Deathclaw Gauntlet"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!vinehrp26vkj6pQj",
+  "_file": "brotherhood_of_steel_hood__vinehrp26vkj6pQj.json",
+  "values": {
+    "/name": "Brotherhood of Steel Hood",
+    "/system/description": "<p><span class=\"fontstyle0\">The matching headpiece for the Brotherhood of Steel uniform, this close-fitting hood was developed before the Great War for wearers of Power Armor. It is designed to plug into the helmet of a suit of Power Armor, providing a closer interface to the armor&rsquo;s systems, as well as containing an earpiece and microphone for the armor&rsquo;s internal radio.</span> </p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

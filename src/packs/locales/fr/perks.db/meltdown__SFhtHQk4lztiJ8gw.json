@@ -1,0 +1,14 @@
+{
+  "_key": "!items!SFhtHQk4lztiJ8gw",
+  "_file": "fusion__SFhtHQk4lztiJ8gw.json",
+  "values": {
+    "/name": "Fusion",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 10 Lorsque vous tuez un ennemi avec une arme à énergie, il explose. Jetez un nombre de égal à la moitié de la valeur de dégâts de l’arme (arrondie à l’inférieur). Pour chaque Effet obtenu, une créature située à portée courte ou inférieure de votre victime (en commençant par la plus proche) subit un nombre de points de dégâts énergétiques égal au total obtenu sur les .</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "SFhtHQk4lztiJ8gw",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

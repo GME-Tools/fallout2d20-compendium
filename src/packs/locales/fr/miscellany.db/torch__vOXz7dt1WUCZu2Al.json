@@ -1,0 +1,16 @@
+{
+  "_key": "!items!vOXz7dt1WUCZu2Al",
+  "_file": "torche__vOXz7dt1WUCZu2Al.json",
+  "values": {
+    "/name": "Torche",
+    "/system/description": "<p>Une longue branche ou barre de métal de récupération dont une extrémité est enveloppée d’un tissu imbibé d’un liquide inflammable comme l’alcool ou l’essence. Une source lumineuse improvisée convenable et réutilisable dans une certaine mesure.</p>",
+    "/system/effect": "<p>Produit une lumière vive à portée courte jusqu’à la fin de la scène. L’allumer exige un test d’INT + Survie de difficulté 1, augmentée de 1 par utilisation précédente.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vOXz7dt1WUCZu2Al",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

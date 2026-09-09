@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CapaBoostCoil001",
+  "_file": "capacitor_boosting_coil__CapaBoostCoil001.json",
+  "values": {
+    "/name": "Capacitor Boosting Coil",
+    "/system/description": "<p>A maximum-capacity capacitor for Small Guns. It adds 1 damage die and grants the Vicious damage effect.</p>",
+    "/system/perks": "Gun Nut 4; Science! 3",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/page": 100,
+    "/flags/fallout2d20-compendium/source/errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)"
+  }
+}

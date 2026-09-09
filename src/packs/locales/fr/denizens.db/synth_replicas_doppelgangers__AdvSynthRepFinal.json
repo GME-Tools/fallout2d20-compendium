@@ -1,0 +1,28 @@
+{
+  "_key": "!actors!AdvSynthRepFinal",
+  "_file": "copies_synthetiques_sosies__AdvSynthRepFinal.json",
+  "values": {
+    "/token/name": "Copies synthétiques (sosies)",
+    "/items/0/system/description": "<p>Munitions: cellules à fusion Développés par l’Institut après la Grande Guerre, les lasers de l’Institut ont un design et une fonction différents des armes laser d’avant-guerre utilisées par les autres factions, par exemple la Confrérie de l’Acier. Échangeant la puissance brute contre une succession rapide de rayons, ces lasers peuvent émettre une volée fulgurante de tirs de suppression. Le profil par défaut représente un pistolet de l’Institut. Un laser de l’Institut peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de l’Institut ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon : canon long, canon automatique, canon amélioré  Crosse: crosse standard  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
+    "/items/0/system/weight": 2,
+    "/items/0/name": "Laser de l’Institut",
+    "/items/1/system/description": "<p>Une matraque télescopique correspondant au modèle utilisé par la police et les entreprises de sécurité privées avant la Grande Guerre. Les agents de sécurité de Vault- Tec au sein de chaque Abri disposaient d’un stock de ces armes, aussi sont-elles encore fréquemment utilisées comme armes de corps à corps légères de secours. Une matraque peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/items/1/system/weight": 1,
+    "/items/1/name": "Matraque électrique",
+    "/items/7/$overrides/~1system~1effect": "<p>Arme laser de l’Institut (Excitateur de photons, Canon amélioré), Matraque électrique, 3d20 cellules à fusion, 2 jambes de synthétique, 2 bras de synthétique et 1 casque de synthétique.</p>",
+    "/items/9/system/description": "<p>Remplacez les attaques d’un sosie par les armes du personnage joueur qu’il copie. Il gagne +1 en Défense contre les attaques de ce personnage.</p>",
+    "/items/9/name": "Sosies",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "AdvSynthRepFinal",
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Synthétique robotique, Créature normale",
+    "/system/biography": "<p>Les dernières copies comprennent des doubles inachevés des personnages joueurs. Elles possèdent les souvenirs volés et ressemblent de façon troublante aux personnes qu’elles remplacent.</p>",
+    "/name": "Copies synthétiques (sosies)"
+  }
+}

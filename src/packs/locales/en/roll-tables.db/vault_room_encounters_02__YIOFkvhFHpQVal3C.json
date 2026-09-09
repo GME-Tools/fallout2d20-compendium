@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!6pqldVfbwVJ0pi1I.YIOFkvhFHpQVal3C",
+  "_file": "vault_room_encounters_02__YIOFkvhFHpQVal3C.json",
+  "values": {
+    "/name": "Faction Scouts",
+    "/description": "7-12 human raiders on a faction mission. On 1d20: 1-5 friendly, 16-20 hostile, otherwise neutral or unknown."
+  }
+}

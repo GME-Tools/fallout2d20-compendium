@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Xz1V9etWzTtwt5x5",
+  "_file": "degainage_rapide__Xz1V9etWzTtwt5x5.json",
+  "values": {
+    "/name": "Dégainage rapide",
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 6 Chaque tour, vous pouvez dégainer une seule arme ou un seul objet que vous transportez sans y consacrer une action mineure.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Xz1V9etWzTtwt5x5",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

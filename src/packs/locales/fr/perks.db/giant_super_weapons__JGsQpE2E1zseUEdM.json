@@ -1,0 +1,11 @@
+{
+  "_key": "!items!JGsQpE2E1zseUEdM",
+  "_file": "un_flingue_n_est_jamais_assez_gros__JGsQpE2E1zseUEdM.json",
+  "values": {
+    "/name": "Un flingue n’est jamais assez gros !",
+    "/system/description": "<p>Une seule fois, quand vous tirez avec une arme Gatling, vous consommez les munitions à 8 fois le rythme normal au lieu de 10 fois.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

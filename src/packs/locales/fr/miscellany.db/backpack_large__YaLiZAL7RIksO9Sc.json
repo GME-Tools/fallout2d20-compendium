@@ -1,0 +1,15 @@
+{
+  "_key": "!items!YaLiZAL7RIksO9Sc",
+  "_file": "grand_sac_a_dos__YaLiZAL7RIksO9Sc.json",
+  "values": {
+    "/name": "Grand sac à dos",
+    "/system/description": "<p>Disponibles en plusieurs tailles, les sacs à dos sont indispensables pour transporter de grandes quantités d’objets. La plupart des personnages rangent leur matériel dans leurs poches, sacoches de ceinture, sacs et besaces, mais un véritable sac à dos rend le transport plus simple et efficace — à moins de disposer d’une brahmine de bât ou d’une autre monture pour porter vos charges.</p>",
+    "/system/effect": "<p>Le porteur ajoute 10 × FOR à sa charge maximale.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YaLiZAL7RIksO9Sc",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

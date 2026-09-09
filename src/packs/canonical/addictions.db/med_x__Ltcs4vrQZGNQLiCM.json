@@ -1,0 +1,24 @@
+{
+  "_id": "Ltcs4vrQZGNQLiCM",
+  "_key": "!items!Ltcs4vrQZGNQLiCM",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Med-X.webp",
+  "name": "Med-X",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

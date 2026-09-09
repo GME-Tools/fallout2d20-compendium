@@ -1,0 +1,16 @@
+{
+  "_key": "!items!nZ7XeE2gQy2EEgWH",
+  "_file": "pistolet_lance_fusees__nZ7XeE2gQy2EEgWH.json",
+  "values": {
+    "/system/ammo": "Fusée éclairante",
+    "/system/description": "<p>Munitions: fusées éclairantes Un pistolet lance-fusées est une arme à bascule à un coup, mais n’est pas vraiment conçu pour infliger des dégâts. Au lieu de cela, il tire des fusées éclairantes, utilisées par beaucoup de factions pour lancer un appel de détresse en les faisant monter le plus haut possible.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "nZ7XeE2gQy2EEgWH",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Pistolet lance-fusées"
+  }
+}

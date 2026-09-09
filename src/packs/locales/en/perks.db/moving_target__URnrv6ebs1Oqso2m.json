@@ -1,0 +1,11 @@
+{
+  "_key": "!items!URnrv6ebs1Oqso2m",
+  "_file": "moving_target__URnrv6ebs1Oqso2m.json",
+  "values": {
+    "/name": "Moving Target",
+    "/system/description": "<p>When you take the Sprint action, your Defense increases by +1 until the start of your next turn.</p>\n<p><strong>Requirements</strong>: AGI 6</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

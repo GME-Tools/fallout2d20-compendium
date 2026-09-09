@@ -1,0 +1,12 @@
+{
+  "_key": "!items!lVYblrMAgEfHnWTR",
+  "_file": "brotherhood_scribe_s_armor__lVYblrMAgEfHnWTR.json",
+  "values": {
+    "/name": "Brotherhood Scribe's Armor",
+    "/system/description": "<p><span class=\"fontstyle0\">The Scribes of the Brotherhood of Steel are sometimes required to venture out into the field to make observations or perform research up-close. While only providing limited protection, this garb is sufficient to protect the wearer from danger long enough to allow them to withdraw and seek assistance from someone better equipped.</span> </p>",
+    "/system/weight": 4,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

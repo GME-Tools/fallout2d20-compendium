@@ -1,0 +1,15 @@
+{
+  "_key": "!items!uxikQYkupNqpmTyR",
+  "_file": "iguana_on_a_stick__uxikQYkupNqpmTyR.json",
+  "values": {
+    "/name": "Iguana on a Stick",
+    "/system/description": "<p><span class=\"fontstyle0\">Chunks of iguana meat on a wooden skewer, which have then been cooked. Not the best meal, but it&rsquo;ll do the trick if you&rsquo;re desperate or need to secure the loyalty of a canine companion.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>2</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.5uXBOucct2TglTlF]{Iguana Bits} ×1</li><li>Common Materials ×1</li></ul></section>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Iguana Bits",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Common Materials"
+  }
+}

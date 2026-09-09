@@ -1,0 +1,14 @@
+{
+  "_key": "!items!URnrv6ebs1Oqso2m",
+  "_file": "cible_mouvante__URnrv6ebs1Oqso2m.json",
+  "values": {
+    "/name": "Cible mouvante",
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 6 Lorsque vous sprintez, augmentez de +1 votre défense jusqu’au début de votre prochain tour.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "URnrv6ebs1Oqso2m",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

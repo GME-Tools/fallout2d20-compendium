@@ -1,0 +1,13 @@
+{
+  "_key": "!items!244Kf3MVUhEQQGsw",
+  "_file": "submachine_gun__244Kf3MVUhEQQGsw.json",
+  "values": {
+    "/system/ammo": ".45 Round",
+    "/system/description": "<p><span class=\"fontstyle0\">These submachine guns were an old design, even before the War, and while they&rsquo;re hideously inaccurate, their rate-of-fire means you don&rsquo;t need to be accurate.</span></p>\n<p><span class=\"fontstyle0\">A Submachine Gun can accept one each of the following mods: <br></span></p>\n<ul>\n<li><strong>Receiver:</strong> Hardened, Hair Trigger, Powerful</li>\n<li><strong>Stock:</strong> Full Stock, Recoil-Compensating Stock</li>\n<li><strong>Magazine:</strong> Large Magazine, Quick-Eject Magazine, Large Quick-Eject Magazine</li>\n<li><strong>Sights:</strong> Reflex Sight</li>\n<li><strong>Muzzle:</strong> Compensator, Muzzle Brake, Suppressor</li>\n</ul>",
+    "/system/weight": 12,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Submachine Gun"
+  }
+}

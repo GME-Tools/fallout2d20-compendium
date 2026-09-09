@@ -1,0 +1,11 @@
+{
+  "_key": "!items!I7DFjAhnEzDZmdL7",
+  "_file": "l_art_du_tomahawk__I7DFjAhnEzDZmdL7.json",
+  "values": {
+    "/name": "L’art du tomahawk",
+    "/system/description": "<p>Réduisez de 1 la difficulté d’un test pour ne pas contracter une maladie, jusqu’à un minimum de 0.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

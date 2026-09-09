@@ -1,0 +1,15 @@
+{
+  "_key": "!items!h4ft10mkGXOGNaW3",
+  "_file": "holoplaques__h4ft10mkGXOGNaW3.json",
+  "values": {
+    "/name": "Holoplaques",
+    "/system/description": "<p>Petites plaques d’identification résistantes employées par la Confrérie de l’Acier, les holoplaques permettent d’identifier leur porteur en cas de décès. Elles servent aussi de boîte noire à une armure assistée et conservent pour la Confrérie les exploits de ses guerriers tombés. Peu précieuses en elles-mêmes, elles valent souvent une récompense à ceux qui les rapportent.</p>",
+    "/system/effect": "<p>Permettent d’identifier les personnes tombées au combat.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "h4ft10mkGXOGNaW3",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

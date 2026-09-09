@@ -1,0 +1,16 @@
+{
+  "_key": "!items!bpbgoX9mNr23pFHR",
+  "_file": "fusil_de_chasse__bpbgoX9mNr23pFHR.json",
+  "values": {
+    "/system/ammo": "Cartouche .308",
+    "/system/description": "<p>Munitions: cartouches .308 Un fusil à verrou généralement manié par les super mutants et les pillards. Son design simple l’avait rendu populaire parmi les chasseurs et les survivalistes avant la Grande Guerre et il est très facilement personnalisable. Suggérer que la pétoire à canon court sans fioritures maniée par un super mutant pourrait être transformée en fusil de sniper de précision semble fantaisiste, mais cela décrit parfaitement le fusil de chasse. Un fusil de chasse peut accepter un mod de chaque type parmi les suivants:  Culasse: optimisée, calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon long, canon à ouvertures, canon ventilé  Crosse: crosse complète, crosse de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, silencieux</p>",
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "bpbgoX9mNr23pFHR",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Fusil de chasse"
+  }
+}

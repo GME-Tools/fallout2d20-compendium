@@ -1,0 +1,11 @@
+{
+  "_key": "!items!bzXcVbZZtHhGCcOs",
+  "_file": "les_charmes_de_la_reine_corsaire_queen__bzXcVbZZtHhGCcOs.json",
+  "values": {
+    "/name": "Les charmes de la reine corsaire Queen",
+    "/system/description": "<p>Une attaque de corps à corps réussie que vous portez inflige automatiquement un coup critique.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

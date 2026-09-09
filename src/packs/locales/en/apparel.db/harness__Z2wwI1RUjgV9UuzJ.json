@@ -1,0 +1,12 @@
+{
+  "_key": "!items!Z2wwI1RUjgV9UuzJ",
+  "_file": "harness__Z2wwI1RUjgV9UuzJ.json",
+  "values": {
+    "/name": "Harness",
+    "/system/description": "<p><span class=\"fontstyle0\">A worker&rsquo;s safety harness repurposed to serve as a mount for pieces of armor. Common amongst raiders, who tend to wear the harness without a shirt underneath.</span> </p>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

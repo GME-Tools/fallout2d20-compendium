@@ -1,0 +1,11 @@
+{
+  "_key": "!items!MKt5lgPvnlrnMV9S",
+  "_file": "ainsi_s_en_vint_le_malicieux__MKt5lgPvnlrnMV9S.json",
+  "values": {
+    "/name": "Ainsi s’en vint le Malicieux",
+    "/system/description": "<p>Ajoutez +1 à la difficulté du test de compétence d’un autre personnage pour vous repérer.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "ItcIh4WKCACIyolW",
+  "_key": "!items!ItcIh4WKCACIyolW",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Stimpak.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 30,
+    "duration": "instant",
+    "favorite": false,
+    "group": "",
+    "hp": 2,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Stimpak.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "name": "Stimpak",
+            "canonicalName": "Stimpak",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7"
+          },
+          {
+            "canonicalName": "Purified Water",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

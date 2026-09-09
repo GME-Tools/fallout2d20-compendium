@@ -1,0 +1,15 @@
+{
+  "_key": "!items!61inErKDohHmHoAV",
+  "_file": "couteaux_de_lancer__61inErKDohHmHoAV.json",
+  "values": {
+    "/system/description": "<p>De petits couteaux aiguisés spécialement équilibrés pour le lancer. D’ordinaire, ils sont fabriqués dans un métal léger et leur garde est creuse pour réduire leur poids. Un seul couteau pris isolément inflige peu de dégâts, mais ils sont légers, silencieux et rapides.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "61inErKDohHmHoAV",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Couteaux de lancer"
+  }
+}

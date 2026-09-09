@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Zl8Mt7ll7IqbgFq2",
+  "_file": "eviter_ces_satanees_lois_contre_les_armes__Zl8Mt7ll7IqbgFq2.json",
+  "values": {
+    "/name": "Éviter ces satanées lois contre les armes !",
+    "/system/description": "<p>Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent servir qu’à récupérer des unités de matériaux supplémentaires.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

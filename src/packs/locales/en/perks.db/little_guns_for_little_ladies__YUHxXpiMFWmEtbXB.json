@@ -1,0 +1,9 @@
+{
+  "_key": "!items!YUHxXpiMFWmEtbXB",
+  "_file": "little_guns_for_little_ladies__YUHxXpiMFWmEtbXB.json",
+  "values": {
+    "/name": "Little Guns for Little Ladies",
+    "/system/description": "<p>One attack with a Small Guns weapon gains the Vicious damage effect if it didn&rsquo;t have it already</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

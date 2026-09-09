@@ -1,0 +1,16 @@
+{
+  "_key": "!items!obRp9CZJJ6liIl49",
+  "_file": "arme_a_verrou_de_fortune__obRp9CZJJ6liIl49.json",
+  "values": {
+    "/system/ammo": "Cartouche .308",
+    "/system/description": "<p>Munitions: cartouches .308 Une arme artisanale, généralement maniée par ceux qui ne peuvent pas fabriquer, acheter ou trouver quoi que ce soit de mieux. Les armes de fortune sont rudimentaires, peu fiables, mais assez efficaces. Les armes à verrou de fortune ont tendance à être chambrées pour utiliser des cartouches du calibre d’un fusil, échangeant la cadence de tir contre la puissance et la simplicité. Une arme à verrou de fortune peut accepter un mod de chaque type parmi les suivants. Vous ne pouvez pas prendre à la fois un mod de poignée et un mod de crosse. Un mod de crosse change le nom de l’arme en « fusil à verrou de fortune ».  Culasse: calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon raccourci, canon long, canon à ouvertures, canon à ailettes  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, compensateur, frein de bouche, silencieux</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "obRp9CZJJ6liIl49",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Arme à verrou de fortune"
+  }
+}

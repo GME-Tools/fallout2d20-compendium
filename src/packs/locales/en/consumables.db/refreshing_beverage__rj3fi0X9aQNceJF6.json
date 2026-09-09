@@ -1,0 +1,16 @@
+{
+  "_key": "!items!rj3fi0X9aQNceJF6",
+  "_file": "refreshing_beverage__rj3fi0X9aQNceJF6.json",
+  "values": {
+    "/name": "Refreshing Beverage",
+    "/system/description": "<p><span class=\"fontstyle0\">A mysterious panacea made from medical supplies, this chemical concoction restores health and cleanses the body of radiation and chemical dependencies. The recipe has spread across the wasteland by word of mouth, but it requires numerous ingredients to produce, so it remains rare.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Rare Materials ×3</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL]{Blood Pack} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h]{Purified Water} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.vDzTAi2iRrZ5XTcc]{RadAway} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7]{Stimpak} ×1</li></ul></section>",
+    "/system/effect": "<p>Heals 10 Radiation damage, Cures all addictions</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Rare Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Blood Pack",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Purified Water"
+  }
+}

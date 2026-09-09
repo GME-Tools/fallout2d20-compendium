@@ -8,7 +8,7 @@ const names = JSON.parse(await readFile("catalog/v1-core-perk-fr-names.json", "u
 const moduleId = "fallout2d20-compendium";
 
 async function documents(language, pack) {
-  const root = path.join("src", "packs", language, `${pack}.db`);
+  const root = path.join("generated", "source-packs", language, `${pack}.db`);
   return Promise.all((await readdir(root)).filter((file) => file.endsWith(".json")).map(async (file) =>
     JSON.parse(await readFile(path.join(root, file), "utf8"))
   ));

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!XDokjSONPXfiHRrg",
+  "_file": "vers_osseux__XDokjSONPXfiHRrg.json",
+  "values": {
+    "/name": "Vers osseux",
+    "/system/description": "<p>Les attaques qui vous ciblent et touchent vos bras ou vos jambes infligent +4 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "XDokjSONPXfiHRrg",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

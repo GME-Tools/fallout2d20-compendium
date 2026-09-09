@@ -1,0 +1,11 @@
+{
+  "_key": "!items!QYgc3wH8JS3YGJ34",
+  "_file": "buzz_saw__QYgc3wH8JS3YGJ34.json",
+  "values": {
+    "/system/description": "<p><strong>Arm Attachment:</strong> You can cut objects and make melee attacks with a circular saw. The buzz-saw inflicts 3 CD Piercing 1 physical damage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Buzz-Saw"
+  }
+}

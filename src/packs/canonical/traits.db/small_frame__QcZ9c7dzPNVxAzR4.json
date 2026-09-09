@@ -1,0 +1,25 @@
+{
+  "_id": "QcZ9c7dzPNVxAzR4",
+  "_key": "!items!QcZ9c7dzPNVxAzR4",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Traits/SmallFrame.webp",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": true,
+        "page": "51-57",
+        "coreCharacterCreationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Traits/SmallFrame.webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

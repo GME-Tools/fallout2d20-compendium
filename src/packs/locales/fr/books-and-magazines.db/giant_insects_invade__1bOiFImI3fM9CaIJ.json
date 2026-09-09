@@ -1,0 +1,16 @@
+{
+  "_key": "!items!1bOiFImI3fM9CaIJ",
+  "_file": "l_invasion_des_insectes_geants__1bOiFImI3fM9CaIJ.json",
+  "values": {
+    "/name": "L’invasion des insectes géants !",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts de radiation.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.fMq7BDUKGUIZDOEY]{L’invasion des insectes géants !}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 en résistance aux dégâts de radiation.</p>",
+    "/system/publication": "Histoires à dormir debout",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1bOiFImI3fM9CaIJ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

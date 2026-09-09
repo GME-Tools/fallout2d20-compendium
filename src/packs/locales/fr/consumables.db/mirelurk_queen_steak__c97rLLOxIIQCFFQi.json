@@ -1,0 +1,19 @@
+{
+  "_key": "!items!c97rLLOxIIQCFFQi",
+  "_file": "steak_de_reine_des_fangeux__c97rLLOxIIQCFFQi.json",
+  "values": {
+    "/name": "Steak de reine des fangeux",
+    "/system/description": "<p>La viande rare et riche d’une reine fangeux fortifie le corps lorsqu’elle est bien préparée et procure temporairement santé et résistance.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.VIoOx0NE579BpX4t]{Viande de reine des fangeux} ×1</li></ul></section>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté de tous les tests d’END jusqu’à la fin de la scène suivante.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "c97rLLOxIIQCFFQi",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Viande de reine des fangeux"
+  }
+}

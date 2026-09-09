@@ -1,0 +1,15 @@
+{
+  "_key": "!items!K5VQLz4YU7eZIkAF",
+  "_file": "fusee_eclairante__K5VQLz4YU7eZIkAF.json",
+  "values": {
+    "/name": "Fusée éclairante",
+    "/system/description": "<p>Un petit tube ressemblant à une cartouche de fusil de combat, laquelle contient un produit chimique produisant une forte lumière quand il s’enflamme. La fusée éclairante doit être tirée avec un pistolet lance-fusées qui allume une mèche au lancement: la fusée monte dans le ciel, illuminant la zone autour d’elle, puis redescend doucement en laissant une traînée de fumée blanche derrière elle. Elle est très utile pour envoyer un signal de détresse, mais ne sert pas à grand-chose d’autre.</p>",
+    "/system/weight": 0.0395,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "K5VQLz4YU7eZIkAF",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

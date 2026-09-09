@@ -1,0 +1,17 @@
+{
+  "_key": "!items!afPpMSnBCqxLyaxx",
+  "_file": "vin__afPpMSnBCqxLyaxx.json",
+  "values": {
+    "/name": "Vin",
+    "/system/description": "<p>Boisson alcoolisée issue de la fermentation du jus de raisin. De nombreux crus d’avant-guerre subsistent dans les Terres désolées, souvent accumulés par les riches avant les bombes. Découvrir une cave intacte peut assurer des semaines ou des mois d’ivresse.</p>",
+    "/system/effect": "<p>Gagnez immédiatement 1 PA.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "afPpMSnBCqxLyaxx",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

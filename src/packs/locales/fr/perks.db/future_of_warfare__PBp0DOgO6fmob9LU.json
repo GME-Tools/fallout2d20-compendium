@@ -1,0 +1,11 @@
+{
+  "_key": "!items!PBp0DOgO6fmob9LU",
+  "_file": "l_avenir_de_la_guerre__PBp0DOgO6fmob9LU.json",
+  "values": {
+    "/name": "L’avenir de la guerre ?",
+    "/system/description": "<p>Sur une attaque avec une arme maniée avec Armes lourdes, vous infligez un coup critique dès 3 dégâts après résistance au lieu de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

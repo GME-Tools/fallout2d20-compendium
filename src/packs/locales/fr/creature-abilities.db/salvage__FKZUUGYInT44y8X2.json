@@ -1,0 +1,14 @@
+{
+  "_key": "!items!FKZUUGYInT44y8X2",
+  "_file": "salvage__FKZUUGYInT44y8X2.json",
+  "values": {
+    "/name": "Récupération",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "FKZUUGYInT44y8X2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/effect": "<p>Les récupérateurs peuvent démonter une [créature] détruite avec un test d’INT + Sciences de difficulté 1 réussi. Ils obtiennent 3 @fos[DC] cellules à fusion, +1 @fos[DC] par PA dépensé, et 1 matériau peu commun par Effet obtenu.</p>"
+  }
+}

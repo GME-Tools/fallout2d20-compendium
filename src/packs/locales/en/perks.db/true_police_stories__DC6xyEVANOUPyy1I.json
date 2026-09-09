@@ -1,0 +1,9 @@
+{
+  "_key": "!items!DC6xyEVANOUPyy1I",
+  "_file": "true_police_stories__DC6xyEVANOUPyy1I.json",
+  "values": {
+    "/name": "True Police Stories",
+    "/system/description": "<p>Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three @fos[DC] to any face, rather than rolling them.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

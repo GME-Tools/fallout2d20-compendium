@@ -1,0 +1,15 @@
+{
+  "_key": "!items!aYG2QbgizqTfxAiy",
+  "_file": "cartouche_au_plasma__aYG2QbgizqTfxAiy.json",
+  "values": {
+    "/name": "Cartouche au plasma",
+    "/system/description": "<p>Les armes à plasma tirent leur énergie et leur carburant d’une cartouche au plasma, la combinaison d’une cellule à fusion pour alimenter l’arme et d’une capsule contenant une version stable du composé chimique devant le plasma que l’arme tire.</p>",
+    "/system/weight": 0.0145,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "aYG2QbgizqTfxAiy",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

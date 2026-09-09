@@ -1,0 +1,14 @@
+{
+  "_key": "!items!iDaMlrcxl6kEm3Ex",
+  "_file": "fetard_fetarde__iDaMlrcxl6kEm3Ex.json",
+  "values": {
+    "/name": "Fêtard/Fêtarde",
+    "/system/description": "<p>Rangs : 1 Prérequis : END 6, CHR 7 Vous ne pouvez pas devenir dépendant aux boissons alcoolisées, chaque fois que vous buvez ce type de boisson, vous regagnez +2 PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "iDaMlrcxl6kEm3Ex",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

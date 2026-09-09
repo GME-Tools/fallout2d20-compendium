@@ -1,0 +1,15 @@
+{
+  "_key": "!items!dwRYe59wr0CAurtm",
+  "_file": "dard_de_darillon__dwRYe59wr0CAurtm.json",
+  "values": {
+    "/name": "Dard de darillon",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "dwRYe59wr0CAurtm",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

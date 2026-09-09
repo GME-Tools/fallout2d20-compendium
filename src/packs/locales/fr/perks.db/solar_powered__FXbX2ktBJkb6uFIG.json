@@ -1,0 +1,14 @@
+{
+  "_key": "!items!FXbX2ktBJkb6uFIG",
+  "_file": "energie_solaire__FXbX2ktBJkb6uFIG.json",
+  "values": {
+    "/name": "Énergie solaire",
+    "/system/description": "<p>Rangs : 1 Prérequis : END 7 Vous éliminez 1 point de dégâts de radiation par heure passée à la lumière directe du soleil.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "FXbX2ktBJkb6uFIG",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

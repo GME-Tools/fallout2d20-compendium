@@ -1,0 +1,16 @@
+{
+  "_key": "!items!1wxcXIYvgK4GTYUf",
+  "_file": "outil_multifonction__1wxcXIYvgK4GTYUf.json",
+  "values": {
+    "/name": "Outil multifonction",
+    "/system/description": "<p>Ce petit outil pratique réunit une pince, un coupe-fil, plusieurs petites clés et tournevis ainsi que divers instruments repliés dans ses poignées. Idéal pour qui a besoin d’outils de base tout en voyageant léger.</p>",
+    "/system/effect": "<p>Réduit de 1 la difficulté des tests de Réparation (minimum 0).</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1wxcXIYvgK4GTYUf",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

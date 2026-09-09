@@ -1,0 +1,24 @@
+{
+  "_key": "!actors!EQgpQic1KtLMHLTh",
+  "_file": "rataupe__EQgpQic1KtLMHLTh.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un rat-taupe mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de rat-taupe et 1 matériau commun.</p>",
+    "/items/2/$overrides/~1system~1description": "<p>Par une action majeure, le rat-taupe s’enfouit. À son tour suivant, il peut employer une action mineure pour réapparaître n’importe où à portée Moyenne de son point de départ. En dépensant 1 PA, il ajoute aussi +1 DC à sa Morsure après avoir émergé.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "EQgpQic1KtLMHLTh",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Mammifère Mutant, Créature Normale",
+    "/system/biography": "<p>Ces rongeurs sont la forme mutante des hétérocéphales d’avant-guerre. Ils prospèrent dans la quasi-totalité des Terres désolées, et ce, malgré le nombre de leurs prédateurs, dont ils se protègent en créant des tunnels souterrains. D’une taille proche de celle du chien, ils sont bien plus grands que leurs ancêtres et se montrent en général bien plus féroces qu’eux lorsqu’ils chassent ou défendent leurs terriers. Les rataupes, animaux grégaires, chassent en meute et profitent de leur capacité à creuser sous terre pour bénéficier de l’élément de surprise dans la plupart des situations; ils peuvent aussi la mettre à profit pour fuir sans tarder si leur proie est trop forte. Dotés d’incisives surdimensionnées et capables de se jeter sur leur gibier à une vitesse phénoménale, les rataupes ne doivent pas être sous-estimés. Bien que ces créatures soient souvent sauvages et stupides, certaines personnes ont réussi à les domestiquer et à les dresser, comme des chiens.</p>",
+    "/name": "Rataupe"
+  }
+}

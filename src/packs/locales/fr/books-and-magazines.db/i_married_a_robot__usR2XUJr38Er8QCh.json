@@ -1,0 +1,16 @@
+{
+  "_key": "!items!usR2XUJr38Er8QCh",
+  "_file": "j_ai_epouse_un_robot__usR2XUJr38Er8QCh.json",
+  "values": {
+    "/name": "J’ai épousé un robot",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Vous gagnez +2 à toutes les résistances aux dégâts contre les Robots pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.xfBuEJQHYAmds5XG]{J’ai épousé un robot}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 à toutes les résistances aux dégâts contre les Robots pendant une scène.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "usR2XUJr38Er8QCh",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

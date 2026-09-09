@@ -1,0 +1,19 @@
+{
+  "_key": "!items!Ai4EeSDZl48zoJoL",
+  "_file": "mine_a_fragmentation__Ai4EeSDZl48zoJoL.json",
+  "values": {
+    "/system/description": "<p>De conception et de fabrication semblable à la grenade à fragmentation, une mine à fragmentation ne se lance pas, mais se place sur le sol et utilise une plaque de pression ou un capteur de proximité pour déclencher la détonation quand quelqu’un s’approche trop près.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosifs}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Expert en démolition}</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×2</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Ai4EeSDZl48zoJoL",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en démolition",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosifs",
+    "/name": "Mine à fragmentation"
+  }
+}

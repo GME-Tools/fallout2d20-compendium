@@ -1,0 +1,16 @@
+{
+  "_key": "!items!J72UfCpxbBpYr6W5",
+  "_file": "cartouche_5_56_mm__J72UfCpxbBpYr6W5.json",
+  "values": {
+    "/name": "Cartouche 5,56 mm",
+    "/system/description": "<p>Une cartouche de fusil léger Précis, normalement utilisée dans les fusils d’assaut. Développées voilà des siècles pour le fusil standard de l’armée des États-Unis à cette époque, les cartouches 5,56 mm continuèrent d’être produites et utilisées jusqu’à la fin de la Grande Guerre et si vous savez où chercher, elles sont relativement faciles à dénicher.</p>",
+    "/system/weight": 0.0175,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "J72UfCpxbBpYr6W5",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true
+  }
+}

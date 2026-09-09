@@ -1,0 +1,14 @@
+{
+  "_key": "!items!YrVruOKk8Wy2YOc9",
+  "_file": "source_d_inspiration__YrVruOKk8Wy2YOc9.json",
+  "values": {
+    "/name": "Source d’inspiration",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHR 8 Vous menez par l’exemple, en conséquence la réserve du groupe peut contenir 1 PA supplémentaire grâce à vous.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YrVruOKk8Wy2YOc9",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

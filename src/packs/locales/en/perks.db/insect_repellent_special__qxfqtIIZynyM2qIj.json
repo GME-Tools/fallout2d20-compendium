@@ -1,0 +1,9 @@
+{
+  "_key": "!items!qxfqtIIZynyM2qIj",
+  "_file": "insect_repellent_special__qxfqtIIZynyM2qIj.json",
+  "values": {
+    "/name": "Insect Repellent Special",
+    "/system/description": "<p>Increase all damage resistances by +2 vs an attack from an Insect</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

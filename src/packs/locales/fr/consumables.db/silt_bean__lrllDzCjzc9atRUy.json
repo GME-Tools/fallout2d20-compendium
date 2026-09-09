@@ -1,0 +1,16 @@
+{
+  "_key": "!items!lrllDzCjzc9atRUy",
+  "_file": "haricot_envase__lrllDzCjzc9atRUy.json",
+  "values": {
+    "/name": "Haricot envasé",
+    "/system/description": "<p>Gousses rouge-brun poussant sur les lianes de haricots vaseux sauvages. Difficiles à cultiver malgré de nombreuses tentatives, elles entrent dans plusieurs recettes comme le ragoût de radcerf.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "lrllDzCjzc9atRUy",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

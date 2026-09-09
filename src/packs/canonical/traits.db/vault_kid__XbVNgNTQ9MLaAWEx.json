@@ -1,0 +1,28 @@
+{
+  "_id": "XbVNgNTQ9MLaAWEx",
+  "_key": "!items!XbVNgNTQ9MLaAWEx",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Traits/VaultKid.webp",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": "51-57",
+        "errataReviewed": true,
+        "errata": [
+          "Q2 2024"
+        ],
+        "coreCharacterCreationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Traits/VaultKid.webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_key": "!items!860ofdvpufUzSqE7",
+  "_file": "stimpak__860ofdvpufUzSqE7.json",
+  "values": {
+    "/system/description": "<p>Le Stimpak est une seringue à usage unique combinant agents curatifs, stimulants et antidouleurs afin d’accélérer la guérison. Très efficace seul, il l’est davantage avec un Auto-Doc ou du personnel médical ; il existe aussi sous forme diluée.</p><p><strong>Utilisation :</strong> avec l’action mineure Prendre une drogue ou pendant des Premiers secours, soigne 4 PV ou une Blessure ; la version diluée soigne 2 PV mais peut toujours traiter une Blessure.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Antiseptic ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL]{Poche de sang} ×1</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "/system/effect": "<p>Soigne 4 PV (voir description).</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "860ofdvpufUzSqE7",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Poche de sang",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Matériaux fréquents"
+  }
+}

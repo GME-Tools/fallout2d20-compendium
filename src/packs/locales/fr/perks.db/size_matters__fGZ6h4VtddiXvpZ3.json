@@ -1,0 +1,14 @@
+{
+  "_key": "!items!fGZ6h4VtddiXvpZ3",
+  "_file": "la_taille_compte__fGZ6h4VtddiXvpZ3.json",
+  "values": {
+    "/name": "La taille compte",
+    "/system/description": "<p>Rangs : 3 Prérequis : END 7, AGI 6 Lorsque vous effectuez une attaque à distance avec une arme lourde, ajoutez +1 @fos[DC] aux dégâts de l’arme par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fGZ6h4VtddiXvpZ3",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

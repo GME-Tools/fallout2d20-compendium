@@ -1,0 +1,14 @@
+{
+  "_key": "!items!CapaBoostCoil001",
+  "_file": "bobine_d_amplification_du_condensateur__CapaBoostCoil001.json",
+  "values": {
+    "/name": "Bobine d’amplification du condensateur",
+    "/system/description": "<p>Un condensateur de capacité maximale pour armes légères. Il ajoute 1 dé de dégâts et confère l’effet de dégâts Vicieux.</p>",
+    "/system/perks": "Fana d’armes 4; Scientifique 3",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CapaBoostCoil001",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

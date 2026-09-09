@@ -1,0 +1,11 @@
+{
+  "_key": "!items!7vvLcpVth2gMnB7o",
+  "_file": "l_ermite_de_la_riviere_ohio__7vvLcpVth2gMnB7o.json",
+  "values": {
+    "/name": "L’ermite de la rivière Ohio",
+    "/system/description": "<p>Réduisez de 1 la difficulté pour réparer un objet endommagé, jusqu’à un minimum de 0.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

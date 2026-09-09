@@ -1,0 +1,16 @@
+{
+  "_key": "!items!28PbGcZHEDssWMfB",
+  "_file": "x_cell__28PbGcZHEDssWMfB.json",
+  "values": {
+    "/system/description": "<p>Améliorateur général de performances encore en développement avant la Grande Guerre. Inachevés, ses prototypes circulèrent au marché noir puis parmi les récupérateurs. Il améliore toutes les capacités pendant quelques minutes, mais provoque une dépendance extrême et un manque tout aussi étendu. <strong>Dépendance au X-Cell :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, augmentez de +1 la difficulté de tous vos tests.</p>",
+    "/system/effect": "<p>Le premier d20 acheté lors de chaque test est gratuit.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "28PbGcZHEDssWMfB",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

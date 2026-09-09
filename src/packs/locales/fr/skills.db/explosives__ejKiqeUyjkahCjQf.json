@@ -1,0 +1,13 @@
+{
+  "_key": "!items!ejKiqeUyjkahCjQf",
+  "_file": "explosifs__ejKiqeUyjkahCjQf.json",
+  "values": {
+    "/name": "Explosifs",
+    "/system/description": "<p>Lorsque vous lancez des explosifs,&nbsp;les placez pour tendre un pi&egrave;ge ou&nbsp;les faites d&eacute;toner &agrave; distance, vous&nbsp;utilisez la comp&eacute;tence Explosifs.</p>\n<p>Son attribut S.P.E.C.I.A.L. par&nbsp;d&eacute;faut est la <strong>Perception</strong>, mais&nbsp;vous pouvez utiliser Force pour&nbsp;lancer une grenade aussi loin que possible ou Agilit&eacute;&nbsp;pour essayer de vous rapprocher au plus pr&egrave;s d&rsquo;une mine&nbsp;sans la d&eacute;clencher. Employez Explosifs pour utiliser des&nbsp;mines ou des grenades &agrave; fragmentation, des cocktails&nbsp;Molotov, des grenades Nuka, des grenades &agrave; plasma, des&nbsp;grenades &agrave; impulsion, des mines ou de la dynamite.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ejKiqeUyjkahCjQf",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

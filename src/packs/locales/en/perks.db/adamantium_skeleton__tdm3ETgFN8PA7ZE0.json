@@ -1,0 +1,11 @@
+{
+  "_key": "!items!tdm3ETgFN8PA7ZE0",
+  "_file": "adamantium_skeleton__tdm3ETgFN8PA7ZE0.json",
+  "values": {
+    "/name": "Adamantium Skeleton",
+    "/system/description": "<p>When you suffer damage, the amount of damage needed to inflict a critical hit on you increases by your rank in this perk. For example, if you have one rank in this perk, you suffer a critical hit from 6 or more damage, rather than 5 or more. Each time you take this perk, the level requirement increases by 3.</p>\n<p><strong>Requirements</strong>: END 7, Level 1+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

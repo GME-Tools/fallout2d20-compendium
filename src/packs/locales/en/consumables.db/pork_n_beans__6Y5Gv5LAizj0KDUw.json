@@ -1,0 +1,12 @@
+{
+  "_key": "!items!6Y5Gv5LAizj0KDUw",
+  "_file": "pork_n_beans__6Y5Gv5LAizj0KDUw.json",
+  "values": {
+    "/name": "Pork 'n' Beans",
+    "/system/description": "<p><span class=\"fontstyle0\">A can containing a complete meal: beans stewed in a tomato sauce with chunks of cured pork belly. The tin may be slightly rusted, and the label has partly fallen off due to age and water damage, but the contents are still as edible as ever, though moreso if warmed up first.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

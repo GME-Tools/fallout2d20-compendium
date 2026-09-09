@@ -4,7 +4,7 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
 async function documents(pack) {
-  const root = path.join("src/packs/en", `${pack}.db`);
+  const root = path.join("generated/source-packs/en", `${pack}.db`);
   const files = await readdir(root);
   return Promise.all(files.filter(file => file.endsWith(".json")).map(async file =>
     JSON.parse(await readFile(path.join(root, file), "utf8"))

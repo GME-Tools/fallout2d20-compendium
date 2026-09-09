@@ -1,0 +1,9 @@
+{
+  "_key": "!items!FKZUUGYInT44y8X2",
+  "_file": "salvage__FKZUUGYInT44y8X2.json",
+  "values": {
+    "/name": "Salvage",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/effect": "<p><span class=\"fontstyle0\">Scavengers can salvage from a destroyed [creature] with a successful </span><span class=\"fontstyle2\"><strong>INT + Science</strong> </span><span class=\"fontstyle0\">test with a difficulty of 1. This yields 3 CD </span><span class=\"fontstyle0\">fusion cells, +1 CD</span><span class=\"fontstyle3\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">per AP spent, and each Effect rolled yields 1 uncommon material.</span></p>"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!cNP3hldtBtuAG5eu",
+  "_file": "viande_de_fangeux_a_carapace_molle__cNP3hldtBtuAG5eu.json",
+  "values": {
+    "/name": "Viande de fangeux à carapace molle",
+    "/system/description": "<p>Viande de fangeux à carapace molle, particulièrement tendre et feuilletée comparée à celle d’un fangeux ordinaire, donc bien plus satisfaisante. Elle se cuisine en viande tendre cuite.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cNP3hldtBtuAG5eu",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!3caIOATNwBm6EPuh",
+  "_file": "l_armurier_d_harper_s_ferry__3caIOATNwBm6EPuh.json",
+  "values": {
+    "/name": "L’armurier d’Harper’s Ferry",
+    "/system/description": "<p>Quand vous trouvez des munitions, vous trouvez +2 DC tirs supplémentaires.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

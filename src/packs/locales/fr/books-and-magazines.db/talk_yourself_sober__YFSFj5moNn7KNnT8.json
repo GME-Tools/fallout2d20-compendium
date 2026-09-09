@@ -1,0 +1,16 @@
+{
+  "_key": "!items!YFSFj5moNn7KNnT8",
+  "_file": "leve_le_coude_mais_pas_trop__YFSFj5moNn7KNnT8.json",
+  "values": {
+    "/name": "Lève le coude, mais pas trop !",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Vous gagnez 1 point de Chance, perdu à la fin de la scène s’il n’est pas utilisé, quand vous consommez une boisson Alcoolisée.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Jip3JdMpV9HTHujn]{Lève le coude, mais pas trop !}</p></section>",
+    "/system/effect": "<p>Vous gagnez 1 point de Chance, perdu à la fin de la scène s’il n’est pas utilisé, quand vous consommez une boisson Alcoolisée.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YFSFj5moNn7KNnT8",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

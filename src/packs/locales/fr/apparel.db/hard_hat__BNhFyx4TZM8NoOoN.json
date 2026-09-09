@@ -1,0 +1,15 @@
+{
+  "_key": "!items!BNhFyx4TZM8NoOoN",
+  "_file": "casque_de_chantier__BNhFyx4TZM8NoOoN.json",
+  "values": {
+    "/name": "Casque de chantier",
+    "/system/description": "<p>Un casque léger de métal ou de plastique destiné à protéger des chocs sur un chantier ou dans un atelier. Il n’est pas conçu pour le combat, mais reste préférable à l’absence de casque.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "BNhFyx4TZM8NoOoN",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

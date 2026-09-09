@@ -1,0 +1,12 @@
+{
+  "_key": "!items!M7QQFcLD08YuKOqE",
+  "_file": "pack_brahmin__M7QQFcLD08YuKOqE.json",
+  "values": {
+    "/name": "Pack Brahmin",
+    "/system/description": "<p>A large, two-headed mutant female cow used as a pack animal. The brahmin&rsquo;s profile is on p.341, and they can carry up to 500 lbs. of weight.</p>\n<p>The brahmin can also be milked once a day, requiring an AGI + Survival test with a difficulty of 1. Success means the brahmin produces one brahmin milk (p.161), plus one extra for each AP spent (maximum 5 brahmin milk). A brahmin also produces 2CD units of fertilizer (uncommon material) each day.</p>",
+    "/system/effect": "<p>A mutant cow that carries heavy loads and produces milk and fertilizer</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

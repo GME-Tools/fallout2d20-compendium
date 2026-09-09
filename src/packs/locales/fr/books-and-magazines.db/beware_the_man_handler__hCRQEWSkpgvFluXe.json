@@ -1,0 +1,16 @@
+{
+  "_key": "!items!hCRQEWSkpgvFluXe",
+  "_file": "mefiez_vous_du_dresseur_d_hommes__hCRQEWSkpgvFluXe.json",
+  "values": {
+    "/name": "Méfiez-vous du dresseur d’hommes",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.BvqY6Zk4bfPSpIj7]{Méfiez-vous du dresseur d’hommes}</p></section>",
+    "/system/effect": "<p>La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "hCRQEWSkpgvFluXe",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

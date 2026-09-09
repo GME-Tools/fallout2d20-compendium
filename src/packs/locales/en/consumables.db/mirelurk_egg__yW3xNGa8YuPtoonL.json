@@ -1,0 +1,13 @@
+{
+  "_key": "!items!yW3xNGa8YuPtoonL",
+  "_file": "mirelurk_egg__yW3xNGa8YuPtoonL.json",
+  "values": {
+    "/name": "Mirelurk Egg",
+    "/system/description": "<p><span class=\"fontstyle0\">Eggs found in mirelurk nests. Normally found in clutches of 2-3, these eggs hatch into mirelurk hatchlings if left undisturbed.</span></p>\n<p><span class=\"fontstyle0\">Mirelurk eggs are a key ingredient of both Mirelurk Egg Omelette and Mirelurk Cake.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!TsWbvZ5RsybpeN2y",
+  "_file": "blindage_de_mister_gutsy__TsWbvZ5RsybpeN2y.json",
+  "values": {
+    "/name": "Blindage de Mister Gutsy",
+    "/system/carry": -5,
+    "/system/description": "<p>Semblable au blindage standard mais doté de meilleures propriétés d’absorption thermique pour renforcer sa protection contre les armes à énergie, il équipe normalement les Mister Gutsy. C’est le blindage par défaut de tout personnage Mister Handy qui choisit l’archétype de départ Mister Gutsy.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "TsWbvZ5RsybpeN2y",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

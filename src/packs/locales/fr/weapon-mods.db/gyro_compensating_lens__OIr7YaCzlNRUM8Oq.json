@@ -1,0 +1,15 @@
+{
+  "_key": "!items!OIr7YaCzlNRUM8Oq",
+  "_file": "lentille_a_gyrocompensation__OIr7YaCzlNRUM8Oq.json",
+  "values": {
+    "/name": "Lentille à gyrocompensation",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>energyWeapons - muzzle</h4><dl><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></article></section>",
+    "/system/perks": "Scientifique 1",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "104-105",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "OIr7YaCzlNRUM8Oq",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Scientifique 1"
+  }
+}

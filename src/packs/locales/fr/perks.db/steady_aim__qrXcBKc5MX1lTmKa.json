@@ -1,0 +1,14 @@
+{
+  "_key": "!items!qrXcBKc5MX1lTmKa",
+  "_file": "visee_stable__qrXcBKc5MX1lTmKa.json",
+  "values": {
+    "/name": "Visée stable",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 8, AGI 7 Lorsque vous entreprenez l’action mineure Viser, vous pouvez, au choix, relancer 2d20 lors de votre première attaque de ce tour ou relancer 1d20 lors de toutes vos attaques de ce tour.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "qrXcBKc5MX1lTmKa",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

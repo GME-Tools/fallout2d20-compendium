@@ -1,0 +1,12 @@
+{
+  "_key": "!items!OXTYwe4rWp0n9xVC",
+  "_file": "light_dog_armor__OXTYwe4rWp0n9xVC.json",
+  "values": {
+    "/name": "Light Dog Armor",
+    "/system/description": "<p>Characters who have taken the Dogmeat perk (p.63) are accompanied by a trusted canine companion, and they&rsquo;ll probably want to protect Man&rsquo;s Best Friend from the dangers of the wasteland.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

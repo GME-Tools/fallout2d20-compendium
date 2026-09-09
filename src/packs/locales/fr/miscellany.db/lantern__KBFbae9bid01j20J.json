@@ -1,0 +1,16 @@
+{
+  "_key": "!items!KBFbae9bid01j20J",
+  "_file": "lanterne__KBFbae9bid01j20J.json",
+  "values": {
+    "/name": "Lanterne",
+    "/system/description": "<p>Une simple lampe à huile ou à gaz dont la flamme est alimentée par un réservoir. Protégée par du verre et posée sur une base solide, elle peut être déposée sans risque de basculer et éclaire toute la zone environnante. Redevenue courante après la Guerre faute d’électricité fiable, elle doit néanmoins être régulièrement ravitaillée.</p>",
+    "/system/effect": "<p>Produit une lumière vive à portée courte et une lumière faible à portée moyenne.</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KBFbae9bid01j20J",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

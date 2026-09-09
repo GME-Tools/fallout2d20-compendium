@@ -1,0 +1,14 @@
+{
+  "_key": "!items!TzAVKNEtdWWgfx4u",
+  "_file": "locomotive__TzAVKNEtdWWgfx4u.json",
+  "values": {
+    "/name": "Locomotive",
+    "/system/description": "<p>Rangs : 2 Prérequis : FOR 9, END 7, niveau 1+ Au prix d’une action capitale, vous pouvez charger si vous portez une armure assistée ou êtes un super mutant. Il s’agit d’une action de déplacement et vous ne pouvez pas vous déplacer ou sprinter au cours du même tour. Lorsque vous entreprenez cette action, vous vous placez à portée de main d’un ennemi situé à portée moyenne (1 zone) ou inférieure, puis effectuez un test de FOR + Athlétisme de difficulté 2. En cas de réussite, votre ennemi subit vos dégâts à mains nues normaux et vous le renversez. Au rang 2, ajoutez +1 et l’effet de dégâts Étourdissant aux dégâts infligés. À la discrétion du MJ, des créatures particulièrement massives ou robustes peuvent ne pas être renversées par cette action. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "TzAVKNEtdWWgfx4u",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

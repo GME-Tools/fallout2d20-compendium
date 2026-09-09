@@ -1,0 +1,14 @@
+{
+  "_key": "!items!T3vX1fP7cSG5v0zh",
+  "_file": "metabolisme_rapide__T3vX1fP7cSG5v0zh.json",
+  "values": {
+    "/name": "Métabolisme rapide",
+    "/system/description": "<p>Rangs : 3 Prérequis : END 6, niveau 1+, inaccessible aux robots Lorsque vous récupérez des PV par un autre moyen que le repos, vous récupérez 1 PV supplémentaire par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 3.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "T3vX1fP7cSG5v0zh",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

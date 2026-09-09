@@ -1,0 +1,16 @@
+{
+  "_key": "!items!AMCmZ1rbCC4adfMT",
+  "_file": "viande_de_darillon__AMCmZ1rbCC4adfMT.json",
+  "values": {
+    "/name": "Viande de darillon",
+    "/system/description": "<p>Viande prélevée sur un darillon, une mouche-scorpion mutante au dard redoutable. Peu appétissante d’aspect, elle se cuisine convenablement une fois débarrassée de son exosquelette. Elle permet de préparer un filet de darillon.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "AMCmZ1rbCC4adfMT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

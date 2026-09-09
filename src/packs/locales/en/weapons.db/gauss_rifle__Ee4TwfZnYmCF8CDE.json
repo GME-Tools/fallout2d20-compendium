@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Ee4TwfZnYmCF8CDE",
+  "_file": "gauss_rifle__Ee4TwfZnYmCF8CDE.json",
+  "values": {
+    "/system/mods/6hh0Evmfv0N8kX81/$overrides/~1name": "Capacitor Boosting Coil",
+    "/system/ammo": "2mm Electromagnetic Cartridge",
+    "/system/description": "<p><span class=\"fontstyle0\">The gauss rifle uses magnetic induction to propel a projectile at incredible, devastating speeds. Each shot can be &ldquo;charged&rdquo; for maximum damage by holding the trigger for a moment before releasing to fire.</span></p>\n<p><span class=\"fontstyle0\">A Gauss Rifle can accept one each of the following mods:</span></p>\n<ul>\n<li><strong>Barrel:</strong> Shielded Barrel</li>\n<li><strong>Stock:</strong> Recoil-Compensating Stock</li>\n<li><strong>Capacitors:</strong> Full Capacitors, Capacitor Boosting Coil</li>\n<li><strong>Sights:</strong> Reflex Sight, Short Scope, Long Scope, Short Night Vision Scope, Long Night Vision Scope, Recon Scope</li>\n<li><strong>Muzzle:</strong> Suppressor</li>\n</ul>",
+    "/system/weight": 16,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Gauss Rifle"
+  }
+}

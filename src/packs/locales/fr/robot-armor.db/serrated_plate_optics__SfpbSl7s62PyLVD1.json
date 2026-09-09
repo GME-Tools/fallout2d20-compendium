@@ -1,0 +1,18 @@
+{
+  "_key": "!items!SfpbSl7s62PyLVD1",
+  "_file": "plaque_dentelee_optiques__SfpbSl7s62PyLVD1.json",
+  "values": {
+    "/name": "Plaque dentelée (Optiques)",
+    "/system/carry": -5,
+    "/system/description": "<p>Des plaques de blindage de fortune aux bords acérés et dentelés, plus dangereuses pour ceux qui s’en prennent au robot.</p><p><strong>Spécial :</strong> lorsqu’une attaque de corps à corps vise une localisation ainsi équipée et que l’attaquant subit une complication, celui-ci subit 2 @fos[DC] de dégâts physiques Persistants. Les attaques de corps à corps effectuées avec des bras ainsi équipés gagnent aussi l’effet Persistant (physique).</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "SfpbSl7s62PyLVD1",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armurier 1"
+  }
+}

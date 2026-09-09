@@ -1,0 +1,11 @@
+{
+  "_key": "!items!SbayR4I8JCyymq0a",
+  "_file": "plasma_l_arme_de_demain__SbayR4I8JCyymq0a.json",
+  "values": {
+    "/name": "Plasma : l’arme de demain",
+    "/system/description": "<p>Une attaque avec une arme plasma gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

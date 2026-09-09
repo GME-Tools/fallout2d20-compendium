@@ -1,0 +1,14 @@
+{
+  "_key": "!items!pYMfuytsOCR3mxW8",
+  "_file": "tomahawk__pYMfuytsOCR3mxW8.json",
+  "values": {
+    "/system/description": "<p>Une petite hache à poignée courte ressemblant à une hachette. Moins subtil qu’un couteau de lancer, un tomahawk projeté peut indubitablement avoir un impact (physique comme mental) sur l’ennemi.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "pYMfuytsOCR3mxW8",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

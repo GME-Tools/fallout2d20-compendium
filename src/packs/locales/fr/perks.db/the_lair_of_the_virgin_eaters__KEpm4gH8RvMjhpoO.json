@@ -1,0 +1,11 @@
+{
+  "_key": "!items!KEpm4gH8RvMjhpoO",
+  "_file": "l_antre_des_devoreurs_de_vierges__KEpm4gH8RvMjhpoO.json",
+  "values": {
+    "/name": "L’antre des dévoreurs de vierges",
+    "/system/description": "<p>Vous gagnez +10 à votre charge maximale pendant une scène.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

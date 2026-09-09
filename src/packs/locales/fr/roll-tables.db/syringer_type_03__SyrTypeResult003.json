@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult003",
+  "_file": "syringer_type_03__SyrTypeResult003.json",
+  "values": {
+    "/name": "Seringue à larve de mouche bouffie",
+    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBloatflyAmmo1]{Seringue à larve de mouche bouffie}"
+  }
+}

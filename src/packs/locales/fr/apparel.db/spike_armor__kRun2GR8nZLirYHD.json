@@ -1,0 +1,16 @@
+{
+  "_key": "!items!kRun2GR8nZLirYHD",
+  "_file": "armure_a_pointes__kRun2GR8nZLirYHD.json",
+  "values": {
+    "/name": "Armure à pointes",
+    "/system/description": "<p>Plusieurs couches de cuir, de chiffons, de plaques de métal, de chaînes et de barres cousues ou soudées ensemble. De nombreuses barres dépassent vers l’extérieur, formant des pointes qui repoussent les attaques de corps à corps, tandis que les plaques et le rembourrage protègent contre les dangers et les attaques. Une capuche et un casque complètent la protection.</p>",
+    "/system/weight": 8.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "kRun2GR8nZLirYHD",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

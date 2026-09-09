@@ -1,0 +1,15 @@
+{
+  "_key": "!items!c8S2PriC3vi4KyUs",
+  "_file": "mains_tremblantes__c8S2PriC3vi4KyUs.json",
+  "values": {
+    "/name": "Mains tremblantes",
+    "/system/description": "<p>Vos attaques à distance infligent 2 DC de dégâts de moins, jusqu’à un minimum de 1 DC.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "c8S2PriC3vi4KyUs",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

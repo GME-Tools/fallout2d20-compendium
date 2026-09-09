@@ -1,0 +1,9 @@
+{
+  "_key": "!items!LJXpGjoI1HYU6Heb",
+  "_file": "future_weapons_today__LJXpGjoI1HYU6Heb.json",
+  "values": {
+    "/name": "Future Weapons Today",
+    "/system/description": "<p>Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2CD for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

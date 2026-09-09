@@ -1,0 +1,16 @@
+{
+  "_key": "!items!mGCVgHtv7btlXFcj",
+  "_file": "vetements_decontractes__mGCVgHtv7btlXFcj.json",
+  "values": {
+    "/name": "Vêtements décontractés",
+    "/system/description": "<p>Vêtements simples, légers et faciles à porter, destinés avant la Guerre aux loisirs et activités modérées. <strong>Spécial :</strong> une fois par scène, ils permettent de relancer un d20 d’un test fondé sur la FOR ou l’AGI. Ils peuvent recevoir du Tissage balistique.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mGCVgHtv7btlXFcj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

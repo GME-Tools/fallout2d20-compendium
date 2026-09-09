@@ -1,0 +1,17 @@
+{
+  "_key": "!items!M4xWjxuABTWOefg2",
+  "_file": "arme_plasma__M4xWjxuABTWOefg2.json",
+  "values": {
+    "/system/ammo": "Cartouche au plasma",
+    "/system/description": "<p>Munitions: cartouches au plasma Les armes plasma, ou lanceplasma, sont des armes de haute technologie tirant un gaz ionisé surchauffé, ou plasma. Alimentées par une cartouche au plasma, ces armes sont rares et puissantes, infligeant des dégâts par l’impact à vitesse extrême du tir de plasma puis par le transfert thermique, car la chaleur du tir de plasma est transférée dans la cible au moment de l’impact. Spécial: les armes plasma infligent à la fois des dégâts balistiques et des dégâts énergétiques. Faites le jet de dégâts normalement, puis déduisez du total la résistance aux dégâts balistiques ou énergétiques de la cible (la plus faible des deux). Tout effet de dégâts Persistant (appliqué par les mods de l’arme) inflige des dégâts énergétiques. Le profil par défaut représente un pistolet plasma. Une arme plasma peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil plasma ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: diviseur, canon automatique, canon de précision, canon lance-flammes, canon amélioré  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "M4xWjxuABTWOefg2",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Arme plasma"
+  }
+}

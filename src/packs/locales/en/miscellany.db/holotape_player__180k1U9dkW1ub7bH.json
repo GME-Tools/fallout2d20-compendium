@@ -1,0 +1,13 @@
+{
+  "_key": "!items!180k1U9dkW1ub7bH",
+  "_file": "holotape_player__180k1U9dkW1ub7bH.json",
+  "values": {
+    "/name": "Holotape Player",
+    "/system/description": "<p>A small device for playing back audio recorded to holotape, producing the sound out of a small speaker or into a connected set of headphones (not included). Video and data holotapes cannot be played back on this device, as it lacks a screen to display them&mdash;such tapes need to be played from a desk terminal or similar computer.</p>",
+    "/system/effect": "<p>Allows playback of audio holotapes</p>",
+    "/system/weight": 3,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

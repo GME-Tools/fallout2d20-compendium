@@ -1,0 +1,13 @@
+{
+  "_key": "!items!HYNVUjwQxMO4KXIe",
+  "_file": "actuated_frame_optics__HYNVUjwQxMO4KXIe.json",
+  "values": {
+    "/name": "Actuated Frame (Optics)",
+    "/system/carry": 10,
+    "/system/description": "<p>A specially made set of armor plates fitted with actuators and motive systems which aid the robot&rsquo;s actions.</p>\n<p><strong>Special:</strong> Melee attacks made from arms fitted with an actuated frame inflict +1 @fos[DC] damage. If the robot&rsquo;s Thruster is fitted with an actuated frame, it may make both a Move minor action and a Sprint major action in the same turn.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>2</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Common Materials ×3</li></ul></section>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Repair"
+  }
+}

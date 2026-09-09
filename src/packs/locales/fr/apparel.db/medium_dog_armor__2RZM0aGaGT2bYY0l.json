@@ -1,0 +1,16 @@
+{
+  "_key": "!items!2RZM0aGaGT2bYY0l",
+  "_file": "armure_moyenne_pour_chien__2RZM0aGaGT2bYY0l.json",
+  "values": {
+    "/name": "Armure moyenne pour chien",
+    "/system/description": "<p>Les personnages ayant choisi l’atout Canigou sont accompagnés d’un fidèle compagnon canin qu’ils souhaiteront probablement protéger des dangers des Terres désolées.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "2RZM0aGaGT2bYY0l",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

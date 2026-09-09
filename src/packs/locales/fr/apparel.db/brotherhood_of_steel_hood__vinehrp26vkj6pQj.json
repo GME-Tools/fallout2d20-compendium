@@ -1,0 +1,15 @@
+{
+  "_key": "!items!vinehrp26vkj6pQj",
+  "_file": "capuche_de_la_confrerie_de_l_acier__vinehrp26vkj6pQj.json",
+  "values": {
+    "/name": "Capuche de la Confrérie de l’Acier",
+    "/system/description": "<p>Couvre-chef ajusté assorti à l’uniforme de la Confrérie de l’Acier, conçu avant la Guerre pour les porteurs d’armure assistée. Il se branche au casque pour améliorer l’interface avec les systèmes et contient un écouteur et un microphone reliés à la radio interne.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vinehrp26vkj6pQj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

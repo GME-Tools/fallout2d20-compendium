@@ -1,0 +1,11 @@
+{
+  "_key": "!items!FgiFIu2LmrckPy5Y",
+  "_file": "la_jungle_des_bebes_chauves_souris__FgiFIu2LmrckPy5Y.json",
+  "values": {
+    "/name": "La jungle des bébés chauves-souris",
+    "/system/description": "<p>Quand vous subissez des dégâts de poison, vous gagnez +3 en résistance aux dégâts de poison.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

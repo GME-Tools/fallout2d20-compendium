@@ -1,0 +1,11 @@
+{
+  "_key": "!items!kQD85MOcz1B4KHsV",
+  "_file": "le_massacre_des_ecureuils_des_appalaches__kQD85MOcz1B4KHsV.json",
+  "values": {
+    "/name": "Le massacre des écureuils des Appalaches",
+    "/system/description": "<p>Un aliment cuisiné que vous préparez et mangez guérit +3 PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

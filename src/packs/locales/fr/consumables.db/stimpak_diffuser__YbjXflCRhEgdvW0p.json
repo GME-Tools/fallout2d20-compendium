@@ -1,0 +1,16 @@
+{
+  "_key": "!items!YbjXflCRhEgdvW0p",
+  "_file": "diffuseur_a_stimpak__YbjXflCRhEgdvW0p.json",
+  "values": {
+    "/name": "Diffuseur à Stimpak",
+    "/system/description": "<p>Ce dispositif disperse le contenu d’un super Stimpak dans un nuage d’aérosol médicinal. <strong>Utilisation :</strong> déployé par l’action mineure Interagir, il soigne immédiatement 4 Santé à toutes les créatures non robotiques à portée Courte. Chaque utilisation consomme un super Stimpak.</p>",
+    "/system/effect": "<p>Soigne 4 PV à toutes les cibles à portée courte.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YbjXflCRhEgdvW0p",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

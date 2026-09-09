@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Epn0E2yMAxTmSOFX",
+  "_file": "paume_paralysante__Epn0E2yMAxTmSOFX.json",
+  "values": {
+    "/name": "Paume paralysante",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 8 Lorsque vous effectuez une attaque à mains nues et choisissez de cibler une localisation particulière, votre attaque obtient l’effet de dégâts Étourdissant.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Epn0E2yMAxTmSOFX",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

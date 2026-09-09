@@ -1,0 +1,16 @@
+{
+  "_key": "!items!5TAOMd3GGpapiM6Q",
+  "_file": "minigun__5TAOMd3GGpapiM6Q.json",
+  "values": {
+    "/system/ammo": "Cartouche 5 mm",
+    "/system/description": "<p>Munitions: cartouches 5 mm Le minigun est une arme motorisée à tir rapide sur le modèle de la Gatling fréquemment employée par l’armée ou par d’autres factions moins puissantes qui ont réussi à acquérir ce type d’arme. Les miniguns sont utilisés comme arme montée latérale sur les vertiptères ou comme armes de poing lourdes d’assaut et de soutien. Grâce à sa cadence de tir élevée, l’arme peut produire des résultats dévastateurs, mais consomme pour cela des munitions à un rythme effarant; il est donc difficile de ne pas tomber à court de cartouches. Un minigun peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au minigun et s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 13.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5TAOMd3GGpapiM6Q",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true
+  }
+}

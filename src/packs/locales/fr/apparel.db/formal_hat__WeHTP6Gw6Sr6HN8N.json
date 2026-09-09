@@ -1,0 +1,15 @@
+{
+  "_key": "!items!WeHTP6Gw6Sr6HN8N",
+  "_file": "chapeau_elegant__WeHTP6Gw6Sr6HN8N.json",
+  "values": {
+    "/name": "Chapeau élégant",
+    "/system/description": "<p>Un chapeau élégant adapté aux affaires, aux cérémonies ou simplement au goût de son propriétaire. Beaucoup sont usés mais restent fonctionnels. <strong>Spécial :</strong> une fois par scène, il permet de relancer un d20 d’un test fondé sur le CHA en aidant à faire bonne impression. Il peut recevoir du Tissage balistique.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "WeHTP6Gw6Sr6HN8N",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

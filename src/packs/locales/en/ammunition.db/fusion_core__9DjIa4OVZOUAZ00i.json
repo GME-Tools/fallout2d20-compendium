@@ -1,0 +1,13 @@
+{
+  "_key": "!items!9DjIa4OVZOUAZ00i",
+  "_file": "fusion_core__9DjIa4OVZOUAZ00i.json",
+  "values": {
+    "/name": "Fusion Core",
+    "/system/description": "<p>Pre-War fusion cores are high-grade, long-term nuclear batteries. A single core can power a small building for a long time or provide a lot of power for something very quickly. Most suits of Power Armor accept a fusion core power source, which lasts for several hours of activity. They can also be used as the ammunition supply for a Gatling laser.</p> <p>When discovered, a fusion core contains a number of charges equal to 10 plus the user's Science skill (people with more scientific knowledge can utilize the power more efficiently; the Nuclear Physicist perk also adds extra charges, see p.68). How these charges are used or depleted depends on what they're plugged into (see Power Armor, p.123).</p> <p>When used as the ammunition for a Gatling laser, each charge a fusion core contains translates to 50 shots for a Gatling laser. As a Gatling weapon, the Gatling laser consumes ammunition ten times as quickly as most weapon (see Gatling, p.90).</p> <p>The Scrounger perk cannot increase the number of fusion cores found.</p> <p><strong>Quantity Found:</strong> [[/r 1 # Fusion Core]]</p> <p><em>(item defaults to a default base charge level of 10, this should be adjusted by the player's Perks and science slill if required)</em></p>",
+    "/system/weight": 4,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/source/page": 94
+  }
+}

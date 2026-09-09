@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult001",
+  "_file": "syringer_type_01__SyrTypeResult001.json",
+  "values": {
+    "/name": "Berserk Syringe",
+    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBerserkAmmo01]{Berserk Syringe}"
+  }
+}

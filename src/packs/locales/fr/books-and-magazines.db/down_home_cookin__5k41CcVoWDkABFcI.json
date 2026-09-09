@@ -1,0 +1,16 @@
+{
+  "_key": "!items!5k41CcVoWDkABFcI",
+  "_file": "cuisiner_a_la_maison__5k41CcVoWDkABFcI.json",
+  "values": {
+    "/name": "Cuisiner à la maison",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Ajoutez +2 DC de dégâts à une attaque avec une arme de Lancer autre qu’un explosif.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.1aIYFwFQGic2zHjK]{Cuisiner à la maison}</p></section>",
+    "/system/effect": "<p>Ajoutez +2 DC de dégâts à une attaque avec une arme de Lancer autre qu’un explosif.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5k41CcVoWDkABFcI",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!QuYxQccl5EHdXTcT",
+  "_file": "attaque_a_mains_nues__QuYxQccl5EHdXTcT.json",
+  "values": {
+    "/system/description": "<p>Une attaque portée sans arme, à coups de poing, de pied ou avec une autre partie du corps.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "QuYxQccl5EHdXTcT",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Attaque à mains nues"
+  }
+}

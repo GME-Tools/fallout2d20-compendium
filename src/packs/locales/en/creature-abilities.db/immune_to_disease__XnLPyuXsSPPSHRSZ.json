@@ -1,0 +1,9 @@
+{
+  "_key": "!items!XnLPyuXsSPPSHRSZ",
+  "_file": "immune_to_disease__XnLPyuXsSPPSHRSZ.json",
+  "values": {
+    "/name": "Immune to Disease",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] is immune to the effects of all diseases, and they will never suffer the symptoms of any disease.</span></p>"
+  }
+}

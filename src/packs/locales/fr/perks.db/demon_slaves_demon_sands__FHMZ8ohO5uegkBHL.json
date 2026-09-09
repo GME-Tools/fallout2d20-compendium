@@ -1,0 +1,11 @@
+{
+  "_key": "!items!FHMZ8ohO5uegkBHL",
+  "_file": "esclaves_demoniaques_sables_demoniaques__FHMZ8ohO5uegkBHL.json",
+  "values": {
+    "/name": "Esclaves démoniaques, sables démoniaques",
+    "/system/description": "<p>Une attaque portée contre des Goules inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!fJI5l0xbl26ylvTI",
+  "_file": "laser_de_l_institut__fJI5l0xbl26ylvTI.json",
+  "values": {
+    "/system/ammo": "Cellule à fusion",
+    "/system/description": "<p>Munitions: cellules à fusion Développés par l’Institut après la Grande Guerre, les lasers de l’Institut ont un design et une fonction différents des armes laser d’avant-guerre utilisées par les autres factions, par exemple la Confrérie de l’Acier. Échangeant la puissance brute contre une succession rapide de rayons, ces lasers peuvent émettre une volée fulgurante de tirs de suppression. Le profil par défaut représente un pistolet de l’Institut. Un laser de l’Institut peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de l’Institut ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon : canon long, canon automatique, canon amélioré  Crosse: crosse standard  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fJI5l0xbl26ylvTI",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Laser de l’Institut"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!sNyzZdtR8zQeKE86",
+  "_file": "la_starlette_tireuse_d_elite__sNyzZdtR8zQeKE86.json",
+  "values": {
+    "/name": "La starlette tireuse d’élite !",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +1 DC sur vos attaques avec des armes Précises.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.x6hpmUJFDTD3Iw82]{La starlette tireuse d’élite !}</p></section>",
+    "/system/effect": "<p>Vous gagnez +1 DC sur vos attaques avec des armes Précises.</p>",
+    "/system/publication": "Histoires à dormir debout",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "sNyzZdtR8zQeKE86",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

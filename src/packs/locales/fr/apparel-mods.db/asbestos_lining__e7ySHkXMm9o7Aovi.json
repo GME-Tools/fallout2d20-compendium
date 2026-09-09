@@ -1,0 +1,19 @@
+{
+  "_key": "!items!e7ySHkXMm9o7Aovi",
+  "_file": "doublure_en_amiante__e7ySHkXMm9o7Aovi.json",
+  "values": {
+    "/name": "Doublure en amiante",
+    "/system/description": "<p>Les améliorations d’armure s’appliquent à tous les types d’armure, à l’exception de l’armure de sécurité Vault-Tec. Elles s’installent toutes avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "/system/effect": "<p>Ignorez les dégâts énergétiques infligés par l’effet de dégâts Persistant.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "e7ySHkXMm9o7Aovi",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armurier 1"
+  }
+}

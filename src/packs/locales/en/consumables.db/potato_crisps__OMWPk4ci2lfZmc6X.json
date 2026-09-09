@@ -1,0 +1,12 @@
+{
+  "_key": "!items!OMWPk4ci2lfZmc6X",
+  "_file": "potato_crisps__OMWPk4ci2lfZmc6X.json",
+  "values": {
+    "/name": "Potato Crisps",
+    "/system/description": "<p><span class=\"fontstyle0\">A can of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, you can still find the odd pack of these in most places where people lived or worked.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

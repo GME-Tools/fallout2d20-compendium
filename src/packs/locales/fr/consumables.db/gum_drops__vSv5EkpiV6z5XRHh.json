@@ -1,0 +1,16 @@
+{
+  "_key": "!items!vSv5EkpiV6z5XRHh",
+  "_file": "boules_de_gomme__vSv5EkpiV6z5XRHh.json",
+  "values": {
+    "/name": "Boules de gomme",
+    "/system/description": "<p>Confiseries d’avant-guerre faites de petites gouttes de gélatine figée, sucrées et parfumées de saveurs agressives. Ironiquement, la variété ayant le mieux survécu portait la mention « radioactive » pour son acidité ; après des décennies sur les étagères, le terme est devenu plus littéral.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vSv5EkpiV6z5XRHh",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

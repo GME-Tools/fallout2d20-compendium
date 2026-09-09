@@ -1,0 +1,18 @@
+{
+  "_key": "!items!vo4udlZQUOjzx402",
+  "_file": "bouchees_d_ecureuil_croustillantes__vo4udlZQUOjzx402.json",
+  "values": {
+    "/name": "Bouchées d’écureuil croustillantes",
+    "/system/description": "<p>Des morceaux d’écureuil frits jusqu’à devenir croustillants, souvent maintenus sur une brochette. Un apport nutritif léger qui ne ralentit pas la digestion.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.JoLgVDbxQV3bT11R]{Bouchées d’écureuil} ×1</li></ul></section>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vo4udlZQUOjzx402",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Bouchées d’écureuil"
+  }
+}

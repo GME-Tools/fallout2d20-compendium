@@ -1,0 +1,9 @@
+{
+  "_key": "!items!cPjofC2nJegzoPXS",
+  "_file": "fh_5_01_whistling_in_the_dark__cPjofC2nJegzoPXS.json",
+  "values": {
+    "/name": "FH 5-01 Whistling in the Dark",
+    "/system/description": "<p>If you are detected while sneaking, you add +2 to Physical damage resistance against the first attack you receive after being detected</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

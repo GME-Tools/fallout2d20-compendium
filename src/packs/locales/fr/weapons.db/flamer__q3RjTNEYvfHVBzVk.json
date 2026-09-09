@@ -1,0 +1,17 @@
+{
+  "_key": "!items!q3RjTNEYvfHVBzVk",
+  "_file": "lance_flammes__q3RjTNEYvfHVBzVk.json",
+  "values": {
+    "/system/ammo": "Carburant de lance-flammes",
+    "/system/description": "<p>Munitions: carburant de lance-flammes Un lance-flammes est une arme qui projette un mélange de carburant enflammé sur une zone, créant en pratique un jet de flammes qui peuvent brûler ou enflammer des cibles à distance. Idéal pour nettoyer les branches mortes, la vermine agaçante et les bunkers fortifiés! Un lance-flammes peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés aux lanceflammes et s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "q3RjTNEYvfHVBzVk",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Lance-flammes"
+  }
+}

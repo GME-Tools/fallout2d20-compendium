@@ -1,0 +1,68 @@
+{
+  "_id": "nOUCuf8jnEhLJkcJ",
+  "_key": "!items!nOUCuf8jnEhLJkcJ",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Vegetable Soup.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 13,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 7,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 3,
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Carrot",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.8Fv9dZQm5Dax1INF"
+          },
+          {
+            "canonicalName": "Dirty Water",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1"
+          },
+          {
+            "canonicalName": "Tato",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.4Z3zGSnBGJcgR5c2"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

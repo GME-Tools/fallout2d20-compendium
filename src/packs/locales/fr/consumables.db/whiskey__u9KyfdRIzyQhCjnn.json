@@ -1,0 +1,17 @@
+{
+  "_key": "!items!u9KyfdRIzyQhCjnn",
+  "_file": "whisky__u9KyfdRIzyQhCjnn.json",
+  "values": {
+    "/name": "Whisky",
+    "/system/description": "<p>Alcool distillé trois fois à partir d’un moût de céréales. Avant la Guerre, il était produit aux États-Unis et ailleurs ; quelques distilleries des Terres désolées en fabriquent encore avec du maïs et du razigrain.</p>",
+    "/system/effect": "<p>Relancez jusqu’à deux d20 au total lors des tests de FOR.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "u9KyfdRIzyQhCjnn",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

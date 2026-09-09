@@ -1,0 +1,11 @@
+{
+  "_key": "!items!7gsRBEPt328MaEyI",
+  "_file": "reparer_tout_et_n_importe_quoi__7gsRBEPt328MaEyI.json",
+  "values": {
+    "/name": "Réparer tout et n’importe quoi",
+    "/system/description": "<p>Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié les composants nécessaires, en arrondissant au supérieur.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

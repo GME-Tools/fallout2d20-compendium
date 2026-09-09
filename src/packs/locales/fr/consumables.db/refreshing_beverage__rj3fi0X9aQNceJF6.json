@@ -1,0 +1,20 @@
+{
+  "_key": "!items!rj3fi0X9aQNceJF6",
+  "_file": "boisson_rafraichissante__rj3fi0X9aQNceJF6.json",
+  "values": {
+    "/name": "Boisson rafraîchissante",
+    "/system/description": "<p>Mystérieuse panacée élaborée avec des fournitures médicales, cette boisson restaure la santé et purge radiations et dépendances. Sa recette s’est transmise oralement, mais ses nombreux ingrédients la rendent rare.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×3</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL]{Poche de sang} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.vDzTAi2iRrZ5XTcc]{RadAway} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7]{Stimpak} ×1</li></ul></section>",
+    "/system/effect": "<p>Soigne 10 dégâts de radiation et supprime toutes les dépendances.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "rj3fi0X9aQNceJF6",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Poche de sang",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Eau purifiée"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!IRIhIXR0X1PnThvd",
+  "_file": "l_avenir_des_armes_est_a_vous__IRIhIXR0X1PnThvd.json",
+  "values": {
+    "/name": "L’avenir des armes est à vous",
+    "/system/description": "<p>Un magazine consacré aux armes à énergie et aux technologies nouvelles.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez ses dégâts de +2 DC ; elle ne peut pas attaquer au tour suivant, le temps de refroidir.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.LJXpGjoI1HYU6Heb]{L’avenir des armes est à vous}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez ses dégâts de +2 DC ; elle ne peut pas attaquer au tour suivant, le temps de refroidir.</p>",
+    "/system/publication": "L’avenir des armes est à vous",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "IRIhIXR0X1PnThvd",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

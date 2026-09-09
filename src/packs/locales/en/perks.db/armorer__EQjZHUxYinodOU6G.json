@@ -1,0 +1,11 @@
+{
+  "_key": "!items!EQjZHUxYinodOU6G",
+  "_file": "armorer__EQjZHUxYinodOU6G.json",
+  "values": {
+    "/name": "Armorer",
+    "/system/description": "<p>You can modify armor with armor mods. Each rank in this perk unlocks an additional rank of mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, etc.</p>\n<p>Each time you take this perk, the level requirement increases by 4.</p>\n<p><strong>Requirements</strong>: STR 5, INT 6</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!P3SMmJulZT5OyArI",
+  "_file": "intense_training__P3SMmJulZT5OyArI.json",
+  "values": {
+    "/name": "Intense Training",
+    "/system/description": "<p>Increase any one S.P.E.C.I.A.L attribute by 1 rank. As usual, your S.P.E.C.I.A.L attributes cannot be increased beyond 10 using this method. Each time you take this perk, the level requirement increases by 2.</p>\n<p><strong>Requirements</strong>: Level 2+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

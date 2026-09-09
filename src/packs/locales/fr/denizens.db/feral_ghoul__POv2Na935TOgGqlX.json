@@ -1,0 +1,25 @@
+{
+  "_key": "!actors!POv2Na935TOgGqlX",
+  "_file": "goule_sauvage__POv2Na935TOgGqlX.json",
+  "values": {
+    "/items/5/$overrides/~1system~1effect": "<p>Le corps d’une goule morte contient 2 DC objets de bric-à-brac, récupérables normalement.</p>",
+    "/items/6/system/weight": 0,
+    "/items/6/name": "Attaque à mains nues",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "POv2Na935TOgGqlX",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Humain Mutant, Créature Normale",
+    "/system/biography": "<p>Goule âgée de plusieurs siècles ou humain malchanceux à qui la goulification a rapidement dégradé le corps et l’esprit, les goules sauvages sont ce qu’il reste quand l’humanité d’un sujet disparaît. Ces créatures violentes attaquent leurs victimes en se précipitant sur elles pour les lacérer. Il est impossible de les raisonner, puisqu’elles ont perdu leur capacité à comprendre les paroles et ne semblent posséder aucune trace d’intelligence. Certaines d’entre elles semblent néanmoins conserver quelques souvenirs et transportent des objets de leur passé civilisé ou se rendent dans des lieux qu’elles connaissaient. Les goules sauvages s’en prennent rarement aux autres goules, sauvages ou non, mais attaquent toutes les autres créatures à vue.</p>",
+    "/name": "Goule sauvage"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!JoLgVDbxQV3bT11R",
+  "_file": "squirrel_bits__JoLgVDbxQV3bT11R.json",
+  "values": {
+    "/name": "Squirrel Bits",
+    "/system/description": "<p><span class=\"fontstyle0\">A few scraps and chunks of squirrel meat. Squirrels, not being especially large creatures, do not have much meat on them.</span></p>\n<p><span class=\"fontstyle0\">Squirrel bits can be cooked to make Crispy Squirrel Bits, Squirrel on a Stick, or Squirrel Stew.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

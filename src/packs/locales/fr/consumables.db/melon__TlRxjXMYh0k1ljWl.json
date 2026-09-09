@@ -1,0 +1,16 @@
+{
+  "_key": "!items!TlRxjXMYh0k1ljWl",
+  "_file": "melon__TlRxjXMYh0k1ljWl.json",
+  "values": {
+    "/system/description": "<p>Gros fruit vert et juteux à peau dure, cultivé ou sauvage. Une fois ouvert, il rassasie et étanche la soif. Cultivé dans un environnement non irradié, il n’est pas irradié mais sa rareté augmente de +1.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "TlRxjXMYh0k1ljWl",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "n6asYMleVsDYBbdC",
+  "_key": "!items!n6asYMleVsDYBbdC",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Radstag Stew.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 60,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 12,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 4,
+        "perks": [],
+        "rarity": "rare",
+        "materials": [
+          {
+            "canonicalName": "Gourd",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.Qe3DSub3iHONeRaO"
+          },
+          {
+            "canonicalName": "Radstag Meat",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.VszpkDVgQA22ZCmx"
+          },
+          {
+            "canonicalName": "Silt Bean",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.lrllDzCjzc9atRUy"
+          },
+          {
+            "name": "Vodka",
+            "canonicalName": "Vodka",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.pGaN2EDIWl3lUsrx"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

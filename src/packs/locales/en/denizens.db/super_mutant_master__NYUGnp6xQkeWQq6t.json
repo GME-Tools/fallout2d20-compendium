@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!NYUGnp6xQkeWQq6t",
+  "_file": "super_mutant_master__NYUGnp6xQkeWQq6t.json",
+  "values": {
+    "/items/0/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The super mutant master reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/1/$overrides/~1system~1description": "<p>The super mutant master educes all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/2/system/weight": "0",
+    "/items/2/name": "Unarmed Strike",
+    "/items/4/$overrides/~1system~1weight": "0",
+    "/items/4/$overrides/~1system~1effect": "<p>Minigun OR Missile Launcher, Assorted Human Bones (2 Junk Items), Wealth 1, Army Helmet, Sturdy Raider Chest Piece, Sturdy Raider Arms ×2, Sturdy Raider Legs ×2</p>",
+    "/items/5/name": "Big Guns",
+    "/items/6/name": "Melee Weapons",
+    "/items/7/name": "Small Guns",
+    "/items/8/name": "Survival",
+    "/items/9/name": "Unarmed",
+    "/items/10/system/description": "<p><span class=\"fontstyle0\">The minigun is a motorized Gatling-style rapid fire weapon commonly employed by the military, or other lesser factions that managed to acquire such a weapon. Miniguns can be found as mounted door guns on Vertibirds or as a handheld heavy assault and support weapon. The high rate-of-fire of the weapon means that it can produce devastating results, but at a cost of consuming ammo at incredible rates, making it difficult to keep the weapon supplied.</span></p>",
+    "/items/10/system/weight": "27",
+    "/items/11/system/description": "<p><span class=\"fontstyle0\">A refined, highly adaptable multipurpose missile weapon introduced into the American arsenal, the modular launcher is smaller and more maneuverable than the earlier model. It consists of the two-part launch tube, firing mechanism, mounting brackets, open battle sights and a mount for a guidance system. It is a breech-loading weapon, reloaded by lifting the front section of the launch tube and sliding the 72mm fin-stabilized missile inside. The rear part of the tube is designed to safely disperse launch gasses, allowing it to be launched from confined spaces. Other forms and designs of Missile Launcher exist across the wastelands, but this form is common enough that most consider it the standard.</span></p>",
+    "/items/11/system/weight": "21",
+    "/items/11/name": "Missle Launcher",
+    "/items/12/name": "Repair",
+    "/items/13/name": "Speech",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 250,
+    "/system/origin": "Mutated Human, Notable Character",
+    "/system/biography": "<p><strong>Super Mutants</strong></p>\n<p><span class=\"fontstyle0\">Tall, muscular, and green skinned, super mutants are a sight known to strike fear into the heart of many wastelanders. Within the Commonwealth they originate from the Institute's failed experiments with the Forced Evolutionary Virus. Their size and powerful build makes them ferocious fighters with little sense of self preservation, but unfortunately this is not enough for the Institute to keep them around, often leaving them out in the ruins of Boston where they become a menace to the rest of the population. Within the Commonwealth they are often found in central Boston, but many venture out further in search of new territory to call their own. While often described as having little intelligence, most super mutants are capable of speech and have a good understanding of combat tactics and live in groups that usually have a hierarchy in its social structure. Not all super mutants are vicious creatures, with some enjoying the companionship of humans. As they age, they can continue to mutate and grow in strength, with the oldest among them living long enough to become behemoths.</span></p>\n<p><strong>Super Mutant Master</strong></p>\n<p><span class=\"fontstyle0\">Super mutant masters are higher up in the hierarchy than super mutant brutes and often have the armor, weaponry and combat experience to deserve their titles. These super mutants are almost always hostile and are equipped with much heavier and more destructive weapons, such as missile launchers and mini guns. While this kind of super mutant is often absent from smaller groups, they are almost always present within large communities.</span></p>",
+    "/name": "Super Mutant Master"
+  }
+}

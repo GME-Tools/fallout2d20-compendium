@@ -1,0 +1,14 @@
+{
+  "_key": "!items!myJS8tB5FHk3Jo65",
+  "_file": "refracteur__myJS8tB5FHk3Jo65.json",
+  "values": {
+    "/name": "Réfracteur",
+    "/system/description": "<p>Rangs : 2 Prérequis : PER 6, CHA 7, niveau 1+ Votre résistance aux dégâts énergétiques, quelle que soit la localisation, augmente de +1 par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "myJS8tB5FHk3Jo65",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

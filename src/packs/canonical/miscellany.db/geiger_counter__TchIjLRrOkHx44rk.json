@@ -1,0 +1,28 @@
+{
+  "_id": "TchIjLRrOkHx44rk",
+  "_key": "!items!TchIjLRrOkHx44rk",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Geiger Counter.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 325,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

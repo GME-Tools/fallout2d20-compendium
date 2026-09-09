@@ -1,0 +1,14 @@
+{
+  "_key": "!items!dIQkAZGEzdR8j2BB",
+  "_file": "recycleur__dIQkAZGEzdR8j2BB.json",
+  "values": {
+    "/name": "Recycleur",
+    "/system/description": "<p>Rangs : 2 Prérequis : niveau 3+ Lorsque vous recyclez un objet, vous pouvez obtenir des composants peu fréquents au même titre que des composants fréquents (cf. page 208). Au rang 2, vous pouvez également obtenir des composants rares. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "dIQkAZGEzdR8j2BB",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

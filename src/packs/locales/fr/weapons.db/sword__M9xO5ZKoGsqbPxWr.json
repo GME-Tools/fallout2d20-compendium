@@ -1,0 +1,16 @@
+{
+  "_key": "!items!M9xO5ZKoGsqbPxWr",
+  "_file": "epee__M9xO5ZKoGsqbPxWr.json",
+  "values": {
+    "/system/description": "<p>Les épées sont nées presque en même temps que les guerres et elles étaient encore des symboles de statut et de prestige répandus parmi les soldats du monde entier, surtout les officiers, juste avant la Grande Guerre. Beaucoup des épées présentes dans les Terres désolées sont celles que maniaient les officiers chinois pendant la Grande Guerre, souvent prises comme trophées sur les champs de bataille par les troupes américaines. D’autres sont des pièces de musée ou des répliques de collections privées (dans cette catégorie, un grand nombre d’épées ressemblent aux sabres de cavalerie employés pendant la Révolution américaine). Les épées peuvent accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "M9xO5ZKoGsqbPxWr",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Épée"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Dk9UjvjZexa8J0U8",
+  "_file": "capuche_ou_cagoule__Dk9UjvjZexa8J0U8.json",
+  "values": {
+    "/name": "Capuche ou cagoule",
+    "/system/description": "<p>Une couverture de tissu ou de cuir pour la tête et le cou. Elle protège un peu des éléments et se combine facilement à un masque ou foulard couvrant bouche et nez contre poussières et fumées.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Dk9UjvjZexa8J0U8",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

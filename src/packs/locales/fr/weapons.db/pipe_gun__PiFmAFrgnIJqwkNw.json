@@ -1,0 +1,17 @@
+{
+  "_key": "!items!PiFmAFrgnIJqwkNw",
+  "_file": "arme_de_fortune__PiFmAFrgnIJqwkNw.json",
+  "values": {
+    "/system/ammo": "Cartouche .38",
+    "/system/description": "<p>Munitions: cartouches .38 Une arme artisanale grossière, généralement maniée par ceux qui ne peuvent pas fabriquer, acheter ou trouver quoi que ce soit de mieux. Les armes de fortune sont rudimentaires, peu fiables, mais assez efficaces. La forme la plus courante de l’arme de fortune est un petit pistolet de poing simple semi-automatique, chambré pour utiliser les cartouches .38 aisées à trouver, mais des gens entreprenants (ou désespérés) appliquent parfois des modules à ces armes pour qu’elles tirent automatiquement ou deviennent des armes de précision. Une arme de fortune peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil de fortune ».  Culasse: calibrée, renforcée, automatique, haute sensibilité, puissante, culasse .45  Canon : canon long, canon à ouvertures, canon à ailettes  Poignée: poignée de tireur d’élite</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PiFmAFrgnIJqwkNw",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Arme de fortune"
+  }
+}

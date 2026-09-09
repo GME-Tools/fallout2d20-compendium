@@ -1,0 +1,16 @@
+{
+  "_key": "!items!i1BhSDEcs5JNub1v",
+  "_file": "chair_de_radcafard__i1BhSDEcs5JNub1v.json",
+  "values": {
+    "/name": "Chair de radcafard",
+    "/system/description": "<p>Viande des cafards mutants irradiés appelés radcafards. Légèrement radioactive, peu nourrissante et peu appétissante, elle ne s’améliore que marginalement à la cuisson. Elle permet de préparer une radcafard grillée.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "i1BhSDEcs5JNub1v",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

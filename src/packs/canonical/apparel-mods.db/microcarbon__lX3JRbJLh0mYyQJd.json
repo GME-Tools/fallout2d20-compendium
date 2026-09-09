@@ -1,0 +1,65 @@
+{
+  "_id": "lX3JRbJLh0mYyQJd",
+  "_key": "!items!lX3JRbJLh0mYyQJd",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
+  "system": {
+    "apparelType": "armor",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 15,
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "",
+    "modType": "material",
+    "perks": "Armorer 1",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 3,
+      "physical": 3,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": ""
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 212,
+        "station": "armor",
+        "group": "synth-material",
+        "complexity": 6,
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 7,
+          "uncommon": 5,
+          "rare": 3
+        }
+      }
+    }
+  },
+  "$folder": "material-synth"
+}

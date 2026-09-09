@@ -1,0 +1,9 @@
+{
+  "_key": "!items!gD1wycvvp1ivtXdY",
+  "_file": "duck_and_cover__gD1wycvvp1ivtXdY.json",
+  "values": {
+    "/name": "Duck and Cover!",
+    "/system/description": "<p>Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

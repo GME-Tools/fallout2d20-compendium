@@ -1,0 +1,71 @@
+{
+  "_id": "ue9pFVAT1prcq70t",
+  "_key": "!items!ue9pFVAT1prcq70t",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Mentats.webp",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Mentat",
+    "consumableType": "chem",
+    "cost": 60,
+    "duration": "lasting",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Mentats.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Hubflower",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.483yLfgB6kJ0lWvD"
+          },
+          {
+            "name": "Mentats",
+            "canonicalName": "Mentats",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.hc8DSkMGN2GxugAF"
+          },
+          {
+            "canonicalName": "Whiskey",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.u9KyfdRIzyQhCjnn"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

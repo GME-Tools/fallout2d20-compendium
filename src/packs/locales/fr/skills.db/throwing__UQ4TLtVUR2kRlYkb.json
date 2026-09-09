@@ -1,0 +1,13 @@
+{
+  "_key": "!items!UQ4TLtVUR2kRlYkb",
+  "_file": "projectiles__UQ4TLtVUR2kRlYkb.json",
+  "values": {
+    "/name": "Projectiles",
+    "/system/description": "<p>La comp&eacute;tence Projectiles&nbsp;d&eacute;termine votre capacit&eacute; &agrave;&nbsp;r&eacute;ussir des attaques avec des&nbsp;armes de lancer telles que des&nbsp;javelots, des couteaux ou des&nbsp;armes improvis&eacute;es.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Agilit&eacute;</strong>, mais&nbsp;vous pouvez utiliser Force dans le cas d&rsquo;objets lourds,&nbsp;ou Perception pour &eacute;valuer la distance jusqu&rsquo;&agrave; la cible.&nbsp;Employez Projectiles pour effectuer une attaque de lancer&nbsp;&agrave; l&rsquo;aide d&rsquo;armes sp&eacute;cifiques.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "UQ4TLtVUR2kRlYkb",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

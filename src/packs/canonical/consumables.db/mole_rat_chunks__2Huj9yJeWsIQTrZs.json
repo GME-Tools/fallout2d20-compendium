@@ -1,0 +1,59 @@
+{
+  "_id": "2Huj9yJeWsIQTrZs",
+  "_key": "!items!2Huj9yJeWsIQTrZs",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Mole Rat Chunks.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 8,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 7,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Mole Rat Meat",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.r5HGZTe9sYtWopL7"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

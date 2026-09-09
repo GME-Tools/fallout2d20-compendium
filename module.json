@@ -2,7 +2,7 @@
   "id": "fallout2d20-compendium",
   "title": "Fallout 2d20 Compendium",
   "description": "Bilingual English and French compendium for Fallout 2d20. Version 1 covers the complete Core Rulebook with current errata.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     {
       "name": "GME-Tools"
@@ -231,20 +231,9 @@
       }
     },
     {
-      "name": "en-creatures",
-      "label": "EN - Creatures",
-      "path": "packs-v14/en-creatures",
-      "type": "Actor",
-      "system": "fallout",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "en-npcs",
-      "label": "EN - NPCs",
-      "path": "packs-v14/en-npcs",
+      "name": "en-denizens",
+      "label": "EN - Denizens of the Wasteland",
+      "path": "packs-v14/en-denizens",
       "type": "Actor",
       "system": "fallout",
       "ownership": {
@@ -451,20 +440,9 @@
       }
     },
     {
-      "name": "fr-creatures",
-      "label": "FR - Créatures",
-      "path": "packs-v14/fr-creatures",
-      "type": "Actor",
-      "system": "fallout",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "fr-npcs",
-      "label": "FR - PNJ",
-      "path": "packs-v14/fr-npcs",
+      "name": "fr-denizens",
+      "label": "FR - Résidents des Terres désolées",
+      "path": "packs-v14/fr-denizens",
       "type": "Actor",
       "system": "fallout",
       "ownership": {
@@ -507,8 +485,7 @@
         "en-miscellany",
         "en-crafting-stations",
         "en-creature-abilities",
-        "en-creatures",
-        "en-npcs",
+        "en-denizens",
         "en-roll-tables"
       ]
     },
@@ -534,8 +511,7 @@
         "fr-miscellany",
         "fr-crafting-stations",
         "fr-creature-abilities",
-        "fr-creatures",
-        "fr-npcs",
+        "fr-denizens",
         "fr-roll-tables"
       ]
     }

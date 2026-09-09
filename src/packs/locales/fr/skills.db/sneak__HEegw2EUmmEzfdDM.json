@@ -1,0 +1,13 @@
+{
+  "_key": "!items!HEegw2EUmmEzfdDM",
+  "_file": "discretion__HEegw2EUmmEzfdDM.json",
+  "values": {
+    "/name": "Discrétion",
+    "/system/description": "<p>La comp&eacute;tence Discr&eacute;tion recouvre&nbsp;le d&eacute;placement furtif et toute tentative de ne pas vous faire remarquer lorsque vous entreprenez une&nbsp;action physique.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Agilit&eacute;</strong>, mais&nbsp;vous pouvez utiliser Perception pour d&eacute;tecter des ennemis en embuscade ou Intelligence pour partir en rep&eacute;rage dans un b&acirc;timent. Employez Discr&eacute;tion pour vous&nbsp;d&eacute;placer en silence ou rester cach&eacute;.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "HEegw2EUmmEzfdDM",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

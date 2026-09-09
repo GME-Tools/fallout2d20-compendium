@@ -1,0 +1,14 @@
+{
+  "_key": "!items!9KkBBnH3N7yhEeMB",
+  "_file": "poussee_d_adrenaline__9KkBBnH3N7yhEeMB.json",
+  "values": {
+    "/name": "Poussée d’adrénaline",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 7 Lorsque vos points de vie ne sont pas à leur maximum, considérez que votre Force est égale à 10 quand vous entreprenez un test qui l’implique ou effectuez une attaque au corps à corps.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9KkBBnH3N7yhEeMB",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

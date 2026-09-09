@@ -1,0 +1,11 @@
+{
+  "_key": "!items!XNwJyuhYCbo5arhU",
+  "_file": "weeping_sores__XNwJyuhYCbo5arhU.json",
+  "values": {
+    "/name": "Weeping Sores",
+    "/system/description": "<p>Whenever you suffer Physical damage, you suffer +1 Physical damage at the start of your next turn, ignoring damage resistance</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

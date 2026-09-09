@@ -1,0 +1,9 @@
+{
+  "_key": "!items!bG1kACrL4fvGNC6H",
+  "_file": "play_dead__bG1kACrL4fvGNC6H.json",
+  "values": {
+    "/name": "Play Dead",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">A [creature] which is prone and not moving is difficult to tell apart from a corpse. It takes a </span><span class=\"fontstyle2\"><strong>PER + Survival</strong> </span><span class=\"fontstyle0\">test, difficulty 2, to spot a ghoul which is currently &lsquo;playing dead&rsquo;. They often use this to ambush unsuspecting passers-by.</span></p>"
+  }
+}

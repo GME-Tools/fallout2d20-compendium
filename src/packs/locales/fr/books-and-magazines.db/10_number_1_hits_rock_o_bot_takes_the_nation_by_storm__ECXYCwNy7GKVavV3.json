@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ECXYCwNy7GKVavV3",
+  "_file": "10_hits_n_1_rock_o_bot_prend_le_pays_par_surprise__ECXYCwNy7GKVavV3.json",
+  "values": {
+    "/name": "10 hits n°1 !!! Rock-o-bot prend le pays par surprise !",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous infligez un coup critique, augmentez de +2 le total des dégâts infligés.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.beJfGkUq386Kw4Sj]{10 hits n°1 !!! Rock-o-bot prend le pays par surprise !}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous infligez un coup critique, augmentez de +2 le total des dégâts infligés.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ECXYCwNy7GKVavV3",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!5Y5Dkh9W0XRFfpQV",
+  "_file": "l_armee_des_etats_unis_dans_l_espace__5Y5Dkh9W0XRFfpQV.json",
+  "values": {
+    "/name": "L’armée des États-Unis dans l’espace",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Sur une attaque avec une arme à énergie, vous infligez un coup critique dès 3 dégâts après résistance au lieu de 5.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.lkAJKVOfU1DfjLU9]{L’armée des États-Unis dans l’espace}</p></section>",
+    "/system/effect": "<p>Sur une attaque avec une arme à énergie, vous infligez un coup critique dès 3 dégâts après résistance au lieu de 5.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5Y5Dkh9W0XRFfpQV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

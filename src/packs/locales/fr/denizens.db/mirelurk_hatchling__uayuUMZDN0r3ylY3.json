@@ -1,0 +1,23 @@
+{
+  "_key": "!actors!uayuUMZDN0r3ylY3",
+  "_file": "jeune_fangeux__uayuUMZDN0r3ylY3.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un jeune fangeux mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de fangeux.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uayuUMZDN0r3ylY3",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Crustacé Mutant, Créature Normale",
+    "/system/biography": "<p>Le terme « jeune fangeux » désigne l’ensemble des fangeux non adultes. Les fangeux pondent des œufs, souvent dans un nid bien protégé. De temps à autre, si ce nid est perturbé, les œufs éclosent en réponse au stimulus. Les jeunes fangeux ne représentent pas une grande menace pour un individu compétent, pour peu que la nuée ne Ch</p>",
+    "/name": "Jeune fangeux"
+  }
+}

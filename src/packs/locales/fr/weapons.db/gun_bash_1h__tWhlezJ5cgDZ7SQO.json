@@ -1,0 +1,14 @@
+{
+  "_key": "!items!tWhlezJ5cgDZ7SQO",
+  "_file": "coup_de_crosse_1_main__tWhlezJ5cgDZ7SQO.json",
+  "values": {
+    "/system/description": "<p>Munitions: cartouches .44 Le pistolet .44 est un revolver à double action, chambré pour utiliser des cartouches .44. C’est une arme puissante, mais moins adaptée aux mods que les autres pistolets. En raison de leur design simple et robuste, ces armes sont précieuses pour leurs propriétaires, mais elles ne sont pas difficiles à trouver au point d’être vraiment rares. Un pistolet .44 peut accepter un mod de chaque type parmi les suivants:  Culasse: renforcée, puissante, avancée  Canon: canon compact, canon extra-lourd  Poignée: poignée confort  Viseur : lunette courte, viseur laser, lunette de reconnaissance</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "tWhlezJ5cgDZ7SQO",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Coup de crosse (1 main)"
+  }
+}

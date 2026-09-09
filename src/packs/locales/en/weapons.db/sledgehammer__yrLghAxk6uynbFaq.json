@@ -1,0 +1,12 @@
+{
+  "_key": "!items!yrLghAxk6uynbFaq",
+  "_file": "sledgehammer__yrLghAxk6uynbFaq.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">Sledgehammers are primitive weapons, used as tools before the Great War, for breaking ground or demolishing things. Although not usually considered as a powerful weapon, a strong person&mdash;or a super mutant&mdash;can wield one of these like a club, taking full advantage of the hammer&rsquo;s weight.</span></p>\n<p><span class=\"fontstyle0\">A sledgehammer can accept one of the following mods which are&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span></p>\n<p><strong><span class=\"fontstyle0\">Sledgehammer:</span></strong><span class=\"fontstyle0\"> Puncturing, Heavy</span></p>\n<p>&nbsp;</p>",
+    "/system/weight": 12,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Sledgehammer"
+  }
+}

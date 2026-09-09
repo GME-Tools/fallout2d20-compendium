@@ -10,7 +10,7 @@ test("approved duplicate names describe every and only complete duplicate group"
   for (const language of LANGUAGES) {
     for (const pack of Object.keys(APPROVED_CORE_DUPLICATE_NAME_GROUPS)) {
       const documents = [];
-      for (const file of await listFiles(path.resolve(`src/packs/${language}/${pack}.db`), candidate => candidate.endsWith(".json"))) {
+      for (const file of await listFiles(path.resolve(`generated/source-packs/${language}/${pack}.db`), candidate => candidate.endsWith(".json"))) {
         const document = JSON.parse(await readFile(file, "utf8"));
         if (!document._key?.startsWith("!tables.results!")) documents.push(document);
       }

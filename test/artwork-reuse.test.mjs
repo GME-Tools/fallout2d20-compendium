@@ -21,7 +21,7 @@ test("reviewed artwork reuse decisions are paired, traceable, square WebP assets
     assert.ok((await stat(asset)).size <= 150 * 1024);
     const paired = [];
     for (const language of ["en", "fr"]) {
-      const directory = path.join("src", "packs", language, `${pack}.db`);
+      const directory = path.join("generated", "source-packs", language, `${pack}.db`);
       for (const file of (await readdir(directory)).filter(file => file.endsWith(".json"))) {
         const document = JSON.parse(await readFile(path.join(directory, file), "utf8"));
         if (document._id === id) paired.push(document);

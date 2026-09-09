@@ -1,0 +1,11 @@
+{
+  "_key": "!items!6b46sO6gPyRRziMy",
+  "_file": "degage_de_ma_pelouse__6b46sO6gPyRRziMy.json",
+  "values": {
+    "/name": "Dégage de ma pelouse !",
+    "/system/description": "<p>Vous trouvez deux fois plus de viande sur une créature dépecée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

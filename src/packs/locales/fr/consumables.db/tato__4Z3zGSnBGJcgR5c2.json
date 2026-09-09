@@ -1,0 +1,16 @@
+{
+  "_key": "!items!4Z3zGSnBGJcgR5c2",
+  "_file": "pomate__4Z3zGSnBGJcgR5c2.json",
+  "values": {
+    "/name": "Pomate",
+    "/system/description": "<p>Hybride mutant de tomate et de pomme de terre, avec la tige et la peau rougeâtre de la première et la chair brune de la seconde. Nourrissante mais infecte, la tato pousse facilement, reste un pilier agricole et entre dans de nombreuses recettes.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4Z3zGSnBGJcgR5c2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

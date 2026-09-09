@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Epn0E2yMAxTmSOFX",
+  "_file": "paralyzing_palm__Epn0E2yMAxTmSOFX.json",
+  "values": {
+    "/name": "Paralyzing Palm",
+    "/system/description": "<p>When you make an unarmed attack, and choose to strike a specific location, your attack gains the Stun damage effect.</p>\n<p><strong>Requirements</strong>: STR 8</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

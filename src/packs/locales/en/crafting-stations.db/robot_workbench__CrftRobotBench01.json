@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftRobotBench01",
+  "_file": "robot_workbench__CrftRobotBench01.json",
+  "values": {
+    "/name": "Robot Workbench",
+    "/system/description": "<p>A robot workbench provides the tools and space needed to modify a robot. Crafting at this workbench uses the Repair and Science skills and benefits from the Robotics Expert perk.</p>",
+    "/system/effect": "<p>Provides the tools and space needed to modify a robot.</p>",
+    "/system/perks": "Robotics Expert",
+    "/system/skills": "Repair, Science",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false
+  }
+}

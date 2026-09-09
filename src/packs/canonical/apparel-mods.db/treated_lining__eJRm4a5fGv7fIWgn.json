@@ -1,0 +1,65 @@
+{
+  "_id": "eJRm4a5fGv7fIWgn",
+  "_key": "!items!eJRm4a5fGv7fIWgn",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Mod.webp",
+  "system": {
+    "apparelType": "clothing",
+    "attachable": true,
+    "attached": false,
+    "canBeScrapped": true,
+    "cost": 20,
+    "effect": "",
+    "favorite": false,
+    "health": {
+      "value": 0
+    },
+    "isJunk": false,
+    "location": "",
+    "modType": "lining",
+    "perks": "Armorer 2",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 1,
+      "physical": 0,
+      "radiation": 1
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "summary": ""
+  },
+  "type": "apparel_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-owner-mod-icon",
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 211,
+        "station": "armor",
+        "group": "vault-suit-lining",
+        "complexity": 3,
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 4,
+          "uncommon": 2,
+          "rare": 0
+        }
+      }
+    }
+  },
+  "$folder": "clothing-lining"
+}

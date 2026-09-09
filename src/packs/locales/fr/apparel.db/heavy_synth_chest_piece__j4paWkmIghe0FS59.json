@@ -1,0 +1,30 @@
+{
+  "_key": "!items!j4paWkmIghe0FS59",
+  "_file": "armure_lourde_de_synthetique_plastron__j4paWkmIghe0FS59.json",
+  "values": {
+    "/name": "Armure lourde de synthétique Plastron",
+    "/system/description": "<p>Développée par l’Institut, cette armure distinctive protège excellemment, surtout contre l’énergie, mais se rencontre surtout dans le Commonwealth et là où voyagent ses synthétiques. Sa fabrication rare la rend difficile à obtenir sans bonnes relations avec l’Institut, et coûteuse même alors. Chaque pièce sauf le casque accepte un Matériau et une Amélioration ; le casque seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Installation avec Réparation. Matériaux : Laminé, Résine, Microcarbone, Nanofilament.</p>",
+    "/system/mods/4PtjwYY1RpNnvExC/system/weight": 2,
+    "/system/mods/5sQU0kdQbhyacSdu/system/weight": 1,
+    "/system/mods/6Auqz8lwvuB7UFdy/system/weight": -1,
+    "/system/mods/8F9G1Cg2OmluAbG1/system/weight": 1,
+    "/system/mods/QXgVEVm7Ttp4UFpS/system/weight": 1,
+    "/system/mods/SUBvV0XNUQzeCfOH/system/weight": 2,
+    "/system/mods/SW0MOzUjhhMYjJrr/system/weight": 1,
+    "/system/mods/SZGWmJhEwwoXU1PR/system/weight": 2,
+    "/system/mods/XYvAnkqTE6TUIvzs/system/weight": 2,
+    "/system/mods/ZhrilZpyh7l9kkQD/system/weight": 1,
+    "/system/mods/cVxi6JY2Z5HeVM4v/system/weight": 3,
+    "/system/mods/e7ySHkXMm9o7Aovi/system/weight": 2,
+    "/system/mods/q48esitA3U4tmuXT/system/weight": 2,
+    "/system/mods/yWvt9clbKolwdbm1/system/weight": -3,
+    "/system/weight": 8.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "j4paWkmIghe0FS59",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

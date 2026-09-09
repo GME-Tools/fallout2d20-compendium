@@ -1,0 +1,14 @@
+{
+  "_key": "!items!wC8TgVkF6OhFY9XR",
+  "_file": "fantome__wC8TgVkF6OhFY9XR.json",
+  "values": {
+    "/name": "Fantôme",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 5, AGI 6 Lorsque vous entreprenez un test d’AGI + Discrétion alors que vous vous trouvez dans l’ombre ou l’obscurité, le premier d20 supplémentaire est gratuit. La limite de 5d20 s’applique toujours à la réserve.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "wC8TgVkF6OhFY9XR",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

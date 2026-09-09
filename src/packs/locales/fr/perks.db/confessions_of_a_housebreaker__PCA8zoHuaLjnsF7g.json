@@ -1,0 +1,11 @@
+{
+  "_key": "!items!PCA8zoHuaLjnsF7g",
+  "_file": "confessions_d_un_monte_en_l_air__PCA8zoHuaLjnsF7g.json",
+  "values": {
+    "/name": "Confessions d’un monte-en-l’air",
+    "/system/description": "<p>Quand vous fouillez ou récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2+2 DC épingles à cheveux.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

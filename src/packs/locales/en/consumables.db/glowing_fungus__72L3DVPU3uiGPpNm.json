@@ -1,0 +1,11 @@
+{
+  "_key": "!items!72L3DVPU3uiGPpNm",
+  "_file": "glowing_fungus__72L3DVPU3uiGPpNm.json",
+  "values": {
+    "/name": "Glowing Fungus",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

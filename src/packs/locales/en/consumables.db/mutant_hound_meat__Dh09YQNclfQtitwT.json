@@ -1,0 +1,12 @@
+{
+  "_key": "!items!Dh09YQNclfQtitwT",
+  "_file": "mutant_hound_meat__Dh09YQNclfQtitwT.json",
+  "values": {
+    "/name": "Mutant Hound Meat",
+    "/system/description": "<p><span class=\"fontstyle0\">A cut of meat taken from a dead mutant hound. This meat&rsquo;s off-green color and lumpy texture suggests that it would be quite unpleasant to eat. Eaten raw, it contains a fair amount of radiation and is unpalatable. Cooked, they&rsquo;re still not the tastiest food, but they&rsquo;re not hazardous.</span></p>\n<p><span class=\"fontstyle0\">Mutant Hound Meat can be cooked to make Mutant Hound Chops.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

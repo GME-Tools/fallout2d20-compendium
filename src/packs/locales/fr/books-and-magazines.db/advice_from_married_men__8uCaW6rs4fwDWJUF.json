@@ -1,0 +1,16 @@
+{
+  "_key": "!items!8uCaW6rs4fwDWJUF",
+  "_file": "conseils_pour_hommes_maries__8uCaW6rs4fwDWJUF.json",
+  "values": {
+    "/name": "Conseils pour hommes mariés",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Tous les membres du groupe gagnent +1 en résistance aux dégâts balistiques pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.B5AHVLoXVF8buanM]{Conseils pour hommes mariés}</p></section>",
+    "/system/effect": "<p>Tous les membres du groupe gagnent +1 en résistance aux dégâts balistiques pendant une scène.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8uCaW6rs4fwDWJUF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

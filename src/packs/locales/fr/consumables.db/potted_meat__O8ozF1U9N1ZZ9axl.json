@@ -1,0 +1,17 @@
+{
+  "_key": "!items!O8ozF1U9N1ZZ9axl",
+  "_file": "viande_en_boite__O8ozF1U9N1ZZ9axl.json",
+  "values": {
+    "/name": "Viande en boîte",
+    "/system/description": "<p>Petite boîte de viande transformée mélangée, faite de brahmine, radcerf, rat-taupe, chien bâtard et de tout ce que le fabricant a trouvé — parfois impropre à la consommation. <strong>Spécial :</strong> lancez 2 @fos[DC] au lieu de 1 @fos[DC] pour déterminer les dégâts de radiation ; vous subissez 1 dégât de radiation ignorant la Résistance par Effet obtenu.</p>",
+    "/system/effect": "<p>Lancez 2 @fos[DC] au lieu de 1 pour déterminer les dégâts de radiation subis lors de la consommation.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "O8ozF1U9N1ZZ9axl",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

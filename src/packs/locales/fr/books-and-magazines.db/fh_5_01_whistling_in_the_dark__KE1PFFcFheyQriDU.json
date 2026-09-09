@@ -1,0 +1,16 @@
+{
+  "_key": "!items!KE1PFFcFheyQriDU",
+  "_file": "fh_5_01_siffloter_dans_les_tenebres__KE1PFFcFheyQriDU.json",
+  "values": {
+    "/name": "FH 5-01 Siffloter dans les ténèbres",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Si vous êtes repéré en tentant d’être discret, ajoutez +2 à votre résistance aux dégâts balistiques contre la première attaque reçue après avoir été repéré.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.cPjofC2nJegzoPXS]{FH 5-01 Siffloter dans les ténèbres}</p></section>",
+    "/system/effect": "<p>Si vous êtes repéré en tentant d’être discret, ajoutez +2 à votre résistance aux dégâts balistiques contre la première attaque reçue après avoir été repéré.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KE1PFFcFheyQriDU",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

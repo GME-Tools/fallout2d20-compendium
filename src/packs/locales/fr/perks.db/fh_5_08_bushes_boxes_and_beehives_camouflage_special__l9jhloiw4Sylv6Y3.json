@@ -1,0 +1,11 @@
+{
+  "_key": "!items!l9jhloiw4Sylv6Y3",
+  "_file": "fh_5_08_special_camouflage_buissons_caisses_et_ruches__l9jhloiw4Sylv6Y3.json",
+  "values": {
+    "/name": "FH 5-08 Spécial camouflage : buissons, caisses et ruches",
+    "/system/description": "<p>Une attaque à mains nues ou portée avec un couteau inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

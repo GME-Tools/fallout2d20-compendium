@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Fkgwa1FrCdfQPvhl",
+  "_file": "pip_boy__Fkgwa1FrCdfQPvhl.json",
+  "values": {
+    "/system/description": "<p>Le Pip-Boy est un processeur d’informations personnel fabriqué par RobCo Industries. En partenariat avec Vault-Tec, il fut distribué à de nombreux résidents d’Abri ; les contraintes de production et son développement continu expliquent que les Abri aient reçu différentes versions, le plus souvent des variantes des Pip-Boy 2000 et 3000 fixées au poignet. De nombreux modèles possèdent un verrou biométrique empêchant leur retrait tant que leur porteur vit. Leur batterie à fission interne dure bien au-delà d’une vie humaine et leur boîtier résiste à presque tout. Les fonctions varient, mais comprennent généralement : un indicateur donnant l’état de santé et les problèmes médicaux du porteur ; un journal continu de ses activités, déplacements et état, avec enregistrements personnels textuels ou audio ; un lecteur d’holobandes acceptant sons, vidéos, données et jeux ; une boussole, une radio, un compteur Geiger et un éclairage équivalent à une lampe torche. Enfin, le système de ciblage assisté Vault-Tec, ou S.V.A.V., aide au combat : un personnage équipé d’un Pip-Boy peut l’utiliser lorsqu’il attaque et ignore alors l’augmentation de difficulté habituelle pour viser une localisation précise de l’ennemi.</p>",
+    "/system/effect": "<p>Voir la description.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Fkgwa1FrCdfQPvhl",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

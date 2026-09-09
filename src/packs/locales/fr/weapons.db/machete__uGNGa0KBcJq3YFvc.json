@@ -1,0 +1,16 @@
+{
+  "_key": "!items!uGNGa0KBcJq3YFvc",
+  "_file": "machette__uGNGa0KBcJq3YFvc.json",
+  "values": {
+    "/system/description": "<p>La machette est un long couteau acéré conçu pour débroussailler une végétation dense ou résistante. Elle est un outil utile pour les mêmes raisons qu’elle est une arme efficace. Certaines machettes présentes dans les Terres désolées étaient des lames conçues à cet effet, mais d’autres sont des outils artisanaux, généralement fabriqués avec une lame de métal aiguisée, par exemple récupérée sur une tondeuse à gazon, fixée à une poignée simple par des écrous, de la corde, du scotch ou autre chose encore. Les machettes peuvent accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uGNGa0KBcJq3YFvc",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Machette"
+  }
+}

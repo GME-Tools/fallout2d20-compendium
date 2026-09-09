@@ -1,0 +1,16 @@
+{
+  "_key": "!items!rV3tvVvTmDGs7E0t",
+  "_file": "fh_5_02_le_camouflage_urbain__rV3tvVvTmDGs7E0t.json",
+  "values": {
+    "/name": "FH 5-02 Le camouflage urbain",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> La difficulté des tests des ennemis pour vous repérer augmente de +1 ; ce bonus ne se cumule pas avec ceux dus à une faible lumière ou à l’obscurité.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.AVB1RZC2w05dkUbZ]{FH 5-02 Le camouflage urbain}</p></section>",
+    "/system/effect": "<p>La difficulté des tests des ennemis pour vous repérer augmente de +1 ; ce bonus ne se cumule pas avec ceux dus à une faible lumière ou à l’obscurité.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "rV3tvVvTmDGs7E0t",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

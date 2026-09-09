@@ -1,0 +1,24 @@
+{
+  "_key": "!actors!AdvSynthReplica1",
+  "_file": "synth_replica__AdvSynthReplica1.json",
+  "values": {
+    "/token/name": "Synth Replica",
+    "/items/0/system/description": "<p><span class=\"fontstyle0\">Developed by The Institute after the Great War, Institute lasers differ in design and function from the pre-War lasers used by other factions such as the Brotherhood of Steel. Eschewing raw power for a rapid succession of beams, these lasers can lay down a searing volley of suppressive fire.</span></p>",
+    "/items/0/system/weight": "4",
+    "/items/0/name": "Institute Laser",
+    "/items/1/system/description": "<p><span class=\"fontstyle0\">A collapsible baton of the sort used by police departments and private security forces before the Great War. Vault-Tec security within each vault had a stock of these, so they remain in common use as a lightweight back-up melee weapon.</span></p>",
+    "/items/1/system/weight": "2",
+    "/items/1/name": "Shock Baton",
+    "/items/2/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The synth is a robot. They are immune to the effects of starvation, thirst, and suffocation. They are also immune to Poison and Radiation damage. However, machines cannot use food and drink or other consumables, they do not heal naturally, and the Medicine skill cannot be used to heal them: damage to them must be repaired.</span></p>",
+    "/items/3/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The synth reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/4/$overrides/~1system~1description": "<p>The synth&nbsp;reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/5/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The synth cannot be intimidated or threatened in any way and will either ignore or attack anyone who attempts to threaten or intimidate it.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/6/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The synth&nbsp;is immune to the effects of all diseases, and they will never suffer the symptoms of any disease.</span></p>",
+    "/items/7/$overrides/~1system~1weight": "0",
+    "/items/7/$overrides/~1system~1effect": "<p>Institute Laser Gun (Photon Exciter, Improved Barrel), Shock Baton, 3d20 Fusion Cells, Synth Leg x2, Synth Arm x2, Synth Helmet x1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/origin": "Robotic Synth, Normal Creature",
+    "/system/biography": "<p>A resident of the settlement replaced by an identical robotic synth as part of the Institute's plan to steal memories and create perfect copies.</p>",
+    "/name": "Synth Replica"
+  }
+}

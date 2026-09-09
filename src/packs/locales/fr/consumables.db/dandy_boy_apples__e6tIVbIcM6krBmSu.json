@@ -1,0 +1,16 @@
+{
+  "_key": "!items!e6tIVbIcM6krBmSu",
+  "_file": "pommes_dandy_boy__e6tIVbIcM6krBmSu.json",
+  "values": {
+    "/name": "Pommes dandy boy",
+    "/system/description": "<p>Pommes confites produites par Dandy Boy, une friandise fruitée extrêmement sucrée vendue en boîte de carton. Leur forte teneur en sucre les a bien conservées ; on en trouve encore dans les commerces en ruine ou chez ceux qui viennent de les piller.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "e6tIVbIcM6krBmSu",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

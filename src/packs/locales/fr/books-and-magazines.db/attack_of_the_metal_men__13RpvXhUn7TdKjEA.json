@@ -1,0 +1,16 @@
+{
+  "_key": "!items!13RpvXhUn7TdKjEA",
+  "_file": "l_attaque_des_hommes_de_metal__13RpvXhUn7TdKjEA.json",
+  "values": {
+    "/name": "L’attaque des hommes de métal",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +2 aux résistances aux dégâts physiques et énergétiques contre les Robots.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.NNhKS3XzGuAnXNmq]{L’attaque des hommes de métal}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 aux résistances aux dégâts physiques et énergétiques contre les Robots.</p>",
+    "/system/publication": "Histoires à dormir debout",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "13RpvXhUn7TdKjEA",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

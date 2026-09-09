@@ -1,0 +1,9 @@
+{
+  "_key": "!items!p8cH2qolrlrnLKIt",
+  "_file": "hunting_in_the_wastes__p8cH2qolrlrnLKIt.json",
+  "values": {
+    "/name": "Hunting in the Wastes",
+    "/system/description": "<p>When you butcher an animal you&rsquo;ve killed, and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose (this AP is lost if not used)</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

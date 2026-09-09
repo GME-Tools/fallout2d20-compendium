@@ -1,0 +1,16 @@
+{
+  "_key": "!items!oR7Yb9XMHc1Yn49v",
+  "_file": "quelle_est_donc_cette_sorcellerie__oR7Yb9XMHc1Yn49v.json",
+  "values": {
+    "/name": "Quelle est donc cette sorcellerie ?",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts énergétiques contre une attaque.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.1KDDs6qPimKnwL9r]{Quelle est donc cette sorcellerie ?}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 en résistance aux dégâts énergétiques contre une attaque.</p>",
+    "/system/publication": "Grognak le Barbare",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "oR7Yb9XMHc1Yn49v",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

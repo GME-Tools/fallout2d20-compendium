@@ -1,0 +1,14 @@
+{
+  "_key": "!items!o5bqhbZJx5UbrjOl",
+  "_file": "action_packed__o5bqhbZJx5UbrjOl.json",
+  "values": {
+    "/name": "Plein d’action",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "o5bqhbZJx5UbrjOl",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Ce personnage commence chaque scène avec une réserve personnelle de 4 points d’Action, qu’il peut dépenser à la place de toute autre source.</p>"
+  }
+}

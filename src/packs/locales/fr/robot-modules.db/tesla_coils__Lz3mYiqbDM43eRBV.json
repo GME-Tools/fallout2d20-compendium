@@ -1,0 +1,19 @@
+{
+  "_key": "!items!Lz3mYiqbDM43eRBV",
+  "_file": "bobines_tesla__Lz3mYiqbDM43eRBV.json",
+  "values": {
+    "/name": "Bobines Tesla",
+    "/system/description": "<p>Un ensemble d’antennes installées à la surface du robot dirige des décharges électriques à courte distance vers les agresseurs proches. Les alliés ne risquent guère plus qu’une légère décharge, tandis que les ennemis peuvent subir de graves brûlures électriques.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 2, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/effect": "<p>Peuvent être activées ou désactivées au début d’un tour. Lorsqu’elles sont actives, tous les ennemis à portée de contact subissent 4 @fos[DC] de dégâts énergétiques Perforants 1 et Étourdissants à la fin du tour du robot.</p>",
+    "/system/weight": -12.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Lz3mYiqbDM43eRBV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en robotique 2",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 1"
+  }
+}

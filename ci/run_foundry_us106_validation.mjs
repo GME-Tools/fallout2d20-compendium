@@ -65,8 +65,8 @@ try {
 
   const frenchActor = await gmPage.evaluate(async () => {
     const moduleId = "fallout2d20-compendium";
-    const frenchActors = await game.packs.get(`${moduleId}.fr-npcs`).getDocuments();
-    const englishPack = game.packs.get(`${moduleId}.en-npcs`);
+    const frenchActors = await game.packs.get(`${moduleId}.fr-denizens`).getDocuments();
+    const englishPack = game.packs.get(`${moduleId}.en-denizens`);
     for (const actor of frenchActors) {
       const english = await englishPack.getDocument(actor.id);
       const frenchItem = [...actor.items].find(item => Number(item.system?.weight) > 0 && english.items.get(item.id));

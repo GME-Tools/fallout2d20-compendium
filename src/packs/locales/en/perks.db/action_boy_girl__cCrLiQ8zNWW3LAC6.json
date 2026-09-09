@@ -1,0 +1,11 @@
+{
+  "_key": "!items!cCrLiQ8zNWW3LAC6",
+  "_file": "action_boy_girl__cCrLiQ8zNWW3LAC6.json",
+  "values": {
+    "/name": "Action Boy / Girl",
+    "/system/description": "<p>When you spend AP to take an additional major action, you do not suffer the increased skill test difficulty during your second action.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

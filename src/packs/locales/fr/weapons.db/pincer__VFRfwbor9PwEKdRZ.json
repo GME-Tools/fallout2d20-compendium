@@ -1,0 +1,14 @@
+{
+  "_key": "!items!VFRfwbor9PwEKdRZ",
+  "_file": "pince__VFRfwbor9PwEKdRZ.json",
+  "values": {
+    "/system/description": "<p>Une pince robotique robuste pouvant saisir, écraser ou frapper une cible.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "VFRfwbor9PwEKdRZ",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Pince"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!299nvpoTfu1mwKTX",
+  "_file": "5mm_round__299nvpoTfu1mwKTX.json",
+  "values": {
+    "/name": "5mm Round",
+    "/system/description": "<p><span class=\"fontstyle0\">Small-caliber rifle rounds normally used by the military in miniguns. While supplies of these weapons are rare, they&rsquo;re normally found in large quantities. The problem is that the weapons which use them consume ammunition at a prodigious rate, and a full box of 5mm rounds doesn&rsquo;t last long.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 10*(12+6dc) # 5mm Round]]</p>",
+    "/system/weight": 0.008,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

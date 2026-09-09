@@ -1,0 +1,13 @@
+{
+  "_key": "!items!5xAG0eRrcvDeJAFk",
+  "_file": "mains_nues__5xAG0eRrcvDeJAFk.json",
+  "values": {
+    "/name": "Mains nues",
+    "/system/description": "<p>La comp&eacute;tence Mains nues mesure&nbsp;votre capacit&eacute; &agrave; combattre avec vos&nbsp;poings.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut&nbsp;est la <strong>Force</strong>, mais vous pouvez utiliser&nbsp;Agilit&eacute;, ou Charisme pour menacer ou&nbsp;intimider autrui. Employez Mains nues&nbsp;pour attaquer lorsque vous &ecirc;tes d&eacute;sarm&eacute;.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5xAG0eRrcvDeJAFk",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

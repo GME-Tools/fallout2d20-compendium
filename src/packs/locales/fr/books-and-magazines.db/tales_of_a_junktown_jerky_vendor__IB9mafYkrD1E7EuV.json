@@ -1,0 +1,16 @@
+{
+  "_key": "!items!IB9mafYkrD1E7EuV",
+  "_file": "les_aventures_d_un_vendeur_de_viande_sechee_de_junktown__IB9mafYkrD1E7EuV.json",
+  "values": {
+    "/name": "Les aventures d’un vendeur de viande séchée de Junktown",
+    "/system/description": "<p>Une série artisanale d’après-guerre écrite par un vendeur de viande séchée de Junktown.</p><p><strong>Aptitude :</strong> Une seule fois, après un test de Troc pour marchander, réussi ou raté, dépensez 1 point de Chance pour modifier le prix de 10 % en votre faveur.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Qf4PBCvZdSvPAeX7]{Les aventures d’un vendeur de viande séchée de Junktown}</p></section>",
+    "/system/effect": "<p>Une seule fois, après un test de Troc pour marchander, réussi ou raté, dépensez 1 point de Chance pour modifier le prix de 10 % en votre faveur.</p>",
+    "/system/publication": "Les aventures d’un vendeur de viande séchée de Junktown",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "IB9mafYkrD1E7EuV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

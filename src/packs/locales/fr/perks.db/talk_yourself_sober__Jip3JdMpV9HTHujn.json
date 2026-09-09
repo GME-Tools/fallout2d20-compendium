@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Jip3JdMpV9HTHujn",
+  "_file": "leve_le_coude_mais_pas_trop__Jip3JdMpV9HTHujn.json",
+  "values": {
+    "/name": "Lève le coude, mais pas trop !",
+    "/system/description": "<p>Vous gagnez 1 point de Chance, perdu à la fin de la scène s’il n’est pas utilisé, quand vous consommez une boisson Alcoolisée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

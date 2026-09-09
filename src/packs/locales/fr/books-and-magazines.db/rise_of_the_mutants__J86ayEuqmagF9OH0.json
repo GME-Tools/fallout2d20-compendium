@@ -1,0 +1,16 @@
+{
+  "_key": "!items!J86ayEuqmagF9OH0",
+  "_file": "l_ascension_des_mutants__J86ayEuqmagF9OH0.json",
+  "values": {
+    "/name": "L’ascension des mutants !",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +1 DC sur vos attaques contre les super mutants.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Gn880XN7Auhdop6S]{L’ascension des mutants !}</p></section>",
+    "/system/effect": "<p>Vous gagnez +1 DC sur vos attaques contre les super mutants.</p>",
+    "/system/publication": "Histoires à dormir debout",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "J86ayEuqmagF9OH0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

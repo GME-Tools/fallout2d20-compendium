@@ -1,0 +1,15 @@
+{
+  "_key": "!items!483yLfgB6kJ0lWvD",
+  "_file": "hubelie__483yLfgB6kJ0lWvD.json",
+  "values": {
+    "/name": "Hubélie",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "483yLfgB6kJ0lWvD",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

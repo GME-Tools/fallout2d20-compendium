@@ -1,0 +1,15 @@
+{
+  "_key": "!items!7ogFbul957uLnNx0",
+  "_file": "psychose_traumatique__7ogFbul957uLnNx0.json",
+  "values": {
+    "/name": "Psychose traumatique",
+    "/system/description": "<p>Lorsque vous subissez une Blessure, retirez 1 PA de la réserve du groupe si possible.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "7ogFbul957uLnNx0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

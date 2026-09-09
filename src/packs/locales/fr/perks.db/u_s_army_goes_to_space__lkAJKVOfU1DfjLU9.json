@@ -1,0 +1,11 @@
+{
+  "_key": "!items!lkAJKVOfU1DfjLU9",
+  "_file": "l_armee_des_etats_unis_dans_l_espace__lkAJKVOfU1DfjLU9.json",
+  "values": {
+    "/name": "L’armée des États-Unis dans l’espace",
+    "/system/description": "<p>Sur une attaque avec une arme à énergie, vous infligez un coup critique dès 3 dégâts après résistance au lieu de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

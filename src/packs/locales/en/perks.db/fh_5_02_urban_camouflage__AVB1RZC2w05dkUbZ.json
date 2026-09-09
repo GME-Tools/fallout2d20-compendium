@@ -1,0 +1,9 @@
+{
+  "_key": "!items!AVB1RZC2w05dkUbZ",
+  "_file": "fh_5_02_urban_camouflage__AVB1RZC2w05dkUbZ.json",
+  "values": {
+    "/name": "FH 5-02 Urban Camouflage",
+    "/system/description": "<p>Enemies suffer +1 difficulty on tests to detect you; this does not stack with any difficulty increases for poor light or darkness</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

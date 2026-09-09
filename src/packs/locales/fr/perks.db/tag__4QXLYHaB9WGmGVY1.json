@@ -1,0 +1,14 @@
+{
+  "_key": "!items!4QXLYHaB9WGmGVY1",
+  "_file": "specialite_bonus__4QXLYHaB9WGmGVY1.json",
+  "values": {
+    "/name": "Spécialité bonus !",
+    "/system/description": "<p>Rangs : 1 Prérequis : niveau 5+ Vous pouvez choisir un atout personnel supplémentaire. Augmentez de 2 rangs la compétence sélectionnée, jusqu’à un maximum de 6 rangs et cochez la case « atout personnel ». Vous obtenez désormais une réussite critique lorsqu’un d20 indique un résultat inférieur ou égal au rang de cette compétence.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4QXLYHaB9WGmGVY1",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

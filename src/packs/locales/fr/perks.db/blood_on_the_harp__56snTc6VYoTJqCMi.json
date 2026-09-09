@@ -1,0 +1,11 @@
+{
+  "_key": "!items!56snTc6VYoTJqCMi",
+  "_file": "du_sang_sur_la_harpe__56snTc6VYoTJqCMi.json",
+  "values": {
+    "/name": "Du sang sur la harpe",
+    "/system/description": "<p>Une attaque de corps à corps réussie que vous portez inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

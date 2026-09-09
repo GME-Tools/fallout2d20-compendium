@@ -1,0 +1,16 @@
+{
+  "_key": "!items!g2KCQ2KwunOMVBh8",
+  "_file": "macaronis_blamco__g2KCQ2KwunOMVBh8.json",
+  "values": {
+    "/name": "Macaronis Blamco",
+    "/system/description": "<p>Produit de restauration rapide d’avant-guerre retrouvé des années plus tard dans les Terres désolées, généralement dans une boîte vivement colorée illustrée de macaronis au fromage prêts à servir. Il existe des boîtes préservées identiques, mais non irradiées et d’une rareté supérieure de +1.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "g2KCQ2KwunOMVBh8",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

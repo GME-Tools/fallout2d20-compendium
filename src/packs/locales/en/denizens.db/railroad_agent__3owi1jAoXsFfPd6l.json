@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!3owi1jAoXsFfPd6l",
+  "_file": "railroad_agent__3owi1jAoXsFfPd6l.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Unarmed Strike",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Tough Clothing, Wealth 2</span></p>",
+    "/items/2/name": "Melee Weapons",
+    "/items/3/name": "Survival",
+    "/items/4/name": "Energy Weapons",
+    "/items/5/name": "Small Guns",
+    "/items/6/name": "Medicine",
+    "/items/7/name": "Sneak",
+    "/items/8/name": "Speech",
+    "/items/9/name": "Barter",
+    "/items/10/name": "Lockpick",
+    "/items/11/name": "Repair",
+    "/items/12/name": "Science",
+    "/items/13/system/description": "<p><span class=\"fontstyle0\">A bolt-action rifle commonly found in the hands of super mutants and raiders. The simple design made them common amongst hunters and survivalists before the Great War, and they&rsquo;re endlessly customizable. It seems fanciful to suggest that the simple short-barreled slug-thrower carried by a super mutant could be turned into a precision sniper&rsquo;s rifle, yet that describes the hunting rifle perfectly.</span></p>",
+    "/items/13/system/weight": "10",
+    "/items/13/name": "Hunting Rifle",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 200,
+    "/system/origin": "Human, Normal Character",
+    "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Railroad Agent</strong></p>\n<p><span class=\"fontstyle0\">The underground faction of the Railroad seeks to liberate third-generation synths from the Institutes control. Railroad agents often work undercover, acting and dressing as discreetly as possible. They rarely act in the open, preferring to resort to subterfuge to carry out their mission. Despite this, they have no issue in taking up arms against those who might stand in their way, or stand with their enemies, such as the Brotherhood of Steel.</span></p>",
+    "/name": "Railroad Agent"
+  }
+}

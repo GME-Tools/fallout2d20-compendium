@@ -1,0 +1,11 @@
+{
+  "_key": "!items!qVKwUqqV2M4OHj6S",
+  "_file": "snot_ear__qVKwUqqV2M4OHj6S.json",
+  "values": {
+    "/name": "Snot Ear",
+    "/system/description": "<p>PER tests suffer +1 difficulty</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

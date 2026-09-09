@@ -1,0 +1,10 @@
+{
+  "_key": "!items!cJGae8CyPIfp6tj7",
+  "_file": "sniper__cJGae8CyPIfp6tj7.json",
+  "values": {
+    "/system/description": "<p>When you take the Aim minor action, and then make a ranged attack with a two-handed weapon with the Accurate quality, you can specify a hit location to target without increasing the difficulty of the attack.</p>\n<p><strong>Requirements</strong>: PER 8, AGI 6</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

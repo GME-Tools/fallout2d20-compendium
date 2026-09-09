@@ -1,0 +1,16 @@
+{
+  "_key": "!items!WY4ifZBy6XUHesiv",
+  "_file": "rossignol_electronique__WY4ifZBy6XUHesiv.json",
+  "values": {
+    "/name": "Rossignol électronique",
+    "/system/description": "<p>Rare dans les Terres désolées, le micromanipulateur électronique de Wattz Electronics est un outil puissant capable de crocheter les serrures mécaniques et électroniques plus efficacement qu’une personne seule. Il demeure toutefois fragile et peut tomber en panne s’il est mal employé.</p>",
+    "/system/effect": "<p>Réduit de 2 la difficulté des tests de Crochetage (minimum 0) et ignore la première complication. Se brise si au moins deux complications sont obtenues simultanément.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "WY4ifZBy6XUHesiv",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

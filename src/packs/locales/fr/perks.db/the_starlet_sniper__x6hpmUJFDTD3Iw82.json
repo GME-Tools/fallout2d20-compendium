@@ -1,0 +1,11 @@
+{
+  "_key": "!items!x6hpmUJFDTD3Iw82",
+  "_file": "la_starlette_tireuse_d_elite__x6hpmUJFDTD3Iw82.json",
+  "values": {
+    "/name": "La starlette tireuse d’élite !",
+    "/system/description": "<p>Vous gagnez +1 DC sur vos attaques avec des armes Précises.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

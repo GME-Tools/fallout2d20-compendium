@@ -1,0 +1,42 @@
+{
+  "_id": "CrftCookStation1",
+  "_key": "!items!CrftCookStation1",
+  "type": "object_or_structure",
+  "img": "modules/fallout2d20-compendium/artwork/Crafting/Cooking Station.webp",
+  "effects": [],
+  "folder": null,
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook",
+    "constructionTime": 0,
+    "itemType": "crafting_table",
+    "materials": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0
+    },
+    "parentItem": "",
+    "perks": "",
+    "rarity": "common"
+  },
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 209,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Crafting/Cooking Station.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "complexity": 2,
+        "perks": [],
+        "rarity": "common",
+        "materials": [],
+        "station": "cooking",
+        "errata": "V6-2026"
+      }
+    }
+  }
+}

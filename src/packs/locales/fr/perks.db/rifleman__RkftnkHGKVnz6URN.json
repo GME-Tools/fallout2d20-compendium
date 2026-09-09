@@ -1,0 +1,14 @@
+{
+  "_key": "!items!RkftnkHGKVnz6URN",
+  "_file": "fusilier__RkftnkHGKVnz6URN.json",
+  "values": {
+    "/name": "Fusilier",
+    "/system/description": "<p>Rangs : 2 Prérequis : AGI 7, niveau 2+ Lorsque vous effectuez une attaque avec une arme à distance à deux mains dotée d’une cadence de tir inférieure ou égale à 2 (à l’exception des armes lourdes), ajoutez +1 @fos[DC] aux dégâts de l’arme par rang dans cette aptitude. De plus, au rang 2, ajoutez l’effet de dégâts Perforant 1. Si l’attaque bénéficie déjà de cet effet, la valeur de ce dernier augmente de 1. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "RkftnkHGKVnz6URN",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

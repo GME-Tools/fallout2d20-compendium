@@ -1,0 +1,12 @@
+{
+  "_key": "!items!YbjXflCRhEgdvW0p",
+  "_file": "stimpak_diffuser__YbjXflCRhEgdvW0p.json",
+  "values": {
+    "/name": "Stimpak Diffuser",
+    "/system/description": "<p>This delivery mechanism allows the contents of a super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area.</p>\n<ul>\n<li><strong>Use:</strong> When deployed, using the Interact minor action, it produces a cloud which immediately heals 4 HP on everyone (other than robots) within Close range. One super Stimpak is consumed every time the Stimpak diffuser is used.</li>\n</ul>",
+    "/system/effect": "<p>Heals 4 HP to all within Close range</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!YDRoA6dGjWXy06hf",
+  "_file": "tueur_en_serie__YDRoA6dGjWXy06hf.json",
+  "values": {
+    "/name": "Tueur en série",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHA 8 Lorsque vous tuez au moins un ennemi avec une attaque, jetez 1 . Si vous obtenez un Effet, ajoutez 2 PA à la réserve du groupe.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YDRoA6dGjWXy06hf",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

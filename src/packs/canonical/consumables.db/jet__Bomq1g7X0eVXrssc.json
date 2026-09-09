@@ -1,0 +1,68 @@
+{
+  "_id": "Bomq1g7X0eVXrssc",
+  "_key": "!items!Bomq1g7X0eVXrssc",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Jet.webp",
+  "name": "Jet",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Jet",
+    "consumableType": "chem",
+    "cost": 50,
+    "duration": "brief",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Jet.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-jet",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Uncommon Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

@@ -6,7 +6,7 @@ import test from "node:test";
 const root = path.resolve(import.meta.dirname, "..");
 
 function load(language) {
-  const directory = path.join(root, "src", "packs", language, "crafting-stations.db");
+  const directory = path.join(root, "generated", "source-packs", language, "crafting-stations.db");
   return fs.readdirSync(directory).filter((name) => name.endsWith(".json")).map((name) => JSON.parse(fs.readFileSync(path.join(directory, name), "utf8")));
 }
 

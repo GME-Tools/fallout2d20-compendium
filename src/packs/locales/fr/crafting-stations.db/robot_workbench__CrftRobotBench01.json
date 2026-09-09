@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftRobotBench01",
+  "_file": "etabli_de_robots__CrftRobotBench01.json",
+  "values": {
+    "/name": "Établi de robots",
+    "/system/description": "<p>Un établi de robots fournit les outils et l’espace nécessaires pour modifier un robot. Son utilisation fait appel aux compétences Réparation et Science et bénéficie de l’aptitude Expert en robotique.</p>",
+    "/system/effect": "<p>Fournit les outils et l’espace nécessaires pour modifier un robot.</p>",
+    "/system/perks": "Expert en robotique",
+    "/system/skills": "Réparation, Science",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!zlPvWlAVWezHiFXX",
+  "_file": "nuclear_physicist__zlPvWlAVWezHiFXX.json",
+  "values": {
+    "/name": "Nuclear Physicist",
+    "/system/description": "<p>Whenever you use a weapon that inflicts radiation damage, or has the Radioactive damage effect, each Effect you roll inflicts one additional point of radiation damage.</p>\n<p>In addition, fusion cores you use have 3 additional charges.</p>\n<p><strong>Requirements</strong>: INT 9</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

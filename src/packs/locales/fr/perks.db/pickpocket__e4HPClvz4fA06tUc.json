@@ -1,0 +1,13 @@
+{
+  "_key": "!items!e4HPClvz4fA06tUc",
+  "_file": "pickpocket__e4HPClvz4fA06tUc.json",
+  "values": {
+    "/system/description": "<p>Rangs : 3 Prérequis : PER 8, AGI 8, niveau 1+ Au rang 1, vous pouvez ignorer la première complication obtenue lors de tout test d’AGI + Discrétion destiné à dérober un objet que porte une cible ou à glisser quelque chose sur elle. Au rang 2, vous pouvez relancer 1d20 lorsque vous essayez de faire les poches de quelqu’un. Au rang 3, réduisez de 1 la difficulté de tout test destiné à faire les poches de quelqu’un. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 3.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "e4HPClvz4fA06tUc",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!6hh0Evmfv0N8kX81",
+  "_file": "bobine_d_amplification_du_condensateur__6hh0Evmfv0N8kX81.json",
+  "values": {
+    "/name": "Bobine d’amplification du condensateur",
+    "/system/perks": "Fana d’armes 4; Scientifique 3",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "6hh0Evmfv0N8kX81",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

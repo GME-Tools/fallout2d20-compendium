@@ -1,0 +1,12 @@
+{
+  "_key": "!items!fuCYfiQzOvr4WtJI",
+  "_file": "308_round__fuCYfiQzOvr4WtJI.json",
+  "values": {
+    "/name": ".308 Round",
+    "/system/description": "<p><span class=\"fontstyle0\">A high-powered rifle round normally used in hunting rifles and some bolt-action pipe rifles. They&rsquo;re a common enough sight in the wastelands that a weapon using .308 rounds is unlikely to run out of ammunition too often.</span></p>\n<p><strong>Quantity Found: </strong>[[/r 6+3dc # .308 Round]]</p>",
+    "/system/weight": 0.041,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

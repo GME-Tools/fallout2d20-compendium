@@ -1,0 +1,9 @@
+{
+  "_key": "!tables.results!sa66QXOwlO8515AT.DszA2T4DBFYRz3K7",
+  "_file": "random_ammunition_12__DszA2T4DBFYRz3K7.json",
+  "values": {
+    "/name": "Syringer Ammo (4+2 CD; determine type)",
+    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.SyringeTypeTbl01]{Syringer Ammo (4+2 CD; determine type)}",
+    "/documentCollection": "fallout2d20-compendium.en-roll-tables"
+  }
+}

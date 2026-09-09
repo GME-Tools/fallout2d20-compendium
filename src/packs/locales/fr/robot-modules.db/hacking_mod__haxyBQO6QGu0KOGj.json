@@ -1,0 +1,16 @@
+{
+  "_key": "!items!haxyBQO6QGu0KOGj",
+  "_file": "module_de_piratage__haxyBQO6QGu0KOGj.json",
+  "values": {
+    "/name": "Module de piratage",
+    "/system/description": "<p>En plus d’une bibliothèque de logiciels de déchiffrement et de failles connues, ce module équipe le robot d’une prise d’interface externe qui lui permet de se connecter directement à un ordinateur. Il convient particulièrement aux robots dont les pinces manipulatrices sont mal adaptées à l’usage d’un clavier.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Sciences visant à pirater un système informatique verrouillé (minimum 0).</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "haxyBQO6QGu0KOGj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

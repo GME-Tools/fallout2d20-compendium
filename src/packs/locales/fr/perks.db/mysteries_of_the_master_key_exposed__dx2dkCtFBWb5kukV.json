@@ -1,0 +1,11 @@
+{
+  "_key": "!items!dx2dkCtFBWb5kukV",
+  "_file": "les_mysteres_du_passe_partout_reveles__dx2dkCtFBWb5kukV.json",
+  "values": {
+    "/name": "Les mystères du passe-partout révélés !",
+    "/system/description": "<p>Vous pouvez relancer 1d20 sur un seul test de Crochetage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "SyrLockJointAm01",
+  "_key": "!items!SyrLockJointAm01",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/Syringer Ammo, Lock Joint.webp",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 40,
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "4+2dc",
+    "rarity": 2,
+    "shots": {
+      "current": 1,
+      "max": 1
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": ""
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 117,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "syringerEffect": {
+        "key": "Lock Joint"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 215,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Dirty Water",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1"
+          },
+          {
+            "canonicalName": "Uncommon Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Stingwing Barb",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.dwRYe59wr0CAurtm"
+          },
+          {
+            "canonicalName": "Tarberry",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.Bvn11vBFx1OnUoJr"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!68eulbmhBZbFJlcs",
+  "_file": "bourbon__68eulbmhBZbFJlcs.json",
+  "values": {
+    "/system/description": "<p>Type de whiskey typiquement américain, le bourbon est un alcool distillé, vieilli en fût et principalement produit à partir de maïs. Avant la Guerre, ses amateurs avaient la réputation d’être robustes et endurcis.</p>",
+    "/system/effect": "<p>Relancez 1d20 lors des tests d’END.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "68eulbmhBZbFJlcs",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

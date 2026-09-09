@@ -1,0 +1,16 @@
+{
+  "_key": "!items!uCmxHbctgoe8jQDo",
+  "_file": "l_horreur_familiale__uCmxHbctgoe8jQDo.json",
+  "values": {
+    "/name": "L’horreur familiale",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Réduisez de 1 la difficulté pour fabriquer une arme, jusqu’à un minimum de 0.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.6XStNgfUJG92au27]{L’horreur familiale}</p></section>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté pour fabriquer une arme, jusqu’à un minimum de 0.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uCmxHbctgoe8jQDo",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

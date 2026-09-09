@@ -1,0 +1,16 @@
+{
+  "_key": "!items!vAtCC2CaGrGOgnSL",
+  "_file": "fh_5_10_sur_la_pointe_des_pieds_dans_les_tulipes__vAtCC2CaGrGOgnSL.json",
+  "values": {
+    "/name": "FH 5-10 Sur la pointe des pieds dans les tulipes",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Quand vous dépensez 1 point de Chance pour relancer 1d20 sur un test d’AGI, considérez que ce dé a obtenu 1 au lieu de le relancer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.xBewaCbKbQO5BQKp]{FH 5-10 Sur la pointe des pieds dans les tulipes}</p></section>",
+    "/system/effect": "<p>Quand vous dépensez 1 point de Chance pour relancer 1d20 sur un test d’AGI, considérez que ce dé a obtenu 1 au lieu de le relancer.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vAtCC2CaGrGOgnSL",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

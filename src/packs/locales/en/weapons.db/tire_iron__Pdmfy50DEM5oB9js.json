@@ -1,0 +1,12 @@
+{
+  "_key": "!items!Pdmfy50DEM5oB9js",
+  "_file": "tire_iron__Pdmfy50DEM5oB9js.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A simple L-shaped tool found commonly in cars and garages; tire irons make for handy weapons when not being used to change the tires on a car.</span></p>\n<p><span class=\"fontstyle0\">A tire iron can accept the following mod which is </span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span></p>\n<ul>\n<li><strong><span class=\"fontstyle0\">Tire Iron:</span></strong><span class=\"fontstyle0\"> Bladed</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Tire Iron"
+  }
+}

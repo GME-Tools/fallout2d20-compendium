@@ -1,0 +1,59 @@
+{
+  "_id": "xqBDl5Gnc7Q335BN",
+  "_key": "!items!xqBDl5Gnc7Q335BN",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Cooked Softshell Meat.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 40,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 9,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Softshell Mirelurk Meat",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.cNP3hldtBtuAG5eu"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

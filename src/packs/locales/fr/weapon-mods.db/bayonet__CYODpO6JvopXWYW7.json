@@ -1,0 +1,14 @@
+{
+  "_key": "!items!CYODpO6JvopXWYW7",
+  "_file": "baionnette__CYODpO6JvopXWYW7.json",
+  "values": {
+    "/name": "Baïonnette",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>smallGuns - muzzle</h4><dl><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×3</li></ul></article></section>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CYODpO6JvopXWYW7",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation"
+  }
+}

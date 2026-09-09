@@ -1,0 +1,16 @@
+{
+  "_key": "!items!SyrMindCloudAm01",
+  "_file": "mind_cloud_syringe__SyrMindCloudAm01.json",
+  "values": {
+    "/name": "Mind Cloud Syringe",
+    "/system/description": "<p>If one or more Effects are rolled, the target adds +2 difficulty to all PER tests for a number of rounds equal to the number of Effects rolled.</p><p><strong>Quantity found:</strong> 4+2 DC</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>Uncommon Materials ×2</li><li>Rare Materials ×3</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xQxEHsZuVRSR1yeB]{Asbestos} ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h]{Purified Water} ×1</li></ul></section>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/syringerEffect/text": "If one or more Effects are rolled, the target adds +2 difficulty to all PER tests for a number of rounds equal to the number of Effects rolled.",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Rare Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Asbestos",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Purified Water"
+  }
+}

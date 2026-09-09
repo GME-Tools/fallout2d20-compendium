@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!2e4lJEXWGLAHlxYw",
+  "_file": "miss_nanny__2e4lJEXWGLAHlxYw.json",
+  "values": {
+    "/items/0/name": "Armes à énergie",
+    "/items/1/name": "Médecine",
+    "/items/2/name": "Armes de corps à corps",
+    "/items/3/name": "Réparation",
+    "/items/4/name": "Armes légères",
+    "/items/5/name": "Discours",
+    "/items/14/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur une Miss Nanny détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 2d20 carburants de lance-flammes et 2 DC unités de matériaux communs, +1 DC par PA dépensé, plus 1 matériau peu commun par Effet obtenu.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "2e4lJEXWGLAHlxYw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/carryWeight/base": 75,
+    "/system/origin": "Robot, Personnage Notable",
+    "/system/biography": "<p>Modèle de base de la gamme, le Mister Handy a vu le jour comme unité de réparation, de construction et de maintenance, mais a fini par devenir un élément essentiel de la vie américaine d’avant-guerre. Dans les foyers, un Mister Handy faisait office de serviteur, capable d’entretenir la maisonnée, de cuisiner et même de s’occuper des enfants et des animaux. Dans les commerces, ce modèle faisait office d’agent de sécurité léger ou même d’interface client. Nombre de ces robots errent désormais dans les Terres désolées, leur cœur nucléaire fonctionnant encore des siècles après la Grande Guerre. Certains continuent de suivre leur programmation originelle et travaillent dans les foyers ou les commerces qui les utilisaient, a priori inconscients des changements du monde. D’autres ont été récupérés et reprogrammés pour répondre aux besoins du monde post-apocalyptique: ils font désormais office de domestiques pour des marchands, de barmans ou de compagnons pour les voyageurs.</p>"
+  }
+}

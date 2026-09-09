@@ -1,0 +1,24 @@
+{
+  "_id": "6ZJOHvTML67QyE5E",
+  "_key": "!items!6ZJOHvTML67QyE5E",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Psycho.webp",
+  "name": "Psycho",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

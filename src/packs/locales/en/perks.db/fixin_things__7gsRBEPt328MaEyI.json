@@ -1,0 +1,9 @@
+{
+  "_key": "!items!7gsRBEPt328MaEyI",
+  "_file": "fixin_things__7gsRBEPt328MaEyI.json",
+  "values": {
+    "/name": "Fixin' Things",
+    "/system/description": "<p>Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up). If you later learn this perk, you may use this whenever you attempt repairs.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!wgnNAjG0WqiJCJ2S",
+  "_file": "doigts_mous__wgnNAjG0WqiJCJ2S.json",
+  "values": {
+    "/name": "Doigts mous",
+    "/system/description": "<p>Vous devez dépenser 1 PA pour effectuer une attaque à distance.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "wgnNAjG0WqiJCJ2S",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

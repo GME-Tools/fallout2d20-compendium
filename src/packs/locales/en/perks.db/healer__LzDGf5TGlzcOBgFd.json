@@ -1,0 +1,11 @@
+{
+  "_key": "!items!LzDGf5TGlzcOBgFd",
+  "_file": "healer__LzDGf5TGlzcOBgFd.json",
+  "values": {
+    "/name": "Healer",
+    "/system/description": "<p>When you heal a patient&rsquo;s HP using the First Aid action, increase the amount of HP healed by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 5.</p>\n<p><strong>Requirements</strong>: INT 7, Level 1+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

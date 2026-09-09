@@ -12,7 +12,7 @@ const denizens = JSON.parse(await readFile("catalog/v1-core-denizens.json", "utf
 const moduleId = "fallout2d20-compendium";
 
 async function documents(language, pack) {
-  const directory = path.join("src", "packs", language, `${pack}.db`);
+  const directory = path.join("generated", "source-packs", language, `${pack}.db`);
   const files = (await readdir(directory)).filter((file) => file.endsWith(".json")).sort();
   return Promise.all(files.map(async (file) => JSON.parse(await readFile(path.join(directory, file), "utf8"))));
 }
@@ -67,14 +67,12 @@ test("survival hazards, stations, and all Core random tables exactly match their
 
 test("the denizen inventory exactly covers abilities, creatures, NPCs, and adventure profiles", async () => {
   assert.deepEqual(sorted((await documents("en", "creature-abilities")).map(entry)), denizens.creatureAbilities);
-  for (const pack of ["creatures", "npcs"]) {
-    const actual = sorted((await documents("en", pack)).map((document) => ({
-      ...entry(document),
-      adventure: document.flags?.[moduleId]?.source?.adventure === true,
-      ...(document.flags?.[moduleId]?.source?.page ? { page: document.flags[moduleId].source.page } : {})
-    })));
-    assert.deepEqual(actual, denizens[pack]);
-  }
+  const actual = sorted((await documents("en", "denizens")).map((document) => ({
+    ...entry(document),
+    adventure: document.flags?.[moduleId]?.source?.adventure === true,
+    ...(document.flags?.[moduleId]?.source?.page ? { page: document.flags[moduleId].source.page } : {})
+  })));
+  assert.deepEqual(actual, sorted([...denizens.creatures, ...denizens.npcs]));
   assert.equal(denizens.creatureAbilities.length, 78);
   assert.equal(denizens.creatures.length, 40);
   assert.equal(denizens.npcs.length, 35);
@@ -82,10 +80,11 @@ test("the denizen inventory exactly covers abilities, creatures, NPCs, and adven
 });
 
 test("every inventoried denizen document has a French counterpart with the same stable id and type", async () => {
-  for (const [field, pack] of [["creatureAbilities", "creature-abilities"], ["creatures", "creatures"], ["npcs", "npcs"]]) {
+  for (const [field, pack] of [["creatureAbilities", "creature-abilities"], ["denizens", "denizens"]]) {
     const french = new Map((await documents("fr", pack)).map((document) => [document._id, document]));
-    assert.equal(french.size, denizens[field].length, `${pack} has a language count mismatch`);
-    for (const expected of denizens[field]) {
+    const expectedDocuments = field === "denizens" ? [...denizens.creatures, ...denizens.npcs] : denizens[field];
+    assert.equal(french.size, expectedDocuments.length, `${pack} has a language count mismatch`);
+    for (const expected of expectedDocuments) {
       const translated = french.get(expected.id);
       assert.ok(translated, `${pack}/${expected.name} is missing in French`);
       assert.equal(translated.type, expected.type);

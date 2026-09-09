@@ -1,0 +1,9 @@
+{
+  "_key": "!items!ZIFR8Yf2IMU7kL8U",
+  "_file": "let_rip__ZIFR8Yf2IMU7kL8U.json",
+  "values": {
+    "/name": "Let Rip",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p>Once per combat, the [creature] may &lsquo;let rip&rsquo; with a volley from their [weapon]. This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD total).</p>"
+  }
+}

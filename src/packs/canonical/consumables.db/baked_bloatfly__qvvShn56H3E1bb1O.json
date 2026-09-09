@@ -1,0 +1,59 @@
+{
+  "_id": "qvvShn56H3E1bb1O",
+  "_key": "!items!qvvShn56H3E1bb1O",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Baked Bloatfly.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 15,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 6,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 1,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 1,
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Bloatfly Meat",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.gKcwpsDkmmUMmxP9"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

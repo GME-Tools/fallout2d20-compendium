@@ -1,0 +1,14 @@
+{
+  "_key": "!items!z0IE0nxflkXBbLSa",
+  "_file": "parasites__z0IE0nxflkXBbLSa.json",
+  "values": {
+    "/system/description": "<p>Divisez par deux le nombre d’heures entre les degrés de la jauge de faim.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "z0IE0nxflkXBbLSa",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

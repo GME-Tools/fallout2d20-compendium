@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!J7wkSSK2x71X6tIw",
+  "_file": "mouche_bouffie__J7wkSSK2x71X6tIw.json",
+  "values": {
+    "/items/3/$overrides/~1system~1effect": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 portion de viande de mouche bouffie et 1 glande de mouche bouffie.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "J7wkSSK2x71X6tIw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Insecte Mutant, Créature Normale",
+    "/system/biography": "<p>Les radiations nucléaires ont transformé les mouches à viande, courantes avant la Grande Guerre, en redoutables créatures surdimensionnées du nom de mouches bouffies. Facilement reconnaissables à leur carapace brunvert mouchetée et à leur apparence charnue et boursouflée, ces créatures ne sont pas des vermines classiques. Les mouches bouffies vivent souvent dans les marais, en nuées de trois à quatre individus. Elles attaquent à distance en propulsant de leur abdomen leurs propres larves, caractérisées par leur aiguillon. Agressives, les mouches bouffies poursuivent sans relâche des proies bien plus grandes qu’elles. Souvent, elles vivent aux côtés de tiques et de darillons à proximité des étendues d’eau ou de carcasses pourrissantes.</p>",
+    "/name": "Mouche bouffie"
+  }
+}

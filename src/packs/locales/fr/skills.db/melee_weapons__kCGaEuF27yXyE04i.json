@@ -1,0 +1,13 @@
+{
+  "_key": "!items!kCGaEuF27yXyE04i",
+  "_file": "armes_de_corps_a_corps__kCGaEuF27yXyE04i.json",
+  "values": {
+    "/name": "Armes de corps à corps",
+    "/system/description": "<p>La comp&eacute;tence Armes de corps &agrave; corps&nbsp;repr&eacute;sente votre talent pour&nbsp;infliger des d&eacute;g&acirc;ts et d&eacute;vier les&nbsp;coups avec des armes de corps&nbsp;&agrave; corps de tout type.</p>\n<p>Son attribut S.P.E.C.I.A.L. par&nbsp;d&eacute;faut est la <strong>Force</strong>, mais vous pouvez&nbsp;utiliser Agilit&eacute; pour parer une attaque&nbsp;au corps &agrave; corps ou Charisme pour&nbsp;menacer quelqu&rsquo;un. Employez Armes de corps &agrave; corps&nbsp;pour effectuer une attaque au corps &agrave; corps.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "kCGaEuF27yXyE04i",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

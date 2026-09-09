@@ -1,0 +1,17 @@
+{
+  "_key": "!items!3wCThKbCsMgAdrSg",
+  "_file": "pistolet_a_seringues__3wCThKbCsMgAdrSg.json",
+  "values": {
+    "/system/ammo": "Seringue",
+    "/system/description": "<p>Munitions: seringues Une arme artisanale utilisant la pression de l’air pour propulser des seringues adaptées à l’arme sur une cible. Elles infligent peu de dégâts par elles-mêmes, mais peuvent inoculer une grande variété d’effets débilitants. Un pistolet à seringues peut accepter un mod de chaque type parmi les suivants:  Canon: canon raccourci, canon long  Crosse: crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance</p>",
+    "/system/weight": 3,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "3wCThKbCsMgAdrSg",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Pistolet à seringues"
+  }
+}

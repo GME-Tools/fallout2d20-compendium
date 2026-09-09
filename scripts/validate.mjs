@@ -24,7 +24,7 @@ function issue(list, file, message) {
 
 for (const language of LANGUAGES) {
   for (const pack of PACKS) {
-    const root = path.resolve("src/packs", language, `${pack.name}.db`);
+    const root = path.resolve("generated/source-packs", language, `${pack.name}.db`);
     const files = await listFiles(root, file => file.endsWith(".json"));
     const names = new Map();
     const documentIds = new Set();

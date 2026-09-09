@@ -1,0 +1,13 @@
+{
+  "_key": "!items!Qe3DSub3iHONeRaO",
+  "_file": "gourd__Qe3DSub3iHONeRaO.json",
+  "values": {
+    "/name": "Gourd",
+    "/system/description": "<p><span class=\"fontstyle0\">A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be scooped out and eaten or used in cooking, while the outer skin is often carved and used as decoration.</span></p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

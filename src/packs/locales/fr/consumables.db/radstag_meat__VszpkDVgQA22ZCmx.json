@@ -1,0 +1,17 @@
+{
+  "_key": "!items!VszpkDVgQA22ZCmx",
+  "_file": "viande_de_radcerf__VszpkDVgQA22ZCmx.json",
+  "values": {
+    "/name": "Viande de radcerf",
+    "/system/description": "<p>Morceau volumineux prélevé sur un radcerf mort, permettant de préparer des repas nutritifs et rassasiants. Il se cuisine en radcerf grillé ou entre dans un ragoût de radcerf.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "VszpkDVgQA22ZCmx",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

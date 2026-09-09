@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftWeaponBench1",
+  "_file": "weapons_workbench__CrftWeaponBench1.json",
+  "values": {
+    "/name": "Weapons Workbench",
+    "/system/description": "<p>A weapons workbench contains tools for working with weapons of various kinds. Crafting at this workbench uses the Repair and Science skills and benefits from the Gun Nut, Science!, and Blacksmith perks.</p>",
+    "/system/effect": "<p>Contains tools for working with weapons of various kinds.</p>",
+    "/system/perks": "Gun Nut, Science!, Blacksmith",
+    "/system/skills": "Repair, Science",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false
+  }
+}

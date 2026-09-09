@@ -1,0 +1,11 @@
+{
+  "_key": "!items!lZ0REnexDQeH2cmK",
+  "_file": "fh_5_05_qui_va_la__lZ0REnexDQeH2cmK.json",
+  "values": {
+    "/name": "FH 5-05 Qui-va-là ?",
+    "/system/description": "<p>Quand vous dépensez 1 point de Chance pour relancer 1d20 sur un test de PER, considérez que ce dé a obtenu 1 au lieu de le relancer.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

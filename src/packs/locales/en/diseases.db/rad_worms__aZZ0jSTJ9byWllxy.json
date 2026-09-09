@@ -1,0 +1,11 @@
+{
+  "_key": "!items!aZZ0jSTJ9byWllxy",
+  "_file": "rad_worms__aZZ0jSTJ9byWllxy.json",
+  "values": {
+    "/name": "Rad Worms",
+    "/system/description": "<p>Whenever you suffer Radiation damage, add +2 to the amount suffered</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

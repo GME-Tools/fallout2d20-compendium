@@ -1,0 +1,16 @@
+{
+  "_key": "!items!od1qgkoqyO2SbhPV",
+  "_file": "technologie_de_demain_pour_supersoldats_d_aujourd_hui__od1qgkoqyO2SbhPV.json",
+  "values": {
+    "/name": "Technologie de demain pour supersoldats d’aujourd’hui",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Après avoir dépensé 1 charge de réacteur à fusion, vous pouvez dépenser 1 point de Chance pour que cette charge ne soit pas dépensée.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.eTkUS79PttpiHVm0]{Technologie de demain pour supersoldats d’aujourd’hui}</p></section>",
+    "/system/effect": "<p>Après avoir dépensé 1 charge de réacteur à fusion, vous pouvez dépenser 1 point de Chance pour que cette charge ne soit pas dépensée.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "od1qgkoqyO2SbhPV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

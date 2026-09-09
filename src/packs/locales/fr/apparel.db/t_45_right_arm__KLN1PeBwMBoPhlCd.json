@@ -1,0 +1,31 @@
+{
+  "_key": "!items!KLN1PeBwMBoPhlCd",
+  "_file": "bras_droit_d_armure_assistee_t_45__KLN1PeBwMBoPhlCd.json",
+  "values": {
+    "/name": "Bras droit d’armure assistée T-45",
+    "/system/description": "<p>Développée avant la Grande Guerre par West Tek pour l’armée américaine, la T-45 fut la première armure assistée déployée avec succès et reste donc relativement courante deux siècles plus tard. Chaque pièce accepte trois mods : une Amélioration, un Plaquage et un Système, installés avec Réparation. Améliorations propres : T-45b, T-45c, T-45d, T-45e et T-45f.</p>",
+    "/system/mods/6OY0YUH32cpkcCuH/system/weight": 0.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DtPOAGbxzkA9Ypyj/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/K63y4mcKxr792XLB/system/weight": 0.5,
+    "/system/mods/Pfh0zvUkSVL49AeL/system/weight": 1.5,
+    "/system/mods/RR7Vs2f9fJxRK7nq/system/weight": 1,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/ZsGBPsT9kf1lVrFw/system/weight": 0.5,
+    "/system/mods/cMFQXRN9ZrDIU23Y/system/weight": 0.5,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/v6Y7ypBdjXorV8ek/system/weight": 2,
+    "/system/mods/zX0aUfac1HnsEvZO/system/weight": 0.5,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KLN1PeBwMBoPhlCd",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -83,13 +83,12 @@ All packs remain categorical, bilingual and product-line-wide. Publication IDs
 must never be added to pack IDs, paths, or labels, and no publication-specific
 pack may be created.
 
-RollTables from a new publication are placed in a top-level folder whose stable
+RollTables are placed in a top-level publication folder whose stable
 technical association is that publication's registry ID and whose displayed
 name is the localized short title. Nested folders may classify related table
-families. Existing Core RollTables remain unchanged in US-102; their null
-folder is accepted as the V1-compatible root representation of the only
-registered publication. Folder introduction occurs with the first additional
-publication and must not rename or move a V1 pack.
+families. Core tables use the localized Core Rulebook folder with functional
+subfolders for character creation, publications, equipment, encounters and
+Vaults. Folder changes never rename or move a pack.
 
 Other categorical packs may use durable taxonomic folders such as equipment
 family, creature family, or rules category. They must not use publication
@@ -128,7 +127,8 @@ The generic invariants are:
 - paired image path and artwork classification;
 - exact comparison with an injected publication inventory when one is supplied.
 
-Inventory coordinates use `<language>/<pack>/<document-id>`. Audit code only
+Inventory coordinates use `<language>/<pack>/<document-id>` against the
+materialized language view. Audit code only
 reads and compares these references; it has no snapshot or write operation.
 `scripts/data/publication-audit-contracts.mjs` routes the Core to its existing
 specialized reviewed catalogs and tests. A future reviewed catalog can provide
@@ -147,3 +147,8 @@ The regression suite fixes the ordered identity set
 `(language, pack, _id, _key)` for all 2,764 V1 root documents and the 40 pack
 declarations. Because Foundry UUIDs are formed from the module ID, pack ID and
 document ID, this also locks every V1 compendium UUID input.
+
+The later owner-approved `creatures`/`npcs` to `denizens` migration is an
+explicit exception to that historical guarantee. Document IDs and `_key`
+values remain stable, while Actor compendium UUIDs now use the `denizens` pack
+ID and intra-module links are validated against it.

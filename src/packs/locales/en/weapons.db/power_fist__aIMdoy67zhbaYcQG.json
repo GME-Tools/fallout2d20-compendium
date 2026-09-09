@@ -1,0 +1,13 @@
+{
+  "_key": "!items!aIMdoy67zhbaYcQG",
+  "_file": "power_fist__aIMdoy67zhbaYcQG.json",
+  "values": {
+    "/system/mods/MvrQv0wg5FE6j7TR/$overrides/~1system~1perks": "Blacksmith 3",
+    "/system/description": "<p><span class=\"fontstyle0\">A Power Fist is a reinforced gauntlet or vambrace which mounts a heavy-duty pneumatic ram over the knuckles. Designed for use by demolition crews, it has also seen military use for breaching fortifications and clearing enemy barricades&hellip; and enemies.</span></p>\n<p><span class=\"fontstyle0\">A Power Fist can accept the following mod which is&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span> </p>\n<ul>\n<li><strong>Power Fist:&nbsp;</strong>Puncturing, Heating Coil</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 4,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Power Fist"
+  }
+}

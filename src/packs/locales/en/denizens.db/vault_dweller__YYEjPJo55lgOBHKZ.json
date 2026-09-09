@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!YYEjPJo55lgOBHKZ",
+  "_file": "vault_dweller__YYEjPJo55lgOBHKZ.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Unarmed Strike",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Vault Jumpsuit, 10mm pistol, 2d20 10mm rounds, Wealth 2</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/2/name": "Repair",
+    "/items/3/name": "Barter",
+    "/items/4/name": "Melee Weapons",
+    "/items/5/name": "Small Guns",
+    "/items/6/name": "Survival",
+    "/items/7/name": "Unarmed",
+    "/items/8/system/description": "<p><span class=\"fontstyle0\">Small, dependable, reasonably powerful, and widely available, the 10mm pistol has been a staple of wasteland combat since the bombs first fell. Its versatility and potential for customization mean that a well-looked-after 10mm pistol will keep its owner safe for a long time.</span></p>",
+    "/items/8/system/weight": "4",
+    "/items/8/name": "10mm Pistol",
+    "/items/9/name": "Energy Weapons",
+    "/items/10/name": "Medicine",
+    "/items/11/name": "Science",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 200,
+    "/system/origin": "Human, Normal Character",
+    "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Vault Dweller</strong></p>\n<p><span class=\"fontstyle0\">Across the wastes some vaults house, or once housed, human populations. Those who lived within the vaults are known to the outside word as Vault Dwellers. For some it is a rare sight in the wasteland to see the striking blue of a Vault-Tec jumpsuit, with most vaults still being sealed or meeting a tragic fate at the fault of one of Vault-Tec&rsquo;s abominable experiments. There are some vaults in the commonwealth that will open their doors to outsiders for trade however, and not all populations suffered lasting ruin at the hands of the makers of the fallout shelters.</span></p>",
+    "/name": "Vault Dweller"
+  }
+}

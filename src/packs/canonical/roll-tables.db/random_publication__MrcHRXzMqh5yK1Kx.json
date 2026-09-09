@@ -1,0 +1,43 @@
+{
+  "_id": "MrcHRXzMqh5yK1Kx",
+  "_key": "!tables!MrcHRXzMqh5yK1Kx",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "NsqgLNFpEbm1I8C1",
+    "0xhAlVZvmOjyAeN9",
+    "hA8bJQCFAFoBncOF",
+    "Bkx6UUdomAeksr7u",
+    "bvEFBFk1z52AKDNa",
+    "t8CBhkgeZvFTOY7U",
+    "kRILfAzGsiuUmD3R",
+    "pKaP4KZzgI56p8xf",
+    "iJPxBEjYIuMQstiO",
+    "oCrGKhy6ZNHYTXg1",
+    "JqEmPps49kzYLNPQ",
+    "gsCdYYHJAfADf0bK",
+    "yQ2iShsE1wjOndu7",
+    "a15SB1xK4UMZABP8",
+    "FQ2OnHUgLrotuKgB",
+    "O8WqZuw0rwA5WCap",
+    "04AKxSTpLDbvaT4V",
+    "PNkLH9ZfDVTBgACc",
+    "1sxq6wDLINct5TJq",
+    "54ryAlajGZvI3KYH"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 172,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "publications"
+}

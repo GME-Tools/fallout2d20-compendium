@@ -1,0 +1,13 @@
+{
+  "_key": "!items!ldIbeCgUhfS2AVHV",
+  "_file": "pipe_revolver__ldIbeCgUhfS2AVHV.json",
+  "values": {
+    "/system/ammo": ".45 Round",
+    "/system/description": "<p><span class=\"fontstyle0\">Like the other forms of pipe gun, the pipe revolver is a makeshift or homemade gun, in this case modelled after a revolver. It strikes a balance between the stopping power of the pipe bolt&ndash;action, and the fire rate of the pipe gun, and its improvised nature makes it similarly suited for modification.</span></p>\n<p><span class=\"fontstyle0\">A Pipe Revolver can accept one each of the following mods. Any Stock mods add &ldquo;Rifle&rdquo; to the end of the weapon&rsquo;s name.</span> </p>\n<ul>\n<li><strong>Receiver:</strong> Calibrated, Hardened, Powerful, .38 Receiver, .308 Receiver</li>\n<li><strong>Barrel:</strong> Long Barrel, Ported Barrel, Finned Barrel</li>\n<li><strong>Grip:</strong> Sharpshooter&rsquo;s Grip</li>\n<li><strong>Stock:</strong> Full Stock, Marksman&rsquo;s Stock, RecoilCompensating Stock</li>\n<li><strong>Sights:</strong> Reflex Sight, Short Scope, Long Scope, Short Night Vision Scope, Long Night Vision Scope, Recon Scope</li>\n<li><strong>Muzzle:</strong> Bayonet, Compensator, Muzzle Brake, Suppressor</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 4,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Pipe Revolver"
+  }
+}

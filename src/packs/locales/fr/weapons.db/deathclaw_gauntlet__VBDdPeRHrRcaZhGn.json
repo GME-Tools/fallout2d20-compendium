@@ -1,0 +1,16 @@
+{
+  "_key": "!items!VBDdPeRHrRcaZhGn",
+  "_file": "gantelet_d_ecorcheur__VBDdPeRHrRcaZhGn.json",
+  "values": {
+    "/system/description": "<p>Fabriqués à partir des doigts et des serres tranchés d’un écorcheur et montés sur une manchette qui s’enfile sur le poignet, ces gantelets permettent à celui qui les porte de frapper avec une partie de la force mortelle du précédent propriétaire des griffes. Un gantelet d’écorcheur peut accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "VBDdPeRHrRcaZhGn",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Gantelet d’écorcheur"
+  }
+}

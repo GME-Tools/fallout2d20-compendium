@@ -1,0 +1,14 @@
+{
+  "_key": "!items!y7gB4zpJo3GZtW9y",
+  "_file": "keen_senses__y7gB4zpJo3GZtW9y.json",
+  "values": {
+    "/name": "Sens aiguisés",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "y7gB4zpJo3GZtW9y",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!TmIh9ecBP1YvDwdF",
+  "_file": "cultiver_dans_les_terres_desolees__TmIh9ecBP1YvDwdF.json",
+  "values": {
+    "/name": "Cultiver dans les Terres désolées",
+    "/system/description": "<p>Consommer un aliment qui est un fruit ou un légume guérit deux fois plus de PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

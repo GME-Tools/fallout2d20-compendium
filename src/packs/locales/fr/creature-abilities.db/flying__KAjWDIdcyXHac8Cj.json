@@ -1,0 +1,14 @@
+{
+  "_key": "!items!KAjWDIdcyXHac8Cj",
+  "_file": "flying__KAjWDIdcyXHac8Cj.json",
+  "values": {
+    "/name": "Vol",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KAjWDIdcyXHac8Cj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette créature se déplace librement dans les airs. Elle ignore la plupart des obstacles au sol et le terrain difficile, et peut traverser les zones « vides » au-dessus du champ de bataille. Elle doit consacrer au moins une action mineure par tour à se déplacer. Si elle est mise à terre, elle chute et subit 3 DC de dégâts physiques Étourdissants, +2 DC par zone qui la séparait du sol.</p>"
+  }
+}

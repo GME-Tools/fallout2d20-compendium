@@ -1,0 +1,14 @@
+{
+  "_key": "!items!TFJbnmRbE7cisziV",
+  "_file": "antiradiations__TFJbnmRbE7cisziV.json",
+  "values": {
+    "/name": "Antiradiations",
+    "/system/description": "<p>Rangs : 2 Prérequis : END 8, niveau 1+ Votre résistance aux dégâts de radiation, quelle que soit la localisation, augmente de +1 par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "TFJbnmRbE7cisziV",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

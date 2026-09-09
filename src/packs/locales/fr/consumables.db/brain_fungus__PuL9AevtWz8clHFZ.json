@@ -1,0 +1,16 @@
+{
+  "_key": "!items!PuL9AevtWz8clHFZ",
+  "_file": "fausse_morille__PuL9AevtWz8clHFZ.json",
+  "values": {
+    "/name": "Fausse morille",
+    "/system/description": "<p>Champignon blanc cassé ressemblant à un cerveau, poussant en grappes dans les recoins sombres et humides. Légèrement irradié par son environnement mais inoffensif malgré son apparence inquiétante. C’est un ingrédient des Mentats.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PuL9AevtWz8clHFZ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

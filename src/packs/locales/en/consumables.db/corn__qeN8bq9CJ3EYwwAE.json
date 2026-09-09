@@ -1,0 +1,12 @@
+{
+  "_key": "!items!qeN8bq9CJ3EYwwAE",
+  "_file": "corn__qeN8bq9CJ3EYwwAE.json",
+  "values": {
+    "/name": "Corn",
+    "/system/description": "<p><span class=\"fontstyle0\">A highly versatile crop cultivated across the Americas for centuries. Corn remains largely unchanged by the War, and it remains a staple of wasteland agriculture.</span></p>\n<p><span class=\"fontstyle0\">Corn grown in non-irradiated conditions (such as within vaults or similar locations) is not irradiated but increases its rarity by +1. In addition to its use as food, corn is a main ingredient in vegetable starch, which can be used to make adhesives for crafting.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

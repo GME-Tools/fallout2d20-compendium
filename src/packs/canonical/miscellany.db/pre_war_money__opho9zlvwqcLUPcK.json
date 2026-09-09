@@ -1,0 +1,32 @@
+{
+  "_id": "opho9zlvwqcLUPcK",
+  "_key": "!items!opho9zlvwqcLUPcK",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Pre-War Money.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 1,
+    "description": "",
+    "effect": "",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 0,
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Tools and Utility Items/Pre-War Money.webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

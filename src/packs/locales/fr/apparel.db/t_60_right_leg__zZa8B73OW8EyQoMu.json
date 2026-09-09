@@ -1,0 +1,30 @@
+{
+  "_key": "!items!zZa8B73OW8EyQoMu",
+  "_file": "jambe_droite_d_armure_assistee_t_60__zZa8B73OW8EyQoMu.json",
+  "values": {
+    "/name": "Jambe droite d’armure assistée T-60",
+    "/system/description": "<p>Conçue après la victoire d’Anchorage pour remplacer la T-51, la T-60 était en cours de distribution aux unités stationnées aux États-Unis lorsque les bombes tombèrent ; de grands stocks attendaient encore leur déploiement. La Confrérie de l’Acier s’en est emparée et en a fait un symbole. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Améliorations propres : T-60b à T-60f.</p>",
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/JpGZrBzUJTLieuRJ/system/weight": 0.5,
+    "/system/mods/RrhtyBPhjtENsF6w/system/weight": 0.5,
+    "/system/mods/WBODl13DtVwIr7KL/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/ZiNEsPVsZJflvKVh/system/weight": 1.5,
+    "/system/mods/eP0k4kn5PUwNE7OE/system/weight": 2,
+    "/system/mods/igmcUhE1lEq2NPcP/system/weight": 1,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/nbeJXBz0LccZvmJP/system/weight": 1,
+    "/system/mods/pZ2FIyhKvuL7EPT0/system/weight": 0.5,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zZa8B73OW8EyQoMu",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

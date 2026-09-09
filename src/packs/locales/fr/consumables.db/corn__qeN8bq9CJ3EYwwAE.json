@@ -1,0 +1,16 @@
+{
+  "_key": "!items!qeN8bq9CJ3EYwwAE",
+  "_file": "epi_de_mais__qeN8bq9CJ3EYwwAE.json",
+  "values": {
+    "/name": "Épi de maïs",
+    "/system/description": "<p>Culture polyvalente pratiquée depuis des siècles dans les Amériques, le maïs a peu changé et reste un pilier agricole. Cultivé sans radiations, il n’est pas irradié mais sa rareté augmente de +1. Il sert aussi à produire l’amidon végétal utilisé comme adhésif d’artisanat.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "qeN8bq9CJ3EYwwAE",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

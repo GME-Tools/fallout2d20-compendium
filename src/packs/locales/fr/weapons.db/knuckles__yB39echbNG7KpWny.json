@@ -1,0 +1,16 @@
+{
+  "_key": "!items!yB39echbNG7KpWny",
+  "_file": "poing_americain__yB39echbNG7KpWny.json",
+  "values": {
+    "/system/description": "<p>Créée à l’époque de l’Antiquité, cette arme n’en reste pas moins très courante dans les Terres désolées de l’après- Grande Guerre. Le coup de poing américain, ou coup-depoing, prend la forme de quatre anneaux de métal reliés entre eux pour donner une forme creuse et convexe, avec une barre fixée sur la face concave. Les anneaux sont enfilés par-dessus les doigts d’un combattant et la barre est pressée dans la paume de sa main. Quand l’utilisateur donne un coup de poing, le coup de poing américain absorbe la plus grande partie de l’impulsion de l’impact et transfère l’essentiel de l’énergie cinétique du coup sur la cible par la surface d’impact plus dure et plus petite des anneaux en métal. Cela augmente énormément les chances d’infliger de sérieux dommages aux tissus et de briser des os. Un poing américain peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yB39echbNG7KpWny",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Poing américain"
+  }
+}

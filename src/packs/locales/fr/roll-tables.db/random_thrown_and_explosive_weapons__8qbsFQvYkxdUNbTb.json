@@ -1,0 +1,9 @@
+{
+  "_key": "!tables!8qbsFQvYkxdUNbTb",
+  "_file": "armes_de_lancer_et_explosifs_aleatoires__8qbsFQvYkxdUNbTb.json",
+  "values": {
+    "/name": "Armes de lancer et explosifs aléatoires",
+    "/description": "<p>Table du Livre de base, p. 206.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr"
+  }
+}

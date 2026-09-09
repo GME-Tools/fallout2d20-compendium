@@ -1,0 +1,15 @@
+{
+  "_key": "!items!Ftl31Ohm1RpADIHu",
+  "_file": "gaz_des_marais__Ftl31Ohm1RpADIHu.json",
+  "values": {
+    "/name": "Gaz des marais",
+    "/system/description": "<p>Les tests de CHA gagnent +1 difficulté.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Ftl31Ohm1RpADIHu",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

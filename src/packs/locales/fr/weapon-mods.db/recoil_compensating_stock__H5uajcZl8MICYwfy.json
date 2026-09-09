@@ -1,0 +1,16 @@
+{
+  "_key": "!items!H5uajcZl8MICYwfy",
+  "_file": "crosse_a_compensateur_de_recul__H5uajcZl8MICYwfy.json",
+  "values": {
+    "/name": "Crosse à compensateur de recul",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>smallGuns - stock</h4><dl><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Ba5yPRdNAvjM5StI]{Fana d’armes} 3</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></article></section>",
+    "/system/perks": "Fana d’armes 3",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "H5uajcZl8MICYwfy",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 3"
+  }
+}

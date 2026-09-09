@@ -1,0 +1,14 @@
+{
+  "_key": "!items!BKTkXhJHSgVjdsKT",
+  "_file": "fana_de_capsules__BKTkXhJHSgVjdsKT.json",
+  "values": {
+    "/name": "Fana de capsules",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHR 5 Lorsque vous vendez ou achetez des objets, vous pouvez augmenter ou diminuer le prix des biens échangés de 10 %.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "BKTkXhJHSgVjdsKT",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

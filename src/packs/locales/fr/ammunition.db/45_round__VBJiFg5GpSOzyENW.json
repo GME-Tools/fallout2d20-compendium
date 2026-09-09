@@ -1,0 +1,15 @@
+{
+  "_key": "!items!VBJiFg5GpSOzyENW",
+  "_file": "cartouche_45__VBJiFg5GpSOzyENW.json",
+  "values": {
+    "/name": "Cartouche .45",
+    "/system/description": "<p>Une bonne cartouche qui combine un pouvoir d’arrêt raisonnable, un recul gérable et une précision correcte. Elle est utilisée par plusieurs armes différentes assez répandues dans les Terres désolées et n’est pas trop difficile à trouver.</p>",
+    "/system/weight": 0.0145,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "VBJiFg5GpSOzyENW",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

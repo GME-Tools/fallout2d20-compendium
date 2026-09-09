@@ -1,0 +1,14 @@
+{
+  "_key": "!items!IVL33DFzxdmpj143",
+  "_file": "ami_des_animaux__IVL33DFzxdmpj143.json",
+  "values": {
+    "/name": "Ami des animaux",
+    "/system/description": "<p>Rangs : 2 Prérequis : CHR 6, niveau 1+ Au rang 1, chaque fois qu’un PNJ créature dont le profil affiche le mot-clef Mammifère, Lézard ou Insecte souhaite vous attaquer, jetez 1 : si vous obtenez un résultat autre qu’un Effet, la créature choisit de ne pas vous attaquer, bien qu’elle puisse toujours s’en prendre à un autre personnage. Au rang 2, vous pouvez entreprendre un test de CHR + Survie de difficulté 2 au prix d’une action capitale. En cas de réussite, l’animal vous considère comme amical et attaquera quiconque s’en prend à vous. Cette aptitude ne fonctionne pas sur les animaux redoutables ou légendaires. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "IVL33DFzxdmpj143",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

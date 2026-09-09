@@ -1,0 +1,16 @@
+{
+  "_key": "!items!jGk6pqXEHojFBnHc",
+  "_file": "uf_de_radscorpion__jGk6pqXEHojFBnHc.json",
+  "values": {
+    "/name": "Œuf de radscorpion",
+    "/system/description": "<p>Œuf de radscorpion difficile à obtenir, puisqu’on le trouve généralement près de radscorpions. Il permet de préparer une omelette d’œuf de radscorpion.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jGk6pqXEHojFBnHc",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

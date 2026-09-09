@@ -1,0 +1,15 @@
+{
+  "_key": "!items!ehsLCAMtk39LFHVa",
+  "_file": "pipe_wrench__ehsLCAMtk39LFHVa.json",
+  "values": {
+    "/system/mods/D8hF1RjpOMVHjlHp/$overrides/~1system~1namePrefix": "Weighted",
+    "/system/mods/D8hF1RjpOMVHjlHp/$overrides/~1system~1perks": "Blacksmith 1",
+    "/system/mods/D8hF1RjpOMVHjlHp/$overrides/~1system~1weight": 7,
+    "/system/description": "<p><span class=\"fontstyle0\">A heavy, metal, adjustable wrench, long enough to be used as a makeshift melee weapon. The adjustable jaws are often used to hold attachments, allowing the wrench to be modded extremely easily.</span></p>\n<p><span class=\"fontstyle0\">A pipe wrench can accept one of the following mods which are&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">. Reduce the difficulty of any test to install a mod onto a pipe wrench by 1.</span></p>\n<ul>\n<li><strong><span class=\"fontstyle0\">Pipe Wrench:</span></strong><span class=\"fontstyle0\">&nbsp; Hooked, Heavy, Puncturing, Extra Heavy</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Pipe Wrench"
+  }
+}

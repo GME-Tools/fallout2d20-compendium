@@ -1,0 +1,12 @@
+{
+  "_key": "!items!66p1lQmwPXZINPKn",
+  "_file": "rolling_pin__66p1lQmwPXZINPKn.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A sturdy cylinder of wood found in kitchens everywhere. Heavy enough to deter an assortment of attackers if you haven&rsquo;t got something more dangerous.</span></p>\n<p><span class=\"fontstyle0\">A rolling pin can accept one of the following mods which are&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span></p>\n<ul>\n<li><strong><span class=\"fontstyle0\">Rolling Pin:</span></strong><span class=\"fontstyle0\"> Spiked, Sharp</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Rolling Pin"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!EeIPWWTVBMinJmJC",
+  "_file": "daytripper__EeIPWWTVBMinJmJC.json",
+  "values": {
+    "/name": "Daytripper",
+    "/system/description": "<p>La difficulté de tous vos tests de CHR et de CHA augmente de +1 quand vous n’êtes pas sous l’effet du Daytripper.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "EeIPWWTVBMinJmJC",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

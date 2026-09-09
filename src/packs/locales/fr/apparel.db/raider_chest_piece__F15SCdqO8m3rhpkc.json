@@ -1,0 +1,30 @@
+{
+  "_key": "!items!F15SCdqO8m3rhpkc",
+  "_file": "de_pillard_plastron__F15SCdqO8m3rhpkc.json",
+  "values": {
+    "/name": "de pillard Plastron",
+    "/system/description": "<p>Armure improvisée des pillards et autres coupe-gorges, faite de ferraille martelée, renforcée de barres, fils et sangles de cuir, souvent ornée de trophées macabres. Chaque pièce accepte un Matériau et une Amélioration. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Les super mutants ne peuvent porter que l’armure de pillard. Installation avec Réparation. Matériaux : Soudé, Trempé, Durci, Contrefort.</p>",
+    "/system/mods/4PtjwYY1RpNnvExC/system/weight": 2,
+    "/system/mods/5sQU0kdQbhyacSdu/system/weight": 1,
+    "/system/mods/6Auqz8lwvuB7UFdy/system/weight": -1,
+    "/system/mods/8F9G1Cg2OmluAbG1/system/weight": 1,
+    "/system/mods/QXgVEVm7Ttp4UFpS/system/weight": 1,
+    "/system/mods/SZGWmJhEwwoXU1PR/system/weight": 2,
+    "/system/mods/XYvAnkqTE6TUIvzs/system/weight": 2,
+    "/system/mods/e7ySHkXMm9o7Aovi/system/weight": 2,
+    "/system/mods/nq7nPjVuJCN7lGpz/system/weight": 1,
+    "/system/mods/q48esitA3U4tmuXT/system/weight": 2,
+    "/system/mods/ttjB1mPeas5mpm8O/system/weight": 3,
+    "/system/mods/uLZD28tMAPybOcdn/system/weight": 1,
+    "/system/mods/yWvt9clbKolwdbm1/system/weight": -3,
+    "/system/mods/yoRbLyIzNTy0VwGT/system/weight": 2,
+    "/system/weight": 3.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "F15SCdqO8m3rhpkc",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!p3GhRmIwrYTJmuhr",
+  "_file": "armes_lourdes__p3GhRmIwrYTJmuhr.json",
+  "values": {
+    "/name": "Armes lourdes",
+    "/system/description": "<p>La comp&eacute;tence Armes&nbsp;lourdes repr&eacute;sente votre&nbsp;entra&icirc;nement aux armes de&nbsp;bonne taille, des Fat Man&nbsp;aux lasers gatling, en passant&nbsp;par tous les interm&eacute;diaires.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Endurance</strong>,&nbsp;mais vous pouvez utiliser Force si vous devez pr&eacute;parer&nbsp;une arme ou Agilit&eacute; si la pr&eacute;cision devient importante.&nbsp;Employez Armes lourdes pour manier des armes telles&nbsp;que les miniguns, les lance-roquettes, les Fat Man et les&nbsp;lasers gatling.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "p3GhRmIwrYTJmuhr",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

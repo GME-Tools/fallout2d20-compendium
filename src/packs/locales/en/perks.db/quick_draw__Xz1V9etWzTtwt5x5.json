@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Xz1V9etWzTtwt5x5",
+  "_file": "quick_draw__Xz1V9etWzTtwt5x5.json",
+  "values": {
+    "/name": "Quick Draw",
+    "/system/description": "<p>Each turn, you may draw a single weapon or item carried on your person without using a minor action.</p>\n<p><strong>Requirements</strong>: AGI 6</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

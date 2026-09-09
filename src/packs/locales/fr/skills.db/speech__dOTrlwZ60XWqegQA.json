@@ -1,0 +1,13 @@
+{
+  "_key": "!items!dOTrlwZ60XWqegQA",
+  "_file": "discours__dOTrlwZ60XWqegQA.json",
+  "values": {
+    "/name": "Discours",
+    "/system/description": "<p>La comp&eacute;tence Discours recouvre&nbsp;les techniques que vous avez&nbsp;apprises pour communiquer avec&nbsp;autrui, convaincre vos interlocuteurs avec de solides arguments&nbsp;ou leur mentir sans qu&rsquo;ils s&rsquo;en&nbsp;rendent compte.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est le <strong>Charisme</strong>,&nbsp;mais vous pouvez utiliser Intelligence pour &eacute;crire un&nbsp;discours ou Perception pour d&eacute;terminer &agrave; quel point&nbsp;votre pigeon est susceptible de croire &agrave; votre mensonge.&nbsp;Employez Discours pour convaincre autrui de vos arguments, inspirer vos interlocuteurs ou tenter de les duper&nbsp;de mani&egrave;re convaincante.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "dOTrlwZ60XWqegQA",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

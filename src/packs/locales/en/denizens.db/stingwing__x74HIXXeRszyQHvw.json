@@ -1,0 +1,18 @@
+{
+  "_key": "!actors!x74HIXXeRszyQHvw",
+  "_file": "stingwing__x74HIXXeRszyQHvw.json",
+  "values": {
+    "/items/0/$overrides/~1system~1weight": "0",
+    "/items/0/$overrides/~1system~1effect": "<p>A successful END + Survival test with a difficulty of 0 yields 1 CD portions of stingwing meat. An Effect also yields 1 stingwing barb.</p>",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/2/$overrides/~1system~1description": "<p>The stingwing reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/3/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The stingwing&nbsp;reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/4/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The stingwing&nbsp;is smaller than most characters. The creature&rsquo;s normal HP decreases to Body + &frac12; level (rounded up), but its Defense increases by 1. Further, it is slain by any hit which inflicts an Injury.</span></p>",
+    "/items/5/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The&nbsp;</span>stingwing <span class=\"fontstyle0\">can move freely through the air. They ignore most ground-level obstacles and difficult terrain effects, and they can move through &ldquo;empty&rdquo; zones above the battlefield if desired. It must spend at least one minor action each turn moving, and if it is knocked prone it falls to the ground, suffering 3 </span><span class=\"fontstyle2\">CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">Stun physical damage, +2 </span><span class=\"fontstyle2\">CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">for each zone above ground level it was before it fell.</span></p>",
+    "/items/6/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">If a stingwing moves into Reach and makes a melee attack in the same turn, it may re-roll 1d20 on the attack. After the attack, it may spend 1AP to move one zone.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/origin": "Mutated Insect, Normal Creature",
+    "/system/biography": "<p><span class=\"fontstyle0\">The mutated form of the pre-War scorpion fly, Stingwings are another one of the wasteland&rsquo;s common flying insects. They can often be found building nests in the same conditions and areas as bloatflies and bloodflies due to their similar preference in climate and food sources. Stingwings have developed a venomous sting which is both deadly and painful. These creatures are incredibly fast and agile, making them a difficult opponent to face in a swarm, and rush at their prey to bring it down as quickly as possible. They create nests both on the ground and at heights, which can be spotted by the bright yellow honey-like ooze they secrete. If nests are disturbed or threatened, a swarm of stingwings often emerge to defend it.</span></p>",
+    "/name": "Stingwing"
+  }
+}

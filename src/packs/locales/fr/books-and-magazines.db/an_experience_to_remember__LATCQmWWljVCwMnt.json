@@ -1,0 +1,16 @@
+{
+  "_key": "!items!LATCQmWWljVCwMnt",
+  "_file": "une_experience_marquante__LATCQmWWljVCwMnt.json",
+  "values": {
+    "/name": "Une expérience marquante",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Choisissez une autre aptitude de magazine déjà utilisée mais pas apprise : elle s’applique maintenant.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.4iTCNKydcsh3PHwY]{Une expérience marquante}</p></section>",
+    "/system/effect": "<p>Choisissez une autre aptitude de magazine déjà utilisée mais pas apprise : elle s’applique maintenant.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "LATCQmWWljVCwMnt",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

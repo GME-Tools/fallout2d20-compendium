@@ -1,0 +1,16 @@
+{
+  "_key": "!items!UvPtfBpiOmAmiKg2",
+  "_file": "petites_armes_pour_petites_dames__UvPtfBpiOmAmiKg2.json",
+  "values": {
+    "/name": "Petites armes pour petites dames",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque avec une arme maniée avec Armes légères gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.YUHxXpiMFWmEtbXB]{Petites armes pour petites dames}</p></section>",
+    "/system/effect": "<p>Une attaque avec une arme maniée avec Armes légères gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "UvPtfBpiOmAmiKg2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

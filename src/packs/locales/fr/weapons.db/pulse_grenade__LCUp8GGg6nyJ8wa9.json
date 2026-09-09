@@ -1,0 +1,21 @@
+{
+  "_key": "!items!LCUp8GGg6nyJ8wa9",
+  "_file": "grenade_a_impulsion__LCUp8GGg6nyJ8wa9.json",
+  "values": {
+    "/system/description": "<p>Les grenades à impulsion émettent une rafale électromagnétique qui inflige de gros dégâts aux machines (par exemple les robots, les synthés et les armures assistées) à proximité, tout en ne faisant aucun mal aux créatures vivantes. Spécial: les grenades à impulsion n’infligent de dégâts qu’aux robots, aux synthés, aux armures assistées (mais non aux porteurs à l’intérieur) et aux autres cibles mécaniques ou technologiques. Tout ordinateur se trouvant dans la zone d’impact subit également des dégâts à cause de la grenade. Mais contre toute autre cible, les grenades à impulsion infligent 0 dé de dégâts. Complications des explosifs Voici des suggestions de complications possibles qui pourraient se produire si vous obtenez un 20 en lançant un explosif avec Explosifs. Les complications sont résolues après les résultats d’un test de compétence ; aucun des résultats suivants ne peut donc empêcher une attaque de réussir, même si une complication sur une attaque ratée peut se dérouler différemment d’une complication sur une attaque réussie.  Dégâts collatéraux : quelque chose était présent dans la zone d’impact et vous ne l’avez pas vu à temps, ou pas vu du tout, quand vous avez lancé la grenade. Le MJ choisit un élément dans la zone qui est important ou utile pour vous ou un autre PJ, ou ajoute quelque chose dans la zone, et cet élément subit des dégâts à cause de l’explosion.  Pétard mouillé: une partie de l’explosif est défectueuse et l’engin n’explose pas. Si l’attaque a échoué et si vous avez obtenu une complication, l’explosif peut n’avoir aucun effet (et infliger 0 dé de dégâts) au lieu d’avoir un effet partiel comme d’ordinaire.  Oups…: vous laissez tomber la grenade avant de pouvoir la lancer. Si l’attaque a échoué et si vous avez obtenu plusieurs complications, vous avez peut-être dégoupillé la grenade avant de la laisser tomber par maladresse. La grenade vous inflige tous ses dégâts et inflige la moitié de ses dégâts à tous les autres personnages présents dans la zone où vous vous trouvez actuellement.  Lancer imprécis : la grenade n’est pas tout à fait partie sur sa cible, a rebondi sur quelque chose ou est légèrement décalée par rapport à l’endroit que vous vouliez atteindre pour une autre raison. Les ennemis à l’abri au sein de la zone ciblée lancent +2 dés d’abri.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosifs}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Expert en démolition}, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×3</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "LCUp8GGg6nyJ8wa9",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en démolition",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 2",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosifs",
+    "/name": "Grenade à impulsion"
+  }
+}

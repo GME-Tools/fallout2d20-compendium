@@ -1,0 +1,11 @@
+{
+  "_key": "!items!6XStNgfUJG92au27",
+  "_file": "l_horreur_familiale__6XStNgfUJG92au27.json",
+  "values": {
+    "/name": "L’horreur familiale",
+    "/system/description": "<p>Réduisez de 1 la difficulté pour fabriquer une arme, jusqu’à un minimum de 0.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

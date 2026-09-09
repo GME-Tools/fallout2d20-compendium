@@ -1,0 +1,11 @@
+{
+  "_key": "!items!HWCuIY1tYjpcpcmX",
+  "_file": "fast_shot__HWCuIY1tYjpcpcmX.json",
+  "values": {
+    "/name": "Fast Shot",
+    "/system/description": "<p>If you take a second major action in combat, and use it to make a ranged attack, the additional major action only costs 1 AP, rather than 2.</p>\n<p>You cannot benefit from the Aim minor action&mdash;you&rsquo;re too impatient.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

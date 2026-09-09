@@ -1,0 +1,16 @@
+{
+  "_key": "!items!iodz4xm3QDXNuhxf",
+  "_file": "javelot__iodz4xm3QDXNuhxf.json",
+  "values": {
+    "/system/description": "<p>Une lance courte qui n’est généralement pas assez solide pour le combat rapproché. Un javelot peut être lancé sur une grande distance.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "iodz4xm3QDXNuhxf",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Javelot"
+  }
+}

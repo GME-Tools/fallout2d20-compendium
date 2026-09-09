@@ -10,7 +10,7 @@ const frenchAmmunitionNames = JSON.parse(await readFile("catalog/v1-core-ammunit
 const frenchWeaponNames = JSON.parse(await readFile("catalog/v1-core-weapon-fr-names.json", "utf8"));
 
 async function packNames(pack) {
-  const root = path.join("src/packs/en", `${pack}.db`);
+  const root = path.join("generated/source-packs/en", `${pack}.db`);
   const files = await readdir(root).catch(error => error.code === "ENOENT" ? [] : Promise.reject(error));
   return new Set(await Promise.all(files.filter(file => file.endsWith(".json")).map(async file => {
     const document = JSON.parse(await readFile(path.join(root, file), "utf8"));
@@ -19,7 +19,7 @@ async function packNames(pack) {
 }
 
 async function packDocuments(language, pack) {
-  const root = path.join("src/packs", language, `${pack}.db`);
+  const root = path.join("generated/source-packs", language, `${pack}.db`);
   const files = await readdir(root).catch(error => error.code === "ENOENT" ? [] : Promise.reject(error));
   return (await Promise.all(files.filter(file => file.endsWith(".json")).map(async file =>
     JSON.parse(await readFile(path.join(root, file), "utf8"))

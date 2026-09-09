@@ -1,0 +1,12 @@
+{
+  "_key": "!items!9wxUVAnr3YsD3Uol",
+  "_file": "nuke_mine__9wxUVAnr3YsD3Uol.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">It is a nuclear variant of a landmine. The Nuke mine operates in all respects as other mines do although its explosion is more akin to that of a mini-nuke. Naturally, this means that they inflict damage from both the explosion and from the radiation the blast emits.</span></p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Nuke Mine"
+  }
+}

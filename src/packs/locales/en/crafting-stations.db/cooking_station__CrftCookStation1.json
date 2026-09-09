@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftCookStation1",
+  "_file": "cooking_station__CrftCookStation1.json",
+  "values": {
+    "/name": "Cooking Station",
+    "/system/description": "<p>A cooking station provides an open flame and the tools used for cooking food and beverages. Crafting at it uses the Survival skill. It can be built without a workbench and functions for eight hours, after which repairing it requires 1 Common Material.</p>",
+    "/system/effect": "<p>Provides an open flame and tools for cooking food and beverages. It functions for eight hours before requiring 1 Common Material to repair.</p>",
+    "/system/skills": "Survival",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival"
+  }
+}

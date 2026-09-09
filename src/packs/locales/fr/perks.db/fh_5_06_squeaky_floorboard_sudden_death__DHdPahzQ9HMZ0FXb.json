@@ -1,0 +1,11 @@
+{
+  "_key": "!items!DHdPahzQ9HMZ0FXb",
+  "_file": "fh_5_06_parquet_grincant_mort_instantanee__DHdPahzQ9HMZ0FXb.json",
+  "values": {
+    "/name": "FH 5-06 Parquet grinçant, mort instantanée",
+    "/system/description": "<p>Une seule fois, ignorez une ou plusieurs complications obtenues sur un test de Discrétion.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

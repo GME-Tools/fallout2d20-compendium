@@ -1,0 +1,28 @@
+{
+  "_id": "1IIFdsmtblCTYk0L",
+  "_key": "!items!1IIFdsmtblCTYk0L",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Lockpick set.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 150,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

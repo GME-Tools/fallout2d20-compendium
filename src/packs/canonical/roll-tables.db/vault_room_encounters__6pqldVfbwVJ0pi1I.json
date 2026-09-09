@@ -1,0 +1,33 @@
+{
+  "_id": "6pqldVfbwVJ0pi1I",
+  "_key": "!tables!6pqldVfbwVJ0pi1I",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "20CBt32dv4GIotEC",
+    "YIOFkvhFHpQVal3C",
+    "dhHjSE9gGEv6xpaK",
+    "jMMIeG9QZDeBXF6k",
+    "Fb0GNhfnXAnTx64N",
+    "qoxasauTKoQXBgnR",
+    "0FWlYyooCCLAweOU",
+    "dAYTGIBNah8uiusD",
+    "JF3ogUn0IaBZ5XaV",
+    "Eh3XUoU0AYLRCHyR"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 257,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "vaults"
+}

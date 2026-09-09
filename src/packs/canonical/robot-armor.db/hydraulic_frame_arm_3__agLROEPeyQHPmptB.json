@@ -1,0 +1,64 @@
+{
+  "_id": "agLROEPeyQHPmptB",
+  "_key": "!items!agLROEPeyQHPmptB",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Mr Handy Arm 3.webp",
+  "system": {
+    "apparelType": "plating",
+    "canBeScrapped": true,
+    "cost": 30,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": false,
+      "legL": true,
+      "legR": false,
+      "torso": false
+    },
+    "perks": "Armorer 3",
+    "quantity": 1,
+    "rarity": 0,
+    "resistance": {
+      "energy": 3,
+      "physical": 3,
+      "radiation": 0
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "weight": 0
+  },
+  "type": "robot_armor",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Hydraulic Frame (Arm 3)"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 221,
+        "station": "robot",
+        "group": "armor",
+        "complexity": 5,
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": {
+          "common": 6,
+          "uncommon": 4,
+          "rare": 2
+        }
+      }
+    }
+  },
+  "$folder": "hydraulic"
+}

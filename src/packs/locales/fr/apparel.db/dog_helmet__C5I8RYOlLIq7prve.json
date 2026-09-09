@@ -1,0 +1,16 @@
+{
+  "_key": "!items!C5I8RYOlLIq7prve",
+  "_file": "casque_pour_chien__C5I8RYOlLIq7prve.json",
+  "values": {
+    "/name": "Casque pour chien",
+    "/system/description": "<p>Les personnages ayant choisi l’atout Canigou sont accompagnés d’un fidèle compagnon canin qu’ils souhaiteront probablement protéger des dangers des Terres désolées.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "C5I8RYOlLIq7prve",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

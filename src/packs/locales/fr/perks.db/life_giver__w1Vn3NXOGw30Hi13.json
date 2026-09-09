@@ -1,0 +1,14 @@
+{
+  "_key": "!items!w1Vn3NXOGw30Hi13",
+  "_file": "vitalite__w1Vn3NXOGw30Hi13.json",
+  "values": {
+    "/name": "Vitalité",
+    "/system/description": "<p>Rangs : 5 Prérequis : niveau 5+ Ajoutez votre valeur d’Endurance à votre maximum de points de vie. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "w1Vn3NXOGw30Hi13",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

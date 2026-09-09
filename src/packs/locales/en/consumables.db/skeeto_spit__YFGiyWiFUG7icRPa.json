@@ -1,0 +1,17 @@
+{
+  "_key": "!items!YFGiyWiFUG7icRPa",
+  "_file": "skeeto_spit__YFGiyWiFUG7icRPa.json",
+  "values": {
+    "/name": "Skeeto Spit",
+    "/system/description": "<p>Derived from the secretions of a Bloodbug, and the curative properties of some wasteland plants, Skeeto Spit is a wasteland remedy which dulls the user&rsquo;s ability to feel pain. It&rsquo;s effective, lasts a reasonable amount of time, and is non-addictive, but it normally has to be homemade as it isn&rsquo;t generally produced in large quantities.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.1nJywTHNkuT8JGT4]{Blood Sac} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN]{Bloodleaf} ×1</li><li>Uncommon Materials ×1</li><li>Common Materials ×1</li></ul></section>",
+    "/system/effect": "<p>+2 Max HP</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Blood Sac",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Bloodleaf",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Common Materials"
+  }
+}

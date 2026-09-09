@@ -1,0 +1,13 @@
+{
+  "_key": "!items!SH09XavazYU9CqY4",
+  "_file": "crochetage__SH09XavazYU9CqY4.json",
+  "values": {
+    "/name": "Crochetage",
+    "/system/description": "<p>La comp&eacute;tence Crochetage&nbsp;refl&egrave;te votre savoir-faire en mati&egrave;re&nbsp;de manipulation de serrures afin de&nbsp;les ouvrir sans cl&eacute;.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est la <strong>Perception</strong>,&nbsp;mais vous pouvez utiliser Agilit&eacute;, ou Force si vous&nbsp;essayez de forcer la porte sans endommager la serrure.&nbsp;Employez Crochetage pour ouvrir un coffre ou une porte&nbsp;verrouill&eacute;e.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "SH09XavazYU9CqY4",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!82n08gxPWsoaLlvK",
+  "_file": "ninja__82n08gxPWsoaLlvK.json",
+  "values": {
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 8 Lorsque vous effectuez une attaque furtive à mains nues ou avec une arme de corps à corps, ajoutez +2 @fos[DC] aux dégâts de l’attaque. Vous ne tirez aucun bénéfice de cette aptitude si vous portez une armure assistée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "82n08gxPWsoaLlvK",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

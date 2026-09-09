@@ -1,0 +1,14 @@
+{
+  "_key": "!items!SihEoKZZ7VgRmxgK",
+  "_file": "infiltrateur__SihEoKZZ7VgRmxgK.json",
+  "values": {
+    "/name": "Infiltrateur",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 8 Vous pouvez relancer 1d20 lors de tout test de Crochetage destiné à déverrouiller une porte ou un conteneur.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "SihEoKZZ7VgRmxgK",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

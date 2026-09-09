@@ -1,0 +1,14 @@
+{
+  "_key": "!items!fHcnKFM20G8yOonY",
+  "_file": "alien__fHcnKFM20G8yOonY.json",
+  "values": {
+    "/name": "Extra-terrestre",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fHcnKFM20G8yOonY",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Le Zétan ne peut pas être raisonné ni influencé par des tests de Discours.</p>"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!PCTsMsjBtQzvc1aD",
+  "_file": "peau_de_radcerf__PCTsMsjBtQzvc1aD.json",
+  "values": {
+    "/name": "Peau de radcerf",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PCTsMsjBtQzvc1aD",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

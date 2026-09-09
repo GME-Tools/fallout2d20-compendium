@@ -1,0 +1,17 @@
+{
+  "_key": "!items!AjqE0fT244w92onq",
+  "_file": "plasma_mine__AjqE0fT244w92onq.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">These magnetically sealed mines unleash a blast of energized plasma upon being triggered, searing those who tripped the mine&rsquo;s sensors.</span></p>\n<p><span class=\"fontstyle2\"><strong>Special:</strong>&nbsp;</span><span class=\"fontstyle0\">Plasma minflict both Physical and Energy damage. Roll damage as normal, and then reduce the total by whichever of the target&rsquo;s damage resistances is lower out of Physical or Energy.</span></p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosives}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Demolition Expert}, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Science!} 3</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Uncommon Materials ×3</li><li>Rare Materials ×2</li></ul></section>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Demolition Expert",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Science! 3",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Rare Materials",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosives",
+    "/name": "Plasma Mine"
+  }
+}

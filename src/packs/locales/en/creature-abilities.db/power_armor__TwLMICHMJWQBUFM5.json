@@ -1,0 +1,9 @@
+{
+  "_key": "!items!TwLMICHMJWQBUFM5",
+  "_file": "power_armor__TwLMICHMJWQBUFM5.json",
+  "values": {
+    "/name": "Power Armor",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">A Brotherhood Paladin wears Power Armor. They use the armor&rsquo;s STR of 11 instead of their own. They are immune to damage from falling and inflict 3CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">physical damage to all creatures within Reach of their landing. They can breathe underwater and in toxic environments.</span></p>"
+  }
+}

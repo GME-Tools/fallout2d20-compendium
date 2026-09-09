@@ -1,0 +1,16 @@
+{
+  "_key": "!items!vDsRqWBeKLVgq57P",
+  "_file": "module_d_analyse_comportementale__vDsRqWBeKLVgq57P.json",
+  "values": {
+    "/name": "Module d’analyse comportementale",
+    "/system/description": "<p>Utilisés pour aider les robots Miss Nanny à s’occuper des enfants, ces modules d’analyse comportementale sont issus d’un projet de l’armée américaine visant à créer des robots capables de contribuer aux interrogatoires en interprétant le comportement et en évaluant la sincérité. Le sort du projet original est inconnu, mais son dérivé destiné aux Miss Nanny fut bien accueilli.</p>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Discours (minimum 0).</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "vDsRqWBeKLVgq57P",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

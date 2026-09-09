@@ -1,0 +1,14 @@
+{
+  "_key": "!items!1tOlUrBjCQBoGMm3",
+  "_file": "ghoul__1tOlUrBjCQBoGMm3.json",
+  "values": {
+    "/name": "Goule",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1tOlUrBjCQBoGMm3",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette goule est soignée par les radiations. Elle récupère 1 point de Santé pour chaque tranche de 3 points de dégâts de radiation qui lui sont infligés.</p>"
+  }
+}

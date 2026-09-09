@@ -1,0 +1,9 @@
+{
+  "_key": "!items!kgdj4SvbtkVq3dq2",
+  "_file": "aggressive__kgdj4SvbtkVq3dq2.json",
+  "values": {
+    "/name": "Aggressive",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] is quick to action when it senses prey. When the [creature] enters a scene, immediately generate 1 Action Point. If the [creature] is an ally, then this goes into the group pool. If it is an enemy, it goes into the GM&rsquo;s pool.</span></p>"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!78JHpLZz5rQeTMP9",
+  "_file": "ainsi_s_en_vint_le_malicieux__78JHpLZz5rQeTMP9.json",
+  "values": {
+    "/name": "Ainsi s’en vint le Malicieux",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Ajoutez +1 à la difficulté du test de compétence d’un autre personnage pour vous repérer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.MKt5lgPvnlrnMV9S]{Ainsi s’en vint le Malicieux}</p></section>",
+    "/system/effect": "<p>Ajoutez +1 à la difficulté du test de compétence d’un autre personnage pour vous repérer.</p>",
+    "/system/publication": "Grognak le Barbare",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "78JHpLZz5rQeTMP9",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

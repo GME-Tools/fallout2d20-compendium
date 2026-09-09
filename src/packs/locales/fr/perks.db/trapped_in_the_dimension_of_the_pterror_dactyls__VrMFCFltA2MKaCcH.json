@@ -1,0 +1,11 @@
+{
+  "_key": "!items!VrMFCFltA2MKaCcH",
+  "_file": "piege_dans_la_dimension_des_pterreurdactyles__VrMFCFltA2MKaCcH.json",
+  "values": {
+    "/name": "Piégé dans la dimension des pterreurdactyles !",
+    "/system/description": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une seule attaque de corps à corps.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

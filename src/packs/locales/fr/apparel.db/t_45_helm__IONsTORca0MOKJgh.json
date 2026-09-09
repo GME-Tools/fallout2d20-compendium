@@ -1,0 +1,31 @@
+{
+  "_key": "!items!IONsTORca0MOKJgh",
+  "_file": "casque_d_armure_assistee_t_45__IONsTORca0MOKJgh.json",
+  "values": {
+    "/name": "Casque d’armure assistée T-45",
+    "/system/description": "<p>Développée avant la Grande Guerre par West Tek pour l’armée américaine, la T-45 fut la première armure assistée déployée avec succès et reste donc relativement courante deux siècles plus tard. Chaque pièce accepte trois mods : une Amélioration, un Plaquage et un Système, installés avec Réparation. Améliorations propres : T-45b, T-45c, T-45d, T-45e et T-45f.</p>",
+    "/system/mods/2SqnqGHd7D3y4O5E/system/weight": 0.5,
+    "/system/mods/3wSPEqbGcAysqqaq/system/weight": 1,
+    "/system/mods/42Qe82QKBhubp9xU/system/weight": 0.5,
+    "/system/mods/7B2xH72N9Xpe5HV0/system/weight": 1.5,
+    "/system/mods/7KURZ8oGIgDt6YxK/system/weight": 0.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8Z8lfXud9r26HHkZ/system/weight": 1,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/En57MQ3hn0DkcHJy/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/qH24ODPdUtNy87vp/system/weight": 0.5,
+    "/system/mods/zALOB7gLXndAThjj/system/weight": 0.5,
+    "/system/weight": 6,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "IONsTORca0MOKJgh",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

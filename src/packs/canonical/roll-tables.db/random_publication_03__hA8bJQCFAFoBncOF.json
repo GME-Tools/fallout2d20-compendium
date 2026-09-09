@@ -1,0 +1,15 @@
+{
+  "_id": "hA8bJQCFAFoBncOF",
+  "_key": "!tables.results!MrcHRXzMqh5yK1Kx.hA8bJQCFAFoBncOF",
+  "name": "Backwoodsman",
+  "description": "Backwoodsman",
+  "type": "pack",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    3,
+    3
+  ],
+  "drawn": false,
+  "documentId": "b0YDWI7LbsTTbsLR"
+}

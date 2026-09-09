@@ -1,0 +1,11 @@
+{
+  "_key": "!items!1t9ZfJxVs14n5wTX",
+  "_file": "brotherhood_scribe_s_hat__1t9ZfJxVs14n5wTX.json",
+  "values": {
+    "/name": "Brotherhood Scribe's Hat",
+    "/system/description": "<p><span class=\"fontstyle0\">This lightweight leather cap and goggles are provided as an accompaniment to the Brotherhood Scribe&rsquo;s Armor, to protect the head from hazardous conditions.</span> </p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

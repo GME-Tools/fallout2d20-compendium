@@ -1,0 +1,16 @@
+{
+  "_key": "!items!2xM0ZATPyWbbrfja",
+  "_file": "steak_salisbury_preserve__2xM0ZATPyWbbrfja.json",
+  "values": {
+    "/name": "Steak Salisbury (préservé)",
+    "/system/description": "<p>Repas prêt à consommer de viande hachée, chapelure, oignon et œuf servi avec une sauce. Cette boîte préservée est non irradiée et sa rareté augmente de +1 ; il suffit de la réchauffer.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "2xM0ZATPyWbbrfja",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

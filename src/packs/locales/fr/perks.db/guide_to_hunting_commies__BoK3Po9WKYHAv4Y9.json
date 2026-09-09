@@ -1,0 +1,11 @@
+{
+  "_key": "!items!BoK3Po9WKYHAv4Y9",
+  "_file": "guide_de_la_chasse_aux_rouges__BoK3Po9WKYHAv4Y9.json",
+  "values": {
+    "/name": "Guide de la chasse aux Rouges",
+    "/system/description": "<p>Une attaque contre un ennemi d’un niveau inférieur au vôtre inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

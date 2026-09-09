@@ -1,0 +1,16 @@
+{
+  "_key": "!items!fYy1RCAJMGPRO9WJ",
+  "_file": "plasma_l_arme_de_demain__fYy1RCAJMGPRO9WJ.json",
+  "values": {
+    "/name": "Plasma : l’arme de demain",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque avec une arme plasma gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.SbayR4I8JCyymq0a]{Plasma : l’arme de demain}</p></section>",
+    "/system/effect": "<p>Une attaque avec une arme plasma gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fYy1RCAJMGPRO9WJ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!S71PQOPJq2vV0pH8",
+  "_file": "egare_dans_les_neiges_de_la_luxure__S71PQOPJq2vV0pH8.json",
+  "values": {
+    "/name": "Égaré dans les neiges de la luxure",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts physiques contre une attaque.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.pIGqn3CdOhsyQyhx]{Égaré dans les neiges de la luxure}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 en résistance aux dégâts physiques contre une attaque.</p>",
+    "/system/publication": "Grognak le Barbare",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "S71PQOPJq2vV0pH8",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

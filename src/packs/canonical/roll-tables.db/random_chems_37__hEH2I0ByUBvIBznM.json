@@ -1,0 +1,14 @@
+{
+  "_id": "hEH2I0ByUBvIBznM",
+  "_key": "!tables.results!isNdghTYF06GBC0m.hEH2I0ByUBvIBznM",
+  "name": "Overdrive",
+  "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.RcNc9VxnJn25PmUF]{Overdrive}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    38,
+    38
+  ],
+  "drawn": false
+}

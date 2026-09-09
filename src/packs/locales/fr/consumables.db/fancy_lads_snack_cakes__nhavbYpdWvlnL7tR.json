@@ -1,0 +1,16 @@
+{
+  "_key": "!items!nhavbYpdWvlnL7tR",
+  "_file": "biscuits_fancy_lads__nhavbYpdWvlnL7tR.json",
+  "values": {
+    "/name": "Biscuits Fancy Lads",
+    "/system/description": "<p>Petits gâteaux glacés si chargés en sucre et édulcorants qu’ils sont pratiquement impérissables. Présentés comme « l’en-cas préféré de l’Amérique », ils existent en de nombreuses saveurs douloureusement sucrées. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "nhavbYpdWvlnL7tR",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

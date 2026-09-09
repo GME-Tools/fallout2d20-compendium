@@ -1,0 +1,11 @@
+{
+  "_key": "!items!LJXpGjoI1HYU6Heb",
+  "_file": "l_avenir_des_armes_est_a_vous__LJXpGjoI1HYU6Heb.json",
+  "values": {
+    "/name": "L’avenir des armes est à vous",
+    "/system/description": "<p>Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez ses dégâts de +2 DC ; elle ne peut pas attaquer au tour suivant, le temps de refroidir.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!66rMd2lT2k5jy98x",
+  "_file": "dive_bomb__66rMd2lT2k5jy98x.json",
+  "values": {
+    "/name": "Attaque en piqué",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "66rMd2lT2k5jy98x",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Si un darillon arrive à Portée de main et effectue une attaque de corps à corps pendant le même tour, il peut relancer 1d20 de cette attaque. Après l’attaque, il peut dépenser 1 PA pour se déplacer d’une zone.</p>"
+  }
+}

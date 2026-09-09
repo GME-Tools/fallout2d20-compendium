@@ -1,0 +1,15 @@
+{
+  "_key": "!items!5gIryFE7WITrmSvY",
+  "_file": "fat_man__5gIryFE7WITrmSvY.json",
+  "values": {
+    "/system/ammo": "Mini-bombe nucléaire",
+    "/system/description": "<p>Munitions: mini-bombes nucléaires La catapulte nucléaire M42 est une arme d’épaule de support d’infanterie qui tire des ogives nucléaires tactiques compactes (des mini-bombes nucléaires faisant chacune à peu près la taille d’un ballon de football américain) sur une distance modérée pour infliger une destruction massive à l’emplacement ciblé.</p>",
+    "/system/weight": 15.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5gIryFE7WITrmSvY",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

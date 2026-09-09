@@ -1,0 +1,16 @@
+{
+  "_key": "!items!zpcKGtIDvZn8Z1ut",
+  "_file": "science_et_demence__zpcKGtIDvZn8Z1ut.json",
+  "values": {
+    "/name": "Science et démence !",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts énergétiques.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.fDu6KU5u17sqA1hf]{Science et démence !}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 en résistance aux dégâts énergétiques.</p>",
+    "/system/publication": "Histoires à dormir debout",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zpcKGtIDvZn8Z1ut",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

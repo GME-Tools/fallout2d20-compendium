@@ -1,0 +1,9 @@
+{
+  "_key": "!items!gbE0315Wth0DrcdD",
+  "_file": "aquatic__gbE0315Wth0DrcdD.json",
+  "values": {
+    "/name": "Aquatic",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] can swim and submerge itself in water indefinitely without needing to come up for air. They suffer no difficulty increase for attacks or movements made while underwater.</span></p>"
+  }
+}

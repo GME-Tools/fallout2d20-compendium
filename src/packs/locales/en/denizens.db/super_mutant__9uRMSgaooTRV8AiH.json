@@ -1,0 +1,28 @@
+{
+  "_key": "!actors!9uRMSgaooTRV8AiH",
+  "_file": "super_mutant__9uRMSgaooTRV8AiH.json",
+  "values": {
+    "/items/0/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The super mutant reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/1/$overrides/~1system~1description": "<p>The super mutant reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/2/name": "Big Guns",
+    "/items/3/name": "Melee Weapons",
+    "/items/4/name": "Small Guns",
+    "/items/5/name": "Survival",
+    "/items/6/name": "Unarmed",
+    "/items/7/system/description": "<p><span class=\"fontstyle0\">Little more than a long plank of wood with a handle wrapped in duct tape. Boards are heavy melee weapons, normally favored by super mutants who have the strength to wield them effectively.</span></p>",
+    "/items/7/system/weight": "3",
+    "/items/7/name": "Board",
+    "/items/8/system/weight": "0",
+    "/items/8/name": "Unarmed Strike",
+    "/items/9/system/description": "<p><span class=\"fontstyle0\">A makeshift weapon, normally seen in the hands of those who can&rsquo;t make, buy, or scavenge anything better, pipe guns are crude and somewhat unreliable, but effective enough. Bolt-action pipe guns tend to be chambered for rifle caliber rounds, trading rate-of-fire for power and simplicity.</span></p>",
+    "/items/9/system/weight": "3",
+    "/items/9/name": "Pipe Bolt-Action Rifle",
+    "/items/11/$overrides/~1system~1weight": "0",
+    "/items/11/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Pipe Bolt-Action Rifle, Board, assorted human bones, Wealth 1</span></p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 240,
+    "/system/origin": "Mutated Human, Normal Character",
+    "/system/biography": "<p><strong>Super Mutants</strong></p>\n<p><span class=\"fontstyle0\">Tall, muscular, and green skinned, super mutants are a sight known to strike fear into the heart of many wastelanders. Within the Commonwealth they originate from the Institute's failed experiments with the Forced Evolutionary Virus. Their size and powerful build makes them ferocious fighters with little sense of self preservation, but unfortunately this is not enough for the Institute to keep them around, often leaving them out in the ruins of Boston where they become a menace to the rest of the population. Within the Commonwealth they are often found in central Boston, but many venture out further in search of new territory to call their own. While often described as having little intelligence, most super mutants are capable of speech and have a good understanding of combat tactics and live in groups that usually have a hierarchy in its social structure. Not all super mutants are vicious creatures, with some enjoying the companionship of humans. As they age, they can continue to mutate and grow in strength, with the oldest among them living long enough to become behemoths.</span> </p>\n<p><strong>Super Mutant</strong></p>\n<p><span class=\"fontstyle0\">Standing at around seven-feet tall, the green skin and bulky muscular form of a super mutant is impossible to miss. Though often mocked for their intelligence, they are capable fighters and possess an understanding of weapons and armor. They are usually found in groups of at least two or more, and usually act beneath a superior super mutant who leads the group. Sometimes they can be found accompanied by mutant hounds.</span></p>",
+    "/name": "Super Mutant"
+  }
+}

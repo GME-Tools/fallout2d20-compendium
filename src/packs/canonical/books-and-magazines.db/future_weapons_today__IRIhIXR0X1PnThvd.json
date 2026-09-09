@@ -1,0 +1,37 @@
+{
+  "_id": "IRIhIXR0X1PnThvd",
+  "_key": "!items!IRIhIXR0X1PnThvd",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Books and Magazines/Future Weapons Today.webp",
+  "system": {
+    "cost": 100,
+    "favorite": false,
+    "quantity": 1,
+    "rarity": 3,
+    "read": false,
+    "source": "core_rulebook",
+    "stashed": false,
+    "uses": {
+      "max": 1,
+      "value": 0
+    },
+    "weight": 0
+  },
+  "type": "books_and_magz",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "uuidLinksReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Books and Magazines/Future Weapons Today.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-magazine-future-weapons-today",
+        "artworkSharingJustification": "Owner-approved magazine and associated perk sharing."
+      }
+    }
+  },
+  "$folder": "misc-magazines"
+}

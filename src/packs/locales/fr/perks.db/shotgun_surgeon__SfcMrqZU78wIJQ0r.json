@@ -1,0 +1,14 @@
+{
+  "_key": "!items!SfcMrqZU78wIJQ0r",
+  "_file": "chirurgien_de_la_chevrotine__SfcMrqZU78wIJQ0r.json",
+  "values": {
+    "/name": "Chirurgien de la chevrotine",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 5, AGI 7 Les attaques que vous effectuez avec un fusil à pompe obtiennent l’effet de dégâts Perforant 1. Si elles bénéficient déjà de cet effet, la valeur de ce dernier augmente de 1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "SfcMrqZU78wIJQ0r",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

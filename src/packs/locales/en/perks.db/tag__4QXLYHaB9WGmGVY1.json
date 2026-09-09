@@ -1,0 +1,11 @@
+{
+  "_key": "!items!4QXLYHaB9WGmGVY1",
+  "_file": "tag__4QXLYHaB9WGmGVY1.json",
+  "values": {
+    "/name": "Tag!",
+    "/system/description": "<p>You may select one additional Tag skill. Increase the skill&rsquo;s rank by 2, to a maximum of 6, and mark it as a Tag skill, allowing you to roll a critical success with a d20 result equal or under the skill&rsquo;s rank.</p>\n<p><strong>Requirements</strong>: Level 5+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!NMrJsMFjSLAYtHAU",
+  "_file": "pirate__NMrJsMFjSLAYtHAU.json",
+  "values": {
+    "/name": "Pirate",
+    "/system/description": "<p>Rangs : 1 Prérequis : INT 8 Réduisez de 1 (jusqu’à un minimum de 0) la difficulté de vos tests pour pirater les ordinateurs. Faire les poches Dérober un objet que transporte quelqu’un ou placer un objet sur une personne sont deux ruses dont l’importance peut surprendre, mais qui ne sont pas à négliger pour qui veut survivre dans les Terres désolées ; et avoir une vague idée de la difficulté de ces manœuvres peut donc avoir son utilité. Faire les poches requiert un test d’AGI + Discrétion, de difficulté 1 de base. En cas de réussite, vous pouvez vous emparer d’un objet de 500 grammes maximum dans les poches d’un autre personnage, dans sa bourse de ceinture, etc., ou placer un objet de ce poids dans les poches d’autrui sans qu’on vous remarque. En cas d’échec, vous êtes pris la main dans le sac. Si l’objet que vous tentez de dérober ou de placer pèse plus de 500 grammes, la difficulté augmente de 1. S’il pèse plus de 5 kilogrammes, la difficulté augmente encore de 1. De même, des pickpockets talentueux peuvent dérober de petits objets que porte leur cible, comme une montre-bracelet au cours d’une poignée de main. La difficulté augmente de +1 pour ce test également. Faire les poches d’une cible suspicieuse ou méfiante peut devenir un test en opposition.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "NMrJsMFjSLAYtHAU",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

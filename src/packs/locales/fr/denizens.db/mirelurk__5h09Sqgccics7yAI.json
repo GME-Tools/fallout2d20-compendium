@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!5h09Sqgccics7yAI",
+  "_file": "fangeux__5h09Sqgccics7yAI.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un fangeux mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 2 DC portions de viande de fangeux, plus 1 viande de fangeux à carapace molle par Effet obtenu.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5h09Sqgccics7yAI",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Crustacé Mutant, Créature Normale",
+    "/system/biography": "<p>Les spécimens les plus courants de la famille des fangeux sont désignés sous ce terme générique. Ces créatures ressemblent à des limules, dotées d’imposantes pinces capables de briser un os. On les trouve en groupe à proximité des grandes étendues d’eau. Parfois, leur carapace a accroché des bernacles, un filet ou un autre débris, ce qui rend les fangeux plus facilement repérables.</p>",
+    "/name": "Fangeux"
+  }
+}

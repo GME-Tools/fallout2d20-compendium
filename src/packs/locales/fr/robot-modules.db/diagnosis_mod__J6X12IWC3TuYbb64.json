@@ -1,0 +1,16 @@
+{
+  "_key": "!items!J6X12IWC3TuYbb64",
+  "_file": "module_de_diagnostic__J6X12IWC3TuYbb64.json",
+  "values": {
+    "/name": "Module de diagnostic",
+    "/system/description": "<p>Conçu pour convertir les Mister Handy en infirmiers et secouristes en temps de crise, ce module permet au robot d’identifier rapidement les blessures et maladies d’un patient et de déterminer le traitement approprié. Le tact au chevet du malade n’était toutefois pas inclus.</p>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Médecine (minimum 0).</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "J6X12IWC3TuYbb64",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

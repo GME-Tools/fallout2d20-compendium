@@ -1,0 +1,16 @@
+{
+  "_key": "!items!xT9LvN0vcacln4pN",
+  "_file": "explose_ce_gars__xT9LvN0vcacln4pN.json",
+  "values": {
+    "/name": "Explose ce gars !",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Les attaques de tous les membres du groupe infligent +1 DC de dégâts pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.H27K9ike953ZIyRl]{Explose ce gars !}</p></section>",
+    "/system/effect": "<p>Les attaques de tous les membres du groupe infligent +1 DC de dégâts pendant une scène.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xT9LvN0vcacln4pN",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!jvM19NhHpkDowa8W",
+  "_file": "sensor_array__jvM19NhHpkDowa8W.json",
+  "values": {
+    "/name": "Sensor Array",
+    "/system/description": "<p>Additional sensor modules and sensory processing systems accompany the robot&rsquo;s normal optical and auditory sensors, allowing it to perceive the world in more detail and in more ways than normal eyes and ears can.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Robotics Expert} 1</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "/system/effect": "<p>Re-roll 1d20 on all PER tests, May attempt PER tests to detect things which cannot normally be detected by the naked eye, such as radiation</p>",
+    "/system/weight": -15,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Robotics Expert 1"
+  }
+}

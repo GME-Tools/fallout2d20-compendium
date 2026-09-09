@@ -1,0 +1,14 @@
+{
+  "_key": "!items!j5SfukNzX12lRmwB",
+  "_file": "barbare__j5SfukNzX12lRmwB.json",
+  "values": {
+    "/name": "Barbare",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 7, niveau 4+, inaccessible aux robots Votre Force influe sur vos résistances aux dégâts des différentes localisations. Vous ne tirez aucun bénéfice de cette aptitude lorsque vous portez une armure assistée.  FOR 7–8 : RD balistiques et énergétiques +1  FOR 9–10 : RD balistiques et énergétiques +2  FOR 11+ : RD balistiques et énergétiques +3</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "j5SfukNzX12lRmwB",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

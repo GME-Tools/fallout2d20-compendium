@@ -1,0 +1,16 @@
+{
+  "_key": "!items!kkMJnvGEeqJQKhfT",
+  "_file": "steak_salisbury__kkMJnvGEeqJQKhfT.json",
+  "values": {
+    "/name": "Steak Salisbury",
+    "/system/description": "<p>Repas prêt à consommer de viande hachée mêlée de chapelure, oignon et œuf, servi avec une sauce. Emballé et scellé pour rester frais, il suffit de le réchauffer. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "kkMJnvGEeqJQKhfT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

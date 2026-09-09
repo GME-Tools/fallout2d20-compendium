@@ -1,0 +1,19 @@
+{
+  "_key": "!items!O3dQsgilsyWSSX0n",
+  "_file": "champ_de_regeneration__O3dQsgilsyWSSX0n.json",
+  "values": {
+    "/name": "Champ de régénération",
+    "/system/description": "<p>Cette technologie expérimentale vise à secourir les blessés lorsque les soins médicaux sont rares. Le robot projette à courte distance un signal réparateur qui stimule les processus naturels de guérison du corps humain.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 2, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 2</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "/system/effect": "<p>Hors combat, les alliés récupèrent 2 PV au début de chaque scène durant laquelle vous êtes présent.</p>",
+    "/system/weight": -12.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "O3dQsgilsyWSSX0n",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en robotique 2",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 2"
+  }
+}

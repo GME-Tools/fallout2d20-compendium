@@ -1,0 +1,11 @@
+{
+  "_key": "!items!TTCwoZV141ZGuMjs",
+  "_file": "faster_healing__TTCwoZV141ZGuMjs.json",
+  "values": {
+    "/name": "Faster Healing",
+    "/system/description": "<p>When you make an END + Survival test to heal your own injuries, the first additional d20 you buy is free. The normal maximum of 5d20 still applies.</p>\n<p><strong>Requirements</strong>: END 6, not a robot</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

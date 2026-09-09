@@ -1,0 +1,16 @@
+{
+  "_key": "!items!KZOctNYYrsfYycGB",
+  "_file": "pain_brioche__KZOctNYYrsfYycGB.json",
+  "values": {
+    "/name": "Pain brioché",
+    "/system/description": "<p>Petite pâtisserie sucrée préparée comme friandise pour les enfants ou pour remonter le moral de quelqu’un.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KZOctNYYrsfYycGB",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

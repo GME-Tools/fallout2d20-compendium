@@ -1,0 +1,13 @@
+{
+  "_key": "!items!ccLXYRUueArLgLst",
+  "_file": "heavy_incinerator__ccLXYRUueArLgLst.json",
+  "values": {
+    "/system/ammo": "Flamer Fuel",
+    "/system/description": "<p><span class=\"fontstyle0\">Like a flamethrower, a heavy incinerator also propels ignited fuel mixtures to burn a target. However, the heavy incinerator differs in that it appears to lob a succession of fireballs at the target, lobbing them in an arc like a grenade launcher. These fireballs burst upon impact, spreading flames as the fuel splashes off the target.</span> </p>",
+    "/system/weight": 20,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Heavy Incinerator"
+  }
+}

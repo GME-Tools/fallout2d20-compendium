@@ -61,15 +61,15 @@ try {
     }
 
     const enWeapons = documentsByPack.get(`${moduleId}.en-weapons`);
-    const enNpcs = documentsByPack.get(`${moduleId}.en-npcs`);
-    const frCreatures = documentsByPack.get(`${moduleId}.fr-creatures`);
+    const enDenizens = documentsByPack.get(`${moduleId}.en-denizens`);
+    const frDenizens = documentsByPack.get(`${moduleId}.fr-denizens`);
     const enTables = documentsByPack.get(`${moduleId}.en-roll-tables`);
     const enPerks = documentsByPack.get(`${moduleId}.en-perks`);
     const frPerks = documentsByPack.get(`${moduleId}.fr-perks`);
 
     const weapon = enWeapons[0];
-    const npcSource = enNpcs.find(actor => actor.items.size > 0);
-    const creatureSource = frCreatures.find(actor => actor.items.size > 0);
+    const npcSource = enDenizens.find(actor => actor.items.size > 0);
+    const creatureSource = frDenizens.find(actor => actor.items.size > 0);
     const effectPerkEn = enPerks.find(item => item.id === "LSUSRTgMyqfN1EQx");
     const effectPerkFr = frPerks.find(item => item.id === "LSUSRTgMyqfN1EQx");
     const table = enTables[0];

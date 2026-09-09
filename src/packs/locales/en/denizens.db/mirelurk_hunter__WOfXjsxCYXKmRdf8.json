@@ -1,0 +1,16 @@
+{
+  "_key": "!actors!WOfXjsxCYXKmRdf8",
+  "_file": "mirelurk_hunter__WOfXjsxCYXKmRdf8.json",
+  "values": {
+    "/items/0/$overrides/~1system~1weight": "0",
+    "/items/0/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead mirelurk hunter with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 2CD portions of mirelurk meat.&nbsp; </span><span class=\"fontstyle0\">For each Effect rolled, they also yield 1 softshell mirelurk meat.</span></p>",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/2/$overrides/~1system~1description": "<p>The mirelurk hunter reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/3/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">The mirelurk hunter can swim and submerge itself in water indefinitely without needing to come up for air. They suffer no difficulty increase for attacks or movements made while underwater.</span></p>",
+    "/items/4/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">While the mirelurk hunter&rsquo;s body is covered in a toughened shell, its face is its weak point. This area is small and difficult to accurately hit. The face is treated as having a defense of 2.</span></p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/origin": "Mutated Crustacean, Normal Creature",
+    "/system/biography": "<p><span class=\"fontstyle0\">Mirelurks are the collective name given to the family of mutated crustaceans that appear in many of the wasteland&rsquo;s waters. Mirelurks are hardy creatures, with armored shells and appendages and very few weak spots that are easy to target. With most of their body covered in shell, the face is the most exposed soft spot, but is a small area that few can reliably aim at in a chaotic combat. Mirelurks vary in size, from small hatchings to the towering mirelurk queen and often bear a resemblance to crabs or lobsters depending on their type. They are hostile creatures that attack on sight and can usually be found where there is any large body of open water. They often bury themselves in mud, leaving only their shells visible and are thus easily overlooked by the unobservant. While difficult to kill, they can be harvested for their meat, and their eggs can be worth a few caps if sold to the right buyer.</span></p>\n<p><span class=\"fontstyle0\">Hunters appear to be descended from lobsters rather than crabs, giving them an elongated appearance with a flared tail. Like their crab-like cousins, they also have powerful pincers and are even more aggressive. Their shells are typically more resilient, and they have developed the ability to spit an acidic substance at their prey.</span></p>",
+    "/name": "Mirelurk Hunter"
+  }
+}

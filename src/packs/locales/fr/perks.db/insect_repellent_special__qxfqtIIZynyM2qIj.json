@@ -1,0 +1,11 @@
+{
+  "_key": "!items!qxfqtIIZynyM2qIj",
+  "_file": "numero_special_insecticides__qxfqtIIZynyM2qIj.json",
+  "values": {
+    "/name": "Numéro spécial insecticides",
+    "/system/description": "<p>Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

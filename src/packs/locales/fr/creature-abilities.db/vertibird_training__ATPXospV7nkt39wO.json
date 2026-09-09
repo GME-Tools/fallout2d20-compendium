@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ATPXospV7nkt39wO",
+  "_file": "vertibird_training__ATPXospV7nkt39wO.json",
+  "values": {
+    "/name": "Entraînement vertiptère",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ATPXospV7nkt39wO",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Le pilote gagne un d20 supplémentaire lors d’un test pour piloter un Vertiptère.</p>"
+  }
+}

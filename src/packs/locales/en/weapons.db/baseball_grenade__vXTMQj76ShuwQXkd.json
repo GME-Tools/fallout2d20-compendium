@@ -1,0 +1,16 @@
+{
+  "_key": "!items!vXTMQj76ShuwQXkd",
+  "_file": "baseball_grenade__vXTMQj76ShuwQXkd.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">Little more than a hollowed-out baseball filled with an improvised explosive mixture, these grenades are crude, low-tech, and easy to make, dealing a moderate amount of damage to those within the blast.</span></p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosives}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Demolition Expert}</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×3</li><li>Uncommon Materials ×2</li></ul></section>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Demolition Expert",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Common Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosives",
+    "/name": "Baseball Grenade"
+  }
+}

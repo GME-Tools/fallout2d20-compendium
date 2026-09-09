@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Y7s5hBuYxnIYz4T4",
+  "_file": "ragout_de_serpent__Y7s5hBuYxnIYz4T4.json",
+  "values": {
+    "/name": "Ragoût de serpent",
+    "/system/description": "<p>Rangs : 1 Prérequis : END 7 Votre résistance aux dégâts de poison augmente de 2.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Y7s5hBuYxnIYz4T4",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

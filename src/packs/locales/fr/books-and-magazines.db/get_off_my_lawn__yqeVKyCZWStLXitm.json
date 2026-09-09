@@ -1,0 +1,16 @@
+{
+  "_key": "!items!yqeVKyCZWStLXitm",
+  "_file": "degage_de_ma_pelouse__yqeVKyCZWStLXitm.json",
+  "values": {
+    "/name": "Dégage de ma pelouse !",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Vous trouvez deux fois plus de viande sur une créature dépecée.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.6b46sO6gPyRRziMy]{Dégage de ma pelouse !}</p></section>",
+    "/system/effect": "<p>Vous trouvez deux fois plus de viande sur une créature dépecée.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yqeVKyCZWStLXitm",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

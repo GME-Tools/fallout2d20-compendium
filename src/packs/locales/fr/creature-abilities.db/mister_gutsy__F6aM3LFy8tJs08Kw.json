@@ -1,0 +1,13 @@
+{
+  "_key": "!items!F6aM3LFy8tJs08Kw",
+  "_file": "mister_gutsy__F6aM3LFy8tJs08Kw.json",
+  "values": {
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "F6aM3LFy8tJs08Kw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Les attaques d’un Mister Gutsy gagnent +1 DC de dégâts et il possède de série le Blindage de Mister Gutsy. Si un personnage tente un test de Discours pour le questionner, le raisonner ou lui donner des ordres, la difficulté augmente de 2 si ce personnage ne porte pas d’uniforme militaire.</p>"
+  }
+}

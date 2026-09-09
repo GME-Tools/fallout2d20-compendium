@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ADp33L4FN7QcbCJy",
+  "_file": "super_masse__ADp33L4FN7QcbCJy.json",
+  "values": {
+    "/system/description": "<p>La super masse est une variante motorisée de la masse ordinaire. Les vieux modèles d’avant-guerre étaient équipés d’accumulateurs cinétiques pour augmenter la force de l’impact, tandis que les super masses d’après-guerres sont dotées d’un petit moteur-fusée dans la tête de la masse pour accélérer l’oscillation et porter un coup plus puissant. Une super masse peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 10,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ADp33L4FN7QcbCJy",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Super masse"
+  }
+}

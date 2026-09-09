@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ukyP2t9KtJiQ7uP6",
+  "_file": "psycho_jet__ukyP2t9KtJiQ7uP6.json",
+  "values": {
+    "/system/description": "<p>Cocktail puissant de Psycho et de Jet qui renforce l’agressivité, émousse la douleur et accélère brièvement les réflexes, provoquant une explosion de violence extrême.</p><p><strong>Dépendance au Psycho :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât des attaques physiques hors des effets d’une variété de Psycho.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc]{Jet} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
+    "/system/effect": "<p>Toutes vos attaques infligent +2 @fos[DC] de dégâts, vous gagnez +4 en résistance aux dégâts physiques et recevez immédiatement 4 PA, perdus s’ils ne sont pas dépensés.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ukyP2t9KtJiQ7uP6",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

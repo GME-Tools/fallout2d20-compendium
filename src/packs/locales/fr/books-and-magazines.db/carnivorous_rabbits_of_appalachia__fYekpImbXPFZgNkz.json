@@ -1,0 +1,16 @@
+{
+  "_key": "!items!fYekpImbXPFZgNkz",
+  "_file": "lapins_carnivores_des_appalaches__fYekpImbXPFZgNkz.json",
+  "values": {
+    "/name": "Lapins carnivores des Appalaches",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Ajoutez +2 DC de dégâts à une attaque contre un Mammifère ou un Lézard.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.wwIthL6FW1dIq1MU]{Lapins carnivores des Appalaches}</p></section>",
+    "/system/effect": "<p>Ajoutez +2 DC de dégâts à une attaque contre un Mammifère ou un Lézard.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fYekpImbXPFZgNkz",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

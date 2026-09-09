@@ -1,0 +1,14 @@
+{
+  "_key": "!items!5r60cyfjkvkYlTvs",
+  "_file": "tire_au_flanc__5r60cyfjkvkYlTvs.json",
+  "values": {
+    "/name": "Tire-au-flanc",
+    "/system/description": "<p>Rangs : 2 Prérequis : AGI 6, niveau 4+ Au rang 1, lorsque vous entreprenez l’action capitale Se protéger, réduisez de 1 la difficulté du test de compétence. Au rang 2, améliorer votre défense ne vous coûte plus que 1 PA. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 6.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5r60cyfjkvkYlTvs",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!2UGzU0qmtozi4QZK",
+  "_file": "mains_lestes__2UGzU0qmtozi4QZK.json",
+  "values": {
+    "/name": "Mains lestes",
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 8 Vous pouvez recharger plus rapidement vos armes à feu. Lorsque vous effectuez une attaque à distance, vous pouvez dépenser 2 PA pour augmenter de +2 la cadence de tir de votre arme pour cette attaque uniquement.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "2UGzU0qmtozi4QZK",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

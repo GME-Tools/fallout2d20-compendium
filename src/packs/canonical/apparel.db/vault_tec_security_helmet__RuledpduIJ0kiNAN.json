@@ -1,0 +1,64 @@
+{
+  "_id": "RuledpduIJ0kiNAN",
+  "_key": "!items!RuledpduIJ0kiNAN",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Vault-Tec Security Helmet.webp",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 20,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": true,
+      "legL": false,
+      "legR": false,
+      "torso": false
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": false,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 1,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 0
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  },
+  "$folder": "armor-vault-security"
+}

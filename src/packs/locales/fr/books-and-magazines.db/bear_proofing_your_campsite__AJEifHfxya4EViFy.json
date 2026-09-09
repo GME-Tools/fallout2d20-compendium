@@ -1,0 +1,16 @@
+{
+  "_key": "!items!AJEifHfxya4EViFy",
+  "_file": "proteger_son_campement_des_ours__AJEifHfxya4EViFy.json",
+  "values": {
+    "/name": "Protéger son campement des ours",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque contre un yao guai inflige +3 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.5tgqF87DaXrrz59x]{Protéger son campement des ours}</p></section>",
+    "/system/effect": "<p>Une attaque contre un yao guai inflige +3 DC de dégâts.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "AJEifHfxya4EViFy",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

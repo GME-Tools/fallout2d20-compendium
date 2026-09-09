@@ -1,0 +1,15 @@
+{
+  "_key": "!items!OF1614SY9gYdGnjI",
+  "_file": "pierre_de_mister_handy__OF1614SY9gYdGnjI.json",
+  "values": {
+    "/system/description": "<p>Une pierre saisie et lancée par un Mister Handy.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "OF1614SY9gYdGnjI",
+    "/flags/fallout2d20-compendium/source/extraction": "derived",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Pierre de Mister Handy"
+  }
+}

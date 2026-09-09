@@ -1,0 +1,31 @@
+{
+  "_key": "!items!NJm96SJKxbdONtKU",
+  "_file": "casque_d_armure_assistee_x_01__NJm96SJKxbdONtKU.json",
+  "values": {
+    "/name": "Casque d’armure assistée X-01",
+    "/system/description": "<p>Encore au stade de prototype lorsque les bombes tombèrent, la X-01 fut achevée après la Guerre par des vestiges de l’armée américaine. Supérieure aux modèles précédents mais jamais produite en masse, elle est extrêmement rare. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Elle accepte les systèmes normaux et tous les plaquages sauf le Revêtement hivernal. Améliorations propres : Mk II à Mk VI. Plaquage propre : Blindage IEM.</p>",
+    "/system/mods/143I7SjRcQBq9sht/system/weight": 0.5,
+    "/system/mods/20FKglk8LkB8A1c0/system/weight": 1,
+    "/system/mods/2SqnqGHd7D3y4O5E/system/weight": 0.5,
+    "/system/mods/42Qe82QKBhubp9xU/system/weight": 0.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/Aqhxp38UDkBJ1EJ0/system/weight": 1.5,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/En57MQ3hn0DkcHJy/system/weight": 0.5,
+    "/system/mods/Su9jHSoBdvTPSMD8/system/weight": 1,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/jQN0cvQRoPLzNwi5/system/weight": 0.5,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/qIO7j6PYi4ocPi9h/system/weight": 0.5,
+    "/system/mods/zALOB7gLXndAThjj/system/weight": 0.5,
+    "/system/weight": 6,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "NJm96SJKxbdONtKU",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

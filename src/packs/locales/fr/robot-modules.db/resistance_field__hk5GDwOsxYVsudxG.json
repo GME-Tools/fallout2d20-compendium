@@ -1,0 +1,19 @@
+{
+  "_key": "!items!hk5GDwOsxYVsudxG",
+  "_file": "champ_de_resistance__hk5GDwOsxYVsudxG.json",
+  "values": {
+    "/name": "Champ de résistance",
+    "/system/description": "<p>Cette technologie inhabituelle devait fournir aux soldats une protection supplémentaire contre les tirs ennemis. Le robot émet vers l’ennemi un champ magnétique qui perturbe la trajectoire des balles et autres projectiles, réduisant leur vitesse et leur efficacité.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 1, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "/system/effect": "<p>Les alliés à portée courte bénéficient de +2 à leur résistance aux dégâts physiques.</p>",
+    "/system/weight": -10,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "hk5GDwOsxYVsudxG",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en robotique 1",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 1"
+  }
+}

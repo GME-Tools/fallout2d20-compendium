@@ -1,0 +1,74 @@
+{
+  "_id": "8Ju0FLCWLvXs5zXw",
+  "_key": "!items!8Ju0FLCWLvXs5zXw",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Mirelurk Cake.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 35,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 12,
+    "irradiated": false,
+    "prepared": true,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 4,
+        "perks": [],
+        "rarity": "rare",
+        "materials": [
+          {
+            "canonicalName": "Mirelurk Egg",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.yW3xNGa8YuPtoonL"
+          },
+          {
+            "canonicalName": "Mirelurk Meat",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.JjjhTOQLnB2htZe0"
+          },
+          {
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Razorgrain",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.KgKwCYEKl95sQQZN"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

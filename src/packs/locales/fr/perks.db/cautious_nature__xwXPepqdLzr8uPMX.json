@@ -1,0 +1,14 @@
+{
+  "_key": "!items!xwXPepqdLzr8uPMX",
+  "_file": "nature_prudente__xwXPepqdLzr8uPMX.json",
+  "values": {
+    "/name": "Nature prudente",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 7 Lorsque vous entreprenez un test de compétence et achetez au moins 1d20 avec des points d’action, vous pouvez relancer 1d20 du résultat. Vous ne pouvez pas sélectionner cette aptitude si vous disposez de Nature audacieuse.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xwXPepqdLzr8uPMX",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult006",
+  "_file": "syringer_type_06__SyrTypeResult006.json",
+  "values": {
+    "/name": "Seringue de confusion",
+    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrMindCloudAm01]{Seringue de confusion}"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_key": "!items!RXpTSDERvwv1nuZ5",
+  "_file": "kit_de_reparation_de_robot__RXpTSDERvwv1nuZ5.json",
+  "values": {
+    "/name": "Kit de réparation de robot",
+    "/system/description": "<p>Dispositif qui aide à réparer et réactiver les robots ou armures assistées endommagés en accélérant leurs protocoles internes de diagnostic et de réparation.</p><p><strong>Utilisation :</strong> avec l’action mineure Prendre une drogue ou pendant des Premiers secours, soigne 4 PV ou une Blessure. Ces réparations utilisent Réparation plutôt que Médecine.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.Oc7xNpMREJ8N5u3v]{Cellule à fusion} ×4</li><li>Matériaux peu fréquents ×2</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "/system/effect": "<p>Soigne 4 PV à un robot ou à une armure assistée (voir description).</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "RXpTSDERvwv1nuZ5",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Cellule à fusion",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Matériaux fréquents"
+  }
+}

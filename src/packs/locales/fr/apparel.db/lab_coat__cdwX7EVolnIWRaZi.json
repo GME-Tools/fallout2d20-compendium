@@ -1,0 +1,16 @@
+{
+  "_key": "!items!cdwX7EVolnIWRaZi",
+  "_file": "blouse_de_laboratoire__cdwX7EVolnIWRaZi.json",
+  "values": {
+    "/name": "Blouse de laboratoire",
+    "/system/description": "<p>Une blouse blanche, probablement tachée, destinée au laboratoire, dotée de nombreuses poches et d’une montre ou d’un capteur sous le revers gauche. <strong>Spécial :</strong> une fois par scène, elle permet de relancer un d20 d’un test de compétence fondé sur l’INT. Elle peut être renforcée avec du Tissage balistique.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cdwX7EVolnIWRaZi",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

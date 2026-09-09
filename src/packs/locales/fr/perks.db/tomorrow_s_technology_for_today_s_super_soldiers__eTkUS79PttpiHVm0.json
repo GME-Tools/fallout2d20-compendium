@@ -1,0 +1,11 @@
+{
+  "_key": "!items!eTkUS79PttpiHVm0",
+  "_file": "technologie_de_demain_pour_supersoldats_d_aujourd_hui__eTkUS79PttpiHVm0.json",
+  "values": {
+    "/name": "Technologie de demain pour supersoldats d’aujourd’hui",
+    "/system/description": "<p>Après avoir dépensé 1 charge de réacteur à fusion, vous pouvez dépenser 1 point de Chance pour que cette charge ne soit pas dépensée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

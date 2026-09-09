@@ -1,0 +1,14 @@
+{
+  "_key": "!items!49AOicQFjlfIKNUe",
+  "_file": "resistance_chimique__49AOicQFjlfIKNUe.json",
+  "values": {
+    "/name": "Résistance chimique",
+    "/system/description": "<p>Rangs : 2 Prérequis : END 7, niveau 1+ Au rang 1, jetez 1 @fos[DC] de moins (jusqu’à un minimum de 0) lorsque vous déterminez si vous devenez dépendant à une drogue. Au rang 2, vous ne pouvez plus être dépendant aux drogues. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "49AOicQFjlfIKNUe",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

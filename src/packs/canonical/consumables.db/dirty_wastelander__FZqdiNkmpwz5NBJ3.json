@@ -1,0 +1,69 @@
+{
+  "_id": "FZqdiNkmpwz5NBJ3",
+  "_key": "!items!FZqdiNkmpwz5NBJ3",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Dirty Wastelander.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 10,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Dirty Wastelander.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 216,
+        "errata": null,
+        "station": "cooking",
+        "complexity": 3,
+        "perks": [],
+        "rarity": "rare",
+        "materials": [
+          {
+            "canonicalName": "Mutfruit",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.ABPjUugdAt6VthAw"
+          },
+          {
+            "canonicalName": "Nuka-Cola",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.Uxxc3gTKcLNpcBLU"
+          },
+          {
+            "canonicalName": "Whiskey",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.u9KyfdRIzyQhCjnn"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "beverages"
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Vk0RIc9X6HaypmwJ",
+  "_file": "entomologist__Vk0RIc9X6HaypmwJ.json",
+  "values": {
+    "/name": "Entomologist",
+    "/system/description": "<p>When you make an attack against an NPC with the Insect keyword, your attack gains the Piercing 1 damage effect, or improves the rating of any Piercing X effect the weapon has by +1.</p>\n<p><strong>Requirements</strong>: INT 7</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "180k1U9dkW1ub7bH",
+  "_key": "!items!180k1U9dkW1ub7bH",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Holotape Player.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 250,
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!qItV5QGk0sN0md6p",
+  "_file": "peril_rouge_contre_ray_manta__qItV5QGk0sN0md6p.json",
+  "values": {
+    "/name": "Péril Rouge contre Ray Manta",
+    "/system/description": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une arme à Zone d’impact.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

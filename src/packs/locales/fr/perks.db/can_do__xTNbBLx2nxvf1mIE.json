@@ -1,0 +1,14 @@
+{
+  "_key": "!items!xTNbBLx2nxvf1mIE",
+  "_file": "concerto_de_conserves__xTNbBLx2nxvf1mIE.json",
+  "values": {
+    "/name": "Concerto de conserves",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHA 5 Lorsque vous fouillez un lieu contenant de la nourriture, vous découvrez un aliment supplémentaire, tiré au hasard, et ce, sans dépenser de PA.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xTNbBLx2nxvf1mIE",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

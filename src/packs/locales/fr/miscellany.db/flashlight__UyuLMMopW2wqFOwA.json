@@ -1,0 +1,16 @@
+{
+  "_key": "!items!UyuLMMopW2wqFOwA",
+  "_file": "lampe_torche__UyuLMMopW2wqFOwA.json",
+  "values": {
+    "/name": "Lampe torche",
+    "/system/description": "<p>Une source lumineuse robuste alimentée par batterie, facile à diriger vers un point d’intérêt. Des batteries longue durée de grande capacité lui permettent de fonctionner très longtemps.</p>",
+    "/system/effect": "<p>Produit une lumière vive dans une zone choisie à portée moyenne.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "UyuLMMopW2wqFOwA",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

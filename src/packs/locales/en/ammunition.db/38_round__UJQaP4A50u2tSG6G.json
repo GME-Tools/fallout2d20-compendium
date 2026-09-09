@@ -1,0 +1,12 @@
+{
+  "_key": "!items!UJQaP4A50u2tSG6G",
+  "_file": "38_round__UJQaP4A50u2tSG6G.json",
+  "values": {
+    "/name": ".38 Round",
+    "/system/description": "<p><span class=\"fontstyle0\">Small-caliber pistol ammunition designed for double-action revolvers before the Great War. Abundant enough that it is the ammunition of choice for most makeshift firearms, and several more powerful weapons can be modified to accept a .38 cartridge, sacrificing stopping power for availability of ammunition.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 10+5dc # .38 Round]]</p>",
+    "/system/weight": 0.014,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Lf2VvWWVug9jj5Ly",
+  "_file": "visitez_la_galaxie_ux_ron__Lf2VvWWVug9jj5Ly.json",
+  "values": {
+    "/name": "Visitez la galaxie Ux-Ron !",
+    "/system/description": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts énergétiques infligés par une seule attaque.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

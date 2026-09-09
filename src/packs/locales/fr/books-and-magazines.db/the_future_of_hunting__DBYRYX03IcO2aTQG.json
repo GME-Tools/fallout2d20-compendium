@@ -1,0 +1,16 @@
+{
+  "_key": "!items!DBYRYX03IcO2aTQG",
+  "_file": "quel_avenir_pour_la_chasse__DBYRYX03IcO2aTQG.json",
+  "values": {
+    "/name": "Quel avenir pour la chasse ?",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque contre un Robot inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.kBFXBzcatoT884Je]{Quel avenir pour la chasse ?}</p></section>",
+    "/system/effect": "<p>Une attaque contre un Robot inflige +2 DC de dégâts.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "DBYRYX03IcO2aTQG",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

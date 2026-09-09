@@ -1,0 +1,13 @@
+{
+  "_key": "!items!Hb3AdW5QaAHVDlNZ",
+  "_file": "will_robots_rule_the_world__Hb3AdW5QaAHVDlNZ.json",
+  "values": {
+    "/name": "Will Robots Rule the World?",
+    "/system/description": "<p>An informational magazine covering topics such as rocket science, robotics, laser technology, and other cutting-edge fields of science and technology.</p>\n<ul>\n<li><strong>Perk:</strong> Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found:</li>\n</ul>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.9LAlQMlnpZ2lYqKV]{Will Robots Rule the World?}</p></section>",
+    "/system/effect": "<p>+2 to Physical and Energy damage resistances vs Robots</p>",
+    "/system/publication": "Tesla Science Magazine",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!5uXBOucct2TglTlF",
+  "_file": "ragout_d_iguane__5uXBOucct2TglTlF.json",
+  "values": {
+    "/name": "Ragoût d’iguane",
+    "/system/description": "<p>Morceaux de viande d’iguane crue conservés dans une petite boîte ou un récipient scellé. Du moins, vous espérez qu’il s’agit d’iguane, car on en voit peu. Ils servent à préparer l’iguane en brochette ou la soupe d’iguane.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5uXBOucct2TglTlF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

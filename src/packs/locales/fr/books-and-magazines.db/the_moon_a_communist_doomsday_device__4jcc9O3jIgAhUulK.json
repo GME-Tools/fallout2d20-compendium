@@ -1,0 +1,16 @@
+{
+  "_key": "!items!4jcc9O3jIgAhUulK",
+  "_file": "la_lune_appareil_de_fin_du_monde_communiste__4jcc9O3jIgAhUulK.json",
+  "values": {
+    "/name": "La Lune : appareil de fin du monde communiste ?!",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Gagnez +2 à votre résistance aux dégâts physiques ou énergétiques contre une attaque effectuée de nuit.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.zZg9mSTuufYGzSib]{La Lune : appareil de fin du monde communiste ?!}</p></section>",
+    "/system/effect": "<p>Gagnez +2 à votre résistance aux dégâts physiques ou énergétiques contre une attaque effectuée de nuit.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4jcc9O3jIgAhUulK",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

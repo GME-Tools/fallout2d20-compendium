@@ -1,0 +1,14 @@
+{
+  "_key": "!items!7wHhQWCH5t1h8gAR",
+  "_file": "missile__7wHhQWCH5t1h8gAR.json",
+  "values": {
+    "/system/description": "<p>De puissantes fusées explosives compactes conçues pour être tirées par un lance-missiles. Les missiles peuvent être dirigés sur une cible par un système de guidage si le lance-missiles en possède un, donc impossible de les remplacer par des fusées artisanales. Quand un personnage possédant l’aptitude Farfouilleur trouve un ou plusieurs missiles, ne lancez que +1 par rang au lieu de la quantité bonus normale.</p>",
+    "/system/weight": 3.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "7wHhQWCH5t1h8gAR",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

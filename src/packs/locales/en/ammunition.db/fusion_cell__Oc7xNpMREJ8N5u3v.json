@@ -1,0 +1,12 @@
+{
+  "_key": "!items!Oc7xNpMREJ8N5u3v",
+  "_file": "fusion_cell__Oc7xNpMREJ8N5u3v.json",
+  "values": {
+    "/name": "Fusion Cell",
+    "/system/description": "<p>A microfusion cell&mdash;or fusion cell&mdash;is a miniaturized fusion reactor used in light energy weapons. They use volatile hydrogen isotopes which undergo fusion when subjected to extreme heat and pressure, and they can explode if exposed to a significant external heat source. Difficult to refuel without the proper facilities, these cells are often simply disposed of when depleted.</p> <p>When fusion cell ammunition is found, it is in the form of a single cell containing the number of shots generated.</p> <p><strong>Quantity Found:</strong> [[/r 14+7dc # Fusion Cell]]</p> <p><em>(by default item is set to average shots result)</em></p>",
+    "/system/weight": 0.028,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

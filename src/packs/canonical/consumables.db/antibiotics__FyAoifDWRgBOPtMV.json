@@ -1,0 +1,78 @@
+{
+  "_id": "FyAoifDWRgBOPtMV",
+  "_key": "!items!FyAoifDWRgBOPtMV",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Antibiotics.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 75,
+    "duration": "instant",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Antibiotics.webp; recorded 2026-09-08"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "canonicalName": "Rare Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Glowing Fungus",
+            "quantity": 3,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.72L3DVPU3uiGPpNm"
+          },
+          {
+            "canonicalName": "Purified Water",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h"
+          },
+          {
+            "name": "Stimpak",
+            "canonicalName": "Stimpak",
+            "quantity": 3,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

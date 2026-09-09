@@ -1,0 +1,33 @@
+{
+  "_id": "SyringeTypeTbl01",
+  "_key": "!tables!SyringeTypeTbl01",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d9",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "SyrTypeResult001",
+    "SyrTypeResult002",
+    "SyrTypeResult003",
+    "SyrTypeResult004",
+    "SyrTypeResult005",
+    "SyrTypeResult006",
+    "SyrTypeResult007",
+    "SyrTypeResult008",
+    "SyrTypeResult009"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder",
+        "projectGenerated": true,
+        "derivation": "Owner-approved utility table over the nine Core Rulebook syringe ammunition types; 2026-09-08."
+      }
+    }
+  },
+  "$folder": "weapons-ammo"
+}

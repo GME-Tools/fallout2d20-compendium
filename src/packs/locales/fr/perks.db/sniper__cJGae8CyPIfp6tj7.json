@@ -1,0 +1,13 @@
+{
+  "_key": "!items!cJGae8CyPIfp6tj7",
+  "_file": "sniper__cJGae8CyPIfp6tj7.json",
+  "values": {
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 8, AGI 6 Lorsque vous entreprenez l’action mineure Viser et effectuez ensuite une attaque à distance avec une arme à deux mains Précise, vous pouvez choisir la localisation des dégâts sans augmenter la difficulté de l’attaque.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cJGae8CyPIfp6tj7",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

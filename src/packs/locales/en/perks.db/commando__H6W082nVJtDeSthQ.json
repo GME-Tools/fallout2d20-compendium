@@ -1,0 +1,10 @@
+{
+  "_key": "!items!H6W082nVJtDeSthQ",
+  "_file": "commando__H6W082nVJtDeSthQ.json",
+  "values": {
+    "/system/description": "<p>When you make a ranged attack with any weapon with a Fire Rate of 3 or higher (except heavy weapons), you add +1DCD per rank to the weapon&rsquo;s damage. Each time you take this perk, the level requirement increases by 3.</p>\n<p><strong>Requirements</strong>: AGI 8, Level 2+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

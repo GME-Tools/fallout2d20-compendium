@@ -1,0 +1,16 @@
+{
+  "_key": "!items!fP4pQsWzcH6F83q4",
+  "_file": "buffjet__fP4pQsWzcH6F83q4.json",
+  "values": {
+    "/system/description": "<p>Mélange puissant et très addictif de Buffout et de Jet, il améliore les capacités physiques, les réflexes et provoque une poussée d’adrénaline.</p><p><strong>Dépendance au Buffout :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et d’END hors des effets du Buffout, du Buffjet ou du Bufftats.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.o0at3QFpM8FKxvZj]{Buffout} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc]{Jet} ×1</li></ul></section>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté de tous les tests de FOR et d’END (minimum 0), gagnez +4 PV maximums et recevez immédiatement 3 PA, perdus s’ils ne sont pas dépensés. Les actions supplémentaires coûtent 1 PA de moins.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fP4pQsWzcH6F83q4",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

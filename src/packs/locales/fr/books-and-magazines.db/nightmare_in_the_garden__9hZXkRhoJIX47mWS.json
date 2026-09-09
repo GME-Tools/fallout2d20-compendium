@@ -1,0 +1,16 @@
+{
+  "_key": "!items!9hZXkRhoJIX47mWS",
+  "_file": "cauchemar_dans_le_jardin__9hZXkRhoJIX47mWS.json",
+  "values": {
+    "/name": "Cauchemar dans le jardin",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Guérissez +2 PV quand vous consommez une boisson Alcoolisée.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.C2pRfk15zpFV3sgG]{Cauchemar dans le jardin}</p></section>",
+    "/system/effect": "<p>Guérissez +2 PV quand vous consommez une boisson Alcoolisée.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9hZXkRhoJIX47mWS",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

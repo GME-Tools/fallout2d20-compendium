@@ -1,0 +1,14 @@
+{
+  "_key": "!items!422BCVbfcp5q8M8I",
+  "_file": "forgeron__422BCVbfcp5q8M8I.json",
+  "values": {
+    "/name": "Forgeron",
+    "/system/description": "<p>Rangs : 3 Prérequis : FOR 6, niveau 2+ Vous pouvez modifier les armes de corps à corps grâce à des mods d’arme. Chaque rang dans cette aptitude débloque un rang de mod : le rang 1 débloque les mods de rang 1, le rang 2 débloque les mods de rang 2, etc. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "422BCVbfcp5q8M8I",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

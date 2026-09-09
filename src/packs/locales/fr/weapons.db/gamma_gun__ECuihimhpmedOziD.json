@@ -1,0 +1,17 @@
+{
+  "_key": "!items!ECuihimhpmedOziD",
+  "_file": "pistolet_gamma__ECuihimhpmedOziD.json",
+  "values": {
+    "/system/ammo": "Cartouche Gamma",
+    "/system/description": "<p>Munitions: cartouches Gamma Le pistolet Gamma est une arme d’apparence grossière qui émet des déflagrations de rayonnement ionisant à haute intensité dirigées sur un point précis, ce qui peut se révéler dévastateur pour toute créature qui n’est pas immunisée contre les radiations ou au moins très résistante à leurs effets, mais fait très peu de mal aux autres cibles. Un pistolet Gamma peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au pistolet Gamma et s’installent avec la compétence Sciences:</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ECuihimhpmedOziD",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Pistolet Gamma"
+  }
+}

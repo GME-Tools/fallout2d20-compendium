@@ -1,0 +1,13 @@
+{
+  "_key": "!items!mk8SR0w1UisPaDy1",
+  "_file": "brahmin_milk__mk8SR0w1UisPaDy1.json",
+  "values": {
+    "/name": "Brahmin Milk",
+    "/system/description": "<p><span class=\"fontstyle0\">Milk from a brahmin. This drink is a true lifesaver, as it has properties that cleanse radiation poisoning from the body&hellip; at least, if it hasn&rsquo;t spoiled yet.</span> </p>",
+    "/system/effect": "<p>Heals 2 Radiation damage</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

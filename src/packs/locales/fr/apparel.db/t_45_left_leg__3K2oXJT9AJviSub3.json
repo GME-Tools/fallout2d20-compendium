@@ -1,0 +1,30 @@
+{
+  "_key": "!items!3K2oXJT9AJviSub3",
+  "_file": "jambe_gauche_d_armure_assistee_t_45__3K2oXJT9AJviSub3.json",
+  "values": {
+    "/name": "Jambe gauche d’armure assistée T-45",
+    "/system/description": "<p>Développée avant la Grande Guerre par West Tek pour l’armée américaine, la T-45 fut la première armure assistée déployée avec succès et reste donc relativement courante deux siècles plus tard. Chaque pièce accepte trois mods : une Amélioration, un Plaquage et un Système, installés avec Réparation. Améliorations propres : T-45b, T-45c, T-45d, T-45e et T-45f.</p>",
+    "/system/mods/27Sls5dfZTAfQIgf/system/weight": 1.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/AKhF3AMqHuvZ1STc/system/weight": 0.5,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/JpGZrBzUJTLieuRJ/system/weight": 0.5,
+    "/system/mods/RrhtyBPhjtENsF6w/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/Xm3NOI9pHqcAOiar/system/weight": 2,
+    "/system/mods/gujEG9KDg5dMAUsY/system/weight": 1,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/pZ2FIyhKvuL7EPT0/system/weight": 0.5,
+    "/system/mods/qp17f82dYxaR8fGw/system/weight": 1,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "3K2oXJT9AJviSub3",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

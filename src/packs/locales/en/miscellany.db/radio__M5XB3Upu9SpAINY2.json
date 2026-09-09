@@ -1,0 +1,12 @@
+{
+  "_key": "!items!M5XB3Upu9SpAINY2",
+  "_file": "radio__M5XB3Upu9SpAINY2.json",
+  "values": {
+    "/system/description": "<p>A device which receives radio signals and translates them back into intelligible sounds. Used both before and after the War for entertainment purposes and emergency messaging alike, a radio is still only as good as the signal it receives. Most regions of the wastelands have a few radio stations active, playing old music for anyone with a working receiver, and a variety of groups make use of the remaining radio towers to broadcast signals to their members over long distances, but the range of these signals is still fairly limited.</p>",
+    "/system/effect": "<p>Picks up and plays radio transmissions</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

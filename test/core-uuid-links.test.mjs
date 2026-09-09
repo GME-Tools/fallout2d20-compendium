@@ -7,7 +7,7 @@ import { MODULE_ID, PACKS, packId } from "../scripts/config.mjs";
 async function loadAll() {
   const documents = new Map();
   for (const language of ["en", "fr"]) for (const pack of PACKS) {
-    const root = path.join("src", "packs", language, `${pack.name}.db`);
+    const root = path.join("generated", "source-packs", language, `${pack.name}.db`);
     for (const file of (await readdir(root)).filter((entry) => entry.endsWith(".json"))) {
       const document = JSON.parse(await readFile(path.join(root, file), "utf8"));
       const type = pack.type;

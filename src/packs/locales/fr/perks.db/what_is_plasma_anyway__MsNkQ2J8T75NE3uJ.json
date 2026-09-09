@@ -1,0 +1,11 @@
+{
+  "_key": "!items!MsNkQ2J8T75NE3uJ",
+  "_file": "qu_est_ce_que_le_plasma_d_abord__MsNkQ2J8T75NE3uJ.json",
+  "values": {
+    "/name": "Qu’est-ce que le Plasma, d’abord ?",
+    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les armes plasma.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_key": "!items!NXjKSH1aRmZkq5PJ",
+  "_file": "cocktail_molotov__NXjKSH1aRmZkq5PJ.json",
+  "values": {
+    "/system/description": "<p>Composé d’une bouteille de verre (généralement d’un alcool quelconque) contenant un mélange de carburants inflammable, d’un peu d’huile de moteur pour aider le feu à se répandre et d’un chiffon imbibé d’alcool enfoncé dans le goulot pour servir de mèche. Pour utiliser le cocktail Molotov, il faut allumer la mèche et lancer la bouteille sur la cible; la bouteille se brise et répand le mélange remué, qui s’enflamme rapidement et se met à brûler tout ce qui se trouve à proximité. Bon marché et efficace.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosifs}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×3</li><li>Matériaux peu fréquents ×2</li></ul></section>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "NXjKSH1aRmZkq5PJ",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosifs",
+    "/name": "Cocktail Molotov"
+  }
+}

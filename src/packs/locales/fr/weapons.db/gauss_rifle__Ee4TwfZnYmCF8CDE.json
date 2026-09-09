@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Ee4TwfZnYmCF8CDE",
+  "_file": "fusil_de_gauss__Ee4TwfZnYmCF8CDE.json",
+  "values": {
+    "/system/ammo": "CE 2 mm",
+    "/system/description": "<p>Munitions: CE 2 mm Le fusil de Gauss utilise l’induction magnétique pour propulser un projectile à une vitesse incroyable et très destructrice. Chaque tir peut être « chargé » pour infliger un maximum de dégâts en maintenant la pression sur la détente pendant un instant avant de la relâcher pour tirer. Un fusil de Gauss peut accepter un mod de chaque type parmi les suivants:  Canon: canon protégé  Crosse: crosse à compensateur de recul  Condensateurs: condensateurs intégraux, bobine de suppression de condensateur  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: silencieux</p>",
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Ee4TwfZnYmCF8CDE",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Fusil de Gauss"
+  }
+}

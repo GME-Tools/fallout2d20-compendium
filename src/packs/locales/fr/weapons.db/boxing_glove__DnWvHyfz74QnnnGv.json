@@ -1,0 +1,16 @@
+{
+  "_key": "!items!DnWvHyfz74QnnnGv",
+  "_file": "gant_de_boxe__DnWvHyfz74QnnnGv.json",
+  "values": {
+    "/system/description": "<p>Une grosse moufle de cuir, servant à protéger les mains et les poignets d’une personne qui donne des coups de poing. À l’origine, ce gant était utilisé pendant les matchs sportifs, mais un bon combattant peut l’employer pour porter des coups puissants à ses ennemis lors de combats moins organisés, surtout s’il a appliqué un module au gant. Un gant de boxe peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "DnWvHyfz74QnnnGv",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Gant de boxe"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!aQHwKCHr7MgAx0pB",
+  "_file": "hatchling_spawn__aQHwKCHr7MgAx0pB.json",
+  "values": {
+    "/name": "Frai de fangeux",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "aQHwKCHr7MgAx0pB",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Une fois par round, le MJ peut dépenser 4 PA et une action majeure pour faire apparaître un groupe de 4 jeunes fangeux. La reine fangeux ne peut alors pas effectuer d’attaque comme action majeure pendant le même round.</p>"
+  }
+}

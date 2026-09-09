@@ -1,0 +1,15 @@
+{
+  "_key": "!items!PZWO5Wj3kzBXCJJM",
+  "_file": "calibre_12__PZWO5Wj3kzBXCJJM.json",
+  "values": {
+    "/name": "Calibre 12",
+    "/system/description": "<p>La chevrotine standard présente dans les Terres Désolées est une cartouche de calibre 12 pour fusil à chambre de 70 mm remplie de plombs no 0. Comme elle est relativement facile à trouver, les habitants des Terres désolées gardent souvent un fusil de combat utilisant ces munitions à portée de main pour pouvoir tirer sur les menaces au corps à corps.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PZWO5Wj3kzBXCJJM",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

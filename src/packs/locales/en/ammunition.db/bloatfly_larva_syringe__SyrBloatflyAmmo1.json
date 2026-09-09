@@ -1,0 +1,14 @@
+{
+  "_key": "!items!SyrBloatflyAmmo1",
+  "_file": "bloatfly_larva_syringe__SyrBloatflyAmmo1.json",
+  "values": {
+    "/name": "Bloatfly Larva Syringe",
+    "/system/description": "<p>If one or more Effects are rolled for the weapon's damage, a Bloatfly emerges from the target's remains when it dies.</p><p><strong>Quantity found:</strong> 4+2 DC</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.kVf8NhlrDSjJHFYo]{Bloatfly Gland} ×1</li><li>Uncommon Materials ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/syringerEffect/text": "If one or more Effects are rolled for the weapon's damage, a Bloatfly emerges from the target's remains when it dies.",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Bloatfly Gland",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Uncommon Materials"
+  }
+}

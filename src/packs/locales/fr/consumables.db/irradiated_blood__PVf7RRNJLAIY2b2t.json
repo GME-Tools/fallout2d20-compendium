@@ -1,0 +1,17 @@
+{
+  "_key": "!items!PVf7RRNJLAIY2b2t",
+  "_file": "sang_irradie__PVf7RRNJLAIY2b2t.json",
+  "values": {
+    "/name": "Sang irradié",
+    "/system/description": "<p>Une poche remplie d’un liquide semblable à du sang, décoloré et souvent verdâtre. Aussi nutritive qu’une poche de sang normale, mais fortement irradiée. <strong>Spécial :</strong> lancez 2 @fos[DC] au lieu de 1 @fos[DC] pour déterminer les dégâts de radiation ; vous subissez 1 dégât de radiation ignorant la Résistance par Effet obtenu.</p>",
+    "/system/effect": "<p>Lancez 2 @fos[DC] au lieu de 1 pour déterminer les dégâts de radiation subis lors de la consommation.</p>",
+    "/system/weight": 0.15,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PVf7RRNJLAIY2b2t",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

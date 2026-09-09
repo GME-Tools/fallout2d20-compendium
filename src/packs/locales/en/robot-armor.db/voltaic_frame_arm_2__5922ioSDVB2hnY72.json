@@ -1,0 +1,14 @@
+{
+  "_key": "!items!5922ioSDVB2hnY72",
+  "_file": "voltaic_frame_arm_2__5922ioSDVB2hnY72.json",
+  "values": {
+    "/name": "Voltaic Frame (Arm 2)",
+    "/system/carry": 10,
+    "/system/description": "<p>A specially made set of armor plates fitted with additional conduits and capacitors to bolster the effectiveness of energy weaponry.</p>\n<p><strong>Special:</strong> Any of the robot&rsquo;s attacks which deal energy damage inflict +1 @fos[DC] if the robot is fitted with any voltaic frame armor. This bonus increases by +1 @fos[DC] for every two additional locations fitted with Voltaic Frame (so +2 @fos[DC] for 3 pieces, or +3 @fos[DC] for 5 or more pieces)</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armorer} 2</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Repair",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armorer 2"
+  }
+}

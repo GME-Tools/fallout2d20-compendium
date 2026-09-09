@@ -1,0 +1,12 @@
+{
+  "_key": "!items!K5VQLz4YU7eZIkAF",
+  "_file": "flare__K5VQLz4YU7eZIkAF.json",
+  "values": {
+    "/name": "Flare",
+    "/system/description": "<p><span class=\"fontstyle0\">A small tube like a shotgun cartridge, containing a chemical which burns brightly when ignited. Fired from a flare gun, which ignites a fuse upon launching: the flare shoots up into the sky, illuminating the area around it and then drifting down on a plume of white smoke. Good for signaling for help, not for much else.</span> </p>\n<p><strong>Quantity Found:</strong> [[/r 2+1dc]]</p>",
+    "/system/weight": 0.079,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

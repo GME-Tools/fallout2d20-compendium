@@ -1,0 +1,16 @@
+{
+  "_key": "!items!r5HGZTe9sYtWopL7",
+  "_file": "viande_de_rataupe__r5HGZTe9sYtWopL7.json",
+  "values": {
+    "/name": "Viande de rataupe",
+    "/system/description": "<p>Morceau de viande prélevé sur un rat-taupe mort. Il permet de préparer des morceaux de rat-taupe.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "r5HGZTe9sYtWopL7",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!af0Gor0Cwvb9ltP4",
+  "_file": "minuteman__af0Gor0Cwvb9ltP4.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Unarmed Strike",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Tough Clothing, Wealth 2</span></p>",
+    "/items/2/name": "Melee Weapons",
+    "/items/3/name": "Survival",
+    "/items/4/name": "Energy Weapons",
+    "/items/5/name": "Athletics",
+    "/items/6/name": "Small Guns",
+    "/items/7/name": "Medicine",
+    "/items/8/name": "Sneak",
+    "/items/9/name": "Speech",
+    "/items/10/name": "Repair",
+    "/items/11/system/description": "<p><span class=\"fontstyle0\">The laser musket is a homemade form of laser rifle, blending advanced technology with strangely primitive mechanisms, popular with militia groups such as the Minutemen. The laser musket must be manually primed, charging the makeshift capacitor through turning a hand-crank on the weapon&rsquo;s rear. While seemingly crude, they can make for potent sniper&rsquo;s weapons, especially with a modified capacitor able to hold a larger charge.<br /></span></p>\n<p><span class=\"fontstyle2\"><strong>Special:</strong> </span><span class=\"fontstyle0\">Firing a laser musket consumes two shots of ammunition each time it is fired. Each capacitor mod for the laser musket increases both damage and number of shots consumed. You may reduce the number of shots consumed, reducing the damage by -1</span><span class=\"fontstyle3\">C</span><span class=\"fontstyle3\" style=\"color: #1d4596;\">D </span><span class=\"fontstyle0\">for each shot consumed fewer than normal (to a minimum of 4</span><span class=\"fontstyle3\">C</span><span class=\"fontstyle3\" style=\"color: #1d4596;\">D </span><span class=\"fontstyle0\">damage and 1 shot consumed).</span></p>",
+    "/items/11/system/weight": "13",
+    "/items/11/name": "Laser Musket",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 210,
+    "/system/origin": "Human, Normal Character",
+    "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Minuteman</strong></p>\n<p><span class=\"fontstyle0\">Sometimes thought of as the people&rsquo;s militia, the Minutemen were once a prominent faction throughout the Commonwealth. Their influence has dwindled in recent years however but several them still do what they can to help those in need. From helping to establish settlements and then defending them from dangers, the sight of a Minute Man is always welcome.</span></p>",
+    "/name": "Minuteman"
+  }
+}

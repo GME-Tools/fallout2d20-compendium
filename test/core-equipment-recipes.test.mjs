@@ -5,7 +5,7 @@ import test from "node:test";
 import { CORE_EQUIPMENT_RECIPES } from "../scripts/data/core-equipment-recipes.mjs";
 
 async function load(language, pack) {
-  const directory = path.join("src", "packs", language, `${pack}.db`);
+  const directory = path.join("generated", "source-packs", language, `${pack}.db`);
   return Promise.all((await readdir(directory)).filter((file) => file.endsWith(".json")).map(async (file) => JSON.parse(await readFile(path.join(directory, file), "utf8"))));
 }
 

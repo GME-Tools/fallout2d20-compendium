@@ -1,0 +1,9 @@
+{
+  "_key": "!tables!SyringeTypeTbl01",
+  "_file": "random_syringer_ammunition_type__SyringeTypeTbl01.json",
+  "values": {
+    "/name": "Random Syringer Ammunition Type",
+    "/description": "<p>Project utility table: roll once for each batch of Syringer ammunition found to determine its instantiated Core Rulebook syringe type.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

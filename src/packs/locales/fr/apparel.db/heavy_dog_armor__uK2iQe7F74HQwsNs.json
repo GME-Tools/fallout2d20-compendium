@@ -1,0 +1,16 @@
+{
+  "_key": "!items!uK2iQe7F74HQwsNs",
+  "_file": "armure_lourde_pour_chien__uK2iQe7F74HQwsNs.json",
+  "values": {
+    "/name": "Armure lourde pour chien",
+    "/system/description": "<p>Les personnages ayant choisi l’atout Canigou sont accompagnés d’un fidèle compagnon canin qu’ils souhaiteront probablement protéger des dangers des Terres désolées.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uK2iQe7F74HQwsNs",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

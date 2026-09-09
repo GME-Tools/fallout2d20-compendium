@@ -1,0 +1,15 @@
+{
+  "_key": "!items!aJPExcJ26s4e6TZp",
+  "_file": "membre_agite__aJPExcJ26s4e6TZp.json",
+  "values": {
+    "/name": "Membre agité",
+    "/system/description": "<p>Les tests de FOR gagnent +1 difficulté.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "aJPExcJ26s4e6TZp",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

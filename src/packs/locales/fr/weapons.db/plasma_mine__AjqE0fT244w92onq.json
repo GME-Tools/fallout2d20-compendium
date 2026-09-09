@@ -1,0 +1,20 @@
+{
+  "_key": "!items!AjqE0fT244w92onq",
+  "_file": "mine_a_plasma__AjqE0fT244w92onq.json",
+  "values": {
+    "/system/description": "<p>Ces mines magnétisées libèrent une rafale de plasma énergisé quand elles sont déclenchées, brûlant ceux qui ont fait réagir les capteurs de l’engin. Spécial: les mines à plasma infligent à la fois des dégâts balistiques et des dégâts énergétiques. Faites le jet de dégâts normalement, puis déduisez du total la résistance aux dégâts balistiques ou énergétiques de la cible (la plus faible des deux).</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosifs}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Expert en démolition}, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 3</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×3</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "AjqE0fT244w92onq",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en démolition",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 3",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosifs",
+    "/name": "Mine à plasma"
+  }
+}

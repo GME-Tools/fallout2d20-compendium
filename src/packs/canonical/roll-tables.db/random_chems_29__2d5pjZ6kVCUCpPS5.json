@@ -1,0 +1,14 @@
+{
+  "_id": "2d5pjZ6kVCUCpPS5",
+  "_key": "!tables.results!isNdghTYF06GBC0m.2d5pjZ6kVCUCpPS5",
+  "name": "Jet",
+  "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc]{Jet}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    30,
+    30
+  ],
+  "drawn": false
+}

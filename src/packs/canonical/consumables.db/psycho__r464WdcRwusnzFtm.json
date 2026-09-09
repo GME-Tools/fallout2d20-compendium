@@ -1,0 +1,71 @@
+{
+  "_id": "r464WdcRwusnzFtm",
+  "_key": "!items!r464WdcRwusnzFtm",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Psycho.webp",
+  "name": "Psycho",
+  "system": {
+    "addiction": 2,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "Psycho",
+    "consumableType": "chem",
+    "cost": 50,
+    "duration": "lasting",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Rare Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Hubflower",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.483yLfgB6kJ0lWvD"
+          },
+          {
+            "name": "Stimpak",
+            "canonicalName": "Stimpak",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

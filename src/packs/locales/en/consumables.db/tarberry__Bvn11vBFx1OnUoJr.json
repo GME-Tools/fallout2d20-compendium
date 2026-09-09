@@ -1,0 +1,12 @@
+{
+  "_key": "!items!Bvn11vBFx1OnUoJr",
+  "_file": "tarberry__Bvn11vBFx1OnUoJr.json",
+  "values": {
+    "/name": "Tarberry",
+    "/system/description": "<p><span class=\"fontstyle0\">Small purple berries of the Tarberry plant, a watergrown crop similar to pre-War cranberries. A useful ingredient in several recipes, but difficult to cultivate in any location without a decent supply of reasonably clean water. Communities able to grow tarberries often need to protect their crop from raiders.</span></p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

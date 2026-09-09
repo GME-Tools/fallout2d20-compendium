@@ -1,0 +1,13 @@
+{
+  "_key": "!items!tNyHslvLL11qSlhc",
+  "_file": "double_barrel_shotgun__tNyHslvLL11qSlhc.json",
+  "values": {
+    "/system/ammo": "Shotgun Shell",
+    "/system/description": "<p><span class=\"fontstyle0\">Before the Great War, double-barrel shotguns were mainly used for hunting and home defense, and this has changed little. They are break-action and come in an either a side-by-side or over-and-under barrel configuration. Simple to make and maintain, these shotguns are seen frequently in the Commonwealth and the rest of the wasteland.</span></p>\n<p><span class=\"fontstyle0\">A Double-Barrel Shotgun can accept one each of the following mods:</span> </p>\n<ul>\n<li><strong>Receiver:</strong> Hardened, Hair Trigger, Powerful, Advanced</li>\n<li><strong>Barrel:</strong> Long Barrel, Sawed-off Barrel</li>\n<li><strong>Stock:</strong> Full Stock</li>\n<li><strong>Sights:</strong> Reflex Sight</li>\n<li><strong>Muzzle:</strong> Muzzle Brake</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 9,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Double-Barrel Shotgun"
+  }
+}

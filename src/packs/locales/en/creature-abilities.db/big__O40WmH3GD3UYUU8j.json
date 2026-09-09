@@ -1,0 +1,9 @@
+{
+  "_key": "!items!O40WmH3GD3UYUU8j",
+  "_file": "big__O40WmH3GD3UYUU8j.json",
+  "values": {
+    "/name": "Big",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] is bigger than most characters, towering over them. The creature receives an additional +1 health point per Level, but its Defense decreases by 1, to a minimum of 1. Further, it only suffers a Critical Hit if an attack inflicts 7+ damage (after damage resistance) in a single hit, rather than the normal 5+.</span></p>"
+  }
+}

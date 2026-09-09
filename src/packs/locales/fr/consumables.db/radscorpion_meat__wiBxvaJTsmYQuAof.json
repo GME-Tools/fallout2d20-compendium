@@ -1,0 +1,17 @@
+{
+  "_key": "!items!wiBxvaJTsmYQuAof",
+  "_file": "viande_de_radscorpion__wiBxvaJTsmYQuAof.json",
+  "values": {
+    "/name": "Viande de radscorpion",
+    "/system/description": "<p>Viande prélevée sous la carapace d’un radscorpion, généralement dans la queue ou les pattes plus accessibles. Difficile à obtenir, elle permet de préparer un steak de radscorpion.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "wiBxvaJTsmYQuAof",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

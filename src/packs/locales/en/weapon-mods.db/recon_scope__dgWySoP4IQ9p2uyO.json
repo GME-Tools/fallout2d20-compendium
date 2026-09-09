@@ -1,0 +1,15 @@
+{
+  "_key": "!items!dgWySoP4IQ9p2uyO",
+  "_file": "recon_scope__dgWySoP4IQ9p2uyO.json",
+  "values": {
+    "/name": "Recon Scope",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Crafting recipe - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Weapons Workbench}</h3><article><h4>energyWeapons - sight</h4><dl><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Science!} 3</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h5>Materials</h5><ul><li>Common Materials ×6</li><li>Uncommon Materials ×4</li><li>Rare Materials ×2</li></ul></article></section>",
+    "/system/perks": "Science! 3",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Repair",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Science! 3"
+  }
+}

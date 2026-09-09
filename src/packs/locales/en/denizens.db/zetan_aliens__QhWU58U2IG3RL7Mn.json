@@ -1,0 +1,14 @@
+{
+  "_key": "!actors!QhWU58U2IG3RL7Mn",
+  "_file": "zetan_aliens__QhWU58U2IG3RL7Mn.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Alien Blaster",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Alien Blaster, 5d20 alien blaster rounds</span></p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/origin": "Alien, Normal Creature",
+    "/system/biography": "<p><strong>Zatan (Aliens)</strong></p>\n<p><span class=\"fontstyle0\">Sightings of these extra-terrestrial beings have been rare in the wasteland. The Commonwealth itself is rumored to be home to the crash site of one of these alien ships. Zetans stand shorter than the average human with yellow green skin. They are bi-pedal an&nbsp; have two arms that end in three elongated fingers. Their heads are pear-shaped, with an enlarged cranium, two jet black eyes, the semblance of nostrils and sharp pointed teeth. If wounded, their blood appears to be a light green color which darkens as it dries, and damage to the cranium often reveals green colored brain matter. They carry a unique alien blaster pistol which uses a technology not found on earth.</span></p>",
+    "/name": "Zetan (Aliens)"
+  }
+}

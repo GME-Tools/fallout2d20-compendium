@@ -1,0 +1,27 @@
+{
+  "_key": "!items!Fn3CiQjQCfE9IMy4",
+  "_file": "de_pillard_bras_gauche__Fn3CiQjQCfE9IMy4.json",
+  "values": {
+    "/name": "de pillard Bras gauche",
+    "/system/description": "<p>Pièces improvisées en ferraille et éléments d’armure assistée trop endommagés pour être correctement réparés. Leur conception les rend plus faibles que des modèles fonctionnels. Chaque pièce accepte deux mods : une Amélioration et un Système, installés avec Réparation. Elle accepte les systèmes normaux sauf les Bras Tesla. Amélioration propre : Pillard II. Système propre : Barres soudées.</p>",
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8ctHjfdxTRHeBlXp/system/weight": 1,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/K63y4mcKxr792XLB/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/ZsGBPsT9kf1lVrFw/system/weight": 0.5,
+    "/system/mods/cMFQXRN9ZrDIU23Y/system/weight": 0.5,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/zX0aUfac1HnsEvZO/system/weight": 0.5,
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Fn3CiQjQCfE9IMy4",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

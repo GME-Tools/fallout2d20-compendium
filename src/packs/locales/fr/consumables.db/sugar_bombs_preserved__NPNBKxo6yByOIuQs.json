@@ -1,0 +1,16 @@
+{
+  "_key": "!items!NPNBKxo6yByOIuQs",
+  "_file": "bombes_sucrees_preservees__NPNBKxo6yByOIuQs.json",
+  "values": {
+    "/name": "Bombes sucrées (préservées)",
+    "/system/description": "<p>Céréales d’avant-guerre en formes de bombes atomiques stylisées couvertes de sucre. Cette boîte préservée n’est pas irradiée et sa rareté augmente de +1 ; elle peut même contenir un cadeau.</p>",
+    "/system/effect": "<p>Gagnez 1 PA au début de la scène suivante.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "NPNBKxo6yByOIuQs",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!PPA4fiWvfoRf0ZBs",
+  "_file": "gamma_round__PPA4fiWvfoRf0ZBs.json",
+  "values": {
+    "/name": "Gamma Round",
+    "/system/description": "<p><span class=\"fontstyle0\">A large, plastic-coated battery, capable of containing the charge needed to power a Gamma Gun.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 4+2dc # Gamma Round]]</p>",
+    "/system/weight": 0.019,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

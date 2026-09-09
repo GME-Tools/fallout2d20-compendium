@@ -1,0 +1,14 @@
+{
+  "_key": "!items!P5eJ7NOJMV8r9cHo",
+  "_file": "force_de_frappe__P5eJ7NOJMV8r9cHo.json",
+  "values": {
+    "/name": "Force de frappe",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 8 Lorsque vous effectuez une attaque au corps à corps avec une arme de corps à corps à deux mains, votre attaque obtient l’effet de dégâts Brutal.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "P5eJ7NOJMV8r9cHo",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

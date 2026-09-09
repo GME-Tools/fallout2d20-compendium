@@ -1,0 +1,16 @@
+{
+  "_key": "!items!EIzEOJH0iP4JzWnw",
+  "_file": "le_bon_cote_de_la_contamination_aux_radiations__EIzEOJH0iP4JzWnw.json",
+  "values": {
+    "/name": "Le bon côté de la contamination aux radiations",
+    "/system/description": "<p>Une série éducative d’après-guerre, rédigée et illustrée de dessins grossiers, copiée et distribuée dans les Terres désolées.</p><p><strong>Aptitude :</strong> Quand vous consommez un aliment ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du DC.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.BSi2qWkBGOJKFFED]{Le bon côté de la contamination aux radiations}</p></section>",
+    "/system/effect": "<p>Quand vous consommez un aliment ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du DC.</p>",
+    "/system/publication": "Guide de survie des Terres désolées",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "EIzEOJH0iP4JzWnw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

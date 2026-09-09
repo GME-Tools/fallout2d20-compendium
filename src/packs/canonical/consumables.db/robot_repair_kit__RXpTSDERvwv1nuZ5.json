@@ -1,0 +1,75 @@
+{
+  "_id": "RXpTSDERvwv1nuZ5",
+  "_key": "!items!RXpTSDERvwv1nuZ5",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Robot Repair Kit.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "other",
+    "cost": 48,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0,
+    "weight": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Rare Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Fusion Cell",
+            "quantity": 4,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-ammunition.Item.Oc7xNpMREJ8N5u3v"
+          },
+          {
+            "canonicalName": "Uncommon Materials",
+            "quantity": 2,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Common Materials",
+            "quantity": 1,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "other"
+}

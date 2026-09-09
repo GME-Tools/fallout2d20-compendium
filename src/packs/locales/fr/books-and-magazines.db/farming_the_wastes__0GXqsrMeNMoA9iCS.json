@@ -1,0 +1,16 @@
+{
+  "_key": "!items!0GXqsrMeNMoA9iCS",
+  "_file": "cultiver_dans_les_terres_desolees__0GXqsrMeNMoA9iCS.json",
+  "values": {
+    "/name": "Cultiver dans les Terres désolées",
+    "/system/description": "<p>Une série éducative d’après-guerre, rédigée et illustrée de dessins grossiers, copiée et distribuée dans les Terres désolées.</p><p><strong>Aptitude :</strong> Consommer un aliment qui est un fruit ou un légume guérit deux fois plus de PV.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.TmIh9ecBP1YvDwdF]{Cultiver dans les Terres désolées}</p></section>",
+    "/system/effect": "<p>Consommer un aliment qui est un fruit ou un légume guérit deux fois plus de PV.</p>",
+    "/system/publication": "Guide de survie des Terres désolées",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "0GXqsrMeNMoA9iCS",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "SyrTypeResult002",
+  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult002",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    2,
+    2
+  ],
+  "drawn": false
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!wqNw0xItJ29W24sm",
+  "_file": "44_pistol__wqNw0xItJ29W24sm.json",
+  "values": {
+    "/system/ammo": ".44 Magnum Round",
+    "/system/description": "<p><span class=\"fontstyle0\">The .44 pistol is a double-action revolver, chambered to use the .44 Magnum cartridge. It&rsquo;s a powerful gun, though not as customizable as other handguns.</span></p>\n<p><span class=\"fontstyle0\">Due to their simple, rugged design, they&rsquo;re prized by their owners, but not so uncommon as to be truly rare.</span></p>\n<p><span class=\"fontstyle0\">A .44 Pistol can accept one each of the following mods:</span></p>\n<ul>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle3\"><strong>Receiver:</strong> </span>Hardened, Powerful, Advanced</span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle3\"><strong>Barrel:</strong> </span>Snubnose Barrel, Bull Barrel</span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle3\"><strong>Grip:</strong> </span>Comfort Grip</span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle3\"><strong>Sights:</strong> </span>Short Scope, Reflex Sight, Recon Scope <br></span></li>\n</ul>",
+    "/system/weight": 4,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": ".44 Pistol"
+  }
+}

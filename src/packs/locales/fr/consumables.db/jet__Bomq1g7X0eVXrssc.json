@@ -1,0 +1,18 @@
+{
+  "_key": "!items!Bomq1g7X0eVXrssc",
+  "_file": "jet__Bomq1g7X0eVXrssc.json",
+  "values": {
+    "/system/description": "<p>Stimulant inhalé qui altère la perception du temps, aiguise les réflexes et permet d’agir plus rapidement dans un moment critique.</p><p><strong>Dépendance au Jet :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests d’AGI hors des effets du Jet ou du Jet Fuel.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux peu fréquents ×2</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "/system/effect": "<p>Les actions supplémentaires coûtent 1 PA de moins.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Bomq1g7X0eVXrssc",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux fréquents"
+  }
+}

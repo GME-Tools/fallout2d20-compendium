@@ -1,0 +1,16 @@
+{
+  "_key": "!items!KkRxsFbFTL89H3Ra",
+  "_file": "triple_canon__KkRxsFbFTL89H3Ra.json",
+  "values": {
+    "/name": "Triple canon",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>bigGuns - missile-launcher</h4><dl><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Ba5yPRdNAvjM5StI]{Fana d’armes} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></article></section>",
+    "/system/perks": "Fana d’armes 2",
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "107-110",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KkRxsFbFTL89H3Ra",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!A0UTRQ94MdLa3v2i",
+  "_file": "cogneur__A0UTRQ94MdLa3v2i.json",
+  "values": {
+    "/name": "Cogneur",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 6 Lorsque vous effectuez une attaque au corps à corps en cognant avec votre arme à feu (cf. page 111), votre attaque obtient l’effet de dégâts Brutal.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "A0UTRQ94MdLa3v2i",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

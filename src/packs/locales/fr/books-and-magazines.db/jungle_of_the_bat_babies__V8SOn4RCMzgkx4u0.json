@@ -1,0 +1,16 @@
+{
+  "_key": "!items!V8SOn4RCMzgkx4u0",
+  "_file": "la_jungle_des_bebes_chauves_souris__V8SOn4RCMzgkx4u0.json",
+  "values": {
+    "/name": "La jungle des bébés chauves-souris",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Quand vous subissez des dégâts de poison, vous gagnez +3 en résistance aux dégâts de poison.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.FgiFIu2LmrckPy5Y]{La jungle des bébés chauves-souris}</p></section>",
+    "/system/effect": "<p>Quand vous subissez des dégâts de poison, vous gagnez +3 en résistance aux dégâts de poison.</p>",
+    "/system/publication": "Grognak le Barbare",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "V8SOn4RCMzgkx4u0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

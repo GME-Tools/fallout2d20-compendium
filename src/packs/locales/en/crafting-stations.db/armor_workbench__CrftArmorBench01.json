@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftArmorBench01",
+  "_file": "armor_workbench__CrftArmorBench01.json",
+  "values": {
+    "/name": "Armor Workbench",
+    "/system/description": "<p>An armor workbench contains the tools needed to work with armor and clothing, though not Power Armor. Crafting at this workbench uses the Repair skill and benefits from the Armorer perk.</p>",
+    "/system/effect": "<p>Contains the tools needed to work with armor and clothing, but not Power Armor.</p>",
+    "/system/perks": "Armorer",
+    "/system/skills": "Repair",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false
+  }
+}

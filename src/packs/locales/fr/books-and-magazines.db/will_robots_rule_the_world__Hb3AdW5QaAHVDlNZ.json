@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Hb3AdW5QaAHVDlNZ",
+  "_file": "les_robots_dirigeront_ils_le_monde__Hb3AdW5QaAHVDlNZ.json",
+  "values": {
+    "/name": "Les robots dirigeront-ils le monde ?",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les Robots.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.9LAlQMlnpZ2lYqKV]{Les robots dirigeront-ils le monde ?}</p></section>",
+    "/system/effect": "<p>Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les Robots.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Hb3AdW5QaAHVDlNZ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

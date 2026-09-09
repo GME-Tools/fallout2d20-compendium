@@ -1,0 +1,16 @@
+{
+  "_key": "!items!h5GN8irnNWKC3xMD",
+  "_file": "le_massacre_des_ecureuils_des_appalaches__h5GN8irnNWKC3xMD.json",
+  "values": {
+    "/name": "Le massacre des écureuils des Appalaches",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Un aliment cuisiné que vous préparez et mangez guérit +3 PV.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.kQD85MOcz1B4KHsV]{Le massacre des écureuils des Appalaches}</p></section>",
+    "/system/effect": "<p>Un aliment cuisiné que vous préparez et mangez guérit +3 PV.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "h5GN8irnNWKC3xMD",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

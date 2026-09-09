@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!r3TWDtzrYFaVQsYV",
+  "_file": "behemoth_super_mutant__r3TWDtzrYFaVQsYV.json",
+  "values": {
+    "/items/6/$overrides/~1system~1effect": "<p>À la mort du béhémoth, les personnages trouvent 3d20 capsules et 4 DC objets de bric-à-brac sur son corps. À la discrétion du MJ, celui-ci peut également porter jusqu’à deux armes et 2d20 munitions adaptées à ces armes.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "r3TWDtzrYFaVQsYV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Humain Mutant, Créature Normale",
+    "/system/biography": "<p>Ce sont les super mutants les plus forts et les plus âgés. Ayant subi de lourdes mutations, les béhémoths frôlent les quatre mètres. Les années passées et leurs mutations continues leur ont fait perdre l’usage de la parole et ils ne s’expriment plus que par de monstrueux rugissements. Même les autres super mutants craignent les béhémoths: ils sont grands, forts… et hostiles. Les béhémoths portent des chariots de supermarché sur le dos, qu’ils utilisent pour transporter des rochers ou des prisonniers humains, ainsi que d’énormes battes faites de lances d’incendie. Ces créatures sont pour la plupart solitaires, même si certaines vivent à la frange de groupes de super mutants.</p>",
+    "/name": "Béhémoth super mutant"
+  }
+}

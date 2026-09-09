@@ -1,0 +1,17 @@
+{
+  "_key": "!items!KXreAKBJPNwyBwMb",
+  "_file": "nuka_cola_quantum__KXreAKBJPNwyBwMb.json",
+  "values": {
+    "/name": "Nuka Cola Quantum",
+    "/system/description": "<p>Lancé le jour même de la chute des bombes, le rare Nuka-Cola Quantum promettait deux fois plus de calories, glucides, caféine et goût. Sa lueur bleue vient d’un isotope déclaré propre à la consommation, développé avec l’armée américaine. Les bouteilles survivantes proviennent surtout de lots promotionnels ou de camions de livraison. Ses effets sont extrêmement puissants. Vous récupérez 1 capsule en ouvrant et buvant une bouteille.</p>",
+    "/system/effect": "<p>Gagnez immédiatement 5 PA.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KXreAKBJPNwyBwMb",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

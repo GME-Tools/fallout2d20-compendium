@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Ltcs4vrQZGNQLiCM",
+  "_file": "med_x__Ltcs4vrQZGNQLiCM.json",
+  "values": {
+    "/system/description": "<p>La difficulté de tous vos tests d’AGI augmente de +1 et vous subissez +1 DC de dégâts supplémentaires de toutes les attaques physiques quand vous n’êtes pas sous l’effet du Med-X.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Ltcs4vrQZGNQLiCM",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

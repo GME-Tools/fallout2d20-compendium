@@ -1,0 +1,12 @@
+{
+  "_key": "!items!8RVrftHzFootwBD5",
+  "_file": "shishkebab__8RVrftHzFootwBD5.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A makeshift &ldquo;flaming sword&rdquo;, the Shishkebab is found in various forms across the wastelands, with some versions being built around actual swords, while others are constructed from a variety of components. They all have a few common elements, however: some form of fuel tank or canister (either affixed to the weapon itself, or worn by the wielder and connected by a hose), a pilot light, and a triggering mechanism </span><span class=\"fontstyle0\">normally salvaged from a motorcycle. During use, the fuel is released along the blade and ignited by the pilot light, wreathing the blade in flames.</span></p>\n<p><span class=\"fontstyle0\">A Shishkebab can accept the following mod which is&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span> </p>\n<ul>\n<li><strong><span class=\"fontstyle0\">Shishkebab:&nbsp;</span></strong><span class=\"fontstyle0\">Extra Flame Jets</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 3,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Shishkebab"
+  }
+}

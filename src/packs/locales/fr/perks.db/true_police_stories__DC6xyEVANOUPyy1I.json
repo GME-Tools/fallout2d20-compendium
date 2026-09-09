@@ -1,0 +1,11 @@
+{
+  "_key": "!items!DC6xyEVANOUPyy1I",
+  "_file": "vraies_histoires_de_police__DC6xyEVANOUPyy1I.json",
+  "values": {
+    "/name": "Vraies histoires de police",
+    "/system/description": "<p>Une seule fois, quand vous lancez les dés de dégâts d’une attaque, dépensez 1 point de Chance pour choisir le résultat de jusqu’à 3 DC au lieu de les lancer.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

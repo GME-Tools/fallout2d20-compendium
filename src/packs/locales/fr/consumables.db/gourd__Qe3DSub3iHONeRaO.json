@@ -1,0 +1,17 @@
+{
+  "_key": "!items!Qe3DSub3iHONeRaO",
+  "_file": "courge__Qe3DSub3iHONeRaO.json",
+  "values": {
+    "/name": "Courge",
+    "/system/description": "<p>Grand fruit comestible à peau dure semblable à une citrouille. Sa pulpe se mange ou se cuisine, tandis que son enveloppe est souvent sculptée et utilisée comme décoration.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Qe3DSub3iHONeRaO",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

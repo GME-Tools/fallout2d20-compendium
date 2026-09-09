@@ -1,0 +1,12 @@
+{
+  "_key": "!items!5TAOMd3GGpapiM6Q",
+  "_file": "minigun__5TAOMd3GGpapiM6Q.json",
+  "values": {
+    "/system/ammo": "5mm Round",
+    "/system/description": "<p><span class=\"fontstyle0\">The minigun is a motorized Gatling-style rapid fire weapon commonly employed by the military, or other lesser factions that managed to acquire such a weapon. Miniguns can be found as mounted door guns on Vertibirds or as a handheld heavy assault and support </span><span class=\"fontstyle0\">weapon. The high rate-of-fire of the weapon means that it can produce devastating results, but at a cost of consuming ammo at incredible rates, making it difficult to keep the weapon supplied.</span></p>\n<p><span class=\"fontstyle0\">A Minigun can accept one each of the following mods, which are unique to the minigun and&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span></p>\n<ul>\n<li><strong><span class=\"fontstyle0\">Barrel:</span></strong><span class=\"fontstyle0\"> Accelerated Barrel, Tri-Barrel</span></li>\n<li><strong><span class=\"fontstyle0\">Sights:</span></strong><span class=\"fontstyle0\"> Gunner Sight</span></li>\n<li><strong><span class=\"fontstyle0\">Muzzle:</span></strong><span class=\"fontstyle0\"> Shredder</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 27,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

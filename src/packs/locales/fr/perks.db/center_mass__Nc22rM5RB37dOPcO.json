@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Nc22rM5RB37dOPcO",
+  "_file": "barycentre__Nc22rM5RB37dOPcO.json",
+  "values": {
+    "/name": "Barycentre",
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 7 Lorsque vous effectuez une attaque à distance, vous pouvez toujours choisir de tirer dans le Buste de votre cible (ou dans son équivalent si la créature utilise une autre table de localisation des dégâts), le tout, sans augmenter la difficulté de votre attaque. De plus, vous pouvez relancer 1d20 du résultat de votre attaque.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Nc22rM5RB37dOPcO",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

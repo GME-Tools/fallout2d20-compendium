@@ -1,0 +1,12 @@
+{
+  "_key": "!items!xgOqumIzZGxJgMOX",
+  "_file": "psychotats__xgOqumIzZGxJgMOX.json",
+  "values": {
+    "/system/description": "<p>A cocktail of Psycho and Mentats. The heightened awareness granted by the Mentats and the aggression and pain insensitivity somewhat cancel one another out, but the resultant effects are a short period of high aggression, enhanced sensory acuity, and boosted pain tolerance.</p>\n<ul>\n<li><strong>Psycho Addiction:</strong> A failed addiction roll renders you addicted to Psycho. You increase the difficulty of all STR tests by +1 and suffer +1 @fos[DC] damage from all physical attacks whenever you are not under the effects of a type of Psycho (ordinary Psycho, Psycho Jet, Psychobuff, or Psychotats).</li>\n</ul>",
+    "/system/effect": "<p>+2 @fos[DC] damage to all attacks,+2 Physical damage resistance|Reduce difficulty of PER tests by 1 (min. 0)</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

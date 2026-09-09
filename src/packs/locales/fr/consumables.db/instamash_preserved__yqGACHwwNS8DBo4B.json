@@ -1,0 +1,16 @@
+{
+  "_key": "!items!yqGACHwwNS8DBo4B",
+  "_file": "puree_minute_preservee__yqGACHwwNS8DBo4B.json",
+  "values": {
+    "/name": "Purée-minute (préservée)",
+    "/system/description": "<p>Un sachet de purée de pommes de terre lyophilisée encore scellé dans sa boîte en carton. Ajoutez simplement de l’eau ! Cette boîte préservée n’est pas irradiée et sa rareté augmente de +1.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yqGACHwwNS8DBo4B",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

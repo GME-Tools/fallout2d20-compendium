@@ -1,0 +1,12 @@
+{
+  "_key": "!items!kxgO3CwKpqR9lYLS",
+  "_file": "44_magnum_round__kxgO3CwKpqR9lYLS.json",
+  "values": {
+    "/name": ".44 Magnum Round",
+    "/system/description": "<p><span class=\"fontstyle0\">The powerful .44 Magnum round was originally developed for revolvers. Its excellent stopping power makes it well suited for any inhabitant of the wasteland needing a round capable of stopping monsters, human or otherwise. All this is limited mainly by the scarcity of these rounds.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 4+2dc # .44 Magnum Round]]</p>",
+    "/system/weight": 0.056,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!o92mKNpNoldGEMB7",
+  "_file": "modified_mini_nuke__o92mKNpNoldGEMB7.json",
+  "values": {
+    "/name": "Mini-nuke modifié",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "o92mKNpNoldGEMB7",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Une fois à portée Courte de sa cible, le kamikaze super mutant effectue un test d’<strong>AGI + Explosifs</strong> (SR 11) pour faire exploser sa mini-bombe nucléaire modifiée. Toute personne à portée Courte du kamikaze, lui compris, en subit les effets.</p>"
+  }
+}

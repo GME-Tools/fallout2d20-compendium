@@ -1,0 +1,9 @@
+{
+  "_key": "!items!qiS3BC4ovyROMSRQ",
+  "_file": "small_weak_point__qiS3BC4ovyROMSRQ.json",
+  "values": {
+    "/name": "Small Weak Point",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">While the [creature]&rsquo;s body is covered in a toughened shell, its face is its weak point. This area is small and difficult to accurately hit. The face is treated as having a defense of 2.</span></p>"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!U8u2CUaEgTmEapTh",
+  "_file": "knight__U8u2CUaEgTmEapTh.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Unarmed Strike",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p><span class=\"fontstyle0\">Brotherhood of Steel Uniform, Full Combat Armor, Long Laser Rifle, Brotherhood of Steel Holotags.</span><br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/items/2/name": "Athletics",
+    "/items/3/name": "Energy Weapons",
+    "/items/4/name": "Pilot",
+    "/items/5/name": "Repair",
+    "/items/6/name": "Science",
+    "/items/7/name": "Speech",
+    "/items/8/name": "Unarmed",
+    "/items/9/system/description": "<p><span class=\"fontstyle0\">The laser musket is a homemade form of laser rifle, blending advanced technology with strangely primitive mechanisms, popular with militia groups such as the Minutemen. The laser musket must be manually primed, charging the makeshift capacitor through turning a hand-crank on the weapon&rsquo;s rear. While seemingly crude, they can make for potent sniper&rsquo;s weapons, especially with a modified capacitor able to hold a larger charge.<br /></span></p>\n<p><span class=\"fontstyle2\"><strong>Special:</strong> </span><span class=\"fontstyle0\">Firing a laser musket consumes two shots of ammunition each time it is fired. Each capacitor mod for the laser musket increases both damage and number of shots consumed. You may reduce the number of shots consumed, reducing the damage by -1</span><span class=\"fontstyle3\">C</span><span class=\"fontstyle3\" style=\"color: #1d4596;\">D </span><span class=\"fontstyle0\">for each shot consumed fewer than normal (to a minimum of 4</span><span class=\"fontstyle3\">C</span><span class=\"fontstyle3\" style=\"color: #1d4596;\">D </span><span class=\"fontstyle0\">damage and 1 shot consumed).</span></p>",
+    "/items/9/system/weight": "13",
+    "/items/9/name": "Long Laser Rifle",
+    "/items/10/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">As a major action, a Knight can order a Brotherhood character of lower level to immediately perform a major action. The Knight assists that action with </span><strong><span class=\"fontstyle2\">CHA + Speech</span></strong><span class=\"fontstyle0\">.</span></p>",
+    "/items/11/name": "Big Guns",
+    "/items/12/name": "Small Guns",
+    "/items/13/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Twice per combat, the Knight may &lsquo;let rip&rsquo; with a volley from their Long Laser Rifle. This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">total).</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 210,
+    "/system/origin": "Human, Normal Character",
+    "/system/biography": "<p><strong>Brotherhood of Steel</strong></p>\n<p><span class=\"fontstyle0\">The Brotherhood of Steel are either known as an organization committed to protecting and serving humanity, or an overzealous order who would reign as tyrants over the wasteland and its people, depending on who you asked. The Brotherhood is committed to their order and structure as well as their mission to keep dangerous technology out of the hands of the undeserving and undesirable. No matter your option on the Brotherhood of Steel, there is no denying they have a strong chain of command and a goal that unifies them. This can make them make strong allies or formidable enemies.</span></p>\n<p><strong>Knight</strong></p>\n<p><span class=\"fontstyle0\">The rank of Knight among the Brotherhood of Steel is a much respected one. Knights are often responsible for maintaining weapons, armor, and technology within the brotherhood&rsquo;s possession. Reaching this rank is not easy and requires dedication and years of service. Many who reach this rank are ambitious and aspire to move upwards towards the prestigious rank of Paladin.</span></p>",
+    "/name": "Knight"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!ZTVTUHilc84UzoRP",
+  "_file": "duck_and_cover__ZTVTUHilc84UzoRP.json",
+  "values": {
+    "/name": "Duck and Cover!",
+    "/system/description": "<p>A pre-War book about the manufacture, use, and disarming of explosives.</p>\n<ul>\n<li>Perk: Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP.</li>\n</ul>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.gD1wycvvp1ivtXdY]{Duck and Cover!}</p></section>",
+    "/system/effect": "<p>Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast.</p>",
+    "/system/publication": "",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!H3fKh61SM4JbxMyG",
+  "_file": "fureur__H3fKh61SM4JbxMyG.json",
+  "values": {
+    "/name": "Fureur",
+    "/system/description": "<p>La difficulté de tous vos tests de FOR et de PER augmente de +1 quand vous n’êtes pas sous l’effet de la Fureur.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "H3fKh61SM4JbxMyG",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

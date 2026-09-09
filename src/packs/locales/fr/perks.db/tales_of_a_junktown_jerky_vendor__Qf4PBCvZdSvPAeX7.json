@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Qf4PBCvZdSvPAeX7",
+  "_file": "les_aventures_d_un_vendeur_de_viande_sechee_de_junktown__Qf4PBCvZdSvPAeX7.json",
+  "values": {
+    "/name": "Les aventures d’un vendeur de viande séchée de Junktown",
+    "/system/description": "<p>Une seule fois, après un test de Troc pour marchander, réussi ou raté, dépensez 1 point de Chance pour modifier le prix de 10 % en votre faveur.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

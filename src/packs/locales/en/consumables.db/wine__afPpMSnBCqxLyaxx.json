@@ -1,0 +1,13 @@
+{
+  "_key": "!items!afPpMSnBCqxLyaxx",
+  "_file": "wine__afPpMSnBCqxLyaxx.json",
+  "values": {
+    "/name": "Wine",
+    "/system/description": "<p><span class=\"fontstyle0\">An alcoholic beverage made from the fermentation of grape juice. There are numerous pre-War vintages to be found across the wasteland, often collected by the wealthy before the bombs fell, and a survivor who stumbles across an intact wine cellar can enjoy a drunken stupor for weeks or months.</span> </p>",
+    "/system/effect": "<p>Immediately gain +1 AP</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

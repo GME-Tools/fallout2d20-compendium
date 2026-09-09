@@ -1,0 +1,16 @@
+{
+  "_key": "!items!LhR6Kj541PHxZ7Bo",
+  "_file": "peaux__LhR6Kj541PHxZ7Bo.json",
+  "values": {
+    "/name": "Peaux",
+    "/system/description": "<p>Ces vêtements simples, généralement faits de peaux grossières de brahmine, radcerf ou autre grand animal, apportent un peu de confort et de protection sans remplacer de véritables vêtements ou une armure.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "LhR6Kj541PHxZ7Bo",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

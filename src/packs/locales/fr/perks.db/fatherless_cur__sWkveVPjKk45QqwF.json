@@ -1,0 +1,11 @@
+{
+  "_key": "!items!sWkveVPjKk45QqwF",
+  "_file": "sale_batard_sans_poils__sWkveVPjKk45QqwF.json",
+  "values": {
+    "/name": "Sale bâtard sans poils !",
+    "/system/description": "<p>Ignorez une complication obtenue sur une attaque de corps à corps.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!pYMfuytsOCR3mxW8",
+  "_file": "tomahawk__pYMfuytsOCR3mxW8.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A small, short-handled axe, akin to a small hatchet. Less subtle than a throwing knife, a hurled tomahawk can certainly make an impression in an enemy.</span></p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

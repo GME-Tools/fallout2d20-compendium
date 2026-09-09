@@ -1,0 +1,14 @@
+{
+  "_key": "!items!WntJ2pe8ld6CQEmS",
+  "_file": "feral__WntJ2pe8ld6CQEmS.json",
+  "values": {
+    "/name": "Sauvage",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "WntJ2pe8ld6CQEmS",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette créature est dépourvue d’intelligence et guidée uniquement par ses instincts sauvages. Elle ne peut pas être persuadée ou influencée par des tests de Discours. Elle se déplace vers l’ennemi le plus proche et l’attaque. Si elle ne détecte aucun ennemi, elle se dirige vers la source de lumière vive ou de bruit intense la plus proche. À défaut, elle se déplace au hasard ou reste sans rien faire.</p>"
+  }
+}

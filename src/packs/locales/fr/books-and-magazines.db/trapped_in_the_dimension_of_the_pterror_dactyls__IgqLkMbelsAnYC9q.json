@@ -1,0 +1,16 @@
+{
+  "_key": "!items!IgqLkMbelsAnYC9q",
+  "_file": "piege_dans_la_dimension_des_pterreurdactyles__IgqLkMbelsAnYC9q.json",
+  "values": {
+    "/name": "Piégé dans la dimension des pterreurdactyles !",
+    "/system/description": "<p>Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.</p><p><strong>Aptitude :</strong> Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une seule attaque de corps à corps.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.VrMFCFltA2MKaCcH]{Piégé dans la dimension des pterreurdactyles !}</p></section>",
+    "/system/effect": "<p>Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une seule attaque de corps à corps.</p>",
+    "/system/publication": "Les Increvables",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "IgqLkMbelsAnYC9q",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

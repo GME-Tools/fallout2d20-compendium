@@ -1,0 +1,16 @@
+{
+  "_key": "!items!j3Q6RHDSuhadGvdm",
+  "_file": "treillis_militaire__j3Q6RHDSuhadGvdm.json",
+  "values": {
+    "/name": "Treillis militaire",
+    "/system/description": "<p>Chemise, veste, pantalon et bottes robustes conçus pour les militaires d’avant-guerre, adaptés aux mauvaises conditions et riches en poches. <strong>Spécial :</strong> une fois par scène, ils permettent de relancer un d20 d’un test fondé sur la FOR ou l’AGI. Ils peuvent recevoir du Tissage balistique.</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "j3Q6RHDSuhadGvdm",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

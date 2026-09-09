@@ -1,0 +1,11 @@
+{
+  "_key": "!items!kBFXBzcatoT884Je",
+  "_file": "quel_avenir_pour_la_chasse__kBFXBzcatoT884Je.json",
+  "values": {
+    "/name": "Quel avenir pour la chasse ?",
+    "/system/description": "<p>Une attaque contre un Robot inflige +2 DC de dégâts.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

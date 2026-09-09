@@ -1,0 +1,11 @@
+{
+  "_key": "!items!nRkIZJRQqkTsqQV7",
+  "_file": "les_lasers_et_la_chasse_carnager_c_est_ok__nRkIZJRQqkTsqQV7.json",
+  "values": {
+    "/name": "Les lasers et la chasse : carnager c’est OK",
+    "/system/description": "<p>Une attaque avec une arme laser gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

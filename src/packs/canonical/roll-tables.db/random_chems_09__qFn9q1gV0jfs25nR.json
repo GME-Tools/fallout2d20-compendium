@@ -1,0 +1,14 @@
+{
+  "_id": "qFn9q1gV0jfs25nR",
+  "_key": "!tables.results!isNdghTYF06GBC0m.qFn9q1gV0jfs25nR",
+  "name": "Psycho",
+  "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.r464WdcRwusnzFtm]{Psycho}",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    10,
+    10
+  ],
+  "drawn": false
+}

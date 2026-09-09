@@ -1,0 +1,65 @@
+{
+  "_id": "8jzwxVjy2Me2QUua",
+  "_key": "!items!8jzwxVjy2Me2QUua",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Apparel/Vault-Tec Security Armor.webp",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 36,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": true,
+      "armR": true,
+      "head": true,
+      "legL": true,
+      "legR": true,
+      "torso": true
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": false,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 1,
+    "resistance": {
+      "energy": 0,
+      "physical": 2,
+      "radiation": 2
+    },
+    "shadowed": false,
+    "source": "core_rulebook",
+    "stashed": false
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Vault-Tec Security Armor (Complete)"
+      }
+    }
+  },
+  "$folder": "armor-vault-security"
+}

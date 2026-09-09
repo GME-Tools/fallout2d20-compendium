@@ -1,0 +1,14 @@
+{
+  "_key": "!items!51j1AqLl4zHqoVsN",
+  "_file": "comprehension__51j1AqLl4zHqoVsN.json",
+  "values": {
+    "/name": "Compréhension",
+    "/system/description": "<p>Rangs : 1 Prérequis : INT 6 Après avoir utilisé le bonus conféré par la lecture d’un magazine, jetez 1 @fos[DC]. Si vous obtenez un Effet, vous pouvez utiliser ce bonus une fois de plus.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "51j1AqLl4zHqoVsN",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

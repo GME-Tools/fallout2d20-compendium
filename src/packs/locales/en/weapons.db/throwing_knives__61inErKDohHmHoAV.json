@@ -1,0 +1,12 @@
+{
+  "_key": "!items!61inErKDohHmHoAV",
+  "_file": "throwing_knives__61inErKDohHmHoAV.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A small, sharp knife, specially balanced for throwing. Normally made of a lightweight metal, with the grip hollowed out to reduce weight. They do little damage by themselves, but are light, quiet, and quick to handle.</span></p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Throwing Knives"
+  }
+}

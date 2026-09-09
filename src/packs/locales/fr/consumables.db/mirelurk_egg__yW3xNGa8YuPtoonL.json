@@ -1,0 +1,17 @@
+{
+  "_key": "!items!yW3xNGa8YuPtoonL",
+  "_file": "uf_de_fangeux__yW3xNGa8YuPtoonL.json",
+  "values": {
+    "/name": "Œuf de fangeux",
+    "/system/description": "<p>Œufs trouvés par groupes de deux ou trois dans les nids de fangeux ; laissés intacts, ils éclosent en jeunes fangeux. Ils sont essentiels à l’omelette d’œuf de fangeux et au gâteau de fangeux.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yW3xNGa8YuPtoonL",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

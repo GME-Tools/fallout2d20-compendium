@@ -1,0 +1,11 @@
+{
+  "_key": "!items!xBewaCbKbQO5BQKp",
+  "_file": "fh_5_10_sur_la_pointe_des_pieds_dans_les_tulipes__xBewaCbKbQO5BQKp.json",
+  "values": {
+    "/name": "FH 5-10 Sur la pointe des pieds dans les tulipes",
+    "/system/description": "<p>Quand vous dépensez 1 point de Chance pour relancer 1d20 sur un test d’AGI, considérez que ce dé a obtenu 1 au lieu de le relancer.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

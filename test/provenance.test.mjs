@@ -26,7 +26,7 @@ function registryWithSupplement() {
 }
 
 test("a V1 provenance flag remains readable without migration", async () => {
-  const document = JSON.parse(await readFile("src/packs/en/skills.db/athletics__F4uIprrKWh9ApMaU.json", "utf8"));
+  const document = JSON.parse(await readFile("generated/source-packs/en/skills.db/athletics__F4uIprrKWh9ApMaU.json", "utf8"));
   const provenance = validateProvenance(document, { language: "en" });
   assert.equal(provenance.book, "core_rulebook");
   assert.deepEqual(readProvenance(document).appearances, []);

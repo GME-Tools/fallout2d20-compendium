@@ -5,7 +5,7 @@ import test from "node:test";
 import { FRENCH_CORE_ACTOR_NAMES } from "../scripts/data/french-core-actor-names.mjs";
 import { FRENCH_CORE_EMBEDDED_NAMES } from "../scripts/data/french-core-embedded-names.mjs";
 
-async function actors(language){const output=[];for(const pack of ["creatures","npcs"]){const dir=path.join("src","packs",language,`${pack}.db`);for(const file of await readdir(dir))if(file.endsWith(".json"))output.push(JSON.parse(await readFile(path.join(dir,file),"utf8")));}const reverse=new Map(Object.entries(FRENCH_CORE_ACTOR_NAMES).map(([en,fr])=>[fr,en]));return new Map(output.map(actor=>[language==="fr"?(reverse.get(actor.name)??actor.name):actor.name,actor]));}
+async function actors(language){const output=[];for(const pack of ["denizens"]){const dir=path.join("generated", "source-packs",language,`${pack}.db`);for(const file of await readdir(dir))if(file.endsWith(".json"))output.push(JSON.parse(await readFile(path.join(dir,file),"utf8")));}const reverse=new Map(Object.entries(FRENCH_CORE_ACTOR_NAMES).map(([en,fr])=>[fr,en]));return new Map(output.map(actor=>[language==="fr"?(reverse.get(actor.name)??actor.name):actor.name,actor]));}
 const item=(actor,name)=>actor.items.find(entry=>entry.name===name||entry.name===FRENCH_CORE_EMBEDDED_NAMES[entry.type]?.[name]);
 
 for(const language of ["en","fr"]) test(`${language} embedded actor data implements cumulative Core errata`,async()=>{

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!yova9LubVGA18nar",
+  "_file": "post_humain_necrotique__yova9LubVGA18nar.json",
+  "values": {
+    "/name": "Post-humain nécrotique",
+    "/system/description": "<p>Vous êtes immunisé aux dégâts de radiation. Au contraire, ils vous soignent : vous récupérez 1 PV par tranche de 3 points de dégâts de radiation qui vous sont infligés. Si vous vous reposez dans un environnement irradié, vous pouvez relancer votre réserve de dés pour voir si vos blessures guérissent. De plus, Survie devient un atout personnel : vous gagnez donc 2 rangs dans cette compétence.</p><p>Vous vieillissez bien plus lentement qu’un humain non irradié et vous êtes probablement bien plus vieux que vos compagnons non mutants. Peut-être avez-vous même survécu à la Grande Guerre de 2077. Néanmoins, vous êtes stérile : comme dit le proverbe, « la première génération de goules est la dernière ». Vous pouvez connaître une discrimination de la part des « peaux-lisses », ce qui augmente la difficulté ou la marge de complication des tests de Charisme selon les croyances de votre interlocuteur.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yova9LubVGA18nar",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

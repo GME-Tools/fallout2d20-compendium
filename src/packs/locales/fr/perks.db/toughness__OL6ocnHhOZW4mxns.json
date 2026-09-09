@@ -1,0 +1,14 @@
+{
+  "_key": "!items!OL6ocnHhOZW4mxns",
+  "_file": "robustesse__OL6ocnHhOZW4mxns.json",
+  "values": {
+    "/name": "Robustesse",
+    "/system/description": "<p>Rangs : 2 Prérequis : END 6, CHA 6, niveau 1+ Votre résistance aux dégâts balistiques, quelle que soit la localisation, augmente de +1 par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "OL6ocnHhOZW4mxns",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftChemBench001",
+  "_file": "chemistry_station__CrftChemBench001.json",
+  "values": {
+    "/name": "Chemistry Station",
+    "/system/description": "<p>A chemistry station contains tools used for mixing chemicals to create chems, explosives, and Syringer ammunition. Crafting at this station uses the Science and Explosives skills and benefits from the Chemist and Demolition Expert perks.</p>",
+    "/system/effect": "<p>Used to create chems, explosives, and Syringer ammunition.</p>",
+    "/system/perks": "Chemist, Demolition Expert",
+    "/system/skills": "Science, Explosives",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false
+  }
+}

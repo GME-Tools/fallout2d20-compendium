@@ -1,0 +1,16 @@
+{
+  "_key": "!items!xTlLPA95S9y3Neqk",
+  "_file": "ufs_mimosas_miam_miam__xTlLPA95S9y3Neqk.json",
+  "values": {
+    "/name": "Œufs mimosas miam-miam",
+    "/system/description": "<p>Œufs durs farcis d’une préparation épicée, conditionnés et scellés avant la Grande Guerre pour préserver leur fraîcheur.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xTlLPA95S9y3Neqk",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

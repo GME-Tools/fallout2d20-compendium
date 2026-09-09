@@ -1,0 +1,16 @@
+{
+  "_key": "!items!FQDIJeABc0a1g7Nt",
+  "_file": "le_chirurgien_du_massachusetts__FQDIJeABc0a1g7Nt.json",
+  "values": {
+    "/name": "Le chirurgien du Massachusetts",
+    "/system/description": "<p>Un périodique médical d’avant-guerre consacré aux sciences et technologies médicales.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous prodiguez des soins à un autre personnage et assistez son test d’END + Survie pour guérir des blessures, considérez que votre dé d’assistance a obtenu 1.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.scI8HRzH0QjDb1bh]{Le chirurgien du Massachusetts}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous prodiguez des soins à un autre personnage et assistez son test d’END + Survie pour guérir des blessures, considérez que votre dé d’assistance a obtenu 1.</p>",
+    "/system/publication": "Le chirurgien du Massachusetts",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "FQDIJeABc0a1g7Nt",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_key": "!items!XShTCPVSPhRDhMBo",
+  "_file": "culasse_50__XShTCPVSPhRDhMBo.json",
+  "values": {
+    "/name": "Culasse .50",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>smallGuns - receiver</h4><dl><dt>Complexité</dt><dd>6</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Ba5yPRdNAvjM5StI]{Fana d’armes} 4</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×7</li><li>Matériaux peu fréquents ×5</li><li>Matériaux rares ×3</li></ul></article></section>",
+    "/system/modEffects/ammo": "Calibre .50",
+    "/system/perks": "Fana d’armes 4",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "XShTCPVSPhRDhMBo",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 4"
+  }
+}

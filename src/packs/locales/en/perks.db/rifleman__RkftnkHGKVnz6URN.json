@@ -1,0 +1,11 @@
+{
+  "_key": "!items!RkftnkHGKVnz6URN",
+  "_file": "rifleman__RkftnkHGKVnz6URN.json",
+  "values": {
+    "/name": "Rifleman",
+    "/system/description": "<p>When you make a ranged attack with any two-handed weapon with a Fire Rate of 2 or lower (except heavy weapons), you add +1 CD to the weapon&rsquo;s damage per rank.</p>\n<p>At rank 2, you also add the Piercing 1 damage effect, or add +1 to the rating of any Piercing X damage effect the weapon already had. Each time you take this perk, the level requirement increases by 4.</p>\n<p><strong>Requirements</strong>: AGI 7, Level 2+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

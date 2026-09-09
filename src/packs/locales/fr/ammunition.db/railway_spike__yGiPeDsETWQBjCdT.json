@@ -1,0 +1,15 @@
+{
+  "_key": "!items!yGiPeDsETWQBjCdT",
+  "_file": "clou_de_rail__yGiPeDsETWQBjCdT.json",
+  "values": {
+    "/name": "Clou de rail",
+    "/system/description": "<p>Des pics de fer conçus pour fixer les voies ferrées. Même si ce sont des objets relativement ordinaires, ils ne sont pas si aisés à trouver.</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yGiPeDsETWQBjCdT",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

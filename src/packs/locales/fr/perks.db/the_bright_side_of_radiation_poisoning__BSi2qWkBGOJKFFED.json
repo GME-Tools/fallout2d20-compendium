@@ -1,0 +1,11 @@
+{
+  "_key": "!items!BSi2qWkBGOJKFFED",
+  "_file": "le_bon_cote_de_la_contamination_aux_radiations__BSi2qWkBGOJKFFED.json",
+  "values": {
+    "/name": "Le bon côté de la contamination aux radiations",
+    "/system/description": "<p>Quand vous consommez un aliment ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du DC.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

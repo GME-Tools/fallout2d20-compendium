@@ -1,0 +1,25 @@
+{
+  "_id": "yova9LubVGA18nar",
+  "_key": "!items!yova9LubVGA18nar",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Traits/NecroticPostHuman.webp",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "trait",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": true,
+        "page": "51-57",
+        "coreCharacterCreationReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Traits/NecroticPostHuman.webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

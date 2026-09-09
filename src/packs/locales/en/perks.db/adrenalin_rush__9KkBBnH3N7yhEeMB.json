@@ -1,0 +1,11 @@
+{
+  "_key": "!items!9KkBBnH3N7yhEeMB",
+  "_file": "adrenalin_rush__9KkBBnH3N7yhEeMB.json",
+  "values": {
+    "/name": "Adrenalin Rush",
+    "/system/description": "<p>When your health is below its maximum value, you count your STR score as 10 for all purposes when attempting a STR-based skill test or melee attack.</p>\n<p><strong>Requirements</strong>: STR 7</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

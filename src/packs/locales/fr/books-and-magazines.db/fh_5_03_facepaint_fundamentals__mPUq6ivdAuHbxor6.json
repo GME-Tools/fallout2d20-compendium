@@ -1,0 +1,16 @@
+{
+  "_key": "!items!mPUq6ivdAuHbxor6",
+  "_file": "fh_5_03_fondamentaux_du_camouflage_facial__mPUq6ivdAuHbxor6.json",
+  "values": {
+    "/name": "FH 5-03 Fondamentaux du camouflage facial",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Vous gagnez +1 à toutes vos résistances aux dégâts contre les attaques des PNJ personnages.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.vYiPt2jg7x1f0NTl]{FH 5-03 Fondamentaux du camouflage facial}</p></section>",
+    "/system/effect": "<p>Vous gagnez +1 à toutes vos résistances aux dégâts contre les attaques des PNJ personnages.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mPUq6ivdAuHbxor6",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

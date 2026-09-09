@@ -1,0 +1,14 @@
+{
+  "_key": "!items!kWmIbpvqCPZafkZ0",
+  "_file": "attack_dog__kWmIbpvqCPZafkZ0.json",
+  "values": {
+    "/name": "Chien d’attaque",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "kWmIbpvqCPZafkZ0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Lorsque Canigou assiste l’une de vos attaques, il doit se déplacer à Portée de main de la cible. Si l’attaque réussit, il inflige également ses propres dégâts de corps à corps à la cible.</p>"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Dh09YQNclfQtitwT",
+  "_file": "viande_de_molosse_mutant__Dh09YQNclfQtitwT.json",
+  "values": {
+    "/name": "Viande de molosse mutant",
+    "/system/description": "<p>Viande verdâtre et grumeleuse de molosse mutant, peu engageante. Crue, elle est fortement irradiée et immangeable ; cuite, elle reste médiocre mais n’est plus dangereuse. Elle permet de préparer des côtelettes de molosse mutant.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Dh09YQNclfQtitwT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -5,7 +5,7 @@ import path from "node:path";
 import { PACKS } from "../scripts/config.mjs";
 
 async function packDocuments(language, pack) {
-  const root = path.join("src/packs", language, `${pack}.db`);
+  const root = path.join("generated/source-packs", language, `${pack}.db`);
   return Promise.all((await readdir(root)).filter((file) => file.endsWith(".json")).map(async (file) => JSON.parse(await readFile(path.join(root, file), "utf8"))));
 }
 

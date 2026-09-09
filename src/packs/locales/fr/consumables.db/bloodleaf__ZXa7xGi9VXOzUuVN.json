@@ -1,0 +1,15 @@
+{
+  "_key": "!items!ZXa7xGi9VXOzUuVN",
+  "_file": "feuille_de_sang__ZXa7xGi9VXOzUuVN.json",
+  "values": {
+    "/name": "Feuille de sang",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZXa7xGi9VXOzUuVN",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

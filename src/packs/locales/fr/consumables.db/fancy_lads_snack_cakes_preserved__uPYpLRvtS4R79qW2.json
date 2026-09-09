@@ -1,0 +1,16 @@
+{
+  "_key": "!items!uPYpLRvtS4R79qW2",
+  "_file": "biscuits_fancy_lads_preserves__uPYpLRvtS4R79qW2.json",
+  "values": {
+    "/name": "Biscuits Fancy Lads (préservés)",
+    "/system/description": "<p>Petits gâteaux glacés si chargés en sucre et édulcorants qu’ils sont pratiquement impérissables. Cette boîte préservée n’est pas irradiée et sa rareté augmente de +1.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uPYpLRvtS4R79qW2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

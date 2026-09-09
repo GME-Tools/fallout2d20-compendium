@@ -1,0 +1,16 @@
+{
+  "_key": "!items!YVmBhcEYI0eLLDM8",
+  "_file": "les_mysteres_du_passe_partout_reveles__YVmBhcEYI0eLLDM8.json",
+  "values": {
+    "/name": "Les mystères du passe-partout révélés !",
+    "/system/description": "<p>Un magazine d’avant-guerre consacré à l’art clandestin du crochetage et aux dernières avancées des serrures mécaniques.</p><p><strong>Aptitude :</strong> Vous pouvez relancer 1d20 sur un seul test de Crochetage.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.dx2dkCtFBWb5kukV]{Les mystères du passe-partout révélés !}</p></section>",
+    "/system/effect": "<p>Vous pouvez relancer 1d20 sur un seul test de Crochetage.</p>",
+    "/system/publication": "Gorges et pênes",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YVmBhcEYI0eLLDM8",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

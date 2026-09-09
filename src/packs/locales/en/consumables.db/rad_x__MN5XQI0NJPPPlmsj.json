@@ -1,0 +1,12 @@
+{
+  "_key": "!items!MN5XQI0NJPPPlmsj",
+  "_file": "rad_x__MN5XQI0NJPPPlmsj.json",
+  "values": {
+    "/system/description": "<p>A preventative medicine for those intending to enter areas with heightened risk of radiation exposure. A dose can help you resist the effects of radiation, especially when combined with other protective measures. Due to scarcity, it is often found diluted, reducing the effectiveness of a dose but allowing limited supplies to last longer. Diluted Rad-X is about half as effective, but easier to find.</p>",
+    "/system/effect": "<p>+6 Radiation damage resistance</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

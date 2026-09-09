@@ -1,0 +1,15 @@
+{
+  "_key": "!items!1p7mDRDty8NiEP1t",
+  "_file": "poumons_encrasses__1p7mDRDty8NiEP1t.json",
+  "values": {
+    "/name": "Poumons encrassés",
+    "/system/description": "<p>Subissez 1 point de Fatigue. Vous ne pouvez ajouter des PA à la réserve du groupe que si elle en contient 3 ou moins.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1p7mDRDty8NiEP1t",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

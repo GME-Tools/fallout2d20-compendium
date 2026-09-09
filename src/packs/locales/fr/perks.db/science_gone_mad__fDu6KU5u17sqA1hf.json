@@ -1,0 +1,11 @@
+{
+  "_key": "!items!fDu6KU5u17sqA1hf",
+  "_file": "science_et_demence__fDu6KU5u17sqA1hf.json",
+  "values": {
+    "/name": "Science et démence !",
+    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts énergétiques.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

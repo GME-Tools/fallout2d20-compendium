@@ -1,0 +1,18 @@
+{
+  "_key": "!items!C9aDwtqBulwGksyh",
+  "_file": "radaway_dilue__C9aDwtqBulwGksyh.json",
+  "values": {
+    "/name": "RadAway (dilué)",
+    "/system/description": "<p>Version diluée du RadAway, drogue intraveineuse qui purge les radiations par le sang et les urines. Boire ensuite beaucoup d’eau propre est conseillé.</p><p><strong>Utilisation :</strong> avec l’action mineure Prendre une drogue ou pendant des Premiers secours, soigne 2 dégâts de radiation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.vDzTAi2iRrZ5XTcc]{RadAway} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h]{Eau purifiée} ×1</li></ul></section>",
+    "/system/effect": "<p>Soigne 2 dégâts de radiation (voir description).</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "C9aDwtqBulwGksyh",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Eau purifiée"
+  }
+}

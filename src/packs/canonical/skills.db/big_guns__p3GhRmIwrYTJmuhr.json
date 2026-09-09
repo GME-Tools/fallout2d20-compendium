@@ -1,0 +1,31 @@
+{
+  "_id": "p3GhRmIwrYTJmuhr",
+  "_key": "!items!p3GhRmIwrYTJmuhr",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Skills/Big-Guns.png",
+  "system": {
+    "defaultAttribute": "end",
+    "favorite": false,
+    "source": "core_rulebook",
+    "summary": "",
+    "tag": false,
+    "value": 0
+  },
+  "type": "skill",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": "44-46",
+        "errataReviewed": true,
+        "errata": [
+          "2022-09-06"
+        ],
+        "artworkReviewed": true,
+        "coreCharacterCreationReviewed": true,
+        "artworkStatus": "dedicated"
+      }
+    }
+  }
+}

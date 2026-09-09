@@ -1,0 +1,12 @@
+{
+  "_key": "!items!PuL9AevtWz8clHFZ",
+  "_file": "brain_fungus__PuL9AevtWz8clHFZ.json",
+  "values": {
+    "/name": "Brain Fungus",
+    "/system/description": "<p><span class=\"fontstyle0\">An off-white mushroom which resembles a brain, and which tends to be found in clusters growing in dark, dank corners. Slightly irradiated due simply to growing in the wastelands, but otherwise harmless, despite its slightly alarming name and appearance.</span></p>\n<p><span class=\"fontstyle0\">Brain fungus is an ingredient in Mentats.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

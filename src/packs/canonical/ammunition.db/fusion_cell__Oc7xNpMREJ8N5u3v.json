@@ -1,0 +1,39 @@
+{
+  "_id": "Oc7xNpMREJ8N5u3v",
+  "_key": "!items!Oc7xNpMREJ8N5u3v",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Ammunition/Fusion Cells.webp",
+  "system": {
+    "charges": {
+      "current": 0,
+      "max": 0
+    },
+    "cost": 3,
+    "effect": "",
+    "favorite": false,
+    "fusionCore": false,
+    "quantity": 1,
+    "quantityRoll": "14+7dc",
+    "rarity": 2,
+    "shots": {
+      "current": 20,
+      "max": 20
+    },
+    "source": "core_rulebook",
+    "stashed": false,
+    "type": ""
+  },
+  "type": "ammo",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "repository alias for Fusion Cell"
+      }
+    }
+  }
+}

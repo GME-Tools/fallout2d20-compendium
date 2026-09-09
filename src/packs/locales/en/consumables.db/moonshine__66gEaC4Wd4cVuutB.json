@@ -1,0 +1,13 @@
+{
+  "_key": "!items!66gEaC4Wd4cVuutB",
+  "_file": "moonshine__66gEaC4Wd4cVuutB.json",
+  "values": {
+    "/name": "Moonshine",
+    "/system/description": "<p><span class=\"fontstyle0\">Largely a slang term for high-proof distilled spirits produced in illicit or makeshift manner. Due to their unorthodox and improvised origins, moonshine can be dangerous to consume, often contaminated with dangerous chemicals. The stuff that doesn&rsquo;t kill you&hellip; will probably render you insensible and impervious to pain if it doesn&rsquo;t knock you out entirely.</span> </p>",
+    "/system/effect": "<p>+2 Max HP</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

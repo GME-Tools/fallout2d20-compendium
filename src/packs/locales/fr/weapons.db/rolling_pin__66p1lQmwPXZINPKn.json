@@ -1,0 +1,16 @@
+{
+  "_key": "!items!66p1lQmwPXZINPKn",
+  "_file": "rouleau_a_patisserie__66p1lQmwPXZINPKn.json",
+  "values": {
+    "/system/description": "<p>Un solide cylindre de bois présent dans toutes les cuisines du monde. Suffisamment lourd pour dissuader toutes sortes d’attaquants si vous n’avez rien de plus dangereux. Un rouleau à pâtisserie peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "66p1lQmwPXZINPKn",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Rouleau à pâtisserie"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!rzLGWCVR5aHjEyFy",
+  "_file": "chasser_dans_les_terres_desolees__rzLGWCVR5aHjEyFy.json",
+  "values": {
+    "/name": "Chasser dans les Terres désolées",
+    "/system/description": "<p>Une série éducative d’après-guerre, rédigée et illustrée de dessins grossiers, copiée et distribuée dans les Terres désolées.</p><p><strong>Aptitude :</strong> Quand vous dépecez un animal tué et pouvez augmenter la viande trouvée en dépensant des PA, gagnez 1 PA bonus à cette fin ; il est perdu s’il n’est pas utilisé.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.p8cH2qolrlrnLKIt]{Chasser dans les Terres désolées}</p></section>",
+    "/system/effect": "<p>Quand vous dépecez un animal tué et pouvez augmenter la viande trouvée en dépensant des PA, gagnez 1 PA bonus à cette fin ; il est perdu s’il n’est pas utilisé.</p>",
+    "/system/publication": "Guide de survie des Terres désolées",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "rzLGWCVR5aHjEyFy",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

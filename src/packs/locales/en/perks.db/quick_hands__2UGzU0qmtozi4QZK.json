@@ -1,0 +1,11 @@
+{
+  "_key": "!items!2UGzU0qmtozi4QZK",
+  "_file": "quick_hands__2UGzU0qmtozi4QZK.json",
+  "values": {
+    "/name": "Quick Hands",
+    "/system/description": "<p>You can reload firearms faster. When you make a ranged attack, you may spend 2 AP to increase the Fire Rate of your gun by +2 for that attack.</p>\n<p><strong>Requirements</strong>: AGI 8</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

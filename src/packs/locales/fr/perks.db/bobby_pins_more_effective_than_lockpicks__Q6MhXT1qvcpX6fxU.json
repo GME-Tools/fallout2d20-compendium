@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Q6MhXT1qvcpX6fxU",
+  "_file": "les_epingles_a_cheveux_plus_efficaces_que_les_outils_de_crochetage__Q6MhXT1qvcpX6fxU.json",
+  "values": {
+    "/name": "Les épingles à cheveux : plus efficaces que les outils de crochetage ?",
+    "/system/description": "<p>Quand vous utilisez une épingle à cheveux, réduisez de 2 au lieu de 1 la difficulté d’un test de Crochetage, jusqu’à un minimum de 0.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_key": "!items!R5svV8jJwgZSd2So",
+  "_file": "sturdy_combat_right_leg__R5svV8jJwgZSd2So.json",
+  "values": {
+    "/name": "Sturdy Combat Right Leg",
+    "/system/description": "<p><span class=\"fontstyle0\">Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission.</span></p>\n<p><span class=\"fontstyle0\">Each piece of Combat armor other than helmets can accept two mods, one of which is a Material, the other of which is an Upgrade. Combat helmets may only accept a Material mod. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). All Combat Armor Material mods are&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">.</span> </p>\n<ul>\n<li><span class=\"fontstyle0\"><strong>Combat Armor:</strong> Reinforced, Shadowed, Fiberglass, Polymer</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/mods/DSrje3suQ5wYyMYp/system/weight": 1,
+    "/system/mods/EBkTneYU3Usezhgt/system/weight": 1,
+    "/system/mods/FRPz5uD3tZ7hMjir/system/weight": 2,
+    "/system/mods/FySCG1SWS7SABvE7/system/weight": 2,
+    "/system/mods/KRuKJ0eR46ZycdGM/system/weight": 1,
+    "/system/mods/gW3K5z7MFRZoBDQa/system/weight": 1,
+    "/system/mods/iigJa7Sxwi1um5tb/system/weight": -3,
+    "/system/mods/lRwdket2A4FxBzpQ/system/weight": 2,
+    "/system/mods/vCzArLcyEN25Awf3/system/weight": -1,
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

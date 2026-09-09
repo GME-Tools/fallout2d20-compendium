@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Gn880XN7Auhdop6S",
+  "_file": "l_ascension_des_mutants__Gn880XN7Auhdop6S.json",
+  "values": {
+    "/name": "L’ascension des mutants !",
+    "/system/description": "<p>Vous gagnez +1 DC sur vos attaques contre les super mutants.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

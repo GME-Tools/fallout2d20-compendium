@@ -1,0 +1,14 @@
+{
+  "_key": "!items!lfMWVhIeAPx7Hgrs",
+  "_file": "arm_lasers__lfMWVhIeAPx7Hgrs.json",
+  "values": {
+    "/name": "Lasers de bras",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "lfMWVhIeAPx7Hgrs",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Si l’un des bras du Protectron subit une Blessure, la Cadence de ses Lasers de bras tombe à 2. Si ses deux bras sont blessés, il ne peut plus attaquer avec ses Lasers de bras.</p>"
+  }
+}

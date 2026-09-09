@@ -1,0 +1,19 @@
+{
+  "_key": "!items!4YCB81rMWJSZcgRI",
+  "_file": "mine_a_capsules__4YCB81rMWJSZcgRI.json",
+  "values": {
+    "/system/description": "<p>La mine à capsules est grossièrement assemblée, mais reste un explosif redoutable. Ces mines sont construites à partir d’un contenant simple, par exemple une boîte à outils, rempli de capsules de bouteille et d’un mélange explosif rudimentaire. Elles sont équipées d’un capteur et d’un détonateur. La force de l’explosion projette les capsules sur une vaste zone à une telle vitesse qu’elles deviennent l’équivalent d’éclats d’obus. Spécial: quand vous fabriquez une mine à capsules, vous pouvez ajouter des capsules supplémentaires; chaque tranche de 10 capsules ajoutées augmente les dégâts de +1 . Quand la mine explose, faites le jet de dégâts une deuxième fois; le total obtenu est le nombre de capsules intactes présentes dans la zone où la mine a explosé.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf]{Explosifs}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.ureiid51WVHnCcSG]{Expert en démolition}</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×1</li></ul></section>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4YCB81rMWJSZcgRI",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en démolition",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/skill": "Explosifs",
+    "/name": "Mine à capsules"
+  }
+}

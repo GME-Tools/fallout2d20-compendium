@@ -1,0 +1,9 @@
+{
+  "_key": "!items!iQwm0npOuJdJZsBt",
+  "_file": "radiation_pulse__iQwm0npOuJdJZsBt.json",
+  "values": {
+    "/name": "Radiation Pulse",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">Once per combat, the [creature] may unleash a pulse of radiation. This inflicts 5 CD </span><span class=\"fontstyle0\">radiation damage to everything within Range C. If it inflicts 3 or more damage, then any defeated ghoul within that range is restored to 1HP and returns to the fight.</span></p>"
+  }
+}

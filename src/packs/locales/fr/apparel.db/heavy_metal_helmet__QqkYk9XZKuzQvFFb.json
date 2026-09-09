@@ -1,0 +1,26 @@
+{
+  "_key": "!items!QqkYk9XZKuzQvFFb",
+  "_file": "armure_lourde_de_metal_casque__QqkYk9XZKuzQvFFb.json",
+  "values": {
+    "/name": "Armure lourde de métal Casque",
+    "/system/description": "<p>Des plaques métalliques façonnées et maintenues par des sangles de cuir ou de tissu offrent une bonne protection contre les impacts et les balles, mais moindre contre l’énergie car le métal conduit la chaleur. Chaque pièce sauf le casque accepte un Matériau et une Amélioration ; le casque accepte seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Installation avec Réparation. Matériaux : Métal peint, émaillé, ombré, allié ou poli.</p>",
+    "/system/mods/EYNQabnyteOkkeoP/system/weight": 1,
+    "/system/mods/FySCG1SWS7SABvE7/system/weight": 1,
+    "/system/mods/KRuKJ0eR46ZycdGM/system/weight": 0.5,
+    "/system/mods/d0avgvGTDFSOEcMP/system/weight": 1,
+    "/system/mods/gySESs8tqQfig1qH/system/weight": 2,
+    "/system/mods/iigJa7Sxwi1um5tb/system/weight": -1.5,
+    "/system/mods/l0RhqycI1tg5viug/system/weight": 0.5,
+    "/system/mods/lRwdket2A4FxBzpQ/system/weight": 1,
+    "/system/mods/plJeCoLSGJIVzF69/system/weight": 1.5,
+    "/system/mods/vCzArLcyEN25Awf3/system/weight": -0.5,
+    "/system/weight": 6,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "QqkYk9XZKuzQvFFb",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

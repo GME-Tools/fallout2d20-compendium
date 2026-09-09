@@ -1,0 +1,17 @@
+{
+  "_key": "!items!AcJArmB6p1XrVWL9",
+  "_file": "baume_de_soin__AcJArmB6p1XrVWL9.json",
+  "values": {
+    "/name": "Baume de soin",
+    "/system/description": "<p>Baume composé de plantes qui réduit la douleur et accélère la guérison. <strong>Utilisation :</strong> par l’action mineure Prendre une drogue, il soigne immédiatement 2 Santé ; appliqué pendant une action de Premiers secours, il ajoute +2 au total de Santé récupérée.</p>",
+    "/system/effect": "<p>Soigne 2 PV (voir description).</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "AcJArmB6p1XrVWL9",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!ar1HypIBKrPwbB1e",
+  "_file": "rend__ar1HypIBKrPwbB1e.json",
+  "values": {
+    "/name": "Déchiquetage",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ar1HypIBKrPwbB1e",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Un écorcheur peut augmenter de +1 la difficulté de son attaque de Griffes. En cas de réussite, ses dégâts augmentent de +2 DC.</p>"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_key": "!items!DwEuDupvvq0jPL4g",
+  "_file": "education__DwEuDupvvq0jPL4g.json",
+  "values": {
+    "/name": "Éducation",
+    "/system/description": "<p>Vous possédez un atout personnel supplémentaire.</p><p>Lorsque vous échouez à un test de compétence autre qu’un atout personnel, le MJ gagne 1 PA.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "DwEuDupvvq0jPL4g",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

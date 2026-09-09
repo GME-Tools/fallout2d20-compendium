@@ -1,0 +1,17 @@
+{
+  "_key": "!items!VWsI4akT5mdNCcci",
+  "_file": "module_de_crochetage__VWsI4akT5mdNCcci.json",
+  "values": {
+    "/name": "Module de crochetage",
+    "/system/description": "<p>En plus d’un catalogue de mécanismes de verrouillage, de leurs faiblesses et de leurs configurations connues, ce module équipe une pince manipulatrice d’outils de serrurier dissimulés sur un support articulé. Le robot peut ainsi crocheter des serrures sans manipuler directement ses outils.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Crochetage (minimum 0). Le robot n’a pas besoin d’épingles à cheveux ni d’autres outils de crochetage.</p>",
+    "/system/weight": -2.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "VWsI4akT5mdNCcci",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!BvqY6Zk4bfPSpIj7",
+  "_file": "mefiez_vous_du_dresseur_d_hommes__BvqY6Zk4bfPSpIj7.json",
+  "values": {
+    "/name": "Méfiez-vous du dresseur d’hommes",
+    "/system/description": "<p>La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

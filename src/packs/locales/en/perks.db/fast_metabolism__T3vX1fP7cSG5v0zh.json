@@ -1,0 +1,11 @@
+{
+  "_key": "!items!T3vX1fP7cSG5v0zh",
+  "_file": "fast_metabolism__T3vX1fP7cSG5v0zh.json",
+  "values": {
+    "/name": "Fast Metabolism",
+    "/system/description": "<p>When you regain one or more HP from any source other than rest, increase the total HP regained by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 3.</p>\n<p><strong>Requirements</strong>: END 6, Level 1+, not a robot</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

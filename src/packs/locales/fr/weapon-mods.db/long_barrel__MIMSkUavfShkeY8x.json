@@ -1,0 +1,13 @@
+{
+  "_key": "!items!MIMSkUavfShkeY8x",
+  "_file": "canon_long__MIMSkUavfShkeY8x.json",
+  "values": {
+    "/name": "Canon long",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>energyWeapons - barrel</h4><dl><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></article></section>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "104-105",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "MIMSkUavfShkeY8x",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

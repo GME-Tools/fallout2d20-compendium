@@ -1,0 +1,16 @@
+{
+  "_key": "!items!gg2H82rn5B2SXOrF",
+  "_file": "patee_pour_chien__gg2H82rn5B2SXOrF.json",
+  "values": {
+    "/name": "Pâtée pour chien",
+    "/system/description": "<p>Une boîte métallique de viande transformée destinée aux chiens. Malgré sa destination, son contenu est parfaitement comestible pour les humains et l’emballage scellé le conserve longtemps dans un état relativement sûr.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "gg2H82rn5B2SXOrF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

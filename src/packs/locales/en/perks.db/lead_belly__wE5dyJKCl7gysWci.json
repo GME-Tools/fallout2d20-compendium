@@ -1,0 +1,11 @@
+{
+  "_key": "!items!wE5dyJKCl7gysWci",
+  "_file": "lead_belly__wE5dyJKCl7gysWci.json",
+  "values": {
+    "/name": "Lead Belly",
+    "/system/description": "<p>At rank 1, you may re-roll the CD to determine if you suffer radiation damage from irradiated food or drink. At rank 2, you are immune to radiation damage from consuming irradiated food or drink. Each time you take this perk, the level requirement increases by 4.</p>\n<p><strong>Requirements</strong>: END 6, Level 1+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

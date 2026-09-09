@@ -1,0 +1,16 @@
+{
+  "_key": "!items!yjknvThwoDmQwU3M",
+  "_file": "viser_et_tirer_comme_a_l_armee__yjknvThwoDmQwU3M.json",
+  "values": {
+    "/name": "Viser et tirer, comme à l’armée",
+    "/system/description": "<p>Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, leur législation et leur usage pratique.</p><p><strong>Aptitude :</strong> Une attaque avec visée effectuée avec une arme dépourvue de la qualité Précis inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.oRB1ZIvzhsUMElSc]{Viser et tirer, comme à l’armée}</p></section>",
+    "/system/effect": "<p>Une attaque avec visée effectuée avec une arme dépourvue de la qualité Précis inflige +2 DC de dégâts.</p>",
+    "/system/publication": "Armes et munitions",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "yjknvThwoDmQwU3M",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

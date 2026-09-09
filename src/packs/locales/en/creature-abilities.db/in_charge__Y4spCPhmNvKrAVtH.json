@@ -1,0 +1,9 @@
+{
+  "_key": "!items!Y4spCPhmNvKrAVtH",
+  "_file": "in_charge__Y4spCPhmNvKrAVtH.json",
+  "values": {
+    "/name": "In Charge",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">A [creature] may spend a minor action to order a [creature] of lower level within Close range to immediately perform a minor action. Alternatively, they may spend a major action to order another [creature] to take a major action immediately.</span></p>"
+  }
+}

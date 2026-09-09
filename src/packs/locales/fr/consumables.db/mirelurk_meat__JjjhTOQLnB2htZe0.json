@@ -1,0 +1,16 @@
+{
+  "_key": "!items!JjjhTOQLnB2htZe0",
+  "_file": "viande_de_fangeux__JjjhTOQLnB2htZe0.json",
+  "values": {
+    "/name": "Viande de fangeux",
+    "/system/description": "<p>Viande de fangeux, plus dure et moins fine que celle des fangeux à carapace molle mais parfaitement comestible. Elle entre dans le gâteau de fangeux et se cuisine rôtie.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "JjjhTOQLnB2htZe0",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

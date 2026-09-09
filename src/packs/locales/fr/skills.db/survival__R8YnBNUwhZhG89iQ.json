@@ -1,0 +1,13 @@
+{
+  "_key": "!items!R8YnBNUwhZhG89iQ",
+  "_file": "survie__R8YnBNUwhZhG89iQ.json",
+  "values": {
+    "/name": "Survie",
+    "/system/description": "<p>La comp&eacute;tence Survie recouvre&nbsp;toutes sortes de savoir-faire&nbsp;utiles dans la nature, comme la&nbsp;chasse, la cueillette, la p&ecirc;che, la&nbsp;construction d&rsquo;abris de fortune&nbsp;et l&rsquo;allumage de feu.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Endurance</strong>,&nbsp;mais vous pouvez utiliser Perception pour d&eacute;terminer&nbsp;combien de temps il vous reste avant la tomb&eacute;e de la&nbsp;nuit ou Charisme pour charmer des animaux. Employez&nbsp;Survie pour construire un camp ou pour tester votre&nbsp;r&eacute;sistance &agrave; la malnutrition ou &agrave; la d&eacute;shydratation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "R8YnBNUwhZhG89iQ",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

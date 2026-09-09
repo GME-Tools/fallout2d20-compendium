@@ -1,0 +1,11 @@
+{
+  "_key": "!items!RhITTHDy13MufCZy",
+  "_file": "pathfinder__RhITTHDy13MufCZy.json",
+  "values": {
+    "/name": "Pathfinder",
+    "/system/description": "<p>When travelling over long distances through the wilderness, a successful PER + Survival test (with a difficulty determined by the GM, based on the terrain) reduces the travel time by half.</p>\n<p><strong>Requirements</strong>: PER 6, END 6</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

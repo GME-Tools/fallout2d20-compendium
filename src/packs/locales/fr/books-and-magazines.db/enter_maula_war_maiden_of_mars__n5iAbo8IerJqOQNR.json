@@ -1,0 +1,16 @@
+{
+  "_key": "!items!n5iAbo8IerJqOQNR",
+  "_file": "maula_la_vierge_guerriere_de_mars__n5iAbo8IerJqOQNR.json",
+  "values": {
+    "/name": "Maula : la Vierge guerrière de Mars",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Quand vous portez une attaque avec une arme de corps à corps à Deux mains, vous gagnez l’effet de dégâts Perforant 1, ou +1 à un effet Perforant existant.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.OIVq6l91X8x6r6zi]{Maula : la Vierge guerrière de Mars}</p></section>",
+    "/system/effect": "<p>Quand vous portez une attaque avec une arme de corps à corps à Deux mains, vous gagnez l’effet de dégâts Perforant 1, ou +1 à un effet Perforant existant.</p>",
+    "/system/publication": "Grognak le Barbare",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "n5iAbo8IerJqOQNR",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

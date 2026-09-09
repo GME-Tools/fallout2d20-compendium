@@ -98,9 +98,9 @@ test("English and French choices hide only the opposite module navigation entrie
     for (const [choice, hidden] of [["en", "fr"], ["fr", "en"]]) {
       const directory = mockDirectory([
         { collection: "fallout2d20-compendium.en-skills" },
-        { collection: "fallout2d20-compendium.en-npcs" },
+        { collection: "fallout2d20-compendium.en-denizens" },
         { collection: "fallout2d20-compendium.fr-skills" },
-        { collection: "fallout2d20-compendium.fr-npcs" },
+        { collection: "fallout2d20-compendium.fr-denizens" },
         { collection: "another-module.fr-content", folder: "other" }
       ]);
       assert.equal(runtime.applyLanguageVisibility(directory, choice), 2);
@@ -123,12 +123,12 @@ test("Foundry directory variants support bare entry IDs, data-pack, and legacy h
     const runtime = await import(`${runtimeUrl.href}?foundry-dom-variants`);
     game.packs = [
       { collection: "fallout2d20-compendium.fr-skills" },
-      { collection: "fallout2d20-compendium.fr-npcs" }
+      { collection: "fallout2d20-compendium.fr-denizens" }
     ];
     const folder = { querySelector: () => null, remove() {} };
     const entries = [
       { dataset: { entryId: "fr-skills" }, closest: () => folder, remove() { this.removed = true; } },
-      { dataset: { pack: "fallout2d20-compendium.fr-npcs" }, closest: () => folder, remove() { this.removed = true; } },
+      { dataset: { pack: "fallout2d20-compendium.fr-denizens" }, closest: () => folder, remove() { this.removed = true; } },
       { dataset: { pack: "another-module.fr-content" }, closest: () => null, remove() { this.removed = true; } }
     ];
     const element = { querySelectorAll: () => entries };

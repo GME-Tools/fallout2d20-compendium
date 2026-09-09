@@ -1,0 +1,19 @@
+{
+  "_key": "!items!gezE6P44AYqRQvim",
+  "_file": "bol_de_nouilles__gezE6P44AYqRQvim.json",
+  "values": {
+    "/name": "Bol de nouilles",
+    "/system/description": "<p>Un simple bol de soupe de nouilles, modérément nourrissant et désaltérant, facile à préparer lorsque les ingrédients sont disponibles.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1]{Eau sale} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.KgKwCYEKl95sQQZN]{Blé surin} ×1</li></ul></section>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "gezE6P44AYqRQvim",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Eau sale",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Blé surin"
+  }
+}

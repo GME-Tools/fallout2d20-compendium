@@ -1,0 +1,14 @@
+{
+  "_key": "!items!zP8u8sVBiiSGbcTB",
+  "_file": "mutant_hound_chops__zP8u8sVBiiSGbcTB.json",
+  "values": {
+    "/name": "Mutant Hound Chops",
+    "/system/description": "<p><span class=\"fontstyle0\">A piece of mutant hound meat cooked to make it safer to eat. For reasons unknown, once cooked, the meat helps absorb radiation already in the body, lessening the effects of radiation poisoning. This effect doesn&rsquo;t compare to proper anti-radiation meds like RadAway, but it can be useful to have a few on hand to soak up the radiation you picked up during an excursion.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>1</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Dh09YQNclfQtitwT]{Mutant Hound Meat} ×1</li></ul></section>",
+    "/system/effect": "<p>Heals 2 Radiation damage</p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Mutant Hound Meat"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_key": "!items!hKGbIZhOnncmk7UT",
+  "_file": "chapeau_decontracte__hKGbIZhOnncmk7UT.json",
+  "values": {
+    "/name": "Chapeau décontracté",
+    "/system/description": "<p>Un chapeau simple et léger, doté d’une visière ou d’un bord protégeant les yeux du soleil. <strong>Spécial :</strong> son porteur ignore les augmentations de difficulté dues à une lumière extrêmement vive.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "hKGbIZhOnncmk7UT",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

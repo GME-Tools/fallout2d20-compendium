@@ -1,0 +1,14 @@
+{
+  "_key": "!items!fMU0zfQYyhkwZ6Ck",
+  "_file": "infirmier__fMU0zfQYyhkwZ6Ck.json",
+  "values": {
+    "/name": "Infirmier",
+    "/system/description": "<p>Rangs : 1 Prérequis : INT 8 Lorsque vous utilisez l’action mineure Porter secours pour essayer de soigner une blessure, vous pouvez relancer 1d20.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fMU0zfQYyhkwZ6Ck",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

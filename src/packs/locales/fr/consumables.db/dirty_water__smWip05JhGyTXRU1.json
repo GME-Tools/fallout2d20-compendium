@@ -1,0 +1,16 @@
+{
+  "_key": "!items!smWip05JhGyTXRU1",
+  "_file": "eau_sale__smWip05JhGyTXRU1.json",
+  "values": {
+    "/name": "Eau sale",
+    "/system/description": "<p>Eau puisée dans les rivières, lacs, piscines et autres sources non filtrées. Il vaut mieux la filtrer ou la faire bouillir : elle contient beaucoup de radiations, mais l’eau potable est parfois trop rare pour laisser le choix.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "smWip05JhGyTXRU1",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

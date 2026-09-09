@@ -1,0 +1,16 @@
+{
+  "_key": "!items!9wxUVAnr3YsD3Uol",
+  "_file": "mine_nucleaire__9wxUVAnr3YsD3Uol.json",
+  "values": {
+    "/system/description": "<p>Cette mine est une variante nucléaire de la mine terrestre. La mine nucléaire fonctionne exactement comme n’importe quelle autre mine, mais son explosion ressemble davantage à celle d’une mini-bombe nucléaire. Naturellement, cela signifie qu’elle inflige des dégâts à la fois à cause de l’explosion et à cause des radiations émises par la détonation.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9wxUVAnr3YsD3Uol",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Mine nucléaire"
+  }
+}

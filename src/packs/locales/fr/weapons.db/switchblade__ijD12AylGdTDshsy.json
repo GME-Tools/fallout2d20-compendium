@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ijD12AylGdTDshsy",
+  "_file": "cran_d_arret__ijD12AylGdTDshsy.json",
+  "values": {
+    "/system/description": "<p>Le cran d’arrêt est une arme de corps à corps très répandue. Grâce à sa petite taille, il est facile à transporter sous le manteau dans des zones où les armes sont interdites et facile à manier. Cependant, il n’inflige pas autant de dégâts que les couteaux plus massifs ou les lames. Les crans d’arrêt peuvent accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ijD12AylGdTDshsy",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Cran d’arrêt"
+  }
+}

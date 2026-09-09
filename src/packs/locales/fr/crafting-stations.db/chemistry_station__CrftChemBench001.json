@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftChemBench001",
+  "_file": "etabli_de_chimie__CrftChemBench001.json",
+  "values": {
+    "/name": "Établi de chimie",
+    "/system/description": "<p>Un établi de chimie fournit les outils nécessaires pour mélanger des produits chimiques afin de créer des drogues, des explosifs et des munitions pour pistolet à seringues. Son utilisation fait appel aux compétences Science et Explosifs et bénéficie des aptitudes Chimiste et Expert en démolition.</p>",
+    "/system/effect": "<p>Permet de créer des drogues, des explosifs et des munitions pour pistolet à seringues.</p>",
+    "/system/perks": "Chimiste, Expert en démolition",
+    "/system/skills": "Science, Explosifs",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!TsWbvZ5RsybpeN2y",
+  "_file": "mister_gutsy_plating__TsWbvZ5RsybpeN2y.json",
+  "values": {
+    "/name": "Mister Gutsy Plating",
+    "/system/carry": -10,
+    "/system/description": "<p>Like the standard plating, but with better thermal absorption properties to reinforce it against energy weaponry, this is the standard plating for a Mister Gutsy. It is the default for all Mister Handy characters who select the Mister Gutsy starting package.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

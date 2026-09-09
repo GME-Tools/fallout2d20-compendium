@@ -1,0 +1,16 @@
+{
+  "_key": "!items!mbkQ1d1IQjlSE6HG",
+  "_file": "solide_comme_bigfoot__mbkQ1d1IQjlSE6HG.json",
+  "values": {
+    "/name": "Solide comme Bigfoot",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Quand vous fouillez parmi des plantes, vous gagnez deux fois plus de Butin.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.5FSxhtSwphd72BS1]{Solide comme Bigfoot}</p></section>",
+    "/system/effect": "<p>Quand vous fouillez parmi des plantes, vous gagnez deux fois plus de Butin.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mbkQ1d1IQjlSE6HG",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

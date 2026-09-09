@@ -1,0 +1,16 @@
+{
+  "_key": "!items!iUh6c0EcJfZil9cZ",
+  "_file": "fusil_a_clous__iUh6c0EcJfZil9cZ.json",
+  "values": {
+    "/system/ammo": "Clou de rail",
+    "/system/description": "<p>Munitions: clous de rail Une arme artisanale créée par des ingénieurs entreprenants dans les Terres désolées. Le fusil à clous utilise de la vapeur à haute pression pour propulser des clous de rail à une vitesse suffisante pour transpercer et empaler une grande variété de cibles. Un fusil à clous peut accepter un mod de chaque type parmi les suivants:  Culasse: culasse automatique à piston  Canon: canon long  Crosse: crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette</p>",
+    "/system/weight": 7,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "iUh6c0EcJfZil9cZ",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Fusil à clous"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_key": "!items!HUmwhrS7v9g31nOG",
+  "_file": "chimie__HUmwhrS7v9g31nOG.json",
+  "values": {
+    "/name": "Chimie",
+    "/system/description": "<p>Rangs : 1 Prérequis : INT 7 La durée d’effet des drogues que vous créez est doublée (cf. page 164). De plus, vous débloquez les recettes qui nécessitent de posséder cette aptitude.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "HUmwhrS7v9g31nOG",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

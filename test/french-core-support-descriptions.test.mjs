@@ -18,14 +18,14 @@ for (const [pack, entries] of Object.entries(texts)) {
   test(`French ${pack} targeted descriptions are translated`, async () => {
     const english = new Map();
     const french = new Map();
-    for (const file of await readdir(`src/packs/en/${pack}.db`)) {
+    for (const file of await readdir(`generated/source-packs/en/${pack}.db`)) {
       if (!file.endsWith(".json")) continue;
-      const document = JSON.parse(await readFile(path.join(`src/packs/en/${pack}.db`, file), "utf8"));
+      const document = JSON.parse(await readFile(path.join(`generated/source-packs/en/${pack}.db`, file), "utf8"));
       english.set(document._id, document);
     }
-    for (const file of await readdir(`src/packs/fr/${pack}.db`)) {
+    for (const file of await readdir(`generated/source-packs/fr/${pack}.db`)) {
       if (!file.endsWith(".json")) continue;
-      const document = JSON.parse(await readFile(path.join(`src/packs/fr/${pack}.db`, file), "utf8"));
+      const document = JSON.parse(await readFile(path.join(`generated/source-packs/fr/${pack}.db`, file), "utf8"));
       french.set(document._id, document);
     }
     const matched = new Set();
@@ -45,14 +45,14 @@ for (const [pack, entries] of Object.entries(effects)) {
   test(`French ${pack} targeted effects are translated`, async () => {
     const english = new Map();
     const french = new Map();
-    for (const file of await readdir(`src/packs/en/${pack}.db`)) {
+    for (const file of await readdir(`generated/source-packs/en/${pack}.db`)) {
       if (!file.endsWith(".json")) continue;
-      const document = JSON.parse(await readFile(path.join(`src/packs/en/${pack}.db`, file), "utf8"));
+      const document = JSON.parse(await readFile(path.join(`generated/source-packs/en/${pack}.db`, file), "utf8"));
       english.set(document.name, document);
     }
-    for (const file of await readdir(`src/packs/fr/${pack}.db`)) {
+    for (const file of await readdir(`generated/source-packs/fr/${pack}.db`)) {
       if (!file.endsWith(".json")) continue;
-      const document = JSON.parse(await readFile(path.join(`src/packs/fr/${pack}.db`, file), "utf8"));
+      const document = JSON.parse(await readFile(path.join(`generated/source-packs/fr/${pack}.db`, file), "utf8"));
       french.set(document._id, document);
     }
     for (const [name, translation] of Object.entries(entries)) {

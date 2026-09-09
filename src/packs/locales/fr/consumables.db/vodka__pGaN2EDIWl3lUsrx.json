@@ -1,0 +1,15 @@
+{
+  "_key": "!items!pGaN2EDIWl3lUsrx",
+  "_file": "vodka__pGaN2EDIWl3lUsrx.json",
+  "values": {
+    "/system/description": "<p>Alcool distillé transparent produit à partir de seigle, blé, pommes de terre ou mélasse de betterave, généralement importé d’Union soviétique avant la Guerre.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "pGaN2EDIWl3lUsrx",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

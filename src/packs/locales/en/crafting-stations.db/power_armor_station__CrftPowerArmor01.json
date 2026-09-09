@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CrftPowerArmor01",
+  "_file": "power_armor_station__CrftPowerArmor01.json",
+  "values": {
+    "/name": "Power Armor Station",
+    "/system/description": "<p>A Power Armor station is a space for working with Power Armor. Crafting at this station uses the Repair and Science skills and benefits from the Armorer and Science! perks.</p>",
+    "/system/effect": "<p>Provides the space and tools needed to work on Power Armor.</p>",
+    "/system/perks": "Armorer, Science!",
+    "/system/skills": "Repair, Science",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!mHatIy0FNJtYZxtU",
+  "_file": "50_round__mHatIy0FNJtYZxtU.json",
+  "values": {
+    "/name": ".50 Round",
+    "/system/description": "<p><span class=\"fontstyle0\">Large, high-powered, high-performance rounds used only in the most powerful rifles. These rounds were normally used for heavy machine guns and anti-materiel rifles pre-War, so supplies of them tend to be scarce unless there&rsquo;s a military base nearby. A shot from one of these will make a mess of anything it hits, but you need to make every shot count.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 4+2dc # .50 Round]]</p>",
+    "/system/weight": 0.075,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

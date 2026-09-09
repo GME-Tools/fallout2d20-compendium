@@ -1,0 +1,11 @@
+{
+  "_key": "!items!9LAlQMlnpZ2lYqKV",
+  "_file": "les_robots_dirigeront_ils_le_monde__9LAlQMlnpZ2lYqKV.json",
+  "values": {
+    "/name": "Les robots dirigeront-ils le monde ?",
+    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts balistiques et énergétiques contre les Robots.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

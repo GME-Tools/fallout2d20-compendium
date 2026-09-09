@@ -1,0 +1,14 @@
+{
+  "_key": "!items!cCrLiQ8zNWW3LAC6",
+  "_file": "homme_femme_d_action__cCrLiQ8zNWW3LAC6.json",
+  "values": {
+    "/name": "Homme/Femme d’action",
+    "/system/description": "<p>Rangs : 1 Prérequis : aucun Lorsque vous dépensez des PA pour obtenir une action capitale supplémentaire, vous ne subissez pas d’augmentation de difficulté pour le test de compétence lié à cette action.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cCrLiQ8zNWW3LAC6",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

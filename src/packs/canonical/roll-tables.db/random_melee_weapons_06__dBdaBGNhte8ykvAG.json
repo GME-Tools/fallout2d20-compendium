@@ -1,0 +1,12 @@
+{
+  "_id": "dBdaBGNhte8ykvAG",
+  "_key": "!tables.results!IUjXwH5WZ4VeoO3q.dBdaBGNhte8ykvAG",
+  "type": "text",
+  "img": "icons/svg/d20-black.svg",
+  "weight": 1,
+  "range": [
+    7,
+    7
+  ],
+  "drawn": false
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!zZg9mSTuufYGzSib",
+  "_file": "la_lune_appareil_de_fin_du_monde_communiste__zZg9mSTuufYGzSib.json",
+  "values": {
+    "/name": "La Lune : appareil de fin du monde communiste ?!",
+    "/system/description": "<p>Gagnez +2 à votre résistance aux dégâts physiques ou énergétiques contre une attaque effectuée de nuit.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

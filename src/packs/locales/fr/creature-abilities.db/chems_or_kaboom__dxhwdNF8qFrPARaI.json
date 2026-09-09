@@ -1,0 +1,14 @@
+{
+  "_key": "!items!dxhwdNF8qFrPARaI",
+  "_file": "chems_or_kaboom__dxhwdNF8qFrPARaI.json",
+  "values": {
+    "/name": "PCP ou TNT",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "dxhwdNF8qFrPARaI",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Le pillard psychopathe transporte soit un @Compendium[fallout2d20-compendium.weapons.2QqNsOyxIyKG4rhC]{Cocktail Molotov}, soit une dose de @Compendium[fallout2d20-compendium.consumables.K0ZP86MJKMOWl4Ig]{Psycho}. Le premier de ces deux objets qu’il utilise détermine celui qu’il transporte ; il ne peut pas employer l’autre pendant ce combat.</p>"
+  }
+}

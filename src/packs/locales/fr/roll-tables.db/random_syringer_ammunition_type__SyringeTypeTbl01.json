@@ -1,0 +1,9 @@
+{
+  "_key": "!tables!SyringeTypeTbl01",
+  "_file": "type_de_munition_de_seringue_aleatoire__SyringeTypeTbl01.json",
+  "values": {
+    "/name": "Type de munition de seringue aléatoire",
+    "/description": "<p>Table utilitaire du projet : lancez une fois par lot de munitions de seringue trouvé pour déterminer le type de seringue du Livre de base.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr"
+  }
+}

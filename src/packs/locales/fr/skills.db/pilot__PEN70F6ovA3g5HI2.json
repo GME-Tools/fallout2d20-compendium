@@ -1,0 +1,13 @@
+{
+  "_key": "!items!PEN70F6ovA3g5HI2",
+  "_file": "pilotage__PEN70F6ovA3g5HI2.json",
+  "values": {
+    "/name": "Pilotage",
+    "/system/description": "<p>Pilotage repr&eacute;sente toutes vos capacit&eacute;s de conduite de v&eacute;hicules divers&nbsp;et vari&eacute;s, des buggies aux motos, en&nbsp;passant par les vertipt&egrave;res et les&nbsp;tanks.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut&nbsp;est la <strong>Perception</strong>, mais vous pouvez utiliser Force pour retenir un&nbsp;buggy lorsqu&rsquo;il d&eacute;rape, ou Agilit&eacute;&nbsp;pour poser un vertipt&egrave;re sur une zone &eacute;troite. Employez&nbsp;Pilotage pour conduire un v&eacute;hicule terrestre ou piloter&nbsp;un v&eacute;hicule a&eacute;rien.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PEN70F6ovA3g5HI2",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

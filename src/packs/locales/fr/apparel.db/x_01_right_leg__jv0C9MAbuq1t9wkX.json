@@ -1,0 +1,30 @@
+{
+  "_key": "!items!jv0C9MAbuq1t9wkX",
+  "_file": "jambe_droite_d_armure_assistee_x_01__jv0C9MAbuq1t9wkX.json",
+  "values": {
+    "/name": "Jambe droite d’armure assistée X-01",
+    "/system/description": "<p>Encore au stade de prototype lorsque les bombes tombèrent, la X-01 fut achevée après la Guerre par des vestiges de l’armée américaine. Supérieure aux modèles précédents mais jamais produite en masse, elle est extrêmement rare. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Elle accepte les systèmes normaux et tous les plaquages sauf le Revêtement hivernal. Améliorations propres : Mk II à Mk VI. Plaquage propre : Blindage IEM.</p>",
+    "/system/mods/143I7SjRcQBq9sht/system/weight": 0.5,
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/JpGZrBzUJTLieuRJ/system/weight": 0.5,
+    "/system/mods/LQGTYf4MpGnQ8bi7/system/weight": 1,
+    "/system/mods/RrhtyBPhjtENsF6w/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/YsLy9bVbtP056YN7/system/weight": 1,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/nrkgX6ccemqUDUb1/system/weight": 1.5,
+    "/system/mods/pZ2FIyhKvuL7EPT0/system/weight": 0.5,
+    "/system/mods/suU2pnzcO5KYUF9N/system/weight": 0.5,
+    "/system/mods/zt3R2qkvtmgV3WLH/system/weight": 2,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jv0C9MAbuq1t9wkX",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

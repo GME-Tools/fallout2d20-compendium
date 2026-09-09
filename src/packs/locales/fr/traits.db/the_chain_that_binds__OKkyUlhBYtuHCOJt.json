@@ -1,0 +1,13 @@
+{
+  "_key": "!items!OKkyUlhBYtuHCOJt",
+  "_file": "la_chaine_de_cohesion__OKkyUlhBYtuHCOJt.json",
+  "values": {
+    "/name": "La Chaîne de Cohésion",
+    "/system/description": "<p>Vous obtenez un atout personnel supplémentaire qui doit être, au choix : Armes à énergie, Science ou Réparation. Cet atout personnel débute au rang 2.</p><p>En tant que membre de la Confrérie de l’Acier, vous êtes tenu de respecter la chaîne de commandement : la Chaîne de Cohésion. Vous devez suivre les ordres de vos supérieurs directs et vous êtes responsable de vos subordonnés. Si vous n’accomplissez pas votre devoir, vous êtes renvoyé de la Confrérie et votre matériel technologique est récupé… par tous les moyens nécessaires.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "OKkyUlhBYtuHCOJt",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

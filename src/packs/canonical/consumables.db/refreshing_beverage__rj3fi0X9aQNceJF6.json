@@ -1,0 +1,80 @@
+{
+  "_id": "rj3fi0X9aQNceJF6",
+  "_key": "!items!rj3fi0X9aQNceJF6",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Refreshing Beverage.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableType": "beverage",
+    "cost": 110,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 11,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 5,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 5,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Rare Materials",
+            "quantity": 3,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Blood Pack",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL"
+          },
+          {
+            "canonicalName": "Purified Water",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h"
+          },
+          {
+            "name": "RadAway",
+            "canonicalName": "RadAway",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.vDzTAi2iRrZ5XTcc"
+          },
+          {
+            "name": "Stimpak",
+            "canonicalName": "Stimpak",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.860ofdvpufUzSqE7"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "beverages"
+}

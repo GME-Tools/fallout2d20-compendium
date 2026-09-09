@@ -1,0 +1,21 @@
+{
+  "_key": "!items!Th2rOMBm5trq0s4h",
+  "_file": "roti_de_yao_guai__Th2rOMBm5trq0s4h.json",
+  "values": {
+    "/name": "Rôti de yao guai",
+    "/system/description": "<p>Une pièce de yao guai rôtie avec carotte et tato. Très nourrissante, elle aiguise temporairement l’instinct meurtrier et la capacité à infliger des dégâts.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.8Fv9dZQm5Dax1INF]{Carotte} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.4Z3zGSnBGJcgR5c2]{Pomate} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.9vI0sFShvxahqMSW]{Viande de yao guai} ×1</li></ul></section>",
+    "/system/effect": "<p>Vos attaques de corps à corps infligent +2 @fos[DC] de dégâts jusqu’à la fin de la scène suivante.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Th2rOMBm5trq0s4h",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Carotte",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Pomate",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Viande de yao guai"
+  }
+}

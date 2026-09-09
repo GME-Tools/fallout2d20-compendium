@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Pdmfy50DEM5oB9js",
+  "_file": "demonte_pneu__Pdmfy50DEM5oB9js.json",
+  "values": {
+    "/system/description": "<p>Un outil simple en forme de L souvent présent dans les voitures et les garages; les démonte-pneus sont des armes bien pratiques quand ils ne servent pas à changer les pneus d’une voiture. Un démonte-pneu peut accepter le mod suivant, lequel s’installe avec la compétence Réparation:</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Pdmfy50DEM5oB9js",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Démonte-pneu"
+  }
+}

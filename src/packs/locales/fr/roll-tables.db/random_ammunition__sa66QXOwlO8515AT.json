@@ -1,0 +1,9 @@
+{
+  "_key": "!tables!sa66QXOwlO8515AT",
+  "_file": "munitions_aleatoires__sa66QXOwlO8515AT.json",
+  "values": {
+    "/name": "Munitions aléatoires",
+    "/description": "<p>Table du Livre de base, p. 200.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Xq6k6PuQQbneO6w0",
+  "_file": "tuyau_de_plomb__Xq6k6PuQQbneO6w0.json",
+  "values": {
+    "/system/description": "<p>Un tronçon de lourd tuyau de métal (généralement du plomb), avec une poignée enveloppée dans du scotch adhésif à une extrémité et quelques écrous et boulons fixés à l’autre. Rudimentaire, simple et très douloureux pour l’adversaire. Un tuyau de plomb peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 1.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Xq6k6PuQQbneO6w0",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Tuyau de plomb"
+  }
+}

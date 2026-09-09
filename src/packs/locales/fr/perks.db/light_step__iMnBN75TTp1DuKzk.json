@@ -1,0 +1,14 @@
+{
+  "_key": "!items!iMnBN75TTp1DuKzk",
+  "_file": "pied_leger__iMnBN75TTp1DuKzk.json",
+  "values": {
+    "/name": "Pied léger",
+    "/system/description": "<p>Rangs : 1 Prérequis : aucun Lorsque vous obtenez un résultat qui génère une complication sur vos tests de compétence basés sur l’Agilité, vous pouvez ignorer une complication par PA dépensé. De plus, vous pouvez relancer 1d20 lors de tout test d’Agi + Athlétisme destiné à éviter les pièges déclenchés par plaque de pression ou tout autre mécanisme similaire.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "iMnBN75TTp1DuKzk",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

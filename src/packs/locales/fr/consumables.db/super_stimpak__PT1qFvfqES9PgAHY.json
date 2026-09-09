@@ -1,0 +1,16 @@
+{
+  "_key": "!items!PT1qFvfqES9PgAHY",
+  "_file": "super_stimpak__PT1qFvfqES9PgAHY.json",
+  "values": {
+    "/system/description": "<p>Version améliorée du Stimpak dotée d’un flacon supplémentaire et d’une sangle maintenant l’aiguille au bras, son cocktail plus puissant soigne bien davantage. <strong>Utilisation :</strong> par l’action mineure Prendre une drogue, il soigne immédiatement 8 Santé ou jusqu’à deux Blessures ; pendant une action de Premiers secours, il soigne 8 Santé ou jusqu’à deux Blessures en plus des autres soins.</p>",
+    "/system/effect": "<p>Soigne 8 PV (voir description).</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PT1qFvfqES9PgAHY",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

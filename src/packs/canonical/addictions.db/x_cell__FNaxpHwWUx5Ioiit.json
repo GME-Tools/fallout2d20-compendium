@@ -1,0 +1,24 @@
+{
+  "_id": "FNaxpHwWUx5Ioiit",
+  "_key": "!items!FNaxpHwWUx5Ioiit",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/X-Cell.webp",
+  "name": "X-Cell",
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook"
+  },
+  "type": "addiction",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "associated consumable"
+      }
+    }
+  }
+}

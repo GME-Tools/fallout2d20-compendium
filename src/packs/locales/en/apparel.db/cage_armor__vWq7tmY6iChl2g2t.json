@@ -1,0 +1,12 @@
+{
+  "_key": "!items!vWq7tmY6iChl2g2t",
+  "_file": "cage_armor__vWq7tmY6iChl2g2t.json",
+  "values": {
+    "/name": "Cage Armor",
+    "/system/description": "<p><span class=\"fontstyle0\">Heavy leather clothing, reinforced with rags, metal plates, chains, and bars. Like spike armor (p.128), the metalwork creates a rough cage of rebar around the head and torso, providing extra protection. Normally worn with a hood and helmet.</span> </p>",
+    "/system/weight": 33,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

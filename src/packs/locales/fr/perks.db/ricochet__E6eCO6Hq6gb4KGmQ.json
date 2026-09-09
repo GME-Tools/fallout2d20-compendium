@@ -1,0 +1,13 @@
+{
+  "_key": "!items!E6eCO6Hq6gb4KGmQ",
+  "_file": "ricochet__E6eCO6Hq6gb4KGmQ.json",
+  "values": {
+    "/system/description": "<p>Rangs : 1 Prérequis : CHA 10, niveau 5+ Si un ennemi obtient une complication lorsqu’il vous prend pour cible d’une attaque à distance, vous pouvez dépenser 1 point de chance pour que son ricochet le touche. Résolvez les dégâts contre votre assaillant.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "E6eCO6Hq6gb4KGmQ",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

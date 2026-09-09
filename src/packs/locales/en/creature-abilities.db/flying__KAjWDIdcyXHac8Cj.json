@@ -1,0 +1,9 @@
+{
+  "_key": "!items!KAjWDIdcyXHac8Cj",
+  "_file": "flying__KAjWDIdcyXHac8Cj.json",
+  "values": {
+    "/name": "Flying",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] can move freely through the air. They ignore most ground-level obstacles and difficult terrain effects, and they can move through &ldquo;empty&rdquo; zones above the battlefield if desired. It must spend at least one minor action each turn moving, and if it is knocked prone it falls to the ground, suffering 3 </span><span class=\"fontstyle2\">CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">Stun physical damage, +2 </span><span class=\"fontstyle2\">CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">for each zone above ground level it was before it fell.</span></p>"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_key": "!actors!hzQQw0YHJ82V2ujV",
+  "_file": "luminescent__hzQQw0YHJ82V2ujV.json",
+  "values": {
+    "/items/1/system/weight": 0,
+    "/items/1/name": "Mains nues",
+    "/items/6/$overrides/~1system~1effect": "<p>Le corps d’un luminescent mort contient 2 DC objets de bric-à-brac, récupérables normalement.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "hzQQw0YHJ82V2ujV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Humain Mutant, Créature Normale",
+    "/system/biography": "<p>Ces goules vertes et brillantes résultent d’un excès de radiations chez une goule sauvage ou un humain prédisposé à la goulification: la goule sauvage créée devient un conduit pour les rayons. Elle luit d’un vert profond et émet des radiations extrêmes, y compris après sa mort. Elle peut même projeter ses rayons en un nuage toxique, lequel peut soigner les autres goules et infliger de lourds dégâts de radiation aux autres créatures.</p>",
+    "/name": "Luminescent"
+  }
+}

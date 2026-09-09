@@ -1,0 +1,15 @@
+{
+  "_key": "!items!1Mku27VQTcwBCwOF",
+  "_file": "cartouche_10_mm__1Mku27VQTcwBCwOF.json",
+  "values": {
+    "/name": "Cartouche 10 mm",
+    "/system/description": "<p>L’un des types de cartouches de pistolet les plus courants dans les Terres désolées, fabriqué en grandes quantités avant la Grande Guerre pour accompagner le grand nombre de pistolets 10 mm produits comme armes de poing pour les soldats et comme armes de défense personnelle pour les civils.</p>",
+    "/system/weight": 0.0125,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1Mku27VQTcwBCwOF",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

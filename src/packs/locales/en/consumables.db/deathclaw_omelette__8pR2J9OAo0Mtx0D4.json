@@ -1,0 +1,15 @@
+{
+  "_key": "!items!8pR2J9OAo0Mtx0D4",
+  "_file": "deathclaw_omelette__8pR2J9OAo0Mtx0D4.json",
+  "values": {
+    "/name": "Deathclaw Omelette",
+    "/system/description": "<p><span class=\"fontstyle0\">An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body, allowing a person to recover more quickly from harm for a while after eating.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>2</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL]{Blood Pack} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.wvr60yBKV9FfAMOv]{Deathclaw Egg} ×1</li></ul></section>",
+    "/system/effect": "<p>If next scene is combat, regain 1HP at the start of each turn</p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Blood Pack",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Deathclaw Egg"
+  }
+}

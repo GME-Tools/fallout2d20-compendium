@@ -1,0 +1,19 @@
+{
+  "_key": "!items!HdcX4nu2ZKYDf9hG",
+  "_file": "jetpack__HdcX4nu2ZKYDf9hG.json",
+  "values": {
+    "/system/description": "<p>Cette modification s’installe avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>7</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 4, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 4</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×8</li><li>Matériaux peu fréquents ×6</li><li>Matériaux rares ×4</li></ul></section>",
+    "/system/effect": "<p>Lorsque vous vous déplacez, vous pouvez dépenser 1 charge pour activer le jetpack : déplacez-vous d’une zone supplémentaire, horizontalement ou verticalement, ou prenez assez de hauteur pour effectuer un atterrissage percutant.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "HdcX4nu2ZKYDf9hG",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armurier 4",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Scientifique 4"
+  }
+}

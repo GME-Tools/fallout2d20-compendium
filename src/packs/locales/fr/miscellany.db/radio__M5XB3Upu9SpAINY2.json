@@ -1,0 +1,15 @@
+{
+  "_key": "!items!M5XB3Upu9SpAINY2",
+  "_file": "radio__M5XB3Upu9SpAINY2.json",
+  "values": {
+    "/system/description": "<p>Cet appareil reçoit des signaux radio et les transforme en sons intelligibles. Employée avant comme après la Guerre pour le divertissement et les messages d’urgence, une radio reste tributaire du signal reçu. La plupart des régions possèdent quelques stations diffusant de vieilles musiques, et diverses factions utilisent les tours encore debout pour communiquer à longue distance, mais la portée de ces signaux demeure limitée.</p>",
+    "/system/effect": "<p>Capte et diffuse les transmissions radio.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "M5XB3Upu9SpAINY2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

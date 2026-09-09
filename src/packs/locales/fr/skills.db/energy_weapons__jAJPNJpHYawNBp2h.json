@@ -1,0 +1,13 @@
+{
+  "_key": "!items!jAJPNJpHYawNBp2h",
+  "_file": "armes_a_energie__jAJPNJpHYawNBp2h.json",
+  "values": {
+    "/name": "Armes à énergie",
+    "/system/description": "<p>Armes &agrave; &eacute;nergie est la comp&eacute;tence que vous utilisez quand vous maniez une arme &agrave; &eacute;nergie, telle qu&rsquo;un pistolet laser, un pistolet &agrave; plasma ou toute autre arme l&eacute;g&egrave;re qui tire un trait d&rsquo;&eacute;nergie.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est la <strong>Perception</strong>, mais vous pouvez utiliser Intelligence si vous essayez de modifier ou r&eacute;parer votre arme, ou Agilit&eacute; si vous tentez de d&eacute;samorcer un pi&egrave;ge impliquant une arme &agrave; &eacute;nergie. Employez Armes &agrave; &eacute;nergie pour manier un pistolet laser, un fusil plasma, un &eacute;metteur micro-ondes ou un mousquet laser.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jAJPNJpHYawNBp2h",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

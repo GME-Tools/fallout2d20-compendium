@@ -1,0 +1,14 @@
+{
+  "_key": "!items!CKolMtDxOzC8QdSD",
+  "_file": "board__CKolMtDxOzC8QdSD.json",
+  "values": {
+    "/system/mods/49zfOfotginM01u8/$overrides/~1system~1perks": "Blacksmith 1",
+    "/system/mods/49zfOfotginM01u8/$overrides/~1system~1weight": 1,
+    "/system/description": "<p><span class=\"fontstyle0\">Little more than a long plank of wood with a handle wrapped in duct tape. Boards are heavy melee weapons, normally favored by super mutants who have the strength to wield them effectively.</span></p>\n<p><span class=\"fontstyle0\">A board can accept one of the following mods which are&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span> </p>\n<ul>\n<li><strong>Board:&nbsp;</strong>Spiked, Puncturing, Bladed</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 3,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Board"
+  }
+}

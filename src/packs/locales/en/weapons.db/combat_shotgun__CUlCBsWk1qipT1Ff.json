@@ -1,0 +1,13 @@
+{
+  "_key": "!items!CUlCBsWk1qipT1Ff",
+  "_file": "combat_shotgun__CUlCBsWk1qipT1Ff.json",
+  "values": {
+    "/system/ammo": "Shotgun Shell",
+    "/system/description": "<p><span class=\"fontstyle0\">Combat shotguns are shotguns intended for an offensive role, typically by a military force; they&rsquo;re ideal for close-range fighting in tunnels, within buildings, or through the ruined streets of old cities.</span></p>\n<p><span class=\"fontstyle0\">A Combat Shotgun can accept one each of the following mods:</span></p>\n<ul>\n<li><strong>Receiver:</strong> Calibrated, Hardened, Automatic, Hair Trigger, Powerful, Advanced</li>\n<li><strong>Barrel:</strong> Long Barrel, Ported Barrel</li>\n<li><strong>Stock:</strong> Full Stock, Marksman&rsquo;s Stock, RecoilCompensating Stock</li>\n<li><strong>Magazine:</strong> Large Magazine, Quick-Eject Magazine, Large Quick-Eject Magazine</li>\n<li><strong>Sights:</strong> Reflex Sight, Short Scope, Long Scope, Short Night Vision Scope, Long Night Vision Scope, Recon Scope</li>\n<li><strong>Muzzle:</strong> Bayonet, Compensator, Muzzle Brake, Suppressor</li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 11,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Combat Shotgun"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_key": "!items!E6eCO6Hq6gb4KGmQ",
+  "_file": "ricochet__E6eCO6Hq6gb4KGmQ.json",
+  "values": {
+    "/system/description": "<p>If an enemy makes a ranged attack against you and rolls a complication, you may spend one Luck point to have their ricochet hit them. Resolve the damage roll against the attacking enemy instead.</p>\n<p><strong>Requirements</strong>: LCK 10, Level 5+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

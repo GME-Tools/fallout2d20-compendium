@@ -1,0 +1,14 @@
+{
+  "_key": "!items!FLW7Fx5HVaIxuekh",
+  "_file": "ho_hisse__FLW7Fx5HVaIxuekh.json",
+  "values": {
+    "/name": "Ho-hisse !",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 8 Lorsque vous effectuez une attaque à distance avec un projectile, vous pouvez dépenser 1 PA pour augmenter d’un niveau la portée de l’arme : de courte à moyenne ou de moyenne à longue.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "FLW7Fx5HVaIxuekh",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

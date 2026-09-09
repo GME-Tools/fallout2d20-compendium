@@ -1,0 +1,16 @@
+{
+  "_key": "!items!4lu6hamyxERQzWNa",
+  "_file": "les_epingles_a_cheveux_plus_efficaces_que_les_outils_de_crochetage__4lu6hamyxERQzWNa.json",
+  "values": {
+    "/name": "Les épingles à cheveux : plus efficaces que les outils de crochetage ?",
+    "/system/description": "<p>Un magazine d’avant-guerre consacré à l’art clandestin du crochetage et aux dernières avancées des serrures mécaniques.</p><p><strong>Aptitude :</strong> Quand vous utilisez une épingle à cheveux, réduisez de 2 au lieu de 1 la difficulté d’un test de Crochetage, jusqu’à un minimum de 0.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.Q6MhXT1qvcpX6fxU]{Les épingles à cheveux : plus efficaces que les outils de crochetage ?}</p></section>",
+    "/system/effect": "<p>Quand vous utilisez une épingle à cheveux, réduisez de 2 au lieu de 1 la difficulté d’un test de Crochetage, jusqu’à un minimum de 0.</p>",
+    "/system/publication": "Gorges et pênes",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4lu6hamyxERQzWNa",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

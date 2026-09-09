@@ -1,0 +1,9 @@
+{
+  "_key": "!items!huozSPs5AqBrVQfH",
+  "_file": "burrow__huozSPs5AqBrVQfH.json",
+  "values": {
+    "/name": "Burrow",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">As a major action, the [creature] may burrow underground to get away from its enemies and prepare for its next attack. On its next turn it can use its minor action to appear above ground anywhere within medium range of the place it burrowed. For the cost of 1 AP it may also add an extra CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">to its bite attack after emerging.</span></p>"
+  }
+}

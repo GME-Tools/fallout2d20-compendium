@@ -1,0 +1,14 @@
+{
+  "_key": "!items!6fMsSknNN0qAToKw",
+  "_file": "well_equipped__6fMsSknNN0qAToKw.json",
+  "values": {
+    "/name": "Bien équipé",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "6fMsSknNN0qAToKw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Deux fois par combat, ce personnage peut ajouter la Cadence 2 de son fusil laser à canon long aux dégâts d’une attaque.</p>"
+  }
+}

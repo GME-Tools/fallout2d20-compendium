@@ -1,0 +1,13 @@
+{
+  "_key": "!items!u9KyfdRIzyQhCjnn",
+  "_file": "whiskey__u9KyfdRIzyQhCjnn.json",
+  "values": {
+    "/name": "Whiskey",
+    "/system/description": "<p><span class=\"fontstyle0\">A triple-distilled alcoholic beverage made using grain mash. Pre-War versions were created across the United States and beyond. Some wasteland distilleries exist producing post-War versions using corn and razorgrain.</span> </p>",
+    "/system/effect": "<p>Reroll up to two d20 on STR tests (in total)</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

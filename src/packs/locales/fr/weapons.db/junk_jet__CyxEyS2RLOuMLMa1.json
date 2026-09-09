@@ -1,0 +1,15 @@
+{
+  "_key": "!items!CyxEyS2RLOuMLMa1",
+  "_file": "junk_jet__CyxEyS2RLOuMLMa1.json",
+  "values": {
+    "/system/description": "<p>Munitions: n’importe lesquelles Le Junk Jet est une arme lourde artisanale qui peut littéralement tirer n’importe quoi. Tout objet chargé dans le réservoir de l’arme est propulsé avec une force dévastatrice par le canon du Junk Jet. Naturellement, cela le rend très utile dans les situations où vous disposez de beaucoup de babioles inutiles, mais de peu de véritables munitions. Spécial: quand vous tirez avec le Junk Jet, choisissez un objet que vous transportez actuellement sur vous; cet objet est tiré par l’arme. Choisissez un objet supplémentaire pour chaque tir de munitions supplémentaire dépensé par l’attaque. Les objets doivent être assez petits pour être tenus dans une main et chargés dans le réservoir. À la fin de la scène, vous pouvez lancer 1 par objet tiré avec le Junk Jet; si vous obtenez un Effet, l’objet a survécu à l’attaque et peut être récupéré. Un Junk Jet peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au Junk Jet et s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 15,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CyxEyS2RLOuMLMa1",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true
+  }
+}

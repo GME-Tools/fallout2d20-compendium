@@ -1,0 +1,12 @@
+{
+  "_key": "!items!J6X12IWC3TuYbb64",
+  "_file": "diagnosis_mod__J6X12IWC3TuYbb64.json",
+  "values": {
+    "/name": "Diagnosis Mod",
+    "/system/description": "<p>Designed to allow Mister Handy robots to be repurposed as nurses and field medics during a crisis, the diagnosis module allows the robot to discern the nature of injuries and illnesses on a patient and devise the correct treatment quickly. Proper bedside manner, however, was not included in the module.</p>",
+    "/system/effect": "<p>Reduce the difficulty of Medicine tests by 1 (min. 0)</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

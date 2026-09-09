@@ -1,0 +1,16 @@
+{
+  "_key": "!items!jhYtRwmXiTvaMuvY",
+  "_file": "ultra_jet__jhYtRwmXiTvaMuvY.json",
+  "values": {
+    "/system/description": "<p>An extremely concentrated form of Jet, it is significantly more potent, and affects Ghouls as easily as it does humans due to its potency.</p>\n<p><strong>Ultra Jet Addiction:</strong> A failed addiction roll renders you addicted to Ultra Jet. You increase the difficulty of all AGI tests by +1, and you generate one fewer AP whenever you succeed at a skill test (minimum 0) whenever you are not under the effects of Ultra Jet. This addiction is permanent and cannot be cured by any known means.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Chemistry Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.HUmwhrS7v9g31nOG]{Chemist}</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN]{Bloodleaf} ×1</li><li>Uncommon Materials ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc]{Jet} ×1</li><li>Common Materials ×2</li></ul></section>",
+    "/system/effect": "<p>Gain 6 AP immediately (lost if not spent), Extra actions cost 1 less AP</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Chemist",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Bloodleaf",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Common Materials"
+  }
+}

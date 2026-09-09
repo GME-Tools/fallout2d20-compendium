@@ -1,0 +1,15 @@
+{
+  "_key": "!items!gpthlPtWrerYP7Kn",
+  "_file": "mini_bombe_nucleaire__gpthlPtWrerYP7Kn.json",
+  "values": {
+    "/name": "Mini-bombe nucléaire",
+    "/system/description": "<p>Une petite ogive nucléaire tactique de la taille d’un ballon de football américain conçue pour être propulsée à une distance suffisante du tireur par un lance-obus. Les mini-bombes nucléaires sont extrêmement rares et présentes en petite quantité seulement. L’aptitude Farfouilleur ne permet pas d’augmenter le nombre de mini-bombes nucléaires trouvées.</p>",
+    "/system/weight": 6,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "gpthlPtWrerYP7Kn",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

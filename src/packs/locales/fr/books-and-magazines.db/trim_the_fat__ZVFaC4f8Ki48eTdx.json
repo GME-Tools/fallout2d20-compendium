@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ZVFaC4f8Ki48eTdx",
+  "_file": "en_finir_avec_le_gras__ZVFaC4f8Ki48eTdx.json",
+  "values": {
+    "/name": "En finir avec le gras !",
+    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Vous récupérez deux fois plus de PV en mangeant des fruits ou des légumes pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.siFrRn6TjSmxGKas]{En finir avec le gras !}</p></section>",
+    "/system/effect": "<p>Vous récupérez deux fois plus de PV en mangeant des fruits ou des légumes pendant une scène.</p>",
+    "/system/publication": "Vie et amour",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZVFaC4f8Ki48eTdx",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

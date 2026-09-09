@@ -1,0 +1,14 @@
+{
+  "_key": "!items!gbPgHoavxEEaYC4j",
+  "_file": "rage_de_nerd__gbPgHoavxEEaYC4j.json",
+  "values": {
+    "/name": "Rage de nerd !",
+    "/system/description": "<p>Rangs : 3 Prérequis : INT 8, niveau 2+ Lorsque vous disposez de moins de ¼ de vos PV maximaux, ajoutez +1 à votre RD balistiques, +1 à votre RD énergétiques et +1 @fos[DC] aux dégâts de toutes vos attaques. Au rang 2, ces bonus sont portés à +2 RD et +2 @fos[DC]. Au rang 3, ils sont portés à +3 RD et +3 @fos[DC]. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "gbPgHoavxEEaYC4j",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!yGiPeDsETWQBjCdT",
+  "_file": "railway_spike__yGiPeDsETWQBjCdT.json",
+  "values": {
+    "/name": "Railway Spike",
+    "/system/description": "<p><span class=\"fontstyle0\">Iron spikes designed for fastening railway tracks in place. Not as easy to find as you might think, given their mundane origins.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 6+3dc # Railway Spike]]</p>",
+    "/system/weight": 0.2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

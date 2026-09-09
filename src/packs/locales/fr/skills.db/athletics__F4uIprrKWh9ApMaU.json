@@ -1,0 +1,13 @@
+{
+  "_key": "!items!F4uIprrKWh9ApMaU",
+  "_file": "athletisme__F4uIprrKWh9ApMaU.json",
+  "values": {
+    "/name": "Athlétisme",
+    "/system/description": "<p>Athl&eacute;tisme d&eacute;termine votre&nbsp;capacit&eacute; &agrave; mettre en application votre force et votre agilit&eacute;, &agrave; conna&icirc;tre vos limites&nbsp;et &agrave; vous concentrer durant&nbsp;un effort physique.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est la <strong>Force</strong>, mais&nbsp;vous pouvez utiliser Agilit&eacute;, ou Endurance lorsque vous&nbsp;faites face &agrave; une adversit&eacute; physique. Employez Athl&eacute;tisme&nbsp;pour pousser, tirer ou soulever un objet, pour sauter,&nbsp;escalader, nager ou courir.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "F4uIprrKWh9ApMaU",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

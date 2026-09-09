@@ -1,0 +1,14 @@
+{
+  "_key": "!items!RhITTHDy13MufCZy",
+  "_file": "pisteur__RhITTHDy13MufCZy.json",
+  "values": {
+    "/name": "Pisteur",
+    "/system/description": "<p>Rangs : 1 Prérequis : PER 6, END 6 Lorsque vous voyagez sur de longues distances dans la nature, un test réussi de PER + Survie (dont la difficulté est déterminée par le MJ en fonction du terrain) vous permet de diviser par deux le temps de trajet.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "RhITTHDy13MufCZy",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

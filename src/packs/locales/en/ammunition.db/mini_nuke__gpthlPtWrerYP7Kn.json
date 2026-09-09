@@ -1,0 +1,12 @@
+{
+  "_key": "!items!gpthlPtWrerYP7Kn",
+  "_file": "mini_nuke__gpthlPtWrerYP7Kn.json",
+  "values": {
+    "/name": "Mini-Nuke",
+    "/system/description": "<p><span class=\"fontstyle0\">A small, football-sized tactical nuclear warhead designed to be hurled by a launcher to a safe distance. Mini-Nukes are extremely rare and found only in small quantities.</span></p>\n<p><span class=\"fontstyle0\">The Scavenger perk cannot increase the number of Mini-Nukes found.</span></p>\n<p><strong>Quantity Found:</strong> [[/r 1+1dc # Mini-Nuke]]</p>",
+    "/system/weight": 12,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

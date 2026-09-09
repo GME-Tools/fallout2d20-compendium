@@ -1,0 +1,16 @@
+{
+  "_key": "!items!8Fv9dZQm5Dax1INF",
+  "_file": "carotte__8Fv9dZQm5Dax1INF.json",
+  "values": {
+    "/name": "Carotte",
+    "/system/description": "<p>Version légèrement mutée de la racine orange commune, facile à cultiver et utile à diverses recettes. Les carottes issues d’un environnement non irradié, comme un Abri, ne sont pas irradiées mais leur rareté augmente de +1.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8Fv9dZQm5Dax1INF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

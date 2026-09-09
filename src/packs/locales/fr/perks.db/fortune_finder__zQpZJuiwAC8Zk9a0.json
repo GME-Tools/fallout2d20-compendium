@@ -1,0 +1,14 @@
+{
+  "_key": "!items!zQpZJuiwAC8Zk9a0",
+  "_file": "denicheur_de_tresors__zQpZJuiwAC8Zk9a0.json",
+  "values": {
+    "/name": "Dénicheur de trésors",
+    "/system/description": "<p>Rangs : 3 Prérequis : CHA 5, niveau 2+ Chaque fois que vous lancez les dés pour savoir combien d’argent vous trouvez, vous en trouvez plus. Au rang 1, vous trouvez +3 @fos[DC] supplémentaires de capsules. Au rang 2, vous trouvez +6 @fos[DC] supplémentaires de capsules. Enfin, au rang 3, vous trouvez +10 @fos[DC] supplémentaires de capsules. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zQpZJuiwAC8Zk9a0",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

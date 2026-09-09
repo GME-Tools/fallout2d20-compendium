@@ -1,23 +1,24 @@
 {
   "name": "fallout2d20-compendium",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "type": "module",
   "engines": {
     "node": ">=20 <24"
   },
   "scripts": {
-    "audit": "node scripts/audit-content.mjs",
-    "audit:weights": "node scripts/audit-french-weights.mjs",
+    "source:materialize": "node scripts/materialize-source-views.mjs",
+    "audit": "npm run source:materialize --silent && node scripts/audit-content.mjs",
+    "audit:weights": "npm run source:materialize --silent && node scripts/audit-french-weights.mjs",
     "artwork:check": "node scripts/normalize-artwork.mjs --check",
-    "artwork:inventory": "node scripts/generate-artwork-inventory.mjs",
-    "artwork:inventory:check": "node scripts/generate-artwork-inventory.mjs --check",
-    "build": "node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs",
+    "artwork:inventory": "npm run source:materialize --silent && node scripts/generate-artwork-inventory.mjs",
+    "artwork:inventory:check": "npm run source:materialize --silent && node scripts/generate-artwork-inventory.mjs --check",
+    "build": "npm run source:materialize --silent && node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs",
     "clean": "node scripts/clean.mjs",
     "package": "node scripts/package-release.mjs",
-    "test": "node --test test/*.test.mjs",
-    "validate": "node scripts/validate.mjs",
-    "ci": "npm run artwork:check && npm run artwork:inventory:check && npm run audit && npm run audit:weights && npm run validate && npm test && npm run build && node scripts/verify-built-packs.mjs && npm run package && node scripts/verify-release-package.mjs"
+    "test": "npm run source:materialize --silent && node --test test/*.test.mjs",
+    "validate": "npm run source:materialize --silent && node scripts/validate.mjs",
+    "ci": "npm run source:materialize --silent && npm run artwork:check && node scripts/generate-artwork-inventory.mjs --check && node scripts/audit-content.mjs && node scripts/audit-french-weights.mjs && node scripts/validate.mjs && node --test test/*.test.mjs && node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs && node scripts/verify-built-packs.mjs && npm run package && node scripts/verify-release-package.mjs"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!5gIryFE7WITrmSvY",
+  "_file": "fat_man__5gIryFE7WITrmSvY.json",
+  "values": {
+    "/system/ammo": "Mini-Nuke",
+    "/system/description": "<p><span class=\"fontstyle0\">The M42 Nuclear Catapult is a shoulder-fired infantry support weapon which launches compact tactical nuclear warheads&mdash;mini-nukes, each about the size of a football&mdash;over a moderate distance to inflict massive destruction upon the target location.</span> </p>",
+    "/system/weight": 31,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

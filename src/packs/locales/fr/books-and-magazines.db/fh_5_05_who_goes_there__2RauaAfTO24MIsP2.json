@@ -1,0 +1,16 @@
+{
+  "_key": "!items!2RauaAfTO24MIsP2",
+  "_file": "fh_5_05_qui_va_la__2RauaAfTO24MIsP2.json",
+  "values": {
+    "/name": "FH 5-05 Qui-va-là ?",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Quand vous dépensez 1 point de Chance pour relancer 1d20 sur un test de PER, considérez que ce dé a obtenu 1 au lieu de le relancer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.lZ0REnexDQeH2cmK]{FH 5-05 Qui-va-là ?}</p></section>",
+    "/system/effect": "<p>Quand vous dépensez 1 point de Chance pour relancer 1d20 sur un test de PER, considérez que ce dé a obtenu 1 au lieu de le relancer.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "2RauaAfTO24MIsP2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

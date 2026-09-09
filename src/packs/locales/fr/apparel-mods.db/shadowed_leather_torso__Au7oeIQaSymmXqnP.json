@@ -1,0 +1,18 @@
+{
+  "_key": "!items!Au7oeIQaSymmXqnP",
+  "_file": "cuir_ombre_torse__Au7oeIQaSymmXqnP.json",
+  "values": {
+    "/name": "Cuir ombré (Torse)",
+    "/system/description": "<p>De nombreux types d’armure peuvent recevoir une finition ombrée, plus sombre et moins réfléchissante.</p><ul><li>Avec une ou deux pièces, ignorez la première complication obtenue à un test de Discrétion dans une lumière faible ou l’obscurité.</li><li>Avec trois pièces ou plus, relancez 1d20 lors d’un test de Discrétion par scène dans ces conditions.</li><li>Avec cinq pièces ou plus, relancez 1d20 lors de chacun de ces tests.</li></ul><p>Le plastron compte comme deux pièces. Une finition ombrée ne procure aucun avantage dans une armure assistée.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Au7oeIQaSymmXqnP",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armurier 1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_key": "!items!RcNc9VxnJn25PmUF",
+  "_file": "overdrive__RcNc9VxnJn25PmUF.json",
+  "values": {
+    "/system/description": "<p>Forme améliorée du Psycho qui stimule massivement l’agressivité et rend son utilisateur beaucoup plus dangereux au combat.</p><p><strong>Dépendance au Overdrive :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests de FOR et d’AGI hors de ses effets.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Chimiste</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×2</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Uxxc3gTKcLNpcBLU]{Nuka Cola} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.r464WdcRwusnzFtm]{Psycho} ×1</li></ul></section>",
+    "/system/effect": "<p>Toutes vos attaques infligent +3 @fos[DC] de dégâts. Vous pouvez relancer jusqu’à 3 @fos[DC] par jet de dégâts.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "RcNc9VxnJn25PmUF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Chimiste",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Nuka Cola"
+  }
+}

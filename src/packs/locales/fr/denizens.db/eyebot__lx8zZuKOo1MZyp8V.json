@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!lx8zZuKOo1MZyp8V",
+  "_file": "eyebot__lx8zZuKOo1MZyp8V.json",
+  "values": {
+    "/items/5/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur un Eyebot détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 2 DC matériaux communs, plus 1 matériau peu commun par Effet obtenu.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "lx8zZuKOo1MZyp8V",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Robot, Créature Normale",
+    "/system/biography": "<p>L’eyebot est l’un des plus petits robots conçus par RobCo Industries. Apercevoir sa forme sphérique flottant au-dessus du sol est monnaie courante dans les Terres désolées. Malgré sa taille compacte, il renferme de nombreux appareils fort utiles: des antennes longue portée qui lui permettent de recevoir des communications radio jusque dans les stations de métro ou d’autres sites souterrains, un système de reconnaissance faciale et vocale pour les applications sécuritaires, et même une arme laser. Dans les États-Unis d’avant-guerre, les eyebots servaient à transmettre des communications radio, des publicités et des bulletins d’information. À présent, ces robots sont utilisés par des organisations comme la Confrérie de l’Acier pour diffuser sa propagande ou les Miliciens pour la surveillance. D’autres unités errent dans les Terres désolées, continuant à suivre leur programmation originale et émettant des stations de radio locales, du bavardage militaire en boucle ou de mystérieux messages sur des fréquences inconnues. Ils sont souvent amicaux, mais se défendent en cas d’attaque. De plus, dégrader leurs systèmes incite à plus d’hostilité de la part des autres unités sur place. Ch</p>"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!6Y5Gv5LAizj0KDUw",
+  "_file": "porc_aux_haricots__6Y5Gv5LAizj0KDUw.json",
+  "values": {
+    "/name": "Porc aux haricots",
+    "/system/description": "<p>Une boîte contenant un repas complet : haricots mijotés dans une sauce tomate avec des morceaux de poitrine de porc salée. Malgré la rouille et l’étiquette abîmée, le contenu reste comestible, surtout réchauffé.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "6Y5Gv5LAizj0KDUw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!CndyqCypQg50fKrr",
+  "_file": "un_flingue_n_est_jamais_assez_gros__CndyqCypQg50fKrr.json",
+  "values": {
+    "/name": "Un flingue n’est jamais assez gros !",
+    "/system/description": "<p>Un magazine d’information sur les domaines de pointe de la science et de la technologie.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous tirez avec une arme Gatling, vous consommez les munitions à 8 fois le rythme normal au lieu de 10 fois.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.JGsQpE2E1zseUEdM]{Un flingue n’est jamais assez gros !}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous tirez avec une arme Gatling, vous consommez les munitions à 8 fois le rythme normal au lieu de 10 fois.</p>",
+    "/system/publication": "Science Tesla",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CndyqCypQg50fKrr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

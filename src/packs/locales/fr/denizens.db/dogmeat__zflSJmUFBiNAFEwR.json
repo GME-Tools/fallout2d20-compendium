@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!zflSJmUFBiNAFEwR",
+  "_file": "canigou__zflSJmUFBiNAFEwR.json",
+  "values": {
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zflSJmUFBiNAFEwR",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Mammifère, Créature Normale",
+    "/system/biography": "<p>Les chiens sont courants dans les Terres désolées et font partie des rares espèces de créatures à ne pas avoir complètement muté. Les chiens non mutants existent dans de nombreuses communautés et font office d’animaux domestiques ou de gardes. Ils semblent disposer de la même intelligence et du même potentiel que leurs ancêtres d’avant-guerre. Néanmoins, tous les chiens ne sont pas amicaux. Des meutes de chiens mutants, enragés et irradiés, parcourent les Terres désolées. Bien que des rumeurs parlent de gentils chiens mutants, ces créatures essaient le plus souvent de dévorer les voyageurs pour se nourrir. La fourrure de ces chiens mutants, s’ils en ont encore, est en général éparse, et leur peau ressemble à celle d’une goule.</p>",
+    "/name": "Canigou"
+  }
+}

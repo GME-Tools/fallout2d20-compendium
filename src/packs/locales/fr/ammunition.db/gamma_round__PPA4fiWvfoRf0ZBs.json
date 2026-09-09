@@ -1,0 +1,15 @@
+{
+  "_key": "!items!PPA4fiWvfoRf0ZBs",
+  "_file": "cartouche_gamma__PPA4fiWvfoRf0ZBs.json",
+  "values": {
+    "/name": "Cartouche Gamma",
+    "/system/description": "<p>Une grosse batterie avec un revêtement de plastique pouvant contenir la charge nécessaire pour alimenter un pistolet Gamma.</p>",
+    "/system/weight": 0.0095,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "PPA4fiWvfoRf0ZBs",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

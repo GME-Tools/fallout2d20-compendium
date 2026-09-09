@@ -1,0 +1,11 @@
+{
+  "_key": "!items!5r60cyfjkvkYlTvs",
+  "_file": "dodger__5r60cyfjkvkYlTvs.json",
+  "values": {
+    "/name": "Dodger",
+    "/system/description": "<p>At rank 1, when you take the Defend major action, you reduce the difficulty of the skill test by 1. At rank 2, the AP cost to further increase your Defense is reduced to 1 AP. Each time you take this perk, the level requirement increases by 6.</p>\n<p><strong>Requirements</strong>: AGI 6, Level 4</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

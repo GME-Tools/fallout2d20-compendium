@@ -1,0 +1,16 @@
+{
+  "_key": "!items!NyoiFuBl8FN4iRiZ",
+  "_file": "numero_special_insecticides__NyoiFuBl8FN4iRiZ.json",
+  "values": {
+    "/name": "Numéro spécial insecticides",
+    "/system/description": "<p>Une série éducative d’après-guerre, rédigée et illustrée de dessins grossiers, copiée et distribuée dans les Terres désolées.</p><p><strong>Aptitude :</strong> Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.qxfqtIIZynyM2qIj]{Numéro spécial insecticides}</p></section>",
+    "/system/effect": "<p>Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.</p>",
+    "/system/publication": "Guide de survie des Terres désolées",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "NyoiFuBl8FN4iRiZ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

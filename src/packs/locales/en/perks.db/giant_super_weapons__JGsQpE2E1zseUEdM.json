@@ -1,0 +1,9 @@
+{
+  "_key": "!items!JGsQpE2E1zseUEdM",
+  "_file": "giant_super_weapons__JGsQpE2E1zseUEdM.json",
+  "values": {
+    "/name": "Giant Super Weapons!",
+    "/system/description": "<p>Once, when you fire a Gatling weapon, you consume ammunition at 8x the rate, rather than 10x the rate</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

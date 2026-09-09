@@ -1,0 +1,9 @@
+{
+  "_key": "!items!ruhviwl7qAYainiM",
+  "_file": "glowing__ruhviwl7qAYainiM.json",
+  "values": {
+    "/name": "Glowing",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The [creature] is saturated with so much radiation that they literally glow, emitting a strange luminescence and irradiating the world around them. The glowing feral ghoul inflicts 2 CD </span><span class=\"fontstyle0\">Radiation damage to anyone within Reach of it. In addition, any melee attacks it makes gain the Radioactive damage effect; if it already had this damage effect, it instead inflicts 2 Radiation damage per Effect rolled.</span></p>"
+  }
+}

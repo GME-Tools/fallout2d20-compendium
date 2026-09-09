@@ -1,0 +1,25 @@
+{
+  "_key": "!items!feCOuP7GQkP0kHFW",
+  "_file": "de_combat_jambe_gauche__feCOuP7GQkP0kHFW.json",
+  "values": {
+    "/name": "de combat Jambe gauche",
+    "/system/description": "<p>Conçues avant la Guerre pour les soldats américains, ces pièces protègent des attaques physiques comme énergétiques sans être encombrantes. La Confrérie de l’Acier les emploie lorsque l’armure assistée est indisponible ou inadaptée. Chaque pièce sauf le casque accepte deux mods : un Matériau et une Amélioration ; le casque accepte seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Tous les mods de Matériau s’installent avec Réparation. Matériaux : Renforcé, Ombré, Fibre de verre, Polymère.</p>",
+    "/system/mods/DSrje3suQ5wYyMYp/system/weight": 0.5,
+    "/system/mods/EBkTneYU3Usezhgt/system/weight": 0.5,
+    "/system/mods/FRPz5uD3tZ7hMjir/system/weight": 1,
+    "/system/mods/FySCG1SWS7SABvE7/system/weight": 1,
+    "/system/mods/KRuKJ0eR46ZycdGM/system/weight": 0.5,
+    "/system/mods/gW3K5z7MFRZoBDQa/system/weight": 0.5,
+    "/system/mods/iigJa7Sxwi1um5tb/system/weight": -1.5,
+    "/system/mods/lRwdket2A4FxBzpQ/system/weight": 1,
+    "/system/mods/vCzArLcyEN25Awf3/system/weight": -0.5,
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "feCOuP7GQkP0kHFW",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

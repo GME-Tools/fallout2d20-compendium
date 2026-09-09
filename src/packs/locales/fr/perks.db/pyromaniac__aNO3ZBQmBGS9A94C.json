@@ -1,0 +1,14 @@
+{
+  "_key": "!items!aNO3ZBQmBGS9A94C",
+  "_file": "pyromane__aNO3ZBQmBGS9A94C.json",
+  "values": {
+    "/name": "Pyromane",
+    "/system/description": "<p>Rangs : 3 Prérequis : END 6, niveau 2+ Lorsque vous effectuez une attaque avec une arme basée sur le feu, ajoutez +1 @fos[DC] aux dégâts de l’arme par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "aNO3ZBQmBGS9A94C",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

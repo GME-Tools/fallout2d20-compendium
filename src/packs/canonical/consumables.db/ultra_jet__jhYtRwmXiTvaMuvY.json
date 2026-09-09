@@ -1,0 +1,81 @@
+{
+  "_id": "jhYtRwmXiTvaMuvY",
+  "_key": "!items!jhYtRwmXiTvaMuvY",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Jet.webp",
+  "name": "Ultra Jet",
+  "system": {
+    "addiction": 3,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 67,
+    "duration": "brief",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Jet.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-ultra-jet",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 214,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 4,
+        "skill": "Science",
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "canonicalName": "Bloodleaf",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN"
+          },
+          {
+            "canonicalName": "Uncommon Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "name": "Jet",
+            "canonicalName": "Jet",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc"
+          },
+          {
+            "canonicalName": "Common Materials",
+            "quantity": 2,
+            "uuid": null
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

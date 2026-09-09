@@ -1,0 +1,14 @@
+{
+  "_key": "!items!jhef5zecOk3vQhGy",
+  "_file": "sanguinaire__jhef5zecOk3vQhGy.json",
+  "values": {
+    "/name": "Sanguinaire",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHA 6 Lorsque vous infligez un coup critique, jetez 1 : si vous obtenez un Effet, vous infligez une blessure supplémentaire dont la localisation est tirée au hasard.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "jhef5zecOk3vQhGy",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

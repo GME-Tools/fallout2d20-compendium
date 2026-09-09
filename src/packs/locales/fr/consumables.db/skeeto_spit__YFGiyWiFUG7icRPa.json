@@ -1,0 +1,21 @@
+{
+  "_key": "!items!YFGiyWiFUG7icRPa",
+  "_file": "bave_de_scrito__YFGiyWiFUG7icRPa.json",
+  "values": {
+    "/name": "Bave de scrito",
+    "/system/description": "<p>Remède non addictif produit avec des sécrétions de tique et des plantes des Terres désolées. Il émousse durablement la douleur, mais doit généralement être fabriqué artisanalement.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.1nJywTHNkuT8JGT4]{Poche de sang animal} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN]{Feuille de sang} ×1</li><li>Matériaux peu fréquents ×1</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "/system/effect": "<p>Vos PV maximums augmentent de 2.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YFGiyWiFUG7icRPa",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Poche de sang animal",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Feuille de sang",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Matériaux fréquents"
+  }
+}

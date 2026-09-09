@@ -1,0 +1,16 @@
+{
+  "_key": "!items!MsXLDa4RZ0UHMT2J",
+  "_file": "l_art_du_tomahawk__MsXLDa4RZ0UHMT2J.json",
+  "values": {
+    "/name": "L’art du tomahawk",
+    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Réduisez de 1 la difficulté d’un test pour ne pas contracter une maladie, jusqu’à un minimum de 0.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.I7DFjAhnEzDZmdL7]{L’art du tomahawk}</p></section>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté d’un test pour ne pas contracter une maladie, jusqu’à un minimum de 0.</p>",
+    "/system/publication": "L’Homme des bois",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "MsXLDa4RZ0UHMT2J",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

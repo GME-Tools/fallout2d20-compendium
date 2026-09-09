@@ -1,0 +1,15 @@
+{
+  "_key": "!items!O9gGqJE0CfsOYccB",
+  "_file": "bric_a_brac__O9gGqJE0CfsOYccB.json",
+  "values": {
+    "/name": "Bric-à-brac",
+    "/system/description": "<p>Les objets de bric-à-brac ont peu d’utilité immédiate au-delà de l’amusement ou de la nostalgie, mais les matériaux qui les composent peuvent avoir de la valeur. Ils n’ont aucun effet de règle par eux-mêmes et servent uniquement à être récupérés puis démontés pour fabriquer ou réparer d’autres objets. Lorsque vous trouvez du bric-à-brac en fouillant, lancez 2d20 : le résultat indique la quantité trouvée. Chaque objet pèse 1 kg et vaut 2 capsules. Vous pouvez dépenser 1 point de Chance pour augmenter cette quantité d’un nombre égal à votre CHA. Vous pouvez récupérer les matériaux du bric-à-brac et de tout autre objet dont vous souhaitez vous débarrasser, à condition de disposer d’outils ou d’installations appropriés, comme un établi.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "O9gGqJE0CfsOYccB",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

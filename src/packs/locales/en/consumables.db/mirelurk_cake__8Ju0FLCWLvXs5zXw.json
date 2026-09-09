@@ -1,0 +1,17 @@
+{
+  "_key": "!items!8Ju0FLCWLvXs5zXw",
+  "_file": "mirelurk_cake__8Ju0FLCWLvXs5zXw.json",
+  "values": {
+    "/name": "Mirelurk Cake",
+    "/system/description": "<p><span class=\"fontstyle0\">Flakes and fragments of mirelurk meat, mixed with mirelurk egg to bind it together into a patty and then cooked. In addition to some modest nutritional value, eating mirelurk cake allows you to survive underwater for longer.</span></p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Rare</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.yW3xNGa8YuPtoonL]{Mirelurk Egg} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.JjjhTOQLnB2htZe0]{Mirelurk Meat} ×1</li><li>Uncommon Materials ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.KgKwCYEKl95sQQZN]{Razorgrain} ×1</li></ul></section>",
+    "/system/effect": "<p>Can breathe underwater until end of next scene</p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Mirelurk Egg",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Mirelurk Meat",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Uncommon Materials",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Razorgrain"
+  }
+}

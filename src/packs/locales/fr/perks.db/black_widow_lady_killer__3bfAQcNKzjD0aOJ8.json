@@ -1,0 +1,14 @@
+{
+  "_key": "!items!3bfAQcNKzjD0aOJ8",
+  "_file": "veuve_noire_gigolo__3bfAQcNKzjD0aOJ8.json",
+  "values": {
+    "/name": "Veuve noire/Gigolo",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHR 6 L’aptitude Veuve noire affecte les hommes et les personnages masculins, tandis que l’aptitude Gigolo affecte les femmes et les personnages féminins. C’est leur seule différence. Vous pouvez relancer 1d20 lors de tout test de compétence basé sur le CHR et destiné à influencer un personnage du genre choisi. De plus, vos attaques infligent +1 de dégâts aux personnages du genre choisi.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "3bfAQcNKzjD0aOJ8",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

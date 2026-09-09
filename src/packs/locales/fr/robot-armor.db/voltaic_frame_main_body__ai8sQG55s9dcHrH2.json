@@ -1,0 +1,18 @@
+{
+  "_key": "!items!ai8sQG55s9dcHrH2",
+  "_file": "chassis_voltaique_corps_principal__ai8sQG55s9dcHrH2.json",
+  "values": {
+    "/name": "Châssis voltaïque (Corps principal)",
+    "/system/carry": 10,
+    "/system/description": "<p>Des plaques de blindage spécialement conçues, dotées de conduits et de condensateurs supplémentaires qui renforcent les armes à énergie.</p><p><strong>Spécial :</strong> les attaques énergétiques du robot infligent +1 @fos[DC] si au moins une localisation est équipée d’un châssis voltaïque. Ce bonus augmente de +1 @fos[DC] toutes les deux localisations supplémentaires : +2 @fos[DC] avec 3 pièces, ou +3 @fos[DC] avec 5 pièces ou plus.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×4</li></ul></section>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ai8sQG55s9dcHrH2",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/skill": "Réparation",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armurier 2"
+  }
+}

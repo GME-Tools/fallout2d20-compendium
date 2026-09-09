@@ -1,0 +1,12 @@
+{
+  "_key": "!items!28PbGcZHEDssWMfB",
+  "_file": "x_cell__28PbGcZHEDssWMfB.json",
+  "values": {
+    "/system/description": "<p>X-cell was a general-purpose performance enhancer still being developed before the Great War. Development was never finished, but prototype versions were distributed through the black market and by scavengers after the War. It enhances all aspects of a user&rsquo;s abilities for a few minutes, but it is extremely addictive, and the withdrawal symptoms are as far-reaching as the effects.</p>\n<p><strong>X-Cell Addiction:</strong> A failed addiction roll renders you addicted to X-Cell. You increase the difficulty of all tests by +1 whenever you are not under the effects of X-Cell.</p>",
+    "/system/effect": "<p>First d20 bought on all tests is free</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!FqwVy0rYtfInhHoH",
+  "_file": "tarberry_juice__FqwVy0rYtfInhHoH.json",
+  "values": {
+    "/name": "Tarberry Juice",
+    "/system/description": "<p><span class=\"fontstyle0\">Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action.</span> </p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Cooking Station}</dd><dt>Complexity</dt><dd>2</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survival}</dd><dt>Perks</dt><dd>None</dd><dt>Rarity</dt><dd>Common</dd></dl><h4>Materials</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.xuXzlEC3V0co3w3h]{Purified Water} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bvn11vBFx1OnUoJr]{Tarberry} ×1</li></ul></section>",
+    "/system/effect": "<p>Immediately gain +6 AP</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/skill": "Survival",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Purified Water",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Tarberry"
+  }
+}

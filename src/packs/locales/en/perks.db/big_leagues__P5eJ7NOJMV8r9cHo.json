@@ -1,0 +1,11 @@
+{
+  "_key": "!items!P5eJ7NOJMV8r9cHo",
+  "_file": "big_leagues__P5eJ7NOJMV8r9cHo.json",
+  "values": {
+    "/name": "Big Leagues",
+    "/system/description": "<p>When you make a melee attack with a two-handed melee weapon, the weapon gains the Vicious damage effect.</p>\n<p><strong>Requirements</strong>: STR 8</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

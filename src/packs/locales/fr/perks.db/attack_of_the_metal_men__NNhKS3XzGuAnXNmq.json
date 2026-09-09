@@ -1,0 +1,11 @@
+{
+  "_key": "!items!NNhKS3XzGuAnXNmq",
+  "_file": "l_attaque_des_hommes_de_metal__NNhKS3XzGuAnXNmq.json",
+  "values": {
+    "/name": "L’attaque des hommes de métal",
+    "/system/description": "<p>Vous gagnez +2 aux résistances aux dégâts physiques et énergétiques contre les Robots.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

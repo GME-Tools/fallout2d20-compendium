@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Bvn11vBFx1OnUoJr",
+  "_file": "goudrelle__Bvn11vBFx1OnUoJr.json",
+  "values": {
+    "/name": "Goudrelle",
+    "/system/description": "<p>Petites baies violettes d’une plante aquatique proche des canneberges d’avant-guerre. Utiles dans plusieurs recettes mais difficiles à cultiver sans eau relativement propre ; les communautés qui y parviennent doivent souvent protéger leurs cultures des pillards.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Bvn11vBFx1OnUoJr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

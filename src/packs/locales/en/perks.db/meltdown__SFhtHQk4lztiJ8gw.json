@@ -1,0 +1,11 @@
+{
+  "_key": "!items!SFhtHQk4lztiJ8gw",
+  "_file": "meltdown__SFhtHQk4lztiJ8gw.json",
+  "values": {
+    "/name": "Meltdown",
+    "/system/description": "<p>When you kill an enemy with an energy weapon, they explode. Roll a number of DDCD equal to half the weapon&rsquo;s damage rating (round down). For each Effect rolled, one creature within Close range of the exploding enemy (starting with the closest) suffers energy damage equal to the total rolled on the DDCD.</p>\n<p><strong>Requirements</strong>: PER 10</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

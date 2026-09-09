@@ -1,0 +1,11 @@
+{
+  "_key": "!items!xXZcXGsZY6g4QkTl",
+  "_file": "gymnastique_aquatique_pour_les_goules__xXZcXGsZY6g4QkTl.json",
+  "values": {
+    "/name": "Gymnastique aquatique pour les goules",
+    "/system/description": "<p>Réduisez de 1 la difficulté d’un test d’Athlétisme pour nager, jusqu’à un minimum de 0.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

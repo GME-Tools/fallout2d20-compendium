@@ -1,0 +1,9 @@
+{
+  "_key": "!items!BSi2qWkBGOJKFFED",
+  "_file": "the_bright_side_of_radiation_poisoning__BSi2qWkBGOJKFFED.json",
+  "values": {
+    "/name": "The Bright Side of Radiation Poisoning",
+    "/system/description": "<p>When you consume irradiated food or drink, heal additional HP equal to the roll on the @fos[DC]</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

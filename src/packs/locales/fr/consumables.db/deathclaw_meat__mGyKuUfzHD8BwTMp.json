@@ -1,0 +1,17 @@
+{
+  "_key": "!items!mGyKuUfzHD8BwTMp",
+  "_file": "viande_d_ecorcheur__mGyKuUfzHD8BwTMp.json",
+  "values": {
+    "/name": "Viande d’écorcheur",
+    "/system/description": "<p>Morceau de viande d’écorcheur, dangereux à obtenir mais extrêmement nutritif lorsqu’il est correctement préparé. Il peut être cuisiné en steak d’écorcheur.</p>",
+    "/system/effect": "",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mGyKuUfzHD8BwTMp",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!tJzODq60DVEMlpF9",
+  "_file": "sacoche_de_medecin__tJzODq60DVEMlpF9.json",
+  "values": {
+    "/name": "Sacoche de médecin",
+    "/system/description": "<p>Un sac bien garni de fournitures médicales et d’instruments utiles à l’art de soigner. Il est encombrant, mais les personnes dont il sauvera la vie vous en remercieront. Une sacoche de médecin peut aussi contenir des fournitures à usage unique comme des Stimpaks, de l’eau purifiée et du RadAway, qui sont comptabilisées et utilisées séparément.</p>",
+    "/system/effect": "<p>Réduit de 1 la difficulté des tests de Médecine (minimum 0). Lors de soins prolongés, permet de prendre en charge deux patients supplémentaires.</p>",
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "tJzODq60DVEMlpF9",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

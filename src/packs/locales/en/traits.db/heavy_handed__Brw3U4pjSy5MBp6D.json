@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Brw3U4pjSy5MBp6D",
+  "_file": "heavy_handed__Brw3U4pjSy5MBp6D.json",
+  "values": {
+    "/name": "Heavy Handed",
+    "/system/description": "<p>Your Melee Damage bonus increases by +1 @fos[DC]</p>\n<p>Your melee and unarmed attacks suffer a complication on a 19 or 20, rather than only a 20.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

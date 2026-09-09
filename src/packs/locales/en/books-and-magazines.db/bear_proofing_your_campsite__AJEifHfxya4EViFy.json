@@ -1,0 +1,13 @@
+{
+  "_key": "!items!AJEifHfxya4EViFy",
+  "_file": "bear_proofing_your_campsite__AJEifHfxya4EViFy.json",
+  "values": {
+    "/name": "Bear-Proofing your Campsite",
+    "/system/description": "<p>A magazine series catering to weapons enthusiasts, with articles dedicated to hunting, weapons, gun law, and the portrayal of practical use of firearms.</p>\n<ul>\n<li><strong>Perk:</strong> Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found:</li>\n</ul>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.5tgqF87DaXrrz59x]{Bear-Proofing your Campsite}</p></section>",
+    "/system/effect": "<p>One attack against Yao Guai inflicts +3CD damage</p>",
+    "/system/publication": "Guns and Bullets",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

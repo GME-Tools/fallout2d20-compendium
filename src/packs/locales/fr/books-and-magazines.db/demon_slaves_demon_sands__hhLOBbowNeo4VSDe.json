@@ -1,0 +1,16 @@
+{
+  "_key": "!items!hhLOBbowNeo4VSDe",
+  "_file": "esclaves_demoniaques_sables_demoniaques__hhLOBbowNeo4VSDe.json",
+  "values": {
+    "/name": "Esclaves démoniaques, sables démoniaques",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Une attaque portée contre des Goules inflige +2 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.FHMZ8ohO5uegkBHL]{Esclaves démoniaques, sables démoniaques}</p></section>",
+    "/system/effect": "<p>Une attaque portée contre des Goules inflige +2 DC de dégâts.</p>",
+    "/system/publication": "Grognak le Barbare",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "hhLOBbowNeo4VSDe",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

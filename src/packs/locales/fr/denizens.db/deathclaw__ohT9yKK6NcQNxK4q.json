@@ -1,0 +1,23 @@
+{
+  "_key": "!actors!ohT9yKK6NcQNxK4q",
+  "_file": "ecorcheur__ohT9yKK6NcQNxK4q.json",
+  "values": {
+    "/items/1/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer un écorcheur mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 1. Ils obtiennent 2 DC portions de viande d’écorcheur.</p>",
+    "/items/8/$overrides/~1system~1description": "<p>Si un assaillant choisit de viser le torse de l’écorcheur, il ignore sa Résistance aux dégâts. Cela ne s’applique pas aux coups qui touchent cette localisation par hasard.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ohT9yKK6NcQNxK4q",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Reptile Mutant, Créature Normale",
+    "/system/biography": "<p>Célèbre dans toutes les Terres désolées, l’écorcheur est une créature crainte par de nombreuses personnes, à raison. Le gouvernement des États-Unis d’avant-guerre a créé ces monstruosités en modifiant par épissage le génome du Caméléon de Jackson, dans le but de remplacer ses soldats sur le champ de bataille. Dotés de griffes et de cornes redoutables, bien plus grands que la plupart des humains, les écorcheurs sont des machines à tuer nettement plus rapides que les autres créatures de leur taille. Les femelles sont souvent plus grandes que les mâles et elles se montrent terriblement protectrices envers leurs œufs et leurs petits. Rencontrer un écorcheur solitaire est déjà dangereux, mais tomber sur un nid garantit une mort rapide et douloureuse.</p>",
+    "/name": "Écorcheur"
+  }
+}

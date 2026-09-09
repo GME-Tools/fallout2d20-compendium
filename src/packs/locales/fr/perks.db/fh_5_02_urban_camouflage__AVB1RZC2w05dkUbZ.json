@@ -1,0 +1,11 @@
+{
+  "_key": "!items!AVB1RZC2w05dkUbZ",
+  "_file": "fh_5_02_le_camouflage_urbain__AVB1RZC2w05dkUbZ.json",
+  "values": {
+    "/name": "FH 5-02 Le camouflage urbain",
+    "/system/description": "<p>La difficulté des tests des ennemis pour vous repérer augmente de +1 ; ce bonus ne se cumule pas avec ceux dus à une faible lumière ou à l’obscurité.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

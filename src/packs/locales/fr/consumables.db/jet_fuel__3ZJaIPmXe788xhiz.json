@@ -1,0 +1,18 @@
+{
+  "_key": "!items!3ZJaIPmXe788xhiz",
+  "_file": "jet_fuel__3ZJaIPmXe788xhiz.json",
+  "values": {
+    "/system/description": "<p>Variante volatile du Jet qui provoque une énorme poussée d’énergie et permet d’agir avec davantage de rapidité et de décision.</p><p><strong>Dépendance au Jet :</strong> en cas d’échec au jet de dépendance, augmentez de 1 la difficulté de tous vos tests d’AGI hors des effets du Jet ou du Jet Fuel.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Chimiste</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.0Ci0Jcpuca6rSqkL]{Carburant de lance-flammes} ×5</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Bomq1g7X0eVXrssc]{Jet} ×1</li></ul></section>",
+    "/system/effect": "<p>Gagnez 1 PA gratuit au début de chacun de vos tours.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "3ZJaIPmXe788xhiz",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Chimiste",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Carburant de lance-flammes"
+  }
+}

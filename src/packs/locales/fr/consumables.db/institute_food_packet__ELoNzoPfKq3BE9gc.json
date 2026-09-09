@@ -1,0 +1,16 @@
+{
+  "_key": "!items!ELoNzoPfKq3BE9gc",
+  "_file": "pack_de_nourriture_de_l_institut__ELoNzoPfKq3BE9gc.json",
+  "values": {
+    "/name": "Pack de nourriture de l’Institut",
+    "/system/description": "<p>Petite boîte blanche marquée du symbole de l’Institut. Elle contient des barres de ration enrichies en nutriments essentiels ; chacune fournit les besoins quotidiens de quarante vitamines, minéraux et nutriments listés au dos.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ELoNzoPfKq3BE9gc",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

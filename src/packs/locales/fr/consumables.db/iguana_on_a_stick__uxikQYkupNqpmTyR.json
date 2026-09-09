@@ -1,0 +1,19 @@
+{
+  "_key": "!items!uxikQYkupNqpmTyR",
+  "_file": "brochette_d_iguane__uxikQYkupNqpmTyR.json",
+  "values": {
+    "/name": "Brochette d’iguane",
+    "/system/description": "<p>Des morceaux de viande d’iguane cuits sur une brochette en bois. Un repas médiocre mais suffisant en cas de besoin, également apprécié des compagnons canins.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.5uXBOucct2TglTlF]{Ragoût d’iguane} ×1</li><li>Matériaux fréquents ×1</li></ul></section>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uxikQYkupNqpmTyR",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Ragoût d’iguane",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Matériaux fréquents"
+  }
+}

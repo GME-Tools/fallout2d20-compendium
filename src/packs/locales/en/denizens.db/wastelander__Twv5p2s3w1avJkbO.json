@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!Twv5p2s3w1avJkbO",
+  "_file": "wastelander__Twv5p2s3w1avJkbO.json",
+  "values": {
+    "/items/0/system/weight": "0",
+    "/items/0/name": "Unarmed Strike",
+    "/items/1/$overrides/~1system~1weight": "0",
+    "/items/1/$overrides/~1system~1effect": "<p>Machete, Double-Barrel Shotgun, 10+5 CD Shotgun Shells, Wealth 1</p>",
+    "/items/2/name": "Repair",
+    "/items/3/name": "Barter",
+    "/items/4/name": "Melee Weapons",
+    "/items/5/name": "Small Guns",
+    "/items/6/name": "Survival",
+    "/items/7/name": "Unarmed",
+    "/items/8/name": "Athletics",
+    "/items/9/name": "Speech",
+    "/items/10/system/description": "<p><span class=\"fontstyle0\">A long, sharp knife designed to hack through dense or tough vegetation, the same properties that make it a useful tool also make it an effective weapon. While some machetes found in the wasteland were purpose-made blades, others are makeshift tools, typically made from a sharpened metal blade such as that salvaged from a lawnmower, bolted, tied, taped, or otherwise affixed to a simple handle.</span></p>",
+    "/items/10/system/weight": "5",
+    "/items/10/name": "Machete",
+    "/items/11/system/description": "<p><span class=\"fontstyle0\">Before the Great War, double-barrel shotguns were mainly used for hunting and home defense, and this has changed little. They are break-action and come in an either a side-by-side or over-and-under barrel configuration. Simple to make and maintain, these shotguns are seen frequently in the Commonwealth and the rest of the wasteland.</span></p>",
+    "/items/11/system/weight": "9",
+    "/items/11/name": "Double-Barrel Shotgun",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/carryWeight/base": 210,
+    "/system/origin": "Human, Normal Character",
+    "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Wastelander</strong></p>\n<p><span class=\"fontstyle0\">Wastelander is the colloquial name given to the masses of individuals who roam, travel, and settle across the wasteland. Many are unextraordinary people who just seek to survive by any means necessary. Some are more competent than others when it comes to combat, while others might possess unique skills reflecting their background and life experience. They can hail from any settlement across the commonwealth and from any background.</span></p>",
+    "/name": "Wastelander"
+  }
+}

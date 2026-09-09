@@ -1,0 +1,15 @@
+{
+  "_key": "!items!cZPDBjJXa2hCjW0K",
+  "_file": "ce_2_mm__cZPDBjJXa2hCjW0K.json",
+  "values": {
+    "/name": "CE 2 mm",
+    "/system/description": "<p>La cartouche électromagnétique 2 mm est un magasin autonome contenant des projectiles ferromagnétiques à haute vélocité et le bloc-batterie nécessaire pour alimenter l’arme de Gauss qui les tire. Ces munitions ne sont jamais présentes individuellement, seulement dans des magasins contenant le nombre de tirs générés (et une charge de batterie suffisante pour alimenter l’arme pour ces tirs).</p>",
+    "/system/weight": 0.064,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cZPDBjJXa2hCjW0K",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

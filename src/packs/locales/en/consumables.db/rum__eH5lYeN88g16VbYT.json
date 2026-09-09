@@ -1,0 +1,13 @@
+{
+  "_key": "!items!eH5lYeN88g16VbYT",
+  "_file": "rum__eH5lYeN88g16VbYT.json",
+  "values": {
+    "/name": "Rum",
+    "/system/description": "<p><span class=\"fontstyle0\">A liquor made from fermenting then distilling sugarcane molasses. Rum has strong historic ties to naval and maritime traditions, though there are few boats left that ply the irradiated seas, so it turns up often in coastal regions, particularly near to old harbors and ports.</span> </p>",
+    "/system/effect": "<p>Reroll 1d20 on AGI tests</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

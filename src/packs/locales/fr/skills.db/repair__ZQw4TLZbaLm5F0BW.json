@@ -1,0 +1,13 @@
+{
+  "_key": "!items!ZQw4TLZbaLm5F0BW",
+  "_file": "reparation__ZQw4TLZbaLm5F0BW.json",
+  "values": {
+    "/name": "Réparation",
+    "/system/description": "<p>Construire et r&eacute;parer des objets,&nbsp;qu&rsquo;il s&rsquo;agisse d&rsquo;armes ou de b&acirc;timents, de pi&egrave;ges simples ou au&nbsp;m&eacute;canisme complexe, d&eacute;pend de&nbsp;la comp&eacute;tence R&eacute;paration.</p>\n<p>Son attribut S.P.E.C.I.A.L. par d&eacute;faut est l&rsquo;<strong>Intelligence</strong>, mais vous pouvez utiliser Force pour amener&nbsp;une machinerie lourde &agrave; fonctionner &agrave; nouveau ou&nbsp;Perception pour essayer de comprendre le probl&egrave;me d&rsquo;un&nbsp;moteur. Employez R&eacute;paration pour r&eacute;parer ou modifier&nbsp;des armes, rafistoler des robots, confectionner des objets&nbsp;&agrave; partir de pi&egrave;ces d&eacute;tach&eacute;es ou construire des d&eacute;fenses.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "ZQw4TLZbaLm5F0BW",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

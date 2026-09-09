@@ -1,0 +1,9 @@
+{
+  "_key": "!items!lkAJKVOfU1DfjLU9",
+  "_file": "u_s_army_goes_to_space__lkAJKVOfU1DfjLU9.json",
+  "values": {
+    "/name": "U.S. Army Goes to Space",
+    "/system/description": "<p>On a single attack with an Energy weapon, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance (rather than the normal 5 or more damage)</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

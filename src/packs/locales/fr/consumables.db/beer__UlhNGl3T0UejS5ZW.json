@@ -1,0 +1,16 @@
+{
+  "_key": "!items!UlhNGl3T0UejS5ZW",
+  "_file": "biere__UlhNGl3T0UejS5ZW.json",
+  "values": {
+    "/name": "Bière",
+    "/system/description": "<p>L’une des plus anciennes boissons humaines, la bière est une boisson alcoolisée gazeuse issue de céréales fermentées, appréciée avant la Guerre pour se détendre. Ale, lager, stout et autres variantes ont leurs propres ingrédients et partisans, mais des effets semblables. Vous récupérez 1 capsule en ouvrant et buvant une bouteille.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "UlhNGl3T0UejS5ZW",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

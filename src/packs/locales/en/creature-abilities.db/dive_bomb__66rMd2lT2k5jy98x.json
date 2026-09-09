@@ -1,0 +1,9 @@
+{
+  "_key": "!items!66rMd2lT2k5jy98x",
+  "_file": "dive_bomb__66rMd2lT2k5jy98x.json",
+  "values": {
+    "/name": "Dive-Bomb",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">If a [creature] moves into Reach and makes a melee attack in the same turn, it may re-roll 1d20 on the attack. After the attack, it may spend 1AP to move one zone.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>"
+  }
+}

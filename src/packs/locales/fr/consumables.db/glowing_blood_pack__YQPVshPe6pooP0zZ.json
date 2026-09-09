@@ -1,0 +1,20 @@
+{
+  "_key": "!items!YQPVshPe6pooP0zZ",
+  "_file": "poche_de_sang_luminescent__YQPVshPe6pooP0zZ.json",
+  "values": {
+    "/name": "Poche de sang luminescent",
+    "/system/description": "<p>Une poche de sang remplie d’un liquide vert luminescent au goût âcre et métallique. Elle possède de puissantes propriétés réparatrices et protège brièvement contre les radiations.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftChemBench001]{Établi de chimie}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux rares ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL]{Poche de sang} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.PVf7RRNJLAIY2b2t]{Sang irradié} ×1</li></ul></section>",
+    "/system/effect": "<p>+5 à la résistance aux dégâts de radiation.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "YQPVshPe6pooP0zZ",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Matériaux rares",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Poche de sang",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Sang irradié"
+  }
+}

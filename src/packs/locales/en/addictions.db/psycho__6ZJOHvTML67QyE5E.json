@@ -1,0 +1,10 @@
+{
+  "_key": "!items!6ZJOHvTML67QyE5E",
+  "_file": "psycho__6ZJOHvTML67QyE5E.json",
+  "values": {
+    "/system/description": "<p>You increase the difficulty of all <strong>STR</strong> tests by +1 and suffer +1 @fos[DC] damage from all physical attacks whenever you are not under the effects of a type of Psycho (ordinary Psycho, Psycho Jet, Psychobuff, or Psychotats).</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

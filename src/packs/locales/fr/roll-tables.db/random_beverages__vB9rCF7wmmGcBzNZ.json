@@ -1,0 +1,9 @@
+{
+  "_key": "!tables!vB9rCF7wmmGcBzNZ",
+  "_file": "boissons_aleatoires__vB9rCF7wmmGcBzNZ.json",
+  "values": {
+    "/name": "Boissons aléatoires",
+    "/description": "<p>Table du Livre de base, p. 203.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr"
+  }
+}

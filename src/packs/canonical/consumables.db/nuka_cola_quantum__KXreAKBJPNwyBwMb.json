@@ -1,0 +1,42 @@
+{
+  "_id": "KXreAKBJPNwyBwMb",
+  "_key": "!items!KXreAKBJPNwyBwMb",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Nuka Cola Quantum.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableType": "beverage",
+    "cost": 50,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 10,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": true,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 5,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Nuka Cola Quantum.webp; recorded 2026-09-08"
+      }
+    }
+  },
+  "$folder": "beverages"
+}

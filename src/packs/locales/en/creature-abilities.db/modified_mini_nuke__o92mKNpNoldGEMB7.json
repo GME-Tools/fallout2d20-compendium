@@ -1,0 +1,9 @@
+{
+  "_key": "!items!o92mKNpNoldGEMB7",
+  "_file": "modified_mini_nuke__o92mKNpNoldGEMB7.json",
+  "values": {
+    "/name": "Modified Mini Nuke",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/description": "<p><span class=\"fontstyle0\">The super mutant suicider carries a modified mini nuke. Once in close range of its target it makes an </span><span class=\"fontstyle2\"><strong>AGI + Explosives</strong> </span><span class=\"fontstyle0\">test (TN 11) to detonate the mini nuke. Anyone within close range of the super mutant suicider, including itself, suffers its effects.</span></p>"
+  }
+}

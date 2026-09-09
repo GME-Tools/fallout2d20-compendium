@@ -1,0 +1,12 @@
+{
+  "_key": "!items!PT1qFvfqES9PgAHY",
+  "_file": "super_stimpak__PT1qFvfqES9PgAHY.json",
+  "values": {
+    "/system/description": "<p>A super Stimpak is an enhanced version of the standard Stimpak, with an additional vial of medicine and a leather strap to secure the needle to the patient&rsquo;s arm during treatment. A more potent cocktail of medication is used in a super Stimpak, allowing it to heal much more effectively.</p>\n<ul>\n<li><strong>Use:</strong> A super Stimpak can be used in one of two ways: it can be applied using the Take Chem minor action, healing 8 HP or treating up to two Injuries immediately, or it can be applied as part of a First Aid action, healing 8 HP or treating up to two Injuries in addition to any other healing done.</li>\n</ul>",
+    "/system/effect": "<p>Heals 8 HP (see description)</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

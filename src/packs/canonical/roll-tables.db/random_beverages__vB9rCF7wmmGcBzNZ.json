@@ -1,0 +1,62 @@
+{
+  "_id": "vB9rCF7wmmGcBzNZ",
+  "_key": "!tables!vB9rCF7wmmGcBzNZ",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "2d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "CCnRSBSTn8nCUDGc",
+    "qn6VeePcznQLIofA",
+    "YmIDoqDlPLpyfzll",
+    "kWBLsCwoMXkMFhjO",
+    "J1avCEPRoGQACJOz",
+    "ZGuH2mMbPA9UDQQH",
+    "6Q6e43yUJlTm9csz",
+    "cumwBsdFW4Pw5oiu",
+    "OeTuFcrWFDhtirda",
+    "RuZASuj2wALEGF0a",
+    "tdGX2cm6rz4oT1QN",
+    "mIezW7rbvfl36EtO",
+    "ojordIJsfS3ZVn36",
+    "YS3cGl7eNjXpQYVp",
+    "GJGFlmKyz2EyrRBy",
+    "DOzu7GhknFsYk1WV",
+    "JKthYvDM0kE8zPAW",
+    "gvlq2khlPc0YP02O",
+    "S0vbTGtgfyDimWG9",
+    "YEacps9gZVumkvBx",
+    "fTVKYOZdwZB6Bjjh",
+    "iRqvDFA29u0M2zci",
+    "9HPOiuTcl96phDWm",
+    "9YkpRUBTtYakGhQL",
+    "UJ8p2ntEwBKjoZ7k",
+    "WpSA4PkyRAoL9Df3",
+    "emqQ3cSecgZQMYXF",
+    "wmPJa0ypX0SiX3Ji",
+    "S9pWV4Zbse0SLkFD",
+    "Hmy0DPPkDxtGQ5Vj",
+    "VCKmILoW3GBtLhdt",
+    "gN0rEh4QhuVLEgYE",
+    "3eRIdVF6RrSet16z",
+    "DJZNihwZ2DX06xiB",
+    "ewcNoJOY6QUTs85b",
+    "NEgAUdqhACk48AUY",
+    "it9QRHEAsYyDENuB",
+    "K1FurNgbV6Lc8jqd",
+    "XgPR1pUj3W8lkQtG"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 203,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "food-chems"
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!8jzwxVjy2Me2QUua",
+  "_file": "armure_complete_de_securite_vault_tec__8jzwxVjy2Me2QUua.json",
+  "values": {
+    "/name": "Armure complète de sécurité Vault-Tec",
+    "/system/description": "<p>Cette armure composée d’un long tablier pare-balles, d’épaulières et d’un casque résistant aux chocs fut distribuée en petites quantités dans chaque Abri à son personnel de sécurité. Elle offre une protection modeste sans être particulièrement encombrante, mais résiste mal aux combats lourds, puisque les Abri étaient supposés être des environnements contrôlés dépourvus des armes puissantes de l’extérieur.</p>",
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8jzwxVjy2Me2QUua",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

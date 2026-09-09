@@ -1,0 +1,12 @@
+{
+  "_key": "!items!pV3wtJn1fqwTcBMj",
+  "_file": "med_x__pV3wtJn1fqwTcBMj.json",
+  "values": {
+    "/system/description": "<p>Med-X is a potent opiate analgesic which significantly reduces both the perception of pain and the natural emotional response to pain. In short, it&rsquo;s a powerful painkiller.</p>\n<ul>\n<li><strong>Med-X Addiction:</strong> A failed addiction roll renders you addicted to Med-X. You increase the difficulty of all AGI tests by +1, and suffer +1 @fos[DC] additional damage from all physical attacks whenever you are not under the effects of Med-X.</li>\n</ul>",
+    "/system/effect": "<p>+3 Physical damage resistance</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

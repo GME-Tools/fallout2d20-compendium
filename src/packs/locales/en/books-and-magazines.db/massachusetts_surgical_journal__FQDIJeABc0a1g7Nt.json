@@ -1,0 +1,13 @@
+{
+  "_key": "!items!FQDIJeABc0a1g7Nt",
+  "_file": "massachusetts_surgical_journal__FQDIJeABc0a1g7Nt.json",
+  "values": {
+    "/name": "Massachusetts Surgical Journal",
+    "/system/description": "<p>A periodical medical journal originating from preWar Massachusetts, a region now known as the Commonwealth. It contains detailed discussions of advances in medical science and technology, published studies on unusual diseases, and a host of other useful medical knowledge.</p>\n<p><strong>Perk:</strong> Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1. If you learn this perk, you may do this once per session.</p>\n<section data-f2d20-links=\"core\"><p><strong>Associated perk document:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.scI8HRzH0QjDb1bh]{Massachusetts Surgical Journal}</p></section>",
+    "/system/effect": "<p>Once, when you provide medical attention to another character and assist their <strong>END + Survival </strong>test to heal Injuries, you may treat your assistance die as if it had rolled a 1.&nbsp;</p>",
+    "/system/publication": "",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

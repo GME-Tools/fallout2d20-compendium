@@ -1,0 +1,11 @@
+{
+  "_key": "!items!pk42jPbAVMosmA0k",
+  "_file": "encercle_par_les_morts__pk42jPbAVMosmA0k.json",
+  "values": {
+    "/name": "Encerclé par les morts !",
+    "/system/description": "<p>Vous gagnez +1 DC sur vos attaques quand vous dépensez un ou plusieurs tirs de munitions pour obtenir des dégâts bonus.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

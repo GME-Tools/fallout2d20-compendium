@@ -1,0 +1,14 @@
+{
+  "_key": "!items!j4XUYfEZwmvkfXBe",
+  "_file": "canaille__j4XUYfEZwmvkfXBe.json",
+  "values": {
+    "/name": "Canaille",
+    "/system/description": "<p>Rangs : 1 Prérequis : CHR 7 Vous pouvez ignorer la première complication obtenue sur tout test de CHR + D i s c o u r s d e s tiné à convaincre quelqu’un d’un mensonge.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "j4XUYfEZwmvkfXBe",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!items!YDRoA6dGjWXy06hf",
+  "_file": "grim_reaper_s_sprint__YDRoA6dGjWXy06hf.json",
+  "values": {
+    "/name": "Grim Reaper's Sprint",
+    "/system/description": "<p>When you make an attack which kills one or more enemies, roll 1DCD. If you roll an Effect, add 2 AP to the group&rsquo;s pool.</p>\n<p><strong>Requirements</strong>: LCK 8</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_key": "!items!tNyHslvLL11qSlhc",
+  "_file": "fusil_a_double_canon__tNyHslvLL11qSlhc.json",
+  "values": {
+    "/system/ammo": "Calibre 12",
+    "/system/description": "<p>Munitions: calibre 12 Avant la Grande Guerre, les fusils à double canon étaient surtout utilisés pour la chasse et la défense personnelle, et cela n’a pas beaucoup changé. Ce sont des armes à bascule et les deux canons sont soit côte à côte, soit l’un au-dessus de l’autre. Simples à fabriquer et à entretenir, ces fusils sont courants dans le Commonwealth et dans le reste des Terres désolées. Un fusil à double canon peut accepter un mod de chaque type parmi les suivants:  Culasse : renforcée, haute sensibilité, puissante, avancée  Canon: canon long, canon scié  Crosse: crosse complète  Viseur: viseur laser  Bouche: frein de bouche</p>",
+    "/system/weight": 4.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "tNyHslvLL11qSlhc",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/name": "Fusil à double canon"
+  }
+}

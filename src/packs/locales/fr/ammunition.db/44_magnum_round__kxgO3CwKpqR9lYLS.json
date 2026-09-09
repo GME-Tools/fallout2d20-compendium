@@ -1,0 +1,15 @@
+{
+  "_key": "!items!kxgO3CwKpqR9lYLS",
+  "_file": "cartouche_44__kxgO3CwKpqR9lYLS.json",
+  "values": {
+    "/name": "Cartouche .44",
+    "/system/description": "<p>À l’origine, la puissante cartouche .44 a été développée pour les revolvers. Son pouvoir d’arrêt considérable la rend idéale pour tous les habitants des Terres désolées qui ont besoin de munitions capables d’arrêter des monstres, humains ou non. Son potentiel est principalement limité par le fait qu’elle est difficile à trouver.</p>",
+    "/system/weight": 0.028,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "kxgO3CwKpqR9lYLS",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

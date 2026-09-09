@@ -1,0 +1,16 @@
+{
+  "_key": "!items!szr8VmfdWra3zwXO",
+  "_file": "dr_brainwash_et_son_armee_de_de_capitalistes__szr8VmfdWra3zwXO.json",
+  "values": {
+    "/name": "Dr. Brainwash et son armée de dé-capitalistes !",
+    "/system/description": "<p>Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.</p><p><strong>Aptitude :</strong> Vous pouvez dépenser 3 points de Chance pour éviter tous les dégâts infligés par une seule attaque ou un seul danger.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.35g6izwF0LhTPGMO]{Dr. Brainwash et son armée de dé-capitalistes !}</p></section>",
+    "/system/effect": "<p>Vous pouvez dépenser 3 points de Chance pour éviter tous les dégâts infligés par une seule attaque ou un seul danger.</p>",
+    "/system/publication": "Les Increvables",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "szr8VmfdWra3zwXO",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

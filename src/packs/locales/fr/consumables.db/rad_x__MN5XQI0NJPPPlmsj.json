@@ -1,0 +1,16 @@
+{
+  "_key": "!items!MN5XQI0NJPPPlmsj",
+  "_file": "rad_x__MN5XQI0NJPPPlmsj.json",
+  "values": {
+    "/system/description": "<p>Médicament préventif destiné à ceux qui vont pénétrer dans une zone fortement irradiée. Une dose aide à résister aux radiations, surtout avec d’autres protections. Sa rareté conduit souvent à le diluer : le Rad-X dilué est environ deux fois moins efficace mais plus facile à trouver.</p>",
+    "/system/effect": "<p>+6 à la résistance aux dégâts de radiation.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "MN5XQI0NJPPPlmsj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

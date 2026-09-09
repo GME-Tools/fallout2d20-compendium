@@ -1,0 +1,14 @@
+{
+  "_key": "!items!mU5YvUEtBshgRPFD",
+  "_file": "poing_de_fer__mU5YvUEtBshgRPFD.json",
+  "values": {
+    "/name": "Poing de fer",
+    "/system/description": "<p>Rangs : 2 Prérequis : FOR 6, niveau 1+ Au rang 1, vos attaques à mains nues infligent +1 de dégâts. Au rang 2, elles obtiennent en plus l’effet de dégâts Brutal. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "mU5YvUEtBshgRPFD",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

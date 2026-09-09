@@ -1,0 +1,12 @@
+{
+  "_key": "!items!Mfgi1OgjnrIm0BFV",
+  "_file": "hazmat_suit__Mfgi1OgjnrIm0BFV.json",
+  "values": {
+    "/name": "Hazmat Suit",
+    "/system/description": "<p><span class=\"fontstyle0\">A completely enclosed suit for handling hazardous materials. The materials a hazmat suit is made from don&rsquo;t stand up well to violence; but wearing one of these renders you basically immune to radiation.</span> </p>",
+    "/system/weight": 5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

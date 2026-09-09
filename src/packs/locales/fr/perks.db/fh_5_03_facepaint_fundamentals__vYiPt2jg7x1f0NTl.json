@@ -1,0 +1,11 @@
+{
+  "_key": "!items!vYiPt2jg7x1f0NTl",
+  "_file": "fh_5_03_fondamentaux_du_camouflage_facial__vYiPt2jg7x1f0NTl.json",
+  "values": {
+    "/name": "FH 5-03 Fondamentaux du camouflage facial",
+    "/system/description": "<p>Vous gagnez +1 à toutes vos résistances aux dégâts contre les attaques des PNJ personnages.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

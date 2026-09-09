@@ -1,0 +1,14 @@
+{
+  "_key": "!items!kRSBClXDVHbQohah",
+  "_file": "butchery__kRSBClXDVHbQohah.json",
+  "values": {
+    "/name": "Dépeçage",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "kRSBClXDVHbQohah",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/effect": "<p>Les récupérateurs peuvent dépecer une [créature] morte avec un test d’END + Survie de difficulté 0 réussi. Ils obtiennent 1 portion de viande de [créature] et 1 matériau peu commun.</p>"
+  }
+}

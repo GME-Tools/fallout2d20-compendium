@@ -1,0 +1,16 @@
+{
+  "_key": "!items!OMWPk4ci2lfZmc6X",
+  "_file": "chips__OMWPk4ci2lfZmc6X.json",
+  "values": {
+    "/name": "Chips",
+    "/system/description": "<p>Une boîte de chips salées ou aromatisées, scellée sous atmosphère inerte pour préserver leur fraîcheur. En-cas courant avant la Guerre, on en retrouve encore dans la plupart des lieux autrefois habités ou occupés.</p>",
+    "/system/effect": "",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "OMWPk4ci2lfZmc6X",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

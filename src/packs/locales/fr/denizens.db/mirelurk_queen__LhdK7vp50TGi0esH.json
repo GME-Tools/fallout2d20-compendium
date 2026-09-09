@@ -1,0 +1,23 @@
+{
+  "_key": "!actors!LhdK7vp50TGi0esH",
+  "_file": "reine_des_fangeux__LhdK7vp50TGi0esH.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Les pilleurs peuvent dépecer une reine fangeux mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 5 portions de viande de fangeux.</p>",
+    "/items/9/$overrides/~1system~1effect": "<p>À la mort de la reine fangeux, les personnages trouvent sur son corps et dans son repaire 4d20 capsules. Lancez 4 DC et effectuez un jet sur la table de bric-à-brac aléatoire par Effet obtenu. À la discrétion du MJ, le repaire ou le corps peut également contenir jusqu’à trois armes et 3d20 munitions adaptées.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "LhdK7vp50TGi0esH",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Crustacé Mutant, Créature Normale",
+    "/system/biography": "<p>Les reines constituent une variante rare des classiques fangeux crabes et sont bien plus terrifiantes et dangereuses que ces derniers. Leur taille dépasse celle de n’importe quel autre membre de l’espèce et peut parfois rivaliser avec celle, imposante, d’un béhémoth. En plus de ce gigantisme, elles font partie des variantes de fangeux les plus agressives. Comme tous les autres fangeux, leur carapace est presque indestructible, mais leur tête, tendre, reste leur point faible. Les reines des fangeux peuvent aussi cracher de l’acide, ainsi qu’envoyer des nuées de frais à l’assaut d’ennemis potentiels. Elles se montrent particulièrement protectrices de leur nid et de leurs œufs: si quelqu’un les menace, elles les défendront avec férocité. Vous ne risquez pas de tomber par hasard sur ces créatures rares: elles poussent un terrible rugissement pour annoncer leurs attaques.</p>",
+    "/name": "Reine des fangeux"
+  }
+}

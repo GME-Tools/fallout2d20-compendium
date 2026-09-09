@@ -1,0 +1,11 @@
+{
+  "_key": "!items!1aIYFwFQGic2zHjK",
+  "_file": "cuisiner_a_la_maison__1aIYFwFQGic2zHjK.json",
+  "values": {
+    "/name": "Cuisiner à la maison",
+    "/system/description": "<p>Ajoutez +2 DC de dégâts à une attaque avec une arme de Lancer autre qu’un explosif.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_key": "!tables.results!sa66QXOwlO8515AT.AA3RO1Fm31gEJyD7",
+  "_file": "random_ammunition_11__AA3RO1Fm31gEJyD7.json",
+  "values": {
+    "/name": "Munitions de seringue (4+2 DC ; déterminer le type)",
+    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.SyringeTypeTbl01]{Munitions de seringue (4+2 DC ; déterminer le type)}",
+    "/documentCollection": "fallout2d20-compendium.fr-roll-tables"
+  }
+}

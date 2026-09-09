@@ -1,0 +1,16 @@
+{
+  "_key": "!items!1bgEBl5eFgkcDxmL",
+  "_file": "canne__1bgEBl5eFgkcDxmL.json",
+  "values": {
+    "/system/description": "<p>Un simple bâton utilisé comme appui par ceux qui ont du mal à marcher. Une canne est suffisamment solide pour servir d’arme improvisée si vous n’avez pas d’autre choix. Une canne peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1bgEBl5eFgkcDxmL",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Canne"
+  }
+}

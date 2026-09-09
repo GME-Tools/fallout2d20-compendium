@@ -1,0 +1,77 @@
+{
+  "_id": "qJUTRSy9Ic1L18BG",
+  "_key": "!items!qJUTRSy9Ic1L18BG",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Squirrel Stew.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableType": "food",
+    "cost": 24,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 10,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 2,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 217,
+        "errata": "V6-2026",
+        "station": "cooking",
+        "complexity": 5,
+        "perks": [],
+        "rarity": "rare",
+        "materials": [
+          {
+            "canonicalName": "Bloodleaf",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN"
+          },
+          {
+            "canonicalName": "Carrot",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.8Fv9dZQm5Dax1INF"
+          },
+          {
+            "canonicalName": "Dirty Water",
+            "quantity": 2,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1"
+          },
+          {
+            "canonicalName": "Squirrel Bits",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.JoLgVDbxQV3bT11R"
+          },
+          {
+            "canonicalName": "Tato",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.4Z3zGSnBGJcgR5c2"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "food"
+}

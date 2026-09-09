@@ -1,0 +1,12 @@
+{
+  "_key": "!items!MW9UpIocnupsmcFt",
+  "_file": "calmex__MW9UpIocnupsmcFt.json",
+  "values": {
+    "/system/description": "<p>A light tranquilizer used to calm the nerves. It isn&rsquo;t potent enough to function as a painkiller, but a dose can quiet anxieties and fears, keeping panic from disturbing delicate activities.</p>\n<ul>\n<li><strong>Calmex Addiction:</strong> A failed addiction roll renders you addicted to Calmex. You suffer complications on AGI tests on all rolls of 18 or higher whenever you are not under the effects of Calmex.</li>\n</ul>",
+    "/system/effect": "<p>Re-roll 1d20 on all PER and AGI tests, +2 @fos[DC] to sneak attack damage</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

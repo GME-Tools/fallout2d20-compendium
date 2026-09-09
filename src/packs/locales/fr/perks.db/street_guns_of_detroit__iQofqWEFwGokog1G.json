@@ -1,0 +1,11 @@
+{
+  "_key": "!items!iQofqWEFwGokog1G",
+  "_file": "flingues_de_rue_a_detroit__iQofqWEFwGokog1G.json",
+  "values": {
+    "/name": "Flingues de rue à Détroit",
+    "/system/description": "<p>Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

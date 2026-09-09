@@ -1,0 +1,15 @@
+{
+  "_key": "!items!O3dQsgilsyWSSX0n",
+  "_file": "regeneration_field__O3dQsgilsyWSSX0n.json",
+  "values": {
+    "/name": "Regeneration Field",
+    "/system/description": "<p>An experimental technology designed to provide aid to injured people where extensive medical care is in short supply, the robot is fitted with a device which projects a restorative signal over a short distance which stimulates the human body&rsquo;s natural healing processes.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Robot Workbench}</dd><dt>Complexity</dt><dd>4</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Robotics Expert} 2, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Science!} 2</dd><dt>Rarity</dt><dd>Rare</dd></dl><h4>Materials</h4><ul><li>Common Materials ×5</li><li>Uncommon Materials ×3</li></ul></section>",
+    "/system/effect": "<p>Outside of combat, allies regain 2 HP at the start of each scene you are present within</p>",
+    "/system/weight": -25,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Robotics Expert 2",
+    "/flags/fallout2d20-compendium/recipe/perks/1": "Science! 2"
+  }
+}

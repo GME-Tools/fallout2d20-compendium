@@ -1,0 +1,11 @@
+{
+  "_key": "!items!H27K9ike953ZIyRl",
+  "_file": "explose_ce_gars__H27K9ike953ZIyRl.json",
+  "values": {
+    "/name": "Explose ce gars !",
+    "/system/description": "<p>Les attaques de tous les membres du groupe infligent +1 DC de dégâts pendant une scène.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

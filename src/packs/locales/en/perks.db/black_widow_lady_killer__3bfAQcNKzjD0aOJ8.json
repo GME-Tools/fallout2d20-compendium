@@ -1,0 +1,11 @@
+{
+  "_key": "!items!3bfAQcNKzjD0aOJ8",
+  "_file": "black_widow_lady_killer__3bfAQcNKzjD0aOJ8.json",
+  "values": {
+    "/name": "Black Widow / Lady Killer",
+    "/system/description": "<p>The Black Widow perk affects men and masculine characters, while the Lady Killer perk affects women and feminine characters&mdash;they are otherwise identical. When you attempt a CHA based skill test to influence a character of the chosen gender, you may re-roll 1d20. In addition, your attacks inflict +1DCD additional damage against characters of the chosen gender.</p>\n<p><strong>Requirements</strong>: CHA 6</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

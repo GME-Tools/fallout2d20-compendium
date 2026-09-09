@@ -19,8 +19,7 @@ export const PACKS = [
   { name: "miscellany", label: { en: "Miscellany", fr: "Objets divers" }, type: "Item" },
   { name: "crafting-stations", label: { en: "Crafting Stations", fr: "Établis de fabrication" }, type: "Item" },
   { name: "creature-abilities", label: { en: "Creature Abilities", fr: "Capacités de créature" }, type: "Item" },
-  { name: "creatures", label: { en: "Creatures", fr: "Créatures" }, type: "Actor" },
-  { name: "npcs", label: { en: "NPCs", fr: "PNJ" }, type: "Actor" },
+  { name: "denizens", label: { en: "Denizens of the Wasteland", fr: "Résidents des Terres désolées" }, type: "Actor" },
   { name: "roll-tables", label: { en: "Roll Tables", fr: "Tables aléatoires" }, type: "RollTable" }
 ];
 

@@ -18,7 +18,12 @@ Use targeted `rg` searches and narrow excerpts.
 
 ## Authoritative data
 
-- Editable documents: `src/packs/en/` and `src/packs/fr/`.
+- Shared document structure and mechanics: `src/packs/canonical/`.
+- Language-specific values: `src/packs/locales/en/` and
+  `src/packs/locales/fr/`; these are sparse JSON-pointer overlays, not complete
+  documents.
+- Generated readable language views: `generated/source-packs/`; never edit or
+  commit them.
 - Generated LevelDB: `packs-v14/`; never edit it directly.
 - Publication registry: `scripts/data/publications.mjs`.
 - Reviewed inventories: `catalog/`; never regenerate them automatically.
@@ -27,7 +32,10 @@ Use targeted `rg` searches and narrow excerpts.
 
 ## Invariants
 
-- Preserve categorical bilingual packs, stable IDs, `_key` values and UUIDs.
+- Preserve categorical bilingual packs, stable IDs, `_key` values and UUIDs,
+  except for the documented `creatures`/`npcs` to `denizens` pack migration.
+- Store cross-pack dependencies as language-neutral canonical references and
+  declare only instance-specific overrides on embedded copies.
 - `system.source` is the first appearance; secondary identical appearances use
   structured flags and do not create another document.
 - English errata-corrected Core mechanics are canonical; French uses the

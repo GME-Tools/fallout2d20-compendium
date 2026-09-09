@@ -1,0 +1,29 @@
+{
+  "_key": "!items!rzaHjoMSp3xL2dUF",
+  "_file": "armure_renforcee_de_synthetique_bras_droit__rzaHjoMSp3xL2dUF.json",
+  "values": {
+    "/name": "Armure renforcée de synthétique Bras droit",
+    "/system/description": "<p>Développée par l’Institut, cette armure distinctive protège excellemment, surtout contre l’énergie, mais se rencontre surtout dans le Commonwealth et là où voyagent ses synthétiques. Sa fabrication rare la rend difficile à obtenir sans bonnes relations avec l’Institut, et coûteuse même alors. Chaque pièce sauf le casque accepte un Matériau et une Amélioration ; le casque seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Installation avec Réparation. Matériaux : Laminé, Résine, Microcarbone, Nanofilament.</p>",
+    "/system/mods/3d0refqygOWlr08D/system/weight": 0.5,
+    "/system/mods/9FlKDaWEsEDXBCMP/system/weight": 0.5,
+    "/system/mods/FySCG1SWS7SABvE7/system/weight": 1,
+    "/system/mods/KRuKJ0eR46ZycdGM/system/weight": 0.5,
+    "/system/mods/Vr2IfyQOyGYvS3sn/system/weight": 0.5,
+    "/system/mods/ZHnH96ic3qiVPJ25/system/weight": 0.5,
+    "/system/mods/hWUuQFc4H82qxPec/system/weight": 0.5,
+    "/system/mods/iigJa7Sxwi1um5tb/system/weight": -1.5,
+    "/system/mods/lRwdket2A4FxBzpQ/system/weight": 1,
+    "/system/mods/lX3JRbJLh0mYyQJd/system/weight": 1,
+    "/system/mods/tWP01ABVj2P3dPak/system/weight": 1.5,
+    "/system/mods/vCzArLcyEN25Awf3/system/weight": -0.5,
+    "/system/mods/wchyh9LXoAUTHYKT/system/weight": 0.5,
+    "/system/weight": 3.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "rzaHjoMSp3xL2dUF",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

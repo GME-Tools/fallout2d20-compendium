@@ -1,0 +1,11 @@
+{
+  "_key": "!items!c8S2PriC3vi4KyUs",
+  "_file": "fever_claw__c8S2PriC3vi4KyUs.json",
+  "values": {
+    "/name": "Fever Claw",
+    "/system/description": "<p>Your ranged attacks inflict 2CD less damage (minimum 1CD)</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

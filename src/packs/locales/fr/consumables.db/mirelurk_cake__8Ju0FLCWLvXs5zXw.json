@@ -1,0 +1,21 @@
+{
+  "_key": "!items!8Ju0FLCWLvXs5zXw",
+  "_file": "pate_de_fangeux__8Ju0FLCWLvXs5zXw.json",
+  "values": {
+    "/name": "Pâté de fangeux",
+    "/system/description": "<p>Chair et fragments de fangeux liés avec un œuf puis cuits en galette. Outre sa valeur nutritive, ce gâteau permet de survivre plus longtemps sous l’eau.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.yW3xNGa8YuPtoonL]{Œuf de fangeux} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.JjjhTOQLnB2htZe0]{Viande de fangeux} ×1</li><li>Matériaux peu fréquents ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.KgKwCYEKl95sQQZN]{Blé surin} ×1</li></ul></section>",
+    "/system/effect": "<p>Vous pouvez respirer sous l’eau jusqu’à la fin de la scène suivante.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8Ju0FLCWLvXs5zXw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/recipe/skill": "Survie",
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Œuf de fangeux",
+    "/flags/fallout2d20-compendium/recipe/materials/1/name": "Viande de fangeux",
+    "/flags/fallout2d20-compendium/recipe/materials/2/name": "Matériaux peu fréquents",
+    "/flags/fallout2d20-compendium/recipe/materials/3/name": "Blé surin"
+  }
+}

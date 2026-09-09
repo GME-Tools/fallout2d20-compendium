@@ -1,0 +1,16 @@
+{
+  "_key": "!items!DEpvfGFbc6KIebfH",
+  "_file": "uniforme_de_la_confrerie_de_l_acier__DEpvfGFbc6KIebfH.json",
+  "values": {
+    "/name": "Uniforme de la Confrérie de l’Acier",
+    "/system/description": "<p>Conçu à l’origine comme combinaison sous l’armure assistée T-45, ce vêtement est couvert de ports reliant son porteur au châssis. La Confrérie en a fait la base de ses uniformes afin que son personnel puisse rapidement revêtir une armure complète. Au combat, il se porte sous une autre armure ; les officiers ajoutent souvent un blouson d’aviateur ou un manteau blindé.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "DEpvfGFbc6KIebfH",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

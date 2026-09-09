@@ -1,0 +1,26 @@
+{
+  "_key": "!items!9Joxg8p3lwcIDyYn",
+  "_file": "combat_chest_piece__9Joxg8p3lwcIDyYn.json",
+  "values": {
+    "/name": "Combat Chest Piece",
+    "/system/description": "<p><span class=\"fontstyle0\">Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission.</span></p>\n<p><span class=\"fontstyle0\">Each piece of Combat armor other than helmets can accept two mods, one of which is a Material, the other of which is an Upgrade. Combat helmets may only accept a Material mod. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). All Combat Armor Material mods are&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">.</span> </p>\n<ul>\n<li><span class=\"fontstyle0\"><strong>Combat Armor:</strong> Reinforced, Shadowed, Fiberglass, Polymer</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/mods/4PtjwYY1RpNnvExC/system/weight": 4,
+    "/system/mods/5sQU0kdQbhyacSdu/system/weight": 2,
+    "/system/mods/6Auqz8lwvuB7UFdy/system/weight": -2,
+    "/system/mods/8F9G1Cg2OmluAbG1/system/weight": 2,
+    "/system/mods/LAb83LVky6vSxUuH/system/weight": 4,
+    "/system/mods/QXgVEVm7Ttp4UFpS/system/weight": 2,
+    "/system/mods/SZGWmJhEwwoXU1PR/system/weight": 4,
+    "/system/mods/WCywfTr7TSWsWCPm/system/weight": 2,
+    "/system/mods/XYvAnkqTE6TUIvzs/system/weight": 4,
+    "/system/mods/b3YiI203jynIQG7V/system/weight": 2,
+    "/system/mods/e7ySHkXMm9o7Aovi/system/weight": 4,
+    "/system/mods/i5ocwMr1TQ96nsi7/system/weight": 2,
+    "/system/mods/q48esitA3U4tmuXT/system/weight": 4,
+    "/system/mods/yWvt9clbKolwdbm1/system/weight": -6,
+    "/system/weight": 8,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

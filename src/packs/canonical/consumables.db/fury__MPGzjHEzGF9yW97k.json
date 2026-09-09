@@ -1,0 +1,70 @@
+{
+  "_id": "MPGzjHEzGF9yW97k",
+  "_key": "!items!MPGzjHEzGF9yW97k",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Fury.webp",
+  "system": {
+    "addiction": 1,
+    "addictive": true,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 30,
+    "duration": "lasting",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 4,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 0
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Fury.webp; recorded 2026-09-08",
+        "artworkSharingGroup": "shared-substance-fury",
+        "artworkSharingJustification": "Owner-approved consumable and namesake addiction sharing."
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 2,
+        "skill": "Science",
+        "perks": [
+          null
+        ],
+        "rarity": "uncommon",
+        "materials": [
+          {
+            "canonicalName": "Berserk Syringe",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBerserkAmmo01"
+          },
+          {
+            "name": "Buffout",
+            "canonicalName": "Buffout",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.o0at3QFpM8FKxvZj"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "chems"
+}

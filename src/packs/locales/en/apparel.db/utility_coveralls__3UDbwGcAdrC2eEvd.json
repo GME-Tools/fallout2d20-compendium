@@ -1,0 +1,12 @@
+{
+  "_key": "!items!3UDbwGcAdrC2eEvd",
+  "_file": "utility_coveralls__3UDbwGcAdrC2eEvd.json",
+  "values": {
+    "/name": "Utility Coveralls",
+    "/system/description": "<p><span class=\"fontstyle0\">A versatile outfit favored by mechanics and other tinkerers; the coveralls are designed to protect both from hard, dirty work with machinery. Comes with heavy gloves to protect the hands, and a utility belt to hold a range of tools and other useful items.</span></p>\n<p><span class=\"fontstyle2\"><strong>Special:</strong>&nbsp;</span><span class=\"fontstyle0\">Utility Coveralls increase the wearer&rsquo;s maximum carry weight by +5.</span> </p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

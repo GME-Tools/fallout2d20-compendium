@@ -1,0 +1,16 @@
+{
+  "_key": "!items!sHVONLW2lTNyu8Mq",
+  "_file": "manteau_epais__sHVONLW2lTNyu8Mq.json",
+  "values": {
+    "/name": "Manteau épais",
+    "/system/description": "<p>Un long manteau épais, cache-poussière de cuir ou trench-coat, idéal contre les éléments et offrant un peu de protection physique, thermique et radioactive. <strong>Spécial :</strong> une fois par scène, il permet de relancer un d20 d’un test fondé sur l’END. Il peut recevoir du Tissage balistique.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "sHVONLW2lTNyu8Mq",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

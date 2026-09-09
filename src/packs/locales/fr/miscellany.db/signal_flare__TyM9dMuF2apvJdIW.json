@@ -1,0 +1,16 @@
+{
+  "_key": "!items!TyM9dMuF2apvJdIW",
+  "_file": "fusee_de_signalisation__TyM9dMuF2apvJdIW.json",
+  "values": {
+    "/name": "Fusée de signalisation",
+    "/system/description": "<p>Un petit dispositif pyrotechnique qui brûle vivement et produit une lumière intense pendant une courte durée. Extrêmement chaud, il peut aussi enflammer les substances et matériaux inflammables placés assez près. Ces fusées sont plus grandes et encombrantes que celles tirées par un pistolet lance-fusées.</p>",
+    "/system/effect": "<p>Produit une lumière vive à portée courte jusqu’à la fin de la scène. Usage unique.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "TyM9dMuF2apvJdIW",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

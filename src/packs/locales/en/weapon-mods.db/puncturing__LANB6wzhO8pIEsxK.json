@@ -1,0 +1,15 @@
+{
+  "_key": "!items!LANB6wzhO8pIEsxK",
+  "_file": "puncturing__LANB6wzhO8pIEsxK.json",
+  "values": {
+    "/name": "Puncturing",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Crafting recipe - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Weapons Workbench}</h3><article><h4>meleeWeapons - power-fist</h4><dl><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.422BCVbfcp5q8M8I]{Blacksmith} 2</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h5>Materials</h5><ul><li>Common Materials ×4</li><li>Uncommon Materials ×2</li></ul></article></section>",
+    "/system/perks": "Blacksmith 2",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Repair",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Blacksmith 2"
+  }
+}

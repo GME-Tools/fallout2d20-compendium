@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Nei43KlUxbHLw6MI",
+  "_file": "gun_fu__Nei43KlUxbHLw6MI.json",
+  "values": {
+    "/name": "Gun Fu",
+    "/system/description": "<p>When you succeed at a ranged attack, you may spend 1 AP and 1 ammo to hit a second target within Close range of your initial target. The second target takes the same damage as the initial target. At rank 2, you may spend 2 AP and 2 ammo to hit two additional targets. At rank 3, you may spend 3 AP and 3 ammo to hit three additional targets. Each time you take this perk, the level requirement increases by 5.</p>\n<p><strong>Requirements</strong>: AGI 10, Level 1+</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!AMCmZ1rbCC4adfMT",
+  "_file": "stingwing_meat__AMCmZ1rbCC4adfMT.json",
+  "values": {
+    "/name": "Stingwing Meat",
+    "/system/description": "<p><span class=\"fontstyle0\">Meat taken from the body of a stingwing, a mutated scorpionfly with a nasty sting. Doesn&rsquo;t look especially tasty, but it cooks reasonably well once you&rsquo;ve pried the exoskeleton off.</span></p>\n<p><span class=\"fontstyle0\">Stingwing meat can be cooked to create Stingwing Filet.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

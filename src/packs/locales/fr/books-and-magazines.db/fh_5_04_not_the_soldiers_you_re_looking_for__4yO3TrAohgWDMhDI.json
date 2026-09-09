@@ -1,0 +1,16 @@
+{
+  "_key": "!items!4yO3TrAohgWDMhDI",
+  "_file": "fh_5_04_ce_ne_sont_pas_les_soldats_que_vous_recherchez__4yO3TrAohgWDMhDI.json",
+  "values": {
+    "/name": "FH 5-04 Ce ne sont pas les soldats que vous recherchez",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Vos attaques contre les PNJ personnages infligent +1 DC de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.g6qVETrGj3ide6hr]{FH 5-04 Ce ne sont pas les soldats que vous recherchez}</p></section>",
+    "/system/effect": "<p>Vos attaques contre les PNJ personnages infligent +1 DC de dégâts.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4yO3TrAohgWDMhDI",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

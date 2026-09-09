@@ -1,0 +1,16 @@
+{
+  "_key": "!items!EktSYEw86GEcqHeE",
+  "_file": "eventreur__EktSYEw86GEcqHeE.json",
+  "values": {
+    "/system/description": "<p>L’Éventreur est une petite tronçonneuse portative transformée en arme militaire qui fut beaucoup utilisée lors des conflits armés avant la Grande Guerre. Une version commerciale moins destructrice fut mise sur le marché à destination du grand public. Il peut scier la chair comme le métal sans encombre. Les Éventreurs peuvent accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 3,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "EktSYEw86GEcqHeE",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Éventreur"
+  }
+}

@@ -5,7 +5,7 @@ import test from "node:test";
 import { FRENCH_MAGAZINE_SERIES_1 } from "../scripts/data/french-magazine-series-1.mjs";
 import { FRENCH_MAGAZINE_SERIES_2 } from "../scripts/data/french-magazine-series-2.mjs";
 
-async function load(pack,language){const dir=path.join("src","packs",language,`${pack}.db`);return new Map(await Promise.all((await readdir(dir)).filter(f=>f.endsWith(".json")).map(async f=>{const d=JSON.parse(await readFile(path.join(dir,f),"utf8"));return[d._id,d]})));}
+async function load(pack,language){const dir=path.join("generated", "source-packs",language,`${pack}.db`);return new Map(await Promise.all((await readdir(dir)).filter(f=>f.endsWith(".json")).map(async f=>{const d=JSON.parse(await readFile(path.join(dir,f),"utf8"));return[d._id,d]})));}
 
 test("first six Core magazine series and their perks are officially localized",async()=>{
   assert.equal(Object.keys(FRENCH_MAGAZINE_SERIES_1).length,52);

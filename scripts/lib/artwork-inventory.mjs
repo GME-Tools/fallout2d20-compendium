@@ -16,7 +16,7 @@ const normalize = value => value.normalize("NFD").replace(/\p{Diacritic}/gu, "")
 const uuid = (language, pack, type, id) => `Compendium.${MODULE_ID}.${packId(language, pack)}.${type}.${id}`;
 
 async function loadPack(language, pack) {
-  const directory = path.join("src", "packs", language, `${pack.name}.db`);
+  const directory = path.join("generated", "source-packs", language, `${pack.name}.db`);
   const files = (await readdir(directory)).filter(file => file.endsWith(".json")).sort();
   const documents = [];
   for (const file of files) {
@@ -27,7 +27,7 @@ async function loadPack(language, pack) {
 }
 
 function priority(pack, document) {
-  if (pack === "creatures" || pack === "npcs" || pack === "creature-abilities") return "P1";
+  if (pack === "denizens" || pack === "creature-abilities") return "P1";
   if (pack === "ammunition" || document.type === "weapon" || document.type === "apparel") return "P2";
   if (["consumables", "addictions", "diseases", "books-and-magazines", "roll-tables"].includes(pack)) return "P3";
   return "P4";

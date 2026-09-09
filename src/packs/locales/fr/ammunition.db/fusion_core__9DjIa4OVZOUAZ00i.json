@@ -1,0 +1,15 @@
+{
+  "_key": "!items!9DjIa4OVZOUAZ00i",
+  "_file": "reacteur_a_fusion__9DjIa4OVZOUAZ00i.json",
+  "values": {
+    "/name": "Réacteur à fusion",
+    "/system/description": "<p>Les réacteurs à fusion d’avant-guerre sont des batteries nucléaires haut de gamme faites pour fonctionner sur le long terme. Un seul réacteur peut alimenter un petit bâtiment pendant très longtemps ou fournir beaucoup d’énergie à quelque chose très rapidement. La plupart des armures assistées fonctionnent avec un réacteur à fusion comme source d’énergie, et cela leur fournit plusieurs heures d’activité. Les réacteurs à fusion peuvent aussi servir de munitions à un laser Gatling. Quand un personnage découvre un réacteur à fusion, le réacteur contient un nombre de charges égal à 10 + la compétence Sciences de l’utilisateur (les gens possédant davantage de connaissances scientifiques peuvent exploiter l’énergie plus efficacement; l’aptitude Physicien nucléaire ajoute également des charges supplémentaires, voir page 68). La manière dont ces charges sont utilisées ou consommées dépend de l’appareil sur lequel le réacteur est branché (voir Amure assistée page 123). Quand le réacteur est utilisé comme munitions pour un laser Gatling, chaque charge qu’il contient donne 50 tirs au laser. Comme le laser Gatling est une arme possédant la qualité Gatling, il consomme des munitions 10 fois plus vite que la plupart des armes (voir Gatling page 90). L’aptitude Farfouilleur ne permet pas d’augmenter le nombre de réacteurs à fusion trouvés.</p>",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9DjIa4OVZOUAZ00i",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
+  }
+}

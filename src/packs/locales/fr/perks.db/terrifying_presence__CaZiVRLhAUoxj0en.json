@@ -1,0 +1,14 @@
+{
+  "_key": "!items!CaZiVRLhAUoxj0en",
+  "_file": "presence_terrifiante__CaZiVRLhAUoxj0en.json",
+  "values": {
+    "/name": "Présence terrifiante",
+    "/system/description": "<p>Rangs : 2 Prérequis : FOR 6, CHR 8, niveau 3+ Vous pouvez relancer 1d20 lors de tout test de Discours destiné à menacer ou effrayer quelqu’un. Au rang 2, en plein combat, vous pouvez consacrer une action capitale à tenter de menacer un ennemi situé à portée moyenne ou inférieure, grâce à un test de FOR + Discours de difficulté 2. En cas de réussite, cet ennemi doit s’éloigner de vous au cours de son prochain tour (il peut néanmoins entreprendre toute autre action qu’il souhaite). Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "CaZiVRLhAUoxj0en",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

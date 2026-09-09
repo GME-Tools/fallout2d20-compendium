@@ -1,0 +1,14 @@
+{
+  "_key": "!items!VtCwIMtash7XcwxP",
+  "_file": "commandant_laser__VtCwIMtash7XcwxP.json",
+  "values": {
+    "/name": "Commandant laser",
+    "/system/description": "<p>Rangs : 2 Prérequis : PER 8, niveau 2+ Lorsque vous effectuez une attaque avec une arme à énergie à distance, ajoutez +1 aux dégâts de l’arme par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "VtCwIMtash7XcwxP",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "YQPVshPe6pooP0zZ",
+  "_key": "!items!YQPVshPe6pooP0zZ",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Glowing Blood Pack.webp",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableType": "beverage",
+    "cost": 30,
+    "duration": "",
+    "favorite": false,
+    "group": "",
+    "hp": 4,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 1,
+    "rarity": 3,
+    "source": "core_rulebook",
+    "stashed": false,
+    "thirstReduction": 1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "errataReviewed": false,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated"
+      },
+      "recipe": {
+        "source": "core_rulebook",
+        "page": 213,
+        "errata": null,
+        "station": "chemistry",
+        "complexity": 3,
+        "skill": "Science",
+        "perks": [],
+        "rarity": "common",
+        "materials": [
+          {
+            "canonicalName": "Rare Materials",
+            "quantity": 1,
+            "uuid": null
+          },
+          {
+            "canonicalName": "Blood Pack",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.69jE7Uteh1NARMBL"
+          },
+          {
+            "canonicalName": "Irradiated Blood",
+            "quantity": 1,
+            "uuid": "Compendium.fallout2d20-compendium.{language}-consumables.Item.PVf7RRNJLAIY2b2t"
+          }
+        ]
+      }
+    }
+  },
+  "$folder": "beverages"
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!ijD12AylGdTDshsy",
+  "_file": "switchblade__ijD12AylGdTDshsy.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">The switchblade is a commonly found melee weapon. Its small size means that it is easily smuggled into restricted areas and is easy to handle. It doesn&rsquo;t do as damage as larger knives or blades, however.</span></p>\n<p><span class=\"fontstyle0\">Switchblades can accept the following mod which is&nbsp;</span><span class=\"fontstyle2\">installed with the Repair skill</span><span class=\"fontstyle0\">:</span></p>\n<ul>\n<li><strong><span class=\"fontstyle0\">Switchblade:</span></strong><span class=\"fontstyle0\"> Serrated Blade</span></li>\n</ul>\n<p>&nbsp;</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Switchblade"
+  }
+}

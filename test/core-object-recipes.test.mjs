@@ -7,7 +7,7 @@ import { CORE_OBJECT_RECIPES } from "../scripts/data/core-object-recipes.mjs";
 async function load(language) {
   const output = [];
   for (const pack of ["consumables", "weapons", "ammunition"]) {
-    const directory = path.join("src", "packs", language, `${pack}.db`);
+    const directory = path.join("generated", "source-packs", language, `${pack}.db`);
     for (const file of await readdir(directory)) {
       if (file.endsWith(".json")) output.push(JSON.parse(await readFile(path.join(directory, file), "utf8")));
     }

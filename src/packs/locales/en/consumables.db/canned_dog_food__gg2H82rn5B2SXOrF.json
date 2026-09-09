@@ -1,0 +1,12 @@
+{
+  "_key": "!items!gg2H82rn5B2SXOrF",
+  "_file": "canned_dog_food__gg2H82rn5B2SXOrF.json",
+  "values": {
+    "/name": "Canned Dog Food",
+    "/system/description": "<p><span class=\"fontstyle0\">A metal can of processed meat intended to be fed to dogs. Despite being made for dogs, it&rsquo;s entirely edible by humans, and the sealed can keeps the food within preserved and relatively safe to eat for long periods.</span> </p>",
+    "/system/effect": "<p></p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

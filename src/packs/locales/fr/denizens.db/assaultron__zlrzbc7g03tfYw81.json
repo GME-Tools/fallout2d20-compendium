@@ -1,0 +1,26 @@
+{
+  "_key": "!actors!zlrzbc7g03tfYw81",
+  "_file": "laserotron__zlrzbc7g03tfYw81.json",
+  "values": {
+    "/items/1/system/weight": 0,
+    "/items/1/name": "Mains nues",
+    "/items/8/$overrides/~1system~1description": "<p>Si ses deux bras ou ses deux jambes sont blessés, ou si sa Santé est réduite à la moitié ou moins de son maximum, le Laserotron se dirige vers l’ennemi le plus proche et consacre son action majeure à s’autodétruire. Cette attaque est centrée sur lui et le détruit après sa résolution.</p>",
+    "/items/10/$overrides/~1system~1effect": "<p>Les pilleurs peuvent récupérer des composants sur un Laserotron détruit avec un test réussi d’<strong>INT + Sciences</strong> de difficulté 1. Ils obtiennent 3 DC cellules à fusion, +1 DC par PA dépensé, plus 1 matériau peu commun par Effet obtenu.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zlrzbc7g03tfYw81",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Robot, Créature Normale",
+    "/system/biography": "<p>Conçu par RobCo Industries, le Laserotron est un impressionnant robot militaire, destiné à combattre sur la ligne de front et à dévaster les forces ennemies. De puissantes jambes mécaniques propulsent cette machine et lui permettent de se déplacer à une vitesse incroyable vers ses cibles. Ses bras sont conçus pour accueillir une ribambelle d’accessoires afin d’adapter le robot au type de combat qui l’attend. La plupart des modèles de base disposent, à la place des mains, de deux appendices semblables à des griffes. L’équipement le plus destructeur du Laserotron est probablement le laser au centre de sa tête qui confère à la machine l’aspect inhumain d’un cyclope. Ce laser, combiné à la précision parfaite du robot, peut vaporiser des cibles sur le coup. Même gravement endommagé, le Laserotron poursuit sans relâche sa mission. La perte d’un bras ou d’une jambe, voire de graves dégâts à la tête ou au buste, n’empêcheront pas le robot de traquer sa proie. Certaines de ces machines ont même rampé jusqu’à leur adversaire avant de se faire exploser dans une dernière tentative désespérée de remplir leur devoir.</p>",
+    "/name": "Laserotron"
+  }
+}

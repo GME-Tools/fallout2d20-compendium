@@ -1,0 +1,16 @@
+{
+  "_key": "!items!6xbkky55saFOXZSk",
+  "_file": "couteau_de_combat__6xbkky55saFOXZSk.json",
+  "values": {
+    "/system/description": "<p>Les soldats, et ceux qui cherchent à les imiter, portent souvent des couteaux sur eux, à la fois pour se battre et comme outil. Les couteaux de combat présents dans les Terres désolées sont normalement le modèle distribué aux soldats de l’armée des États-Unis pendant la Grande Guerre, une lame à un seul tranchant avec une pointe coupante. L’arme est légère, solide et faite pour être utilisée quotidiennement. Les couteaux de combat peuvent accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "6xbkky55saFOXZSk",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Couteau de combat"
+  }
+}

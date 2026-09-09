@@ -1,0 +1,15 @@
+{
+  "_key": "!items!qVKwUqqV2M4OHj6S",
+  "_file": "oreille_coulante__qVKwUqqV2M4OHj6S.json",
+  "values": {
+    "/name": "Oreille coulante",
+    "/system/description": "<p>Les tests de PER gagnent +1 difficulté.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "qVKwUqqV2M4OHj6S",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

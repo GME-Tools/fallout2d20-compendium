@@ -1,0 +1,9 @@
+{
+  "_key": "!items!kRSBClXDVHbQohah",
+  "_file": "butchery__kRSBClXDVHbQohah.json",
+  "values": {
+    "/name": "Butchery",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/system/effect": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead [creature] with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 1 portion of [creater] meat and 1 uncommon material.</span></p>"
+  }
+}

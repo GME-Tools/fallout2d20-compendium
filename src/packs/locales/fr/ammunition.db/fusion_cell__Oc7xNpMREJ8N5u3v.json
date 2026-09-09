@@ -1,0 +1,16 @@
+{
+  "_key": "!items!Oc7xNpMREJ8N5u3v",
+  "_file": "cellule_a_fusion__Oc7xNpMREJ8N5u3v.json",
+  "values": {
+    "/name": "Cellule à fusion",
+    "/system/description": "<p>Une cellule à microfusion, ou cellule à fusion, est un réacteur à fusion miniature utilisé dans les armes à énergie légères. La cellule fonctionne avec des isotopes d’hydrogène instables qui subissent une fusion lorsqu’ils sont soumis à une chaleur et à une pression extrêmes et elle peut exploser si elle est exposée à une grosse source de chaleur externe. Difficiles à recharger sans une installation appropriée, ces cellules sont souvent tout simplement jetées une fois déchargées. Quand un personnage trouve des munitions de cellule à fusion, elles se présentent sous la forme d’une seule cellule qui contient le nombre de tirs générés.</p>",
+    "/system/weight": 0.014,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "91-94",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Oc7xNpMREJ8N5u3v",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true
+  }
+}

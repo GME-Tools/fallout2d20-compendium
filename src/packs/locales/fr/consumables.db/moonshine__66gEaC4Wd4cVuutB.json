@@ -1,0 +1,17 @@
+{
+  "_key": "!items!66gEaC4Wd4cVuutB",
+  "_file": "eau_de_vie__66gEaC4Wd4cVuutB.json",
+  "values": {
+    "/name": "Eau de vie",
+    "/system/description": "<p>Terme courant désignant les alcools très forts distillés clandestinement ou avec des moyens improvisés. Leurs origines incertaines les rendent dangereux et souvent contaminés. Ce qui ne vous tue pas vous laissera probablement insensible et imperméable à la douleur — à moins de vous assommer complètement.</p>",
+    "/system/effect": "<p>Vos PV maximums augmentent de 2.</p>",
+    "/system/weight": 0.25,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "66gEaC4Wd4cVuutB",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

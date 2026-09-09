@@ -1,0 +1,13 @@
+{
+  "_key": "!items!DlJVCaT4RLT38Kgs",
+  "_file": "finesse__DlJVCaT4RLT38Kgs.json",
+  "values": {
+    "/system/description": "<p>Rangs : 1 Prérequis : AGI 9 Une fois par rencontre de combat, vous pouvez relancer l’intégralité des d’un unique jet de dégâts sans dépenser de point de chance.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "DlJVCaT4RLT38Kgs",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

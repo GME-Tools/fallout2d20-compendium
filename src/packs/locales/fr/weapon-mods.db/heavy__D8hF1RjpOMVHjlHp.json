@@ -1,0 +1,16 @@
+{
+  "_key": "!items!D8hF1RjpOMVHjlHp",
+  "_file": "lourd__D8hF1RjpOMVHjlHp.json",
+  "values": {
+    "/name": "Lourd",
+    "/system/description": "\n<section data-f2d20-weapon-recipes=\"core\"><h3>Recette de fabrication - @UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftWeaponBench1]{Établi d’armes}</h3><article><h4>meleeWeapons - sledgehammer</h4><dl><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.422BCVbfcp5q8M8I]{Forgeron} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h5>Matériaux</h5><ul><li>Matériaux fréquents ×4</li><li>Matériaux peu fréquents ×2</li></ul></article></section>",
+    "/system/perks": "Forgeron 2",
+    "/system/weight": 4.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "111-117",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "D8hF1RjpOMVHjlHp",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Forgeron 2"
+  }
+}

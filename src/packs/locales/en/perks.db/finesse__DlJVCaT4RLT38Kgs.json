@@ -1,0 +1,10 @@
+{
+  "_key": "!items!DlJVCaT4RLT38Kgs",
+  "_file": "finesse__DlJVCaT4RLT38Kgs.json",
+  "values": {
+    "/system/description": "<p>Once per combat encounter, you may re-roll all the DCD on a single damage roll without spending any Luck points.</p>\n<p><strong>Requirements</strong>: AGI 9</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

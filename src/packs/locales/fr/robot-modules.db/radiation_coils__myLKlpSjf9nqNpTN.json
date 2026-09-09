@@ -1,0 +1,18 @@
+{
+  "_key": "!items!myLKlpSjf9nqNpTN",
+  "_file": "bobines_de_radiation__myLKlpSjf9nqNpTN.json",
+  "values": {
+    "/name": "Bobines de radiation",
+    "/system/description": "<p>Une série d’antennes placées à la surface du robot projette des radiations mortelles à courte distance afin de blesser et repousser les intrus. Un interrupteur interne permet de désactiver les bobines lorsque des alliés s’approchent trop près, car les radiations sont tout aussi nocives pour eux.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftRobotBench01]{Établi de robots}</dd><dt>Complexité</dt><dd>5</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.G3mN15diMiTCDZ0U]{Science}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.GiPKNxmrkWA2k76W]{Expert en robotique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×6</li><li>Matériaux peu fréquents ×4</li><li>Matériaux rares ×2</li></ul></section>",
+    "/system/effect": "<p>Peuvent être activées ou désactivées au début d’un tour. Lorsqu’elles sont actives, toutes les créatures à portée de contact subissent 3 @fos[DC] de dégâts de radiation à la fin du tour du robot.</p>",
+    "/system/weight": -5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "myLKlpSjf9nqNpTN",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false,
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Expert en robotique 1"
+  }
+}

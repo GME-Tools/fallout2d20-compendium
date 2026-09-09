@@ -1,0 +1,12 @@
+{
+  "_key": "!items!69jE7Uteh1NARMBL",
+  "_file": "blood_pack__69jE7Uteh1NARMBL.json",
+  "values": {
+    "/name": "Blood Pack",
+    "/system/description": "<p><span class=\"fontstyle0\">A sealed, sterile plastic bag of preserved blood used pre-War for blood transfusions. Not the most conventional of beverages, but useful if you&rsquo;re desperate. Some people come to like the taste.</span> </p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!NPNBKxo6yByOIuQs",
+  "_file": "sugar_bombs_preserved__NPNBKxo6yByOIuQs.json",
+  "values": {
+    "/name": "Sugar Bombs (Preserved)",
+    "/system/description": "<p><span class=\"fontstyle0\">A pre-War breakfast cereal with &ldquo;explosive great taste&rdquo;, the box contains little cereal shapes resembling stylized atomic bombs coated in copious amounts of sugar. Some boxes claim to contain a prize inside.</span></p>\n<p><span class=\"fontstyle0\">Sometimes,&nbsp;</span><span class=\"fontstyle2\"><em>preserved</em> </span><span class=\"fontstyle0\">boxes of Sugar Bombs can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.</span></p>",
+    "/system/effect": "<p>Gain +1 AP at start of next scene</p>\n<p>&nbsp;</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

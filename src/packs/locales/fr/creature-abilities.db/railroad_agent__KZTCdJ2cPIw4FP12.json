@@ -1,0 +1,14 @@
+{
+  "_key": "!items!KZTCdJ2cPIw4FP12",
+  "_file": "railroad_agent__KZTCdJ2cPIw4FP12.json",
+  "values": {
+    "/name": "Agent du Réseau du Rail",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "KZTCdJ2cPIw4FP12",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Sous couverture, l’agent du Réseau du Rail gagne un d20 supplémentaire à tout test de Discours impliquant une tromperie.</p>"
+  }
+}

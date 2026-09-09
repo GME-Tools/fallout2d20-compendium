@@ -1,0 +1,14 @@
+{
+  "_key": "!items!6U2ulr6F0lUbJoYl",
+  "_file": "tueur__6U2ulr6F0lUbJoYl.json",
+  "values": {
+    "/name": "Tueur",
+    "/system/description": "<p>Rangs : 1 Prérequis : FOR 8 Lorsque vous infligez au moins 1 point de dégâts à un ennemi avec une attaque à mains nues ou une arme de corps à corps, vous pouvez dépenser 1 point de chance pour lui faire subir automatiquement un coup critique sur la localisation touchée et ainsi causer une blessure.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "6U2ulr6F0lUbJoYl",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

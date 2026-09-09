@@ -1,0 +1,16 @@
+{
+  "_key": "!items!lHCsUY3S6twO3Fjb",
+  "_file": "fh_5_09_le_noir_vous_va_si_bien__lHCsUY3S6twO3Fjb.json",
+  "values": {
+    "/name": "FH 5-09 Le noir vous va si bien",
+    "/system/description": "<p>Un manuel militaire confidentiel consacré à l’art du subterfuge.</p><p><strong>Aptitude :</strong> Une fois, quand vous utilisez un Stealth Boy, il dure un tour supplémentaire.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.nWVbU3dqMxeoxPoT]{FH 5-09 Le noir vous va si bien}</p></section>",
+    "/system/effect": "<p>Une fois, quand vous utilisez un Stealth Boy, il dure un tour supplémentaire.</p>",
+    "/system/publication": "Manuel d’opérations secrètes de l’armée américaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "lHCsUY3S6twO3Fjb",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

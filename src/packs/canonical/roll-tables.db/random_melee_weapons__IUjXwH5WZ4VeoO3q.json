@@ -1,0 +1,62 @@
+{
+  "_id": "IUjXwH5WZ4VeoO3q",
+  "_key": "!tables!IUjXwH5WZ4VeoO3q",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "2d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "0ImMB0Rt89ZqeLkP",
+    "CBFM1IY2woyjphVX",
+    "cfaOcec2SpM6XRnG",
+    "taIhwhTiPZUK9TFE",
+    "gGsYwLEm8bajGzQu",
+    "dBdaBGNhte8ykvAG",
+    "9XKc6BkIT4qE3lQY",
+    "DtJM8pUjs65pypYQ",
+    "FgyThpdOI7rSJJMy",
+    "30hZxCuwG6tQpBu5",
+    "a9pEl2bq1h7f0HpA",
+    "bZwfImb1rQrHNQcX",
+    "xHJ9dUYsIf5hNIDK",
+    "m1BCmGdLlIIZ3cAG",
+    "HLCnSI70FcPdwUWz",
+    "clF4qceHCGGz9fRF",
+    "wwWrOk3TAYQvkTNP",
+    "ycAPRjqtlBd1wTP1",
+    "HYjAHZj0z43LUcDP",
+    "qsP02W0DiGtzuie9",
+    "JBlcHmsQNY62OeVy",
+    "JU1PIa5TivlEHyWU",
+    "tUpkABAdNLxUDoMX",
+    "4oVio8ILeDKARoSX",
+    "HwvbxfeJuJTeEmg7",
+    "EFMXXLP1U6DnWA7r",
+    "d6zBw04AkD8KCwh9",
+    "6QskwUnEZ4YJpD3X",
+    "OTtZbpM1qDh2UAFq",
+    "7BMrFya52CVsvRiv",
+    "xTVBU3dsL3FooCdH",
+    "DHyYMu1jDKHhcfrV",
+    "cRowU0cL7WtganRF",
+    "P7rpofAcAWP4NOYf",
+    "Le2RFngqFGaI3xrY",
+    "UWUVvWFFZCPWYwdP",
+    "OptpGyT50pCb2eVu",
+    "Qfpmj0oQ8iPjdSqo",
+    "0qr7pYx2pIU9W9kN"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 205,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "weapons-ammo"
+}

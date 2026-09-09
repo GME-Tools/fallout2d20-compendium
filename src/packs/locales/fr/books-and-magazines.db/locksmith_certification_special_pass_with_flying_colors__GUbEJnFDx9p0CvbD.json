@@ -1,0 +1,16 @@
+{
+  "_key": "!items!GUbEJnFDx9p0CvbD",
+  "_file": "certification_de_serrurier_reussissez_haut_la_main__GUbEJnFDx9p0CvbD.json",
+  "values": {
+    "/name": "Certification de serrurier – Réussissez haut la main",
+    "/system/description": "<p>Un magazine d’avant-guerre consacré à l’art clandestin du crochetage et aux dernières avancées des serrures mécaniques.</p><p><strong>Aptitude :</strong> Quand vous obtenez une ou plusieurs complications sur un test de Crochetage, vous pouvez dépenser 1 point de Chance pour les ignorer.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.xRA5ktVoyWDHRy8N]{Certification de serrurier – Réussissez haut la main}</p></section>",
+    "/system/effect": "<p>Quand vous obtenez une ou plusieurs complications sur un test de Crochetage, vous pouvez dépenser 1 point de Chance pour les ignorer.</p>",
+    "/system/publication": "Gorges et pênes",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "GUbEJnFDx9p0CvbD",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

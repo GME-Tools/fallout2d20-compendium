@@ -1,0 +1,9 @@
+{
+  "_key": "!items!oRB1ZIvzhsUMElSc",
+  "_file": "take_aim_army_style__oRB1ZIvzhsUMElSc.json",
+  "values": {
+    "/name": "Take Aim, Army Style",
+    "/system/description": "<p>One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage</p>",
+    "/flags/fallout2d20-compendium/source/language": "en"
+  }
+}

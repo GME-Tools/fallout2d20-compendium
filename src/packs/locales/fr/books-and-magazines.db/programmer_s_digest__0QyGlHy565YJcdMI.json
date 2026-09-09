@@ -1,0 +1,16 @@
+{
+  "_key": "!items!0QyGlHy565YJcdMI",
+  "_file": "le_petit_livre_du_programmeur__0QyGlHy565YJcdMI.json",
+  "values": {
+    "/name": "Le petit livre du programmeur",
+    "/system/description": "<p>Un magazine consacré à l’informatique, à la programmation et au cryptage.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.xmOWzjBpDXRfPa9Y]{Le petit livre du programmeur}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau.</p>",
+    "/system/publication": "Le petit livre du programmeur",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "0QyGlHy565YJcdMI",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+  }
+}

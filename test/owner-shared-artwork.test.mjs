@@ -13,7 +13,7 @@ const decisions={
 };
 
 async function roots(language,pack){
-  const directory=path.join("src","packs",language,`${pack}.db`);
+  const directory=path.join("generated", "source-packs",language,`${pack}.db`);
   return (await Promise.all((await readdir(directory)).filter(file=>file.endsWith(".json")).map(file=>readFile(path.join(directory,file),"utf8").then(JSON.parse)))).filter(document=>!document._key?.split("!")[1]?.includes("."));
 }
 

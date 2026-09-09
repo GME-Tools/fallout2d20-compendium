@@ -22,7 +22,7 @@ export function compareFrenchWeight({ pack, document, id, path: fieldPath, engli
 }
 
 async function documents(language, pack) {
-  const root = path.resolve("src/packs", language, `${pack}.db`);
+  const root = path.resolve("generated/source-packs", language, `${pack}.db`);
   const result = new Map();
   for (const file of await readdir(root)) {
     if (!file.endsWith(".json")) continue;

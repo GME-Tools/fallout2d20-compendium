@@ -1,0 +1,31 @@
+{
+  "_key": "!items!X9cMnQidJyiDg29B",
+  "_file": "bras_gauche_d_armure_assistee_t_51__X9cMnQidJyiDg29B.json",
+  "values": {
+    "/name": "Bras gauche d’armure assistée T-51",
+    "/system/description": "<p>La T-51b était l’armure assistée la plus avancée largement utilisée avant la Grande Guerre. Son succès lors de la reconquête d’Anchorage en fit l’équipement standard de l’infanterie blindée. Sa coque légère en composite polylaminé porte un alliage argenté ablatif qui réfracte et dissipe les lasers. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Améliorations propres : T-51b à T-51f.</p>",
+    "/system/mods/7iRkK1Elj5iRfANw/system/weight": 0.5,
+    "/system/mods/8fvlLrbWjODf6BCe/system/weight": 1,
+    "/system/mods/DxewSX1ooPKoNPPs/system/weight": 0.5,
+    "/system/mods/EGyC3Cs5bYfGmIbh/system/weight": 1.5,
+    "/system/mods/K63y4mcKxr792XLB/system/weight": 0.5,
+    "/system/mods/WKklumSE0xUCXFmc/system/weight": 1,
+    "/system/mods/WQ9FY8kJaZyYOshD/system/weight": 1,
+    "/system/mods/YSEXVlKztyVBQ0f4/system/weight": 0.5,
+    "/system/mods/ZsGBPsT9kf1lVrFw/system/weight": 0.5,
+    "/system/mods/cMFQXRN9ZrDIU23Y/system/weight": 0.5,
+    "/system/mods/i4FIoiiBSSxvToiZ/system/weight": 2,
+    "/system/mods/kGts8ZQ6Lr4bkF9M/system/weight": 0.5,
+    "/system/mods/mgzavWT1TZT1qdoR/system/weight": 0.5,
+    "/system/mods/r1vFai9QqhzIhXiA/system/weight": 1,
+    "/system/mods/zX0aUfac1HnsEvZO/system/weight": 0.5,
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "X9cMnQidJyiDg29B",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

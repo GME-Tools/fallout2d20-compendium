@@ -1,0 +1,12 @@
+{
+  "_key": "!items!UMI1gGwZLhCGTFVK",
+  "_file": "daddy_o__UMI1gGwZLhCGTFVK.json",
+  "values": {
+    "/system/description": "<p>Popular with beatniks and intellectuals before the Great War, Daddy-O heightens the user&rsquo;s cognitive faculties, making them more alert and more able to process information, but users tend to hyper-focus on the tasks in front of them, making it awkward to interact with them.</p>\n<ul>\n<li><strong>Daddy-O Addiction:</strong> A failed addiction roll renders you addicted to Daddy-O. You increase the difficulty of all PER and INT tests by +1 whenever you are not under the effects of Daddy-O.</li>\n</ul>",
+    "/system/effect": "<p>Reduce the difficulty of all PER and INT tests by 1 (minimum 0), +1 difficulty to CHA tests</p>",
+    "/system/weight": 0.1,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
+  }
+}

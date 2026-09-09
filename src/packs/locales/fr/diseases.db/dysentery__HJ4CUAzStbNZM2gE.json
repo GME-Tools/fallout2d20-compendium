@@ -1,0 +1,15 @@
+{
+  "_key": "!items!HJ4CUAzStbNZM2gE",
+  "_file": "dysenterie__HJ4CUAzStbNZM2gE.json",
+  "values": {
+    "/name": "Dysenterie",
+    "/system/description": "<p>Divisez par deux le nombre d’heures entre les degrés de la jauge de soif.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "HJ4CUAzStbNZM2gE",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": false
+  }
+}

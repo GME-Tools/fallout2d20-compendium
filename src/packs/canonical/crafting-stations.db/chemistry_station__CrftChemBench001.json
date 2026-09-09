@@ -1,0 +1,33 @@
+{
+  "_id": "CrftChemBench001",
+  "_key": "!items!CrftChemBench001",
+  "type": "object_or_structure",
+  "img": "modules/fallout2d20-compendium/artwork/Crafting/Chemistry Station.webp",
+  "effects": [],
+  "folder": null,
+  "system": {
+    "favorite": false,
+    "source": "core_rulebook",
+    "constructionTime": 0,
+    "itemType": "crafting_table",
+    "materials": {
+      "common": 0,
+      "uncommon": 0,
+      "rare": 0
+    },
+    "parentItem": "",
+    "rarity": "common"
+  },
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 209,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owner-supplied repository asset: artwork/Crafting/Chemistry Station.webp; recorded 2026-09-08"
+      }
+    }
+  }
+}

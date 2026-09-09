@@ -1,0 +1,14 @@
+{
+  "_key": "!items!EQjZHUxYinodOU6G",
+  "_file": "armurier__EQjZHUxYinodOU6G.json",
+  "values": {
+    "/name": "Armurier",
+    "/system/description": "<p>Rangs : 4 Prérequis : FOR 5, INT 6 Vous pouvez modifier les pièces d’armure grâce à des mods d’armure. Chaque rang dans cette aptitude débloque un rang de mod : le rang 1 débloque les mods de rang 1, le rang 2 débloque les mods de rang 2, etc. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "EQjZHUxYinodOU6G",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

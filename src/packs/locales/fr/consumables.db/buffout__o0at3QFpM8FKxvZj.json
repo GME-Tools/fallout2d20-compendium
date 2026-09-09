@@ -1,0 +1,16 @@
+{
+  "_key": "!items!o0at3QFpM8FKxvZj",
+  "_file": "buffout__o0at3QFpM8FKxvZj.json",
+  "values": {
+    "/system/description": "<p>Un stéroïde puissant et rapide devenu populaire auprès des athlètes avant la Grande Guerre. Pendant quelques minutes, il rend plus fort et plus résistant. <strong>Dépendance au Buffout :</strong> un jet de dépendance raté vous rend dépendant au Buffout. Augmentez de +1 la difficulté de tous vos tests de FOR et d’END lorsque vous n’êtes pas sous l’effet d’un Buffout, Buffjet ou Bufftats.</p>",
+    "/system/effect": "<p>Relancez 1d20 lors de tous les tests de FOR et d’END. Vos PV maximums augmentent de 3.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "o0at3QFpM8FKxvZj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}

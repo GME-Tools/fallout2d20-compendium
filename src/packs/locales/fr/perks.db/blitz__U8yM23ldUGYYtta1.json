@@ -1,0 +1,13 @@
+{
+  "_key": "!items!U8yM23ldUGYYtta1",
+  "_file": "blitz__U8yM23ldUGYYtta1.json",
+  "values": {
+    "/system/description": "<p>Rangs : 2 Prérequis : AGI 9, niveau 1+ Lorsque vous vous placez à portée de main d’un adversaire et effectuez dans le même tour une attaque au corps à corps contre lui, vous pouvez relancer 1d20 du résultat de votre attaque. De plus, au rang 2, cette attaque inflige +1 @fos[DC] de dégâts. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 3.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "U8yM23ldUGYYtta1",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

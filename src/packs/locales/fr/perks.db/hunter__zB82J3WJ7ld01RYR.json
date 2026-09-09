@@ -1,0 +1,14 @@
+{
+  "_key": "!items!zB82J3WJ7ld01RYR",
+  "_file": "chasseur__zB82J3WJ7ld01RYR.json",
+  "values": {
+    "/name": "Chasseur",
+    "/system/description": "<p>Rangs : 1 Prérequis : END 6 Les attaques que vous effectuez contre les personnages dont le profil affiche le mot-clef Mammifère, Lézard ou Insecte, ainsi que le mot-clef Mutant, obtiennent l’effet de dégâts Brutal, si elles n’en bénéficient pas déjà.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "zB82J3WJ7ld01RYR",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

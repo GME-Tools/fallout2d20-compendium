@@ -1,0 +1,11 @@
+{
+  "_key": "!items!wwIthL6FW1dIq1MU",
+  "_file": "lapins_carnivores_des_appalaches__wwIthL6FW1dIq1MU.json",
+  "values": {
+    "/name": "Lapins carnivores des Appalaches",
+    "/system/description": "<p>Ajoutez +2 DC de dégâts à une attaque contre un Mammifère ou un Lézard.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

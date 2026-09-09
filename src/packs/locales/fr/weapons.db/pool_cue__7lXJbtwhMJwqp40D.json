@@ -1,0 +1,16 @@
+{
+  "_key": "!items!7lXJbtwhMJwqp40D",
+  "_file": "queue_de_billard__7lXJbtwhMJwqp40D.json",
+  "values": {
+    "/system/description": "<p>Un long morceau de bois mince utilisé dans des jeux comme le billard. Peut servir d’arme de corps à corps si vous n’avez rien de plus costaud sous la main. Une queue de billard peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "7lXJbtwhMJwqp40D",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
+    "/name": "Queue de billard"
+  }
+}

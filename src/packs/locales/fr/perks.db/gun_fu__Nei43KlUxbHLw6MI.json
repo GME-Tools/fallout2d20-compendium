@@ -1,0 +1,14 @@
+{
+  "_key": "!items!Nei43KlUxbHLw6MI",
+  "_file": "tonton_flingueur__Nei43KlUxbHLw6MI.json",
+  "values": {
+    "/name": "Tonton flingueur",
+    "/system/description": "<p>Rangs : 3 Prérequis : AGI 10, niveau 1+ Lorsque vous réussissez une attaque à distance, vous pouvez dépenser 1 PA et 1 munition pour toucher une cible supplémentaire située à portée courte ou inférieure de votre cible initiale. Ces deux cibles subissent les mêmes dégâts. Au rang 2, vous pouvez dépenser 2 PA et 2 munitions pour toucher deux cibles supplémentaires. Au rang 3, vous pouvez dépenser 3 PA et 3 munitions pour toucher trois cibles supplémentaires. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "Nei43KlUxbHLw6MI",
+    "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false
+  }
+}

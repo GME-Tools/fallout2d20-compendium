@@ -1,0 +1,11 @@
+{
+  "_key": "!items!C2pRfk15zpFV3sgG",
+  "_file": "cauchemar_dans_le_jardin__C2pRfk15zpFV3sgG.json",
+  "values": {
+    "/name": "Cauchemar dans le jardin",
+    "/system/description": "<p>Guérissez +2 PV quand vous consommez une boisson Alcoolisée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

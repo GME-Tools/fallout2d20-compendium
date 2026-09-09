@@ -1,0 +1,22 @@
+{
+  "_key": "!actors!x74HIXXeRszyQHvw",
+  "_file": "darillon__x74HIXXeRszyQHvw.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Un test réussi d’END + Survie de difficulté 0 rapporte 1 DC portions de viande de taon mutant. Un Effet rapporte aussi 1 dard de taon mutant.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "x74HIXXeRszyQHvw",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Insecte Mutant, Créature Normale",
+    "/system/biography": "<p>Les darillons sont la forme mutante des panorpes d’avant-guerre et constituent une autre espèce courante d’insectes volants des Terres désolées. Ils construisent souvent leur nid dans les mêmes zones ou conditions que les mouches bouffies ou les tiques, puisqu’ils partagent leurs préférences en matière de climat et de sources de nourriture. Les darillons ont développé un dard venimeux aussi mortel que douloureux. Ces créatures sont incroyablement rapides et agiles, ce qui en fait des adversaires redoutables en nuée, car elles se précipitent sur leur cible pour l’abattre aussi vite que possible. Elles confectionnent leur nid au sol ou en hauteur et il est possible de le repérer grâce au brillant liquide épais, jaune miel, qu’il sécrète. Si son nid est dérangé ou menacé, une nuée de darillons en jaillit pour le défendre.</p>",
+    "/name": "Darillon"
+  }
+}

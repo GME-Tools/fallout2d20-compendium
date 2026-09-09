@@ -1,0 +1,11 @@
+{
+  "_key": "!items!Cx5ysG2Z0XPE6DZn",
+  "_file": "la_malediction_des_calcines__Cx5ysG2Z0XPE6DZn.json",
+  "values": {
+    "/name": "La malédiction des calcinés",
+    "/system/description": "<p>Vous gagnez +1 DC sur vos attaques contre les goules.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true
+  }
+}

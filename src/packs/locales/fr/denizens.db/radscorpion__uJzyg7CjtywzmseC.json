@@ -1,0 +1,23 @@
+{
+  "_key": "!actors!uJzyg7CjtywzmseC",
+  "_file": "radscorpion__uJzyg7CjtywzmseC.json",
+  "values": {
+    "/items/0/$overrides/~1system~1effect": "<p>Un test réussi d’END + Survie de difficulté 1 rapporte 2 DC portions de viande de radscorpion. Un Effet rapporte aussi 1 dard de radscorpion et 1 matériau rare ; deux Effets peuvent fournir un œuf de radscorpion à la place.</p>",
+    "/items/6/$overrides/~1system~1description": "<p>S’enfouir exige une action majeure ; sous terre, le radscorpion est invisible et ne peut être pris pour cible. Il parcourt deux zones par une action majeure et émerge par une action mineure. Il ne peut pas creuser à travers la pierre, le métal ou le bois.</p>",
+    "/items/7/$overrides/~1system~1description": "<p>Si un assaillant choisit de viser la tête du radscorpion, il ignore sa Résistance aux dégâts. Cela ne s’applique pas aux coups qui touchent la tête par hasard.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "uJzyg7CjtywzmseC",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedNameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/system/origin": "Arachnide Mutant, Créature Normale",
+    "/system/biography": "<p>Cette version mutante du scorpion empereur est l’une des créatures les plus terrifiantes des Terres désolées. Les radscorpions sont probablement les animaux dont la taille a subi la plus importante mutation: le plus grand spécimen atteint presque la taille d’une petite voiture. Leur solide carapace, leurs redoutables pinces, leur dard imposant et leur vitesse fulgurante les rendent particulièrement difficiles à tuer. Certaines de ces créatures sont presque aussi dangereuses qu’un écorcheur. L’impact d’une attaque de leur dard, combiné au poison injecté, peut sans difficulté abattre une grande créature ou un humain en armure en un ou deux coups bien placés. Capables de s’enfouir dans le sol et de surprendre leur proie, les radscorpions sont des prédateurs que n’importe quel voyageur doit craindre.</p>"
+  }
+}

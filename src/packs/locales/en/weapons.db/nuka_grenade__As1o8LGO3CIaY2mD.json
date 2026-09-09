@@ -1,0 +1,12 @@
+{
+  "_key": "!items!As1o8LGO3CIaY2mD",
+  "_file": "nuka_grenade__As1o8LGO3CIaY2mD.json",
+  "values": {
+    "/system/description": "<p><span class=\"fontstyle0\">A tiny, handheld tactical nuclear weapon, a Nuka Grenade is extremely dangerous to use&mdash;dropping one is ill-advised&mdash;but devastatingly effective, comparable to the mini-nukes used by the Fat Man launcher.</span></p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
+    "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
+    "/name": "Nuka Grenade"
+  }
+}

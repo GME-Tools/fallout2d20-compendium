@@ -1,0 +1,14 @@
+{
+  "_key": "!items!u4BiP7ycq1cF9VLV",
+  "_file": "third_generation_synth__u4BiP7ycq1cF9VLV.json",
+  "values": {
+    "/name": "Synthétique de troisième génération",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "u4BiP7ycq1cF9VLV",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Ces synthétiques passent pour humains et ne peuvent être identifiés qu’après leur mort, grâce à leur Composant de synthétique. Lorsqu’il se fait passer pour une personne connue, un synthétique de troisième génération gagne 2d20 supplémentaires aux tests liés à cette imitation, notamment pour ses connaissances et ses manières.</p>"
+  }
+}

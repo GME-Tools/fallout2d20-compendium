@@ -1,0 +1,14 @@
+{
+  "_key": "!items!eHUfxhM71yCDYnFj",
+  "_file": "immune_to_poison__eHUfxhM71yCDYnFj.json",
+  "values": {
+    "/name": "Immunisé contre le poison",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "eHUfxhM71yCDYnFj",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": true,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>"
+  }
+}

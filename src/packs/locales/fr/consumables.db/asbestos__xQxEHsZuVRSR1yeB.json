@@ -1,0 +1,15 @@
+{
+  "_key": "!items!xQxEHsZuVRSR1yeB",
+  "_file": "amiante__xQxEHsZuVRSR1yeB.json",
+  "values": {
+    "/name": "Amiante",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "xQxEHsZuVRSR1yeB",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+  }
+}
