@@ -36,3 +36,13 @@ test("the manifest loads the English and French setting localizations", async ()
     assert.ok(translations["fallout2d20-compendium"]?.settings?.languageVisibility);
   }
 });
+
+test("release versions stay synchronized", async () => {
+  const [manifest, base, pkg, lock] = await Promise.all([
+    "module.json", "module.base.json", "package.json", "package-lock.json"
+  ].map(file => readFile(file, "utf8").then(JSON.parse)));
+  assert.equal(manifest.version, pkg.version);
+  assert.equal(base.version, pkg.version);
+  assert.equal(lock.version, pkg.version);
+  assert.equal(lock.packages[""].version, pkg.version);
+});
