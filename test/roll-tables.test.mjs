@@ -20,7 +20,7 @@ test("each language provides every Core random table but no starting-equipment t
   for (const language of ["en", "fr"]) {
     const root = path.join("generated/source-packs", language, "roll-tables.db");
     const documents = await Promise.all((await readdir(root)).map(async file => JSON.parse(await readFile(path.join(root, file), "utf8"))));
-    const tables = documents.filter(document => document._key.startsWith("!tables!"));
+    const tables = documents.filter(document => document._key.startsWith("!tables!") && document.flags?.["fallout2d20-compendium"]?.source?.book === "core_rulebook");
     assert.equal(tables.length, 30);
     assert.ok(tables.every((table) => !/Starting Equipment|Équipement de départ|Tag Skills|atouts personnels/i.test(table.name)));
     for (const table of tables) {

@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!1fbfac2b3b5ef37d",
+  "_file": "random_weapons_starter_set__1fbfac2b3b5ef37d.json",
+  "values": {
+    "/name": "Random Weapons (Starter Set)",
+    "/description": "<p>Starter Set, p. 59.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-adventure-2022-02-28",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

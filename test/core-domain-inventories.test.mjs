@@ -60,13 +60,13 @@ test("survival hazards, stations, and all Core random tables exactly match their
     const frenchIds = sorted((await documents("fr", pack)).map(entry)).map(({ id, type }) => ({ id, type }));
     assert.deepEqual(frenchIds, survival[field].map(({ id, type }) => ({ id, type })), `${field} is not paired in French`);
   }
-  const tables = (await documents("en", "roll-tables")).filter((document) => document._key === `!tables!${document._id}`);
+  const tables = (await documents("en", "roll-tables")).filter((document) => document._key === `!tables!${document._id}` && document.flags?.[moduleId]?.source?.book === "core_rulebook");
   assert.deepEqual(sorted(tables.map(entry)), survival.rollTables);
   assert.equal(survival.rollTables.length, 30);
 });
 
 test("the denizen inventory exactly covers creatures, NPCs, and adventure profiles", async () => {
-  const actual = sorted((await documents("en", "denizens")).map((document) => ({
+  const actual = sorted((await documents("en", "denizens")).filter(document => document.flags?.[moduleId]?.source?.book === "core_rulebook").map((document) => ({
     ...entry(document),
     adventure: document.flags?.[moduleId]?.source?.adventure === true,
     ...(document.flags?.[moduleId]?.source?.page ? { page: document.flags[moduleId].source.page } : {})
@@ -80,7 +80,7 @@ test("the denizen inventory exactly covers creatures, NPCs, and adventure profil
 
 test("every inventoried denizen document has a French counterpart with the same stable id and type", async () => {
   for (const [field, pack] of [["denizens", "denizens"]]) {
-    const french = new Map((await documents("fr", pack)).map((document) => [document._id, document]));
+    const french = new Map((await documents("fr", pack)).filter(document => document.flags?.[moduleId]?.source?.book === "core_rulebook").map((document) => [document._id, document]));
     const expectedDocuments = field === "denizens" ? [...denizens.creatures, ...denizens.npcs] : denizens[field];
     assert.equal(french.size, expectedDocuments.length, `${pack} has a language count mismatch`);
     for (const expected of expectedDocuments) {

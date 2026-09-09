@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!1fbfac2b3b5ef37d",
+  "_file": "random_weapons_starter_set__1fbfac2b3b5ef37d.json",
+  "values": {
+    "/name": "Armes aléatoires (Kit d’initiation)",
+    "/description": "<p>Starter Set, p. 59.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-adventure",
+    "/flags/fallout2d20-compendium/source/translation": "official"
+  }
+}

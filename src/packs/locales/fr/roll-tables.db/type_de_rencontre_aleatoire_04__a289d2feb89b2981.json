@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!bb6afa5ca5bfa934.a289d2feb89b2981",
+  "_file": "type_de_rencontre_aleatoire_04__a289d2feb89b2981.json",
+  "values": {
+    "/name": "Passage obligé",
+    "/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.673ec95833451220]{Rencontres de passage obligé aléatoires}."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!dbe681b8f53cae43",
+  "_file": "other_found_items__dbe681b8f53cae43.json",
+  "values": {
+    "/name": "Other Found Items",
+    "/description": "<p>Create a scavenging location by choosing its scale (Tiny 6 items; Small 12; Average 18; Large 24), category, and degree of prior search. Degree sets search difficulty and reductions for Tiny locations: Untouched 0/2, Partly 1/3, Mostly 2/4, Heavily 3/5; multiply reductions by 2, 3, or 4 for larger scales. Roll here whenever a category lists Other. Location level is the total of CD equal to the PCs’ combined levels plus CD equal to search difficulty; each Effect adds 1 when problems are present.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

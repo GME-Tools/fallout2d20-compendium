@@ -23,6 +23,16 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/origin": "Mammifère",
     "/system/biography": "<p>Les chiens sont courants dans les Terres désolées et font partie des rares espèces de créatures à ne pas avoir complètement muté. Les chiens non mutants existent dans de nombreuses communautés et font office d’animaux domestiques ou de gardes. Ils semblent disposer de la même intelligence et du même potentiel que leurs ancêtres d’avant-guerre. Néanmoins, tous les chiens ne sont pas amicaux. Des meutes de chiens mutants, enragés et irradiés, parcourent les Terres désolées. Bien que des rumeurs parlent de gentils chiens mutants, ces créatures essaient le plus souvent de dévorer les voyageurs pour se nourrir. La fourrure de ces chiens mutants, s’ils en ont encore, est en général éparse, et leur peau ressemble à celle d’une goule.</p>",
-    "/name": "Chien"
+    "/name": "Chien",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "fr",
+        "edition": "fr-official-adventure",
+        "status": "identical",
+        "translation": "official",
+        "page": 27
+      }
+    ]
   }
 }

@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!1b1cf5dad6cbb08e",
+  "_file": "rencontres_ordinaires_aleatoires__1b1cf5dad6cbb08e.json",
+  "values": {
+    "/name": "Rencontres ordinaires aléatoires",
+    "/description": "<p>Rencontres ordinaires découvertes en voyage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
+    "/flags/fallout2d20-compendium/source/translation": "project"
+  }
+}

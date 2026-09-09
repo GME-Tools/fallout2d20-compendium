@@ -1,10 +1,11 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { MODULE_ID, PACKS, packId } from "../config.mjs";
+import { getPublication } from "../data/publications.mjs";
 
 export const INVENTORY_PATH = "artwork/inventory/artwork-inventory.jsonl";
 export const CONTACT_SHEET_PATH = "artwork/inventory/contact-sheet.html";
-export const EXPECTED_COUNT = 478;
+export const EXPECTED_COUNT = 499;
 export const PRIORITIES = Object.freeze(["P1", "P2", "P3", "P4"]);
 export const REVIEW_STATES = Object.freeze(["pending-owner", "approved", "rejected", "blocked"]);
 export const SOURCE_KINDS = Object.freeze(["owned-official-pdf", "owner-supplied-game-asset", "approved-modiphius-bethesda", "owner-approved-web", "generated-private", "repository-reviewed-asset", "none"]);
@@ -35,7 +36,8 @@ function priority(pack, document) {
 
 function pageLocator(source) {
   if (source.page === undefined || source.page === null || source.page === "") return null;
-  return `core_rulebook:en-digital-2023-02:pages-${String(source.page).replaceAll(" ", "")}`;
+  const edition = getPublication(source.book).editions.en[0].id;
+  return `${source.book}:${edition}:pages-${String(source.page).replaceAll(" ", "")}`;
 }
 
 function sharingKey(pack, name, allNames) {
@@ -99,7 +101,7 @@ export async function deriveInventory(includedIdentities = new Set()) {
         sharing_group: proposedGroup,
         sharing_status: proposedGroup ? "proposed-owner-validation-required" : "none",
         candidate_source_kind: locator ? "owned-official-pdf" : "none",
-        candidate_source: locator ? "Fallout: The Roleplaying Game Core Rulebook (owned official English PDF)" : null,
+        candidate_source: locator ? `${getPublication(source.book).titles.en} (owned official English PDF)` : null,
         candidate_locator: locator,
         provenance_or_permission_expected: locator ? "Record extraction filename, PDF edition, page, crop bounds, and owner confirmation of lawful possession." : "Owner must supply an allowed official asset and its ownership or explicit approval record.",
         blocker: locator ? null : "No precise allowed source locator is recorded; owner asset or page-level direction required.",

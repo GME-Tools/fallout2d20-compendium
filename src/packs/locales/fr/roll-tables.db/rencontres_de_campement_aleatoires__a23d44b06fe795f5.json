@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!a23d44b06fe795f5",
+  "_file": "rencontres_de_campement_aleatoires__a23d44b06fe795f5.json",
+  "values": {
+    "/name": "Rencontres de campement aléatoires",
+    "/description": "<p>Chaque campement comprend un poste de cuisine.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
+    "/flags/fallout2d20-compendium/source/translation": "project"
+  }
+}

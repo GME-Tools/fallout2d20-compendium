@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!a23d44b06fe795f5",
+  "_file": "random_campsite_encounters__a23d44b06fe795f5.json",
+  "values": {
+    "/name": "Random Campsite Encounters",
+    "/description": "<p>Every campsite includes a cooking station.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

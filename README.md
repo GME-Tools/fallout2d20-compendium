@@ -1,6 +1,6 @@
 # Fallout 2d20 Compendium
 
-Private bilingual English/French compendium module for Fallout 2d20 on Foundry Virtual Tabletop v14. Version 1.0.3 introduces canonical bilingual pack sources, generated folders, and the unified Denizens compendium.
+Private bilingual English/French compendium module for Fallout 2d20 on Foundry Virtual Tabletop v14. Version 1.1.0 adds the GM Toolkit tables and reusable structured Starter Set content to the canonical bilingual pack sources.
 
 The project is being rebuilt around readable document sources, reproducible LevelDB packs, automated quality checks, and GitHub release packaging. For version 1, the English Core Rulebook plus Errata Log V6 (2026) is the canonical mechanical source; French documents are adapted from the official French book and checked against that canon.
 

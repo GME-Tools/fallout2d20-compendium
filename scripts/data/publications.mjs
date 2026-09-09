@@ -35,6 +35,66 @@ export const PUBLICATIONS = Object.freeze({
         languages: Object.freeze(["en", "fr"])
       })
     ])
+  }),
+  gamemaster_toolkit: Object.freeze({
+    id: "gamemaster_toolkit",
+    titles: Object.freeze({
+      en: "Fallout: The Roleplaying Game Gamemaster's Toolkit",
+      fr: "Fallout : le jeu de rôle — Kit du meneur de jeu"
+    }),
+    shortTitles: Object.freeze({ en: "GM Toolkit", fr: "Kit du MJ" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([
+        Object.freeze({
+          id: "en-digital-2021-04-22",
+          title: "English digital release (22 April 2021)",
+          version: "2021-04-22",
+          translation: "original",
+          errata: Object.freeze([])
+        })
+      ]),
+      fr: Object.freeze([
+        Object.freeze({
+          id: "fr-project-1.1.0",
+          title: "Project French translation for version 1.1.0",
+          version: "1.1.0",
+          translation: "project",
+          errata: Object.freeze([])
+        })
+      ])
+    }),
+    errata: Object.freeze([])
+  }),
+  starter_set: Object.freeze({
+    id: "starter_set",
+    titles: Object.freeze({
+      en: "Fallout: The Roleplaying Game Starter Set",
+      fr: "Fallout : le jeu de rôle — Kit d'initiation"
+    }),
+    shortTitles: Object.freeze({ en: "Starter Set", fr: "Kit d'initiation" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([
+        Object.freeze({
+          id: "en-adventure-2022-02-28",
+          title: "English Adventure Booklet (28 February 2022)",
+          version: "2022-02-28",
+          translation: "original",
+          errata: Object.freeze([])
+        })
+      ]),
+      fr: Object.freeze([
+        Object.freeze({
+          id: "fr-official-adventure",
+          title: "Official French adventure booklet",
+          version: "official",
+          translation: "official",
+          errata: Object.freeze([])
+        })
+      ])
+    }),
+    errata: Object.freeze([])
   })
 });
 

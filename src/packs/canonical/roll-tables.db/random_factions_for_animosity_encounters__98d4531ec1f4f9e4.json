@@ -1,0 +1,32 @@
+{
+  "_id": "98d4531ec1f4f9e4",
+  "_key": "!tables!98d4531ec1f4f9e4",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "ae725620401d7793",
+    "48d34ba7e2a8ecc6",
+    "005bfdc69ca43fdd",
+    "af0698052061aa2e",
+    "1ccad32f427e735a",
+    "c7693cc573b7ded4",
+    "7b5385aa7c01c34e",
+    "a39133b36f77de8b",
+    "4abafc82cf8eee21"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "gamemaster_toolkit",
+        "page": 24,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "gm-encounters"
+}

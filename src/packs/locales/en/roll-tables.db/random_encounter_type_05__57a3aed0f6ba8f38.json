@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!bb6afa5ca5bfa934.57a3aed0f6ba8f38",
+  "_file": "random_encounter_type_05__57a3aed0f6ba8f38.json",
+  "values": {
+    "/name": "Animosity",
+    "/description": "Draw twice from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.98d4531ec1f4f9e4]{Random Factions for Animosity Encounters}; redraw matching results."
+  }
+}

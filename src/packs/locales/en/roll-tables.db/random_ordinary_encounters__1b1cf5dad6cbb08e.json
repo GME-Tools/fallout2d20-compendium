@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!1b1cf5dad6cbb08e",
+  "_file": "random_ordinary_encounters__1b1cf5dad6cbb08e.json",
+  "values": {
+    "/name": "Random Ordinary Encounters",
+    "/description": "<p>Ordinary encounters encountered while travelling.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

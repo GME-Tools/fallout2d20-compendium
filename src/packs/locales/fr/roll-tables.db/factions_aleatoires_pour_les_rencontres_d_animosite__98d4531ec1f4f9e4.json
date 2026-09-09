@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!98d4531ec1f4f9e4",
+  "_file": "factions_aleatoires_pour_les_rencontres_d_animosite__98d4531ec1f4f9e4.json",
+  "values": {
+    "/name": "Factions aléatoires pour les rencontres d’animosité",
+    "/description": "<p>Tirez deux fois et relancez les doublons afin de sélectionner deux factions opposées.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
+    "/flags/fallout2d20-compendium/source/translation": "project"
+  }
+}

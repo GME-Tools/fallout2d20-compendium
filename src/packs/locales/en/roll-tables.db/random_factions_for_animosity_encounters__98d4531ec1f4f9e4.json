@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!98d4531ec1f4f9e4",
+  "_file": "random_factions_for_animosity_encounters__98d4531ec1f4f9e4.json",
+  "values": {
+    "/name": "Random Factions for Animosity Encounters",
+    "/description": "<p>Draw twice and redraw matching results so two opposed factions are selected.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

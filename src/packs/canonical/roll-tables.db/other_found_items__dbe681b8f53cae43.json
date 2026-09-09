@@ -1,0 +1,31 @@
+{
+  "_id": "dbe681b8f53cae43",
+  "_key": "!tables!dbe681b8f53cae43",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "45fa39d75f6b2d64",
+    "3197e439338ed1a0",
+    "c05de8ea42266e59",
+    "979949ad15b74202",
+    "d71c3917cbaef984",
+    "0bfc13c59d5beeb2",
+    "d125ad6f5f7c69bf",
+    "6c117e6b8f973459"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "gamemaster_toolkit",
+        "page": 18,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "gm-locations"
+}

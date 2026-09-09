@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!bb6afa5ca5bfa934.ca52ead92b2d9bd3",
+  "_file": "type_de_rencontre_aleatoire_03__ca52ead92b2d9bd3.json",
+  "values": {
+    "/name": "Campement",
+    "/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.a23d44b06fe795f5]{Rencontres de campement aléatoires}."
+  }
+}

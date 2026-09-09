@@ -7,7 +7,7 @@ import { folderId, folderRecords, PACK_FOLDER_DEFINITIONS } from "../scripts/dat
 import { listFiles } from "../scripts/lib/files.mjs";
 
 const noFolders = ["addictions", "ammunition", "crafting-stations", "diseases", "miscellany", "robot-modules", "skills", "traits"];
-const expectedCounts = { apparel: 19, "apparel-mods": 22, "books-and-magazines": 11, consumables: 5, denizens: 10, perks: 12, "robot-armor": 10, "roll-tables": 9, weapons: 7, "weapon-mods": 30 };
+const expectedCounts = { apparel: 19, "apparel-mods": 22, "books-and-magazines": 11, consumables: 5, denizens: 11, perks: 12, "robot-armor": 10, "roll-tables": 13, weapons: 7, "weapon-mods": 30 };
 
 async function rootDocuments(language, pack) {
   const files = await listFiles(path.resolve("generated/source-packs", language, `${pack}.db`), file => file.endsWith(".json"));

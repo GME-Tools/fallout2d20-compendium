@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!e17d49c3ac814fad",
+  "_file": "rencontres_d_objets_aleatoires__e17d49c3ac814fad.json",
+  "values": {
+    "/name": "Rencontres d’objets aléatoires",
+    "/description": "<p>Objets étranges et rencontres statiques des Terres désolées.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
+    "/flags/fallout2d20-compendium/source/translation": "project"
+  }
+}

@@ -2,6 +2,36 @@
 
 All notable changes to this private module are documented here.
 
+## 1.1.0 — 2026-09-09
+
+### Added
+
+- Add seven bilingual GM Toolkit RollTables with 60 results, including the
+  deterministic location-generation procedure and linked encounter tables.
+- Add eleven bilingual Starter Set denizen profiles, including distinct
+  Doctor Rast states and approved Starter-specific mechanical variants.
+- Add dedicated Starter Set weapon, chem, and armor tables while recording
+  identical Core reprints as secondary publication appearances.
+- Add the multi-publication registry entries, provenance, folder taxonomy,
+  artwork tracking, and regression coverage for both publications.
+- Add reviewed illustrations for all eleven Starter Set Actors while leaving
+  GM Toolkit and Starter RollTables intentionally unillustrated.
+
+### Fixed
+
+- Apply the approved mechanically coherent Starter rulings for Rad Rocky,
+  Raider, `.45` ammunition, Random Armor, the Commonwealth merchant, and the
+  wounded Mirelurk Queen.
+- Correct Starter table embedded-result keys after Foundry migration testing.
+
+### Qualification
+
+- Validate 2,646 root documents and 3,620 French weight/capacity fields with no
+  actionable issue; preserve the accepted Core identity snapshot.
+- Verify 6,202 generated records across 36 Foundry v14 LevelDB packs.
+- Validate imports, embedded Items, sheets, drag/drop, UUID links, and all 40
+  tables in a disposable world on Foundry 14.367 with Fallout 11.17.1.
+
 ## 1.0.5 — 2026-09-09
 
 ### Changed

@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!bb6afa5ca5bfa934",
+  "_file": "type_de_rencontre_aleatoire__bb6afa5ca5bfa934.json",
+  "values": {
+    "/name": "Type de rencontre aléatoire",
+    "/description": "<p>Quand une rencontre aléatoire survient, lancez ici puis tirez dans la table détaillée indiquée. Pour Animosité, tirez deux fois et relancez les doublons.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
+    "/flags/fallout2d20-compendium/source/translation": "project"
+  }
+}

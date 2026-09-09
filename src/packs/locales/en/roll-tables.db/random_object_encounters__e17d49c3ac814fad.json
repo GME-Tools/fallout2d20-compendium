@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!e17d49c3ac814fad",
+  "_file": "random_object_encounters__e17d49c3ac814fad.json",
+  "values": {
+    "/name": "Random Object Encounters",
+    "/description": "<p>Strange objects and static encounters found in the Wasteland.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!673ec95833451220",
+  "_file": "random_choke_point_encounters__673ec95833451220.json",
+  "values": {
+    "/name": "Random Choke Point Encounters",
+    "/description": "<p>Encounters at terrain that is difficult to bypass.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

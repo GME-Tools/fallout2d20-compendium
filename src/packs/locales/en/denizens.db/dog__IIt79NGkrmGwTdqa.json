@@ -11,6 +11,16 @@
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/origin": "Mammal",
     "/system/biography": "<p><span class=\"fontstyle0\">Dogs are common across the wasteland and are one of few creatures who have not succumbed entirely to mutation as a species. Non-mutated dogs can be found in many settlements and as domestic pets or guard animals and appear to have the same intelligence and capability as their pre-War ancestors. Not all dogs are friendly, however. Packs of rabid, mutated, and irradiated dogs roam the wastes. While there are some rare accounts of friendly mutated dogs, it is far more common to encounter the creatures as they viciously try to tear you apart for their next meal. These mutated dogs often have patchy or no fur, with their skin taking on an almost ghoulified appearance.</span></p>",
-    "/name": "Dog"
+    "/name": "Dog",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "en",
+        "edition": "en-adventure-2022-02-28",
+        "status": "identical",
+        "translation": "original",
+        "page": 27
+      }
+    ]
   }
 }

@@ -32,6 +32,16 @@
     "/items/5/name": "Immunisé contre les radiations",
     "/items/6/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
     "/items/6/name": "Immunisé contre le poison",
-    "/name": "Goule sauvage"
+    "/name": "Goule sauvage",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "fr",
+        "edition": "fr-official-adventure",
+        "status": "identical",
+        "translation": "official",
+        "page": 30
+      }
+    ]
   }
 }

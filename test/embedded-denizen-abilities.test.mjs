@@ -20,7 +20,7 @@ test("denizen abilities are autonomous bilingual embedded documents", async () =
 
   const english = await actors("en");
   const french = new Map((await actors("fr")).map(actor => [actor._id, actor]));
-  assert.equal(english.length, 75);
+  assert.equal(english.filter(actor => actor.flags?.[MODULE_ID]?.source?.book === "core_rulebook").length, 75);
   for (const actor of english) {
     const translated = french.get(actor._id);
     assert.ok(translated, actor.name);

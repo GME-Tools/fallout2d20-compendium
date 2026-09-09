@@ -1,0 +1,27 @@
+{
+  "_id": "3856edefc16a71e5",
+  "_key": "!tables!3856edefc16a71e5",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    "fb605266f4cd8375",
+    "1afea12691517728",
+    "a480cc647cca062c",
+    "0f8858ccbe158284"
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "starter_set",
+        "page": 60,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "starter-set"
+}

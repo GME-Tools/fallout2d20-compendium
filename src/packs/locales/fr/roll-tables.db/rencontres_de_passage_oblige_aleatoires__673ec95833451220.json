@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!673ec95833451220",
+  "_file": "rencontres_de_passage_oblige_aleatoires__673ec95833451220.json",
+  "values": {
+    "/name": "Rencontres de passage obligé aléatoires",
+    "/description": "<p>Rencontres sur un terrain difficile à contourner.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
+    "/flags/fallout2d20-compendium/source/translation": "project"
+  }
+}

@@ -16,7 +16,7 @@ test("published root identities include the accepted standalone ability removal"
       for (const file of await readdir(`generated/source-packs/${language}/${directory.name}`)) {
         if (!file.endsWith(".json")) continue;
         const document = JSON.parse(await readFile(`generated/source-packs/${language}/${directory.name}/${file}`));
-        if (/^!(items|actors|tables)![^.!]+$/.test(document._key ?? "")) identities.push(`${language}/${pack}/${document._id}/${document._key}`);
+        if (/^!(items|actors|tables)![^.!]+$/.test(document._key ?? "") && document.flags?.["fallout2d20-compendium"]?.source?.book === "core_rulebook") identities.push(`${language}/${pack}/${document._id}/${document._key}`);
       }
     }
   }

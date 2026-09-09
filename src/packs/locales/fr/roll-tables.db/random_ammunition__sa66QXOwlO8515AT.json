@@ -4,6 +4,16 @@
   "values": {
     "/name": "Munitions aléatoires",
     "/description": "<p>Table du Livre de base, p. 200.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "fr",
+        "edition": "fr-official-adventure",
+        "status": "identical",
+        "translation": "official",
+        "page": 59
+      }
+    ]
   }
 }

@@ -109,7 +109,7 @@ try {
       await table.sheet.close();
 
       const draws = await Promise.all(enTables.map((candidate) => candidate.draw({ displayChat: false })));
-      importChecks.tableDrawn = draws.length === 29 && draws.every((draw) => draw.results.length === 1);
+      importChecks.tableDrawn = draws.length === 40 && draws.every((draw) => draw.results.length === 1);
     } finally {
       for (const document of created.reverse()) await document.delete();
     }
@@ -139,8 +139,8 @@ try {
   if (expectedFoundryVersion) assert.equal(result.foundryVersion, expectedFoundryVersion);
   assert.equal(result.systemId, "fallout");
   if (expectedSystemVersion) assert.equal(result.systemVersion, expectedSystemVersion);
-  assert.equal(result.packCount, 40);
-  assert.equal(result.documentCount, 2764);
+  assert.equal(result.packCount, 36);
+  assert.equal(result.documentCount, 2646);
   assert.deepEqual(result.unresolvedUuids, []);
   assert.ok(result.actorEmbeddedItems.enNpc > 0);
   assert.ok(result.actorEmbeddedItems.frCreature > 0);

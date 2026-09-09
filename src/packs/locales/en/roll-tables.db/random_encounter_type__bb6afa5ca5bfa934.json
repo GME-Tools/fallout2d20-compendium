@@ -1,0 +1,11 @@
+{
+  "_key": "!tables!bb6afa5ca5bfa934",
+  "_file": "random_encounter_type__bb6afa5ca5bfa934.json",
+  "values": {
+    "/name": "Random Encounter Type",
+    "/description": "<p>When a random encounter occurs, roll here, then draw from the indicated detailed table. For Animosity, draw twice and redraw matching results.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

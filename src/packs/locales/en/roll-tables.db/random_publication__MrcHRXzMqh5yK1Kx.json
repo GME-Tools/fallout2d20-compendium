@@ -4,6 +4,16 @@
   "values": {
     "/name": "Random Publication",
     "/description": "<p>Core Rulebook table, p. 172.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "en",
+        "edition": "en-adventure-2022-02-28",
+        "status": "identical",
+        "translation": "original",
+        "page": 60
+      }
+    ]
   }
 }

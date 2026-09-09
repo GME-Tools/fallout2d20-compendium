@@ -14,6 +14,16 @@
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/origin": "Mutated Crustacean",
     "/system/biography": "<p><span class=\"fontstyle0\">Mirelurks are the collective name given to the family of mutated crustaceans that appear in many of the wasteland&rsquo;s waters. Mirelurks are hardy creatures, with armored shells and appendages and very few weak spots that are easy to target. With most of their body covered in shell, the face is the most exposed soft spot, but is a small area that few can reliably aim at in a chaotic combat. Mirelurks vary in size, from small hatchings to the towering mirelurk queen and often bear a resemblance to crabs or lobsters depending on their type. They are hostile creatures that attack on sight and can usually be found where there is any large body of open water. They often bury themselves in mud, leaving only their shells visible and are thus easily overlooked by the unobservant. While difficult to kill, they can be harvested for their meat, and their eggs can be worth a few caps if sold to the right buyer.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Hatchlings are the collective term for mirelurk young. Mirelurks lay eggs, often in a well-protected nest. Occasionally when a nest is disturbed, eggs will hatch in response to the stimuli. Hatchlings are easy to dispatch by a competent individual providing the swarm isn&rsquo;t large. At this stage, their shells are soft, and they are around the size of a radroach.</span></span></p>",
-    "/name": "Mirelurk Hatchling"
+    "/name": "Mirelurk Hatchling",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "en",
+        "edition": "en-adventure-2022-02-28",
+        "status": "identical",
+        "translation": "original",
+        "page": 33
+      }
+    ]
   }
 }

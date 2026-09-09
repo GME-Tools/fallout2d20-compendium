@@ -26,6 +26,16 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/origin": "Crustacé Mutant",
     "/system/biography": "<p>Le terme « jeune fangeux » désigne l’ensemble des fangeux non adultes. Les fangeux pondent des œufs, souvent dans un nid bien protégé. De temps à autre, si ce nid est perturbé, les œufs éclosent en réponse au stimulus. Les jeunes fangeux ne représentent pas une grande menace pour un individu compétent, pour peu que la nuée ne Ch</p>",
-    "/name": "Jeune fangeux"
+    "/name": "Jeune fangeux",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "starter_set",
+        "language": "fr",
+        "edition": "fr-official-adventure",
+        "status": "identical",
+        "translation": "official",
+        "page": 33
+      }
+    ]
   }
 }

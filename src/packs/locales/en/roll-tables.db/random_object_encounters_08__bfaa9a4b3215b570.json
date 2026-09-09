@@ -1,0 +1,8 @@
+{
+  "_key": "!tables.results!e17d49c3ac814fad.bfaa9a4b3215b570",
+  "_file": "random_object_encounters_08__bfaa9a4b3215b570.json",
+  "values": {
+    "/name": "Pile of Burning Tires",
+    "/description": "There are 3d20 tires (minimum 10), each yielding 3 Rubber. Taking one requires difficulty 2 AGI + Athletics; failure inflicts 3 CD Persistent energy damage and retrieves nothing."
+  }
+}
