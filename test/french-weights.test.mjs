@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { PACKS } from "../scripts/config.mjs";
-import { auditFrenchWeightComparisons, collectFrenchWeightComparisons, compareFrenchWeight } from "../scripts/lib/french-weights.mjs";
+import { auditFrenchWeightComparisons, collectFrenchWeightComparisons, compareFrenchWeight, nonPhysicalWeightIssue } from "../scripts/lib/french-weights.mjs";
 
 const base = { pack: "weapons", document: "Test Weapon", id: "TestWeight000001", path: "$root.system.weight" };
 
@@ -21,6 +21,12 @@ test("missing and non-numeric values fail with identity and field diagnostics", 
   assert.equal(missing.length, 1);
   assert.match(missing[0].message, /weapons\/Test Weapon \(TestWeight000001\) \$root\.system\.weight: missing paired weight field/);
   assert.match(compareFrenchWeight({ ...base, english: null, french: 0 }).message, /English canonical weight must be numeric/);
+});
+
+test("non-physical Items reject inherited weight while physical Items remain eligible", () => {
+  assert.match(nonPhysicalWeightIssue({ type: "special_ability", system: { weight: 2 } }, "ability"), /must not carry weight/);
+  assert.equal(nonPhysicalWeightIssue({ type: "special_ability", system: {} }, "ability"), null);
+  assert.equal(nonPhysicalWeightIssue({ type: "weapon", system: { weight: 2 } }, "weapon"), null);
 });
 
 test("all root, nested-mod, and Actor-embedded French weights match the English Core canon", async () => {

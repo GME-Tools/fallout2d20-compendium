@@ -688,8 +688,8 @@
             },
             "piercing": {
               "label": "Piercing",
-              "value": false,
-              "rank": 0,
+              "value": true,
+              "rank": 1,
               "description": ""
             },
             "radioactive": {
@@ -797,7 +797,7 @@
           }
         },
         "range": "close",
-        "fireRate": 2,
+        "fireRate": 1,
         "condition": "",
         "mods": {
           "max": 7,
@@ -825,6 +825,23 @@
       "system": {
         "favorite": false,
         "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "c155996e68fb44e0",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Rad%20Rocky.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "favorite": false,
+        "source": "starter_set"
       },
       "ownership": {
         "default": 0,

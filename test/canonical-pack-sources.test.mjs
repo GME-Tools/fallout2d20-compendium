@@ -4,7 +4,7 @@ import path from "node:path";
 import test from "node:test";
 import { LANGUAGES, PACKS } from "../scripts/config.mjs";
 import { listFiles } from "../scripts/lib/files.mjs";
-import { loadCanonicalPack } from "../scripts/lib/canonical-pack-sources.mjs";
+import { loadCanonicalPack, materializeLocalizedDocument, splitLocalizedDocument } from "../scripts/lib/canonical-pack-sources.mjs";
 import { PACK_FOLDER_DEFINITIONS } from "../scripts/data/pack-folders.mjs";
 
 test("localized source packs are generated rather than maintained", async () => {
@@ -26,7 +26,7 @@ test("localized source packs are generated rather than maintained", async () => 
     }
     assert.deepEqual(keys.en, keys.fr, pack.name);
   }
-  assert.equal(records, 4070);
+  assert.equal(records, 4098);
 });
 
 test("canonical sources contain only language-neutral pack references", async () => {
@@ -37,5 +37,18 @@ test("canonical sources contain only language-neutral pack references", async ()
     assert.doesNotMatch(text, /Compendium\.fallout2d20-compendium\.(?:en|fr)-/, file);
     references += (text.match(/"\$ref"/g) ?? []).length;
   }
-  assert.equal(references, 441);
+  assert.equal(references, 447);
+});
+
+test("embedded document overlays target stable identities instead of array positions", () => {
+  const english = { items: [{ _id: "first", name: "First" }, { _id: "second", name: "Second" }] };
+  const french = { items: [{ _id: "second", name: "Deuxième" }, { _id: "first", name: "Premier" }] };
+  const { canonical, overlays } = splitLocalizedDocument(english, french);
+  assert.equal(overlays.fr["/items/@first/name"], "Premier");
+  assert.equal(overlays.fr["/items/@second/name"], "Deuxième");
+  assert.deepEqual(materializeLocalizedDocument(canonical, { values: overlays.fr }, "fr").items.map(item => item.name), ["Premier", "Deuxième"]);
+  assert.throws(
+    () => materializeLocalizedDocument({ items: [{ _id: "replacement", name: "Wrong" }] }, { values: { "/items/@first/name": "Premier" } }, "fr"),
+    /embedded document identity first was not found/
+  );
 });

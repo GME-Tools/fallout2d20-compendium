@@ -65,6 +65,21 @@ test("runtime restores ammunition configuration immediately in an already-ready 
   }
 });
 
+test("ammunition restoration preserves third-party entries and is idempotent", async () => {
+  installFoundryMocks({ ready: false });
+  try {
+    CONFIG.FALLOUT.AMMO_BY_UUID = { "Compendium.third-party.ammo.custom": "Custom Ammo" };
+    CONFIG.FALLOUT.AMMO_TYPES = ["Custom Ammo"];
+    const runtime = await import(`${runtimeUrl.href}?ammo-merge`);
+    await runtime.restoreAmmunitionConfiguration();
+    await runtime.restoreAmmunitionConfiguration();
+    assert.equal(CONFIG.FALLOUT.AMMO_BY_UUID["Compendium.third-party.ammo.custom"], "Custom Ammo");
+    assert.deepEqual(CONFIG.FALLOUT.AMMO_TYPES, ["10mm Round", "Custom Ammo", "Munition de 10 mm"]);
+  } finally {
+    clearFoundryMocks();
+  }
+});
+
 test("runtime waits for Foundry ready when loaded during initialization", async () => {
   const callbacks = installFoundryMocks({ ready: false });
   try {
@@ -132,6 +147,61 @@ test("French module Actors use exact kilogram capacity and inventory calculation
     assert.deepEqual(actor.system.carryWeight, { base: 105, value: 107.5, mod: 2.5, total: 15.5 });
     assert.equal(actor.system.encumbranceLevel, 0);
   } finally {
+    clearFoundryMocks();
+  }
+});
+
+test("French Starter Actors use exact kilograms while external and English Actors in pound worlds delegate", async () => {
+  installFoundryMocks({ ready: false });
+  class FalloutActorMock {
+    get useKgs() { return false; }
+    _getItemsTotalWeight() { return 12; }
+    _calculateEncumbrance() { this.delegated = true; }
+    _prepareRobotData() {}
+  }
+  CONFIG.Actor = { documentClass: FalloutActorMock };
+  game.system = { version: "11.17.1" };
+  game.settings = { get: (_system, key) => ({ carryUnit: "lbs", carryBase: 150, carryBaseRobot: 150 })[key] };
+  try {
+    const runtime = await import(`${runtimeUrl.href}?starter-weights`);
+    assert.equal(runtime.installFrenchWeightRuntime(), true);
+    const actor = source => Object.assign(new FalloutActorMock(), {
+      type: "npc",
+      flags: source ? { "fallout2d20-compendium": { source } } : {},
+      system: { attributes: { str: { value: 5 } }, carryWeight: { base: 0, value: 0, mod: 0 }, materials: {} },
+      items: [], perkLevel: () => 0
+    });
+    const starterFr = actor({ book: "starter_set", language: "fr" });
+    starterFr._calculateEncumbrance();
+    assert.equal(starterFr.useKgs, true);
+    assert.equal(starterFr.system.carryWeight.base, 100);
+    for (const delegated of [actor({ book: "starter_set", language: "en" }), actor(null)]) {
+      delegated._calculateEncumbrance();
+      assert.equal(delegated.delegated, true);
+      assert.equal(delegated.useKgs, false);
+    }
+  } finally {
+    clearFoundryMocks();
+  }
+});
+
+test("runtime compatibility fails explicitly for unsupported Fallout versions and missing Actor APIs", async () => {
+  installFoundryMocks({ ready: false });
+  const messages = [];
+  const originalError = console.error;
+  console.error = message => messages.push(message);
+  try {
+    class UnsupportedActor {}
+    CONFIG.Actor = { documentClass: UnsupportedActor };
+    game.system = { version: "12.0.0" };
+    const runtime = await import(`${runtimeUrl.href}?unsupported-system`);
+    assert.equal(runtime.installFrenchWeightRuntime(), false);
+    assert.match(messages.at(-1), /outside the supported runtime compatibility fence/);
+    game.system.version = "11.17.1";
+    assert.equal(runtime.installFrenchWeightRuntime(), false);
+    assert.match(messages.at(-1), /does not expose the Actor APIs required/);
+  } finally {
+    console.error = originalError;
     clearFoundryMocks();
   }
 });

@@ -1,9 +1,10 @@
 const MODULE_ID = "fallout2d20-compendium";
 const PATCHED = Symbol.for(`${MODULE_ID}.frenchWeightRuntimePatched`);
+const SUPPORTED_FALLOUT_MAJORS = new Set([11]);
 
 export function isFrenchModuleDocument(document) {
   const source = document?.flags?.[MODULE_ID]?.source;
-  return source?.book === "core_rulebook" && source?.language === "fr";
+  return source?.language === "fr";
 }
 
 export function usesExactKilograms(document) {
@@ -64,11 +65,20 @@ export function installFrenchWeightRuntime() {
   const ActorClass = globalThis.CONFIG?.Actor?.documentClass;
   const prototype = ActorClass?.prototype;
   if (!prototype || prototype[PATCHED]) return false;
+  const systemVersion = globalThis.game?.system?.version;
+  const systemMajor = Number.parseInt(systemVersion, 10);
+  if (systemVersion && !SUPPORTED_FALLOUT_MAJORS.has(systemMajor)) {
+    console.error(`${MODULE_ID} | Fallout ${systemVersion} is outside the supported runtime compatibility fence (${[...SUPPORTED_FALLOUT_MAJORS].join(", ")}.x). Exact French kilogram patches were not installed.`);
+    return false;
+  }
   const useKgs = Object.getOwnPropertyDescriptor(prototype, "useKgs");
   const calculateEncumbrance = prototype._calculateEncumbrance;
   const prepareRobotData = prototype._prepareRobotData;
   const itemsTotalWeight = prototype._getItemsTotalWeight;
-  if (!useKgs?.get || typeof calculateEncumbrance !== "function" || typeof prepareRobotData !== "function" || typeof itemsTotalWeight !== "function") return false;
+  if (!useKgs?.get || typeof calculateEncumbrance !== "function" || typeof prepareRobotData !== "function" || typeof itemsTotalWeight !== "function") {
+    console.error(`${MODULE_ID} | Fallout ${systemVersion ?? "unknown"} does not expose the Actor APIs required for exact French kilogram support.`);
+    return false;
+  }
 
   Object.defineProperty(prototype, "useKgs", {
     configurable: true,
@@ -107,8 +117,8 @@ export async function restoreAmmunitionConfiguration() {
       ammunitionPacks.map(pack => pack.getIndex({ fields: ["system"] }))
     );
     const ammunition = ammunitionIndexes.flatMap(index => [...index]).filter(entry => entry.type === "ammo");
-    const byUuid = {};
-    const names = [];
+    const byUuid = { ...(CONFIG.FALLOUT.AMMO_BY_UUID ?? {}) };
+    const names = [...(CONFIG.FALLOUT.AMMO_TYPES ?? [])];
     for (const entry of ammunition) {
       byUuid[entry.uuid] = entry.name;
       names.push(entry.name);

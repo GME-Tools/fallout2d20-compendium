@@ -1,12 +1,12 @@
 # Fallout 2d20 Compendium
 
-Private bilingual English/French compendium module for Fallout 2d20 on Foundry Virtual Tabletop v14. Version 1.1.0 adds the GM Toolkit tables and reusable structured Starter Set content to the canonical bilingual pack sources.
+Private bilingual English/French compendium module for Fallout 2d20 on Foundry Virtual Tabletop v14. Version 1.1.1 hardens the bilingual canonical architecture and corrects the GM Toolkit, Starter Set, metric runtime, and release qualification contracts.
 
 The project is being rebuilt around readable document sources, reproducible LevelDB packs, automated quality checks, and GitHub release packaging. For version 1, the English Core Rulebook plus Errata Log V6 (2026) is the canonical mechanical source; French documents are adapted from the official French book and checked against that canon.
 
 ## Development
 
-Requirements: Node.js 20 or 23 and npm.
+Requirements: Node.js 20 through 24 and npm. Node.js 24 is the release and Foundry qualification baseline.
 
 ```sh
 npm ci

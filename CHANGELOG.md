@@ -2,6 +2,39 @@
 
 All notable changes to this private module are documented here.
 
+## 1.1.1 — 2026-09-10
+
+### Fixed
+
+- Repair the reviewed Starter Set Actor profiles, inventories, attacks and
+  abilities, using the corrected French third-generation Synth Replica profile.
+- Add the Quadruped and Flying Insect hit-location tables from Errata V6 and
+  correct the evident `Ring Wing` typo to `Right Wing`.
+- Canonicalize 21 unauthorized French recipe divergences and reject mechanical
+  overlay drift outside approved localization and metric conversions.
+- Address embedded Item overlays by stable identity and reject missing targets.
+- Restrict French weight auditing to physical Item types and extend metric
+  runtime handling to every French module publication.
+- Preserve third-party ammunition configuration and fail explicitly when an
+  unsupported Fallout runtime cannot install the compatibility layer.
+
+### Changed
+
+- Align repository and release tooling on Node 20–24, with Node 24 as the
+  release and Foundry qualification baseline.
+- Pin GitHub Actions to immutable commits, add scheduled dependency review,
+  gate releases on a commit-specific Foundry qualification, and automatically
+  verify the published statistics in `STATE.md`.
+
+### Qualification
+
+- Validate 2,650 root documents and 3,708 French weight/capacity fields with no
+  actionable issue or warning.
+- Verify 6,232 records across 36 Foundry v14 LevelDB packs and the 19 MiB
+  release archive.
+- Validate 839 UUIDs, imports, embedded Items, sheets, drag/drop and all 42
+  RollTables on Foundry 14.367 with Fallout 11.17.1 and Node 24.20.0.
+
 ## 1.1.0 — 2026-09-09
 
 ### Added

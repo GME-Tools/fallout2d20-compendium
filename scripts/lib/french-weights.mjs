@@ -1,7 +1,10 @@
 import path from "node:path";
 import { readFile, readdir } from "node:fs/promises";
 
-export const NON_PHYSICAL_WEIGHT_TYPES = new Set(["creature_ability"]);
+export const PHYSICAL_WEIGHT_TYPES = new Set([
+  "ammo", "apparel", "apparel_mod", "books_and_magz", "consumable", "miscellany",
+  "robot_armor", "robot_mod", "weapon", "weapon_mod"
+]);
 
 export function canonicalWeight(value) {
   if (typeof value === "number" && Number.isFinite(value)) return value;
@@ -19,6 +22,13 @@ export function compareFrenchWeight({ pack, document, id, path: fieldPath, engli
   }
   if (french !== expected) return { ok: false, expected, message: `${label}: French weight is ${french} kg; expected ${expected} kg from ${source} lb` };
   return { ok: true, expected, message: null };
+}
+
+export function nonPhysicalWeightIssue(item, label) {
+  if (PHYSICAL_WEIGHT_TYPES.has(item?.type) || !Object.hasOwn(item?.system ?? {}, "weight")) return null;
+  const weight = item.system.weight;
+  if (weight === "" || weight === null || weight === undefined || Number(weight) === 0) return null;
+  return `${label}: non-physical Item type ${JSON.stringify(item.type)} must not carry weight ${JSON.stringify(weight)}`;
 }
 
 async function documents(language, pack) {
@@ -83,7 +93,9 @@ export async function collectFrenchWeightComparisons(packNames) {
         comparisons.push({ ...context, path: "$root", english: english ? "present" : undefined, french: french ? "present" : undefined, target: null, missingDocument: true });
         continue;
       }
-      if (english._key.startsWith("!items!") && !NON_PHYSICAL_WEIGHT_TYPES.has(english.type)) {
+      const rootPhysicalIssue = nonPhysicalWeightIssue(english, `${pack}/${english.name} (${id}) $root.system.weight`);
+      if (rootPhysicalIssue) comparisons.push({ ...context, path: "$root.system.weight", invalidPhysicalType: true, message: rootPhysicalIssue });
+      if (english._key.startsWith("!items!") && PHYSICAL_WEIGHT_TYPES.has(english.type)) {
         collectItemWeights(comparisons, { ...context, scope: "root" }, english, french, "$root");
       }
       if (own(english.system, "carry") || own(french.system, "carry")) {
@@ -97,8 +109,11 @@ export async function collectFrenchWeightComparisons(packNames) {
         const embeddedContext = { ...context, scope: "actor-embedded", embeddedId, embeddedDocument: englishItem?.name ?? frenchItem?.name ?? "<missing embedded Item>" };
         if (!englishItem || !frenchItem) {
           comparisons.push({ ...embeddedContext, path: `items.${embeddedId}`, english: englishItem ? "present" : undefined, french: frenchItem ? "present" : undefined, target: null, missingDocument: true });
-        } else if (!NON_PHYSICAL_WEIGHT_TYPES.has(englishItem.type)) {
+        } else if (PHYSICAL_WEIGHT_TYPES.has(englishItem.type)) {
           collectItemWeights(comparisons, embeddedContext, englishItem, frenchItem, `items.${embeddedId}`);
+        } else {
+          const physicalIssue = nonPhysicalWeightIssue(englishItem, `${pack}/${english.name} (${id}) items.${embeddedId}.system.weight`);
+          if (physicalIssue) comparisons.push({ ...embeddedContext, path: `items.${embeddedId}.system.weight`, invalidPhysicalType: true, message: physicalIssue });
         }
       }
       for (const key of new Set([...Object.keys(english.system?.carryWeight ?? {}), ...Object.keys(french.system?.carryWeight ?? {})])) {
@@ -113,6 +128,10 @@ export async function collectFrenchWeightComparisons(packNames) {
 export function auditFrenchWeightComparisons(comparisons) {
   const issues = [];
   for (const comparison of comparisons) {
+    if (comparison.invalidPhysicalType) {
+      issues.push(comparison);
+      continue;
+    }
     const label = `${comparison.pack}/${comparison.document} (${comparison.id}) ${comparison.path}`;
     if (comparison.missingDocument) {
       issues.push({ ...comparison, expected: null, message: `${label}: missing EN/FR paired document (EN ${comparison.english ?? "absent"}, FR ${comparison.french ?? "absent"})` });

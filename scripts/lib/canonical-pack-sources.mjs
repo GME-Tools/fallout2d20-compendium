@@ -23,12 +23,31 @@ function equal(left, right) {
   return JSON.stringify(left) === JSON.stringify(right);
 }
 
+function documentArrayById(value) {
+  if (!Array.isArray(value) || !value.every(child => child && typeof child === "object" && typeof embeddedDocumentId(child) === "string")) return null;
+  const entries = new Map(value.map(child => [embeddedDocumentId(child), child]));
+  return entries.size === value.length ? entries : null;
+}
+
+function embeddedDocumentId(value) {
+  return value?._id ?? value?.$overrides?.["/_id"];
+}
+
 function splitValue(english, french, pointer, overlays) {
   const en = english === MISSING ? MISSING : normalizeReferences(english);
   const fr = french === MISSING ? MISSING : normalizeReferences(french);
   if (en !== MISSING && fr !== MISSING && equal(en, fr)) return en;
 
   if (en !== MISSING && fr !== MISSING && Array.isArray(en) && Array.isArray(fr) && en.length === fr.length) {
+    const englishById = documentArrayById(en);
+    const frenchById = documentArrayById(fr);
+    if (englishById && frenchById && [...englishById.keys()].every(id => frenchById.has(id))) {
+      return en.map(value => {
+        const id = embeddedDocumentId(value);
+        const common = splitValue(value, frenchById.get(id), `${pointer}/@${pointerSegment(id)}`, overlays);
+        return common === MISSING ? null : common;
+      });
+    }
     return en.map((value, index) => {
       const common = splitValue(value, fr[index], `${pointer}/${index}`, overlays);
       return common === MISSING ? null : common;
@@ -61,11 +80,20 @@ function setPointer(target, pointer, value) {
   if (!pointer) return structuredClone(value);
   const segments = pointer.slice(1).split("/").map(segment => segment.replaceAll("~1", "/").replaceAll("~0", "~"));
   let parent = target;
-  for (const [index, segment] of segments.slice(0, -1).entries()) {
+  for (const [index, rawSegment] of segments.slice(0, -1).entries()) {
+    const segment = Array.isArray(parent) && rawSegment.startsWith("@")
+      ? parent.findIndex(child => embeddedDocumentId(child) === rawSegment.slice(1))
+      : rawSegment;
+    if (segment === -1) throw new Error(`${pointer}: embedded document identity ${rawSegment.slice(1)} was not found`);
     if (parent[segment] === null || parent[segment] === undefined) parent[segment] = /^\d+$/.test(segments[index + 1]) ? [] : {};
     parent = parent[segment];
   }
-  parent[segments.at(-1)] = structuredClone(value);
+  const rawFinal = segments.at(-1);
+  const final = Array.isArray(parent) && rawFinal.startsWith("@")
+    ? parent.findIndex(child => embeddedDocumentId(child) === rawFinal.slice(1))
+    : rawFinal;
+  if (final === -1) throw new Error(`${pointer}: embedded document identity ${rawFinal.slice(1)} was not found`);
+  parent[final] = structuredClone(value);
   return target;
 }
 

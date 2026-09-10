@@ -5462,6 +5462,16 @@
   },
   "rollTables": [
     {
+      "id": "3690dbb34a5d00b1",
+      "name": "Hit Locations (Quadruped)",
+      "type": "RollTable"
+    },
+    {
+      "id": "3c85a5acf584ec45",
+      "name": "Hit Locations (Flying Insect)",
+      "type": "RollTable"
+    },
+    {
       "id": "3yyd2m95Aw6isb56",
       "name": "Wacky Vault Quests",
       "type": "RollTable"

@@ -2,7 +2,8 @@
 
 ## Everyday validation
 
-Use Node.js 20 or 23 for repository tooling:
+Use Node.js 20, 22, or 24 for repository tooling. Node 24 is the release and
+local Foundry qualification baseline:
 
 ```sh
 npm ci
@@ -56,6 +57,8 @@ node scripts/build-packs.mjs --output /tmp/fallout2d20-packs
 For an installed server and isolated world, set `FOUNDRY_APP_PATH`,
 `FOUNDRY_DATA_PATH`, and `FOUNDRY_WORLD`, then run `./ci/run_headless_validation.sh`.
 It binds to loopback and fails on startup errors or missing embedded records.
+On the maintainer workstation, the Foundry server application is installed at
+`/home/benjamin/Foundry/foundryapp`.
 Foundry 14.367 requires Node 24.13.1 or later for its server; this is independent
 of the repository's Node build matrix.
 
@@ -63,6 +66,13 @@ Browser validation is available through `ci/run_foundry_browser_validation.mjs`
 with external Playwright. `ci/run_foundry_us106_validation.mjs` retains the
 specialized capacity and multi-client language regression. Both target only the
 isolated smoke server.
+
+The release workflow is gated by repository variables
+`FOUNDRY_QUALIFIED_SHA`, `FOUNDRY_EXPECTED_VERSION`, and
+`FOUNDRY_EXPECTED_SYSTEM_VERSION`. After the browser suite passes, set them to
+the tested commit SHA and exact Foundry/Fallout versions. A release from a
+different commit, an unqualified commit, or a version outside the supported
+Foundry 14 / Fallout 11 fence fails before assets are uploaded.
 
 ## Release
 

@@ -56,7 +56,8 @@
         "rarity": "uncommon",
         "materials": {
           "common": 7,
-          "rare": 3
+          "rare": 3,
+          "uncommon": 6
         }
       }
     }

@@ -32,5 +32,5 @@ test("every canonical document has an explicit artwork decision shared by both l
       counts[decision.artworkStatus]++;
     }
   }
-  assert.deepEqual(counts,{dedicated:665,shared:618,placeholder:40});
+  assert.deepEqual(counts,{dedicated:665,shared:618,placeholder:42});
 });

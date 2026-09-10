@@ -100,6 +100,7 @@ try {
         || sheet.element?.isConnected
         || sheet.element?.[0]?.isConnected
         || document.getElementById(sheet.id)
+        || foundry.applications?.instances?.has?.(sheet.id)
       );
       importChecks.itemSheetRendered = isRendered(weapon.sheet);
       importChecks.actorSheetRendered = isRendered(npcSource.sheet);
@@ -109,7 +110,7 @@ try {
       await table.sheet.close();
 
       const draws = await Promise.all(enTables.map((candidate) => candidate.draw({ displayChat: false })));
-      importChecks.tableDrawn = draws.length === 40 && draws.every((draw) => draw.results.length === 1);
+      importChecks.tableDrawn = draws.length === 42 && draws.every((draw) => draw.results.length === 1);
     } finally {
       for (const document of created.reverse()) await document.delete();
     }
@@ -140,7 +141,7 @@ try {
   assert.equal(result.systemId, "fallout");
   if (expectedSystemVersion) assert.equal(result.systemVersion, expectedSystemVersion);
   assert.equal(result.packCount, 36);
-  assert.equal(result.documentCount, 2646);
+  assert.equal(result.documentCount, 2650);
   assert.deepEqual(result.unresolvedUuids, []);
   assert.ok(result.actorEmbeddedItems.enNpc > 0);
   assert.ok(result.actorEmbeddedItems.frCreature > 0);

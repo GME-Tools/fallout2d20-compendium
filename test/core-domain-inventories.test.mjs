@@ -62,7 +62,7 @@ test("survival hazards, stations, and all Core random tables exactly match their
   }
   const tables = (await documents("en", "roll-tables")).filter((document) => document._key === `!tables!${document._id}` && document.flags?.[moduleId]?.source?.book === "core_rulebook");
   assert.deepEqual(sorted(tables.map(entry)), survival.rollTables);
-  assert.equal(survival.rollTables.length, 30);
+  assert.equal(survival.rollTables.length, 32);
 });
 
 test("the denizen inventory exactly covers creatures, NPCs, and adventure profiles", async () => {
