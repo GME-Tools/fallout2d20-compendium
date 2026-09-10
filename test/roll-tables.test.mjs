@@ -3,6 +3,16 @@ import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
+test("every RollTable result weight equals its inclusive range span", async () => {
+  for (const language of ["en", "fr"]) {
+    const root = path.join("generated/source-packs", language, "roll-tables.db");
+    const documents = await Promise.all((await readdir(root)).map(async file => JSON.parse(await readFile(path.join(root, file), "utf8"))));
+    for (const result of documents.filter(document => document._key?.startsWith("!tables.results!"))) {
+      assert.equal(result.weight, result.range[1] - result.range[0] + 1, `${language}/${result._key}/${result.name}`);
+    }
+  }
+});
+
 test("paired trinket tables contain a complete d20 range", async () => {
   for (const language of ["en", "fr"]) {
     const root = path.join("generated/source-packs", language, "roll-tables.db");
@@ -52,8 +62,8 @@ test("Errata V6 hit-location tables preserve exact d20 coverage and bilingual re
       assert.deepEqual(table.flags["fallout2d20-compendium"].source.errata, ["errata-v6-2026"]);
       assert.deepEqual(table.results.map(id => {
         const result = documents.find(document => document._id === id);
-        return [...result.range, result.name];
-      }), rows);
+        return [...result.range, result.weight, result.name];
+      }), rows.map(([from, to, label]) => [from, to, to - from + 1, label]));
     }
   }
 });

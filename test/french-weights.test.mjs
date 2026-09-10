@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { PACKS } from "../scripts/config.mjs";
-import { auditFrenchWeightComparisons, collectFrenchWeightComparisons, compareFrenchWeight, nonPhysicalWeightIssue } from "../scripts/lib/french-weights.mjs";
+import { auditFrenchWeightComparisons, collectFrenchWeightComparisons, compareFrenchWeight, nonPhysicalWeightIssue, pairedNonPhysicalWeightIssues } from "../scripts/lib/french-weights.mjs";
 
 const base = { pack: "weapons", document: "Test Weapon", id: "TestWeight000001", path: "$root.system.weight" };
 
@@ -27,6 +27,15 @@ test("non-physical Items reject inherited weight while physical Items remain eli
   assert.match(nonPhysicalWeightIssue({ type: "special_ability", system: { weight: 2 } }, "ability"), /must not carry weight/);
   assert.equal(nonPhysicalWeightIssue({ type: "special_ability", system: {} }, "ability"), null);
   assert.equal(nonPhysicalWeightIssue({ type: "weapon", system: { weight: 2 } }, "weapon"), null);
+});
+
+test("non-physical weights are rejected symmetrically for roots and embedded Items", () => {
+  const empty = { type: "special_ability", system: {} };
+  const weighted = { type: "special_ability", system: { weight: 1 } };
+  assert.deepEqual(pairedNonPhysicalWeightIssues(weighted, empty, "root", "$root.system.weight").map(issue => issue.language), ["EN"]);
+  assert.deepEqual(pairedNonPhysicalWeightIssues(empty, weighted, "root", "$root.system.weight").map(issue => issue.language), ["FR"]);
+  const embedded = pairedNonPhysicalWeightIssues(empty, weighted, "actor/items.Ability", "items.Ability.system.weight");
+  assert.deepEqual(embedded.map(issue => [issue.language, issue.path]), [["FR", "items.Ability.system.weight"]]);
 });
 
 test("all root, nested-mod, and Actor-embedded French weights match the English Core canon", async () => {

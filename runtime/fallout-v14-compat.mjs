@@ -1,6 +1,8 @@
+import { COMPATIBILITY } from "./compatibility.mjs";
+
 const MODULE_ID = "fallout2d20-compendium";
 const PATCHED = Symbol.for(`${MODULE_ID}.frenchWeightRuntimePatched`);
-const SUPPORTED_FALLOUT_MAJORS = new Set([11]);
+const SUPPORTED_FALLOUT_MAJORS = new Set([COMPATIBILITY.fallout.major]);
 
 export function isFrenchModuleDocument(document) {
   const source = document?.flags?.[MODULE_ID]?.source;

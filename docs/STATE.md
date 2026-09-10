@@ -1,10 +1,10 @@
 # Current project state
 
-- Current release: `1.1.1`, tag `v1.1.1`.
+- Current release: `1.1.2`, tag `v1.1.2`.
 - Released V1 work is summarized by the stable baseline below; completed story
   contracts and transient qualification reports have been removed.
 - Completed milestone: V1.1.0 GM Toolkit and Starter Set, US-301 through US-306.
-- Qualified matrix at V1.1.1: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
+- Qualified matrix at V1.1.2: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
 - The latest and prior compatibility pairs coincide; the disposable-world
   browser suite passed all 42 table draws,
   imports, sheets, embedded Items, drag/drop and UUID resolution.
@@ -34,6 +34,6 @@
 
 ## Read next
 
-V1.1.1 is complete. Await owner direction before opening the next milestone.
+V1.1.2 is complete. Await owner direction before opening the next milestone.
 Retired tooling and historical evidence live under `archive/` and are excluded
 from normal agent context.

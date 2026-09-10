@@ -1,8 +1,18 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { LANGUAGES, PACKS, packId } from "./config.mjs";
+import { COMPATIBILITY } from "../runtime/compatibility.mjs";
 
 const check = process.argv.includes("--check");
 const base = JSON.parse(await readFile("module.base.json", "utf8"));
+
+base.compatibility = {
+  minimum: String(COMPATIBILITY.foundry.major),
+  verified: String(COMPATIBILITY.foundry.major)
+};
+base.relationships.systems[0].compatibility = {
+  minimum: COMPATIBILITY.fallout.minimum,
+  maximum: COMPATIBILITY.fallout.maximum
+};
 
 base.packs = LANGUAGES.flatMap(language => PACKS.map(pack => ({
   name: packId(language, pack.name),

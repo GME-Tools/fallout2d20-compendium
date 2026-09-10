@@ -61,6 +61,8 @@ On the maintainer workstation, the Foundry server application is installed at
 `/home/benjamin/Foundry/foundryapp`.
 Foundry 14.367 requires Node 24.13.1 or later for its server; this is independent
 of the repository's Node build matrix.
+The supported runtime contract is Foundry 14.x with Fallout 11.17.1 or newer
+within major version 11; Fallout 12 is rejected until separately qualified.
 
 Browser validation is available through `ci/run_foundry_browser_validation.mjs`
 with external Playwright. `ci/run_foundry_us106_validation.mjs` retains the

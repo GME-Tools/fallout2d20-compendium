@@ -5,7 +5,7 @@
   "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Uxxc3gTKcLNpcBLU]{2 Nuka-Cola}",
   "type": "text",
   "img": "icons/svg/d20-black.svg",
-  "weight": 1,
+  "weight": 2,
   "range": [
     16,
     17

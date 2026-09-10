@@ -2,7 +2,7 @@
   "id": "fallout2d20-compendium",
   "title": "Fallout 2d20 Compendium",
   "description": "Bilingual English and French compendium for Fallout 2d20. Version 1 covers the complete Core Rulebook with current errata.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "authors": [
     {
       "name": "GME-Tools"
@@ -18,7 +18,8 @@
         "id": "fallout",
         "type": "system",
         "compatibility": {
-          "minimum": "11.17.1"
+          "minimum": "11.17.1",
+          "maximum": "11.999.999"
         }
       }
     ]

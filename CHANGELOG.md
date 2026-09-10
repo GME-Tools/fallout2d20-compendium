@@ -2,6 +2,26 @@
 
 All notable changes to this private module are documented here.
 
+## 1.1.2 — 2026-09-10
+
+### Fixed
+
+- Restrict deterministic French metric overlays to reviewed schema paths and
+  reject unrelated mechanical fields whose leaf is merely named `base`.
+- Reject non-physical Item weights symmetrically when introduced by either the
+  English canonical source or French localized data, including embedded Items.
+- Normalize all RollTable result weights to their inclusive ranges, including
+  the Errata V6 Quadruped and Flying Insect hit-location tables, and enforce the
+  relationship globally.
+- Derive manifest, runtime and qualification checks from one Foundry 14 and
+  Fallout 11.17.1–11.x compatibility contract.
+
+### Validation
+
+- Add regression coverage for metric path allowlists, French-only invalid
+  weights, global RollTable weight/range consistency, and compatibility
+  contract alignment.
+
 ## 1.1.1 — 2026-09-10
 
 ### Fixed

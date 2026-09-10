@@ -31,6 +31,15 @@ export function nonPhysicalWeightIssue(item, label) {
   return `${label}: non-physical Item type ${JSON.stringify(item.type)} must not carry weight ${JSON.stringify(weight)}`;
 }
 
+export function pairedNonPhysicalWeightIssues(english, french, label, path) {
+  const issues = [];
+  for (const [language, item] of [["EN", english], ["FR", french]]) {
+    const message = nonPhysicalWeightIssue(item, `${label} [${language}]`);
+    if (message) issues.push({ path, invalidPhysicalType: true, language, message });
+  }
+  return issues;
+}
+
 async function documents(language, pack) {
   const root = path.resolve("generated/source-packs", language, `${pack}.db`);
   const result = new Map();
@@ -93,8 +102,7 @@ export async function collectFrenchWeightComparisons(packNames) {
         comparisons.push({ ...context, path: "$root", english: english ? "present" : undefined, french: french ? "present" : undefined, target: null, missingDocument: true });
         continue;
       }
-      const rootPhysicalIssue = nonPhysicalWeightIssue(english, `${pack}/${english.name} (${id}) $root.system.weight`);
-      if (rootPhysicalIssue) comparisons.push({ ...context, path: "$root.system.weight", invalidPhysicalType: true, message: rootPhysicalIssue });
+      comparisons.push(...pairedNonPhysicalWeightIssues(english, french, `${pack}/${english.name} (${id}) $root.system.weight`, "$root.system.weight").map(issue => ({ ...context, ...issue })));
       if (english._key.startsWith("!items!") && PHYSICAL_WEIGHT_TYPES.has(english.type)) {
         collectItemWeights(comparisons, { ...context, scope: "root" }, english, french, "$root");
       }
@@ -112,8 +120,7 @@ export async function collectFrenchWeightComparisons(packNames) {
         } else if (PHYSICAL_WEIGHT_TYPES.has(englishItem.type)) {
           collectItemWeights(comparisons, embeddedContext, englishItem, frenchItem, `items.${embeddedId}`);
         } else {
-          const physicalIssue = nonPhysicalWeightIssue(englishItem, `${pack}/${english.name} (${id}) items.${embeddedId}.system.weight`);
-          if (physicalIssue) comparisons.push({ ...embeddedContext, path: `items.${embeddedId}.system.weight`, invalidPhysicalType: true, message: physicalIssue });
+          comparisons.push(...pairedNonPhysicalWeightIssues(englishItem, frenchItem, `${pack}/${english.name} (${id}) items.${embeddedId}.system.weight`, `items.${embeddedId}.system.weight`).map(issue => ({ ...embeddedContext, ...issue })));
         }
       }
       for (const key of new Set([...Object.keys(english.system?.carryWeight ?? {}), ...Object.keys(french.system?.carryWeight ?? {})])) {
