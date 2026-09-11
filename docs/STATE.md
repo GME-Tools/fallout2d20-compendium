@@ -16,14 +16,15 @@
 
 - 36 categorical bilingual packs (18 per language); creatures and NPCs share
   the `denizens` pack.
-- 1,388 root documents per language; 2,776 total. Denizen abilities remain
+- 1,389 root documents per language; 2,778 total. Denizen abilities remain
   embedded in their Actors.
-- 7,220 compiled LevelDB records across 36 packs.
-- 45 RollTables per language, including the generic Hit Locations table, both
+- 7,234 compiled LevelDB records across 36 packs.
+- 46 RollTables per language, including the generic Hit Locations table, the
+  Mister Handy Hit Locations table, both
   specialized tables added by Errata V6, and the GM Toolkit and Starter Set tables.
 - 3,879 audited French weight/capacity fields; non-physical Items are rejected
   when they carry a non-zero weight.
-- 33 Core RollTable placeholders mirrored in French remain tracked artwork
+- 34 Core RollTable placeholders mirrored in French remain tracked artwork
   debt; the 10 V1.1.0 tables intentionally retain the neutral die icon.
 - Pack sources use one shared canonical tree plus sparse EN/FR overlays. The 36
   language-specific source views and LevelDB packs are generated, and embedded

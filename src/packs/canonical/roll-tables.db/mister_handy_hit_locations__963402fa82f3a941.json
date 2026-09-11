@@ -1,0 +1,77 @@
+{
+  "_id": "963402fa82f3a941",
+  "_key": "!tables!963402fa82f3a941",
+  "img": "icons/svg/d20-grey.svg",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    {
+      "_id": "e6a3d44013f3038d",
+      "_key": "!tables.results!963402fa82f3a941.e6a3d44013f3038d",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [1, 2],
+      "drawn": false
+    },
+    {
+      "_id": "21908914e2ad94b7",
+      "_key": "!tables.results!963402fa82f3a941.21908914e2ad94b7",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 6,
+      "range": [3, 8],
+      "drawn": false
+    },
+    {
+      "_id": "4c304f36e190598c",
+      "_key": "!tables.results!963402fa82f3a941.4c304f36e190598c",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [9, 11],
+      "drawn": false
+    },
+    {
+      "_id": "6f134fdddaaf4204",
+      "_key": "!tables.results!963402fa82f3a941.6f134fdddaaf4204",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [12, 14],
+      "drawn": false
+    },
+    {
+      "_id": "42f0c51df9ac1ac3",
+      "_key": "!tables.results!963402fa82f3a941.42f0c51df9ac1ac3",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [15, 17],
+      "drawn": false
+    },
+    {
+      "_id": "361d7c668a9f9dc1",
+      "_key": "!tables.results!963402fa82f3a941.361d7c668a9f9dc1",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [18, 20],
+      "drawn": false
+    }
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "core_rulebook",
+        "page": 54,
+        "errataReviewed": true,
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder"
+      }
+    }
+  },
+  "$folder": "core"
+}

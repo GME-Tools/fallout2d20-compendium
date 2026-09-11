@@ -5512,6 +5512,11 @@
       "type": "RollTable"
     },
     {
+      "id": "963402fa82f3a941",
+      "name": "Mister Handy Hit Locations",
+      "type": "RollTable"
+    },
+    {
       "id": "anS2tzaEW0Tct41L",
       "name": "Random Guns and Bullets Issues",
       "type": "RollTable"

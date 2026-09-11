@@ -1,0 +1,21 @@
+{
+  "_key": "!tables!963402fa82f3a941",
+  "_file": "mister_handy_hit_locations__963402fa82f3a941.json",
+  "values": {
+    "/name": "Mister Handy Hit Locations",
+    "/description": "<p>Core Rulebook, p. 54.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@e6a3d44013f3038d/name": "Optics (injury as per Head)",
+    "/results/@e6a3d44013f3038d/description": "Optics (injury as per Head)",
+    "/results/@21908914e2ad94b7/name": "Main body (injury as per Torso)",
+    "/results/@21908914e2ad94b7/description": "Main body (injury as per Torso)",
+    "/results/@4c304f36e190598c/name": "Arm 1",
+    "/results/@4c304f36e190598c/description": "Arm 1",
+    "/results/@6f134fdddaaf4204/name": "Arm 2",
+    "/results/@6f134fdddaaf4204/description": "Arm 2",
+    "/results/@42f0c51df9ac1ac3/name": "Arm 3",
+    "/results/@42f0c51df9ac1ac3/description": "Arm 3",
+    "/results/@361d7c668a9f9dc1/name": "Thruster (injury as per Leg)",
+    "/results/@361d7c668a9f9dc1/description": "Thruster (injury as per Leg)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_key": "!tables!963402fa82f3a941",
+  "_file": "localisation_des_degats_sur_mister_handy__963402fa82f3a941.json",
+  "values": {
+    "/name": "Localisation des dégâts sur Mister Handy",
+    "/description": "<p>Livre de règles, p. 54.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@e6a3d44013f3038d/name": "Optique (blessure comme pour Tête)",
+    "/results/@e6a3d44013f3038d/description": "Optique (blessure comme pour Tête)",
+    "/results/@21908914e2ad94b7/name": "Corps (blessure comme pour Buste)",
+    "/results/@21908914e2ad94b7/description": "Corps (blessure comme pour Buste)",
+    "/results/@4c304f36e190598c/name": "Bras 1",
+    "/results/@4c304f36e190598c/description": "Bras 1",
+    "/results/@6f134fdddaaf4204/name": "Bras 2",
+    "/results/@6f134fdddaaf4204/description": "Bras 2",
+    "/results/@42f0c51df9ac1ac3/name": "Bras 3",
+    "/results/@42f0c51df9ac1ac3/description": "Bras 3",
+    "/results/@361d7c668a9f9dc1/name": "Propulseur (blessure comme pour Jambe)",
+    "/results/@361d7c668a9f9dc1/description": "Propulseur (blessure comme pour Jambe)"
+  }
+}

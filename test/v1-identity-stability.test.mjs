@@ -21,8 +21,8 @@ test("published root identities include the accepted standalone ability removal"
     }
   }
   identities.sort();
-  assert.equal(identities.length, 2610);
-  assert.equal(digest(identities), "68417a34701535b0fbed49bfab51736f28fcaea3211e05ac19472f29c9b72196");
+  assert.equal(identities.length, 2612);
+  assert.equal(digest(identities), "4938a11a1016cc023ae91c4f452886f032da65a24dd7069a4bbaef2664b219d2");
 });
 
 test("pack declarations omit standalone creature abilities", async () => {
