@@ -1,0 +1,12 @@
+{
+  "_key": "!items!0a3038d4837dbf94",
+  "_file": "robot_command_pulser__0a3038d4837dbf94.json",
+  "values": {
+    "/name": "Robot Command Pulser",
+    "/system/description": "<p>A one-of-a-kind Nuka-World robot command transmitter.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Once per day, command all robots in the current zone for one turn to stop, move, pick up or use a non-combat object. PC robots cannot be ordered to fight or harm themselves.</p>"
+  }
+}

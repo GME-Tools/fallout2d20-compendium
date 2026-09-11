@@ -1,0 +1,18 @@
+{
+  "_key": "!items!873d5686a7678b2d",
+  "_file": "aiguillon_de_nuka_aile__873d5686a7678b2d.json",
+  "values": {
+    "/name": "Aiguillon de Nuka-aile",
+    "/system/description": "<p>Un aiguillon venimeux prélevé sur un Nuka-aile.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Infligez 3 DC de dégâts de poison Persistants au consommateur ; tous les dégâts persistants gagnent Vicieux.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "873d5686a7678b2d",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

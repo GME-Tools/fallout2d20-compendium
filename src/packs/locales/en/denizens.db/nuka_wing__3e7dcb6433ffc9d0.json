@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!3e7dcb6433ffc9d0",
+  "_file": "nuka_wing__3e7dcb6433ffc9d0.json",
+  "values": {
+    "/name": "Nuka-Wing",
+    "/token/name": "Nuka-Wing",
+    "/system/biography": "<p>A luminous Stingwing mutation whose fizzing venom violently carbonates its victim’s blood.</p>",
+    "/system/origin": "Mutated Insect",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@50c686f93363805a/name": "Fizzing Stinger",
+    "/items/@50c686f93363805a/system/description": "<p>Body + Melee (TN 12), Persistent (Poison).</p>",
+    "/items/@441804bf6a43371e/name": "Immune to Radiation",
+    "/items/@441804bf6a43371e/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@cdc18b962c8b07bd/name": "Immune to Poison",
+    "/items/@cdc18b962c8b07bd/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@595986472a8bcac0/name": "Flying",
+    "/items/@595986472a8bcac0/system/description": "<p>It flies freely, ignores ground obstacles, must move each turn and suffers falling damage when knocked prone.</p>",
+    "/items/@4bc0388a33788c52/name": "Little",
+    "/items/@4bc0388a33788c52/system/description": "<p>It is slain by any hit that inflicts an Injury.</p>",
+    "/items/@e336225d5ceeb677/name": "Dive-Bomb",
+    "/items/@e336225d5ceeb677/system/description": "<p>After moving into Reach it may reroll 1d20 on Fizzing Stinger, then spend 1 AP to move one zone.</p>",
+    "/items/@afb86124ddb9a329/name": "The Fizz-Pop",
+    "/items/@afb86124ddb9a329/system/description": "<p>Persistent damage gains Vicious.</p>"
+  }
+}

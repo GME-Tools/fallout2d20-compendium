@@ -95,6 +95,83 @@ export const PUBLICATIONS = Object.freeze({
       ])
     }),
     errata: Object.freeze([])
+  }),
+  astoundingly_awesome_tales_1: Object.freeze({
+    id: "astoundingly_awesome_tales_1",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales #1: Orange Colored Sky", fr: "Astoundingly Awesome Tales n° 1 : Un ciel couleur d’orange" }),
+    shortTitles: Object.freeze({ en: "AAT #1", fr: "AAT n° 1" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2023", title: "English digital edition (2023)", version: "2023", translation: "original", errata: Object.freeze([]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-official-2024", title: "Official French digital edition (2024)", version: "2024", translation: "official", errata: Object.freeze([]) })])
+    }),
+    errata: Object.freeze([])
+  }),
+  astoundingly_awesome_tales_2: Object.freeze({
+    id: "astoundingly_awesome_tales_2",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales #2: Fully Operational", fr: "Astoundingly Awesome Tales n° 2 : Totalement opérationnel" }),
+    shortTitles: Object.freeze({ en: "AAT #2", fr: "AAT n° 2" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2023", title: "English digital edition (2023)", version: "2023", translation: "original", errata: Object.freeze([]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-official-2024", title: "Official French digital edition (2024)", version: "2024", translation: "official", errata: Object.freeze([]) })])
+    }),
+    errata: Object.freeze([])
+  }),
+  astoundingly_awesome_tales_3: Object.freeze({
+    id: "astoundingly_awesome_tales_3",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales #3: Showdown in Skull Canyon", fr: "Astoundingly Awesome Tales n° 3 : Duel à Skull Canyon" }),
+    shortTitles: Object.freeze({ en: "AAT #3", fr: "AAT n° 3" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2023", title: "English digital edition (2023)", version: "2023", translation: "original", errata: Object.freeze([]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-project-1.2.0", title: "Project French translation for version 1.2.0", version: "1.2.0", translation: "project", errata: Object.freeze([]) })])
+    }),
+    errata: Object.freeze([])
+  }),
+  astoundingly_awesome_tales_4: Object.freeze({
+    id: "astoundingly_awesome_tales_4",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales #4: Hunted!", fr: "Astoundingly Awesome Tales n° 4 : Traqué !" }),
+    shortTitles: Object.freeze({ en: "AAT #4", fr: "AAT n° 4" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2023", title: "English digital edition (2023)", version: "2023", translation: "original", errata: Object.freeze([]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-project-1.2.0", title: "Project French translation for version 1.2.0", version: "1.2.0", translation: "project", errata: Object.freeze([]) })])
+    }),
+    errata: Object.freeze([])
+  }),
+  astoundingly_awesome_tales_1_5: Object.freeze({
+    id: "astoundingly_awesome_tales_1_5",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales Issues #1–5", fr: "Astoundingly Awesome Tales, numéros 1 à 5" }),
+    shortTitles: Object.freeze({ en: "AAT #1–5", fr: "AAT n° 1–5" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2024", title: "English digital collected edition (2024)", version: "2024", translation: "original", errata: Object.freeze(["errata-v6-2026-aat-1-5"]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-project-1.2.0", title: "Project French translation for version 1.2.0", version: "1.2.0", translation: "project", errata: Object.freeze(["errata-v6-2026-aat-1-5"]) })])
+    }),
+    errata: Object.freeze([Object.freeze({ id: "errata-v6-2026-aat-1-5", title: "Fallout: The Roleplaying Game Errata Log — Astoundingly Awesome Tales 1–5", version: "V6 (2026), Q1 2025 changes", languages: Object.freeze(["en", "fr"]) })])
+  }),
+  astoundingly_awesome_tales_6: Object.freeze({
+    id: "astoundingly_awesome_tales_6",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales #6: Into the Abyss", fr: "Astoundingly Awesome Tales n° 6 : Dans les abysses" }),
+    shortTitles: Object.freeze({ en: "AAT #6", fr: "AAT n° 6" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2024", title: "English digital edition (2024)", version: "2024", translation: "original", errata: Object.freeze([]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-project-1.2.0", title: "Project French translation for version 1.2.0", version: "1.2.0", translation: "project", errata: Object.freeze([]) })])
+    }),
+    errata: Object.freeze([])
+  }),
+  astoundingly_awesome_tales_7: Object.freeze({
+    id: "astoundingly_awesome_tales_7",
+    titles: Object.freeze({ en: "Astoundingly Awesome Tales #7: One Last Visit", fr: "Astoundingly Awesome Tales n° 7 : Une dernière visite" }),
+    shortTitles: Object.freeze({ en: "AAT #7", fr: "AAT n° 7" }),
+    languages: Object.freeze(["en", "fr"]),
+    editions: Object.freeze({
+      en: Object.freeze([Object.freeze({ id: "en-digital-2026", title: "English digital edition (2026)", version: "2026", translation: "original", errata: Object.freeze([]) })]),
+      fr: Object.freeze([Object.freeze({ id: "fr-project-1.2.0", title: "Project French translation for version 1.2.0", version: "1.2.0", translation: "project", errata: Object.freeze([]) })])
+    }),
+    errata: Object.freeze([])
   })
 });
 

@@ -1,0 +1,41 @@
+{
+  "_key": "!actors!772d0f6d939dfad5",
+  "_file": "security_drone_protectron__772d0f6d939dfad5.json",
+  "values": {
+    "/name": "Security Drone, Protectron",
+    "/token/name": "Security Drone, Protectron",
+    "/system/biography": "<p>A lightly built Protectron security drone deployed in the Skull Canyon complex.</p>",
+    "/system/origin": "Robot",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 63
+      }
+    ],
+    "/items/@f30aae0d2e34d967/name": "Claws",
+    "/items/@f30aae0d2e34d967/system/description": "<p>Body + Melee (TN 7).</p>",
+    "/items/@e9d35d909f81b0ad/name": "Arm Lasers",
+    "/items/@e9d35d909f81b0ad/system/description": "<p>Body + Guns (TN 7), Burst, Piercing 1, Range C, Fire Rate 4.</p>",
+    "/items/@f3715dad05d935a3/name": "Self-Destruct",
+    "/items/@f3715dad05d935a3/system/description": "<p>Body + Melee (TN 7), Blast.</p>",
+    "/items/@245faaf0c91635a1/name": "Robot",
+    "/items/@245faaf0c91635a1/system/description": "<p>This character is a robot: it cannot use consumables or heal naturally, and damage must be repaired. It is immune to hunger, thirst and suffocation.</p>",
+    "/items/@4fefd6743d3d7345/name": "Immune to Radiation",
+    "/items/@4fefd6743d3d7345/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@05d3da1471450a7b/name": "Immune to Poison",
+    "/items/@05d3da1471450a7b/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@ff1eacc80410ac97/name": "Arm Lasers",
+    "/items/@ff1eacc80410ac97/system/description": "<p>Each injured arm reduces Fire Rate by 2; both injured arms disable the attack.</p>",
+    "/items/@2d197858236c4bfa/name": "Let Rip",
+    "/items/@2d197858236c4bfa/system/description": "<p>Once per combat add Fire Rate to Arm Lasers damage without ammunition.</p>",
+    "/items/@8e5a0b3d326cc54f/name": "Self-Destruct",
+    "/items/@8e5a0b3d326cc54f/system/description": "<p>At half HP or with both arms injured, move to the nearest enemy and self-destruct.</p>"
+  }
+}

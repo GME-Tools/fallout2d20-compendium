@@ -1,0 +1,32 @@
+{
+  "_key": "!actors!52a5580b3580d732",
+  "_file": "revenant__52a5580b3580d732.json",
+  "values": {
+    "/name": "Revenant",
+    "/token/name": "Revenant",
+    "/system/biography": "<p>A former slave turned principled raider who gives victims a chance to flee.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@52718eea0579574d/name": "Unarmed Strike",
+    "/items/@52718eea0579574d/system/description": "<p>STR + Unarmed (TN 7).</p>",
+    "/items/@86f112009aa5bb2d/name": "Machete",
+    "/items/@86f112009aa5bb2d/system/description": "<p>STR + Melee Weapons (TN 9), Piercing 1.</p>",
+    "/items/@d0b534dbc5b9024b/name": "Combat Shotgun",
+    "/items/@d0b534dbc5b9024b/system/description": "<p>AGI + Small Guns (TN 9), Spread, Fire Rate 2, Range C, Two-Handed, Inaccurate.</p>",
+    "/items/@2219c841a5d98303/name": "For the Fallen",
+    "/items/@2219c841a5d98303/system/description": "<p>When a Revenant is injured or killed, one allied NPC may make a free Attack action.</p>",
+    "/items/@6ab3fdafebea8cc4/name": "Athletics",
+    "/items/@f52ab2f073a000a8/name": "Big Guns",
+    "/items/@3a46ec79796c0fad/name": "Energy Weapons",
+    "/items/@b908e70069157da0/name": "Melee Weapons",
+    "/items/@4d2bafb880ef3273/name": "Repair",
+    "/items/@42bfb48bf9ccd805/name": "Small Guns",
+    "/items/@5c6fd05b0f43eb24/name": "Sneak",
+    "/items/@87bd9323ed8490d9/name": "Speech",
+    "/items/@c5c3287837d195e9/name": "Survival",
+    "/items/@0e91b87b94cdc365/name": "Throwing",
+    "/items/@165997d43ef19b16/name": "Unarmed"
+  }
+}

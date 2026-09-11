@@ -41,6 +41,24 @@
     "/items/@xv8x0emozn3FsSVX/name": "Immunisé contre les radiations",
     "/items/@yykTgk8H6hT6lM5N/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
     "/items/@yykTgk8H6hT6lM5N/name": "Immunisé contre le poison",
-    "/name": "Robot sentinelle"
+    "/name": "Robot sentinelle",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_2",
+        "language": "fr",
+        "edition": "fr-official-2024",
+        "translation": "official",
+        "status": "identical",
+        "page": 21
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 42
+      }
+    ]
   }
 }

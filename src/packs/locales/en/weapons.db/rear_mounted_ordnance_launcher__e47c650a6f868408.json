@@ -1,0 +1,21 @@
+{
+  "_key": "!items!e47c650a6f868408",
+  "_file": "rear_mounted_ordnance_launcher__e47c650a6f868408.json",
+  "values": {
+    "/name": "Rear-Mounted Ordnance Launcher",
+    "/system/description": "<p>An integrated Warhorse weapon system.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

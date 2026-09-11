@@ -16,6 +16,16 @@
     "/items/@JvLBQgLpnSnux11y/name": "Immune to Radiation",
     "/items/@ZdLyFovjZpRBZ2c8/system/description": "<p><span class=\"fontstyle0\">The radroach reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span></p>",
     "/items/@ZdLyFovjZpRBZ2c8/name": "Immune to Poison",
-    "/name": "Radroach"
+    "/name": "Radroach",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "en",
+        "edition": "en-digital-2026",
+        "translation": "original",
+        "status": "identical",
+        "page": 28
+      }
+    ]
   }
 }

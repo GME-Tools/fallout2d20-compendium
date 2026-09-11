@@ -1,0 +1,47 @@
+{
+  "_key": "!actors!48a6bf02379d7e31",
+  "_file": "xuvian_stalker__48a6bf02379d7e31.json",
+  "values": {
+    "/name": "Xuvian Stalker",
+    "/token/name": "Xuvian Stalker",
+    "/system/biography": "<p>An intelligent alien apex predator able to turn invisible and adapt the poison in its tail barb.</p>",
+    "/system/origin": "Mutated Alien",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 82
+      }
+    ],
+    "/items/@8c54958422c0a01c/name": "Arm Blade",
+    "/items/@8c54958422c0a01c/system/description": "<p>Body + Melee (TN 16), Vicious.</p>",
+    "/items/@53830a6ebf63164d/name": "Tail Club",
+    "/items/@53830a6ebf63164d/system/description": "<p>Body + Melee (TN 16), Breaking, Piercing 1; roll on Random Xuvian Poison.</p>",
+    "/items/@46a3825f55da00e0/name": "Tail Barb",
+    "/items/@46a3825f55da00e0/system/description": "<p>Body + Guns (TN 16), Piercing 3, Persistent (Poison), Range M.</p>",
+    "/items/@c4d95d4b62482946/name": "Alien Skin",
+    "/items/@c4d95d4b62482946/system/description": "<p>+2 Physical and Energy DR (included).</p>",
+    "/items/@6d181add0ad38199/name": "Immune to Radiation",
+    "/items/@6d181add0ad38199/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@bcf1d22c8042567c/name": "Immune to Poison",
+    "/items/@bcf1d22c8042567c/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@47ff24b9bbb97781/name": "Invisibility",
+    "/items/@47ff24b9bbb97781/system/description": "<p>As a minor action it becomes nearly invisible, increasing the difficulty to see it by 2 until it attacks or suffers damage.</p>",
+    "/items/@7bd8bad6611ff6ce/name": "Quick Attack",
+    "/items/@7bd8bad6611ff6ce/system/description": "<p>The AP cost of a second major action is reduced by 1, but it must be a different attack.</p>",
+    "/items/@dd7dd85f0d132745/name": "Quickness",
+    "/items/@dd7dd85f0d132745/system/description": "<p>As a major action it may move up to three zones.</p>",
+    "/items/@75dcfe5a818bbfee/name": "Rend",
+    "/items/@75dcfe5a818bbfee/system/description": "<p>It may increase Arm Blade difficulty by 1 to add +3 DC damage.</p>",
+    "/items/@19baca01a922fd77/name": "Small Weak Point",
+    "/items/@19baca01a922fd77/system/description": "<p>Its face has Defense 3.</p>",
+    "/items/@2dc8058e982cdfa2/name": "Spider Feet",
+    "/items/@2dc8058e982cdfa2/system/description": "<p>It can climb walls easily but cannot remain hanging from a ceiling.</p>"
+  }
+}

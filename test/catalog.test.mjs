@@ -83,7 +83,7 @@ test("French ammunition is complete, described, and structurally paired with Eng
 });
 
 test("the French weapon name catalog exhaustively covers English weapon names", async () => {
-  const englishNames = [...new Set((await packDocuments("en", "weapons")).map(document => document.name))].sort();
+  const englishNames = [...new Set((await packDocuments("en", "weapons")).filter(document => document.flags?.["fallout2d20-compendium"]?.source?.book === "core_rulebook").map(document => document.name))].sort();
   assert.deepEqual(Object.keys(frenchWeaponNames).sort(), englishNames);
 });
 
@@ -99,7 +99,7 @@ test("French weapons are complete, described, and retain English mechanical data
       assert.deepEqual(document.system[property], source.system[property], `${document.name} changed ${property}`);
     }
     assert.equal(document.system.weight, source.system.weight / 2, `${document.name} has an unconverted weight`);
-    const expectedAmmo = source.system.ammo === "Syringer Ammo" ? "Seringue" : frenchAmmunitionNames[source.system.ammo] ?? source.system.ammo;
+    const expectedAmmo = source.system.ammo === "Syringer Ammo" ? "Seringue" : source.system.ammo === "Gamma Rounds" ? "Cartouche Gamma" : frenchAmmunitionNames[source.system.ammo] ?? source.system.ammo;
     assert.equal(document.system.ammo, expectedAmmo, `${document.name} has an untranslated ammunition reference`);
     assert.deepEqual(document.system.damage, source.system.damage, `${document.name} changed its damage automation`);
   }

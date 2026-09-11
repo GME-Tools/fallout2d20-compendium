@@ -1,0 +1,236 @@
+{
+  "_id": "e47c650a6f868408",
+  "_key": "!items!e47c650a6f868408",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+  "system": {
+    "ammoPerShot": 1,
+    "attribute": "",
+    "canBeScrapped": true,
+    "condition": "",
+    "consumedOnUse": false,
+    "cost": 0,
+    "creatureAttribute": "body",
+    "creatureSkill": "guns",
+    "damage": {
+      "damageEffect": {
+        "arc": {
+          "rank": 0,
+          "value": 0
+        },
+        "breaking": {
+          "rank": 0,
+          "value": 0
+        },
+        "burst": {
+          "rank": 0,
+          "value": 0
+        },
+        "freeze": {
+          "rank": 0,
+          "value": 0
+        },
+        "persistent": {
+          "rank": 0,
+          "value": 0
+        },
+        "piercing_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "radioactive": {
+          "rank": 0,
+          "value": 0
+        },
+        "spread": {
+          "rank": 0,
+          "value": 0
+        },
+        "stun": {
+          "rank": 0,
+          "value": 0
+        },
+        "tranquilize_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "vicious": {
+          "rank": 0,
+          "value": 0
+        }
+      },
+      "damageType": {
+        "energy": false,
+        "physical": true,
+        "poison": false,
+        "radiation": false
+      },
+      "originalDamageType": {
+        "energy": false,
+        "physical": false,
+        "poison": false,
+        "radiation": false
+      },
+      "originalRating": 0,
+      "rating": 9,
+      "weaponQuality": {
+        "accurate": {
+          "rank": 0,
+          "value": 0
+        },
+        "ammo_hungry_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "aquatic": {
+          "rank": 0,
+          "value": 0
+        },
+        "blast": {
+          "rank": 0,
+          "value": 1
+        },
+        "bombard": {
+          "rank": 0,
+          "value": 0
+        },
+        "close_quarters": {
+          "rank": 0,
+          "value": 0
+        },
+        "concealed": {
+          "rank": 0,
+          "value": 0
+        },
+        "debilitating": {
+          "rank": 0,
+          "value": 0
+        },
+        "delay_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "fuel_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "gatling": {
+          "rank": 0,
+          "value": 0
+        },
+        "inaccurate": {
+          "rank": 0,
+          "value": 1
+        },
+        "limited": {
+          "rank": 0,
+          "value": 0
+        },
+        "mine": {
+          "rank": 0,
+          "value": 0
+        },
+        "night_vision": {
+          "rank": 0,
+          "value": 0
+        },
+        "parry": {
+          "rank": 0,
+          "value": 0
+        },
+        "placed": {
+          "rank": 0,
+          "value": 0
+        },
+        "recoil_x": {
+          "rank": 1,
+          "value": 0
+        },
+        "recon": {
+          "rank": 0,
+          "value": 0
+        },
+        "reliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "slow_load": {
+          "rank": 0,
+          "value": 0
+        },
+        "suppressed": {
+          "rank": 0,
+          "value": 0
+        },
+        "surge": {
+          "rank": 0,
+          "value": 0
+        },
+        "thrown": {
+          "rank": 0,
+          "value": 0
+        },
+        "two_handed": {
+          "rank": 0,
+          "value": 0
+        },
+        "unreliable": {
+          "rank": 0,
+          "value": 0
+        },
+        "unstable_radiation": {
+          "rank": 0,
+          "value": 0
+        },
+        "wrangle": {
+          "rank": 0,
+          "value": 0
+        }
+      }
+    },
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "fireRate": 3,
+    "isJunk": false,
+    "melee": false,
+    "mods": {
+      "current": 1,
+      "installedMods": "",
+      "list": [],
+      "max": 6,
+      "modded": false
+    },
+    "naturalWeapon": false,
+    "originalAmmoPerShot": 0,
+    "quantity": 1,
+    "range": "long",
+    "rarity": 5,
+    "skill": "",
+    "source": "astoundingly_awesome_tales_3",
+    "stashed": false,
+    "tear": 0,
+    "weaponType": "bigGuns",
+    "ammo": "",
+    "description": "",
+    "weight": 0
+  },
+  "type": "weapon",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_3",
+        "page": 18,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 3.",
+        "artworkSharingGroup": "aat-3-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "name": "",
+  "$folder": "bigGuns"
+}

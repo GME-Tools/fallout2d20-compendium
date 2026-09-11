@@ -1,0 +1,31 @@
+{
+  "_key": "!actors!2e9fb494514accc0",
+  "_file": "devil_of_the_depths__2e9fb494514accc0.json",
+  "values": {
+    "/name": "Devil of the Depths",
+    "/token/name": "Devil of the Depths",
+    "/system/biography": "<p>A giant squid mutated to colossal size by the leaking reactor of the USS Everness.</p>",
+    "/system/origin": "Mutated Mollusc",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@f611cff55e10821b/name": "Tentacle Slam",
+    "/items/@f611cff55e10821b/system/description": "<p>Body + Melee (TN 15), Vicious, Range M.</p>",
+    "/items/@80daa2a006c4a253/name": "Radioactive Ink",
+    "/items/@80daa2a006c4a253/system/description": "<p>Body + Guns (TN 12), Blast, Range M.</p>",
+    "/items/@a35fa0d33e063ebf/name": "Aquatic",
+    "/items/@a35fa0d33e063ebf/system/description": "<p>This creature can swim and remain submerged indefinitely and suffers no underwater attack or movement penalties.</p>",
+    "/items/@59c1279616e99c06/name": "Immune to Radiation",
+    "/items/@59c1279616e99c06/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@2573fa660d0a7be0/name": "Immune to Poison",
+    "/items/@2573fa660d0a7be0/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@95a6ac731b3ea2ec/name": "Huge",
+    "/items/@95a6ac731b3ea2ec/system/description": "<p>+2 HP per level is included; Defense is reduced by 2 and critical hits require 9 damage.</p>",
+    "/items/@02456cbb5d757893/name": "Many Limbs",
+    "/items/@02456cbb5d757893/system/description": "<p>It has twelve limbs and may attack two targets with one attack action; injuries remove limbs.</p>",
+    "/items/@9298f14669b1eac7/name": "Pull Under",
+    "/items/@9298f14669b1eac7/system/description": "<p>After a successful Tentacle Slam it may spend 2 AP to restrain each target until the end of its next turn on a failed difficulty 2 Athletics test.</p>",
+    "/items/@38747fbf38f0f48a/name": "Radioactive Cloud",
+    "/items/@38747fbf38f0f48a/system/description": "<p>Radioactive Ink creates a persistent glowing cloud hazard in its target zone.</p>"
+  }
+}

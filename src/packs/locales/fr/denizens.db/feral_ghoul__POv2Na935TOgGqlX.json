@@ -41,6 +41,14 @@
         "status": "identical",
         "translation": "official",
         "page": 30
+      },
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 15
       }
     ]
   }

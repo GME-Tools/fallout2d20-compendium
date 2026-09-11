@@ -26,6 +26,16 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/origin": "Crustacé Mutant",
     "/system/biography": "<p>Les spécimens les plus courants de la famille des fangeux sont désignés sous ce terme générique. Ces créatures ressemblent à des limules, dotées d’imposantes pinces capables de briser un os. On les trouve en groupe à proximité des grandes étendues d’eau. Parfois, leur carapace a accroché des bernacles, un filet ou un autre débris, ce qui rend les fangeux plus facilement repérables.</p>",
-    "/name": "Fangeux"
+    "/name": "Fangeux",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_6",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 18
+      }
+    ]
   }
 }

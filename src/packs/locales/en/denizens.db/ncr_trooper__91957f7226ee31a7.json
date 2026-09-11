@@ -1,0 +1,42 @@
+{
+  "_key": "!actors!91957f7226ee31a7",
+  "_file": "ncr_trooper__91957f7226ee31a7.json",
+  "values": {
+    "/name": "NCR Trooper",
+    "/token/name": "NCR Trooper",
+    "/system/biography": "<p>A trained New California Republic soldier deployed around Skull Canyon.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 58
+      }
+    ],
+    "/items/@c4098c7ee5071119/name": "Unarmed Strike",
+    "/items/@c4098c7ee5071119/system/description": "<p>STR + Unarmed (TN 6).</p>",
+    "/items/@67a6214b08614c6e/name": "10mm Pistol",
+    "/items/@67a6214b08614c6e/system/description": "<p>AGI + Small Guns (TN 10), Range C, Fire Rate 2, Close Quarters, Reliable.</p>",
+    "/items/@473e41340c9a876c/name": "Combat Rifle",
+    "/items/@473e41340c9a876c/system/description": "<p>AGI + Small Guns (TN 10), Range M, Fire Rate 2, Two-Handed.</p>",
+    "/items/@9e15b13fa21c79b7/name": "Let Rip",
+    "/items/@9e15b13fa21c79b7/system/description": "<p>Once per combat add Fire Rate to a pistol or combat-rifle attack.</p>",
+    "/items/@b66e86611fec94a7/name": "Athletics",
+    "/items/@7c08bd0d720fd826/name": "Big Guns",
+    "/items/@d185912a8af614d4/name": "Medicine",
+    "/items/@56faf0d766ad4e9a/name": "Melee Weapons",
+    "/items/@6cd1d44abf11799a/name": "Repair",
+    "/items/@14694bcd564ddaa3/name": "Small Guns",
+    "/items/@e4bfe4ae45c16f7e/name": "Sneak",
+    "/items/@b4492c994a7544e3/name": "Speech",
+    "/items/@dafbf541555fc076/name": "Survival",
+    "/items/@db1a97cd2574292f/name": "Throwing",
+    "/items/@ae909f0137b7471e/name": "Unarmed"
+  }
+}

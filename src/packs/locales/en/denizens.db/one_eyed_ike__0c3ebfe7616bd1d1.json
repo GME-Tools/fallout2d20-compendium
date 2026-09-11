@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!0c3ebfe7616bd1d1",
+  "_file": "one_eyed_ike__0c3ebfe7616bd1d1.json",
+  "values": {
+    "/name": "One-Eyed Ike",
+    "/token/name": "One-Eyed Ike",
+    "/system/biography": "<p>A legendary Protectron gunfighter guarding Dry Rock Gulch.</p>",
+    "/system/origin": "Robot",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@797a904f7c9cb1d8/name": "Claws",
+    "/items/@797a904f7c9cb1d8/system/description": "<p>Body + Melee (TN 10).</p>",
+    "/items/@21188c399a016573/name": "Arm Lasers",
+    "/items/@21188c399a016573/system/description": "<p>Body + Guns (TN 12), Burst, Piercing 1, Range C, Fire Rate 4.</p>",
+    "/items/@52b22de1cf255ca7/name": "Robot",
+    "/items/@52b22de1cf255ca7/system/description": "<p>This character is a robot: it cannot use consumables or heal naturally, and damage must be repaired. It is immune to hunger, thirst and suffocation.</p>",
+    "/items/@106348db51a91029/name": "Immune to Radiation",
+    "/items/@106348db51a91029/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@ac323e6db0ea9d25/name": "Immune to Poison",
+    "/items/@ac323e6db0ea9d25/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@be4c8d69fc56f0fe/name": "One… Two… Three",
+    "/items/@be4c8d69fc56f0fe/system/description": "<p>Ike always acts last and Arm Lasers target the visible enemy with the lowest Initiative, adding Fire Rate to damage.</p>",
+    "/items/@5be76f16c2926392/name": "Arm Lasers",
+    "/items/@5be76f16c2926392/system/description": "<p>Each injured arm reduces Arm Lasers Fire Rate by 2.</p>"
+  }
+}

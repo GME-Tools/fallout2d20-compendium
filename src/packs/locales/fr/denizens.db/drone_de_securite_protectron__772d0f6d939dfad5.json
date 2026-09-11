@@ -1,0 +1,52 @@
+{
+  "_key": "!actors!772d0f6d939dfad5",
+  "_file": "drone_de_securite_protectron__772d0f6d939dfad5.json",
+  "values": {
+    "/name": "Drone de sécurité, Protectron",
+    "/token/name": "Drone de sécurité, Protectron",
+    "/system/biography": "<p>Un drone de sécurité Protectron léger déployé dans le complexe de Skull Canyon.</p>",
+    "/system/origin": "Robot",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "772d0f6d939dfad5",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 63
+      }
+    ],
+    "/items/@f30aae0d2e34d967/name": "Pinces",
+    "/items/@f30aae0d2e34d967/system/description": "<p>Corps + Corps à corps (SR 7).</p>",
+    "/items/@f30aae0d2e34d967/system/weight": 0,
+    "/items/@e9d35d909f81b0ad/name": "Lasers de bras",
+    "/items/@e9d35d909f81b0ad/system/description": "<p>Corps + Distance (SR 7), En rafale, Perforants 1, portée C, cadence de tir 4.</p>",
+    "/items/@e9d35d909f81b0ad/system/weight": 0,
+    "/items/@f3715dad05d935a3/name": "Autodestruction",
+    "/items/@f3715dad05d935a3/system/description": "<p>Corps + Corps à corps (SR 7), Explosion.</p>",
+    "/items/@f3715dad05d935a3/system/weight": 0,
+    "/items/@245faaf0c91635a1/name": "Robot",
+    "/items/@245faaf0c91635a1/system/description": "<p>Ce personnage est un robot : il ne peut pas utiliser de consommables ni guérir naturellement, et ses dégâts doivent être réparés. Il est immunisé contre la faim, la soif et l’asphyxie.</p>",
+    "/items/@4fefd6743d3d7345/name": "Immunisé contre les radiations",
+    "/items/@4fefd6743d3d7345/system/description": "<p>Ce personnage ne peut subir ni dégâts ni effets dus aux radiations.</p>",
+    "/items/@05d3da1471450a7b/name": "Immunisé contre le poison",
+    "/items/@05d3da1471450a7b/system/description": "<p>Ce personnage ne peut subir ni dégâts ni effets dus au poison.</p>",
+    "/items/@ff1eacc80410ac97/name": "Lasers de bras",
+    "/items/@ff1eacc80410ac97/system/description": "<p>Chaque bras blessé réduit la cadence de tir de 2 ; deux bras blessés neutralisent l’attaque.</p>",
+    "/items/@2d197858236c4bfa/name": "Se lâcher",
+    "/items/@2d197858236c4bfa/system/description": "<p>Une fois par combat, ajoutez la cadence de tir aux dégâts des Lasers de bras sans munitions.</p>",
+    "/items/@8e5a0b3d326cc54f/name": "Autodestruction",
+    "/items/@8e5a0b3d326cc54f/system/description": "<p>À la moitié de ses PV ou avec les deux bras blessés, il rejoint l’ennemi le plus proche et s’autodétruit.</p>"
+  }
+}

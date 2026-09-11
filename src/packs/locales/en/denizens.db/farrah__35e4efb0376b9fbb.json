@@ -1,0 +1,28 @@
+{
+  "_key": "!actors!35e4efb0376b9fbb",
+  "_file": "farrah__35e4efb0376b9fbb.json",
+  "values": {
+    "/name": "Farrah",
+    "/token/name": "Farrah",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@1a22f531b6b34425/name": "Bladed Tire Iron",
+    "/items/@1a22f531b6b34425/system/description": "<p>STR + Melee Weapons (TN 9), Persistent.</p>",
+    "/items/@c8e55f5afd42feaa/name": "Sawed-Off Double-Barrel Shotgun",
+    "/items/@c8e55f5afd42feaa/system/description": "<p>AGI + Small Guns (TN 11), Spread, Vicious.</p>",
+    "/items/@f875be6c6fe5a0e9/name": "Immune to Radiation",
+    "/items/@f875be6c6fe5a0e9/system/description": "<p>Farrah suffers no Radiation damage or effects.</p>",
+    "/items/@6aac84cfe9f13756/name": "Ghoul",
+    "/items/@6aac84cfe9f13756/system/description": "<p>Regain 1 HP per 3 Radiation damage inflicted.</p>",
+    "/items/@ba7e19be2f1d6aab/name": "Athletics",
+    "/items/@ec479f76978dcef0/name": "Barter",
+    "/items/@9a205699190f7d80/name": "Melee Weapons",
+    "/items/@3045bd665445d58f/name": "Small Guns",
+    "/items/@fef82c29de95c531/name": "Speech",
+    "/items/@7f646cb32da3866e/name": "Survival",
+    "/items/@0cce54b4cac3874f/name": "Unarmed"
+  }
+}

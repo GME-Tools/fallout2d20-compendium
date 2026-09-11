@@ -35,6 +35,24 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/origin": "Reptile Mutant",
     "/system/biography": "<p>Célèbre dans toutes les Terres désolées, l’écorcheur est une créature crainte par de nombreuses personnes, à raison. Le gouvernement des États-Unis d’avant-guerre a créé ces monstruosités en modifiant par épissage le génome du Caméléon de Jackson, dans le but de remplacer ses soldats sur le champ de bataille. Dotés de griffes et de cornes redoutables, bien plus grands que la plupart des humains, les écorcheurs sont des machines à tuer nettement plus rapides que les autres créatures de leur taille. Les femelles sont souvent plus grandes que les mâles et elles se montrent terriblement protectrices envers leurs œufs et leurs petits. Rencontrer un écorcheur solitaire est déjà dangereux, mais tomber sur un nid garantit une mort rapide et douloureuse.</p>",
-    "/name": "Écorcheur"
+    "/name": "Écorcheur",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_2",
+        "language": "fr",
+        "edition": "fr-official-2024",
+        "translation": "official",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 35
+      }
+    ]
   }
 }

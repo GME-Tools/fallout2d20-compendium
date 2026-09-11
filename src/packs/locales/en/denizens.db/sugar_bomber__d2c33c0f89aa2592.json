@@ -1,0 +1,26 @@
+{
+  "_key": "!actors!d2c33c0f89aa2592",
+  "_file": "sugar_bomber__d2c33c0f89aa2592.json",
+  "values": {
+    "/name": "Sugar Bomber",
+    "/token/name": "Sugar Bomber",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@b3e14d82669537c7/name": "Frag Grenade",
+    "/items/@b3e14d82669537c7/system/description": "<p>PER + Explosives (TN 11), Blast, Thrown, Range M.</p>",
+    "/items/@353b7880f90063db/name": "The Whole Box!",
+    "/items/@353b7880f90063db/system/description": "<p>Once per combat add 4 DC damage but reduce range to Close.</p>",
+    "/items/@04f901e0111fc0ec/name": "Immune to Radiation",
+    "/items/@04f901e0111fc0ec/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@e4f31bc8265305ca/name": "Athletics",
+    "/items/@acf646e872229f6e/name": "Explosives",
+    "/items/@b3efa2aa2434fb6f/name": "Repair",
+    "/items/@9b8bc28d926c5115/name": "Sneak",
+    "/items/@09c65ca55b3ac141/name": "Survival",
+    "/items/@a67027191873bb21/name": "Throwing",
+    "/items/@a24c1bb2adb991dd/name": "Unarmed"
+  }
+}

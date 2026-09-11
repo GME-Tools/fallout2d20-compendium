@@ -28,6 +28,16 @@
     "/items/@JvLBQgLpnSnux11y/name": "Immunisé contre les radiations",
     "/items/@ZdLyFovjZpRBZ2c8/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",
     "/items/@ZdLyFovjZpRBZ2c8/name": "Immunisé contre le poison",
-    "/name": "Radcafard"
+    "/name": "Radcafard",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 28
+      }
+    ]
   }
 }

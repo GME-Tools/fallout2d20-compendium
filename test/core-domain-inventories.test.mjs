@@ -24,7 +24,7 @@ test("the static equipment inventory exactly matches every English equipment pac
   assert.equal(Object.keys(equipment.packs).length, 10);
   let count = 0;
   for (const [pack, expected] of Object.entries(equipment.packs)) {
-    const actual = sorted((await documents("en", pack)).map(entry));
+    const actual = sorted((await documents("en", pack)).filter(document => document.flags?.[moduleId]?.source?.book === "core_rulebook").map(entry));
     assert.deepEqual(actual, expected, `${pack} differs from the reviewed Core inventory`);
     assert.equal(new Set(expected.map(({ id }) => id)).size, expected.length, `${pack} repeats a document id`);
     count += expected.length;
@@ -34,7 +34,7 @@ test("the static equipment inventory exactly matches every English equipment pac
 
 test("all inventoried equipment has a structurally paired French document", async () => {
   for (const [pack, expected] of Object.entries(equipment.packs)) {
-    const french = new Map((await documents("fr", pack)).map((document) => [document._id, document]));
+    const french = new Map((await documents("fr", pack)).filter(document => document.flags?.[moduleId]?.source?.book === "core_rulebook").map((document) => [document._id, document]));
     assert.equal(french.size, expected.length, `${pack} has a language count mismatch`);
     for (const item of expected) {
       const translated = french.get(item.id);
@@ -62,7 +62,7 @@ test("survival hazards, stations, and all Core random tables exactly match their
   }
   const tables = (await documents("en", "roll-tables")).filter((document) => document._key === `!tables!${document._id}` && document.flags?.[moduleId]?.source?.book === "core_rulebook");
   assert.deepEqual(sorted(tables.map(entry)), survival.rollTables);
-  assert.equal(survival.rollTables.length, 32);
+  assert.equal(survival.rollTables.length, 33);
 });
 
 test("the denizen inventory exactly covers creatures, NPCs, and adventure profiles", async () => {

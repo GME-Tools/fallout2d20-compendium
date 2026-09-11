@@ -1,0 +1,52 @@
+{
+  "_key": "!actors!d75d29927c36cd16",
+  "_file": "hot_rod__d75d29927c36cd16.json",
+  "values": {
+    "/name": "Hot Rod",
+    "/token/name": "Hot Rod",
+    "/system/biography": "<p>Chef pillard brutal et principal fabricant du Nectar.</p>",
+    "/system/origin": "Pillard humain",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/system/carryWeight/base": 115,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "d75d29927c36cd16",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 18
+      }
+    ],
+    "/items/@a8ce4665d4a73def/name": "Mains nues",
+    "/items/@a8ce4665d4a73def/system/description": "<p>FOR + Mains nues (SR 12).</p>",
+    "/items/@a8ce4665d4a73def/system/weight": 0,
+    "/items/@5bfec98befab91a7/name": "Démonte-pneu",
+    "/items/@5bfec98befab91a7/system/description": "<p>FOR + Armes de corps à corps (SR 11).</p>",
+    "/items/@5bfec98befab91a7/system/weight": 0,
+    "/items/@2e7480c146f08975/name": "Glouton",
+    "/items/@2e7480c146f08975/system/description": "<p>END + Armes lourdes (SR 13), En rafale, Persistants, Dispersion, portée C, cadence de tir 6, Invalidants, Deux mains.</p>",
+    "/items/@2e7480c146f08975/system/weight": 0,
+    "/items/@08fd926329c64b59/name": "La taille compte",
+    "/items/@08fd926329c64b59/system/description": "<p>Ajoutez +2 DC aux dégâts des Armes lourdes (inclus).</p>",
+    "/items/@c48a2ecec5b6131d/name": "Aux commandes",
+    "/items/@c48a2ecec5b6131d/system/description": "<p>Hot Rod peut ordonner à un pillard de niveau inférieur à portée C d’effectuer immédiatement une action mineure, ou consacrer une action majeure pour lui faire effectuer immédiatement une action majeure.</p>",
+    "/items/@5c5a519c36e36ffd/name": "Armes lourdes",
+    "/items/@60be60c1c7ebee0d/name": "Explosifs",
+    "/items/@3766663f0868e4c8/name": "Armes de corps à corps",
+    "/items/@d98be7af55f67e79/name": "Réparation",
+    "/items/@9359ce176b4f7427/name": "Discours",
+    "/items/@8b9b1ede628086b2/name": "Survie",
+    "/items/@a19ff28f7d8348a9/name": "Mains nues"
+  }
+}

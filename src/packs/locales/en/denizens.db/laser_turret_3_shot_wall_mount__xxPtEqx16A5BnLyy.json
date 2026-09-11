@@ -17,6 +17,24 @@
     "/items/@EawYhE0ig3n6ex5B/name": "Immune to Poison",
     "/items/@CxHQQtgCCjQDPhOX/system/description": "<p>The <span class=\"fontstyle0\">laser</span>&nbsp;turret&nbsp;reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
     "/items/@CxHQQtgCCjQDPhOX/name": "Immune to Radiation",
-    "/name": "Laser Turret 3-Shot (Wall Mount)"
+    "/name": "Laser Turret 3-Shot (Wall Mount)",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_2",
+        "language": "en",
+        "edition": "en-digital-2023",
+        "translation": "original",
+        "status": "identical",
+        "page": 18
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 39
+      }
+    ]
   }
 }

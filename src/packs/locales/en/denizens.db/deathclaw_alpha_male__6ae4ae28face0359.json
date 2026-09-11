@@ -1,0 +1,43 @@
+{
+  "_key": "!actors!6ae4ae28face0359",
+  "_file": "deathclaw_alpha_male__6ae4ae28face0359.json",
+  "values": {
+    "/name": "Deathclaw Alpha Male",
+    "/token/name": "Deathclaw Alpha Male",
+    "/system/biography": "<p>A hardened male deathclaw fiercely protecting its den.</p>",
+    "/system/origin": "Mutated Reptile",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 31
+      }
+    ],
+    "/items/@39d7b82763ccf61f/name": "Claws",
+    "/items/@39d7b82763ccf61f/system/description": "<p>Body + Melee (TN 16), Piercing 1.</p>",
+    "/items/@5db6e7dfe8b90dcb/name": "Slam",
+    "/items/@5db6e7dfe8b90dcb/system/description": "<p>Body + Melee (TN 16), Stun.</p>",
+    "/items/@80b2dc326e87dc95/name": "Heavy Object",
+    "/items/@80b2dc326e87dc95/system/description": "<p>Body + Guns (TN 10), Stun, Thrown, Range M.</p>",
+    "/items/@c0314cb91b9f9382/name": "Immune to Radiation",
+    "/items/@c0314cb91b9f9382/system/description": "<p>The alpha cannot suffer radiation damage or effects.</p>",
+    "/items/@7dc5de78e849348b/name": "Keen Senses",
+    "/items/@7dc5de78e849348b/system/description": "<p>Reduce the difficulty of PER tests by 1.</p>",
+    "/items/@7b515a1b1785c801/name": "Rend",
+    "/items/@7b515a1b1785c801/system/description": "<p>Increase Claws difficulty by 1 to add +2 DC damage.</p>",
+    "/items/@93613641337cbd81/name": "Weak Spot",
+    "/items/@93613641337cbd81/system/description": "<p>Targeting the torso ignores DR.</p>",
+    "/items/@623803a9e552c998/name": "Massive Strength",
+    "/items/@623803a9e552c998/system/description": "<p>The alpha can lift and throw a standard car.</p>",
+    "/items/@893196af93dc1871/name": "Den Protector",
+    "/items/@893196af93dc1871/system/description": "<p>Enemies within Claws range treat the area as difficult terrain.</p>",
+    "/items/@74380c62e66e84f7/name": "Hardened Scales",
+    "/items/@74380c62e66e84f7/system/description": "<p>When Defending, spend up to 3 AP to increase Physical DR by the same amount until next turn.</p>"
+  }
+}

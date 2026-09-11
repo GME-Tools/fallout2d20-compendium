@@ -1,0 +1,39 @@
+{
+  "_key": "!actors!65bd8468be59f1c8",
+  "_file": "dr_jovaughna_terrence__65bd8468be59f1c8.json",
+  "values": {
+    "/name": "Dr. Jovaughna Terrence",
+    "/token/name": "Dr. Jovaughna Terrence",
+    "/system/biography": "<p>Founder of Mt. Sin Central Clinic and senior member of its Board of Caregivers.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 10
+      }
+    ],
+    "/items/@ff77c663fb8ee1cf/name": "Unarmed Strike",
+    "/items/@ff77c663fb8ee1cf/system/description": "<p>STR + Unarmed (TN 8).</p>",
+    "/items/@01ca8483522c8c70/name": "Laser Gun",
+    "/items/@01ca8483522c8c70/system/description": "<p>PER + Energy Weapons (TN 13), Piercing 1, Range C, Fire Rate 2, Close Quarters.</p>",
+    "/items/@bf6b3d8cd1e0e675/name": "Lab Coat",
+    "/items/@bf6b3d8cd1e0e675/system/description": "<p>Once per scene, reroll 1d20 on one INT-based skill test.</p>",
+    "/items/@e808d25d93f7c018/name": "Healer",
+    "/items/@e808d25d93f7c018/system/description": "<p>INT + Medicine heals 2 additional HP, for 7 HP total.</p>",
+    "/items/@3945827ae0c4bcf7/name": "Barter",
+    "/items/@8813e0c2606bd244/name": "Energy Weapons",
+    "/items/@d61a3df29a471f23/name": "Medicine",
+    "/items/@7062af89d8bbd406/name": "Repair",
+    "/items/@f7413dd0f537e303/name": "Science",
+    "/items/@e6af2b4896706383/name": "Speech",
+    "/items/@e5ed650c600f52cf/name": "Survival",
+    "/items/@b22205581d83e373/name": "Unarmed"
+  }
+}

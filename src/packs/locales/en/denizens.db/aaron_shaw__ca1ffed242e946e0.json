@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!ca1ffed242e946e0",
+  "_file": "aaron_shaw__ca1ffed242e946e0.json",
+  "values": {
+    "/name": "Aaron Shaw",
+    "/token/name": "Aaron Shaw",
+    "/system/biography": "<p>A retired sailor haunted by the loss of Garrett McBriar’s expedition in the Graves.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@2d6a29d1ff7ba907/name": "Speargun",
+    "/items/@2d6a29d1ff7ba907/system/description": "<p>AGI + Small Guns (TN 11), Piercing 2, Range M, Aquatic, Two-Handed.</p>",
+    "/items/@b93714b838a690cf/name": "Master Sailor",
+    "/items/@b93714b838a690cf/system/description": "<p>Once per scene Aaron may reroll 1d20 on a skill test on or under water.</p>",
+    "/items/@dc571315854d0f9a/name": "Part of the Crew",
+    "/items/@dc571315854d0f9a/system/description": "<p>Once per scene Aaron may spend 1 AP so an assisted character succeeds at a cost, taking the complication himself.</p>",
+    "/items/@1fdc5bd481512425/name": "Athletics",
+    "/items/@8ca1c373ed4bb88f/name": "Barter",
+    "/items/@2d5641eb4331d214/name": "Lockpick",
+    "/items/@61f9f70097123e45/name": "Medicine",
+    "/items/@f3103b29472d2f34/name": "Pilot",
+    "/items/@7a0933179331631d/name": "Repair",
+    "/items/@9e87e6022e89027a/name": "Small Guns",
+    "/items/@18b521ad83b235c2/name": "Survival"
+  }
+}

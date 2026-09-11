@@ -1,0 +1,18 @@
+{
+  "_key": "!items!fe194419f1497fef",
+  "_file": "casque_tactique_marin__fe194419f1497fef.json",
+  "values": {
+    "/name": "Casque tactique marin",
+    "/system/description": "<p>Un casque léger doté d’un masque respiratoire sous-marin pour les reconnaissances nocturnes.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Avec une Combinaison de plongée tactique, le porteur peut respirer sous l’eau.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "fe194419f1497fef",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

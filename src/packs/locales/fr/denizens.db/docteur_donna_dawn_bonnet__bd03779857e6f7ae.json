@@ -1,0 +1,50 @@
+{
+  "_key": "!actors!bd03779857e6f7ae",
+  "_file": "docteur_donna_dawn_bonnet__bd03779857e6f7ae.json",
+  "values": {
+    "/name": "Docteur Donna « Dawn » Bonnet",
+    "/token/name": "Docteur Donna « Dawn » Bonnet",
+    "/system/biography": "<p>Médecin née dans un Abri et administratrice de terrain à l’hôpital Mt. Sin.</p>",
+    "/system/origin": "Humaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/system/carryWeight/base": 105,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "bd03779857e6f7ae",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 10
+      }
+    ],
+    "/items/@2113e56f37af7c41/name": "Mains nues",
+    "/items/@2113e56f37af7c41/system/description": "<p>FOR + Mains nues (SR 6).</p>",
+    "/items/@2113e56f37af7c41/system/weight": 0,
+    "/items/@aa743c664d06f7e5/name": "Pistolet 10 mm",
+    "/items/@aa743c664d06f7e5/system/description": "<p>AGI + Armes légères (SR 12), portée C, cadence de tir 2, Combat rapproché, Fiable.</p>",
+    "/items/@aa743c664d06f7e5/system/weight": 0,
+    "/items/@de6cb3326545fba0/name": "Née à l’Abri",
+    "/items/@de6cb3326545fba0/system/description": "<p>Réduisez la difficulté des tests d’END pour résister aux maladies ; une fois par quête, le MJ peut introduire une complication liée à l’Abri pour lui rendre 1 point de Chance.</p>",
+    "/items/@7f0bdf8cc11a5b88/name": "Éducation",
+    "/items/@7f0bdf8cc11a5b88/system/description": "<p>Crochetage est un atout personnel (inclus).</p>",
+    "/items/@509c10bb1650f476/name": "Crochetage",
+    "/items/@0692b07c3069f772/name": "Médecine",
+    "/items/@2843c9b999f1b4d7/name": "Réparation",
+    "/items/@d2c8d04f81ea0ca0/name": "Science",
+    "/items/@2d7b9800c0387306/name": "Armes légères",
+    "/items/@7310ee67ef15b305/name": "Discrétion",
+    "/items/@91ae823a44b45936/name": "Discours",
+    "/items/@bb321290ee428fd8/name": "Survie"
+  }
+}

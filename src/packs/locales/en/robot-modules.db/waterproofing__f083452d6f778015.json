@@ -1,0 +1,12 @@
+{
+  "_key": "!items!f083452d6f778015",
+  "_file": "waterproofing__f083452d6f778015.json",
+  "values": {
+    "/name": "Waterproofing",
+    "/system/description": "<p>Specialized seals and components protect a robot in aquatic environments.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Travel underwater without water damage; once per scene reroll 1d20 on an underwater Athletics test.</p>"
+  }
+}

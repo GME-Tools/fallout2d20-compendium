@@ -12,7 +12,7 @@ test("approved duplicate names describe every and only complete duplicate group"
       const documents = [];
       for (const file of await listFiles(path.resolve(`generated/source-packs/${language}/${pack}.db`), candidate => candidate.endsWith(".json"))) {
         const document = JSON.parse(await readFile(file, "utf8"));
-        if (!document._key?.startsWith("!tables.results!")) documents.push(document);
+        documents.push(document);
       }
       const byName = new Map();
       for (const document of documents) {

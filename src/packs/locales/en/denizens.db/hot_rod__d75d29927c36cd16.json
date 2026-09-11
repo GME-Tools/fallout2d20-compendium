@@ -1,0 +1,40 @@
+{
+  "_key": "!actors!d75d29927c36cd16",
+  "_file": "hot_rod__d75d29927c36cd16.json",
+  "values": {
+    "/name": "Hot-Rod",
+    "/token/name": "Hot-Rod",
+    "/system/biography": "<p>A brutal raider leader and the principal manufacturer of Nectar.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 18
+      }
+    ],
+    "/items/@a8ce4665d4a73def/name": "Unarmed Strike",
+    "/items/@a8ce4665d4a73def/system/description": "<p>STR + Unarmed (TN 12).</p>",
+    "/items/@5bfec98befab91a7/name": "Tire Iron",
+    "/items/@5bfec98befab91a7/system/description": "<p>STR + Melee Weapons (TN 11).</p>",
+    "/items/@2e7480c146f08975/name": "Guzzler",
+    "/items/@2e7480c146f08975/system/description": "<p>END + Big Guns (TN 13), Burst, Persistent, Spread, Range C, Fire Rate 6, Debilitating, Two-Handed.</p>",
+    "/items/@08fd926329c64b59/name": "Size Matters",
+    "/items/@08fd926329c64b59/system/description": "<p>Add +2 DC damage with Big Guns (included).</p>",
+    "/items/@c48a2ecec5b6131d/name": "In Charge",
+    "/items/@c48a2ecec5b6131d/system/description": "<p>Hot-Rod may order a lower-level raider within Close to take an immediate minor action, or use a major action to order an immediate major action.</p>",
+    "/items/@5c5a519c36e36ffd/name": "Big Guns",
+    "/items/@60be60c1c7ebee0d/name": "Explosives",
+    "/items/@3766663f0868e4c8/name": "Melee Weapons",
+    "/items/@d98be7af55f67e79/name": "Repair",
+    "/items/@9359ce176b4f7427/name": "Speech",
+    "/items/@8b9b1ede628086b2/name": "Survival",
+    "/items/@a19ff28f7d8348a9/name": "Unarmed"
+  }
+}

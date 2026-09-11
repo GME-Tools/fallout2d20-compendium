@@ -1,0 +1,12 @@
+{
+  "_key": "!items!fe194419f1497fef",
+  "_file": "marine_tactical_helmet__fe194419f1497fef.json",
+  "values": {
+    "/name": "Marine Tactical Helmet",
+    "/system/description": "<p>A lightweight helmet with an underwater breathing mask for nighttime reconnaissance.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>With a Marine Wetsuit, the wearer can breathe underwater.</p>"
+  }
+}

@@ -61,7 +61,11 @@ export const PACK_FOLDER_DEFINITIONS = {
   ],
   "books-and-magazines": publicationSeries.map(x => folder(x[0], x[1], x[2])),
   consumables: [folder("chems", "Chems", "Drogues"), folder("ingredients", "Ingredients", "Ingrédients"), folder("food", "Food", "Nourriture"), folder("beverages", "Beverages", "Boissons"), folder("other", "Other Consumables", "Autres consommables")],
-  denizens: ["animals-insects", "mutated-humanoids", "robots", "super-mutants", "synths", "turrets", "brotherhood", "raiders", "wastelanders", "adventure", "starter-set"].map((key, index) => folder(key, ["Animals and Insects", "Mutated Humanoids", "Robots", "Super Mutants", "Synths", "Turrets", "Brotherhood of Steel", "Raiders", "Wastelanders", "With a Bang, or a Whimper", "Starter Set"][index], ["Animaux et insectes", "Humanoïdes mutants", "Robots", "Super mutants", "Synthétiques", "Tourelles", "Confrérie de l’Acier", "Pillards", "Résidents des Terres désolées", "Il était une fois dans le Commonwealth", "Kit d’initiation"][index])),
+  denizens: [
+    ...["animals-insects", "mutated-humanoids", "robots", "super-mutants", "synths", "turrets", "brotherhood", "raiders", "wastelanders", "adventure", "starter-set"].map((key, index) => folder(key, ["Animals and Insects", "Mutated Humanoids", "Robots", "Super Mutants", "Synths", "Turrets", "Brotherhood of Steel", "Raiders", "Wastelanders", "With a Bang, or a Whimper", "Starter Set"][index], ["Animaux et insectes", "Humanoïdes mutants", "Robots", "Super mutants", "Synthétiques", "Tourelles", "Confrérie de l’Acier", "Pillards", "Résidents des Terres désolées", "Il était une fois dans le Commonwealth", "Kit d’initiation"][index])),
+    folder("aat", "Astoundingly Awesome Tales", "Astoundingly Awesome Tales"),
+    ...Array.from({ length: 7 }, (_, index) => folder(`aat-${index + 1}`, `Issue #${index + 1}`, `Numéro ${index + 1}`, "aat"))
+  ],
   perks: [folder("magazine-perks", "Magazine Perks", "Aptitudes de magazines"), ...publicationSeries.map(x => folder(`magazine-${x[0]}`, x[1], x[2], "magazine-perks"))],
   "robot-armor": [["actuated", "Actuated Frame", "Châssis actionné"], ["factory", "Factory Armor", "Blindage d’usine"], ["hydraulic", "Hydraulic Frame", "Châssis hydraulique"], ["gutsy", "Mister Gutsy Plating", "Blindage de Mister Gutsy"], ["noxious", "Noxious Plate", "Plaque nocive"], ["primal", "Primal Plate", "Plaque primitive"], ["serrated", "Serrated Plate", "Plaque dentelée"], ["standard", "Standard Plating", "Blindage standard"], ["toxic", "Toxic Plate", "Plaque toxique"], ["voltaic", "Voltaic Frame", "Châssis voltaïque"]].map(x => folder(x[0], x[1], x[2])),
   "roll-tables": [
@@ -69,7 +73,8 @@ export const PACK_FOLDER_DEFINITIONS = {
     folder("armor-clothing", "Armor and Clothing", "Armures et vêtements", "equipment"), folder("food-chems", "Food, Beverages and Chems", "Nourriture, boissons et drogues", "equipment"), folder("weapons-ammo", "Weapons and Ammunition", "Armes et munitions", "equipment"),
     folder("encounters", "Encounters", "Rencontres", "core"), folder("vaults", "Vaults", "Abris", "core"),
     folder("gamemaster-toolkit", "GM Toolkit", "Kit du MJ"), folder("gm-locations", "Locations", "Lieux", "gamemaster-toolkit"), folder("gm-encounters", "Encounters", "Rencontres", "gamemaster-toolkit"),
-    folder("starter-set", "Starter Set", "Kit d’initiation")
+    folder("starter-set", "Starter Set", "Kit d’initiation"),
+    ...Array.from({ length: 7 }, (_, index) => folder(`aat-${index + 1}`, `AAT #${index + 1}`, `AAT n° ${index + 1}`))
   ],
   weapons: Object.entries(weaponTypes).map(([key, value]) => folder(key, value.en, value.fr)),
   "weapon-mods": [

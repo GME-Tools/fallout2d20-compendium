@@ -1,0 +1,27 @@
+{
+  "_key": "!items!801d951b69d7479d",
+  "_file": "plastron_du_destrier__801d951b69d7479d.json",
+  "values": {
+    "/name": "Plastron du Destrier",
+    "/system/description": "<p>Un élément d’armure remplaçable du Destrier. Il possède 29 PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 22.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "801d951b69d7479d",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

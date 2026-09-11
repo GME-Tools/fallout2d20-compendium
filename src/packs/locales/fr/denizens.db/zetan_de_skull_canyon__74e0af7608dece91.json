@@ -1,0 +1,40 @@
+{
+  "_key": "!actors!74e0af7608dece91",
+  "_file": "zetan_de_skull_canyon__74e0af7608dece91.json",
+  "values": {
+    "/name": "Zetan de Skull Canyon",
+    "/token/name": "Zetan de Skull Canyon",
+    "/system/biography": "<p>Un Zetan de Skull Canyon équipé d’armes humaines récupérées.</p>",
+    "/system/origin": "Alien mutant",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "74e0af7608dece91",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 68
+      }
+    ],
+    "/items/@a664131b234d1e12/name": "Pistolet .44",
+    "/items/@a664131b234d1e12/system/description": "<p>Corps + Distance (SR 11), portée C, cadence de tir 1.</p>",
+    "/items/@a664131b234d1e12/system/weight": 0,
+    "/items/@049d38dda0dff043/name": "Fusil d’assaut",
+    "/items/@049d38dda0dff043/system/description": "<p>Corps + Distance (SR 11), En rafale, portée M, cadence de tir 2, Deux mains.</p>",
+    "/items/@049d38dda0dff043/system/weight": 0,
+    "/items/@ca5fedcacbfe6549/name": "Arme laser",
+    "/items/@ca5fedcacbfe6549/system/description": "<p>Corps + Distance (SR 11), Perforants 1, portée C, cadence de tir 2, Fiable.</p>",
+    "/items/@ca5fedcacbfe6549/system/weight": 0
+  }
+}

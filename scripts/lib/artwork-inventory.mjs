@@ -5,7 +5,7 @@ import { getPublication } from "../data/publications.mjs";
 
 export const INVENTORY_PATH = "artwork/inventory/artwork-inventory.jsonl";
 export const CONTACT_SHEET_PATH = "artwork/inventory/contact-sheet.html";
-export const EXPECTED_COUNT = 501;
+export const EXPECTED_COUNT = 502;
 export const PRIORITIES = Object.freeze(["P1", "P2", "P3", "P4"]);
 export const REVIEW_STATES = Object.freeze(["pending-owner", "approved", "rejected", "blocked"]);
 export const SOURCE_KINDS = Object.freeze(["owned-official-pdf", "owner-supplied-game-asset", "approved-modiphius-bethesda", "owner-approved-web", "generated-private", "repository-reviewed-asset", "none"]);

@@ -19,7 +19,7 @@ async function roots(language,pack){
 
 test("owner-supplied mod and disease artwork is shared by every bilingual target",async()=>{
   for(const [pack,decision] of Object.entries(decisions)){
-    const en=await roots("en",pack),fr=new Map((await roots("fr",pack)).map(document=>[document._id,document]));
+    const en=(await roots("en",pack)).filter(document=>document.flags?.[moduleId]?.source?.artworkSharingGroup===decision.group),fr=new Map((await roots("fr",pack)).map(document=>[document._id,document]));
     assert.equal(en.length,decision.count,pack);
     for(const document of en){
       const translated=fr.get(document._id),source=document.flags[moduleId].source,translatedSource=translated?.flags[moduleId].source;

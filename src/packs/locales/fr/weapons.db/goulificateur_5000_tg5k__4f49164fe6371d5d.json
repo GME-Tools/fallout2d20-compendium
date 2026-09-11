@@ -1,0 +1,18 @@
+{
+  "_key": "!items!4f49164fe6371d5d",
+  "_file": "goulificateur_5000_tg5k__4f49164fe6371d5d.json",
+  "values": {
+    "/name": "Goulificateur 5000 (TG5K)",
+    "/system/description": "<p>L’arme gamma spécialisée de Ballard projette des radiations contrôlées de faible intensité destinées à favoriser la goulefication.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/ammo": "Cartouche Gamma",
+    "/system/weight": 2,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "4f49164fe6371d5d",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

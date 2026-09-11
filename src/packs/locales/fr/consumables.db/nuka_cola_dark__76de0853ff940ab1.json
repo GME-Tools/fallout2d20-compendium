@@ -1,0 +1,18 @@
+{
+  "_key": "!items!76de0853ff940ab1",
+  "_file": "nuka_cola_dark__76de0853ff940ab1.json",
+  "values": {
+    "/name": "Nuka-Cola Dark",
+    "/system/description": "<p>Une variété alcoolisée et corsée de Nuka-Cola.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Soignez 3 PV. Réduisez de 1 la difficulté des tests de FOR ou d’END jusqu’à la fin de la prochaine scène ; augmentez de 1 celle des tests d’AGI pendant la même durée.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "76de0853ff940ab1",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

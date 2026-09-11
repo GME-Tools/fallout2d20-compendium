@@ -30,9 +30,9 @@ test("GM Toolkit tables have bilingual parity, complete ranges, and project-Fren
       const contract = language === "en" ? expected[english] : expected[byLanguage.en.find(candidate => candidate._id === table._id).name];
       assert.ok(contract, `${language}/${table.name}`);
       assert.equal(table.formula, contract.formula);
-      const results = byLanguage[language].filter(document => document._key.startsWith(`!tables.results!${table._id}.`));
+      const results = table.results;
       assert.equal(results.length, contract.results, `${language}/${table.name}`);
-      assert.deepEqual(new Set(table.results), new Set(results.map(result => result._id)));
+      assert.equal(new Set(results.map(result => result._id)).size, results.length);
       const coverage = results.flatMap(result => Array.from({ length: result.range[1] - result.range[0] + 1 }, (_, index) => result.range[0] + index)).sort((a, b) => a - b);
       assert.deepEqual(coverage, Array.from({ length: 20 }, (_, index) => index + 1), `${language}/${table.name}`);
       assert.ok(results.every(result => result.weight === result.range[1] - result.range[0] + 1));
@@ -48,7 +48,7 @@ test("GM Toolkit encounter-type links resolve within each language", async () =>
   for (const language of ["en", "fr"]) {
     const all = await documents(language);
     const table = all.find(document => document._key === `!tables!${document._id}` && document.name === (language === "en" ? "Random Encounter Type" : "Type de rencontre aléatoire"));
-    const results = all.filter(document => document._key.startsWith(`!tables.results!${table._id}.`));
+    const results = table.results;
     const tableIds = new Set(all.filter(document => document._key === `!tables!${document._id}`).map(document => document._id));
     for (const result of results) {
       const match = result.description.match(new RegExp(`Compendium\\.fallout2d20-compendium\\.${language}-roll-tables\\.RollTable\\.([A-Za-z0-9]{16})`));

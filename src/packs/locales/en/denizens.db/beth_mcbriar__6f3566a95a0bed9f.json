@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!6f3566a95a0bed9f",
+  "_file": "beth_mcbriar__6f3566a95a0bed9f.json",
+  "values": {
+    "/name": "Beth McBriar",
+    "/token/name": "Beth McBriar",
+    "/system/biography": "<p>Owner of Aquatic Antiquities and an experienced diver determined to restore her family’s reputation.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@bb5b2cbe5e5f2672/name": "Speargun",
+    "/items/@bb5b2cbe5e5f2672/system/description": "<p>AGI + Small Guns (TN 11), Piercing 2, Range M, Aquatic, Two-Handed.</p>",
+    "/items/@dd4e6bcedc5d1ef1/name": "Combat Knife",
+    "/items/@dd4e6bcedc5d1ef1/system/description": "<p>STR + Melee Weapons (TN 7), Piercing 1.</p>",
+    "/items/@8bead9cef351fd29/name": "Shopkeep",
+    "/items/@8bead9cef351fd29/system/description": "<p>Beth carries 6d20 caps for trade; the GM determines available goods.</p>",
+    "/items/@31b71710c5561eef/name": "Athletics",
+    "/items/@1c4b6f9e3f4a39c7/name": "Barter",
+    "/items/@279087eaf7ea9a73/name": "Medicine",
+    "/items/@4a1fb92e61aabc94/name": "Repair",
+    "/items/@2e1f17a0f8a7aa49/name": "Science",
+    "/items/@2cb500e069accd70/name": "Small Guns",
+    "/items/@c97dbe25515663f5/name": "Speech",
+    "/items/@f7f9f721f3bbe3ca/name": "Survival"
+  }
+}

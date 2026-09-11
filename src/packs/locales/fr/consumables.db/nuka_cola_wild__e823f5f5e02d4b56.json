@@ -1,0 +1,18 @@
+{
+  "_key": "!items!e823f5f5e02d4b56",
+  "_file": "nuka_cola_wild__e823f5f5e02d4b56.json",
+  "values": {
+    "/name": "Nuka-Cola Wild",
+    "/system/description": "<p>Une variété régionale particulièrement tonique de Nuka-Cola.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Soignez 2 PV et gagnez 1 PA.</p>",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "e823f5f5e02d4b56",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

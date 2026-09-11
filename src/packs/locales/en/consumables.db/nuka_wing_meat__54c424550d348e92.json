@@ -1,0 +1,12 @@
+{
+  "_key": "!items!54c424550d348e92",
+  "_file": "nuka_wing_meat__54c424550d348e92.json",
+  "values": {
+    "/name": "Nuka-Wing Meat",
+    "/system/description": "<p>Fizzing, sickly sweet meat harvested from a Nuka-Wing.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Heal 11 HP and immediately gain 5 AP.</p>"
+  }
+}

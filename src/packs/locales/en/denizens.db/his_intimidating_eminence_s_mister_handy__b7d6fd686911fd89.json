@@ -1,0 +1,33 @@
+{
+  "_key": "!actors!b7d6fd686911fd89",
+  "_file": "his_intimidating_eminence_s_mister_handy__b7d6fd686911fd89.json",
+  "values": {
+    "/name": "His Intimidating Eminence’s Mister Handy",
+    "/token/name": "His Intimidating Eminence’s Mister Handy",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@fa71b077db0f214e/name": "Pincer",
+    "/items/@fa71b077db0f214e/system/description": "<p>STR + Melee Weapons (TN 9).</p>",
+    "/items/@e48d842282cd4cb1/name": "Buzzsaw",
+    "/items/@e48d842282cd4cb1/system/description": "<p>STR + Melee Weapons (TN 9), Piercing 1.</p>",
+    "/items/@24cb70b239703245/name": "Flamer",
+    "/items/@24cb70b239703245/system/description": "<p>END + Big Guns (TN 8), Persistent, Fire Rate 1.</p>",
+    "/items/@977235045e3a18f3/name": "Robot",
+    "/items/@977235045e3a18f3/system/description": "<p>This character is a robot: it cannot use consumables or heal naturally, and damage must be repaired. It is immune to hunger, thirst and suffocation.</p>",
+    "/items/@ac51c4c070cebc7f/name": "Immune to Radiation",
+    "/items/@ac51c4c070cebc7f/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@c5cdfa9316e2c8de/name": "Immune to Poison",
+    "/items/@c5cdfa9316e2c8de/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@f1dd3e03ec531026/name": "Mister Handy",
+    "/items/@f1dd3e03ec531026/system/description": "<p>It has 360-degree vision and ignores difficult ground terrain.</p>",
+    "/items/@1937ce370d895c6f/name": "Big Guns",
+    "/items/@a529c5b31b0da0d5/name": "Medicine",
+    "/items/@52765b50455a6be0/name": "Melee Weapons",
+    "/items/@9fa329ed9376ce8d/name": "Repair",
+    "/items/@952401ad371b34fe/name": "Small Guns",
+    "/items/@435d52cb57c12766/name": "Speech"
+  }
+}

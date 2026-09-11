@@ -1,0 +1,26 @@
+{
+  "_key": "!actors!3db5227b46e039ec",
+  "_file": "abomination__3db5227b46e039ec.json",
+  "values": {
+    "/name": "Abomination",
+    "/token/name": "Abomination",
+    "/system/biography": "<p>An aggressive human-Zetan experimental hybrid held in the Skull Canyon complex.</p>",
+    "/system/origin": "Mutated Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@fd444057a2781ca6/name": "Unarmed Strike",
+    "/items/@fd444057a2781ca6/system/description": "<p>STR + Unarmed (TN 11).</p>",
+    "/items/@9d85f1375d6a9b79/name": "Barbarian",
+    "/items/@9d85f1375d6a9b79/system/description": "<p>+2 Physical and Energy DR (included).</p>",
+    "/items/@17b4f2ed2ab9f43f/name": "Immune to Radiation",
+    "/items/@17b4f2ed2ab9f43f/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@d347dae532127e18/name": "Immune to Poison",
+    "/items/@d347dae532127e18/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@1c295e25e3d83c62/name": "Big Guns",
+    "/items/@660cae34c50e30f3/name": "Melee Weapons",
+    "/items/@26b74ac5dcc9458f/name": "Small Guns",
+    "/items/@8345721c4ad2b6d1/name": "Survival",
+    "/items/@ec1817479d2c5172/name": "Unarmed"
+  }
+}

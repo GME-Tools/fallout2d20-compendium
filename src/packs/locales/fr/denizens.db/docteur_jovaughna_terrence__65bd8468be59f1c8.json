@@ -1,0 +1,50 @@
+{
+  "_key": "!actors!65bd8468be59f1c8",
+  "_file": "docteur_jovaughna_terrence__65bd8468be59f1c8.json",
+  "values": {
+    "/name": "Docteur Jovaughna Terrence",
+    "/token/name": "Docteur Jovaughna Terrence",
+    "/system/biography": "<p>Fondatrice de l’hôpital Mt. Sin et membre expérimentée de son conseil des soignants.</p>",
+    "/system/origin": "Humaine",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/system/carryWeight/base": 110,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "65bd8468be59f1c8",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 10
+      }
+    ],
+    "/items/@ff77c663fb8ee1cf/name": "Mains nues",
+    "/items/@ff77c663fb8ee1cf/system/description": "<p>FOR + Mains nues (SR 8).</p>",
+    "/items/@ff77c663fb8ee1cf/system/weight": 0,
+    "/items/@01ca8483522c8c70/name": "Arme laser",
+    "/items/@01ca8483522c8c70/system/description": "<p>PER + Armes à énergie (SR 13), Perforants 1, portée C, cadence de tir 2, Combat rapproché.</p>",
+    "/items/@01ca8483522c8c70/system/weight": 0,
+    "/items/@bf6b3d8cd1e0e675/name": "Blouse",
+    "/items/@bf6b3d8cd1e0e675/system/description": "<p>Une fois par scène, relancez 1d20 lors d’un test de compétence fondé sur l’INT.</p>",
+    "/items/@e808d25d93f7c018/name": "Soigneuse",
+    "/items/@e808d25d93f7c018/system/description": "<p>INT + Médecine soigne 2 PV supplémentaires, soit 7 PV au total.</p>",
+    "/items/@3945827ae0c4bcf7/name": "Troc",
+    "/items/@8813e0c2606bd244/name": "Armes à énergie",
+    "/items/@d61a3df29a471f23/name": "Médecine",
+    "/items/@7062af89d8bbd406/name": "Réparation",
+    "/items/@f7413dd0f537e303/name": "Science",
+    "/items/@e6af2b4896706383/name": "Discours",
+    "/items/@e5ed650c600f52cf/name": "Survie",
+    "/items/@b22205581d83e373/name": "Mains nues"
+  }
+}

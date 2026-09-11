@@ -1,0 +1,50 @@
+{
+  "_id": "873d5686a7678b2d",
+  "_key": "!items!873d5686a7678b2d",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%207.webp",
+  "name": "",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": true,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "ingredient",
+    "cost": 300,
+    "duration": "instant",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": true,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 2,
+    "rarity": 5,
+    "source": "astoundingly_awesome_tales_7",
+    "stashed": false,
+    "thirstReduction": 0,
+    "description": "",
+    "effect": "",
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_7",
+        "page": 28,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 7.",
+        "artworkSharingGroup": "aat-7-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "$folder": "ingredients"
+}

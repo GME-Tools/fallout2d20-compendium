@@ -27,6 +27,9 @@ Scenes, pregenerated characters, general rules journals, and non-Core supplement
   `src/packs/locales/<language>/`.
 - `generated/source-packs/` contains disposable readable EN/FR views rebuilt by
   repository commands; it must never be edited or committed.
+- Each RollTable source file contains its embedded results. Result `_id` and
+  `_key` values remain explicit and stable; the pack build writes them to
+  Foundry's `tables.results` LevelDB sublevel.
 - Canonical cross-pack references use `$ref` plus sparse `$overrides`. The build
   resolves them recursively, including Actor abilities/equipment and weapon
   mods, so changes to a referenced document propagate unless an instance field

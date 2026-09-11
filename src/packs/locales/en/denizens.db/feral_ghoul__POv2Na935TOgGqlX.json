@@ -29,6 +29,14 @@
         "status": "identical",
         "translation": "original",
         "page": 30
+      },
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "en",
+        "edition": "en-digital-2026",
+        "translation": "original",
+        "status": "identical",
+        "page": 15
       }
     ]
   }

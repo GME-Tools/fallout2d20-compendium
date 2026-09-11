@@ -26,6 +26,16 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/origin": "Insecte Mutant",
     "/system/biography": "<p>Les radiations nucléaires ont transformé les mouches à viande, courantes avant la Grande Guerre, en redoutables créatures surdimensionnées du nom de mouches bouffies. Facilement reconnaissables à leur carapace brunvert mouchetée et à leur apparence charnue et boursouflée, ces créatures ne sont pas des vermines classiques. Les mouches bouffies vivent souvent dans les marais, en nuées de trois à quatre individus. Elles attaquent à distance en propulsant de leur abdomen leurs propres larves, caractérisées par leur aiguillon. Agressives, les mouches bouffies poursuivent sans relâche des proies bien plus grandes qu’elles. Souvent, elles vivent aux côtés de tiques et de darillons à proximité des étendues d’eau ou de carcasses pourrissantes.</p>",
-    "/name": "Mouche bouffie"
+    "/name": "Mouche bouffie",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 28
+      }
+    ]
   }
 }

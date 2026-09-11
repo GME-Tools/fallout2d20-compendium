@@ -1,0 +1,51 @@
+{
+  "_key": "!actors!980fe7d42933cc06",
+  "_file": "tommy_martin_ex_scribe__980fe7d42933cc06.json",
+  "values": {
+    "/name": "Tommy Martin, ex-scribe",
+    "/token/name": "Tommy Martin, ex-scribe",
+    "/system/biography": "<p>Un ancien scribe de la Confrérie en quête d’une découverte assez impressionnante pour retrouver son statut.</p>",
+    "/system/origin": "Humain",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/system/carryWeight/base": 105,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "980fe7d42933cc06",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 26
+      }
+    ],
+    "/items/@e07b73f75dd0855c/name": "Mains nues",
+    "/items/@e07b73f75dd0855c/system/description": "<p>FOR + Mains nues (SR 6).</p>",
+    "/items/@e07b73f75dd0855c/system/weight": 0,
+    "/items/@99aaec4863054f84/name": "Pistolet laser de Tommy",
+    "/items/@99aaec4863054f84/system/description": "<p>PER + Armes à énergie (SR 12), Perforants 2, portée M, cadence de tir 2, Combat rapproché.</p>",
+    "/items/@99aaec4863054f84/system/weight": 0,
+    "/items/@0da2b4b8d00d3207/name": "Expertise d’avant-guerre",
+    "/items/@0da2b4b8d00d3207/system/description": "<p>Gagnez 1d20 bonus pour examiner, identifier ou utiliser une technologie d’avant-guerre.</p>",
+    "/items/@7aa38acc55433257/name": "Se lâcher",
+    "/items/@7aa38acc55433257/system/description": "<p>Une fois par combat, ajoutez la cadence de tir 2 aux dégâts du pistolet laser, pour 9 DC au total.</p>",
+    "/items/@d28b84b238e73743/name": "Commando laser",
+    "/items/@d28b84b238e73743/system/description": "<p>Ajoutez +2 DC aux dégâts des armes à énergie (inclus).</p>",
+    "/items/@4a8ec51ee68f0b96/name": "Armes à énergie",
+    "/items/@2c1b50fb785c1cdc/name": "Crochetage",
+    "/items/@c665726975528edb/name": "Médecine",
+    "/items/@61c0669d9f55e1fe/name": "Réparation",
+    "/items/@28ec58161a366482/name": "Science",
+    "/items/@73c156e06b96ad20/name": "Discrétion",
+    "/items/@4073f9a553aff922/name": "Discours"
+  }
+}

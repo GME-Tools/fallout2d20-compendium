@@ -1,0 +1,12 @@
+{
+  "_key": "!items!76de0853ff940ab1",
+  "_file": "nuka_cola_dark__76de0853ff940ab1.json",
+  "values": {
+    "/name": "Nuka-Cola Dark",
+    "/system/description": "<p>A dark alcoholic Nuka-Cola variety with a heavy kick.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Heal 3 HP. Reduce STR or END test difficulty by 1 until the end of the next scene; increase AGI test difficulty by 1 for the same duration.</p>"
+  }
+}

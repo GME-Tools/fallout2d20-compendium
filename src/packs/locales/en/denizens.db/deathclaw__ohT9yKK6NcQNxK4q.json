@@ -24,6 +24,24 @@
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/origin": "Mutated Lizard",
     "/system/biography": "<p><span class=\"fontstyle0\">Well known throughout the wasteland, the deathclaw is a creature feared by many, and for good reason. Created through the genetic engineering and gene splicing of the Jackson&rsquo;s Chameleon, the pre-War U.S. government created these monstrosities to replace soldiers on the battlefield. Sporting vicious claws and horns, and a stature that towers over most humans, these creatures are killing machines with a speed faster than most creatures of their size. Female deathclaws are often larger than the males and are deeply protective of their eggs and young. Encountering a lone deathclaw is dangerous, but to stumble upon a nest is almost guaranteed to end in a swift, painful death.</span></p>",
-    "/name": "Deathclaw"
+    "/name": "Deathclaw",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_2",
+        "language": "en",
+        "edition": "en-digital-2023",
+        "translation": "original",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 35
+      }
+    ]
   }
 }

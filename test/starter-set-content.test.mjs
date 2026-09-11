@@ -77,12 +77,12 @@ test("Starter Set tables have exact 1d20 coverage and corrected armor ranges", (
   for (const name of ["Random Weapons (Starter Set)", "Random Chems (Starter Set)", "Random Armor (Starter Set)"]) {
     const table = docs.find(doc => doc.name === name);
     assert.equal(table.formula, "1d20");
-    const results = table.results.map(id => docs.find(doc => doc._id === id));
+    const results = table.results;
     assert.ok(results.every(result => result._key.startsWith(`!tables.results!${table._id}.`)));
     assert.deepEqual(results.flatMap(result => Array.from({length: result.range[1] - result.range[0] + 1}, (_, i) => result.range[0] + i)).sort((a,b)=>a-b), Array.from({length:20},(_,i)=>i+1));
   }
   const armor = docs.find(doc => doc.name === "Random Armor (Starter Set)");
-  const final = docs.find(doc => doc._id === armor.results.at(-1));
+  const final = armor.results.at(-1);
   assert.deepEqual(final.range, [13, 20]);
   assert.equal(final.text, "Raider Armor");
 });

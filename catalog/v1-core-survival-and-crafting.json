@@ -5462,6 +5462,11 @@
   },
   "rollTables": [
     {
+      "id": "2d741f2c1809f6bf",
+      "name": "Hit Locations",
+      "type": "RollTable"
+    },
+    {
       "id": "3690dbb34a5d00b1",
       "name": "Hit Locations (Quadruped)",
       "type": "RollTable"

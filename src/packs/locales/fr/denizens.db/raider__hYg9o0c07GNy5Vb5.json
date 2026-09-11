@@ -39,6 +39,24 @@
     "/system/carryWeight/base": 105,
     "/system/origin": "Pillard Humain",
     "/system/biography": "<p>Un pillard classique et solitaire est à peu près aussi menaçant qu’une capsule de Nuka-Cola sous la semelle, malheureusement pour les voyageurs, ils le savent et ne se déplacent presque qu’en groupe. Les pillards portent en général des armures de bric et de broc, dont les diverses parties ont été dérobées à leurs précédentes victimes, ainsi que des armes obtenues de la même manière. Les pillards se montrent hostiles envers toute personne ne faisant pas partie de leur groupe et vont jusqu’à se battre contre des gangs rivaux.</p>",
-    "/name": "Pillard"
+    "/name": "Pillard",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1",
+        "language": "fr",
+        "edition": "fr-official-2024",
+        "translation": "official",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 14
+      }
+    ]
   }
 }

@@ -1,0 +1,25 @@
+{
+  "_key": "!actors!1dfb58b4cdb0eafb",
+  "_file": "m_walker__1dfb58b4cdb0eafb.json",
+  "values": {
+    "/name": "M. Walker",
+    "/token/name": "M. Walker",
+    "/system/biography": "<p>A powerful feral ghoul in a ruined Nuka-World uniform, carrying a locket inscribed to Zee.</p>",
+    "/system/origin": "Ghoul",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@f04c827761e82210/name": "Unarmed",
+    "/items/@f04c827761e82210/system/description": "<p>Body + Melee (TN 14), Radioactive.</p>",
+    "/items/@6a2a2586dbf9fb08/name": "Immune to Radiation",
+    "/items/@6a2a2586dbf9fb08/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@2ab190f39dc515a0/name": "Immune to Poison",
+    "/items/@2ab190f39dc515a0/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@4b20c659d25dfffc/name": "Feral",
+    "/items/@4b20c659d25dfffc/system/description": "<p>M. Walker cannot be influenced by Speech and attacks the nearest enemy.</p>",
+    "/items/@4502a26910875bc4/name": "Ghoul",
+    "/items/@4502a26910875bc4/system/description": "<p>M. Walker regains 1 HP per 3 Radiation damage prevented.</p>",
+    "/items/@57a48ff751bb323b/name": "Hurled Charge",
+    "/items/@57a48ff751bb323b/system/description": "<p>An Unarmed attack after moving into Reach gains Stun; on a miss M. Walker falls prone.</p>"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_key": "!items!e26b938157cfb19b",
+  "_file": "champ_de_suppression_inertielle__e26b938157cfb19b.json",
+  "values": {
+    "/name": "Champ de suppression inertielle",
+    "/system/description": "<p>Un bouclier personnel zetan avancé qui émet une faible lueur et une aura de lumière déformée.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "e26b938157cfb19b",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 68
+      }
+    ]
+  }
+}

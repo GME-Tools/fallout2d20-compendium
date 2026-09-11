@@ -1,0 +1,25 @@
+{
+  "_key": "!actors!b858f143c174edaa",
+  "_file": "feral_ghoul_stalker__b858f143c174edaa.json",
+  "values": {
+    "/name": "Feral Ghoul Stalker",
+    "/token/name": "Feral Ghoul Stalker",
+    "/system/biography": "<p>A tougher feral ghoul that stalks the dark attractions of Nuka-World.</p>",
+    "/system/origin": "Ghoul",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@ac6c023ca5efd034/name": "Unarmed",
+    "/items/@ac6c023ca5efd034/system/description": "<p>Body + Melee (TN 9), Radioactive.</p>",
+    "/items/@fe2076dad82a32e6/name": "Immune to Radiation",
+    "/items/@fe2076dad82a32e6/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@2459be9f16c62ead/name": "Immune to Poison",
+    "/items/@2459be9f16c62ead/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@4f2b49fa96d8ef57/name": "Feral",
+    "/items/@4f2b49fa96d8ef57/system/description": "<p>It cannot be influenced by Speech and attacks the nearest enemy.</p>",
+    "/items/@baafa4c39e11af74/name": "Ghoul",
+    "/items/@baafa4c39e11af74/system/description": "<p>It regains 1 HP per 3 Radiation damage prevented.</p>",
+    "/items/@b6fde6e62fe2244e/name": "Play Dead",
+    "/items/@b6fde6e62fe2244e/system/description": "<p>When prone, only a difficulty 2 PER + Survival test distinguishes it from a corpse.</p>"
+  }
+}

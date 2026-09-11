@@ -1,0 +1,27 @@
+{
+  "_key": "!items!77b2bc1de4194544",
+  "_file": "poing_de_breche_rhino__77b2bc1de4194544.json",
+  "values": {
+    "/name": "Poing de brèche RHINO",
+    "/system/description": "<p>Un système d’arme intégré au Destrier.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "77b2bc1de4194544",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_key": "!items!f083452d6f778015",
+  "_file": "etancheite__f083452d6f778015.json",
+  "values": {
+    "/name": "Étanchéité",
+    "/system/description": "<p>Des joints et composants spécialisés protègent un robot dans les environnements aquatiques.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Voyagez sous l’eau sans subir de dégâts ; une fois par scène, relancez 1d20 lors d’un test d’Athlétisme sous-marin.</p>",
+    "/system/weight": -7.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "f083452d6f778015",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

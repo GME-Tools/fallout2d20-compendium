@@ -1,0 +1,28 @@
+{
+  "_key": "!actors!32d7b85d56bb3cc8",
+  "_file": "ghoul_competitor__32d7b85d56bb3cc8.json",
+  "values": {
+    "/name": "Ghoul Competitor",
+    "/token/name": "Ghoul Competitor",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@fc1bee0c8d0d8c59/name": "Tire Iron",
+    "/items/@fc1bee0c8d0d8c59/system/description": "<p>STR + Melee Weapons (TN 9).</p>",
+    "/items/@de72903f492fee5f/name": "Sawed-Off Double-Barrel Shotgun",
+    "/items/@de72903f492fee5f/system/description": "<p>AGI + Small Guns (TN 9), Spread, Vicious.</p>",
+    "/items/@740987959a976477/name": "Immune to Radiation",
+    "/items/@740987959a976477/system/description": "<p>The competitor suffers no Radiation damage or effects.</p>",
+    "/items/@ca9fd025b7dce2c7/name": "Ghoul",
+    "/items/@ca9fd025b7dce2c7/system/description": "<p>Regain 1 HP per 3 Radiation damage inflicted.</p>",
+    "/items/@dd49b95f8c4acdc8/name": "Athletics",
+    "/items/@4e97aedbb3985181/name": "Barter",
+    "/items/@5a1d54ffddc6abc2/name": "Melee Weapons",
+    "/items/@de6600776cfd3e5f/name": "Small Guns",
+    "/items/@4e7508e5e71591a4/name": "Speech",
+    "/items/@0f0767c597cb1605/name": "Survival",
+    "/items/@1758577108dc184e/name": "Unarmed"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_key": "!items!baa7cac334df2281",
+  "_file": "biere_de_booth_sans_plomb__baa7cac334df2281.json",
+  "values": {
+    "/name": "Bière de Booth sans plomb",
+    "/system/description": "<p>Une bière brassée et fermentée dans de vieux bidons d’essence, servie depuis une pompe à essence.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/system/effect": "<p>Alcoolisée. Gagnez immédiatement 1 PA et relancez un d20 sur les tests d’END.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "baa7cac334df2281",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 27
+      }
+    ]
+  }
+}

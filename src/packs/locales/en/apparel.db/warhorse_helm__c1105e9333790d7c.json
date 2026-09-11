@@ -1,0 +1,21 @@
+{
+  "_key": "!items!c1105e9333790d7c",
+  "_file": "warhorse_helm__c1105e9333790d7c.json",
+  "values": {
+    "/name": "Warhorse Helm",
+    "/system/description": "<p>A replaceable warhorse helm armor component. It has 14 HP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

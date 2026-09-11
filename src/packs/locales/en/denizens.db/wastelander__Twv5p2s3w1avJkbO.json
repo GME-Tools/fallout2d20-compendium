@@ -25,6 +25,24 @@
     "/system/carryWeight/base": 210,
     "/system/origin": "Human",
     "/system/biography": "<p><strong>Wastelanders</strong></p>\n<p><span class=\"fontstyle0\">The wasteland is filled with survivors of varying backgrounds, beliefs, and affiliations. From the merchants who keep goods moving between settlements, to the minute men helping to establish new communities, even down to the mercenaries and gunners who are out for the caps, there are a number of interesting people to encounter.</span></p>\n<p><strong>Wastelander</strong></p>\n<p><span class=\"fontstyle0\">Wastelander is the colloquial name given to the masses of individuals who roam, travel, and settle across the wasteland. Many are unextraordinary people who just seek to survive by any means necessary. Some are more competent than others when it comes to combat, while others might possess unique skills reflecting their background and life experience. They can hail from any settlement across the commonwealth and from any background.</span></p>",
-    "/name": "Wastelander"
+    "/name": "Wastelander",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "en",
+        "edition": "en-digital-2023",
+        "translation": "original",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 58
+      }
+    ]
   }
 }

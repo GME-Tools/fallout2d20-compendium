@@ -1,0 +1,45 @@
+{
+  "_key": "!actors!486d1313c6b03c5e",
+  "_file": "warhorse__486d1313c6b03c5e.json",
+  "values": {
+    "/name": "Warhorse",
+    "/token/name": "Warhorse",
+    "/system/biography": "<p>An experimental autonomous T-60f power-armor weapons platform controlled by an aggressive AI.</p>",
+    "/system/origin": "Robot",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 43
+      }
+    ],
+    "/items/@1b6727d90a70f7fd/name": "Mk.1.7 Plasma Thrower",
+    "/items/@1b6727d90a70f7fd/system/description": "<p>TN 17, Vicious, Spread, Range C, Fire Rate 3, Close Quarters, Inaccurate.</p>",
+    "/items/@ee703025bf712413/name": "Gauntlet Mounted Gauss Gun",
+    "/items/@ee703025bf712413/system/description": "<p>TN 17, Piercing, Vicious, Range M.</p>",
+    "/items/@2cc603d998b0e4d0/name": "Rear Mounted Ordnance Launcher",
+    "/items/@2cc603d998b0e4d0/system/description": "<p>TN 17, Blast, Range L, Fire Rate 3, Inaccurate.</p>",
+    "/items/@82353889ecd81cbb/name": "RHINO-Pattern Breaching Fist",
+    "/items/@82353889ecd81cbb/system/description": "<p>TN 17, Piercing, Stun.</p>",
+    "/items/@c81de56f9f668592/name": "Warhorse Kick",
+    "/items/@c81de56f9f668592/system/description": "<p>TN 17, Stun.</p>",
+    "/items/@eb50297ed88f81dc/name": "Robot",
+    "/items/@eb50297ed88f81dc/system/description": "<p>This character is a robot: it cannot use consumables or heal naturally, and damage must be repaired. It is immune to hunger, thirst and suffocation.</p>",
+    "/items/@5e67dd50217e77fb/name": "Immune to Radiation",
+    "/items/@5e67dd50217e77fb/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@9babe68a69c4b8bb/name": "Immune to Poison",
+    "/items/@9babe68a69c4b8bb/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@1a234eea77c6834d/name": "Mobile Power Armor",
+    "/items/@1a234eea77c6834d/system/description": "<p>Warhorse may act independently or substitute its TN for its wearer’s tests at the cost of one fusion-core charge.</p>",
+    "/items/@00a0fda253ac939b/name": "Weak Spot",
+    "/items/@00a0fda253ac939b/system/description": "<p>If the chest is damaged, attacks targeting the torso deal +2 DC damage.</p>",
+    "/items/@3678693ded63ffd6/name": "Well Equipped",
+    "/items/@3678693ded63ffd6/system/description": "<p>Twice per combat add Fire Rate 3 to the Plasma Thrower or Ordnance Launcher damage.</p>"
+  }
+}

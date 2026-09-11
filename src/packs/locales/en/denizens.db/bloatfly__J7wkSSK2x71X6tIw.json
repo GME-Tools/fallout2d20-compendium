@@ -15,6 +15,16 @@
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/origin": "Mutated Insect",
     "/system/biography": "<p><span class=\"fontstyle0\">Nuclear radiation transformed the common pre-War blowfly into the oversized, deadly menace known as the bloatfly. Easily spotted by their mottled greenbrown carapace and plump, bloated appearance, bloatflies are not your common household pests.<br /></span></p>\n<p><span class=\"fontstyle0\">Often found in swarms of up to four, these creatures attack from a distance using their own dart-spined larvae launched from their abdomen. Bloatflies are aggressive and will pursue prey larger than themselves relentlessly. They can often be found living alongside bloodbugs and stingwings near bodies of water or rotting flesh.</span></p>",
-    "/name": "Bloatfly"
+    "/name": "Bloatfly",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "en",
+        "edition": "en-digital-2026",
+        "translation": "original",
+        "status": "identical",
+        "page": 28
+      }
+    ]
   }
 }

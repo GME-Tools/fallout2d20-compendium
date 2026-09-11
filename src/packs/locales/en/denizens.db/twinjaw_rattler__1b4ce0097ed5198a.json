@@ -1,0 +1,33 @@
+{
+  "_key": "!actors!1b4ce0097ed5198a",
+  "_file": "twinjaw_rattler__1b4ce0097ed5198a.json",
+  "values": {
+    "/name": "Twinjaw Rattler",
+    "/token/name": "Twinjaw Rattler",
+    "/system/biography": "<p>A giant two-headed rattlesnake created by Zetan experimentation.</p>",
+    "/system/origin": "Mutated Reptile",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 56
+      }
+    ],
+    "/items/@ffd618061ee50c50/name": "Bite",
+    "/items/@ffd618061ee50c50/system/description": "<p>Body + Melee (TN 10); Persistent (Poison).</p>",
+    "/items/@ae8752d687eca7fe/name": "Fast Movement",
+    "/items/@ae8752d687eca7fe/system/description": "<p>The rattler gains +2 Initiative (included).</p>",
+    "/items/@55817b80582020a5/name": "Twin Heads",
+    "/items/@55817b80582020a5/system/description": "<p>It may make two Bite attacks in a single turn.</p>",
+    "/items/@c3ead089d805fbc5/name": "Death Rattle",
+    "/items/@c3ead089d805fbc5/system/description": "<p>Once per combat, it may use a minor action to give its Bite the Stun effect for the turn.</p>",
+    "/items/@874f27668b728ecd/name": "Immune to Poison",
+    "/items/@874f27668b728ecd/system/description": "<p>This character cannot suffer damage or effects from poison.</p>"
+  }
+}

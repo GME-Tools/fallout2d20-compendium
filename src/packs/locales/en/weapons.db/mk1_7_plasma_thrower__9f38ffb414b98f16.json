@@ -1,0 +1,21 @@
+{
+  "_key": "!items!9f38ffb414b98f16",
+  "_file": "mk1_7_plasma_thrower__9f38ffb414b98f16.json",
+  "values": {
+    "/name": "Mk1.7 Plasma Thrower",
+    "/system/description": "<p>An integrated Warhorse weapon system.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

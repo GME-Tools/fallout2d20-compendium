@@ -1,0 +1,27 @@
+{
+  "_key": "!items!c1105e9333790d7c",
+  "_file": "casque_du_destrier__c1105e9333790d7c.json",
+  "values": {
+    "/name": "Casque du Destrier",
+    "/system/description": "<p>Un élément d’armure remplaçable du Destrier. Il possède 14 PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 7.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "c1105e9333790d7c",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

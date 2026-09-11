@@ -40,6 +40,24 @@
     "/system/carryWeight/base": 105,
     "/system/origin": "Pillard Humain",
     "/system/biography": "<p>En général, on reconnaît ces combattants revenus de tout à leur armure épaisse et à leur comportement agressif. Les gangs de pillards qui perdurent, ou ceux composés de membres expérimentés, sont souvent constitués presque entièrement de Pillards Fouineurs. Un seul Fouineur peut déjà être une redoutable nuisance, un groupe entier peut très facilement prendre la vie (et les possessions) de n’importe quel voyageur des Terres désolées.</p>",
-    "/name": "Pillard fouineur"
+    "/name": "Pillard fouineur",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1",
+        "language": "fr",
+        "edition": "fr-official-2024",
+        "translation": "official",
+        "status": "identical",
+        "page": 15
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 15
+      }
+    ]
   }
 }

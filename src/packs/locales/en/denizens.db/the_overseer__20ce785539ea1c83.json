@@ -1,0 +1,24 @@
+{
+  "_key": "!actors!20ce785539ea1c83",
+  "_file": "the_overseer__20ce785539ea1c83.json",
+  "values": {
+    "/name": "The Overseer",
+    "/token/name": "The Overseer",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@202e04e94ae6c53a/name": "Shock Baton",
+    "/items/@202e04e94ae6c53a/system/description": "<p>STR + Melee Weapons (TN 8).</p>",
+    "/items/@4b39852285a8aca3/name": "Calibrated 10mm Pistol",
+    "/items/@4b39852285a8aca3/system/description": "<p>PER + Small Guns (TN 13), Vicious, Fire Rate 2.</p>",
+    "/items/@d8a30ada42f52b8d/name": "In His Way!",
+    "/items/@d8a30ada42f52b8d/system/description": "<p>Once per combat allies within Medium may reroll one attack d20 with Small Guns.</p>",
+    "/items/@c88f09e40fab5f12/name": "Barter",
+    "/items/@c6fd0769b3463783/name": "Melee Weapons",
+    "/items/@92f03e92f1aa0d80/name": "Small Guns",
+    "/items/@72f8a942a8a99eb0/name": "Sneak",
+    "/items/@79c52ac745532220/name": "Speech"
+  }
+}

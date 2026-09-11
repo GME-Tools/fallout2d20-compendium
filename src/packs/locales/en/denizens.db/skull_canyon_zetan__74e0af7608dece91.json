@@ -1,0 +1,29 @@
+{
+  "_key": "!actors!74e0af7608dece91",
+  "_file": "skull_canyon_zetan__74e0af7608dece91.json",
+  "values": {
+    "/name": "Skull Canyon Zetan",
+    "/token/name": "Skull Canyon Zetan",
+    "/system/biography": "<p>A Zetan inhabitant of Skull Canyon equipped with scavenged human weapons.</p>",
+    "/system/origin": "Mutated Alien",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 68
+      }
+    ],
+    "/items/@a664131b234d1e12/name": ".44 Pistol",
+    "/items/@a664131b234d1e12/system/description": "<p>Body + Guns (TN 11), Range C, Fire Rate 1.</p>",
+    "/items/@049d38dda0dff043/name": "Assault Rifle",
+    "/items/@049d38dda0dff043/system/description": "<p>Body + Guns (TN 11), Burst, Range M, Fire Rate 2, Two-Handed.</p>",
+    "/items/@ca5fedcacbfe6549/name": "Laser Gun",
+    "/items/@ca5fedcacbfe6549/system/description": "<p>Body + Guns (TN 11), Piercing 1, Range C, Fire Rate 2, Reliable.</p>"
+  }
+}

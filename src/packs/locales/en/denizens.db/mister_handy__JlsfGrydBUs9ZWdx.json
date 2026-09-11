@@ -25,6 +25,16 @@
     "/items/@BicdAjOlI5usgXMA/system/description": "<p><span class=\"fontstyle0\">The <span class=\"fontstyle0\">Mister Handy</span>&nbsp;reduces all Poison damage suffered to 0 and cannot suffer any damage or effects from poison.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
     "/items/@BicdAjOlI5usgXMA/name": "Immune to Poison",
     "/items/@lH45aSUIgVqHGMUw/system/description": "<p>The Mister Handy&nbsp;reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
-    "/items/@lH45aSUIgVqHGMUw/name": "Immune to Radiation"
+    "/items/@lH45aSUIgVqHGMUw/name": "Immune to Radiation",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_7",
+        "language": "en",
+        "edition": "en-digital-2026",
+        "translation": "original",
+        "status": "identical",
+        "page": 36
+      }
+    ]
   }
 }

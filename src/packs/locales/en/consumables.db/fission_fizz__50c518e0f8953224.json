@@ -1,0 +1,22 @@
+{
+  "_key": "!items!50c518e0f8953224",
+  "_file": "fission_fizz__50c518e0f8953224.json",
+  "values": {
+    "/name": "Fission Fizz",
+    "/system/description": "<p>A Booth’s Beer fermented in the hollowed shell of a burned-out fission reactor.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Alcoholic. Immediately gain 3 AP and reroll three d20s on AGI tests.</p>",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 27
+      }
+    ]
+  }
+}

@@ -26,7 +26,19 @@ test("localized source packs are generated rather than maintained", async () => 
     }
     assert.deepEqual(keys.en, keys.fr, pack.name);
   }
-  assert.equal(records, 4098);
+  assert.equal(records, 2782);
+});
+
+test("each RollTable and all of its results share one source file", async () => {
+  for (const language of LANGUAGES) {
+    const entries = await loadCanonicalPack(language, "roll-tables");
+    assert.equal(entries.length, 45);
+    for (const { document } of entries) {
+      assert.match(document._key, /^!tables![^.!]+$/);
+      assert.ok(document.results.length > 0, `${language}/${document._id}`);
+      assert.ok(document.results.every(result => result._key === `!tables.results!${document._id}.${result._id}`), `${language}/${document._id}`);
+    }
+  }
 });
 
 test("canonical sources contain only language-neutral pack references", async () => {

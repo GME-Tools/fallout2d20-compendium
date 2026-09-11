@@ -37,6 +37,24 @@
     "/system/carryWeight/base": 105,
     "/system/origin": "Humain",
     "/system/biography": "<p>« Habitants des Terres désolées » est le nom donné aux très nombreux individus qui errent, voyagent et se fixent dans tout le territoire. Beaucoup d’entre eux n’ont rien de remarquable, et ne cherchent qu’à survivre à tout prix. Certains sortent de l’ordinaire et savent manier les armes, par exemple, pendant que d’autres peuvent maîtriser des compétences uniques, reflétant leur expérience de la vie et leur passé. Ils peuvent venir de n’importe quel village du Commonwealth et de toutes les strates de la société.</p>",
-    "/name": "Habitant des Terres désolées"
+    "/name": "Habitant des Terres désolées",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 58
+      }
+    ]
   }
 }

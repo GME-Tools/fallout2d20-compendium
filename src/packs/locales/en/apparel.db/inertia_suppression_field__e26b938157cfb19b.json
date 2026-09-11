@@ -1,0 +1,21 @@
+{
+  "_key": "!items!e26b938157cfb19b",
+  "_file": "inertia_suppression_field__e26b938157cfb19b.json",
+  "values": {
+    "/name": "Inertia Suppression Field",
+    "/system/description": "<p>Advanced Zetan personal shielding that emits a subtle glow and aura of distorted light.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 68
+      }
+    ]
+  }
+}

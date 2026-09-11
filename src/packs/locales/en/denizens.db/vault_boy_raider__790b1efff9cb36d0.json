@@ -1,0 +1,24 @@
+{
+  "_key": "!actors!790b1efff9cb36d0",
+  "_file": "vault_boy_raider__790b1efff9cb36d0.json",
+  "values": {
+    "/name": "Vault Boy Raider",
+    "/token/name": "Vault Boy Raider",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@e129f6b6bdb49b55/name": "Shock Baton",
+    "/items/@e129f6b6bdb49b55/system/description": "<p>STR + Melee Weapons (TN 8).</p>",
+    "/items/@13b11fdcdace34eb/name": "Calibrated 10mm Pistol",
+    "/items/@13b11fdcdace34eb/system/description": "<p>PER + Small Guns (TN 10), Vicious, Fire Rate 2.</p>",
+    "/items/@600bca8a5113b0a1/name": "For Vault Boy!",
+    "/items/@600bca8a5113b0a1/system/description": "<p>Once per combat attacks this turn gain Piercing 1.</p>",
+    "/items/@468a137a4758b3ad/name": "Barter",
+    "/items/@daeccfe193bd82d5/name": "Melee Weapons",
+    "/items/@71503879754f293c/name": "Small Guns",
+    "/items/@302c8dfc1cbc45cd/name": "Sneak",
+    "/items/@73a34c9951a28ee1/name": "Speech"
+  }
+}

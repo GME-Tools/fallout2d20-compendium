@@ -1,0 +1,12 @@
+{
+  "_key": "!items!66c6d9d64692b703",
+  "_file": "marine_wetsuit__66c6d9d64692b703.json",
+  "values": {
+    "/name": "Marine Wetsuit",
+    "/system/description": "<p>A neoprene wetsuit designed for nighttime reconnaissance operations.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>The wearer does not suffer exposure to cold weather while swimming in cold water.</p>"
+  }
+}

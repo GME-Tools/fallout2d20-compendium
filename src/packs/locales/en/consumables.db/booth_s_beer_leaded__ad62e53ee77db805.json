@@ -1,0 +1,22 @@
+{
+  "_key": "!items!ad62e53ee77db805",
+  "_file": "booth_s_beer_leaded__ad62e53ee77db805.json",
+  "values": {
+    "/name": "Booth’s Beer, Leaded",
+    "/system/description": "<p>A stronger radioactive Booth’s Beer brewed in salvaged gasoline drums.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Alcoholic. Immediately gain 2 AP and reroll two d20s on END tests.</p>",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 27
+      }
+    ]
+  }
+}

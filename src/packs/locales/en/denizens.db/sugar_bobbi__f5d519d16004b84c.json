@@ -1,0 +1,26 @@
+{
+  "_key": "!actors!f5d519d16004b84c",
+  "_file": "sugar_bobbi__f5d519d16004b84c.json",
+  "values": {
+    "/name": "Sugar Bobbi",
+    "/token/name": "Sugar Bobbi",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@5cd14d282e142a36/name": "Plasma Grenade",
+    "/items/@5cd14d282e142a36/system/description": "<p>PER + Explosives (TN 13), Blast, Thrown, Range M.</p>",
+    "/items/@362252c16bc69197/name": "The Whole Box!",
+    "/items/@362252c16bc69197/system/description": "<p>Once per combat add 4 DC damage but reduce range to Close.</p>",
+    "/items/@f69150f5b2c2651a/name": "Immune to Radiation",
+    "/items/@f69150f5b2c2651a/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@ea3d0484e87196bd/name": "Athletics",
+    "/items/@df6de12d9cde05a2/name": "Explosives",
+    "/items/@fb13e4ec2b4a59ce/name": "Repair",
+    "/items/@fba2a219d29aeb17/name": "Sneak",
+    "/items/@421b5b4fb828dfff/name": "Survival",
+    "/items/@73d4664f12ad1414/name": "Throwing",
+    "/items/@cc596ca7f99c526e/name": "Unarmed"
+  }
+}

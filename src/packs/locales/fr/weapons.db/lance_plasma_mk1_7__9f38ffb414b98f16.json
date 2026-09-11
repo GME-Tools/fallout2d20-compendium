@@ -1,0 +1,27 @@
+{
+  "_key": "!items!9f38ffb414b98f16",
+  "_file": "lance_plasma_mk1_7__9f38ffb414b98f16.json",
+  "values": {
+    "/name": "Lance-plasma Mk1.7",
+    "/system/description": "<p>Un système d’arme intégré au Destrier.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9f38ffb414b98f16",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

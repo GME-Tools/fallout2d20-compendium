@@ -1,0 +1,21 @@
+{
+  "_key": "!items!8f4b9a8dfe404b58",
+  "_file": "warhorse_leg__8f4b9a8dfe404b58.json",
+  "values": {
+    "/name": "Warhorse Leg",
+    "/system/description": "<p>A replaceable warhorse leg armor component. It has 14 HP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

@@ -28,6 +28,24 @@
     "/system/carryWeight/base": 210,
     "/system/origin": "Human Raider",
     "/system/biography": "<p><strong>Raiders</strong></p>\n<p><span class=\"fontstyle0\">There are many groups throughout the wasteland who band together for survival at any cost. The harsh life that comes with the post-nuclear apocalypse has a habit of bringing out the worst of humanity. Raider gangs often represent some of these less-than-favorable individuals. While they are not a centralized faction, with many groups waring among themselves, the &lsquo;raider&rsquo; designation is often given to any group of people who reject the peaceful ways of most settlements and instead rely on raiding, theft, violence, and murder for their survival. They often set up settlements of their own and defend them viciously, employing both personal weapons, automated turrets and even attack dogs to keep people out. Chems use is also rampant among raider groups, which is also attributed to their increased rage, paranoia, and unpredictable behavior.</span></p>\n<p><strong>Raider Scavver</strong></p>\n<p><span class=\"fontstyle0\">These battle-hardened raiders are often identified by their studier armor and their aggressive nature. Raider gangs with long histories, or those full of experienced members among their ranks are often made up largely of raider scavvers. One of them alone can be a challenging inconvenience, but a group of these fighters can prove to easily take the possessions and life of many a wasteland traveler.</span></p>",
-    "/name": "Raider Scavver"
+    "/name": "Raider Scavver",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1",
+        "language": "en",
+        "edition": "en-digital-2023",
+        "translation": "original",
+        "status": "identical",
+        "page": 15
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 15
+      }
+    ]
   }
 }

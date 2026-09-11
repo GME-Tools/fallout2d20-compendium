@@ -2,6 +2,34 @@
 
 All notable changes to this private module are documented here.
 
+## 1.2.0 — Unreleased
+
+### Added
+
+- Begin integration of Astoundingly Awesome Tales issues 1–7. A contradictory
+  PDF audit identified missing structured entries and incomplete profiles; the
+  counts remain provisional until US-401 remediation is complete.
+- Use the official French editions of issues 1–2 and reviewed project
+  translations for issues 3–7, with exact metric overlays.
+- Add publication registry entries, folder taxonomy, provenance scaffolding and
+  focused regression coverage. Artwork remains provisional: covers must be
+  replaced by document-specific official crops or neutral placeholders.
+
+### Changed
+
+- Treat the newer issues 1–5 collection as the mechanical authority for the
+  first four adventures while retaining each individual issue as the first
+  appearance. Reprint equivalence remains to be verified per document; the
+  Sentry Bot is already known to be a real variant.
+- Correct the overlapping Robot Assassin ranges to 1–5, 6–10, 11–17 and
+  18–20 by explicit owner decision.
+
+### Validation pending
+
+- The prior CI and disposable-world startup pass covered the incomplete import
+  but does not qualify editorial completeness. Full validation and Foundry
+  qualification must be repeated after the audit findings are remediated.
+
 ## 1.1.2 — 2026-09-10
 
 ### Fixed

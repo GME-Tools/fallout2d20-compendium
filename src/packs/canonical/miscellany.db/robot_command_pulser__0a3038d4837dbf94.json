@@ -1,0 +1,36 @@
+{
+  "_id": "0a3038d4837dbf94",
+  "_key": "!items!0a3038d4837dbf94",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%207.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": "287",
+    "favorite": false,
+    "isJunk": false,
+    "quantity": 1,
+    "rarity": 5,
+    "source": "astoundingly_awesome_tales_7",
+    "stashed": false,
+    "weight": 0,
+    "description": "",
+    "effect": ""
+  },
+  "type": "miscellany",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_7",
+        "page": 38,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 7.",
+        "artworkSharingGroup": "aat-7-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "name": ""
+}

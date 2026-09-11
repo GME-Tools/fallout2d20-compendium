@@ -41,6 +41,24 @@
     "/items/@BicdAjOlI5usgXMA/name": "Immunisé contre le poison",
     "/items/@lH45aSUIgVqHGMUw/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
     "/items/@lH45aSUIgVqHGMUw/name": "Immunisé contre les radiations",
-    "/name": "Super mutant"
+    "/name": "Super mutant",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 58
+      }
+    ]
   }
 }

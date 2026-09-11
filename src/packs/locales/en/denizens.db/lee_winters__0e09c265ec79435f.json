@@ -1,0 +1,45 @@
+{
+  "_key": "!actors!0e09c265ec79435f",
+  "_file": "lee_winters__0e09c265ec79435f.json",
+  "values": {
+    "/name": "Lee Winters",
+    "/token/name": "Lee Winters",
+    "/system/biography": "<p>A ghoul security chief and expert marksman trapped inside the West-Tek facility.</p>",
+    "/system/origin": "Ghoul",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 42
+      }
+    ],
+    "/items/@3fac5ad0b41e90b6/name": "Unarmed Strike",
+    "/items/@3fac5ad0b41e90b6/system/description": "<p>STR + Unarmed (TN 12).</p>",
+    "/items/@7c9a6c4931e9c7d8/name": "Last Resort",
+    "/items/@7c9a6c4931e9c7d8/system/description": "<p>AGI + Small Guns (TN 14), Range L, Fire Rate 4, Two-Handed, Reliable, Accurate, Suppressed.</p>",
+    "/items/@e61d615705fe71bf/name": "Mister Sandman",
+    "/items/@e61d615705fe71bf/system/description": "<p>Sneak attacks with a suppressed weapon deal +2 DC damage.</p>",
+    "/items/@2099aec3f1952756/name": "Awareness",
+    "/items/@2099aec3f1952756/system/description": "<p>Aiming at Close adds Piercing 1 to the next attack.</p>",
+    "/items/@7735f1b7f3c59ace/name": "Commando",
+    "/items/@7735f1b7f3c59ace/system/description": "<p>Weapons with Fire Rate 3 or more deal +2 DC damage.</p>",
+    "/items/@9989ff19dda93b4e/name": "Immune to Radiation",
+    "/items/@9989ff19dda93b4e/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@ad9c7c90a0008ef7/name": "Explosives",
+    "/items/@5754d3d649811949/name": "Lockpick",
+    "/items/@83cd654ee9ab2ae3/name": "Medicine",
+    "/items/@754984ffcb16adc9/name": "Repair",
+    "/items/@77f25cb9ed13bea1/name": "Science",
+    "/items/@2671dfc9e51abe7d/name": "Small Guns",
+    "/items/@ccf37cf8a9f3794f/name": "Sneak",
+    "/items/@95dcf8e8bbbc3c68/name": "Speech",
+    "/items/@84f9988b002c22eb/name": "Survival",
+    "/items/@66e617fe587c50a7/name": "Unarmed"
+  }
+}

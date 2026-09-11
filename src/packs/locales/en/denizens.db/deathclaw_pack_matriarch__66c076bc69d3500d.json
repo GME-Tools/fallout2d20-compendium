@@ -1,0 +1,43 @@
+{
+  "_key": "!actors!66c076bc69d3500d",
+  "_file": "deathclaw_pack_matriarch__66c076bc69d3500d.json",
+  "values": {
+    "/name": "Deathclaw Pack Matriarch",
+    "/token/name": "Deathclaw Pack Matriarch",
+    "/system/biography": "<p>An exceptionally powerful female deathclaw defending her pack.</p>",
+    "/system/origin": "Mutated Reptile",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 30
+      }
+    ],
+    "/items/@6ee6be73c270b930/name": "Claws",
+    "/items/@6ee6be73c270b930/system/description": "<p>Body + Melee (TN 17).</p>",
+    "/items/@a22bf79aab7a34b5/name": "Slam",
+    "/items/@a22bf79aab7a34b5/system/description": "<p>Body + Melee (TN 17).</p>",
+    "/items/@319c8e46700677e0/name": "Heavy Object",
+    "/items/@319c8e46700677e0/system/description": "<p>Body + Guns (TN 12), Thrown, Range M.</p>",
+    "/items/@5c62adca8de768c6/name": "Immune to Radiation",
+    "/items/@5c62adca8de768c6/system/description": "<p>The matriarch cannot suffer radiation damage or effects.</p>",
+    "/items/@e04df53ea36c60b9/name": "Keen Senses",
+    "/items/@e04df53ea36c60b9/system/description": "<p>Reduce the difficulty of PER tests by 1.</p>",
+    "/items/@18bbf50b6920dd6f/name": "Rend",
+    "/items/@18bbf50b6920dd6f/system/description": "<p>Increase Claws difficulty by 1 to add +2 DC damage.</p>",
+    "/items/@5193780b560e7241/name": "Weak Spot",
+    "/items/@5193780b560e7241/system/description": "<p>Targeting the torso ignores DR.</p>",
+    "/items/@752834c8b5d109b0/name": "Massive Strength",
+    "/items/@752834c8b5d109b0/system/description": "<p>The matriarch can lift and throw a standard car.</p>",
+    "/items/@365251291f60df81/name": "Pack Mother",
+    "/items/@365251291f60df81/system/description": "<p>At the start of each round gain 1 personal AP per friendly deathclaw within Medium.</p>",
+    "/items/@bf815a975b4e5345/name": "Hunter’s Leap",
+    "/items/@bf815a975b4e5345/system/description": "<p>The matriarch may leap between zones with a Body + Other test.</p>"
+  }
+}

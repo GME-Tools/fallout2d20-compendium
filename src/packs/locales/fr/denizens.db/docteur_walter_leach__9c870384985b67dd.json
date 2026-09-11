@@ -1,0 +1,49 @@
+{
+  "_key": "!actors!9c870384985b67dd",
+  "_file": "docteur_walter_leach__9c870384985b67dd.json",
+  "values": {
+    "/name": "Docteur Walter Leach",
+    "/token/name": "Docteur Walter Leach",
+    "/system/biography": "<p>Médecin talentueux mais compromis, créateur du Nectar sous le mécénat de Hot Rod.</p>",
+    "/system/origin": "Humain",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/system/carryWeight/base": 105,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "9c870384985b67dd",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 11
+      }
+    ],
+    "/items/@b17ad51abac4c98b/name": "Mains nues",
+    "/items/@b17ad51abac4c98b/system/description": "<p>FOR + Mains nues (SR 6).</p>",
+    "/items/@b17ad51abac4c98b/system/weight": 0,
+    "/items/@c1dc2898fc76aa13/name": "Arme à plasma",
+    "/items/@c1dc2898fc76aa13/system/description": "<p>PER + Armes à énergie (SR 13), portée C, Combat rapproché.</p>",
+    "/items/@c1dc2898fc76aa13/system/weight": 0,
+    "/items/@e66671cd8e5cf7ac/name": "Blouse",
+    "/items/@e66671cd8e5cf7ac/system/description": "<p>Une fois par scène, relancez 1d20 lors d’un test de compétence fondé sur l’INT.</p>",
+    "/items/@8f948e6afd9916e6/name": "Chimiste extraordinaire",
+    "/items/@8f948e6afd9916e6/system/description": "<p>Au combat, Leach peut utiliser une fois des Mentats orange ou de l’Overdrive et bénéficier de l’effet publié jusqu’à la fin du combat.</p>",
+    "/items/@c7fba8648e47027a/name": "Athlétisme",
+    "/items/@54a609d861300a0a/name": "Armes à énergie",
+    "/items/@c3e2068b75b484cd/name": "Médecine",
+    "/items/@069ebbf3e8a8646a/name": "Réparation",
+    "/items/@53958a7cfb71a7dd/name": "Science",
+    "/items/@de94df71304e9910/name": "Discrétion",
+    "/items/@06e7bf16a127cf5b/name": "Survie"
+  }
+}

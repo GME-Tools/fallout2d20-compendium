@@ -1,0 +1,42 @@
+{
+  "_key": "!actors!1b4ce0097ed5198a",
+  "_file": "crotale_a_deux_tetes__1b4ce0097ed5198a.json",
+  "values": {
+    "/name": "Crotale à deux têtes",
+    "/token/name": "Crotale à deux têtes",
+    "/system/biography": "<p>Un crotale géant à deux têtes issu d’expériences zetanes.</p>",
+    "/system/origin": "Reptile mutant",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/specialAbilityTextTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "1b4ce0097ed5198a",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 56
+      }
+    ],
+    "/items/@ffd618061ee50c50/name": "Morsure",
+    "/items/@ffd618061ee50c50/system/description": "<p>Corps + Corps à corps (SR 10) ; Persistants (poison).</p>",
+    "/items/@ffd618061ee50c50/system/weight": 0,
+    "/items/@ae8752d687eca7fe/name": "Déplacement rapide",
+    "/items/@ae8752d687eca7fe/system/description": "<p>Le crotale gagne +2 en Initiative (inclus).</p>",
+    "/items/@55817b80582020a5/name": "Deux têtes",
+    "/items/@55817b80582020a5/system/description": "<p>Il peut effectuer deux attaques de Morsure au cours d’un même tour.</p>",
+    "/items/@c3ead089d805fbc5/name": "Sonnette de mort",
+    "/items/@c3ead089d805fbc5/system/description": "<p>Une fois par combat, il peut consacrer une action mineure pour conférer Étourdissants à sa Morsure pendant ce tour.</p>",
+    "/items/@874f27668b728ecd/name": "Immunisé contre le poison",
+    "/items/@874f27668b728ecd/system/description": "<p>Ce personnage ne peut subir ni dégâts ni effets dus au poison.</p>"
+  }
+}

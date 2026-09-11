@@ -1,0 +1,39 @@
+{
+  "_key": "!actors!bd03779857e6f7ae",
+  "_file": "dr_donna_dawn_bonnet__bd03779857e6f7ae.json",
+  "values": {
+    "/name": "Dr. Donna “Dawn” Bonnet",
+    "/token/name": "Dr. Donna “Dawn” Bonnet",
+    "/system/biography": "<p>A Vault-born doctor and frontline administrator at Mt. Sin Central Clinic.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 10
+      }
+    ],
+    "/items/@2113e56f37af7c41/name": "Unarmed Strike",
+    "/items/@2113e56f37af7c41/system/description": "<p>STR + Unarmed (TN 6).</p>",
+    "/items/@aa743c664d06f7e5/name": "10mm Pistol",
+    "/items/@aa743c664d06f7e5/system/description": "<p>AGI + Small Guns (TN 12), Range C, Fire Rate 2, Close Quarters, Reliable.</p>",
+    "/items/@de6cb3326545fba0/name": "Vault Kid",
+    "/items/@de6cb3326545fba0/system/description": "<p>Reduce END test difficulty to resist disease; once per quest the GM may introduce a Vault-related complication to restore 1 Luck.</p>",
+    "/items/@7f0bdf8cc11a5b88/name": "Educated",
+    "/items/@7f0bdf8cc11a5b88/system/description": "<p>Lockpick is a tag skill (included).</p>",
+    "/items/@509c10bb1650f476/name": "Lockpick",
+    "/items/@0692b07c3069f772/name": "Medicine",
+    "/items/@2843c9b999f1b4d7/name": "Repair",
+    "/items/@d2c8d04f81ea0ca0/name": "Science",
+    "/items/@2d7b9800c0387306/name": "Small Guns",
+    "/items/@7310ee67ef15b305/name": "Sneak",
+    "/items/@91ae823a44b45936/name": "Speech",
+    "/items/@bb321290ee428fd8/name": "Survival"
+  }
+}

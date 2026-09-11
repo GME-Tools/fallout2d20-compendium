@@ -1,0 +1,22 @@
+{
+  "_key": "!items!baa7cac334df2281",
+  "_file": "booth_s_beer_unleaded__baa7cac334df2281.json",
+  "values": {
+    "/name": "Booth’s Beer, Unleaded",
+    "/system/description": "<p>Beer brewed and fermented in old gasoline drums and served from a fuel pump.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Alcoholic. Immediately gain 1 AP and reroll one d20 on END tests.</p>",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 27
+      }
+    ]
+  }
+}

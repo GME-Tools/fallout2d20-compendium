@@ -1,0 +1,18 @@
+{
+  "_key": "!items!66c6d9d64692b703",
+  "_file": "combinaison_de_plongee_tactique__66c6d9d64692b703.json",
+  "values": {
+    "/name": "Combinaison de plongée tactique",
+    "/system/description": "<p>Une combinaison en néoprène conçue pour les opérations de reconnaissance nocturnes.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Le porteur ne subit pas les effets de l’exposition au froid lorsqu’il nage dans l’eau froide.</p>",
+    "/system/weight": 1,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "66c6d9d64692b703",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

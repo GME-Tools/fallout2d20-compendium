@@ -1,0 +1,40 @@
+{
+  "_key": "!actors!980fe7d42933cc06",
+  "_file": "tommy_martin_ex_scribe__980fe7d42933cc06.json",
+  "values": {
+    "/name": "Tommy Martin, Ex-Scribe",
+    "/token/name": "Tommy Martin, Ex-Scribe",
+    "/system/biography": "<p>A disgraced Brotherhood Scribe seeking a discovery impressive enough to restore his status.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 26
+      }
+    ],
+    "/items/@e07b73f75dd0855c/name": "Unarmed Strike",
+    "/items/@e07b73f75dd0855c/system/description": "<p>STR + Unarmed (TN 6).</p>",
+    "/items/@99aaec4863054f84/name": "Tommy’s Laser Pistol",
+    "/items/@99aaec4863054f84/system/description": "<p>PER + Energy Weapons (TN 12), Piercing 2, Range M, Fire Rate 2, Close Quarters.</p>",
+    "/items/@0da2b4b8d00d3207/name": "Pre-War Expertise",
+    "/items/@0da2b4b8d00d3207/system/description": "<p>Gain a bonus d20 to examine, identify or use pre-War technology.</p>",
+    "/items/@7aa38acc55433257/name": "Let Rip",
+    "/items/@7aa38acc55433257/system/description": "<p>Once per combat add Fire Rate 2 to Laser Pistol damage, for 9 DC total.</p>",
+    "/items/@d28b84b238e73743/name": "Laser Commando",
+    "/items/@d28b84b238e73743/system/description": "<p>Add +2 DC damage to energy weapons (included).</p>",
+    "/items/@4a8ec51ee68f0b96/name": "Energy Weapons",
+    "/items/@2c1b50fb785c1cdc/name": "Lockpick",
+    "/items/@c665726975528edb/name": "Medicine",
+    "/items/@61c0669d9f55e1fe/name": "Repair",
+    "/items/@28ec58161a366482/name": "Science",
+    "/items/@73c156e06b96ad20/name": "Sneak",
+    "/items/@4073f9a553aff922/name": "Speech"
+  }
+}

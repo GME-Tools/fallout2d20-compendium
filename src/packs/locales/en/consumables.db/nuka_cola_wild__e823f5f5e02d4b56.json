@@ -1,0 +1,12 @@
+{
+  "_key": "!items!e823f5f5e02d4b56",
+  "_file": "nuka_cola_wild__e823f5f5e02d4b56.json",
+  "values": {
+    "/name": "Nuka-Cola Wild",
+    "/system/description": "<p>A lively regional Nuka-Cola variety.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Heal 2 HP and gain 1 AP.</p>"
+  }
+}

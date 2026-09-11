@@ -1,0 +1,27 @@
+{
+  "_key": "!items!e47c650a6f868408",
+  "_file": "lanceur_de_munitions_dorsal__e47c650a6f868408.json",
+  "values": {
+    "/name": "Lanceur de munitions dorsal",
+    "/system/description": "<p>Un système d’arme intégré au Destrier.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "e47c650a6f868408",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

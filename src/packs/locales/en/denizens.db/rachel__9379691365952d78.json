@@ -1,0 +1,30 @@
+{
+  "_key": "!actors!9379691365952d78",
+  "_file": "rachel__9379691365952d78.json",
+  "values": {
+    "/name": "Rachel",
+    "/token/name": "Rachel",
+    "/system/biography": "<p>A character from the Carnage Carnival in The Raider Base of Your Dreams.</p>",
+    "/system/origin": "Human Raider",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@c483a4e7d350d5cf/name": "Machete",
+    "/items/@c483a4e7d350d5cf/system/description": "<p>STR + Melee Weapons (TN 11), Piercing 1.</p>",
+    "/items/@81d0151a9292b5e4/name": "Combat Rifle",
+    "/items/@81d0151a9292b5e4/system/description": "<p>AGI + Small Guns (TN 11), Range M, Fire Rate 2, Two-Handed.</p>",
+    "/items/@efc9ce5f3c24e3a2/name": "Prestigious Luck",
+    "/items/@efc9ce5f3c24e3a2/system/description": "<p>Her +2 Luck is included.</p>",
+    "/items/@fb3cfec0a1b53445/name": "Let Rip",
+    "/items/@fb3cfec0a1b53445/system/description": "<p>Once per combat add Fire Rate 2 to Combat Rifle damage.</p>",
+    "/items/@ffcf72d1261b2a40/name": "Athletics",
+    "/items/@1cb4e19bef8e0c0c/name": "Explosives",
+    "/items/@a41cb74a7cb89057/name": "Medicine",
+    "/items/@54e5b7841a5bcfc0/name": "Melee Weapons",
+    "/items/@7758bd77a9b02817/name": "Small Guns",
+    "/items/@80a212db8d99efcc/name": "Sneak",
+    "/items/@f3f024eb9cf9a76a/name": "Speech",
+    "/items/@5d118b33c064c198/name": "Survival",
+    "/items/@bfac10ca3deceb12/name": "Unarmed"
+  }
+}

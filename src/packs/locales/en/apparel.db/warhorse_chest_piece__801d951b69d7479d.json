@@ -1,0 +1,21 @@
+{
+  "_key": "!items!801d951b69d7479d",
+  "_file": "warhorse_chest_piece__801d951b69d7479d.json",
+  "values": {
+    "/name": "Warhorse Chest Piece",
+    "/system/description": "<p>A replaceable warhorse chest piece armor component. It has 29 HP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 62
+      }
+    ]
+  }
+}

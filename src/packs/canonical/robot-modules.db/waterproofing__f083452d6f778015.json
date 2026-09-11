@@ -1,0 +1,39 @@
+{
+  "_id": "f083452d6f778015",
+  "_key": "!items!f083452d6f778015",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%206.webp",
+  "system": {
+    "canBeScrapped": true,
+    "cost": 50,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "isJunk": false,
+    "perks": "Robotics Expert 1",
+    "quantity": 1,
+    "rarity": 3,
+    "source": "astoundingly_awesome_tales_6",
+    "stashed": false,
+    "weight": -15,
+    "description": "",
+    "effect": ""
+  },
+  "type": "robot_mod",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_6",
+        "page": 12,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 6.",
+        "artworkSharingGroup": "aat-6-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "name": ""
+}

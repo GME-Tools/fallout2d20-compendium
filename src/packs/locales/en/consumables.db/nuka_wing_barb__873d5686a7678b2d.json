@@ -1,0 +1,12 @@
+{
+  "_key": "!items!873d5686a7678b2d",
+  "_file": "nuka_wing_barb__873d5686a7678b2d.json",
+  "values": {
+    "/name": "Nuka-Wing Barb",
+    "/system/description": "<p>A venomous barb harvested from a Nuka-Wing.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/system/effect": "<p>Deal 3 DC Persistent Poison damage to the consumer; all persistent damage gains Vicious.</p>"
+  }
+}

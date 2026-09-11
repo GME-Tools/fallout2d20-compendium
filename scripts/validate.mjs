@@ -49,6 +49,15 @@ for (const language of LANGUAGES) {
         }
         continue;
       }
+      if (pack.type === "RollTable") {
+        if (!Array.isArray(document.results)) issue(errors, file, "table results are required");
+        for (const result of document.results ?? []) {
+          recordCount++;
+          if (!/^[A-Za-z0-9]{16}$/.test(result?._id ?? "")) issue(errors, file, "embedded table result _id must contain 16 alphanumeric characters");
+          if (result?._key !== `!tables.results!${document._id}.${result?._id}`) issue(errors, file, `embedded table result ${result?._id ?? "<unknown>"} has an invalid _key`);
+          if (!Array.isArray(result?.range) || result.range.length !== 2) issue(errors, file, `embedded table result ${result?._id ?? "<unknown>"} requires a range`);
+        }
+      }
       documentCount++;
       publicationRecords.push({ language, pack: pack.name, type: pack.type, file, document });
       if (!/^[A-Za-z0-9]{16}$/.test(document._id ?? "")) issue(errors, file, "_id must contain 16 alphanumeric characters");

@@ -1,0 +1,38 @@
+{
+  "_key": "!actors!9c870384985b67dd",
+  "_file": "dr_walter_leach__9c870384985b67dd.json",
+  "values": {
+    "/name": "Dr. Walter Leach",
+    "/token/name": "Dr. Walter Leach",
+    "/system/biography": "<p>A gifted but compromised physician who created Nectar under Hot-Rod’s sponsorship.</p>",
+    "/system/origin": "Human",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 11
+      }
+    ],
+    "/items/@b17ad51abac4c98b/name": "Unarmed Strike",
+    "/items/@b17ad51abac4c98b/system/description": "<p>STR + Unarmed (TN 6).</p>",
+    "/items/@c1dc2898fc76aa13/name": "Plasma Gun",
+    "/items/@c1dc2898fc76aa13/system/description": "<p>PER + Energy Weapons (TN 13), Range C, Close Quarters.</p>",
+    "/items/@e66671cd8e5cf7ac/name": "Lab Coat",
+    "/items/@e66671cd8e5cf7ac/system/description": "<p>Once per scene, reroll 1d20 on one INT-based skill test.</p>",
+    "/items/@8f948e6afd9916e6/name": "Chemist Extraordinaire",
+    "/items/@8f948e6afd9916e6/system/description": "<p>In combat Leach may use either Orange Mentats or Overdrive once, gaining the published effect for the remainder of combat.</p>",
+    "/items/@c7fba8648e47027a/name": "Athletics",
+    "/items/@54a609d861300a0a/name": "Energy Weapons",
+    "/items/@c3e2068b75b484cd/name": "Medicine",
+    "/items/@069ebbf3e8a8646a/name": "Repair",
+    "/items/@53958a7cfb71a7dd/name": "Science",
+    "/items/@de94df71304e9910/name": "Sneak",
+    "/items/@06e7bf16a127cf5b/name": "Survival"
+  }
+}

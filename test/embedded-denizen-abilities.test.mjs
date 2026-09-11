@@ -76,8 +76,8 @@ test("native denizen immunities, matching abilities, and structured loot stay al
     assert.equal(typeof actor.system.immunities.poison, "boolean", `${language}/${actor.name}: poison immunity`);
     assert.equal(typeof actor.system.immunities.radiation, "boolean", `${language}/${actor.name}: radiation immunity`);
     assert.equal(actor.items.some(item => /^(?:Butchery|Salvage|Dépeçage|Récupération)$/i.test(item.name)), false, `${language}/${actor.name}: loot pseudo-item`);
-    const radiationAbilities = actor.items.filter(item => /^(?:Immune to Radiation|Immunisé contre les radiations)$/i.test(item.name));
-    const poisonAbilities = actor.items.filter(item => /^(?:Immune to Poison|Immunisé contre le poison)$/i.test(item.name));
+    const radiationAbilities = actor.items.filter(item => /^(?:Immune to Radiation|Immunisé(?:e)? contre les radiations)$/i.test(item.name));
+    const poisonAbilities = actor.items.filter(item => /^(?:Immune to Poison|Immunisé(?:e)? contre le poison)$/i.test(item.name));
     assert.equal(radiationAbilities.length, actor.system.immunities.radiation ? 1 : 0, `${language}/${actor.name}: radiation ability`);
     assert.equal(poisonAbilities.length, actor.system.immunities.poison ? 1 : 0, `${language}/${actor.name}: poison ability`);
     for (const item of actor.items.filter(item => item.flags?.[MODULE_ID]?.embeddedYield)) {

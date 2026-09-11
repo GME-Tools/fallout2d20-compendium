@@ -13,8 +13,8 @@ test("generic Syringer Ammo is replaced by a bilingual 1d9 type table",async()=>
     assert.deepEqual(new Set(ammunition.filter(document=>document.flags?.["fallout2d20-compendium"]?.syringerEffect).map(document=>document._id)),ammoIds);
     const tables=await docs(language,"roll-tables"),table=tables.find(document=>document._id===tableId);
     assert.ok(table); assert.equal(table.formula,"1d9"); assert.equal(table.results.length,9);
-    for(const id of table.results){const result=tables.find(document=>document._id===id);assert.ok(result);assert.match(result.description,/\.Item\.[A-Za-z0-9]{16}/);}
-    const randomResults=tables.filter(document=>document._key?.startsWith("!tables.results!sa66QXOwlO8515AT.")&&document.name.includes(language==="en"?"Syringer":"seringue"));
+    for(const result of table.results){assert.match(result.description,/\.Item\.[A-Za-z0-9]{16}/);}
+    const randomResults=tables.flatMap(document=>document.results??[]).filter(document=>document._key?.startsWith("!tables.results!sa66QXOwlO8515AT.")&&document.name.includes(language==="en"?"Syringer":"seringue"));
     assert.equal(randomResults.length,2); for(const result of randomResults)assert.equal(result.documentId,tableId);
   }
 });

@@ -28,6 +28,24 @@
     "/items/@BicdAjOlI5usgXMA/name": "Immune to Poison",
     "/items/@lH45aSUIgVqHGMUw/system/description": "<p>The super mutant reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
     "/items/@lH45aSUIgVqHGMUw/name": "Immune to Radiation",
-    "/name": "Super Mutant"
+    "/name": "Super Mutant",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "en",
+        "edition": "en-digital-2023",
+        "translation": "original",
+        "status": "identical",
+        "page": 14
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 58
+      }
+    ]
   }
 }

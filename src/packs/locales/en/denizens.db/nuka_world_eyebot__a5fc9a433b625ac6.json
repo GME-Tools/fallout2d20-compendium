@@ -1,0 +1,27 @@
+{
+  "_key": "!actors!a5fc9a433b625ac6",
+  "_file": "nuka_world_eyebot__a5fc9a433b625ac6.json",
+  "values": {
+    "/name": "Nuka-World Eyebot",
+    "/token/name": "Nuka-World Eyebot",
+    "/system/biography": "<p>A Nuka-World advertising eyebot driven haywire by the Robot Command Pulser.</p>",
+    "/system/origin": "Robot",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@d41ed81f26aed8b0/name": "Electrical Zap",
+    "/items/@d41ed81f26aed8b0/system/description": "<p>Body + Guns (TN 8), Stun, Range C, Fire Rate 1.</p>",
+    "/items/@81305fa6a289dd86/name": "Robot",
+    "/items/@81305fa6a289dd86/system/description": "<p>This character is a robot: it cannot use consumables or heal naturally, and damage must be repaired. It is immune to hunger, thirst and suffocation.</p>",
+    "/items/@18b78419da274802/name": "Immune to Radiation",
+    "/items/@18b78419da274802/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@1854f9e4aabf0b0e/name": "Immune to Poison",
+    "/items/@1854f9e4aabf0b0e/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@6971bc1cc1a9b8a6/name": "Pop!",
+    "/items/@6971bc1cc1a9b8a6/system/description": "<p>At 2 HP or fewer it self-destructs for 3 DC Energy damage with Radioactive and Blast.</p>",
+    "/items/@38b9debf6c4e1397/name": "Overwhelming Advertising",
+    "/items/@38b9debf6c4e1397/system/description": "<p>Non-robots within Close increase the difficulty of PER tests by 1.</p>",
+    "/items/@806b8714b8068c71/name": "Little",
+    "/items/@806b8714b8068c71/system/description": "<p>It is slain by any hit that inflicts an Injury.</p>"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "fe194419f1497fef",
+  "_key": "!items!fe194419f1497fef",
+  "effects": [],
+  "folder": null,
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%206.webp",
+  "system": {
+    "apparelType": "armor",
+    "canBeScrapped": true,
+    "cost": 25,
+    "equippable": true,
+    "equipped": false,
+    "favorite": false,
+    "health": {
+      "max": 0,
+      "min": 0,
+      "mod": 0,
+      "value": 0
+    },
+    "isJunk": false,
+    "location": {
+      "armL": false,
+      "armR": false,
+      "head": true,
+      "legL": false,
+      "legR": false,
+      "torso": false
+    },
+    "mods": {
+      "current": 0,
+      "installedMods": "",
+      "list": "",
+      "max": 0,
+      "modded": false
+    },
+    "powerArmor": {
+      "frameId": "",
+      "isFrame": true,
+      "powered": false
+    },
+    "quantity": 1,
+    "rarity": 3,
+    "resistance": {
+      "physical": 2,
+      "energy": 2,
+      "radiation": 2
+    },
+    "shadowed": false,
+    "source": "astoundingly_awesome_tales_6",
+    "stashed": false,
+    "description": "",
+    "weight": 2
+  },
+  "type": "apparel",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_6",
+        "page": 16,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 6.",
+        "artworkSharingGroup": "aat-6-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "name": "",
+  "$folder": "headgear"
+}

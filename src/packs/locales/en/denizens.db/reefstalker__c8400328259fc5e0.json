@@ -1,0 +1,25 @@
+{
+  "_key": "!actors!c8400328259fc5e0",
+  "_file": "reefstalker__c8400328259fc5e0.json",
+  "values": {
+    "/name": "Reefstalker",
+    "/token/name": "Reefstalker",
+    "/system/biography": "<p>A mutated shark and apex predator of the irradiated seas.</p>",
+    "/system/origin": "Mutated Fish",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@a6a17479b1fda621/name": "Jaws",
+    "/items/@a6a17479b1fda621/system/description": "<p>Body + Melee (TN 12), Piercing 1.</p>",
+    "/items/@721832abb6fe6742/name": "Aquatic",
+    "/items/@721832abb6fe6742/system/description": "<p>This creature can swim and remain submerged indefinitely and suffers no underwater attack or movement penalties.</p>",
+    "/items/@557dceaecb90bad1/name": "Big",
+    "/items/@557dceaecb90bad1/system/description": "<p>+1 HP per level is included; Defense is reduced by 1 and critical hits require 7 damage.</p>",
+    "/items/@b611549f701fe191/name": "Aggressive",
+    "/items/@b611549f701fe191/system/description": "<p>Generate 1 AP when it enters a scene.</p>",
+    "/items/@83a4957ea4663888/name": "Always Moving",
+    "/items/@83a4957ea4663888/system/description": "<p>It must use its first action to move or begin drowning.</p>",
+    "/items/@10c7010ccd88553f/name": "Immune to Radiation",
+    "/items/@10c7010ccd88553f/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_key": "!items!50c518e0f8953224",
+  "_file": "fission_fizz__50c518e0f8953224.json",
+  "values": {
+    "/name": "Fission Fizz",
+    "/system/description": "<p>Une bière de Booth fermentée dans la carcasse évidée d’un réacteur à fission brûlé.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-official-2024",
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/system/effect": "<p>Alcoolisée. Gagnez immédiatement 3 PA et relancez trois d20 sur les tests d’AGI.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "50c518e0f8953224",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 27
+      }
+    ]
+  }
+}

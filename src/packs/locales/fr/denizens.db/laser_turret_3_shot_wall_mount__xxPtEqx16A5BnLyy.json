@@ -29,6 +29,24 @@
     "/items/@EawYhE0ig3n6ex5B/name": "Immunisé contre le poison",
     "/items/@CxHQQtgCCjQDPhOX/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
     "/items/@CxHQQtgCCjQDPhOX/name": "Immunisé contre les radiations",
-    "/name": "Tourelle laser à 3 tirs (murale)"
+    "/name": "Tourelle laser à 3 tirs (murale)",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_2",
+        "language": "fr",
+        "edition": "fr-official-2024",
+        "translation": "official",
+        "status": "identical",
+        "page": 18
+      },
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 39
+      }
+    ]
   }
 }

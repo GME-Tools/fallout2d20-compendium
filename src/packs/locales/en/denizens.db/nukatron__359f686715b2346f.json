@@ -1,0 +1,25 @@
+{
+  "_key": "!actors!359f686715b2346f",
+  "_file": "nukatron__359f686715b2346f.json",
+  "values": {
+    "/name": "Nukatron",
+    "/token/name": "Nukatron",
+    "/system/biography": "<p>A Nuka-World service robot armed with a radioactive beverage cannon.</p>",
+    "/system/origin": "Robot",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2026",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/items/@b4f2fd770f6d0518/name": "Claw",
+    "/items/@b4f2fd770f6d0518/system/description": "<p>Body + Melee (TN 9).</p>",
+    "/items/@15a3e7f56a49b3c8/name": "Nuka-Cannon",
+    "/items/@15a3e7f56a49b3c8/system/description": "<p>Body + Guns (TN 10), Radioactive, Piercing 1, Range C, Fire Rate 3.</p>",
+    "/items/@54ba4678d0f5d0b8/name": "Robot",
+    "/items/@54ba4678d0f5d0b8/system/description": "<p>This character is a robot: it cannot use consumables or heal naturally, and damage must be repaired. It is immune to hunger, thirst and suffocation.</p>",
+    "/items/@11ce4751d4448a10/name": "Immune to Radiation",
+    "/items/@11ce4751d4448a10/system/description": "<p>This character cannot suffer damage or effects from radiation.</p>",
+    "/items/@22bcd38f46e0c5a8/name": "Immune to Poison",
+    "/items/@22bcd38f46e0c5a8/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@98b977c6186af67a/name": "Pop!",
+    "/items/@98b977c6186af67a/system/description": "<p>At 3 HP or fewer it self-destructs for 6 DC Energy damage with Radioactive and Blast.</p>"
+  }
+}

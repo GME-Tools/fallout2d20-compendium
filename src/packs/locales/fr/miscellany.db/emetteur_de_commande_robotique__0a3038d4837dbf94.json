@@ -1,0 +1,18 @@
+{
+  "_key": "!items!0a3038d4837dbf94",
+  "_file": "emetteur_de_commande_robotique__0a3038d4837dbf94.json",
+  "values": {
+    "/name": "Émetteur de commande robotique",
+    "/system/description": "<p>Un émetteur de commande des robots de Nuka-World, unique en son genre.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Une fois par jour, commandez pendant un tour tous les robots de la zone actuelle : s’arrêter, se déplacer, ramasser ou utiliser un objet hors combat. Les robots PJ ne peuvent recevoir l’ordre de combattre ou de se blesser.</p>",
+    "/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "0a3038d4837dbf94",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

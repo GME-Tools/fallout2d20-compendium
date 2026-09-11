@@ -1,0 +1,18 @@
+{
+  "_key": "!items!54c424550d348e92",
+  "_file": "viande_de_nuka_aile__54c424550d348e92.json",
+  "values": {
+    "/name": "Viande de Nuka-aile",
+    "/system/description": "<p>Une viande pétillante au goût écœurant de sucre, prélevée sur un Nuka-aile.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/effect": "<p>Soignez 11 PV et gagnez immédiatement 5 PA.</p>",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "54c424550d348e92",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}
