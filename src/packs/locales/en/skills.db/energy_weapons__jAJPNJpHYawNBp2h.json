@@ -3,7 +3,7 @@
   "_file": "energy_weapons__jAJPNJpHYawNBp2h.json",
   "values": {
     "/name": "Energy Weapons",
-    "/system/description": "<p>Energy Weapons is the skill to use any time you fire energy-based firearms like laser guns, plasma guns, and any other small arm that fires a bolt of energy.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Perception</strong> but could be used with Intelligence if you were trying to modify and repair an energy weapon, or Agility when you are trying to disarm a trap that uses an energy weapon. You use Energy Weapons with weapons like laser pistols, plasma rifles, the microwave emitter, or a laser musket.</p>",
+    "/system/description": "<p>Energy Weapons is the skill to use any time you fire energy-based firearms like laser guns, plasma guns, gauss weaponry, and any other small arm that fires a bolt of energy.</p>\n<p>Its default S.P.E.C.I.A.L. attribute is <strong>Perception</strong> but could be used with Intelligence if you were trying to modify and repair an energy weapon, or Agility when you are trying to disarm a trap that uses an energy weapon. You use Energy Weapons with weapons like laser pistols, plasma rifles, the gauss rifle, the microwave emitter, or a laser musket.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
     "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
