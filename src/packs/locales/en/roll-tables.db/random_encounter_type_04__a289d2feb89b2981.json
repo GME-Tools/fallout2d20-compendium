@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!bb6afa5ca5bfa934.a289d2feb89b2981",
-  "_file": "random_encounter_type_04__a289d2feb89b2981.json",
-  "values": {
-    "/name": "Choke Point",
-    "/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.673ec95833451220]{Random Choke Point Encounters}."
-  }
-}

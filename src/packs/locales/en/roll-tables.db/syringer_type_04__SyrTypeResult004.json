@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult004",
-  "_file": "syringer_type_04__SyrTypeResult004.json",
-  "values": {
-    "/name": "Endangerol Syringe",
-    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrEndangerolA01]{Endangerol Syringe}"
-  }
-}

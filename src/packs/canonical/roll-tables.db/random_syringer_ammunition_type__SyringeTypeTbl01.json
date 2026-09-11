@@ -7,15 +7,114 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "SyrTypeResult001",
-    "SyrTypeResult002",
-    "SyrTypeResult003",
-    "SyrTypeResult004",
-    "SyrTypeResult005",
-    "SyrTypeResult006",
-    "SyrTypeResult007",
-    "SyrTypeResult008",
-    "SyrTypeResult009"
+    {
+      "_id": "SyrTypeResult001",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult001",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult002",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult002",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult003",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult003",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult004",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult004",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult005",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult005",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult006",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult006",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult007",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult007",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult008",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult008",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "SyrTypeResult009",
+      "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult009",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

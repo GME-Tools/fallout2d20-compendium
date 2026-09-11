@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random Astoundingly Awesome Tales Issues",
     "/description": "<p>Core Rulebook table, p. 173.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@qaOKKTFoaEouJgfV/name": "Attack of the Fishmen!",
+    "/results/@qaOKKTFoaEouJgfV/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mT6qkeV6xTG1pnex]{Attack of the Fishmen!}",
+    "/results/@Xs0JrjIbkV4pxFyS/name": "Rise of the Mutants!",
+    "/results/@Xs0JrjIbkV4pxFyS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.J86ayEuqmagF9OH0]{Rise of the Mutants!}",
+    "/results/@jble9SfZo8nYZNvS/name": "Attack of the Metal Men!",
+    "/results/@jble9SfZo8nYZNvS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.13RpvXhUn7TdKjEA]{Attack of the Metal Men!}",
+    "/results/@S41Hti7y6Hkga3Gm/name": "The Mad Russian's Revenge!",
+    "/results/@S41Hti7y6Hkga3Gm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.iiFcIlhklIMxjaoC]{The Mad Russian's Revenge!}",
+    "/results/@t3QpjYo2GBREUzMm/name": "The Starlet Sniper!",
+    "/results/@t3QpjYo2GBREUzMm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.sNyzZdtR8zQeKE86]{The Starlet Sniper!}",
+    "/results/@PQMcFvmOjiOvrkxQ/name": "Curse of the Burned!",
+    "/results/@PQMcFvmOjiOvrkxQ/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.jPdCfq2T6pELwzbK]{Curse of the Burned!}",
+    "/results/@ATmZBwB5ms4NICSM/name": "Giant Insects Invade!",
+    "/results/@ATmZBwB5ms4NICSM/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.1bOiFImI3fM9CaIJ]{Giant Insects Invade!}",
+    "/results/@Fyn4jstkDvKvJqLK/name": "Deadly Lasers!",
+    "/results/@Fyn4jstkDvKvJqLK/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.6rHaK2QtsSPGvSpJ]{Deadly Lasers!}",
+    "/results/@IRKTGPUQgf9M85Dc/name": "Science Gone Mad!",
+    "/results/@IRKTGPUQgf9M85Dc/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.zpcKGtIDvZn8Z1ut]{Science Gone Mad!}",
+    "/results/@CpUtavC1AVyhDjb0/name": "Surrounded by the Dead!",
+    "/results/@CpUtavC1AVyhDjb0/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.0pTA0wlRQUQ2oAHk]{Surrounded by the Dead!}"
   }
 }

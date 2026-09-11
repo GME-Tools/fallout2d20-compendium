@@ -1,0 +1,21 @@
+{
+  "_key": "!tables!2d741f2c1809f6bf",
+  "_file": "hit_locations__2d741f2c1809f6bf.json",
+  "values": {
+    "/name": "Hit Locations",
+    "/description": "<p>Core Rulebook, p. 28.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@dcb7fc2afc5944ce/name": "Head",
+    "/results/@dcb7fc2afc5944ce/description": "Head",
+    "/results/@ef74c0057774868e/name": "Torso",
+    "/results/@ef74c0057774868e/description": "Torso",
+    "/results/@02810ea43d48a62f/name": "Left Arm",
+    "/results/@02810ea43d48a62f/description": "Left Arm",
+    "/results/@173ade01ce0453a2/name": "Right Arm",
+    "/results/@173ade01ce0453a2/description": "Right Arm",
+    "/results/@abffff40bbe121e7/name": "Left Leg",
+    "/results/@abffff40bbe121e7/description": "Left Leg",
+    "/results/@999c384671eda781/name": "Right Leg",
+    "/results/@999c384671eda781/description": "Right Leg"
+  }
+}

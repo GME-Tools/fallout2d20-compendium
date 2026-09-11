@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!673ec95833451220.aa0d91405585f115",
-  "_file": "random_choke_point_encounters_05__aa0d91405585f115.json",
-  "values": {
-    "/name": "Minefield",
-    "/description": "There are 3+3 CD fragmentation mines and no easy route around. Each requires difficulty 2 PER + Explosives; failure detonates it, and each Effect on explosive damage triggers another mine."
-  }
-}

@@ -6,6 +6,16 @@
     "/description": "<p>Encounters at terrain that is difficult to bypass.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
-    "/flags/fallout2d20-compendium/source/translation": "original"
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@92564bf5a7f53485/name": "None Shall Pass",
+    "/results/@92564bf5a7f53485/description": "Three raiders demand 50 caps × the highest-level raider. Opposed CHA + Barter or Speech can reduce it to 40 caps × level; refusal causes hostility.",
+    "/results/@1fec46ae758b39d6/name": "Robotic Imperative",
+    "/results/@1fec46ae758b39d6/description": "A military robot, often a Mister Gutsy, has strict orders to block passage and attacks anyone passing without a reason its programming accepts.",
+    "/results/@7e138411649ea49c/name": "Dispute",
+    "/results/@7e138411649ea49c/description": "Three raiders shake down two farmers. Saving them earns 2d20 caps, but approaching PCs may provoke hostility.",
+    "/results/@7e76bd172daf1945/name": "Nervous Settlers",
+    "/results/@7e76bd172daf1945/description": "Settlement guards allow passage only to travellers who holster weapons and show no ill intent.",
+    "/results/@aa0d91405585f115/name": "Minefield",
+    "/results/@aa0d91405585f115/description": "There are 3+3 CD fragmentation mines and no easy route around. Each requires difficulty 2 PER + Explosives; failure detonates it, and each Effect on explosive damage triggers another mine."
   }
 }

@@ -4,6 +4,24 @@
   "values": {
     "/name": "Type de munition de seringue aléatoire",
     "/description": "<p>Table utilitaire du projet : lancez une fois par lot de munitions de seringue trouvé pour déterminer le type de seringue du Livre de base.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@SyrTypeResult001/name": "Seringue frénétique",
+    "/results/@SyrTypeResult001/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBerserkAmmo01]{Seringue frénétique}",
+    "/results/@SyrTypeResult002/name": "Seringue hémorragique",
+    "/results/@SyrTypeResult002/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBleedOutAmmo1]{Seringue hémorragique}",
+    "/results/@SyrTypeResult003/name": "Seringue à larve de mouche bouffie",
+    "/results/@SyrTypeResult003/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBloatflyAmmo1]{Seringue à larve de mouche bouffie}",
+    "/results/@SyrTypeResult004/name": "Seringue d’Endangerol",
+    "/results/@SyrTypeResult004/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrEndangerolA01]{Seringue d’Endangerol}",
+    "/results/@SyrTypeResult005/name": "Seringue bloque-articulation",
+    "/results/@SyrTypeResult005/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrLockJointAm01]{Seringue bloque-articulation}",
+    "/results/@SyrTypeResult006/name": "Seringue de confusion",
+    "/results/@SyrTypeResult006/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrMindCloudAm01]{Seringue de confusion}",
+    "/results/@SyrTypeResult007/name": "Seringue Pax",
+    "/results/@SyrTypeResult007/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrPaxAmmo000001]{Seringue Pax}",
+    "/results/@SyrTypeResult008/name": "Seringue au venin de radscorpion",
+    "/results/@SyrTypeResult008/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrRadVenomAm001]{Seringue au venin de radscorpion}",
+    "/results/@SyrTypeResult009/name": "Seringue trouillarde",
+    "/results/@SyrTypeResult009/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrYellowBelly01]{Seringue trouillarde}"
   }
 }

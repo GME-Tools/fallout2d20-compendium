@@ -7,11 +7,66 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "DinDr6mBoFVsCdqX",
-    "HiKNvGvdNfyA7EH1",
-    "9a1FEUJFkEwxjLDt",
-    "ki6FvPXjZCVfEg20",
-    "KPxM8XV1LF5Cim2p"
+    {
+      "_id": "DinDr6mBoFVsCdqX",
+      "_key": "!tables.results!3yyd2m95Aw6isb56.DinDr6mBoFVsCdqX",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "HiKNvGvdNfyA7EH1",
+      "_key": "!tables.results!3yyd2m95Aw6isb56.HiKNvGvdNfyA7EH1",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        5,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "9a1FEUJFkEwxjLDt",
+      "_key": "!tables.results!3yyd2m95Aw6isb56.9a1FEUJFkEwxjLDt",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ki6FvPXjZCVfEg20",
+      "_key": "!tables.results!3yyd2m95Aw6isb56.ki6FvPXjZCVfEg20",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        13,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "KPxM8XV1LF5Cim2p",
+      "_key": "!tables.results!3yyd2m95Aw6isb56.KPxM8XV1LF5Cim2p",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        17,
+        20
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

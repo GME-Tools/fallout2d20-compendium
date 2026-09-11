@@ -1,0 +1,74 @@
+{
+  "_id": "87374ceda3c080d5",
+  "_key": "!tables!87374ceda3c080d5",
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%205.webp",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    {
+      "_id": "8e745602e5290b77",
+      "_key": "!tables.results!87374ceda3c080d5.8e745602e5290b77",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "f0be1df67fe2cc5e",
+      "_key": "!tables.results!87374ceda3c080d5.f0be1df67fe2cc5e",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        6,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "58f4ec459e407274",
+      "_key": "!tables.results!87374ceda3c080d5.58f4ec459e407274",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 7,
+      "range": [
+        11,
+        17
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ecc8c46d0c411197",
+      "_key": "!tables.results!87374ceda3c080d5.ecc8c46d0c411197",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        18,
+        20
+      ],
+      "drawn": false
+    }
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_1_5",
+        "page": 94,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 5.",
+        "artworkSharingGroup": "aat-5-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "$folder": "aat-5"
+}

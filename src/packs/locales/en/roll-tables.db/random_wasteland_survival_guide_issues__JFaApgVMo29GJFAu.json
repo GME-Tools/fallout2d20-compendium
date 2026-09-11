@@ -4,6 +4,20 @@
   "values": {
     "/name": "Random Wasteland Survival Guide Issues",
     "/description": "<p>Core Rulebook table, p. 180.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@0E6IPgFzagFhIIg2/name": "Farming the Wastes",
+    "/results/@0E6IPgFzagFhIIg2/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.0GXqsrMeNMoA9iCS]{Farming the Wastes}",
+    "/results/@CG7MCq5Fpo5Ndwyi/name": "Insect Repellent Special",
+    "/results/@CG7MCq5Fpo5Ndwyi/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.NyoiFuBl8FN4iRiZ]{Insect Repellent Special}",
+    "/results/@2CpHiStwIJeSqKE5/name": "The Bright Side of Radiation Poisoning",
+    "/results/@2CpHiStwIJeSqKE5/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.EIzEOJH0iP4JzWnw]{The Bright Side of Radiation Poisoning}",
+    "/results/@0lPvoGrl1oyfzRpL/name": "Coupon Spectacular",
+    "/results/@0lPvoGrl1oyfzRpL/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.lc4MTpvhDkQ7ApOS]{Coupon Spectacular}",
+    "/results/@AA6RZfLEHcvzHYqg/name": "Water Aerobics for Ghouls",
+    "/results/@AA6RZfLEHcvzHYqg/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.hQmjix9JtmveUaBz]{Water Aerobics for Ghouls}",
+    "/results/@mMWmI2T9Vi8mRbPW/name": "Self Defense Secrets",
+    "/results/@mMWmI2T9Vi8mRbPW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.l04nHOGBarXy6rxt]{Self Defense Secrets}",
+    "/results/@XvVGJCV8SoizNHVV/name": "Hunting in the Wastes",
+    "/results/@XvVGJCV8SoizNHVV/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.rzLGWCVR5aHjEyFy]{Hunting in the Wastes}"
   }
 }

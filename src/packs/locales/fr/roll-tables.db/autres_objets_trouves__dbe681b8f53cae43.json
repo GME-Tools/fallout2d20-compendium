@@ -6,6 +6,22 @@
     "/description": "<p>Créez un lieu à fouiller en choisissant son échelle (Minuscule 6 objets, Petit 12, Moyen 18, Grand 24), sa catégorie et son degré de fouille antérieure. Le degré fixe la difficulté et les réductions pour un lieu Minuscule : Intact 0/2, Partiellement fouillé 1/3, Majoritairement fouillé 2/4, Très fouillé 3/5 ; multipliez les réductions par 2, 3 ou 4 aux échelles supérieures. Lancez ici chaque fois qu’une catégorie indique Autre. Le niveau du lieu est le total de DC égal à la somme des niveaux des PJ, plus autant de DC que la difficulté de fouille ; chaque Effet ajoute 1 si des problèmes sont présents.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
-    "/flags/fallout2d20-compendium/source/translation": "project"
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/results/@45fa39d75f6b2d64/name": "Munitions",
+    "/results/@45fa39d75f6b2d64/description": "",
+    "/results/@3197e439338ed1a0/name": "Armures",
+    "/results/@3197e439338ed1a0/description": "",
+    "/results/@c05de8ea42266e59/name": "Vêtements",
+    "/results/@c05de8ea42266e59/description": "",
+    "/results/@979949ad15b74202/name": "Nourriture",
+    "/results/@979949ad15b74202/description": "",
+    "/results/@d71c3917cbaef984/name": "Boissons",
+    "/results/@d71c3917cbaef984/description": "",
+    "/results/@0bfc13c59d5beeb2/name": "Drogues",
+    "/results/@0bfc13c59d5beeb2/description": "",
+    "/results/@d125ad6f5f7c69bf/name": "Armes",
+    "/results/@d125ad6f5f7c69bf/description": "",
+    "/results/@6c117e6b8f973459/name": "Curiosités",
+    "/results/@6c117e6b8f973459/description": ""
   }
 }

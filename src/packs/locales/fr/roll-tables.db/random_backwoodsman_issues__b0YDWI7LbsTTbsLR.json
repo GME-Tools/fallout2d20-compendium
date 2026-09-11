@@ -4,6 +4,26 @@
   "values": {
     "/name": "Numéros aléatoires de Backwoodsman",
     "/description": "<p>Table du Livre de base, p. 173.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@vXdjaHRKTZMMkfFn/name": "Dégage de ma pelouse !",
+    "/results/@vXdjaHRKTZMMkfFn/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.yqeVKyCZWStLXitm]{Dégage de ma pelouse !}",
+    "/results/@z0II1V41dSuEU9dA/name": "Cuisiner à la maison",
+    "/results/@z0II1V41dSuEU9dA/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.5k41CcVoWDkABFcI]{Cuisiner à la maison}",
+    "/results/@v7sleDEFDIkw7BwG/name": "L’horreur familiale",
+    "/results/@v7sleDEFDIkw7BwG/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.uCmxHbctgoe8jQDo]{L’horreur familiale}",
+    "/results/@yUcP8hTpe5OPJ9v7/name": "Solide comme Bigfoot",
+    "/results/@yUcP8hTpe5OPJ9v7/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mbkQ1d1IQjlSE6HG]{Solide comme Bigfoot}",
+    "/results/@ljvBD2y6zUHUE8cB/name": "Lapins carnivores des Appalaches",
+    "/results/@ljvBD2y6zUHUE8cB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.fYekpImbXPFZgNkz]{Lapins carnivores des Appalaches}",
+    "/results/@LABdSdZbnNCDvOyd/name": "Le massacre des écureuils des Appalaches",
+    "/results/@LABdSdZbnNCDvOyd/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.h5GN8irnNWKC3xMD]{Le massacre des écureuils des Appalaches}",
+    "/results/@JOffoG75Oj1JRI3k/name": "L’art du tomahawk",
+    "/results/@JOffoG75Oj1JRI3k/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.MsXLDa4RZ0UHMT2J]{L’art du tomahawk}",
+    "/results/@3XrmGWvDFUXEkoQo/name": "L’armurier d’Harper’s Ferry",
+    "/results/@3XrmGWvDFUXEkoQo/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.sJuyumHFWHrT4Kr0]{L’armurier d’Harper’s Ferry}",
+    "/results/@V8byG5jfjVKzTAIm/name": "L’ermite de la rivière Ohio",
+    "/results/@V8byG5jfjVKzTAIm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.0WGq8Aaq82V8nViB]{L’ermite de la rivière Ohio}",
+    "/results/@I7oTcjTDKoJXZXgy/name": "Cauchemar dans le jardin",
+    "/results/@I7oTcjTDKoJXZXgy/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.9hZXkRhoJIX47mWS]{Cauchemar dans le jardin}"
   }
 }

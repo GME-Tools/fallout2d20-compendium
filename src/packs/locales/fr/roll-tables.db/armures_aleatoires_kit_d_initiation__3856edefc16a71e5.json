@@ -6,6 +6,10 @@
     "/description": "<p>Starter Set, p. 60.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-official-adventure",
-    "/flags/fallout2d20-compendium/source/translation": "official"
+    "/flags/fallout2d20-compendium/source/translation": "official",
+    "/results/@fb605266f4cd8375/text": "Combat Armor",
+    "/results/@1afea12691517728/text": "Metal Armor",
+    "/results/@a480cc647cca062c/text": "Leather Armor",
+    "/results/@0f8858ccbe158284/text": "Raider Armor"
   }
 }

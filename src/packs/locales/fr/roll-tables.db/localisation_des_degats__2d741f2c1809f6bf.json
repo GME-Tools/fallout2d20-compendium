@@ -1,0 +1,21 @@
+{
+  "_key": "!tables!2d741f2c1809f6bf",
+  "_file": "localisation_des_degats__2d741f2c1809f6bf.json",
+  "values": {
+    "/name": "Localisation des dégâts",
+    "/description": "<p>Livre de règles, p. 28.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@dcb7fc2afc5944ce/name": "Tête",
+    "/results/@dcb7fc2afc5944ce/description": "Tête",
+    "/results/@ef74c0057774868e/name": "Buste",
+    "/results/@ef74c0057774868e/description": "Buste",
+    "/results/@02810ea43d48a62f/name": "Bras gauche",
+    "/results/@02810ea43d48a62f/description": "Bras gauche",
+    "/results/@173ade01ce0453a2/name": "Bras droit",
+    "/results/@173ade01ce0453a2/description": "Bras droit",
+    "/results/@abffff40bbe121e7/name": "Jambe gauche",
+    "/results/@abffff40bbe121e7/description": "Jambe gauche",
+    "/results/@999c384671eda781/name": "Jambe droite",
+    "/results/@999c384671eda781/description": "Jambe droite"
+  }
+}

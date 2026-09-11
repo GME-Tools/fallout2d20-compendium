@@ -4,6 +4,16 @@
   "values": {
     "/name": "Quêtes insolites d’Abri",
     "/description": "<p>Table du Livre de base, p. 257.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@DinDr6mBoFVsCdqX/name": "IA déchaînée",
+    "/results/@DinDr6mBoFVsCdqX/description": "Un ordinateur ou robot conscient oblige les personnages à l’aider à accomplir sa mission programmée.",
+    "/results/@HiKNvGvdNfyA7EH1/name": "Bricoleurs oubliés",
+    "/results/@HiKNvGvdNfyA7EH1/description": "De jeunes descendants d’ingénieurs brillants ont rempli l’Abri de dispositifs improvisés complexes.",
+    "/results/@9a1FEUJFkEwxjLDt/name": "Pour mémoire",
+    "/results/@9a1FEUJFkEwxjLDt/description": "L’Abri est vide et impeccable ; la musique joue encore et des mouvements semblent toujours venir de la pièce voisine.",
+    "/results/@ki6FvPXjZCVfEg20/name": "L’expérience continue",
+    "/results/@ki6FvPXjZCVfEg20/description": "Un Superviseur robotique veut de nouveaux sujets pour l’expérience de supersoldats de l’Abri.",
+    "/results/@KPxM8XV1LF5Cim2p/name": "Station martienne",
+    "/results/@KPxM8XV1LF5Cim2p/description": "Un prototype d’Abri oublié simule une base martienne, avec gravité altérée et réalité virtuelle extérieure."
   }
 }

@@ -7,13 +7,100 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "qaxc4yD0Pr3DVIdJ",
-    "jM4FFTSOqBjKyGNp",
-    "rrQ3bgXRhrjmpuSa",
-    "vt5gNeEQcTHqAGpF",
-    "fOPDo9h1nikliDOt",
-    "56LAQROGB0M3ymuf",
-    "rwbTpDI0OcuGMgbC"
+    {
+      "_id": "qaxc4yD0Pr3DVIdJ",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.qaxc4yD0Pr3DVIdJ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 8,
+      "range": [
+        1,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "jM4FFTSOqBjKyGNp",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.jM4FFTSOqBjKyGNp",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "rrQ3bgXRhrjmpuSa",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.rrQ3bgXRhrjmpuSa",
+      "name": "1 Nuka-Cola",
+      "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Uxxc3gTKcLNpcBLU]{1 Nuka-Cola}",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        13,
+        15
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "vt5gNeEQcTHqAGpF",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.vt5gNeEQcTHqAGpF",
+      "name": "2 Nuka-Cola",
+      "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Uxxc3gTKcLNpcBLU]{2 Nuka-Cola}",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "fOPDo9h1nikliDOt",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.fOPDo9h1nikliDOt",
+      "name": "1 Nuka-Cola, 1 Nuka-Cherry",
+      "description": "1 Nuka-Cola, 1 Nuka-Cherry",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "56LAQROGB0M3ymuf",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.56LAQROGB0M3ymuf",
+      "name": "2 Nuka-Cola, 1 Nuka-Cherry",
+      "description": "2 Nuka-Cola, 1 Nuka-Cherry",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "rwbTpDI0OcuGMgbC",
+      "_key": "!tables.results!wnSUEULiOZSnr7Zq.rwbTpDI0OcuGMgbC",
+      "name": "1 Nuka-Cola Quantum",
+      "description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.KXreAKBJPNwyBwMb]{1 Nuka-Cola Quantum}",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

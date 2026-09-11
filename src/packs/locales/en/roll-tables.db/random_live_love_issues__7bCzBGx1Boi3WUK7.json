@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random Live & Love Issues",
     "/description": "<p>Core Rulebook table, p. 176.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@rGKLYjJRI5VIkaQH/name": "Life Long Best Friends!",
+    "/results/@rGKLYjJRI5VIkaQH/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.uizbEBbI5Jl1tjeI]{Life Long Best Friends!}",
+    "/results/@NRufi8n9eHBMyLB2/name": "Nuke-the-Man!",
+    "/results/@NRufi8n9eHBMyLB2/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.xT9LvN0vcacln4pN]{Nuke-the-Man!}",
+    "/results/@0CmuiFD7BF01EsZe/name": "Trim the Fat!",
+    "/results/@0CmuiFD7BF01EsZe/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ZVFaC4f8Ki48eTdx]{Trim the Fat!}",
+    "/results/@vFA38M81tWt7UEvb/name": "The Secretary Charmer",
+    "/results/@vFA38M81tWt7UEvb/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.PKilL8to3SDZHUAU]{The Secretary Charmer}",
+    "/results/@AO6HolaFuRSkwrHU/name": "Talk Yourself Sober",
+    "/results/@AO6HolaFuRSkwrHU/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.YFSFj5moNn7KNnT8]{Talk Yourself Sober}",
+    "/results/@dA8N9PceaPQYQbEB/name": "Advice from Married Men",
+    "/results/@dA8N9PceaPQYQbEB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.8uCaW6rs4fwDWJUF]{Advice from Married Men}",
+    "/results/@GWtYqGWu6nd1kX7g/name": "Beware the Man Handler",
+    "/results/@GWtYqGWu6nd1kX7g/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.hCRQEWSkpgvFluXe]{Beware the Man Handler}",
+    "/results/@jxbx38Gce98t9Dkj/name": "An Experience to Remember",
+    "/results/@jxbx38Gce98t9Dkj/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.LATCQmWWljVCwMnt]{An Experience to Remember}",
+    "/results/@dEGHVwyqeuFcGafT/name": "I Married a Robot",
+    "/results/@dEGHVwyqeuFcGafT/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.usR2XUJr38Er8QCh]{I Married a Robot}",
+    "/results/@5GbfzD2EsupaxHhU/name": "Re-roll result",
+    "/results/@5GbfzD2EsupaxHhU/description": "Re-roll on this table."
   }
 }

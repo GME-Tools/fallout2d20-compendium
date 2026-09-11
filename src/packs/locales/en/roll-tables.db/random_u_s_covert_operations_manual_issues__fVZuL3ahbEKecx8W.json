@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random U.S. Covert Operations Manual Issues",
     "/description": "<p>Core Rulebook table, p. 179.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@t7WkjPlAL0MUJCUi/name": "FH 5-01 Whistling in the Dark",
+    "/results/@t7WkjPlAL0MUJCUi/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.KE1PFFcFheyQriDU]{FH 5-01 Whistling in the Dark}",
+    "/results/@J3l9AuCynVGjj6bn/name": "FH 5-02 Urban Camouflage",
+    "/results/@J3l9AuCynVGjj6bn/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.rV3tvVvTmDGs7E0t]{FH 5-02 Urban Camouflage}",
+    "/results/@jsMJc1Zss6kDuv4i/name": "FH 5-03 Facepaint Fundamentals",
+    "/results/@jsMJc1Zss6kDuv4i/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mPUq6ivdAuHbxor6]{FH 5-03 Facepaint Fundamentals}",
+    "/results/@CL5jJLWX6Vo4i3VC/name": "FH 5-04 Not the Soldiers You’re Looking For",
+    "/results/@CL5jJLWX6Vo4i3VC/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.4yO3TrAohgWDMhDI]{FH 5-04 Not the Soldiers You’re Looking For}",
+    "/results/@SXKBBylU1SHqQDDX/name": "FH 5-05 Who Goes There?",
+    "/results/@SXKBBylU1SHqQDDX/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.2RauaAfTO24MIsP2]{FH 5-05 Who Goes There?}",
+    "/results/@rbrsKCjmTYXuAr0W/name": "FH 5-06 Squeaky Floorboard, Sudden Death",
+    "/results/@rbrsKCjmTYXuAr0W/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.9W6IRymdpOZXKmHG]{FH 5-06 Squeaky Floorboard, Sudden Death}",
+    "/results/@7zB7mMaG2tMpT6Za/name": "FH 5-07 Getting the Drop on the Communists",
+    "/results/@7zB7mMaG2tMpT6Za/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ouvM5DNPcc9nqgIw]{FH 5-07 Getting the Drop on the Communists}",
+    "/results/@6cdWdCW3FfMtgWYc/name": "FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special",
+    "/results/@6cdWdCW3FfMtgWYc/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.m6XUFT8MYFsgAvyH]{FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special}",
+    "/results/@qXel8tUPz6W6uKW4/name": "FH 5-09 Look Better in Black",
+    "/results/@qXel8tUPz6W6uKW4/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.lHCsUY3S6twO3Fjb]{FH 5-09 Look Better in Black}",
+    "/results/@nbzlkwkP9KUrWEt6/name": "FH 5-10 Tiptoe Through the Tulips",
+    "/results/@nbzlkwkP9KUrWEt6/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.vAtCC2CaGrGOgnSL]{FH 5-10 Tiptoe Through the Tulips}"
   }
 }

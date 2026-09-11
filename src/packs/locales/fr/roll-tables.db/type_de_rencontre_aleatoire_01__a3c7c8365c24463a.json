@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!bb6afa5ca5bfa934.a3c7c8365c24463a",
-  "_file": "type_de_rencontre_aleatoire_01__a3c7c8365c24463a.json",
-  "values": {
-    "/name": "Ordinaire",
-    "/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.1b1cf5dad6cbb08e]{Rencontres ordinaires aléatoires}."
-  }
-}

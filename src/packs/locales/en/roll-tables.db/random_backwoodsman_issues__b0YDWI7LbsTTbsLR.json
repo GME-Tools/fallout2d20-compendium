@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random Backwoodsman Issues",
     "/description": "<p>Core Rulebook table, p. 173.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@vXdjaHRKTZMMkfFn/name": "Get Off My Lawn",
+    "/results/@vXdjaHRKTZMMkfFn/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.yqeVKyCZWStLXitm]{Get Off My Lawn}",
+    "/results/@z0II1V41dSuEU9dA/name": "Down Home Cookin'",
+    "/results/@z0II1V41dSuEU9dA/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.5k41CcVoWDkABFcI]{Down Home Cookin'}",
+    "/results/@v7sleDEFDIkw7BwG/name": "Homesteading Horror",
+    "/results/@v7sleDEFDIkw7BwG/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.uCmxHbctgoe8jQDo]{Homesteading Horror}",
+    "/results/@yUcP8hTpe5OPJ9v7/name": "Hardy as a Sasquatch",
+    "/results/@yUcP8hTpe5OPJ9v7/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mbkQ1d1IQjlSE6HG]{Hardy as a Sasquatch}",
+    "/results/@ljvBD2y6zUHUE8cB/name": "Carnivorous Rabbits of Appalachia",
+    "/results/@ljvBD2y6zUHUE8cB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.fYekpImbXPFZgNkz]{Carnivorous Rabbits of Appalachia}",
+    "/results/@LABdSdZbnNCDvOyd/name": "The Appalachia Squirrel Massacre",
+    "/results/@LABdSdZbnNCDvOyd/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.h5GN8irnNWKC3xMD]{The Appalachia Squirrel Massacre}",
+    "/results/@JOffoG75Oj1JRI3k/name": "Art of the Tomahawk",
+    "/results/@JOffoG75Oj1JRI3k/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.MsXLDa4RZ0UHMT2J]{Art of the Tomahawk}",
+    "/results/@3XrmGWvDFUXEkoQo/name": "The Gunsmith of Harper’s Ferry",
+    "/results/@3XrmGWvDFUXEkoQo/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.sJuyumHFWHrT4Kr0]{The Gunsmith of Harper’s Ferry}",
+    "/results/@V8byG5jfjVKzTAIm/name": "The Ohio River Hermit",
+    "/results/@V8byG5jfjVKzTAIm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.0WGq8Aaq82V8nViB]{The Ohio River Hermit}",
+    "/results/@I7oTcjTDKoJXZXgy/name": "Nightmare in the Garden",
+    "/results/@I7oTcjTDKoJXZXgy/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.9hZXkRhoJIX47mWS]{Nightmare in the Garden}"
   }
 }

@@ -6,6 +6,24 @@
     "/description": "<p>Objets étranges et rencontres statiques des Terres désolées.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
-    "/flags/fallout2d20-compendium/source/translation": "project"
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/results/@0cce987a5f55adba/name": "Réfrigérateur verrouillé",
+    "/results/@0cce987a5f55adba/description": "Un récupérateur méfiant tente d’ouvrir un réfrigérateur. Sa serrure de difficulté 3 protège une arme à distance aléatoire, 1d20 munitions adaptées et 3d20 capsules.",
+    "/results/@30d3f02e8f2cc4a9/name": "La trappe",
+    "/results/@30d3f02e8f2cc4a9/description": "La trappe d’un abri revendiqué exige une mini-Nuke ou trois grenades/mines reliées (INT + Explosifs, difficulté 2), placées avec PER + Explosifs, difficulté 3. À l’intérieur : un squelette, 3 objets de bric-à-brac et 2 nourritures aléatoires.",
+    "/results/@69a4b9715c5dfe7a/name": "Atterrissage du coffre",
+    "/results/@69a4b9715c5dfe7a/description": "Un cratère contient un coffre dont le MJ fixe la difficulté de PER + Crochetage. Il renferme Xd20 capsules, X étant cette difficulté.",
+    "/results/@ecd7c269afacb775/name": "Bar improvisé",
+    "/results/@ecd7c269afacb775/description": "Un habitant vend des boissons alcoolisées et des nouvelles locales. Il porte 3d20 capsules mais n’achète rien.",
+    "/results/@60b2eb6668d6c656/name": "Champ de mines",
+    "/results/@60b2eb6668d6c656/description": "Le lieu contient 3+3 DC mines à fragmentation. Des Effets signalent quelque chose d’intact au centre. Désamorcer chaque mine exige PER + Explosifs, difficulté 2 ; un échec la fait exploser.",
+    "/results/@be368ae9fd00678e/name": "Vertiptère écrasé",
+    "/results/@be368ae9fd00678e/description": "Deux chevaliers de la Confrérie et la soute fournissent une arme, une pièce d’armure et une drogue aléatoires ; pour ces jets, le niveau vaut celui des PJ +2.",
+    "/results/@199fcbb180567075/name": "Barils radioactifs",
+    "/results/@199fcbb180567075/description": "Il y a 3+3 DC barils contenant chacun 1 matériau radioactif. La récupération prend une minute par baril et inflige 2 DC dégâts de radiation par minute. Des Effets ajoutent un animal Redoutable doté de Sauvage et Luminescent.",
+    "/results/@bfaa9a4b3215b570/name": "Tas de pneus en feu",
+    "/results/@bfaa9a4b3215b570/description": "Il y a 3d20 pneus (minimum 10), chacun donnant 3 Caoutchouc. En prendre un exige AGI + Athlétisme, difficulté 2 ; un échec inflige 3 DC dégâts énergétiques Persistants sans rien récupérer.",
+    "/results/@ad49963a7db50a62/name": "Voiture accidentée",
+    "/results/@ad49963a7db50a62/description": "Dix minutes fournissent 1+1 DC Acier. Lancez 1 DC : 1-2, un récupérateur la démonte ; Effet, elle est abandonnée mais des goules sauvages égales aux PJ +1 attendent ; sinon elle est abandonnée."
   }
 }

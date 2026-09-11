@@ -4,6 +4,28 @@
   "values": {
     "/name": "Random Commonwealth Encounters",
     "/description": "<p>Core Rulebook table, p. 308.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@F9F1vjN2UuODCdqB/name": "Raider Shanties",
+    "/results/@F9F1vjN2UuODCdqB/description": "Raiders occupy shanty huts and shout demands.",
+    "/results/@J0C95rwB4C9h487Z/name": "Merchant and Bloatflies",
+    "/results/@J0C95rwB4C9h487Z/description": "A merchant flees bloatflies and rewards rescuers.",
+    "/results/@mFQPBmKh1TtPABzW/name": "Wandering Eyebot",
+    "/results/@mFQPBmKh1TtPABzW/description": "An Eyebot broadcasts advertisements and possible mission information.",
+    "/results/@CXpkvu4CM7AQN1WD/name": "Feral Dogs",
+    "/results/@CXpkvu4CM7AQN1WD/description": "Hungry feral dogs attack.",
+    "/results/@xaCJTuQaygazOquh/name": "Yao Guai Ambush",
+    "/results/@xaCJTuQaygazOquh/description": "A Yao Guai ambushes the group in its territory.",
+    "/results/@yFtiN2jc1XpV2cdI/name": "Feral Ghoul Pack",
+    "/results/@yFtiN2jc1XpV2cdI/description": "Feral ghouls charge with a glowing one at their center.",
+    "/results/@9hZhycsMfYtmD1aq/name": "Brotherhood Vertibird",
+    "/results/@9hZhycsMfYtmD1aq/description": "A Brotherhood of Steel Vertibird reacts according to the group’s reputation.",
+    "/results/@TTRDEO4mqHOwHXFD/name": "Super Mutant Behemoth",
+    "/results/@TTRDEO4mqHOwHXFD/description": "A super mutant behemoth guards the current location.",
+    "/results/@yW5idcU4qQ9a56vs/name": "Mirelurk Queen",
+    "/results/@yW5idcU4qQ9a56vs/description": "A mirelurk queen and brood protect a spawning pool.",
+    "/results/@mKUwqqZjLWvrZCYl/name": "Deathclaw Victor",
+    "/results/@mKUwqqZjLWvrZCYl/description": "One deathclaw stands over another it has killed.",
+    "/results/@CuVwfE1440HALI4p/name": "Weird Wasteland",
+    "/results/@CuVwfE1440HALI4p/description": "Roll on the Random Weird Wasteland Encounters table."
   }
 }

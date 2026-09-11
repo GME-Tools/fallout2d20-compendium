@@ -4,6 +4,26 @@
   "values": {
     "/name": "Rencontres dans les salles d’Abri",
     "/description": "<p>Table du Livre de base, p. 257.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@20CBt32dv4GIotEC/name": "Catastrophe !",
+    "/results/@20CBt32dv4GIotEC/description": "Les personnages déclenchent une catastrophe touchant tout l’Abri et doivent s’échapper.",
+    "/results/@YIOFkvhFHpQVal3C/name": "Éclaireurs d’une faction",
+    "/results/@YIOFkvhFHpQVal3C/description": "7 à 12 pillards humains en mission pour une faction. Sur 1d20 : 1-5 amicaux, 16-20 hostiles, sinon neutres ou inconnus.",
+    "/results/@dhHjSE9gGEv6xpaK/name": "Bande de mutants",
+    "/results/@dhHjSE9gGEv6xpaK/description": "2 à 4 mutants attaquent immédiatement. Sur 1d20, un résultat de 1 à 4 indique la présence d’au moins un super mutant.",
+    "/results/@jMMIeG9QZDeBXF6k/name": "Robots",
+    "/results/@jMMIeG9QZDeBXF6k/description": "Des robots de sécurité adaptés à l’Abri patrouillent avec ordre d’exterminer ou de capturer les intrus.",
+    "/results/@Fb0GNhfnXAnTx64N/name": "Aucune rencontre",
+    "/results/@Fb0GNhfnXAnTx64N/description": "La zone est vide.",
+    "/results/@qoxasauTKoQXBgnR/name": "Les morts",
+    "/results/@qoxasauTKoQXBgnR/description": "Les traces d’une bataille. Un test approprié permet de trouver autant de jours d’eau pure et de nourriture saine que de réussites.",
+    "/results/@0FWlYyooCCLAweOU/name": "Rats-taupes",
+    "/results/@0FWlYyooCCLAweOU/description": "Trois fois plus nombreux que les membres du groupe, ils envahissent la pièce en mordant tout ce qui bouge.",
+    "/results/@dAYTGIBNah8uiusD/name": "Des insectes !",
+    "/results/@dAYTGIBNah8uiusD/description": "Des radscorpions géants, fourmis géantes ou fangeux, aussi nombreux que les membres du groupe.",
+    "/results/@JF3ogUn0IaBZ5XaV/name": "Meute de goules",
+    "/results/@JF3ogUn0IaBZ5XaV/description": "2 à 4 goules sauvages attaquent. Sur 1d20, un résultat de 1 à 4 ajoute un vagabond ou un écorcheur.",
+    "/results/@Eh3XUoU0AYLRCHyR/name": "Conflit !",
+    "/results/@Eh3XUoU0AYLRCHyR/description": "Lancez deux fois ; les deux résultats s’affrontent à mort et ignorent initialement les personnages joueurs."
   }
 }

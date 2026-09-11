@@ -4,6 +4,28 @@
   "values": {
     "/name": "Cueillette",
     "/description": "<p>Table du Livre de base, p. 202.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@9rpSzyQltVYrcXpp/name": "Fausse morille",
+    "/results/@9rpSzyQltVYrcXpp/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.PuL9AevtWz8clHFZ]{Fausse morille}",
+    "/results/@DDZ3oysdVwCXgtug/name": "Champignons luminescents",
+    "/results/@DDZ3oysdVwCXgtug/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.72L3DVPU3uiGPpNm]{Champignons luminescents}",
+    "/results/@GP7oJFV9eTpD9pmm/name": "Carotte",
+    "/results/@GP7oJFV9eTpD9pmm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.8Fv9dZQm5Dax1INF]{Carotte}",
+    "/results/@9DUbPFnHUygvIa6G/name": "Épi de maïs",
+    "/results/@9DUbPFnHUygvIa6G/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.qeN8bq9CJ3EYwwAE]{Épi de maïs}",
+    "/results/@NVWmBi5mX37mX5xx/name": "Courge",
+    "/results/@NVWmBi5mX37mX5xx/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Qe3DSub3iHONeRaO]{Courge}",
+    "/results/@f7c3aEwYmmiBoTjW/name": "Fruit mutant",
+    "/results/@f7c3aEwYmmiBoTjW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ABPjUugdAt6VthAw]{Fruit mutant}",
+    "/results/@ZDLEA0B946Eh7DoW/name": "Blé surin",
+    "/results/@ZDLEA0B946Eh7DoW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.KgKwCYEKl95sQQZN]{Blé surin}",
+    "/results/@XRoXfY3HSrmbRTkB/name": "Haricot envasé",
+    "/results/@XRoXfY3HSrmbRTkB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.lrllDzCjzc9atRUy]{Haricot envasé}",
+    "/results/@vDIAaftiRVO1rl9a/name": "Pomate",
+    "/results/@vDIAaftiRVO1rl9a/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.4Z3zGSnBGJcgR5c2]{Pomate}",
+    "/results/@9gB0JpQXHhkljJH0/name": "Hubélie",
+    "/results/@9gB0JpQXHhkljJH0/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.483yLfgB6kJ0lWvD]{Hubélie}",
+    "/results/@iSLgnHJ4YnwPkeHC/name": "Feuille de sang",
+    "/results/@iSLgnHJ4YnwPkeHC/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN]{Feuille de sang}"
   }
 }

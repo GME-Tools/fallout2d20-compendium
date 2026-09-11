@@ -6,6 +6,18 @@
     "/description": "<p>Every campsite includes a cooking station.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
-    "/flags/fallout2d20-compendium/source/translation": "original"
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@ca972c70b3b8ee40/name": "Walking Wounded",
+    "/results/@ca972c70b3b8ee40/description": "A travelling doctor treats a wastelander, trades chems and medical supplies, and carries 4d20 caps.",
+    "/results/@eb5a30d4dfbb9728/name": "Friendly Argument",
+    "/results/@eb5a30d4dfbb9728/description": "Two wastelanders passionately debate a harmless philosophical or hypothetical question and draw the PCs in.",
+    "/results/@7f4be6bd9b155e78/name": "Parent and Child",
+    "/results/@7f4be6bd9b155e78/description": "A lone parent and child travel toward safety. After the pleasant encounter, each PC regains one spent Luck point.",
+    "/results/@50f437c0ec721cff/name": "Minor Distress",
+    "/results/@50f437c0ec721cff/description": "A wastelander ate tainted food and may reveal its source as a scavenging location or quest lead.",
+    "/results/@18352178f395f06b/name": "Itinerant Bartender",
+    "/results/@18352178f395f06b/description": "A beverage merchant travelling to open a bar trades at the fire and carries 6d20 caps.",
+    "/results/@b9fc641083c0ae76/name": "Violent Trade",
+    "/results/@b9fc641083c0ae76/description": "A weapons and ammunition merchant with two heavily armed mercenaries trades and carries 5d20 caps."
   }
 }

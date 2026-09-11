@@ -4,6 +4,26 @@
   "values": {
     "/name": "Vault Room Encounters",
     "/description": "<p>Core Rulebook table, p. 257.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@20CBt32dv4GIotEC/name": "Disaster!",
+    "/results/@20CBt32dv4GIotEC/description": "The characters trigger a vault-wide calamity and must escape.",
+    "/results/@YIOFkvhFHpQVal3C/name": "Faction Scouts",
+    "/results/@YIOFkvhFHpQVal3C/description": "7-12 human raiders on a faction mission. On 1d20: 1-5 friendly, 16-20 hostile, otherwise neutral or unknown.",
+    "/results/@dhHjSE9gGEv6xpaK/name": "Mutant Gang",
+    "/results/@dhHjSE9gGEv6xpaK/description": "2-4 mutants attack immediately. On 1d20, a 1-4 means at least one is a super mutant.",
+    "/results/@jMMIeG9QZDeBXF6k/name": "Bots",
+    "/results/@jMMIeG9QZDeBXF6k/description": "Vault-appropriate security robots patrol with orders to exterminate or capture intruders.",
+    "/results/@Fb0GNhfnXAnTx64N/name": "No Encounter",
+    "/results/@Fb0GNhfnXAnTx64N/description": "The area is empty.",
+    "/results/@qoxasauTKoQXBgnR/name": "The Dead",
+    "/results/@qoxasauTKoQXBgnR/description": "Signs of a battle. A suitable test uncovers clean water and good food for a number of days equal to the successes.",
+    "/results/@0FWlYyooCCLAweOU/name": "Mole Rats",
+    "/results/@0FWlYyooCCLAweOU/description": "Three times as numerous as the party, they swarm across the room biting everything.",
+    "/results/@dAYTGIBNah8uiusD/name": "Bugs!",
+    "/results/@dAYTGIBNah8uiusD/description": "Giant radscorpions, giant ants, or mirelurks, in numbers equal to the party.",
+    "/results/@JF3ogUn0IaBZ5XaV/name": "Ghoul Pack",
+    "/results/@JF3ogUn0IaBZ5XaV/description": "2-4 feral ghouls attack. On 1d20, a 1-4 adds a roamer or Reaver.",
+    "/results/@Eh3XUoU0AYLRCHyR/name": "Conflict!",
+    "/results/@Eh3XUoU0AYLRCHyR/description": "Roll twice; both results are locked in mortal combat and initially ignore the player characters."
   }
 }

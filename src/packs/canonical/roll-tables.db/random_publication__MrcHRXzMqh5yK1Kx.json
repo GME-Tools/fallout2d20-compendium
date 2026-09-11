@@ -7,26 +7,262 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "NsqgLNFpEbm1I8C1",
-    "0xhAlVZvmOjyAeN9",
-    "hA8bJQCFAFoBncOF",
-    "Bkx6UUdomAeksr7u",
-    "bvEFBFk1z52AKDNa",
-    "t8CBhkgeZvFTOY7U",
-    "kRILfAzGsiuUmD3R",
-    "pKaP4KZzgI56p8xf",
-    "iJPxBEjYIuMQstiO",
-    "oCrGKhy6ZNHYTXg1",
-    "JqEmPps49kzYLNPQ",
-    "gsCdYYHJAfADf0bK",
-    "yQ2iShsE1wjOndu7",
-    "a15SB1xK4UMZABP8",
-    "FQ2OnHUgLrotuKgB",
-    "O8WqZuw0rwA5WCap",
-    "04AKxSTpLDbvaT4V",
-    "PNkLH9ZfDVTBgACc",
-    "1sxq6wDLINct5TJq",
-    "54ryAlajGZvI3KYH"
+    {
+      "_id": "NsqgLNFpEbm1I8C1",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.NsqgLNFpEbm1I8C1",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "0xhAlVZvmOjyAeN9",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.0xhAlVZvmOjyAeN9",
+      "name": "Astoundingly Awesome Tales",
+      "description": "Astoundingly Awesome Tales",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "documentId": "ICQJPDpxEpQP3kgC"
+    },
+    {
+      "_id": "hA8bJQCFAFoBncOF",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.hA8bJQCFAFoBncOF",
+      "name": "Backwoodsman",
+      "description": "Backwoodsman",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "documentId": "b0YDWI7LbsTTbsLR"
+    },
+    {
+      "_id": "Bkx6UUdomAeksr7u",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.Bkx6UUdomAeksr7u",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "bvEFBFk1z52AKDNa",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.bvEFBFk1z52AKDNa",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "t8CBhkgeZvFTOY7U",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.t8CBhkgeZvFTOY7U",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "kRILfAzGsiuUmD3R",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.kRILfAzGsiuUmD3R",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "pKaP4KZzgI56p8xf",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.pKaP4KZzgI56p8xf",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "documentId": "95C7laMPQoK9wwZj"
+    },
+    {
+      "_id": "iJPxBEjYIuMQstiO",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.iJPxBEjYIuMQstiO",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "documentId": "anS2tzaEW0Tct41L"
+    },
+    {
+      "_id": "oCrGKhy6ZNHYTXg1",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.oCrGKhy6ZNHYTXg1",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "documentId": "7bCzBGx1Boi3WUK7"
+    },
+    {
+      "_id": "JqEmPps49kzYLNPQ",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.JqEmPps49kzYLNPQ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "gsCdYYHJAfADf0bK",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.gsCdYYHJAfADf0bK",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "yQ2iShsE1wjOndu7",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.yQ2iShsE1wjOndu7",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "a15SB1xK4UMZABP8",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.a15SB1xK4UMZABP8",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "FQ2OnHUgLrotuKgB",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.FQ2OnHUgLrotuKgB",
+      "name": "Tesla Science Magazine",
+      "description": "Tesla Science Magazine",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "documentId": "eVG1ynZ312G42zbE"
+    },
+    {
+      "_id": "O8WqZuw0rwA5WCap",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.O8WqZuw0rwA5WCap",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "04AKxSTpLDbvaT4V",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.04AKxSTpLDbvaT4V",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "documentId": "D7o5WMWvssO5XNNq"
+    },
+    {
+      "_id": "PNkLH9ZfDVTBgACc",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.PNkLH9ZfDVTBgACc",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "documentId": "SiDrc8mDcvwE699p"
+    },
+    {
+      "_id": "1sxq6wDLINct5TJq",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.1sxq6wDLINct5TJq",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "documentId": "fVZuL3ahbEKecx8W"
+    },
+    {
+      "_id": "54ryAlajGZvI3KYH",
+      "_key": "!tables.results!MrcHRXzMqh5yK1Kx.54ryAlajGZvI3KYH",
+      "type": "pack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "documentId": "JFaApgVMo29GJFAu"
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

@@ -1,0 +1,14 @@
+{
+  "_key": "!tables!87374ceda3c080d5",
+  "_file": "robot_assassin_table__87374ceda3c080d5.json",
+  "values": {
+    "/name": "Robot Assassin Table",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2024",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@8e745602e5290b77/text": "—",
+    "/results/@f0be1df67fe2cc5e/text": "His Intimidating Eminence’s Eyebot",
+    "/results/@58f4ec459e407274/text": "His Intimidating Eminence’s Mister Handy",
+    "/results/@ecc8c46d0c411197/text": "His Intimidating Eminence’s Assaultron"
+  }
+}

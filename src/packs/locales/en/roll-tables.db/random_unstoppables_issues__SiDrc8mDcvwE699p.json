@@ -4,6 +4,16 @@
   "values": {
     "/name": "Random Unstoppables Issues",
     "/description": "<p>Core Rulebook table, p. 179.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@KwfO9W7ZI6gljq8z/name": "Dr. Brainwash and His Army of De-Capitalists!",
+    "/results/@KwfO9W7ZI6gljq8z/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.szr8VmfdWra3zwXO]{Dr. Brainwash and His Army of De-Capitalists!}",
+    "/results/@seqaj9uapOyoNmGS/name": "Who Can Stop the Unstoppable Grog-Na-Rok?!",
+    "/results/@seqaj9uapOyoNmGS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.xBhJROt39tupLIhb]{Who Can Stop the Unstoppable Grog-Na-Rok?!}",
+    "/results/@3tZ0DM6tb5BxUTeJ/name": "Commie-Kazi vs. Manta Man",
+    "/results/@3tZ0DM6tb5BxUTeJ/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.CYfpl0Gt0KEq1CcJ]{Commie-Kazi vs. Manta Man}",
+    "/results/@L8BkafBcOLv30RRh/name": "Trapped in the Dimension of the Pterror-dactyls",
+    "/results/@L8BkafBcOLv30RRh/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.IgqLkMbelsAnYC9q]{Trapped in the Dimension of the Pterror-dactyls}",
+    "/results/@XdmAMZTj4XpZvNiW/name": "Visit the Ux-Ron Galaxy!",
+    "/results/@XdmAMZTj4XpZvNiW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.szFJr7G3Z8XuW5rk]{Visit the Ux-Ron Galaxy!}"
   }
 }

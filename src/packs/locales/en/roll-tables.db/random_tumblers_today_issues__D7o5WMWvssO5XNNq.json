@@ -4,6 +4,16 @@
   "values": {
     "/name": "Random Tumblers Today Issues",
     "/description": "<p>Core Rulebook table, p. 178.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@328NQ35xmdtTpouz/name": "Mysteries of the Master Key Exposed!",
+    "/results/@328NQ35xmdtTpouz/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.YVmBhcEYI0eLLDM8]{Mysteries of the Master Key Exposed!}",
+    "/results/@FVQMJiK1GtzVM5Ir/name": "Bobby Pins: More Effective Than Lockpicks?",
+    "/results/@FVQMJiK1GtzVM5Ir/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.4lu6hamyxERQzWNa]{Bobby Pins: More Effective Than Lockpicks?}",
+    "/results/@n8sCj3qOKm6onVjC/name": "Confessions of a Housebreaker",
+    "/results/@n8sCj3qOKm6onVjC/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ZHve7VSwmsyHRjom]{Confessions of a Housebreaker}",
+    "/results/@XHn7bXJhRCivc5Cq/name": "Open Any Lock in 5 Seconds Flat",
+    "/results/@XHn7bXJhRCivc5Cq/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.M32bIhaLlqXttW9q]{Open Any Lock in 5 Seconds Flat}",
+    "/results/@foWjD4R1WNAM8Q9z/name": "Locksmith Certification Special — Pass with Flying Colors",
+    "/results/@foWjD4R1WNAM8Q9z/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.GUbEJnFDx9p0CvbD]{Locksmith Certification Special — Pass with Flying Colors}"
   }
 }

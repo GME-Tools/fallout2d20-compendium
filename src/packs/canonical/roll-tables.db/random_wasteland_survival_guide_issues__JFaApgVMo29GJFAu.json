@@ -7,13 +7,90 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "0E6IPgFzagFhIIg2",
-    "CG7MCq5Fpo5Ndwyi",
-    "2CpHiStwIJeSqKE5",
-    "0lPvoGrl1oyfzRpL",
-    "AA6RZfLEHcvzHYqg",
-    "mMWmI2T9Vi8mRbPW",
-    "XvVGJCV8SoizNHVV"
+    {
+      "_id": "0E6IPgFzagFhIIg2",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.0E6IPgFzagFhIIg2",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "CG7MCq5Fpo5Ndwyi",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.CG7MCq5Fpo5Ndwyi",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        4,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "2CpHiStwIJeSqKE5",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.2CpHiStwIJeSqKE5",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        7,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "0lPvoGrl1oyfzRpL",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.0lPvoGrl1oyfzRpL",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        10,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "AA6RZfLEHcvzHYqg",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.AA6RZfLEHcvzHYqg",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        13,
+        15
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "mMWmI2T9Vi8mRbPW",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.mMWmI2T9Vi8mRbPW",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        16,
+        18
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "XvVGJCV8SoizNHVV",
+      "_key": "!tables.results!JFaApgVMo29GJFAu.XvVGJCV8SoizNHVV",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

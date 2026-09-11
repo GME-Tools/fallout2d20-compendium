@@ -4,6 +4,18 @@
   "values": {
     "/name": "Random Weird Wasteland Encounters",
     "/description": "<p>Core Rulebook table, p. 308.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@lyiVzfIPPhRBBYpc/name": "Mister Gutsy Exercise",
+    "/results/@lyiVzfIPPhRBBYpc/description": "Mister Gutsy robots on a mock exercise recruit the party as friendly or enemy soldiers.",
+    "/results/@uo24cLS0GCkcxcfV/name": "Pillars Cultists",
+    "/results/@uo24cLS0GCkcxcfV/description": "Followers of the Pillars of the Community try to proselytize.",
+    "/results/@SSkTXnjT3H7zFMVs/name": "Pre-War Convention",
+    "/results/@SSkTXnjT3H7zFMVs/description": "Fans of many pre-War cultural icons organize a convention.",
+    "/results/@LrCJNhXFdFxbGbrX/name": "Super Mutant Engineers",
+    "/results/@LrCJNhXFdFxbGbrX/description": "Super mutants try to operate advanced technology such as an aircraft, robot, or tank.",
+    "/results/@GDDB3nqf1LBNlqzJ/name": "Wasteland Taxis",
+    "/results/@GDDB3nqf1LBNlqzJ/description": "Settlers operating makeshift rickshaw taxis offer their services for caps.",
+    "/results/@VVNZPvopwG2wetDm/name": "Unknown Vault Dweller",
+    "/results/@VVNZPvopwG2wetDm/description": "A dweller from an unknown vault asks for infrastructure parts."
   }
 }

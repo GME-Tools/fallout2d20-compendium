@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult009",
-  "_file": "syringer_type_09__SyrTypeResult009.json",
-  "values": {
-    "/name": "Seringue trouillarde",
-    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrYellowBelly01]{Seringue trouillarde}"
-  }
-}

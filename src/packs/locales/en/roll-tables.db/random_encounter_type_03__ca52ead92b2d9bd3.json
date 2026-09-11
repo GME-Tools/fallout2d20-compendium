@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!bb6afa5ca5bfa934.ca52ead92b2d9bd3",
-  "_file": "random_encounter_type_03__ca52ead92b2d9bd3.json",
-  "values": {
-    "/name": "Campsite",
-    "/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.a23d44b06fe795f5]{Random Campsite Encounters}."
-  }
-}

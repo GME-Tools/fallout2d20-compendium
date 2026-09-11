@@ -4,6 +4,26 @@
   "values": {
     "/name": "Numéros aléatoires de Grognak le Barbare",
     "/description": "<p>Table du Livre de base, p. 174-175.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@C0rhRryVguJazDks/name": "Du sang sur la harpe",
+    "/results/@C0rhRryVguJazDks/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.qx4yMqnLv4ZI6Ppx]{Du sang sur la harpe}",
+    "/results/@jQhe4i6ZsKdvuM2h/name": "Ainsi s’en vint le Malicieux",
+    "/results/@jQhe4i6ZsKdvuM2h/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.78JHpLZz5rQeTMP9]{Ainsi s’en vint le Malicieux}",
+    "/results/@BfJ5HNUy19GB8PaE/name": "La jungle des bébés chauves-souris",
+    "/results/@BfJ5HNUy19GB8PaE/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.V8SOn4RCMzgkx4u0]{La jungle des bébés chauves-souris}",
+    "/results/@mNr9AFSeYaD8kROH/name": "Les charmes de la reine corsaire Queen",
+    "/results/@mNr9AFSeYaD8kROH/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.9UgvihjW0x2I5vn9]{Les charmes de la reine corsaire Queen}",
+    "/results/@oi98Hxzpmh8lDoKt/name": "Esclaves démoniaques, sables démoniaques",
+    "/results/@oi98Hxzpmh8lDoKt/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.hhLOBbowNeo4VSDe]{Esclaves démoniaques, sables démoniaques}",
+    "/results/@gFDBybwyYiAMVYuk/name": "Maula : la Vierge guerrière de Mars",
+    "/results/@gFDBybwyYiAMVYuk/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.n5iAbo8IerJqOQNR]{Maula : la Vierge guerrière de Mars}",
+    "/results/@Cby6oJGIhhl5d1GA/name": "Sale bâtard sans poils !",
+    "/results/@Cby6oJGIhhl5d1GA/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.vcIgVqypELu1vP9C]{Sale bâtard sans poils !}",
+    "/results/@iz7rZ7SgET1zrTFY/name": "Égaré dans les neiges de la luxure",
+    "/results/@iz7rZ7SgET1zrTFY/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.S71PQOPJq2vV0pH8]{Égaré dans les neiges de la luxure}",
+    "/results/@68pcl14fpL4YazLS/name": "L’antre des dévoreurs de vierges",
+    "/results/@68pcl14fpL4YazLS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.G88aHNSeg4SvaCo9]{L’antre des dévoreurs de vierges}",
+    "/results/@I7SWfSGAS3CC01wL/name": "Quelle est donc cette sorcellerie ?",
+    "/results/@I7SWfSGAS3CC01wL/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.oR7Yb9XMHc1Yn49v]{Quelle est donc cette sorcellerie ?}"
   }
 }

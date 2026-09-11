@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!e17d49c3ac814fad.199fcbb180567075",
-  "_file": "random_object_encounters_07__199fcbb180567075.json",
-  "values": {
-    "/name": "Radioactive Barrels",
-    "/description": "There are 3+3 CD barrels, each holding 1 radioactive material. Recovery takes one minute per barrel and proximity inflicts 2 CD radiation damage per minute. Effects add a Mighty animal with Feral and Glowing."
-  }
-}

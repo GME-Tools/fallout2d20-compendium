@@ -6,6 +6,18 @@
     "/description": "<p>Chaque campement comprend un poste de cuisine.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
-    "/flags/fallout2d20-compendium/source/translation": "project"
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/results/@ca972c70b3b8ee40/name": "Blessé ambulant",
+    "/results/@ca972c70b3b8ee40/description": "Un médecin itinérant soigne un habitant, commerce des drogues et fournitures médicales, et porte 4d20 capsules.",
+    "/results/@eb5a30d4dfbb9728/name": "Dispute amicale",
+    "/results/@eb5a30d4dfbb9728/description": "Deux habitants débattent passionnément d’une question philosophique ou hypothétique sans danger et entraînent les PJ dans la discussion.",
+    "/results/@7f4be6bd9b155e78/name": "Parent et enfant",
+    "/results/@7f4be6bd9b155e78/description": "Un parent seul et son enfant voyagent vers un lieu sûr. Après cette rencontre agréable, chaque PJ récupère 1 point de Chance dépensé.",
+    "/results/@50f437c0ec721cff/name": "Malaise bénin",
+    "/results/@50f437c0ec721cff/description": "Un habitant a mangé un aliment avarié et peut en révéler l’origine comme lieu à fouiller ou piste de quête.",
+    "/results/@18352178f395f06b/name": "Barman itinérant",
+    "/results/@18352178f395f06b/description": "Un marchand de boissons parti ouvrir un bar commerce près du feu et porte 6d20 capsules.",
+    "/results/@b9fc641083c0ae76/name": "Commerce violent",
+    "/results/@b9fc641083c0ae76/description": "Un marchand d’armes et de munitions escorté de deux mercenaires lourdement armés commerce et porte 5d20 capsules."
   }
 }

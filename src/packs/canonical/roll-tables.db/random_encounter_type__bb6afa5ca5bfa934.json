@@ -7,11 +7,66 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "a3c7c8365c24463a",
-    "f61093a9555340ca",
-    "ca52ead92b2d9bd3",
-    "a289d2feb89b2981",
-    "57a3aed0f6ba8f38"
+    {
+      "_id": "a3c7c8365c24463a",
+      "_key": "!tables.results!bb6afa5ca5bfa934.a3c7c8365c24463a",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 7,
+      "range": [
+        1,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "f61093a9555340ca",
+      "_key": "!tables.results!bb6afa5ca5bfa934.f61093a9555340ca",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        8,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ca52ead92b2d9bd3",
+      "_key": "!tables.results!bb6afa5ca5bfa934.ca52ead92b2d9bd3",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        13,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "a289d2feb89b2981",
+      "_key": "!tables.results!bb6afa5ca5bfa934.a289d2feb89b2981",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        17,
+        19
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "57a3aed0f6ba8f38",
+      "_key": "!tables.results!bb6afa5ca5bfa934.57a3aed0f6ba8f38",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

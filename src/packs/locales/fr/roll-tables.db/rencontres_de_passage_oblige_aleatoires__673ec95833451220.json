@@ -6,6 +6,16 @@
     "/description": "<p>Rencontres sur un terrain difficile à contourner.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
-    "/flags/fallout2d20-compendium/source/translation": "project"
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/results/@92564bf5a7f53485/name": "Nul ne passera",
+    "/results/@92564bf5a7f53485/description": "Trois pillards réclament 50 capsules × niveau du plus puissant. Un test opposé de CHR + Troc ou Discours peut réduire à 40 × niveau ; refuser les rend hostiles.",
+    "/results/@1fec46ae758b39d6/name": "Impératif robotique",
+    "/results/@1fec46ae758b39d6/description": "Un robot militaire, souvent un Mister Gutsy, a reçu l’ordre strict de bloquer le passage et attaque quiconque passe sans motif accepté par son programme.",
+    "/results/@7e138411649ea49c/name": "Conflit",
+    "/results/@7e138411649ea49c/description": "Trois pillards rançonnent deux fermiers. Les sauver rapporte 2d20 capsules, mais l’approche des PJ peut provoquer les pillards.",
+    "/results/@7e76bd172daf1945/name": "Colons nerveux",
+    "/results/@7e76bd172daf1945/description": "Des gardes d’une colonie ne laissent passer que les voyageurs rengainant leurs armes et sans intention hostile.",
+    "/results/@aa0d91405585f115/name": "Champ de mines",
+    "/results/@aa0d91405585f115/description": "Il y a 3+3 DC mines à fragmentation sans détour facile. Chacune exige PER + Explosifs, difficulté 2 ; un échec la fait exploser et chaque Effet des dégâts explosifs déclenche une autre mine."
   }
 }

@@ -7,45 +7,476 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "ghUX44AgWyTagWAG",
-    "UHcHwZJGGyh9qoDS",
-    "u8h2qfJBNj19TIQZ",
-    "FiZG70lZsb7V0V9G",
-    "EPMvCAQ8QX87T45d",
-    "Xkpv7GvzfFFqdeiA",
-    "LyyazrdWDuEurPVh",
-    "Ako6EOtErtBjeKqI",
-    "lVEk7kFVQyam7U0T",
-    "2oSLNNE5VPhW4JNI",
-    "s7GHbeySKVrOkFTp",
-    "wNwcR9kNBzHKElYv",
-    "1LdXVA7GNwXo4qDj",
-    "UhyVXBtBZrWbZOCB",
-    "i6HEevJVdXPYmCRX",
-    "O7sVoqmjFXqjMAXl",
-    "kWnGEkyxT64RzpKY",
-    "QYVUc0wSzsChvGLg",
-    "NZ5QNa6NDMFz1jWM",
-    "HVLgPoUlaDzSgt6D",
-    "j2pI495xo4hvqJML",
-    "G5XA6kst57CXOGrc",
-    "hQ8tGfvRkuGqZ688",
-    "GPj3RfowDpuIR9CR",
-    "DLycl6AoJkHu8IFS",
-    "MscjntUqnkdznVtZ",
-    "yXBrYLzcPzTRbCRA",
-    "eASG6sigBXkHVCZJ",
-    "iBGVd1XocEEiSiZs",
-    "MecC2e3txSnJQNNH",
-    "ArzeifhGwEf4EEKl",
-    "IP6BzlZXDMs6uqNY",
-    "foHbAvZwAdDg791U",
-    "RPZ35p1tT6LgSNPO",
-    "O98BQlKGNAmDTVB0",
-    "2WSGexABDVI1HWUB",
-    "hWndKoKcgMkmQZ65",
-    "WofId4PXF0UoPzal",
-    "Ct13jemnXVQZ8QYL"
+    {
+      "_id": "ghUX44AgWyTagWAG",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.ghUX44AgWyTagWAG",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "UHcHwZJGGyh9qoDS",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.UHcHwZJGGyh9qoDS",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "u8h2qfJBNj19TIQZ",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.u8h2qfJBNj19TIQZ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "FiZG70lZsb7V0V9G",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.FiZG70lZsb7V0V9G",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "EPMvCAQ8QX87T45d",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.EPMvCAQ8QX87T45d",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "Xkpv7GvzfFFqdeiA",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.Xkpv7GvzfFFqdeiA",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "LyyazrdWDuEurPVh",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.LyyazrdWDuEurPVh",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "Ako6EOtErtBjeKqI",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.Ako6EOtErtBjeKqI",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "lVEk7kFVQyam7U0T",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.lVEk7kFVQyam7U0T",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "2oSLNNE5VPhW4JNI",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.2oSLNNE5VPhW4JNI",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "s7GHbeySKVrOkFTp",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.s7GHbeySKVrOkFTp",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "wNwcR9kNBzHKElYv",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.wNwcR9kNBzHKElYv",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "1LdXVA7GNwXo4qDj",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.1LdXVA7GNwXo4qDj",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "UhyVXBtBZrWbZOCB",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.UhyVXBtBZrWbZOCB",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "i6HEevJVdXPYmCRX",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.i6HEevJVdXPYmCRX",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "O7sVoqmjFXqjMAXl",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.O7sVoqmjFXqjMAXl",
+      "name": "Vault-Tec Armor",
+      "description": "Vault-Tec Armor",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "kWnGEkyxT64RzpKY",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.kWnGEkyxT64RzpKY",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "QYVUc0wSzsChvGLg",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.QYVUc0wSzsChvGLg",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "NZ5QNa6NDMFz1jWM",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.NZ5QNa6NDMFz1jWM",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "HVLgPoUlaDzSgt6D",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.HVLgPoUlaDzSgt6D",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "j2pI495xo4hvqJML",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.j2pI495xo4hvqJML",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "G5XA6kst57CXOGrc",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.G5XA6kst57CXOGrc",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "hQ8tGfvRkuGqZ688",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.hQ8tGfvRkuGqZ688",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "GPj3RfowDpuIR9CR",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.GPj3RfowDpuIR9CR",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "DLycl6AoJkHu8IFS",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.DLycl6AoJkHu8IFS",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "MscjntUqnkdznVtZ",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.MscjntUqnkdznVtZ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "yXBrYLzcPzTRbCRA",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.yXBrYLzcPzTRbCRA",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "eASG6sigBXkHVCZJ",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.eASG6sigBXkHVCZJ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "iBGVd1XocEEiSiZs",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.iBGVd1XocEEiSiZs",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "MecC2e3txSnJQNNH",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.MecC2e3txSnJQNNH",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ArzeifhGwEf4EEKl",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.ArzeifhGwEf4EEKl",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "IP6BzlZXDMs6uqNY",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.IP6BzlZXDMs6uqNY",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "foHbAvZwAdDg791U",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.foHbAvZwAdDg791U",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "RPZ35p1tT6LgSNPO",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.RPZ35p1tT6LgSNPO",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "O98BQlKGNAmDTVB0",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.O98BQlKGNAmDTVB0",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "2WSGexABDVI1HWUB",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.2WSGexABDVI1HWUB",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "hWndKoKcgMkmQZ65",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.hWndKoKcgMkmQZ65",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "WofId4PXF0UoPzal",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.WofId4PXF0UoPzal",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "Ct13jemnXVQZ8QYL",
+      "_key": "!tables.results!scdsIt3PE06QKFcf.Ct13jemnXVQZ8QYL",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        40,
+        40
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

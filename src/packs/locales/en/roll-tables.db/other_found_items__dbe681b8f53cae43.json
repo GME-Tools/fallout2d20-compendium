@@ -6,6 +6,22 @@
     "/description": "<p>Create a scavenging location by choosing its scale (Tiny 6 items; Small 12; Average 18; Large 24), category, and degree of prior search. Degree sets search difficulty and reductions for Tiny locations: Untouched 0/2, Partly 1/3, Mostly 2/4, Heavily 3/5; multiply reductions by 2, 3, or 4 for larger scales. Roll here whenever a category lists Other. Location level is the total of CD equal to the PCs’ combined levels plus CD equal to search difficulty; each Effect adds 1 when problems are present.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
-    "/flags/fallout2d20-compendium/source/translation": "original"
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@45fa39d75f6b2d64/name": "Ammunition",
+    "/results/@45fa39d75f6b2d64/description": "",
+    "/results/@3197e439338ed1a0/name": "Armor",
+    "/results/@3197e439338ed1a0/description": "",
+    "/results/@c05de8ea42266e59/name": "Clothing",
+    "/results/@c05de8ea42266e59/description": "",
+    "/results/@979949ad15b74202/name": "Food",
+    "/results/@979949ad15b74202/description": "",
+    "/results/@d71c3917cbaef984/name": "Beverages",
+    "/results/@d71c3917cbaef984/description": "",
+    "/results/@0bfc13c59d5beeb2/name": "Chems",
+    "/results/@0bfc13c59d5beeb2/description": "",
+    "/results/@d125ad6f5f7c69bf/name": "Weapons",
+    "/results/@d125ad6f5f7c69bf/description": "",
+    "/results/@6c117e6b8f973459/name": "Oddities",
+    "/results/@6c117e6b8f973459/description": ""
   }
 }

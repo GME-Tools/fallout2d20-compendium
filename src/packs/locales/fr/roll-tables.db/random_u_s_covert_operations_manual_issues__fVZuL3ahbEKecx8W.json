@@ -4,6 +4,26 @@
   "values": {
     "/name": "Numéros aléatoires du Manuel des opérations secrètes des États-Unis",
     "/description": "<p>Table du Livre de base, p. 179.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@t7WkjPlAL0MUJCUi/name": "FH 5-01 Siffloter dans les ténèbres",
+    "/results/@t7WkjPlAL0MUJCUi/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.KE1PFFcFheyQriDU]{FH 5-01 Siffloter dans les ténèbres}",
+    "/results/@J3l9AuCynVGjj6bn/name": "FH 5-02 Le camouflage urbain",
+    "/results/@J3l9AuCynVGjj6bn/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.rV3tvVvTmDGs7E0t]{FH 5-02 Le camouflage urbain}",
+    "/results/@jsMJc1Zss6kDuv4i/name": "FH 5-03 Fondamentaux du camouflage facial",
+    "/results/@jsMJc1Zss6kDuv4i/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mPUq6ivdAuHbxor6]{FH 5-03 Fondamentaux du camouflage facial}",
+    "/results/@CL5jJLWX6Vo4i3VC/name": "FH 5-04 Ce ne sont pas les soldats que vous recherchez",
+    "/results/@CL5jJLWX6Vo4i3VC/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.4yO3TrAohgWDMhDI]{FH 5-04 Ce ne sont pas les soldats que vous recherchez}",
+    "/results/@SXKBBylU1SHqQDDX/name": "FH 5-05 Qui-va-là ?",
+    "/results/@SXKBBylU1SHqQDDX/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.2RauaAfTO24MIsP2]{FH 5-05 Qui-va-là ?}",
+    "/results/@rbrsKCjmTYXuAr0W/name": "FH 5-06 Parquet grinçant, mort instantanée",
+    "/results/@rbrsKCjmTYXuAr0W/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.9W6IRymdpOZXKmHG]{FH 5-06 Parquet grinçant, mort instantanée}",
+    "/results/@7zB7mMaG2tMpT6Za/name": "FH 5-07 Faire tomber les communistes",
+    "/results/@7zB7mMaG2tMpT6Za/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ouvM5DNPcc9nqgIw]{FH 5-07 Faire tomber les communistes}",
+    "/results/@6cdWdCW3FfMtgWYc/name": "FH 5-08 Spécial camouflage : buissons, caisses et ruches",
+    "/results/@6cdWdCW3FfMtgWYc/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.m6XUFT8MYFsgAvyH]{FH 5-08 Spécial camouflage : buissons, caisses et ruches}",
+    "/results/@qXel8tUPz6W6uKW4/name": "FH 5-09 Le noir vous va si bien",
+    "/results/@qXel8tUPz6W6uKW4/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.lHCsUY3S6twO3Fjb]{FH 5-09 Le noir vous va si bien}",
+    "/results/@nbzlkwkP9KUrWEt6/name": "FH 5-10 Sur la pointe des pieds dans les tulipes",
+    "/results/@nbzlkwkP9KUrWEt6/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.vAtCC2CaGrGOgnSL]{FH 5-10 Sur la pointe des pieds dans les tulipes}"
   }
 }

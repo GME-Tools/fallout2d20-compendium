@@ -6,6 +6,24 @@
     "/description": "<p>Strange objects and static encounters found in the Wasteland.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
-    "/flags/fallout2d20-compendium/source/translation": "original"
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@0cce987a5f55adba/name": "Locked Fridge",
+    "/results/@0cce987a5f55adba/description": "A suspicious scavenger struggles with a refrigerator. Opening its difficulty 3 lock reveals one random ranged weapon, 1d20 appropriate ammunition, and 3d20 caps.",
+    "/results/@30d3f02e8f2cc4a9/name": "The Hatch",
+    "/results/@30d3f02e8f2cc4a9/description": "A claimed bomb shelter hatch needs one mini-nuke or three wired grenades/mines (difficulty 2 INT + Explosives), placed with difficulty 3 PER + Explosives. Inside: a skeleton, 3 junk items, and 2 random food items.",
+    "/results/@69a4b9715c5dfe7a/name": "Safe Landing",
+    "/results/@69a4b9715c5dfe7a/description": "A crater contains a safe with a GM-set PER + Lockpick difficulty. It holds Xd20 caps, where X is that difficulty.",
+    "/results/@ecd7c269afacb775/name": "Pop-Up Bar",
+    "/results/@ecd7c269afacb775/description": "A wastelander sells alcoholic drinks and local news. They carry 3d20 caps but do not buy.",
+    "/results/@60b2eb6668d6c656/name": "Minefield",
+    "/results/@60b2eb6668d6c656/description": "There are 3+3 CD fragmentation mines. Effects indicate something untouched at the centre. Disarming each mine is difficulty 2 PER + Explosives; failure detonates it.",
+    "/results/@be368ae9fd00678e/name": "Crashed Vertibird",
+    "/results/@be368ae9fd00678e/description": "Two Brotherhood knights and storage yield one random weapon, one random armor piece, and one random chem; encounter level is PCs’ level +2 for these rolls.",
+    "/results/@199fcbb180567075/name": "Radioactive Barrels",
+    "/results/@199fcbb180567075/description": "There are 3+3 CD barrels, each holding 1 radioactive material. Recovery takes one minute per barrel and proximity inflicts 2 CD radiation damage per minute. Effects add a Mighty animal with Feral and Glowing.",
+    "/results/@bfaa9a4b3215b570/name": "Pile of Burning Tires",
+    "/results/@bfaa9a4b3215b570/description": "There are 3d20 tires (minimum 10), each yielding 3 Rubber. Taking one requires difficulty 2 AGI + Athletics; failure inflicts 3 CD Persistent energy damage and retrieves nothing.",
+    "/results/@ad49963a7db50a62/name": "Wrecked Car",
+    "/results/@ad49963a7db50a62/description": "Ten minutes yield 1+1 CD Steel. Roll 1 CD: 1-2, a scavenger strips it; Effect, abandoned with feral ghouls equal to PCs +1; otherwise abandoned."
   }
 }

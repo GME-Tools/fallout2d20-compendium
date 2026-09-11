@@ -4,6 +4,26 @@
   "values": {
     "/name": "Numéros aléatoires de Tesla Science Magazine",
     "/description": "<p>Table du Livre de base, p. 177.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@DGuGjWOxHMBHu7SM/name": "Les robots dirigeront-ils le monde ?",
+    "/results/@DGuGjWOxHMBHu7SM/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.Hb3AdW5QaAHVDlNZ]{Les robots dirigeront-ils le monde ?}",
+    "/results/@gVw8HAjtACEwQXnV/name": "Qu’est-ce que le Plasma, d’abord ?",
+    "/results/@gVw8HAjtACEwQXnV/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.05H6aksyvOateBtf]{Qu’est-ce que le Plasma, d’abord ?}",
+    "/results/@z3mt5TiV4cfciLrT/name": "La science, c’est pas sorcier !",
+    "/results/@z3mt5TiV4cfciLrT/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.Xh4PnVNi5xJrCtZr]{La science, c’est pas sorcier !}",
+    "/results/@FPhCDHeqM45pdrdB/name": "Technologie de demain pour supersoldats d’aujourd’hui",
+    "/results/@FPhCDHeqM45pdrdB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.od1qgkoqyO2SbhPV]{Technologie de demain pour supersoldats d’aujourd’hui}",
+    "/results/@HOZOLrSyDFnVHouN/name": "Un flingue n’est jamais assez gros !",
+    "/results/@HOZOLrSyDFnVHouN/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.CndyqCypQg50fKrr]{Un flingue n’est jamais assez gros !}",
+    "/results/@kiVY2f6v55CH2cyc/name": "Geckos et radiations gamma",
+    "/results/@kiVY2f6v55CH2cyc/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.L7d6xppSur7dXyKt]{Geckos et radiations gamma}",
+    "/results/@ymeTVRAvn8cA8Db2/name": "L’armée des États-Unis dans l’espace",
+    "/results/@ymeTVRAvn8cA8Db2/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.5Y5Dkh9W0XRFfpQV]{L’armée des États-Unis dans l’espace}",
+    "/results/@L6bT2kdnSBw5389x/name": "10 hits n°1 !!! Rock-o-bot prend le pays par surprise !",
+    "/results/@L6bT2kdnSBw5389x/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ECXYCwNy7GKVavV3]{10 hits n°1 !!! Rock-o-bot prend le pays par surprise !}",
+    "/results/@dUc993EJcpR7sVKi/name": "L’avenir de la guerre ?",
+    "/results/@dUc993EJcpR7sVKi/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.jKcPooNmifCreXOn]{L’avenir de la guerre ?}",
+    "/results/@TwlyEOjOEklcnIrX/name": "Relancez le résultat",
+    "/results/@TwlyEOjOEklcnIrX/description": "Relancez sur cette table."
   }
 }

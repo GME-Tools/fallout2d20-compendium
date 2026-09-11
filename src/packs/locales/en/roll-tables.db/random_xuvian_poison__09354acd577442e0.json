@@ -1,0 +1,26 @@
+{
+  "_key": "!tables!09354acd577442e0",
+  "_file": "random_xuvian_poison__09354acd577442e0.json",
+  "values": {
+    "/name": "Random Xuvian Poison",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "identical",
+        "page": 81
+      }
+    ],
+    "/results/@0e3f3227a3ec8c0e/text": "Standard Poison — 2 DC Poison damage",
+    "/results/@0cd890756eaf8196/text": "Bourbon-based Poison — Alcoholic; reroll the lowest d20 on END tests this scene; 1 DC Poison damage",
+    "/results/@e9904f1b8931f9bc/text": "Rum-based Poison — Alcoholic; reroll the lowest d20 on AGI tests this scene; 1 DC Poison damage",
+    "/results/@26a609eee6de30e4/text": "Stun Poison — 4 DC Poison damage and 2 DC Stun damage",
+    "/results/@c4af04a8d452f059/text": "Beer-based Poison — Alcoholic; 1 DC Poison damage",
+    "/results/@6e06c1bcf79faf75/text": "Stimpak-based — Heal 2 HP; no Poison damage"
+  }
+}

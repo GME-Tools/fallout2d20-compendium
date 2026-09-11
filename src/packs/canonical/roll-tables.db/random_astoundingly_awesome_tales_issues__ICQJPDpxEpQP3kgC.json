@@ -7,16 +7,126 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "qaOKKTFoaEouJgfV",
-    "Xs0JrjIbkV4pxFyS",
-    "jble9SfZo8nYZNvS",
-    "S41Hti7y6Hkga3Gm",
-    "t3QpjYo2GBREUzMm",
-    "PQMcFvmOjiOvrkxQ",
-    "ATmZBwB5ms4NICSM",
-    "Fyn4jstkDvKvJqLK",
-    "IRKTGPUQgf9M85Dc",
-    "CpUtavC1AVyhDjb0"
+    {
+      "_id": "qaOKKTFoaEouJgfV",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.qaOKKTFoaEouJgfV",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "Xs0JrjIbkV4pxFyS",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.Xs0JrjIbkV4pxFyS",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "jble9SfZo8nYZNvS",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.jble9SfZo8nYZNvS",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "S41Hti7y6Hkga3Gm",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.S41Hti7y6Hkga3Gm",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "t3QpjYo2GBREUzMm",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.t3QpjYo2GBREUzMm",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "PQMcFvmOjiOvrkxQ",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.PQMcFvmOjiOvrkxQ",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ATmZBwB5ms4NICSM",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.ATmZBwB5ms4NICSM",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "Fyn4jstkDvKvJqLK",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.Fyn4jstkDvKvJqLK",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "IRKTGPUQgf9M85Dc",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.IRKTGPUQgf9M85Dc",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "CpUtavC1AVyhDjb0",
+      "_key": "!tables.results!ICQJPDpxEpQP3kgC.CpUtavC1AVyhDjb0",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

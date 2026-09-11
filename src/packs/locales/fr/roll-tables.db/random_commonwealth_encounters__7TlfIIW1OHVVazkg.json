@@ -4,6 +4,28 @@
   "values": {
     "/name": "Rencontres aléatoires du Commonwealth",
     "/description": "<p>Table du Livre de base, p. 308.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@F9F1vjN2UuODCdqB/name": "Cabanes de pillards",
+    "/results/@F9F1vjN2UuODCdqB/description": "Des pillards occupent des cabanes et crient leurs exigences.",
+    "/results/@J0C95rwB4C9h487Z/name": "Marchand et mouches bouffies",
+    "/results/@J0C95rwB4C9h487Z/description": "Un marchand fuit des mouches bouffies et récompense ses sauveteurs.",
+    "/results/@mFQPBmKh1TtPABzW/name": "Eyebot vagabond",
+    "/results/@mFQPBmKh1TtPABzW/description": "Un Eyebot diffuse des publicités et peut-être des informations de mission.",
+    "/results/@CXpkvu4CM7AQN1WD/name": "Chiens sauvages",
+    "/results/@CXpkvu4CM7AQN1WD/description": "Des chiens sauvages affamés attaquent.",
+    "/results/@xaCJTuQaygazOquh/name": "Embuscade de yao guai",
+    "/results/@xaCJTuQaygazOquh/description": "Un yao guai attaque le groupe sur son territoire.",
+    "/results/@yFtiN2jc1XpV2cdI/name": "Meute de goules sauvages",
+    "/results/@yFtiN2jc1XpV2cdI/description": "Des goules sauvages chargent, menées par un luminescent.",
+    "/results/@9hZhycsMfYtmD1aq/name": "Vertiptère de la Confrérie",
+    "/results/@9hZhycsMfYtmD1aq/description": "Un Vertiptère de la Confrérie de l’Acier réagit selon la réputation du groupe.",
+    "/results/@TTRDEO4mqHOwHXFD/name": "Béhémoth super mutant",
+    "/results/@TTRDEO4mqHOwHXFD/description": "Un béhémoth super mutant garde le lieu.",
+    "/results/@yW5idcU4qQ9a56vs/name": "Reine fangeuse",
+    "/results/@yW5idcU4qQ9a56vs/description": "Une reine fangeuse et sa couvée protègent un bassin de ponte.",
+    "/results/@mKUwqqZjLWvrZCYl/name": "Écorcheur victorieux",
+    "/results/@mKUwqqZjLWvrZCYl/description": "Un écorcheur se tient au-dessus d’un congénère qu’il vient de tuer.",
+    "/results/@CuVwfE1440HALI4p/name": "Terres désolées étranges",
+    "/results/@CuVwfE1440HALI4p/description": "Lancez sur la table Rencontres étranges des Terres désolées."
   }
 }

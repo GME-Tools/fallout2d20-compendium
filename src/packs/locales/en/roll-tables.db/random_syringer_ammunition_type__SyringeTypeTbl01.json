@@ -4,6 +4,24 @@
   "values": {
     "/name": "Random Syringer Ammunition Type",
     "/description": "<p>Project utility table: roll once for each batch of Syringer ammunition found to determine its instantiated Core Rulebook syringe type.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@SyrTypeResult001/name": "Berserk Syringe",
+    "/results/@SyrTypeResult001/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBerserkAmmo01]{Berserk Syringe}",
+    "/results/@SyrTypeResult002/name": "Bleed-Out Syringe",
+    "/results/@SyrTypeResult002/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBleedOutAmmo1]{Bleed-Out Syringe}",
+    "/results/@SyrTypeResult003/name": "Bloatfly Larva Syringe",
+    "/results/@SyrTypeResult003/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBloatflyAmmo1]{Bloatfly Larva Syringe}",
+    "/results/@SyrTypeResult004/name": "Endangerol Syringe",
+    "/results/@SyrTypeResult004/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrEndangerolA01]{Endangerol Syringe}",
+    "/results/@SyrTypeResult005/name": "Lock Joint Syringe",
+    "/results/@SyrTypeResult005/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrLockJointAm01]{Lock Joint Syringe}",
+    "/results/@SyrTypeResult006/name": "Mind Cloud Syringe",
+    "/results/@SyrTypeResult006/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrMindCloudAm01]{Mind Cloud Syringe}",
+    "/results/@SyrTypeResult007/name": "Pax Syringe",
+    "/results/@SyrTypeResult007/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrPaxAmmo000001]{Pax Syringe}",
+    "/results/@SyrTypeResult008/name": "Radscorpion Venom Syringe",
+    "/results/@SyrTypeResult008/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrRadVenomAm001]{Radscorpion Venom Syringe}",
+    "/results/@SyrTypeResult009/name": "Yellow Belly Syringe",
+    "/results/@SyrTypeResult009/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrYellowBelly01]{Yellow Belly Syringe}"
   }
 }

@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!bb6afa5ca5bfa934.f61093a9555340ca",
-  "_file": "random_encounter_type_02__f61093a9555340ca.json",
-  "values": {
-    "/name": "Object",
-    "/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.e17d49c3ac814fad]{Random Object Encounters}."
-  }
-}

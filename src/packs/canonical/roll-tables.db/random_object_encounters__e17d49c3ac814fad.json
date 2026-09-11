@@ -7,15 +7,114 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "0cce987a5f55adba",
-    "30d3f02e8f2cc4a9",
-    "69a4b9715c5dfe7a",
-    "ecd7c269afacb775",
-    "60b2eb6668d6c656",
-    "be368ae9fd00678e",
-    "199fcbb180567075",
-    "bfaa9a4b3215b570",
-    "ad49963a7db50a62"
+    {
+      "_id": "0cce987a5f55adba",
+      "_key": "!tables.results!e17d49c3ac814fad.0cce987a5f55adba",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "30d3f02e8f2cc4a9",
+      "_key": "!tables.results!e17d49c3ac814fad.30d3f02e8f2cc4a9",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "69a4b9715c5dfe7a",
+      "_key": "!tables.results!e17d49c3ac814fad.69a4b9715c5dfe7a",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        6,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ecd7c269afacb775",
+      "_key": "!tables.results!e17d49c3ac814fad.ecd7c269afacb775",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "60b2eb6668d6c656",
+      "_key": "!tables.results!e17d49c3ac814fad.60b2eb6668d6c656",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        12,
+        14
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "be368ae9fd00678e",
+      "_key": "!tables.results!e17d49c3ac814fad.be368ae9fd00678e",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "199fcbb180567075",
+      "_key": "!tables.results!e17d49c3ac814fad.199fcbb180567075",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "bfaa9a4b3215b570",
+      "_key": "!tables.results!e17d49c3ac814fad.bfaa9a4b3215b570",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ad49963a7db50a62",
+      "_key": "!tables.results!e17d49c3ac814fad.ad49963a7db50a62",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

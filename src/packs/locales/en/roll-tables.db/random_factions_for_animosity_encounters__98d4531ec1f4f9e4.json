@@ -6,6 +6,24 @@
     "/description": "<p>Draw twice and redraw matching results so two opposed factions are selected.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
-    "/flags/fallout2d20-compendium/source/translation": "original"
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@ae725620401d7793/name": "Animals",
+    "/results/@ae725620401d7793/description": "Powerful wild animals; duplicate Animal results are allowed if each side is a different species.",
+    "/results/@48d34ba7e2a8ecc6/name": "Feral Ghouls",
+    "/results/@48d34ba7e2a8ecc6/description": "A large pack of feral ghouls, possibly with one or two glowing ones.",
+    "/results/@005bfdc69ca43fdd/name": "Raiders",
+    "/results/@005bfdc69ca43fdd/description": "A local raider warband; duplicate Raider results are allowed if the warbands differ.",
+    "/results/@af0698052061aa2e/name": "Children of Atom",
+    "/results/@af0698052061aa2e/description": "Children of Atom zealots, disadvantaged against radiation-resistant or immune foes.",
+    "/results/@1ccad32f427e735a/name": "The Brotherhood of Steel",
+    "/results/@1ccad32f427e735a/description": "Brotherhood forces, such as field scribes retreating or knights led by a power-armored paladin.",
+    "/results/@c7693cc573b7ded4/name": "Robots",
+    "/results/@c7693cc573b7ded4/description": "Protectrons, Mister Gutsys, assaultrons, malfunctioning domestic robots, or Commonwealth Institute synths.",
+    "/results/@7b5385aa7c01c34e/name": "Super Mutants",
+    "/results/@7b5385aa7c01c34e/description": "Super mutants, possibly accompanied by mutant hounds.",
+    "/results/@a39133b36f77de8b/name": "Mirelurks",
+    "/results/@a39133b36f77de8b/description": "A wandering group of mirelurks.",
+    "/results/@4abafc82cf8eee21/name": "Massive Monsters!",
+    "/results/@4abafc82cf8eee21/description": "A behemoth, mirelurk queen, albino or chameleon deathclaw, or similarly deadly creature."
   }
 }

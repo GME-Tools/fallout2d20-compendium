@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!SyringeTypeTbl01.SyrTypeResult002",
-  "_file": "syringer_type_02__SyrTypeResult002.json",
-  "values": {
-    "/name": "Bleed-Out Syringe",
-    "/description": "@UUID[Compendium.fallout2d20-compendium.{language}-ammunition.Item.SyrBleedOutAmmo1]{Bleed-Out Syringe}"
-  }
-}

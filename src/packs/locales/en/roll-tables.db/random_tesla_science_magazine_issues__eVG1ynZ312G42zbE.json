@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random Tesla Science Magazine Issues",
     "/description": "<p>Core Rulebook table, p. 177.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@DGuGjWOxHMBHu7SM/name": "Will Robots Rule the World?",
+    "/results/@DGuGjWOxHMBHu7SM/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.Hb3AdW5QaAHVDlNZ]{Will Robots Rule the World?}",
+    "/results/@gVw8HAjtACEwQXnV/name": "What Is Plasma, Anyway?",
+    "/results/@gVw8HAjtACEwQXnV/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.05H6aksyvOateBtf]{What Is Plasma, Anyway?}",
+    "/results/@z3mt5TiV4cfciLrT/name": "Rocket Science for Toddlers",
+    "/results/@z3mt5TiV4cfciLrT/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.Xh4PnVNi5xJrCtZr]{Rocket Science for Toddlers}",
+    "/results/@FPhCDHeqM45pdrdB/name": "Tomorrow's Technology for Today's Super Soldiers",
+    "/results/@FPhCDHeqM45pdrdB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.od1qgkoqyO2SbhPV]{Tomorrow's Technology for Today's Super Soldiers}",
+    "/results/@HOZOLrSyDFnVHouN/name": "Giant Super Weapons!",
+    "/results/@HOZOLrSyDFnVHouN/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.CndyqCypQg50fKrr]{Giant Super Weapons!}",
+    "/results/@kiVY2f6v55CH2cyc/name": "Geckos and Gamma Radiation",
+    "/results/@kiVY2f6v55CH2cyc/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.L7d6xppSur7dXyKt]{Geckos and Gamma Radiation}",
+    "/results/@ymeTVRAvn8cA8Db2/name": "U.S. Army Goes to Space",
+    "/results/@ymeTVRAvn8cA8Db2/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.5Y5Dkh9W0XRFfpQV]{U.S. Army Goes to Space}",
+    "/results/@L6bT2kdnSBw5389x/name": "10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!",
+    "/results/@L6bT2kdnSBw5389x/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ECXYCwNy7GKVavV3]{10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!}",
+    "/results/@dUc993EJcpR7sVKi/name": "Future of Warfare?",
+    "/results/@dUc993EJcpR7sVKi/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.jKcPooNmifCreXOn]{Future of Warfare?}",
+    "/results/@TwlyEOjOEklcnIrX/name": "Re-roll result",
+    "/results/@TwlyEOjOEklcnIrX/description": "Re-roll on this table."
   }
 }

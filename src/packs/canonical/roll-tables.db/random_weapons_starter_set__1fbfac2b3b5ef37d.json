@@ -7,26 +7,266 @@
   "displayRoll": true,
   "folder": null,
   "results": [
-    "d6eca27a66a08d5f",
-    "b106102f88dd356a",
-    "277eccae8d2db788",
-    "802f5692afbb6113",
-    "fa3da8856764c30a",
-    "5180ad844bba6a99",
-    "52946ac25bada09e",
-    "1e5586879c6751ce",
-    "1934fc262bdbce5b",
-    "a27c4380fd379d61",
-    "32683717aba3cbcb",
-    "5541b28f46ae44e8",
-    "80e23cf805f03849",
-    "d2c2ec52ca3ded9e",
-    "05e251578ff09233",
-    "5dc7cf93bb0bca51",
-    "10a748857a71a230",
-    "3033162dac5d0b0e",
-    "e0e6e0d416bb368e",
-    "0cb05a35f56ad970"
+    {
+      "_id": "d6eca27a66a08d5f",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.d6eca27a66a08d5f",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "b106102f88dd356a",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.b106102f88dd356a",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "277eccae8d2db788",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.277eccae8d2db788",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "802f5692afbb6113",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.802f5692afbb6113",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "fa3da8856764c30a",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.fa3da8856764c30a",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "5180ad844bba6a99",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.5180ad844bba6a99",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "52946ac25bada09e",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.52946ac25bada09e",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "1e5586879c6751ce",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.1e5586879c6751ce",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "1934fc262bdbce5b",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.1934fc262bdbce5b",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "a27c4380fd379d61",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.a27c4380fd379d61",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "32683717aba3cbcb",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.32683717aba3cbcb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "5541b28f46ae44e8",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.5541b28f46ae44e8",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "80e23cf805f03849",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.80e23cf805f03849",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "d2c2ec52ca3ded9e",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.d2c2ec52ca3ded9e",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "05e251578ff09233",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.05e251578ff09233",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "5dc7cf93bb0bca51",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.5dc7cf93bb0bca51",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "10a748857a71a230",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.10a748857a71a230",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "3033162dac5d0b0e",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.3033162dac5d0b0e",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "e0e6e0d416bb368e",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.e0e6e0d416bb368e",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_id": "0cb05a35f56ad970",
+      "_key": "!tables.results!1fbfac2b3b5ef37d.0cb05a35f56ad970",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    }
   ],
   "flags": {
     "fallout2d20-compendium": {

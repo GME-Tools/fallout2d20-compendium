@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!e17d49c3ac814fad.199fcbb180567075",
-  "_file": "rencontres_d_objets_aleatoires_07__199fcbb180567075.json",
-  "values": {
-    "/name": "Barils radioactifs",
-    "/description": "Il y a 3+3 DC barils contenant chacun 1 matériau radioactif. La récupération prend une minute par baril et inflige 2 DC dégâts de radiation par minute. Des Effets ajoutent un animal Redoutable doté de Sauvage et Luminescent."
-  }
-}

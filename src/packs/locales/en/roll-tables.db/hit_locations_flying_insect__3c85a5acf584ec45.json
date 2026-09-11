@@ -4,6 +4,18 @@
   "values": {
     "/name": "Hit Locations (Flying Insect)",
     "/description": "<p>Core Rulebook, p. 28; added by Errata V6.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@649dd363a01546c5/name": "Head",
+    "/results/@649dd363a01546c5/description": "Head",
+    "/results/@759b6dffe4981bfc/name": "Torso",
+    "/results/@759b6dffe4981bfc/description": "Torso",
+    "/results/@f50604b05baf04bd/name": "Left Wing (as leg)",
+    "/results/@f50604b05baf04bd/description": "Left Wing (as leg)",
+    "/results/@447b86045d144358/name": "Right Wing (as leg)",
+    "/results/@447b86045d144358/description": "Right Wing (as leg)",
+    "/results/@78051bfb0b4c60de/name": "Legs",
+    "/results/@78051bfb0b4c60de/description": "Legs",
+    "/results/@356b7dc16dacbe95/name": "Legs",
+    "/results/@356b7dc16dacbe95/description": "Legs"
   }
 }

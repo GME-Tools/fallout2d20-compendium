@@ -4,6 +4,18 @@
   "values": {
     "/name": "Localisations de touche (Insecte volant)",
     "/description": "<p>Livre de règles, p. 28 ; ajout de l’Errata V6.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@649dd363a01546c5/name": "Tête",
+    "/results/@649dd363a01546c5/description": "Tête",
+    "/results/@759b6dffe4981bfc/name": "Torse",
+    "/results/@759b6dffe4981bfc/description": "Torse",
+    "/results/@f50604b05baf04bd/name": "Aile gauche (comme une patte)",
+    "/results/@f50604b05baf04bd/description": "Aile gauche (comme une patte)",
+    "/results/@447b86045d144358/name": "Aile droite (comme une patte)",
+    "/results/@447b86045d144358/description": "Aile droite (comme une patte)",
+    "/results/@78051bfb0b4c60de/name": "Pattes",
+    "/results/@78051bfb0b4c60de/description": "Pattes",
+    "/results/@356b7dc16dacbe95/name": "Pattes",
+    "/results/@356b7dc16dacbe95/description": "Pattes"
   }
 }

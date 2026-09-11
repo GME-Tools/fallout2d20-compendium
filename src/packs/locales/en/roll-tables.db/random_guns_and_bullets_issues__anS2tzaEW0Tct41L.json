@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random Guns and Bullets Issues",
     "/description": "<p>Core Rulebook table, p. 175.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@vaPjYoERiQDOLgQR/name": "The Future of Hunting?",
+    "/results/@vaPjYoERiQDOLgQR/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.DBYRYX03IcO2aTQG]{The Future of Hunting?}",
+    "/results/@MCo0yyR7Cdm68CIk/name": "Lasers & Hunting: Acceptable Overkill",
+    "/results/@MCo0yyR7Cdm68CIk/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.qJ0xswPVJhHeBwLT]{Lasers & Hunting: Acceptable Overkill}",
+    "/results/@tb8CsteVXc8dHQX0/name": "Little Guns for Little Ladies",
+    "/results/@tb8CsteVXc8dHQX0/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.UvPtfBpiOmAmiKg2]{Little Guns for Little Ladies}",
+    "/results/@zlhWeAbRw5y88eXT/name": "Street Guns of Detroit",
+    "/results/@zlhWeAbRw5y88eXT/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mT0Wf89P2UGLZ83y]{Street Guns of Detroit}",
+    "/results/@yI30hRDdaMkd9ZZY/name": "Avoid Those Pesky Gun Laws!",
+    "/results/@yI30hRDdaMkd9ZZY/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.qcEZIWmadDggAT8K]{Avoid Those Pesky Gun Laws!}",
+    "/results/@HSsq7OjVbVKF3rjN/name": "The Moon: A Communist Doomsday Device?!",
+    "/results/@HSsq7OjVbVKF3rjN/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.4jcc9O3jIgAhUulK]{The Moon: A Communist Doomsday Device?!}",
+    "/results/@2dNjdIVxxEc091EH/name": "Take Aim, Army Style",
+    "/results/@2dNjdIVxxEc091EH/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.yjknvThwoDmQwU3M]{Take Aim, Army Style}",
+    "/results/@kaIeaZAGysPfPyYl/name": "Bear-Proofing your Campsite",
+    "/results/@kaIeaZAGysPfPyYl/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.AJEifHfxya4EViFy]{Bear-Proofing your Campsite}",
+    "/results/@ImhZ11od2qYTAnkH/name": "Plasma: The Weapon of Tomorrow",
+    "/results/@ImhZ11od2qYTAnkH/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.fYy1RCAJMGPRO9WJ]{Plasma: The Weapon of Tomorrow}",
+    "/results/@UWB2TUsLSAZ7HBee/name": "Guide to Hunting Commies!",
+    "/results/@UWB2TUsLSAZ7HBee/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.116TjNgfBwkNOSF6]{Guide to Hunting Commies!}"
   }
 }

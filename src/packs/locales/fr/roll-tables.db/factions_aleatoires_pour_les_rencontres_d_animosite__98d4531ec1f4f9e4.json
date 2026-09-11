@@ -6,6 +6,24 @@
     "/description": "<p>Tirez deux fois et relancez les doublons afin de sélectionner deux factions opposées.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
-    "/flags/fallout2d20-compendium/source/translation": "project"
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/results/@ae725620401d7793/name": "Animaux",
+    "/results/@ae725620401d7793/description": "Animaux sauvages puissants ; deux résultats Animaux sont permis si chaque camp appartient à une espèce différente.",
+    "/results/@48d34ba7e2a8ecc6/name": "Goules sauvages",
+    "/results/@48d34ba7e2a8ecc6/description": "Une grande meute de goules sauvages, éventuellement accompagnée d’une ou deux luminescentes.",
+    "/results/@005bfdc69ca43fdd/name": "Pillards",
+    "/results/@005bfdc69ca43fdd/description": "Une bande locale de pillards ; deux résultats Pillards sont permis si les bandes diffèrent.",
+    "/results/@af0698052061aa2e/name": "Enfants de l’Atome",
+    "/results/@af0698052061aa2e/description": "Des zélotes des Enfants de l’Atome, désavantagés contre les adversaires résistants ou immunisés aux radiations.",
+    "/results/@1ccad32f427e735a/name": "La Confrérie de l’Acier",
+    "/results/@1ccad32f427e735a/description": "Des forces de la Confrérie, comme des scribes en retraite ou des chevaliers menés par un paladin en armure assistée.",
+    "/results/@c7693cc573b7ded4/name": "Robots",
+    "/results/@c7693cc573b7ded4/description": "Protectrons, Mister Gutsy, Assaultrons, robots domestiques défaillants ou synthétiques de l’Institut dans le Commonwealth.",
+    "/results/@7b5385aa7c01c34e/name": "Super mutants",
+    "/results/@7b5385aa7c01c34e/description": "Des super mutants, éventuellement accompagnés de molosses mutants.",
+    "/results/@a39133b36f77de8b/name": "Fangeux",
+    "/results/@a39133b36f77de8b/description": "Un groupe errant de fangeux.",
+    "/results/@4abafc82cf8eee21/name": "Monstres gigantesques !",
+    "/results/@4abafc82cf8eee21/description": "Un béhémoth, une reine des fangeux, un écorcheur albinos ou caméléon, ou une créature aussi mortelle."
   }
 }

@@ -4,6 +4,28 @@
   "values": {
     "/name": "Foraging",
     "/description": "<p>Core Rulebook table, p. 202.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@9rpSzyQltVYrcXpp/name": "Brain Fungus",
+    "/results/@9rpSzyQltVYrcXpp/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.PuL9AevtWz8clHFZ]{Brain Fungus}",
+    "/results/@DDZ3oysdVwCXgtug/name": "Glowing Fungus",
+    "/results/@DDZ3oysdVwCXgtug/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.72L3DVPU3uiGPpNm]{Glowing Fungus}",
+    "/results/@GP7oJFV9eTpD9pmm/name": "Carrot",
+    "/results/@GP7oJFV9eTpD9pmm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.8Fv9dZQm5Dax1INF]{Carrot}",
+    "/results/@9DUbPFnHUygvIa6G/name": "Corn",
+    "/results/@9DUbPFnHUygvIa6G/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.qeN8bq9CJ3EYwwAE]{Corn}",
+    "/results/@NVWmBi5mX37mX5xx/name": "Gourd",
+    "/results/@NVWmBi5mX37mX5xx/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Qe3DSub3iHONeRaO]{Gourd}",
+    "/results/@f7c3aEwYmmiBoTjW/name": "Mutfruit",
+    "/results/@f7c3aEwYmmiBoTjW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ABPjUugdAt6VthAw]{Mutfruit}",
+    "/results/@ZDLEA0B946Eh7DoW/name": "Razorgrain",
+    "/results/@ZDLEA0B946Eh7DoW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.KgKwCYEKl95sQQZN]{Razorgrain}",
+    "/results/@XRoXfY3HSrmbRTkB/name": "Silt Bean",
+    "/results/@XRoXfY3HSrmbRTkB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.lrllDzCjzc9atRUy]{Silt Bean}",
+    "/results/@vDIAaftiRVO1rl9a/name": "Tato",
+    "/results/@vDIAaftiRVO1rl9a/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.4Z3zGSnBGJcgR5c2]{Tato}",
+    "/results/@9gB0JpQXHhkljJH0/name": "Hubflower",
+    "/results/@9gB0JpQXHhkljJH0/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.483yLfgB6kJ0lWvD]{Hubflower}",
+    "/results/@iSLgnHJ4YnwPkeHC/name": "Bloodleaf",
+    "/results/@iSLgnHJ4YnwPkeHC/description": "@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ZXa7xGi9VXOzUuVN]{Bloodleaf}"
   }
 }

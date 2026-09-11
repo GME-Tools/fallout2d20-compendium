@@ -4,6 +4,18 @@
   "values": {
     "/name": "Hit Locations (Quadruped)",
     "/description": "<p>Core Rulebook, p. 28; added by Errata V6.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@7686652dbe92baf5/name": "Head",
+    "/results/@7686652dbe92baf5/description": "Head",
+    "/results/@7a51e10513f86d4a/name": "Torso",
+    "/results/@7a51e10513f86d4a/description": "Torso",
+    "/results/@5fb3447aea6b8d34/name": "Left Front Leg",
+    "/results/@5fb3447aea6b8d34/description": "Left Front Leg",
+    "/results/@962c77f916b47443/name": "Right Front Leg",
+    "/results/@962c77f916b47443/description": "Right Front Leg",
+    "/results/@3c8f39bc19df00c8/name": "Left Hind Leg",
+    "/results/@3c8f39bc19df00c8/description": "Left Hind Leg",
+    "/results/@c084b99c95c1d764/name": "Right Hind Leg",
+    "/results/@c084b99c95c1d764/description": "Right Hind Leg"
   }
 }

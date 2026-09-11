@@ -4,6 +4,26 @@
   "values": {
     "/name": "Random Grognak the Barbarian Issues",
     "/description": "<p>Core Rulebook table, p. 174-175.</p>",
-    "/flags/fallout2d20-compendium/source/language": "en"
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/results/@C0rhRryVguJazDks/name": "Blood on the Harp",
+    "/results/@C0rhRryVguJazDks/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.qx4yMqnLv4ZI6Ppx]{Blood on the Harp}",
+    "/results/@jQhe4i6ZsKdvuM2h/name": "Cometh the Trickster",
+    "/results/@jQhe4i6ZsKdvuM2h/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.78JHpLZz5rQeTMP9]{Cometh the Trickster}",
+    "/results/@BfJ5HNUy19GB8PaE/name": "Jungle of the Bat-Babies",
+    "/results/@BfJ5HNUy19GB8PaE/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.V8SOn4RCMzgkx4u0]{Jungle of the Bat-Babies}",
+    "/results/@mNr9AFSeYaD8kROH/name": "In the Bosom of the Corsair Queen",
+    "/results/@mNr9AFSeYaD8kROH/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.9UgvihjW0x2I5vn9]{In the Bosom of the Corsair Queen}",
+    "/results/@oi98Hxzpmh8lDoKt/name": "Demon Slaves, Demon Sands",
+    "/results/@oi98Hxzpmh8lDoKt/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.hhLOBbowNeo4VSDe]{Demon Slaves, Demon Sands}",
+    "/results/@gFDBybwyYiAMVYuk/name": "Enter Maula: War Maiden of Mars",
+    "/results/@gFDBybwyYiAMVYuk/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.n5iAbo8IerJqOQNR]{Enter Maula: War Maiden of Mars}",
+    "/results/@Cby6oJGIhhl5d1GA/name": "Fatherless Cur!",
+    "/results/@Cby6oJGIhhl5d1GA/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.vcIgVqypELu1vP9C]{Fatherless Cur!}",
+    "/results/@iz7rZ7SgET1zrTFY/name": "Lost in the Snows of Lust",
+    "/results/@iz7rZ7SgET1zrTFY/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.S71PQOPJq2vV0pH8]{Lost in the Snows of Lust}",
+    "/results/@68pcl14fpL4YazLS/name": "The Lair of the Virgin Eaters",
+    "/results/@68pcl14fpL4YazLS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.G88aHNSeg4SvaCo9]{The Lair of the Virgin Eaters}",
+    "/results/@I7SWfSGAS3CC01wL/name": "What Sorcery is This?",
+    "/results/@I7SWfSGAS3CC01wL/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.oR7Yb9XMHc1Yn49v]{What Sorcery is This?}"
   }
 }

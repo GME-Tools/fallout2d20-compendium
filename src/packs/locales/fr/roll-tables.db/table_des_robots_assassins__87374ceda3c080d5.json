@@ -1,0 +1,18 @@
+{
+  "_key": "!tables!87374ceda3c080d5",
+  "_file": "table_des_robots_assassins__87374ceda3c080d5.json",
+  "values": {
+    "/name": "Table des robots assassins",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/results/@8e745602e5290b77/text": "—",
+    "/results/@f0be1df67fe2cc5e/text": "Eyebot de Son Éminence Intimidante",
+    "/results/@58f4ec459e407274/text": "Mister Handy de Son Éminence Intimidante",
+    "/results/@ecc8c46d0c411197/text": "Assaultron de Son Éminence Intimidante"
+  }
+}

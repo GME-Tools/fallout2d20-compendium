@@ -6,6 +6,16 @@
     "/description": "<p>Quand une rencontre aléatoire survient, lancez ici puis tirez dans la table détaillée indiquée. Pour Animosité, tirez deux fois et relancez les doublons.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.1.0",
-    "/flags/fallout2d20-compendium/source/translation": "project"
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/results/@a3c7c8365c24463a/name": "Ordinaire",
+    "/results/@a3c7c8365c24463a/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.1b1cf5dad6cbb08e]{Rencontres ordinaires aléatoires}.",
+    "/results/@f61093a9555340ca/name": "Objet",
+    "/results/@f61093a9555340ca/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.e17d49c3ac814fad]{Rencontres d’objets aléatoires}.",
+    "/results/@ca52ead92b2d9bd3/name": "Campement",
+    "/results/@ca52ead92b2d9bd3/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.a23d44b06fe795f5]{Rencontres de campement aléatoires}.",
+    "/results/@a289d2feb89b2981/name": "Passage obligé",
+    "/results/@a289d2feb89b2981/description": "Tirez dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.673ec95833451220]{Rencontres de passage obligé aléatoires}.",
+    "/results/@57a3aed0f6ba8f38/name": "Animosité",
+    "/results/@57a3aed0f6ba8f38/description": "Tirez deux fois dans @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.98d4531ec1f4f9e4]{Factions aléatoires pour les rencontres d’animosité} ; relancez les doublons."
   }
 }

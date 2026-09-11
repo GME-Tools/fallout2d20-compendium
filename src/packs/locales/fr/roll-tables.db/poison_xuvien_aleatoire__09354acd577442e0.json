@@ -1,0 +1,30 @@
+{
+  "_key": "!tables!09354acd577442e0",
+  "_file": "poison_xuvien_aleatoire__09354acd577442e0.json",
+  "values": {
+    "/name": "Poison xuvien aléatoire",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 81
+      }
+    ],
+    "/results/@0e3f3227a3ec8c0e/text": "Poison standard — 2 DC de dégâts de poison",
+    "/results/@0cd890756eaf8196/text": "Poison au bourbon — Alcoolisé ; relancez le d20 le plus faible des tests d’END de cette scène ; 1 DC de dégâts de poison",
+    "/results/@e9904f1b8931f9bc/text": "Poison au rhum — Alcoolisé ; relancez le d20 le plus faible des tests d’AGI de cette scène ; 1 DC de dégâts de poison",
+    "/results/@26a609eee6de30e4/text": "Poison étourdissant — 4 DC de dégâts de poison et 2 DC de dégâts Étourdissants",
+    "/results/@c4af04a8d452f059/text": "Poison à la bière — Alcoolisé ; 1 DC de dégâts de poison",
+    "/results/@6e06c1bcf79faf75/text": "À base de Stimpak — Soignez 2 PV ; aucun dégât de poison"
+  }
+}

@@ -4,6 +4,20 @@
   "values": {
     "/name": "Numéros aléatoires du Guide de survie des Terres désolées",
     "/description": "<p>Table du Livre de base, p. 180.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@0E6IPgFzagFhIIg2/name": "Cultiver dans les Terres désolées",
+    "/results/@0E6IPgFzagFhIIg2/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.0GXqsrMeNMoA9iCS]{Cultiver dans les Terres désolées}",
+    "/results/@CG7MCq5Fpo5Ndwyi/name": "Numéro spécial insecticides",
+    "/results/@CG7MCq5Fpo5Ndwyi/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.NyoiFuBl8FN4iRiZ]{Numéro spécial insecticides}",
+    "/results/@2CpHiStwIJeSqKE5/name": "Le bon côté de la contamination aux radiations",
+    "/results/@2CpHiStwIJeSqKE5/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.EIzEOJH0iP4JzWnw]{Le bon côté de la contamination aux radiations}",
+    "/results/@0lPvoGrl1oyfzRpL/name": "Spécial coupons",
+    "/results/@0lPvoGrl1oyfzRpL/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.lc4MTpvhDkQ7ApOS]{Spécial coupons}",
+    "/results/@AA6RZfLEHcvzHYqg/name": "Gymnastique aquatique pour les goules",
+    "/results/@AA6RZfLEHcvzHYqg/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.hQmjix9JtmveUaBz]{Gymnastique aquatique pour les goules}",
+    "/results/@mMWmI2T9Vi8mRbPW/name": "Les secrets de l’autodéfense",
+    "/results/@mMWmI2T9Vi8mRbPW/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.l04nHOGBarXy6rxt]{Les secrets de l’autodéfense}",
+    "/results/@XvVGJCV8SoizNHVV/name": "Chasser dans les Terres désolées",
+    "/results/@XvVGJCV8SoizNHVV/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.rzLGWCVR5aHjEyFy]{Chasser dans les Terres désolées}"
   }
 }

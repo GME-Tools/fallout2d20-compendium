@@ -4,6 +4,18 @@
   "values": {
     "/name": "Localisations de touche (Quadrupède)",
     "/description": "<p>Livre de règles, p. 28 ; ajout de l’Errata V6.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@7686652dbe92baf5/name": "Tête",
+    "/results/@7686652dbe92baf5/description": "Tête",
+    "/results/@7a51e10513f86d4a/name": "Torse",
+    "/results/@7a51e10513f86d4a/description": "Torse",
+    "/results/@5fb3447aea6b8d34/name": "Patte avant gauche",
+    "/results/@5fb3447aea6b8d34/description": "Patte avant gauche",
+    "/results/@962c77f916b47443/name": "Patte avant droite",
+    "/results/@962c77f916b47443/description": "Patte avant droite",
+    "/results/@3c8f39bc19df00c8/name": "Patte arrière gauche",
+    "/results/@3c8f39bc19df00c8/description": "Patte arrière gauche",
+    "/results/@c084b99c95c1d764/name": "Patte arrière droite",
+    "/results/@c084b99c95c1d764/description": "Patte arrière droite"
   }
 }

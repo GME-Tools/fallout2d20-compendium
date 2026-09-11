@@ -4,6 +4,10 @@
   "values": {
     "/name": "Distributeur de Nuka-Cola",
     "/description": "<p>Table du Livre de base, p. 203.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@qaxc4yD0Pr3DVIdJ/name": "Vide",
+    "/results/@qaxc4yD0Pr3DVIdJ/description": "Vide",
+    "/results/@jM4FFTSOqBjKyGNp/name": "1+2 DC bouteilles en verre",
+    "/results/@jM4FFTSOqBjKyGNp/description": "Bric-à-brac ; chacune fournit 2 matériaux fréquents."
   }
 }

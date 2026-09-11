@@ -4,6 +4,26 @@
   "values": {
     "/name": "Numéros aléatoires d’Astoundingly Awesome Tales",
     "/description": "<p>Table du Livre de base, p. 173.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@qaOKKTFoaEouJgfV/name": "L’assaut des hommes-poisson !",
+    "/results/@qaOKKTFoaEouJgfV/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.mT6qkeV6xTG1pnex]{L’assaut des hommes-poisson !}",
+    "/results/@Xs0JrjIbkV4pxFyS/name": "L’ascension des mutants !",
+    "/results/@Xs0JrjIbkV4pxFyS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.J86ayEuqmagF9OH0]{L’ascension des mutants !}",
+    "/results/@jble9SfZo8nYZNvS/name": "L’attaque des hommes de métal",
+    "/results/@jble9SfZo8nYZNvS/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.13RpvXhUn7TdKjEA]{L’attaque des hommes de métal}",
+    "/results/@S41Hti7y6Hkga3Gm/name": "La vengeance du Russe dément !",
+    "/results/@S41Hti7y6Hkga3Gm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.iiFcIlhklIMxjaoC]{La vengeance du Russe dément !}",
+    "/results/@t3QpjYo2GBREUzMm/name": "La starlette tireuse d’élite !",
+    "/results/@t3QpjYo2GBREUzMm/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.sNyzZdtR8zQeKE86]{La starlette tireuse d’élite !}",
+    "/results/@PQMcFvmOjiOvrkxQ/name": "La malédiction des calcinés",
+    "/results/@PQMcFvmOjiOvrkxQ/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.jPdCfq2T6pELwzbK]{La malédiction des calcinés}",
+    "/results/@ATmZBwB5ms4NICSM/name": "L’invasion des insectes géants !",
+    "/results/@ATmZBwB5ms4NICSM/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.1bOiFImI3fM9CaIJ]{L’invasion des insectes géants !}",
+    "/results/@Fyn4jstkDvKvJqLK/name": "Lasers mortels !",
+    "/results/@Fyn4jstkDvKvJqLK/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.6rHaK2QtsSPGvSpJ]{Lasers mortels !}",
+    "/results/@IRKTGPUQgf9M85Dc/name": "Science et démence !",
+    "/results/@IRKTGPUQgf9M85Dc/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.zpcKGtIDvZn8Z1ut]{Science et démence !}",
+    "/results/@CpUtavC1AVyhDjb0/name": "Encerclé par les morts !",
+    "/results/@CpUtavC1AVyhDjb0/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.0pTA0wlRQUQ2oAHk]{Encerclé par les morts !}"
   }
 }

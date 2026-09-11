@@ -6,6 +6,16 @@
     "/description": "<p>When a random encounter occurs, roll here, then draw from the indicated detailed table. For Animosity, draw twice and redraw matching results.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2021-04-22",
-    "/flags/fallout2d20-compendium/source/translation": "original"
+    "/flags/fallout2d20-compendium/source/translation": "original",
+    "/results/@a3c7c8365c24463a/name": "Ordinary",
+    "/results/@a3c7c8365c24463a/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.1b1cf5dad6cbb08e]{Random Ordinary Encounters}.",
+    "/results/@f61093a9555340ca/name": "Object",
+    "/results/@f61093a9555340ca/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.e17d49c3ac814fad]{Random Object Encounters}.",
+    "/results/@ca52ead92b2d9bd3/name": "Campsite",
+    "/results/@ca52ead92b2d9bd3/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.a23d44b06fe795f5]{Random Campsite Encounters}.",
+    "/results/@a289d2feb89b2981/name": "Choke Point",
+    "/results/@a289d2feb89b2981/description": "Draw from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.673ec95833451220]{Random Choke Point Encounters}.",
+    "/results/@57a3aed0f6ba8f38/name": "Animosity",
+    "/results/@57a3aed0f6ba8f38/description": "Draw twice from @UUID[Compendium.fallout2d20-compendium.{language}-roll-tables.RollTable.98d4531ec1f4f9e4]{Random Factions for Animosity Encounters}; redraw matching results."
   }
 }

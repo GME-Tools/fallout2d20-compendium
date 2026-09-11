@@ -4,6 +4,26 @@
   "values": {
     "/name": "Numéros aléatoires de Live & Love",
     "/description": "<p>Table du Livre de base, p. 176.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@rGKLYjJRI5VIkaQH/name": "Meilleurs amis pour la vie !",
+    "/results/@rGKLYjJRI5VIkaQH/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.uizbEBbI5Jl1tjeI]{Meilleurs amis pour la vie !}",
+    "/results/@NRufi8n9eHBMyLB2/name": "Explose ce gars !",
+    "/results/@NRufi8n9eHBMyLB2/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.xT9LvN0vcacln4pN]{Explose ce gars !}",
+    "/results/@0CmuiFD7BF01EsZe/name": "En finir avec le gras !",
+    "/results/@0CmuiFD7BF01EsZe/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.ZVFaC4f8Ki48eTdx]{En finir avec le gras !}",
+    "/results/@vFA38M81tWt7UEvb/name": "Une si charmante secrétaire",
+    "/results/@vFA38M81tWt7UEvb/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.PKilL8to3SDZHUAU]{Une si charmante secrétaire}",
+    "/results/@AO6HolaFuRSkwrHU/name": "Lève le coude, mais pas trop !",
+    "/results/@AO6HolaFuRSkwrHU/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.YFSFj5moNn7KNnT8]{Lève le coude, mais pas trop !}",
+    "/results/@dA8N9PceaPQYQbEB/name": "Conseils pour hommes mariés",
+    "/results/@dA8N9PceaPQYQbEB/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.8uCaW6rs4fwDWJUF]{Conseils pour hommes mariés}",
+    "/results/@GWtYqGWu6nd1kX7g/name": "Méfiez-vous du dresseur d’hommes",
+    "/results/@GWtYqGWu6nd1kX7g/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.hCRQEWSkpgvFluXe]{Méfiez-vous du dresseur d’hommes}",
+    "/results/@jxbx38Gce98t9Dkj/name": "Une expérience marquante",
+    "/results/@jxbx38Gce98t9Dkj/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.LATCQmWWljVCwMnt]{Une expérience marquante}",
+    "/results/@dEGHVwyqeuFcGafT/name": "J’ai épousé un robot",
+    "/results/@dEGHVwyqeuFcGafT/description": "@UUID[Compendium.fallout2d20-compendium.{language}-books-and-magazines.Item.usR2XUJr38Er8QCh]{J’ai épousé un robot}",
+    "/results/@5GbfzD2EsupaxHhU/name": "Relancez le résultat",
+    "/results/@5GbfzD2EsupaxHhU/description": "Relancez sur cette table."
   }
 }

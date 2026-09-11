@@ -1,0 +1,98 @@
+{
+  "_id": "09354acd577442e0",
+  "_key": "!tables!09354acd577442e0",
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%204.webp",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    {
+      "_id": "0e3f3227a3ec8c0e",
+      "_key": "!tables.results!09354acd577442e0.0e3f3227a3ec8c0e",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "0cd890756eaf8196",
+      "_key": "!tables.results!09354acd577442e0.0cd890756eaf8196",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        4,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "e9904f1b8931f9bc",
+      "_key": "!tables.results!09354acd577442e0.e9904f1b8931f9bc",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        8,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "26a609eee6de30e4",
+      "_key": "!tables.results!09354acd577442e0.26a609eee6de30e4",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        12,
+        15
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "c4af04a8d452f059",
+      "_key": "!tables.results!09354acd577442e0.c4af04a8d452f059",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        16,
+        19
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "6e06c1bcf79faf75",
+      "_key": "!tables.results!09354acd577442e0.6e06c1bcf79faf75",
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false
+    }
+  ],
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_4",
+        "page": 13,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 4.",
+        "artworkSharingGroup": "aat-4-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+      }
+    }
+  },
+  "$folder": "aat-4"
+}

@@ -1,8 +1,0 @@
-{
-  "_key": "!tables.results!e17d49c3ac814fad.0cce987a5f55adba",
-  "_file": "rencontres_d_objets_aleatoires_01__0cce987a5f55adba.json",
-  "values": {
-    "/name": "Réfrigérateur verrouillé",
-    "/description": "Un récupérateur méfiant tente d’ouvrir un réfrigérateur. Sa serrure de difficulté 3 protège une arme à distance aléatoire, 1d20 munitions adaptées et 3d20 capsules."
-  }
-}

@@ -4,6 +4,18 @@
   "values": {
     "/name": "Rencontres étranges des Terres désolées",
     "/description": "<p>Table du Livre de base, p. 308.</p>",
-    "/flags/fallout2d20-compendium/source/language": "fr"
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/results/@lyiVzfIPPhRBBYpc/name": "Exercice de Mister Gutsy",
+    "/results/@lyiVzfIPPhRBBYpc/description": "Des robots Mister Gutsy en exercice recrutent le groupe comme soldats amis ou ennemis.",
+    "/results/@uo24cLS0GCkcxcfV/name": "Sectateurs des Piliers",
+    "/results/@uo24cLS0GCkcxcfV/description": "Des fidèles des Piliers de la Communauté tentent de convertir le groupe.",
+    "/results/@SSkTXnjT3H7zFMVs/name": "Convention d’avant-guerre",
+    "/results/@SSkTXnjT3H7zFMVs/description": "Des admirateurs de nombreuses icônes culturelles d’avant-guerre organisent une convention.",
+    "/results/@LrCJNhXFdFxbGbrX/name": "Ingénieurs super mutants",
+    "/results/@LrCJNhXFdFxbGbrX/description": "Des super mutants tentent de faire fonctionner une technologie avancée : avion, robot ou char.",
+    "/results/@GDDB3nqf1LBNlqzJ/name": "Taxis des Terres désolées",
+    "/results/@GDDB3nqf1LBNlqzJ/description": "Des colons conduisant des pousse-pousse improvisés proposent leurs services contre des capsules.",
+    "/results/@VVNZPvopwG2wetDm/name": "Habitant d’un Abri inconnu",
+    "/results/@VVNZPvopwG2wetDm/description": "Un habitant d’un Abri inconnu demande des pièces pour son infrastructure."
   }
 }
