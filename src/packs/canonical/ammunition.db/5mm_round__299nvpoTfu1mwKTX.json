@@ -14,7 +14,7 @@
     "favorite": false,
     "fusionCore": false,
     "quantity": 1,
-    "quantityRoll": "10*12+6dc",
+    "quantityRoll": "10*(12+6dc)",
     "rarity": 3,
     "shots": {
       "current": 1,
