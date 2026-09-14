@@ -22,6 +22,7 @@ for (const language of ["en", "fr"]) test(`${language} scalar actor errata V6 ar
   const radstag = await actor(language, "denizens", "Radstag");
   assert.equal(radstag.system.body.value, 6);
   assert.equal(radstag.system.health.max, 11);
+  assert.equal(radstag.system.immunities.radiation, true);
   assert.equal((await actor(language, "denizens", "Glowing One")).system.health.max, 17);
   const hound = await actor(language, "denizens", "Mutant Hound");
   assert.deepEqual([hound.system.body.value, hound.system.mind.value], [6, 4]);
@@ -37,4 +38,15 @@ for (const language of ["en", "fr"]) test(`${language} scalar actor errata V6 ar
   assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => wastelander.system.attributes[k].value), [6,5,7,4,5,5,4]);
   assert.equal(wastelander.system.initiative.value, 10);
   assert.equal(wastelander.system.carryWeight.base, language === "fr" ? 105 : 210);
+
+  const bodyResistance = (document, type) => ["head", "torso", "armL", "armR", "legL", "legR"]
+    .map(part => document.system.body_parts[part].resistance[type]);
+  assert.deepEqual(bodyResistance(await actor(language, "denizens", "Super Mutant Brute"), "energy"), [2, 0, 0, 0, 0, 0]);
+  assert.deepEqual(bodyResistance(await actor(language, "denizens", "Super Mutant Master"), "energy"), [2, 4, 4, 4, 4, 4]);
+  assert.deepEqual(bodyResistance(await actor(language, "denizens", "Synth Courser"), "energy"), [2, 5, 5, 5, 5, 5]);
+  assert.deepEqual(bodyResistance(await actor(language, "denizens", "Synth Trooper"), "energy"), [4, 4, 4, 4, 4, 4]);
+  assert.deepEqual(bodyResistance(await actor(language, "denizens", "Scribe"), "radiation"), [0, 2, 2, 2, 2, 2]);
+  assert.deepEqual(bodyResistance(await actor(language, "denizens", "Raider"), "physical"), [0, 1, 1, 1, 1, 1]);
+  const zetan = await actor(language, "denizens", "Zetan (Aliens)");
+  assert.deepEqual([zetan.system.immunities.radiation, zetan.system.immunities.poison], [false, false]);
 });

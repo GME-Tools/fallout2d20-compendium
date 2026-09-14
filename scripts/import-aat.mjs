@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { denizenBodyParts } from "./lib/denizen-resistance.mjs";
 
 const MODULE_ID = "fallout2d20-compendium";
 const ROOT = process.cwd();
@@ -97,6 +98,7 @@ function actorSystem(definition, template) {
   system.initiative = { ...(system.initiative ?? {}), value: definition.initiative };
   system.defense = { ...(system.defense ?? {}), value: definition.defense };
   system.resistance = Object.fromEntries(Object.entries(definition.dr).map(([key, locations]) => [key, { ...(system.resistance?.[key] ?? {}), value: 0, locations }]));
+  system.body_parts = denizenBodyParts(system.resistance, system.body_parts);
   system.source = definition.issue === 5 ? "astoundingly_awesome_tales_1_5" : `astoundingly_awesome_tales_${definition.issue}`;
   system.bodyType = definition.bodyType ?? "humanoid";
   system.immunities = { poison: definition.dr.poison === "Immune", radiation: definition.dr.radiation === "Immune" };

@@ -711,6 +711,56 @@
       "uncommon": 0,
       "rare": 0,
       "tn": 0
+    },
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 5,
+          "energy": 7,
+          "radiation": 0,
+          "poison": 9
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 10,
+          "energy": 7,
+          "radiation": 0,
+          "poison": 9
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 10,
+          "energy": 7,
+          "radiation": 0,
+          "poison": 9
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 10,
+          "energy": 7,
+          "radiation": 0,
+          "poison": 9
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 10,
+          "energy": 7,
+          "radiation": 0,
+          "poison": 9
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 10,
+          "energy": 7,
+          "radiation": 0,
+          "poison": 9
+        }
+      }
     }
   },
   "ownership": {

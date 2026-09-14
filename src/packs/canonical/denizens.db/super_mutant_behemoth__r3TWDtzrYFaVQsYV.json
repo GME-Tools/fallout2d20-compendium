@@ -626,6 +626,56 @@
     "immunities": {
       "poison": false,
       "radiation": true
+    },
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 8,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 8
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 8,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 8
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 8,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 8
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 8,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 8
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 8,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 8
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 8,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 8
+        }
+      }
     }
   },
   "ownership": {

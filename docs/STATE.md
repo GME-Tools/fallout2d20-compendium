@@ -18,7 +18,7 @@
   the `denizens` pack.
 - 1,389 root documents per language; 2,778 total. Denizen abilities remain
   embedded in their Actors.
-- 7,234 compiled LevelDB records across 36 packs.
+- 7,236 compiled LevelDB records across 36 packs.
 - 46 RollTables per language, including the generic Hit Locations table, the
   Mister Handy Hit Locations table, both
   specialized tables added by Errata V6, and the GM Toolkit and Starter Set tables.

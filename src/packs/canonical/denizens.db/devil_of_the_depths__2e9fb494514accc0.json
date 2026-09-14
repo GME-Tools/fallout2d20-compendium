@@ -624,7 +624,57 @@
       "tn": 1
     },
     "origin": "Mutated Lizard",
-    "biography": "<p><span class=\"fontstyle0\">Well known throughout the wasteland, the deathclaw is a creature feared by many, and for good reason. Created through the genetic engineering and gene splicing of the Jackson&rsquo;s Chameleon, the pre-War U.S. government created these monstrosities to replace soldiers on the battlefield. Sporting vicious claws and horns, and a stature that towers over most humans, these creatures are killing machines with a speed faster than most creatures of their size. Female deathclaws are often larger than the males and are deeply protective of their eggs and young. Encountering a lone deathclaw is dangerous, but to stumble upon a nest is almost guaranteed to end in a swift, painful death.</span></p>"
+    "biography": "<p><span class=\"fontstyle0\">Well known throughout the wasteland, the deathclaw is a creature feared by many, and for good reason. Created through the genetic engineering and gene splicing of the Jackson&rsquo;s Chameleon, the pre-War U.S. government created these monstrosities to replace soldiers on the battlefield. Sporting vicious claws and horns, and a stature that towers over most humans, these creatures are killing machines with a speed faster than most creatures of their size. Female deathclaws are often larger than the males and are deeply protective of their eggs and young. Encountering a lone deathclaw is dangerous, but to stumble upon a nest is almost guaranteed to end in a swift, painful death.</span></p>",
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 0,
+          "poison": 0
+        }
+      }
+    }
   },
   "ownership": {
     "default": 0,

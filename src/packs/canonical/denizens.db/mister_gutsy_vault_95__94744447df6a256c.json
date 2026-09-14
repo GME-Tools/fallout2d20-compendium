@@ -161,7 +161,57 @@
       "uncommon": 1,
       "rare": 0
     },
-    "origin": "Robot"
+    "origin": "Robot",
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      }
+    }
   },
   "ownership": {
     "default": 0,

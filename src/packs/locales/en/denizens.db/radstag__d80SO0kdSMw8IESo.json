@@ -4,6 +4,8 @@
   "values": {
     "/items/@huL6tyJgQPr4frCv/system/weight": "0",
     "/items/@huL6tyJgQPr4frCv/name": "Antlers",
+    "/items/@AdSagy_ql0urDrRi/name": "Immune to Radiation",
+    "/items/@AdSagy_ql0urDrRi/system/description": "<p>The radstag reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
     "/items/@TnHoyY0l9qqsR1r4/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead radstag with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 2CD portions of radstag meat.&nbsp;</span> If an Effect is rolled, it also yields a radstag hide.</p>",
     "/items/@RBehOFZPu_8z31DX/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead radstag with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 2CD portions of radstag meat.&nbsp;</span> If an Effect is rolled, it also yields a radstag hide.</p>",
     "/flags/fallout2d20-compendium/source/language": "en",

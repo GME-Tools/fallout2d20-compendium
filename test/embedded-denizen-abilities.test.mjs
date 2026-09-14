@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
+import { denizenBodyParts } from "../scripts/lib/denizen-resistance.mjs";
 
 const MODULE_ID = "fallout2d20-compendium";
 
@@ -75,6 +76,11 @@ test("native denizen immunities, matching abilities, and structured loot stay al
   for (const language of ["en", "fr"]) for (const actor of await actors(language)) {
     assert.equal(typeof actor.system.immunities.poison, "boolean", `${language}/${actor.name}: poison immunity`);
     assert.equal(typeof actor.system.immunities.radiation, "boolean", `${language}/${actor.name}: radiation immunity`);
+    for (const type of ["poison", "radiation"]) assert.equal(
+      actor.system.resistance[type].locations === "Immune",
+      actor.system.immunities[type],
+      `${language}/${actor.name}: ${type} resistance and native immunity`,
+    );
     assert.equal(actor.items.some(item => /^(?:Butchery|Salvage|Dépeçage|Récupération)$/i.test(item.name)), false, `${language}/${actor.name}: loot pseudo-item`);
     const radiationAbilities = actor.items.filter(item => /^(?:Immune to Radiation|Immunisé(?:e)? contre les radiations)$/i.test(item.name));
     const poisonAbilities = actor.items.filter(item => /^(?:Immune to Poison|Immunisé(?:e)? contre le poison)$/i.test(item.name));
@@ -93,4 +99,16 @@ test("native denizen immunities, matching abilities, and structured loot stay al
   assert.ok(bloodbug.items.some(item => item.name === "Immune to Poison"));
   assert.equal(bloodbug.system.butchery.tn, 0);
   assert.deepEqual(bloodbug.items.filter(item => item.system.butchery).map(item => item.name).sort(), ["Blood Sac", "Bloodbug Meat"]);
+});
+
+test("denizen damage resistances are materialized on every native body part", async () => {
+  for (const language of ["en", "fr"]) for (const actor of await actors(language)) {
+    const actual = Object.fromEntries(Object.entries(actor.system.body_parts)
+      .map(([part, data]) => [part, { resistance: data.resistance }]));
+    assert.deepEqual(
+      actual,
+      denizenBodyParts(actor.system.resistance),
+      `${language}/${actor.name}: body-part damage resistances`,
+    );
+  }
 });

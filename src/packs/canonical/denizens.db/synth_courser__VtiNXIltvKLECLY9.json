@@ -100,7 +100,7 @@
         "locations": "4 (Arms, Legs Torso); 2 (Head)"
       },
       "energy": {
-        "locations": "4 (Arms, Legs Torso); 2 (Head)"
+        "locations": "5 (Arms, Legs, Torso); 2 (Head)"
       },
       "radiation": {
         "locations": "Immune"
@@ -150,6 +150,56 @@
     "immunities": {
       "poison": true,
       "radiation": true
+    },
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0,
+          "poison": 0
+        }
+      }
     }
   },
   "ownership": {

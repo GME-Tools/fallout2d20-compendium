@@ -273,6 +273,25 @@
         "/flags/fallout2d20-compendium/canonicalItemId": "PCTsMsjBtQzvc1aD",
         "/flags/fallout2d20-compendium/embeddedYield": true
       }
+    },
+    {
+      "_id": "AdSagy_ql0urDrRi",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "fallout2d20-compendium": {}
+      },
+      "system": {
+        "favorite": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
     }
   ],
   "effects": [],
@@ -375,13 +394,63 @@
     "bodyType": "quadruped",
     "immunities": {
       "poison": false,
-      "radiation": false
+      "radiation": true
     },
     "butchery": {
       "common": 0,
       "uncommon": 0,
       "rare": 0,
       "tn": 0
+    },
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0,
+          "poison": 0
+        }
+      }
     }
   },
   "ownership": {

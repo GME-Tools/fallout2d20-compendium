@@ -2,6 +2,8 @@
   "_key": "!actors!d80SO0kdSMw8IESo",
   "_file": "radcerf__d80SO0kdSMw8IESo.json",
   "values": {
+    "/items/@AdSagy_ql0urDrRi/name": "Immunisé contre les radiations",
+    "/items/@AdSagy_ql0urDrRi/system/description": "<p>Le radcerf réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
     "/items/@huL6tyJgQPr4frCv/system/weight": 0,
     "/items/@huL6tyJgQPr4frCv/name": "Bois",
     "/items/@TnHoyY0l9qqsR1r4/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un radcerf mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 2 DC portions de viande de radcerf ; un Effet fournit aussi 1 peau de radcerf.</p>",

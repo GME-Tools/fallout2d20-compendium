@@ -355,11 +355,11 @@
       },
       "radiation": {
         "value": 0,
-        "locations": "Immune"
+        "locations": "0"
       },
       "poison": {
         "value": 0,
-        "locations": "Immune"
+        "locations": "0"
       }
     },
     "locations": [],
@@ -370,6 +370,56 @@
     "immunities": {
       "poison": false,
       "radiation": false
+    },
+    "body_parts": {
+      "head": {
+        "resistance": {
+          "physical": 1,
+          "energy": 3,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "torso": {
+        "resistance": {
+          "physical": 1,
+          "energy": 3,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armL": {
+        "resistance": {
+          "physical": 1,
+          "energy": 3,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "armR": {
+        "resistance": {
+          "physical": 1,
+          "energy": 3,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legL": {
+        "resistance": {
+          "physical": 1,
+          "energy": 3,
+          "radiation": 0,
+          "poison": 0
+        }
+      },
+      "legR": {
+        "resistance": {
+          "physical": 1,
+          "energy": 3,
+          "radiation": 0,
+          "poison": 0
+        }
+      }
     }
   },
   "ownership": {
