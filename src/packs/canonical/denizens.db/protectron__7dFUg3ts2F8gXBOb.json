@@ -859,6 +859,61 @@
       }
     },
     {
+      "_id": "ProtFireHazard01",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Protectron.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 340000,
+      "flags": { "fallout2d20-compendium": { "protectronPersonality": "fireBrigadier" } },
+      "system": { "favorite": false, "source": "core_rulebook" },
+      "ownership": { "default": 0, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "ProtHolsterWeap1",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Protectron.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 341000,
+      "flags": { "fallout2d20-compendium": { "protectronPersonality": "lawEnforcement" } },
+      "system": { "favorite": false, "source": "core_rulebook" },
+      "ownership": { "default": 0, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "ProtHealthSafe01",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Protectron.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 342000,
+      "flags": { "fallout2d20-compendium": { "protectronPersonality": "constructionWorker" } },
+      "system": { "favorite": false, "source": "core_rulebook" },
+      "ownership": { "default": 0, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "ProtDefibrillat1",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Protectron.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 343000,
+      "flags": { "fallout2d20-compendium": { "protectronPersonality": "medicalResponder" } },
+      "system": { "favorite": false, "source": "core_rulebook" },
+      "ownership": { "default": 0, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "ProtSubwayToken1",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Protectron.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 344000,
+      "flags": { "fallout2d20-compendium": { "protectronPersonality": "subwaySteward" } },
+      "system": { "favorite": false, "source": "core_rulebook" },
+      "ownership": { "default": 0, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
       "_id": "xv8x0emozn3FsSVX",
       "type": "special_ability",
       "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/immune-to-radiation.webp",

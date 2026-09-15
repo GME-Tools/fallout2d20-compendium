@@ -211,7 +211,7 @@
           }
         },
         "range": "close",
-        "fireRate": 3,
+        "fireRate": 0,
         "condition": "",
         "mods": {
           "max": 0,
@@ -398,6 +398,58 @@
         "value": 1,
         "tag": false,
         "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "AdvJosephSneak01",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.HEegw2EUmmEzfdDM"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "agi",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "AdvJosephThrow02",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.UQ4TLtVUR2kRlYkb"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": false,
+        "defaultAttribute": "agi",
         "summary": ""
       },
       "ownership": {

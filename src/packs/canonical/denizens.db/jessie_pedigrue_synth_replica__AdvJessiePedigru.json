@@ -392,6 +392,58 @@
       }
     },
     {
+      "_id": "AdvJessieAthl002",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.F4uIprrKWh9ApMaU"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": false,
+        "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "AdvJessieSurv001",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "end",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
       "_id": "O0GOoAmCfcN8pf1i",
       "type": "weapon",
       "img": "modules/fallout2d20-compendium/artwork/Weapons/Unarmmed%20Strike.webp",
@@ -419,7 +471,7 @@
         "attribute": "",
         "skill": "",
         "damage": {
-          "rating": 3,
+          "rating": 2,
           "damageType": {
             "physical": true,
             "energy": false,
@@ -877,10 +929,10 @@
         "weaponType": "meleeWeapons",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "str",
+        "skill": "meleeWeapons",
         "damage": {
-          "rating": 5,
+          "rating": 6,
           "damageType": {
             "physical": false,
             "energy": true,
@@ -921,7 +973,7 @@
             },
             "stun": {
               "label": "Stun",
-              "value": false,
+              "value": true,
               "description": ""
             },
             "vicious": {
@@ -1013,7 +1065,7 @@
             }
           }
         },
-        "range": "close",
+        "range": "",
         "fireRate": 0,
         "condition": "",
         "mods": {

@@ -250,31 +250,26 @@
       }
     },
     {
-      "_id": "5E0gX9tLsT42difi",
-      "type": "consumable",
-      "img": "systems/fallout/assets/icons/items/consumable.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {
-        "fallout2d20-compendium": {
-          "embeddedYield": true
-        }
+      "$ref": {
+        "pack": "consumables",
+        "id": "7MwNIxhzzbQUGbX4"
       },
-      "system": {
-        "effect": "",
-        "favorite": false,
-        "cost": 0,
-        "quantity": 1,
-        "quantityRoll": "1",
-        "rarity": 0,
-        "stashed": false,
-        "butchery": true,
-        "consumableType": "food",
-        "source": "core_rulebook"
-      },
-      "ownership": {
-        "default": 0
+      "$overrides": {
+        "/_id": "5E0gX9tLsT42difi",
+        "/_key": {
+          "$delete": true
+        },
+        "/folder": null,
+        "/sort": 0,
+        "/system/quantity": 1,
+        "/system/quantityRoll": "1",
+        "/system/butchery": true,
+        "/flags/fallout2d20-compendium/source": {
+          "$delete": true
+        },
+        "/flags/fallout2d20-compendium/canonicalPack": "consumables",
+        "/flags/fallout2d20-compendium/canonicalItemId": "7MwNIxhzzbQUGbX4",
+        "/flags/fallout2d20-compendium/embeddedYield": true
       }
     }
   ],

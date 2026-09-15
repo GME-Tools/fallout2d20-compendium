@@ -10,6 +10,8 @@
     "/items/@QyX6yyrRO0FUuIeB/name": "Agressif",
     "/items/@tt1pkDcDfXDkfzoz/system/description": "<p>Cette créature est dépourvue d’intelligence et guidée uniquement par ses instincts sauvages. Elle ne peut pas être persuadée ou influencée par des tests de Discours. Elle se déplace vers l’ennemi le plus proche et l’attaque. Si elle ne détecte aucun ennemi, elle se dirige vers la source de lumière vive ou de bruit intense la plus proche. À défaut, elle se déplace au hasard ou reste sans rien faire.</p>",
     "/items/@tt1pkDcDfXDkfzoz/name": "Sauvage",
+    "/items/@JvLBQgLpnSnux11y/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
+    "/items/@JvLBQgLpnSnux11y/name": "Immunisé contre les radiations",
     "/items/@WESgdsbhO_qx7QM2/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un chien bâtard mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de chien bâtard.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "RgzuubSvRJM2wqI6",

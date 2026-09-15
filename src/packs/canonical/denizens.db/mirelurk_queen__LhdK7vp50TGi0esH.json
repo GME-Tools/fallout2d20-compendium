@@ -412,7 +412,7 @@
           "damageType": {
             "physical": false,
             "energy": false,
-            "radiation": true,
+            "radiation": false,
             "poison": true
           },
           "damageEffect": {

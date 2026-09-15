@@ -51,7 +51,7 @@ test("embedded denizen artwork resolves after removing the standalone pack", asy
 });
 
 test("the Institute Scientist still embeds the canonical apparel Lab Coat", async () => {
-  for (const [language, actorFile] of [["en", "institue_scientist__vmToJt8w8NC99QzD.json"], ["fr", "scientifique_de_l_institut__vmToJt8w8NC99QzD.json"]]) {
+  for (const [language, actorFile] of [["en", "institute_scientist__vmToJt8w8NC99QzD.json"], ["fr", "scientifique_de_l_institut__vmToJt8w8NC99QzD.json"]]) {
     const actor = JSON.parse(await readFile(`generated/source-packs/${language}/denizens.db/${actorFile}`, "utf8"));
     const labCoat = actor.items.find(item => item._id === "dKl7LDRKWs55Nh69");
     assert.equal(labCoat.type, "apparel");
@@ -84,7 +84,8 @@ test("native denizen immunities, matching abilities, and structured loot stay al
     assert.equal(actor.items.some(item => /^(?:Butchery|Salvage|Dépeçage|Récupération)$/i.test(item.name)), false, `${language}/${actor.name}: loot pseudo-item`);
     const radiationAbilities = actor.items.filter(item => /^(?:Immune to Radiation|Immunisé(?:e)? contre les radiations)$/i.test(item.name));
     const poisonAbilities = actor.items.filter(item => /^(?:Immune to Poison|Immunisé(?:e)? contre le poison)$/i.test(item.name));
-    assert.equal(radiationAbilities.length, actor.system.immunities.radiation ? 1 : 0, `${language}/${actor.name}: radiation ability`);
+    const expectedRadiationAbilities = /^(?:Radstag|Radcerf)$/.test(actor.name) ? 0 : (actor.system.immunities.radiation ? 1 : 0);
+    assert.equal(radiationAbilities.length, expectedRadiationAbilities, `${language}/${actor.name}: radiation ability`);
     assert.equal(poisonAbilities.length, actor.system.immunities.poison ? 1 : 0, `${language}/${actor.name}: poison ability`);
     for (const item of actor.items.filter(item => item.flags?.[MODULE_ID]?.embeddedYield)) {
       assert.match(item.system.quantityRoll, /^(?:\d+|\d+d20|\d+dc)$/i, `${language}/${actor.name}/${item.name}: rollable yield`);

@@ -75,9 +75,9 @@
     "description": "",
     "trait": "",
     "health": {
-      "value": 15,
+      "value": 16,
       "min": 0,
-      "max": 15,
+      "max": 16,
       "mod": 0
     },
     "defense": {
@@ -113,7 +113,7 @@
       "value": 0,
       "mod": 0
     },
-    "luckPoints": 2,
+    "luckPoints": 3,
     "conditions": {
       "hunger": 0,
       "thirst": 0,
@@ -125,22 +125,22 @@
         "value": 6
       },
       "per": {
-        "value": 7
+        "value": 8
       },
       "end": {
         "value": 5
       },
       "cha": {
-        "value": 5
+        "value": 7
       },
       "int": {
         "value": 7
       },
       "agi": {
-        "value": 6
+        "value": 7
       },
       "luc": {
-        "value": 4
+        "value": 5
       }
     },
     "injuries": "",
@@ -235,7 +235,7 @@
         "favorite": false,
         "value": 3,
         "tag": true,
-        "defaultAttribute": "per",
+        "defaultAttribute": "end",
         "summary": ""
       },
       "ownership": {
@@ -402,7 +402,7 @@
         "attribute": "body",
         "skill": "melee",
         "damage": {
-          "rating": 3,
+          "rating": 2,
           "damageType": {
             "physical": true,
             "energy": false,
@@ -535,7 +535,7 @@
             }
           }
         },
-        "range": "close",
+        "range": "",
         "fireRate": 0,
         "condition": "",
         "mods": {
@@ -711,7 +711,7 @@
             }
           }
         },
-        "range": "close",
+        "range": "",
         "fireRate": 0,
         "condition": "",
         "mods": {
@@ -751,8 +751,8 @@
         "weaponType": "energyWeapons",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "end",
+        "skill": "bigGuns",
         "damage": {
           "rating": 3,
           "damageType": {

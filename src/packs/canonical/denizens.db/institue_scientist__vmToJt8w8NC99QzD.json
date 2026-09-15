@@ -3,7 +3,7 @@
   "type": "npc",
   "img": "modules/fallout2d20-compendium/artwork/Creatures/Institute Scientist.webp",
   "token": {
-    "name": "Institue Scientist",
+    "name": "Institute Scientist",
     "img": "modules/fallout2d20-compendium/artwork/Creatures/Institute%20Scientist.webp",
     "displayName": 20,
     "actorLink": false,

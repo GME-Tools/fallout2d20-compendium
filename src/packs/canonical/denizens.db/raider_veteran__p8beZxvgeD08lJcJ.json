@@ -1082,7 +1082,7 @@
     "health": {
       "value": 21,
       "min": 0,
-      "max": 12,
+      "max": 21,
       "mod": 0
     },
     "defense": {

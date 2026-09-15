@@ -213,7 +213,7 @@
           }
         },
         "range": "close",
-        "fireRate": 3,
+        "fireRate": 0,
         "condition": "",
         "mods": {
           "max": 0,
@@ -488,7 +488,7 @@
         "attribute": "str",
         "skill": "meleeWeapons",
         "damage": {
-          "rating": 4,
+          "rating": 3,
           "damageType": {
             "physical": true,
             "energy": false,
@@ -871,7 +871,7 @@
       }
     },
     "meleeDamage": {
-      "base": 1,
+      "base": 0,
       "value": 0,
       "mod": 0
     },

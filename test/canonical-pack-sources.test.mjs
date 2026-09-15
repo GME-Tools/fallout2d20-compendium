@@ -49,7 +49,7 @@ test("canonical sources contain only language-neutral pack references", async ()
     assert.doesNotMatch(text, /Compendium\.fallout2d20-compendium\.(?:en|fr)-/, file);
     references += (text.match(/"\$ref"/g) ?? []).length;
   }
-  assert.equal(references, 447);
+  assert.equal(references, 448);
 });
 
 test("embedded document overlays target stable identities instead of array positions", () => {

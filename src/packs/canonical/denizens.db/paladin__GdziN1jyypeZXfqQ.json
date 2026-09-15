@@ -602,7 +602,7 @@
         "mods": {
           "max": 5,
           "current": 0,
-          "list": "<p><span class=\"fontstyle0\">A laser musket can accept one each of the following mods:</span> </p>\n<p><span class=\"fontstyle0\"><strong>Capacitor:</strong> @Compendium[fallout2d20-compendium.weapon-mods.lFsiNavPBMySy8aC]{Three-Crank Capacitor}</span>, @Compendium[fallout2d20-compendium.weapon-mods.5ec9hyRDheaj7XBr]{Four-Crank Capacitor}<span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.aU7O4Z0LZlfkQySH]{Five-Crank Capacitor}, @Compendium[fallout2d20-compendium.weapon-mods.KAB50kt6NdZERpb6]{Six-Crank Capacitor}</span></p>\n<p><strong><span class=\"fontstyle3\">Barrel:</span></strong> <span class=\"fontstyle3\">@Compendium[fallout2d20-compendium.weapon-mods.6py6TtlkeywhWQl1]{Long Barrel}, @Compendium[fallout2d20-compendium.weapon-mods.ixQH2KupAncBBDnJ]{Bracketed Short Barrel}</span>, @Compendium[fallout2d20-compendium.weapon-mods.EAlWnJTq1UhpNQ7n]{Bracketed Long Barrel}</p>\n<p><span class=\"fontstyle3\"><strong>Stock:</strong> @Compendium[fallout2d20-compendium.weapon-mods.ryaBZCITyZP3DoOP]{Full Stock}</span></p>\n<p><span class=\"fontstyle3\"><strong>Sights:</strong> @Compendium[fallout2d20-compendium.weapon-mods.WZAnlfreDNUAaX4Y]{Reflex Sight}, @Compendium[fallout2d20-compendium.weapon-mods.9IW2T8sgBoIzzxn8]{Short Scope}, @Compendium[fallout2d20-compendium.weapon-mods.0mBcFGCDPdhVRPsP]{Long Scope}, @Compendium[fallout2d20-compendium.weapon-mods.aQLTpQYLnuRen9xP]{Short Night Vision Scope}, @Compendium[fallout2d20-compendium.weapon-mods.HXoyLcCUhPOtbnse]{Long Night Vision Scope}, @Compendium[fallout2d20-compendium.weapon-mods.K8ZOSxg9heUurjsM]{Recon Scope}</span></p>\n<p><strong><span class=\"fontstyle3\">Muzzle: </span></strong><span class=\"fontstyle3\">@Compendium[fallout2d20-compendium.weapon-mods.yUZZMAoSuAyyyryF]{Beam Splitter Muzzle}</span>, @Compendium[fallout2d20-compendium.weapon-mods.iBg22gDv2OpisVJc]{Beam Focuser Muzzle}, @Compendium[fallout2d20-compendium.weapon-mods.4WQWCeA24aFZBsd3]{Gyro Compensating Lens}</p>"
+          "list": "<p><strong>Capacitor:</strong> Photon Exciter, Beta Wave Tuner, Boosted Capacitor, Photon Agitator<br><strong>Barrel:</strong> Long Barrel, Automatic Barrel, Sniper Barrel, Improved Barrel<br><strong>Grip:</strong> Sharpshooter's Grip<br><strong>Stock:</strong> Standard Stock, Marksman's Stock, Recoil Compensating Stock<br><strong>Sights:</strong> Reflex Sight, Short Scope, Long Scope, Short Night Vision Scope, Long Night Vision Scope, Recon Scope<br><strong>Muzzle:</strong> Beam Splitter, Beam Focuser, Gyro Compensating Lens</p>"
         }
       },
       "ownership": {
@@ -708,6 +708,16 @@
       "sourceId": "Actor.7TeZgMVPYOtTjglG"
     },
     "fallout2d20-compendium": {
+      "powerArmorProfile": {
+        "personalStrength": 7,
+        "armorStrength": 11,
+        "locationHealth": {
+          "arms": 10,
+          "head": 10,
+          "legs": 10,
+          "torso": 17
+        }
+      },
       "source": {
         "book": "core_rulebook",
         "importedFromLegacy": true,

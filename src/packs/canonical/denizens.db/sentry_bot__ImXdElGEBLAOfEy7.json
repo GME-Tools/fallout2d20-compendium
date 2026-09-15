@@ -321,7 +321,7 @@
           "damageEffect": {
             "burst": {
               "label": "Burst",
-              "value": false,
+              "value": true,
               "description": ""
             },
             "breaking": {
@@ -369,7 +369,7 @@
             },
             "blast": {
               "label": "Blast",
-              "value": true,
+              "value": false,
               "description": ""
             },
             "closeQuarters": {
@@ -654,7 +654,7 @@
             },
             "twoHanded": {
               "label": "Two-Handed",
-              "value": true,
+              "value": false,
               "description": ""
             },
             "unreliable": {
@@ -753,7 +753,7 @@
             },
             "vicious": {
               "label": "Vicious",
-              "value": true,
+              "value": false,
               "description": ""
             }
           },
@@ -929,7 +929,7 @@
             },
             "vicious": {
               "label": "Vicious",
-              "value": true,
+              "value": false,
               "description": ""
             }
           },

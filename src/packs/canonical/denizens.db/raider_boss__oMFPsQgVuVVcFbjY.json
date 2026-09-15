@@ -737,7 +737,7 @@
         "weaponType": "smallGuns",
         "ammo": ".308 Rounds",
         "ammoPerShot": 1,
-        "attribute": "per",
+        "attribute": "agi",
         "skill": "smallGuns",
         "damage": {
           "rating": 6,

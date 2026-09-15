@@ -2,6 +2,7 @@ import { COMPATIBILITY } from "./compatibility.mjs";
 
 const MODULE_ID = "fallout2d20-compendium";
 const PATCHED = Symbol.for(`${MODULE_ID}.frenchWeightRuntimePatched`);
+const FIXED_TN_PATCHED = Symbol.for(`${MODULE_ID}.fixedTargetNumberRuntimePatched`);
 const SUPPORTED_FALLOUT_MAJORS = new Set([COMPATIBILITY.fallout.major]);
 
 export function isFrenchModuleDocument(document) {
@@ -15,6 +16,24 @@ export function usesExactKilograms(document) {
 
 export function configuredKilogramBase(value) {
   return game.settings.get("fallout", "carryUnit") === "kgs" ? number(value) : number(value) / 2;
+}
+
+export function applyFixedTargetNumber(options) {
+  const fixedTargetNumber = Number(options?.item?.flags?.[MODULE_ID]?.fixedTargetNumber);
+  if (!Number.isFinite(fixedTargetNumber)) return options;
+  return { ...options, attribute: fixedTargetNumber, skill: 0, tag: true };
+}
+
+export function installFixedTargetNumberRuntime() {
+  const dialog = globalThis.fallout?.Dialog2d20;
+  if (!dialog || dialog[FIXED_TN_PATCHED] || typeof dialog.createDialog !== "function") return false;
+  const createDialog = dialog.createDialog;
+  dialog.createDialog = function (options) {
+    return createDialog.call(this, applyFixedTargetNumber(options));
+  };
+  Object.defineProperty(dialog, FIXED_TN_PATCHED, { value: true });
+  console.info(`${MODULE_ID} | Installed fixed creature attack target-number support.`);
+  return true;
 }
 
 function number(value) {
@@ -149,10 +168,12 @@ export async function preserveAmmunitionSelection(app, html) {
 
 async function stabilizeAmmunitionConfiguration() {
   installFrenchWeightRuntime();
+  installFixedTargetNumberRuntime();
   await restoreAmmunitionConfiguration();
 }
 
 Hooks.on("renderItemSheet", preserveAmmunitionSelection);
 Hooks.once("init", installFrenchWeightRuntime);
+Hooks.once("init", installFixedTargetNumberRuntime);
 if (globalThis.game?.ready) stabilizeAmmunitionConfiguration();
 else Hooks.once("ready", stabilizeAmmunitionConfiguration);

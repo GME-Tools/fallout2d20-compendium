@@ -224,6 +224,9 @@
       "flags": {
         "core": {
           "sourceId": "Item.aSM423jHNM9YfUdZ"
+        },
+        "fallout2d20-compendium": {
+          "fixedTargetNumber": 12
         }
       },
       "_id": "QU6zi4YKjhAkVR9g",

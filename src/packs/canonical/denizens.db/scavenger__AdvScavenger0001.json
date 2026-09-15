@@ -211,7 +211,7 @@
           }
         },
         "range": "close",
-        "fireRate": 3,
+        "fireRate": 0,
         "condition": "",
         "mods": {
           "max": 0,

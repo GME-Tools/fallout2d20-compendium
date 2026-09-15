@@ -381,6 +381,42 @@
       }
     },
     {
+      "_id": "AdvChiefBarter01",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [], "folder": null, "sort": 0,
+      "flags": { "core": { "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.vf1Qszkq1om2Xgmn" } },
+      "system": { "description": "", "favorite": false, "value": 1, "tag": false, "defaultAttribute": "cha", "summary": "" },
+      "ownership": { "default": 0, "U6A1xCj2ogp2gdEu": 3, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "AdvChiefExplos01",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [], "folder": null, "sort": 0,
+      "flags": { "core": { "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.ejKiqeUyjkahCjQf" } },
+      "system": { "description": "", "favorite": false, "value": 1, "tag": false, "defaultAttribute": "per", "summary": "" },
+      "ownership": { "default": 0, "U6A1xCj2ogp2gdEu": 3, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "AdvChiefSneak001",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [], "folder": null, "sort": 0,
+      "flags": { "core": { "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.HEegw2EUmmEzfdDM" } },
+      "system": { "description": "", "favorite": false, "value": 1, "tag": false, "defaultAttribute": "agi", "summary": "" },
+      "ownership": { "default": 0, "U6A1xCj2ogp2gdEu": 3, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
+      "_id": "AdvChiefSurviv01",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [], "folder": null, "sort": 0,
+      "flags": { "core": { "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ" } },
+      "system": { "description": "", "favorite": false, "value": 1, "tag": false, "defaultAttribute": "end", "summary": "" },
+      "ownership": { "default": 0, "U6A1xCj2ogp2gdEu": 3, "I8FU1gA0rIKN7NHn": 3 }
+    },
+    {
       "_id": "Obo2f509R1akLpHQ",
       "type": "weapon",
       "img": "modules/fallout2d20-compendium/artwork/Weapons/Institute_pistol_Fallout4_.webp",
@@ -454,7 +490,7 @@
             },
             "vicious": {
               "label": "Vicious",
-              "value": true,
+              "value": false,
               "description": ""
             }
           },

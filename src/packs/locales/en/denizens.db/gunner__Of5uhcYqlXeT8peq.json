@@ -19,7 +19,7 @@
     "/items/@5aU2ljXb0wjpSDE0/name": "Laser Gun",
     "/items/@u2F3NNFOROblai3i/system/description": "<p><span class=\"fontstyle0\">A pre-War weapon found across the wastelands and used in large numbers by various aggressive factions. Combat Rifles are a rugged and adaptable design, able to be modified to fill a variety of different battlefield roles.</span></p>",
     "/items/@u2F3NNFOROblai3i/system/weight": "11",
-    "/items/@u2F3NNFOROblai3i/name": "Combat Rilfe",
+    "/items/@u2F3NNFOROblai3i/name": "Combat Rifle",
     "/items/@J2arm92fn6HiVF5w/system/description": "<p>Once per combat, the gunner may &lsquo;let rip&rsquo; with a volley from their&nbsp; <span class=\"fontstyle0\">Combat Rifle or Laser Gun.</span> This adds the weapon&rsquo;s Fire Rate of 2 to the weapon&rsquo;s damage for a single attack (for 7 CD total).</p>",
     "/items/@J2arm92fn6HiVF5w/name": "Let Rip",
     "/flags/fallout2d20-compendium/source/language": "en",

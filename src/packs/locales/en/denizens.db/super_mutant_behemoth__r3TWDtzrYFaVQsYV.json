@@ -15,8 +15,6 @@
     "/items/@u4kCx43vnwzUaxhl/system/weight": "0",
     "/items/@u4kCx43vnwzUaxhl/system/effect": "<p><span class=\"fontstyle0\">Upon the behemoth&rsquo;s death the players can find several items and caps among its body. Roll 3d20 for the number of caps that can be found, and 4 CD</span><span class=\"fontstyle2\" style=\"color: #fde635;\">&nbsp;</span><span class=\"fontstyle0\">for the number of junk items found. The body may also contain up to two weapons, and 2d20 rounds of ammunition appropriate to the weapons found, at the GM's discretion.</span></p>",
     "/items/@u4kCx43vnwzUaxhl/name": "Scavenging",
-    "/items/@B1PLhInxM50tm6hC/system/description": "<p><span class=\"fontstyle0\">+2 to Physical and Energy damage resistances (included).</span></p>",
-    "/items/@B1PLhInxM50tm6hC/name": "Barbarian",
     "/items/@xv8x0emozn3FsSVX/system/description": "<p>The behemoth reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
     "/items/@xv8x0emozn3FsSVX/name": "Immune to Radiation",
     "/flags/fallout2d20-compendium/source/language": "en",

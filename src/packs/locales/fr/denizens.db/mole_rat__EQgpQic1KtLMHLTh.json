@@ -6,7 +6,7 @@
     "/items/@QU6zi4YKjhAkVR9g/name": "Morsure",
     "/items/@ddLAlaAuDuJb6RcX/system/description": "<p>Par une action majeure, le rat-taupe s’enfouit. À son tour suivant, il peut employer une action mineure pour réapparaître n’importe où à portée Moyenne de son point de départ. En dépensant 1 PA, il ajoute aussi +1 DC à sa Morsure après avoir émergé.</p>",
     "/items/@ddLAlaAuDuJb6RcX/name": "Fouissage",
-    "/items/@Ot7ai0CWXOsUM8sU/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>",
+    "/items/@Ot7ai0CWXOsUM8sU/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0. Cela inclut la détection de la présence de créatures à la surface lorsqu’elle est enfouie.</p>",
     "/items/@Ot7ai0CWXOsUM8sU/name": "Sens aiguisés",
     "/items/@3CwnnaTQH7pEkSv8/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un rat-taupe mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de rat-taupe et 1 matériau commun.</p>",
     "/items/@JvLBQgLpnSnux11y/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",

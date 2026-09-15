@@ -500,7 +500,7 @@
         "description": "",
         "favorite": false,
         "value": 3,
-        "tag": true,
+        "tag": false,
         "defaultAttribute": "agi",
         "summary": ""
       },

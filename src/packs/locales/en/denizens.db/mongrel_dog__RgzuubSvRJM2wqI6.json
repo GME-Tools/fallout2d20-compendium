@@ -10,6 +10,8 @@
     "/items/@QyX6yyrRO0FUuIeB/name": "Aggressive",
     "/items/@tt1pkDcDfXDkfzoz/system/description": "<p><span class=\"fontstyle0\">The feral mongrel dog is unintelligent, driven purely by feral instinct. Feral NPCs cannot be persuaded or influenced by Speech tests. Feral NPCs will move towards and attack the nearest enemy. If they cannot detect an enemy, they move towards the nearest source of bright light or loud noise. Failing that, they move around randomly or simply lie down and do nothing.&nbsp;</span></p>",
     "/items/@tt1pkDcDfXDkfzoz/name": "Feral",
+    "/items/@JvLBQgLpnSnux11y/system/description": "<p>The mongrel dog reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/@JvLBQgLpnSnux11y/name": "Immune to Radiation",
     "/items/@WESgdsbhO_qx7QM2/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead mongrel dog with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 1 portion of mongrel dog meat.</span></p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/origin": "Mutated Mammal",

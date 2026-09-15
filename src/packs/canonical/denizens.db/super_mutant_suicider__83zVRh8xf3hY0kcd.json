@@ -238,7 +238,7 @@
         "attribute": "",
         "skill": "",
         "damage": {
-          "rating": 3,
+          "rating": 4,
           "damageType": {
             "physical": true,
             "energy": false,
@@ -784,7 +784,7 @@
         "weaponType": "smallGuns",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "per",
+        "attribute": "agi",
         "skill": "smallGuns",
         "damage": {
           "rating": 5,
@@ -915,7 +915,7 @@
             },
             "unreliable": {
               "label": "Unreliable",
-              "value": false,
+              "value": true,
               "description": ""
             }
           }

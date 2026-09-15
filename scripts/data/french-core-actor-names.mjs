@@ -13,3 +13,5 @@ export const FRENCH_CORE_ACTOR_NAMES={
   "Vault Dweller":"Habitant de l’Abri",Wastelander:"Habitant des Terres désolées",
   "Joseph, Ghoul":"Joseph, goule",Quartermaster:"Intendant",Scavenger:"Récupérateur","Synth Replica":"Copie synthétique","Jessie Pedigrue, Synth Replica":"Jessie Pedigrue, copie synthétique","Institute Compound Synth Strider":"Synthétique marcheur du complexe de l’Institut","Incomplete Synth":"Synthé incomplet","Chief Scientist":"Responsable scientifique","Synth Replicas (Doppelgangers)":"Copies synthétiques (sosies)"
 };
+delete FRENCH_CORE_ACTOR_NAMES["Institue Scientist"];
+FRENCH_CORE_ACTOR_NAMES["Institute Scientist"]="Scientifique de l’Institut";
