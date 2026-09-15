@@ -9,7 +9,7 @@
     "/items/@hCK8jEMYsHOrea8Q/system/description": "<p><span class=\"fontstyle0\">The hatchling can swim and submerge itself in water indefinitely without needing to come up for air. They suffer no difficulty increase for attacks or movements made while underwater.</span></p>",
     "/items/@hCK8jEMYsHOrea8Q/name": "Aquatic",
     "/items/@kXG_HbcHo3K09v39/$overrides/~1system~1description": "<p><span class=\"fontstyle0\">Scavengers can butcher a dead hatchling with a successful </span><span class=\"fontstyle2\"><strong>END + Survival</strong> </span><span class=\"fontstyle0\">test with a difficulty of 0. This yields 1 portion of mirelurk meat.</span></p>",
-    "/items/@5ElI3ZTBAPCwOcbw/system/description": "<p>The hatching reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
+    "/items/@5ElI3ZTBAPCwOcbw/system/description": "<p>The hatchling reduces all Radiation damage suffered to 0 and cannot suffer any damage or effects from radiation.</p>",
     "/items/@5ElI3ZTBAPCwOcbw/name": "Immune to Radiation",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/system/origin": "Mutated Crustacean",

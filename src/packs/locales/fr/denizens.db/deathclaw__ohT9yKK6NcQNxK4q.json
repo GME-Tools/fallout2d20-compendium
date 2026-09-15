@@ -14,7 +14,7 @@
     "/items/@Vr10Yf0TldyyAlYo/name": "Sens aiguisés",
     "/items/@vUX6N2MwruYRyQ4G/system/description": "<p>Un écorcheur peut augmenter de +1 la difficulté de son attaque de Griffes. En cas de réussite, ses dégâts augmentent de +2 DC.</p>",
     "/items/@vUX6N2MwruYRyQ4G/name": "Déchiquetage",
-    "/items/@I8ZNUnexMD6nOflP/system/description": "<p>Si un assaillant choisit de viser le torse de l’écorcheur, il ignore sa Résistance aux dégâts. Cela ne s’applique pas aux coups qui touchent cette localisation par hasard.</p>",
+    "/items/@I8ZNUnexMD6nOflP/system/description": "<p>Si un assaillant choisit de viser le buste de la créature, il ignore la RD de cette dernière. Cette capacité ne s’applique pas si l'attaque touche par hasard le buste.</p>",
     "/items/@I8ZNUnexMD6nOflP/name": "Point faible",
     "/items/@erHEWljg38uY3p9G/system/description": "<p>Un écorcheur peut soulever et lancer des objets aussi volumineux qu’une voiture ordinaire.</p>",
     "/items/@erHEWljg38uY3p9G/name": "Force extraordinaire",

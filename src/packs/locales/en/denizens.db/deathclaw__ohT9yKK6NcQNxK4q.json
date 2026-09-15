@@ -14,7 +14,7 @@
     "/items/@Vr10Yf0TldyyAlYo/name": "Keen Senses",
     "/items/@vUX6N2MwruYRyQ4G/system/description": "<p><span class=\"fontstyle0\">A deathclaw may choose to make a deadlier Claw attack by increasing the difficulty of the attack by +1. If it succeeds, the attack&rsquo;s damage increases by +2 C</span><span class=\"fontstyle2\">D.</span><br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>",
     "/items/@vUX6N2MwruYRyQ4G/name": "Rend",
-    "/items/@I8ZNUnexMD6nOflP/system/description": "<p><span class=\"fontstyle0\">If an attacker chooses to target the deathclaw&rsquo;s torso, it ignores the creature&rsquo;s DR. This does not apply against hits which hit the head due to random chance.</span></p>",
+    "/items/@I8ZNUnexMD6nOflP/system/description": "<p><span class=\"fontstyle0\">If an attacker chooses to target the deathclaw&rsquo;s torso, it ignores the creature&rsquo;s DR. This does not apply against hits which hit the torso due to random chance.</span></p>",
     "/items/@I8ZNUnexMD6nOflP/name": "Weak Spot",
     "/items/@erHEWljg38uY3p9G/system/description": "<p><span class=\"fontstyle0\">A deathclaw is capable of lifting and throwing objects as large as a standard car.</span></p>",
     "/items/@erHEWljg38uY3p9G/name": "Massive Strength",
