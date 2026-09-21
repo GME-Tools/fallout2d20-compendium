@@ -5,7 +5,7 @@
   contracts and transient qualification reports have been removed.
 - Current milestone: post-V1.2.0 remediation of Astoundingly Awesome Tales
   issues 1–7, US-401.
-- Qualified matrix at V1.1.2: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
+- Qualified matrix at V1.2.0: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
 - The latest and prior compatibility pairs coincide; the disposable-world
   browser suite passed all 42 table draws,
   imports, sheets, embedded Items, drag/drop and UUID resolution.
