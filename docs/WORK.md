@@ -30,36 +30,42 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–41, through printed/source page 39.
-- FR PDF physical pages 1–42, through printed/source page 39.
+- EN PDF physical pages 1–51, through printed/source page 49.
+- FR PDF physical pages 1–52, through printed/source page 49.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
-  Rules / Règles du jeu), and Chapter Two (Combat).
+  Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through
+  Character Advancement (source pp.42–49).
 - Verified in-scope documents in this range: the three p.28 hit-location RollTables
-  (standard, quadruped, flying insect).
+  and all 17 Core Skill Items (source pp.44–47).
 - Static rules summaries/reference tables and general rules prose in this range are
   explicitly out of scope in the catalog.
 - Errata reviewed in this range: p.20 Luck wording (Q3 2026), p.28 quadruped/flying
-  insect hit locations, and p.29 Random Quantities.
+  insect hit locations, p.29 Random Quantities, and the p.44 Skills Summary Gauss
+  correction.
+- Skill provenance pages were tightened from the old generic `44-46` range to each
+  detailed skill's actual source page.
+- Corrected the French Energy Weapons description: the earlier integration had
+  over-applied the p.44 Skills Summary errata and removed the official French
+  detailed-text references to Gauss weapons. The errata only removes Gauss from the
+  summary table; the canonical EN detailed description still includes them.
 - The official FR p.28 flying-insect table combines 15–20 as `Pattes`; canonical
   EN + Errata retains 15–17 and 18–20 as two rows. The FR overlay correctly
   localizes both canonical rows to `Pattes`.
 
 ## Next lot
 
-Continue with Chapter Three — Character Creation, beginning at printed/source page
-42. Audit in reasonable sub-sections rather than treating the current catalogs as
-proof. The first useful sub-lot is S.P.E.C.I.A.L., Skills and derived statistics,
-including the p.44 Gauss/skill errata.
+Continue Chapter Three — Character Creation at printed/source page 50. The next
+editorial sub-lot is Creating a Character and Step 1: Choose Your Origin
+(source pp.50–58), including the p.57 Vault Kid errata.
 
 Known later Core suspects to re-check against source rather than assume true:
 
-- Energy Weapons wording and Gauss weapons versus Errata V6.
 - Boosted Capacitor cost.
 - `Capactor Boosting Coil` / `Capacitor Boosting Coil` duplicate.
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–39
+There are no unresolved anomalies or owner decisions in the completed p.1–49
 boundary.
 
 ## Validation

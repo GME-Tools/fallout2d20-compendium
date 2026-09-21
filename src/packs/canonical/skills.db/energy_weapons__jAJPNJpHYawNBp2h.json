@@ -17,7 +17,7 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "page": "44-46",
+        "page": 45,
         "errataReviewed": true,
         "errata": [
           "2022-09-06"

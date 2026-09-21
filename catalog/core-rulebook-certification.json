@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 41,
-      "sourcePage": 39
+      "pdfPage": 51,
+      "sourcePage": 49
     },
     "fr": {
-      "pdfPage": 42,
-      "sourcePage": 39
+      "pdfPage": 52,
+      "sourcePage": 49
     }
   },
   "pageReviews": [
@@ -680,6 +680,166 @@
       "section": "Chapter Two — Combat",
       "disposition": "no_in_scope_content",
       "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 42,
+      "sourcePage": null,
+      "section": "Chapter Three lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 43,
+      "sourcePage": null,
+      "section": "Chapter Three divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 44,
+      "sourcePage": 42,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 45,
+      "sourcePage": 43,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 46,
+      "sourcePage": 44,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 47,
+      "sourcePage": 45,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 48,
+      "sourcePage": 46,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 49,
+      "sourcePage": 47,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 50,
+      "sourcePage": 48,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 51,
+      "sourcePage": 49,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 43,
+      "sourcePage": null,
+      "section": "Chapter Three lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 44,
+      "sourcePage": null,
+      "section": "Chapter Three divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 45,
+      "sourcePage": 42,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 46,
+      "sourcePage": 43,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 47,
+      "sourcePage": 44,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 48,
+      "sourcePage": 45,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 49,
+      "sourcePage": 46,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 50,
+      "sourcePage": 47,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 51,
+      "sourcePage": 48,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 52,
+      "sourcePage": 49,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
     }
   ],
   "entries": [
@@ -955,6 +1115,421 @@
       },
       "scope": "out_of_scope",
       "justification": "Static rules examples, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 42,
+      "type": "rule_text",
+      "sourceName": "S.P.E.C.I.A.L. Attributes",
+      "localizedNames": {
+        "fr": "Attributs S.P.E.C.I.A.L."
+      },
+      "scope": "out_of_scope",
+      "justification": "Attribute definitions are general character rules and actor fields, not reusable standalone compendium documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourceSpan": "42-43"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 44,
+      "type": "reference_table",
+      "sourceName": "Skills Summary",
+      "localizedNames": {
+        "fr": "Résumé des compétences"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static summary table; the reusable Skill identities are certified separately as Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "6 September 2022: remove Gauss weapons from both Big Guns and Energy Weapons in the Skills Summary. The reviewed EN edition reflects this; the official FR table does not, so canonical summary mechanics follow the errata."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 44,
+      "type": "Item",
+      "sourceName": "Athletics",
+      "localizedNames": {
+        "fr": "Athlétisme"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "F4uIprrKWh9ApMaU",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "str",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 44,
+      "type": "Item",
+      "sourceName": "Barter",
+      "localizedNames": {
+        "fr": "Troc"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "vf1Qszkq1om2Xgmn",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "cha",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Big Guns",
+      "localizedNames": {
+        "fr": "Armes lourdes"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "p3GhRmIwrYTJmuhr",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "end",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Energy Weapons",
+      "localizedNames": {
+        "fr": "Armes à énergie"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "jAJPNJpHYawNBp2h",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "per",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Explosives",
+      "localizedNames": {
+        "fr": "Explosifs"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "ejKiqeUyjkahCjQf",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "per",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Lockpick",
+      "localizedNames": {
+        "fr": "Crochetage"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "SH09XavazYU9CqY4",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "per",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Medicine",
+      "localizedNames": {
+        "fr": "Médecine"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "UrVd0BmoXkAxmrvv",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "int",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Melee Weapons",
+      "localizedNames": {
+        "fr": "Armes de corps à corps"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "kCGaEuF27yXyE04i",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "str",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 45,
+      "type": "Item",
+      "sourceName": "Pilot",
+      "localizedNames": {
+        "fr": "Pilotage"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "PEN70F6ovA3g5HI2",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "per",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Repair",
+      "localizedNames": {
+        "fr": "Réparation"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "ZQw4TLZbaLm5F0BW",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "int",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Science",
+      "localizedNames": {
+        "fr": "Science"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "G3mN15diMiTCDZ0U",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "int",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Small Guns",
+      "localizedNames": {
+        "fr": "Armes légères"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "UZDBirrZeUxrAk7b",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "agi",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Sneak",
+      "localizedNames": {
+        "fr": "Discrétion"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "HEegw2EUmmEzfdDM",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "agi",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Speech",
+      "localizedNames": {
+        "fr": "Discours"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "dOTrlwZ60XWqegQA",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "cha",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Survival",
+      "localizedNames": {
+        "fr": "Survie"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "R8YnBNUwhZhG89iQ",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "end",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 46,
+      "type": "Item",
+      "sourceName": "Throwing",
+      "localizedNames": {
+        "fr": "Projectiles"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "UQ4TLtVUR2kRlYkb",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "agi",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 47,
+      "type": "Item",
+      "sourceName": "Unarmed",
+      "localizedNames": {
+        "fr": "Mains nues"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "5xAG0eRrcvDeJAFk",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "str",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 47,
+      "type": "rule_text",
+      "sourceName": "Tag Skills",
+      "localizedNames": {
+        "fr": "Atouts personnels"
+      },
+      "scope": "out_of_scope",
+      "justification": "General skill-test rule; tag state is represented on Actors/embedded skills rather than as a standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 47,
+      "type": "rule_text",
+      "sourceName": "Derived Statistics",
+      "localizedNames": {
+        "fr": "Statistiques dérivées"
+      },
+      "scope": "out_of_scope",
+      "justification": "General actor calculation rules, not standalone reusable compendium documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourceSpan": "47-48"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 48,
+      "type": "reference_table",
+      "sourceName": "Melee Damage",
+      "localizedNames": {
+        "fr": "Dégâts au corps à corps"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static derived-statistic reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 49,
+      "type": "reference_table",
+      "sourceName": "Level and Experience",
+      "localizedNames": {
+        "fr": "Niveau et expérience"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static character-advancement reference table, not a genuinely random RollTable.",
       "pack": null,
       "documentId": null,
       "status": "out_of_scope"
