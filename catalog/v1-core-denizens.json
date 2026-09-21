@@ -625,7 +625,8 @@
       "id": "zflSJmUFBiNAFEwR",
       "name": "Dogmeat",
       "type": "creature",
-      "adventure": false
+      "adventure": false,
+      "page": 63
     },
     {
       "id": "ZLRYpEd3u99Sl0rT",

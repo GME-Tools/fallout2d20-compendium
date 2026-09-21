@@ -1,6 +1,6 @@
 const s=(page,column)=>({page,column});
 export const FRENCH_CORE_ACTOR_BIOGRAPHY_SOURCES={
-  Assaultron:s(359,"right"),Bloatfly:s(349,"left"),Bloodbug:s(354,"left"),Brahmin:s(340,"left"),Deathclaw:s(343,"left"),Dog:s(341,"left"),Dogmeat:{alias:"Dog"},Eyebot:s(358,"left"),
+  Assaultron:s(359,"right"),Bloatfly:s(349,"left"),Bloodbug:s(354,"left"),Brahmin:s(340,"left"),Deathclaw:s(343,"left"),Dog:s(341,"left"),Eyebot:s(358,"left"),
   "Feral Ghoul":s(356,"right"),"Glowing One":s(357,"left"),"Laser Turret (Wall Mount)":s(381,"right"),"Laser Turret 3-Shot (Wall Mount)":s(382,"left"),
   "Machine Gun Turret (Wall Mount)":s(380,"left"),"Machine Gun Turret 3-Shot (Wall Mount)":s(381,"left"),"Machine Gun Turret MK I":s(378,"left"),"Machine Gun Turret MK III":s(379,"left"),"Machine Gun Turret MK V":s(379,"right"),
   Mirelurk:s(345,"left"),"Mirelurk Hatchling":s(344,"left"),"Mirelurk Hunter":s(345,"right"),"Mirelurk Queen":s(346,"left"),"Mole Rat":s(353,"left"),"Mongrel Dog":{alias:"Dog"},"Mutant Hound":s(348,"left"),
