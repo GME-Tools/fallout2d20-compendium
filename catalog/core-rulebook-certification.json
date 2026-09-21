@@ -1,0 +1,963 @@
+{
+  "schemaVersion": 1,
+  "publication": "core_rulebook",
+  "authorities": {
+    "canonical": "Fallout: The Roleplaying Game Core Rulebook, English digital release (February 2023), corrected by Fallout 2d20 Errata Log V6 (2026)",
+    "fr": "Fallout : Le Jeu de Rôle Officiel, official French Core Rulebook, localized onto the canonical EN + Errata mechanics"
+  },
+  "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
+  "certifiedThrough": {
+    "en": {
+      "pdfPage": 41,
+      "sourcePage": 39
+    },
+    "fr": {
+      "pdfPage": 42,
+      "sourcePage": 39
+    }
+  },
+  "pageReviews": [
+    {
+      "language": "en",
+      "pdfPage": 1,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 2,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 3,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 4,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 5,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 6,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 7,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 8,
+      "sourcePage": 6,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 9,
+      "sourcePage": 7,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 10,
+      "sourcePage": 8,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 11,
+      "sourcePage": 9,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 12,
+      "sourcePage": null,
+      "section": "Chapter One lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 13,
+      "sourcePage": null,
+      "section": "Chapter One divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 14,
+      "sourcePage": 12,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 15,
+      "sourcePage": 13,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 16,
+      "sourcePage": 14,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 17,
+      "sourcePage": 15,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 18,
+      "sourcePage": 16,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 19,
+      "sourcePage": 17,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 20,
+      "sourcePage": 18,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 21,
+      "sourcePage": 19,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 22,
+      "sourcePage": 20,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 23,
+      "sourcePage": 21,
+      "section": "Chapter One — Core Rules",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 24,
+      "sourcePage": null,
+      "section": "Chapter Two lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 25,
+      "sourcePage": null,
+      "section": "Chapter Two divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 26,
+      "sourcePage": 24,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 27,
+      "sourcePage": 25,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 28,
+      "sourcePage": 26,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 29,
+      "sourcePage": 27,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 30,
+      "sourcePage": 28,
+      "section": "Chapter Two — Combat",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 31,
+      "sourcePage": 29,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 32,
+      "sourcePage": 30,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 33,
+      "sourcePage": 31,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 34,
+      "sourcePage": 32,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 35,
+      "sourcePage": 33,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 36,
+      "sourcePage": 34,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 37,
+      "sourcePage": 35,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 38,
+      "sourcePage": 36,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 39,
+      "sourcePage": 37,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 40,
+      "sourcePage": 38,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 41,
+      "sourcePage": 39,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 1,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 2,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 3,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 4,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 5,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 6,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 7,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 8,
+      "sourcePage": null,
+      "section": "Front matter",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 9,
+      "sourcePage": 6,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 10,
+      "sourcePage": 7,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 11,
+      "sourcePage": 8,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 12,
+      "sourcePage": 9,
+      "section": "Introduction",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 13,
+      "sourcePage": null,
+      "section": "Chapter One lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 14,
+      "sourcePage": null,
+      "section": "Chapter One divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 15,
+      "sourcePage": 12,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 16,
+      "sourcePage": 13,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 17,
+      "sourcePage": 14,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 18,
+      "sourcePage": 15,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 19,
+      "sourcePage": 16,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 20,
+      "sourcePage": 17,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 21,
+      "sourcePage": 18,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 22,
+      "sourcePage": 19,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 23,
+      "sourcePage": 20,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 24,
+      "sourcePage": 21,
+      "section": "Chapter One — Règles du jeu",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 25,
+      "sourcePage": null,
+      "section": "Chapter Two lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 26,
+      "sourcePage": null,
+      "section": "Chapter Two divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 27,
+      "sourcePage": 24,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 28,
+      "sourcePage": 25,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 29,
+      "sourcePage": 26,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 30,
+      "sourcePage": 27,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 31,
+      "sourcePage": 28,
+      "section": "Chapter Two — Combat",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 32,
+      "sourcePage": 29,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 33,
+      "sourcePage": 30,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 34,
+      "sourcePage": 31,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 35,
+      "sourcePage": 32,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 36,
+      "sourcePage": 33,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 37,
+      "sourcePage": 34,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 38,
+      "sourcePage": 35,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 39,
+      "sourcePage": 36,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 40,
+      "sourcePage": 37,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 41,
+      "sourcePage": 38,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 42,
+      "sourcePage": 39,
+      "section": "Chapter Two — Combat",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    }
+  ],
+  "entries": [
+    {
+      "publication": "core_rulebook",
+      "page": 13,
+      "type": "rules_summary",
+      "sourceName": "Skill Test Summary",
+      "localizedNames": {
+        "fr": "Résumé d’un test de compétence"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules summary; the module does not publish general rules prose or non-random reference aids as standalone documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 14,
+      "type": "reference_table",
+      "sourceName": "Test Difficulty Examples",
+      "localizedNames": {
+        "fr": "Exemples de difficultés de tests"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a random procedure and not represented by a supported reusable document type.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 17,
+      "type": "reference_table",
+      "sourceName": "Complication Range Table",
+      "localizedNames": {
+        "fr": "Table des marges de complication"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 18,
+      "type": "reference_table",
+      "sourceName": "Bonus d20 Costs",
+      "localizedNames": {
+        "fr": "Coût des d20 bonus"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 20,
+      "type": "rule_text",
+      "sourceName": "Luck — starting Luck points",
+      "localizedNames": {
+        "fr": "Chance — points de chance de départ"
+      },
+      "scope": "out_of_scope",
+      "justification": "General rules prose is outside the reusable structured-content scope.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Q3 2026: starting Luck points refresh wording applies at the start of each main quest, not each quest."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 21,
+      "type": "reference_table",
+      "sourceName": "Luck Options Summary",
+      "localizedNames": {
+        "fr": "Résumé des options de chance"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 28,
+      "type": "RollTable",
+      "sourceName": "Hit Locations",
+      "localizedNames": {
+        "fr": "Localisation des dégâts"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "2d741f2c1809f6bf",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 28,
+      "type": "RollTable",
+      "sourceName": "Hit Locations (Quadruped)",
+      "localizedNames": {
+        "fr": "Localisation des dégâts (quadrupèdes)"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "3690dbb34a5d00b1",
+      "status": "verified",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Added on p.28 by the 6 April 2022 errata; ranges and hit locations verified against the errata."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 28,
+      "type": "RollTable",
+      "sourceName": "Hit Locations (Flying Insect)",
+      "localizedNames": {
+        "fr": "Localisation des dégâts (insectes volants)"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "3c85a5acf584ec45",
+      "status": "verified",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Added on p.28 by the 6 April 2022 errata. Canonical ranges are 15–17 Legs and 18–20 Legs; the official French edition prints one 15–20 Pattes row, so the FR overlay localizes both canonical rows as Pattes."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 28,
+      "type": "reference_table",
+      "sourceName": "Weapon Range Difficulty",
+      "localizedNames": {
+        "fr": "Modificateurs de difficulté en fonction de la portée"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 29,
+      "type": "reference_table",
+      "sourceName": "Combat Dice Results",
+      "localizedNames": {
+        "fr": "Résultats des dés de combat"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static die interpretation reference, not a random content table to draw from.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 29,
+      "type": "rule_text",
+      "sourceName": "Random Quantities",
+      "localizedNames": {
+        "fr": "Quantités aléatoires"
+      },
+      "scope": "out_of_scope",
+      "justification": "General rules prose governing quantity rolls; it is not itself a reusable Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Section added by the 6 April 2022 errata and present in the reviewed EN and FR editions."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 35,
+      "type": "reference_table",
+      "sourceName": "Injury Recovery Difficulty",
+      "localizedNames": {
+        "fr": "Difficulté de la récupération des blessures"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 38,
+      "type": "reference_table",
+      "sourceName": "Cover Values",
+      "localizedNames": {
+        "fr": "Valeurs d’abri"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 38,
+      "type": "reference_table",
+      "sourceName": "Difficult Terrain and Obstacle Examples",
+      "localizedNames": {
+        "fr": "Exemples de terrain difficile et d’obstacles"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules examples, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 38,
+      "type": "reference_table",
+      "sourceName": "Environmental Conditions Examples",
+      "localizedNames": {
+        "fr": "Exemples de conditions environnementales"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules examples, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 39,
+      "type": "reference_table",
+      "sourceName": "Hazard Examples",
+      "localizedNames": {
+        "fr": "Exemples de périls"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules examples, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 39,
+      "type": "reference_table",
+      "sourceName": "Dangerous Objects Examples",
+      "localizedNames": {
+        "fr": "Exemples d’objets dangereux"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules examples, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    }
+  ]
+}

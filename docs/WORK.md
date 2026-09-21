@@ -1,52 +1,74 @@
-# Active work — Astoundingly Awesome Tales remediation
+# Active work — Core Rulebook certification
 
-> Temporary execution checklist. Delete this file when the work is complete after
-> durable facts have been encoded in source data, registries, tests or editorial
-> decisions.
+> Temporary execution checkpoint. Astoundingly Awesome Tales remediation is paused
+> while this owner-requested Core certification is active. Do not resume AAT work
+> until this file is replaced or removed.
 
 ## Goal and authority
 
-Remediate the reusable structured content from the seven numbered *Astoundingly
-Awesome Tales* adventures in the existing categorical bilingual packs. Issues 1–2
-use their official French editions; issues 3–7 use reviewed project translations.
-Adventure prose, maps, scenes and pregenerated characters remain out of scope.
+Certify the reusable structured content of the *Fallout: The Roleplaying Game Core
+Rulebook* exhaustively in English and French.
 
-For issues 1–4, the 2024 Issues #1–5 collection is the owner-approved mechanical
-authority where it differs from the individual issue, while the individual issue
-remains the first publication. The collection-only fifth adventure is first sourced
-to `astoundingly_awesome_tales_1_5`. The owner-approved Robot Assassin ranges are
-`1–5`, `6–10`, `11–17`, `18–20`.
+Mechanical authority is the February 2023 English Core Rulebook plus the latest
+approved Errata V6 (2026). The official French Core Rulebook is the localization
+authority for names, descriptions and terminology, adapted when necessary to the
+canonical EN + Errata mechanics.
 
-## Open checklist
+Audit direction is strictly:
 
-- Rebuild/verify the issue-by-issue structured inventory before claiming complete
-  AAT coverage.
-- Add the missing issue #3 consumables: Biogel, Epoxy, Living “Mutant” Worm, Worm
-  Kabob, Squid Calamari, Stuffed Squid, Mutant Rattler Meat, Grilled Rattler, Skull
-  Canyon Shot, Mutant Rattler Venom Shot and Irradiated Blood. Reused Core entries
-  receive appearances, not duplicates.
-- Add/verify missing structured profiles: Teks, His Intimidating Eminence's Eyebot,
-  His Intimidating Eminence's Assaultron, Ballard, and the issue #6 Speargun Item.
-  Resolve Harpoon against the existing ammunition identity before creating anything.
-- Correct first-appearance provenance and pages, especially issue #2 and all Warhorse
-  armor/weapon components. Preserve first-publication naming where later collections
-  rename a profile.
-- Compare every proposed `identical` reprint mechanically before keeping that status.
-  The issue #2 Sentry Bot discrepancy is known not to be safely identical without
-  explicit variant/editorial handling.
-- Complete truncated Actor biographies, inventories, attacks, abilities and
-  salvage/butchery fields against the authoritative profiles.
-- Convert Robot Assassin table text results to canonical references where applicable.
-- Replace cover-as-document-artwork assignments. Use a reviewed official interior
-  candidate when genuinely representative; otherwise keep a neutral placeholder.
+`PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR`
 
-Do not silently decide ambiguous plot-only objects, corrected-edition identity, or
-mechanically divergent reprints. Ask the owner only when the ambiguity blocks the
-requested change.
+Existing packs, catalogs and tests are evidence to inspect, never the starting
+authority for expected content.
 
-## Completion
+## Certification inventory
 
-Completion requires exhaustive bilingual inventory parity, valid provenance and
-links, exact French metric handling where applicable, reviewed artwork states, AAT
-regression coverage, final `npm audit --audit-level=high`, final `npm run ci`, and
-disposable Foundry qualification on the required compatibility matrix.
+The source-driven durable inventory is
+`catalog/core-rulebook-certification.json`. It records page review coverage plus
+in-scope and explicitly excluded structured candidates. Do not generate it from
+existing packs.
+
+Current completed boundary:
+
+- EN PDF physical pages 1–41, through printed/source page 39.
+- FR PDF physical pages 1–42, through printed/source page 39.
+- Completed editorial sections: front matter, Introduction, Chapter One (Core
+  Rules / Règles du jeu), and Chapter Two (Combat).
+- Verified in-scope documents in this range: the three p.28 hit-location RollTables
+  (standard, quadruped, flying insect).
+- Static rules summaries/reference tables and general rules prose in this range are
+  explicitly out of scope in the catalog.
+- Errata reviewed in this range: p.20 Luck wording (Q3 2026), p.28 quadruped/flying
+  insect hit locations, and p.29 Random Quantities.
+- The official FR p.28 flying-insect table combines 15–20 as `Pattes`; canonical
+  EN + Errata retains 15–17 and 18–20 as two rows. The FR overlay correctly
+  localizes both canonical rows to `Pattes`.
+
+## Next lot
+
+Continue with Chapter Three — Character Creation, beginning at printed/source page
+42. Audit in reasonable sub-sections rather than treating the current catalogs as
+proof. The first useful sub-lot is S.P.E.C.I.A.L., Skills and derived statistics,
+including the p.44 Gauss/skill errata.
+
+Known later Core suspects to re-check against source rather than assume true:
+
+- Energy Weapons wording and Gauss weapons versus Errata V6.
+- Boosted Capacitor cost.
+- `Capactor Boosting Coil` / `Capacitor Boosting Coil` duplicate.
+- Shielded Barrel crafting/recipe handling.
+- Denizen Actor and embedded-Item completeness, especially salvage/butchery.
+
+There are no unresolved anomalies or owner decisions in the completed p.1–39
+boundary.
+
+## Validation
+
+`test/core-certification.test.mjs` enforces gapless page review through the current
+boundary, explicit scope/status fields, bilingual identity/provenance for verified
+entries, and absence of unexplained Core documents sourced before p.40.
+
+Run focused checks as each lot is added. Final completion still requires
+`npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification
+on the required compatibility matrix. Only after the whole Core is certified should
+`docs/STATE.md` be updated and this temporary file removed.
