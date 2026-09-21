@@ -30,11 +30,14 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–60, through printed/source page 58.
-- FR PDF physical pages 1–61, through printed/source page 58.
+- EN PDF physical pages 1–62, through printed/source page 60.
+- FR PDF physical pages 1–63, through printed/source page 60.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
-  Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 3
-  (source pp.42–58).
+  Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 3
+  (source pp.42–58), and Step 4 / the perk catalogue through source p.60.
+- Because the EN and FR perk catalogues are alphabetized independently, bilingual
+  identity checks for the p.59–60 lot also reviewed targeted counterpart entries on
+  later pages without treating those intervening pages as page-certified coverage.
 - Verified in-scope documents in this range: the three p.28 hit-location RollTables,
   all 17 Core Skill Items (source pp.44–47), all 10 Core origin/survivor Trait Items
   (pp.51–57), the Mister Handy p.54 hit-location RollTable, and the p.54 Buzz-Saw
@@ -64,12 +67,27 @@ Current completed boundary:
 - The p.54 10mm Auto Pistol, Flamer and Laser Emitter rows are certified only as
   structured references to existing weapon identities; their full profiles remain
   pending until the equipment pages that define those profiles.
+- Step 4 source pp.59–60 now certifies 15 bilingual perk identities encountered on
+  those EN/FR pages: Action Boy/Girl, Adamantium Skeleton, Adrenalin Rush, Animal
+  Friend, Aquaboy/Aquagirl, Armorer, Awareness, Barbarian, Basher, Better
+  Criticals, Blitz, Center Mass, Lead Belly, Rad Resistance and Smooth Talker.
+  The certification inventory records the actual EN and FR source coordinates for
+  each identity because their alphabetical order differs by language.
+- Perk provenance is being tightened from the legacy generic `59-73` range to each
+  perk's first EN definition page as it is source-certified. The first lot also
+  fixed exact EN slash-spacing for Action Boy/Girl and Aquaboy/Aquagirl and
+  restored missing combat-die markup in Animal Friend, Blitz and Lead Belly.
+- Armorer's 2021 level-increase erratum is present and structured as +4 levels per
+  rank. Barbarian applies the Q1 2025 erratum in both languages, increasing Energy
+  DR at the same rate as Physical DR even though the printed French page only lists
+  ballistic DR.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 59. The next
-editorial sub-lot is Step 4: Choose Your First Perk and the perk catalogue. Audit
-the perks in manageable page ranges against EN + Errata, then FR localization.
+Continue Chapter Three — Character Creation at printed/source page 61. The next
+editorial sub-lot is the perk catalogue on source pp.61–64. Continue from the PDF
+source rather than the existing perk pack; use targeted counterpart-page checks
+where EN/FR alphabetical ordering differs.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -87,7 +105,11 @@ boundary.
 boundary, explicit scope/status fields, bilingual identity/provenance for verified
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
-of unexplained Core documents within the certified boundary.
+of unexplained Core documents with exact provenance within the certified boundary.
+It now also checks the first 15 certified perk identities, their bilingual source
+coordinates, exact canonical requirement fields, restored combat-die symbols, and
+the Armorer/Barbarian errata regressions. Legacy broad provenance ranges are not
+treated as exact page evidence until the corresponding perk is source-certified.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

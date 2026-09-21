@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 60,
-      "sourcePage": 58
+      "pdfPage": 62,
+      "sourcePage": 60
     },
     "fr": {
-      "pdfPage": 61,
-      "sourcePage": 58
+      "pdfPage": 63,
+      "sourcePage": 60
     }
   },
   "pageReviews": [
@@ -498,6 +498,22 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 61,
+      "sourcePage": 59,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 62,
+      "sourcePage": 60,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -983,6 +999,22 @@
       "sourcePage": 58,
       "section": "Chapter Three — Création de personnage",
       "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 62,
+      "sourcePage": 59,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 63,
+      "sourcePage": 60,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
       "status": "verified"
     }
   ],
@@ -2096,6 +2128,441 @@
       "pack": null,
       "documentId": null,
       "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "rule_text",
+      "sourceName": "Step 4: Choose Your First Perk",
+      "localizedNames": {
+        "fr": "Étape 4 : choisir sa première aptitude"
+      },
+      "scope": "out_of_scope",
+      "justification": "General character-creation rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "rule_text",
+      "sourceName": "Level Requirements",
+      "localizedNames": {
+        "fr": "Niveau requis"
+      },
+      "scope": "out_of_scope",
+      "justification": "General character-creation rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "Item",
+      "sourceName": "Action Boy/Girl",
+      "localizedNames": {
+        "fr": "Homme/Femme d’action"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "cCrLiQ8zNWW3LAC6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          59
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "Item",
+      "sourceName": "Adamantium Skeleton",
+      "localizedNames": {
+        "fr": "Squelette adamantin"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "tdm3ETgFN8PA7ZE0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          59
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "Item",
+      "sourceName": "Adrenalin Rush",
+      "localizedNames": {
+        "fr": "Poussée d’adrénaline"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "9KkBBnH3N7yhEeMB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          59
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "Item",
+      "sourceName": "Animal Friend",
+      "localizedNames": {
+        "fr": "Ami des animaux"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "IVL33DFzxdmpj143",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          59,
+          60
+        ],
+        "fr": [
+          59
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "diceSymbolsReviewed": true,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 60,
+      "type": "Item",
+      "sourceName": "Aquaboy/Aquagirl",
+      "localizedNames": {
+        "fr": "Amphibie"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "z1OueIn6GiTrDVw7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          60
+        ],
+        "fr": [
+          59
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 60,
+      "type": "Item",
+      "sourceName": "Armorer",
+      "localizedNames": {
+        "fr": "Armurier"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "EQjZHUxYinodOU6G",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          60
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 4,
+        "descriptionReviewed": true
+      },
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "8 April 2021: add that each time this perk is taken, the level requirement increases by 4; applied canonically and present in the official French text."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 60,
+      "type": "Item",
+      "sourceName": "Awareness",
+      "localizedNames": {
+        "fr": "Sens affûtés"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "JHMLajHU7sioJT9v",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          60
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 60,
+      "type": "Item",
+      "sourceName": "Barbarian",
+      "localizedNames": {
+        "fr": "Barbare"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "j5SfukNzX12lRmwB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          60
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      },
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Q1 2025: Energy Damage Resistance increases at the same rate as Physical Damage Resistance; applied to canonical EN and adapted FR text."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 60,
+      "type": "Item",
+      "sourceName": "Basher",
+      "localizedNames": {
+        "fr": "Cogneur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "A0UTRQ94MdLa3v2i",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          60
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 60,
+      "type": "Item",
+      "sourceName": "Better Criticals",
+      "localizedNames": {
+        "fr": "Coups super critiques"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Xrh0LthwODfn0McZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          60
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Blitz",
+      "localizedNames": {
+        "fr": "Blitz"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "U8yM23ldUGYYtta1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "diceSymbolsReviewed": true,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Center Mass",
+      "localizedNames": {
+        "fr": "Barycentre"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Nc22rM5RB37dOPcO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Lead Belly",
+      "localizedNames": {
+        "fr": "Boyaux plombés"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "wE5dyJKCl7gysWci",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          60,
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "diceSymbolsReviewed": true,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Rad Resistance",
+      "localizedNames": {
+        "fr": "Antiradiations"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "TFJbnmRbE7cisziV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Smooth Talker",
+      "localizedNames": {
+        "fr": "Beau parleur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "fhBw3zhOo6EuZy2j",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
     }
   ]
 }

@@ -79,7 +79,12 @@ test("no Core document sourced through the certified source page exists outside 
     const records = await generatedDocuments(language);
     const earlyCore = records.filter(({ document }) => {
       const source = document.flags?.["fallout2d20-compendium"]?.source;
-      const sourcePage = Number.parseInt(String(source?.page ?? ""), 10);
+      const rawSourcePage = source?.page;
+      const sourcePage = Number.isInteger(rawSourcePage)
+        ? rawSourcePage
+        : /^\\d+$/.test(String(rawSourcePage ?? ""))
+          ? Number(rawSourcePage)
+          : null;
       return source?.book === "core_rulebook" && Number.isInteger(sourcePage) && sourcePage <= through;
     });
     const unexplained = earlyCore
@@ -204,3 +209,80 @@ test("Mister Handy p.54 structured arm attachments are exact where the Core defi
     }
   }
 });
+
+test("Core perk certification records exact bilingual source coordinates and canonical requirements", async () => {
+  const expected = new Map([
+    ["cCrLiQ8zNWW3LAC6", { page: 59, en: [59], fr: [66], ranks: 1 }],
+    ["tdm3ETgFN8PA7ZE0", { page: 59, en: [59], fr: [71], ranks: 3, attributes: { end: 7 }, level: 1, levelIncrease: 3 }],
+    ["9KkBBnH3N7yhEeMB", { page: 59, en: [59], fr: [69], ranks: 1, attributes: { str: 7 } }],
+    ["IVL33DFzxdmpj143", { page: 59, en: [59, 60], fr: [59], ranks: 2, attributes: { cha: 6 }, level: 1, levelIncrease: 5 }],
+    ["z1OueIn6GiTrDVw7", { page: 60, en: [60], fr: [59], ranks: 2, attributes: { end: 5 }, level: 1, levelIncrease: 3 }],
+    ["EQjZHUxYinodOU6G", { page: 60, en: [60], fr: [60], ranks: 4, attributes: { str: 5, int: 6 }, levelIncrease: 4 }],
+    ["JHMLajHU7sioJT9v", { page: 60, en: [60], fr: [71], ranks: 1, attributes: { per: 7 } }],
+    ["j5SfukNzX12lRmwB", { page: 60, en: [60], fr: [60], ranks: 1, attributes: { str: 7 }, level: 4, notRobot: true }],
+    ["A0UTRQ94MdLa3v2i", { page: 60, en: [60], fr: [62], ranks: 1, attributes: { str: 6 } }],
+    ["Xrh0LthwODfn0McZ", { page: 60, en: [60], fr: [63], ranks: 1, attributes: { luc: 9 } }],
+    ["U8yM23ldUGYYtta1", { page: 61, en: [61], fr: [60], ranks: 2, attributes: { agi: 9 }, level: 1, levelIncrease: 3 }],
+    ["Nc22rM5RB37dOPcO", { page: 62, en: [62], fr: [60], ranks: 1, attributes: { agi: 7 } }],
+    ["wE5dyJKCl7gysWci", { page: 66, en: [66], fr: [60, 61], ranks: 2, attributes: { end: 6 }, level: 1, levelIncrease: 4 }],
+    ["TFJbnmRbE7cisziV", { page: 70, en: [70], fr: [60], ranks: 2, attributes: { end: 8 }, level: 1, levelIncrease: 4 }],
+    ["fhBw3zhOo6EuZy2j", { page: 72, en: [72], fr: [60], ranks: 1, attributes: { cha: 6 } }]
+  ]);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "perks").map(entry => [entry.documentId, entry]));
+  for (const [id, expectation] of expected) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, `certification entry missing for perk ${id}`);
+    assert.equal(entry.page, expectation.page);
+    assert.deepEqual(entry.sourcePages?.en, expectation.en);
+    assert.deepEqual(entry.sourcePages?.fr, expectation.fr);
+  }
+
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "perks");
+    for (const [id, expectation] of expected) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/perks/${id} missing`);
+      const document = record.document;
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, expectation.page);
+      assert.equal(document.system.rank.max, expectation.ranks);
+      for (const [attribute, value] of Object.entries(expectation.attributes ?? {})) {
+        assert.equal(document.system.requirementsEx.attributes[attribute].value, value, `${language}/perks/${id} ${attribute}`);
+      }
+      if (expectation.level !== undefined) assert.equal(document.system.requirementsEx.level, expectation.level);
+      if (expectation.levelIncrease !== undefined) assert.equal(document.system.requirementsEx.levelIncrease, expectation.levelIncrease);
+      if (expectation.notRobot !== undefined) assert.equal(document.system.requirementsEx.notRobot, expectation.notRobot);
+    }
+  }
+});
+
+test("Core p.59-60 perk text preserves combat-die symbols and applied errata", async () => {
+  const docs = {};
+  for (const language of ["en", "fr"]) {
+    docs[language] = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+  }
+
+  assert.match(docs.en.get("IVL33DFzxdmpj143").system.description, /roll 1 @fos\[DC\]/);
+  assert.match(docs.fr.get("IVL33DFzxdmpj143").system.description, /jetez 1 @fos\[DC\]/);
+  assert.doesNotMatch(docs.en.get("IVL33DFzxdmpj143").system.description, /1DCD/);
+  assert.match(docs.en.get("U8yM23ldUGYYtta1").system.description, /\+1 @fos\[DC\] damage/);
+  assert.match(docs.en.get("wE5dyJKCl7gysWci").system.description, /re-roll the @fos\[DC\]/);
+
+  const armorerEn = docs.en.get("EQjZHUxYinodOU6G");
+  const armorerFr = docs.fr.get("EQjZHUxYinodOU6G");
+  assert.equal(armorerEn.system.requirementsEx.levelIncrease, 4);
+  assert.match(armorerEn.system.description, /level requirement increases by 4/);
+  assert.match(armorerFr.system.description, /niveau requis augmente de 4/);
+
+  const barbarianEn = docs.en.get("j5SfukNzX12lRmwB").system.description;
+  const barbarianFr = docs.fr.get("j5SfukNzX12lRmwB").system.description;
+  assert.match(barbarianEn, /physical and energy Damage Resistance/);
+  assert.match(barbarianEn, /\+3 physical and energy DR/);
+  assert.match(barbarianFr, /RD balistiques et énergétiques \+1/);
+  assert.match(barbarianFr, /RD balistiques et énergétiques \+3/);
+});
+
