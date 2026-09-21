@@ -45,3 +45,8 @@ test("only reviewed metric path shapes are deterministic conversions", () => {
     assert.equal(isDeterministicMetricPointer(pointer), false, pointer);
   }
 });
+
+test("localized table ordering may override stable result ranges", () => {
+  const overlay = { values: { "/results/@StableResultId/range": [3, 3] } };
+  assert.deepEqual(auditFrenchOverlay(overlay, "test"), []);
+});

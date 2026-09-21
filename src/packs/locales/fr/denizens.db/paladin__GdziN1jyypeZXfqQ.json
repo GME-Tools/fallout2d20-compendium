@@ -3,6 +3,7 @@
   "_file": "paladin__GdziN1jyypeZXfqQ.json",
   "values": {
     "/items/@O0GOoAmCfcN8pf1i/system/weight": 0,
+    "/items/@O0GOoAmCfcN8pf1i/system/description": "<p><strong>FOR + Mains nues (SR 14)</strong>, 5 DC de dégâts balistiques.</p>",
     "/items/@O0GOoAmCfcN8pf1i/name": "Attaque à mains nues",
     "/items/@2TR0yWRaj0zGYgN8/system/weight": 0,
     "/items/@2TR0yWRaj0zGYgN8/system/effect": "<p>Châssis d’armure assistée, Armure assistée T-60 complète, Fusil laser à canon long amélioré et Holoplaques de la Confrérie de l’Acier.</p>",
@@ -14,13 +15,13 @@
     "/items/@syMx3IjBHwT7mbkM/name": "Sciences",
     "/items/@sAzIbYLi1Jai8Twj/name": "Discours",
     "/items/@eQ7HJ6UKxQh2iqTr/name": "Mains nues",
-    "/items/@YiveM3TcFsA7wN1T/system/description": "<p>Munitions: cellules à fusion Les armes laser sont des armes à la technologie très avancée qui émettent un rayon concentré de lumière cohérente directionnelle suffisamment intense pour infliger de sérieux dégâts. Elles furent inventées relativement peu de temps avant la Grande Guerre et ne sont donc pas très répandues dans les Terres désolées, en dehors des groupes qui ont mis la main sur d’anciennes caches d’armes militaires. La plupart des modèles d’arme laser encore en état de marche (par exemple l’AER9, connu pour sa fiabilité et très usité par l’armée des États-Unis) utilisent un condensateur interne chargé par une cellule d’alimentation à microfusion. Le profil par défaut représente un pistolet laser. Une arme laser peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil laser ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: canon long, canon automatique, canon de précision, canon amélioré  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
+    "/items/@YiveM3TcFsA7wN1T/system/description": "<p><strong>PER + Armes à énergie (SR 14)</strong>, 6 DC de dégâts énergétiques Perforants 1, portée M, cadence de tir 2, Deux mains.</p>",
     "/items/@YiveM3TcFsA7wN1T/system/weight": 6.5,
     "/items/@YiveM3TcFsA7wN1T/name": "Fusil laser à canon long amélioré",
     "/items/@2yedRCg3UmHJlUfF/system/description": "<p>Par une action majeure, ce membre de la Confrérie peut ordonner à un personnage de la Confrérie de niveau inférieur d’effectuer immédiatement une action majeure. Il assiste cette action avec <strong>CHA + Discours</strong>.</p>",
     "/items/@2yedRCg3UmHJlUfF/name": "Chaîne de Cohésion",
     "/items/@cuuatGWdvCzm8IcU/name": "Armes légères",
-    "/items/@xLZCedoGB8FOmvfE/system/description": "<p>Une fois par combat, le paladin ajoute la Cadence 2 de son Fusil laser à canon long amélioré aux dégâts d’une attaque, soit 8 DC.</p>",
+    "/items/@xLZCedoGB8FOmvfE/system/description": "<p>Une fois par combat, le paladin ajoute la cadence de tir (2) de son fusil laser à canon long amélioré aux dégâts d’une attaque, soit 8 DC.</p>",
     "/items/@xLZCedoGB8FOmvfE/name": "Bien équipé",
     "/items/@QGPjDynCd8DDz9Vv/system/description": "<p>La FOR propre de ce paladin est 7 ; lorsqu’il porte son armure assistée, il utilise à la place la FOR 11 de celle-ci. L’armure possède 20 PV (10 aux bras, 10 à la tête, 10 aux jambes et 17 au torse). Il est immunisé contre les dégâts de chute et inflige 3 DC de dégâts physiques à toutes les créatures à Portée de main de son point d’impact. Il peut respirer sous l’eau et dans les environnements toxiques.</p>",
     "/items/@QGPjDynCd8DDz9Vv/name": "Armure assistée",
@@ -38,6 +39,6 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 180,
     "/system/origin": "Humain",
-    "/system/biography": "<p>Les paladins sont les troupes d’élite de la Confrérie de l’Acier. Équipés d’armures assistées et des meilleures armes dont dispose l’organisation, ces vétérans sont souvent des guerriers reconnus. Atteindre le rang de paladin exige une dévotion totale à la Confrérie ainsi que d’impressionnantes références: c’est un échelon que beaucoup rêvent d’atteindre.</p>"
+    "/system/biography": "<p>Les paladins sont les troupes d’élite de la Confrérie de l’Acier. Équipés d’armures assistées et des meilleures armes dont dispose l’organisation, ces vétérans sont souvent des guerriers reconnus. Atteindre le rang de paladin exige une dévotion totale à la Confrérie ainsi que d’impressionnantes références : c’est un échelon que beaucoup rêvent d’atteindre.</p>"
   }
 }

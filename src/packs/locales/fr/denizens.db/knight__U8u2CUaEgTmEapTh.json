@@ -3,6 +3,7 @@
   "_file": "chevalier__U8u2CUaEgTmEapTh.json",
   "values": {
     "/items/@O0GOoAmCfcN8pf1i/system/weight": 0,
+    "/items/@O0GOoAmCfcN8pf1i/system/description": "<p><strong>FOR + Mains nues (SR 8)</strong>, 2 DC de dégâts balistiques.</p>",
     "/items/@O0GOoAmCfcN8pf1i/name": "Attaque à mains nues",
     "/items/@2TR0yWRaj0zGYgN8/system/weight": 0,
     "/items/@2TR0yWRaj0zGYgN8/system/effect": "<p>Uniforme de la Confrérie de l’Acier, Armure de combat complète, Fusil laser à canon long et Holoplaques de la Confrérie de l’Acier.</p>",
@@ -14,7 +15,7 @@
     "/items/@syMx3IjBHwT7mbkM/name": "Sciences",
     "/items/@sAzIbYLi1Jai8Twj/name": "Discours",
     "/items/@eQ7HJ6UKxQh2iqTr/name": "Mains nues",
-    "/items/@YiveM3TcFsA7wN1T/system/description": "<p>Munitions: cellules à fusion Les armes laser sont des armes à la technologie très avancée qui émettent un rayon concentré de lumière cohérente directionnelle suffisamment intense pour infliger de sérieux dégâts. Elles furent inventées relativement peu de temps avant la Grande Guerre et ne sont donc pas très répandues dans les Terres désolées, en dehors des groupes qui ont mis la main sur d’anciennes caches d’armes militaires. La plupart des modèles d’arme laser encore en état de marche (par exemple l’AER9, connu pour sa fiabilité et très usité par l’armée des États-Unis) utilisent un condensateur interne chargé par une cellule d’alimentation à microfusion. Le profil par défaut représente un pistolet laser. Une arme laser peut accepter un mod de chaque type parmi les suivants. Un mod de crosse change le nom de l’arme en « fusil laser ».  Condensateur: stimulateur de photons, amplificateur d’ondes Bêta, condensateur amélioré, agitateur de photons  Canon: canon long, canon automatique, canon de précision, canon amélioré  Poignée: poignée de tireur d’élite  Crosse: crosse standard, crosse de tireur d’élite, crosse à compensateur de recul  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: diviseur de rayon, concentrateur de faisceau, lentille à gyrocompensation</p>",
+    "/items/@YiveM3TcFsA7wN1T/system/description": "<p><strong>PER + Armes à énergie (SR 10)</strong>, 5 DC de dégâts énergétiques Perforants 1, portée M, cadence de tir 2, Deux mains.</p>",
     "/items/@YiveM3TcFsA7wN1T/system/weight": 6.5,
     "/items/@YiveM3TcFsA7wN1T/name": "Fusil laser à canon long",
     "/items/@2yedRCg3UmHJlUfF/system/description": "<p>Par une action majeure, ce membre de la Confrérie peut ordonner à un personnage de la Confrérie de niveau inférieur d’effectuer immédiatement une action majeure. Il assiste cette action avec <strong>CHA + Discours</strong>.</p>",

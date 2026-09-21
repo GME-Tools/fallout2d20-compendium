@@ -53,8 +53,8 @@ test("Core hit-location tables preserve exact d20 coverage and bilingual results
     fr: {
       "Localisation des dégâts": [[1, 2, "Tête"], [3, 8, "Buste"], [9, 11, "Bras gauche"], [12, 14, "Bras droit"], [15, 17, "Jambe gauche"], [18, 20, "Jambe droite"]],
       "Localisation des dégâts sur Mister Handy": [[1, 2, "Optique (blessure comme pour Tête)"], [3, 8, "Corps (blessure comme pour Buste)"], [9, 11, "Bras 1"], [12, 14, "Bras 2"], [15, 17, "Bras 3"], [18, 20, "Propulseur (blessure comme pour Jambe)"]],
-      "Localisations de touche (Quadrupède)": [[1, 2, "Tête"], [3, 8, "Torse"], [9, 11, "Patte avant gauche"], [12, 14, "Patte avant droite"], [15, 17, "Patte arrière gauche"], [18, 20, "Patte arrière droite"]],
-      "Localisations de touche (Insecte volant)": [[1, 2, "Tête"], [3, 8, "Torse"], [9, 11, "Aile gauche (comme une patte)"], [12, 14, "Aile droite (comme une patte)"], [15, 17, "Pattes"], [18, 20, "Pattes"]]
+      "Localisation des dégâts (quadrupèdes)": [[1, 2, "Tête"], [3, 8, "Buste"], [9, 11, "Patte avant gauche"], [12, 14, "Patte avant droite"], [15, 17, "Patte arrière gauche"], [18, 20, "Patte arrière droite"]],
+      "Localisation des dégâts (insectes volants)": [[1, 2, "Tête"], [3, 8, "Buste"], [9, 11, "Aile gauche (comme une patte)"], [12, 14, "Aile droite (comme une patte)"], [15, 17, "Pattes"], [18, 20, "Pattes"]]
     }
   };
   for (const language of ["en", "fr"]) {

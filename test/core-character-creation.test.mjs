@@ -41,7 +41,7 @@ test("Core character-creation inventory is exact and reviewed in both languages"
 });
 
 test("all French character-perk dice symbols lost by PDF extraction are restored", async () => {
-  const expected = { Blitz:1,"Résistance chimique":1,Compréhension:1,"Tir groupé":1,"Dénicheur de trésors":3,Pistolero:1,"Boyaux plombés":1,"Marchand de sable":1,"Mystérieux Étranger":1,"Rage de nerd !":3,Ninja:1,Pyromane:1,Fusilier:1,Farfouilleur:3,"La taille compte":1 };
+  const expected = { Blitz:1,"Résistance chimique":1,Compréhension:1,"Tir groupé":1,"Dénicheur de trésors":3,Pistolero:1,"Boyaux plombés":1,"Commandant laser":1,Commando:1,Finesse:1,Fusion:2,"Marchand de sable":1,"Mystérieux Étranger":1,"Rage de nerd !":3,Ninja:1,"Poing de fer":1,Pyromane:1,Fusilier:1,Farfouilleur:3,"La taille compte":1,Locomotive:1,Sanguinaire:1,"Tueur en série":1,"Veuve noire/Gigolo":1 };
   const perks = await documents("fr", "perks");
   for (const [name, count] of Object.entries(expected)) {
     const document = perks.find((entry) => entry.name === name);

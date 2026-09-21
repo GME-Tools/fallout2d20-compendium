@@ -2,7 +2,7 @@
   "_key": "!items!ZgOppC2XynIyM1bg",
   "_file": "module_de_detection_des_dangers__ZgOppC2XynIyM1bg.json",
   "values": {
-    "/name": "Module de détection des dangers",
+    "/name": "Module de détection de risques",
     "/system/description": "<p>Conçu pour des robots bon marché chargés de neutraliser les pièges aux côtés des soldats, ce système modifie les capteurs du robot pour identifier et classer les menaces environnementales. Réaffecté aux Miss Nanny pour repérer les dangers domestiques, il conserve toutefois une tendance à s’en approcher pour les examiner de plus près.</p>",
     "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Survie visant à détecter et neutraliser des pièges ou dangers similaires (minimum 0).</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",

@@ -3,7 +3,7 @@
   "_file": "vers_sanguins__1KIjuiaRJb7XlBO1.json",
   "values": {
     "/name": "Vers sanguins",
-    "/system/description": "<p>Les attaques qui vous ciblent infligent +2 DC de dégâts.</p>",
+    "/system/description": "<p>Les attaques qui vous ciblent infligent +2 @fos[DC] de dégâts.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "1KIjuiaRJb7XlBO1",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,

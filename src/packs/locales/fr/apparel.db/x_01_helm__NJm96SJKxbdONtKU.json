@@ -2,7 +2,7 @@
   "_key": "!items!NJm96SJKxbdONtKU",
   "_file": "casque_d_armure_assistee_x_01__NJm96SJKxbdONtKU.json",
   "values": {
-    "/name": "Casque d’armure assistée X-01",
+    "/name": "Casque X-01",
     "/system/description": "<p>Encore au stade de prototype lorsque les bombes tombèrent, la X-01 fut achevée après la Guerre par des vestiges de l’armée américaine. Supérieure aux modèles précédents mais jamais produite en masse, elle est extrêmement rare. Chaque pièce accepte une Amélioration, un Plaquage et un Système, installés avec Réparation. Elle accepte les systèmes normaux et tous les plaquages sauf le Revêtement hivernal. Améliorations propres : Mk II à Mk VI. Plaquage propre : Blindage IEM.</p>",
     "/system/mods/143I7SjRcQBq9sht/system/weight": 0.5,
     "/system/mods/20FKglk8LkB8A1c0/system/weight": 1,

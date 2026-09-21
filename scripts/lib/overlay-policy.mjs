@@ -24,6 +24,7 @@ export function classifyFrenchOverlayPointer(pointer) {
   if (/^\/flags\/fallout2d20-compendium\/(?:recipe|weaponModRecipes\/\d+)\/perks\/\d+$/.test(pointer)) return "localized-reference";
   if (/^\/system\/(?:perks|skills)$/.test(pointer)) return "localized-reference";
   if (pointer.endsWith("/documentCollection")) return "localized-reference";
+  if (/^\/results\/@[^/]+\/range$/.test(pointer)) return "localized-table-range";
   if (isDeterministicMetricPointer(pointer)) return "deterministic-metric";
   if (/\/\$overrides\/(?:~1name|~1system~1description|~1system~1weight)$/.test(pointer)) {
     return pointer.endsWith("weight") ? "deterministic-metric" : "localization";

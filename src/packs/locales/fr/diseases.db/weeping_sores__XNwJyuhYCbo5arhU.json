@@ -3,7 +3,7 @@
   "_file": "irritations_suintantes__XNwJyuhYCbo5arhU.json",
   "values": {
     "/name": "Irritations suintantes",
-    "/system/description": "<p>Lorsque vous subissez des dégâts physiques, vous subissez +1 dégât physique au début de votre prochain tour, en ignorant la résistance aux dégâts.</p>",
+    "/system/description": "<p>Lorsque vous subissez des dégâts balistiques, vous subissez +1 dégât balistique au début de votre prochain tour, en ignorant la résistance aux dégâts.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "XNwJyuhYCbo5arhU",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,

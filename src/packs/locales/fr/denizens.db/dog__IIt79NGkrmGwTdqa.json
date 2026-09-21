@@ -2,7 +2,7 @@
   "_key": "!actors!IIt79NGkrmGwTdqa",
   "_file": "chien__IIt79NGkrmGwTdqa.json",
   "values": {
-    "/items/@Vr10Yf0TldyyAlYo/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>",
+    "/items/@Vr10Yf0TldyyAlYo/system/description": "<p>Au moins l’un des sens du chien est particulièrement aiguisé. Le chien peut essayer de détecter les créatures ou les objets que d’autres personnages ne pourraient pas repérer, et il réduit de 1 (jusqu’à un minimum de 0) la difficulté de tous ses tests de <strong>PER</strong>.</p>",
     "/items/@Vr10Yf0TldyyAlYo/name": "Sens aiguisés",
     "/items/@9ffIw3BPXih8r7IJ/system/weight": 0,
     "/items/@9ffIw3BPXih8r7IJ/name": "Morsure",

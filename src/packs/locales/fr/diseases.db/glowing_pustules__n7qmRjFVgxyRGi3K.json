@@ -3,7 +3,7 @@
   "_file": "pustules_luisantes__n7qmRjFVgxyRGi3K.json",
   "values": {
     "/name": "Pustules luisantes",
-    "/system/description": "<p>Lorsque vous subissez une Blessure, tous ceux qui se trouvent à Portée de main subissent 1 DC de dégâts de radiation.</p>",
+    "/system/description": "<p>Lorsque vous subissez une Blessure, tous ceux qui se trouvent à Portée de main subissent 1 @fos[DC] de dégâts de radiation.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "n7qmRjFVgxyRGi3K",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,

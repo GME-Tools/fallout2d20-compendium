@@ -4,7 +4,7 @@
   "values": {
     "/name": "Trousse de premiers secours",
     "/system/description": "<p>Un sac rempli de bandages, d’antiseptique en spray et d’autres outils utiles pour nettoyer et panser les blessures sur le terrain. Les trousses de premiers secours contiennent aussi souvent des Stimpaks et du RadAway, comptabilisés et utilisés séparément.</p>",
-    "/system/effect": "<p>Une action de Premiers secours réussie soigne 2 PV supplémentaires.</p>",
+    "/system/effect": "<p>Guérit +2 PV quand vous réussissez l’action porter secours.</p>",
     "/system/weight": 2,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "WyjtxDmxyBdGcD6n",

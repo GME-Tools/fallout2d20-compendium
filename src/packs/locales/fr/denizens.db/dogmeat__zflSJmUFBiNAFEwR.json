@@ -8,7 +8,7 @@
     "/items/@llgr3hvuu5FXz7oH/name": "Sens aiguisés",
     "/items/@hD36xYjXqMwgPGwS/system/description": "<p>Lorsque Canigou assiste l’une de vos attaques, il doit se déplacer à Portée de main de la cible. Si l’attaque réussit, il inflige également ses propres dégâts de corps à corps à la cible.</p>",
     "/items/@hD36xYjXqMwgPGwS/name": "Chien d’attaque",
-    "/items/@Zug8YehPY4icIfdV/system/description": "<p>L’Initiative de Canigou est identique à la vôtre et sa charge maximale est de 25 kg. Son niveau est égal au vôtre et augmente avec lui. Augmentez son Corps ou son Esprit de +1 au niveau 3, puis à chaque niveau impair. Augmentez sa Santé de +1 par niveau et lors de chaque augmentation de Corps. Les dégâts de sa Morsure augmentent de +1 DC au niveau 5, puis tous les 5 niveaux.</p>",
+    "/items/@Zug8YehPY4icIfdV/system/description": "<p>L’Initiative de Canigou est identique à la vôtre et sa charge maximale est de 25 kg. Son niveau est égal au vôtre et augmente avec lui. Augmentez son Corps ou son Esprit de +1 au niveau 3, puis à chaque niveau impair. Augmentez sa Santé de +1 par niveau et lors de chaque augmentation de Corps. Les dégâts de sa Morsure augmentent de +1 @fos[DC] au niveau 5, puis tous les 5 niveaux.</p>",
     "/items/@Zug8YehPY4icIfdV/name": "Compagnon",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "zflSJmUFBiNAFEwR",

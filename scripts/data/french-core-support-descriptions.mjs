@@ -41,7 +41,7 @@ export const FRENCH_CORE_SUPPORT_EFFECTS={
     "Blood Cleanser":p("Relancez le jet de dépendance des drogues addictives tant que l’armure est alimentée."),
     "Braced":p("Vous gagnez +2 à toutes les résistances aux dégâts contre les attaques de corps à corps."),
     "Brawling":p("Vos attaques à mains nues infligent +1 @fos[DC] de dégâts."),
-    "Calibrated Shocks":p("Votre charge maximale augmente de 50."),
+    "Calibrated Shocks":p("Votre charge maximale augmente de +25."),
     "Core Assembly":p("Tant que l’armure est alimentée, si vous commencez votre tour alors que la réserve commune ne contient aucun PA, ajoutez-y 1 PA."),
     "Cushioned":p("Vous gagnez +2 à la résistance aux dégâts physiques contre les dégâts de chute."),
     "Deep Pocketed":p("Votre charge maximale augmente de 20."),
@@ -81,13 +81,13 @@ export const FRENCH_CORE_SUPPORT_EFFECTS={
     "Hazard Detection Mod":p("Réduisez de 1 la difficulté des tests de Survie visant à détecter et neutraliser des pièges ou dangers similaires (minimum 0)."),
     "Integral Boiler Mod":p("Une fois par scène hors combat, transformez 2 unités d’eau sale en 1 unité d’eau purifiée en dix minutes."),
     "Lockpick Module":p("Réduisez de 1 la difficulté des tests de Crochetage (minimum 0). Le robot n’a pas besoin d’épingles à cheveux ni d’autres outils de crochetage."),
-    "Radiation Coils":p("Peuvent être activées ou désactivées au début d’un tour. Lorsqu’elles sont actives, toutes les créatures à portée de contact subissent 3 @fos[DC] de dégâts de radiation à la fin du tour du robot."),
+    "Radiation Coils":p("Peuvent être allumées ou éteintes au début d’un tour. Quand elles sont allumées, toutes les créatures à portée de main subissent 3 @fos[DC] de dégâts de radiation à la fin du tour du robot."),
     "Recon Sensors":p("Réduisez de 1 la difficulté des tests visant à détecter des adversaires cachés (minimum 0). Les ennemis visibles qui tentent de se cacher augmentent de 1 la difficulté de leurs tests de Discrétion."),
     "Regeneration Field":p("Hors combat, les alliés récupèrent 2 PV au début de chaque scène durant laquelle vous êtes présent."),
-    "Resistance Field":p("Les alliés à portée courte bénéficient de +2 à leur résistance aux dégâts physiques."),
+    "Resistance Field":p("Les alliés à portée courte reçoivent +2 en résistance aux dégâts balistiques."),
     "Sensor Array":p("Relancez 1d20 lors de tous les tests de PER. Vous pouvez tenter des tests de PER pour détecter ce que l’œil nu ne perçoit normalement pas, comme les radiations."),
     "Stealth Field":p("Les alliés à portée courte peuvent relancer 1d20 lors de leurs tests de Discrétion."),
-    "Tesla Coils":p("Peuvent être activées ou désactivées au début d’un tour. Lorsqu’elles sont actives, tous les ennemis à portée de contact subissent 4 @fos[DC] de dégâts énergétiques Perforants 1 et Étourdissants à la fin du tour du robot.")
+    "Tesla Coils":p("Peuvent être allumées ou éteintes au début d’un tour. Quand elles sont allumées, tous les ennemis à portée de main subissent 4 @fos[DC] de dégâts énergétiques Perforants 1 et Étourdissants à la fin du tour du robot.")
   }
 };
 
@@ -97,5 +97,5 @@ export const FRENCH_APPAREL_MOD_DESCRIPTION_GROUPS=[
   {names:["Hydraulic Bracers","Optimized Bracers","Tesla Bracers","Jetpack","Rusty Knuckles","Reactive Plates","Lead Plating","Lead Plating (Torso)","Titanium Plating","Titanium Plating (Torso)"],text:p("Cette modification s’installe avec la compétence Réparation.")},
   {names:["Winterized Coating","Winterized Coating (Torso)"],text:p("Cette modification s’installe avec la compétence Réparation. Elle ne peut pas être installée sur une armure assistée X-01.")},
   {names:["Shadowed Leather","Shadowed Leather (Torso)","Shadowed Metal","Shadowed Metal (Torso)","Shadowed","Shadowed (Torso)"],text:p("De nombreux types d’armure peuvent recevoir une finition ombrée, plus sombre et moins réfléchissante.</p><ul><li>Avec une ou deux pièces, ignorez la première complication obtenue à un test de Discrétion dans une lumière faible ou l’obscurité.</li><li>Avec trois pièces ou plus, relancez 1d20 lors d’un test de Discrétion par scène dans ces conditions.</li><li>Avec cinq pièces ou plus, relancez 1d20 lors de chacun de ces tests.</li></ul><p>Le plastron compte comme deux pièces. Une finition ombrée ne procure aucun avantage dans une armure assistée.")},
-  {names:["Ballistic Weave","Ballistic Weave Mk II","Ballistic Weave Mk III","Ballistic Weave Mk IV","Ballistic Weave Mk V"],text:p("Le tissage polymère balistique améliore la protection de certains vêtements. Une couche de ce tissu artificiel résistant leur permet de mieux supporter les impacts, les balles et les décharges énergétiques. Cette recette rare n’est connue que de quelques personnes. Toutes les modifications de tissage balistique s’installent avec la compétence Réparation.")}
+  {names:["Ballistic Weave","Ballistic Weave Mk II","Ballistic Weave Mk III","Ballistic Weave Mk IV","Ballistic Weave Mk V"],text:p("Le tissu balistique en polymère améliore la protection de certains vêtements. Une couche de ce tissu artificiel résistant leur permet de mieux supporter les impacts, les balles et les décharges énergétiques. Cette recette rare n’est connue que de quelques personnes. Tous les mods de tissu balistique s’installent avec la compétence Réparation.")}
 ];

@@ -2,7 +2,7 @@
   "_key": "!items!lVYblrMAgEfHnWTR",
   "_file": "armure_de_scribe_de_la_confrerie__lVYblrMAgEfHnWTR.json",
   "values": {
-    "/name": "Armure de scribe de la Confrérie",
+    "/name": "Armure de scribe de terrain de la Confrérie",
     "/system/description": "<p>Les scribes de la Confrérie de l’Acier doivent parfois s’aventurer sur le terrain pour observer ou mener leurs recherches au plus près. Cette tenue n’offre qu’une protection limitée, mais suffit à préserver son porteur le temps de se replier et d’obtenir l’aide de quelqu’un de mieux équipé.</p>",
     "/system/weight": 2,
     "/flags/fallout2d20-compendium/source/language": "fr",

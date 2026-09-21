@@ -2,8 +2,8 @@
   "_key": "!items!pV3wtJn1fqwTcBMj",
   "_file": "med_x__pV3wtJn1fqwTcBMj.json",
   "values": {
-    "/system/description": "<p>Le Med-X est un puissant analgésique opiacé qui réduit fortement la perception de la douleur et la réaction émotionnelle naturelle qu’elle provoque. <strong>Dépendance au Med-X :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, augmentez de +1 la difficulté de tous vos tests d’AGI et subissez +1 @fos[DC] dégât supplémentaire de toutes les attaques physiques.</p>",
-    "/system/effect": "<p>+3 à la résistance aux dégâts physiques.</p>",
+    "/system/description": "<p>Le Med-X est un puissant analgésique opiacé qui réduit fortement la perception de la douleur et la réaction émotionnelle naturelle qu’elle provoque. <strong>Dépendance au Med-X :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, augmentez de +1 la difficulté de tous vos tests d’AGI et subissez +1 @fos[DC] dégât supplémentaire de toutes les attaques balistiques.</p>",
+    "/system/effect": "<p>+3 à la résistance aux dégâts balistiques.</p>",
     "/system/weight": 0.05,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "pV3wtJn1fqwTcBMj",

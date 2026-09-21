@@ -2,7 +2,7 @@
   "_key": "!items!K63y4mcKxr792XLB",
   "_file": "brassards_tesla__K63y4mcKxr792XLB.json",
   "values": {
-    "/name": "Brassards Tesla",
+    "/name": "Bracelets Tesla",
     "/system/description": "<p>Cette modification s’installe avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Établi d’armures assistées}</dd><dt>Complexité</dt><dd>6</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.422BCVbfcp5q8M8I]{Forgeron} 3, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Scientifique} 1</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×7</li><li>Matériaux peu fréquents ×5</li><li>Matériaux rares ×3</li></ul></section>",
     "/system/effect": "<p>Tant que l’armure est alimentée, vos attaques à mains nues infligent +2 @fos[DC] de dégâts et deviennent énergétiques.</p>",
     "/system/weight": 0.5,

@@ -19,7 +19,7 @@
     "/items/@QChQJ9QZHqMa8jBF/name": "Immunisé contre la peur",
     "/items/@vFBcleoDVSY9A7Nf/system/description": "<p>Cette créature est immunisée contre les effets de toutes les maladies et n’en subit jamais les symptômes.</p>",
     "/items/@vFBcleoDVSY9A7Nf/name": "Immunisé contre les maladies",
-    "/items/@O0GOoAmCfcN8pf1i/system/description": "<p>Une attaque portée sans arme, à coups de poing, de pied ou avec une autre partie du corps.</p>",
+    "/items/@O0GOoAmCfcN8pf1i/system/description": "<p><strong>CORPS + Corps à corps (SR 7)</strong>, 2 DC de dégâts balistiques.</p>",
     "/items/@O0GOoAmCfcN8pf1i/system/weight": 0,
     "/items/@O0GOoAmCfcN8pf1i/name": "Attaque à mains nues",
     "/items/@EawYhE0ig3n6ex5B/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",

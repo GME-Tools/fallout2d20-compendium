@@ -23,7 +23,7 @@
     "/items/@NwTzZ7t0qaPwCARB/name": "Petit",
     "/items/@hoUtPqitkECW6KkF/system/description": "<p>Une radcafard possède un SR de 10 pour ses tests de Discrétion et lance +1d20 lors de ses attaques furtives.</p>",
     "/items/@hoUtPqitkECW6KkF/name": "Discret",
-    "/items/@xWvNi5K94pbPMLiZ/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer une radcafard mort avec un test réussi d’<strong>END + Survie</strong> de difficulté 0. Ils obtiennent 1 portion de viande de radcafard.</p>",
+    "/items/@xWvNi5K94pbPMLiZ/$overrides/~1system~1description": "<p>Les pilleurs peuvent dépecer un radcafard mort en réussissant un test d’<strong>END + Survie</strong> de difficulté 0. Ils récupèrent ainsi 1 morceau de viande de radcafard.</p>",
     "/items/@JvLBQgLpnSnux11y/system/description": "<p>Cette créature réduit à 0 tous les dégâts de radiation subis et ne peut subir aucun dégât ni effet provoqué par les radiations.</p>",
     "/items/@JvLBQgLpnSnux11y/name": "Immunisé contre les radiations",
     "/items/@ZdLyFovjZpRBZ2c8/system/description": "<p>Cette créature réduit à 0 tous les dégâts de poison subis et ne peut subir aucun dégât ni effet provoqué par le poison.</p>",

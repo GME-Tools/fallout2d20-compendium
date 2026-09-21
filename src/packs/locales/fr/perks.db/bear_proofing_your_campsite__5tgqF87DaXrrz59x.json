@@ -3,7 +3,7 @@
   "_file": "proteger_son_campement_des_ours__5tgqF87DaXrrz59x.json",
   "values": {
     "/name": "Protéger son campement des ours",
-    "/system/description": "<p>Une attaque contre un yao guai inflige +3 DC de dégâts.</p>",
+    "/system/description": "<p>Une attaque contre un yao guai inflige +3 @fos[DC] de dégâts.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

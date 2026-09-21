@@ -2,8 +2,8 @@
   "_key": "!items!eFk2o4BJK1wcWTDN",
   "_file": "armure_renforcee_de_pillard_jambe_droite__eFk2o4BJK1wcWTDN.json",
   "values": {
-    "/name": "Armure renforcée de pillard Jambe droite",
-    "/system/description": "<p>Armure improvisée des pillards et autres coupe-gorges, faite de ferraille martelée, renforcée de barres, fils et sangles de cuir, souvent ornée de trophées macabres. Chaque pièce accepte un Matériau et une Amélioration. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Les super mutants ne peuvent porter que l’armure de pillard. Installation avec Réparation. Matériaux : Soudé, Trempé, Durci, Contrefort.</p>",
+    "/name": "Jambe de pillard solide (droit)",
+    "/system/description": "<p>Armure improvisée des pillards et autres coupe-gorges, faite de ferraille martelée, renforcée de barres, fils et sangles de cuir, souvent ornée de trophées macabres. Chaque pièce accepte un Matériau et une Amélioration. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Les super mutants ne peuvent porter que l’armure de pillard. Installation avec Réparation. Matériaux : Soudé, Trempé, Renforcé, Étayé.</p>",
     "/system/mods/0wIVX8zUon56LDsB/system/weight": 0.5,
     "/system/mods/FySCG1SWS7SABvE7/system/weight": 1,
     "/system/mods/GDI7gRGYrMxEpm99/system/weight": 1.5,

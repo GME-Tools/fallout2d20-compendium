@@ -4,6 +4,7 @@
   "values": {
     "/items/@O0GOoAmCfcN8pf1i/system/weight": 0,
     "/items/@O0GOoAmCfcN8pf1i/name": "Attaque à mains nues",
+    "/items/@O0GOoAmCfcN8pf1i/system/description": "<p><strong>FOR + Mains nues (SR 5)</strong>, 2 DC de dégâts balistiques.</p>",
     "/items/@2TR0yWRaj0zGYgN8/system/weight": 0,
     "/items/@2TR0yWRaj0zGYgN8/system/effect": "<p>Vêtements résistants, Richesse 2.</p>",
     "/items/@2TR0yWRaj0zGYgN8/name": "Inventaire",
@@ -18,7 +19,7 @@
     "/items/@mnWe1SNhiA7pCawZ/name": "Crochetage",
     "/items/@dXuqeThHcSBAeDy9/name": "Réparation",
     "/items/@8ZkSA0CFoUiTBBCb/name": "Sciences",
-    "/items/@crWvZcT5Hgkcrk4S/system/description": "<p>Munitions: cartouches .308 Un fusil à verrou généralement manié par les super mutants et les pillards. Son design simple l’avait rendu populaire parmi les chasseurs et les survivalistes avant la Grande Guerre et il est très facilement personnalisable. Suggérer que la pétoire à canon court sans fioritures maniée par un super mutant pourrait être transformée en fusil de sniper de précision semble fantaisiste, mais cela décrit parfaitement le fusil de chasse. Un fusil de chasse peut accepter un mod de chaque type parmi les suivants:  Culasse: optimisée, calibrée, renforcée, puissante, culasse .38, culasse .50  Canon: canon long, canon à ouvertures, canon ventilé  Crosse: crosse complète, crosse de tireur d’élite  Chargeur: grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur: viseur laser, lunette courte, lunette longue, lunette de vision nocturne courte, lunette de vision nocturne longue, lunette de reconnaissance  Bouche: baïonnette, silencieux</p>",
+    "/items/@crWvZcT5Hgkcrk4S/system/description": "<p><strong>AGI + Armes légères (SR 7)</strong>, 6 DC de dégâts balistiques Perforants 1, portée M, Deux mains.</p>",
     "/items/@crWvZcT5Hgkcrk4S/system/weight": 5,
     "/items/@crWvZcT5Hgkcrk4S/name": "Fusil de chasse",
     "/items/@daxl50hcrrzBpyOR/system/description": "<p>Sous couverture, l’agent du Réseau du Rail gagne un d20 supplémentaire à tout test de Discours impliquant une tromperie.</p>",
@@ -38,7 +39,7 @@
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/carryWeight/base": 100,
     "/system/origin": "Humain",
-    "/system/biography": "<p>La faction secrète du Réseau du Rail cherche à libérer les synthétiques de troisième génération contrôlés par l’Institut. Ses agents travaillent souvent dans l’ombre, agissent et s’habillent de la façon la plus discrète possible. Ils préfèrent s’en remettre au subterfuge pour mener leurs missions à bien. Cela ne les empêche toutefois pas de sortir leurs armes lorsqu’on leur met des bâtons dans les roues ou que l’on pactise avec leurs ennemis, par exemple la Confrérie de l’Acier. Ch</p>",
+    "/system/biography": "<p>La faction secrète du Réseau du Rail cherche à libérer les synthétiques de troisième génération contrôlés par l’Institut. Ses agents travaillent souvent dans l’ombre, agissent et s’habillent de la façon la plus discrète possible. Ils préfèrent s’en remettre au subterfuge pour mener leurs missions à bien. Cela ne les empêche toutefois pas de sortir leurs armes lorsqu’on leur met des bâtons dans les roues ou que l’on pactise avec leurs ennemis, par exemple la Confrérie de l’Acier.</p>",
     "/name": "Agent du Réseau du Rail"
   }
 }

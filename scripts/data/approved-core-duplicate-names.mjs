@@ -3,13 +3,6 @@
 // Approval is tied to the complete, stable-ID group: adding, removing, or
 // replacing an entry makes validation fail instead of silently hiding it.
 export const APPROVED_CORE_DUPLICATE_NAME_GROUPS = {
-  apparel: [
-    ["F15SCdqO8m3rhpkc", "qEljKwu1UzA9BoL6"],
-    ["CCrzErrpyLp7Ruz4", "Fn3CiQjQCfE9IMy4"],
-    ["JTHWr7cr6HeS2mN5", "lW7UmLaX9cJtuYIV"],
-    ["th5iQbnAiLsKzIVV", "U38QzZYOaKw1oC3h"],
-    ["C5ifa1Dx7rIxx65I", "KSd9eiC0XaVlIXkN"]
-  ],
   weapons: [
     ["75n1EFSJw8xxti6s", "q3RjTNEYvfHVBzVk"]
   ],
@@ -36,7 +29,6 @@ export const APPROVED_CORE_DUPLICATE_NAME_GROUPS = {
     ["M5ox31Qif67xBC0m", "dgWySoP4IQ9p2uyO"],
     ["AMOEO5RXltJZM8kz", "qASlWkpHosmgn97l", "rh3GtWKomZnQpS1H"],
     ["7hxh0xRNMyflfbJp", "GFJP4TRDRaOQoOe8", "uUiwz6PvOMdkU6yE", "vq6OcwFKhScFr26X"],
-    ["EuJw4xP1fRt5hdCy", "M2Tl0fVG6LzG9wtj", "fTMm3IipqcnU6tm4", "hfiueRXOH8ryrfrv", "uaOXQJwoub6ZmUdc"],
     ["4sOu5mfXcDlUVlUP", "zAlW93haMYH8Nwp2"],
     ["vyesQvmRObpdSNpO", "wUd5pTA33zRH1AWW"],
     ["TxOsscfkniBk2a85", "fyaQkFSXyexqZc0u"],
@@ -52,7 +44,22 @@ export function duplicateGroupSignature(ids) {
 // French legitimately collapses a few distinct English labels to the same
 // published term. Groups which overlap a language-neutral group are merged.
 const APPROVED_LOCALIZED_DUPLICATE_NAME_GROUPS = {
+  "fr/apparel-mods": [
+    ["gI1rYMmsXnPOqctB", "DSrje3suQ5wYyMYp", "wchyh9LXoAUTHYKT"],
+    ["yoRbLyIzNTy0VwGT", "WCywfTr7TSWsWCPm"]
+  ],
+  "en/apparel": [
+    ["F15SCdqO8m3rhpkc", "qEljKwu1UzA9BoL6"],
+    ["CCrzErrpyLp7Ruz4", "Fn3CiQjQCfE9IMy4"],
+    ["JTHWr7cr6HeS2mN5", "lW7UmLaX9cJtuYIV"],
+    ["th5iQbnAiLsKzIVV", "U38QzZYOaKw1oC3h"],
+    ["C5ifa1Dx7rIxx65I", "KSd9eiC0XaVlIXkN"]
+  ],
+  "en/weapon-mods": [
+    ["EuJw4xP1fRt5hdCy", "M2Tl0fVG6LzG9wtj", "fTMm3IipqcnU6tm4", "hfiueRXOH8ryrfrv", "uaOXQJwoub6ZmUdc"]
+  ],
   "fr/weapon-mods": [
+    ["EuJw4xP1fRt5hdCy", "M2Tl0fVG6LzG9wtj", "fTMm3IipqcnU6tm4", "hfiueRXOH8ryrfrv"],
     ["6hh0Evmfv0N8kX81", "CapaBoostCoil001"],
     ["6oW2tdrYzdu0klW4", "KkRxsFbFTL89H3Ra"],
     ["RyggZv9PwKChzJwB", "MIMSkUavfShkeY8x", "bhpEF2ZReAacz7NI", "cs76CKLMxYAzhNhb"]

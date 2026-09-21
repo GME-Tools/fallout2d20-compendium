@@ -2,7 +2,7 @@
   "_key": "!items!Ece0BCI67om6qF2y",
   "_file": "armure_lourde_de_metal_bras_gauche__Ece0BCI67om6qF2y.json",
   "values": {
-    "/name": "Armure lourde de métal Bras gauche",
+    "/name": "Brassard en métal lourd (gauche)",
     "/system/description": "<p>Des plaques métalliques façonnées et maintenues par des sangles de cuir ou de tissu offrent une bonne protection contre les impacts et les balles, mais moindre contre l’énergie car le métal conduit la chaleur. Chaque pièce sauf le casque accepte un Matériau et une Amélioration ; le casque accepte seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Installation avec Réparation. Matériaux : Métal peint, émaillé, ombré, allié ou poli.</p>",
     "/system/mods/3d0refqygOWlr08D/system/weight": 0.5,
     "/system/mods/EYNQabnyteOkkeoP/system/weight": 1,

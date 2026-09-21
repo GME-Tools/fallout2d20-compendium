@@ -4,6 +4,7 @@
   "values": {
     "/items/@O0GOoAmCfcN8pf1i/system/weight": 0,
     "/items/@O0GOoAmCfcN8pf1i/name": "Attaque à mains nues",
+    "/items/@O0GOoAmCfcN8pf1i/system/description": "<p><strong>FOR + Mains nues (SR 5)</strong>, 2 DC de dégâts balistiques.</p>",
     "/items/@2TR0yWRaj0zGYgN8/system/weight": 0,
     "/items/@2TR0yWRaj0zGYgN8/system/effect": "<p>Vêtements résistants, Pistolet Gamma, 2d20 cartouches Gamma, Richesse 1.</p>",
     "/items/@2TR0yWRaj0zGYgN8/name": "Inventaire",
@@ -14,7 +15,7 @@
     "/items/@HI59V79ntDFlRJJo/name": "Troc",
     "/items/@scbIXaQWTbCqlgfV/name": "Armes à énergie",
     "/items/@kaU2u3H74QBGWA7K/name": "Réparation",
-    "/items/@Ibx6heVwQZhr2Uyq/system/description": "<p>Munitions: cartouches Gamma Le pistolet Gamma est une arme d’apparence grossière qui émet des déflagrations de rayonnement ionisant à haute intensité dirigées sur un point précis, ce qui peut se révéler dévastateur pour toute créature qui n’est pas immunisée contre les radiations ou au moins très résistante à leurs effets, mais fait très peu de mal aux autres cibles. Un pistolet Gamma peut accepter un mod de chaque type parmi les suivants, lesquels sont réservés au pistolet Gamma et s’installent avec la compétence Sciences:</p>",
+    "/items/@Ibx6heVwQZhr2Uyq/system/description": "<p><strong>PER + Armes à énergie (SR 8)</strong>, 3 DC de dégâts de radiation, Étourdissants, Perforants 1, portée M, cadence de tir 1, Imprécis, Zone d’impact.</p>",
     "/items/@Ibx6heVwQZhr2Uyq/system/weight": 1.5,
     "/items/@Ibx6heVwQZhr2Uyq/name": "Pistolet Gamma",
     "/items/@d3z4Y5dhkUfV9yBK/system/description": "<p>Les Enfants de l’Atome vivent dans certaines des zones les plus radioactives des Terres désolées et semblent souvent n’en subir que peu ou pas les effets. Qu’il s’agisse de chance, d’une prédisposition génétique ou d’une preuve de l’existence de l’Atome, ils gagnent +2 à leur Résistance aux dégâts de radiation.</p>",
@@ -34,7 +35,7 @@
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/system/carryWeight/base": 100,
     "/system/origin": "Humain",
-    "/system/biography": "<p>Certains affirment que les Enfants d’Atome sont des fanatiques, d’autres qu’ils forment un culte comme un autre… Quoi qu’il en soit, on peut en trouver dans toutes les Terres désolées et ils vénèrent les matériaux radioactifs ainsi que leurs effets. Ils se regroupent souvent dans un lieu précis, hautement radioactif ou mieux encore: un site possédant un support matériel devant lequel ils peuvent prier, comme un cratère de bombe nucléaire. Étrangement, les Enfants d’Atome semblent peu souffrir des radiations, s’élevant pourtant parfois à un taux cent fois supérieur à ce qui tuerait un humain. Eux ne semblent pas tomber malades ni devenir des goules. Lorsqu’on les croise, ils tentent toujours de répandre la bonne parole de l’Atome, mais certains groupes sont paranoïaques et hostiles aux étrangers.</p>",
+    "/system/biography": "<p>Certains affirment que les Enfants d’Atome sont des fanatiques, d’autres qu’ils forment un culte comme un autre… Quoi qu’il en soit, on peut en trouver dans toutes les Terres désolées et ils vénèrent les matériaux radioactifs ainsi que leurs effets. Ils se regroupent souvent dans un lieu précis, hautement radioactif ou mieux encore : un site possédant un support matériel devant lequel ils peuvent prier, comme un cratère de bombe nucléaire. Étrangement, les Enfants d’Atome semblent peu souffrir des radiations, s’élevant pourtant parfois à un taux cent fois supérieur à ce qui tuerait un humain. Eux ne semblent pas tomber malades ni devenir des goules. Lorsqu’on les croise, ils tentent toujours de répandre la bonne parole de l’Atome, mais certains groupes sont paranoïaques et hostiles aux étrangers.</p>",
     "/name": "Enfant d’Atome"
   }
 }

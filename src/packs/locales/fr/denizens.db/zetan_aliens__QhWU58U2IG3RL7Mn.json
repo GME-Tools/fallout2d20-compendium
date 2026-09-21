@@ -4,6 +4,7 @@
   "values": {
     "/items/@5LtxxnCOLvroJr7J/system/weight": 0,
     "/items/@5LtxxnCOLvroJr7J/name": "Blaster alien",
+    "/items/@5LtxxnCOLvroJr7J/system/description": "<p><strong>CORPS + Distance (SR 11)</strong>, 5 DC de dégâts énergétiques, portée C, cadence de tir 2, Fiable.</p>",
     "/items/@rBd2BSTsxtZHdXl5/system/weight": 0,
     "/items/@rBd2BSTsxtZHdXl5/system/effect": "<p>Blaster alien et 5d20 munitions de blaster alien.</p>",
     "/items/@rBd2BSTsxtZHdXl5/name": "Inventaire",

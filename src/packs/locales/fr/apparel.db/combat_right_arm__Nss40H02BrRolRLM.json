@@ -2,7 +2,7 @@
   "_key": "!items!Nss40H02BrRolRLM",
   "_file": "de_combat_bras_droit__Nss40H02BrRolRLM.json",
   "values": {
-    "/name": "de combat Bras droit",
+    "/name": "Brassard d’armure de combat (droit)",
     "/system/description": "<p>Conçues avant la Guerre pour les soldats américains, ces pièces protègent des attaques physiques comme énergétiques sans être encombrantes. La Confrérie de l’Acier les emploie lorsque l’armure assistée est indisponible ou inadaptée. Chaque pièce sauf le casque accepte deux mods : un Matériau et une Amélioration ; le casque accepte seulement un Matériau. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Tous les mods de Matériau s’installent avec Réparation. Matériaux : Renforcé, Ombré, Fibre de verre, Polymère.</p>",
     "/system/mods/3d0refqygOWlr08D/system/weight": 0.5,
     "/system/mods/DSrje3suQ5wYyMYp/system/weight": 0.5,
