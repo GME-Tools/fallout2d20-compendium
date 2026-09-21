@@ -299,7 +299,10 @@
         "importedFromLegacy": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Dogmeat"
+        "artworkSource": "repository alias for Dogmeat",
+        "page": 63,
+        "coreCharacterCreationReviewed": true,
+        "errataReviewed": true
       }
     }
   },

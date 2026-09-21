@@ -2,7 +2,7 @@
   "_key": "!items!iDaMlrcxl6kEm3Ex",
   "_file": "party_boy_party_girl__iDaMlrcxl6kEm3Ex.json",
   "values": {
-    "/name": "Party Boy / Party Girl",
+    "/name": "Party Boy/Party Girl",
     "/system/description": "<p>You cannot become addicted to alcoholic drinks, and whenever you drink an alcoholic drink, you heal +2 HP.</p>\n<p><strong>Requirements</strong>: END 6, CHA 7</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",

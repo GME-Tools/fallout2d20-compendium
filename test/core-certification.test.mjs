@@ -286,3 +286,165 @@ test("Core p.59-60 perk text preserves combat-die symbols and applied errata", a
   assert.match(barbarianFr, /RD balistiques et énergétiques \+3/);
 });
 
+test("Core perk lot pp.61-64 and bilingual counterpart entries match source coordinates and mechanics", async () => {
+  const expected = new Map([
+    ["P5eJ7NOJMV8r9cHo", { page: 61, fr: [65], ranks: 1, attributes: { str: 8 } }],
+    ["3bfAQcNKzjD0aOJ8", { page: 61, fr: [72], ranks: 1, attributes: { cha: 6 } }],
+    ["422BCVbfcp5q8M8I", { page: 61, fr: [65], ranks: 3, attributes: { str: 6 }, level: 2, levelIncrease: 4 }],
+    ["jhef5zecOk3vQhGy", { page: 61, fr: [70], ranks: 1, attributes: { luc: 6 } }],
+    ["xTNbBLx2nxvf1mIE", { page: 61, fr: [62], ranks: 1, attributes: { luc: 5 } }],
+    ["BKTkXhJHSgVjdsKT", { page: 61, fr: [64], ranks: 1, attributes: { cha: 5 } }],
+    ["xwXPepqdLzr8uPMX", { page: 62, fr: [67], ranks: 1, attributes: { per: 7 } }],
+    ["49AOicQFjlfIKNUe", { page: 62, fr: [70], ranks: 2, attributes: { end: 7 }, level: 1, levelIncrease: 4 }],
+    ["HUmwhrS7v9g31nOG", { page: 62, fr: [62], ranks: 1, attributes: { int: 7 } }],
+    ["H6W082nVJtDeSthQ", { page: 62, fr: [62], ranks: 2, attributes: { agi: 8 }, level: 2, levelIncrease: 3 }],
+    ["51j1AqLl4zHqoVsN", { page: 62, fr: [62], ranks: 1, attributes: { int: 6 } }],
+    ["YLA9JETKbkkHd3uz", { page: 62, fr: [72], ranks: 1, attributes: { per: 8, agi: 6 } }],
+    ["VTtncpMUhGBxjmlQ", { page: 62, fr: [67], ranks: 1, attributes: { luc: 7 } }],
+    ["ureiid51WVHnCcSG", { page: 63, fr: [63], ranks: 1, attributes: { per: 6, luc: 6 } }],
+    ["5r60cyfjkvkYlTvs", { page: 63, fr: [71], ranks: 2, attributes: { agi: 6 }, level: 4, levelIncrease: 6 }],
+    ["6VAkIp310dSGvCj7", { page: 63, fr: [61], ranks: 1, attributes: { cha: 5 } }],
+    ["Vk0RIc9X6HaypmwJ", { page: 64, fr: [63], ranks: 1, attributes: { int: 7 } }],
+    ["T3vX1fP7cSG5v0zh", { page: 64, fr: [67], ranks: 3, attributes: { end: 6 }, level: 1, levelIncrease: 3, notRobot: true }],
+    ["TTCwoZV141ZGuMjs", { page: 64, fr: [65], ranks: 1, attributes: { end: 6 }, notRobot: true }],
+    ["DlJVCaT4RLT38Kgs", { page: 64, fr: [64], ranks: 1, attributes: { agi: 9 } }],
+    ["zQpZJuiwAC8Zk9a0", { page: 64, fr: [63], ranks: 3, attributes: { luc: 5 }, level: 2, levelIncrease: 4 }],
+    ["wC8TgVkF6OhFY9XR", { page: 64, fr: [64], ranks: 1, attributes: { per: 5, agi: 6 } }],
+    ["YDRoA6dGjWXy06hf", { page: 64, fr: [72], ranks: 1, attributes: { luc: 8 } }],
+    ["Nei43KlUxbHLw6MI", { page: 64, fr: [72], ranks: 3, attributes: { agi: 10 }, level: 1, levelIncrease: 5 }],
+    ["zB82J3WJ7ld01RYR", { page: 65, fr: [62], ranks: 1, attributes: { end: 6 } }],
+    ["Ba5yPRdNAvjM5StI", { page: 65, fr: [64], ranks: 4, attributes: { int: 6 }, level: 2, levelIncrease: 4 }],
+    ["P3SMmJulZT5OyArI", { page: 66, fr: [63], ranks: 10, level: 2, levelIncrease: 2 }],
+    ["trdF2qUBRHrj3YNW", { page: 66, fr: [61], ranks: 1 }],
+    ["VtCwIMtash7XcwxP", { page: 66, fr: [62], ranks: 2, attributes: { per: 8 }, level: 2, levelIncrease: 4 }],
+    ["E3vqYT7JvmyDeFyU", { page: 69, fr: [64], ranks: 1, attributes: { luc: 6 } }],
+    ["iDaMlrcxl6kEm3Ex", { page: 69, fr: [64], ranks: 1, attributes: { end: 6, cha: 7 } }],
+    ["Xz1V9etWzTtwt5x5", { page: 70, fr: [63], ranks: 1, attributes: { agi: 6 } }],
+    ["GiPKNxmrkWA2k76W", { page: 70, fr: [63, 64], ranks: 3, attributes: { int: 8 }, level: 2, levelIncrease: 4 }],
+    ["j4XUYfEZwmvkfXBe", { page: 71, fr: [61], ranks: 1, attributes: { cha: 7 } }],
+    ["zXQUHfk3g9d7WDG1", { page: 71, fr: [64], ranks: 3, attributes: { luc: 6 }, level: 1, levelIncrease: 5 }],
+    ["SfcMrqZU78wIJQ0r", { page: 71, fr: [62], ranks: 1, attributes: { str: 5, agi: 7 } }]
+  ]);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "perks").map(entry => [entry.documentId, entry]));
+  for (const [id, expectation] of expected) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, `certification entry missing for perk ${id}`);
+    assert.equal(entry.page, expectation.page, `${id} source page`);
+    assert.deepEqual(entry.sourcePages?.en, [expectation.page], `${id} EN source coordinate`);
+    assert.deepEqual(entry.sourcePages?.fr, expectation.fr, `${id} FR source coordinate`);
+  }
+
+  for (const language of ["en", "fr"]) {
+    const byId = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+    for (const [id, expectation] of expected) {
+      const document = byId.get(id);
+      assert.ok(document, `${language}/perks/${id} missing`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, expectation.page);
+      assert.equal(document.system.rank.max, expectation.ranks);
+      for (const [attribute, value] of Object.entries(expectation.attributes ?? {})) {
+        assert.equal(document.system.requirementsEx.attributes[attribute].value, value, `${language}/perks/${id} ${attribute}`);
+      }
+      if (expectation.level !== undefined) assert.equal(document.system.requirementsEx.level, expectation.level);
+      if (expectation.levelIncrease !== undefined) assert.equal(document.system.requirementsEx.levelIncrease, expectation.levelIncrease);
+      if (expectation.notRobot !== undefined) assert.equal(document.system.requirementsEx.notRobot, expectation.notRobot);
+    }
+  }
+});
+
+test("Core perk lot pp.61-64 preserves source names, dice symbols and reviewed localization", async () => {
+  const docs = {};
+  for (const language of ["en", "fr"]) {
+    docs[language] = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+  }
+
+  assert.equal(docs.en.get("3bfAQcNKzjD0aOJ8").name, "Black Widow/Lady Killer");
+  assert.equal(docs.en.get("YDRoA6dGjWXy06hf").name, "Grim Reaper’s Sprint");
+  assert.equal(docs.en.get("iDaMlrcxl6kEm3Ex").name, "Party Boy/Party Girl");
+
+  for (const id of [
+    "3bfAQcNKzjD0aOJ8", "jhef5zecOk3vQhGy", "49AOicQFjlfIKNUe",
+    "H6W082nVJtDeSthQ", "51j1AqLl4zHqoVsN", "YLA9JETKbkkHd3uz",
+    "DlJVCaT4RLT38Kgs", "zQpZJuiwAC8Zk9a0", "YDRoA6dGjWXy06hf",
+    "VtCwIMtash7XcwxP", "zXQUHfk3g9d7WDG1"
+  ]) {
+    assert.match(docs.en.get(id).system.description, /@fos\[DC\]/, `${id} combat-die markup`);
+    assert.doesNotMatch(docs.en.get(id).system.description, /(?:DD?CD|\+\d+\s+CD\b|roll 1 CD\b)/, `${id} stale extracted dice token`);
+  }
+
+  assert.match(docs.en.get("wC8TgVkF6OhFY9XR").system.description, /Requirements<\/strong>: PER 5, AGI 6/);
+  assert.match(docs.fr.get("j4XUYfEZwmvkfXBe").system.description, /Discours destiné à convaincre quelqu’un d’un mensonge/);
+  assert.doesNotMatch(docs.fr.get("j4XUYfEZwmvkfXBe").system.description, /D i s c o u r s|des -|q u e l q u/);
+
+  const dogmeatPerkFr = docs.fr.get("6VAkIp310dSGvCj7").system.description;
+  assert.match(dogmeatPerkFr, /Vous n’êtes pas seul dans la nature/);
+  assert.doesNotMatch(dogmeatPerkFr, /CORPS ESPRIT|CAPACITÉS SPÉCIALES|MORSURE/);
+
+  const gunNut = docs.en.get("Ba5yPRdNAvjM5StI");
+  assert.equal(gunNut.system.rank.max, 4);
+  assert.match(gunNut.system.description, /small guns and heavy weapons/);
+});
+
+test("Dogmeat p.63 / Canigou p.61 Actor is complete with exact embedded mechanics and localization", async () => {
+  const records = {};
+  for (const language of ["en", "fr"]) {
+    records[language] = (await generatedDocuments(language)).find(
+      ({ pack, document }) => pack === "denizens" && document._id === "zflSJmUFBiNAFEwR"
+    )?.document;
+    assert.ok(records[language], `${language} Dogmeat Actor missing`);
+  }
+
+  for (const [language, actor] of Object.entries(records)) {
+    assert.equal(actor.flags["fallout2d20-compendium"].source.page, 63);
+    assert.equal(actor.system.level.value, 1);
+    assert.equal(actor.system.body.value, 5);
+    assert.equal(actor.system.mind.value, 4);
+    assert.equal(actor.system.melee.value, 2);
+    assert.equal(actor.system.guns.value, 0);
+    assert.equal(actor.system.other.value, 1);
+    assert.equal(actor.system.health.max, 6);
+    assert.equal(actor.system.defense.value, 1);
+    assert.equal(actor.system.bodyType, "quadruped");
+    for (const resistance of ["physical", "energy", "radiation", "poison"]) {
+      assert.equal(actor.system.resistance[resistance].value, 0, `${language} Dogmeat ${resistance} DR`);
+    }
+
+    const byItemId = new Map(actor.items.map(item => [item._id, item]));
+    const bite = byItemId.get("T5MviXJB7FfqNknk");
+    assert.ok(bite);
+    assert.equal(bite.system.attribute, "body");
+    assert.equal(bite.system.skill, "melee");
+    assert.equal(bite.system.damage.rating, 2);
+    assert.equal(bite.system.damage.damageType.physical, true);
+    assert.equal(bite.system.damage.damageEffect.vicious.value, true);
+
+    for (const id of ["llgr3hvuu5FXz7oH", "hD36xYjXqMwgPGwS", "Zug8YehPY4icIfdV"]) assert.ok(byItemId.get(id));
+  }
+
+  const enById = new Map(records.en.items.map(item => [item._id, item]));
+  assert.match(enById.get("llgr3hvuu5FXz7oH").system.description, /One or more of Dogmeat’s senses are especially keen/);
+  assert.match(enById.get("Zug8YehPY4icIfdV").system.description, /carry weight is 50 lbs/);
+  assert.match(enById.get("Zug8YehPY4icIfdV").system.description, /\+1 @fos\[DC\] at 5th level/);
+
+  const frById = new Map(records.fr.items.map(item => [item._id, item]));
+  assert.equal(records.fr.name, "Canigou");
+  assert.equal(records.fr.system.origin, "Mammifère");
+  assert.equal(records.fr.system.biography, "");
+  assert.match(frById.get("llgr3hvuu5FXz7oH").system.description, /Au moins l’un des sens de Canigou est particulièrement aiguisé/);
+  assert.match(frById.get("hD36xYjXqMwgPGwS").system.description, /il doit se placer à portée de main de votre cible/);
+  assert.match(frById.get("Zug8YehPY4icIfdV").system.description, /charge maximale est de 25 kg/);
+  assert.match(frById.get("Zug8YehPY4icIfdV").system.description, /tous les 2 niveaux par la suite/);
+  assert.match(frById.get("Zug8YehPY4icIfdV").system.description, /\+1 @fos\[DC\] au niveau 5/);
+  assert.equal(records.fr.flags["fallout2d20-compendium"].source.translationReviewed, true);
+  assert.equal(records.fr.flags["fallout2d20-compendium"].source.diceSymbolsReviewed, true);
+  assert.equal(records.fr.flags["fallout2d20-compendium"].source.errataReviewed, true);
+});
+

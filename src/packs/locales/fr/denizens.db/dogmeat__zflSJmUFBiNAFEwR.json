@@ -4,18 +4,18 @@
   "values": {
     "/items/@T5MviXJB7FfqNknk/system/weight": 0,
     "/items/@T5MviXJB7FfqNknk/name": "Morsure",
-    "/items/@llgr3hvuu5FXz7oH/system/description": "<p>Cette créature peut tenter de détecter des créatures ou objets normalement imperceptibles et réduit de 1 la difficulté de tous ses autres tests de <strong>PER</strong>, jusqu’à un minimum de 0.</p>",
+    "/items/@llgr3hvuu5FXz7oH/system/description": "<p>Au moins l’un des sens de Canigou est particulièrement aiguisé. Canigou peut essayer de détecter les créatures ou les objets que d’autres personnages ne pourraient pas repérer et il réduit de 1 (jusqu’à un minimum de 0) la difficulté de tous ses tests de PER.</p>",
     "/items/@llgr3hvuu5FXz7oH/name": "Sens aiguisés",
-    "/items/@hD36xYjXqMwgPGwS/system/description": "<p>Lorsque Canigou assiste l’une de vos attaques, il doit se déplacer à Portée de main de la cible. Si l’attaque réussit, il inflige également ses propres dégâts de corps à corps à la cible.</p>",
+    "/items/@hD36xYjXqMwgPGwS/system/description": "<p>Lorsque Canigou vous aide dans le cadre d’une attaque, il doit se placer à portée de main de votre cible. Si l’attaque est réussie, il inflige ses propres dégâts de corps à corps à la cible.</p>",
     "/items/@hD36xYjXqMwgPGwS/name": "Chien d’attaque",
-    "/items/@Zug8YehPY4icIfdV/system/description": "<p>L’Initiative de Canigou est identique à la vôtre et sa charge maximale est de 25 kg. Son niveau est égal au vôtre et augmente avec lui. Augmentez son Corps ou son Esprit de +1 au niveau 3, puis à chaque niveau impair. Augmentez sa Santé de +1 par niveau et lors de chaque augmentation de Corps. Les dégâts de sa Morsure augmentent de +1 @fos[DC] au niveau 5, puis tous les 5 niveaux.</p>",
+    "/items/@Zug8YehPY4icIfdV/system/description": "<p>L’Initiative de Canigou est identique à la vôtre. Sa charge maximale est de 25 kg.</p>\\n<p>Le niveau de Canigou est égal au vôtre et augmente au même rythme. Lorsque vous atteignez le niveau 3, et tous les 2 niveaux par la suite, augmentez de +1 le Corps ou l’Esprit de Canigou. À chaque nouveau niveau, ainsi qu’à chaque augmentation de sa valeur de Corps, Canigou gagne +1 PV. Les dégâts de la morsure de Canigou augmentent de +1 @fos[DC] au niveau 5 et tous les 5 niveaux par la suite.</p>",
     "/items/@Zug8YehPY4icIfdV/name": "Compagnon",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "zflSJmUFBiNAFEwR",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
-    "/flags/fallout2d20-compendium/source/translationReviewed": false,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/errataReviewed": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
     "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
@@ -24,7 +24,7 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/system/origin": "Mammifère",
-    "/system/biography": "<p>Les chiens sont courants dans les Terres désolées et font partie des rares espèces de créatures à ne pas avoir complètement muté. Les chiens non mutants existent dans de nombreuses communautés et font office d’animaux domestiques ou de gardes. Ils semblent disposer de la même intelligence et du même potentiel que leurs ancêtres d’avant-guerre. Néanmoins, tous les chiens ne sont pas amicaux. Des meutes de chiens mutants, enragés et irradiés, parcourent les Terres désolées. Bien que des rumeurs parlent de gentils chiens mutants, ces créatures essaient le plus souvent de dévorer les voyageurs pour se nourrir. La fourrure de ces chiens mutants, s’ils en ont encore, est en général éparse, et leur peau ressemble à celle d’une goule.</p>",
+    "/system/biography": "",
     "/name": "Canigou"
   }
 }

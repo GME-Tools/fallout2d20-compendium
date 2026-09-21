@@ -30,13 +30,13 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–62, through printed/source page 60.
-- FR PDF physical pages 1–63, through printed/source page 60.
+- EN PDF physical pages 1–66, through printed/source page 64.
+- FR PDF physical pages 1–67, through printed/source page 64.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 3
-  (source pp.42–58), and Step 4 / the perk catalogue through source p.60.
+  (source pp.42–58), and Step 4 / the perk catalogue through source p.64.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
-  identity checks for the p.59–60 lot also reviewed targeted counterpart entries on
+  identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
 - Verified in-scope documents in this range: the three p.28 hit-location RollTables,
   all 17 Core Skill Items (source pp.44–47), all 10 Core origin/survivor Trait Items
@@ -81,13 +81,34 @@ Current completed boundary:
   rank. Barbarian applies the Q1 2025 erratum in both languages, increasing Energy
   DR at the same rate as Physical DR even though the printed French page only lists
   ballistic DR.
+- Source pp.61–64 add 36 certified bilingual perk identities (including the later EN
+  counterparts required by the independently alphabetized FR pp.61–64) and the
+  fully structured Dogmeat / Canigou Actor from EN p.63 / FR p.61.
+- Perk provenance for this lot has been tightened from the legacy `59-73` range to
+  exact first EN definition pages. Exact EN source names were restored for
+  Black Widow/Lady Killer, Grim Reaper’s Sprint and Party Boy/Party Girl.
+- Additional combat-die extraction defects were repaired in EN perk text, including
+  Black Widow/Lady Killer, Bloody Mess, Chem Resistant, Commando, Comprehension,
+  Concentrated Fire, Finesse, Fortune Finder, Grim Reaper’s Sprint, Laser Commander
+  and Scrounger. Ghost's omitted PER 5 requirement was also restored.
+- The Dogmeat / Canigou profile is now represented as the existing stable Actor with
+  its exact p.63/p.61 stats, Bite and three embedded abilities. The FR Actor no
+  longer carries an unrelated generic-dog biography from the later denizen section,
+  and the FR Canigou perk no longer duplicates the entire Actor statblock inside its
+  description. The damaged FR Canaille extraction was restored to the official
+  sentence.
+- Gun Nut was checked as a targeted EN p.65 counterpart for FR p.64 and confirmed at
+  4 ranks in accordance with the 8 April 2021 erratum. This identity is certified,
+  but EN p.65 itself is not yet counted as page-reviewed coverage.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 61. The next
-editorial sub-lot is the perk catalogue on source pp.61–64. Continue from the PDF
-source rather than the existing perk pack; use targeted counterpart-page checks
-where EN/FR alphabetical ordering differs.
+Continue Chapter Three — Character Creation at printed/source page 65. The next
+editorial sub-lot is the perk catalogue on source pp.65–68. Continue from the PDF
+source rather than the existing perk pack. Several individual EN identities on
+pp.65–71 were already checked as FR pp.61–64 counterparts; still perform the
+page-driven inventory for every page and do not infer page completion from those
+targeted identity checks.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -96,7 +117,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–58
+There are no unresolved anomalies or owner decisions in the completed p.1–64
 boundary.
 
 ## Validation
@@ -106,10 +127,12 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks the first 15 certified perk identities, their bilingual source
-coordinates, exact canonical requirement fields, restored combat-die symbols, and
-the Armorer/Barbarian errata regressions. Legacy broad provenance ranges are not
-treated as exact page evidence until the corresponding perk is source-certified.
+It now also checks the certified perk identities through source p.64 plus targeted
+bilingual counterparts, their exact source coordinates and canonical requirement
+fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
+and Gun Nut errata regressions, and the complete Dogmeat / Canigou Actor including
+embedded Bite and abilities. Legacy broad provenance ranges are not treated as
+exact page evidence until the corresponding perk is source-certified.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 62,
-      "sourcePage": 60
+      "pdfPage": 66,
+      "sourcePage": 64
     },
     "fr": {
-      "pdfPage": 63,
-      "sourcePage": 60
+      "pdfPage": 67,
+      "sourcePage": 64
     }
   },
   "pageReviews": [
@@ -514,6 +514,38 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 63,
+      "sourcePage": 61,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 64,
+      "sourcePage": 62,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 65,
+      "sourcePage": 63,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 66,
+      "sourcePage": 64,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -1013,6 +1045,38 @@
       "language": "fr",
       "pdfPage": 63,
       "sourcePage": 60,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 64,
+      "sourcePage": 61,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 65,
+      "sourcePage": 62,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 66,
+      "sourcePage": 63,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 67,
+      "sourcePage": 64,
       "section": "Chapter Three — Création de personnage",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -2562,6 +2626,989 @@
       "certification": {
         "ranks": 1,
         "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Big Leagues",
+      "localizedNames": {
+        "fr": "Force de frappe"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "P5eJ7NOJMV8r9cHo",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Black Widow/Lady Killer",
+      "localizedNames": {
+        "fr": "Veuve noire/Gigolo"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "3bfAQcNKzjD0aOJ8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Blacksmith",
+      "localizedNames": {
+        "fr": "Forgeron"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "422BCVbfcp5q8M8I",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Bloody Mess",
+      "localizedNames": {
+        "fr": "Sanguinaire"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "jhef5zecOk3vQhGy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Can Do!",
+      "localizedNames": {
+        "fr": "Concerto de conserves"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "xTNbBLx2nxvf1mIE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Cap Collector",
+      "localizedNames": {
+        "fr": "Fana de capsules"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "BKTkXhJHSgVjdsKT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Cautious Nature",
+      "localizedNames": {
+        "fr": "Nature prudente"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "xwXPepqdLzr8uPMX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Chem Resistant",
+      "localizedNames": {
+        "fr": "Résistance chimique"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "49AOicQFjlfIKNUe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Chemist",
+      "localizedNames": {
+        "fr": "Chimie"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "HUmwhrS7v9g31nOG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Commando",
+      "localizedNames": {
+        "fr": "Commando"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "H6W082nVJtDeSthQ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Comprehension",
+      "localizedNames": {
+        "fr": "Compréhension"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "51j1AqLl4zHqoVsN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Concentrated Fire",
+      "localizedNames": {
+        "fr": "Tir groupé"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "YLA9JETKbkkHd3uz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Daring Nature",
+      "localizedNames": {
+        "fr": "Nature audacieuse"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "VTtncpMUhGBxjmlQ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 63,
+      "type": "Item",
+      "sourceName": "Demolition Expert",
+      "localizedNames": {
+        "fr": "Expert en démolition"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "ureiid51WVHnCcSG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          63
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 63,
+      "type": "Item",
+      "sourceName": "Dodger",
+      "localizedNames": {
+        "fr": "Tire-au-flanc"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "5r60cyfjkvkYlTvs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          63
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 63,
+      "type": "Item",
+      "sourceName": "Dogmeat",
+      "localizedNames": {
+        "fr": "Canigou"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "6VAkIp310dSGvCj7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          63
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Entomologist",
+      "localizedNames": {
+        "fr": "Entomologiste"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Vk0RIc9X6HaypmwJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Fast Metabolism",
+      "localizedNames": {
+        "fr": "Métabolisme rapide"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "T3vX1fP7cSG5v0zh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Faster Healing",
+      "localizedNames": {
+        "fr": "Guérison rapide"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "TTCwoZV141ZGuMjs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Finesse",
+      "localizedNames": {
+        "fr": "Finesse"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "DlJVCaT4RLT38Kgs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Fortune Finder",
+      "localizedNames": {
+        "fr": "Dénicheur de trésors"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "zQpZJuiwAC8Zk9a0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Ghost",
+      "localizedNames": {
+        "fr": "Fantôme"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "wC8TgVkF6OhFY9XR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Grim Reaper’s Sprint",
+      "localizedNames": {
+        "fr": "Tueur en série"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "YDRoA6dGjWXy06hf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 64,
+      "type": "Item",
+      "sourceName": "Gun Fu",
+      "localizedNames": {
+        "fr": "Tonton flingueur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Nei43KlUxbHLw6MI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          64
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Hunter",
+      "localizedNames": {
+        "fr": "Chasseur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "zB82J3WJ7ld01RYR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Gun Nut",
+      "localizedNames": {
+        "fr": "Fana d’armes"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Ba5yPRdNAvjM5StI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 4,
+        "descriptionReviewed": true
+      },
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "8 April 2021: Gun Nut has 4 ranks, not 3; canonical rank count verified as 4."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Intense Training",
+      "localizedNames": {
+        "fr": "Exercice"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "P3SMmJulZT5OyArI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 10,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Jury Rigging",
+      "localizedNames": {
+        "fr": "Bricolage"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "trdF2qUBRHrj3YNW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Laser Commander",
+      "localizedNames": {
+        "fr": "Commandant laser"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "VtCwIMtash7XcwxP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Pharma Farma",
+      "localizedNames": {
+        "fr": "Farmer la pharma"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "E3vqYT7JvmyDeFyU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Party Boy/Party Girl",
+      "localizedNames": {
+        "fr": "Fêtard/Fêtarde"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "iDaMlrcxl6kEm3Ex",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Quick Draw",
+      "localizedNames": {
+        "fr": "Dégainage rapide"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Xz1V9etWzTtwt5x5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Robotics Expert",
+      "localizedNames": {
+        "fr": "Expert en robotique"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "GiPKNxmrkWA2k76W",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          63,
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Scoundrel",
+      "localizedNames": {
+        "fr": "Canaille"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "j4XUYfEZwmvkfXBe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Scrounger",
+      "localizedNames": {
+        "fr": "Farfouilleur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "zXQUHfk3g9d7WDG1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Shotgun Surgeon",
+      "localizedNames": {
+        "fr": "Chirurgien de la chevrotine"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "SfcMrqZU78wIJQ0r",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 63,
+      "type": "Actor",
+      "sourceName": "Dogmeat",
+      "localizedNames": {
+        "fr": "Canigou"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "denizens",
+      "documentId": "zflSJmUFBiNAFEwR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          63
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "actorStatsReviewed": true,
+        "embeddedItemsReviewed": true,
+        "embeddedAbilitiesReviewed": true,
+        "localizationReviewed": true,
+        "diceSymbolsReviewed": true
       }
     }
   ]
