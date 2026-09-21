@@ -1,45 +1,32 @@
 # Current project state
 
 - Current release: `1.2.0`, tag `v1.2.0`.
-- Released V1 work is summarized by the stable baseline below; completed story
-  contracts and transient qualification reports have been removed.
-- Current milestone: post-V1.2.0 remediation of Astoundingly Awesome Tales
-  issues 1–7, US-401.
-- Qualified matrix at V1.2.0: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
-- The latest and prior compatibility pairs coincide; the disposable-world
-  browser suite passed all 42 table draws,
-  imports, sheets, embedded Items, drag/drop and UUID resolution.
-- Release gate policy: latest stable compatible v14/Fallout pair plus the prior
-  pair while available; Oracle is pre-release unless the owner documents a
-  waiver. V1.0.2 received an explicit owner waiver after local qualification.
+- Active work: post-V1.2.0 remediation of Astoundingly Awesome Tales issues 1–7.
+- Active contract: [`docs/stories/US-401.md`](stories/US-401.md).
+- Qualified V1.2.0 matrix: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
+- V1.2.0 was released with an explicit owner waiver for known AAT completeness,
+  provenance and artwork debt; it does not claim complete AAT coverage.
 
 ## Stable baseline
 
-- 36 categorical bilingual packs (18 per language); creatures and NPCs share
-  the `denizens` pack.
-- 1,389 root documents per language; 2,778 total. Denizen abilities remain
-  embedded in their Actors.
+- 36 categorical bilingual packs (18 per language).
+- 1,389 root documents per language; 2,778 total.
 - 7,260 compiled LevelDB records across 36 packs.
-- 46 RollTables per language, including the generic Hit Locations table, the
-  Mister Handy Hit Locations table, both
-  specialized tables added by Errata V6, and the GM Toolkit and Starter Set tables.
-- 3,880 audited French weight/capacity fields; non-physical Items are rejected
-  when they carry a non-zero weight.
-- 34 Core RollTable placeholders mirrored in French remain tracked artwork
-  debt; the 10 V1.1.0 tables intentionally retain the neutral die icon.
-- Pack sources use one shared canonical tree plus sparse EN/FR overlays. The 36
-  language-specific source views and LevelDB packs are generated, and embedded
-  canonical dependencies are resolved from language-neutral references.
-- Relevant packs use generated bilingual taxonomic folders; flat packs include
-  addictions, ammunition, crafting stations, diseases, miscellany, robot
-  modules, skills and traits.
+- 46 RollTables per language.
+- 3,880 audited French weight/capacity fields.
+- Sources use one canonical tree plus sparse EN/FR overlays; generated language
+  views and LevelDB packs are outputs, not editable sources.
+- Creatures and NPCs share the `denizens` pack; denizen abilities remain embedded.
 
-## Read next
+These exact statistics are checked by `npm run state:check`; tests and registries
+are authoritative for detailed inventories and compatibility contracts.
 
-V1.2.0 ships under an explicit owner waiver: the French Core Rulebook audit is
-complete, but the contradictory PDF audit in `docs/stories/US-401-AUDIT.md`
-continues to track incomplete Astoundingly Awesome Tales content, provenance,
-reprint comparison and artwork classification. The release therefore does not
-claim complete AAT coverage. Remediate US-401 before claiming that publication
-set complete. Retired tooling and historical evidence live under `archive/`
-and are excluded from normal agent context.
+## Current blocker
+
+US-401 remains incomplete. Its active story contains the consolidated remediation
+checklist derived from the contradictory PDF audit. Historical inventories, audits,
+completed stories and qualification evidence live under `archive/` and are not
+normal agent context.
+
+Read `AGENTS.md` first, then this file, then only the active story or task-specific
+contract.

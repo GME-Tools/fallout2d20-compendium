@@ -1,4 +1,5 @@
-# Story contracts
+# Active story contracts
 
-Each file is a compact execution contract. Project-wide rules live in
-`AGENTS.md`; current versions and status live in `docs/STATE.md`.
+Keep only currently actionable story contracts in this directory. `docs/STATE.md`
+names the active story. Completed contracts, inventories, audits and qualification
+records belong under `archive/stories/` and are not normal agent context.

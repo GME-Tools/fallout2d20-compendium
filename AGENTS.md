@@ -1,66 +1,46 @@
 # Repository instructions
 
-## Context budget
+## Minimal context
 
-Start with this file and `docs/STATE.md`. Read only the requested story and the
-contracts it names. Never inspect `archive/`, generated reports, inventories,
-or unrelated stories unless the task explicitly requires historical evidence.
-Use targeted `rg` searches and narrow excerpts.
+Start with this file and `docs/STATE.md`. Follow the active story linked from
+`docs/STATE.md` and read only the contracts that the task actually requires.
+Use targeted searches and narrow excerpts. Do not inspect `archive/`, generated
+outputs, broad inventories, or unrelated stories unless historical evidence is
+required.
 
-## Scope and authority
+## Sources of truth
 
-- Work on one explicitly requested story or maintenance task at a time.
-- Do not begin a later story implicitly.
-- Preserve user changes and check Git status before editing.
-- Ask the owner about genuine editorial ambiguity before changing content.
-- Do not tag, publish, deploy, or alter external state without explicit owner
-  authorization for that action.
-
-## Authoritative data
-
-- Shared document structure and mechanics: `src/packs/canonical/`.
-- Language-specific values: `src/packs/locales/en/` and
-  `src/packs/locales/fr/`; these are sparse JSON-pointer overlays, not complete
-  documents.
-- Generated readable language views: `generated/source-packs/`; never edit or
-  commit them.
-- Generated Foundry v14 LevelDB: `packs/`; never edit it directly.
+- Shared mechanics and structure: `src/packs/canonical/`.
+- Localized values: `src/packs/locales/en/` and `src/packs/locales/fr/`.
 - Publication registry: `scripts/data/publications.mjs`.
-- Reviewed inventories: `catalog/`; never regenerate them automatically.
-- Publication and provenance contract: `docs/MULTI-PUBLICATION-REGISTRY.md`.
-- Durable owner decisions: `docs/EDITORIAL-DECISIONS.md`.
+- Reviewed machine-readable inventories: `catalog/`.
+- Generated readable views: `generated/source-packs/`; never edit or commit them.
+- Generated Foundry LevelDB: `packs/`; never edit it directly.
 
-## Invariants
+Use `docs/CANONICAL-PACK-SOURCES.md` for source-model details,
+`docs/MULTI-PUBLICATION-REGISTRY.md` for provenance/reprint rules, and
+`docs/EDITORIAL-DECISIONS.md` only for durable decisions not encoded by tests
+or data.
 
-- Preserve categorical bilingual packs, stable IDs, `_key` values and UUIDs,
-  except for the documented `creatures`/`npcs` to `denizens` pack migration.
-- Store cross-pack dependencies as language-neutral canonical references and
-  declare only instance-specific overrides on embedded copies. Denizen
-  abilities are intentionally autonomous embedded Items, not cross-pack
-  dependencies.
-- `system.source` is the first appearance; secondary identical appearances use
-  structured flags and do not create another document.
-- English errata-corrected Core mechanics are canonical; French uses the
-  official text adapted to that canon.
-- French Core physical values use exact `kg = lb / 2` where covered.
-- Language visibility is client-scoped: `both`, `en`, `fr`; default and fallback
-  are `both`; hidden packs remain registered and UUID-resolvable.
-- PDFs and temporary extraction inputs remain ignored and uncommitted. Create
-  task-specific import tooling only when a publication is actually integrated;
-  checked-in canonical documents do not require permanent replay scripts for
-  every historical transformation.
+## Working rules
 
-The accepted V1.0.1 baseline is 40 packs, 2,764 root identities, 5,532 compiled
-records and 3,565 audited French weight/capacity fields. Tests, rather than
-repeated prose, are authoritative for exact hashes and inventories.
+- Work only on the requested story or maintenance task and preserve user changes.
+- Preserve published IDs, `_key` values and UUID inputs unless the active story
+  explicitly authorizes a migration.
+- Never resolve genuine editorial ambiguity silently. If it blocks the requested
+  edit, ask the owner; otherwise record it and continue non-blocked work.
+- Prefer executable contracts (tests, validators, registries) over duplicated prose.
+- Use repository skills under `.agents/skills/` for publication audits, content
+  integration, Foundry qualification, and releases instead of loading all workflow
+  documentation up front.
 
-## Verification
+## Verification and external actions
 
-Run tests proportional to the change. Use focused tests while iterating, then
-`npm run ci` once on the final state when the story contract requires it.
-Repeat full CI only after a later change can invalidate it. Foundry checks use a
-dedicated world or disposable copy, never a user world. Bind local smoke tests
-to loopback.
+Run focused checks while iterating and the smallest sufficient final gate. Run
+`npm run ci` when the active story or handoff requires the full repository gate.
+Use only a dedicated/disposable Foundry world for runtime checks and bind local
+smoke tests to loopback.
 
-Report concise totals and failures. Refer to artifact paths instead of printing
-their complete contents.
+Do not tag, publish, deploy, release, or change qualification/repository release
+state without explicit owner authorization for that action. Report concise results
+and artifact paths instead of dumping generated contents.
