@@ -1,59 +1,55 @@
-# Project scope and architecture
+# Project scope
 
-## Long-term purpose
+## Purpose
 
-This module is the bilingual Fallout 2d20 Compendium. Its identity and technical architecture are not tied to one publication. Content from later sourcebooks may be added in future versions, with each document retaining explicit source provenance.
+This repository is the bilingual English/French Fallout 2d20 compendium module.
+It is product-line-wide rather than tied to one publication. New sourcebooks extend
+the existing categorical packs while retaining explicit provenance.
 
-## Version 1 objective
+## Content scope
 
-Version 1 provides every reusable, structured game element from the Fallout 2d20 Core Rulebook in English and French. The English February 2023 digital release is canonical for this source, with Errata Log V6 (2026) applied before French adaptation.
+Publish reusable structured game elements supported by the Fallout system: Items,
+Actors with their embedded Items, and genuinely random RollTables. Keep complete
+mechanical profiles and element-specific descriptions when the source provides them.
 
-Included content covers items, traits, perks, skills, equipment, mods, consumables, addictions, diseases, denizens (creatures and NPCs with autonomous embedded abilities), and rollable tables. Full element-specific descriptions are retained when present. Equipment referenced by character archetypes must exist in its normal pack and in the relevant roll table.
+Do not publish scenes, maps, pregenerated characters, general rules/adventure prose,
+or custom assistants solely to reproduce book workflows unless an approved story
+explicitly adds them. Actor origins remain manual text because the system does not
+expose them as a supported Item type.
 
-Origins remain a manually entered actor field because the Fallout system does not expose them as a supported Item type. Every selectable or origin-granted trait is provided as a draggable Item in both languages; the module does not add an origin assistant.
+English Core plus approved errata is the mechanical baseline for shared Core content.
+French Core uses the official French source adapted to that canon. Publication-specific
+authority and translation status belong in the publication registry and active story.
 
-Scenes, pregenerated characters, general rules journals, and non-Core supplements are excluded.
+## Architecture
 
-## Compatibility
+- Editable shared mechanics: `src/packs/canonical/`.
+- Sparse localized values: `src/packs/locales/<language>/`.
+- Disposable readable views: `generated/source-packs/`.
+- Generated Foundry LevelDB: `packs/`.
+- Publication metadata: `scripts/data/publications.mjs`.
+- Folder taxonomy: `scripts/data/pack-folders.mjs`.
 
-- Foundry Virtual Tabletop v14 and later; earlier versions are not supported.
-- Current Fallout system, initially pinned to 11.17.1 or later.
-- No dependency on Babele or the retired `fallout-fr` module.
+See `docs/CANONICAL-PACK-SOURCES.md` for source/reference mechanics and
+`docs/MULTI-PUBLICATION-REGISTRY.md` for provenance, reprints and variants.
+Runtime compatibility is defined by `runtime/compatibility.mjs` and enforced by tests.
 
-## Content model
+IDs and `_key` values are stable publication identity. Paired EN/FR documents reuse
+the same document ID in their respective language packs unless an explicitly approved
+migration says otherwise.
 
-- `src/packs/canonical/` is the single editable source for shared document
-  structure and mechanics. Sparse language overlays live under
-  `src/packs/locales/<language>/`.
-- `generated/source-packs/` contains disposable readable EN/FR views rebuilt by
-  repository commands; it must never be edited or committed.
-- Each RollTable source file contains its embedded results. Result `_id` and
-  `_key` values remain explicit and stable; the pack build writes them to
-  Foundry's `tables.results` LevelDB sublevel.
-- Canonical cross-pack references use `$ref` plus sparse `$overrides`. The build
-  resolves them recursively, including Actor abilities/equipment and weapon
-  mods, so changes to a referenced document propagate unless an instance field
-  is explicitly overridden.
-- `packs/` is generated Foundry v14 LevelDB output and must never be edited manually.
-- English and French packs are separate and grouped by language in Foundry. Pack and folder names remain publication-neutral so later books can extend them.
-- IDs remain stable across edits and paired EN/FR documents reuse the same document ID in their respective packs. The documented migration from `creatures` and `npcs` to `denizens` is the sole current pack-ID exception. Source links are language-neutral; materialization emits the language-specific UUIDs required by Foundry.
-- `scripts/data/pack-folders.mjs` is the authoritative bilingual folder
-  taxonomy. Folder IDs are deterministic and language-neutral; labels are
-  localized at build time. Packs explicitly excluded from the taxonomy remain
-  flat.
-- Source provenance and errata review state live under `flags.fallout2d20-compendium.source`. Registered publications, first and secondary appearances, and folder/catalog conventions are defined in `docs/MULTI-PUBLICATION-REGISTRY.md`.
-- The current Fallout system's Core documents provide a v14-compatible technical baseline. They remain subject to line-by-line PDF and errata review and are not treated as editorial authority.
+## Artwork
 
-## Image policy
-
-Images are square WebP files. The preferred maximum is 150 KiB; 300 KiB is the exceptional ceiling. Each document carries one explicit status: `dedicated`, `shared`, or `placeholder`. A shared illustration is acceptable when the same source artwork is genuinely representative. The reviewed inventory and contact sheet under `artwork/inventory/` track remaining placeholders. Paired EN/FR documents always share the same image and classification.
+Use square WebP assets and record `dedicated`, `shared`, or `placeholder`. EN/FR pairs
+share the same image and classification. Source authorization and sharing rules live
+in `docs/EDITORIAL-DECISIONS.md`; reviewed inventories/tests are authoritative for
+document-level assignments.
 
 ## Definition of done for a content lot
 
-1. Every applicable Core Rulebook row is represented in the inventory matrix.
-2. English values match the errata-corrected canonical source.
-3. French content is complete and mechanically equivalent.
-4. Images satisfy the image policy or carry a documented exception.
-5. UUID links resolve and supported automation is configured.
-6. Validation, unit tests, pack generation, and packaging succeed.
-7. The lot has been opened and smoke-tested in Foundry v14.
+1. The approved source inventory covers every in-scope structured element.
+2. Canonical mechanics and localized text match the approved source/errata authority.
+3. Provenance, variants, references, IDs and bilingual parity validate.
+4. Artwork has a reviewed status or explicit tracked placeholder.
+5. Focused regression tests pass and the story-required final repository gate passes.
+6. Runtime-affecting lots pass the required disposable Foundry qualification.
