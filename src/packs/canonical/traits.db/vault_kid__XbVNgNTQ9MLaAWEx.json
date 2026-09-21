@@ -13,7 +13,7 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "page": "51-57",
+        "page": 57,
         "errataReviewed": true,
         "errata": [
           "Q2 2024"

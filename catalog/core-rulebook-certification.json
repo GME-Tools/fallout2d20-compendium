@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 51,
-      "sourcePage": 49
+      "pdfPage": 60,
+      "sourcePage": 58
     },
     "fr": {
-      "pdfPage": 52,
-      "sourcePage": 49
+      "pdfPage": 61,
+      "sourcePage": 58
     }
   },
   "pageReviews": [
@@ -346,6 +346,158 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 42,
+      "sourcePage": null,
+      "section": "Chapter Three lead artwork",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 43,
+      "sourcePage": null,
+      "section": "Chapter Three divider",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 44,
+      "sourcePage": 42,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 45,
+      "sourcePage": 43,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 46,
+      "sourcePage": 44,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 47,
+      "sourcePage": 45,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 48,
+      "sourcePage": 46,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 49,
+      "sourcePage": 47,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 50,
+      "sourcePage": 48,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 51,
+      "sourcePage": 49,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 52,
+      "sourcePage": 50,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 53,
+      "sourcePage": 51,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 54,
+      "sourcePage": 52,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 55,
+      "sourcePage": 53,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 56,
+      "sourcePage": 54,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 57,
+      "sourcePage": 55,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 58,
+      "sourcePage": 56,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 59,
+      "sourcePage": 57,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 60,
+      "sourcePage": 58,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -682,86 +834,6 @@
       "status": "verified"
     },
     {
-      "language": "en",
-      "pdfPage": 42,
-      "sourcePage": null,
-      "section": "Chapter Three lead artwork",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 43,
-      "sourcePage": null,
-      "section": "Chapter Three divider",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 44,
-      "sourcePage": 42,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 45,
-      "sourcePage": 43,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 46,
-      "sourcePage": 44,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 47,
-      "sourcePage": 45,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 48,
-      "sourcePage": 46,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 49,
-      "sourcePage": 47,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 50,
-      "sourcePage": 48,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 51,
-      "sourcePage": 49,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
       "language": "fr",
       "pdfPage": 43,
       "sourcePage": null,
@@ -837,6 +909,78 @@
       "language": "fr",
       "pdfPage": 52,
       "sourcePage": 49,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 53,
+      "sourcePage": 50,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 54,
+      "sourcePage": 51,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 55,
+      "sourcePage": 52,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 56,
+      "sourcePage": 53,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 57,
+      "sourcePage": 54,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 58,
+      "sourcePage": 55,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 59,
+      "sourcePage": 56,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 60,
+      "sourcePage": 57,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 61,
+      "sourcePage": 58,
       "section": "Chapter Three — Création de personnage",
       "disposition": "no_in_scope_content",
       "status": "verified"
@@ -936,6 +1080,20 @@
     {
       "publication": "core_rulebook",
       "page": 28,
+      "type": "reference_table",
+      "sourceName": "Weapon Range Difficulty",
+      "localizedNames": {
+        "fr": "Modificateurs de difficulté en fonction de la portée"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 28,
       "type": "RollTable",
       "sourceName": "Hit Locations",
       "localizedNames": {
@@ -946,26 +1104,6 @@
       "pack": "roll-tables",
       "documentId": "2d741f2c1809f6bf",
       "status": "verified"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 28,
-      "type": "RollTable",
-      "sourceName": "Hit Locations (Quadruped)",
-      "localizedNames": {
-        "fr": "Localisation des dégâts (quadrupèdes)"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "roll-tables",
-      "documentId": "3690dbb34a5d00b1",
-      "status": "verified",
-      "errata": [
-        {
-          "id": "errata-v6-2026",
-          "note": "Added on p.28 by the 6 April 2022 errata; ranges and hit locations verified against the errata."
-        }
-      ]
     },
     {
       "publication": "core_rulebook",
@@ -990,16 +1128,22 @@
     {
       "publication": "core_rulebook",
       "page": 28,
-      "type": "reference_table",
-      "sourceName": "Weapon Range Difficulty",
+      "type": "RollTable",
+      "sourceName": "Hit Locations (Quadruped)",
       "localizedNames": {
-        "fr": "Modificateurs de difficulté en fonction de la portée"
+        "fr": "Localisation des dégâts (quadrupèdes)"
       },
-      "scope": "out_of_scope",
-      "justification": "Static rules reference table, not a genuinely random RollTable.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "3690dbb34a5d00b1",
+      "status": "verified",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Added on p.28 by the 6 April 2022 errata; ranges and hit locations verified against the errata."
+        }
+      ]
     },
     {
       "publication": "core_rulebook",
@@ -1095,9 +1239,9 @@
       "publication": "core_rulebook",
       "page": 39,
       "type": "reference_table",
-      "sourceName": "Hazard Examples",
+      "sourceName": "Dangerous Objects Examples",
       "localizedNames": {
-        "fr": "Exemples de périls"
+        "fr": "Exemples d’objets dangereux"
       },
       "scope": "out_of_scope",
       "justification": "Static rules examples, not a genuinely random RollTable.",
@@ -1109,9 +1253,9 @@
       "publication": "core_rulebook",
       "page": 39,
       "type": "reference_table",
-      "sourceName": "Dangerous Objects Examples",
+      "sourceName": "Hazard Examples",
       "localizedNames": {
-        "fr": "Exemples d’objets dangereux"
+        "fr": "Exemples de périls"
       },
       "scope": "out_of_scope",
       "justification": "Static rules examples, not a genuinely random RollTable.",
@@ -1133,26 +1277,6 @@
       "documentId": null,
       "status": "out_of_scope",
       "sourceSpan": "42-43"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 44,
-      "type": "reference_table",
-      "sourceName": "Skills Summary",
-      "localizedNames": {
-        "fr": "Résumé des compétences"
-      },
-      "scope": "out_of_scope",
-      "justification": "Static summary table; the reusable Skill identities are certified separately as Items.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope",
-      "errata": [
-        {
-          "id": "errata-v6-2026",
-          "note": "6 September 2022: remove Gauss weapons from both Big Guns and Energy Weapons in the Skills Summary. The reviewed EN edition reflects this; the official FR table does not, so canonical summary mechanics follow the errata."
-        }
-      ]
     },
     {
       "publication": "core_rulebook",
@@ -1191,6 +1315,26 @@
         "descriptionReviewed": true,
         "frTranslationReviewed": true
       }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 44,
+      "type": "reference_table",
+      "sourceName": "Skills Summary",
+      "localizedNames": {
+        "fr": "Résumé des compétences"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static summary table; the reusable Skill identities are certified separately as Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "6 September 2022: remove Gauss weapons from both Big Guns and Energy Weapons in the Skills Summary. The reviewed EN edition reflects this; the official FR table does not, so canonical summary mechanics follow the errata."
+        }
+      ]
     },
     {
       "publication": "core_rulebook",
@@ -1481,20 +1625,6 @@
       "publication": "core_rulebook",
       "page": 47,
       "type": "rule_text",
-      "sourceName": "Tag Skills",
-      "localizedNames": {
-        "fr": "Atouts personnels"
-      },
-      "scope": "out_of_scope",
-      "justification": "General skill-test rule; tag state is represented on Actors/embedded skills rather than as a standalone compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 47,
-      "type": "rule_text",
       "sourceName": "Derived Statistics",
       "localizedNames": {
         "fr": "Statistiques dérivées"
@@ -1505,6 +1635,20 @@
       "documentId": null,
       "status": "out_of_scope",
       "sourceSpan": "47-48"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 47,
+      "type": "rule_text",
+      "sourceName": "Tag Skills",
+      "localizedNames": {
+        "fr": "Atouts personnels"
+      },
+      "scope": "out_of_scope",
+      "justification": "General skill-test rule; tag state is represented on Actors/embedded skills rather than as a standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
     },
     {
       "publication": "core_rulebook",
@@ -1530,6 +1674,425 @@
       },
       "scope": "out_of_scope",
       "justification": "Static character-advancement reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 50,
+      "type": "rules_summary",
+      "sourceName": "Creating a Character",
+      "localizedNames": {
+        "fr": "Créer un personnage"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation procedure prose and summary are general rules, not reusable standalone compendium documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 51,
+      "type": "Item",
+      "sourceName": "The Chain that Binds",
+      "localizedNames": {
+        "fr": "La Chaîne de Cohésion"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "OKkyUlhBYtuHCOJt",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 51,
+      "type": "origin_prose",
+      "sourceName": "Brotherhood Initiate",
+      "localizedNames": {
+        "fr": "Initié de la Confrérie"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 52,
+      "type": "Item",
+      "sourceName": "Necrotic Post-Human",
+      "localizedNames": {
+        "fr": "Post-humain nécrotique"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "yova9LubVGA18nar",
+      "status": "verified",
+      "localizationNote": "The official French text says difficulty and complication range; canonical EN mechanics require the alternatives, so FR uses « ou » while preserving the official localization otherwise."
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 52,
+      "type": "origin_prose",
+      "sourceName": "Ghoul",
+      "localizedNames": {
+        "fr": "Goule"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 53,
+      "type": "Item",
+      "sourceName": "Forced Evolution",
+      "localizedNames": {
+        "fr": "Évolution forcée"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "3W3LSN9wwD48gaaL",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 53,
+      "type": "origin_prose",
+      "sourceName": "Super Mutant",
+      "localizedNames": {
+        "fr": "Super mutant"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "Item",
+      "sourceName": "Buzz-Saw",
+      "localizedNames": {
+        "fr": "Scie circulaire"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "weapons",
+      "documentId": "QYgc3wH8JS3YGJ34",
+      "status": "verified",
+      "certification": {
+        "mechanics": [
+          "3 CD physical",
+          "Piercing 1"
+        ],
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "Item",
+      "sourceName": "Pincer",
+      "localizedNames": {
+        "fr": "Pince"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "weapons",
+      "documentId": "VFRfwbor9PwEKdRZ",
+      "status": "verified",
+      "certification": {
+        "mechanics": [
+          "2 CD physical",
+          "40 lb / 20 kg manipulation limit"
+        ],
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "origin_prose",
+      "sourceName": "Mister Handy",
+      "localizedNames": {
+        "fr": "Mister Handy"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origin prose is not published as a standalone document; the trait, arm attachments and random hit-location table are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "reference_table",
+      "sourceName": "Arm Attachments",
+      "localizedNames": {
+        "fr": "Accessoires de bras"
+      },
+      "scope": "out_of_scope",
+      "justification": "The table is a static selection aid, not a genuinely random RollTable; its reusable item rows and references are inventoried individually.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "RollTable",
+      "sourceName": "Mister Handy Hit Locations",
+      "localizedNames": {
+        "fr": "Localisation des dégâts sur Mister Handy"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "963402fa82f3a941",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "structured_reference",
+      "sourceName": "10mm Auto Pistol",
+      "localizedNames": {
+        "fr": "Pistolet automatique 10 mm"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "weapons",
+      "documentId": "bKHsUZI6Z6xrAEHg",
+      "status": "verified",
+      "identityRole": "reference",
+      "certificationScope": "p.54 arm-attachment relation only; full weapon profile is certified at its equipment source page."
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "structured_reference",
+      "sourceName": "Flamer",
+      "localizedNames": {
+        "fr": "Lance-flammes"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "weapons",
+      "documentId": "75n1EFSJw8xxti6s",
+      "status": "verified",
+      "identityRole": "reference",
+      "certificationScope": "p.54 arm-attachment relation only; full weapon profile is certified at its equipment source page."
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "structured_reference",
+      "sourceName": "Laser Emitter",
+      "localizedNames": {
+        "fr": "Émetteur laser"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "weapons",
+      "documentId": "ppzmY6xo2f66TmMC",
+      "status": "verified",
+      "identityRole": "reference",
+      "certificationScope": "p.54 arm-attachment relation only; full laser profile is certified at its equipment source page."
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 55,
+      "type": "Item",
+      "sourceName": "Mister Handy Robot",
+      "localizedNames": {
+        "fr": "Robot Mister Handy"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "GGY5C3vOlzctf76N",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 56,
+      "type": "Item",
+      "sourceName": "Educated",
+      "localizedNames": {
+        "fr": "Éducation"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "DwEuDupvvq0jPL4g",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 56,
+      "type": "Item",
+      "sourceName": "Fast Shot",
+      "localizedNames": {
+        "fr": "Tir rapide"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "HWCuIY1tYjpcpcmX",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 56,
+      "type": "Item",
+      "sourceName": "Gifted",
+      "localizedNames": {
+        "fr": "Doué"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "oTNPMKqeDqEsWxpo",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 56,
+      "type": "Item",
+      "sourceName": "Heavy Handed",
+      "localizedNames": {
+        "fr": "Main lourde"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "Brw3U4pjSy5MBp6D",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 56,
+      "type": "Item",
+      "sourceName": "Small Frame",
+      "localizedNames": {
+        "fr": "Gringalet"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "QcZ9c7dzPNVxAzR4",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 56,
+      "type": "origin_prose",
+      "sourceName": "Survivor",
+      "localizedNames": {
+        "fr": "Survivant"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origins remain manual character-creation text; the five selectable reusable traits are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 57,
+      "type": "Item",
+      "sourceName": "Vault Kid",
+      "localizedNames": {
+        "fr": "Né à l’Abri"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "XbVNgNTQ9MLaAWEx",
+      "status": "verified",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Q2 2024: reduce the difficulty of all END tests to resist disease effects by 1, to a minimum of 0; applied to canonical EN and adapted FR text."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 57,
+      "type": "origin_prose",
+      "sourceName": "Vault Dweller",
+      "localizedNames": {
+        "fr": "Habitant de l’Abri"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 57,
+      "type": "rule_text",
+      "sourceName": "Vault Dweller and Ghoul",
+      "localizedNames": {
+        "fr": "Habitant de l’Abri et goule"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-origin combination rule is general character-creation prose, not a standalone reusable document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 58,
+      "type": "reference_table",
+      "sourceName": "S.P.E.C.I.A.L. Attribute Arrays",
+      "localizedNames": {
+        "fr": "Répartition des attributs S.P.E.C.I.A.L."
+      },
+      "scope": "out_of_scope",
+      "justification": "Static character-build reference, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 58,
+      "type": "rule_text",
+      "sourceName": "Step 2: Increase S.P.E.C.I.A.L. Attributes",
+      "localizedNames": {
+        "fr": "Étape 2 : augmenter ses attributs S.P.E.C.I.A.L."
+      },
+      "scope": "out_of_scope",
+      "justification": "General character-creation rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 58,
+      "type": "rule_text",
+      "sourceName": "Step 3: Tag Skills and Buy Skill Ranks",
+      "localizedNames": {
+        "fr": "Étape 3 : atouts personnels et achats de rangs de compétence"
+      },
+      "scope": "out_of_scope",
+      "justification": "General character-creation rules, not a reusable standalone compendium document.",
       "pack": null,
       "documentId": null,
       "status": "out_of_scope"

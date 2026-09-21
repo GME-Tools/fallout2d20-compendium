@@ -30,13 +30,15 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–51, through printed/source page 49.
-- FR PDF physical pages 1–52, through printed/source page 49.
+- EN PDF physical pages 1–60, through printed/source page 58.
+- FR PDF physical pages 1–61, through printed/source page 58.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
-  Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through
-  Character Advancement (source pp.42–49).
-- Verified in-scope documents in this range: the three p.28 hit-location RollTables
-  and all 17 Core Skill Items (source pp.44–47).
+  Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 3
+  (source pp.42–58).
+- Verified in-scope documents in this range: the three p.28 hit-location RollTables,
+  all 17 Core Skill Items (source pp.44–47), all 10 Core origin/survivor Trait Items
+  (pp.51–57), the Mister Handy p.54 hit-location RollTable, and the p.54 Buzz-Saw
+  and Pincer item profiles.
 - Static rules summaries/reference tables and general rules prose in this range are
   explicitly out of scope in the catalog.
 - Errata reviewed in this range: p.20 Luck wording (Q3 2026), p.28 quadruped/flying
@@ -51,12 +53,23 @@ Current completed boundary:
 - The official FR p.28 flying-insect table combines 15–20 as `Pattes`; canonical
   EN + Errata retains 15–17 and 18–20 as two rows. The FR overlay correctly
   localizes both canonical rows to `Pattes`.
+- Source pp.51–57 exposed several older FR paraphrase/extraction defects. Restored
+  official French wording for The Chain that Binds, Necrotic Post-Human,
+  Mister Handy Robot, Heavy Handed, Small Frame and Vault Kid while retaining
+  canonical mechanical corrections where required (notably Vault Kid errata and
+  the EN-authoritative alternative in Necrotic Post-Human).
+- The p.54 Buzz-Saw and Pincer are first fully defined as Mister Handy arm
+  attachments and are now sourced/certified there. Their French descriptions were
+  replaced with the official p.54 text and combat-die symbols.
+- The p.54 10mm Auto Pistol, Flamer and Laser Emitter rows are certified only as
+  structured references to existing weapon identities; their full profiles remain
+  pending until the equipment pages that define those profiles.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 50. The next
-editorial sub-lot is Creating a Character and Step 1: Choose Your Origin
-(source pp.50–58), including the p.57 Vault Kid errata.
+Continue Chapter Three — Character Creation at printed/source page 59. The next
+editorial sub-lot is Step 4: Choose Your First Perk and the perk catalogue. Audit
+the perks in manageable page ranges against EN + Errata, then FR localization.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -65,14 +78,16 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–49
+There are no unresolved anomalies or owner decisions in the completed p.1–58
 boundary.
 
 ## Validation
 
 `test/core-certification.test.mjs` enforces gapless page review through the current
 boundary, explicit scope/status fields, bilingual identity/provenance for verified
-entries, and absence of unexplained Core documents sourced before p.40.
+entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
+attachment mechanics/localization, targeted FR source-text regressions, and absence
+of unexplained Core documents within the certified boundary.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

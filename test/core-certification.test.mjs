@@ -63,7 +63,9 @@ test("every verified in-scope Core entry through the current boundary exists bil
       assert.ok(record, `${language}/${entry.pack}/${entry.documentId} missing`);
       const source = record.document.flags?.["fallout2d20-compendium"]?.source;
       assert.equal(source?.book, "core_rulebook", `${language}/${entry.pack}/${entry.documentId} source book`);
-      assert.equal(source?.page, entry.page, `${language}/${entry.pack}/${entry.documentId} source page`);
+      if (entry.identityRole !== "reference") {
+        assert.equal(source?.page, entry.page, `${language}/${entry.pack}/${entry.documentId} source page`);
+      }
       const expectedName = language === "en" ? entry.sourceName : entry.localizedNames?.fr;
       assert.equal(record.document.name, expectedName, `${language}/${entry.pack}/${entry.documentId} source name`);
     }
@@ -122,6 +124,83 @@ test("Energy Weapons keeps the detailed Gauss examples while the p.44 summary er
       assert.match(skill.system.description, /armes de Gauss/);
       assert.match(skill.system.description, /fusil de Gauss/);
       assert.match(skill.system.description, /pistolet &agrave; &eacute;nergie|pistolet à énergie/);
+    }
+  }
+});
+
+test("Core origin traits use exact identities and source pages", async () => {
+  const expected = new Map([
+    ["OKkyUlhBYtuHCOJt", 51],
+    ["yova9LubVGA18nar", 52],
+    ["3W3LSN9wwD48gaaL", 53],
+    ["GGY5C3vOlzctf76N", 55],
+    ["DwEuDupvvq0jPL4g", 56],
+    ["HWCuIY1tYjpcpcmX", 56],
+    ["oTNPMKqeDqEsWxpo", 56],
+    ["Brw3U4pjSy5MBp6D", 56],
+    ["QcZ9c7dzPNVxAzR4", 56],
+    ["XbVNgNTQ9MLaAWEx", 57]
+  ]);
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "traits");
+    for (const [id, page] of expected) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/traits/${id} missing`);
+      assert.equal(record.document.flags["fallout2d20-compendium"].source.page, page);
+    }
+  }
+});
+
+test("French Core origin traits preserve official localization with canonical errata adaptations", async () => {
+  const records = await generatedDocuments("fr");
+  const byId = new Map(records.filter(({ pack }) => pack === "traits").map(({ document }) => [document._id, document]));
+  const chain = byId.get("OKkyUlhBYtuHCOJt").system.description;
+  assert.match(chain, /responsables de vos subordonnés/);
+  assert.match(chain, /matériel technologique est récupéré… par tous les moyens nécessaires/);
+  assert.doesNotMatch(chain, /récupé…/);
+
+  const ghoul = byId.get("yova9LubVGA18nar").system.description;
+  assert.match(ghoul, /\(les humains qui ne sont pas des goules\)/);
+  assert.match(ghoul, /difficulté ou la marge de complication/);
+
+  const handy = byId.get("GGY5C3vOlzctf76N").system.description;
+  assert.match(handy, /Soigner les robots, page 34/);
+  assert.match(handy, /Vous ne pouvez pas manipuler le monde qui vous entoure comme les humains/);
+  assert.match(handy, /trois accessoires présentés dans la table/);
+
+  const heavy = byId.get("Brw3U4pjSy5MBp6D").system.description;
+  assert.match(heavy, /et non sur un 20/);
+  assert.doesNotMatch(heavy, /non seulement/);
+
+  const small = byId.get("QcZ9c7dzPNVxAzR4").system.description;
+  assert.match(small, /75 \+ \(2,5 x FOR\) kg/);
+  assert.match(small, /75 \+ \(5 x FOR\) kg/);
+
+  const vault = byId.get("XbVNgNTQ9MLaAWEx").system.description;
+  assert.match(vault, /réduisez de 1, jusqu’à un minimum de 0/);
+  assert.match(vault, /à laquelle vous avez participé contre votre gré/);
+  assert.match(vault, /isolement et confinement dans votre Abri/);
+});
+
+test("Mister Handy p.54 structured arm attachments are exact where the Core defines a full item", async () => {
+  for (const language of ["en", "fr"]) {
+    const records = await generatedDocuments(language);
+    const buzz = records.find(({ pack, document }) => pack === "weapons" && document._id === "QYgc3wH8JS3YGJ34").document;
+    const pincer = records.find(({ pack, document }) => pack === "weapons" && document._id === "VFRfwbor9PwEKdRZ").document;
+    assert.equal(buzz.flags["fallout2d20-compendium"].source.page, 54);
+    assert.equal(pincer.flags["fallout2d20-compendium"].source.page, 54);
+    assert.equal(buzz.system.damage.rating, 3);
+    assert.equal(buzz.system.damage.damageType.physical, true);
+    assert.equal(buzz.system.damage.damageEffect.piercing_x.value, 1);
+    assert.equal(pincer.system.damage.rating, 2);
+    assert.equal(pincer.system.damage.damageType.physical, true);
+    assert.match(buzz.system.description, /3 @fos\[DC\]/);
+    assert.match(pincer.system.description, /2 @fos\[DC\]/);
+    if (language === "fr") {
+      assert.match(buzz.system.description, /dégâts balistiques Perforants 1/);
+      assert.match(pincer.system.description, /poids n’excède pas 20 kg/);
+      assert.equal(buzz.flags["fallout2d20-compendium"].source.translationReviewed, true);
+      assert.equal(pincer.flags["fallout2d20-compendium"].source.translationReviewed, true);
     }
   }
 });
