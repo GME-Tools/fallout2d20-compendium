@@ -2,7 +2,7 @@
 
 All notable changes to this private module are documented here.
 
-## 1.2.0 — Unreleased
+## 1.2.0 — 2026-09-21
 
 ### Added
 
@@ -23,12 +23,19 @@ All notable changes to this private module are documented here.
   Sentry Bot is already known to be a real variant.
 - Correct the overlapping Robot Assassin ranges to 1–5, 6–10, 11–17 and
   18–20 by explicit owner decision.
+- Complete a source-driven audit of the official French Core Rulebook from
+  pages 6 through 428: 1,758 records examined and 591 French overlays corrected
+  across names, descriptions, tables, embedded Items, profiles, metric values
+  and typography.
+- Record 44 unresolved French/Core editorial arbitrations and 35 potential
+  future English/canonical impacts without changing shared mechanics.
 
-### Validation pending
+### Validation
 
-- The prior CI and disposable-world startup pass covered the incomplete import
-  but does not qualify editorial completeness. Full validation and Foundry
-  qualification must be repeated after the audit findings are remediated.
+- The complete CI, bilingual content audit, French weight audit, Foundry pack
+  build and release archive verification pass on the release tree.
+- The owner explicitly accepts the known, documented US-401 editorial debt for
+  this release; V1.2.0 does not claim complete AAT coverage.
 
 ## 1.1.2 — 2026-09-10
 

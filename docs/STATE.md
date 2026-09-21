@@ -1,9 +1,10 @@
 # Current project state
 
-- Current development version: `1.2.0` (unreleased); current release remains `1.1.2`, tag `v1.1.2`.
+- Current release: `1.2.0`, tag `v1.2.0`.
 - Released V1 work is summarized by the stable baseline below; completed story
   contracts and transient qualification reports have been removed.
-- Current milestone: V1.2.0 Astoundingly Awesome Tales issues 1–7, US-401.
+- Current milestone: post-V1.2.0 remediation of Astoundingly Awesome Tales
+  issues 1–7, US-401.
 - Qualified matrix at V1.1.2: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
 - The latest and prior compatibility pairs coincide; the disposable-world
   browser suite passed all 42 table draws,
@@ -35,11 +36,10 @@
 
 ## Read next
 
-V1.2.0 is not ready for qualification. The contradictory PDF audit in
-`docs/stories/US-401-AUDIT.md` found missing structured content, incorrect
-first-appearance provenance, unverified reprint equivalence and cover images
-misclassified as reviewed document artwork. The earlier CI and disposable-world
-startup pass only validated the incomplete imported set; they are not evidence
-of editorial completeness. Remediate US-401, then rerun CI and qualification.
-Retired tooling and historical evidence live under `archive/` and are excluded
-from normal agent context.
+V1.2.0 ships under an explicit owner waiver: the French Core Rulebook audit is
+complete, but the contradictory PDF audit in `docs/stories/US-401-AUDIT.md`
+continues to track incomplete Astoundingly Awesome Tales content, provenance,
+reprint comparison and artwork classification. The release therefore does not
+claim complete AAT coverage. Remediate US-401 before claiming that publication
+set complete. Retired tooling and historical evidence live under `archive/`
+and are excluded from normal agent context.
