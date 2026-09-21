@@ -1,10 +1,11 @@
 ---
 name: publication-audit
-description: Audit an owned Fallout 2d20 publication or PDF for structured compendium content, completeness, provenance, reprints, discrepancies, and artwork candidates before or during an integration story.
+description: Audit an owned Fallout 2d20 publication or PDF for structured compendium content, completeness, provenance, reprints, discrepancies, and artwork candidates before or during integration.
 ---
 
-Read `AGENTS.md`, `docs/STATE.md`, and the active story first. Then read only
-`docs/MULTI-PUBLICATION-REGISTRY.md` and the relevant durable decisions.
+Read `AGENTS.md`, `docs/STATE.md`, `docs/DATA-MODEL.md`, and the relevant durable
+editorial decisions. Read `docs/WORK.md` only when the audit belongs to that active
+multi-session work.
 
 Build a page-aware inventory of reusable structured Actors, Items and genuinely
 random RollTables. Distinguish new identities, identical reprints, mechanical
@@ -18,5 +19,6 @@ Treat artwork separately from content completeness: identify traceable official
 candidates, justify sharing, and leave `placeholder` when no reviewed candidate
 exists.
 
-Update the active story with the actionable result. Do not create a second long-lived
-audit document unless the owner explicitly asks for separate evidence.
+If the work is tracked in `docs/WORK.md`, update that checklist with actionable
+results. Otherwise report the audit directly; do not create a persistent audit
+document unless explicitly requested.

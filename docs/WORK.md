@@ -1,4 +1,8 @@
-# US-401 — Astoundingly Awesome Tales remediation
+# Active work — Astoundingly Awesome Tales remediation
+
+> Temporary execution checklist. Delete this file when the work is complete after
+> durable facts have been encoded in source data, registries, tests or editorial
+> decisions.
 
 ## Goal and authority
 
@@ -13,11 +17,7 @@ remains the first publication. The collection-only fifth adventure is first sour
 to `astoundingly_awesome_tales_1_5`. The owner-approved Robot Assassin ranges are
 `1–5`, `6–10`, `11–17`, `18–20`.
 
-The earlier reviewed inventory was invalidated by the contradictory PDF audit.
-Those historical documents are archived under `archive/stories/`; this file is the
-single active execution contract.
-
-## Open remediation checklist
+## Open checklist
 
 - Rebuild/verify the issue-by-issue structured inventory before claiming complete
   AAT coverage.
@@ -41,12 +41,12 @@ single active execution contract.
   candidate when genuinely representative; otherwise keep a neutral placeholder.
 
 Do not silently decide ambiguous plot-only objects, corrected-edition identity, or
-mechanically divergent reprints. Record the ambiguity and ask the owner only when it
-blocks the requested edit.
+mechanically divergent reprints. Ask the owner only when the ambiguity blocks the
+requested change.
 
 ## Completion
 
 Completion requires exhaustive bilingual inventory parity, valid provenance and
-links, exact French metric handling where applicable, reviewed artwork states, the
-AAT regression coverage, final `npm audit --audit-level=high`, final `npm run ci`,
-and disposable Foundry qualification on the required compatibility matrix.
+links, exact French metric handling where applicable, reviewed artwork states, AAT
+regression coverage, final `npm audit --audit-level=high`, final `npm run ci`, and
+disposable Foundry qualification on the required compatibility matrix.

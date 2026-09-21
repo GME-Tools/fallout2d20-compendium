@@ -13,13 +13,14 @@ Actors with their embedded Items, and genuinely random RollTables. Keep complete
 mechanical profiles and element-specific descriptions when the source provides them.
 
 Do not publish scenes, maps, pregenerated characters, general rules/adventure prose,
-or custom assistants solely to reproduce book workflows unless an approved story
-explicitly adds them. Actor origins remain manual text because the system does not
-expose them as a supported Item type.
+or custom assistants solely to reproduce book workflows unless explicitly approved.
+Actor origins remain manual text because the system does not expose them as a
+supported Item type.
 
 English Core plus approved errata is the mechanical baseline for shared Core content.
 French Core uses the official French source adapted to that canon. Publication-specific
-authority and translation status belong in the publication registry and active story.
+authority and translation status belong in the publication registry and source
+provenance.
 
 ## Architecture
 
@@ -30,8 +31,7 @@ authority and translation status belong in the publication registry and active s
 - Publication metadata: `scripts/data/publications.mjs`.
 - Folder taxonomy: `scripts/data/pack-folders.mjs`.
 
-See `docs/CANONICAL-PACK-SOURCES.md` for source/reference mechanics and
-`docs/MULTI-PUBLICATION-REGISTRY.md` for provenance, reprints and variants.
+See `docs/DATA-MODEL.md` for source, localization, reference and provenance rules.
 Runtime compatibility is defined by `runtime/compatibility.mjs` and enforced by tests.
 
 IDs and `_key` values are stable publication identity. Paired EN/FR documents reuse
@@ -40,10 +40,10 @@ migration says otherwise.
 
 ## Artwork
 
-Use square WebP assets and record `dedicated`, `shared`, or `placeholder`. EN/FR pairs
-share the same image and classification. Source authorization and sharing rules live
-in `docs/EDITORIAL-DECISIONS.md`; reviewed inventories/tests are authoritative for
-document-level assignments.
+Use square WebP assets and record `dedicated`, `shared`, or `placeholder`. EN/FR
+pairs share the same image and classification. Source authorization and sharing rules
+live in `docs/EDITORIAL-DECISIONS.md`; reviewed inventories/tests are authoritative
+for document-level assignments.
 
 ## Definition of done for a content lot
 
@@ -51,5 +51,5 @@ document-level assignments.
 2. Canonical mechanics and localized text match the approved source/errata authority.
 3. Provenance, variants, references, IDs and bilingual parity validate.
 4. Artwork has a reviewed status or explicit tracked placeholder.
-5. Focused regression tests pass and the story-required final repository gate passes.
+5. Focused regression tests and the required final repository gate pass.
 6. Runtime-affecting lots pass the required disposable Foundry qualification.

@@ -15,10 +15,14 @@ for (const language of LANGUAGES) {
   for (const pack of PACKS) {
     const directory = path.resolve("generated/source-packs", language, `${pack.name}.db`);
     const files = await listFiles(directory, file => file.endsWith(".json"));
-    compiledRecords += folderRecords(language, pack).flatMap(folder => flattenDocument(folder, folder._key)).length;
+    compiledRecords += folderRecords(language, pack)
+      .flatMap(folder => flattenDocument(folder, folder._key)).length;
+
     for (const file of files) {
       const document = JSON.parse(await readFile(file, "utf8"));
-      if (/^!(?:items|actors|tables)![^.!]+$/.test(document._key ?? "")) rootDocuments[language] += 1;
+      if (/^!(?:items|actors|tables)![^.!]+$/.test(document._key ?? "")) {
+        rootDocuments[language] += 1;
+      }
       if (/^!tables![^.!]+$/.test(document._key ?? "")) rollTables[language] += 1;
       const key = document._key || documentKey(pack.type, document._id);
       compiledRecords += flattenDocument(document, key).length;
@@ -28,26 +32,31 @@ for (const language of LANGUAGES) {
 
 const frenchWeightFields = (await collectFrenchWeightComparisons(PACKS.map(pack => pack.name)))
   .filter(comparison => !comparison.invalidPhysicalType).length;
+
 const stats = {
   packs: LANGUAGES.length * PACKS.length,
   rootDocuments,
-  rootIdentities: rootDocuments.en + rootDocuments.fr,
+  rootIdentities: Object.values(rootDocuments).reduce((sum, count) => sum + count, 0),
   compiledRecords,
   rollTables,
   frenchWeightFields
 };
 
 if (process.argv.includes("--check")) {
-  const state = await readFile("docs/STATE.md", "utf8");
-  const expectations = [
-    [`${stats.packs} categorical bilingual packs`, "pack count"],
-    [`${stats.rootDocuments.en.toLocaleString("en-US")} root documents per language; ${stats.rootIdentities.toLocaleString("en-US")} total`, "root document counts"],
-    [`${stats.compiledRecords.toLocaleString("en-US")} compiled LevelDB records`, "compiled record count"],
-    [`${stats.rollTables.en} RollTables per language`, "RollTable count"],
-    [`${stats.frenchWeightFields.toLocaleString("en-US")} audited French weight/capacity fields`, "French weight count"]
-  ];
-  for (const [expected, label] of expectations) assert.ok(state.includes(expected), `docs/STATE.md ${label} is stale; expected ${JSON.stringify(expected)}`);
-  console.log("Verified docs/STATE.md statistics against generated sources.");
+  const [referenceLanguage, ...otherLanguages] = LANGUAGES;
+  for (const language of otherLanguages) {
+    assert.equal(
+      rootDocuments[language],
+      rootDocuments[referenceLanguage],
+      `Root document count differs between ${referenceLanguage} and ${language}`
+    );
+    assert.equal(
+      rollTables[language],
+      rollTables[referenceLanguage],
+      `RollTable count differs between ${referenceLanguage} and ${language}`
+    );
+  }
+  console.log("Verified generated-source language parity.");
 } else {
   console.log(JSON.stringify(stats, null, 2));
 }

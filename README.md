@@ -24,8 +24,8 @@ documents live under `src/packs/canonical/`; sparse localized values live under
 `src/packs/locales/en/` and `src/packs/locales/fr/`. Do not edit generated views or
 LevelDB packs.
 
-Publications are declared in `scripts/data/publications.mjs`; provenance and
-reprint/variant rules are documented in `docs/MULTI-PUBLICATION-REGISTRY.md`.
+Publications are declared in `scripts/data/publications.mjs`; the complete editable
+source, localization, reference and provenance contract is in `docs/DATA-MODEL.md`.
 
 ## Visible languages
 
@@ -35,15 +35,14 @@ and UUID links remain resolvable.
 
 ## Documentation
 
-- [Current state and active work](docs/STATE.md)
-- [Active US-401 contract](docs/stories/US-401.md)
+- [Current state](docs/STATE.md)
 - [Project scope](docs/PROJECT.md)
-- [Canonical source model](docs/CANONICAL-PACK-SOURCES.md)
-- [Publication/provenance contract](docs/MULTI-PUBLICATION-REGISTRY.md)
+- [Compendium data model](docs/DATA-MODEL.md)
 - [Durable editorial decisions](docs/EDITORIAL-DECISIONS.md)
 - [Testing and Foundry qualification](docs/TESTING.md)
 - [Changelog](CHANGELOG.md)
 
-Agent workflows are packaged as progressive-disclosure skills under `.agents/skills/`.
-Historical audits, completed stories and decision snapshots live under `archive/`
-and should be read only when historical evidence is required.
+A temporary `docs/WORK.md` may exist while substantial multi-session work is active;
+`docs/STATE.md` points to it when relevant. Agent workflows use progressive-
+disclosure skills under `.agents/skills/`. Repository history is kept by Git rather
+than duplicated in documentation.

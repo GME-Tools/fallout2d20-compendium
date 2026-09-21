@@ -18,9 +18,9 @@
     "package": "node scripts/package-release.mjs",
     "test": "npm run source:materialize --silent && node --test test/*.test.mjs",
     "validate": "npm run source:materialize --silent && node scripts/validate.mjs",
-    "ci": "npm run source:materialize --silent && npm run artwork:check && node scripts/generate-artwork-inventory.mjs --check && node scripts/audit-content.mjs && node scripts/audit-french-weights.mjs && node scripts/validate.mjs && node --test test/*.test.mjs && node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs && node scripts/verify-built-packs.mjs && npm run state:check && npm run package && node scripts/verify-release-package.mjs",
-    "stats": "npm run source:materialize --silent && node scripts/state-stats.mjs",
-    "state:check": "node scripts/state-stats.mjs --check"
+    "ci": "npm run source:materialize --silent && npm run artwork:check && node scripts/generate-artwork-inventory.mjs --check && node scripts/audit-content.mjs && node scripts/audit-french-weights.mjs && node scripts/validate.mjs && node --test test/*.test.mjs && node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs && node scripts/verify-built-packs.mjs && npm run stats:check && npm run package && node scripts/verify-release-package.mjs",
+    "stats": "npm run source:materialize --silent && node scripts/content-stats.mjs",
+    "stats:check": "node scripts/content-stats.mjs --check"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",
