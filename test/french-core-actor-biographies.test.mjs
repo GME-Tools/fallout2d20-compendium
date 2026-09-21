@@ -5,19 +5,20 @@ import test from "node:test";
 import { FRENCH_CORE_ACTOR_BIOGRAPHY_SOURCES } from "../scripts/data/french-core-actor-biography-sources.mjs";
 
 async function load(language,pack){const dir=path.join("generated", "source-packs",language,`${pack}.db`);return Promise.all((await readdir(dir)).filter(f=>f.endsWith(".json")).map(async f=>JSON.parse(await readFile(path.join(dir,f),"utf8"))));}
-test("all Core actors with narrative source text have source-backed French biographies and origins",async()=>{
+test("all non-adventure Core actors with narrative source text have source-backed French biographies and origins",async()=>{
   const en=(await load("en","denizens")).filter(d=>d.flags?.["fallout2d20-compendium"]?.source?.book==="core_rulebook");
   const fr=new Map((await load("fr","denizens")).map(d=>[d._id,d]));
   assert.equal(Object.keys(FRENCH_CORE_ACTOR_BIOGRAPHY_SOURCES).length,65);
   for(const source of en){
     const translated=fr.get(source._id);
     assert.ok(translated,source.name);
-    if(!FRENCH_CORE_ACTOR_BIOGRAPHY_SOURCES[source.name]){
-      assert.equal(source.name,"Dogmeat");
+    if(source.flags?.["fallout2d20-compendium"]?.source?.adventure===true) continue;
+    if(source.name==="Dogmeat"){
       assert.equal(source.system.biography,"");
       assert.equal(translated.system.biography,"");
       continue;
     }
+    assert.ok(FRENCH_CORE_ACTOR_BIOGRAPHY_SOURCES[source.name],`${source.name}: missing biography source coordinate`);
     assert.ok(translated.system.biography.replace(/<[^>]+>/g,"").length>=45,source.name);
     assert.notEqual(translated.system.biography,source.system.biography,source.name);
     assert.ok(translated.system.origin!==source.system.origin||source.system.origin==="Robot",source.name);

@@ -7,7 +7,7 @@ export const FRENCH_CORE_ACTOR_BIOGRAPHY_SOURCES={
   Protectron:s(364,"left"),Radroach:s(350,"left"),Radscorpion:s(352,"left"),Radstag:s(351,"left"),"Sentry Bot":s(365,"right"),Stingwing:s(342,"left"),"Super Mutant Behemoth":s(368,"right"),
   Synth:s(374,"left"),"Synth Strider":s(376,"right"),"Synth Trooper":s(377,"left"),"Yao Guai":s(355,"left"),"Zetan (Aliens)":s(399,"left"),
   "Children of Atom":s(393,"right"),Elder:s(383,"left"),"Ghoul Mercenary":{alias:"Mercenary"},"Ghoul Merchant":{alias:"Merchant"},"Ghoul Wastelander":{alias:"Wastelander"},Gunner:s(393,"left"),
-  "Institue Scientist":s(398,"right"),Knight:s(384,"left"),Lancer:s(386,"left"),Mercenary:s(396,"right"),Merchant:s(396,"left"),Minuteman:s(397,"right"),"Miss Nanny":{alias:"Mister Handy"},"Mister Gutsy":s(362,"right"),"Mister Handy":s(361,"right"),
+  "Institute Scientist":s(398,"right"),Knight:s(384,"left"),Lancer:s(386,"left"),Mercenary:s(396,"right"),Merchant:s(396,"left"),Minuteman:s(397,"right"),"Miss Nanny":{alias:"Mister Handy"},"Mister Gutsy":s(362,"right"),"Mister Handy":s(361,"right"),
   Paladin:s(384,"right"),Raider:s(387,"left"),"Raider Boss":s(388,"left"),"Raider Psycho":s(389,"left"),"Raider Scavver":s(390,"left"),"Raider Veteran":s(391,"left"),"Railroad Agent":s(392,"left"),Scribe:s(385,"left"),
   "Super Mutant":s(367,"right"),"Super Mutant Brute":s(369,"right"),"Super Mutant Master":s(370,"left"),"Super Mutant Suicider":s(371,"right"),"Synth Courser":s(375,"left"),"Vault Dweller":s(394,"right"),Wastelander:s(395,"left")
 };
