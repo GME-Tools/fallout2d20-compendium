@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–107, through printed/source page 105.
-- FR PDF physical pages 1–108, through printed/source page 105.
+- EN PDF physical pages 1–112, through printed/source page 110.
+- FR PDF physical pages 1–113, through printed/source page 110.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
   (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
@@ -171,18 +171,23 @@ Current completed boundary:
 - Source p.101 closes the Small Gun Mods table and certifies all 15 continuation rows. This exposed two previously crossed same-name identity families: Small Guns now use the p.222 Small Gun Full Stock (`8nHC8z4vEY4yX7bM`) and Recoil Compensating Stock (`H5uajcZl8MICYwfy`), while Energy Weapons use their distinct p.223 counterparts (`bRV8rXkptjU6mz9Y` and `pxflsyihN3fjKgYq`). Existing weapon references were corrected without changing IDs.
 - Source pp.101–105 certify all five base Energy Weapons, the four Laser Musket capacitor mods, three Gamma Gun-only mods, and all 26 general Energy Weapon mods. The audit corrected Boosted Capacitor cost from 94 to the source value 35, Standard Stock cost from 15 to 10, and the Energy Full Stock to cost 15 with Piercing 1, removal of Close Quarters and the errata-required Two-Handed quality. Signal Repeater was also corrected from an erroneous +2 damage implementation to +2 Fire Rate. The FR Gamma Gun antenna table prints Scientifique 3, while canonical EN requires Science! 4; the EN requirement is retained mechanically and the discrepancy is recorded.
 - EN extraction cleanup in this lot removed a spurious duplicated “Lazer Musket Capacitor” list from the Laser Musket description and repaired the malformed Gamma Gun mod phrase “Antennaem Signal Repeater”.
+- Source pp.106–110 now certify the complete Big Guns section: all seven p.106 base weapons, the Big Guns complication/sidebar rules as explicit out-of-scope prose, and all 29 weapon-specific Flamer, Gatling Laser, Junk Jet, Minigun and Missile Launcher mods. The April 2022 p.107 Flamer perk erratum is enforced for all six Flamer mods.
+- The Big Guns audit resolved the historical duplicate Flamer identity without deleting stable IDs: `75n1EFSJw8xxti6s`, already referenced by Mister Handy p.54, is the certified Core Flamer; `q3RjTNEYvfHVBzVk` is retained and catalogued as a duplicate. Both now carry the p.107 mod set and Close range, and the p.54 arm-attachment sentence was removed from the reusable weapon description.
+- Several same-name Gatling Laser mod identities had inherited mechanics from ordinary Energy Weapon variants. The p.108 source audit corrected the Gatling-only Photon Agitator (cost 132, weight 3, Science! 3), Reflex Sight (cost 169, Remove Inaccurate, Science! 4), Beam Focuser (cost 22, Piercing 1 and +1 range, no perk), and Boosted Capacitor (+1 damage only, no Fire Rate penalty), while restoring all Gatling variants to the Big Guns family. The Missile Launcher Scope was likewise reclassified from Energy Weapons to Big Guns.
+- The official FR p.106 table prints the Lance-flammes at 8.5 kg although canonical EN gives 16 lb. The module retains the project-wide exact lb/2 metric policy (8 kg) and records this localization discrepancy rather than treating the FR number as canonical mechanics.
 ## Next lot
 
-Continue page-by-page at printed/source p.106 with Big Guns. Build the expected
-weapon table and detailed-profile inventory from the PDFs before comparing repository
-data. Carry the p.107 Flamer-mod erratum forward when that table is reached.
+Continue page-by-page at printed/source p.111 with Melee Weapons. Audit the p.111
+weapon table first, then the weapon profiles and unique melee-mod tables through
+p.118 as a coherent source-driven lot. Apply the September 2022 p.111 Sledgehammer
+Two-Handed erratum before comparing canonical/locales.
 
 Known later Core suspects to re-check against source rather than assume true:
 
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–105
+There are no unresolved anomalies or owner decisions in the completed p.1–110
 boundary.
 
 ## Validation
@@ -192,7 +197,7 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks explicit source classification and canonical rule notes through p.105, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum, plus all 15 p.95 Small Guns with exact mechanics, weights, ammunition, accepted-mod identities, EN extraction repairs, p.97–99 errata and the two documented FR p.95 mechanical discrepancies. It also covers the p.101 Small Gun mod continuation, all five p.101 Energy Weapons, Laser Musket and Gamma Gun unique mods, all Energy Weapon mods through p.105, corrected same-name mod-family references, the Boosted Capacitor/stock/Signal Repeater fixes, and the FR Gamma Gun perk discrepancy. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
+It now also checks explicit source classification and canonical rule notes through p.110, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum, plus all 15 p.95 Small Guns with exact mechanics, weights, ammunition, accepted-mod identities, EN extraction repairs, p.97–99 errata and the two documented FR p.95 mechanical discrepancies. It also covers the p.101 Small Gun mod continuation, all five p.101 Energy Weapons, Laser Musket and Gamma Gun unique mods, all Energy Weapon mods through p.105, corrected same-name mod-family references, the Boosted Capacitor/stock/Signal Repeater fixes, and the FR Gamma Gun perk discrepancy. It now additionally certifies all seven Big Guns and all 29 weapon-specific Big Gun mods through p.110, including the Flamer duplicate/range cleanup, Flamer perk errata, Gatling-only mod corrections, exact bilingual coordinates and the FR Flamer weight discrepancy. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,

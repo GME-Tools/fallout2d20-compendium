@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 20,
+    "cost": 22,
     "favorite": false,
     "modEffects": {
       "ammo": "",
@@ -35,8 +35,8 @@
             "value": 0
           },
           "piercing_x": {
-            "rank": 0,
-            "value": 0
+            "rank": 1,
+            "value": 1
           },
           "radioactive": {
             "rank": 0,
@@ -197,19 +197,20 @@
     "rarity": 0,
     "source": "core_rulebook",
     "stashed": false,
-    "weaponType": "energyWeapons"
+    "weaponType": "bigGuns"
   },
   "type": "weapon_mod",
   "flags": {
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-owner-mod-icon",
-        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods.",
+        "page": 108
       },
       "weaponModRecipes": [
         {
@@ -236,5 +237,5 @@
       ]
     }
   },
-  "$folder": "energyWeapons-muzzle"
+  "$folder": "bigGuns-muzzle"
 }

@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 14,
+    "cost": 169,
     "favorite": false,
     "modEffects": {
       "ammo": "",
@@ -114,7 +114,7 @@
           },
           "inaccurate": {
             "rank": 0,
-            "value": 0
+            "value": -1
           },
           "limited": {
             "rank": 0,
@@ -184,7 +184,7 @@
       },
       "damageEffect": "",
       "damageRating": 0,
-      "effect": "<p>May re-roll hit location die</p>",
+      "effect": "",
       "fireRate": 0,
       "info": "",
       "range": 0,
@@ -198,7 +198,7 @@
     "rarity": 0,
     "source": "core_rulebook",
     "stashed": false,
-    "weaponType": "smallGuns",
+    "weaponType": "bigGuns",
     "weight": 0
   },
   "type": "weapon_mod",
@@ -206,12 +206,13 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-owner-mod-icon",
-        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods.",
+        "page": 108
       },
       "weaponModRecipes": [
         {
@@ -235,5 +236,5 @@
       ]
     }
   },
-  "$folder": "smallGuns-sight"
+  "$folder": "bigGuns-sight"
 }

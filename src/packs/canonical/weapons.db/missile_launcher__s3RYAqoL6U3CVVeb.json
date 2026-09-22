@@ -453,10 +453,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Missile Launcher"
+        "artworkSource": "repository alias for Missile Launcher",
+        "page": 106
       }
     }
   },

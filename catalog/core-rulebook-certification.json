@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 107,
-      "sourcePage": 105
+      "pdfPage": 112,
+      "sourcePage": 110
     },
     "fr": {
-      "pdfPage": 108,
-      "sourcePage": 105
+      "pdfPage": 113,
+      "sourcePage": 110
     }
   },
   "pageReviews": [
@@ -1733,6 +1733,86 @@
       "language": "fr",
       "pdfPage": 108,
       "sourcePage": 105,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 108,
+      "sourcePage": 106,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 109,
+      "sourcePage": 107,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 110,
+      "sourcePage": 108,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 111,
+      "sourcePage": 109,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 112,
+      "sourcePage": 110,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 109,
+      "sourcePage": 106,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 110,
+      "sourcePage": 107,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 111,
+      "sourcePage": 108,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 112,
+      "sourcePage": 109,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 113,
+      "sourcePage": 110,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -12708,6 +12788,1437 @@
         "perks": [
           "Science! 1"
         ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "table",
+      "sourceName": "Big Guns",
+      "localizedNames": {
+        "fr": "Armes lourdes"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table used as the source inventory and mechanical baseline for Big Gun Items; it is not a random RollTable document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          106
+        ],
+        "fr": [
+          106
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 7
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "sidebar",
+      "sourceName": "Big Guns Complications",
+      "localizedNames": {
+        "fr": "Complications des armes lourdes"
+      },
+      "scope": "out_of_scope",
+      "justification": "General complication guidance for Big Guns, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          106
+        ],
+        "fr": [
+          106
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "results": [
+          "Wasteful",
+          "Click…",
+          "Wear and Tear",
+          "Massive Recoil"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Fat Man",
+      "localizedNames": {
+        "fr": "Fat Man"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "5gIryFE7WITrmSvY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          107
+        ],
+        "fr": [
+          106,
+          107
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 21,
+        "damageEffects": [
+          "Breaking",
+          "Radioactive",
+          "Vicious"
+        ],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "M",
+        "qualities": [
+          "Blast",
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 31,
+        "cost": 512,
+        "rarity": 4,
+        "ammunitionIdentity": "Mini-Nuke",
+        "acceptedModIds": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Flamer",
+      "localizedNames": {
+        "fr": "Lance-flammes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "75n1EFSJw8xxti6s",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          107
+        ],
+        "fr": [
+          106,
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "Burst",
+          "Persistent",
+          "Spread"
+        ],
+        "damageType": "Energy",
+        "fireRate": 4,
+        "range": "C",
+        "qualities": [
+          "Debilitating",
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 16,
+        "cost": 137,
+        "rarity": 3,
+        "ammunitionIdentity": "Flamer Fuel",
+        "acceptedModIds": [
+          "cAqagnqyBpSC4wgM",
+          "bhpEF2ZReAacz7NI",
+          "vQ2PsttSdFUUDpN2",
+          "zGyzL9NMjix36tgh",
+          "s1TJG5B9uGwUVZJg",
+          "xhKCtkvzwtowzx9K"
+        ],
+        "localizationNote": "The official French p.106 table prints 8.5 kg for the Flamer. Canonical EN weight is 16 lb, so the project’s deterministic metric localization remains 8 kg."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Gatling Laser",
+      "localizedNames": {
+        "fr": "Laser Gatling"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "uyx46lw2PXh08m1P",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          108
+        ],
+        "fr": [
+          106,
+          109,
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "Burst",
+          "Piercing 1"
+        ],
+        "damageType": "Energy",
+        "fireRate": 6,
+        "range": "M",
+        "qualities": [
+          "Gatling",
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 19,
+        "cost": 804,
+        "rarity": 3,
+        "ammunitionIdentity": "Fusion Cells or Fusion Core",
+        "acceptedModIds": [
+          "mcjlBsMoWIiiNoVw",
+          "xg5FEwwagDUpedcL",
+          "ULmvHBqIQuMGNg1o",
+          "5TezV1CMuZiRXrKU",
+          "VMMDaoy4SbwdLJaX",
+          "AMOEO5RXltJZM8kz",
+          "IT15FDgwEelj1LYg"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Heavy Incinerator",
+      "localizedNames": {
+        "fr": "Incinérateur lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "ccLXYRUueArLgLst",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          108
+        ],
+        "fr": [
+          106,
+          107
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "Burst",
+          "Persistent",
+          "Spread"
+        ],
+        "damageType": "Energy",
+        "fireRate": 3,
+        "range": "M",
+        "qualities": [
+          "Debilitating",
+          "Two-Handed"
+        ],
+        "weightLb": 20,
+        "cost": 350,
+        "rarity": 4,
+        "ammunitionIdentity": "Flamer Fuel",
+        "acceptedModIds": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Junk Jet",
+      "localizedNames": {
+        "fr": "Junk Jet"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "CyxEyS2RLOuMLMa1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          108,
+          109
+        ],
+        "fr": [
+          106,
+          107,
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 1,
+        "range": "M",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 30,
+        "cost": 285,
+        "rarity": 3,
+        "ammunitionIdentity": "Anything",
+        "acceptedModIds": [
+          "cs76CKLMxYAzhNhb",
+          "pkYZNmGx0JPKquIC",
+          "5gXCZXtJ4E9Blg97",
+          "UtS1TgSmfTHRb5dW",
+          "bCJRlQcht0typqhI"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Minigun",
+      "localizedNames": {
+        "fr": "Minigun"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "5TAOMd3GGpapiM6Q",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          109
+        ],
+        "fr": [
+          106,
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "Burst",
+          "Spread"
+        ],
+        "damageType": "Physical",
+        "fireRate": 5,
+        "range": "M",
+        "qualities": [
+          "Gatling",
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 27,
+        "cost": 382,
+        "rarity": 2,
+        "ammunitionIdentity": "5mm",
+        "acceptedModIds": [
+          "RpKbC7YEiI2c8h1N",
+          "6oW2tdrYzdu0klW4",
+          "DQwdlCs54hWqQaZa",
+          "EFY7drbYyPo1zGOh"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Missile Launcher",
+      "localizedNames": {
+        "fr": "Lance-missiles"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Big Gun Item defined by the Core p.106 table and detailed profile on pp.107–110.",
+      "pack": "weapons",
+      "documentId": "s3RYAqoL6U3CVVeb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          106,
+          110
+        ],
+        "fr": [
+          106,
+          108,
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 11,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "L",
+        "qualities": [
+          "Blast",
+          "Two-Handed"
+        ],
+        "weightLb": 21,
+        "cost": 314,
+        "rarity": 4,
+        "ammunitionIdentity": "Missile",
+        "acceptedModIds": [
+          "KkRxsFbFTL89H3Ra",
+          "3GI1TF4vKxSitRWJ",
+          "WD7u8h2fsH35rD8t",
+          "hPa4NWlG4PcbM3E2",
+          "rTLDO0WUB9euiP9T",
+          "pk8yYPVKXuuatunI",
+          "DqTXjqNAMlbHJa3V"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 106,
+      "type": "weapon",
+      "sourceName": "Flamer",
+      "localizedNames": {
+        "fr": "Lance-flammes"
+      },
+      "scope": "in_scope",
+      "justification": "Published duplicate root identity retained to preserve its stable ID/_key/UUID contract; the p.54 structured reference and certified Core weapon identity use 75n1EFSJw8xxti6s.",
+      "pack": "weapons",
+      "documentId": "q3RjTNEYvfHVBzVk",
+      "status": "duplicate",
+      "sourcePages": {
+        "en": [
+          106,
+          107
+        ],
+        "fr": [
+          106,
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "duplicateOf": "75n1EFSJw8xxti6s",
+        "reason": "The source contains one Flamer profile. Both historical stable IDs are retained, but only 75n1EFSJw8xxti6s is the certified source identity."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "rule_text",
+      "sourceName": "Big Guns Mods",
+      "localizedNames": {
+        "fr": "Mods des armes lourdes"
+      },
+      "scope": "out_of_scope",
+      "justification": "General installation guidance; concrete reusable weapon-specific mods are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          107
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "note": "Big Gun mods are weapon-specific and each row states its install skill/perk requirements."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "weapon_mod",
+      "sourceName": "Napalm",
+      "localizedNames": {
+        "fr": "Réservoir à napalm"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "cAqagnqyBpSC4wgM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "fuel",
+        "effect": "+1 CD damage",
+        "weightLb": 7,
+        "cost": 59,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "installSkill": "Repair",
+        "errataApplied": [
+          "April 2022: Flamer mod perk requirements corrected to Gun Nut 1 except Huge Tank and Vaporization Nozzle at Gun Nut 2."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "weapon_mod",
+      "sourceName": "Long Barrel",
+      "localizedNames": {
+        "fr": "Canon long"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "bhpEF2ZReAacz7NI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "Remove Inaccurate",
+        "weightLb": 2,
+        "cost": 28,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "installSkill": "Repair",
+        "errataApplied": [
+          "April 2022: Flamer mod perk requirements corrected to Gun Nut 1 except Huge Tank and Vaporization Nozzle at Gun Nut 2."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "weapon_mod",
+      "sourceName": "Large Tank",
+      "localizedNames": {
+        "fr": "Grand réservoir"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "vQ2PsttSdFUUDpN2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "propellantTank",
+        "effect": "+1 Fire Rate",
+        "weightLb": 3,
+        "cost": 28,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "installSkill": "Repair",
+        "errataApplied": [
+          "April 2022: Flamer mod perk requirements corrected to Gun Nut 1 except Huge Tank and Vaporization Nozzle at Gun Nut 2."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "weapon_mod",
+      "sourceName": "Huge Tank",
+      "localizedNames": {
+        "fr": "Réservoir géant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "zGyzL9NMjix36tgh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "propellantTank",
+        "effect": "+2 Fire Rate",
+        "weightLb": 6,
+        "cost": 34,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "installSkill": "Repair",
+        "errataApplied": [
+          "April 2022: Flamer mod perk requirements corrected to Gun Nut 1 except Huge Tank and Vaporization Nozzle at Gun Nut 2."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "weapon_mod",
+      "sourceName": "Compression Nozzle",
+      "localizedNames": {
+        "fr": "Buse de compression"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "s1TJG5B9uGwUVZJg",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "nozzle",
+        "effect": "+1 CD damage",
+        "weightLb": 0,
+        "cost": 22,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "installSkill": "Repair",
+        "errataApplied": [
+          "April 2022: Flamer mod perk requirements corrected to Gun Nut 1 except Huge Tank and Vaporization Nozzle at Gun Nut 2."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 107,
+      "type": "weapon_mod",
+      "sourceName": "Vaporization Nozzle",
+      "localizedNames": {
+        "fr": "Buse de vaporisation"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "xhKCtkvzwtowzx9K",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          107
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "nozzle",
+        "effect": "+1 CD damage; Gain Vicious",
+        "weightLb": 0,
+        "cost": 47,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "installSkill": "Repair",
+        "errataApplied": [
+          "April 2022: Flamer mod perk requirements corrected to Gun Nut 1 except Huge Tank and Vaporization Nozzle at Gun Nut 2."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Photon Exciter",
+      "localizedNames": {
+        "fr": "Stimulateur de photons"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "mcjlBsMoWIiiNoVw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "Gain Vicious",
+        "weightLb": 1,
+        "cost": 19,
+        "perks": [
+          "Science! 3"
+        ],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Beta Wave Tuner",
+      "localizedNames": {
+        "fr": "Amplificateur d’ondes Bêta"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "xg5FEwwagDUpedcL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "Gain Persistent",
+        "weightLb": 1,
+        "cost": 57,
+        "perks": [],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Boosted Capacitor",
+      "localizedNames": {
+        "fr": "Condensateur amélioré"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "ULmvHBqIQuMGNg1o",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+1 CD damage",
+        "weightLb": 1,
+        "cost": 94,
+        "perks": [],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Photon Agitator",
+      "localizedNames": {
+        "fr": "Agitateur de photons"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "5TezV1CMuZiRXrKU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+1 CD damage; Gain Vicious",
+        "weightLb": 3,
+        "cost": 132,
+        "perks": [
+          "Science! 3"
+        ],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Charging Barrels",
+      "localizedNames": {
+        "fr": "Canons à chargement"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "VMMDaoy4SbwdLJaX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+4 CD damage; -3 Fire Rate; increase Range by 1 step",
+        "weightLb": 10,
+        "cost": 357,
+        "perks": [
+          "Science! 4"
+        ],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Reflex Sight",
+      "localizedNames": {
+        "fr": "Viseur laser"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "AMOEO5RXltJZM8kz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Remove Inaccurate",
+        "weightLb": 1,
+        "cost": 169,
+        "perks": [
+          "Science! 4"
+        ],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 108,
+      "type": "weapon_mod",
+      "sourceName": "Beam Focuser",
+      "localizedNames": {
+        "fr": "Concentrateur de faisceau"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "IT15FDgwEelj1LYg",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          108
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Gain Piercing 1; increase Range by 1 step",
+        "weightLb": 0,
+        "cost": 22,
+        "perks": [],
+        "installSkill": "Science"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Long Barrel",
+      "localizedNames": {
+        "fr": "Canon long"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "cs76CKLMxYAzhNhb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "Increase Range by 1 step",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Recoil Compensating Stock",
+      "localizedNames": {
+        "fr": "Crosse à compensateur de recul"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "pkYZNmGx0JPKquIC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "+1 Fire Rate",
+        "weightLb": 2,
+        "cost": 40,
+        "perks": [],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Gunner Sight",
+      "localizedNames": {
+        "fr": "Viseur d’Artilleur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "5gXCZXtJ4E9Blg97",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "May re-roll hit location die",
+        "weightLb": 1,
+        "cost": 5,
+        "perks": [],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Electrification Module",
+      "localizedNames": {
+        "fr": "Module d’électrification"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "UtS1TgSmfTHRb5dW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Gain Vicious; change damage type to Energy",
+        "weightLb": 1,
+        "cost": 70,
+        "perks": [
+          "Gun Nut 2",
+          "Science! 1"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Ignition Module",
+      "localizedNames": {
+        "fr": "Module de combustion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "bCJRlQcht0typqhI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          108
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Gain Persistent (Energy)",
+        "weightLb": 1,
+        "cost": 130,
+        "perks": [
+          "Gun Nut 3",
+          "Science! 1"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Accelerated Barrel",
+      "localizedNames": {
+        "fr": "Canon grande vitesse"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "RpKbC7YEiI2c8h1N",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+1 CD damage; +1 Fire Rate; reduce Range by 1 step",
+        "weightLb": 5,
+        "cost": 45,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Tri-Barrel",
+      "localizedNames": {
+        "fr": "Triple canon"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "6oW2tdrYzdu0klW4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+2 CD damage; -2 Fire Rate",
+        "weightLb": 3,
+        "cost": 75,
+        "perks": [
+          "Gun Nut 4"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Gunner Sight",
+      "localizedNames": {
+        "fr": "Viseur d’Artilleur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "DQwdlCs54hWqQaZa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Remove Inaccurate",
+        "weightLb": 1,
+        "cost": 68,
+        "perks": [],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 109,
+      "type": "weapon_mod",
+      "sourceName": "Shredder",
+      "localizedNames": {
+        "fr": "Broyeur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "EFY7drbYyPo1zGOh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          109
+        ],
+        "fr": [
+          110
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Melee weapon; Physical CD equal to Fire Rate",
+        "weightLb": 5,
+        "cost": 5,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Triple Barrel",
+      "localizedNames": {
+        "fr": "Triple canon"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "KkRxsFbFTL89H3Ra",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+1 Fire Rate",
+        "weightLb": 16,
+        "cost": 143,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Quad Barrel",
+      "localizedNames": {
+        "fr": "Quadruple canon"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "3GI1TF4vKxSitRWJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+2 Fire Rate",
+        "weightLb": 20,
+        "cost": 218,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Scope",
+      "localizedNames": {
+        "fr": "Lunette"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "WD7u8h2fsH35rD8t",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate",
+        "weightLb": 6,
+        "cost": 143,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Night Vision Scope",
+      "localizedNames": {
+        "fr": "Lunette de vision nocturne"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "hPa4NWlG4PcbM3E2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Night Vision",
+        "weightLb": 6,
+        "cost": 248,
+        "perks": [
+          "Gun Nut 4",
+          "Science! 1"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Targeting Computer",
+      "localizedNames": {
+        "fr": "Ordinateur de visée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "rTLDO0WUB9euiP9T",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Aim ignores cover; aim bonus persists to the next attack on a subsequent turn",
+        "weightLb": 7,
+        "cost": 293,
+        "perks": [
+          "Gun Nut 2",
+          "Science! 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Bayonet",
+      "localizedNames": {
+        "fr": "Baïonnette"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "pk8yYPVKXuuatunI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Melee weapon; 4 CD Piercing 1 Physical damage",
+        "weightLb": 1,
+        "cost": 30,
+        "perks": [],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 110,
+      "type": "weapon_mod",
+      "sourceName": "Stabilizer",
+      "localizedNames": {
+        "fr": "Stabilisateur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific Big Gun mod defined in the Core pp.107–110 tables.",
+      "pack": "weapon-mods",
+      "documentId": "DqTXjqNAMlbHJa3V",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          110
+        ],
+        "fr": [
+          109
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Gain Piercing 1",
+        "weightLb": 2,
+        "cost": 60,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "installSkill": "Repair"
       }
     }
   ]

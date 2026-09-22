@@ -404,7 +404,7 @@
     "originalAmmoPerShot": 0,
     "quantity": 1,
     "quantityRoll": "",
-    "range": "medium",
+    "range": "close",
     "rarity": 3,
     "skill": "",
     "source": "core_rulebook",
@@ -417,9 +417,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 106
       }
     }
   },

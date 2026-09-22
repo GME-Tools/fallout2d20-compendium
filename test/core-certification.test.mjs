@@ -1403,3 +1403,139 @@ test("Core Energy Weapon source text pp.102-104 has no known extraction artifact
   assert.match(gamma,/Electric Signal Carrier Antennae, Signal Repeater/);
   assert.doesNotMatch(gamma,/Antennaem/);
 });
+
+
+test("Core Big Guns pp.106-110 match source mechanics, identities and accepted mods", async () => {
+  const expected = new Map([
+    ["5gIryFE7WITrmSvY",{en:"Fat Man",fr:"Fat Man",damage:21,effects:["breaking","radioactive","vicious"],type:"physical",fireRate:0,range:"medium",qualities:["blast","inaccurate","two_handed"],weight:31,cost:512,rarity:4,mods:[]}],
+    ["75n1EFSJw8xxti6s",{en:"Flamer",fr:"Lance-flammes",damage:3,effects:["burst","persistent","spread"],type:"energy",fireRate:4,range:"close",qualities:["debilitating","inaccurate","two_handed"],weight:16,cost:137,rarity:3,mods:["bhpEF2ZReAacz7NI","cAqagnqyBpSC4wgM","s1TJG5B9uGwUVZJg","vQ2PsttSdFUUDpN2","xhKCtkvzwtowzx9K","zGyzL9NMjix36tgh"]}],
+    ["uyx46lw2PXh08m1P",{en:"Gatling Laser",fr:"Laser Gatling",damage:3,effects:["burst","piercing_x"],type:"energy",fireRate:6,range:"medium",qualities:["gatling","inaccurate","two_handed"],weight:19,cost:804,rarity:3,mods:["5TezV1CMuZiRXrKU","AMOEO5RXltJZM8kz","IT15FDgwEelj1LYg","ULmvHBqIQuMGNg1o","VMMDaoy4SbwdLJaX","mcjlBsMoWIiiNoVw","xg5FEwwagDUpedcL"]}],
+    ["ccLXYRUueArLgLst",{en:"Heavy Incinerator",fr:"Incinérateur lourd",damage:5,effects:["burst","persistent","spread"],type:"energy",fireRate:3,range:"medium",qualities:["debilitating","two_handed"],weight:20,cost:350,rarity:4,mods:[]}],
+    ["CyxEyS2RLOuMLMa1",{en:"Junk Jet",fr:"Junk Jet",damage:6,effects:[],type:"physical",fireRate:1,range:"medium",qualities:["two_handed"],weight:30,cost:285,rarity:3,mods:["5gXCZXtJ4E9Blg97","UtS1TgSmfTHRb5dW","bCJRlQcht0typqhI","cs76CKLMxYAzhNhb","pkYZNmGx0JPKquIC"]}],
+    ["5TAOMd3GGpapiM6Q",{en:"Minigun",fr:"Minigun",damage:3,effects:["burst","spread"],type:"physical",fireRate:5,range:"medium",qualities:["gatling","inaccurate","two_handed"],weight:27,cost:382,rarity:2,mods:["6oW2tdrYzdu0klW4","DQwdlCs54hWqQaZa","EFY7drbYyPo1zGOh","RpKbC7YEiI2c8h1N"]}],
+    ["s3RYAqoL6U3CVVeb",{en:"Missile Launcher",fr:"Lance-missiles",damage:11,effects:[],type:"physical",fireRate:0,range:"long",qualities:["blast","two_handed"],weight:21,cost:314,rarity:4,mods:["3GI1TF4vKxSitRWJ","DqTXjqNAMlbHJa3V","KkRxsFbFTL89H3Ra","WD7u8h2fsH35rD8t","hPa4NWlG4PcbM3E2","pk8yYPVKXuuatunI","rTLDO0WUB9euiP9T"]}]
+  ]);
+  assert.equal(catalog.entries.filter(e=>e.page===106&&e.pack==="weapons"&&e.status==="verified").length,7);
+  for(const language of ["en","fr"]){
+    const docs=new Map((await generatedDocuments(language)).filter(({pack})=>pack==="weapons").map(({document})=>[document._id,document]));
+    for(const [id,spec] of expected){
+      const d=docs.get(id); assert.ok(d,language+"/"+id+" missing");
+      const src=d.flags["fallout2d20-compendium"].source;
+      assert.equal(src.page,106,language+"/"+id+" source page");
+      assert.equal(src.errataReviewed,true,language+"/"+id+" errata review");
+      if(language==="fr"){
+        assert.equal(src.translationReviewed,true,id+" FR translation review");
+        assert.equal(src.diceSymbolsReviewed,true,id+" FR dice review");
+      }
+      assert.equal(d.name,language==="en"?spec.en:spec.fr);
+      assert.equal(d.system.damage.rating,spec.damage);
+      assert.equal(d.system.fireRate,spec.fireRate);
+      assert.equal(d.system.range,spec.range);
+      assert.equal(d.system.cost,spec.cost);
+      assert.equal(d.system.rarity,spec.rarity);
+      assert.equal(d.system.weight,language==="en"?spec.weight:spec.weight/2);
+      assert.deepEqual(Object.entries(d.system.damage.damageEffect).filter(([,v])=>v?.value).map(([k])=>k).sort(),[...spec.effects].sort());
+      assert.deepEqual(Object.entries(d.system.damage.damageType).filter(([,v])=>v).map(([k])=>k),[spec.type]);
+      assert.deepEqual(Object.entries(d.system.damage.weaponQuality).filter(([,v])=>v?.value).map(([k])=>k).sort(),[...spec.qualities].sort());
+      const mods=Object.keys(d.system.mods??{}).filter(k=>/^[A-Za-z0-9]{16}$/.test(k)).sort();
+      assert.deepEqual(mods,[...spec.mods].sort(),language+"/"+spec.en+" accepted mods");
+    }
+  }
+  const duplicate=catalog.entries.find(e=>e.documentId==="q3RjTNEYvfHVBzVk"&&e.page===106);
+  assert.equal(duplicate.status,"duplicate");
+  assert.equal(duplicate.certification.duplicateOf,"75n1EFSJw8xxti6s");
+  const frFlamer=catalog.entries.find(e=>e.documentId==="75n1EFSJw8xxti6s"&&e.page===106);
+  assert.match(frFlamer.certification.localizationNote,/prints 8\.5 kg/);
+  const table=catalog.entries.find(e=>e.page===106&&e.sourceName==="Big Guns"&&e.type==="table");
+  assert.equal(table.certification.rowCount,7);
+  const complications=catalog.entries.find(e=>e.page===106&&e.sourceName==="Big Guns Complications");
+  assert.deepEqual(complications.certification.results,["Wasteful","Click…","Wear and Tear","Massive Recoil"]);
+});
+
+test("Core Big Gun mods pp.107-110 are source-complete with exact provenance, cost, weight and perk requirements", async () => {
+  const rows=[
+    [107,"cAqagnqyBpSC4wgM","Napalm","Réservoir à napalm",7,59,"Gun Nut 1","Fana d’armes 1",108],
+    [107,"bhpEF2ZReAacz7NI","Long Barrel","Canon long",2,28,"Gun Nut 1","Fana d’armes 1",108],
+    [107,"vQ2PsttSdFUUDpN2","Large Tank","Grand réservoir",3,28,"Gun Nut 1","Fana d’armes 1",108],
+    [107,"zGyzL9NMjix36tgh","Huge Tank","Réservoir géant",6,34,"Gun Nut 2","Fana d’armes 2",108],
+    [107,"s1TJG5B9uGwUVZJg","Compression Nozzle","Buse de compression",0,22,"Gun Nut 1","Fana d’armes 1",108],
+    [107,"xhKCtkvzwtowzx9K","Vaporization Nozzle","Buse de vaporisation",0,47,"Gun Nut 2","Fana d’armes 2",108],
+    [108,"mcjlBsMoWIiiNoVw","Photon Exciter","Stimulateur de photons",1,19,"Science! 3","Scientifique 3",110],
+    [108,"xg5FEwwagDUpedcL","Beta Wave Tuner","Amplificateur d’ondes Bêta",1,57,"","",110],
+    [108,"ULmvHBqIQuMGNg1o","Boosted Capacitor","Condensateur amélioré",1,94,"","",110],
+    [108,"5TezV1CMuZiRXrKU","Photon Agitator","Agitateur de photons",3,132,"Science! 3","Scientifique 3",110],
+    [108,"VMMDaoy4SbwdLJaX","Charging Barrels","Canons à chargement",10,357,"Science! 4","Scientifique 4",110],
+    [108,"AMOEO5RXltJZM8kz","Reflex Sight","Viseur laser",1,169,"Science! 4","Scientifique 4",110],
+    [108,"IT15FDgwEelj1LYg","Beam Focuser","Concentrateur de faisceau",0,22,"","",110],
+    [109,"cs76CKLMxYAzhNhb","Long Barrel","Canon long",2,20,"Gun Nut 1","Fana d’armes 1",108],
+    [109,"pkYZNmGx0JPKquIC","Recoil Compensating Stock","Crosse à compensateur de recul",2,40,"","",108],
+    [109,"5gXCZXtJ4E9Blg97","Gunner Sight","Viseur d’Artilleur",1,5,"","",108],
+    [109,"UtS1TgSmfTHRb5dW","Electrification Module","Module d’électrification",1,70,"Gun Nut 2; Science! 1","Fana d’armes 2; Scientifique 1",108],
+    [109,"bCJRlQcht0typqhI","Ignition Module","Module de combustion",1,130,"Gun Nut 3; Science! 1","Fana d’armes 3; Scientifique 1",108],
+    [109,"RpKbC7YEiI2c8h1N","Accelerated Barrel","Canon grande vitesse",5,45,"Gun Nut 3","Fana d’armes 3",110],
+    [109,"6oW2tdrYzdu0klW4","Tri-Barrel","Triple canon",3,75,"Gun Nut 4","Fana d’armes 4",110],
+    [109,"DQwdlCs54hWqQaZa","Gunner Sight","Viseur d’Artilleur",1,68,"","",110],
+    [109,"EFY7drbYyPo1zGOh","Shredder","Broyeur",5,5,"Gun Nut 2","Fana d’armes 2",110],
+    [110,"KkRxsFbFTL89H3Ra","Triple Barrel","Triple canon",16,143,"Gun Nut 2","Fana d’armes 2",109],
+    [110,"3GI1TF4vKxSitRWJ","Quad Barrel","Quadruple canon",20,218,"Gun Nut 3","Fana d’armes 3",109],
+    [110,"WD7u8h2fsH35rD8t","Scope","Lunette",6,143,"Gun Nut 2","Fana d’armes 2",109],
+    [110,"hPa4NWlG4PcbM3E2","Night Vision Scope","Lunette de vision nocturne",6,248,"Gun Nut 4; Science! 1","Fana d’armes 4; Scientifique 1",109],
+    [110,"rTLDO0WUB9euiP9T","Targeting Computer","Ordinateur de visée",7,293,"Gun Nut 2; Science! 2","Fana d’armes 2; Scientifique 2",109],
+    [110,"pk8yYPVKXuuatunI","Bayonet","Baïonnette",1,30,"","",109],
+    [110,"DqTXjqNAMlbHJa3V","Stabilizer","Stabilisateur",2,60,"Gun Nut 2","Fana d’armes 2",109]
+  ];
+  assert.equal(catalog.entries.filter(e=>e.pack==="weapon-mods"&&e.page>=107&&e.page<=110&&e.status==="verified").length,rows.length);
+  const byLang={};
+  for(const language of ["en","fr"]) byLang[language]=new Map((await generatedDocuments(language)).filter(({pack})=>pack==="weapon-mods").map(({document})=>[document._id,document]));
+  for(const [page,id,enName,frName,weight,cost,enPerks,frPerks,frPage] of rows){
+    const entry=catalog.entries.find(e=>e.documentId===id&&e.page===page);
+    assert.ok(entry,id+" catalog entry");
+    assert.deepEqual(entry.sourcePages.fr,[frPage],id+" FR source coordinate");
+    for(const [language,name,perks,mult] of [["en",enName,enPerks,1],["fr",frName,frPerks,0.5]]){
+      const d=byLang[language].get(id); assert.ok(d,language+"/"+id+" missing");
+      const src=d.flags["fallout2d20-compendium"].source;
+      assert.equal(src.page,page,language+"/"+id+" canonical source page");
+      assert.equal(src.errataReviewed,true,language+"/"+id+" errata review");
+      if(language==="fr") assert.equal(src.translationReviewed,true,id+" FR translation review");
+      assert.equal(d.name,name);
+      assert.equal(d.system.cost,cost);
+      assert.equal(d.system.weight??0,weight*mult);
+      assert.equal(d.system.perks??"",perks);
+      assert.equal(d.system.weaponType,"bigGuns",language+"/"+id+" weapon family");
+    }
+  }
+});
+
+test("Core Big Gun errata and repaired Gatling variants retain source mechanics", async () => {
+  const enMods=new Map((await generatedDocuments("en")).filter(({pack})=>pack==="weapon-mods").map(({document})=>[document._id,document]));
+  for(const [id,perk] of [["cAqagnqyBpSC4wgM","Gun Nut 1"],["bhpEF2ZReAacz7NI","Gun Nut 1"],["vQ2PsttSdFUUDpN2","Gun Nut 1"],["s1TJG5B9uGwUVZJg","Gun Nut 1"],["zGyzL9NMjix36tgh","Gun Nut 2"],["xhKCtkvzwtowzx9K","Gun Nut 2"]]) {
+    assert.equal(enMods.get(id).system.perks,perk,id+" p.107 errata perk");
+  }
+  const boosted=enMods.get("ULmvHBqIQuMGNg1o");
+  assert.equal(boosted.system.modEffects.damage.rating,1);
+  assert.equal(boosted.system.modEffects.fireRate,0);
+  const agitator=enMods.get("5TezV1CMuZiRXrKU");
+  assert.equal(agitator.system.cost,132);
+  assert.equal(agitator.system.modEffects.damage.rating,1);
+  assert.equal(agitator.system.modEffects.damage.damageEffect.vicious.value,1);
+  const reflex=enMods.get("AMOEO5RXltJZM8kz");
+  assert.equal(reflex.system.cost,169);
+  assert.equal(reflex.system.modEffects.damage.weaponQuality.inaccurate.value,-1);
+  const focuser=enMods.get("IT15FDgwEelj1LYg");
+  assert.equal(focuser.system.cost,22);
+  assert.equal(focuser.system.modEffects.damage.damageEffect.piercing_x.value,1);
+  assert.equal(focuser.system.modEffects.range,1);
+  const missileScope=enMods.get("WD7u8h2fsH35rD8t");
+  assert.equal(missileScope.system.weaponType,"bigGuns");
+  assert.equal(missileScope.system.modEffects.damage.weaponQuality.accurate.value,1);
+  const enWeapons=new Map((await generatedDocuments("en")).filter(({pack})=>pack==="weapons").map(({document})=>[document._id,document]));
+  const flamer=enWeapons.get("75n1EFSJw8xxti6s");
+  assert.doesNotMatch(flamer.system.description,/Arm Attachment:/);
+  assert.match(flamer.system.description,/A flamethrower, or flamer/);
+  const duplicate=enWeapons.get("q3RjTNEYvfHVBzVk");
+  assert.equal(duplicate.system.range,"close");
+  assert.deepEqual(
+    Object.keys(duplicate.system.mods??{}).filter(k=>/^[A-Za-z0-9]{16}$/.test(k)).sort(),
+    Object.keys(flamer.system.mods??{}).filter(k=>/^[A-Za-z0-9]{16}$/.test(k)).sort()
+  );
+});
