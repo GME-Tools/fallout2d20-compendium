@@ -906,7 +906,7 @@ test("Core transition and equipment rules pp.82-87 are explicitly classified out
   const modifiedNames = catalog.entries.find(entry => entry.sourceName === "Modified Equipment Names");
   assert.deepEqual(modifiedNames.sourcePages, { en: [87, 88], fr: [87, 88] });
   assert.equal(modifiedNames.certification.continuationReviewed, true);
-  assert.match(modifiedNames.certification.note, /does not certify the rest of p\.88/);
+  assert.match(modifiedNames.certification.note, /Source p\.88 is now independently certified/);
 });
 
 test("Core equipment acquisition rules retain EN canonical mechanics over FR source discrepancies", () => {
