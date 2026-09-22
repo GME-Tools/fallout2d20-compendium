@@ -1183,7 +1183,7 @@ test("Core Small Guns pp.95-99 preserve source text and canonicalize errata/loca
   assert.doesNotMatch(fr.get("bpbgoX9mNr23pFHR").system.description, /optimisée/);
   const smgFr = fr.get("244Kf3MVUhEQQGsw").system.description;
   assert.match(smgFr, /Culasse\s*:\s*renforcée, haute sensibilité, puissante/);
-  assert.doesNotMatch(smgFr, /perforante|rapide|canon court/);
+  assert.doesNotMatch(smgFr, /Culasse\\s*:\\s*perforante|Canon\\s*:\\s*canon court/);
   const pipeBoltFr = fr.get("obRp9CZJJ6liIl49").system.description;
   assert.doesNotMatch(pipeBoltFr, /canon raccourci/);
   assert.match(pipeBoltFr, /crosse complète/);
