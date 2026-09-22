@@ -6,11 +6,11 @@
     "/system/description": "<p>Munitions : cartouches .45 Ce type de mitraillette était déjà un design ancien avant la Guerre et, même si elle est extrêmement imprécise, sa cadence de tir rend la précision relativement inutile. Une mitraillette peut accepter un mod de chaque type parmi les suivants :  Culasse : renforcée, haute sensibilité, puissante  Crosse : crosse complète, crosse à compensateur de recul  Chargeur : grand chargeur, chargeur à éjection rapide, grand chargeur à éjection rapide  Viseur : viseur laser  Bouche : compensateur, frein de bouche, silencieux</p>",
     "/system/weight": 6,
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/page": 95,
     "/flags/fallout2d20-compendium/source/translatedFrom": "244Kf3MVUhEQQGsw",
     "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
-    "/flags/fallout2d20-compendium/source/translationReviewed": false,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/name": "Mitraillette"
   }

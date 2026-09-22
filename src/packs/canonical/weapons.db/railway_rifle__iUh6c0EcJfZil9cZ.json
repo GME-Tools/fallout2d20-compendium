@@ -554,10 +554,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Railway Rifle"
+        "artworkSource": "repository alias for Railway Rifle",
+        "page": 95
       }
     }
   },

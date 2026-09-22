@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 96,
-      "sourcePage": 94
+      "pdfPage": 101,
+      "sourcePage": 99
     },
     "fr": {
-      "pdfPage": 97,
-      "sourcePage": 94
+      "pdfPage": 102,
+      "sourcePage": 99
     }
   },
   "pageReviews": [
@@ -1557,6 +1557,86 @@
       "language": "fr",
       "pdfPage": 97,
       "sourcePage": 94,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 97,
+      "sourcePage": 95,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 98,
+      "sourcePage": 96,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 99,
+      "sourcePage": 97,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 100,
+      "sourcePage": 98,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 101,
+      "sourcePage": 99,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 98,
+      "sourcePage": 95,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 99,
+      "sourcePage": 96,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 100,
+      "sourcePage": 97,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 101,
+      "sourcePage": 98,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 102,
+      "sourcePage": 99,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -8700,6 +8780,1166 @@
         "cost": 55,
         "rarity": 2,
         "effect": "If an Effect is rolled, the target must spend at least one action each turn moving directly away from all enemies for rounds equal to Effects rolled."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "table",
+      "sourceName": "Small Guns",
+      "localizedNames": {
+        "fr": "Armes légères"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table used as the source inventory and mechanical baseline for Small Guns Items; it is not a random RollTable document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          95
+        ],
+        "fr": [
+          95
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 15,
+        "note": "All fifteen concrete Small Guns identities are certified separately from this table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": ".44 Pistol",
+      "localizedNames": {
+        "fr": "Pistolet .44"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "wqNw0xItJ29W24sm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          96
+        ],
+        "fr": [
+          95,
+          96
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [
+          "Vicious"
+        ],
+        "damageType": "Physical",
+        "fireRate": 1,
+        "range": "C",
+        "qualities": [
+          "Close Quarters"
+        ],
+        "weightLb": 4,
+        "cost": 99,
+        "rarity": 2,
+        "ammunitionIdentity": ".44 Magnum Round",
+        "sourceAmmunitionLabel": ".44 Magnum",
+        "acceptedMods": {
+          "Receiver": [
+            "Hardened",
+            "Powerful",
+            "Advanced"
+          ],
+          "Barrel": [
+            "Snubnose Barrel",
+            "Bull Barrel"
+          ],
+          "Grip": [
+            "Comfort Grip"
+          ],
+          "Sights": [
+            "Short Scope",
+            "Reflex Sight",
+            "Recon Scope"
+          ]
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "10mm Pistol",
+      "localizedNames": {
+        "fr": "Pistolet 10 mm"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "mRB3W7wrHDbWhb9i",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          96
+        ],
+        "fr": [
+          95,
+          96
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 2,
+        "range": "C",
+        "qualities": [
+          "Close Quarters",
+          "Reliable"
+        ],
+        "weightLb": 4,
+        "cost": 50,
+        "rarity": 1,
+        "ammunitionIdentity": "10mm Round",
+        "sourceAmmunitionLabel": "10mm",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Automatic",
+            "Hair Trigger",
+            "Powerful",
+            "Advanced"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel"
+          ],
+          "Grip": [
+            "Comfort Grip",
+            "Sharpshooter’s Grip"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Compensator",
+            "Suppressor"
+          ]
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Flare Gun",
+      "localizedNames": {
+        "fr": "Pistolet lance-fusées"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "nZ7XeE2gQy2EEgWH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          96
+        ],
+        "fr": [
+          95,
+          96
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "M",
+        "qualities": [
+          "Reliable"
+        ],
+        "weightLb": 2,
+        "cost": 50,
+        "rarity": 1,
+        "ammunitionIdentity": "Flare",
+        "sourceAmmunitionLabel": "Flare",
+        "acceptedMods": {}
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Assault Rifle",
+      "localizedNames": {
+        "fr": "Fusil d’assaut"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "ZN2h6VGlcHQKzveB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          96,
+          97
+        ],
+        "fr": [
+          95,
+          96,
+          97
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "Burst"
+        ],
+        "damageType": "Physical",
+        "fireRate": 2,
+        "range": "M",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 13,
+        "cost": 144,
+        "rarity": 2,
+        "ammunitionIdentity": "5.56mm Round",
+        "sourceAmmunitionLabel": "5.56mm Rifle",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Automatic",
+            "Hair Trigger",
+            "Powerful",
+            "Advanced"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel",
+            "Vented Barrel"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Compensator",
+            "Suppressor"
+          ]
+        },
+        "localizationNote": "The official French p.95 table prints no damage effect for the Fusil d’assaut. Canonical EN p.95 gives Burst, so the shared weapon keeps Burst in French."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Combat Rifle",
+      "localizedNames": {
+        "fr": "Carabine de combat"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "qRc6hN6zHdrsZ0nd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          97
+        ],
+        "fr": [
+          95,
+          97
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 2,
+        "range": "M",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 11,
+        "cost": 117,
+        "rarity": 2,
+        "ammunitionIdentity": ".45 Round",
+        "sourceAmmunitionLabel": ".45",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Automatic",
+            "Hair Trigger",
+            "Powerful",
+            "Advanced",
+            ".38 Receiver",
+            ".308 Receiver"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel",
+            "Vented Barrel"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet",
+            "Compensator",
+            "Suppressor"
+          ]
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Gauss Rifle",
+      "localizedNames": {
+        "fr": "Fusil de Gauss"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "Ee4TwfZnYmCF8CDE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          97
+        ],
+        "fr": [
+          95,
+          97
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 10,
+        "damageEffects": [
+          "Piercing 1"
+        ],
+        "damageType": "Physical",
+        "fireRate": 1,
+        "range": "L",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 16,
+        "cost": 228,
+        "rarity": 4,
+        "ammunitionIdentity": "2mm Electromagnetic Cartridge",
+        "sourceAmmunitionLabel": "2mm EC",
+        "acceptedMods": {
+          "Barrel": [
+            "Shielded Barrel"
+          ],
+          "Stock": [
+            "Recoil-Compensating Stock"
+          ],
+          "Capacitors": [
+            "Full Capacitors",
+            "Capacitor Boosting Coil"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Suppressor"
+          ]
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Hunting Rifle",
+      "localizedNames": {
+        "fr": "Fusil de chasse"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "bpbgoX9mNr23pFHR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          97
+        ],
+        "fr": [
+          95,
+          97
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [
+          "Piercing 1"
+        ],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "M",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 10,
+        "cost": 55,
+        "rarity": 2,
+        "ammunitionIdentity": ".308 Round",
+        "sourceAmmunitionLabel": ".308",
+        "acceptedMods": {
+          "Receiver": [
+            "Hair Trigger",
+            "Calibrated",
+            "Hardened",
+            "Powerful",
+            ".38 Receiver",
+            ".50 Receiver"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel",
+            "Vented Barrel"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet",
+            "Suppressor"
+          ]
+        },
+        "errataApplied": [
+          "p.97: Tuned receiver is Hair Trigger.",
+          "p.97-99: Standard Stock entries are Full Stock."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Submachine Gun",
+      "localizedNames": {
+        "fr": "Mitraillette"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "244Kf3MVUhEQQGsw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          97,
+          98
+        ],
+        "fr": [
+          95,
+          97,
+          98
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "Burst"
+        ],
+        "damageType": "Physical",
+        "fireRate": 3,
+        "range": "C",
+        "qualities": [
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 12,
+        "cost": 109,
+        "rarity": 1,
+        "ammunitionIdentity": ".45 Round",
+        "sourceAmmunitionLabel": ".45",
+        "acceptedMods": {
+          "Receiver": [
+            "Hardened",
+            "Hair Trigger",
+            "Powerful"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight"
+          ],
+          "Muzzle": [
+            "Compensator",
+            "Muzzle Brake",
+            "Suppressor"
+          ]
+        },
+        "errataApplied": [
+          "p.98: Armor Piercing Receiver removed.",
+          "p.98: Rapid receiver is Hair Trigger.",
+          "p.98: Short Barrel removed.",
+          "p.97-99: Standard Stock entries are Full Stock."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Combat Shotgun",
+      "localizedNames": {
+        "fr": "Fusil de combat"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "CUlCBsWk1qipT1Ff",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          98
+        ],
+        "fr": [
+          95,
+          98
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "Spread"
+        ],
+        "damageType": "Physical",
+        "fireRate": 2,
+        "range": "C",
+        "qualities": [
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 11,
+        "cost": 87,
+        "rarity": 2,
+        "ammunitionIdentity": "Shotgun Shell",
+        "sourceAmmunitionLabel": "Shotgun Shells",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Automatic",
+            "Hair Trigger",
+            "Powerful",
+            "Advanced"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet",
+            "Compensator",
+            "Muzzle Brake",
+            "Suppressor"
+          ]
+        },
+        "errataApplied": [
+          "p.97-99: Standard Stock entries are Full Stock."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Double-Barrel Shotgun",
+      "localizedNames": {
+        "fr": "Fusil à double canon"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "tNyHslvLL11qSlhc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          98
+        ],
+        "fr": [
+          95,
+          98
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "Spread",
+          "Vicious"
+        ],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "C",
+        "qualities": [
+          "Inaccurate",
+          "Two-Handed"
+        ],
+        "weightLb": 9,
+        "cost": 39,
+        "rarity": 1,
+        "ammunitionIdentity": "Shotgun Shell",
+        "sourceAmmunitionLabel": "Shotgun Shells",
+        "acceptedMods": {
+          "Receiver": [
+            "Hardened",
+            "Hair Trigger",
+            "Powerful",
+            "Advanced"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Sawed-off Barrel"
+          ],
+          "Stock": [
+            "Full Stock"
+          ],
+          "Sights": [
+            "Reflex Sight"
+          ],
+          "Muzzle": [
+            "Muzzle Brake"
+          ]
+        },
+        "errataApplied": [
+          "p.97-99: Standard Stock entries are Full Stock."
+        ],
+        "localizationNote": "The official French p.95 table prints Fire Rate 1 for the Fusil à double canon. Canonical EN p.95 gives Fire Rate 0, so the shared weapon keeps 0 in French."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Pipe Bolt-Action",
+      "localizedNames": {
+        "fr": "Arme à verrou de fortune"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "obRp9CZJJ6liIl49",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          98
+        ],
+        "fr": [
+          95,
+          98
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "Piercing 1"
+        ],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "C",
+        "qualities": [
+          "Unreliable"
+        ],
+        "weightLb": 3,
+        "cost": 30,
+        "rarity": 0,
+        "ammunitionIdentity": ".308 Round",
+        "sourceAmmunitionLabel": ".308",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Powerful",
+            ".38 Receiver",
+            ".50 Receiver"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel",
+            "Finned Barrel"
+          ],
+          "Grip": [
+            "Sharpshooter’s Grip"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet",
+            "Compensator",
+            "Muzzle Brake",
+            "Suppressor"
+          ]
+        },
+        "errataApplied": [
+          "p.98: Stub Barrel removed.",
+          "p.97-99: Standard Stock entries are Full Stock."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Pipe Gun",
+      "localizedNames": {
+        "fr": "Arme de fortune"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "PiFmAFrgnIJqwkNw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          98,
+          99
+        ],
+        "fr": [
+          95,
+          98,
+          99
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 2,
+        "range": "C",
+        "qualities": [
+          "Close Quarters",
+          "Unreliable"
+        ],
+        "weightLb": 2,
+        "cost": 30,
+        "rarity": 0,
+        "ammunitionIdentity": ".38 Round",
+        "sourceAmmunitionLabel": ".38",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Automatic",
+            "Hair Trigger",
+            "Powerful",
+            ".45 Receiver"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel",
+            "Finned Barrel"
+          ],
+          "Grip": [
+            "Sharpshooter’s Grip"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Magazine": [
+            "Large Magazine",
+            "Quick-Eject Magazine",
+            "Large Quick-Eject Magazine"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet",
+            "Compensator",
+            "Muzzle Brake",
+            "Suppressor"
+          ]
+        },
+        "errataApplied": [
+          "p.97-99: Standard Stock entries are Full Stock."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Pipe Revolver",
+      "localizedNames": {
+        "fr": "Revolver de fortune"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "ldIbeCgUhfS2AVHV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          99
+        ],
+        "fr": [
+          95,
+          99
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 1,
+        "range": "C",
+        "qualities": [
+          "Close Quarters",
+          "Unreliable"
+        ],
+        "weightLb": 4,
+        "cost": 25,
+        "rarity": 0,
+        "ammunitionIdentity": ".45 Round",
+        "sourceAmmunitionLabel": ".45",
+        "acceptedMods": {
+          "Receiver": [
+            "Calibrated",
+            "Hardened",
+            "Powerful",
+            ".38 Receiver",
+            ".308 Receiver"
+          ],
+          "Barrel": [
+            "Long Barrel",
+            "Ported Barrel",
+            "Finned Barrel"
+          ],
+          "Grip": [
+            "Sharpshooter’s Grip"
+          ],
+          "Stock": [
+            "Full Stock",
+            "Marksman’s Stock",
+            "Recoil-Compensating Stock"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet",
+            "Compensator",
+            "Muzzle Brake",
+            "Suppressor"
+          ]
+        },
+        "errataApplied": [
+          "p.97-99: Standard Stock entries are Full Stock."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Railway Rifle",
+      "localizedNames": {
+        "fr": "Fusil à clous"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "iUh6c0EcJfZil9cZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          99
+        ],
+        "fr": [
+          95,
+          99
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 10,
+        "damageEffects": [
+          "Breaking"
+        ],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "M",
+        "qualities": [
+          "Debilitating",
+          "Two-Handed",
+          "Unreliable"
+        ],
+        "weightLb": 14,
+        "cost": 290,
+        "rarity": 4,
+        "ammunitionIdentity": "Railway Spike",
+        "sourceAmmunitionLabel": "Railway Spike",
+        "acceptedMods": {
+          "Receiver": [
+            "Automatic Piston"
+          ],
+          "Barrel": [
+            "Long Barrel"
+          ],
+          "Stock": [
+            "Recoil-Compensating Stock"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ],
+          "Muzzle": [
+            "Bayonet"
+          ]
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 95,
+      "type": "weapon",
+      "sourceName": "Syringer",
+      "localizedNames": {
+        "fr": "Pistolet à seringues"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Guns weapon Item defined by the Core p.95 table and detailed profile on pp.96–99.",
+      "pack": "weapons",
+      "documentId": "3wCThKbCsMgAdrSg",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          95,
+          99
+        ],
+        "fr": [
+          95,
+          99
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "Physical",
+        "fireRate": 0,
+        "range": "M",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 6,
+        "cost": 132,
+        "rarity": 2,
+        "ammunitionIdentity": "Syringer Ammo",
+        "sourceAmmunitionLabel": "Syringer ammo",
+        "acceptedMods": {
+          "Barrel": [
+            "Long Barrel"
+          ],
+          "Stock": [
+            "Marksman’s",
+            "Recoil-Compensating"
+          ],
+          "Sights": [
+            "Reflex Sight",
+            "Short Scope",
+            "Long Scope",
+            "Short Night Vision Scope",
+            "Long Night Vision Scope",
+            "Recon Scope"
+          ]
+        },
+        "errataApplied": [
+          "p.99: Stub Barrel removed."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 96,
+      "type": "sidebar",
+      "sourceName": "Small Guns Complications",
+      "localizedNames": {
+        "fr": "Complications des armes légères"
+      },
+      "scope": "out_of_scope",
+      "justification": "General complication guidance for Small Guns, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          96
+        ],
+        "fr": [
+          96
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "results": [
+          "Wasteful",
+          "Click…",
+          "Wear and Tear",
+          "Ricochet"
+        ]
       }
     }
   ]

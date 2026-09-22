@@ -1077,3 +1077,125 @@ test("Core ammunition pp.91-94 matches the source table, detailed profiles, loca
   assert.match(docsByLanguage.en.get("SyrRadVenomAm001").system.description, /Persistent \(Poison\)/);
   assert.match(docsByLanguage.fr.get("SyrRadVenomAm001").system.description, /Persistant \(Poison\)/);
 });
+
+
+test("Core Small Guns pp.95-99 match source mechanics, provenance, localization and accepted mods", async () => {
+  const modIds = {
+    "Hardened": "wWjvfUfknZOxxJlt", "Powerful": "41rymX7pm90tz0V8", "Advanced": "p0r6B1DzWapL4wU5",
+    "Snubnose Barrel": "QgUHARJjhqOXBP7u", "Bull Barrel": "aDXdsogK2fIHtBNE", "Comfort Grip": "Noh6VL5rCdM73QuX",
+    "Short Scope": "TxOsscfkniBk2a85", "Reflex Sight": "rh3GtWKomZnQpS1H", "Recon Scope": "M5ox31Qif67xBC0m",
+    "Calibrated": "4c34BzfVex4YKgA3", "Automatic": "Jyy3vdkQv7YCfvFz", "Hair Trigger": "GROQd2poQkix32N4",
+    "Long Barrel": "RyggZv9PwKChzJwB", "Ported Barrel": "Ac56Ox5nVHcJ8PIA", "Sharpshooter’s Grip": "zAlW93haMYH8Nwp2",
+    "Large Magazine": "dh2R5SMlhGBmDuAU", "Quick-Eject Magazine": "067VeMDTeThvISLa", "Large Quick-Eject Magazine": "x7XsKzM5Iyisd9lA",
+    "Compensator": "egIL4wuvntMHhlqr", "Suppressor": "dZh7tFPH917IF3UO", "Vented Barrel": "yxSF6qdbdO4FYaQb",
+    "Full Stock": "bRV8rXkptjU6mz9Y", "Marksman’s Stock": "Q6VUr8ae7Rf7WOhA", "Recoil-Compensating Stock": "pxflsyihN3fjKgYq",
+    "Long Scope": "sg1EfJrr3S307XPy", "Short Night Vision Scope": "vyesQvmRObpdSNpO", "Long Night Vision Scope": "wvsSsznT8GDmdoUa",
+    ".38 Receiver": "oiW2VvXVdhGgw4oL", ".308 Receiver": "ybNloPq9nZTqGAur", "Bayonet": "CYODpO6JvopXWYW7",
+    "Shielded Barrel": "iiF3omvvTgVv5LoP", "Full Capacitors": "bS7ZxJKZA2JAhPV8", "Capacitor Boosting Coil": "6hh0Evmfv0N8kX81",
+    ".50 Receiver": "XShTCPVSPhRDhMBo", "Muzzle Brake": "2aqYiSm1nrIYHgoA", "Sawed-off Barrel": "Iec8KCIeHqCk886z",
+    "Finned Barrel": "aCMBNHf2jilKz2Zg", ".45 Receiver": "zpUwoy1BLHyUXuvy", "Automatic Piston": "nGgcu0NLeLIbc3Pi",
+    "Marksman’s": "Q6VUr8ae7Rf7WOhA", "Recoil-Compensating": "pxflsyihN3fjKgYq"
+  };
+  const expected = new Map([
+    ["wqNw0xItJ29W24sm", { en: ".44 Pistol", fr: "Pistolet .44", damage: 6, effects: ["vicious"], fireRate: 1, range: "close", qualities: ["close_quarters"], weight: 4, cost: 99, rarity: 2, ammo: [".44 Magnum Round", "Cartouche .44"], mods: ["Hardened","Powerful","Advanced","Snubnose Barrel","Bull Barrel","Comfort Grip","Short Scope","Reflex Sight","Recon Scope"] }],
+    ["mRB3W7wrHDbWhb9i", { en: "10mm Pistol", fr: "Pistolet 10 mm", damage: 4, effects: [], fireRate: 2, range: "close", qualities: ["close_quarters","reliable"], weight: 4, cost: 50, rarity: 1, ammo: ["10mm Round","Cartouche 10 mm"], mods: ["Calibrated","Hardened","Automatic","Hair Trigger","Powerful","Advanced","Long Barrel","Ported Barrel","Comfort Grip","Sharpshooter’s Grip","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Recon Scope","Compensator","Suppressor"] }],
+    ["nZ7XeE2gQy2EEgWH", { en: "Flare Gun", fr: "Pistolet lance-fusées", damage: 3, effects: [], fireRate: 0, range: "medium", qualities: ["reliable"], weight: 2, cost: 50, rarity: 1, ammo: ["Flare","Fusée éclairante"], mods: [] }],
+    ["ZN2h6VGlcHQKzveB", { en: "Assault Rifle", fr: "Fusil d’assaut", damage: 5, effects: ["burst"], fireRate: 2, range: "medium", qualities: ["two_handed"], weight: 13, cost: 144, rarity: 2, ammo: ["5.56mm Round","Cartouche 5,56 mm"], mods: ["Calibrated","Hardened","Automatic","Hair Trigger","Powerful","Advanced","Long Barrel","Ported Barrel","Vented Barrel","Full Stock","Marksman’s Stock","Recoil-Compensating Stock","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Compensator","Suppressor"] }],
+    ["qRc6hN6zHdrsZ0nd", { en: "Combat Rifle", fr: "Carabine de combat", damage: 5, effects: [], fireRate: 2, range: "medium", qualities: ["two_handed"], weight: 11, cost: 117, rarity: 2, ammo: [".45 Round","Cartouche .45"], mods: ["Calibrated","Hardened","Automatic","Hair Trigger","Powerful","Advanced",".38 Receiver",".308 Receiver","Long Barrel","Ported Barrel","Vented Barrel","Full Stock","Marksman’s Stock","Recoil-Compensating Stock","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet","Compensator","Suppressor"] }],
+    ["Ee4TwfZnYmCF8CDE", { en: "Gauss Rifle", fr: "Fusil de Gauss", damage: 10, effects: ["piercing_x"], fireRate: 1, range: "long", qualities: ["two_handed"], weight: 16, cost: 228, rarity: 4, ammo: ["2mm Electromagnetic Cartridge","CE 2 mm"], mods: ["Shielded Barrel","Recoil-Compensating Stock","Full Capacitors","Capacitor Boosting Coil","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Suppressor"] }],
+    ["bpbgoX9mNr23pFHR", { en: "Hunting Rifle", fr: "Fusil de chasse", damage: 6, effects: ["piercing_x"], fireRate: 0, range: "medium", qualities: ["two_handed"], weight: 10, cost: 55, rarity: 2, ammo: [".308 Round","Cartouche .308"], mods: ["Hair Trigger","Calibrated","Hardened","Powerful",".38 Receiver",".50 Receiver","Long Barrel","Ported Barrel","Vented Barrel","Full Stock","Marksman’s Stock","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet","Suppressor"] }],
+    ["244Kf3MVUhEQQGsw", { en: "Submachine Gun", fr: "Mitraillette", damage: 3, effects: ["burst"], fireRate: 3, range: "close", qualities: ["inaccurate","two_handed"], weight: 12, cost: 109, rarity: 1, ammo: [".45 Round","Cartouche .45"], mods: ["Hardened","Hair Trigger","Powerful","Full Stock","Recoil-Compensating Stock","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Compensator","Muzzle Brake","Suppressor"] }],
+    ["CUlCBsWk1qipT1Ff", { en: "Combat Shotgun", fr: "Fusil de combat", damage: 5, effects: ["spread"], fireRate: 2, range: "close", qualities: ["inaccurate","two_handed"], weight: 11, cost: 87, rarity: 2, ammo: ["Shotgun Shell","Calibre 12"], mods: ["Calibrated","Hardened","Automatic","Hair Trigger","Powerful","Advanced","Long Barrel","Ported Barrel","Full Stock","Marksman’s Stock","Recoil-Compensating Stock","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet","Compensator","Muzzle Brake","Suppressor"] }],
+    ["tNyHslvLL11qSlhc", { en: "Double-Barrel Shotgun", fr: "Fusil à double canon", damage: 5, effects: ["spread","vicious"], fireRate: 0, range: "close", qualities: ["inaccurate","two_handed"], weight: 9, cost: 39, rarity: 1, ammo: ["Shotgun Shell","Calibre 12"], mods: ["Hardened","Hair Trigger","Powerful","Advanced","Long Barrel","Sawed-off Barrel","Full Stock","Reflex Sight","Muzzle Brake"] }],
+    ["obRp9CZJJ6liIl49", { en: "Pipe Bolt-Action", fr: "Arme à verrou de fortune", damage: 5, effects: ["piercing_x"], fireRate: 0, range: "close", qualities: ["unreliable"], weight: 3, cost: 30, rarity: 0, ammo: [".308 Round","Cartouche .308"], mods: ["Calibrated","Hardened","Powerful",".38 Receiver",".50 Receiver","Long Barrel","Ported Barrel","Finned Barrel","Sharpshooter’s Grip","Full Stock","Marksman’s Stock","Recoil-Compensating Stock","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet","Compensator","Muzzle Brake","Suppressor"] }],
+    ["PiFmAFrgnIJqwkNw", { en: "Pipe Gun", fr: "Arme de fortune", damage: 3, effects: [], fireRate: 2, range: "close", qualities: ["close_quarters","unreliable"], weight: 2, cost: 30, rarity: 0, ammo: [".38 Round","Cartouche .38"], mods: ["Calibrated","Hardened","Automatic","Hair Trigger","Powerful",".45 Receiver","Long Barrel","Ported Barrel","Finned Barrel","Sharpshooter’s Grip","Full Stock","Marksman’s Stock","Recoil-Compensating Stock","Large Magazine","Quick-Eject Magazine","Large Quick-Eject Magazine","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet","Compensator","Muzzle Brake","Suppressor"] }],
+    ["ldIbeCgUhfS2AVHV", { en: "Pipe Revolver", fr: "Revolver de fortune", damage: 4, effects: [], fireRate: 1, range: "close", qualities: ["close_quarters","unreliable"], weight: 4, cost: 25, rarity: 0, ammo: [".45 Round","Cartouche .45"], mods: ["Calibrated","Hardened","Powerful",".38 Receiver",".308 Receiver","Long Barrel","Ported Barrel","Finned Barrel","Sharpshooter’s Grip","Full Stock","Marksman’s Stock","Recoil-Compensating Stock","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet","Compensator","Muzzle Brake","Suppressor"] }],
+    ["iUh6c0EcJfZil9cZ", { en: "Railway Rifle", fr: "Fusil à clous", damage: 10, effects: ["breaking"], fireRate: 0, range: "medium", qualities: ["debilitating","two_handed","unreliable"], weight: 14, cost: 290, rarity: 4, ammo: ["Railway Spike","Clou de rail"], mods: ["Automatic Piston","Long Barrel","Recoil-Compensating Stock","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope","Bayonet"] }],
+    ["3wCThKbCsMgAdrSg", { en: "Syringer", fr: "Pistolet à seringues", damage: 3, effects: [], fireRate: 0, range: "medium", qualities: ["two_handed"], weight: 6, cost: 132, rarity: 2, ammo: ["Syringer Ammo","Seringue"], mods: ["Long Barrel","Marksman’s","Recoil-Compensating","Reflex Sight","Short Scope","Long Scope","Short Night Vision Scope","Long Night Vision Scope","Recon Scope"] }]
+  ]);
+
+  assert.equal(catalog.entries.filter(entry => entry.page === 95 && entry.pack === "weapons").length, expected.size);
+  const docsByLanguage = {};
+  for (const language of ["en", "fr"]) {
+    docsByLanguage[language] = new Map(
+      (await generatedDocuments(language)).filter(({ pack }) => pack === "weapons").map(({ document }) => [document._id, document])
+    );
+  }
+
+  for (const [id, spec] of expected) {
+    const entry = catalog.entries.find(candidate => candidate.documentId === id && candidate.page === 95);
+    assert.ok(entry, id + " missing from source certification");
+    assert.equal(entry.status, "verified");
+    for (const [language, index] of [["en", 0], ["fr", 1]]) {
+      const doc = docsByLanguage[language].get(id);
+      assert.ok(doc, language + "/weapons/" + id + " missing");
+      const source = doc.flags["fallout2d20-compendium"].source;
+      assert.equal(source.page, 95, language + "/" + id + " exact source page");
+      assert.equal(source.errataReviewed, true, language + "/" + id + " errata review");
+      if (language === "fr") {
+        assert.equal(source.translationReviewed, true, id + " FR translation review");
+        assert.equal(source.diceSymbolsReviewed, true, id + " FR dice-symbol review");
+      }
+      assert.equal(doc.name, language === "en" ? spec.en : spec.fr);
+      assert.equal(doc.system.damage.rating, spec.damage);
+      assert.equal(doc.system.fireRate, spec.fireRate);
+      assert.equal(doc.system.range, spec.range);
+      assert.equal(doc.system.cost, spec.cost);
+      assert.equal(doc.system.rarity, spec.rarity);
+      assert.equal(doc.system.ammo, spec.ammo[index]);
+      assert.equal(doc.system.weight, language === "en" ? spec.weight : spec.weight / 2);
+      const activeEffects = Object.entries(doc.system.damage.damageEffect).filter(([, value]) => value?.value).map(([key]) => key).sort();
+      assert.deepEqual(activeEffects, [...spec.effects].sort(), language + "/" + spec.en + " damage effects");
+      const activeQualities = Object.entries(doc.system.damage.weaponQuality).filter(([, value]) => value?.value).map(([key]) => key).sort();
+      assert.deepEqual(activeQualities, [...spec.qualities].sort(), language + "/" + spec.en + " qualities");
+      if (spec.effects.includes("piercing_x")) assert.equal(doc.system.damage.damageEffect.piercing_x.rank, 1);
+      const actualModIds = Object.keys(doc.system.mods ?? {}).filter(key => /^[A-Za-z0-9]{16}$/.test(key)).sort();
+      const expectedModIds = spec.mods.map(name => {
+        assert.ok(modIds[name], "missing test mapping for source mod " + name);
+        return modIds[name];
+      }).sort();
+      assert.deepEqual(actualModIds, expectedModIds, language + "/" + spec.en + " accepted mods");
+    }
+  }
+
+  const table = catalog.entries.find(entry => entry.page === 95 && entry.sourceName === "Small Guns" && entry.type === "table");
+  assert.ok(table);
+  assert.equal(table.scope, "out_of_scope");
+  assert.equal(table.certification.rowCount, 15);
+  const complications = catalog.entries.find(entry => entry.page === 96 && entry.sourceName === "Small Guns Complications");
+  assert.ok(complications);
+  assert.equal(complications.scope, "out_of_scope");
+  assert.deepEqual(complications.certification.results, ["Wasteful", "Click…", "Wear and Tear", "Ricochet"]);
+});
+
+test("Core Small Guns pp.95-99 preserve source text and canonicalize errata/localization discrepancies", async () => {
+  const en = new Map((await generatedDocuments("en")).filter(({ pack }) => pack === "weapons").map(({ document }) => [document._id, document]));
+  const fr = new Map((await generatedDocuments("fr")).filter(({ pack }) => pack === "weapons").map(({ document }) => [document._id, document]));
+
+  assert.match(en.get("ZN2h6VGlcHQKzveB").system.description, /This gas-operated rifle/);
+  assert.doesNotMatch(en.get("ZN2h6VGlcHQKzveB").system.description, />his gas-operated rifle/);
+  for (const id of ["ZN2h6VGlcHQKzveB","qRc6hN6zHdrsZ0nd","CUlCBsWk1qipT1Ff","obRp9CZJJ6liIl49","PiFmAFrgnIJqwkNw","ldIbeCgUhfS2AVHV"]) {
+    assert.match(en.get(id).system.description, /Recoil-Compensating Stock/);
+    assert.doesNotMatch(en.get(id).system.description, /RecoilCompensating/);
+  }
+
+  assert.match(fr.get("bpbgoX9mNr23pFHR").system.description, /Culasse\s*:\s*haute sensibilité/);
+  assert.doesNotMatch(fr.get("bpbgoX9mNr23pFHR").system.description, /optimisée/);
+  const smgFr = fr.get("244Kf3MVUhEQQGsw").system.description;
+  assert.match(smgFr, /Culasse\s*:\s*renforcée, haute sensibilité, puissante/);
+  assert.doesNotMatch(smgFr, /perforante|rapide|canon court/);
+  const pipeBoltFr = fr.get("obRp9CZJJ6liIl49").system.description;
+  assert.doesNotMatch(pipeBoltFr, /canon raccourci/);
+  assert.match(pipeBoltFr, /crosse complète/);
+  assert.doesNotMatch(fr.get("3wCThKbCsMgAdrSg").system.description, /canon raccourci/);
+
+  const assault = fr.get("ZN2h6VGlcHQKzveB");
+  assert.equal(assault.system.damage.damageEffect.burst.value, 1);
+  const doubleBarrel = fr.get("tNyHslvLL11qSlhc");
+  assert.equal(doubleBarrel.system.fireRate, 0);
+
+  const assaultEntry = catalog.entries.find(entry => entry.documentId === "ZN2h6VGlcHQKzveB" && entry.page === 95);
+  assert.match(assaultEntry.certification.localizationNote, /French p\.95 table prints no damage effect/);
+  const doubleEntry = catalog.entries.find(entry => entry.documentId === "tNyHslvLL11qSlhc" && entry.page === 95);
+  assert.match(doubleEntry.certification.localizationNote, /French p\.95 table prints Fire Rate 1/);
+});

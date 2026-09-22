@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–96, through printed/source page 94.
-- FR PDF physical pages 1–97, through printed/source page 94.
+- EN PDF physical pages 1–101, through printed/source page 99.
+- FR PDF physical pages 1–102, through printed/source page 99.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
   (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
@@ -151,16 +151,30 @@ Current completed boundary:
 - The p.85 Availability rule is canonicalized to LCK from EN; the official FR page
   prints CHA, which is recorded as a localization discrepancy. The p.87 Q3 2026
   erratum is applied so armor's second mod slot is a unique mod rather than the
-  printed EN utility mod. The Modified Equipment Names continuation at p.88 was read
-  only to close the p.87 subsection; p.88 itself is not yet page-certified.
+  printed EN utility mod. The Modified Equipment Names continuation onto p.88 is
+  accounted for, and p.88 is independently certified in the weapon-rules lot.
+- Source pp.88–94 are certified for the weapon-rules vocabulary and the complete
+  ammunition catalogue. The 28 concrete ammunition identities have exact p.91/p.93
+  provenance, reviewed bilingual text/weights and the current p.94 Fusion Core
+  Scrounger erratum.
+- Source pp.95–99 certify all 15 base Small Guns from the p.95 table together with
+  their detailed descriptions and accepted-mod lists. The audit found and fixed a
+  missing Hardened mod reference on the Assault Rifle, repaired the lost initial
+  “T” and several Recoil-Compensating hyphens in EN extraction, and tightened all
+  15 weapon provenance records to p.95. The September 2022 p.97–99 mod-list errata
+  are applied in both languages. Two FR p.95 mechanical discrepancies are retained
+  only as source notes: Fusil d’assaut omits Burst and Fusil à double canon prints
+  Fire Rate 1; shared canonical data correctly uses EN Burst and Fire Rate 0.
 
 ## Next lot
 
-Continue page-by-page at printed/source p.88, beginning Weapons, Ammunition, and
-Weapon Mods. The top-of-page continuation of Modified Equipment Names was already
-read only to close the p.87 subsection; do not treat any other p.88 content as
-certified yet. Build the expected weapon-rule/table inventory from the PDFs before
-comparing repository data.
+Continue page-by-page at printed/source p.100 with the Small Gun Mods table. Build
+the expected mod inventory and mechanics from the PDFs before comparing repository
+data. Apply the cumulative V6 corrections on this page, including the added Full
+Capacitors and Capacitor Boosting Coil rows, Large Magazine cost +8, and the Q3 2026
+removal of Repair from Shielded Barrel. This is the correct point to re-check the
+known Capacitor/Capactor identity issue and Shielded Barrel recipe/provenance without
+assuming the existing catalog is correct.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -179,7 +193,7 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks explicit source classification and canonical rule notes through p.94, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, and the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
+It now also checks explicit source classification and canonical rule notes through p.99, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum, plus all 15 p.95 Small Guns with exact mechanics, weights, ammunition, accepted-mod identities, EN extraction repairs, p.97–99 errata and the two documented FR p.95 mechanical discrepancies. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,

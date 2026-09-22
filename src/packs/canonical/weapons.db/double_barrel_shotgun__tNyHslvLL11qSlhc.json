@@ -516,10 +516,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Double-Barrel Shotgun"
+        "artworkSource": "repository alias for Double-Barrel Shotgun",
+        "page": 95
       }
     }
   },

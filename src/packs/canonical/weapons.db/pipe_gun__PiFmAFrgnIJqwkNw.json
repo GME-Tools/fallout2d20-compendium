@@ -1086,10 +1086,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Pipe Gun"
+        "artworkSource": "repository alias for Pipe Gun",
+        "page": 95
       }
     }
   },
