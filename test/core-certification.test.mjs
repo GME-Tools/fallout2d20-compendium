@@ -777,8 +777,8 @@ test("Core Step 6 referenced identities resolve bilingually and Skirmisher keeps
   const pipeGun = JSON.parse(await readFile("src/packs/canonical/weapons.db/pipe_gun__PiFmAFrgnIJqwkNw.json", "utf8"));
   assert.equal(pipeGun.system.mods.RyggZv9PwKChzJwB.$ref.pack, "weapon-mods");
   assert.equal(pipeGun.system.mods.RyggZv9PwKChzJwB.$ref.id, "RyggZv9PwKChzJwB");
-  assert.equal(pipeGun.system.mods.bRV8rXkptjU6mz9Y.$ref.pack, "weapon-mods");
-  assert.equal(pipeGun.system.mods.bRV8rXkptjU6mz9Y.$ref.id, "bRV8rXkptjU6mz9Y");
+  assert.equal(pipeGun.system.mods["8nHC8z4vEY4yX7bM"].$ref.pack, "weapon-mods");
+  assert.equal(pipeGun.system.mods["8nHC8z4vEY4yX7bM"].$ref.id, "8nHC8z4vEY4yX7bM");
 });
 
 test("Core Random Trinkets p.80 matches both official source tables exactly", async () => {

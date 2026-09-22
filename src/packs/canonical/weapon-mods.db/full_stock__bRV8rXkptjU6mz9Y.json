@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 10,
+    "cost": 15,
     "favorite": false,
     "modEffects": {
       "ammo": "",
@@ -35,8 +35,8 @@
             "value": 0
           },
           "piercing_x": {
-            "rank": 0,
-            "value": 0
+            "rank": 1,
+            "value": 1
           },
           "radioactive": {
             "rank": 0,
@@ -90,7 +90,7 @@
           },
           "close_quarters": {
             "rank": 0,
-            "value": 0
+            "value": -1
           },
           "concealed": {
             "rank": 0,
@@ -114,7 +114,7 @@
           },
           "inaccurate": {
             "rank": 0,
-            "value": -1
+            "value": 0
           },
           "limited": {
             "rank": 0,

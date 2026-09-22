@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 15,
+    "cost": 10,
     "favorite": false,
     "modEffects": {
       "ammo": "",

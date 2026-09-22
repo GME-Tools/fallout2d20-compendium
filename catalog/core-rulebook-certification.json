@@ -6193,7 +6193,7 @@
           },
           {
             "pack": "weapon-mods",
-            "documentId": "bRV8rXkptjU6mz9Y",
+            "documentId": "8nHC8z4vEY4yX7bM",
             "sourceName": "Full Stock",
             "role": "Skirmisher Pipe Gun embedded mod"
           },
@@ -10964,7 +10964,7 @@
       "publication": "core_rulebook",
       "page": 101,
       "type": "weapon_mod",
-      "sourceName": "Sharpshooter’s Grip",
+      "sourceName": "Sharpshooter's Grip",
       "localizedNames": {
         "fr": "Poignée de tireur d’élite"
       },
@@ -11026,7 +11026,7 @@
       "publication": "core_rulebook",
       "page": 101,
       "type": "weapon_mod",
-      "sourceName": "Marksman’s Stock",
+      "sourceName": "Marksman's Stock",
       "localizedNames": {
         "fr": "Crosse de tireur d’élite"
       },
@@ -12271,7 +12271,7 @@
       "publication": "core_rulebook",
       "page": 105,
       "type": "weapon_mod",
-      "sourceName": "Sharpshooter’s Grip",
+      "sourceName": "Sharpshooter's Grip",
       "localizedNames": {
         "fr": "Poignée de tireur d’élite"
       },
@@ -12366,7 +12366,7 @@
       "publication": "core_rulebook",
       "page": 105,
       "type": "weapon_mod",
-      "sourceName": "Marksman’s Stock",
+      "sourceName": "Marksman's Stock",
       "localizedNames": {
         "fr": "Crosse de tireur d’élite"
       },
