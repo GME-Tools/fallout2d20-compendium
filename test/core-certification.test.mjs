@@ -1224,7 +1224,7 @@ test("Core Small Gun Mods p.100 are source-complete and mechanically exact", asy
     ["aCMBNHf2jilKz2Zg", { en:"Finned", fr:"Canon à ailettes", type:"barrel", prefixes:["Finned","Ailettes"], weight:2, cost:15, perks:["Gun Nut 2","Fana d’armes 2"], rating:1, range:1 }],
     ["bS7ZxJKZA2JAhPV8", { en:"Full Capacitors", fr:"Condensateurs intégraux", type:"capacitor", prefixes:["High Capacity","Grande capacité"], weight:0, cost:37, perks:["Gun Nut 3; Science! 2","Fana d’armes 3; Scientifique 2"], vicious:1 }],
     ["6hh0Evmfv0N8kX81", { en:"Capacitor Boosting Coil", fr:"Bobine de suppression de condensateur", type:"capacitor", prefixes:["Maximum Capacity","Capacité maximale"], weight:2, cost:82, perks:["Gun Nut 4; Science! 3","Fana d’armes 4; Scientifique 3"], rating:1, vicious:1 }],
-    ["dh2R5SMlhGBmDuAU", { en:"Large Magazine", fr:"Grand chargeur", type:"magazine", prefixes:["High Capacity","Grande capacité"], weight:1, cost:8, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1, unreliable:1 }],
+    ["dh2R5SMlhGBmDuAU", { en:"Large Magazine", fr:"Grand chargeur", type:"magazine", prefixes:["High Capacity","Grande capacité"], weight:1, cost:8, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1, reliable:-1, unreliable:1 }],
     ["067VeMDTeThvISLa", { en:"Quick-Eject Mag", fr:"Chargeur à éjection rapide", type:"magazine", prefixes:["Quick","Vitesse"], weight:0, cost:8, perks:["Gun Nut 1","Fana d’armes 1"], reliable:1, unreliable:-1 }],
     ["x7XsKzM5Iyisd9lA", { en:"Large Quick-Eject Mag", fr:"Grand chargeur à éjection rapide", type:"magazine", prefixes:["Quick High Capacity","Vitesse & grande capacité"], weight:1, cost:23, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1 }]
   ]);
