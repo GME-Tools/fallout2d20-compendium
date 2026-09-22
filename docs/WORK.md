@@ -30,11 +30,11 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–70, through printed/source page 68.
-- FR PDF physical pages 1–71, through printed/source page 68.
+- EN PDF physical pages 1–75, through printed/source page 73.
+- FR PDF physical pages 1–76, through printed/source page 73.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 3
-  (source pp.42–58), and Step 4 / the perk catalogue through source p.68.
+  (source pp.42–58), and Step 4 / the complete Core perk catalogue through source p.73.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
@@ -115,14 +115,23 @@ Current completed boundary:
   mineure Porter secours”, but the canonical EN rules and the FR combat rules both
   define Porter secours / First Aid as a major action. Both localized perk texts now
   use “action capitale” as a deliberate mechanical adaptation.
+- Source pp.69–73 complete the Core perk catalogue page-by-page. All 31 perk
+  identities on these final five EN pages have exact first-definition provenance
+  and explicit FR counterpart coordinates despite the independently alphabetized
+  French catalogue.
+- Science! / Scientifique is canonicalized at 4 ranks in accordance with Errata V6;
+  the EN book prints 3 ranks while the official FR book already prints 4. Quick
+  Hands / Mains lestes was rechecked against the p.70 erratum and both locales
+  contain the corrected +2 Fire Rate for 2 AP mechanic.
+- Pyromaniac's EN extraction now preserves the source hyphen in “fire-based” and
+  restores the combat-die token as `@fos[DC]`.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 69. The next
-editorial sub-lot is the perk catalogue on source pp.69–73. Continue from the PDF
-source rather than the existing perk pack. Several identities on pp.69–72 have
-already been checked as FR counterpart entries; still perform the page-driven
-inventory for every page and do not infer page completion from targeted checks.
+Continue Chapter Three — Character Creation at printed/source page 74. The next
+editorial lot starts with Step 5: Calculate Derived Statistics and should then cover
+the remaining character-creation material in reasonable source-driven sub-lots.
+Do not infer completeness from existing character-creation catalogs or tests.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -131,7 +140,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–64
+There are no unresolved anomalies or owner decisions in the completed p.1–73
 boundary.
 
 ## Validation
@@ -145,8 +154,10 @@ It now also checks the certified perk identities through source p.64 plus target
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,
-FR Gun Nut/First Aid adaptations, Hacker extraction regression, and the complete
-Dogmeat / Canigou Actor including embedded Bite and abilities. Legacy broad provenance ranges are not treated as
+FR Gun Nut/First Aid adaptations, Hacker extraction regression, the complete
+Dogmeat / Canigou Actor including embedded Bite and abilities, and the final
+p.69–73 31-perk inventory with exact bilingual coordinates plus Science!, Quick
+Hands and Pyromaniac regressions. Legacy broad provenance ranges are not treated as
 exact page evidence until the corresponding perk is source-certified.
 
 Run focused checks as each lot is added. Final completion still requires

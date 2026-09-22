@@ -7,7 +7,7 @@
   "system": {
     "favorite": false,
     "rank": {
-      "max": 3,
+      "max": 4,
       "value": 0
     },
     "requirements": "",
@@ -54,7 +54,7 @@
         "book": "core_rulebook",
         "errataReviewed": true,
         "artworkReviewed": true,
-        "page": "59-73",
+        "page": 71,
         "coreCharacterCreationReviewed": true,
         "artworkStatus": "dedicated"
       }

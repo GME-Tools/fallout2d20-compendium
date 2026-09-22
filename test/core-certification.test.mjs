@@ -549,3 +549,89 @@ test("Core perk lot pp.65-68 preserves dice markup and canonical FR mechanics", 
   assert.deepEqual(pickpocketRule.sourcePages, { en: [69], fr: [68] });
 });
 
+test("Core perk catalogue pp.69-73 is complete with exact bilingual source coordinates", async () => {
+  const expected = new Map([
+    ["Epn0E2yMAxTmSOFX", { page: 69, fr: [68], ranks: 1 }],
+    ["iDaMlrcxl6kEm3Ex", { page: 69, fr: [64], ranks: 1 }],
+    ["RhITTHDy13MufCZy", { page: 69, fr: [69], ranks: 1 }],
+    ["E3vqYT7JvmyDeFyU", { page: 69, fr: [64], ranks: 1 }],
+    ["e4HPClvz4fA06tUc", { page: 69, fr: [68], ranks: 3 }],
+    ["H6x4BnrUSmI33dwZ", { page: 70, fr: [65], ranks: 1 }],
+    ["aNO3ZBQmBGS9A94C", { page: 70, fr: [69], ranks: 3 }],
+    ["Xz1V9etWzTtwt5x5", { page: 70, fr: [63], ranks: 1 }],
+    ["2UGzU0qmtozi4QZK", { page: 70, fr: [66], ranks: 1 }],
+    ["TFJbnmRbE7cisziV", { page: 70, fr: [60], ranks: 2 }],
+    ["myJS8tB5FHk3Jo65", { page: 70, fr: [70], ranks: 2 }],
+    ["E6eCO6Hq6gb4KGmQ", { page: 70, fr: [70], ranks: 1 }],
+    ["RkftnkHGKVnz6URN", { page: 70, fr: [65], ranks: 2 }],
+    ["GiPKNxmrkWA2k76W", { page: 70, fr: [63, 64], ranks: 3 }],
+    ["UzRkuAJkvYqK8jrl", { page: 71, fr: [70], ranks: 4 }],
+    ["j4XUYfEZwmvkfXBe", { page: 71, fr: [61], ranks: 1 }],
+    ["dIQkAZGEzdR8j2BB", { page: 71, fr: [70], ranks: 2 }],
+    ["zXQUHfk3g9d7WDG1", { page: 71, fr: [64], ranks: 3 }],
+    ["SfcMrqZU78wIJQ0r", { page: 71, fr: [62], ranks: 1 }],
+    ["PtWvAVSdwEPjeRb3", { page: 71, fr: [71], ranks: 10 }],
+    ["fGZ6h4VtddiXvpZ3", { page: 72, fr: [66], ranks: 3 }],
+    ["6U2ulr6F0lUbJoYl", { page: 72, fr: [72], ranks: 1 }],
+    ["fhBw3zhOo6EuZy2j", { page: 72, fr: [60], ranks: 1 }],
+    ["Y7s5hBuYxnIYz4T4", { page: 72, fr: [69], ranks: 1 }],
+    ["cJGae8CyPIfp6tj7", { page: 72, fr: [71], ranks: 1 }],
+    ["FXbX2ktBJkb6uFIG", { page: 72, fr: [63], ranks: 1 }],
+    ["qrXcBKc5MX1lTmKa", { page: 72, fr: [72], ranks: 1 }],
+    ["6UWfRLqNydpXobqM", { page: 73, fr: [70], ranks: 3 }],
+    ["4QXLYHaB9WGmGVY1", { page: 73, fr: [71], ranks: 1 }],
+    ["CaZiVRLhAUoxj0en", { page: 73, fr: [69], ranks: 2 }],
+    ["OL6ocnHhOZW4mxns", { page: 73, fr: [70], ranks: 2 }]
+  ]);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "perks").map(entry => [entry.documentId, entry]));
+  assert.equal(expected.size, 31);
+  for (const [id, expectation] of expected) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, `certification entry missing for perk ${id}`);
+    assert.equal(entry.page, expectation.page, `${id} source page`);
+    assert.deepEqual(entry.sourcePages?.en, [expectation.page], `${id} EN source coordinate`);
+    assert.deepEqual(entry.sourcePages?.fr, expectation.fr, `${id} FR source coordinate`);
+    assert.equal(entry.status, "verified");
+  }
+
+  for (const language of ["en", "fr"]) {
+    const byId = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+    for (const [id, expectation] of expected) {
+      const document = byId.get(id);
+      assert.ok(document, `${language}/perks/${id} missing`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, expectation.page);
+      assert.equal(document.system.rank.max, expectation.ranks);
+    }
+  }
+});
+
+test("Core final perk pages preserve errata and source combat-die text", async () => {
+  const docs = {};
+  for (const language of ["en", "fr"]) {
+    docs[language] = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+  }
+
+  const pyromaniac = docs.en.get("aNO3ZBQmBGS9A94C");
+  assert.match(pyromaniac.system.description, /fire-based weapons/);
+  assert.match(pyromaniac.system.description, /\+1 @fos\[DC\] per rank/);
+  assert.doesNotMatch(pyromaniac.system.description, /firebased|\+1CD/);
+
+  for (const language of ["en", "fr"]) {
+    assert.equal(docs[language].get("UzRkuAJkvYqK8jrl").system.rank.max, 4, `${language} Science! errata rank count`);
+  }
+
+  const quickHandsEn = docs.en.get("2UGzU0qmtozi4QZK").system.description;
+  const quickHandsFr = docs.fr.get("2UGzU0qmtozi4QZK").system.description;
+  assert.match(quickHandsEn, /spend 2 AP to increase the Fire Rate of your gun by \+2 for that attack/);
+  assert.match(quickHandsFr, /dépenser 2 PA pour augmenter de \+2 la cadence de tir de votre arme pour cette attaque uniquement/);
+});
+

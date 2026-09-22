@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 70,
-      "sourcePage": 68
+      "pdfPage": 75,
+      "sourcePage": 73
     },
     "fr": {
-      "pdfPage": 71,
-      "sourcePage": 68
+      "pdfPage": 76,
+      "sourcePage": 73
     }
   },
   "pageReviews": [
@@ -578,6 +578,46 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 71,
+      "sourcePage": 69,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 72,
+      "sourcePage": 70,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 73,
+      "sourcePage": 71,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 74,
+      "sourcePage": 72,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 75,
+      "sourcePage": 73,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -1141,6 +1181,46 @@
       "language": "fr",
       "pdfPage": 71,
       "sourcePage": 68,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 72,
+      "sourcePage": 69,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 73,
+      "sourcePage": 70,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 74,
+      "sourcePage": 71,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 75,
+      "sourcePage": 72,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 76,
+      "sourcePage": 73,
       "section": "Chapter Three — Création de personnage",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -4335,7 +4415,13 @@
       "certification": {
         "ranks": 1,
         "descriptionReviewed": true
-      }
+      },
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "p.70: the second sentence is corrected to allow spending 2 AP on a ranged attack to increase the gun's Fire Rate by +2 for that attack; canonical EN and FR text match this correction."
+        }
+      ]
     },
     {
       "publication": "core_rulebook",
@@ -4411,6 +4497,429 @@
         "fr": [
           68
         ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Pathfinder",
+      "localizedNames": {
+        "fr": "Pisteur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "RhITTHDy13MufCZy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Pyromaniac",
+      "localizedNames": {
+        "fr": "Pyromane"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "aNO3ZBQmBGS9A94C",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Refractor",
+      "localizedNames": {
+        "fr": "Réfracteur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "myJS8tB5FHk3Jo65",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Ricochet",
+      "localizedNames": {
+        "fr": "Ricochet"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "E6eCO6Hq6gb4KGmQ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Science!",
+      "localizedNames": {
+        "fr": "Scientifique"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "UzRkuAJkvYqK8jrl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 4,
+        "descriptionReviewed": true
+      },
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Science! has 4 ranks, not 3; the erratum is listed against p.104 and is applied to the perk's canonical rank count."
+        }
+      ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Scrapper",
+      "localizedNames": {
+        "fr": "Recycleur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "dIQkAZGEzdR8j2BB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Skilled",
+      "localizedNames": {
+        "fr": "Studieux"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "PtWvAVSdwEPjeRb3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 10,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Slayer",
+      "localizedNames": {
+        "fr": "Tueur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "6U2ulr6F0lUbJoYl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Snakeater",
+      "localizedNames": {
+        "fr": "Ragoût de serpent"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Y7s5hBuYxnIYz4T4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Sniper",
+      "localizedNames": {
+        "fr": "Sniper"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "cJGae8CyPIfp6tj7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Solar Powered",
+      "localizedNames": {
+        "fr": "Énergie solaire"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "FXbX2ktBJkb6uFIG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Steady Aim",
+      "localizedNames": {
+        "fr": "Visée stable"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "qrXcBKc5MX1lTmKa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 73,
+      "type": "Item",
+      "sourceName": "Strong Back",
+      "localizedNames": {
+        "fr": "Reins d’acier"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "6UWfRLqNydpXobqM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          73
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 73,
+      "type": "Item",
+      "sourceName": "Tag!",
+      "localizedNames": {
+        "fr": "Spécialité bonus !"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "4QXLYHaB9WGmGVY1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          73
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 73,
+      "type": "Item",
+      "sourceName": "Terrifying Presence",
+      "localizedNames": {
+        "fr": "Présence terrifiante"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "CaZiVRLhAUoxj0en",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          73
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 73,
+      "type": "Item",
+      "sourceName": "Toughness",
+      "localizedNames": {
+        "fr": "Robustesse"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "OL6ocnHhOZW4mxns",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          73
+        ],
+        "fr": [
+          70
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true
       }
     }
   ]
