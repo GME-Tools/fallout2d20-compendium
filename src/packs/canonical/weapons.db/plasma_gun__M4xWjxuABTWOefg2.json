@@ -196,42 +196,6 @@
     "isJunk": false,
     "melee": false,
     "mods": {
-      "H5uajcZl8MICYwfy": {
-        "$ref": {
-          "pack": "weapon-mods",
-          "id": "H5uajcZl8MICYwfy"
-        },
-        "$overrides": {
-          "/_key": {
-            "$delete": true
-          },
-          "/folder": "vnStsIp1P4oNrgWt",
-          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
-          "/system/modEffects/damage/weaponQuality/close_quarters/value": -1,
-          "/system/modEffects/damage/weaponQuality/fuel_x": {
-            "$delete": true
-          },
-          "/system/weaponType": "energyWeapons",
-          "/system/description": "",
-          "/flags/fallout2d20-compendium": {
-            "$delete": true
-          },
-          "/_stats": {
-            "compendiumSource": null,
-            "coreVersion": "12.331",
-            "createdTime": null,
-            "duplicateSource": null,
-            "lastModifiedBy": "LbffuJGmFEdJvA7X",
-            "modifiedTime": 1738561022285,
-            "systemId": "fallout",
-            "systemVersion": "11.14.3"
-          },
-          "/ownership": {
-            "default": 0
-          },
-          "/sort": 0
-        }
-      },
       "QOvb0xmQA91HIs8S": {
         "$ref": {
           "pack": "weapon-mods",
@@ -809,6 +773,42 @@
           },
           "/sort": 0
         }
+      },
+      "pxflsyihN3fjKgYq": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "pxflsyihN3fjKgYq"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/folder": "vnStsIp1P4oNrgWt",
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/close_quarters/value": -1,
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/weaponType": "energyWeapons",
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": null,
+            "coreVersion": "12.331",
+            "createdTime": null,
+            "duplicateSource": null,
+            "lastModifiedBy": "LbffuJGmFEdJvA7X",
+            "modifiedTime": 1738561022285,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "default": 0
+          },
+          "/sort": 0
+        }
       }
     },
     "naturalWeapon": false,
@@ -827,9 +827,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 101
       }
     }
   },

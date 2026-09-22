@@ -530,39 +530,6 @@
           "/sort": 100000
         }
       },
-      "bRV8rXkptjU6mz9Y": {
-        "$ref": {
-          "pack": "weapon-mods",
-          "id": "bRV8rXkptjU6mz9Y"
-        },
-        "$overrides": {
-          "/_key": {
-            "$delete": true
-          },
-          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
-          "/system/modEffects/damage/weaponQuality/fuel_x": {
-            "$delete": true
-          },
-          "/system/description": "",
-          "/flags/fallout2d20-compendium": {
-            "$delete": true
-          },
-          "/_stats": {
-            "compendiumSource": null,
-            "coreVersion": "12.331",
-            "createdTime": null,
-            "duplicateSource": null,
-            "lastModifiedBy": "LbffuJGmFEdJvA7X",
-            "modifiedTime": 1738481504694,
-            "systemId": "fallout",
-            "systemVersion": "11.14.3"
-          },
-          "/ownership": {
-            "default": 0
-          },
-          "/sort": 0
-        }
-      },
       "current": 0,
       "dZh7tFPH917IF3UO": {
         "$ref": {
@@ -693,39 +660,6 @@
             "duplicateSource": null,
             "lastModifiedBy": "LbffuJGmFEdJvA7X",
             "modifiedTime": 1738475924366,
-            "systemId": "fallout",
-            "systemVersion": "11.14.3"
-          },
-          "/ownership": {
-            "default": 0
-          },
-          "/sort": 0
-        }
-      },
-      "pxflsyihN3fjKgYq": {
-        "$ref": {
-          "pack": "weapon-mods",
-          "id": "pxflsyihN3fjKgYq"
-        },
-        "$overrides": {
-          "/_key": {
-            "$delete": true
-          },
-          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
-          "/system/modEffects/damage/weaponQuality/fuel_x": {
-            "$delete": true
-          },
-          "/system/description": "",
-          "/flags/fallout2d20-compendium": {
-            "$delete": true
-          },
-          "/_stats": {
-            "compendiumSource": null,
-            "coreVersion": "12.331",
-            "createdTime": null,
-            "duplicateSource": null,
-            "lastModifiedBy": "LbffuJGmFEdJvA7X",
-            "modifiedTime": 1738481641263,
             "systemId": "fallout",
             "systemVersion": "11.14.3"
           },
@@ -959,6 +893,72 @@
             "duplicateSource": null,
             "lastModifiedBy": "LbffuJGmFEdJvA7X",
             "modifiedTime": 1738390503246,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "default": 0
+          },
+          "/sort": 0
+        }
+      },
+      "8nHC8z4vEY4yX7bM": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "8nHC8z4vEY4yX7bM"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": null,
+            "coreVersion": "12.331",
+            "createdTime": null,
+            "duplicateSource": null,
+            "lastModifiedBy": "LbffuJGmFEdJvA7X",
+            "modifiedTime": 1738481504694,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "default": 0
+          },
+          "/sort": 0
+        }
+      },
+      "H5uajcZl8MICYwfy": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "H5uajcZl8MICYwfy"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": null,
+            "coreVersion": "12.331",
+            "createdTime": null,
+            "duplicateSource": null,
+            "lastModifiedBy": "LbffuJGmFEdJvA7X",
+            "modifiedTime": 1738481641263,
             "systemId": "fallout",
             "systemVersion": "11.14.3"
           },

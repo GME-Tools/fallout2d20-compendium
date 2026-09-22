@@ -1088,13 +1088,13 @@ test("Core Small Guns pp.95-99 match source mechanics, provenance, localization 
     "Long Barrel": "RyggZv9PwKChzJwB", "Ported Barrel": "Ac56Ox5nVHcJ8PIA", "Sharpshooter’s Grip": "zAlW93haMYH8Nwp2",
     "Large Magazine": "dh2R5SMlhGBmDuAU", "Quick-Eject Magazine": "067VeMDTeThvISLa", "Large Quick-Eject Magazine": "x7XsKzM5Iyisd9lA",
     "Compensator": "egIL4wuvntMHhlqr", "Suppressor": "dZh7tFPH917IF3UO", "Vented Barrel": "yxSF6qdbdO4FYaQb",
-    "Full Stock": "bRV8rXkptjU6mz9Y", "Marksman’s Stock": "Q6VUr8ae7Rf7WOhA", "Recoil-Compensating Stock": "pxflsyihN3fjKgYq",
+    "Full Stock": "8nHC8z4vEY4yX7bM", "Marksman’s Stock": "Q6VUr8ae7Rf7WOhA", "Recoil-Compensating Stock": "H5uajcZl8MICYwfy",
     "Long Scope": "sg1EfJrr3S307XPy", "Short Night Vision Scope": "vyesQvmRObpdSNpO", "Long Night Vision Scope": "wvsSsznT8GDmdoUa",
     ".38 Receiver": "oiW2VvXVdhGgw4oL", ".308 Receiver": "ybNloPq9nZTqGAur", "Bayonet": "CYODpO6JvopXWYW7",
     "Shielded Barrel": "iiF3omvvTgVv5LoP", "Full Capacitors": "bS7ZxJKZA2JAhPV8", "Capacitor Boosting Coil": "6hh0Evmfv0N8kX81",
     ".50 Receiver": "XShTCPVSPhRDhMBo", "Muzzle Brake": "2aqYiSm1nrIYHgoA", "Sawed-off Barrel": "Iec8KCIeHqCk886z",
     "Finned Barrel": "aCMBNHf2jilKz2Zg", ".45 Receiver": "zpUwoy1BLHyUXuvy", "Automatic Piston": "nGgcu0NLeLIbc3Pi",
-    "Marksman’s": "Q6VUr8ae7Rf7WOhA", "Recoil-Compensating": "pxflsyihN3fjKgYq"
+    "Marksman’s": "Q6VUr8ae7Rf7WOhA", "Recoil-Compensating": "H5uajcZl8MICYwfy"
   };
   const expected = new Map([
     ["wqNw0xItJ29W24sm", { en: ".44 Pistol", fr: "Pistolet .44", damage: 6, effects: ["vicious"], fireRate: 1, range: "close", qualities: ["close_quarters"], weight: 4, cost: 99, rarity: 2, ammo: [".44 Magnum Round", "Cartouche .44"], mods: ["Hardened","Powerful","Advanced","Snubnose Barrel","Bull Barrel","Comfort Grip","Short Scope","Reflex Sight","Recon Scope"] }],
@@ -1305,4 +1305,101 @@ test("Core p.100 Small Gun mod errata, French adaptations and preserved duplicat
   assert.match(primaryEntry.certification.localizationNote, /official French Gauss Rifle profile on p\.97/);
   const largeEntry = catalog.entries.find(entry => entry.documentId === "dh2R5SMlhGBmDuAU" && entry.page === 100);
   assert.match(largeEntry.certification.localizationNote, /prints cost -3/);
+});
+
+
+test("Core Energy Weapons pp.101-105 match source table mechanics and corrected mod identity families", async () => {
+  const expected = new Map([
+    ["fJI5l0xbl26ylvTI",{en:"Institute Laser",fr:"Laser de l’Institut",damage:3,effects:["burst"],types:["energy"],fireRate:3,range:"close",qualities:["close_quarters","inaccurate"],weight:4,cost:50,rarity:2}],
+    ["o1QbQfhTLFphrxkB",{en:"Laser Musket",fr:"Mousquet laser",damage:5,effects:["piercing_x"],types:["energy"],fireRate:0,range:"medium",qualities:["two_handed"],weight:13,cost:57,rarity:1}],
+    ["NRN7soVtcTwCRqaL",{en:"Laser Gun",fr:"Arme laser",damage:4,effects:["piercing_x"],types:["energy"],fireRate:2,range:"close",qualities:["close_quarters"],weight:4,cost:69,rarity:2}],
+    ["M4xWjxuABTWOefg2",{en:"Plasma Gun",fr:"Arme plasma",damage:6,effects:[],types:["energy","physical"],fireRate:1,range:"close",qualities:["close_quarters"],weight:4,cost:123,rarity:3}],
+    ["ECuihimhpmedOziD",{en:"Gamma Gun",fr:"Pistolet Gamma",damage:3,effects:["piercing_x","stun"],types:["radiation"],fireRate:1,range:"medium",qualities:["blast","inaccurate"],weight:3,cost:156,rarity:5}]
+  ]);
+  for (const language of ["en","fr"]) {
+    const docs = new Map((await generatedDocuments(language)).filter(({pack})=>pack==="weapons").map(({document})=>[document._id,document]));
+    for (const [id,spec] of expected) {
+      const doc=docs.get(id); assert.ok(doc);
+      assert.equal(doc.flags["fallout2d20-compendium"].source.page,101);
+      assert.equal(doc.flags["fallout2d20-compendium"].source.errataReviewed,true);
+      if(language==="fr") assert.equal(doc.flags["fallout2d20-compendium"].source.translationReviewed,true);
+      assert.equal(doc.name,language==="en"?spec.en:spec.fr);
+      assert.equal(doc.system.damage.rating,spec.damage);
+      assert.equal(doc.system.fireRate,spec.fireRate);
+      assert.equal(doc.system.range,spec.range);
+      assert.equal(doc.system.cost,spec.cost);
+      assert.equal(doc.system.rarity,spec.rarity);
+      assert.equal(doc.system.weight,language==="en"?spec.weight:spec.weight/2);
+      assert.deepEqual(Object.entries(doc.system.damage.damageEffect).filter(([,v])=>v?.value).map(([k])=>k).sort(),[...spec.effects].sort());
+      assert.deepEqual(Object.entries(doc.system.damage.damageType).filter(([,v])=>v).map(([k])=>k).sort(),[...spec.types].sort());
+      assert.deepEqual(Object.entries(doc.system.damage.weaponQuality).filter(([,v])=>v?.value).map(([k])=>k).sort(),[...spec.qualities].sort());
+    }
+  }
+  const small = new Map((await generatedDocuments("en")).filter(({pack})=>pack==="weapons").map(({document})=>[document._id,document]));
+  for(const id of ["ZN2h6VGlcHQKzveB","qRc6hN6zHdrsZ0nd","Ee4TwfZnYmCF8CDE","bpbgoX9mNr23pFHR","244Kf3MVUhEQQGsw","CUlCBsWk1qipT1Ff","tNyHslvLL11qSlhc","obRp9CZJJ6liIl49","PiFmAFrgnIJqwkNw","ldIbeCgUhfS2AVHV","iUh6c0EcJfZil9cZ","3wCThKbCsMgAdrSg"]) {
+    const mods=small.get(id).system.mods;
+    assert.ok(!mods.bRV8rXkptjU6mz9Y, id+" must not use Energy Full Stock");
+    assert.ok(!mods.pxflsyihN3fjKgYq, id+" must not use Energy Recoil Compensating Stock");
+  }
+  assert.ok(small.get("o1QbQfhTLFphrxkB").system.mods.bRV8rXkptjU6mz9Y);
+  assert.ok(!small.get("o1QbQfhTLFphrxkB").system.mods["8nHC8z4vEY4yX7bM"]);
+  for(const id of ["NRN7soVtcTwCRqaL","M4xWjxuABTWOefg2"]) {
+    assert.ok(small.get(id).system.mods.pxflsyihN3fjKgYq);
+    assert.ok(!small.get(id).system.mods.H5uajcZl8MICYwfy);
+  }
+});
+
+test("Core Small Gun continuation and Energy Weapon mods through p.105 have exact source provenance and key mechanics", async () => {
+  const expectedPages = new Map([
+    ["Noh6VL5rCdM73QuX",101],["zAlW93haMYH8Nwp2",101],["8nHC8z4vEY4yX7bM",101],["Q6VUr8ae7Rf7WOhA",101],["H5uajcZl8MICYwfy",101],
+    ["rh3GtWKomZnQpS1H",101],["TxOsscfkniBk2a85",101],["sg1EfJrr3S307XPy",101],["vyesQvmRObpdSNpO",101],["wvsSsznT8GDmdoUa",101],
+    ["M5ox31Qif67xBC0m",101],["CYODpO6JvopXWYW7",101],["egIL4wuvntMHhlqr",101],["2aqYiSm1nrIYHgoA",101],["dZh7tFPH917IF3UO",101],
+    ["ueMDFFORXGGfNuYb",103],["5eT7jnRBQdbsVQmN",103],["ihEGX2Ame6p1WW82",103],["ztDgncL17xwZiN9p",103],
+    ["20d7BlwbNESRwXC9",104],["rdA0goilCAmpEqWx",104],["ozBpt70cekLpM7aH",104],
+    ["hzqISjGQIiMI1ZP7",104],["nO1q1OhQfQk9u6su",104],["inrCFrHdrIQrEXf1",104],["X7M3lII0wjlKV7l3",104],
+    ["8kEOp1jQBdQkbGXu",104],["MIMSkUavfShkeY8x",104],["QostVNNHMRLN7mhi",104],["wo7U8PuV8h8oa0JY",104],
+    ["G1qWroic6MwSgnnp",105],["QOvb0xmQA91HIs8S",105],["jFCFFp1zj7awhWpN",105],["uWW6Yc9ZzjBHnlrz",105],["4sOu5mfXcDlUVlUP",105],
+    ["op1VoOjGnziZ2S8V",105],["bRV8rXkptjU6mz9Y",105],["zbzoOm7wspRTM8PJ",105],["pxflsyihN3fjKgYq",105],
+    ["qASlWkpHosmgn97l",105],["fyaQkFSXyexqZc0u",105],["U3fJYCYnDsxrr2Or",105],["wUd5pTA33zRH1AWW",105],["nBQq6MTdf40kleS5",105],["dgWySoP4IQ9p2uyO",105],
+    ["FJ6lsU2xzeKbDRhq",105],["mzi2nNJcbhMEnWIE",105],["OIr7YaCzlNRUM8Oq",105]
+  ]);
+  for(const language of ["en","fr"]) {
+    const docs=new Map((await generatedDocuments(language)).filter(({pack})=>pack==="weapon-mods").map(({document})=>[document._id,document]));
+    for(const [id,page] of expectedPages) {
+      const doc=docs.get(id); assert.ok(doc,language+"/"+id+" missing");
+      assert.equal(doc.flags["fallout2d20-compendium"].source.page,page,language+"/"+id+" source page");
+      assert.equal(doc.flags["fallout2d20-compendium"].source.errataReviewed,true);
+      if(language==="fr") assert.equal(doc.flags["fallout2d20-compendium"].source.translationReviewed,true);
+    }
+  }
+  const en=new Map((await generatedDocuments("en")).filter(({pack})=>pack==="weapon-mods").map(({document})=>[document._id,document]));
+  assert.equal(en.get("nO1q1OhQfQk9u6su").system.cost,35);
+  assert.equal(en.get("op1VoOjGnziZ2S8V").system.cost,10);
+  const full=en.get("bRV8rXkptjU6mz9Y");
+  assert.equal(full.system.cost,15);
+  assert.equal(full.system.modEffects.damage.damageEffect.piercing_x.value,1);
+  assert.equal(full.system.modEffects.damage.weaponQuality.two_handed.value,1);
+  assert.equal(full.system.modEffects.damage.weaponQuality.close_quarters.value,-1);
+  assert.equal(full.system.modEffects.damage.weaponQuality.inaccurate.value,0);
+  const repeater=en.get("ozBpt70cekLpM7aH");
+  assert.equal(repeater.system.modEffects.damage.rating,0);
+  assert.equal(repeater.system.modEffects.fireRate,2);
+  assert.equal(repeater.system.modEffects.damage.damageEffect.burst.value,1);
+  assert.equal(repeater.system.modEffects.damage.weaponQuality.blast.value,-1);
+  const musket=en.get("ztDgncL17xwZiN9p");
+  assert.equal(musket.system.modEffects.damage.rating,4);
+  assert.equal(musket.system.modEffects.ammoPerShot,6);
+  const electric=catalog.entries.find(e=>e.documentId==="rdA0goilCAmpEqWx"&&e.page===104);
+  assert.match(electric.certification.localizationNote,/French p\.104 table prints Scientifique 3/);
+  const boosted=catalog.entries.find(e=>e.documentId==="nO1q1OhQfQk9u6su"&&e.page===104);
+  assert.match(boosted.certification.auditCorrection,/94 to the source value 35/);
+});
+
+test("Core Energy Weapon source text pp.102-104 has no known extraction artifacts", async () => {
+  const en=new Map((await generatedDocuments("en")).filter(({pack})=>pack==="weapons").map(({document})=>[document._id,document]));
+  const musket=en.get("o1QbQfhTLFphrxkB").system.description;
+  assert.doesNotMatch(musket,/Lazer Musket Capacitor/);
+  const gamma=en.get("ECuihimhpmedOziD").system.description;
+  assert.match(gamma,/Electric Signal Carrier Antennae, Signal Repeater/);
+  assert.doesNotMatch(gamma,/Antennaem/);
 });

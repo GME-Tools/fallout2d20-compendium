@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 102,
-      "sourcePage": 100
+      "pdfPage": 107,
+      "sourcePage": 105
     },
     "fr": {
-      "pdfPage": 103,
-      "sourcePage": 100
+      "pdfPage": 108,
+      "sourcePage": 105
     }
   },
   "pageReviews": [
@@ -1653,6 +1653,86 @@
       "language": "fr",
       "pdfPage": 103,
       "sourcePage": 100,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 103,
+      "sourcePage": 101,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 104,
+      "sourcePage": 102,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 105,
+      "sourcePage": 103,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 106,
+      "sourcePage": 104,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 107,
+      "sourcePage": 105,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 104,
+      "sourcePage": 101,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 105,
+      "sourcePage": 102,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 106,
+      "sourcePage": 103,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 107,
+      "sourcePage": 104,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 108,
+      "sourcePage": 105,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -10848,6 +10928,1786 @@
         "canonicalMechanicsReviewed": true,
         "duplicateOf": "6hh0Evmfv0N8kX81",
         "reason": "The repository historically contained both a misspelled legacy identity and a second corrected identity. The source has one Capacitor Boosting Coil row. Both stable IDs are retained, but the legacy primary identity used by the Gauss Rifle and the preserved duplicate now carry the same corrected name and mechanics."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Comfort Grip",
+      "localizedNames": {
+        "fr": "Poignée confort"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "Noh6VL5rCdM73QuX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "grip",
+        "effect": "Remove Inaccurate",
+        "weightLb": 0,
+        "cost": 6,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Sharpshooter’s Grip",
+      "localizedNames": {
+        "fr": "Poignée de tireur d’élite"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "zAlW93haMYH8Nwp2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "grip",
+        "effect": "Remove Inaccurate; Gain Piercing 1",
+        "weightLb": 0,
+        "cost": 10,
+        "perks": [
+          "Gun Nut 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Full Stock",
+      "localizedNames": {
+        "fr": "Crosse complète"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "8nHC8z4vEY4yX7bM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Remove Inaccurate",
+        "weightLb": 1,
+        "cost": 10,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Marksman’s Stock",
+      "localizedNames": {
+        "fr": "Crosse de tireur d’élite"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "Q6VUr8ae7Rf7WOhA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Remove Inaccurate; Gain Accurate",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Recoil Compensating Stock",
+      "localizedNames": {
+        "fr": "Crosse à compensateur de recul"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "H5uajcZl8MICYwfy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Remove Inaccurate; +1 Fire Rate",
+        "weightLb": 2,
+        "cost": 3,
+        "perks": [
+          "Gun Nut 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Reflex Sight",
+      "localizedNames": {
+        "fr": "Viseur laser"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "rh3GtWKomZnQpS1H",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "May re-roll hit location die",
+        "weightLb": 0,
+        "cost": 14,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Short Scope",
+      "localizedNames": {
+        "fr": "Lunette courte"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "TxOsscfkniBk2a85",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate",
+        "weightLb": 1,
+        "cost": 11,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Long Scope",
+      "localizedNames": {
+        "fr": "Lunette longue"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "sg1EfJrr3S307XPy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; increase Range by 1 step",
+        "weightLb": 1,
+        "cost": 29,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Short Night Vision Scope",
+      "localizedNames": {
+        "fr": "Lunette de vision nocturne courte"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "vyesQvmRObpdSNpO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Night Vision",
+        "weightLb": 1,
+        "cost": 38,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Long Night Vision Scope",
+      "localizedNames": {
+        "fr": "Lunette de vision nocturne longue"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "wvsSsznT8GDmdoUa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Night Vision; increase Range by 1 step",
+        "weightLb": 1,
+        "cost": 50,
+        "perks": [
+          "Science! 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Recon Scope",
+      "localizedNames": {
+        "fr": "Lunette de reconnaissance"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "M5ox31Qif67xBC0m",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Recon",
+        "weightLb": 1,
+        "cost": 59,
+        "perks": [
+          "Science! 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Bayonet",
+      "localizedNames": {
+        "fr": "Baïonnette"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "CYODpO6JvopXWYW7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Melee weapon; 4 CD Piercing 1 Physical damage",
+        "weightLb": 2,
+        "cost": 10,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Compensator",
+      "localizedNames": {
+        "fr": "Compensateur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "egIL4wuvntMHhlqr",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Remove Inaccurate",
+        "weightLb": 1,
+        "cost": 15,
+        "perks": [
+          "Gun Nut 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Muzzle Break",
+      "localizedNames": {
+        "fr": "Frein de bouche"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "2aqYiSm1nrIYHgoA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Remove Inaccurate; +1 Fire Rate",
+        "weightLb": 1,
+        "cost": 30,
+        "perks": [
+          "Gun Nut 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon_mod",
+      "sourceName": "Suppressor",
+      "localizedNames": {
+        "fr": "Silencieux"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod defined in the continuation of the Core Small Gun Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "dZh7tFPH917IF3UO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Gain Suppressed",
+        "weightLb": 2,
+        "cost": 45,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "table",
+      "sourceName": "Energy Weapons",
+      "localizedNames": {
+        "fr": "Armes à énergie"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table used as the source inventory and mechanical baseline for Energy Weapon Items; it is not a random RollTable document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          101
+        ],
+        "fr": [
+          101
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 5
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon",
+      "sourceName": "Institute Laser",
+      "localizedNames": {
+        "fr": "Laser de l’Institut"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon Item defined by the p.101 equipment table and detailed profile on the following pages.",
+      "pack": "weapons",
+      "documentId": "fJI5l0xbl26ylvTI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101,
+          102
+        ],
+        "fr": [
+          101,
+          102
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "Burst"
+        ],
+        "damageType": "Energy",
+        "fireRate": 3,
+        "range": "C",
+        "qualities": [
+          "Close Quarters",
+          "Inaccurate"
+        ],
+        "weightLb": 4,
+        "cost": 50,
+        "rarity": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon",
+      "sourceName": "Laser Musket",
+      "localizedNames": {
+        "fr": "Mousquet laser"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon Item defined by the p.101 equipment table and detailed profile on the following pages.",
+      "pack": "weapons",
+      "documentId": "o1QbQfhTLFphrxkB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101,
+          102,
+          103
+        ],
+        "fr": [
+          101,
+          102,
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "Piercing 1"
+        ],
+        "damageType": "Energy",
+        "fireRate": 0,
+        "range": "M",
+        "qualities": [
+          "Two-Handed"
+        ],
+        "weightLb": 13,
+        "cost": 57,
+        "rarity": 1
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon",
+      "sourceName": "Laser Gun",
+      "localizedNames": {
+        "fr": "Arme laser"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon Item defined by the p.101 equipment table and detailed profile on the following pages.",
+      "pack": "weapons",
+      "documentId": "NRN7soVtcTwCRqaL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101,
+          103
+        ],
+        "fr": [
+          101,
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "Piercing 1"
+        ],
+        "damageType": "Energy",
+        "fireRate": 2,
+        "range": "C",
+        "qualities": [
+          "Close Quarters"
+        ],
+        "weightLb": 4,
+        "cost": 69,
+        "rarity": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon",
+      "sourceName": "Plasma Gun",
+      "localizedNames": {
+        "fr": "Arme plasma"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon Item defined by the p.101 equipment table and detailed profile on the following pages.",
+      "pack": "weapons",
+      "documentId": "M4xWjxuABTWOefg2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101,
+          103
+        ],
+        "fr": [
+          101,
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [],
+        "damageType": "Physical/Energy",
+        "fireRate": 1,
+        "range": "C",
+        "qualities": [
+          "Close Quarters"
+        ],
+        "weightLb": 4,
+        "cost": 123,
+        "rarity": 3
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 101,
+      "type": "weapon",
+      "sourceName": "Gamma Gun",
+      "localizedNames": {
+        "fr": "Pistolet Gamma"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon Item defined by the p.101 equipment table and detailed profile on the following pages.",
+      "pack": "weapons",
+      "documentId": "ECuihimhpmedOziD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          101,
+          104
+        ],
+        "fr": [
+          101,
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "Piercing 1",
+          "Stun"
+        ],
+        "damageType": "Radiation",
+        "fireRate": 1,
+        "range": "M",
+        "qualities": [
+          "Blast",
+          "Inaccurate"
+        ],
+        "weightLb": 3,
+        "cost": 156,
+        "rarity": 5
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 103,
+      "type": "weapon_mod",
+      "sourceName": "Three-Crank Capacitor",
+      "localizedNames": {
+        "fr": "Condensateur à trois charges"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Laser Musket-only capacitor mod fully defined in the Core p.103 table.",
+      "pack": "weapon-mods",
+      "documentId": "ueMDFFORXGGfNuYb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          103
+        ],
+        "fr": [
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+1 CD damage; consumes 3 shots per attack",
+        "damageDelta": 1,
+        "ammoPerShot": 3,
+        "weightLb": 0,
+        "cost": 4,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 103,
+      "type": "weapon_mod",
+      "sourceName": "Four-Crank Capacitor",
+      "localizedNames": {
+        "fr": "Condensateur à quatre charges"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Laser Musket-only capacitor mod fully defined in the Core p.103 table.",
+      "pack": "weapon-mods",
+      "documentId": "5eT7jnRBQdbsVQmN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          103
+        ],
+        "fr": [
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+2 CD damage; consumes 4 shots per attack",
+        "damageDelta": 2,
+        "ammoPerShot": 4,
+        "weightLb": 1,
+        "cost": 8,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 103,
+      "type": "weapon_mod",
+      "sourceName": "Five-Crank Capacitor",
+      "localizedNames": {
+        "fr": "Condensateur à cinq charges"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Laser Musket-only capacitor mod fully defined in the Core p.103 table.",
+      "pack": "weapon-mods",
+      "documentId": "ihEGX2Ame6p1WW82",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          103
+        ],
+        "fr": [
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+3 CD damage; consumes 5 shots per attack",
+        "damageDelta": 3,
+        "ammoPerShot": 5,
+        "weightLb": 1,
+        "cost": 12,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 103,
+      "type": "weapon_mod",
+      "sourceName": "Six-Crank Capacitor",
+      "localizedNames": {
+        "fr": "Condensateur à six charges"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Laser Musket-only capacitor mod fully defined in the Core p.103 table.",
+      "pack": "weapon-mods",
+      "documentId": "ztDgncL17xwZiN9p",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          103
+        ],
+        "fr": [
+          103
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+4 CD damage; consumes 6 shots per attack",
+        "damageDelta": 4,
+        "ammoPerShot": 6,
+        "weightLb": 2,
+        "cost": 16,
+        "perks": [
+          "Science! 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Deep Dish",
+      "localizedNames": {
+        "fr": "Parabole à renfoncement"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Gamma Gun-only mod fully defined in the Core p.104 table.",
+      "pack": "weapon-mods",
+      "documentId": "20d7BlwbNESRwXC9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "dish",
+        "effect": "+1 CD damage; increase Range by 1 step",
+        "weightLb": 2,
+        "cost": 72,
+        "perks": [
+          "Science! 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Electric Signal Carrier Antennae",
+      "localizedNames": {
+        "fr": "Antenne de transmission électrique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Gamma Gun-only mod fully defined in the Core p.104 table.",
+      "pack": "weapon-mods",
+      "documentId": "rdA0goilCAmpEqWx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Set damage to 7 CD Energy; Gain Radioactive",
+        "weightLb": 0,
+        "cost": 30,
+        "perks": [
+          "Science! 4"
+        ],
+        "localizationNote": "The official French p.104 table prints Scientifique 3; canonical EN requires Science! 4, which is retained mechanically."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Signal Repeater",
+      "localizedNames": {
+        "fr": "Répéteur de signal"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Gamma Gun-only mod fully defined in the Core p.104 table.",
+      "pack": "weapon-mods",
+      "documentId": "ozBpt70cekLpM7aH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "+2 Fire Rate; Gain Burst; Remove Blast",
+        "weightLb": 0,
+        "cost": 60,
+        "perks": [
+          "Science! 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "rule_text",
+      "sourceName": "Energy Weapons Mods installation rule",
+      "localizedNames": {
+        "fr": "Mods des armes à énergie"
+      },
+      "scope": "out_of_scope",
+      "justification": "General installation rule for Energy Weapon mods; concrete reusable mods are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "installSkill": "Science",
+        "localizedInstallSkill": "Sciences"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Beta Wave Tuner",
+      "localizedNames": {
+        "fr": "Amplificateur d’ondes Bêta"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "hzqISjGQIiMI1ZP7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "Gain Persistent",
+        "weightLb": 0,
+        "cost": 30,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Boosted Capacitor",
+      "localizedNames": {
+        "fr": "Condensateur amélioré"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "nO1q1OhQfQk9u6su",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+1 CD damage; -1 Fire Rate",
+        "weightLb": 0,
+        "cost": 35,
+        "perks": [],
+        "auditCorrection": "Repository cost corrected from 94 to the source value 35."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Photon Exciter",
+      "localizedNames": {
+        "fr": "Stimulateur de photons"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "inrCFrHdrIQrEXf1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "Gain Vicious",
+        "weightLb": 0,
+        "cost": 30,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Photon Agitator",
+      "localizedNames": {
+        "fr": "Agitateur de photons"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "X7M3lII0wjlKV7l3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "effect": "+1 CD damage; Gain Vicious",
+        "weightLb": 1,
+        "cost": 35,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Bracketed Short Barrel",
+      "localizedNames": {
+        "fr": "Canon court à fixation"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "8kEOp1jQBdQkbGXu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "Allows a Muzzle mod",
+        "weightLb": 0,
+        "cost": 6,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Long Barrel",
+      "localizedNames": {
+        "fr": "Canon long"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "MIMSkUavfShkeY8x",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "Remove Close Quarters; increase Range by 1 step",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Splitter",
+      "localizedNames": {
+        "fr": "Diviseur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "QostVNNHMRLN7mhi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "-1 CD damage; Gain Spread; Gain Inaccurate",
+        "weightLb": 1,
+        "cost": 31,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 104,
+      "type": "weapon_mod",
+      "sourceName": "Automatic Barrel",
+      "localizedNames": {
+        "fr": "Canon automatique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "wo7U8PuV8h8oa0JY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          104
+        ],
+        "fr": [
+          104
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "-1 CD damage; Remove Close Quarters; increase Range by 1 step; +1 Fire Rate",
+        "weightLb": 1,
+        "cost": 24,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Bracketed Long Barrel",
+      "localizedNames": {
+        "fr": "Canon long à fixation"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "G1qWroic6MwSgnnp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "Remove Close Quarters; increase Range by 1 step; Allows a Muzzle mod",
+        "weightLb": 2,
+        "cost": 25,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Improved Barrel",
+      "localizedNames": {
+        "fr": "Canon amélioré"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "QOvb0xmQA91HIs8S",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+1 CD damage",
+        "weightLb": 1,
+        "cost": 26,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Sniper Barrel",
+      "localizedNames": {
+        "fr": "Canon de précision"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "jFCFFp1zj7awhWpN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "+2 CD damage; Remove Close Quarters; increase Range by 1 step; -1 Fire Rate",
+        "weightLb": 2,
+        "cost": 30,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Flamer Barrel",
+      "localizedNames": {
+        "fr": "Canon lance-flammes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "uWW6Yc9ZzjBHnlrz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "effect": "-2 CD damage; +2 Fire Rate; Gain Burst; Gain Spread; reduce Range by 1 step; Gain Inaccurate",
+        "weightLb": 1,
+        "cost": 35,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Sharpshooter’s Grip",
+      "localizedNames": {
+        "fr": "Poignée de tireur d’élite"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "4sOu5mfXcDlUVlUP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "grip",
+        "effect": "Remove Inaccurate; Gain Piercing 1",
+        "weightLb": 0,
+        "cost": 10,
+        "perks": [
+          "Gun Nut 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Standard Stock",
+      "localizedNames": {
+        "fr": "Crosse standard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "op1VoOjGnziZ2S8V",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Remove Inaccurate; Remove Close Quarters",
+        "weightLb": 1,
+        "cost": 10,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Full Stock",
+      "localizedNames": {
+        "fr": "Crosse complète"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "bRV8rXkptjU6mz9Y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Gain Piercing 1; Remove Close Quarters",
+        "weightLb": 1,
+        "cost": 15,
+        "perks": [],
+        "errataApplied": [
+          "September 2022: Full Stock gains the Two-Handed quality."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Marksman’s Stock",
+      "localizedNames": {
+        "fr": "Crosse de tireur d’élite"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "zbzoOm7wspRTM8PJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Remove Inaccurate; Gain Accurate; Remove Close Quarters",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Recoil Compensating Stock",
+      "localizedNames": {
+        "fr": "Crosse à compensateur de recul"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "pxflsyihN3fjKgYq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "stock",
+        "effect": "Gain Two-Handed; Remove Inaccurate; +1 Fire Rate; Remove Close Quarters",
+        "weightLb": 2,
+        "cost": 3,
+        "perks": [
+          "Gun Nut 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Reflex Sight",
+      "localizedNames": {
+        "fr": "Viseur laser"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "qASlWkpHosmgn97l",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "May re-roll hit location die",
+        "weightLb": 0,
+        "cost": 14,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Short Scope",
+      "localizedNames": {
+        "fr": "Lunette courte"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "fyaQkFSXyexqZc0u",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate",
+        "weightLb": 1,
+        "cost": 11,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Long Scope",
+      "localizedNames": {
+        "fr": "Lunette longue"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "U3fJYCYnDsxrr2Or",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; increase Range by 1 step",
+        "weightLb": 1,
+        "cost": 29,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Short Night Vision Scope",
+      "localizedNames": {
+        "fr": "Lunette de vision nocturne courte"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "wUd5pTA33zRH1AWW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Night Vision",
+        "weightLb": 1,
+        "cost": 38,
+        "perks": [
+          "Science! 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Long Night Vision Scope",
+      "localizedNames": {
+        "fr": "Lunette de vision nocturne longue"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "nBQq6MTdf40kleS5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Night Vision; increase Range by 1 step",
+        "weightLb": 1,
+        "cost": 50,
+        "perks": [
+          "Science! 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Recon Scope",
+      "localizedNames": {
+        "fr": "Lunette de reconnaissance"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "dgWySoP4IQ9p2uyO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "sight",
+        "effect": "Gain Accurate; Gain Recon",
+        "weightLb": 1,
+        "cost": 59,
+        "perks": [
+          "Science! 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Beam Splitter",
+      "localizedNames": {
+        "fr": "Diviseur de rayon"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "FJ6lsU2xzeKbDRhq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "-1 CD damage; Gain Spread; -1 Fire Rate; Gain Inaccurate; reduce Range by 1 step",
+        "weightLb": 1,
+        "cost": 15,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Beam Focuser",
+      "localizedNames": {
+        "fr": "Concentrateur de faisceau"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "mzi2nNJcbhMEnWIE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "Increase Range by 1 step",
+        "weightLb": 1,
+        "cost": 20,
+        "perks": [
+          "Science! 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 105,
+      "type": "weapon_mod",
+      "sourceName": "Gyro Compensating Lens",
+      "localizedNames": {
+        "fr": "Lentille à gyrocompensation"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Energy Weapon mod fully defined in the Core Energy Weapons Mods table.",
+      "pack": "weapon-mods",
+      "documentId": "OIr7YaCzlNRUM8Oq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          105
+        ],
+        "fr": [
+          105
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "muzzle",
+        "effect": "+1 Fire Rate; Remove Inaccurate",
+        "weightLb": 1,
+        "cost": 25,
+        "perks": [
+          "Science! 1"
+        ]
       }
     }
   ]

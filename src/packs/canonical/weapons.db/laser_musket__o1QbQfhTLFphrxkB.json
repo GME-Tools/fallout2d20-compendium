@@ -263,45 +263,6 @@
           "/sort": 0
         }
       },
-      "8nHC8z4vEY4yX7bM": {
-        "$ref": {
-          "pack": "weapon-mods",
-          "id": "8nHC8z4vEY4yX7bM"
-        },
-        "$overrides": {
-          "/_key": {
-            "$delete": true
-          },
-          "/folder": "vnStsIp1P4oNrgWt",
-          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
-          "/system/modEffects/damage/damageEffect/piercing_x/rank": 1,
-          "/system/modEffects/damage/damageEffect/piercing_x/value": 1,
-          "/system/modEffects/damage/weaponQuality/close_quarters/value": -1,
-          "/system/modEffects/damage/weaponQuality/fuel_x": {
-            "$delete": true
-          },
-          "/system/modEffects/damage/weaponQuality/inaccurate/value": 0,
-          "/system/weaponType": "energyWeapons",
-          "/system/description": "",
-          "/flags/fallout2d20-compendium": {
-            "$delete": true
-          },
-          "/_stats": {
-            "compendiumSource": null,
-            "coreVersion": "12.331",
-            "createdTime": null,
-            "duplicateSource": null,
-            "lastModifiedBy": "LbffuJGmFEdJvA7X",
-            "modifiedTime": 1738560956701,
-            "systemId": "fallout",
-            "systemVersion": "11.14.3"
-          },
-          "/ownership": {
-            "default": 0
-          },
-          "/sort": 0
-        }
-      },
       "FJ6lsU2xzeKbDRhq": {
         "$ref": {
           "pack": "weapon-mods",
@@ -775,6 +736,45 @@
           },
           "/sort": 0
         }
+      },
+      "bRV8rXkptjU6mz9Y": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "bRV8rXkptjU6mz9Y"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/folder": "vnStsIp1P4oNrgWt",
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/damageEffect/piercing_x/rank": 1,
+          "/system/modEffects/damage/damageEffect/piercing_x/value": 1,
+          "/system/modEffects/damage/weaponQuality/close_quarters/value": -1,
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/modEffects/damage/weaponQuality/inaccurate/value": 0,
+          "/system/weaponType": "energyWeapons",
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": null,
+            "coreVersion": "12.331",
+            "createdTime": null,
+            "duplicateSource": null,
+            "lastModifiedBy": "LbffuJGmFEdJvA7X",
+            "modifiedTime": 1738560956701,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "default": 0
+          },
+          "/sort": 0
+        }
       }
     },
     "naturalWeapon": false,
@@ -793,9 +793,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 101
       }
     }
   },

@@ -370,39 +370,6 @@
           "/sort": 0
         }
       },
-      "pxflsyihN3fjKgYq": {
-        "$ref": {
-          "pack": "weapon-mods",
-          "id": "pxflsyihN3fjKgYq"
-        },
-        "$overrides": {
-          "/_key": {
-            "$delete": true
-          },
-          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
-          "/system/modEffects/damage/weaponQuality/fuel_x": {
-            "$delete": true
-          },
-          "/system/description": "",
-          "/flags/fallout2d20-compendium": {
-            "$delete": true
-          },
-          "/_stats": {
-            "compendiumSource": null,
-            "coreVersion": "12.331",
-            "createdTime": null,
-            "duplicateSource": null,
-            "lastModifiedBy": "LbffuJGmFEdJvA7X",
-            "modifiedTime": 1738481641263,
-            "systemId": "fallout",
-            "systemVersion": "11.14.3"
-          },
-          "/ownership": {
-            "default": 0
-          },
-          "/sort": 0
-        }
-      },
       "rh3GtWKomZnQpS1H": {
         "$ref": {
           "pack": "weapon-mods",
@@ -535,6 +502,39 @@
             "default": 0
           },
           "/sort": 500000
+        }
+      },
+      "H5uajcZl8MICYwfy": {
+        "$ref": {
+          "pack": "weapon-mods",
+          "id": "H5uajcZl8MICYwfy"
+        },
+        "$overrides": {
+          "/_key": {
+            "$delete": true
+          },
+          "/img": "systems/fallout/assets/icons/items/weapon_mod.svg",
+          "/system/modEffects/damage/weaponQuality/fuel_x": {
+            "$delete": true
+          },
+          "/system/description": "",
+          "/flags/fallout2d20-compendium": {
+            "$delete": true
+          },
+          "/_stats": {
+            "compendiumSource": null,
+            "coreVersion": "12.331",
+            "createdTime": null,
+            "duplicateSource": null,
+            "lastModifiedBy": "LbffuJGmFEdJvA7X",
+            "modifiedTime": 1738481641263,
+            "systemId": "fallout",
+            "systemVersion": "11.14.3"
+          },
+          "/ownership": {
+            "default": 0
+          },
+          "/sort": 0
         }
       }
     },
