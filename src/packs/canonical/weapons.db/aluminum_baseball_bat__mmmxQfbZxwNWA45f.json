@@ -11,7 +11,7 @@
     "canBeScrapped": true,
     "condition": "",
     "consumedOnUse": false,
-    "cost": 39,
+    "cost": 32,
     "creatureAttribute": "body",
     "creatureSkill": "melee",
     "damage": {
@@ -74,7 +74,7 @@
         "radiation": false
       },
       "originalRating": 5,
-      "rating": 6,
+      "rating": 5,
       "weaponQuality": {
         "accurate": {
           "rank": 0,
@@ -393,9 +393,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 111
       }
     }
   },

@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–112, through printed/source page 110.
-- FR PDF physical pages 1–113, through printed/source page 110.
+- EN PDF physical pages 1–120, through printed/source page 118.
+- FR PDF physical pages 1–121, through printed/source page 118.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
   (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
@@ -175,19 +175,19 @@ Current completed boundary:
 - The Big Guns audit resolved the historical duplicate Flamer identity without deleting stable IDs: `75n1EFSJw8xxti6s`, already referenced by Mister Handy p.54, is the certified Core Flamer; `q3RjTNEYvfHVBzVk` is retained and catalogued as a duplicate. Both now carry the p.107 mod set and Close range, and the p.54 arm-attachment sentence was removed from the reusable weapon description.
 - Several same-name Gatling Laser mod identities had inherited mechanics from ordinary Energy Weapon variants. The p.108 source audit corrected the Gatling-only Photon Agitator (cost 132, weight 3, Science! 3), Reflex Sight (cost 169, Remove Inaccurate, Science! 4), Beam Focuser (cost 22, Piercing 1 and +1 range, no perk), and Boosted Capacitor (+1 damage only, no Fire Rate penalty), while restoring all Gatling variants to the Big Guns family. The Missile Launcher Scope was likewise reclassified from Energy Weapons to Big Guns.
 - The official FR p.106 table prints the Lance-flammes at 8.5 kg although canonical EN gives 16 lb. The module retains the project-wide exact lb/2 metric policy (8 kg) and records this localization discrepancy rather than treating the FR number as canonical mechanics.
+- Source pp.111–118 now certify the complete p.111 Melee Weapons table (26 weapon identities) and all 51 unique melee mods defined through p.118. The September 2022 Sledgehammer Two-Handed erratum is enforced. The audit corrected the Aluminum Baseball Bat from 6 CD/cost 39/weight 3 lb to 5 CD/cost 32/weight 2 lb, plus multiple inherited mod costs, weights, perks, families and effects, including Board Puncturing and Walking Cane Barbed. The official FR p.111 Baton prints cost 10/rarity 0 instead of canonical EN 15/1, and omits Two-Handed on Sledgehammer; both discrepancies are recorded while canonical mechanics remain EN + Errata. Power Fist is certified from the p.111 table, while its two detailed mods remain pending because their EN definition begins on p.119.
+
 ## Next lot
 
-Continue page-by-page at printed/source p.111 with Melee Weapons. Audit the p.111
-weapon table first, then the weapon profiles and unique melee-mod tables through
-p.118 as a coherent source-driven lot. Apply the September 2022 p.111 Sledgehammer
-Two-Handed erratum before comparing canonical/locales.
+Continue page-by-page at printed/source p.119 with the Power Fist mod table and Throwing Weapons, then proceed through the next coherent equipment subsection. Do not re-audit pp.1–118.
+
 
 Known later Core suspects to re-check against source rather than assume true:
 
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–110
+There are no unresolved anomalies or owner decisions in the completed p.1–118
 boundary.
 
 ## Validation

@@ -198,19 +198,21 @@
     "rarity": 0,
     "source": "core_rulebook",
     "stashed": false,
-    "weaponType": "unarmed"
+    "weaponType": "unarmed",
+    "weight": 2
   },
   "type": "weapon_mod",
   "flags": {
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-owner-mod-icon",
-        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods.",
+        "page": 118
       },
       "weaponModRecipes": [
         {

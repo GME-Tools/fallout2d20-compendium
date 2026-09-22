@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 18,
+    "cost": 9,
     "favorite": false,
     "modEffects": {
       "ammo": "",
@@ -36,7 +36,7 @@
           },
           "piercing_x": {
             "rank": 1,
-            "value": 1
+            "value": 0
           },
           "radioactive": {
             "rank": 0,
@@ -66,7 +66,7 @@
           "radiation": false
         },
         "overrideDamage": "modify",
-        "rating": 1,
+        "rating": 2,
         "weaponQuality": {
           "accurate": {
             "rank": 0,
@@ -197,19 +197,21 @@
     "rarity": 0,
     "source": "core_rulebook",
     "stashed": false,
-    "weaponType": "meleeWeapons"
+    "weaponType": "meleeWeapons",
+    "weight": 1
   },
   "type": "weapon_mod",
   "flags": {
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-owner-mod-icon",
-        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods.",
+        "page": 114
       },
       "weaponModRecipes": [
         {

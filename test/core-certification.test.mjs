@@ -1539,3 +1539,38 @@ test("Core Big Gun errata and repaired Gatling variants retain source mechanics"
     Object.keys(flamer.system.mods??{}).filter(k=>/^[A-Za-z0-9]{16}$/.test(k)).sort()
   );
 });
+
+test("Core Melee Weapons pp.111-118 are source-complete and retain source corrections", async () => {
+  const weapons = catalog.entries.filter(e => e.page === 111 && e.pack === "weapons" && e.status === "verified");
+  const mods = catalog.entries.filter(e => e.pack === "weapon-mods" && e.page >= 112 && e.page <= 118 && e.status === "verified");
+  assert.equal(weapons.length, 26);
+  assert.equal(mods.length, 51);
+  const byLanguage = {};
+  for (const language of ["en", "fr"]) {
+    byLanguage[language] = new Map((await generatedDocuments(language)).map(({pack, document}) => [`${pack}/${document._id}`, document]));
+    for (const entry of [...weapons, ...mods]) {
+      const document = byLanguage[language].get(`${entry.pack}/${entry.documentId}`);
+      assert.ok(document, `${language}/${entry.documentId} missing`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, `${language}/${entry.documentId} errata review`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, entry.page, `${language}/${entry.documentId} provenance`);
+    }
+  }
+  const aluminum = byLanguage.en.get("weapons/mmmxQfbZxwNWA45f");
+  assert.equal(aluminum.system.damage.rating, 5);
+  assert.equal(aluminum.system.weight, 2);
+  assert.equal(aluminum.system.cost, 32);
+  assert.equal(byLanguage.fr.get("weapons/mmmxQfbZxwNWA45f").system.weight, 1);
+  const sledgehammer = byLanguage.en.get("weapons/yrLghAxk6uynbFaq");
+  assert.equal(sledgehammer.system.damage.weaponQuality.two_handed.value, 1);
+  const switchbladeSerrated = byLanguage.en.get("weapon-mods/uUiwz6PvOMdkU6yE");
+  assert.equal(switchbladeSerrated.system.cost, 10);
+  assert.equal(switchbladeSerrated.system.perks, "Blacksmith 1");
+  const ripperCurved = byLanguage.en.get("weapon-mods/TQN26Hjy3pxpkrzT");
+  assert.equal(ripperCurved.system.weaponType, "meleeWeapons");
+  assert.equal(ripperCurved.system.weight, 1);
+  const batonElectrified = byLanguage.en.get("weapon-mods/t2DeDQRZXpZyN9ux");
+  assert.equal(batonElectrified.system.cost, 15);
+  assert.equal(batonElectrified.system.perks, "Blacksmith 2; Science! 1");
+  assert.equal(byLanguage.fr.get("weapon-mods/t2DeDQRZXpZyN9ux").system.perks, "Forgeron 2; Scientifique 1");
+  assert.equal(catalog.entries.some(e => ["LANB6wzhO8pIEsxK", "MvrQv0wg5FE6j7TR"].includes(e.documentId) && e.page <= 118), false);
+});

@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 112,
-      "sourcePage": 110
+      "pdfPage": 120,
+      "sourcePage": 118
     },
     "fr": {
-      "pdfPage": 113,
-      "sourcePage": 110
+      "pdfPage": 121,
+      "sourcePage": 118
     }
   },
   "pageReviews": [
@@ -1813,6 +1813,134 @@
       "language": "fr",
       "pdfPage": 113,
       "sourcePage": 110,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 113,
+      "sourcePage": 111,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 114,
+      "sourcePage": 112,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 115,
+      "sourcePage": 113,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 116,
+      "sourcePage": 114,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 117,
+      "sourcePage": 115,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 118,
+      "sourcePage": 116,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 119,
+      "sourcePage": 117,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 120,
+      "sourcePage": 118,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 114,
+      "sourcePage": 111,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 115,
+      "sourcePage": 112,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 116,
+      "sourcePage": 113,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 117,
+      "sourcePage": 114,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 118,
+      "sourcePage": 115,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 119,
+      "sourcePage": 116,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 120,
+      "sourcePage": 117,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 121,
+      "sourcePage": 118,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -14220,6 +14348,2701 @@
         ],
         "installSkill": "Repair"
       }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Aluminum Baseball Bat",
+      "localizedNames": {
+        "fr": "Batte de baseball en aluminium"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "mmmxQfbZxwNWA45f",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "two_handed"
+        ],
+        "weightLb": 2,
+        "cost": 32,
+        "rarity": 2,
+        "acceptedModIds": [
+          "5rADQbFyMO7zjDSi",
+          "HuhiTQsXyRgw5tZS",
+          "Sem0JhmbNdppKdJW",
+          "dgUAFqVrT3FPOVUf",
+          "uaOXQJwoub6ZmUdc"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Baseball Bat",
+      "localizedNames": {
+        "fr": "Batte de baseball"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "d0qmxHsuKN14qmua",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "two_handed"
+        ],
+        "weightLb": 3,
+        "cost": 25,
+        "rarity": 1,
+        "acceptedModIds": [
+          "4hbEFa5bvVFUlMBO",
+          "BX0Ox0ZdWJBDNsVl",
+          "SBiPJoDN1jWmENgs",
+          "hfiueRXOH8ryrfrv",
+          "yK9zc6hPHk1IRq01"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Baton",
+      "localizedNames": {
+        "fr": "Matraque"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "jZstb7cuVXCJXPnj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 2,
+        "cost": 15,
+        "rarity": 1,
+        "acceptedModIds": [
+          "G6FJ1gEgiS2553IN",
+          "t2DeDQRZXpZyN9ux"
+        ],
+        "localizationNote": "The official FR p.111 table prints cost 10 and rarity 0; canonical EN authority retains cost 15 and rarity 1."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Board",
+      "localizedNames": {
+        "fr": "Planche"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "CKolMtDxOzC8QdSD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "two_handed"
+        ],
+        "weightLb": 3,
+        "cost": 20,
+        "rarity": 0,
+        "acceptedModIds": [
+          "49zfOfotginM01u8",
+          "frKj2bS1FVy8Ny3O",
+          "uOWSNksbDqlUOhJN"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Boxing Glove",
+      "localizedNames": {
+        "fr": "Gant de boxe"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "DnWvHyfz74QnnnGv",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "stun"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 1,
+        "cost": 10,
+        "rarity": 1,
+        "acceptedModIds": [
+          "0RvRMyyemOK3vkOl",
+          "CMVHMX7fGVSi9SzJ",
+          "SoqIXVkZsUGhfofi"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Combat Knife",
+      "localizedNames": {
+        "fr": "Couteau de combat"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "6xbkky55saFOXZSk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 1,
+        "cost": 25,
+        "rarity": 1,
+        "acceptedModIds": [
+          "7hxh0xRNMyflfbJp",
+          "VvTZfUz7HZMu3eAq"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Deathclaw Gauntlet",
+      "localizedNames": {
+        "fr": "Gantelet d’écorcheur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "VBDdPeRHrRcaZhGn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 10,
+        "cost": 75,
+        "rarity": 3,
+        "acceptedModIds": [
+          "VxocOrbl9H7nkXfx"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Gun Bash (1H)",
+      "localizedNames": {
+        "fr": "Coup de crosse (1 main)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "tWhlezJ5cgDZ7SQO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 2,
+        "damageEffects": [
+          "stun"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": null,
+        "cost": 0,
+        "rarity": 0,
+        "acceptedModIds": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Gun Bash",
+      "localizedNames": {
+        "fr": "Coup de crosse"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "pSshPAISbTrdooAk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "stun"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": null,
+        "cost": 0,
+        "rarity": 0,
+        "acceptedModIds": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Handy Rock",
+      "localizedNames": {
+        "fr": "Pierre"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "OF1614SY9gYdGnjI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 2,
+        "damageEffects": [
+          "vicious"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "thrown"
+        ],
+        "weightLb": 1,
+        "cost": 0,
+        "rarity": 0,
+        "acceptedModIds": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Knuckles",
+      "localizedNames": {
+        "fr": "Poing américain"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "yB39echbNG7KpWny",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "concealed"
+        ],
+        "weightLb": 0.5,
+        "cost": 10,
+        "rarity": 1,
+        "acceptedModIds": [
+          "7OZouPhriL9tzrOD",
+          "brS0allrFP0vQ5Ac",
+          "eakJcz2neDjGIWWP",
+          "fTMm3IipqcnU6tm4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Lead Pipe",
+      "localizedNames": {
+        "fr": "Tuyau de plomb"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "Xq6k6PuQQbneO6w0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 3,
+        "cost": 15,
+        "rarity": 0,
+        "acceptedModIds": [
+          "VJOrfCwfPhDnMP18",
+          "e1ycQYWvjDktlxvu"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Machete",
+      "localizedNames": {
+        "fr": "Machette"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "uGNGa0KBcJq3YFvc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 2,
+        "cost": 25,
+        "rarity": 1,
+        "acceptedModIds": [
+          "GFJP4TRDRaOQoOe8"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Pipe Wrench",
+      "localizedNames": {
+        "fr": "Clé serre-tube"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "ehsLCAMtk39LFHVa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 2,
+        "cost": 30,
+        "rarity": 1,
+        "acceptedModIds": [
+          "AS0Amn04UTnwJOgG",
+          "D8hF1RjpOMVHjlHp",
+          "Fa2RBTtGci73smRF",
+          "J4QJRw5GkCdMirdr"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Pool Cue",
+      "localizedNames": {
+        "fr": "Queue de billard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "7lXJbtwhMJwqp40D",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "two_handed"
+        ],
+        "weightLb": 1,
+        "cost": 10,
+        "rarity": 0,
+        "acceptedModIds": [
+          "EuJw4xP1fRt5hdCy",
+          "iqpxSXwVu0d13y7j"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Power Fist",
+      "localizedNames": {
+        "fr": "Poing assisté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "aIMdoy67zhbaYcQG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "stun"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 4,
+        "cost": 100,
+        "rarity": 2,
+        "acceptedModIds": [
+          "LANB6wzhO8pIEsxK",
+          "MvrQv0wg5FE6j7TR"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Ripper",
+      "localizedNames": {
+        "fr": "Éventreur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "EktSYEw86GEcqHeE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "vicious"
+        ],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 6,
+        "cost": 50,
+        "rarity": 2,
+        "acceptedModIds": [
+          "TQN26Hjy3pxpkrzT",
+          "bIT0zIivG6SUyyne"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Rolling Pin",
+      "localizedNames": {
+        "fr": "Rouleau à pâtisserie"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "66p1lQmwPXZINPKn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 1,
+        "cost": 10,
+        "rarity": 0,
+        "acceptedModIds": [
+          "CFl42Fhuv4nToKcP",
+          "M2Tl0fVG6LzG9wtj"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Shishkebab",
+      "localizedNames": {
+        "fr": "Flambeur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "8RVrftHzFootwBD5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "energy",
+        "qualities": [
+          "parry"
+        ],
+        "weightLb": 3,
+        "cost": 200,
+        "rarity": 3,
+        "acceptedModIds": [
+          "d00JoA8hC0XcVnlc"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Sledgehammer",
+      "localizedNames": {
+        "fr": "Masse"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "yrLghAxk6uynbFaq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "two_handed"
+        ],
+        "weightLb": 12,
+        "cost": 40,
+        "rarity": 2,
+        "acceptedModIds": [
+          "ol8d48kNa9veV1kv",
+          "wQSPWsdrMfYqPAMO"
+        ],
+        "errata": "September 2022: Sledgehammer gains Two-Handed; the printed FR table also omits this quality."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Super Sledge",
+      "localizedNames": {
+        "fr": "Super masse"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "ADp33L4FN7QcbCJy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [
+          "breaking"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "two_handed"
+        ],
+        "weightLb": 20,
+        "cost": 180,
+        "rarity": 3,
+        "acceptedModIds": [
+          "S8t6WX5aWZl3rXqT",
+          "hVD46UqAqiNB4f57"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Switchblade",
+      "localizedNames": {
+        "fr": "Cran d’arrêt"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "ijD12AylGdTDshsy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 2,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "concealed"
+        ],
+        "weightLb": 1,
+        "cost": 20,
+        "rarity": 0,
+        "acceptedModIds": [
+          "uUiwz6PvOMdkU6yE"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Sword",
+      "localizedNames": {
+        "fr": "Épée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "M9xO5ZKoGsqbPxWr",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "parry"
+        ],
+        "weightLb": 3,
+        "cost": 50,
+        "rarity": 2,
+        "acceptedModIds": [
+          "2bv9B55Mk73ypTCZ",
+          "DzJyQzGFhcMKPyRG",
+          "vd2lBLBAJXhwijay",
+          "vq6OcwFKhScFr26X"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Tire Iron",
+      "localizedNames": {
+        "fr": "Démonte-pneu"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "Pdmfy50DEM5oB9js",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 2,
+        "cost": 25,
+        "rarity": 1,
+        "acceptedModIds": [
+          "xBtUynQ88d6dGQgL"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Unarmed Strike",
+      "localizedNames": {
+        "fr": "Attaque à mains nues"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "QuYxQccl5EHdXTcT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 2,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": null,
+        "cost": 0,
+        "rarity": 0,
+        "acceptedModIds": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "weapon",
+      "sourceName": "Walking Cane",
+      "localizedNames": {
+        "fr": "Canne"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable melee or unarmed weapon Item defined by the Core p.111 table.",
+      "pack": "weapons",
+      "documentId": "1bgEBl5eFgkcDxmL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          111
+        ],
+        "fr": [
+          111
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [],
+        "weightLb": 2,
+        "cost": 10,
+        "rarity": 0,
+        "acceptedModIds": [
+          "aKnqi2PPZyD6qLGe",
+          "bIxeUpjoKTniv7P7"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "weapon_mod",
+      "sourceName": "Serrated Blade",
+      "localizedNames": {
+        "fr": "Lame dentelée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "7hxh0xRNMyflfbJp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          112
+        ],
+        "fr": [
+          113
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 12,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "weapon_mod",
+      "sourceName": "Stealth Blade",
+      "localizedNames": {
+        "fr": "Lame furtive"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "VvTZfUz7HZMu3eAq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          112
+        ],
+        "fr": [
+          113
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 18,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "weapon_mod",
+      "sourceName": "Serrated Blade",
+      "localizedNames": {
+        "fr": "Lame dentelée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "vq6OcwFKhScFr26X",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          112
+        ],
+        "fr": [
+          112
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 25,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "weapon_mod",
+      "sourceName": "Electrified Blade",
+      "localizedNames": {
+        "fr": "Lame électrifiée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "vd2lBLBAJXhwijay",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          112
+        ],
+        "fr": [
+          112
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 50,
+        "perks": [
+          "Blacksmith 2",
+          "Science! 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "weapon_mod",
+      "sourceName": "Electrified Serrated Blade",
+      "localizedNames": {
+        "fr": "Lame dentelée électrifiée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "DzJyQzGFhcMKPyRG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          112
+        ],
+        "fr": [
+          112
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 75,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "weapon_mod",
+      "sourceName": "Stun Pack",
+      "localizedNames": {
+        "fr": "Module d’étourdissement"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "2bv9B55Mk73ypTCZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          112
+        ],
+        "fr": [
+          112
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 100,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 113,
+      "type": "weapon_mod",
+      "sourceName": "Serrated Blade",
+      "localizedNames": {
+        "fr": "Lame dentelée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "GFJP4TRDRaOQoOe8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          113
+        ],
+        "fr": [
+          113
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 12,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 113,
+      "type": "weapon_mod",
+      "sourceName": "Curved Blade",
+      "localizedNames": {
+        "fr": "Lame courbe"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "TQN26Hjy3pxpkrzT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          113
+        ],
+        "fr": [
+          113
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 15,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 113,
+      "type": "weapon_mod",
+      "sourceName": "Extended Blade",
+      "localizedNames": {
+        "fr": "Lame allongée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "bIT0zIivG6SUyyne",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          113
+        ],
+        "fr": [
+          113
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 3.0,
+        "cost": 25,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 113,
+      "type": "weapon_mod",
+      "sourceName": "Extra Flame Jets",
+      "localizedNames": {
+        "fr": "Jets de flammes supplémentaires"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "d00JoA8hC0XcVnlc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          113
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 100,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Serrated Blade",
+      "localizedNames": {
+        "fr": "Lame dentelée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "uUiwz6PvOMdkU6yE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 10,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Barbed",
+      "localizedNames": {
+        "fr": "Barbelé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "SBiPJoDN1jWmENgs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 1,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons",
+        "errata": "Errata V6: Barbed gives only Piercing 1 and costs +1."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "BX0Ox0ZdWJBDNsVl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 7,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Sharp",
+      "localizedNames": {
+        "fr": "Affûté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "hfiueRXOH8ryrfrv",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 7,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Chain-Wrapped",
+      "localizedNames": {
+        "fr": "À chaînes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "yK9zc6hPHk1IRq01",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 10,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Bladed",
+      "localizedNames": {
+        "fr": "À lames"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "4hbEFa5bvVFUlMBO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 2.0,
+        "cost": 12,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Barbed",
+      "localizedNames": {
+        "fr": "Barbelé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "Sem0JhmbNdppKdJW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 1,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons",
+        "errata": "Errata V6: Barbed gives only Piercing 1 and costs +1."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "5rADQbFyMO7zjDSi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 7,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Sharp",
+      "localizedNames": {
+        "fr": "Aiguisé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "uaOXQJwoub6ZmUdc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 7,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Chain-Wrapped",
+      "localizedNames": {
+        "fr": "À chaînes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "dgUAFqVrT3FPOVUf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 10,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Bladed",
+      "localizedNames": {
+        "fr": "À lames"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "HuhiTQsXyRgw5tZS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 2.0,
+        "cost": 12,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "frKj2bS1FVy8Ny3O",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 6,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Puncturing",
+      "localizedNames": {
+        "fr": "Perforant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "49zfOfotginM01u8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 9,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "weapon_mod",
+      "sourceName": "Bladed",
+      "localizedNames": {
+        "fr": "À lames"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "uOWSNksbDqlUOhJN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          114
+        ],
+        "fr": [
+          114
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 2.0,
+        "cost": 10,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "e1ycQYWvjDktlxvu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 4,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Heavy",
+      "localizedNames": {
+        "fr": "Lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "VJOrfCwfPhDnMP18",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 2.0,
+        "cost": 11,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Hooked",
+      "localizedNames": {
+        "fr": "À crochets"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "AS0Amn04UTnwJOgG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 9,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Heavy",
+      "localizedNames": {
+        "fr": "Lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "D8hF1RjpOMVHjlHp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 7.0,
+        "cost": 12,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Puncturing",
+      "localizedNames": {
+        "fr": "Perforant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "Fa2RBTtGci73smRF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 13,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Extra Heavy",
+      "localizedNames": {
+        "fr": "Extralourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "J4QJRw5GkCdMirdr",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 2.0,
+        "cost": 22,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Barbed",
+      "localizedNames": {
+        "fr": "Barbelé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "iqpxSXwVu0d13y7j",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 2,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "weapon_mod",
+      "sourceName": "Sharp",
+      "localizedNames": {
+        "fr": "Affûté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "EuJw4xP1fRt5hdCy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          115
+        ],
+        "fr": [
+          115
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "CFl42Fhuv4nToKcP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          116
+        ],
+        "fr": [
+          116
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "weapon_mod",
+      "sourceName": "Sharp",
+      "localizedNames": {
+        "fr": "Affûté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "M2Tl0fVG6LzG9wtj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          116
+        ],
+        "fr": [
+          116
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "weapon_mod",
+      "sourceName": "Electrified",
+      "localizedNames": {
+        "fr": "Électrifié"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "t2DeDQRZXpZyN9ux",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          116
+        ],
+        "fr": [
+          116
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 15,
+        "perks": [
+          "Blacksmith 2",
+          "Science! 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "weapon_mod",
+      "sourceName": "Stun Pack",
+      "localizedNames": {
+        "fr": "Module d’étourdissement"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "G6FJ1gEgiS2553IN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          116
+        ],
+        "fr": [
+          116
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 30,
+        "perks": [
+          "Blacksmith 2",
+          "Science! 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "weapon_mod",
+      "sourceName": "Puncturing",
+      "localizedNames": {
+        "fr": "Perforant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "ol8d48kNa9veV1kv",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          116
+        ],
+        "fr": [
+          116
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 5.0,
+        "cost": 18,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "weapon_mod",
+      "sourceName": "Heavy",
+      "localizedNames": {
+        "fr": "Lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "wQSPWsdrMfYqPAMO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          116
+        ],
+        "fr": [
+          116
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 9.0,
+        "cost": 30,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 117,
+      "type": "weapon_mod",
+      "sourceName": "Heating Coil",
+      "localizedNames": {
+        "fr": "Bobine thermique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "hVD46UqAqiNB4f57",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          117
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 180,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 117,
+      "type": "weapon_mod",
+      "sourceName": "Stun Pack",
+      "localizedNames": {
+        "fr": "Module d’étourdissement"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "S8t6WX5aWZl3rXqT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          117
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 360,
+        "perks": [
+          "Blacksmith 3",
+          "Science! 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 117,
+      "type": "weapon_mod",
+      "sourceName": "Bladed",
+      "localizedNames": {
+        "fr": "À lames"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "xBtUynQ88d6dGQgL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          117
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 12,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 117,
+      "type": "weapon_mod",
+      "sourceName": "Barbed",
+      "localizedNames": {
+        "fr": "Barbelé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "bIxeUpjoKTniv7P7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          117
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 117,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "aKnqi2PPZyD6qLGe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          117
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "CMVHMX7fGVSi9SzJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Puncturing",
+      "localizedNames": {
+        "fr": "Perforant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "SoqIXVkZsUGhfofi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 4,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Lead Lining",
+      "localizedNames": {
+        "fr": "Revêtement en plomb"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "0RvRMyyemOK3vkOl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          117
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 1.0,
+        "cost": 7,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Extra Claw",
+      "localizedNames": {
+        "fr": "Griffe supplémentaire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "VxocOrbl9H7nkXfx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 2.0,
+        "cost": 22,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Sharp",
+      "localizedNames": {
+        "fr": "Affûté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "fTMm3IipqcnU6tm4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Spiked",
+      "localizedNames": {
+        "fr": "À pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "eakJcz2neDjGIWWP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Puncturing",
+      "localizedNames": {
+        "fr": "Perforant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "7OZouPhriL9tzrOD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 4,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "weapon_mod",
+      "sourceName": "Bladed",
+      "localizedNames": {
+        "fr": "À lames"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable weapon-specific melee mod defined in the Core pp.112–118 tables.",
+      "pack": "weapon-mods",
+      "documentId": "brS0allrFP0vQ5Ac",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          118
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": 0.0,
+        "cost": 5,
+        "perks": [
+          "Blacksmith 1"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "unarmed"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 111,
+      "type": "rules_or_profile_section",
+      "sourceName": "Melee Weapons table",
+      "scope": "out_of_scope",
+      "justification": "Static source control inventoried into individual weapon identities.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "rules_or_profile_section",
+      "sourceName": "Melee Mods rules",
+      "scope": "out_of_scope",
+      "justification": "General modification procedure; no standalone reusable document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "rules_or_profile_section",
+      "sourceName": "Melee Weapons Complications",
+      "scope": "out_of_scope",
+      "justification": "Static suggested-complications list; no random RollTable procedure.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 112,
+      "type": "rules_or_profile_section",
+      "sourceName": "Sword and Combat Knife profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 113,
+      "type": "rules_or_profile_section",
+      "sourceName": "Machete, Ripper and Shishkebab profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 114,
+      "type": "rules_or_profile_section",
+      "sourceName": "Switchblade, Baseball Bat and Board profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 115,
+      "type": "rules_or_profile_section",
+      "sourceName": "Lead Pipe, Pipe Wrench and Pool Cue profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 116,
+      "type": "rules_or_profile_section",
+      "sourceName": "Rolling Pin, Baton and Sledgehammer profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 117,
+      "type": "rules_or_profile_section",
+      "sourceName": "Super Sledge, Tire Iron and Walking Cane profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 118,
+      "type": "rules_or_profile_section",
+      "sourceName": "Boxing Glove, Deathclaw Gauntlet and Knuckles profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
     }
   ]
 }

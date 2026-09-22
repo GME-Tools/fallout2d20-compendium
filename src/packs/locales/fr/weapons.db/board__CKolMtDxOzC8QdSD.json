@@ -6,11 +6,11 @@
     "/system/description": "<p>Une simple longue planche de bois avec une poignée enveloppée de scotch adhésif. Les planches sont des armes de corps à corps lourdes, généralement appréciées par les super mutants qui ont assez de force pour les manier efficacement. Une planche peut accepter l’un des mods suivants, lesquels s’installent avec la compétence Réparation:</p>",
     "/system/weight": 1.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/page": 111,
     "/flags/fallout2d20-compendium/source/translatedFrom": "CKolMtDxOzC8QdSD",
     "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
-    "/flags/fallout2d20-compendium/source/translationReviewed": false,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
     "/name": "Planche"
   }

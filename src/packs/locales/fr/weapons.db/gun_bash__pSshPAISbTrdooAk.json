@@ -4,11 +4,11 @@
   "values": {
     "/system/description": "<p>Attaque de corps à corps portée avec une arme à distance à Deux mains.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/page": 111,
     "/flags/fallout2d20-compendium/source/translatedFrom": "pSshPAISbTrdooAk",
     "/flags/fallout2d20-compendium/source/extraction": "derived",
-    "/flags/fallout2d20-compendium/source/translationReviewed": false,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/name": "Coup de crosse"
   }
 }
