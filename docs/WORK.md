@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–83, through printed/source page 81.
-- FR PDF physical pages 1–84, through printed/source page 81.
+- EN PDF physical pages 1–89, through printed/source page 87.
+- FR PDF physical pages 1–90, through printed/source page 87.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
   (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
@@ -144,13 +144,23 @@ Current completed boundary:
   plus 6 +3 CD .308 rounds. The printed FR Trader package says “Deux brahmines”,
   but canonical EN grants one pack brahmin; the source-localization discrepancy is
   recorded and the canonical quantity is one.
+- Source pp.82–83 are closing artwork and the Chapter Four divider and are explicitly
+  out of scope. Source pp.84–87 (Obtaining Equipment through Modifying Equipment)
+  contain general transaction, rarity, encumbrance and modification procedures rather
+  than standalone reusable documents; each subsection is now explicitly catalogued.
+- The p.85 Availability rule is canonicalized to LCK from EN; the official FR page
+  prints CHA, which is recorded as a localization discrepancy. The p.87 Q3 2026
+  erratum is applied so armor's second mod slot is a unique mod rather than the
+  printed EN utility mod. The Modified Equipment Names continuation at p.88 was read
+  only to close the p.87 subsection; p.88 itself is not yet page-certified.
 
 ## Next lot
 
-Continue page-by-page from printed/source page 82. Finish the Chapter Three tail
-before entering Chapter Four: Equipment at source p.84. Treat any intervening
-artwork/general rules explicitly, then begin source-driven equipment certification
-from the book definitions rather than from existing pack or catalog contents.
+Continue page-by-page at printed/source p.88, beginning Weapons, Ammunition, and
+Weapon Mods. The top-of-page continuation of Modified Equipment Names was already
+read only to close the p.87 subsection; do not treat any other p.88 content as
+certified yet. Build the expected weapon-rule/table inventory from the PDFs before
+comparing repository data.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -169,7 +179,7 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
+It now also checks explicit source classification and canonical rule notes through p.87, including the EN LCK/FR CHA Availability discrepancy and the Q3 2026 unique-mod erratum. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,

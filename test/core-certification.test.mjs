@@ -867,3 +867,74 @@ test("Core Personal Trinket recovery rule is explicitly accounted for", () => {
   assert.match(rule.certification.mechanic, /once per quest outside combat/);
   assert.match(rule.certification.mechanic, /regain 1 Luck Point/);
 });
+
+test("Core transition and equipment rules pp.82-87 are explicitly classified out of compendium scope", () => {
+  const expected = [
+    [82, "Character Creation closing artwork"],
+    [83, "Chapter Four: Equipment divider"],
+    [84, "Obtaining Equipment"],
+    [84, "Caps"],
+    [84, "Other Currency"],
+    [85, "Availability and Rarity"],
+    [85, "Selling"],
+    [85, "Haggling"],
+    [85, "Bulk Buy!"],
+    [86, "Barter"],
+    [86, "Finding Equipment in the Wasteland"],
+    [87, "Encumbrance"],
+    [87, "Modifying Equipment"],
+    [87, "Modified Equipment Names"]
+  ];
+  for (const [page, name] of expected) {
+    const entry = catalog.entries.find(candidate => candidate.page === page && candidate.sourceName === name);
+    assert.ok(entry, name + " source classification missing");
+    assert.equal(entry.scope, "out_of_scope");
+    assert.equal(entry.status, "out_of_scope");
+    assert.ok(entry.justification);
+  }
+
+  const art = catalog.entries.find(entry => entry.sourceName === "Character Creation closing artwork");
+  assert.deepEqual(art.sourcePages, { en: [82], fr: [82] });
+
+  const divider = catalog.entries.find(entry => entry.sourceName === "Chapter Four: Equipment divider");
+  assert.deepEqual(divider.sourcePages, { en: [83], fr: [83] });
+
+  const otherCurrency = catalog.entries.find(entry => entry.sourceName === "Other Currency");
+  assert.deepEqual(otherCurrency.sourcePages, { en: [84, 85], fr: [84, 85] });
+  assert.equal(otherCurrency.certification.continuationReviewed, true);
+
+  const modifiedNames = catalog.entries.find(entry => entry.sourceName === "Modified Equipment Names");
+  assert.deepEqual(modifiedNames.sourcePages, { en: [87, 88], fr: [87, 88] });
+  assert.equal(modifiedNames.certification.continuationReviewed, true);
+  assert.match(modifiedNames.certification.note, /does not certify the rest of p\.88/);
+});
+
+test("Core equipment acquisition rules retain EN canonical mechanics over FR source discrepancies", () => {
+  const availability = catalog.entries.find(entry => entry.sourceName === "Availability and Rarity");
+  assert.match(availability.certification.mechanic, /CD equal to LCK/);
+  assert.match(availability.certification.localizationNote, /FR page prints CHA/);
+  assert.doesNotMatch(availability.certification.mechanic, /equal to CHA/);
+
+  const selling = catalog.entries.find(entry => entry.sourceName === "Selling");
+  assert.match(selling.certification.mechanic, /one quarter/);
+  assert.match(selling.certification.mechanic, /rounded down/);
+
+  const haggling = catalog.entries.find(entry => entry.sourceName === "Haggling");
+  assert.match(haggling.certification.mechanic, /opposed CHA \+ Barter/);
+  assert.match(haggling.certification.mechanic, /Success improves the price by 10%/);
+  assert.match(haggling.certification.mechanic, /success plus 2 AP improves it by 20%/);
+
+  const barter = catalog.entries.find(entry => entry.sourceName === "Barter");
+  assert.match(barter.certification.mechanic, /subtract the lower total value from the higher/);
+});
+
+test("Core p.87 modification procedure applies the Q3 2026 unique-mod erratum", () => {
+  const modifying = catalog.entries.find(entry => entry.sourceName === "Modifying Equipment");
+  assert.deepEqual(modifying.sourcePages, { en: [87], fr: [87] });
+  assert.deepEqual(modifying.certification.canonicalArmorModSlots, ["material mod", "unique mod"]);
+  assert.match(modifying.certification.errataApplied.join("\n"), /Q3 2026/);
+  assert.match(modifying.certification.errataApplied.join("\n"), /utility mod/);
+  assert.match(modifying.certification.installRule, /Difficulty 1 INT/);
+  assert.match(modifying.certification.installRule, /Spend 2 AP/);
+  assert.match(modifying.certification.localizationNote, /mod de fonctionnalité/);
+});

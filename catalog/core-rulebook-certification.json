@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 83,
-      "sourcePage": 81
+      "pdfPage": 89,
+      "sourcePage": 87
     },
     "fr": {
-      "pdfPage": 84,
-      "sourcePage": 81
+      "pdfPage": 90,
+      "sourcePage": 87
     }
   },
   "pageReviews": [
@@ -1351,6 +1351,102 @@
       "sourcePage": 81,
       "section": "Chapter Three — Création de personnage",
       "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 84,
+      "sourcePage": 82,
+      "section": "Chapter Three / Chapter Four transition",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 85,
+      "sourcePage": 83,
+      "section": "Chapter Three / Chapter Four transition",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 86,
+      "sourcePage": 84,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 87,
+      "sourcePage": 85,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 88,
+      "sourcePage": 86,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 89,
+      "sourcePage": 87,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 85,
+      "sourcePage": 82,
+      "section": "Chapter Three / Chapter Four transition",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 86,
+      "sourcePage": 83,
+      "section": "Chapter Three / Chapter Four transition",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 87,
+      "sourcePage": 84,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 88,
+      "sourcePage": 85,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 89,
+      "sourcePage": 86,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 90,
+      "sourcePage": 87,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
       "status": "verified"
     }
   ],
@@ -7015,6 +7111,387 @@
             "maxRarity": "Any"
           }
         ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 82,
+      "type": "page",
+      "sourceName": "Character Creation closing artwork",
+      "localizedNames": {
+        "fr": "Illustration de fin de création de personnage"
+      },
+      "scope": "out_of_scope",
+      "justification": "Full-page artwork with no reusable structured rules content.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          82
+        ],
+        "fr": [
+          82
+        ]
+      },
+      "certification": {}
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 83,
+      "type": "page",
+      "sourceName": "Chapter Four: Equipment divider",
+      "localizedNames": {
+        "fr": "Chapitre quatre : Équipement"
+      },
+      "scope": "out_of_scope",
+      "justification": "Chapter divider and contents page with no standalone reusable rules document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          83
+        ],
+        "fr": [
+          83
+        ]
+      },
+      "certification": {
+        "sectionIndexReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 84,
+      "type": "rule_text",
+      "sourceName": "Obtaining Equipment",
+      "localizedNames": {
+        "fr": "Obtenir de l’équipement"
+      },
+      "scope": "out_of_scope",
+      "justification": "General equipment-acquisition rules prose, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          84
+        ],
+        "fr": [
+          84
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 84,
+      "type": "rule_text",
+      "sourceName": "Caps",
+      "localizedNames": {
+        "fr": "Capsules"
+      },
+      "scope": "out_of_scope",
+      "justification": "General currency rules and setting prose; caps are a numeric currency component rather than a standalone compendium Item.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          84
+        ],
+        "fr": [
+          84
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "note": "Prices and monetary rewards are denominated in caps unless otherwise stated."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 84,
+      "type": "rule_text",
+      "sourceName": "Other Currency",
+      "localizedNames": {
+        "fr": "Autres devises"
+      },
+      "scope": "out_of_scope",
+      "justification": "General setting and transaction guidance for alternate currencies, not standalone reusable compendium documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          84,
+          85
+        ],
+        "fr": [
+          84,
+          85
+        ]
+      },
+      "certification": {
+        "continuationReviewed": true,
+        "categories": [
+          "Pre-War money",
+          "Gold",
+          "New money",
+          "Scrip"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 85,
+      "type": "rule_text",
+      "sourceName": "Availability and Rarity",
+      "localizedNames": {
+        "fr": "Disponibilité et rareté"
+      },
+      "scope": "out_of_scope",
+      "justification": "General shopping procedure and rarity rules, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          85
+        ],
+        "fr": [
+          85
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "Items have a Rarity rating normally from 0 to 5. For an Availability roll, roll a number of CD equal to LCK; the number of Effects rolled is the maximum Rarity available.",
+        "localizationNote": "The official FR page prints CHA for the Availability roll. Canonical EN uses LCK, so LCK is the certified mechanic."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 85,
+      "type": "rule_text",
+      "sourceName": "Selling",
+      "localizedNames": {
+        "fr": "Vente"
+      },
+      "scope": "out_of_scope",
+      "justification": "General transaction procedure, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          85
+        ],
+        "fr": [
+          85
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "A sold item yields one quarter of its value, rounded down, before haggling adjustments; traders also have a finite supply of caps."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 85,
+      "type": "rule_text",
+      "sourceName": "Haggling",
+      "localizedNames": {
+        "fr": "Marchandage"
+      },
+      "scope": "out_of_scope",
+      "justification": "General opposed-test transaction procedure, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          85
+        ],
+        "fr": [
+          85
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "Make an opposed CHA + Barter test. Success improves the price by 10%; success plus 2 AP improves it by 20%. Failure leaves the price unchanged unless the opponent spends 2 AP, which makes it 10% less favorable."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 85,
+      "type": "sidebar",
+      "sourceName": "Bulk Buy!",
+      "localizedNames": {
+        "fr": "Les prix de gros"
+      },
+      "scope": "out_of_scope",
+      "justification": "Transaction example/sidebar guidance, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          85
+        ],
+        "fr": [
+          86
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "Aggregate all items bought or sold to one trader and make one haggling roll for the whole transaction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 86,
+      "type": "rule_text",
+      "sourceName": "Barter",
+      "localizedNames": {
+        "fr": "Troc"
+      },
+      "scope": "out_of_scope",
+      "justification": "General transaction procedure, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          86
+        ],
+        "fr": [
+          86
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "When buying and selling in the same transaction, subtract the lower total value from the higher, then optionally haggle the final price."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 86,
+      "type": "rule_text",
+      "sourceName": "Finding Equipment in the Wasteland",
+      "localizedNames": {
+        "fr": "Trouver de l’équipement dans les Terres désolées"
+      },
+      "scope": "out_of_scope",
+      "justification": "General cross-reference to later looting and scavenging rules, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          86
+        ],
+        "fr": [
+          86
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "crossReference": {
+          "section": "Looting and Scavenging",
+          "page": 195
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 87,
+      "type": "rule_text",
+      "sourceName": "Encumbrance",
+      "localizedNames": {
+        "fr": "Encombrement"
+      },
+      "scope": "out_of_scope",
+      "justification": "General carry-weight procedure, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          87
+        ],
+        "fr": [
+          87
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "Above Carry Weight: STR/AGI test difficulty +1, no Sprint, Initiative -1. Each additional 50 lbs. above Carry Weight increases those penalties by 1. At twice Carry Weight: cannot move, automatically fail STR/AGI tests, Initiative 0.",
+        "localizationNote": "Official FR converts each 50 lb. increment to 25 kg, consistent with the project conversion convention."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 87,
+      "type": "rule_text",
+      "sourceName": "Modifying Equipment",
+      "localizedNames": {
+        "fr": "Modifier de l’équipement"
+      },
+      "scope": "out_of_scope",
+      "justification": "General modification procedure and slot rules, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          87
+        ],
+        "fr": [
+          87
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "errataApplied": [
+          "p.87 Q3 2026: armor accepts a material mod and a unique mod; the printed EN “utility mod” wording is superseded."
+        ],
+        "canonicalArmorModSlots": [
+          "material mod",
+          "unique mod"
+        ],
+        "installRule": "Difficulty 1 INT + the skill listed in the mod description; one hour. Spend 2 AP on success to halve the time. On failure, roll 1 CD; an Effect damages the mod and it cannot be used.",
+        "localizationNote": "The official FR page uses “mod de fonctionnalité” for the second armor mod category; the canonical EN + Errata category is unique mod."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 87,
+      "type": "rule_text",
+      "sourceName": "Modified Equipment Names",
+      "localizedNames": {
+        "fr": "Noms de l’équipement modifié"
+      },
+      "scope": "out_of_scope",
+      "justification": "General naming guidance for modded equipment, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          87,
+          88
+        ],
+        "fr": [
+          87,
+          88
+        ]
+      },
+      "certification": {
+        "continuationReviewed": true,
+        "note": "The subsection continues onto source p.88; that continuation was read solely to close the p.87 subsection and does not certify the rest of p.88."
       }
     }
   ]
