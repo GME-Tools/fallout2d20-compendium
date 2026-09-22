@@ -30,11 +30,11 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–77, through printed/source page 75.
-- FR PDF physical pages 1–78, through printed/source page 75.
+- EN PDF physical pages 1–83, through printed/source page 81.
+- FR PDF physical pages 1–84, through printed/source page 81.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
-  Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 3
-  (source pp.42–58), and Step 4 / the complete Core perk catalogue through source p.73.
+  Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
+  (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
@@ -130,15 +130,27 @@ Current completed boundary:
   official FR p.74 prints first-level HP as END + CHA while canonical EN uses
   END + LCK. This localization discrepancy is recorded in the certification
   catalogue rather than silently treated as canonical mechanics.
+- Step 6 source pp.76–81 is now source-inventoried package by package. The 16
+  origin equipment bundles are character-build loadouts rather than standalone
+  reusable Foundry documents, so they are explicitly out of compendium scope while
+  their complete canonical contents, options, quantities and referenced document
+  identities are retained in the certification catalogue.
+- Random Trinkets / Babioles aléatoires is a genuine reusable RollTable and is
+  certified exactly in both languages at p.80. Personal-trinket Luck recovery,
+  the complete 17-row Tag Skill Items mapping, and the higher-level starting-equipment
+  table are explicitly source-inventoried as out-of-scope character-build rules.
+- Step 6 applies the current errata: Mister Farmhand fertilizer is 1 uncommon
+  material; Super Mutant Skirmisher uses a Pipe Gun with Long Barrel and Full Stock
+  plus 6 +3 CD .308 rounds. The printed FR Trader package says “Deux brahmines”,
+  but canonical EN grants one pack brahmin; the source-localization discrepancy is
+  recorded and the canonical quantity is one.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 76. The next
-editorial lot is Step 6: Choose Equipment. Audit each origin equipment pack from the
-PDF source, apply the p.77 Mister Farmerhand and p.78 Super Mutant Skirmisher errata,
-then compare the structured equipment identities/quantities in the repository.
-Continue through reasonable page sub-lots; do not infer completeness from existing
-character-creation catalogs or tests.
+Continue page-by-page from printed/source page 82. Finish the Chapter Three tail
+before entering Chapter Four: Equipment at source p.84. Treat any intervening
+artwork/general rules explicitly, then begin source-driven equipment certification
+from the book definitions rather than from existing pack or catalog contents.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -157,7 +169,7 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks the certified perk identities through source p.64 plus targeted
+It now also checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,

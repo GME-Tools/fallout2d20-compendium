@@ -648,3 +648,222 @@ test("Step 5 derived statistics is explicitly out of compendium scope", () => {
   assert.equal(artwork.scope, "out_of_scope");
 });
 
+test("Core Step 6 equipment packages are source-complete and apply current errata", () => {
+  const expected = new Map([
+    ["Brotherhood of Steel Initiate", { page: 76, fr: [76], contents: [
+      "Brotherhood fatigues and Brotherhood hood",
+      "Combat knife",
+      "Laser pistol and a fusion cell containing 10 +5 CD shots, or a 10mm pistol with 10 +5 CD rounds of 10mm ammunition",
+      "Brotherhood holotags containing identifying information"
+    ] }],
+    ["Brotherhood of Steel Scribe", { page: 76, fr: [76], contents: [
+      "Brotherhood Field Scribe’s armor and Brotherhood Scribe’s hat",
+      "Combat knife",
+      "Laser pistol and a fusion cell containing 6 +3 CD shots, or a 10mm pistol with 6 +3 CD rounds of 10mm ammunition",
+      "Brotherhood holotags containing identifying information"
+    ] }],
+    ["Miss Nanny", { page: 77, fr: [76, 77], contents: [
+      "One pincer arm attachment, one flamer arm attachment, and one arm attachment of your choice",
+      "Standard plating", "Behavioral analysis mod", "Hazard detection mod", "10 caps"
+    ] }],
+    ["Mister Farmhand", { page: 77, fr: [77], contents: [
+      "One pincer arm attachment, one buzz-saw arm attachment, and one laser emitter arm attachment",
+      "Standard plating", "One bag of fertilizer (1 uncommon material)", "2 mutfruits", "25 caps"
+    ] }],
+    ["Mister Gutsy", { page: 77, fr: [77], contents: [
+      "One 10mm auto pistol arm, one buzz-saw arm attachment, and one laser emitter arm attachment",
+      "Mister Gutsy plating", "Recon sensors mod", "10 caps"
+    ] }],
+    ["Mister Handy", { page: 77, fr: [77], contents: [
+      "One pincer arm attachment, one flamer arm attachment, and one buzz-saw arm attachment",
+      "Standard plating", "Robot repair kit", "Integral boiler mod", "10 caps"
+    ] }],
+    ["Nurse Handy", { page: 77, fr: [77], contents: [
+      "One pincer arm or buzz-saw arm attachment, one buzz-saw arm attachment, and one attachment of your choice",
+      "Standard plating", "Stimpak", "Diagnosis mod", "10 caps"
+    ] }],
+    ["Brute", { page: 78, fr: [78], contents: [
+      "Raider armor torso and either one leg or one arm",
+      "Pipe rifle (pipe gun) with 6 +3 CD rounds of .38 ammunition",
+      "Baseball bat or machete", "One personal trinket", "5 caps"
+    ] }],
+    ["Skirmisher", { page: 78, fr: [77], contents: [
+      "Raider armor torso and either one leg or one arm",
+      "Pipe rifle (pipe gun with long barrel and full stock mods), with 6 +3 CD rounds of .308 ammunition",
+      "Board", "One personal trinket", "5 caps"
+    ] }],
+    ["Vault-Tec Resident", { page: 78, fr: [78], contents: [
+      "Vault jumpsuit", "Vault-Tec branded canteen containing 1 purified water", "Pip-Boy", "Switchblade",
+      "10mm pistol with 6 +3 CD rounds of 10mm ammunition", "2 Stimpaks", "10 caps"
+    ] }],
+    ["Vault-Tec Security", { page: 78, fr: [78], contents: [
+      "Vault jumpsuit", "Vault-Tec Security armor and Vault-Tec Security helmet", "Vault-Tec branded canteen containing 1 purified water",
+      "Pip-Boy", "Baton", "10mm pistol with 8 +4 CD rounds of 10mm ammunition", "1 Stimpak"
+    ] }],
+    ["Mercenary", { page: 79, fr: [79], contents: [
+      "Tough clothing", "A leather armor chest piece, or a leather armor arm and a leather armor leg",
+      "Machete, baseball bat, or tire iron", "10mm automatic pistol, .44 pistol, hunting rifle, or bolt-action pipe gun",
+      "10 +5 CD rounds of ammunition for the chosen ranged weapon",
+      "A note advertising a job in a nearby settlement that offers to pay 50 caps", "15 caps"
+    ] }],
+    ["Raider", { page: 79, fr: [79], contents: [
+      "Harness", "Raider armor chest piece and raider armor for one arm", "Lead pipe, pool cue, or tire iron",
+      "Pipe gun with 10 +5 CD rounds of .38 ammunition", "1 dose of Jet or RadAway", "One Molotov cocktail or one Stimpak", "15 caps"
+    ] }],
+    ["Settler", { page: 79, fr: [78], contents: [
+      "Tough clothing", "Switchblade, pipe wrench, rolling pin, or knuckles", "Pipe gun with 6 +3 CD rounds of .38 ammunition",
+      "2 rolls on the Random Food table (p.202)", "One personal trinket", "45 caps"
+    ] }],
+    ["Trader", { page: 80, fr: [78, 79], contents: [
+      "Tough clothing", "A leather armor chest piece, or a leather armor arm and a leather armor leg",
+      "Pipe gun with 8 +4 CD rounds of .38 ammunition", "One personal trinket",
+      "Wares: roll 3 times each on the Random Ammunition, Random Chem, and Random Oddities and Valuables tables",
+      "A pack brahmin (see Brahmin, p.341)", "50 caps"
+    ] }],
+    ["Wanderer", { page: 80, fr: [79], contents: [
+      "Drifter outfit", "Switchblade, pipe wrench, rolling pin, or knuckles", "Pipe gun with 8 +4 CD rounds of .38 ammunition",
+      "1 dose of Jet or RadAway", "One personal trinket", "30 caps"
+    ] }]
+  ]);
+
+  const packages = catalog.entries.filter(entry => entry.type === "equipment_bundle" && entry.page >= 76 && entry.page <= 80);
+  assert.equal(packages.length, expected.size);
+  for (const [name, expectation] of expected) {
+    const entry = packages.find(candidate => candidate.sourceName === name);
+    assert.ok(entry, name + " equipment bundle missing from source inventory");
+    assert.equal(entry.page, expectation.page);
+    assert.deepEqual(entry.sourcePages.en, [expectation.page]);
+    assert.deepEqual(entry.sourcePages.fr, expectation.fr);
+    assert.deepEqual(entry.certification.canonicalContents, expectation.contents);
+    assert.equal(entry.scope, "out_of_scope");
+    assert.equal(entry.status, "out_of_scope");
+  }
+
+  const farmhand = packages.find(entry => entry.sourceName === "Mister Farmhand");
+  assert.match(farmhand.certification.canonicalContents.join("\n"), /fertilizer \(1 uncommon material\)/);
+  assert.match(farmhand.certification.localizationNote, /official FR page prints only/);
+
+  const skirmisher = packages.find(entry => entry.sourceName === "Skirmisher");
+  assert.match(skirmisher.certification.canonicalContents.join("\n"), /long barrel and full stock mods/);
+  assert.match(skirmisher.certification.canonicalContents.join("\n"), /6 \+3 CD rounds of \.308/);
+  assert.doesNotMatch(skirmisher.certification.canonicalContents.join("\n"), /8 \+4 CD rounds of \.308|headpiece/);
+  assert.equal(skirmisher.certification.errataApplied.length, 3);
+
+  const trader = packages.find(entry => entry.sourceName === "Trader");
+  assert.match(trader.certification.canonicalContents.join("\n"), /A pack brahmin/);
+  assert.match(trader.certification.localizationNote, /FR pack prints “Deux brahmines”/);
+  assert.match(trader.certification.canonicalContents.join("\n"), /roll 3 times each/);
+});
+
+test("Core Step 6 referenced identities resolve bilingually and Skirmisher keeps the required Pipe Gun mods", async () => {
+  const relevant = catalog.entries.filter(entry => entry.page >= 76 && entry.page <= 81);
+  const refs = relevant.flatMap(entry => [
+    ...(entry.certification?.documentRefs ?? []),
+    ...((entry.certification?.rows ?? []).flatMap(row => row.documentRefs ?? []))
+  ]);
+  const unique = [...new Map(refs.map(ref => [ref.pack + "/" + ref.documentId, ref])).values()];
+  assert.ok(unique.length > 50, "Step 6 should record a broad source-derived reference inventory");
+
+  for (const language of ["en", "fr"]) {
+    const records = await generatedDocuments(language);
+    for (const ref of unique) {
+      assert.ok(
+        records.some(record => record.pack === ref.pack && record.document._id === ref.documentId),
+        language + "/" + ref.pack + "/" + ref.documentId + "/" + ref.sourceName + " missing"
+      );
+    }
+  }
+
+  const pipeGun = JSON.parse(await readFile("src/packs/canonical/weapons.db/pipe_gun__PiFmAFrgnIJqwkNw.json", "utf8"));
+  assert.equal(pipeGun.system.mods.RyggZv9PwKChzJwB.$ref.pack, "weapon-mods");
+  assert.equal(pipeGun.system.mods.RyggZv9PwKChzJwB.$ref.id, "RyggZv9PwKChzJwB");
+  assert.equal(pipeGun.system.mods.bRV8rXkptjU6mz9Y.$ref.pack, "weapon-mods");
+  assert.equal(pipeGun.system.mods.bRV8rXkptjU6mz9Y.$ref.id, "bRV8rXkptjU6mz9Y");
+});
+
+test("Core Random Trinkets p.80 matches both official source tables exactly", async () => {
+  const expected = {
+    en: [
+      "A gold pocket watch", "A garbled holodisk", "A brightly colored bandanna", "A silver locket", "Medal",
+      "Potted plant", "Tickets to a pre-war event", "Wedding ring", "Pre-war party invitation", "An engraved flip lighter",
+      "Loaded casino dice", "ID card", "Cosmetics case", "Musical instrument", "Broken eyeglasses", "Necklace made of junk",
+      "Pages of an unfinished story", "Overdue library book", "A postcard with an address", "A pre-war neck-tie"
+    ],
+    fr: [
+      "Montre à gousset en or", "Holodisque brouillé", "Bandana aux couleurs vives", "Médaillon en argent", "Médaille",
+      "Plante en pot", "Tickets pour un événement d’avant-guerre", "Alliance", "Invitation à une fête d’avant-guerre",
+      "Briquet-tempête gravé", "Dé de casino pipé", "Carte d’identité", "Mallette de cosmétiques", "Instrument de musique",
+      "Lunettes cassées", "Collier fait de bric-à-brac", "Pages d’une histoire non terminée",
+      "Livre de bibliothèque jamais rendu", "Carte postale avec adresse", "Cravate d’avant-guerre"
+    ]
+  };
+
+  const entry = catalog.entries.find(candidate => candidate.documentId === "NSMq85o2aSfE60Aa");
+  assert.ok(entry);
+  assert.equal(entry.page, 80);
+  assert.deepEqual(entry.sourcePages, { en: [80], fr: [80] });
+  assert.equal(entry.status, "verified");
+
+  for (const language of ["en", "fr"]) {
+    const tableRecord = (await generatedDocuments(language))
+      .find(({ pack, document }) => pack === "roll-tables" && document._id === "NSMq85o2aSfE60Aa");
+    assert.ok(tableRecord, language + "/roll-tables/NSMq85o2aSfE60Aa missing");
+    const table = tableRecord.document;
+    assert.equal(table.formula, "1d20");
+    assert.equal(table.results.length, 20);
+    assert.deepEqual(table.results.map(result => result.range), Array.from({ length: 20 }, (_, index) => [index + 1, index + 1]));
+    assert.deepEqual(table.results.map(result => result.name), expected[language]);
+  }
+});
+
+test("Core Tag Skill Items and higher-level starting gear tables are exhaustively source-inventoried", () => {
+  const tag = catalog.entries.find(entry => entry.sourceName === "Items Gained from Tag Skills");
+  assert.ok(tag);
+  assert.equal(tag.scope, "out_of_scope");
+  assert.deepEqual(tag.sourcePages, { en: [81], fr: [80, 81] });
+  assert.deepEqual(tag.certification.rows.map(row => [row.skill, row.items]), [
+    ["Athletics", "Casual clothing, 1 Buffout"],
+    ["Barter", "2d20 additional caps"],
+    ["Big Guns", "4 +2 CD shots of flamer fuel"],
+    ["Energy Weapons", "Fusion cell containing 6 +3 CD shots"],
+    ["Explosives", "2 Molotov cocktails or 2 baseball grenades"],
+    ["Lockpick", "4 +2 CD bobby pins"],
+    ["Medicine", "1 first aid kit, 1 Stimpak"],
+    ["Melee Weapons", "Machete or baseball bat"],
+    ["Pilot", "Broken car parts (equivalent to 5 common scrap)"],
+    ["Repair", "Multi-Tool"],
+    ["Science", "Lab coat, 1 dose of Mentats"],
+    ["Small Guns", "6 +3 CD additional shots of ammunition of a type you already possess"],
+    ["Sneak", "One dose of Calmex"],
+    ["Speech", "Formal hat, formal clothing"],
+    ["Survival", "2 purified water, 1 iguana on a stick"],
+    ["Throwing", "4 +2 CD throwing knives or 2 +1 CD tomahawks"],
+    ["Unarmed", "Knuckles"]
+  ]);
+
+  const higher = catalog.entries.find(entry => entry.sourceName === "Additional Caps by Starting Level");
+  assert.ok(higher);
+  assert.equal(higher.scope, "out_of_scope");
+  assert.deepEqual(higher.sourcePages, { en: [81], fr: [81] });
+  assert.deepEqual(higher.certification.rows, [
+    { level: "2", caps: 100, maxRarity: "1" }, { level: "3", caps: 250, maxRarity: "1" },
+    { level: "4", caps: 450, maxRarity: "1" }, { level: "5", caps: 700, maxRarity: "2" },
+    { level: "6", caps: 1000, maxRarity: "2" }, { level: "7", caps: 1350, maxRarity: "2" },
+    { level: "8", caps: 1750, maxRarity: "2" }, { level: "9", caps: 2200, maxRarity: "3" },
+    { level: "10", caps: 2700, maxRarity: "3" }, { level: "11", caps: 3250, maxRarity: "3" },
+    { level: "12", caps: 3850, maxRarity: "3" }, { level: "13", caps: 4500, maxRarity: "4" },
+    { level: "14", caps: 5200, maxRarity: "4" }, { level: "15", caps: 5950, maxRarity: "4" },
+    { level: "16", caps: 6750, maxRarity: "4" }, { level: "17", caps: 7600, maxRarity: "5" },
+    { level: "18", caps: 8500, maxRarity: "5" }, { level: "19", caps: 9450, maxRarity: "5" },
+    { level: "20", caps: 10450, maxRarity: "5" }, { level: "21+", caps: "Level ×50", maxRarity: "Any" }
+  ]);
+});
+
+test("Core Personal Trinket recovery rule is explicitly accounted for", () => {
+  const rule = catalog.entries.find(entry => entry.sourceName === "Personal Trinkets");
+  assert.ok(rule);
+  assert.equal(rule.scope, "out_of_scope");
+  assert.deepEqual(rule.sourcePages, { en: [80], fr: [80] });
+  assert.match(rule.certification.mechanic, /once per quest outside combat/);
+  assert.match(rule.certification.mechanic, /regain 1 Luck Point/);
+});

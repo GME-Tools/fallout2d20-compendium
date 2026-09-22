@@ -3,21 +3,164 @@
   "pages": "76-81",
   "errata": "V6 (2026)",
   "packages": {
-    "Brotherhood": ["Brotherhood of Steel Initiate", "Brotherhood of Steel Scribe"],
-    "Mister Handy": ["Miss Nanny", "Mister Farmhand", "Mister Gutsy", "Mister Handy", "Nurse Handy"],
-    "Super Mutant": ["Brute", "Skirmisher"],
-    "Vault Dweller": ["Vault-Tec Resident", "Vault-Tec Security"],
-    "Wastelander": ["Mercenary", "Raider", "Settler", "Trader", "Wanderer"]
+    "Brotherhood": [
+      "Brotherhood of Steel Initiate",
+      "Brotherhood of Steel Scribe"
+    ],
+    "Mister Handy": [
+      "Miss Nanny",
+      "Mister Farmhand",
+      "Mister Gutsy",
+      "Mister Handy",
+      "Nurse Handy"
+    ],
+    "Super Mutant": [
+      "Brute",
+      "Skirmisher"
+    ],
+    "Vault Dweller": [
+      "Vault-Tec Resident",
+      "Vault-Tec Security"
+    ],
+    "Wastelander": [
+      "Mercenary",
+      "Raider",
+      "Settler",
+      "Trader",
+      "Wanderer"
+    ]
   },
   "requiredDocuments": [
-    { "pack": "ammunition", "names": [".308 Round", ".38 Round", "10mm Round", "Fusion Cell"] },
-    { "pack": "apparel", "names": ["Brotherhood Scribe's Armor", "Brotherhood Scribe's Hat", "Brotherhood of Steel Fatigues", "Brotherhood of Steel Hood", "Drifter Outfit", "Formal Clothing", "Formal Hat", "Harness", "Lab Coat", "Leather Chest Piece", "Leather Left Arm", "Leather Left Leg", "Leather Right Arm", "Leather Right Leg", "Raider Chest Piece", "Raider Left Arm", "Raider Left Leg", "Raider Right Arm", "Raider Right Leg", "Tough Clothing", "Vault Jumpsuit", "Vault-Tec Security Armor", "Vault-Tec Security Helmet"] },
-    { "pack": "consumables", "names": ["Buffout", "Calmex", "Jet", "Mentats", "Mutfruit", "Purified Water", "RadAway", "Robot Repair Kit", "Stimpak", "Iguana on a Stick"] },
-    { "pack": "miscellany", "names": ["Bobby Pin", "First Aid Kit", "Holotags", "Junk", "Multi-Tool", "Pack Brahmin", "Pip-Boy"] },
-    { "pack": "robot-armor", "names": ["Mister Gutsy Plating", "Standard Plating"] },
-    { "pack": "robot-modules", "names": ["Behavioral Analysis Mod", "Diagnosis Mod", "Hazard Detection Mod", "Integral Boiler Mod", "Recon Sensors"] },
-    { "pack": "weapons", "names": [".44 Pistol", "10mm Auto Pistol", "10mm Pistol", "Baseball Bat", "Baseball Grenade", "Baton", "Board", "Buzz-Saw", "Combat Knife", "Flamer", "Hunting Rifle", "Knuckles", "Laser Emitter", "Laser Gun", "Lead Pipe", "Machete", "Molotov Cocktail", "Pincer", "Pipe Bolt-Action", "Pipe Gun", "Pipe Wrench", "Pool Cue", "Rolling Pin", "Switchblade", "Throwing Knives", "Tire Iron", "Tomahawk"] },
-    { "pack": "roll-tables", "names": ["Random Trinkets"] }
+    {
+      "pack": "ammunition",
+      "names": [
+        ".308 Round",
+        ".38 Round",
+        ".44 Magnum Round",
+        "10mm Round",
+        "Flamer Fuel",
+        "Fusion Cell"
+      ]
+    },
+    {
+      "pack": "apparel",
+      "names": [
+        "Brotherhood of Steel Fatigues",
+        "Brotherhood of Steel Hood",
+        "Brotherhood Scribe's Armor",
+        "Brotherhood Scribe's Hat",
+        "Drifter Outfit",
+        "Formal Clothing",
+        "Formal Hat",
+        "Harness",
+        "Lab Coat",
+        "Leather Chest Piece",
+        "Leather Left Arm",
+        "Leather Left Leg",
+        "Leather Right Arm",
+        "Leather Right Leg",
+        "Raider Chest Piece",
+        "Raider Left Arm",
+        "Raider Left Leg",
+        "Raider Right Arm",
+        "Raider Right Leg",
+        "Tough Clothing",
+        "Vault Jumpsuit",
+        "Vault-Tec Security Armor",
+        "Vault-Tec Security Helmet"
+      ]
+    },
+    {
+      "pack": "consumables",
+      "names": [
+        "Buffout",
+        "Calmex",
+        "Iguana on a Stick",
+        "Jet",
+        "Mentats",
+        "Mutfruit",
+        "Purified Water",
+        "RadAway",
+        "Robot Repair Kit",
+        "Stimpak"
+      ]
+    },
+    {
+      "pack": "denizens",
+      "names": [
+        "Brahmin"
+      ]
+    },
+    {
+      "pack": "miscellany",
+      "names": [
+        "Bobby Pin",
+        "First Aid Kit",
+        "Holotags",
+        "Multi-Tool",
+        "Pack Brahmin",
+        "Pip-Boy"
+      ]
+    },
+    {
+      "pack": "robot-armor",
+      "names": [
+        "Mister Gutsy Plating",
+        "Standard Plating"
+      ]
+    },
+    {
+      "pack": "robot-modules",
+      "names": [
+        "Behavioral Analysis Mod",
+        "Diagnosis Mod",
+        "Hazard Detection Mod",
+        "Integral Boiler Mod",
+        "Recon Sensors"
+      ]
+    },
+    {
+      "pack": "roll-tables",
+      "names": [
+        "Random Ammunition",
+        "Random Chems",
+        "Random Food",
+        "Random Oddities and Valuables",
+        "Random Trinkets"
+      ]
+    },
+    {
+      "pack": "weapons",
+      "names": [
+        ".44 Pistol",
+        "10mm Auto Pistol",
+        "10mm Pistol",
+        "Baseball Bat",
+        "Baseball Grenade",
+        "Baton",
+        "Board",
+        "Buzz-Saw",
+        "Combat Knife",
+        "Flamer",
+        "Hunting Rifle",
+        "Knuckles",
+        "Laser Emitter",
+        "Laser Gun",
+        "Lead Pipe",
+        "Machete",
+        "Molotov Cocktail",
+        "Pincer",
+        "Pipe Bolt-Action",
+        "Pipe Gun",
+        "Pipe Wrench",
+        "Pool Cue",
+        "Rolling Pin",
+        "Switchblade",
+        "Throwing Knives",
+        "Tire Iron",
+        "Tomahawk"
+      ]
+    }
   ],
   "nonDocumentComponents": [
     "Caps",
@@ -29,5 +172,28 @@
   "latestErrata": [
     "Mister Farmhand fertilizer is explicitly 1 uncommon material.",
     "Super Mutant Skirmisher receives a pipe rifle with long barrel and full stock, plus 6 + 3 CD .308 rounds."
+  ],
+  "sourceDriven": true,
+  "method": "Derived from Core Rulebook pp.76-81 first, then reconciled with repository identities; this catalog is not an authority for expected content.",
+  "requiredEmbeddedDocumentRefs": [
+    {
+      "pack": "weapon-mods",
+      "documentId": "RyggZv9PwKChzJwB",
+      "name": "Long Barrel",
+      "context": "Super Mutant Skirmisher Pipe Gun"
+    },
+    {
+      "pack": "weapon-mods",
+      "documentId": "bRV8rXkptjU6mz9Y",
+      "name": "Full Stock",
+      "context": "Super Mutant Skirmisher Pipe Gun"
+    }
+  ],
+  "sourceDrivenNotes": [
+    "The 16 equipment packages are source-defined character-build bundles; they are inventoried in catalog/core-rulebook-certification.json but are not standalone Foundry documents.",
+    "Random Trinkets is a reusable 1d20 RollTable and is certified as an in-scope document.",
+    "Trader references Random Ammunition, Random Chems, Random Oddities and Valuables, Pack Brahmin, and the Brahmin profile; Settler references Random Food.",
+    "Broken car parts are represented by the source as equivalent to 5 common scrap and are not treated as a required standalone Junk document.",
+    "Official FR Trader text says “Deux brahmines”; canonical EN grants one pack brahmin."
   ]
 }

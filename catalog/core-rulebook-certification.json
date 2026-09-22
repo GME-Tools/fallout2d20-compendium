@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 77,
-      "sourcePage": 75
+      "pdfPage": 83,
+      "sourcePage": 81
     },
     "fr": {
-      "pdfPage": 78,
-      "sourcePage": 75
+      "pdfPage": 84,
+      "sourcePage": 81
     }
   },
   "pageReviews": [
@@ -1255,6 +1255,102 @@
       "sourcePage": 75,
       "section": "Chapter Three — Création de personnage",
       "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 78,
+      "sourcePage": 76,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 79,
+      "sourcePage": 77,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 80,
+      "sourcePage": 78,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 81,
+      "sourcePage": 79,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 82,
+      "sourcePage": 80,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 83,
+      "sourcePage": 81,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 79,
+      "sourcePage": 76,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 80,
+      "sourcePage": 77,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 81,
+      "sourcePage": 78,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 82,
+      "sourcePage": 79,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 83,
+      "sourcePage": 80,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 84,
+      "sourcePage": 81,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
       "status": "verified"
     }
   ],
@@ -4999,6 +5095,1925 @@
         ],
         "fr": [
           75
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 76,
+      "type": "rule_text",
+      "sourceName": "Step 6: Choose Equipment",
+      "localizedNames": {
+        "fr": "Étape 6 : choisir son équipement"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation procedure text, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          76
+        ],
+        "fr": [
+          76
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 76,
+      "type": "sidebar",
+      "sourceName": "Programming or Individuality?",
+      "localizedNames": {
+        "fr": "Programmation ou individualité ?"
+      },
+      "scope": "out_of_scope",
+      "justification": "Narrative character-concept guidance for Mister Handy equipment packages, not a reusable structured game document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          76
+        ],
+        "fr": [
+          76
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 76,
+      "type": "equipment_bundle",
+      "sourceName": "Brotherhood of Steel Initiate",
+      "localizedNames": {
+        "fr": "Initié de la Confrérie de l’Acier"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          76
+        ],
+        "fr": [
+          76
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Brotherhood fatigues and Brotherhood hood",
+          "Combat knife",
+          "Laser pistol and a fusion cell containing 10 +5 CD shots, or a 10mm pistol with 10 +5 CD rounds of 10mm ammunition",
+          "Brotherhood holotags containing identifying information"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "jnjGlz8wOI3b2brm",
+            "sourceName": "Brotherhood of Steel Fatigues",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "vinehrp26vkj6pQj",
+            "sourceName": "Brotherhood of Steel Hood",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "6xbkky55saFOXZSk",
+            "sourceName": "Combat Knife",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "NRN7soVtcTwCRqaL",
+            "sourceName": "Laser Gun",
+            "role": "default laser-pistol profile reference"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "Oc7xNpMREJ8N5u3v",
+            "sourceName": "Fusion Cell",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "mRB3W7wrHDbWhb9i",
+            "sourceName": "10mm Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "1Mku27VQTcwBCwOF",
+            "sourceName": "10mm Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "miscellany",
+            "documentId": "h4ft10mkGXOGNaW3",
+            "sourceName": "Holotags",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 76,
+      "type": "equipment_bundle",
+      "sourceName": "Brotherhood of Steel Scribe",
+      "localizedNames": {
+        "fr": "Scribe de la Confrérie de l’Acier"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          76
+        ],
+        "fr": [
+          76
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Brotherhood Field Scribe’s armor and Brotherhood Scribe’s hat",
+          "Combat knife",
+          "Laser pistol and a fusion cell containing 6 +3 CD shots, or a 10mm pistol with 6 +3 CD rounds of 10mm ammunition",
+          "Brotherhood holotags containing identifying information"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "lVYblrMAgEfHnWTR",
+            "sourceName": "Brotherhood Scribe's Armor",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "1t9ZfJxVs14n5wTX",
+            "sourceName": "Brotherhood Scribe's Hat",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "6xbkky55saFOXZSk",
+            "sourceName": "Combat Knife",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "NRN7soVtcTwCRqaL",
+            "sourceName": "Laser Gun",
+            "role": "default laser-pistol profile reference"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "Oc7xNpMREJ8N5u3v",
+            "sourceName": "Fusion Cell",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "mRB3W7wrHDbWhb9i",
+            "sourceName": "10mm Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "1Mku27VQTcwBCwOF",
+            "sourceName": "10mm Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "miscellany",
+            "documentId": "h4ft10mkGXOGNaW3",
+            "sourceName": "Holotags",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 77,
+      "type": "equipment_bundle",
+      "sourceName": "Miss Nanny",
+      "localizedNames": {
+        "fr": "Miss Nanny"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          77
+        ],
+        "fr": [
+          76,
+          77
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "One pincer arm attachment, one flamer arm attachment, and one arm attachment of your choice",
+          "Standard plating",
+          "Behavioral analysis mod",
+          "Hazard detection mod",
+          "10 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "weapons",
+            "documentId": "VFRfwbor9PwEKdRZ",
+            "sourceName": "Pincer",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "75n1EFSJw8xxti6s",
+            "sourceName": "Flamer",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "robot-armor",
+            "documentId": "BDGcAACYaQF0qXxX",
+            "sourceName": "Standard Plating",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-modules",
+            "documentId": "vDsRqWBeKLVgq57P",
+            "sourceName": "Behavioral Analysis Mod",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-modules",
+            "documentId": "ZgOppC2XynIyM1bg",
+            "sourceName": "Hazard Detection Mod",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 77,
+      "type": "equipment_bundle",
+      "sourceName": "Mister Farmhand",
+      "localizedNames": {
+        "fr": "Mister Farmhand"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          77
+        ],
+        "fr": [
+          77
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "One pincer arm attachment, one buzz-saw arm attachment, and one laser emitter arm attachment",
+          "Standard plating",
+          "One bag of fertilizer (1 uncommon material)",
+          "2 mutfruits",
+          "25 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "weapons",
+            "documentId": "VFRfwbor9PwEKdRZ",
+            "sourceName": "Pincer",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "QYgc3wH8JS3YGJ34",
+            "sourceName": "Buzz-Saw",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ppzmY6xo2f66TmMC",
+            "sourceName": "Laser Emitter",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "robot-armor",
+            "documentId": "BDGcAACYaQF0qXxX",
+            "sourceName": "Standard Plating",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "ABPjUugdAt6VthAw",
+            "sourceName": "Mutfruit",
+            "role": "referenced item"
+          }
+        ],
+        "errataApplied": [
+          "p.77: fertilizer bag is explicitly 1 uncommon material"
+        ],
+        "localizationNote": "The official FR page prints only “Sac de fertilisant”; canonical mechanics add the errata designation of 1 uncommon material."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 77,
+      "type": "equipment_bundle",
+      "sourceName": "Mister Gutsy",
+      "localizedNames": {
+        "fr": "Mister Gutsy"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          77
+        ],
+        "fr": [
+          77
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "One 10mm auto pistol arm, one buzz-saw arm attachment, and one laser emitter arm attachment",
+          "Mister Gutsy plating",
+          "Recon sensors mod",
+          "10 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "weapons",
+            "documentId": "bKHsUZI6Z6xrAEHg",
+            "sourceName": "10mm Auto Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "QYgc3wH8JS3YGJ34",
+            "sourceName": "Buzz-Saw",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ppzmY6xo2f66TmMC",
+            "sourceName": "Laser Emitter",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "robot-armor",
+            "documentId": "TsWbvZ5RsybpeN2y",
+            "sourceName": "Mister Gutsy Plating",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-modules",
+            "documentId": "a1R1RTaNUfdDmEeS",
+            "sourceName": "Recon Sensors",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 77,
+      "type": "equipment_bundle",
+      "sourceName": "Mister Handy",
+      "localizedNames": {
+        "fr": "Mister Handy"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          77
+        ],
+        "fr": [
+          77
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "One pincer arm attachment, one flamer arm attachment, and one buzz-saw arm attachment",
+          "Standard plating",
+          "Robot repair kit",
+          "Integral boiler mod",
+          "10 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "weapons",
+            "documentId": "VFRfwbor9PwEKdRZ",
+            "sourceName": "Pincer",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "75n1EFSJw8xxti6s",
+            "sourceName": "Flamer",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "QYgc3wH8JS3YGJ34",
+            "sourceName": "Buzz-Saw",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-armor",
+            "documentId": "BDGcAACYaQF0qXxX",
+            "sourceName": "Standard Plating",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "RXpTSDERvwv1nuZ5",
+            "sourceName": "Robot Repair Kit",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-modules",
+            "documentId": "bzUxVWw6gLP5ZgNq",
+            "sourceName": "Integral Boiler Mod",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 77,
+      "type": "equipment_bundle",
+      "sourceName": "Nurse Handy",
+      "localizedNames": {
+        "fr": "Nurse Handy"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          77
+        ],
+        "fr": [
+          77
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "One pincer arm or buzz-saw arm attachment, one buzz-saw arm attachment, and one attachment of your choice",
+          "Standard plating",
+          "Stimpak",
+          "Diagnosis mod",
+          "10 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "weapons",
+            "documentId": "VFRfwbor9PwEKdRZ",
+            "sourceName": "Pincer",
+            "role": "Mister Handy arm attachment reference"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "QYgc3wH8JS3YGJ34",
+            "sourceName": "Buzz-Saw",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-armor",
+            "documentId": "BDGcAACYaQF0qXxX",
+            "sourceName": "Standard Plating",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "860ofdvpufUzSqE7",
+            "sourceName": "Stimpak",
+            "role": "referenced item"
+          },
+          {
+            "pack": "robot-modules",
+            "documentId": "J6X12IWC3TuYbb64",
+            "sourceName": "Diagnosis Mod",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 78,
+      "type": "equipment_bundle",
+      "sourceName": "Brute",
+      "localizedNames": {
+        "fr": "Frappeur"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          78
+        ],
+        "fr": [
+          78
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Raider armor torso and either one leg or one arm",
+          "Pipe rifle (pipe gun) with 6 +3 CD rounds of .38 ammunition",
+          "Baseball bat or machete",
+          "One personal trinket",
+          "5 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "F15SCdqO8m3rhpkc",
+            "sourceName": "Raider Chest Piece",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "CCrzErrpyLp7Ruz4",
+            "sourceName": "Raider Left Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "U38QzZYOaKw1oC3h",
+            "sourceName": "Raider Right Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "lW7UmLaX9cJtuYIV",
+            "sourceName": "Raider Left Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "C5ifa1Dx7rIxx65I",
+            "sourceName": "Raider Right Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "PiFmAFrgnIJqwkNw",
+            "sourceName": "Pipe Gun",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "UJQaP4A50u2tSG6G",
+            "sourceName": ".38 Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "d0qmxHsuKN14qmua",
+            "sourceName": "Baseball Bat",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "uGNGa0KBcJq3YFvc",
+            "sourceName": "Machete",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "NSMq85o2aSfE60Aa",
+            "sourceName": "Random Trinkets",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 78,
+      "type": "equipment_bundle",
+      "sourceName": "Skirmisher",
+      "localizedNames": {
+        "fr": "Escarmoucheur"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          78
+        ],
+        "fr": [
+          77
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Raider armor torso and either one leg or one arm",
+          "Pipe rifle (pipe gun with long barrel and full stock mods), with 6 +3 CD rounds of .308 ammunition",
+          "Board",
+          "One personal trinket",
+          "5 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "F15SCdqO8m3rhpkc",
+            "sourceName": "Raider Chest Piece",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "CCrzErrpyLp7Ruz4",
+            "sourceName": "Raider Left Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "U38QzZYOaKw1oC3h",
+            "sourceName": "Raider Right Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "lW7UmLaX9cJtuYIV",
+            "sourceName": "Raider Left Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "C5ifa1Dx7rIxx65I",
+            "sourceName": "Raider Right Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "PiFmAFrgnIJqwkNw",
+            "sourceName": "Pipe Gun",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapon-mods",
+            "documentId": "RyggZv9PwKChzJwB",
+            "sourceName": "Long Barrel",
+            "role": "Skirmisher Pipe Gun embedded mod"
+          },
+          {
+            "pack": "weapon-mods",
+            "documentId": "bRV8rXkptjU6mz9Y",
+            "sourceName": "Full Stock",
+            "role": "Skirmisher Pipe Gun embedded mod"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "fuCYfiQzOvr4WtJI",
+            "sourceName": ".308 Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "CKolMtDxOzC8QdSD",
+            "sourceName": "Board",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "NSMq85o2aSfE60Aa",
+            "sourceName": "Random Trinkets",
+            "role": "referenced item"
+          }
+        ],
+        "errataApplied": [
+          "p.78 (2021): the armor choice cannot be a raider armor headpiece",
+          "p.78 (September 2022): weapon is a Pipe Gun with Long Barrel and Full Stock using .308 ammunition",
+          "p.78 (Q1 2026): ammunition quantity is 6 +3 CD .308 rounds"
+        ],
+        "localizationNote": "The printed FR entry predates the current weapon/mod wording and ammunition quantity; EN + Errata V6 is mechanically canonical."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 78,
+      "type": "equipment_bundle",
+      "sourceName": "Vault-Tec Resident",
+      "localizedNames": {
+        "fr": "Résident de Vault-Tec"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          78
+        ],
+        "fr": [
+          78
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Vault jumpsuit",
+          "Vault-Tec branded canteen containing 1 purified water",
+          "Pip-Boy",
+          "Switchblade",
+          "10mm pistol with 6 +3 CD rounds of 10mm ammunition",
+          "2 Stimpaks",
+          "10 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "aOmUGU0KhxIusQzy",
+            "sourceName": "Vault Jumpsuit",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "xuXzlEC3V0co3w3h",
+            "sourceName": "Purified Water",
+            "role": "referenced item"
+          },
+          {
+            "pack": "miscellany",
+            "documentId": "Fkgwa1FrCdfQPvhl",
+            "sourceName": "Pip-Boy",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ijD12AylGdTDshsy",
+            "sourceName": "Switchblade",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "mRB3W7wrHDbWhb9i",
+            "sourceName": "10mm Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "1Mku27VQTcwBCwOF",
+            "sourceName": "10mm Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "860ofdvpufUzSqE7",
+            "sourceName": "Stimpak",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 78,
+      "type": "equipment_bundle",
+      "sourceName": "Vault-Tec Security",
+      "localizedNames": {
+        "fr": "Agent de sécurité de Vault-Tec"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          78
+        ],
+        "fr": [
+          78
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Vault jumpsuit",
+          "Vault-Tec Security armor and Vault-Tec Security helmet",
+          "Vault-Tec branded canteen containing 1 purified water",
+          "Pip-Boy",
+          "Baton",
+          "10mm pistol with 8 +4 CD rounds of 10mm ammunition",
+          "1 Stimpak"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "aOmUGU0KhxIusQzy",
+            "sourceName": "Vault Jumpsuit",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "ylQsJrmkFumlUEeC",
+            "sourceName": "Vault-Tec Security Armor",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "RuledpduIJ0kiNAN",
+            "sourceName": "Vault-Tec Security Helmet",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "xuXzlEC3V0co3w3h",
+            "sourceName": "Purified Water",
+            "role": "referenced item"
+          },
+          {
+            "pack": "miscellany",
+            "documentId": "Fkgwa1FrCdfQPvhl",
+            "sourceName": "Pip-Boy",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "jZstb7cuVXCJXPnj",
+            "sourceName": "Baton",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "mRB3W7wrHDbWhb9i",
+            "sourceName": "10mm Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "1Mku27VQTcwBCwOF",
+            "sourceName": "10mm Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "860ofdvpufUzSqE7",
+            "sourceName": "Stimpak",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 79,
+      "type": "equipment_bundle",
+      "sourceName": "Mercenary",
+      "localizedNames": {
+        "fr": "Mercenaire"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          79
+        ],
+        "fr": [
+          79
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Tough clothing",
+          "A leather armor chest piece, or a leather armor arm and a leather armor leg",
+          "Machete, baseball bat, or tire iron",
+          "10mm automatic pistol, .44 pistol, hunting rifle, or bolt-action pipe gun",
+          "10 +5 CD rounds of ammunition for the chosen ranged weapon",
+          "A note advertising a job in a nearby settlement that offers to pay 50 caps",
+          "15 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "DxWJxT0MuxkbCofe",
+            "sourceName": "Tough Clothing",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "hLHlZT5mDbRSzXOp",
+            "sourceName": "Leather Chest Piece",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "UYhmJZwhnlwIR8fD",
+            "sourceName": "Leather Left Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "f23UwUVmMqA60No3",
+            "sourceName": "Leather Right Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "uC3L44Jd1lpnTteV",
+            "sourceName": "Leather Left Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "UYuniDcNwxokqGHW",
+            "sourceName": "Leather Right Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "uGNGa0KBcJq3YFvc",
+            "sourceName": "Machete",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "d0qmxHsuKN14qmua",
+            "sourceName": "Baseball Bat",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "Pdmfy50DEM5oB9js",
+            "sourceName": "Tire Iron",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "bKHsUZI6Z6xrAEHg",
+            "sourceName": "10mm Auto Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "wqNw0xItJ29W24sm",
+            "sourceName": ".44 Pistol",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "bpbgoX9mNr23pFHR",
+            "sourceName": "Hunting Rifle",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "obRp9CZJJ6liIl49",
+            "sourceName": "Pipe Bolt-Action",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "1Mku27VQTcwBCwOF",
+            "sourceName": "10mm Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "kxgO3CwKpqR9lYLS",
+            "sourceName": ".44 Magnum Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "fuCYfiQzOvr4WtJI",
+            "sourceName": ".308 Round",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 79,
+      "type": "equipment_bundle",
+      "sourceName": "Raider",
+      "localizedNames": {
+        "fr": "Pillard"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          79
+        ],
+        "fr": [
+          79
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Harness",
+          "Raider armor chest piece and raider armor for one arm",
+          "Lead pipe, pool cue, or tire iron",
+          "Pipe gun with 10 +5 CD rounds of .38 ammunition",
+          "1 dose of Jet or RadAway",
+          "One Molotov cocktail or one Stimpak",
+          "15 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "Z2wwI1RUjgV9UuzJ",
+            "sourceName": "Harness",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "F15SCdqO8m3rhpkc",
+            "sourceName": "Raider Chest Piece",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "CCrzErrpyLp7Ruz4",
+            "sourceName": "Raider Left Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "U38QzZYOaKw1oC3h",
+            "sourceName": "Raider Right Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "Xq6k6PuQQbneO6w0",
+            "sourceName": "Lead Pipe",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "7lXJbtwhMJwqp40D",
+            "sourceName": "Pool Cue",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "Pdmfy50DEM5oB9js",
+            "sourceName": "Tire Iron",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "PiFmAFrgnIJqwkNw",
+            "sourceName": "Pipe Gun",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "UJQaP4A50u2tSG6G",
+            "sourceName": ".38 Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "Bomq1g7X0eVXrssc",
+            "sourceName": "Jet",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "vDzTAi2iRrZ5XTcc",
+            "sourceName": "RadAway",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "NXjKSH1aRmZkq5PJ",
+            "sourceName": "Molotov Cocktail",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "860ofdvpufUzSqE7",
+            "sourceName": "Stimpak",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 79,
+      "type": "equipment_bundle",
+      "sourceName": "Settler",
+      "localizedNames": {
+        "fr": "Colon"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          79
+        ],
+        "fr": [
+          78
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Tough clothing",
+          "Switchblade, pipe wrench, rolling pin, or knuckles",
+          "Pipe gun with 6 +3 CD rounds of .38 ammunition",
+          "2 rolls on the Random Food table (p.202)",
+          "One personal trinket",
+          "45 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "DxWJxT0MuxkbCofe",
+            "sourceName": "Tough Clothing",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ijD12AylGdTDshsy",
+            "sourceName": "Switchblade",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ehsLCAMtk39LFHVa",
+            "sourceName": "Pipe Wrench",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "66p1lQmwPXZINPKn",
+            "sourceName": "Rolling Pin",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "yB39echbNG7KpWny",
+            "sourceName": "Knuckles",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "PiFmAFrgnIJqwkNw",
+            "sourceName": "Pipe Gun",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "UJQaP4A50u2tSG6G",
+            "sourceName": ".38 Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "4o3aHx9pc3VRaj3l",
+            "sourceName": "Random Food",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "NSMq85o2aSfE60Aa",
+            "sourceName": "Random Trinkets",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 80,
+      "type": "equipment_bundle",
+      "sourceName": "Trader",
+      "localizedNames": {
+        "fr": "Marchand"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          80
+        ],
+        "fr": [
+          78,
+          79
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Tough clothing",
+          "A leather armor chest piece, or a leather armor arm and a leather armor leg",
+          "Pipe gun with 8 +4 CD rounds of .38 ammunition",
+          "One personal trinket",
+          "Wares: roll 3 times each on the Random Ammunition, Random Chem, and Random Oddities and Valuables tables",
+          "A pack brahmin (see Brahmin, p.341)",
+          "50 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "DxWJxT0MuxkbCofe",
+            "sourceName": "Tough Clothing",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "hLHlZT5mDbRSzXOp",
+            "sourceName": "Leather Chest Piece",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "UYhmJZwhnlwIR8fD",
+            "sourceName": "Leather Left Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "f23UwUVmMqA60No3",
+            "sourceName": "Leather Right Arm",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "uC3L44Jd1lpnTteV",
+            "sourceName": "Leather Left Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "apparel",
+            "documentId": "UYuniDcNwxokqGHW",
+            "sourceName": "Leather Right Leg",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "PiFmAFrgnIJqwkNw",
+            "sourceName": "Pipe Gun",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "UJQaP4A50u2tSG6G",
+            "sourceName": ".38 Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "NSMq85o2aSfE60Aa",
+            "sourceName": "Random Trinkets",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "sa66QXOwlO8515AT",
+            "sourceName": "Random Ammunition",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "isNdghTYF06GBC0m",
+            "sourceName": "Random Chems",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "sUeIHeJSvRZp5me7",
+            "sourceName": "Random Oddities and Valuables",
+            "role": "referenced item"
+          },
+          {
+            "pack": "miscellany",
+            "documentId": "M7QQFcLD08YuKOqE",
+            "sourceName": "Pack Brahmin",
+            "role": "granted pack-animal item"
+          },
+          {
+            "pack": "denizens",
+            "documentId": "IgjxYB9AxoT2p6LK",
+            "sourceName": "Brahmin",
+            "role": "profile referenced by Trader pack"
+          }
+        ],
+        "errataApplied": [
+          "p.80: wares are 3 rolls each on Random Ammunition, Random Chem, and Random Oddities and Valuables"
+        ],
+        "localizationNote": "The official FR pack prints “Deux brahmines”; canonical EN grants one pack brahmin, so the certified mechanical quantity is one."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 80,
+      "type": "equipment_bundle",
+      "sourceName": "Wanderer",
+      "localizedNames": {
+        "fr": "Vagabond"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation loadout bundle rather than a standalone reusable Foundry document; its complete source-defined contents and referenced document identities are certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          80
+        ],
+        "fr": [
+          79
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true,
+        "canonicalContents": [
+          "Drifter outfit",
+          "Switchblade, pipe wrench, rolling pin, or knuckles",
+          "Pipe gun with 8 +4 CD rounds of .38 ammunition",
+          "1 dose of Jet or RadAway",
+          "One personal trinket",
+          "30 caps"
+        ],
+        "documentRefs": [
+          {
+            "pack": "apparel",
+            "documentId": "QX9YgFGANsHkpTQd",
+            "sourceName": "Drifter Outfit",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ijD12AylGdTDshsy",
+            "sourceName": "Switchblade",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "ehsLCAMtk39LFHVa",
+            "sourceName": "Pipe Wrench",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "66p1lQmwPXZINPKn",
+            "sourceName": "Rolling Pin",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "yB39echbNG7KpWny",
+            "sourceName": "Knuckles",
+            "role": "referenced item"
+          },
+          {
+            "pack": "weapons",
+            "documentId": "PiFmAFrgnIJqwkNw",
+            "sourceName": "Pipe Gun",
+            "role": "referenced item"
+          },
+          {
+            "pack": "ammunition",
+            "documentId": "UJQaP4A50u2tSG6G",
+            "sourceName": ".38 Round",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "Bomq1g7X0eVXrssc",
+            "sourceName": "Jet",
+            "role": "referenced item"
+          },
+          {
+            "pack": "consumables",
+            "documentId": "vDzTAi2iRrZ5XTcc",
+            "sourceName": "RadAway",
+            "role": "referenced item"
+          },
+          {
+            "pack": "roll-tables",
+            "documentId": "NSMq85o2aSfE60Aa",
+            "sourceName": "Random Trinkets",
+            "role": "referenced item"
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 80,
+      "type": "rule_text",
+      "sourceName": "Personal Trinkets",
+      "localizedNames": {
+        "fr": "Babioles personnelles"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation rule text surrounding a reusable random table; the random table itself is certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          80
+        ],
+        "fr": [
+          80
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "If the equipment pack includes a personal trinket, once per quest outside combat the character may contemplate it to regain 1 Luck Point; optional non-package trinkets do not restore Luck."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 80,
+      "type": "RollTable",
+      "sourceName": "Random Trinkets",
+      "localizedNames": {
+        "fr": "Babioles aléatoires"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "NSMq85o2aSfE60Aa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          80
+        ],
+        "fr": [
+          80
+        ]
+      },
+      "certification": {
+        "formula": "1d20",
+        "results": 20,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 81,
+      "type": "structured_table",
+      "sourceName": "Items Gained from Tag Skills",
+      "localizedNames": {
+        "fr": "Objets d’atouts personnels"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static character-creation mapping rather than a random reusable RollTable or standalone item; every row and referenced document identity is certified here.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          81
+        ],
+        "fr": [
+          80,
+          81
+        ]
+      },
+      "certification": {
+        "rows": [
+          {
+            "skill": "Athletics",
+            "fr": "Athlétisme",
+            "items": "Casual clothing, 1 Buffout",
+            "documentRefs": [
+              {
+                "pack": "apparel",
+                "documentId": "mGCVgHtv7btlXFcj",
+                "sourceName": "Casual Clothing",
+                "role": "referenced item"
+              },
+              {
+                "pack": "consumables",
+                "documentId": "o0at3QFpM8FKxvZj",
+                "sourceName": "Buffout",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Barter",
+            "fr": "Troc",
+            "items": "2d20 additional caps",
+            "documentRefs": []
+          },
+          {
+            "skill": "Big Guns",
+            "fr": "Armes lourdes",
+            "items": "4 +2 CD shots of flamer fuel",
+            "documentRefs": [
+              {
+                "pack": "ammunition",
+                "documentId": "0Ci0Jcpuca6rSqkL",
+                "sourceName": "Flamer Fuel",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Energy Weapons",
+            "fr": "Armes à énergie",
+            "items": "Fusion cell containing 6 +3 CD shots",
+            "documentRefs": [
+              {
+                "pack": "ammunition",
+                "documentId": "Oc7xNpMREJ8N5u3v",
+                "sourceName": "Fusion Cell",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Explosives",
+            "fr": "Explosifs",
+            "items": "2 Molotov cocktails or 2 baseball grenades",
+            "documentRefs": [
+              {
+                "pack": "weapons",
+                "documentId": "NXjKSH1aRmZkq5PJ",
+                "sourceName": "Molotov Cocktail",
+                "role": "referenced item"
+              },
+              {
+                "pack": "weapons",
+                "documentId": "vXTMQj76ShuwQXkd",
+                "sourceName": "Baseball Grenade",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Lockpick",
+            "fr": "Crochetage",
+            "items": "4 +2 CD bobby pins",
+            "documentRefs": [
+              {
+                "pack": "miscellany",
+                "documentId": "17BGbljBgFJ3IUS4",
+                "sourceName": "Bobby Pin",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Medicine",
+            "fr": "Médecine",
+            "items": "1 first aid kit, 1 Stimpak",
+            "documentRefs": [
+              {
+                "pack": "miscellany",
+                "documentId": "WyjtxDmxyBdGcD6n",
+                "sourceName": "First Aid Kit",
+                "role": "referenced item"
+              },
+              {
+                "pack": "consumables",
+                "documentId": "860ofdvpufUzSqE7",
+                "sourceName": "Stimpak",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Melee Weapons",
+            "fr": "Armes de corps à corps",
+            "items": "Machete or baseball bat",
+            "documentRefs": [
+              {
+                "pack": "weapons",
+                "documentId": "uGNGa0KBcJq3YFvc",
+                "sourceName": "Machete",
+                "role": "referenced item"
+              },
+              {
+                "pack": "weapons",
+                "documentId": "d0qmxHsuKN14qmua",
+                "sourceName": "Baseball Bat",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Pilot",
+            "fr": "Pilotage",
+            "items": "Broken car parts (equivalent to 5 common scrap)",
+            "documentRefs": []
+          },
+          {
+            "skill": "Repair",
+            "fr": "Réparation",
+            "items": "Multi-Tool",
+            "documentRefs": [
+              {
+                "pack": "miscellany",
+                "documentId": "1wxcXIYvgK4GTYUf",
+                "sourceName": "Multi-Tool",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Science",
+            "fr": "Science",
+            "items": "Lab coat, 1 dose of Mentats",
+            "documentRefs": [
+              {
+                "pack": "apparel",
+                "documentId": "cdwX7EVolnIWRaZi",
+                "sourceName": "Lab Coat",
+                "role": "referenced item"
+              },
+              {
+                "pack": "consumables",
+                "documentId": "hc8DSkMGN2GxugAF",
+                "sourceName": "Mentats",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Small Guns",
+            "fr": "Armes légères",
+            "items": "6 +3 CD additional shots of ammunition of a type you already possess",
+            "documentRefs": []
+          },
+          {
+            "skill": "Sneak",
+            "fr": "Discrétion",
+            "items": "One dose of Calmex",
+            "documentRefs": [
+              {
+                "pack": "consumables",
+                "documentId": "MW9UpIocnupsmcFt",
+                "sourceName": "Calmex",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Speech",
+            "fr": "Discours",
+            "items": "Formal hat, formal clothing",
+            "documentRefs": [
+              {
+                "pack": "apparel",
+                "documentId": "WeHTP6Gw6Sr6HN8N",
+                "sourceName": "Formal Hat",
+                "role": "referenced item"
+              },
+              {
+                "pack": "apparel",
+                "documentId": "RWHypmbHATEbfGdU",
+                "sourceName": "Formal Clothing",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Survival",
+            "fr": "Survie",
+            "items": "2 purified water, 1 iguana on a stick",
+            "documentRefs": [
+              {
+                "pack": "consumables",
+                "documentId": "xuXzlEC3V0co3w3h",
+                "sourceName": "Purified Water",
+                "role": "referenced item"
+              },
+              {
+                "pack": "consumables",
+                "documentId": "uxikQYkupNqpmTyR",
+                "sourceName": "Iguana on a Stick",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Throwing",
+            "fr": "Projectiles",
+            "items": "4 +2 CD throwing knives or 2 +1 CD tomahawks",
+            "documentRefs": [
+              {
+                "pack": "weapons",
+                "documentId": "61inErKDohHmHoAV",
+                "sourceName": "Throwing Knives",
+                "role": "referenced item"
+              },
+              {
+                "pack": "weapons",
+                "documentId": "pYMfuytsOCR3mxW8",
+                "sourceName": "Tomahawk",
+                "role": "referenced item"
+              }
+            ]
+          },
+          {
+            "skill": "Unarmed",
+            "fr": "Mains nues",
+            "items": "Knuckles",
+            "documentRefs": [
+              {
+                "pack": "weapons",
+                "documentId": "yB39echbNG7KpWny",
+                "sourceName": "Knuckles",
+                "role": "referenced item"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 81,
+      "type": "structured_table",
+      "sourceName": "Additional Caps by Starting Level",
+      "localizedNames": {
+        "fr": "Capsules supplémentaires en fonction du niveau de départ"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static character-build progression table, not a reusable random RollTable or standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          81
+        ],
+        "fr": [
+          81
+        ]
+      },
+      "certification": {
+        "rows": [
+          {
+            "level": "2",
+            "caps": 100,
+            "maxRarity": "1"
+          },
+          {
+            "level": "3",
+            "caps": 250,
+            "maxRarity": "1"
+          },
+          {
+            "level": "4",
+            "caps": 450,
+            "maxRarity": "1"
+          },
+          {
+            "level": "5",
+            "caps": 700,
+            "maxRarity": "2"
+          },
+          {
+            "level": "6",
+            "caps": 1000,
+            "maxRarity": "2"
+          },
+          {
+            "level": "7",
+            "caps": 1350,
+            "maxRarity": "2"
+          },
+          {
+            "level": "8",
+            "caps": 1750,
+            "maxRarity": "2"
+          },
+          {
+            "level": "9",
+            "caps": 2200,
+            "maxRarity": "3"
+          },
+          {
+            "level": "10",
+            "caps": 2700,
+            "maxRarity": "3"
+          },
+          {
+            "level": "11",
+            "caps": 3250,
+            "maxRarity": "3"
+          },
+          {
+            "level": "12",
+            "caps": 3850,
+            "maxRarity": "3"
+          },
+          {
+            "level": "13",
+            "caps": 4500,
+            "maxRarity": "4"
+          },
+          {
+            "level": "14",
+            "caps": 5200,
+            "maxRarity": "4"
+          },
+          {
+            "level": "15",
+            "caps": 5950,
+            "maxRarity": "4"
+          },
+          {
+            "level": "16",
+            "caps": 6750,
+            "maxRarity": "4"
+          },
+          {
+            "level": "17",
+            "caps": 7600,
+            "maxRarity": "5"
+          },
+          {
+            "level": "18",
+            "caps": 8500,
+            "maxRarity": "5"
+          },
+          {
+            "level": "19",
+            "caps": 9450,
+            "maxRarity": "5"
+          },
+          {
+            "level": "20",
+            "caps": 10450,
+            "maxRarity": "5"
+          },
+          {
+            "level": "21+",
+            "caps": "Level ×50",
+            "maxRarity": "Any"
+          }
         ]
       }
     }
