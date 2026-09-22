@@ -29,10 +29,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for 5mm Round"
+        "artworkSource": "repository alias for 5mm Round",
+        "page": 91
       }
     }
   }

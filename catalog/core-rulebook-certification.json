@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 92,
-      "sourcePage": 90
+      "pdfPage": 96,
+      "sourcePage": 94
     },
     "fr": {
-      "pdfPage": 93,
-      "sourcePage": 90
+      "pdfPage": 97,
+      "sourcePage": 94
     }
   },
   "pageReviews": [
@@ -754,6 +754,38 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 93,
+      "sourcePage": 91,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 94,
+      "sourcePage": 92,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 95,
+      "sourcePage": 93,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 96,
+      "sourcePage": 94,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -1495,6 +1527,38 @@
       "sourcePage": 90,
       "section": "Chapter Four — Équipement",
       "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 94,
+      "sourcePage": 91,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 95,
+      "sourcePage": 92,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 96,
+      "sourcePage": 93,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 97,
+      "sourcePage": 94,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
       "status": "verified"
     }
   ],
@@ -7629,6 +7693,1013 @@
           "Unreliable"
         ],
         "localizationNote": "The official French rules use the corresponding terms Armes lourdes, Armes à énergie, Explosifs, Armes de corps à corps, Armes légères, Projectiles and Mains nues; damage is Balistiques, Énergétiques, Radiation or Poison; Extreme range is abbreviated E in French."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": ".308 Round",
+      "localizedNames": {
+        "fr": "Cartouche .308"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "fuCYfiQzOvr4WtJI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "6+3dc",
+        "cost": 3,
+        "rarity": 1,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": ".38 Round",
+      "localizedNames": {
+        "fr": "Cartouche .38"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "UJQaP4A50u2tSG6G",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "10+5dc",
+        "cost": 1,
+        "rarity": 0,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": ".44 Magnum Round",
+      "localizedNames": {
+        "fr": "Cartouche .44"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "kxgO3CwKpqR9lYLS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          93
+        ],
+        "fr": [
+          91,
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 3,
+        "rarity": 3,
+        "detailPage": 93,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": ".45 Round",
+      "localizedNames": {
+        "fr": "Cartouche .45"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "VBJiFg5GpSOzyENW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "8+4dc",
+        "cost": 3,
+        "rarity": 2,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": ".50 Round",
+      "localizedNames": {
+        "fr": "Calibre .50"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "mHatIy0FNJtYZxtU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          93
+        ],
+        "fr": [
+          91,
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 4,
+        "rarity": 3,
+        "detailPage": 93,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "10mm Round",
+      "localizedNames": {
+        "fr": "Cartouche 10 mm"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "1Mku27VQTcwBCwOF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "8+4dc",
+        "cost": 2,
+        "rarity": 0,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "2mm Electromagnetic Cartridge",
+      "localizedNames": {
+        "fr": "CE 2 mm"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "cZPDBjJXa2hCjW0K",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          94
+        ],
+        "fr": [
+          91,
+          94
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "6+3dc",
+        "cost": 10,
+        "rarity": 5,
+        "detailPage": 94,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "5.56mm Round",
+      "localizedNames": {
+        "fr": "Cartouche 5,56 mm"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "J72UfCpxbBpYr6W5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          93
+        ],
+        "fr": [
+          91,
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "8+4dc",
+        "cost": 2,
+        "rarity": 3,
+        "detailPage": 93,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "5mm Round",
+      "localizedNames": {
+        "fr": "Cartouche 5 mm"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "299nvpoTfu1mwKTX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          93
+        ],
+        "fr": [
+          91,
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "10*(12+6dc)",
+        "cost": 1,
+        "rarity": 3,
+        "detailPage": 93,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "rule_text",
+      "sourceName": "Ammunition",
+      "localizedNames": {
+        "fr": "Munitions"
+      },
+      "scope": "out_of_scope",
+      "justification": "General ammunition-use and acquisition procedure; concrete ammunition identities are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          91
+        ],
+        "fr": [
+          91
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "Small guns, energy weapons and big guns consume their listed ammunition in shots. An attack consumes one shot; extra ammunition can improve attacks through Fire Rate or Burst, and Gatling weapons consume ammunition at ten times the normal rate."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "table",
+      "sourceName": "Ammunition Availability and Rarity",
+      "localizedNames": {
+        "fr": "Disponibilité et rareté des munitions"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table used as the source inventory and mechanical baseline for ammunition Items; it is not a random RollTable document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          91
+        ],
+        "fr": [
+          91
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 20,
+        "note": "Nineteen concrete ammunition identities are certified from this table. The generic Syringer Ammo row is a category whose nine concrete forms are defined on p.93."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Flamer Fuel",
+      "localizedNames": {
+        "fr": "Carburant de lance-flammes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "0Ci0Jcpuca6rSqkL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "12+6dc",
+        "cost": 1,
+        "rarity": 2,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Flare",
+      "localizedNames": {
+        "fr": "Fusée éclairante"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "K5VQLz4YU7eZIkAF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "2+1dc",
+        "cost": 1,
+        "rarity": 1,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Fusion Cell",
+      "localizedNames": {
+        "fr": "Cellule à fusion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "Oc7xNpMREJ8N5u3v",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "14+7dc",
+        "cost": 3,
+        "rarity": 2,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Fusion Core",
+      "localizedNames": {
+        "fr": "Réacteur à fusion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "9DjIa4OVZOUAZ00i",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          94
+        ],
+        "fr": [
+          91,
+          94
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "1",
+        "cost": 200,
+        "rarity": 3,
+        "detailPage": 94,
+        "weightLb": 4,
+        "errataApplied": [
+          "p.94 Q3 2026: the Fusion Core restriction refers to the Scrounger perk, not Scavenger."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Gamma Round",
+      "localizedNames": {
+        "fr": "Cartouche Gamma"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "PPA4fiWvfoRf0ZBs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 10,
+        "rarity": 2,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Mini-Nuke",
+      "localizedNames": {
+        "fr": "Mini-bombe nucléaire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "gpthlPtWrerYP7Kn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          94
+        ],
+        "fr": [
+          91,
+          94
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "1+1dc",
+        "cost": 100,
+        "rarity": 6,
+        "detailPage": 94,
+        "weightLb": 12
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Missile",
+      "localizedNames": {
+        "fr": "Missile"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "7wHhQWCH5t1h8gAR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          94
+        ],
+        "fr": [
+          91,
+          94
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "2+1dc",
+        "cost": 25,
+        "rarity": 3,
+        "detailPage": 94,
+        "weightLb": 7
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Plasma Cartridge",
+      "localizedNames": {
+        "fr": "Cartouche au plasma"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "aYG2QbgizqTfxAiy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          94
+        ],
+        "fr": [
+          91,
+          94
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "10+5dc",
+        "cost": 5,
+        "rarity": 4,
+        "detailPage": 94,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Railway Spike",
+      "localizedNames": {
+        "fr": "Clou de rail"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "yGiPeDsETWQBjCdT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "6+3dc",
+        "cost": 1,
+        "rarity": 2,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "sidebar",
+      "sourceName": "Reloading!",
+      "localizedNames": {
+        "fr": "Rechargement !"
+      },
+      "scope": "out_of_scope",
+      "justification": "General weapon-handling sidebar, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          91
+        ],
+        "fr": [
+          91
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "The game does not track magazine capacity or a reload action; reloading is assumed to happen automatically as part of using and maintaining a weapon."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammo",
+      "sourceName": "Shotgun Shell",
+      "localizedNames": {
+        "fr": "Calibre 12"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable ammunition Item defined by the Core ammunition table and detailed description.",
+      "pack": "ammunition",
+      "documentId": "PZWO5Wj3kzBXCJJM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          91,
+          92
+        ],
+        "fr": [
+          91,
+          92
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "6+3dc",
+        "cost": 3,
+        "rarity": 1,
+        "detailPage": 92,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "ammunition_category",
+      "sourceName": "Syringer Ammo",
+      "localizedNames": {
+        "fr": "Munitions de pistolet à seringues"
+      },
+      "scope": "out_of_scope",
+      "justification": "Umbrella ammunition category in the p.91 availability table; the nine concrete reusable syringe-ammunition identities are individually defined and certified on p.93.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          91,
+          93
+        ],
+        "fr": [
+          91,
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "rarity": 2,
+        "concreteIdentityCount": 9
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 91,
+      "type": "rule_text",
+      "sourceName": "Weapon Weight, Cost, and Rarity",
+      "localizedNames": {
+        "fr": "Poids, coût et rareté des armes"
+      },
+      "scope": "out_of_scope",
+      "justification": "General interpretation rules for weapon fields, not standalone reusable compendium documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          91
+        ],
+        "fr": [
+          91
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "Weapon weight is listed in pounds before mods; cost is listed in caps before mods; rarity is the base weapon rarity and may be increased by especially rare or effective mods."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Berserk Syringe",
+      "localizedNames": {
+        "fr": "Folie furieuse"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrBerserkAmmo01",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 50,
+        "rarity": 2,
+        "effect": "Target becomes frenzied and attacks the nearest living creature for the remainder of the scene."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Bleed-Out Syringe",
+      "localizedNames": {
+        "fr": "Hémorragie"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrBleedOutAmmo1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 17,
+        "rarity": 2,
+        "effect": "Weapon gains Persistent."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Bloatfly Larva Syringe",
+      "localizedNames": {
+        "fr": "Larve de mouche bouffie"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrBloatflyAmmo1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 10,
+        "rarity": 2,
+        "effect": "If an Effect is rolled, a Bloatfly emerges from the target’s remains when it dies."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Endangerol Syringe",
+      "localizedNames": {
+        "fr": "Dangerol"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrEndangerolA01",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 60,
+        "rarity": 2,
+        "effect": "If an Effect is rolled, the target’s Physical DR is reduced by 2 for the remainder of the scene."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Lock Joint Syringe",
+      "localizedNames": {
+        "fr": "Artibloc"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrLockJointAm01",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 40,
+        "rarity": 2,
+        "effect": "Weapon gains Stun."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Mind Cloud Syringe",
+      "localizedNames": {
+        "fr": "Embrumaze"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrMindCloudAm01",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 73,
+        "rarity": 2,
+        "effect": "If an Effect is rolled, all target PER tests increase in difficulty by 2 for rounds equal to Effects rolled."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Pax Syringe",
+      "localizedNames": {
+        "fr": "Pax"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrPaxAmmo000001",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 39,
+        "rarity": 2,
+        "effect": "If an Effect is rolled, the target cannot take hostile or aggressive actions for rounds equal to Effects rolled."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Radscorpion Venom Syringe",
+      "localizedNames": {
+        "fr": "Venin de radscorpion"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrRadVenomAm001",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 65,
+        "rarity": 2,
+        "effect": "Weapon gains +1 CD damage and Persistent (Poison)."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 93,
+      "type": "ammo",
+      "sourceName": "Yellow Belly Syringe",
+      "localizedNames": {
+        "fr": "Escampoudréine"
+      },
+      "scope": "in_scope",
+      "justification": "Concrete reusable Syringer ammunition Item fully defined in the Core p.93 table.",
+      "pack": "ammunition",
+      "documentId": "SyrYellowBelly01",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          93
+        ],
+        "fr": [
+          93
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "quantityRoll": "4+2dc",
+        "cost": 55,
+        "rarity": 2,
+        "effect": "If an Effect is rolled, the target must spend at least one action each turn moving directly away from all enemies for rounds equal to Effects rolled."
       }
     }
   ]

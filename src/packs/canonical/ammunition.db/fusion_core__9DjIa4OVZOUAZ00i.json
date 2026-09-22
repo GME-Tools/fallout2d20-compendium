@@ -32,7 +32,8 @@
         "errata": "Fallout 2d20 Core Rulebook Errata, version 6.0 (February 2026)",
         "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 91
       }
     }
   }

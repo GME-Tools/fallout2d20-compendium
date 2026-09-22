@@ -968,3 +968,112 @@ test("Core weapon rules pp.88-90 are source-inventoried without inventing standa
   ]);
   assert.match(rules.certification.localizationNote, /Extreme range is abbreviated E in French/);
 });
+
+
+test("Core ammunition pp.91-94 matches the source table, detailed profiles, localization and errata", async () => {
+  const standard = new Map([
+    ["UJQaP4A50u2tSG6G", [".38 Round", "Cartouche .38", "10+5dc", 1, 0, null]],
+    ["1Mku27VQTcwBCwOF", ["10mm Round", "Cartouche 10 mm", "8+4dc", 2, 0, null]],
+    ["fuCYfiQzOvr4WtJI", [".308 Round", "Cartouche .308", "6+3dc", 3, 1, null]],
+    ["K5VQLz4YU7eZIkAF", ["Flare", "Fusée éclairante", "2+1dc", 1, 1, null]],
+    ["PZWO5Wj3kzBXCJJM", ["Shotgun Shell", "Calibre 12", "6+3dc", 3, 1, null]],
+    ["VBJiFg5GpSOzyENW", [".45 Round", "Cartouche .45", "8+4dc", 3, 2, null]],
+    ["0Ci0Jcpuca6rSqkL", ["Flamer Fuel", "Carburant de lance-flammes", "12+6dc", 1, 2, null]],
+    ["Oc7xNpMREJ8N5u3v", ["Fusion Cell", "Cellule à fusion", "14+7dc", 3, 2, null]],
+    ["PPA4fiWvfoRf0ZBs", ["Gamma Round", "Cartouche Gamma", "4+2dc", 10, 2, null]],
+    ["yGiPeDsETWQBjCdT", ["Railway Spike", "Clou de rail", "6+3dc", 1, 2, null]],
+    ["kxgO3CwKpqR9lYLS", [".44 Magnum Round", "Cartouche .44", "4+2dc", 3, 3, null]],
+    ["mHatIy0FNJtYZxtU", [".50 Round", "Calibre .50", "4+2dc", 4, 3, null]],
+    ["J72UfCpxbBpYr6W5", ["5.56mm Round", "Cartouche 5,56 mm", "8+4dc", 2, 3, null]],
+    ["299nvpoTfu1mwKTX", ["5mm Round", "Cartouche 5 mm", "10*(12+6dc)", 1, 3, null]],
+    ["9DjIa4OVZOUAZ00i", ["Fusion Core", "Réacteur à fusion", "1", 200, 3, 4]],
+    ["7wHhQWCH5t1h8gAR", ["Missile", "Missile", "2+1dc", 25, 3, 7]],
+    ["aYG2QbgizqTfxAiy", ["Plasma Cartridge", "Cartouche au plasma", "10+5dc", 5, 4, null]],
+    ["cZPDBjJXa2hCjW0K", ["2mm Electromagnetic Cartridge", "CE 2 mm", "6+3dc", 10, 5, null]],
+    ["gpthlPtWrerYP7Kn", ["Mini-Nuke", "Mini-bombe nucléaire", "1+1dc", 100, 6, 12]]
+  ]);
+  const syringe = new Map([
+    ["SyrBerserkAmmo01", ["Berserk Syringe", "Folie furieuse", 50]],
+    ["SyrBleedOutAmmo1", ["Bleed-Out Syringe", "Hémorragie", 17]],
+    ["SyrBloatflyAmmo1", ["Bloatfly Larva Syringe", "Larve de mouche bouffie", 10]],
+    ["SyrEndangerolA01", ["Endangerol Syringe", "Dangerol", 60]],
+    ["SyrLockJointAm01", ["Lock Joint Syringe", "Artibloc", 40]],
+    ["SyrMindCloudAm01", ["Mind Cloud Syringe", "Embrumaze", 73]],
+    ["SyrPaxAmmo000001", ["Pax Syringe", "Pax", 39]],
+    ["SyrRadVenomAm001", ["Radscorpion Venom Syringe", "Venin de radscorpion", 65]],
+    ["SyrYellowBelly01", ["Yellow Belly Syringe", "Escampoudréine", 55]]
+  ]);
+
+  const ammoEntries = catalog.entries.filter(entry => entry.pack === "ammunition" && [91, 93].includes(entry.page));
+  assert.equal(ammoEntries.length, 28);
+  assert.equal(catalog.entries.find(entry => entry.sourceName === "Ammunition Availability and Rarity").certification.rowCount, 20);
+  assert.equal(catalog.entries.find(entry => entry.sourceName === "Syringer Ammo").certification.concreteIdentityCount, 9);
+
+  const docsByLanguage = {};
+  for (const language of ["en", "fr"]) {
+    docsByLanguage[language] = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "ammunition")
+        .map(({ document }) => [document._id, document])
+    );
+  }
+
+  for (const [id, [enName, frName, quantityRoll, cost, rarity, weightLb]] of standard) {
+    const entry = catalog.entries.find(candidate => candidate.documentId === id);
+    assert.ok(entry, id + " missing from certification inventory");
+    assert.equal(entry.page, 91);
+    assert.equal(entry.status, "verified");
+    for (const language of ["en", "fr"]) {
+      const doc = docsByLanguage[language].get(id);
+      assert.ok(doc, language + "/ammunition/" + id + " missing");
+      assert.equal(doc.flags["fallout2d20-compendium"].source.page, 91);
+      assert.equal(doc.name, language === "en" ? enName : frName);
+      assert.equal(doc.system.quantityRoll, quantityRoll);
+      assert.equal(doc.system.cost, cost);
+      assert.equal(doc.system.rarity, rarity);
+      assert.equal(doc.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      if (language === "fr") assert.equal(doc.flags["fallout2d20-compendium"].source.translationReviewed, true);
+    }
+    const en = docsByLanguage.en.get(id);
+    const fr = docsByLanguage.fr.get(id);
+    if (weightLb === null) {
+      assert.ok(en.system.weight < 1, enName + " must remain <1 lb as printed");
+      assert.equal(fr.system.weight, en.system.weight / 2, frName + " must preserve the project kg=lb/2 convention");
+    } else {
+      assert.equal(en.system.weight, weightLb);
+      assert.equal(fr.system.weight, weightLb / 2);
+    }
+  }
+
+  for (const [id, [enName, frName, cost]] of syringe) {
+    const entry = catalog.entries.find(candidate => candidate.documentId === id);
+    assert.ok(entry, id + " missing from certification inventory");
+    assert.equal(entry.page, 93);
+    for (const language of ["en", "fr"]) {
+      const doc = docsByLanguage[language].get(id);
+      assert.ok(doc);
+      assert.equal(doc.flags["fallout2d20-compendium"].source.page, 93);
+      assert.equal(doc.name, language === "en" ? enName : frName);
+      assert.equal(doc.system.quantityRoll, "4+2dc");
+      assert.equal(doc.system.cost, cost);
+      assert.equal(doc.system.rarity, 2);
+    }
+  }
+
+  const enFusionCore = docsByLanguage.en.get("9DjIa4OVZOUAZ00i").system.description;
+  const frFusionCore = docsByLanguage.fr.get("9DjIa4OVZOUAZ00i").system.description;
+  assert.match(enFusionCore, /Scrounger perk cannot increase the number of fusion cores found/);
+  assert.doesNotMatch(enFusionCore, /Scavenger perk cannot increase the number of fusion cores found/);
+  assert.match(frFusionCore, /Farfouilleur/);
+  assert.doesNotMatch(docsByLanguage.en.get("Oc7xNpMREJ8N5u3v").system.description, /by default item is set to average shots result/i);
+  assert.doesNotMatch(enFusionCore, /item defaults to a default base charge level/i);
+
+  assert.match(docsByLanguage.en.get("SyrBerserkAmmo01").system.description, /attacking the nearest living creature/);
+  assert.match(docsByLanguage.fr.get("SyrBerserkAmmo01").system.description, /créature vivante la plus proche/);
+  assert.match(docsByLanguage.en.get("SyrEndangerolA01").system.description, /Physical damage resistance is reduced by 2/);
+  assert.match(docsByLanguage.fr.get("SyrEndangerolA01").system.description, /résistance aux dégâts balistiques de la cible est réduite de 2/);
+  assert.match(docsByLanguage.en.get("SyrMindCloudAm01").system.description, /\+2 difficulty to all PER tests/);
+  assert.match(docsByLanguage.fr.get("SyrMindCloudAm01").system.description, /difficulté de tous ses tests de PER augmente de \+2/);
+  assert.match(docsByLanguage.en.get("SyrRadVenomAm001").system.description, /Persistent \(Poison\)/);
+  assert.match(docsByLanguage.fr.get("SyrRadVenomAm001").system.description, /Persistant \(Poison\)/);
+});

@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–92, through printed/source page 90.
-- FR PDF physical pages 1–93, through printed/source page 90.
+- EN PDF physical pages 1–96, through printed/source page 94.
+- FR PDF physical pages 1–97, through printed/source page 94.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
   (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
@@ -179,7 +179,7 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks explicit source classification and canonical rule notes through p.90, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, and the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
+It now also checks explicit source classification and canonical rule notes through p.94, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, and the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,
