@@ -939,3 +939,32 @@ test("Core p.87 modification procedure applies the Q3 2026 unique-mod erratum", 
   assert.match(modifying.certification.installRule, /Spend 2 AP/);
   assert.match(modifying.certification.localizationNote, /mod de fonctionnalité/);
 });
+
+
+test("Core weapon rules pp.88-90 are source-inventoried without inventing standalone documents", () => {
+  const rules = catalog.entries.find(entry => entry.page === 88 && entry.sourceName === "Weapons, Ammunition, and Weapon Mods");
+  assert.ok(rules);
+  assert.equal(rules.scope, "out_of_scope");
+  assert.equal(rules.status, "out_of_scope");
+  assert.deepEqual(rules.sourcePages, { en: [88, 89, 90], fr: [88, 89, 90] });
+  assert.deepEqual(rules.certification.weaponTypes, [
+    "Big Guns", "Energy Weapons", "Explosives", "Melee Weapons", "Small Guns", "Throwing", "Unarmed"
+  ]);
+  assert.deepEqual(rules.certification.damageEffects, [
+    "Burst", "Breaking", "Persistent", "Piercing X", "Radioactive", "Spread", "Stun", "Vicious"
+  ]);
+  assert.deepEqual(rules.certification.damageTypes, ["Physical", "Energy", "Radiation", "Poison"]);
+  assert.match(rules.certification.fireRate, /0 to 6/);
+  assert.match(rules.certification.fireRate, /additional shot spent adds \+1 CD/);
+  assert.deepEqual(rules.certification.ranges, {
+    C: "Close — same zone",
+    M: "Medium — adjacent zone",
+    L: "Long — two zones away",
+    X: "Extreme — three or more zones away"
+  });
+  assert.deepEqual(rules.certification.qualities, [
+    "Accurate", "Blast", "Close Quarters", "Concealed", "Debilitating", "Gatling", "Inaccurate",
+    "Mine", "Night Vision", "Parry", "Recon", "Reliable", "Suppressed", "Thrown", "Two-Handed", "Unreliable"
+  ]);
+  assert.match(rules.certification.localizationNote, /Extreme range is abbreviated E in French/);
+});

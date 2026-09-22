@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 89,
-      "sourcePage": 87
+      "pdfPage": 92,
+      "sourcePage": 90
     },
     "fr": {
-      "pdfPage": 90,
-      "sourcePage": 87
+      "pdfPage": 93,
+      "sourcePage": 90
     }
   },
   "pageReviews": [
@@ -634,6 +634,126 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 78,
+      "sourcePage": 76,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 79,
+      "sourcePage": 77,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 80,
+      "sourcePage": 78,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 81,
+      "sourcePage": 79,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 82,
+      "sourcePage": 80,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 83,
+      "sourcePage": 81,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 84,
+      "sourcePage": 82,
+      "section": "Chapter Three / Chapter Four transition",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 85,
+      "sourcePage": 83,
+      "section": "Chapter Three / Chapter Four transition",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 86,
+      "sourcePage": 84,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 87,
+      "sourcePage": 85,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 88,
+      "sourcePage": 86,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 89,
+      "sourcePage": 87,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 90,
+      "sourcePage": 88,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 91,
+      "sourcePage": 89,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 92,
+      "sourcePage": 90,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -1258,54 +1378,6 @@
       "status": "verified"
     },
     {
-      "language": "en",
-      "pdfPage": 78,
-      "sourcePage": 76,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 79,
-      "sourcePage": 77,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 80,
-      "sourcePage": 78,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 81,
-      "sourcePage": 79,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 82,
-      "sourcePage": 80,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 83,
-      "sourcePage": 81,
-      "section": "Chapter Three — Character Creation",
-      "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
       "language": "fr",
       "pdfPage": 79,
       "sourcePage": 76,
@@ -1351,54 +1423,6 @@
       "sourcePage": 81,
       "section": "Chapter Three — Création de personnage",
       "disposition": "contains_certified_entries",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 84,
-      "sourcePage": 82,
-      "section": "Chapter Three / Chapter Four transition",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 85,
-      "sourcePage": 83,
-      "section": "Chapter Three / Chapter Four transition",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 86,
-      "sourcePage": 84,
-      "section": "Chapter Four — Equipment",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 87,
-      "sourcePage": 85,
-      "section": "Chapter Four — Equipment",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 88,
-      "sourcePage": 86,
-      "section": "Chapter Four — Equipment",
-      "disposition": "no_in_scope_content",
-      "status": "verified"
-    },
-    {
-      "language": "en",
-      "pdfPage": 89,
-      "sourcePage": 87,
-      "section": "Chapter Four — Equipment",
-      "disposition": "no_in_scope_content",
       "status": "verified"
     },
     {
@@ -1445,6 +1469,30 @@
       "language": "fr",
       "pdfPage": 90,
       "sourcePage": 87,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 91,
+      "sourcePage": 88,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 92,
+      "sourcePage": 89,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 93,
+      "sourcePage": 90,
       "section": "Chapter Four — Équipement",
       "disposition": "no_in_scope_content",
       "status": "verified"
@@ -1544,20 +1592,6 @@
     {
       "publication": "core_rulebook",
       "page": 28,
-      "type": "reference_table",
-      "sourceName": "Weapon Range Difficulty",
-      "localizedNames": {
-        "fr": "Modificateurs de difficulté en fonction de la portée"
-      },
-      "scope": "out_of_scope",
-      "justification": "Static rules reference table, not a genuinely random RollTable.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 28,
       "type": "RollTable",
       "sourceName": "Hit Locations",
       "localizedNames": {
@@ -1608,6 +1642,20 @@
           "note": "Added on p.28 by the 6 April 2022 errata; ranges and hit locations verified against the errata."
         }
       ]
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 28,
+      "type": "reference_table",
+      "sourceName": "Weapon Range Difficulty",
+      "localizedNames": {
+        "fr": "Modificateurs de difficulté en fonction de la portée"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static rules reference table, not a genuinely random RollTable.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
     },
     {
       "publication": "core_rulebook",
@@ -2069,25 +2117,6 @@
     {
       "publication": "core_rulebook",
       "page": 47,
-      "type": "Item",
-      "sourceName": "Unarmed",
-      "localizedNames": {
-        "fr": "Mains nues"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "skills",
-      "documentId": "5xAG0eRrcvDeJAFk",
-      "status": "verified",
-      "certification": {
-        "defaultAttribute": "str",
-        "descriptionReviewed": true,
-        "frTranslationReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 47,
       "type": "rule_text",
       "sourceName": "Derived Statistics",
       "localizedNames": {
@@ -2113,6 +2142,25 @@
       "pack": null,
       "documentId": null,
       "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 47,
+      "type": "Item",
+      "sourceName": "Unarmed",
+      "localizedNames": {
+        "fr": "Mains nues"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "skills",
+      "documentId": "5xAG0eRrcvDeJAFk",
+      "status": "verified",
+      "certification": {
+        "defaultAttribute": "str",
+        "descriptionReviewed": true,
+        "frTranslationReviewed": true
+      }
     },
     {
       "publication": "core_rulebook",
@@ -2159,6 +2207,20 @@
     {
       "publication": "core_rulebook",
       "page": 51,
+      "type": "origin_prose",
+      "sourceName": "Brotherhood Initiate",
+      "localizedNames": {
+        "fr": "Initié de la Confrérie"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 51,
       "type": "Item",
       "sourceName": "The Chain that Binds",
       "localizedNames": {
@@ -2172,11 +2234,11 @@
     },
     {
       "publication": "core_rulebook",
-      "page": 51,
+      "page": 52,
       "type": "origin_prose",
-      "sourceName": "Brotherhood Initiate",
+      "sourceName": "Ghoul",
       "localizedNames": {
-        "fr": "Initié de la Confrérie"
+        "fr": "Goule"
       },
       "scope": "out_of_scope",
       "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
@@ -2198,20 +2260,6 @@
       "documentId": "yova9LubVGA18nar",
       "status": "verified",
       "localizationNote": "The official French text says difficulty and complication range; canonical EN mechanics require the alternatives, so FR uses « ou » while preserving the official localization otherwise."
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 52,
-      "type": "origin_prose",
-      "sourceName": "Ghoul",
-      "localizedNames": {
-        "fr": "Goule"
-      },
-      "scope": "out_of_scope",
-      "justification": "Origins remain manual character-creation text; their reusable structured traits are inventoried separately.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
     },
     {
       "publication": "core_rulebook",
@@ -2244,58 +2292,18 @@
     {
       "publication": "core_rulebook",
       "page": 54,
-      "type": "Item",
-      "sourceName": "Buzz-Saw",
+      "type": "structured_reference",
+      "sourceName": "10mm Auto Pistol",
       "localizedNames": {
-        "fr": "Scie circulaire"
+        "fr": "Pistolet automatique 10 mm"
       },
       "scope": "in_scope",
       "justification": null,
       "pack": "weapons",
-      "documentId": "QYgc3wH8JS3YGJ34",
+      "documentId": "bKHsUZI6Z6xrAEHg",
       "status": "verified",
-      "certification": {
-        "mechanics": [
-          "3 CD physical",
-          "Piercing 1"
-        ],
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 54,
-      "type": "Item",
-      "sourceName": "Pincer",
-      "localizedNames": {
-        "fr": "Pince"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "weapons",
-      "documentId": "VFRfwbor9PwEKdRZ",
-      "status": "verified",
-      "certification": {
-        "mechanics": [
-          "2 CD physical",
-          "40 lb / 20 kg manipulation limit"
-        ],
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 54,
-      "type": "origin_prose",
-      "sourceName": "Mister Handy",
-      "localizedNames": {
-        "fr": "Mister Handy"
-      },
-      "scope": "out_of_scope",
-      "justification": "Origin prose is not published as a standalone document; the trait, arm attachments and random hit-location table are inventoried separately.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
+      "identityRole": "reference",
+      "certificationScope": "p.54 arm-attachment relation only; full weapon profile is certified at its equipment source page."
     },
     {
       "publication": "core_rulebook",
@@ -2314,32 +2322,23 @@
     {
       "publication": "core_rulebook",
       "page": 54,
-      "type": "RollTable",
-      "sourceName": "Mister Handy Hit Locations",
+      "type": "Item",
+      "sourceName": "Buzz-Saw",
       "localizedNames": {
-        "fr": "Localisation des dégâts sur Mister Handy"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "roll-tables",
-      "documentId": "963402fa82f3a941",
-      "status": "verified"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 54,
-      "type": "structured_reference",
-      "sourceName": "10mm Auto Pistol",
-      "localizedNames": {
-        "fr": "Pistolet automatique 10 mm"
+        "fr": "Scie circulaire"
       },
       "scope": "in_scope",
       "justification": null,
       "pack": "weapons",
-      "documentId": "bKHsUZI6Z6xrAEHg",
+      "documentId": "QYgc3wH8JS3YGJ34",
       "status": "verified",
-      "identityRole": "reference",
-      "certificationScope": "p.54 arm-attachment relation only; full weapon profile is certified at its equipment source page."
+      "certification": {
+        "mechanics": [
+          "3 CD physical",
+          "Piercing 1"
+        ],
+        "descriptionReviewed": true
+      }
     },
     {
       "publication": "core_rulebook",
@@ -2372,6 +2371,55 @@
       "status": "verified",
       "identityRole": "reference",
       "certificationScope": "p.54 arm-attachment relation only; full laser profile is certified at its equipment source page."
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "origin_prose",
+      "sourceName": "Mister Handy",
+      "localizedNames": {
+        "fr": "Mister Handy"
+      },
+      "scope": "out_of_scope",
+      "justification": "Origin prose is not published as a standalone document; the trait, arm attachments and random hit-location table are inventoried separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "RollTable",
+      "sourceName": "Mister Handy Hit Locations",
+      "localizedNames": {
+        "fr": "Localisation des dégâts sur Mister Handy"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "963402fa82f3a941",
+      "status": "verified"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 54,
+      "type": "Item",
+      "sourceName": "Pincer",
+      "localizedNames": {
+        "fr": "Pince"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "weapons",
+      "documentId": "VFRfwbor9PwEKdRZ",
+      "status": "verified",
+      "certification": {
+        "mechanics": [
+          "2 CD physical",
+          "40 lb / 20 kg manipulation limit"
+        ],
+        "descriptionReviewed": true
+      }
     },
     {
       "publication": "core_rulebook",
@@ -2474,26 +2522,6 @@
     {
       "publication": "core_rulebook",
       "page": 57,
-      "type": "Item",
-      "sourceName": "Vault Kid",
-      "localizedNames": {
-        "fr": "Né à l’Abri"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "traits",
-      "documentId": "XbVNgNTQ9MLaAWEx",
-      "status": "verified",
-      "errata": [
-        {
-          "id": "errata-v6-2026",
-          "note": "Q2 2024: reduce the difficulty of all END tests to resist disease effects by 1, to a minimum of 0; applied to canonical EN and adapted FR text."
-        }
-      ]
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 57,
       "type": "origin_prose",
       "sourceName": "Vault Dweller",
       "localizedNames": {
@@ -2518,6 +2546,26 @@
       "pack": null,
       "documentId": null,
       "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 57,
+      "type": "Item",
+      "sourceName": "Vault Kid",
+      "localizedNames": {
+        "fr": "Né à l’Abri"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "traits",
+      "documentId": "XbVNgNTQ9MLaAWEx",
+      "status": "verified",
+      "errata": [
+        {
+          "id": "errata-v6-2026",
+          "note": "Q2 2024: reduce the difficulty of all END tests to resist disease effects by 1, to a minimum of 0; applied to canonical EN and adapted FR text."
+        }
+      ]
     },
     {
       "publication": "core_rulebook",
@@ -2554,34 +2602,6 @@
       "sourceName": "Step 3: Tag Skills and Buy Skill Ranks",
       "localizedNames": {
         "fr": "Étape 3 : atouts personnels et achats de rangs de compétence"
-      },
-      "scope": "out_of_scope",
-      "justification": "General character-creation rules, not a reusable standalone compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 59,
-      "type": "rule_text",
-      "sourceName": "Step 4: Choose Your First Perk",
-      "localizedNames": {
-        "fr": "Étape 4 : choisir sa première aptitude"
-      },
-      "scope": "out_of_scope",
-      "justification": "General character-creation rules, not a reusable standalone compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope"
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 59,
-      "type": "rule_text",
-      "sourceName": "Level Requirements",
-      "localizedNames": {
-        "fr": "Niveau requis"
       },
       "scope": "out_of_scope",
       "justification": "General character-creation rules, not a reusable standalone compendium document.",
@@ -2694,6 +2714,34 @@
         "diceSymbolsReviewed": true,
         "descriptionReviewed": true
       }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "rule_text",
+      "sourceName": "Level Requirements",
+      "localizedNames": {
+        "fr": "Niveau requis"
+      },
+      "scope": "out_of_scope",
+      "justification": "General character-creation rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 59,
+      "type": "rule_text",
+      "sourceName": "Step 4: Choose Your First Perk",
+      "localizedNames": {
+        "fr": "Étape 4 : choisir sa première aptitude"
+      },
+      "scope": "out_of_scope",
+      "justification": "General character-creation rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
     },
     {
       "publication": "core_rulebook",
@@ -2867,139 +2915,6 @@
       "publication": "core_rulebook",
       "page": 61,
       "type": "Item",
-      "sourceName": "Blitz",
-      "localizedNames": {
-        "fr": "Blitz"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "U8yM23ldUGYYtta1",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          61
-        ],
-        "fr": [
-          60
-        ]
-      },
-      "certification": {
-        "ranks": 2,
-        "diceSymbolsReviewed": true,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 62,
-      "type": "Item",
-      "sourceName": "Center Mass",
-      "localizedNames": {
-        "fr": "Barycentre"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "Nc22rM5RB37dOPcO",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          62
-        ],
-        "fr": [
-          60
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 66,
-      "type": "Item",
-      "sourceName": "Lead Belly",
-      "localizedNames": {
-        "fr": "Boyaux plombés"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "wE5dyJKCl7gysWci",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          66
-        ],
-        "fr": [
-          60,
-          61
-        ]
-      },
-      "certification": {
-        "ranks": 2,
-        "diceSymbolsReviewed": true,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 70,
-      "type": "Item",
-      "sourceName": "Rad Resistance",
-      "localizedNames": {
-        "fr": "Antiradiations"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "TFJbnmRbE7cisziV",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          70
-        ],
-        "fr": [
-          60
-        ]
-      },
-      "certification": {
-        "ranks": 2,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 72,
-      "type": "Item",
-      "sourceName": "Smooth Talker",
-      "localizedNames": {
-        "fr": "Beau parleur"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "fhBw3zhOo6EuZy2j",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          72
-        ],
-        "fr": [
-          60
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 61,
-      "type": "Item",
       "sourceName": "Big Leagues",
       "localizedNames": {
         "fr": "Force de frappe"
@@ -3072,6 +2987,33 @@
       },
       "certification": {
         "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 61,
+      "type": "Item",
+      "sourceName": "Blitz",
+      "localizedNames": {
+        "fr": "Blitz"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "U8yM23ldUGYYtta1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          61
+        ],
+        "fr": [
+          60
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "diceSymbolsReviewed": true,
         "descriptionReviewed": true
       }
     },
@@ -3173,6 +3115,32 @@
         ],
         "fr": [
           67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 62,
+      "type": "Item",
+      "sourceName": "Center Mass",
+      "localizedNames": {
+        "fr": "Barycentre"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Nc22rM5RB37dOPcO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          62
+        ],
+        "fr": [
+          60
         ]
       },
       "certification": {
@@ -3420,6 +3388,35 @@
     },
     {
       "publication": "core_rulebook",
+      "page": 63,
+      "type": "Actor",
+      "sourceName": "Dogmeat",
+      "localizedNames": {
+        "fr": "Canigou"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "denizens",
+      "documentId": "zflSJmUFBiNAFEwR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          63
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "actorStatsReviewed": true,
+        "embeddedItemsReviewed": true,
+        "embeddedAbilitiesReviewed": true,
+        "localizationReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
       "page": 64,
       "type": "Item",
       "sourceName": "Entomologist",
@@ -3633,32 +3630,6 @@
       "publication": "core_rulebook",
       "page": 65,
       "type": "Item",
-      "sourceName": "Hunter",
-      "localizedNames": {
-        "fr": "Chasseur"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "zB82J3WJ7ld01RYR",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          65
-        ],
-        "fr": [
-          62
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 65,
-      "type": "Item",
       "sourceName": "Gun Nut",
       "localizedNames": {
         "fr": "Fana d’armes"
@@ -3687,298 +3658,6 @@
           "note": "8 April 2021: Gun Nut has 4 ranks, not 3; canonical rank count verified as 4."
         }
       ]
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 66,
-      "type": "Item",
-      "sourceName": "Intense Training",
-      "localizedNames": {
-        "fr": "Exercice"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "P3SMmJulZT5OyArI",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          66
-        ],
-        "fr": [
-          63
-        ]
-      },
-      "certification": {
-        "ranks": 10,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 66,
-      "type": "Item",
-      "sourceName": "Jury Rigging",
-      "localizedNames": {
-        "fr": "Bricolage"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "trdF2qUBRHrj3YNW",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          66
-        ],
-        "fr": [
-          61
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 66,
-      "type": "Item",
-      "sourceName": "Laser Commander",
-      "localizedNames": {
-        "fr": "Commandant laser"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "VtCwIMtash7XcwxP",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          66
-        ],
-        "fr": [
-          62
-        ]
-      },
-      "certification": {
-        "ranks": 2,
-        "descriptionReviewed": true,
-        "diceSymbolsReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 69,
-      "type": "Item",
-      "sourceName": "Pharma Farma",
-      "localizedNames": {
-        "fr": "Farmer la pharma"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "E3vqYT7JvmyDeFyU",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          69
-        ],
-        "fr": [
-          64
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 69,
-      "type": "Item",
-      "sourceName": "Party Boy/Party Girl",
-      "localizedNames": {
-        "fr": "Fêtard/Fêtarde"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "iDaMlrcxl6kEm3Ex",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          69
-        ],
-        "fr": [
-          64
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 70,
-      "type": "Item",
-      "sourceName": "Quick Draw",
-      "localizedNames": {
-        "fr": "Dégainage rapide"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "Xz1V9etWzTtwt5x5",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          70
-        ],
-        "fr": [
-          63
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 70,
-      "type": "Item",
-      "sourceName": "Robotics Expert",
-      "localizedNames": {
-        "fr": "Expert en robotique"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "GiPKNxmrkWA2k76W",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          70
-        ],
-        "fr": [
-          63,
-          64
-        ]
-      },
-      "certification": {
-        "ranks": 3,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 71,
-      "type": "Item",
-      "sourceName": "Scoundrel",
-      "localizedNames": {
-        "fr": "Canaille"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "j4XUYfEZwmvkfXBe",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          71
-        ],
-        "fr": [
-          61
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 71,
-      "type": "Item",
-      "sourceName": "Scrounger",
-      "localizedNames": {
-        "fr": "Farfouilleur"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "zXQUHfk3g9d7WDG1",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          71
-        ],
-        "fr": [
-          64
-        ]
-      },
-      "certification": {
-        "ranks": 3,
-        "descriptionReviewed": true,
-        "diceSymbolsReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 71,
-      "type": "Item",
-      "sourceName": "Shotgun Surgeon",
-      "localizedNames": {
-        "fr": "Chirurgien de la chevrotine"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "SfcMrqZU78wIJQ0r",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          71
-        ],
-        "fr": [
-          62
-        ]
-      },
-      "certification": {
-        "ranks": 1,
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 63,
-      "type": "Actor",
-      "sourceName": "Dogmeat",
-      "localizedNames": {
-        "fr": "Canigou"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "denizens",
-      "documentId": "zflSJmUFBiNAFEwR",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          63
-        ],
-        "fr": [
-          61
-        ]
-      },
-      "certification": {
-        "actorStatsReviewed": true,
-        "embeddedItemsReviewed": true,
-        "embeddedAbilitiesReviewed": true,
-        "localizationReviewed": true,
-        "diceSymbolsReviewed": true
-      }
     },
     {
       "publication": "core_rulebook",
@@ -4091,6 +3770,32 @@
       "publication": "core_rulebook",
       "page": 65,
       "type": "Item",
+      "sourceName": "Hunter",
+      "localizedNames": {
+        "fr": "Chasseur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "zB82J3WJ7ld01RYR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
       "sourceName": "Infiltrator",
       "localizedNames": {
         "fr": "Infiltrateur"
@@ -4136,6 +3841,32 @@
       },
       "certification": {
         "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Intense Training",
+      "localizedNames": {
+        "fr": "Exercice"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "P3SMmJulZT5OyArI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 10,
         "descriptionReviewed": true
       }
     },
@@ -4189,6 +3920,87 @@
       },
       "certification": {
         "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Jury Rigging",
+      "localizedNames": {
+        "fr": "Bricolage"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "trdF2qUBRHrj3YNW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Laser Commander",
+      "localizedNames": {
+        "fr": "Commandant laser"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "VtCwIMtash7XcwxP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Lead Belly",
+      "localizedNames": {
+        "fr": "Boyaux plombés"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "wE5dyJKCl7gysWci",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          60,
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "diceSymbolsReviewed": true,
         "descriptionReviewed": true
       }
     },
@@ -4567,6 +4379,106 @@
       "publication": "core_rulebook",
       "page": 69,
       "type": "Item",
+      "sourceName": "Party Boy/Party Girl",
+      "localizedNames": {
+        "fr": "Fêtard/Fêtarde"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "iDaMlrcxl6kEm3Ex",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Pathfinder",
+      "localizedNames": {
+        "fr": "Pisteur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "RhITTHDy13MufCZy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Pharma Farma",
+      "localizedNames": {
+        "fr": "Farmer la pharma"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "E3vqYT7JvmyDeFyU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "rule_text",
+      "sourceName": "Pickin’ Pockets",
+      "localizedNames": {
+        "fr": "Faire les poches"
+      },
+      "scope": "out_of_scope",
+      "justification": "General pickpocketing rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          68
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
       "sourceName": "Pickpocket",
       "localizedNames": {
         "fr": "Pickpocket"
@@ -4619,6 +4531,59 @@
       "publication": "core_rulebook",
       "page": 70,
       "type": "Item",
+      "sourceName": "Pyromaniac",
+      "localizedNames": {
+        "fr": "Pyromane"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "aNO3ZBQmBGS9A94C",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Quick Draw",
+      "localizedNames": {
+        "fr": "Dégainage rapide"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Xz1V9etWzTtwt5x5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          63
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
       "sourceName": "Quick Hands",
       "localizedNames": {
         "fr": "Mains lestes"
@@ -4651,129 +4616,26 @@
       "publication": "core_rulebook",
       "page": 70,
       "type": "Item",
-      "sourceName": "Rifleman",
+      "sourceName": "Rad Resistance",
       "localizedNames": {
-        "fr": "Fusilier"
+        "fr": "Antiradiations"
       },
       "scope": "in_scope",
       "justification": null,
       "pack": "perks",
-      "documentId": "RkftnkHGKVnz6URN",
+      "documentId": "TFJbnmRbE7cisziV",
       "status": "verified",
       "sourcePages": {
         "en": [
           70
         ],
         "fr": [
-          65
+          60
         ]
       },
       "certification": {
         "ranks": 2,
-        "descriptionReviewed": true,
-        "diceSymbolsReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 72,
-      "type": "Item",
-      "sourceName": "Size Matters",
-      "localizedNames": {
-        "fr": "La taille compte"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "fGZ6h4VtddiXvpZ3",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          72
-        ],
-        "fr": [
-          66
-        ]
-      },
-      "certification": {
-        "ranks": 3,
-        "descriptionReviewed": true,
-        "diceSymbolsReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 69,
-      "type": "rule_text",
-      "sourceName": "Pickin’ Pockets",
-      "localizedNames": {
-        "fr": "Faire les poches"
-      },
-      "scope": "out_of_scope",
-      "justification": "General pickpocketing rules, not a reusable standalone compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope",
-      "sourcePages": {
-        "en": [
-          69
-        ],
-        "fr": [
-          68
-        ]
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 69,
-      "type": "Item",
-      "sourceName": "Pathfinder",
-      "localizedNames": {
-        "fr": "Pisteur"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "RhITTHDy13MufCZy",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          69
-        ],
-        "fr": [
-          69
-        ]
-      },
-      "certification": {
-        "ranks": 1,
         "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 70,
-      "type": "Item",
-      "sourceName": "Pyromaniac",
-      "localizedNames": {
-        "fr": "Pyromane"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "perks",
-      "documentId": "aNO3ZBQmBGS9A94C",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          70
-        ],
-        "fr": [
-          69
-        ]
-      },
-      "certification": {
-        "ranks": 3,
-        "descriptionReviewed": true,
-        "diceSymbolsReviewed": true
       }
     },
     {
@@ -4830,6 +4692,60 @@
     },
     {
       "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Rifleman",
+      "localizedNames": {
+        "fr": "Fusilier"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "RkftnkHGKVnz6URN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Robotics Expert",
+      "localizedNames": {
+        "fr": "Expert en robotique"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "GiPKNxmrkWA2k76W",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          63,
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
       "page": 71,
       "type": "Item",
       "sourceName": "Science!",
@@ -4864,6 +4780,32 @@
       "publication": "core_rulebook",
       "page": 71,
       "type": "Item",
+      "sourceName": "Scoundrel",
+      "localizedNames": {
+        "fr": "Canaille"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "j4XUYfEZwmvkfXBe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          61
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
       "sourceName": "Scrapper",
       "localizedNames": {
         "fr": "Recycleur"
@@ -4883,6 +4825,59 @@
       },
       "certification": {
         "ranks": 2,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Scrounger",
+      "localizedNames": {
+        "fr": "Farfouilleur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "zXQUHfk3g9d7WDG1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          64
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 71,
+      "type": "Item",
+      "sourceName": "Shotgun Surgeon",
+      "localizedNames": {
+        "fr": "Chirurgien de la chevrotine"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "SfcMrqZU78wIJQ0r",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          71
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
         "descriptionReviewed": true
       }
     },
@@ -4916,6 +4911,33 @@
       "publication": "core_rulebook",
       "page": 72,
       "type": "Item",
+      "sourceName": "Size Matters",
+      "localizedNames": {
+        "fr": "La taille compte"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "fGZ6h4VtddiXvpZ3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
       "sourceName": "Slayer",
       "localizedNames": {
         "fr": "Tueur"
@@ -4931,6 +4953,32 @@
         ],
         "fr": [
           72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Smooth Talker",
+      "localizedNames": {
+        "fr": "Beau parleur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "fhBw3zhOo6EuZy2j",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          60
         ]
       },
       "certification": {
@@ -5197,56 +5245,6 @@
     {
       "publication": "core_rulebook",
       "page": 76,
-      "type": "rule_text",
-      "sourceName": "Step 6: Choose Equipment",
-      "localizedNames": {
-        "fr": "Étape 6 : choisir son équipement"
-      },
-      "scope": "out_of_scope",
-      "justification": "Character-creation procedure text, not a standalone reusable compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope",
-      "sourcePages": {
-        "en": [
-          76
-        ],
-        "fr": [
-          76
-        ]
-      },
-      "certification": {
-        "canonicalMechanicsReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 76,
-      "type": "sidebar",
-      "sourceName": "Programming or Individuality?",
-      "localizedNames": {
-        "fr": "Programmation ou individualité ?"
-      },
-      "scope": "out_of_scope",
-      "justification": "Narrative character-concept guidance for Mister Handy equipment packages, not a reusable structured game document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope",
-      "sourcePages": {
-        "en": [
-          76
-        ],
-        "fr": [
-          76
-        ]
-      },
-      "certification": {
-        "descriptionReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 76,
       "type": "equipment_bundle",
       "sourceName": "Brotherhood of Steel Initiate",
       "localizedNames": {
@@ -5404,6 +5402,56 @@
             "role": "referenced item"
           }
         ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 76,
+      "type": "sidebar",
+      "sourceName": "Programming or Individuality?",
+      "localizedNames": {
+        "fr": "Programmation ou individualité ?"
+      },
+      "scope": "out_of_scope",
+      "justification": "Narrative character-concept guidance for Mister Handy equipment packages, not a reusable structured game document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          76
+        ],
+        "fr": [
+          76
+        ]
+      },
+      "certification": {
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 76,
+      "type": "rule_text",
+      "sourceName": "Step 6: Choose Equipment",
+      "localizedNames": {
+        "fr": "Étape 6 : choisir son équipement"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation procedure text, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          76
+        ],
+        "fr": [
+          76
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true
       }
     },
     {
@@ -6442,6 +6490,59 @@
     {
       "publication": "core_rulebook",
       "page": 80,
+      "type": "rule_text",
+      "sourceName": "Personal Trinkets",
+      "localizedNames": {
+        "fr": "Babioles personnelles"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-creation rule text surrounding a reusable random table; the random table itself is certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          80
+        ],
+        "fr": [
+          80
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "mechanic": "If the equipment pack includes a personal trinket, once per quest outside combat the character may contemplate it to regain 1 Luck Point; optional non-package trinkets do not restore Luck."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 80,
+      "type": "RollTable",
+      "sourceName": "Random Trinkets",
+      "localizedNames": {
+        "fr": "Babioles aléatoires"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "roll-tables",
+      "documentId": "NSMq85o2aSfE60Aa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          80
+        ],
+        "fr": [
+          80
+        ]
+      },
+      "certification": {
+        "formula": "1d20",
+        "results": 20,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 80,
       "type": "equipment_bundle",
       "sourceName": "Trader",
       "localizedNames": {
@@ -6661,55 +6762,128 @@
     },
     {
       "publication": "core_rulebook",
-      "page": 80,
-      "type": "rule_text",
-      "sourceName": "Personal Trinkets",
+      "page": 81,
+      "type": "structured_table",
+      "sourceName": "Additional Caps by Starting Level",
       "localizedNames": {
-        "fr": "Babioles personnelles"
+        "fr": "Capsules supplémentaires en fonction du niveau de départ"
       },
       "scope": "out_of_scope",
-      "justification": "Character-creation rule text surrounding a reusable random table; the random table itself is certified separately.",
+      "justification": "Static character-build progression table, not a reusable random RollTable or standalone compendium document.",
       "pack": null,
       "documentId": null,
       "status": "out_of_scope",
       "sourcePages": {
         "en": [
-          80
+          81
         ],
         "fr": [
-          80
+          81
         ]
       },
       "certification": {
-        "canonicalMechanicsReviewed": true,
-        "mechanic": "If the equipment pack includes a personal trinket, once per quest outside combat the character may contemplate it to regain 1 Luck Point; optional non-package trinkets do not restore Luck."
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 80,
-      "type": "RollTable",
-      "sourceName": "Random Trinkets",
-      "localizedNames": {
-        "fr": "Babioles aléatoires"
-      },
-      "scope": "in_scope",
-      "justification": null,
-      "pack": "roll-tables",
-      "documentId": "NSMq85o2aSfE60Aa",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          80
-        ],
-        "fr": [
-          80
+        "rows": [
+          {
+            "level": "2",
+            "caps": 100,
+            "maxRarity": "1"
+          },
+          {
+            "level": "3",
+            "caps": 250,
+            "maxRarity": "1"
+          },
+          {
+            "level": "4",
+            "caps": 450,
+            "maxRarity": "1"
+          },
+          {
+            "level": "5",
+            "caps": 700,
+            "maxRarity": "2"
+          },
+          {
+            "level": "6",
+            "caps": 1000,
+            "maxRarity": "2"
+          },
+          {
+            "level": "7",
+            "caps": 1350,
+            "maxRarity": "2"
+          },
+          {
+            "level": "8",
+            "caps": 1750,
+            "maxRarity": "2"
+          },
+          {
+            "level": "9",
+            "caps": 2200,
+            "maxRarity": "3"
+          },
+          {
+            "level": "10",
+            "caps": 2700,
+            "maxRarity": "3"
+          },
+          {
+            "level": "11",
+            "caps": 3250,
+            "maxRarity": "3"
+          },
+          {
+            "level": "12",
+            "caps": 3850,
+            "maxRarity": "3"
+          },
+          {
+            "level": "13",
+            "caps": 4500,
+            "maxRarity": "4"
+          },
+          {
+            "level": "14",
+            "caps": 5200,
+            "maxRarity": "4"
+          },
+          {
+            "level": "15",
+            "caps": 5950,
+            "maxRarity": "4"
+          },
+          {
+            "level": "16",
+            "caps": 6750,
+            "maxRarity": "4"
+          },
+          {
+            "level": "17",
+            "caps": 7600,
+            "maxRarity": "5"
+          },
+          {
+            "level": "18",
+            "caps": 8500,
+            "maxRarity": "5"
+          },
+          {
+            "level": "19",
+            "caps": 9450,
+            "maxRarity": "5"
+          },
+          {
+            "level": "20",
+            "caps": 10450,
+            "maxRarity": "5"
+          },
+          {
+            "level": "21+",
+            "caps": "Level ×50",
+            "maxRarity": "Any"
+          }
         ]
-      },
-      "certification": {
-        "formula": "1d20",
-        "results": 20,
-        "descriptionReviewed": true
       }
     },
     {
@@ -6989,132 +7163,6 @@
     },
     {
       "publication": "core_rulebook",
-      "page": 81,
-      "type": "structured_table",
-      "sourceName": "Additional Caps by Starting Level",
-      "localizedNames": {
-        "fr": "Capsules supplémentaires en fonction du niveau de départ"
-      },
-      "scope": "out_of_scope",
-      "justification": "Static character-build progression table, not a reusable random RollTable or standalone compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope",
-      "sourcePages": {
-        "en": [
-          81
-        ],
-        "fr": [
-          81
-        ]
-      },
-      "certification": {
-        "rows": [
-          {
-            "level": "2",
-            "caps": 100,
-            "maxRarity": "1"
-          },
-          {
-            "level": "3",
-            "caps": 250,
-            "maxRarity": "1"
-          },
-          {
-            "level": "4",
-            "caps": 450,
-            "maxRarity": "1"
-          },
-          {
-            "level": "5",
-            "caps": 700,
-            "maxRarity": "2"
-          },
-          {
-            "level": "6",
-            "caps": 1000,
-            "maxRarity": "2"
-          },
-          {
-            "level": "7",
-            "caps": 1350,
-            "maxRarity": "2"
-          },
-          {
-            "level": "8",
-            "caps": 1750,
-            "maxRarity": "2"
-          },
-          {
-            "level": "9",
-            "caps": 2200,
-            "maxRarity": "3"
-          },
-          {
-            "level": "10",
-            "caps": 2700,
-            "maxRarity": "3"
-          },
-          {
-            "level": "11",
-            "caps": 3250,
-            "maxRarity": "3"
-          },
-          {
-            "level": "12",
-            "caps": 3850,
-            "maxRarity": "3"
-          },
-          {
-            "level": "13",
-            "caps": 4500,
-            "maxRarity": "4"
-          },
-          {
-            "level": "14",
-            "caps": 5200,
-            "maxRarity": "4"
-          },
-          {
-            "level": "15",
-            "caps": 5950,
-            "maxRarity": "4"
-          },
-          {
-            "level": "16",
-            "caps": 6750,
-            "maxRarity": "4"
-          },
-          {
-            "level": "17",
-            "caps": 7600,
-            "maxRarity": "5"
-          },
-          {
-            "level": "18",
-            "caps": 8500,
-            "maxRarity": "5"
-          },
-          {
-            "level": "19",
-            "caps": 9450,
-            "maxRarity": "5"
-          },
-          {
-            "level": "20",
-            "caps": 10450,
-            "maxRarity": "5"
-          },
-          {
-            "level": "21+",
-            "caps": "Level ×50",
-            "maxRarity": "Any"
-          }
-        ]
-      }
-    },
-    {
-      "publication": "core_rulebook",
       "page": 82,
       "type": "page",
       "sourceName": "Character Creation closing artwork",
@@ -7165,31 +7213,6 @@
       "publication": "core_rulebook",
       "page": 84,
       "type": "rule_text",
-      "sourceName": "Obtaining Equipment",
-      "localizedNames": {
-        "fr": "Obtenir de l’équipement"
-      },
-      "scope": "out_of_scope",
-      "justification": "General equipment-acquisition rules prose, not a standalone reusable compendium document.",
-      "pack": null,
-      "documentId": null,
-      "status": "out_of_scope",
-      "sourcePages": {
-        "en": [
-          84
-        ],
-        "fr": [
-          84
-        ]
-      },
-      "certification": {
-        "canonicalMechanicsReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 84,
-      "type": "rule_text",
       "sourceName": "Caps",
       "localizedNames": {
         "fr": "Capsules"
@@ -7210,6 +7233,31 @@
       "certification": {
         "canonicalMechanicsReviewed": true,
         "note": "Prices and monetary rewards are denominated in caps unless otherwise stated."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 84,
+      "type": "rule_text",
+      "sourceName": "Obtaining Equipment",
+      "localizedNames": {
+        "fr": "Obtenir de l’équipement"
+      },
+      "scope": "out_of_scope",
+      "justification": "General equipment-acquisition rules prose, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          84
+        ],
+        "fr": [
+          84
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true
       }
     },
     {
@@ -7275,13 +7323,13 @@
     {
       "publication": "core_rulebook",
       "page": 85,
-      "type": "rule_text",
-      "sourceName": "Selling",
+      "type": "sidebar",
+      "sourceName": "Bulk Buy!",
       "localizedNames": {
-        "fr": "Vente"
+        "fr": "Les prix de gros"
       },
       "scope": "out_of_scope",
-      "justification": "General transaction procedure, not a standalone reusable compendium document.",
+      "justification": "Transaction example/sidebar guidance, not a standalone reusable compendium document.",
       "pack": null,
       "documentId": null,
       "status": "out_of_scope",
@@ -7290,12 +7338,12 @@
           85
         ],
         "fr": [
-          85
+          86
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "mechanic": "A sold item yields one quarter of its value, rounded down, before haggling adjustments; traders also have a finite supply of caps."
+        "mechanic": "Aggregate all items bought or sold to one trader and make one haggling roll for the whole transaction."
       }
     },
     {
@@ -7327,13 +7375,13 @@
     {
       "publication": "core_rulebook",
       "page": 85,
-      "type": "sidebar",
-      "sourceName": "Bulk Buy!",
+      "type": "rule_text",
+      "sourceName": "Selling",
       "localizedNames": {
-        "fr": "Les prix de gros"
+        "fr": "Vente"
       },
       "scope": "out_of_scope",
-      "justification": "Transaction example/sidebar guidance, not a standalone reusable compendium document.",
+      "justification": "General transaction procedure, not a standalone reusable compendium document.",
       "pack": null,
       "documentId": null,
       "status": "out_of_scope",
@@ -7342,12 +7390,12 @@
           85
         ],
         "fr": [
-          86
+          85
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "mechanic": "Aggregate all items bought or sold to one trader and make one haggling roll for the whole transaction."
+        "mechanic": "A sold item yields one quarter of its value, rounded down, before haggling adjustments; traders also have a finite supply of caps."
       }
     },
     {
@@ -7436,6 +7484,34 @@
       "publication": "core_rulebook",
       "page": 87,
       "type": "rule_text",
+      "sourceName": "Modified Equipment Names",
+      "localizedNames": {
+        "fr": "Noms de l’équipement modifié"
+      },
+      "scope": "out_of_scope",
+      "justification": "General naming guidance for modded equipment, not a standalone reusable compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          87,
+          88
+        ],
+        "fr": [
+          87,
+          88
+        ]
+      },
+      "certification": {
+        "continuationReviewed": true,
+        "note": "The subsection continues onto source p.88 and was read to close the p.87 subsection. Source p.88 is now independently certified as part of the weapon-rules lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 87,
+      "type": "rule_text",
       "sourceName": "Modifying Equipment",
       "localizedNames": {
         "fr": "Modifier de l’équipement"
@@ -7468,30 +7544,91 @@
     },
     {
       "publication": "core_rulebook",
-      "page": 87,
+      "page": 88,
       "type": "rule_text",
-      "sourceName": "Modified Equipment Names",
+      "sourceName": "Weapons, Ammunition, and Weapon Mods",
       "localizedNames": {
-        "fr": "Noms de l’équipement modifié"
+        "fr": "Armes, munitions et mods d’arme"
       },
       "scope": "out_of_scope",
-      "justification": "General naming guidance for modded equipment, not a standalone reusable compendium document.",
+      "justification": "General weapon-stat, damage, range, fire-rate and weapon-quality rules; these define how structured weapon documents are interpreted but are not standalone reusable compendium documents.",
       "pack": null,
       "documentId": null,
       "status": "out_of_scope",
       "sourcePages": {
         "en": [
-          87,
-          88
+          88,
+          89,
+          90
         ],
         "fr": [
-          87,
-          88
+          88,
+          89,
+          90
         ]
       },
       "certification": {
-        "continuationReviewed": true,
-        "note": "The subsection continues onto source p.88; that continuation was read solely to close the p.87 subsection and does not certify the rest of p.88."
+        "canonicalMechanicsReviewed": true,
+        "subrules": [
+          "Weapon Type",
+          "Damage Rating",
+          "Damage Effects",
+          "Damage Type",
+          "Fire Rate",
+          "Range",
+          "Qualities"
+        ],
+        "weaponTypes": [
+          "Big Guns",
+          "Energy Weapons",
+          "Explosives",
+          "Melee Weapons",
+          "Small Guns",
+          "Throwing",
+          "Unarmed"
+        ],
+        "damageEffects": [
+          "Burst",
+          "Breaking",
+          "Persistent",
+          "Piercing X",
+          "Radioactive",
+          "Spread",
+          "Stun",
+          "Vicious"
+        ],
+        "damageTypes": [
+          "Physical",
+          "Energy",
+          "Radiation",
+          "Poison"
+        ],
+        "fireRate": "Fire Rate ranges from 0 to 6. A gun attack spends one shot to attack; each additional shot spent adds +1 CD damage for that attack, up to the weapon’s Fire Rate. Fire Rate 0 prevents spending extra shots for damage.",
+        "ranges": {
+          "C": "Close — same zone",
+          "M": "Medium — adjacent zone",
+          "L": "Long — two zones away",
+          "X": "Extreme — three or more zones away"
+        },
+        "qualities": [
+          "Accurate",
+          "Blast",
+          "Close Quarters",
+          "Concealed",
+          "Debilitating",
+          "Gatling",
+          "Inaccurate",
+          "Mine",
+          "Night Vision",
+          "Parry",
+          "Recon",
+          "Reliable",
+          "Suppressed",
+          "Thrown",
+          "Two-Handed",
+          "Unreliable"
+        ],
+        "localizationNote": "The official French rules use the corresponding terms Armes lourdes, Armes à énergie, Explosifs, Armes de corps à corps, Armes légères, Projectiles and Mains nues; damage is Balistiques, Énergétiques, Radiation or Poison; Extreme range is abbreviated E in French."
       }
     }
   ]
