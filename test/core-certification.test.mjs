@@ -924,7 +924,8 @@ test("Core equipment acquisition rules retain EN canonical mechanics over FR sou
   assert.match(haggling.certification.mechanic, /Success improves the price by 10%/);
   assert.match(haggling.certification.mechanic, /success plus 2 AP improves it by 20%/);
 
-  const barter = catalog.entries.find(entry => entry.sourceName === "Barter");
+  const barter = catalog.entries.find(entry => entry.page === 86 && entry.type === "rule_text" && entry.sourceName === "Barter");
+  assert.ok(barter);
   assert.match(barter.certification.mechanic, /subtract the lower total value from the higher/);
 });
 
