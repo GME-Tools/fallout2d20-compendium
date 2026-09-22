@@ -33,7 +33,8 @@ export const APPROVED_CORE_DUPLICATE_NAME_GROUPS = {
     ["vyesQvmRObpdSNpO", "wUd5pTA33zRH1AWW"],
     ["TxOsscfkniBk2a85", "fyaQkFSXyexqZc0u"],
     ["5rADQbFyMO7zjDSi", "BX0Ox0ZdWJBDNsVl", "CFl42Fhuv4nToKcP", "CMVHMX7fGVSi9SzJ", "aKnqi2PPZyD6qLGe", "e1ycQYWvjDktlxvu", "eakJcz2neDjGIWWP", "frKj2bS1FVy8Ny3O"],
-    ["2bv9B55Mk73ypTCZ", "G6FJ1gEgiS2553IN", "S8t6WX5aWZl3rXqT"]
+    ["2bv9B55Mk73ypTCZ", "G6FJ1gEgiS2553IN", "S8t6WX5aWZl3rXqT"],
+    ["6hh0Evmfv0N8kX81", "CapaBoostCoil001"]
   ]
 };
 
@@ -60,7 +61,6 @@ const APPROVED_LOCALIZED_DUPLICATE_NAME_GROUPS = {
   ],
   "fr/weapon-mods": [
     ["EuJw4xP1fRt5hdCy", "M2Tl0fVG6LzG9wtj", "fTMm3IipqcnU6tm4", "hfiueRXOH8ryrfrv"],
-    ["6hh0Evmfv0N8kX81", "CapaBoostCoil001"],
     ["6oW2tdrYzdu0klW4", "KkRxsFbFTL89H3Ra"],
     ["RyggZv9PwKChzJwB", "MIMSkUavfShkeY8x", "bhpEF2ZReAacz7NI", "cs76CKLMxYAzhNhb"]
   ]

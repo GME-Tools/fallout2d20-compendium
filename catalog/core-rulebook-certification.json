@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 101,
-      "sourcePage": 99
+      "pdfPage": 102,
+      "sourcePage": 100
     },
     "fr": {
-      "pdfPage": 102,
-      "sourcePage": 99
+      "pdfPage": 103,
+      "sourcePage": 100
     }
   },
   "pageReviews": [
@@ -1637,6 +1637,22 @@
       "language": "fr",
       "pdfPage": 102,
       "sourcePage": 99,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 102,
+      "sourcePage": 100,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 103,
+      "sourcePage": 100,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -9940,6 +9956,898 @@
           "Wear and Tear",
           "Ricochet"
         ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "rule_text",
+      "sourceName": "Small Guns Mods installation rule",
+      "localizedNames": {
+        "fr": "Installation des mods d’armes légères"
+      },
+      "scope": "out_of_scope",
+      "justification": "General installation rule for the Small Gun Mods table; the concrete reusable mod rows are certified as weapon-mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "installSkill": "Repair",
+        "localizedInstallSkill": "Réparation",
+        "mechanic": "A Small Gun mod is installed with Repair and may only be installed when the character possesses every perk listed for that mod."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Hardened",
+      "localizedNames": {
+        "fr": "Culasse renforcée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "wWjvfUfknZOxxJlt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Hardened",
+        "localizedPrefix": "Renfort",
+        "effect": "+1 CD damage",
+        "weightLb": 0,
+        "cost": 20,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Powerful",
+      "localizedNames": {
+        "fr": "Culasse puissante"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "41rymX7pm90tz0V8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Powerful",
+        "localizedPrefix": "Puissance",
+        "effect": "+2 CD damage",
+        "weightLb": 1,
+        "cost": 25,
+        "perks": [
+          "Gun Nut 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Advanced",
+      "localizedNames": {
+        "fr": "Culasse avancée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "p0r6B1DzWapL4wU5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Advanced",
+        "localizedPrefix": "Avancé",
+        "effect": "+3 CD damage; +1 Fire Rate",
+        "weightLb": 2,
+        "cost": 35,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Calibrated",
+      "localizedNames": {
+        "fr": "Culasse calibrée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "4c34BzfVex4YKgA3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Calibrated",
+        "localizedPrefix": "Calibrage",
+        "effect": "Gain Vicious",
+        "weightLb": 0,
+        "cost": 25,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Automatic",
+      "localizedNames": {
+        "fr": "Culasse automatique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "Jyy3vdkQv7YCfvFz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Auto",
+        "localizedPrefix": "Auto",
+        "effect": "-1 CD damage; +2 Fire Rate; Gain Burst; Gain Inaccurate",
+        "weightLb": 1,
+        "cost": 30,
+        "perks": [
+          "Gun Nut 1"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Hair Trigger",
+      "localizedNames": {
+        "fr": "Culasse haute sensibilité"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "GROQd2poQkix32N4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Hair Trigger",
+        "localizedPrefix": "Haute sensibilité",
+        "effect": "+1 Fire Rate",
+        "weightLb": 0,
+        "cost": 20,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": ".38 Receiver",
+      "localizedNames": {
+        "fr": "Culasse .38"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "oiW2VvXVdhGgw4oL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": ".38",
+        "localizedPrefix": ".38",
+        "effect": "Set damage to 4 CD; ammunition becomes .38",
+        "weightLb": 3,
+        "cost": 20,
+        "perks": [
+          "Gun Nut 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": ".308 Receiver",
+      "localizedNames": {
+        "fr": "Culasse .308"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "ybNloPq9nZTqGAur",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": ".308",
+        "localizedPrefix": ".308",
+        "effect": "Set damage to 7 CD; ammunition becomes .308",
+        "weightLb": 4,
+        "cost": 40,
+        "perks": [
+          "Gun Nut 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": ".45 Receiver",
+      "localizedNames": {
+        "fr": "Culasse .45"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "zpUwoy1BLHyUXuvy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": ".45",
+        "localizedPrefix": ".45",
+        "effect": "Set damage to 4 CD; +1 Fire Rate; ammunition becomes .45",
+        "weightLb": 2,
+        "cost": 19,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": ".50 Receiver",
+      "localizedNames": {
+        "fr": "Culasse .50"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "XShTCPVSPhRDhMBo",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": ".50",
+        "localizedPrefix": ".50",
+        "effect": "Set damage to 8 CD; Gain Vicious; ammunition becomes .50",
+        "weightLb": 4,
+        "cost": 30,
+        "perks": [
+          "Gun Nut 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Automatic Piston",
+      "localizedNames": {
+        "fr": "Culasse automatique à piston"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "nGgcu0NLeLIbc3Pi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "receiver",
+        "prefix": "Automatic",
+        "localizedPrefix": "Auto",
+        "effect": "+2 Fire Rate; reduce Range by 1 step",
+        "weightLb": 2,
+        "cost": 75,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Snubnose",
+      "localizedNames": {
+        "fr": "Canon compact"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "QgUHARJjhqOXBP7u",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Snubnosed",
+        "localizedPrefix": "Canon compact",
+        "effect": "Gain Inaccurate",
+        "weightLb": -1,
+        "cost": 0,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Bull Barrel",
+      "localizedNames": {
+        "fr": "Canon extra-lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "aDXdsogK2fIHtBNE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Bull Barrel",
+        "localizedPrefix": "Canon extra-lourd",
+        "effect": "Gain Reliable",
+        "weightLb": 0,
+        "cost": 10,
+        "perks": [
+          "Gun Nut 3"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Long",
+      "localizedNames": {
+        "fr": "Canon long"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "RyggZv9PwKChzJwB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Long",
+        "localizedPrefix": "Longueur",
+        "effect": "Increase Range by 1 step",
+        "weightLb": 1,
+        "cost": 20,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "auditCorrection": "Repository cost corrected from 10 to the source value 20."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Ported",
+      "localizedNames": {
+        "fr": "Canon à ouvertures"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "Ac56Ox5nVHcJ8PIA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Ported",
+        "localizedPrefix": "Ouvertures",
+        "effect": "Increase Range by 1 step; +1 Fire Rate",
+        "weightLb": 1,
+        "cost": 35,
+        "perks": [
+          "Gun Nut 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Vented",
+      "localizedNames": {
+        "fr": "Canon ventilé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "yxSF6qdbdO4FYaQb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Vented",
+        "localizedPrefix": "Aération",
+        "effect": "Increase Range by 1 step; +1 Fire Rate; Gain Reliable",
+        "weightLb": 1,
+        "cost": 36,
+        "perks": [
+          "Gun Nut 4"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Sawed-Off",
+      "localizedNames": {
+        "fr": "Canon scié"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "Iec8KCIeHqCk886z",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Sawed Off",
+        "localizedPrefix": "Canon scié",
+        "effect": "Remove Two-Handed; Gain Close Quarters",
+        "weightLb": -2,
+        "cost": 3,
+        "perks": []
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Shielded Barrel",
+      "localizedNames": {
+        "fr": "Canon protégé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "iiF3omvvTgVv5LoP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Shielded",
+        "localizedPrefix": "Protection",
+        "effect": "+1 CD damage",
+        "weightLb": 0,
+        "cost": 37,
+        "perks": [
+          "Gun Nut 3"
+        ],
+        "errataApplied": [
+          "April 2021: Shielded Barrel is present in the Small Gun Mods table.",
+          "Q3 2026: Repair is removed from the Perks column; Gun Nut 3 remains. Repair remains the table-wide installation skill."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Finned",
+      "localizedNames": {
+        "fr": "Canon à ailettes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "aCMBNHf2jilKz2Zg",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "barrel",
+        "prefix": "Finned",
+        "localizedPrefix": "Ailettes",
+        "effect": "+1 CD damage; increase Range by 1 step",
+        "weightLb": 2,
+        "cost": 15,
+        "perks": [
+          "Gun Nut 2"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Full Capacitors",
+      "localizedNames": {
+        "fr": "Condensateurs intégraux"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "bS7ZxJKZA2JAhPV8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          97,
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "prefix": "High Capacity",
+        "localizedPrefix": "Grande capacité",
+        "effect": "Gain Vicious",
+        "weightLb": 0,
+        "cost": 37,
+        "perks": [
+          "Gun Nut 3",
+          "Science! 2"
+        ],
+        "errataApplied": [
+          "September 2022: Full Capacitors added to the Small Gun Mods table."
+        ],
+        "localizationNote": "The official French p.100 table predates this added row. The official French Gauss Rifle profile on p.97 supplies the name « condensateurs intégraux »; mechanics follow EN + Errata."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Capacitor Boosting Coil",
+      "localizedNames": {
+        "fr": "Bobine de suppression de condensateur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "6hh0Evmfv0N8kX81",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          97,
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "capacitor",
+        "prefix": "Maximum Capacity",
+        "localizedPrefix": "Capacité maximale",
+        "effect": "+1 CD damage; Gain Vicious",
+        "weightLb": 2,
+        "cost": 82,
+        "perks": [
+          "Gun Nut 4",
+          "Science! 3"
+        ],
+        "errataApplied": [
+          "September 2022: Capacitor Boosting Coil added to the Small Gun Mods table."
+        ],
+        "localizationNote": "The official French p.100 table predates this added row. The official French Gauss Rifle profile on p.97 supplies the name « bobine de suppression de condensateur »; mechanics follow EN + Errata."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Large Magazine",
+      "localizedNames": {
+        "fr": "Grand chargeur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "dh2R5SMlhGBmDuAU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "magazine",
+        "prefix": "High Capacity",
+        "localizedPrefix": "Grande capacité",
+        "effect": "+1 Fire Rate; Gain Unreliable",
+        "weightLb": 1,
+        "cost": 8,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "errataApplied": [
+          "April 2021: magazine mods added to the table.",
+          "September 2022: Large Magazine cost corrected to +8."
+        ],
+        "localizationNote": "The official French p.100 table prints cost -3; canonical EN + Errata cost +8 is used. Its p.100 install requirement is Gun Nut 2 / Fana d’armes 2; the later p.222 crafting recipe separately requires Gun Nut 1."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Quick-Eject Mag",
+      "localizedNames": {
+        "fr": "Chargeur à éjection rapide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "067VeMDTeThvISLa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "magazine",
+        "prefix": "Quick",
+        "localizedPrefix": "Vitesse",
+        "effect": "Gain Reliable",
+        "weightLb": 0,
+        "cost": 8,
+        "perks": [
+          "Gun Nut 1"
+        ],
+        "errataApplied": [
+          "April 2021: magazine mods added to the Small Gun Mods table."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Large Quick-Eject Mag",
+      "localizedNames": {
+        "fr": "Grand chargeur à éjection rapide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Small Gun mod Item defined by the Core p.100 table.",
+      "pack": "weapon-mods",
+      "documentId": "x7XsKzM5Iyisd9lA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "modType": "magazine",
+        "prefix": "Quick High Capacity",
+        "localizedPrefix": "Vitesse & grande capacité",
+        "effect": "+1 Fire Rate",
+        "weightLb": 1,
+        "cost": 23,
+        "perks": [
+          "Gun Nut 2"
+        ],
+        "errataApplied": [
+          "April 2021: magazine mods added to the Small Gun Mods table."
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 100,
+      "type": "weapon_mod",
+      "sourceName": "Capacitor Boosting Coil",
+      "localizedNames": {
+        "fr": "Bobine de suppression de condensateur"
+      },
+      "scope": "in_scope",
+      "justification": "Published duplicate root identity retained to preserve the existing stable ID/_key/UUID contract; it does not represent a second source row.",
+      "pack": "weapon-mods",
+      "documentId": "CapaBoostCoil001",
+      "status": "duplicate",
+      "sourcePages": {
+        "en": [
+          100
+        ],
+        "fr": [
+          97,
+          100
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "duplicateOf": "6hh0Evmfv0N8kX81",
+        "reason": "The repository historically contained both a misspelled legacy identity and a second corrected identity. The source has one Capacitor Boosting Coil row. Both stable IDs are retained, but the legacy primary identity used by the Gauss Rifle and the preserved duplicate now carry the same corrected name and mechanics."
       }
     }
   ]

@@ -29,7 +29,7 @@ export const FRENCH_CORE_SUPPORT_DESCRIPTIONS={
     "Tesla Coils":p("Un ensemble d’antennes installées à la surface du robot dirige des décharges électriques à courte distance vers les agresseurs proches. Les alliés ne risquent guère plus qu’une légère décharge, tandis que les ennemis peuvent subir de graves brûlures électriques."),
   },
   "weapon-mods":{
-    "Capacitor Boosting Coil":p("Un condensateur de capacité maximale pour armes légères. Il ajoute 1 dé de dégâts et confère l’effet de dégâts Vicieux."),
+    "Capacitor Boosting Coil":p("Un condensateur de capacité maximale pour armes légères. Il ajoute 1 dé de dégâts et confère l’effet de dégâts Brutal."),
   },
 };
 

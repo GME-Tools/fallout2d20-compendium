@@ -5,8 +5,9 @@
     "/name": "Canon protégé",
     "/system/perks": "Fana d’armes 3",
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/page": 100,
     "/flags/fallout2d20-compendium/source/translatedFrom": "iiF3omvvTgVv5LoP",
-    "/flags/fallout2d20-compendium/source/translationReviewed": true
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/system/namePrefix": "Protection"
   }
 }

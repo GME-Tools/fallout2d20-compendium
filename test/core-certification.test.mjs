@@ -1199,3 +1199,110 @@ test("Core Small Guns pp.95-99 preserve source text and canonicalize errata/loca
   const doubleEntry = catalog.entries.find(entry => entry.documentId === "tNyHslvLL11qSlhc" && entry.page === 95);
   assert.match(doubleEntry.certification.localizationNote, /French p\.95 table prints Fire Rate 1/);
 });
+
+
+test("Core Small Gun Mods p.100 are source-complete and mechanically exact", async () => {
+  const expected = new Map([
+    ["wWjvfUfknZOxxJlt", { en:"Hardened", fr:"Culasse renforcée", type:"receiver", prefixes:["Hardened","Renfort"], weight:0, cost:20, perks:["",""], rating:1 }],
+    ["41rymX7pm90tz0V8", { en:"Powerful", fr:"Culasse puissante", type:"receiver", prefixes:["Powerful","Puissance"], weight:1, cost:25, perks:["Gun Nut 1","Fana d’armes 1"], rating:2 }],
+    ["p0r6B1DzWapL4wU5", { en:"Advanced", fr:"Culasse avancée", type:"receiver", prefixes:["Advanced","Avancé"], weight:2, cost:35, perks:["Gun Nut 2","Fana d’armes 2"], rating:3, fireRate:1 }],
+    ["4c34BzfVex4YKgA3", { en:"Calibrated", fr:"Culasse calibrée", type:"receiver", prefixes:["Calibrated","Calibrage"], weight:0, cost:25, perks:["",""], vicious:1 }],
+    ["Jyy3vdkQv7YCfvFz", { en:"Automatic", fr:"Culasse automatique", type:"receiver", prefixes:["Auto","Auto"], weight:1, cost:30, perks:["Gun Nut 1","Fana d’armes 1"], rating:-1, fireRate:2, burst:1, inaccurate:1 }],
+    ["GROQd2poQkix32N4", { en:"Hair Trigger", fr:"Culasse haute sensibilité", type:"receiver", prefixes:["Hair Trigger","Haute sensibilité"], weight:0, cost:20, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1 }],
+    ["oiW2VvXVdhGgw4oL", { en:".38 Receiver", fr:"Culasse .38", type:"receiver", prefixes:[".38",".38"], weight:3, cost:20, perks:["Gun Nut 4","Fana d’armes 4"], rating:4, override:"override", ammo:[".38 Round","Cartouche .38"] }],
+    ["ybNloPq9nZTqGAur", { en:".308 Receiver", fr:"Culasse .308", type:"receiver", prefixes:[".308",".308"], weight:4, cost:40, perks:["Gun Nut 4","Fana d’armes 4"], rating:7, override:"override", ammo:[".308 Round","Cartouche .308"] }],
+    ["zpUwoy1BLHyUXuvy", { en:".45 Receiver", fr:"Culasse .45", type:"receiver", prefixes:[".45",".45"], weight:2, cost:19, perks:["Gun Nut 2","Fana d’armes 2"], rating:4, override:"override", fireRate:1, ammo:[".45 Round","Cartouche .45"] }],
+    ["XShTCPVSPhRDhMBo", { en:".50 Receiver", fr:"Culasse .50", type:"receiver", prefixes:[".50",".50"], weight:4, cost:30, perks:["Gun Nut 4","Fana d’armes 4"], rating:8, override:"override", vicious:1, ammo:[".50 Round","Calibre .50"] }],
+    ["nGgcu0NLeLIbc3Pi", { en:"Automatic Piston", fr:"Culasse automatique à piston", type:"receiver", prefixes:["Automatic","Auto"], weight:2, cost:75, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:2, range:-1 }],
+    ["QgUHARJjhqOXBP7u", { en:"Snubnose", fr:"Canon compact", type:"barrel", prefixes:["Snubnosed","Canon compact"], weight:-1, cost:0, perks:["",""], inaccurate:1 }],
+    ["aDXdsogK2fIHtBNE", { en:"Bull Barrel", fr:"Canon extra-lourd", type:"barrel", prefixes:["Bull Barrel","Canon extra-lourd"], weight:0, cost:10, perks:["Gun Nut 3","Fana d’armes 3"], reliable:1 }],
+    ["RyggZv9PwKChzJwB", { en:"Long", fr:"Canon long", type:"barrel", prefixes:["Long","Longueur"], weight:1, cost:20, perks:["Gun Nut 1","Fana d’armes 1"], range:1 }],
+    ["Ac56Ox5nVHcJ8PIA", { en:"Ported", fr:"Canon à ouvertures", type:"barrel", prefixes:["Ported","Ouvertures"], weight:1, cost:35, perks:["Gun Nut 4","Fana d’armes 4"], range:1, fireRate:1 }],
+    ["yxSF6qdbdO4FYaQb", { en:"Vented", fr:"Canon ventilé", type:"barrel", prefixes:["Vented","Aération"], weight:1, cost:36, perks:["Gun Nut 4","Fana d’armes 4"], range:1, fireRate:1, reliable:1 }],
+    ["Iec8KCIeHqCk886z", { en:"Sawed-Off", fr:"Canon scié", type:"barrel", prefixes:["Sawed Off","Canon scié"], weight:-2, cost:3, perks:["",""], close_quarters:1, two_handed:-1 }],
+    ["iiF3omvvTgVv5LoP", { en:"Shielded Barrel", fr:"Canon protégé", type:"barrel", prefixes:["Shielded","Protection"], weight:0, cost:37, perks:["Gun Nut 3","Fana d’armes 3"], rating:1 }],
+    ["aCMBNHf2jilKz2Zg", { en:"Finned", fr:"Canon à ailettes", type:"barrel", prefixes:["Finned","Ailettes"], weight:2, cost:15, perks:["Gun Nut 2","Fana d’armes 2"], rating:1, range:1 }],
+    ["bS7ZxJKZA2JAhPV8", { en:"Full Capacitors", fr:"Condensateurs intégraux", type:"capacitor", prefixes:["High Capacity","Grande capacité"], weight:0, cost:37, perks:["Gun Nut 3; Science! 2","Fana d’armes 3; Scientifique 2"], vicious:1 }],
+    ["6hh0Evmfv0N8kX81", { en:"Capacitor Boosting Coil", fr:"Bobine de suppression de condensateur", type:"capacitor", prefixes:["Maximum Capacity","Capacité maximale"], weight:2, cost:82, perks:["Gun Nut 4; Science! 3","Fana d’armes 4; Scientifique 3"], rating:1, vicious:1 }],
+    ["dh2R5SMlhGBmDuAU", { en:"Large Magazine", fr:"Grand chargeur", type:"magazine", prefixes:["High Capacity","Grande capacité"], weight:1, cost:8, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1, unreliable:1 }],
+    ["067VeMDTeThvISLa", { en:"Quick-Eject Mag", fr:"Chargeur à éjection rapide", type:"magazine", prefixes:["Quick","Vitesse"], weight:0, cost:8, perks:["Gun Nut 1","Fana d’armes 1"], reliable:1 }],
+    ["x7XsKzM5Iyisd9lA", { en:"Large Quick-Eject Mag", fr:"Grand chargeur à éjection rapide", type:"magazine", prefixes:["Quick High Capacity","Vitesse & grande capacité"], weight:1, cost:23, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1 }]
+  ]);
+  const entries = catalog.entries.filter(entry => entry.page === 100 && entry.pack === "weapon-mods" && entry.status === "verified");
+  assert.equal(entries.length, 24);
+  assert.deepEqual(new Set(entries.map(entry => entry.documentId)), new Set(expected.keys()));
+  for (const [language, index] of [["en",0],["fr",1]]) {
+    const docs = new Map((await generatedDocuments(language)).filter(({pack}) => pack === "weapon-mods").map(({document}) => [document._id, document]));
+    for (const [id, spec] of expected) {
+      const doc = docs.get(id);
+      assert.ok(doc, language + "/weapon-mods/" + id + " missing");
+      const source = doc.flags["fallout2d20-compendium"].source;
+      assert.equal(source.page, 100, language + "/" + id + " source page");
+      assert.equal(source.errataReviewed, true, language + "/" + id + " errata review");
+      if (language === "fr") assert.equal(source.translationReviewed, true, id + " FR translation review");
+      assert.equal(doc.name, index === 0 ? spec.en : spec.fr);
+      assert.equal(doc.system.modType, spec.type);
+      assert.equal(doc.system.namePrefix, spec.prefixes[index]);
+      assert.equal(doc.system.cost, spec.cost);
+      assert.equal(doc.system.weight ?? 0, (index === 0 ? spec.weight : spec.weight / 2));
+      assert.equal(doc.system.perks ?? "", spec.perks[index]);
+      const effects = doc.system.modEffects;
+      assert.equal(effects.damage.rating, spec.rating ?? 0, language + "/" + spec.en + " damage rating");
+      assert.equal(effects.damage.overrideDamage, spec.override ?? "modify", language + "/" + spec.en + " damage override");
+      assert.equal(effects.fireRate, spec.fireRate ?? 0, language + "/" + spec.en + " fire rate");
+      assert.equal(effects.range, spec.range ?? 0, language + "/" + spec.en + " range");
+      assert.equal(effects.damage.damageEffect?.vicious?.value ?? 0, spec.vicious ?? 0, language + "/" + spec.en + " Vicious");
+      assert.equal(effects.damage.damageEffect?.burst?.value ?? 0, spec.burst ?? 0, language + "/" + spec.en + " Burst");
+      assert.equal(effects.damage.weaponQuality?.inaccurate?.value ?? 0, spec.inaccurate ?? 0, language + "/" + spec.en + " Inaccurate");
+      assert.equal(effects.damage.weaponQuality?.reliable?.value ?? 0, spec.reliable ?? 0, language + "/" + spec.en + " Reliable");
+      assert.equal(effects.damage.weaponQuality?.unreliable?.value ?? 0, spec.unreliable ?? 0, language + "/" + spec.en + " Unreliable");
+      assert.equal(effects.damage.weaponQuality?.close_quarters?.value ?? 0, spec.close_quarters ?? 0, language + "/" + spec.en + " Close Quarters");
+      assert.equal(effects.damage.weaponQuality?.two_handed?.value ?? 0, spec.two_handed ?? 0, language + "/" + spec.en + " Two-Handed delta");
+      if (spec.ammo) assert.equal(effects.ammo, spec.ammo[index]);
+    }
+  }
+});
+
+test("Core p.100 Small Gun mod errata, French adaptations and preserved duplicate are explicit", async () => {
+  const byLang = {};
+  for (const language of ["en","fr"]) byLang[language] = new Map((await generatedDocuments(language)).filter(({pack}) => pack === "weapon-mods").map(({document}) => [document._id,document]));
+
+  const long = byLang.en.get("RyggZv9PwKChzJwB");
+  assert.equal(long.system.cost, 20);
+
+  for (const [language, expectedPerks] of [["en","Gun Nut 2"],["fr","Fana d’armes 2"]]) {
+    const large = byLang[language].get("dh2R5SMlhGBmDuAU");
+    assert.equal(large.system.cost, 8);
+    assert.equal(large.system.perks, expectedPerks);
+    const recipe = large.flags["fallout2d20-compendium"].weaponModRecipes.find(row => row.key === "smallGuns/magazine/Large Magazine");
+    assert.ok(recipe);
+    assert.deepEqual(recipe.perks, [language === "en" ? "Gun Nut 1" : "Fana d’armes 1"]);
+  }
+
+  for (const [language, expectedPerks] of [["en","Gun Nut 3"],["fr","Fana d’armes 3"]]) {
+    const shielded = byLang[language].get("iiF3omvvTgVv5LoP");
+    assert.equal(shielded.system.perks, expectedPerks);
+    assert.doesNotMatch(shielded.system.perks, /Repair|Réparation/);
+  }
+  const installation = catalog.entries.find(entry => entry.page === 100 && entry.sourceName === "Small Guns Mods installation rule");
+  assert.equal(installation.certification.installSkill, "Repair");
+
+  assert.equal(byLang.fr.get("bS7ZxJKZA2JAhPV8").name, "Condensateurs intégraux");
+  for (const language of ["en","fr"]) {
+    const primary = byLang[language].get("6hh0Evmfv0N8kX81");
+    const duplicate = byLang[language].get("CapaBoostCoil001");
+    assert.equal(primary.name, language === "en" ? "Capacitor Boosting Coil" : "Bobine de suppression de condensateur");
+    assert.equal(duplicate.name, primary.name);
+    assert.equal(primary.system.modEffects.damage.rating, 1);
+    assert.equal(primary.system.modEffects.damage.damageEffect.vicious.value, 1);
+    assert.equal(duplicate.system.modEffects.damage.rating, 1);
+    assert.equal(duplicate.system.modEffects.damage.damageEffect.vicious.value, 1);
+  }
+  const duplicateEntry = catalog.entries.find(entry => entry.documentId === "CapaBoostCoil001" && entry.page === 100);
+  assert.equal(duplicateEntry.status, "duplicate");
+  assert.equal(duplicateEntry.certification.duplicateOf, "6hh0Evmfv0N8kX81");
+  const primaryEntry = catalog.entries.find(entry => entry.documentId === "6hh0Evmfv0N8kX81" && entry.page === 100);
+  assert.match(primaryEntry.certification.localizationNote, /official French Gauss Rifle profile on p\.97/);
+  const largeEntry = catalog.entries.find(entry => entry.documentId === "dh2R5SMlhGBmDuAU" && entry.page === 100);
+  assert.match(largeEntry.certification.localizationNote, /prints cost -3/);
+});

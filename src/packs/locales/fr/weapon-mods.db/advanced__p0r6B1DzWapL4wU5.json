@@ -7,10 +7,11 @@
     "/system/perks": "Fana d’armes 2",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/page": 100,
     "/flags/fallout2d20-compendium/source/translatedFrom": "p0r6B1DzWapL4wU5",
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
-    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 2"
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 2",
+    "/system/namePrefix": "Avancé"
   }
 }

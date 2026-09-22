@@ -7,10 +7,11 @@
     "/system/perks": "Fana d’armes 4",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "100-101",
+    "/flags/fallout2d20-compendium/source/page": 100,
     "/flags/fallout2d20-compendium/source/translatedFrom": "yxSF6qdbdO4FYaQb",
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/weaponModRecipes/0/skill": "Réparation",
-    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 4"
+    "/flags/fallout2d20-compendium/weaponModRecipes/0/perks/0": "Fana d’armes 4",
+    "/system/namePrefix": "Aération"
   }
 }
