@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 75,
-      "sourcePage": 73
+      "pdfPage": 77,
+      "sourcePage": 75
     },
     "fr": {
-      "pdfPage": 76,
-      "sourcePage": 73
+      "pdfPage": 78,
+      "sourcePage": 75
     }
   },
   "pageReviews": [
@@ -618,6 +618,22 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 76,
+      "sourcePage": 74,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 77,
+      "sourcePage": 75,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -1223,6 +1239,22 @@
       "sourcePage": 73,
       "section": "Chapter Three — Création de personnage",
       "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 77,
+      "sourcePage": 74,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 78,
+      "sourcePage": 75,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "no_in_scope_content",
       "status": "verified"
     }
   ],
@@ -4920,6 +4952,54 @@
       "certification": {
         "ranks": 2,
         "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 74,
+      "type": "rule_text",
+      "sourceName": "Step 5: Derived Statistics",
+      "localizedNames": {
+        "fr": "Étape 5 : statistiques dérivées"
+      },
+      "scope": "out_of_scope",
+      "justification": "Character-sheet calculation rules and restatement of derived-statistic formulas, not standalone reusable compendium documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          74
+        ],
+        "fr": [
+          74
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "note": "The official FR page prints first-level HP as END + CHA; canonical EN uses END + LCK. This is a source-localization discrepancy in general rules and does not map to a compendium document."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 75,
+      "type": "page",
+      "sourceName": "Character Creation artwork",
+      "localizedNames": {
+        "fr": "Illustration de création de personnage"
+      },
+      "scope": "out_of_scope",
+      "justification": "Full-page artwork with no reusable structured rules content.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          75
+        ],
+        "fr": [
+          75
+        ]
       }
     }
   ]

@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–75, through printed/source page 73.
-- FR PDF physical pages 1–76, through printed/source page 73.
+- EN PDF physical pages 1–77, through printed/source page 75.
+- FR PDF physical pages 1–78, through printed/source page 75.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 3
   (source pp.42–58), and Step 4 / the complete Core perk catalogue through source p.73.
@@ -125,13 +125,20 @@ Current completed boundary:
   contain the corrected +2 Fire Rate for 2 AP mechanic.
 - Pyromaniac's EN extraction now preserves the source hyphen in “fire-based” and
   restores the combat-die token as `@fos[DC]`.
+- Step 5 on source p.74 was reviewed as general character-sheet calculation rules
+  and is explicitly out of compendium scope; source p.75 is artwork only. The
+  official FR p.74 prints first-level HP as END + CHA while canonical EN uses
+  END + LCK. This localization discrepancy is recorded in the certification
+  catalogue rather than silently treated as canonical mechanics.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 74. The next
-editorial lot starts with Step 5: Calculate Derived Statistics and should then cover
-the remaining character-creation material in reasonable source-driven sub-lots.
-Do not infer completeness from existing character-creation catalogs or tests.
+Continue Chapter Three — Character Creation at printed/source page 76. The next
+editorial lot is Step 6: Choose Equipment. Audit each origin equipment pack from the
+PDF source, apply the p.77 Mister Farmerhand and p.78 Super Mutant Skirmisher errata,
+then compare the structured equipment identities/quantities in the repository.
+Continue through reasonable page sub-lots; do not infer completeness from existing
+character-creation catalogs or tests.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -140,7 +147,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–73
+There are no unresolved anomalies or owner decisions in the completed p.1–75
 boundary.
 
 ## Validation

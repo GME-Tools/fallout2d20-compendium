@@ -635,3 +635,16 @@ test("Core final perk pages preserve errata and source combat-die text", async (
   assert.match(quickHandsFr, /dépenser 2 PA pour augmenter de \+2 la cadence de tir de votre arme pour cette attaque uniquement/);
 });
 
+test("Step 5 derived statistics is explicitly out of compendium scope", () => {
+  const step5 = catalog.entries.find(entry => entry.sourceName === "Step 5: Derived Statistics");
+  assert.ok(step5);
+  assert.equal(step5.scope, "out_of_scope");
+  assert.deepEqual(step5.sourcePages, { en: [74], fr: [74] });
+  assert.equal(step5.certification?.canonicalMechanicsReviewed, true);
+  assert.match(step5.certification?.note ?? "", /FR page prints first-level HP as END \+ CHA/);
+
+  const artwork = catalog.entries.find(entry => entry.page === 75 && entry.sourceName === "Character Creation artwork");
+  assert.ok(artwork);
+  assert.equal(artwork.scope, "out_of_scope");
+});
+
