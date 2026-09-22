@@ -45,11 +45,14 @@ test("corrected Core weapon mods are retained", async () => {
   assert.equal(named("Shielded Barrel")[0].system.perks, "Gun Nut 3");
   assert.equal(named("Full Capacitors").length, 1);
   const boostingCoil = named("Capacitor Boosting Coil");
-  assert.equal(boostingCoil.length, 1);
-  assert.equal(boostingCoil[0].system.cost, 82);
-  assert.equal(boostingCoil[0].system.weight, 2);
-  assert.equal(boostingCoil[0].system.modEffects.damage.rating, 1);
-  assert.equal(value(boostingCoil[0].system.modEffects.damage.damageEffect.vicious), 1);
+  assert.equal(boostingCoil.length, 2);
+  assert.deepEqual(new Set(boostingCoil.map(mod => mod._id)), new Set(["6hh0Evmfv0N8kX81", "CapaBoostCoil001"]));
+  for (const mod of boostingCoil) {
+    assert.equal(mod.system.cost, 82);
+    assert.equal(mod.system.weight, 2);
+    assert.equal(mod.system.modEffects.damage.rating, 1);
+    assert.equal(value(mod.system.modEffects.damage.damageEffect.vicious), 1);
+  }
 
   const baseballBarbed = named("Barbed").filter(mod =>
     mod._id === "SBiPJoDN1jWmENgs" || mod._id === "Sem0JhmbNdppKdJW"

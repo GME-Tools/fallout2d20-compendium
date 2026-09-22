@@ -1215,17 +1215,17 @@ test("Core Small Gun Mods p.100 are source-complete and mechanically exact", asy
     ["XShTCPVSPhRDhMBo", { en:".50 Receiver", fr:"Culasse .50", type:"receiver", prefixes:[".50",".50"], weight:4, cost:30, perks:["Gun Nut 4","Fana d’armes 4"], rating:8, override:"override", vicious:1, ammo:[".50 Round","Calibre .50"] }],
     ["nGgcu0NLeLIbc3Pi", { en:"Automatic Piston", fr:"Culasse automatique à piston", type:"receiver", prefixes:["Automatic","Auto"], weight:2, cost:75, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:2, range:-1 }],
     ["QgUHARJjhqOXBP7u", { en:"Snubnose", fr:"Canon compact", type:"barrel", prefixes:["Snubnosed","Canon compact"], weight:-1, cost:0, perks:["",""], inaccurate:1 }],
-    ["aDXdsogK2fIHtBNE", { en:"Bull Barrel", fr:"Canon extra-lourd", type:"barrel", prefixes:["Bull Barrel","Canon extra-lourd"], weight:0, cost:10, perks:["Gun Nut 3","Fana d’armes 3"], reliable:1 }],
+    ["aDXdsogK2fIHtBNE", { en:"Bull Barrel", fr:"Canon extra-lourd", type:"barrel", prefixes:["Bull Barrel","Canon extra-lourd"], weight:0, cost:10, perks:["Gun Nut 3","Fana d’armes 3"], reliable:1, unreliable:-1 }],
     ["RyggZv9PwKChzJwB", { en:"Long", fr:"Canon long", type:"barrel", prefixes:["Long","Longueur"], weight:1, cost:20, perks:["Gun Nut 1","Fana d’armes 1"], range:1 }],
     ["Ac56Ox5nVHcJ8PIA", { en:"Ported", fr:"Canon à ouvertures", type:"barrel", prefixes:["Ported","Ouvertures"], weight:1, cost:35, perks:["Gun Nut 4","Fana d’armes 4"], range:1, fireRate:1 }],
-    ["yxSF6qdbdO4FYaQb", { en:"Vented", fr:"Canon ventilé", type:"barrel", prefixes:["Vented","Aération"], weight:1, cost:36, perks:["Gun Nut 4","Fana d’armes 4"], range:1, fireRate:1, reliable:1 }],
+    ["yxSF6qdbdO4FYaQb", { en:"Vented", fr:"Canon ventilé", type:"barrel", prefixes:["Vented","Aération"], weight:1, cost:36, perks:["Gun Nut 4","Fana d’armes 4"], range:1, fireRate:1, reliable:1, unreliable:-1 }],
     ["Iec8KCIeHqCk886z", { en:"Sawed-Off", fr:"Canon scié", type:"barrel", prefixes:["Sawed Off","Canon scié"], weight:-2, cost:3, perks:["",""], close_quarters:1, two_handed:-1 }],
     ["iiF3omvvTgVv5LoP", { en:"Shielded Barrel", fr:"Canon protégé", type:"barrel", prefixes:["Shielded","Protection"], weight:0, cost:37, perks:["Gun Nut 3","Fana d’armes 3"], rating:1 }],
     ["aCMBNHf2jilKz2Zg", { en:"Finned", fr:"Canon à ailettes", type:"barrel", prefixes:["Finned","Ailettes"], weight:2, cost:15, perks:["Gun Nut 2","Fana d’armes 2"], rating:1, range:1 }],
     ["bS7ZxJKZA2JAhPV8", { en:"Full Capacitors", fr:"Condensateurs intégraux", type:"capacitor", prefixes:["High Capacity","Grande capacité"], weight:0, cost:37, perks:["Gun Nut 3; Science! 2","Fana d’armes 3; Scientifique 2"], vicious:1 }],
     ["6hh0Evmfv0N8kX81", { en:"Capacitor Boosting Coil", fr:"Bobine de suppression de condensateur", type:"capacitor", prefixes:["Maximum Capacity","Capacité maximale"], weight:2, cost:82, perks:["Gun Nut 4; Science! 3","Fana d’armes 4; Scientifique 3"], rating:1, vicious:1 }],
     ["dh2R5SMlhGBmDuAU", { en:"Large Magazine", fr:"Grand chargeur", type:"magazine", prefixes:["High Capacity","Grande capacité"], weight:1, cost:8, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1, unreliable:1 }],
-    ["067VeMDTeThvISLa", { en:"Quick-Eject Mag", fr:"Chargeur à éjection rapide", type:"magazine", prefixes:["Quick","Vitesse"], weight:0, cost:8, perks:["Gun Nut 1","Fana d’armes 1"], reliable:1 }],
+    ["067VeMDTeThvISLa", { en:"Quick-Eject Mag", fr:"Chargeur à éjection rapide", type:"magazine", prefixes:["Quick","Vitesse"], weight:0, cost:8, perks:["Gun Nut 1","Fana d’armes 1"], reliable:1, unreliable:-1 }],
     ["x7XsKzM5Iyisd9lA", { en:"Large Quick-Eject Mag", fr:"Grand chargeur à éjection rapide", type:"magazine", prefixes:["Quick High Capacity","Vitesse & grande capacité"], weight:1, cost:23, perks:["Gun Nut 2","Fana d’armes 2"], fireRate:1 }]
   ]);
   const entries = catalog.entries.filter(entry => entry.page === 100 && entry.pack === "weapon-mods" && entry.status === "verified");

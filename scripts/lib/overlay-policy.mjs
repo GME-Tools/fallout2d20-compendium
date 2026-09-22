@@ -1,6 +1,6 @@
 const LOCALIZED_LEAVES = new Set([
   "name", "description", "summary", "effect", "text", "biography", "origin",
-  "skill", "ammo", "publication"
+  "skill", "ammo", "publication", "namePrefix"
 ]);
 
 const DETERMINISTIC_METRIC_POINTERS = [
