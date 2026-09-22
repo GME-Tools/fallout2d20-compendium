@@ -3,7 +3,7 @@
   "_file": "guerisseur__LzDGf5TGlzcOBgFd.json",
   "values": {
     "/name": "Guérisseur",
-    "/system/description": "<p>Rangs : 3 Prérequis : INT 7, niveau 1+ Lorsque vous soignez les PV d’un patient par l’action mineure Porter secours, soignez 1 PV supplémentaire par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
+    "/system/description": "<p>Rangs : 3 Prérequis : INT 7, niveau 1+ Lorsque vous soignez les PV d’un patient par l’action capitale Porter secours, soignez 1 PV supplémentaire par rang dans cette aptitude. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 5.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "LzDGf5TGlzcOBgFd",
     "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",

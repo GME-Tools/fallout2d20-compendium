@@ -448,3 +448,104 @@ test("Dogmeat p.63 / Canigou p.61 Actor is complete with exact embedded mechanic
   assert.equal(records.fr.flags["fallout2d20-compendium"].source.errataReviewed, true);
 });
 
+test("Core perk lot pp.65-68 and FR counterpart identities match source coordinates and mechanics", async () => {
+  const expected = new Map([
+    ["ugnoJLCjVbVsAqOj", { page: 65, fr: [69], ranks: 2, attributes: { agi: 7 }, level: 2, levelIncrease: 4 }],
+    ["NMrJsMFjSLAYtHAU", { page: 65, fr: [68], ranks: 1, attributes: { int: 8 } }],
+    ["LzDGf5TGlzcOBgFd", { page: 65, fr: [65], ranks: 3, attributes: { int: 7 }, level: 1, levelIncrease: 5 }],
+    ["FLW7Fx5HVaIxuekh", { page: 65, fr: [65], ranks: 1, attributes: { str: 8 } }],
+    ["SihEoKZZ7VgRmxgK", { page: 65, fr: [66], ranks: 1, attributes: { per: 8 } }],
+    ["YrVruOKk8Wy2YOc9", { page: 66, fr: [71], ranks: 1, attributes: { cha: 8 } }],
+    ["mU5YvUEtBshgRPFD", { page: 66, fr: [69], ranks: 2, attributes: { str: 6 }, level: 1, levelIncrease: 5 }],
+    ["4uNzMc2WNqMYZEuW", { page: 66, fr: [72], ranks: 1, attributes: { cha: 8 } }],
+    ["w1Vn3NXOGw30Hi13", { page: 66, fr: [73], ranks: 5, level: 5, levelIncrease: 5 }],
+    ["iMnBN75TTp1DuKzk", { page: 67, fr: [68], ranks: 1 }],
+    ["nOpsl2puqWzQJT4t", { page: 67, fr: [66], ranks: 1, attributes: { per: 8, agi: 9 } }],
+    ["fMU0zfQYyhkwZ6Ck", { page: 67, fr: [66], ranks: 1, attributes: { int: 8 } }],
+    ["SFhtHQk4lztiJ8gw", { page: 67, fr: [65], ranks: 1, attributes: { per: 10 } }],
+    ["ycaluMjkY5xApFFl", { page: 67, fr: [67], ranks: 1, attributes: { agi: 9 } }],
+    ["URnrv6ebs1Oqso2m", { page: 67, fr: [62], ranks: 1, attributes: { agi: 6 } }],
+    ["EYZgPc9OM7qsPpT1", { page: 67, fr: [67], ranks: 1, attributes: { luc: 7 } }],
+    ["gbPgHoavxEEaYC4j", { page: 68, fr: [69], ranks: 3, attributes: { int: 8 }, level: 2, levelIncrease: 5 }],
+    ["jqGwYM88awxTPn46", { page: 68, fr: [67], ranks: 1, attributes: { per: 7 } }],
+    ["82n08gxPWsoaLlvK", { page: 68, fr: [67], ranks: 1, attributes: { agi: 8 } }],
+    ["zlPvWlAVWezHiFXX", { page: 68, fr: [68], ranks: 1, attributes: { int: 9 } }],
+    ["TzAVKNEtdWWgfx4u", { page: 68, fr: [66], ranks: 2, attributes: { str: 9, end: 7 }, level: 1, levelIncrease: 5 }],
+    ["Epn0E2yMAxTmSOFX", { page: 69, fr: [68], ranks: 1, attributes: { str: 8 } }],
+    ["e4HPClvz4fA06tUc", { page: 69, fr: [68], ranks: 3, attributes: { per: 8, agi: 8 }, level: 1, levelIncrease: 3 }],
+    ["H6x4BnrUSmI33dwZ", { page: 70, fr: [65], ranks: 1, attributes: { str: 7 } }],
+    ["2UGzU0qmtozi4QZK", { page: 70, fr: [66], ranks: 1, attributes: { agi: 8 } }],
+    ["RkftnkHGKVnz6URN", { page: 70, fr: [65], ranks: 2, attributes: { agi: 7 }, level: 2, levelIncrease: 4 }],
+    ["fGZ6h4VtddiXvpZ3", { page: 72, fr: [66], ranks: 3, attributes: { end: 7, agi: 6 }, levelIncrease: 4 }]
+  ]);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "perks").map(entry => [entry.documentId, entry]));
+  for (const [id, expectation] of expected) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, `certification entry missing for perk ${id}`);
+    assert.equal(entry.page, expectation.page, `${id} source page`);
+    assert.deepEqual(entry.sourcePages?.en, [expectation.page], `${id} EN source coordinate`);
+    assert.deepEqual(entry.sourcePages?.fr, expectation.fr, `${id} FR source coordinate`);
+  }
+
+  for (const language of ["en", "fr"]) {
+    const byId = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+    for (const [id, expectation] of expected) {
+      const document = byId.get(id);
+      assert.ok(document, `${language}/perks/${id} missing`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, expectation.page);
+      assert.equal(document.system.rank.max, expectation.ranks);
+      for (const [attribute, value] of Object.entries(expectation.attributes ?? {})) {
+        assert.equal(document.system.requirementsEx.attributes[attribute].value, value, `${language}/perks/${id} ${attribute}`);
+      }
+      if (expectation.level !== undefined) assert.equal(document.system.requirementsEx.level, expectation.level);
+      if (expectation.levelIncrease !== undefined) assert.equal(document.system.requirementsEx.levelIncrease, expectation.levelIncrease);
+    }
+  }
+});
+
+test("Core perk lot pp.65-68 preserves dice markup and canonical FR mechanics", async () => {
+  const docs = {};
+  for (const language of ["en", "fr"]) {
+    docs[language] = new Map(
+      (await generatedDocuments(language))
+        .filter(({ pack }) => pack === "perks")
+        .map(({ document }) => [document._id, document])
+    );
+  }
+
+  for (const id of [
+    "ugnoJLCjVbVsAqOj", "mU5YvUEtBshgRPFD", "SFhtHQk4lztiJ8gw",
+    "ycaluMjkY5xApFFl", "EYZgPc9OM7qsPpT1", "gbPgHoavxEEaYC4j",
+    "82n08gxPWsoaLlvK", "TzAVKNEtdWWgfx4u", "RkftnkHGKVnz6URN",
+    "fGZ6h4VtddiXvpZ3"
+  ]) {
+    assert.match(docs.en.get(id).system.description, /@fos\[DC\]/, `${id} combat-die markup`);
+    assert.doesNotMatch(docs.en.get(id).system.description, /(?:DD?CD|\+\d+\s*CD\b|\d+CD\b)/, `${id} stale extracted dice token`);
+  }
+
+  assert.match(docs.en.get("ugnoJLCjVbVsAqOj").system.description, /one-handed ranged weapon/);
+
+  const gunNutFr = docs.fr.get("Ba5yPRdNAvjM5StI").system.description;
+  assert.match(gunNutFr, /armes légères et les armes lourdes/);
+
+  const hackerFr = docs.fr.get("NMrJsMFjSLAYtHAU").system.description;
+  assert.match(hackerFr, /Réduisez de 1 .* la difficulté de vos tests pour pirater les ordinateurs/);
+  assert.doesNotMatch(hackerFr, /Faire les poches|500 grammes|montre-bracelet/);
+
+  for (const id of ["LzDGf5TGlzcOBgFd", "fMU0zfQYyhkwZ6Ck"]) {
+    const description = docs.fr.get(id).system.description;
+    assert.match(description, /action capitale Porter secours/);
+    assert.doesNotMatch(description, /action mineure Porter secours/);
+  }
+
+  const pickpocketRule = catalog.entries.find(entry => entry.type === "rule_text" && entry.sourceName === "Pickin’ Pockets");
+  assert.ok(pickpocketRule);
+  assert.equal(pickpocketRule.scope, "out_of_scope");
+  assert.deepEqual(pickpocketRule.sourcePages, { en: [69], fr: [68] });
+});
+

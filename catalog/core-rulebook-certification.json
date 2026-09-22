@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 66,
-      "sourcePage": 64
+      "pdfPage": 70,
+      "sourcePage": 68
     },
     "fr": {
-      "pdfPage": 67,
-      "sourcePage": 64
+      "pdfPage": 71,
+      "sourcePage": 68
     }
   },
   "pageReviews": [
@@ -546,6 +546,38 @@
       "status": "verified"
     },
     {
+      "language": "en",
+      "pdfPage": 67,
+      "sourcePage": 65,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 68,
+      "sourcePage": 66,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 69,
+      "sourcePage": 67,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 70,
+      "sourcePage": 68,
+      "section": "Chapter Three — Character Creation",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
       "language": "fr",
       "pdfPage": 1,
       "sourcePage": null,
@@ -1077,6 +1109,38 @@
       "language": "fr",
       "pdfPage": 67,
       "sourcePage": 64,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 68,
+      "sourcePage": 65,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 69,
+      "sourcePage": 66,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 70,
+      "sourcePage": 67,
+      "section": "Chapter Three — Création de personnage",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 71,
+      "sourcePage": 68,
       "section": "Chapter Three — Création de personnage",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -3310,7 +3374,8 @@
       },
       "certification": {
         "ranks": 4,
-        "descriptionReviewed": true
+        "descriptionReviewed": true,
+        "frCanonicalAdaptation": "Official FR omits heavy weapons from the perk text; restored the canonical EN mechanic covering small guns and heavy weapons."
       },
       "errata": [
         {
@@ -3609,6 +3674,743 @@
         "embeddedAbilitiesReviewed": true,
         "localizationReviewed": true,
         "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Gunslinger",
+      "localizedNames": {
+        "fr": "Pistolero"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "ugnoJLCjVbVsAqOj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Hacker",
+      "localizedNames": {
+        "fr": "Pirate"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "NMrJsMFjSLAYtHAU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          68
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "frExtractionContaminationCorrected": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Healer",
+      "localizedNames": {
+        "fr": "Guérisseur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "LzDGf5TGlzcOBgFd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "frCanonicalAdaptation": "Porter secours is a major action in canonical EN and FR core combat rules; corrected the perk text from the printed 'action mineure'."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Heave Ho!",
+      "localizedNames": {
+        "fr": "Ho-hisse !"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "FLW7Fx5HVaIxuekh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 65,
+      "type": "Item",
+      "sourceName": "Infiltrator",
+      "localizedNames": {
+        "fr": "Infiltrateur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "SihEoKZZ7VgRmxgK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          65
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Inspirational",
+      "localizedNames": {
+        "fr": "Source d’inspiration"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "YrVruOKk8Wy2YOc9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          71
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Iron Fist",
+      "localizedNames": {
+        "fr": "Poing de fer"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "mU5YvUEtBshgRPFD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Junktown Jerky Vendor",
+      "localizedNames": {
+        "fr": "Vendeur de Junktown"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "4uNzMc2WNqMYZEuW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          72
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 66,
+      "type": "Item",
+      "sourceName": "Life Giver",
+      "localizedNames": {
+        "fr": "Vitalité"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "w1Vn3NXOGw30Hi13",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          66
+        ],
+        "fr": [
+          73
+        ]
+      },
+      "certification": {
+        "ranks": 5,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Light Step",
+      "localizedNames": {
+        "fr": "Pied léger"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "iMnBN75TTp1DuKzk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          68
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Master Thief",
+      "localizedNames": {
+        "fr": "Maître-voleur"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "nOpsl2puqWzQJT4t",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Medic",
+      "localizedNames": {
+        "fr": "Infirmier"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "fMU0zfQYyhkwZ6Ck",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "frCanonicalAdaptation": "Porter secours is a major action in canonical EN and FR core combat rules; corrected the perk text from the printed 'action mineure'."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Meltdown",
+      "localizedNames": {
+        "fr": "Fusion"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "SFhtHQk4lztiJ8gw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Mister Sandman",
+      "localizedNames": {
+        "fr": "Marchand de sable"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "ycaluMjkY5xApFFl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Moving Target",
+      "localizedNames": {
+        "fr": "Cible mouvante"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "URnrv6ebs1Oqso2m",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          62
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 67,
+      "type": "Item",
+      "sourceName": "Mysterious Stranger",
+      "localizedNames": {
+        "fr": "Mystérieux Étranger"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "EYZgPc9OM7qsPpT1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          67
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 68,
+      "type": "Item",
+      "sourceName": "Nerd Rage!",
+      "localizedNames": {
+        "fr": "Rage de nerd !"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "gbPgHoavxEEaYC4j",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          68
+        ],
+        "fr": [
+          69
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 68,
+      "type": "Item",
+      "sourceName": "Night Person",
+      "localizedNames": {
+        "fr": "Nyctalope"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "jqGwYM88awxTPn46",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          68
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 68,
+      "type": "Item",
+      "sourceName": "Ninja",
+      "localizedNames": {
+        "fr": "Ninja"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "82n08gxPWsoaLlvK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          68
+        ],
+        "fr": [
+          67
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 68,
+      "type": "Item",
+      "sourceName": "Nuclear Physicist",
+      "localizedNames": {
+        "fr": "Physicien nucléaire"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "zlPvWlAVWezHiFXX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          68
+        ],
+        "fr": [
+          68
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 68,
+      "type": "Item",
+      "sourceName": "Pain Train",
+      "localizedNames": {
+        "fr": "Locomotive"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "TzAVKNEtdWWgfx4u",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          68
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Paralyzing Palm",
+      "localizedNames": {
+        "fr": "Paume paralysante"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "Epn0E2yMAxTmSOFX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          68
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "Item",
+      "sourceName": "Pickpocket",
+      "localizedNames": {
+        "fr": "Pickpocket"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "e4HPClvz4fA06tUc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          68
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Piercing Strike",
+      "localizedNames": {
+        "fr": "Frappe perforante"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "H6x4BnrUSmI33dwZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Quick Hands",
+      "localizedNames": {
+        "fr": "Mains lestes"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "2UGzU0qmtozi4QZK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 1,
+        "descriptionReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 70,
+      "type": "Item",
+      "sourceName": "Rifleman",
+      "localizedNames": {
+        "fr": "Fusilier"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "RkftnkHGKVnz6URN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          70
+        ],
+        "fr": [
+          65
+        ]
+      },
+      "certification": {
+        "ranks": 2,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 72,
+      "type": "Item",
+      "sourceName": "Size Matters",
+      "localizedNames": {
+        "fr": "La taille compte"
+      },
+      "scope": "in_scope",
+      "justification": null,
+      "pack": "perks",
+      "documentId": "fGZ6h4VtddiXvpZ3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          72
+        ],
+        "fr": [
+          66
+        ]
+      },
+      "certification": {
+        "ranks": 3,
+        "descriptionReviewed": true,
+        "diceSymbolsReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 69,
+      "type": "rule_text",
+      "sourceName": "Pickin’ Pockets",
+      "localizedNames": {
+        "fr": "Faire les poches"
+      },
+      "scope": "out_of_scope",
+      "justification": "General pickpocketing rules, not a reusable standalone compendium document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          69
+        ],
+        "fr": [
+          68
+        ]
       }
     }
   ]

@@ -30,11 +30,11 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–66, through printed/source page 64.
-- FR PDF physical pages 1–67, through printed/source page 64.
+- EN PDF physical pages 1–70, through printed/source page 68.
+- FR PDF physical pages 1–71, through printed/source page 68.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 3
-  (source pp.42–58), and Step 4 / the perk catalogue through source p.64.
+  (source pp.42–58), and Step 4 / the perk catalogue through source p.68.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
@@ -97,18 +97,32 @@ Current completed boundary:
   and the FR Canigou perk no longer duplicates the entire Actor statblock inside its
   description. The damaged FR Canaille extraction was restored to the official
   sentence.
-- Gun Nut was checked as a targeted EN p.65 counterpart for FR p.64 and confirmed at
-  4 ranks in accordance with the 8 April 2021 erratum. This identity is certified,
-  but EN p.65 itself is not yet counted as page-reviewed coverage.
+- Gun Nut was checked at EN p.65 and confirmed at 4 ranks in accordance with the
+  8 April 2021 erratum. The official FR perk text omitted heavy weapons; the FR
+  localization now restores the canonical EN scope of small guns and heavy weapons.
+- Source pp.65–68 complete the next page-driven perk lot. Because FR alphabetical
+  ordering differs, targeted counterparts on later EN pages were also certified:
+  Paralyzing Palm, Pickpocket, Piercing Strike, Quick Hands, Rifleman and Size Matters.
+  Those later EN pages are not yet counted as page-reviewed coverage.
+- The p.65–68 audit repaired additional EN combat-die extraction tokens in Gunslinger,
+  Iron Fist, Meltdown, Mister Sandman, Mysterious Stranger, Nerd Rage!, Ninja, Pain
+  Train, Rifleman and Size Matters. Gunslinger also restores the source hyphen in
+  “one-handed”.
+- The FR Hacker/Pirate entry had swallowed the adjacent general “Faire les poches”
+  rules from p.68; the perk is now limited to its actual source text and the general
+  pickpocketing rules are explicitly catalogued out of scope.
+- The official FR Healer/Guérisseur and Medic/Infirmier perk boxes print “action
+  mineure Porter secours”, but the canonical EN rules and the FR combat rules both
+  define Porter secours / First Aid as a major action. Both localized perk texts now
+  use “action capitale” as a deliberate mechanical adaptation.
 
 ## Next lot
 
-Continue Chapter Three — Character Creation at printed/source page 65. The next
-editorial sub-lot is the perk catalogue on source pp.65–68. Continue from the PDF
-source rather than the existing perk pack. Several individual EN identities on
-pp.65–71 were already checked as FR pp.61–64 counterparts; still perform the
-page-driven inventory for every page and do not infer page completion from those
-targeted identity checks.
+Continue Chapter Three — Character Creation at printed/source page 69. The next
+editorial sub-lot is the perk catalogue on source pp.69–73. Continue from the PDF
+source rather than the existing perk pack. Several identities on pp.69–72 have
+already been checked as FR counterpart entries; still perform the page-driven
+inventory for every page and do not infer page completion from targeted checks.
 
 Known later Core suspects to re-check against source rather than assume true:
 
@@ -130,8 +144,9 @@ of unexplained Core documents with exact provenance within the certified boundar
 It now also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
-and Gun Nut errata regressions, and the complete Dogmeat / Canigou Actor including
-embedded Bite and abilities. Legacy broad provenance ranges are not treated as
+and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,
+FR Gun Nut/First Aid adaptations, Hacker extraction regression, and the complete
+Dogmeat / Canigou Actor including embedded Bite and abilities. Legacy broad provenance ranges are not treated as
 exact page evidence until the corresponding perk is source-certified.
 
 Run focused checks as each lot is added. Final completion still requires

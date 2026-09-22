@@ -3,7 +3,7 @@
   "_file": "fana_d_armes__Ba5yPRdNAvjM5StI.json",
   "values": {
     "/name": "Fana d’armes",
-    "/system/description": "<p>Rangs : 4 Prérequis : INT 6, niveau 2+ Vous pouvez modifier les armes légères grâce à des mods d’arme. Chaque rang dans cette aptitude débloque un rang de mod : le rang 1 débloque les mods de rang 1, le rang 2 débloque les mods de rang 2, etc. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
+    "/system/description": "<p>Rangs : 4 Prérequis : INT 6, niveau 2+ Vous pouvez modifier les armes légères et les armes lourdes grâce à des mods d’arme. Chaque rang dans cette aptitude débloque un rang de mod : le rang 1 débloque les mods de rang 1, le rang 2 débloque les mods de rang 2, etc. Chaque fois que vous sélectionnez cette aptitude, le niveau requis augmente de 4.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "Ba5yPRdNAvjM5StI",
     "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",

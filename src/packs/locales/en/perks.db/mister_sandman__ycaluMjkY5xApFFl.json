@@ -3,7 +3,7 @@
   "_file": "mister_sandman__ycaluMjkY5xApFFl.json",
   "values": {
     "/name": "Mister Sandman",
-    "/system/description": "<p>When you make a sneak attack with a silenced or suppressed weapon, the damage is increased by +2CD. You cannot gain this benefit while in Power Armor.</p>\n<p><strong>Requirements</strong>: AGI 9</p>",
+    "/system/description": "<p>When you make a sneak attack with a silenced or suppressed weapon, the damage is increased by +2 @fos[DC]. You cannot gain this benefit while in Power Armor.</p>\n<p><strong>Requirements</strong>: AGI 9</p>",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
     "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
