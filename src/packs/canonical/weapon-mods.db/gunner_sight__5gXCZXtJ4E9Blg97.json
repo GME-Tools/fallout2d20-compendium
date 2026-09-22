@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 68,
+    "cost": 5,
     "favorite": false,
     "modEffects": {
       "ammo": "",
@@ -114,7 +114,7 @@
           },
           "inaccurate": {
             "rank": 0,
-            "value": -1
+            "value": 0
           },
           "limited": {
             "rank": 0,
@@ -184,7 +184,7 @@
       },
       "damageEffect": "",
       "damageRating": 0,
-      "effect": "",
+      "effect": "<p>May re-roll hit location die</p>",
       "fireRate": 0,
       "info": "",
       "range": 0,
