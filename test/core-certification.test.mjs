@@ -3245,7 +3245,7 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9"].includes(entry.documentId);
+    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9","ZhmOXmBcKKxcPEv8","BeGAdzye5MeP3kUO","X9cMnQidJyiDg29B","g3Y0zWDI9VUNoUWK","VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP"].includes(entry.documentId);
     assert.equal(entry.certification.descriptionReviewed, reviewedLater);
     assert.equal(entry.certification.acceptedModsReviewed, reviewedLater);
     assert.equal(entry.certification.apparelType, "powerArmor");
