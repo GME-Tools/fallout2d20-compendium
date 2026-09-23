@@ -3,8 +3,8 @@
   "_file": "poches_profondes_torse__4PtjwYY1RpNnvExC.json",
   "values": {
     "/name": "Larges poches (Torse)",
-    "/system/description": "<p>Les améliorations d’armure s’appliquent à tous les types d’armure, à l’exception de l’armure de sécurité Vault-Tec. Elles s’installent toutes avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
-    "/system/effect": "<p>Votre charge maximale augmente de 20.</p>",
+    "/system/description": "<p>Les améliorations d’armure s’appliquent à tous les types d’armures énumérés juste avant (mis à part l’armure de sécurité Vault-Tec) et sont rassemblées ci-dessous afin de ne pas être répétées pour chaque armure. Toutes les améliorations d’armure s’installent avec la compétence Réparation.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftArmorBench01]{Établi d’armures}</dd><dt>Complexité</dt><dd>4</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Réparation}</dd><dt>Aptitudes</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armurier} 2</dd><dt>Rareté</dt><dd>Peu fréquente</dd></dl><h4>Matériaux</h4><ul><li>Matériaux fréquents ×5</li><li>Matériaux peu fréquents ×3</li></ul></section>",
+    "/system/effect": "<p>+20 en charge maximale</p>",
     "/system/weight": 2,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "4PtjwYY1RpNnvExC",

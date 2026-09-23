@@ -2550,7 +2550,7 @@ test("Core Armor p.130 Raider and Leather tables are source-complete", async () 
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
     assert.equal(entry.certification.descriptionReviewed, true);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
   }
 
   for (const language of ["en", "fr"]) {
@@ -2644,7 +2644,7 @@ test("Core Armor p.131 Metal and Combat tables are source-complete", async () =>
     assert.equal(entry.certification.sourceTableName, spec.table);
     assert.equal(entry.certification.descriptionReviewed, true);
     assert.equal(entry.certification.materialModsReviewed, true);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
     assert.ok(entry.sourcePages.en.includes(134));
     assert.ok(entry.sourcePages.fr.includes(134));
   }
@@ -2765,7 +2765,7 @@ test("Core Armor p.133 Raider and Leather descriptions and Material mods are sou
   for (const entry of p130Families) {
     assert.equal(entry.certification.descriptionReviewed, true);
     assert.equal(entry.certification.materialModsReviewed, true);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
     assert.ok(entry.sourcePages.en.includes(133));
     assert.ok(entry.sourcePages.fr.includes(133));
   }
@@ -2879,7 +2879,7 @@ test("Core Armor p.134 Metal and Combat descriptions and Material mods are sourc
   for (const entry of p131Families) {
     assert.equal(entry.certification.descriptionReviewed, true);
     assert.equal(entry.certification.materialModsReviewed, true);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
     assert.ok(entry.sourcePages.en.includes(134));
     assert.ok(entry.sourcePages.fr.includes(134));
     const helmet = entry.sourceName.includes("Helmet");
@@ -2985,7 +2985,7 @@ test("Core Armor p.135 Synth descriptions, Material mods, and Vault-Tec descript
   for (const entry of p132Synth) {
     assert.equal(entry.certification.descriptionReviewed, true);
     assert.equal(entry.certification.materialModsReviewed, true);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
     assert.ok(entry.sourcePages.en.includes(135));
     assert.ok(entry.sourcePages.fr.includes(135));
     const helmet = entry.sourceName.includes("Helmet");
@@ -2998,7 +2998,7 @@ test("Core Armor p.135 Synth descriptions, Material mods, and Vault-Tec descript
   assert.equal(p132Vault.length, 2);
   for (const entry of p132Vault) {
     assert.equal(entry.certification.descriptionReviewed, true);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
     assert.ok(entry.sourcePages.en.includes(135));
     assert.ok(entry.sourcePages.fr.includes(135));
   }
@@ -3065,6 +3065,124 @@ test("Core Armor p.135 Synth descriptions, Material mods, and Vault-Tec descript
       const record = records.find(({document}) => document._id === id);
       assert.ok(record, language + "/apparel/" + id + " aggregate identity missing");
       assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 135);
+    }
+  }
+});
+
+test("Core Armor p.136 Upgrade mods and accepted upgrade sets are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 138 && catalog.certifiedThrough.en.sourcePage >= 136);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 139 && catalog.certifiedThrough.fr.sourcePage >= 136);
+
+  const intro = {
+    en: "<p>Armor Upgrades apply to all the types of armor listed above (except for Vault-Tec Security armor) and are collected here to avoid repetition. All Armor Upgrades are installed with the Repair skill.</p>",
+    fr: "<p>Les améliorations d’armure s’appliquent à tous les types d’armures énumérés juste avant (mis à part l’armure de sécurité Vault-Tec) et sont rassemblées ci-dessous afin de ne pas être répétées pour chaque armure. Toutes les améliorations d’armure s’installent avec la compétence Réparation.</p>"
+  };
+  const specs = {
+    "vCzArLcyEN25Awf3": {en:"Lighter Build",fr:"Structure légère",location:"All Locations",w:-1,c:1,perks:""},
+    "6Auqz8lwvuB7UFdy": {en:"Lighter Build (Torso)",fr:"Structure légère (Torse)",location:"Torso",w:-2,c:2,perks:""},
+    "KRuKJ0eR46ZycdGM": {en:"Pocketed",fr:"Poches",location:"All Locations",w:1,c:1,perks:"Armorer 1",effectEn:"<p>+10 Carry Weight</p>",effectFr:"<p>+10 en charge maximale</p>"},
+    "5sQU0kdQbhyacSdu": {en:"Pocketed (Torso)",fr:"Poches (Torse)",location:"Torso",w:2,c:2,perks:"Armorer 1",effectEn:"<p>+10 Carry Weight</p>",effectFr:"<p>+10 en charge maximale</p>"},
+    "FySCG1SWS7SABvE7": {en:"Deep Pocketed",fr:"Larges poches",location:"All Locations",w:2,c:5,perks:"Armorer 1",effectEn:"<p>+20 Carry Weight</p>",effectFr:"<p>+20 en charge maximale</p>"},
+    "4PtjwYY1RpNnvExC": {en:"Deep Pocketed (Torso)",fr:"Larges poches (Torse)",location:"Torso",w:4,c:10,perks:"Armorer 1",effectEn:"<p>+20 Carry Weight</p>",effectFr:"<p>+20 en charge maximale</p>"},
+    "lRwdket2A4FxBzpQ": {en:"Lead Lined",fr:"Revêtement en plomb",location:"All Locations",w:2,c:5,perks:"Armorer 4, Science! 1",rad:3},
+    "SZGWmJhEwwoXU1PR": {en:"Lead Lined (Torso)",fr:"Revêtement en plomb (Torse)",location:"Torso",w:4,c:10,perks:"Armorer 4, Science! 1",rad:3},
+    "iigJa7Sxwi1um5tb": {en:"Ultra Light Build",fr:"Structure ultra légère",location:"All Locations",w:-3,c:7,perks:"Armorer 3"},
+    "yWvt9clbKolwdbm1": {en:"Ultra Light Build (Torso)",fr:"Structure ultra légère (Torse)",location:"Torso",w:-6,c:14,perks:"Armorer 3"},
+    "q48esitA3U4tmuXT": {en:"Padded",fr:"Rembourrage",location:"Torso",w:4,c:1,perks:"",effectEn:"<p>+2 to all damage resistances vs Blast weapons</p>",effectFr:"<p>+2 à toutes les résistances aux dégâts contre les armes à Zone d’impact</p>"},
+    "e7ySHkXMm9o7Aovi": {en:"Asbestos Lining",fr:"Revêtement amianté",location:"Torso",w:4,c:3,perks:"Armorer 1",energy:3,effectEn:"<p>Ignore Energy damage from the Persistent damage effect</p>",effectFr:"<p>Ignorez les dégâts énergétiques venant de l’effet de dégâts Persistant</p>"},
+    "XYvAnkqTE6TUIvzs": {en:"Dense",fr:"Densifié",location:"Torso",w:4,c:7,perks:"Armorer 3",effectEn:"<p>+4 to all Damage Resistances vs Blast weapons</p>",effectFr:"<p>+4 à toutes les résistances aux dégâts contre les armes à Zone d’impact</p>"},
+    "QXgVEVm7Ttp4UFpS": {en:"BioCommMesh",fr:"BioCommMesh",location:"Torso",w:2,c:9,perks:"Armorer 4, Science! 2",effectEn:"<p>Chems last twice as long (see p.164)</p>",effectFr:"<p>Les effets des drogues durent deux fois plus longtemps (voir page 164)</p>"},
+    "8F9G1Cg2OmluAbG1": {en:"Pneumatic",fr:"Pneumatique",location:"Torso",w:2,c:9,perks:"Armorer 4",effectEn:"<p>Stun damage effect requires 2+ Effects to be rolled to affect you</p>",effectFr:"<p>L’effet de dégâts Étourdissant nécessite 2+ Effets sur le jet de dégâts pour s’appliquer à vous</p>"},
+    "3d0refqygOWlr08D": {en:"Brawling",fr:"Bagarreur",location:"Arms",w:1,c:1,perks:"Armorer 1",effectEn:"<p>Unarmed attacks inflict +1 @fos[DC] damage</p>",effectFr:"<p>Les attaques à mains nues infligent +1 @fos[DC] de dégâts</p>"},
+    "wchyh9LXoAUTHYKT": {en:"Braced",fr:"Renforcé",location:"Arms",w:1,c:1,perks:"Armorer 1",effectEn:"<p>+2 to all damage resistances vs melee attacks.</p>",effectFr:"<p>+2 à toutes les résistances aux dégâts contre les attaques de corps à corps</p>"},
+    "ZHnH96ic3qiVPJ25": {en:"Stabilized",fr:"Stabilisé",location:"Arms",w:1,c:1,perks:"Armorer 2",effectEn:"<p>When you aim and make a ranged attack, +1 @fos[DC] to the attack’s damage</p>",effectFr:"<p>Quand vous visez et que vous portez une attaque à distance, +1 @fos[DC] aux dégâts de l’attaque</p>"},
+    "oO7frtQFoeNU9yl8": {en:"Aerodynamic",fr:"Aérodynamique",location:"Arms",w:0,c:1,perks:"Armorer 3",effectEn:"<p>May spend up to 4 AP on bonus damage for melee attacks</p>",effectFr:"<p>Vous pouvez dépenser jusqu’à 4 PA en dégâts bonus pour les attaques de corps à corps</p>"},
+    "Vr2IfyQOyGYvS3sn": {en:"Weighted",fr:"Alourdi",location:"Arms",w:1,c:3,perks:"Armorer 4",effectEn:"<p>Melee and Unarmed attacks gain Piercing 1</p>",effectFr:"<p>Les attaques de corps à corps et à mains nues gagnent Perforant 1</p>"},
+    "RvH2R9EpAEtwzfsp": {en:"Cushioned",fr:"Amortissement",location:"Legs",w:0,c:1,perks:"Armorer 1",effectEn:"<p>+2 to Physical damage resistance vs falling damage</p>",effectFr:"<p>+2 résistance aux dégâts balistiques contre les dégâts de chute</p>"},
+    "GQvToNs1kHcwOPII": {en:"Muffled",fr:"Silencieux",location:"Legs",w:0,c:2,perks:"Armorer 2",effectEn:"<p>Re-roll 1d20 on Stealth tests</p>",effectFr:"<p>Vous pouvez relancer 1d20 sur les tests de Discrétion</p>"}
+  };
+
+  const table = catalog.entries.find(entry => entry.page === 136 && entry.type === "table" && entry.sourceName === "Armor Upgrade Mods");
+  assert.ok(table);
+  assert.equal(table.certification.rowCount, 17);
+  assert.equal(table.certification.publishedIdentityCount, 22);
+  assert.equal(table.certification.errataApplied, true);
+  assert.match(table.certification.errataNote, /Laminated/);
+  assert.match(table.certification.errataNote, /Lighter Build/);
+  assert.match(table.certification.localizationDiscrepancy, /Poches/);
+  assert.match(table.certification.localizationDiscrepancy, /Armurier 2/);
+
+  const p136Mods = catalog.entries.filter(entry => entry.page === 136 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p136Mods.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p136Mods.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+  for (const obsoleteId of ["9FlKDaWEsEDXBCMP","hWUuQFc4H82qxPec","lX3JRbJLh0mYyQJd"]) {
+    assert.ok(!p136Mods.some(entry => entry.documentId === obsoleteId), "Synth Material identity must not be certified as a p.136 Upgrade");
+  }
+
+  const armorEntries = catalog.entries.filter(entry => [130,131,132].includes(entry.page) && entry.scope === "in_scope" && entry.pack === "apparel");
+  assert.equal(armorEntries.length, 86);
+  for (const entry of armorEntries) {
+    assert.equal(entry.certification.acceptedModsReviewed, true, entry.sourceName + " accepted mods review");
+    assert.ok(entry.sourcePages.en.includes(136), entry.sourceName + " EN p.136 dependency");
+    assert.ok(entry.sourcePages.fr.includes(136), entry.sourceName + " FR p.136 dependency");
+  }
+
+  const allGeneric = ["vCzArLcyEN25Awf3","KRuKJ0eR46ZycdGM","FySCG1SWS7SABvE7","lRwdket2A4FxBzpQ","iigJa7Sxwi1um5tb"];
+  const allTorso = ["6Auqz8lwvuB7UFdy","5sQU0kdQbhyacSdu","4PtjwYY1RpNnvExC","SZGWmJhEwwoXU1PR","yWvt9clbKolwdbm1"];
+  const torsoOnly = ["q48esitA3U4tmuXT","e7ySHkXMm9o7Aovi","XYvAnkqTE6TUIvzs","QXgVEVm7Ttp4UFpS","8F9G1Cg2OmluAbG1"];
+  const armsOnly = ["3d0refqygOWlr08D","wchyh9LXoAUTHYKT","ZHnH96ic3qiVPJ25","oO7frtQFoeNU9yl8","Vr2IfyQOyGYvS3sn"];
+  const legsOnly = ["RvH2R9EpAEtwzfsp","GQvToNs1kHcwOPII"];
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 136, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata");
+      assert.equal(doc.name, spec[language], language + "/apparel-mods/" + id + " name");
+      assert.equal(doc.system.apparelType, "armor");
+      assert.equal(doc.system.modType, "upgrade");
+      assert.equal(doc.system.location, spec.location);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2, language + "/apparel-mods/" + id + " weight");
+      assert.deepEqual(doc.system.resistance, {energy:spec.energy ?? 0, physical:0, radiation:spec.rad ?? 0});
+      assert.ok(doc.system.description.startsWith(intro[language]), language + "/apparel-mods/" + id + " source intro");
+      assert.match(doc.system.description, /data-f2d20-recipe="core"/, language + "/apparel-mods/" + id + " recipe retained");
+      if (spec.effectEn) assert.equal(doc.system.effect, language === "en" ? spec.effectEn : spec.effectFr, language + "/apparel-mods/" + id + " effect");
+    }
+
+    for (const entry of armorEntries) {
+      const doc = apparel.get(entry.documentId);
+      assert.ok(doc, language + "/apparel/" + entry.documentId + " missing");
+      const embedded = Object.entries(doc.system.mods || {}).filter(([,value]) => value && typeof value === "object" && value.system);
+      const actualUpgrades = embedded.filter(([,value]) => value.system.modType === "upgrade").map(([id]) => id);
+      let expected = [];
+      let expectedMax = 2;
+      if (entry.sourceName.startsWith("Vault-Tec Security")) {
+        expectedMax = 0;
+      } else if (doc.system.location.head) {
+        expectedMax = 1;
+      } else if (doc.system.location.torso) {
+        expected = [...allTorso, ...torsoOnly];
+      } else if (doc.system.location.armL || doc.system.location.armR) {
+        expected = [...allGeneric, ...armsOnly];
+      } else if (doc.system.location.legL || doc.system.location.legR) {
+        expected = [...allGeneric, ...legsOnly];
+      } else {
+        assert.fail("Unclassified armor location for " + entry.documentId);
+      }
+      assert.equal(doc.system.mods.max, expectedMax, language + "/apparel/" + entry.documentId + " mod-slot maximum");
+      assert.deepEqual(new Set(actualUpgrades), new Set(expected), language + "/apparel/" + entry.documentId + " accepted Upgrade mods");
+    }
+
+    for (const obsoleteId of ["9FlKDaWEsEDXBCMP","hWUuQFc4H82qxPec","lX3JRbJLh0mYyQJd"]) {
+      assert.equal(mods.get(obsoleteId)?.system.modType, "material", language + "/apparel-mods/" + obsoleteId + " remains a Synth Material mod");
     }
   }
 });
