@@ -3,7 +3,7 @@
   "_file": "treillis_militaire__j3Q6RHDSuhadGvdm.json",
   "values": {
     "/name": "Treillis militaire",
-    "/system/description": "<p>Chemise, veste, pantalon et bottes robustes conçus pour les militaires d’avant-guerre, adaptés aux mauvaises conditions et riches en poches. <strong>Spécial :</strong> une fois par scène, ils permettent de relancer un d20 d’un test fondé sur la FOR ou l’AGI. Ils peuvent recevoir du tissu balistique.</p>",
+    "/system/description": "<p>Un ensemble simple et résistant comportant un haut, une veste, un pantalon et des bottes de combat, conçu pour être porté par le personnel militaire avant la Grande Guerre. Ces vêtements sont prévus pour être portés dans des conditions peu clémentes et comportent beaucoup de poches pour transporter des objets utiles. Un ensemble intact constitue donc un butin tout à fait correct.</p><p><strong>Spécial :</strong> porter un treillis militaire vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur la FOR ou sur l’AGI que vous effectuez, car le treillis vous donne une grande liberté de mouvement.</p><p>Les treillis militaires peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
     "/system/weight": 1.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "j3Q6RHDSuhadGvdm",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

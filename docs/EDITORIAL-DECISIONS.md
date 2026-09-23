@@ -23,3 +23,8 @@ normally live in source provenance, machine-readable inventories or regression t
 
 Before adding a row, ask whether an agent working on an unrelated future publication
 could need the decision. If not, encode it closer to the affected data instead.
+
+
+### Apparel effects without an equip-conditional item field
+
+For Core apparel rules that cannot be represented safely by the current Item schema (notably Hazmat Suit radiation immunity, Gas Mask conditional poison/gas effects, Utility Coveralls carry-weight bonus, and once-per-scene rerolls), preserve the complete official rule in localized description text and record the mechanical truth in the certification catalogue/tests. Do not fabricate a numeric resistance or add a transferred Active Effect that would remain active merely because the Item is owned rather than equipped.

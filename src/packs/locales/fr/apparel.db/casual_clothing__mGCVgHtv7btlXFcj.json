@@ -3,7 +3,7 @@
   "_file": "vetements_decontractes__mGCVgHtv7btlXFcj.json",
   "values": {
     "/name": "Vêtements décontractés",
-    "/system/description": "<p>Vêtements simples, légers et faciles à porter, destinés avant la Guerre aux loisirs et activités modérées. <strong>Spécial :</strong> une fois par scène, ils permettent de relancer un d20 d’un test fondé sur la FOR ou l’AGI. Ils peuvent recevoir du tissu balistique.</p>",
+    "/system/description": "<p>Simples, légers et permettant d’être à l’aise pour bouger, les vêtements décontractés d’avant-guerre étaient destinés à être portés pour les loisirs et les activités peu fatigantes.</p><p><strong>Spécial :</strong> porter des vêtements décontractés vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur la FOR ou l’AGI que vous effectuez, car ces vêtements donnent une grande liberté de mouvement.</p><p>Les vêtements décontractés peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "mGCVgHtv7btlXFcj",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

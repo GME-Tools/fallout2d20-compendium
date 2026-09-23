@@ -3,7 +3,7 @@
   "_file": "armure_d_ingenieur__XzEQFrZXE4OPNs3g.json",
   "values": {
     "/name": "Armure d’ingénieur",
-    "/system/description": "<p>Portée par les ingénieurs de la Confrérie de l’Acier et leurs imitateurs, cette tenue comprend une veste protectrice, d’épais gantelets de toile ou de cuir, un gilet et une ceinture couverts de poches. Elle protège des risques liés aux outils électriques dans un atelier, mais ne constitue pas une véritable armure de champ de bataille.</p>",
+    "/system/description": "<p>Portée par les ingénieurs de la Confrérie de l’Acier et par ceux qui adoptent une occupation similaire, cette tenue est composée d’une veste de protection, de gantelets de toile ou de cuir épais, d’un gilet et d’une ceinture sur lesquels sont placées des dizaines de petites poches. La tenue protège contre les risques inhérents à l’utilisation d’outils électriques dans un atelier, mais n’est pas vraiment une armure adaptée à un champ de bataille.</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "XzEQFrZXE4OPNs3g",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

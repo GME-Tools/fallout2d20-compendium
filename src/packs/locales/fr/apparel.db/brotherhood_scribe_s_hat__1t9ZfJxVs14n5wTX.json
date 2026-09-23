@@ -3,13 +3,15 @@
   "_file": "chapeau_de_scribe_de_la_confrerie__1t9ZfJxVs14n5wTX.json",
   "values": {
     "/name": "Chapeau de scribe de terrain de la Confrérie",
-    "/system/description": "<p>Cette légère casquette de cuir avec lunettes accompagne l’armure de scribe de terrain de la Confrérie et protège la tête dans les environnements dangereux.</p>",
+    "/system/description": "<p>Cette casquette légère en cuir avec lunettes de protection est fournie avec l’armure de scribe de terrain de la Confrérie afin de protéger la tête contre les dangers des Terres désolées.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "1t9ZfJxVs14n5wTX",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

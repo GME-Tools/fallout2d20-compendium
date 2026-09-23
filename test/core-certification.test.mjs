@@ -1687,3 +1687,818 @@ test("Core Apparel overview and Dog Armor pp.122-123 are source-complete", async
   const overview = catalog.entries.filter(e => e.scope === "out_of_scope" && e.page >= 122 && e.page <= 123);
   assert.equal(overview.length, 4);
 });
+
+
+test("Core Clothing and Outfits pp.124-129 are source-complete", async () => {
+  const profiles = {
+  "DEpvfGFbc6KIebfH": {
+    "en": "Brotherhood of Steel Uniform",
+    "fr": "Uniforme de la Confrérie de l’Acier",
+    "type": "clothing",
+    "res": [
+      1,
+      1,
+      1
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 20,
+    "rarity": 2,
+    "mods": []
+  },
+  "mGCVgHtv7btlXFcj": {
+    "en": "Casual Clothing",
+    "fr": "Vêtements décontractés",
+    "type": "clothing",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 20,
+    "rarity": 1,
+    "mods": [
+      "R0OekXuLrtHf0j8f",
+      "8JID23VwOdXqwESb",
+      "kRuMVjqK0tr5aZDY",
+      "fGvLq6Ku80a5cTSg",
+      "ew9m8xT2GbnWCHeu"
+    ]
+  },
+  "Z2wwI1RUjgV9UuzJ": {
+    "en": "Harness",
+    "fr": "Harnais",
+    "type": "clothing",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 1,
+    "cost": 5,
+    "rarity": 0,
+    "mods": []
+  },
+  "j3Q6RHDSuhadGvdm": {
+    "en": "Military Fatigues",
+    "fr": "Treillis militaire",
+    "type": "clothing",
+    "res": [
+      0,
+      1,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 3,
+    "cost": 12,
+    "rarity": 1,
+    "mods": [
+      "R0OekXuLrtHf0j8f",
+      "8JID23VwOdXqwESb",
+      "kRuMVjqK0tr5aZDY",
+      "fGvLq6Ku80a5cTSg",
+      "ew9m8xT2GbnWCHeu"
+    ]
+  },
+  "qwD45ugL9z0szLZQ": {
+    "en": "Road Leathers",
+    "fr": "Vêtements de cuir",
+    "type": "clothing",
+    "res": [
+      1,
+      1,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 1,
+    "cost": 5,
+    "rarity": 1,
+    "mods": []
+  },
+  "DxWJxT0MuxkbCofe": {
+    "en": "Tough Clothing",
+    "fr": "Vêtements résistants",
+    "type": "clothing",
+    "res": [
+      1,
+      1,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 3,
+    "cost": 20,
+    "rarity": 1,
+    "mods": []
+  },
+  "aOmUGU0KhxIusQzy": {
+    "en": "Vault Jumpsuit",
+    "fr": "Combinaison d’Abri",
+    "type": "clothing",
+    "res": [
+      0,
+      1,
+      2
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 1,
+    "cost": 20,
+    "rarity": 2,
+    "mods": [
+      "p0DwgxYf9LqKdtD2",
+      "eJRm4a5fGv7fIWgn",
+      "6HktMjmw1GkHhudw",
+      "gVTTVLDe6xQMbv5K",
+      "VMzxtew6VJQCzIIk"
+    ]
+  },
+  "jnjGlz8wOI3b2brm": {
+    "en": "Brotherhood of Steel Fatigues",
+    "fr": "Treillis de la Confrérie de l’Acier",
+    "type": "outfit",
+    "res": [
+      2,
+      2,
+      2
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 4,
+    "cost": 20,
+    "rarity": 3,
+    "mods": []
+  },
+  "lVYblrMAgEfHnWTR": {
+    "en": "Brotherhood Scribe’s Armor",
+    "fr": "Armure de scribe de terrain de la Confrérie",
+    "type": "outfit",
+    "res": [
+      1,
+      2,
+      2
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 4,
+    "cost": 20,
+    "rarity": 2,
+    "mods": []
+  },
+  "vWq7tmY6iChl2g2t": {
+    "en": "Cage Armor",
+    "fr": "Armure cage",
+    "type": "outfit",
+    "res": [
+      3,
+      4,
+      0
+    ],
+    "loc": [
+      "head",
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 33,
+    "cost": 110,
+    "rarity": 3,
+    "mods": []
+  },
+  "QX9YgFGANsHkpTQd": {
+    "en": "Drifter Outfit",
+    "fr": "Tenue de nomade",
+    "type": "outfit",
+    "res": [
+      1,
+      2,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 10,
+    "cost": 35,
+    "rarity": 1,
+    "mods": []
+  },
+  "XzEQFrZXE4OPNs3g": {
+    "en": "Engineer’s Armor",
+    "fr": "Armure d’ingénieur",
+    "type": "outfit",
+    "res": [
+      1,
+      1,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 15,
+    "rarity": 1,
+    "mods": []
+  },
+  "RWHypmbHATEbfGdU": {
+    "en": "Formal Clothing",
+    "fr": "Vêtements élégants",
+    "type": "outfit",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 30,
+    "rarity": 2,
+    "mods": [
+      "R0OekXuLrtHf0j8f",
+      "8JID23VwOdXqwESb",
+      "kRuMVjqK0tr5aZDY",
+      "fGvLq6Ku80a5cTSg",
+      "ew9m8xT2GbnWCHeu"
+    ]
+  },
+  "Mfgi1OgjnrIm0BFV": {
+    "en": "Hazmat Suit",
+    "fr": "Combinaison étanche",
+    "type": "outfit",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "head",
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 5,
+    "cost": 85,
+    "rarity": 3,
+    "mods": []
+  },
+  "sHVONLW2lTNyu8Mq": {
+    "en": "Heavy Coat",
+    "fr": "Manteau lourd",
+    "type": "outfit",
+    "res": [
+      1,
+      1,
+      1
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 20,
+    "rarity": 1,
+    "mods": [
+      "R0OekXuLrtHf0j8f",
+      "8JID23VwOdXqwESb",
+      "kRuMVjqK0tr5aZDY",
+      "fGvLq6Ku80a5cTSg",
+      "ew9m8xT2GbnWCHeu"
+    ]
+  },
+  "LhR6Kj541PHxZ7Bo": {
+    "en": "Hides",
+    "fr": "Peaux",
+    "type": "outfit",
+    "res": [
+      1,
+      0,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 4,
+    "cost": 13,
+    "rarity": 0,
+    "mods": []
+  },
+  "cdwX7EVolnIWRaZi": {
+    "en": "Lab Coat",
+    "fr": "Blouse",
+    "type": "outfit",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 10,
+    "rarity": 1,
+    "mods": [
+      "R0OekXuLrtHf0j8f",
+      "8JID23VwOdXqwESb",
+      "kRuMVjqK0tr5aZDY",
+      "fGvLq6Ku80a5cTSg",
+      "ew9m8xT2GbnWCHeu"
+    ]
+  },
+  "kRun2GR8nZLirYHD": {
+    "en": "Spike Armor",
+    "fr": "Armure à pointes",
+    "type": "outfit",
+    "res": [
+      2,
+      2,
+      0
+    ],
+    "loc": [
+      "head",
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 17,
+    "cost": 65,
+    "rarity": 2,
+    "mods": []
+  },
+  "3UDbwGcAdrC2eEvd": {
+    "en": "Utility Coveralls",
+    "fr": "Bleu de travail",
+    "type": "outfit",
+    "res": [
+      2,
+      0,
+      0
+    ],
+    "loc": [
+      "armL",
+      "armR",
+      "legL",
+      "legR",
+      "torso"
+    ],
+    "weight": 2,
+    "cost": 12,
+    "rarity": 1,
+    "mods": []
+  },
+  "Luele6U32M5YDKlj": {
+    "en": "Army Helmet",
+    "fr": "Casque militaire",
+    "type": "headgear",
+    "res": [
+      2,
+      0,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": 3,
+    "cost": 20,
+    "rarity": 1,
+    "mods": []
+  },
+  "vinehrp26vkj6pQj": {
+    "en": "Brotherhood of Steel Hood",
+    "fr": "Cagoule de la Confrérie de l’Acier",
+    "type": "headgear",
+    "res": [
+      0,
+      1,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": null,
+    "cost": 12,
+    "rarity": 2,
+    "mods": []
+  },
+  "1t9ZfJxVs14n5wTX": {
+    "en": "Brotherhood Scribe’s Hat",
+    "fr": "Chapeau de scribe de terrain de la Confrérie",
+    "type": "headgear",
+    "res": [
+      0,
+      2,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": null,
+    "cost": 8,
+    "rarity": 2,
+    "mods": []
+  },
+  "hKGbIZhOnncmk7UT": {
+    "en": "Casual Hat",
+    "fr": "Chapeau décontracté",
+    "type": "headgear",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": null,
+    "cost": 15,
+    "rarity": 1,
+    "mods": []
+  },
+  "WeHTP6Gw6Sr6HN8N": {
+    "en": "Formal Hat",
+    "fr": "Chapeau élégant",
+    "type": "headgear",
+    "res": [
+      0,
+      0,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": null,
+    "cost": 15,
+    "rarity": 2,
+    "mods": [
+      "R0OekXuLrtHf0j8f",
+      "8JID23VwOdXqwESb",
+      "kRuMVjqK0tr5aZDY",
+      "fGvLq6Ku80a5cTSg",
+      "ew9m8xT2GbnWCHeu"
+    ]
+  },
+  "YJBboQPnSQFg8kgp": {
+    "en": "Gas Mask",
+    "fr": "Masque à gaz",
+    "type": "headgear",
+    "res": [
+      1,
+      0,
+      3
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": 3,
+    "cost": 10,
+    "rarity": 2,
+    "mods": []
+  },
+  "BNhFyx4TZM8NoOoN": {
+    "en": "Hard Hat",
+    "fr": "Casque de chantier",
+    "type": "headgear",
+    "res": [
+      2,
+      0,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": null,
+    "cost": 15,
+    "rarity": 1,
+    "mods": []
+  },
+  "Dk9UjvjZexa8J0U8": {
+    "en": "Hood or Cowl",
+    "fr": "Cagoule ou capuche",
+    "type": "headgear",
+    "res": [
+      1,
+      0,
+      1
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": 2,
+    "cost": 5,
+    "rarity": 1,
+    "mods": []
+  },
+  "TiGee8uaRs4twpOK": {
+    "en": "Sack Hood",
+    "fr": "Sac cagoule",
+    "type": "headgear",
+    "res": [
+      0,
+      0,
+      2
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": 1,
+    "cost": 5,
+    "rarity": 0,
+    "mods": []
+  },
+  "xEiw9lX3nYE1uoT0": {
+    "en": "Welder’s Visor",
+    "fr": "Masque de soudure",
+    "type": "headgear",
+    "res": [
+      2,
+      2,
+      0
+    ],
+    "loc": [
+      "head"
+    ],
+    "weight": 4,
+    "cost": 20,
+    "rarity": 2,
+    "mods": []
+  }
+};
+  const mods = {
+  "R0OekXuLrtHf0j8f": {
+    "page": 126,
+    "en": "Ballistic Weave",
+    "fr": "Tissu balistique",
+    "res": [
+      2,
+      2,
+      0
+    ],
+    "weight": 0,
+    "cost": 20,
+    "perks": ""
+  },
+  "8JID23VwOdXqwESb": {
+    "page": 126,
+    "en": "Ballistic Weave Mk II",
+    "fr": "Tissu balistique Mk II",
+    "res": [
+      3,
+      3,
+      0
+    ],
+    "weight": 0,
+    "cost": 30,
+    "perks": "Armorer 1"
+  },
+  "kRuMVjqK0tr5aZDY": {
+    "page": 126,
+    "en": "Ballistic Weave Mk III",
+    "fr": "Tissu balistique Mk III",
+    "res": [
+      4,
+      4,
+      0
+    ],
+    "weight": 0,
+    "cost": 40,
+    "perks": "Armorer 2"
+  },
+  "fGvLq6Ku80a5cTSg": {
+    "page": 126,
+    "en": "Ballistic Weave Mk IV",
+    "fr": "Tissu balistique Mk IV",
+    "res": [
+      5,
+      5,
+      0
+    ],
+    "weight": 0,
+    "cost": 50,
+    "perks": "Armorer 3"
+  },
+  "ew9m8xT2GbnWCHeu": {
+    "page": 126,
+    "en": "Ballistic Weave Mk V",
+    "fr": "Tissu balistique Mk V",
+    "res": [
+      6,
+      6,
+      0
+    ],
+    "weight": 0,
+    "cost": 60,
+    "perks": "Armorer 4"
+  },
+  "p0DwgxYf9LqKdtD2": {
+    "page": 129,
+    "en": "Insulated Lining",
+    "fr": "Revêtement isolant",
+    "res": [
+      0,
+      1,
+      0
+    ],
+    "weight": 0,
+    "cost": 10,
+    "perks": ""
+  },
+  "eJRm4a5fGv7fIWgn": {
+    "page": 129,
+    "en": "Treated Lining",
+    "fr": "Revêtement traité",
+    "res": [
+      0,
+      1,
+      1
+    ],
+    "weight": 1,
+    "cost": 20,
+    "perks": "Armorer 2"
+  },
+  "6HktMjmw1GkHhudw": {
+    "page": 129,
+    "en": "Resistant Lining",
+    "fr": "Revêtement résistant",
+    "res": [
+      0,
+      2,
+      1
+    ],
+    "weight": 1,
+    "cost": 30,
+    "perks": "Armorer 3"
+  },
+  "gVTTVLDe6xQMbv5K": {
+    "page": 129,
+    "en": "Protective Lining",
+    "fr": "Revêtement protecteur",
+    "res": [
+      0,
+      2,
+      2
+    ],
+    "weight": 1,
+    "cost": 40,
+    "perks": "Armorer 4; Science! 2"
+  },
+  "VMzxtew6VJQCzIIk": {
+    "page": 129,
+    "en": "Shielded Lining",
+    "fr": "Revêtement blindé",
+    "res": [
+      0,
+      3,
+      3
+    ],
+    "weight": 1,
+    "cost": 50,
+    "perks": "Armorer 4; Science! 4"
+  }
+};
+  const officialFrDescriptions = {
+  "kRun2GR8nZLirYHD": "<p>Plusieurs couches de cuir avec des chiffons, des plaques de métal, des chaînes et des barres cousus sur le cuir ou soudés ensemble. Les extrémités d’une grande partie des barres dépassent de l’armure, créant l’apparence d’une tenue hérissée de pointes qui aide à repousser les attaques de corps à corps, tandis que les couches de plaques de métal et de rembourrage de cuir protègent contre les dangers et attaques divers. Une capuche et un casque ajoutent à la protection fournie.</p>",
+  "vWq7tmY6iChl2g2t": "<p>Des vêtements en cuir épais, renforcés avec des chiffons, des plaques de métal, des chaînes et des barres. Comme pour l’armure à pointes (voir page 125), la ferronnerie de cette tenue crée une cage grossière de barres d’armature autour de la tête et du torse, qui fournit une protection supplémentaire. L’armure cage est normalement portée avec une cagoule et un casque.</p>",
+  "XzEQFrZXE4OPNs3g": "<p>Portée par les ingénieurs de la Confrérie de l’Acier et par ceux qui adoptent une occupation similaire, cette tenue est composée d’une veste de protection, de gantelets de toile ou de cuir épais, d’un gilet et d’une ceinture sur lesquels sont placées des dizaines de petites poches. La tenue protège contre les risques inhérents à l’utilisation d’outils électriques dans un atelier, mais n’est pas vraiment une armure adaptée à un champ de bataille.</p>",
+  "lVYblrMAgEfHnWTR": "<p>Les scribes de la Confrérie de l’Acier doivent parfois s’aventurer sur le terrain pour effectuer des observations ou faire des recherches in situ. Cette tenue ne fournit qu’une protection limitée, mais suffit à défendre celui qui la porte contre le danger assez longtemps pour qu’il puisse battre en retraite et demander de l’aide à quelqu’un de mieux équipé.</p>",
+  "3UDbwGcAdrC2eEvd": "<p>Une tenue polyvalente appréciée des mécaniciens et autres bricoleurs ; le bleu de travail est conçu pour les protéger des risques du travail dur et salissant sur de la machinerie. Il est accompagné d’épais gants pour protéger les mains et d’une ceinture de mécano à laquelle accrocher divers outils et autres objets utiles.</p><p><strong>Spécial :</strong> le bleu de travail augmente de +5 la charge maximale de celui qui le porte.</p>",
+  "cdwX7EVolnIWRaZi": "<p>Une blouse blanche (mais probablement tachée ou sale) censée être portée dans un laboratoire. Inclut normalement beaucoup de poches utiles et une montre ou un capteur juste en dessous du revers gauche, là où le porteur peut aisément jeter un œil sans devoir le prendre dans sa main, idéal pendant un travail scientifique délicat.</p><p><strong>Spécial :</strong> grâce à la praticité du modèle, mais aussi au fait que vous vous sentez tout simplement plus intelligent quand vous en enfilez une, porter une blouse vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur l’INT que vous effectuez.</p><p>Les blouses peuvent être renforcées avec du tissu balistique (voir encadré correspondant).</p>",
+  "vinehrp26vkj6pQj": "<p>Cette cagoule étroitement ajustée est le couvre-chef assorti à l’uniforme de la Confrérie de l’Acier. Elle fut développée avant la Grande Guerre pour ceux qui portaient une armure assistée. Elle est conçue pour être branchée sur le casque d’une armure assistée, fournissant une meilleure interface avec les systèmes de l’armure. Elle contient aussi un écouteur et un micro pour la radio interne de l’armure.</p>",
+  "Dk9UjvjZexa8J0U8": "<p>Un tissu ou un morceau de cuir qui couvre la tête et le cou. Fournit une légère protection contre les éléments et facile à combiner avec un masque ou un mouchoir pour couvrir la bouche et le nez afin de ne pas respirer la poussière et les vapeurs toxiques. Utile dans les Terres désolées si vous vous retrouvez à l’extérieur sans protection plus adéquate.</p>",
+  "BNhFyx4TZM8NoOoN": "<p>Un casque léger en métal ou en plastique conçu pour protéger la tête contre les chocs et les collisions sur un lieu de travail industriel avec beaucoup d’activité ou sur un chantier de construction. Il n’est pas vraiment prévu pour servir en combat, mais si vous n’avez pas d’autre casque, un casque de chantier sera toujours mieux que rien.</p>",
+  "Luele6U32M5YDKlj": "<p>Un casque composé de métal, de plastique et de céramique légère, conçu pour protéger la tête du soldat contre le shrapnel. Il est capitonné de rembourrage pour épouser au plus près la forme de la tête et tenir solidement en place.</p>",
+  "1t9ZfJxVs14n5wTX": "<p>Cette casquette légère en cuir avec lunettes de protection est fournie avec l’armure de scribe de terrain de la Confrérie afin de protéger la tête contre les dangers des Terres désolées.</p>",
+  "hKGbIZhOnncmk7UT": "<p>Un chapeau simple et léger, normalement doté d’une visière ou de larges bords pour protéger les yeux du porteur contre le soleil.</p><p><strong>Spécial :</strong> un personnage qui porte un chapeau décontracté ignore toute augmentation de difficulté causée par une lumière extrêmement vive.</p>",
+  "WeHTP6Gw6Sr6HN8N": "<p>Un chapeau chic du plus bel effet pour une réunion d’affaires ou un événement officiel. À moins que vous ne portiez parce que vous aimez ce style ou parce qu’il garde votre visage à l’abri du soleil. Beaucoup de ces chapeaux sont relativement abîmés et usés à cause du manque d’entretien et de l’exposition à divers dangers, mais ils sont encore en état d’être portés.</p><p><strong>Spécial :</strong> porter un chapeau élégant vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur le CHR que vous effectuez, car ce chapeau vous aide à faire bonne impression.</p><p>Les chapeaux élégants peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
+  "Mfgi1OgjnrIm0BFV": "<p>Une combinaison totalement hermétique destinée aux personnes manipulant des matières dangereuses. Les matériaux dans lesquels est fabriquée une combinaison étanche résistent mal à la violence, mais ils vous immunisent contre les radiations.</p>",
+  "Z2wwI1RUjgV9UuzJ": "<p>Un harnais de sécurité d’ouvrier reconverti pour servir de support à des pièces d’armure. Très répandu parmi les pillards, lesquels ont tendance à porter le harnais sans haut en dessous.</p>",
+  "sHVONLW2lTNyu8Mq": "<p>Un long manteau pesant (un épais manteau d’homme en cuir, un trench-coat ou un article similaire) idéal pour vous protéger contre les rigueurs des éléments. Fournit une défense minimale contre les dangers physiques, la chaleur extrême et couvre même assez bien pour bloquer un peu les radiations.</p><p><strong>Spécial :</strong> porter un manteau lourd vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur l’END que vous effectuez, car il vous protège contre les rigueurs de l’environnement.</p><p>Les manteaux lourds peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
+  "YJBboQPnSQFg8kgp": "<p>Un masque de caoutchouc et de cuir avec une visière en plastique qui, une fois enfilé sur le visage, ne laisse plus passer l’air. Le devant du masque contient un filtre qui purifie l’air des contaminants tels que la poussière et le gaz.</p><p><strong>Spécial :</strong> le masque à gaz fournit +3 résistance aux dégâts de poison contre tous les poisons présents dans l’atmosphère ou gazeux et grâce à lui, celui qui le porte ne subit aucun effet lié au gaz ou à la poussière. Augmentez de +1 la difficulté de tous les tests de Discours d’un personnage qui porte un masque à gaz, car il étouffe la voix du porteur.</p>",
+  "xEiw9lX3nYE1uoT0": "<p>Un couvre-chef renforcé avec une plaque de métal qui se rabat devant le visage. La plaque de métal inclut un morceau de verre teinté durci qui protège les yeux quand celui qui la porte utilise des outils de soudure. Elle peut être relevée ou rabaissée quand le porteur le désire. Les scribes de la Confrérie de l’Acier et les ingénieurs portent souvent des masques de soudure, car ils passent beaucoup de temps à travailler le métal.</p>",
+  "LhR6Kj541PHxZ7Bo": "<p>Généralement fabriquée à partir de la peau coriace d’une brahmine, d’un radcerf ou d’un autre gros animal, cette tenue simple fournit un peu de protection et de confort, mais ne remplace pas des vêtements ou une armure dignes de ce nom.</p>",
+  "TiGee8uaRs4twpOK": "<p>Une cagoule en tissu robuste fabriquée avec un sac de jute ou de toile. Elle donne un peu de protection contre la poussière, les vapeurs toxiques et les radiations en couvrant toute la tête. Elle comporte deux trous pour les yeux bien pratiques et certaines versions ajoutent des appareils respiratoires de bric et de broc, mais leur efficacité est au mieux douteuse.</p>",
+  "QX9YgFGANsHkpTQd": "<p>Un trench-coat en cuir, des gants et des bottes solides en peau, un jean et une chemise. Ces éléments donnent une tenue résistante, mais confortable qui peut être portée pendant de longues périodes et assez chaude en extérieur pour convenir à ceux qui errent dans les Terres désolées.</p>",
+  "jnjGlz8wOI3b2brm": "<p>Une tenue basique, mais résistante pour le personnel de la Confrérie de l’Acier, composée d’un pull militaire, d’un pantalon, de gants, de bottes de combat et de sangles militaires, elle est ornée d’insignes de la Confrérie indiquant le rang et le rôle de celui qui la porte. La couleur de l’uniforme signale aussi certaines spécialisations : les médecins portent un pull blanc, tandis que le personnel de vol porte du bleu marine. Même s’il n’est pas prévu pour le combat, ce treillis est suffisamment résistant et robuste pour fournir une protection minimale contre divers dangers.</p>",
+  "j3Q6RHDSuhadGvdm": "<p>Un ensemble simple et résistant comportant un haut, une veste, un pantalon et des bottes de combat, conçu pour être porté par le personnel militaire avant la Grande Guerre. Ces vêtements sont prévus pour être portés dans des conditions peu clémentes et comportent beaucoup de poches pour transporter des objets utiles. Un ensemble intact constitue donc un butin tout à fait correct.</p><p><strong>Spécial :</strong> porter un treillis militaire vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur la FOR ou sur l’AGI que vous effectuez, car le treillis vous donne une grande liberté de mouvement.</p><p>Les treillis militaires peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
+  "DEpvfGFbc6KIebfH": "<p>À l’origine, cet uniforme est la combinaison destinée à être portée sous le système d’armure assistée T-45. La surface de la tenue est recouverte de divers ports d’interface et connecteurs afin de connecter celui qui la porte au châssis de l’armure assistée, portée par-dessus. La Confrérie de l’Acier utilise cette combinaison comme base pour son uniforme standard, afin de s’assurer autant que possible que la majorité de son personnel est constamment prêt à endosser une armure complète. Au combat, l’uniforme est normalement porté sous une autre armure si aucune armure assistée n’est disponible, tandis que les officiers gradés de la Confrérie portent souvent une veste d’aviateur ou un manteau de combat blindé par-dessus leur combinaison.</p>",
+  "qwD45ugL9z0szLZQ": "<p>Une veste en cuir, un pantalon en cuir et une paire de bottes de moto. Souvent décorés de clous métalliques, ces vêtements de cuir souple fournissent une modeste protection contre les dangers physiques tels qu’une chute de moto, tout en restant raisonnablement confortables par n’importe quel climat froid ou tempéré.</p>",
+  "mGCVgHtv7btlXFcj": "<p>Simples, légers et permettant d’être à l’aise pour bouger, les vêtements décontractés d’avant-guerre étaient destinés à être portés pour les loisirs et les activités peu fatigantes.</p><p><strong>Spécial :</strong> porter des vêtements décontractés vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur la FOR ou l’AGI que vous effectuez, car ces vêtements donnent une grande liberté de mouvement.</p><p>Les vêtements décontractés peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
+  "RWHypmbHATEbfGdU": "<p>Un costume chic, une belle robe ou un autre type de vêtements raffinés bien coupés. Davantage conçus pour être beaux que pour être fonctionnels, les vêtements élégants sont utiles quand vous voulez impressionner quelqu’un, et sont souvent prisés comme symbole de statut, donnant l’apparence de quelqu’un qui n’a pas besoin de s’inquiéter de sa propre sécurité.</p><p><strong>Spécial :</strong> porter des vêtements élégants vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur le CHR que vous effectuez, car ces vêtements vous aident à faire bonne impression.</p><p>Les vêtements élégants peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
+  "DxWJxT0MuxkbCofe": "<p>Des vêtements robustes, généralement un mélange de plusieurs articles assez solides pour créer un ensemble capable de supporter la vie rude des Terres désolées. L’ensemble est ordinairement composé d’une veste, d’un haut et d’un maillot de corps, d’un jean et de chaussures de marche, renforcés (ou raccommodés) avec du scotch, pour fournir à la fois une protection minime contre les plaies et bosses de la vie et un peu de chaleur par les froides nuits d’hiver nucléaire.</p>",
+  "aOmUGU0KhxIusQzy": "<p>Le vêtement standard pour tous les habitants d’un Abri, fourni par Vault-Tec. C’est une combinaison bleue près du corps avec une bande dorée qui passe autour du cou, au centre du buste et le long des manches. Cette bande est une feuille métallique qui aide à dissiper la chaleur et contribue au fonctionnement des scanners biométriques intégrés de la combinaison. Chaque combinaison d’Abri est ornée d’un numéro sur le dos, indiquant de quel Abri elle provient.</p><p>Une combinaison d’Abri peut être modifiée avec un revêtement de protection supplémentaire, recevant alors l’un des mods ci-dessous. Tous les mods de la combinaison d’Abri s’installent avec la compétence Réparation.</p>"
+};
+  assert.equal(catalog.certifiedThrough.en.sourcePage, 129);
+  assert.equal(catalog.certifiedThrough.fr.sourcePage, 129);
+  assert.equal(catalog.entries.filter(e => e.page === 124 && e.pack === "apparel" && e.status === "verified").length, 29);
+  assert.equal(catalog.entries.filter(e => [126,129].includes(e.page) && e.pack === "apparel-mods" && e.status === "verified").length, 10);
+  const docs = {};
+  for (const language of ["en", "fr"]) docs[language] = new Map((await generatedDocuments(language)).map(({pack,document}) => [`${pack}/${document._id}`, document]));
+  for (const [id,spec] of Object.entries(profiles)) {
+    for (const language of ["en","fr"]) {
+      const doc = docs[language].get(`apparel/${id}`); assert.ok(doc, `${language}/apparel/${id} missing`);
+      assert.equal(doc.name, spec[language]); assert.equal(doc.flags["fallout2d20-compendium"].source.page, 124); assert.equal(doc.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      if (language === "fr") { assert.equal(doc.flags["fallout2d20-compendium"].source.translationReviewed, true); assert.equal(doc.system.description, officialFrDescriptions[id]); }
+      assert.equal(doc.system.apparelType, spec.type); assert.deepEqual([doc.system.resistance.physical,doc.system.resistance.energy,doc.system.resistance.radiation], spec.res);
+      assert.equal(doc.system.cost, spec.cost); assert.equal(doc.system.rarity, spec.rarity);
+      for (const key of ["head","armL","armR","legL","legR","torso"]) assert.equal(doc.system.location[key], spec.loc.includes(key), `${id}/${key} coverage`);
+      if (spec.weight === null) assert.ok(doc.system.weight < 1); else assert.equal(doc.system.weight, language === "en" ? spec.weight : spec.weight / 2);
+      const actualMods = Object.keys(doc.system.mods).filter(k => /^[A-Za-z0-9]{16}$/.test(k)).sort(); assert.deepEqual(actualMods, [...spec.mods].sort()); assert.equal(doc.system.mods.max, spec.mods.length ? 1 : 0);
+    }
+    if (spec.weight === null) assert.equal(docs.fr.get(`apparel/${id}`).system.weight, docs.en.get(`apparel/${id}`).system.weight / 2, `${id} <1 lb metric conversion`);
+  }
+  assert.equal(docs.en.get("apparel/BNhFyx4TZM8NoOoN").system.rarity, 1);
+  assert.equal(docs.en.get("apparel/Mfgi1OgjnrIm0BFV").system.location.head, true);
+  const hazmatEntry = catalog.entries.find(e => e.documentId === "Mfgi1OgjnrIm0BFV"); assert.equal(hazmatEntry.certification.radiationImmunity, true);
+  assert.equal(docs.fr.get("apparel/mGCVgHtv7btlXFcj").system.mods.R0OekXuLrtHf0j8f.name, "Tissu balistique");
+  assert.equal(docs.fr.get("apparel/aOmUGU0KhxIusQzy").system.mods.p0DwgxYf9LqKdtD2.name, "Revêtement isolant"); assert.ok(!docs.fr.get("apparel/aOmUGU0KhxIusQzy").system.mods.R0OekXuLrtHf0j8f);
+  for (const [id,spec] of Object.entries(mods)) for (const language of ["en","fr"]) {
+    const doc = docs[language].get(`apparel-mods/${id}`); assert.ok(doc); assert.equal(doc.name, spec[language]); assert.equal(doc.flags["fallout2d20-compendium"].source.page, spec.page); assert.equal(doc.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    if (language === "fr") assert.equal(doc.flags["fallout2d20-compendium"].source.translationReviewed, true);
+    assert.deepEqual([doc.system.resistance.physical,doc.system.resistance.energy,doc.system.resistance.radiation], spec.res); assert.equal(doc.system.cost, spec.cost); assert.equal(doc.system.perks, language === "fr" ? doc.system.perks : spec.perks);
+    if (spec.weight === 0) assert.equal(doc.system.weight ?? 0, 0); else assert.equal(doc.system.weight, language === "en" ? spec.weight : spec.weight / 2);
+  }
+  for (const id of ["mGCVgHtv7btlXFcj","j3Q6RHDSuhadGvdm","RWHypmbHATEbfGdU","sHVONLW2lTNyu8Mq","cdwX7EVolnIWRaZi"]) assert.doesNotMatch(docs.en.get(`apparel/${id}`).system.description, /see sidebar, p[.] 126/);
+  assert.equal(docs.en.get("apparel/XzEQFrZXE4OPNs3g").name, "Engineer’s Armor"); assert.equal(docs.en.get("apparel/lVYblrMAgEfHnWTR").name, "Brotherhood Scribe’s Armor"); assert.equal(docs.en.get("apparel/1t9ZfJxVs14n5wTX").name, "Brotherhood Scribe’s Hat"); assert.equal(docs.en.get("apparel/xEiw9lX3nYE1uoT0").name, "Welder’s Visor");
+});

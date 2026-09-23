@@ -3,7 +3,7 @@
   "_file": "capuche_ou_cagoule__Dk9UjvjZexa8J0U8.json",
   "values": {
     "/name": "Cagoule ou capuche",
-    "/system/description": "<p>Une couverture de tissu ou de cuir pour la tête et le cou. Elle protège un peu des éléments et se combine facilement à un masque ou foulard couvrant bouche et nez contre poussières et fumées.</p>",
+    "/system/description": "<p>Un tissu ou un morceau de cuir qui couvre la tête et le cou. Fournit une légère protection contre les éléments et facile à combiner avec un masque ou un mouchoir pour couvrir la bouche et le nez afin de ne pas respirer la poussière et les vapeurs toxiques. Utile dans les Terres désolées si vous vous retrouvez à l’extérieur sans protection plus adéquate.</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "Dk9UjvjZexa8J0U8",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

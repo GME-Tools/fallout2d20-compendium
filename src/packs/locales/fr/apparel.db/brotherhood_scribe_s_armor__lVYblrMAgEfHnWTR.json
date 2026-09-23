@@ -3,7 +3,7 @@
   "_file": "armure_de_scribe_de_la_confrerie__lVYblrMAgEfHnWTR.json",
   "values": {
     "/name": "Armure de scribe de terrain de la Confrérie",
-    "/system/description": "<p>Les scribes de la Confrérie de l’Acier doivent parfois s’aventurer sur le terrain pour observer ou mener leurs recherches au plus près. Cette tenue n’offre qu’une protection limitée, mais suffit à préserver son porteur le temps de se replier et d’obtenir l’aide de quelqu’un de mieux équipé.</p>",
+    "/system/description": "<p>Les scribes de la Confrérie de l’Acier doivent parfois s’aventurer sur le terrain pour effectuer des observations ou faire des recherches in situ. Cette tenue ne fournit qu’une protection limitée, mais suffit à défendre celui qui la porte contre le danger assez longtemps pour qu’il puisse battre en retraite et demander de l’aide à quelqu’un de mieux équipé.</p>",
     "/system/weight": 2,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "lVYblrMAgEfHnWTR",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

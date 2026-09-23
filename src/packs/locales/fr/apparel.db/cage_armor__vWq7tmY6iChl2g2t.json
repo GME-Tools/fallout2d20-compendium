@@ -3,7 +3,7 @@
   "_file": "armure_cage__vWq7tmY6iChl2g2t.json",
   "values": {
     "/name": "Armure cage",
-    "/system/description": "<p>D’épais vêtements de cuir renforcés de chiffons, plaques métalliques, chaînes et barres. Comme sur l’armure à pointes, la ferronnerie forme une cage grossière autour de la tête et du torse, apportant une protection supplémentaire. Elle est normalement portée avec une capuche et un casque.</p>",
+    "/system/description": "<p>Des vêtements en cuir épais, renforcés avec des chiffons, des plaques de métal, des chaînes et des barres. Comme pour l’armure à pointes (voir page 125), la ferronnerie de cette tenue crée une cage grossière de barres d’armature autour de la tête et du torse, qui fournit une protection supplémentaire. L’armure cage est normalement portée avec une cagoule et un casque.</p>",
     "/system/weight": 16.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "vWq7tmY6iChl2g2t",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

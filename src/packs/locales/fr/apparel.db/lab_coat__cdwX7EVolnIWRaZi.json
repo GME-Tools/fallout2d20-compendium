@@ -3,7 +3,7 @@
   "_file": "blouse_de_laboratoire__cdwX7EVolnIWRaZi.json",
   "values": {
     "/name": "Blouse",
-    "/system/description": "<p>Une blouse blanche, probablement tachée, destinée au laboratoire, dotée de nombreuses poches et d’une montre ou d’un capteur sous le revers gauche. <strong>Spécial :</strong> une fois par scène, elle permet de relancer un d20 d’un test de compétence fondé sur l’INT. Elle peut être renforcée avec du tissu balistique.</p>",
+    "/system/description": "<p>Une blouse blanche (mais probablement tachée ou sale) censée être portée dans un laboratoire. Inclut normalement beaucoup de poches utiles et une montre ou un capteur juste en dessous du revers gauche, là où le porteur peut aisément jeter un œil sans devoir le prendre dans sa main, idéal pendant un travail scientifique délicat.</p><p><strong>Spécial :</strong> grâce à la praticité du modèle, mais aussi au fait que vous vous sentez tout simplement plus intelligent quand vous en enfilez une, porter une blouse vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur l’INT que vous effectuez.</p><p>Les blouses peuvent être renforcées avec du tissu balistique (voir encadré correspondant).</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "cdwX7EVolnIWRaZi",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

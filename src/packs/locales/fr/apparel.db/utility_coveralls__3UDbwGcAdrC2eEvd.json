@@ -3,7 +3,7 @@
   "_file": "combinaison_utilitaire__3UDbwGcAdrC2eEvd.json",
   "values": {
     "/name": "Bleu de travail",
-    "/system/description": "<p>Tenue polyvalente appréciée des mécaniciens, conçue pour le travail pénible et salissant sur des machines, avec gants épais et ceinture à outils. <strong>Spécial :</strong> elle augmente de +5 la charge maximale de son porteur.</p>",
+    "/system/description": "<p>Une tenue polyvalente appréciée des mécaniciens et autres bricoleurs ; le bleu de travail est conçu pour les protéger des risques du travail dur et salissant sur de la machinerie. Il est accompagné d’épais gants pour protéger les mains et d’une ceinture de mécano à laquelle accrocher divers outils et autres objets utiles.</p><p><strong>Spécial :</strong> le bleu de travail augmente de +5 la charge maximale de celui qui le porte.</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "3UDbwGcAdrC2eEvd",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

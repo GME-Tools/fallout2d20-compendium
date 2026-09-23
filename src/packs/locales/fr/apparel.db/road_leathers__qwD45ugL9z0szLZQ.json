@@ -3,7 +3,7 @@
   "_file": "cuirs_de_route__qwD45ugL9z0szLZQ.json",
   "values": {
     "/name": "Vêtements de cuir",
-    "/system/description": "<p>Une veste et un pantalon de cuir avec des bottes de moto, souvent ornés de clous métalliques. Ce cuir souple protège modestement des dangers physiques, comme une chute de moto, tout en restant confortable par climat tempéré ou froid.</p>",
+    "/system/description": "<p>Une veste en cuir, un pantalon en cuir et une paire de bottes de moto. Souvent décorés de clous métalliques, ces vêtements de cuir souple fournissent une modeste protection contre les dangers physiques tels qu’une chute de moto, tout en restant raisonnablement confortables par n’importe quel climat froid ou tempéré.</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "qwD45ugL9z0szLZQ",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

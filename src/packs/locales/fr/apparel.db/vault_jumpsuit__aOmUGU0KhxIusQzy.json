@@ -3,11 +3,7 @@
   "_file": "combinaison_d_abri__aOmUGU0KhxIusQzy.json",
   "values": {
     "/name": "Combinaison d’Abri",
-    "/system/description": "<p>Tenue standard des habitants d’Abri fournie par Vault-Tec : une combinaison bleue ajustée parcourue d’une bande jaune doré métallique qui dissipe la chaleur et travaille avec ses capteurs biométriques. Le numéro dorsal indique l’Abri d’origine. Elle accepte un revêtement protecteur installé avec Réparation : Isolant, Traité, Résistant, Protecteur ou Blindé.</p>",
-    "/system/mods/6HktMjmw1GkHhudw/system/weight": 0.5,
-    "/system/mods/VMzxtew6VJQCzIIk/system/weight": 0.5,
-    "/system/mods/eJRm4a5fGv7fIWgn/system/weight": 0.5,
-    "/system/mods/gVTTVLDe6xQMbv5K/system/weight": 0.5,
+    "/system/description": "<p>Le vêtement standard pour tous les habitants d’un Abri, fourni par Vault-Tec. C’est une combinaison bleue près du corps avec une bande dorée qui passe autour du cou, au centre du buste et le long des manches. Cette bande est une feuille métallique qui aide à dissiper la chaleur et contribue au fonctionnement des scanners biométriques intégrés de la combinaison. Chaque combinaison d’Abri est ornée d’un numéro sur le dos, indiquant de quel Abri elle provient.</p><p>Une combinaison d’Abri peut être modifiée avec un revêtement de protection supplémentaire, recevant alors l’un des mods ci-dessous. Tous les mods de la combinaison d’Abri s’installent avec la compétence Réparation.</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "aOmUGU0KhxIusQzy",
@@ -15,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

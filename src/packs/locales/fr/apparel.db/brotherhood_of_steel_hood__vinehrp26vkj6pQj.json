@@ -3,13 +3,15 @@
   "_file": "capuche_de_la_confrerie_de_l_acier__vinehrp26vkj6pQj.json",
   "values": {
     "/name": "Cagoule de la Confrérie de l’Acier",
-    "/system/description": "<p>Couvre-chef ajusté assorti à l’uniforme de la Confrérie de l’Acier, conçu avant la Guerre pour les porteurs d’armure assistée. Il se branche au casque pour améliorer l’interface avec les systèmes et contient un écouteur et un microphone reliés à la radio interne.</p>",
+    "/system/description": "<p>Cette cagoule étroitement ajustée est le couvre-chef assorti à l’uniforme de la Confrérie de l’Acier. Elle fut développée avant la Grande Guerre pour ceux qui portaient une armure assistée. Elle est conçue pour être branchée sur le casque d’une armure assistée, fournissant une meilleure interface avec les systèmes de l’armure. Elle contient aussi un écouteur et un micro pour la radio interne de l’armure.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "vinehrp26vkj6pQj",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

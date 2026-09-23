@@ -3,7 +3,7 @@
   "_file": "cagoule_en_sac__TiGee8uaRs4twpOK.json",
   "values": {
     "/name": "Sac cagoule",
-    "/system/description": "<p>Une cagoule résistante fabriquée dans un sac de toile de jute ou de grosse toile. Elle couvre toute la tête et protège un peu de la poussière, des fumées et des radiations. Des trous permettent de voir ; certains modèles ajoutent un appareil respiratoire improvisé dont l’efficacité reste douteuse.</p>",
+    "/system/description": "<p>Une cagoule en tissu robuste fabriquée avec un sac de jute ou de toile. Elle donne un peu de protection contre la poussière, les vapeurs toxiques et les radiations en couvrant toute la tête. Elle comporte deux trous pour les yeux bien pratiques et certaines versions ajoutent des appareils respiratoires de bric et de broc, mais leur efficacité est au mieux douteuse.</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "TiGee8uaRs4twpOK",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

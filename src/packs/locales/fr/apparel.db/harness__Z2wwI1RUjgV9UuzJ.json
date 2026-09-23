@@ -3,7 +3,7 @@
   "_file": "harnais__Z2wwI1RUjgV9UuzJ.json",
   "values": {
     "/name": "Harnais",
-    "/system/description": "<p>Un harnais de sécurité de travail reconverti en support pour pièces d’armure. Courant chez les pillards, qui le portent souvent torse nu.</p>",
+    "/system/description": "<p>Un harnais de sécurité d’ouvrier reconverti pour servir de support à des pièces d’armure. Très répandu parmi les pillards, lesquels ont tendance à porter le harnais sans haut en dessous.</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "Z2wwI1RUjgV9UuzJ",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

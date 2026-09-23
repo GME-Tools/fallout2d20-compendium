@@ -3,7 +3,7 @@
   "_file": "masque_a_gaz__YJBboQPnSQFg8kgp.json",
   "values": {
     "/name": "Masque à gaz",
-    "/system/description": "<p>Masque de caoutchouc et de cuir à visière plastique formant un joint étanche, avec filtre contre poussières, gaz et contaminants. <strong>Spécial :</strong> +3 Résistance aux dégâts de poison aérien ou gazeux et immunité aux effets liés au gaz ou à la poussière. La voix étouffée augmente de +1 la difficulté de tous les tests de Discours.</p>",
+    "/system/description": "<p>Un masque de caoutchouc et de cuir avec une visière en plastique qui, une fois enfilé sur le visage, ne laisse plus passer l’air. Le devant du masque contient un filtre qui purifie l’air des contaminants tels que la poussière et le gaz.</p><p><strong>Spécial :</strong> le masque à gaz fournit +3 résistance aux dégâts de poison contre tous les poisons présents dans l’atmosphère ou gazeux et grâce à lui, celui qui le porte ne subit aucun effet lié au gaz ou à la poussière. Augmentez de +1 la difficulté de tous les tests de Discours d’un personnage qui porte un masque à gaz, car il étouffe la voix du porteur.</p>",
     "/system/weight": 1.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "YJBboQPnSQFg8kgp",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

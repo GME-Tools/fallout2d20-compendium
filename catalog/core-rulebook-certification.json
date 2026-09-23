@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 125,
-      "sourcePage": 123
+      "pdfPage": 131,
+      "sourcePage": 129
     },
     "fr": {
-      "pdfPage": 126,
-      "sourcePage": 123
+      "pdfPage": 132,
+      "sourcePage": 129
     }
   },
   "pageReviews": [
@@ -2021,6 +2021,102 @@
       "language": "fr",
       "pdfPage": 126,
       "sourcePage": 123,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 126,
+      "sourcePage": 124,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 127,
+      "sourcePage": 124,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 127,
+      "sourcePage": 125,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 128,
+      "sourcePage": 125,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 128,
+      "sourcePage": 126,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 129,
+      "sourcePage": 126,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 129,
+      "sourcePage": 127,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 130,
+      "sourcePage": 127,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 130,
+      "sourcePage": 128,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 131,
+      "sourcePage": 128,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 131,
+      "sourcePage": 129,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 132,
+      "sourcePage": 129,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -15437,7 +15533,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 12,
         "perks": [
           "Blacksmith 1"
@@ -15469,7 +15565,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 18,
         "perks": [
           "Blacksmith 2"
@@ -15501,7 +15597,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 25,
         "perks": [
           "Blacksmith 2"
@@ -15533,7 +15629,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 50,
         "perks": [
           "Blacksmith 2",
@@ -15566,7 +15662,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 75,
         "perks": [
           "Blacksmith 3",
@@ -15599,7 +15695,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 100,
         "perks": [
           "Blacksmith 3",
@@ -15632,7 +15728,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 12,
         "perks": [
           "Blacksmith 2"
@@ -15664,7 +15760,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 15,
         "perks": [],
         "installSkill": "Repair",
@@ -15694,7 +15790,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 3.0,
+        "weightLb": 3,
         "cost": 25,
         "perks": [
           "Blacksmith 3"
@@ -15726,7 +15822,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 100,
         "perks": [
           "Blacksmith 3"
@@ -15758,7 +15854,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 10,
         "perks": [
           "Blacksmith 1"
@@ -15790,7 +15886,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 1,
         "perks": [],
         "installSkill": "Repair",
@@ -15821,7 +15917,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 7,
         "perks": [],
         "installSkill": "Repair",
@@ -15851,7 +15947,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 7,
         "perks": [],
         "installSkill": "Repair",
@@ -15881,7 +15977,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 10,
         "perks": [
           "Blacksmith 1"
@@ -15913,7 +16009,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 2.0,
+        "weightLb": 2,
         "cost": 12,
         "perks": [
           "Blacksmith 2"
@@ -15945,7 +16041,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 1,
         "perks": [],
         "installSkill": "Repair",
@@ -15976,7 +16072,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 7,
         "perks": [],
         "installSkill": "Repair",
@@ -16006,7 +16102,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 7,
         "perks": [],
         "installSkill": "Repair",
@@ -16036,7 +16132,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 10,
         "perks": [
           "Blacksmith 1"
@@ -16068,7 +16164,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 2.0,
+        "weightLb": 2,
         "cost": 12,
         "perks": [
           "Blacksmith 2"
@@ -16100,7 +16196,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 6,
         "perks": [],
         "installSkill": "Repair",
@@ -16130,7 +16226,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 9,
         "perks": [
           "Blacksmith 1"
@@ -16162,7 +16258,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 2.0,
+        "weightLb": 2,
         "cost": 10,
         "perks": [
           "Blacksmith 1"
@@ -16194,7 +16290,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 4,
         "perks": [],
         "installSkill": "Repair",
@@ -16224,7 +16320,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 2.0,
+        "weightLb": 2,
         "cost": 11,
         "perks": [
           "Blacksmith 2"
@@ -16256,7 +16352,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 9,
         "perks": [],
         "installSkill": "Repair",
@@ -16286,7 +16382,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 7.0,
+        "weightLb": 7,
         "cost": 12,
         "perks": [
           "Blacksmith 1"
@@ -16318,7 +16414,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 13,
         "perks": [
           "Blacksmith 1"
@@ -16350,7 +16446,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 2.0,
+        "weightLb": 2,
         "cost": 22,
         "perks": [
           "Blacksmith 2"
@@ -16382,7 +16478,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 2,
         "perks": [],
         "installSkill": "Repair",
@@ -16412,7 +16508,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16442,7 +16538,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16472,7 +16568,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16502,7 +16598,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 15,
         "perks": [
           "Blacksmith 2",
@@ -16535,7 +16631,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 30,
         "perks": [
           "Blacksmith 2",
@@ -16568,7 +16664,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 5.0,
+        "weightLb": 5,
         "cost": 18,
         "perks": [
           "Blacksmith 2"
@@ -16600,7 +16696,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 9.0,
+        "weightLb": 9,
         "cost": 30,
         "perks": [
           "Blacksmith 2"
@@ -16632,7 +16728,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 180,
         "perks": [
           "Blacksmith 2"
@@ -16664,7 +16760,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 360,
         "perks": [
           "Blacksmith 3",
@@ -16697,7 +16793,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 12,
         "perks": [
           "Blacksmith 2"
@@ -16729,7 +16825,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16759,7 +16855,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16789,7 +16885,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16819,7 +16915,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 4,
         "perks": [
           "Blacksmith 1"
@@ -16851,7 +16947,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 1.0,
+        "weightLb": 1,
         "cost": 7,
         "perks": [
           "Blacksmith 1"
@@ -16883,7 +16979,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 2.0,
+        "weightLb": 2,
         "cost": 22,
         "perks": [],
         "installSkill": "Repair",
@@ -16913,7 +17009,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16943,7 +17039,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 3,
         "perks": [],
         "installSkill": "Repair",
@@ -16973,7 +17069,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 4,
         "perks": [
           "Blacksmith 1"
@@ -17005,7 +17101,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "weightLb": 0.0,
+        "weightLb": 0,
         "cost": 5,
         "perks": [
           "Blacksmith 1"
@@ -18064,6 +18160,1875 @@
         "weightLb": 2,
         "cost": 20,
         "rarity": 3
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "rule_text",
+      "sourceName": "Clothing and Outfits",
+      "localizedNames": {
+        "fr": "Vêtements et tenues"
+      },
+      "scope": "out_of_scope",
+      "justification": "General clothing/outfit protection, layering and modification guidance; concrete reusable Items and mods are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          124
+        ],
+        "fr": [
+          124
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "note": "Clothing may be combined with armor; outfits may not. Ballistic weave is the only mod described for applicable ordinary apparel in this section."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "table",
+      "sourceName": "Clothing, Outfit, and Headgear Types",
+      "localizedNames": {
+        "fr": "Vêtements, tenues et types de couvre-chef"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table used as the source inventory and mechanical baseline for the 29 reusable apparel Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 29,
+        "localizationNote": "Official FR p.124 places the COUVRE-CHEFS heading before Peaux and several subsequent outfit rows. Canonical apparel categories follow EN; Hides through Utility Coveralls remain Outfits."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Brotherhood of Steel Uniform",
+      "localizedNames": {
+        "fr": "Uniforme de la Confrérie de l’Acier"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "DEpvfGFbc6KIebfH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 1
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Casual Clothing",
+      "localizedNames": {
+        "fr": "Vêtements décontractés"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "mGCVgHtv7btlXFcj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 1,
+        "acceptedMods": [
+          "Ballistic Weave",
+          "Ballistic Weave Mk II",
+          "Ballistic Weave Mk III",
+          "Ballistic Weave Mk IV",
+          "Ballistic Weave Mk V"
+        ],
+        "maxMods": 1,
+        "weightLb": 2,
+        "specialRule": "reroll_str_agi_once_per_scene"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Harness",
+      "localizedNames": {
+        "fr": "Harnais"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "Z2wwI1RUjgV9UuzJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 5,
+        "rarity": 0,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 1
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Military Fatigues",
+      "localizedNames": {
+        "fr": "Treillis militaire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "j3Q6RHDSuhadGvdm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 12,
+        "rarity": 1,
+        "acceptedMods": [
+          "Ballistic Weave",
+          "Ballistic Weave Mk II",
+          "Ballistic Weave Mk III",
+          "Ballistic Weave Mk IV",
+          "Ballistic Weave Mk V"
+        ],
+        "maxMods": 1,
+        "weightLb": 3,
+        "specialRule": "reroll_str_agi_once_per_scene"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Road Leathers",
+      "localizedNames": {
+        "fr": "Vêtements de cuir"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "qwD45ugL9z0szLZQ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 5,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 1
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Tough Clothing",
+      "localizedNames": {
+        "fr": "Vêtements résistants"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "DxWJxT0MuxkbCofe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          128,
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 3
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Vault Jumpsuit",
+      "localizedNames": {
+        "fr": "Combinaison d’Abri"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "aOmUGU0KhxIusQzy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          129
+        ],
+        "fr": [
+          124,
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "clothing",
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 2
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 2,
+        "acceptedMods": [
+          "Insulated Lining",
+          "Treated Lining",
+          "Resistant Lining",
+          "Protective Lining",
+          "Shielded Lining"
+        ],
+        "maxMods": 1,
+        "weightLb": 1
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Brotherhood of Steel Fatigues",
+      "localizedNames": {
+        "fr": "Treillis de la Confrérie de l’Acier"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "jnjGlz8wOI3b2brm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 2
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 3,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 4
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Brotherhood Scribe’s Armor",
+      "localizedNames": {
+        "fr": "Armure de scribe de terrain de la Confrérie"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "lVYblrMAgEfHnWTR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 2
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 4
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Cage Armor",
+      "localizedNames": {
+        "fr": "Armure cage"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "vWq7tmY6iChl2g2t",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head",
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 110,
+        "rarity": 3,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 33
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Drifter Outfit",
+      "localizedNames": {
+        "fr": "Tenue de nomade"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "QX9YgFGANsHkpTQd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          126
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 35,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 10
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Engineer’s Armor",
+      "localizedNames": {
+        "fr": "Armure d’ingénieur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "XzEQFrZXE4OPNs3g",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          126
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 15,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Formal Clothing",
+      "localizedNames": {
+        "fr": "Vêtements élégants"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "RWHypmbHATEbfGdU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          126,
+          127
+        ],
+        "fr": [
+          124,
+          128
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 30,
+        "rarity": 2,
+        "acceptedMods": [
+          "Ballistic Weave",
+          "Ballistic Weave Mk II",
+          "Ballistic Weave Mk III",
+          "Ballistic Weave Mk IV",
+          "Ballistic Weave Mk V"
+        ],
+        "maxMods": 1,
+        "weightLb": 2,
+        "specialRule": "reroll_cha_once_per_scene"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Hazmat Suit",
+      "localizedNames": {
+        "fr": "Combinaison étanche"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "Mfgi1OgjnrIm0BFV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head",
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 85,
+        "rarity": 3,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 5,
+        "radiationImmunity": true,
+        "modelNote": "Current apparel data model has numeric Radiation DR but no equip-conditional radiation-immunity field; immunity remains explicit source text/certification rather than a fabricated numeric DR or always-on Active Effect."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Heavy Coat",
+      "localizedNames": {
+        "fr": "Manteau lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "sHVONLW2lTNyu8Mq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 1
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 20,
+        "rarity": 1,
+        "acceptedMods": [
+          "Ballistic Weave",
+          "Ballistic Weave Mk II",
+          "Ballistic Weave Mk III",
+          "Ballistic Weave Mk IV",
+          "Ballistic Weave Mk V"
+        ],
+        "maxMods": 1,
+        "weightLb": 2,
+        "specialRule": "reroll_end_once_per_scene"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Hides",
+      "localizedNames": {
+        "fr": "Peaux"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "LhR6Kj541PHxZ7Bo",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 13,
+        "rarity": 0,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 4
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Lab Coat",
+      "localizedNames": {
+        "fr": "Blouse"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "cdwX7EVolnIWRaZi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127,
+          128
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 10,
+        "rarity": 1,
+        "acceptedMods": [
+          "Ballistic Weave",
+          "Ballistic Weave Mk II",
+          "Ballistic Weave Mk III",
+          "Ballistic Weave Mk IV",
+          "Ballistic Weave Mk V"
+        ],
+        "maxMods": 1,
+        "weightLb": 2,
+        "specialRule": "reroll_int_once_per_scene"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Spike Armor",
+      "localizedNames": {
+        "fr": "Armure à pointes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "kRun2GR8nZLirYHD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head",
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 65,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 17
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Utility Coveralls",
+      "localizedNames": {
+        "fr": "Bleu de travail"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "3UDbwGcAdrC2eEvd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "outfit",
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "cost": 12,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 2,
+        "specialRule": "carry_weight_plus_5"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Army Helmet",
+      "localizedNames": {
+        "fr": "Casque militaire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "Luele6U32M5YDKlj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 20,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 3
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Brotherhood of Steel Hood",
+      "localizedNames": {
+        "fr": "Cagoule de la Confrérie de l’Acier"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "vinehrp26vkj6pQj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          125
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 12,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Brotherhood Scribe’s Hat",
+      "localizedNames": {
+        "fr": "Chapeau de scribe de terrain de la Confrérie"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "1t9ZfJxVs14n5wTX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          125
+        ],
+        "fr": [
+          124,
+          126,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 0,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 8,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Casual Hat",
+      "localizedNames": {
+        "fr": "Chapeau décontracté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "hKGbIZhOnncmk7UT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          126
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 15,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightSource": "<1 lb",
+        "specialRule": "ignore_extremely_bright_light_difficulty"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Formal Hat",
+      "localizedNames": {
+        "fr": "Chapeau élégant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "WeHTP6Gw6Sr6HN8N",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 15,
+        "rarity": 2,
+        "acceptedMods": [
+          "Ballistic Weave",
+          "Ballistic Weave Mk II",
+          "Ballistic Weave Mk III",
+          "Ballistic Weave Mk IV",
+          "Ballistic Weave Mk V"
+        ],
+        "maxMods": 1,
+        "weightSource": "<1 lb",
+        "specialRule": "reroll_cha_once_per_scene"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Gas Mask",
+      "localizedNames": {
+        "fr": "Masque à gaz"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "YJBboQPnSQFg8kgp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 3
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 10,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 3,
+        "specialRule": "poison_dr_3_airborne_gaseous_no_gas_dust_effects_speech_difficulty_plus_1"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Hard Hat",
+      "localizedNames": {
+        "fr": "Casque de chantier"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "BNhFyx4TZM8NoOoN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 15,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightSource": "<1 lb"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Hood or Cowl",
+      "localizedNames": {
+        "fr": "Cagoule ou capuche"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "Dk9UjvjZexa8J0U8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          127
+        ],
+        "fr": [
+          124,
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 1
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 5,
+        "rarity": 1,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Sack Hood",
+      "localizedNames": {
+        "fr": "Sac cagoule"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "TiGee8uaRs4twpOK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 2
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 5,
+        "rarity": 0,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 1
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 124,
+      "type": "apparel",
+      "sourceName": "Welder’s Visor",
+      "localizedNames": {
+        "fr": "Masque de soudure"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel Item defined by the Core p.124 Clothing, Outfit, and Headgear Types table and detailed profile on pp.125–129.",
+      "pack": "apparel",
+      "documentId": "xEiw9lX3nYE1uoT0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          124,
+          128
+        ],
+        "fr": [
+          124,
+          127
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "headgear",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "cost": 20,
+        "rarity": 2,
+        "acceptedMods": [],
+        "maxMods": 0,
+        "weightLb": 4
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "rule_text",
+      "sourceName": "Ballistic Weave",
+      "localizedNames": {
+        "fr": "Tissu balistique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Sidebar prose explaining Ballistic Weave, its scarcity and Repair installation; the five concrete mods are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "installSkill": "Repair",
+        "note": "Ballistic polymer weave improves the defensive abilities of specifically identified apparel profiles; recipe knowledge is described as scarce."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "table",
+      "sourceName": "Armor Ballistic Weave Mods",
+      "localizedNames": {
+        "fr": "Mods d’armure de tissu balistique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining five reusable Ballistic Weave apparel mods.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 5,
+        "installSkill": "Repair",
+        "acceptedBy": [
+          "Casual Clothing",
+          "Military Fatigues",
+          "Formal Clothing",
+          "Heavy Coat",
+          "Lab Coat",
+          "Formal Hat"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "apparel_mod",
+      "sourceName": "Ballistic Weave",
+      "localizedNames": {
+        "fr": "Tissu balistique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "R0OekXuLrtHf0j8f",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 0,
+        "cost": 20,
+        "perks": [],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "apparel_mod",
+      "sourceName": "Ballistic Weave Mk II",
+      "localizedNames": {
+        "fr": "Tissu balistique Mk II"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "8JID23VwOdXqwESb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 0,
+        "cost": 30,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "apparel_mod",
+      "sourceName": "Ballistic Weave Mk III",
+      "localizedNames": {
+        "fr": "Tissu balistique Mk III"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "kRuMVjqK0tr5aZDY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 0,
+        "cost": 40,
+        "perks": [
+          "Armorer 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "apparel_mod",
+      "sourceName": "Ballistic Weave Mk IV",
+      "localizedNames": {
+        "fr": "Tissu balistique Mk IV"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "fGvLq6Ku80a5cTSg",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "resistances": {
+          "physical": 5,
+          "energy": 5,
+          "radiation": 0
+        },
+        "weightLb": 0,
+        "cost": 50,
+        "perks": [
+          "Armorer 3"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 126,
+      "type": "apparel_mod",
+      "sourceName": "Ballistic Weave Mk V",
+      "localizedNames": {
+        "fr": "Tissu balistique Mk V"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "ew9m8xT2GbnWCHeu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          126
+        ],
+        "fr": [
+          126
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "resistances": {
+          "physical": 6,
+          "energy": 6,
+          "radiation": 0
+        },
+        "weightLb": 0,
+        "cost": 60,
+        "perks": [
+          "Armorer 4"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 129,
+      "type": "table",
+      "sourceName": "Vault Jumpsuit Mods",
+      "localizedNames": {
+        "fr": "Mods de la combinaison d’Abri"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the five reusable Vault Jumpsuit lining mods.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          129
+        ],
+        "fr": [
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 5,
+        "installSkill": "Repair",
+        "acceptedBy": [
+          "Vault Jumpsuit"
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 129,
+      "type": "apparel_mod",
+      "sourceName": "Insulated Lining",
+      "localizedNames": {
+        "fr": "Revêtement isolant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "p0DwgxYf9LqKdtD2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          129
+        ],
+        "fr": [
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 0,
+        "cost": 10,
+        "perks": [],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 129,
+      "type": "apparel_mod",
+      "sourceName": "Treated Lining",
+      "localizedNames": {
+        "fr": "Revêtement traité"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "eJRm4a5fGv7fIWgn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          129
+        ],
+        "fr": [
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 1
+        },
+        "weightLb": 1,
+        "cost": 20,
+        "perks": [
+          "Armorer 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 129,
+      "type": "apparel_mod",
+      "sourceName": "Resistant Lining",
+      "localizedNames": {
+        "fr": "Revêtement résistant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "6HktMjmw1GkHhudw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          129
+        ],
+        "fr": [
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "resistances": {
+          "physical": 0,
+          "energy": 2,
+          "radiation": 1
+        },
+        "weightLb": 1,
+        "cost": 30,
+        "perks": [
+          "Armorer 3"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 129,
+      "type": "apparel_mod",
+      "sourceName": "Protective Lining",
+      "localizedNames": {
+        "fr": "Revêtement protecteur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "gVTTVLDe6xQMbv5K",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          129
+        ],
+        "fr": [
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "resistances": {
+          "physical": 0,
+          "energy": 2,
+          "radiation": 2
+        },
+        "weightLb": 1,
+        "cost": 40,
+        "perks": [
+          "Armorer 4",
+          "Science! 2"
+        ],
+        "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 129,
+      "type": "apparel_mod",
+      "sourceName": "Shielded Lining",
+      "localizedNames": {
+        "fr": "Revêtement blindé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable apparel mod defined by the Core source table.",
+      "pack": "apparel-mods",
+      "documentId": "VMzxtew6VJQCzIIk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          129
+        ],
+        "fr": [
+          129
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "resistances": {
+          "physical": 0,
+          "energy": 3,
+          "radiation": 3
+        },
+        "weightLb": 1,
+        "cost": 50,
+        "perks": [
+          "Armorer 4",
+          "Science! 4"
+        ],
+        "installSkill": "Repair"
       }
     }
   ]

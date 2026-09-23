@@ -179,10 +179,11 @@ Current completed boundary:
 - Source pp.119–121 close the Core weapon section: both Power Fist mods, all three Throwing Weapons and all 11 Explosives are certified with exact bilingual coordinates, profiles, weights and current Errata V6. The audit repaired crossed Heating Coil recipe identities: `MvrQv0wg5FE6j7TR` is the p.119 Power Fist coil (cost 100, +2 CD, Energy, Blacksmith 3), while `hVD46UqAqiNB4f57` remains the p.117 Super Sledge coil (cost 180, +1 CD, Energy, Blacksmith 2). Nuka Grenade and Nuke Mine use Breaking, and Nuke/Plasma/Pulse Mines use Mine rather than Thrown (M).
 - The official FR p.120 table misprints Mine à impulsion with the Plasma Mine profile (9 CD, no Stun, Thrown (M), cost 135). Canonical EN + Errata retains 6 CD, Stun, Mine and cost 100; the localization discrepancy is recorded in the certification inventory.
 - Source pp.122–123 certify the Apparel overview and all four Dog Armor profiles. General clothing, outfit, armor-piece, headgear, super-mutant, Power Armor and robot-armor guidance is explicitly out of scope. The four canine Items retain exact resistances, coverage, weights, costs and rarities; their EN/FR descriptions now include the complete official acquisition sentence omitted by the earlier extraction.
+- Source pp.124–129 now certify the complete Clothing, Outfit and Headgear table (29 profiles), all five Ballistic Weave mods and all five Vault Jumpsuit lining mods. The audit corrects Hard Hat rarity to 1, Hazmat Suit head coverage and explicit radiation immunity, restricts Ballistic Weave to the six profiles named by source prose, removes Ballistic Weave from Vault Jumpsuit, converts reusable embedded mods to canonical `$ref` dependencies, restores the complete official FR profile text, removes stale EN sidebar page references, and records the FR p.124 misplaced COUVRE-CHEFS heading as a localization-layout discrepancy.
 
 ## Next lot
 
-Continue page-by-page at printed/source p.124 with the Clothing, Outfit and Headgear table, then its profiles, Ballistic Weave mods and Vault Jumpsuit mods through p.129. Do not re-audit pp.1–123.
+Continue page-by-page at printed/source p.130 with Armor and Armor Mods, beginning with the Raider Armor and Leather Armor tables. Do not re-audit pp.1–129.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -190,7 +191,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–123
+There are no unresolved anomalies or owner decisions in the completed p.1–129
 boundary.
 
 ## Validation

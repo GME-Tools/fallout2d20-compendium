@@ -3,7 +3,7 @@
   "_file": "vetements_resistants__DxWJxT0MuxkbCofe.json",
   "values": {
     "/name": "Vêtements résistants",
-    "/system/description": "<p>Vêtements résistants assemblés à partir de pièces assez solides pour supporter la vie dans les Terres désolées : veste, chemise, sous-vêtement, jean et chaussures de marche, renforcés ou rapiécés au ruban adhésif. Ils protègent quelque peu des coups et éraflures et réchauffent pendant les froides nuits d’hiver nucléaire.</p>",
+    "/system/description": "<p>Des vêtements robustes, généralement un mélange de plusieurs articles assez solides pour créer un ensemble capable de supporter la vie rude des Terres désolées. L’ensemble est ordinairement composé d’une veste, d’un haut et d’un maillot de corps, d’un jean et de chaussures de marche, renforcés (ou raccommodés) avec du scotch, pour fournir à la fois une protection minime contre les plaies et bosses de la vie et un peu de chaleur par les froides nuits d’hiver nucléaire.</p>",
     "/system/weight": 1.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "DxWJxT0MuxkbCofe",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }

@@ -3,7 +3,7 @@
   "_file": "manteau_epais__sHVONLW2lTNyu8Mq.json",
   "values": {
     "/name": "Manteau lourd",
-    "/system/description": "<p>Un long manteau épais, cache-poussière de cuir ou trench-coat, idéal contre les éléments et offrant un peu de protection physique, thermique et radioactive. <strong>Spécial :</strong> une fois par scène, il permet de relancer un d20 d’un test fondé sur l’END. Il peut recevoir du tissu balistique.</p>",
+    "/system/description": "<p>Un long manteau pesant (un épais manteau d’homme en cuir, un trench-coat ou un article similaire) idéal pour vous protéger contre les rigueurs des éléments. Fournit une défense minimale contre les dangers physiques, la chaleur extrême et couvre même assez bien pour bloquer un peu les radiations.</p><p><strong>Spécial :</strong> porter un manteau lourd vous permet de relancer une fois par scène un seul d20 sur un test de compétence basé sur l’END que vous effectuez, car il vous protège contre les rigueurs de l’environnement.</p><p>Les manteaux lourds peuvent être renforcés avec du tissu balistique (voir encadré correspondant).</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "sHVONLW2lTNyu8Mq",
@@ -11,6 +11,8 @@
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
-    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/page": 124,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }
