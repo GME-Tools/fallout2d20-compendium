@@ -473,7 +473,7 @@
           "isJunk": false,
           "location": "Torso",
           "modType": "upgrade",
-          "perks": "3",
+          "perks": "Armorer 2, Science! 1",
           "quantity": 1,
           "rarity": "common",
           "resistance": {
@@ -732,7 +732,7 @@
           "isJunk": false,
           "location": "Torso",
           "modType": "upgrade",
-          "perks": "4",
+          "perks": "Armorer 3, Science! 1",
           "quantity": 1,
           "rarity": "common",
           "resistance": {
@@ -800,7 +800,7 @@
         },
         "type": "apparel_mod"
       },
-      "max": 2,
+      "max": 3,
       "modded": false,
       "t2wGFT9GqqzS3Qt9": {
         "_id": "t2wGFT9GqqzS3Qt9",
@@ -889,7 +889,7 @@
           "isJunk": false,
           "location": "Torso",
           "modType": "upgrade",
-          "perks": "5",
+          "perks": "Armorer 3, Science! 2",
           "quantity": 1,
           "rarity": "common",
           "resistance": {
@@ -940,7 +940,7 @@
           "isJunk": false,
           "location": "Torso",
           "modType": "upgrade",
-          "perks": "2",
+          "perks": "Armorer 1, Science! 1",
           "quantity": 1,
           "rarity": "common",
           "resistance": {
@@ -1094,7 +1094,7 @@
           "isJunk": false,
           "location": "Torso",
           "modType": "upgrade",
-          "perks": "1",
+          "perks": "",
           "quantity": 1,
           "rarity": "common",
           "resistance": {

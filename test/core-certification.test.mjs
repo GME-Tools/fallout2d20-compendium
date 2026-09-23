@@ -3245,7 +3245,7 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9","ZhmOXmBcKKxcPEv8","BeGAdzye5MeP3kUO","X9cMnQidJyiDg29B","g3Y0zWDI9VUNoUWK","VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP"].includes(entry.documentId);
+    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9","ZhmOXmBcKKxcPEv8","BeGAdzye5MeP3kUO","X9cMnQidJyiDg29B","g3Y0zWDI9VUNoUWK","VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP","giRILdjCelBn3rjL","ctWJbJpYQ9Q30TWc","z5Qy6X4pCeRPEWUs","VcWcoUmXcFk6rOka","jRNRzVKtIkwZ0zN7","zZa8B73OW8EyQoMu"].includes(entry.documentId);
     assert.equal(entry.certification.descriptionReviewed, reviewedLater);
     assert.equal(entry.certification.acceptedModsReviewed, reviewedLater);
     assert.equal(entry.certification.apparelType, "powerArmor");
@@ -3686,6 +3686,127 @@ test("Core Power Armor p.141 T-51 family and unique upgrades are source-complete
       assert.ok(doc, language + "/apparel-mods/" + id + " missing");
       const source = doc.flags?.["fallout2d20-compendium"]?.source;
       assert.equal(source?.page, 141, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, "upgrade");
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+    }
+  }
+});
+
+test("Core Power Armor p.142 T-60 family and unique upgrades are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 144 && catalog.certifiedThrough.en.sourcePage >= 142);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 145 && catalog.certifiedThrough.fr.sourcePage >= 142);
+
+  const t60Ids = new Set(["giRILdjCelBn3rjL","ctWJbJpYQ9Q30TWc","z5Qy6X4pCeRPEWUs","VcWcoUmXcFk6rOka","jRNRzVKtIkwZ0zN7","zZa8B73OW8EyQoMu"]);
+  const descriptions = {
+    en: "<p>Developed shortly after the U.S. Army’s victory in Anchorage, the T-60 series of Power Armor was designed as the next generation of armor to replace the T-51. It was in the process of being issued to U.S. Army units serving domestically when the bombs dropped, meaning that large quantities were still in storage awaiting deployment. As a result, stockpiles of the armor have been claimed by the Brotherhood of Steel, and Brotherhood soldiers in T-60 armor has become an iconic feature of their presence in a region.</p><p>Each piece of T-60 Power Armor can accept three mods: an upgrade mod, one plating mod, and a system. All Unique T-60 Power Armor Upgrade Mods are installed with the Repair Skill.</p>",
+    fr: "<p>Développée peu après la victoire de l’armée des États-Unis à Anchorage, la série T-60 d’armures assistées fut conçue comme la prochaine génération d’armures censée remplacer la série T-51. Elle était en cours de distribution aux unités de l’armée américaine en service à l’intérieur du pays lorsque les bombes tombèrent, ce qui signifie que de grandes quantités étaient encore en stock en attendant le déploiement. En conséquence, la Confrérie de l’Acier a récupéré de gros stocks de ce modèle d’armure assistée et les soldats de la Confrérie en armure T-60 sont devenus la marque clairement reconnaissable de sa présence dans une région donnée.</p><p>Chaque pièce d’armure assistée T-60 peut accepter 3 mods : 1 mod d’amélioration, 1 mod de blindage et 1 mod de système. Tous les mods d’amélioration réservés à l’armure assistée T-60 s’installent avec la compétence Réparation.</p>"
+  };
+
+  const specs = {
+    "GZr9XRGzDiWvXMla": {en:"T-60b Helm",fr:"Casque T-60b",loc:"Head",p:1,e:1,r:0,hp:1,w:1,c:32,perks:""},
+    "xwgy9oa25Drcpk1w": {en:"T-60b Chest Piece",fr:"Plastron T-60b",loc:"Torso",p:0,e:0,r:0,hp:2,w:1,c:37,perks:""},
+    "SnqbemTKEDFKEwi7": {en:"T-60b Arm",fr:"Brassard T-60b",loc:"Arm",p:1,e:1,r:0,hp:1,w:1,c:35,perks:""},
+    "WBODl13DtVwIr7KL": {en:"T-60b Leg",fr:"Jambière T-60b",loc:"Leg",p:1,e:1,r:0,hp:1,w:1,c:35,perks:""},
+    "EoYPJPrpfi9ZRDy5": {en:"T-60c Helm",fr:"Casque T-60c",loc:"Head",p:1,e:1,r:0,hp:2,w:3,c:64,perks:"Armorer 1, Science! 1"},
+    "vHVe3ysJaNtHLOTS": {en:"T-60c Chest Piece",fr:"Plastron T-60c",loc:"Torso",p:1,e:0,r:0,hp:3,w:2,c:74,perks:"Armorer 1, Science! 1"},
+    "dVYTLN7YCoy2g97C": {en:"T-60c Arm",fr:"Brassard T-60c",loc:"Arm",p:1,e:1,r:0,hp:2,w:2,c:70,perks:"Armorer 1, Science! 1"},
+    "nbeJXBz0LccZvmJP": {en:"T-60c Leg",fr:"Jambière T-60c",loc:"Leg",p:1,e:1,r:0,hp:2,w:2,c:70,perks:"Armorer 1, Science! 1"},
+    "x0fAswh4AE8aeWJW": {en:"T-60d Helm",fr:"Casque T-60d",loc:"Head",p:1,e:2,r:0,hp:2,w:2,c:96,perks:"Armorer 2, Science! 1"},
+    "LXuDtTGg54qdcwsX": {en:"T-60d Chest Piece",fr:"Plastron T-60d",loc:"Torso",p:1,e:1,r:0,hp:5,w:3,c:111,perks:"Armorer 2, Science! 1"},
+    "YcGcdWoYlrPMOXHP": {en:"T-60d Arm",fr:"Brassard T-60d",loc:"Arm",p:1,e:2,r:0,hp:2,w:2,c:105,perks:"Armorer 2, Science! 1"},
+    "igmcUhE1lEq2NPcP": {en:"T-60d Leg",fr:"Jambière T-60d",loc:"Leg",p:1,e:2,r:0,hp:2,w:2,c:105,perks:"Armorer 2, Science! 1"},
+    "FheuMFwO0W6c9nGf": {en:"T-60e Helm",fr:"Casque T-60e",loc:"Head",p:2,e:2,r:0,hp:3,w:2,c:128,perks:"Armorer 3, Science! 1"},
+    "jDw4c8ElBglnHYHP": {en:"T-60e Chest Piece",fr:"Plastron T-60e",loc:"Torso",p:1,e:1,r:0,hp:7,w:4,c:148,perks:"Armorer 3, Science! 1"},
+    "8CQVJWspeg2CQmHI": {en:"T-60e Arm",fr:"Brassard T-60e",loc:"Arm",p:2,e:2,r:0,hp:3,w:3,c:140,perks:"Armorer 3, Science! 1"},
+    "ZiNEsPVsZJflvKVh": {en:"T-60e Leg",fr:"Jambière T-60e",loc:"Leg",p:2,e:2,r:0,hp:3,w:3,c:140,perks:"Armorer 3, Science! 1"},
+    "iiIFQHQgzaPihtGA": {en:"T-60f Helm",fr:"Casque T-60f",loc:"Head",p:2,e:3,r:0,hp:4,w:3,c:160,perks:"Armorer 3, Science! 2"},
+    "uQYF58G4PuexOVGS": {en:"T-60f Chest Piece",fr:"Plastron T-60f",loc:"Torso",p:2,e:1,r:0,hp:8,w:5,c:185,perks:"Armorer 3, Science! 2"},
+    "hqDB2ZzF92HmuN64": {en:"T-60f Arm",fr:"Brassard T-60f",loc:"Arm",p:2,e:3,r:0,hp:4,w:4,c:175,perks:"Armorer 3, Science! 2"},
+    "eP0k4kn5PUwNE7OE": {en:"T-60f Leg",fr:"Jambière T-60f",loc:"Leg",p:2,e:3,r:0,hp:4,w:4,c:175,perks:"Armorer 3, Science! 2"}
+  };
+
+  const p137T60 = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && t60Ids.has(entry.documentId));
+  assert.equal(p137T60.length, 6);
+  for (const entry of p137T60) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
+    assert.equal(entry.certification.maxMods, 3);
+    assert.equal(entry.certification.upgradeSlots, 1);
+    assert.equal(entry.certification.platingSlots, 1);
+    assert.equal(entry.certification.systemSlots, 1);
+    assert.equal(entry.certification.uniqueUpgradeModsReviewed, true);
+    assert.ok(entry.sourcePages.en.includes(142));
+    assert.ok(entry.sourcePages.fr.includes(142));
+  }
+
+  const rule = catalog.entries.find(entry => entry.page === 142 && entry.type === "rule_text" && entry.sourceName === "T-60 Power Armor");
+  assert.ok(rule);
+  assert.equal(rule.certification.maxMods, 3);
+  assert.deepEqual(rule.certification.genericSystemAndPlatingReferencePages, [144,145]);
+
+  const table = catalog.entries.find(entry => entry.page === 142 && entry.type === "table" && entry.sourceName === "Unique T-60 Power Armor Upgrade Mods");
+  assert.ok(table);
+  assert.equal(table.certification.rowCount, 20);
+  assert.match(table.certification.errataNote, /p\.137 corrected T-60 base-piece costs/);
+
+  const p142Mods = catalog.entries.filter(entry => entry.page === 142 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p142Mods.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p142Mods.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+
+  const upgradeIds = {
+    head: new Set(["GZr9XRGzDiWvXMla","EoYPJPrpfi9ZRDy5","x0fAswh4AE8aeWJW","FheuMFwO0W6c9nGf","iiIFQHQgzaPihtGA"]),
+    torso: new Set(["xwgy9oa25Drcpk1w","vHVe3ysJaNtHLOTS","LXuDtTGg54qdcwsX","jDw4c8ElBglnHYHP","uQYF58G4PuexOVGS"]),
+    arm: new Set(["SnqbemTKEDFKEwi7","dVYTLN7YCoy2g97C","YcGcdWoYlrPMOXHP","8CQVJWspeg2CQmHI","hqDB2ZzF92HmuN64"]),
+    leg: new Set(["WBODl13DtVwIr7KL","nbeJXBz0LccZvmJP","igmcUhE1lEq2NPcP","ZiNEsPVsZJflvKVh","eP0k4kn5PUwNE7OE"])
+  };
+  const systemIds = {
+    head: new Set(["2SqnqGHd7D3y4O5E","42Qe82QKBhubp9xU","En57MQ3hn0DkcHJy","zALOB7gLXndAThjj"]),
+    torso: new Set(["908vI94cQ4wdtSaI","Fi4sOOvTpfCKlBVS","Fov5IU0CbgDuZUuO","HdcX4nu2ZKYDf9hG","HlZVuMrkMKwSx0gT","JCala9JIwLsgpDig","dCYE8deU6qI7GARe","gCQROCvacrax9ukk","t2wGFT9GqqzS3Qt9","vuySzeWEI174mwLc"]),
+    arm: new Set(["K63y4mcKxr792XLB","ZsGBPsT9kf1lVrFw","cMFQXRN9ZrDIU23Y","zX0aUfac1HnsEvZO"]),
+    leg: new Set(["JpGZrBzUJTLieuRJ","RrhtyBPhjtENsF6w","pZ2FIyhKvuL7EPT0"])
+  };
+  const platingIds = {
+    generic: new Set(["7iRkK1Elj5iRfANw","8fvlLrbWjODf6BCe","DxewSX1ooPKoNPPs","WKklumSE0xUCXFmc","kGts8ZQ6Lr4bkF9M","mgzavWT1TZT1qdoR"]),
+    torso: new Set(["7IO8gCf1f2bCK4a0","JAN0jzOhkMyI3U1w","faqvoA7iZx90tXnH","hJDcOKYapml78um8","lqvdGQ6axRjBfNoe","vZs57HCeBc9iOVUR"])
+  };
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of t60Ids) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language], language + "/apparel/" + id + " T-60 p.142 description");
+      assert.equal(doc.system.mods.max, 3, language + "/apparel/" + id + " max mods");
+
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      const group = doc.system.location.head ? "head" : doc.system.location.torso ? "torso" : (doc.system.location.armL || doc.system.location.armR) ? "arm" : "leg";
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "upgrade").map(([mid]) => mid)), upgradeIds[group], language + "/apparel/" + id + " T-60 upgrades");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "system").map(([mid]) => mid)), systemIds[group], language + "/apparel/" + id + " systems");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "plating").map(([mid]) => mid)), group === "torso" ? platingIds.torso : platingIds.generic, language + "/apparel/" + id + " plating");
+
+      for (const [mid,value] of embedded.filter(([,value]) => value.system.modType === "upgrade")) {
+        assert.equal(value.system.perks, specs[mid].perks, language + "/apparel/" + id + " embedded " + mid + " perks");
+      }
+    }
+
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 142, language + "/apparel-mods/" + id + " source page");
       assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
       assert.equal(doc.name, spec[language]);
       assert.equal(doc.system.apparelType, "powerArmor");

@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 143,
-      "sourcePage": 141
+      "pdfPage": 144,
+      "sourcePage": 142
     },
     "fr": {
-      "pdfPage": 144,
-      "sourcePage": 141
+      "pdfPage": 145,
+      "sourcePage": 142
     }
   },
   "pageReviews": [
@@ -2309,6 +2309,22 @@
       "language": "fr",
       "pdfPage": 144,
       "sourcePage": 141,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 144,
+      "sourcePage": 142,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 145,
+      "sourcePage": 142,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -28594,16 +28610,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          142
         ],
         "fr": [
-          137
+          137,
+          142
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-60 Helm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28617,7 +28635,12 @@
         "cost": 130,
         "rarity": 4,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28635,16 +28658,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          142
         ],
         "fr": [
-          137
+          137,
+          142
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-60 Chest Piece",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28658,7 +28683,12 @@
         "cost": 250,
         "rarity": 4,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28676,16 +28706,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          142
         ],
         "fr": [
-          137
+          137,
+          142
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-60 Arm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28699,7 +28731,12 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28717,16 +28754,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          142
         ],
         "fr": [
-          137
+          137,
+          142
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-60 Arm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28740,7 +28779,12 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28758,16 +28802,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          142
         ],
         "fr": [
-          137
+          137,
+          142
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-60 Leg",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28781,7 +28827,12 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28799,16 +28850,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          142
         ],
         "fr": [
-          137
+          137,
+          142
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-60 Leg",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28822,7 +28875,12 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -31085,6 +31143,852 @@
         "healthPoints": 3,
         "weightLb": 4,
         "cost": 32,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "rule_text",
+      "sourceName": "T-60 Power Armor",
+      "localizedNames": {
+        "fr": "Armure assistée T-60"
+      },
+      "scope": "out_of_scope",
+      "justification": "Family description and three-slot modification rule are represented on the six reusable T-60 Power Armor piece Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "upgradeInstallSkill": "Repair",
+        "genericSystemAndPlatingReferencePages": [
+          144,
+          145
+        ],
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.142 T-60 Power Armor correction. Its p.137 corrected T-60 base-piece costs do not alter the p.142 unique T-60 Upgrade table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "table",
+      "sourceName": "Unique T-60 Power Armor Upgrade Mods",
+      "localizedNames": {
+        "fr": "Mods d’amélioration réservés à l’armure assistée T-60"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining the 20 reusable T-60b through T-60f Power Armor Upgrade mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 20,
+        "installSkill": "Repair",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.142 T-60 Power Armor correction. Its p.137 corrected T-60 base-piece costs do not alter the p.142 unique T-60 Upgrade table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60b Helm",
+      "localizedNames": {
+        "fr": "Casque T-60b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "GZr9XRGzDiWvXMla",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 32,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60b Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-60b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "xwgy9oa25Drcpk1w",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 1,
+        "cost": 37,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60b Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "SnqbemTKEDFKEwi7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 35,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60b Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "WBODl13DtVwIr7KL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 35,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60c Helm",
+      "localizedNames": {
+        "fr": "Casque T-60c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "EoYPJPrpfi9ZRDy5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 3,
+        "cost": 64,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60c Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-60c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "vHVe3ysJaNtHLOTS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 2,
+        "cost": 74,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60c Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "dVYTLN7YCoy2g97C",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 70,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60c Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "nbeJXBz0LccZvmJP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 70,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60d Helm",
+      "localizedNames": {
+        "fr": "Casque T-60d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "x0fAswh4AE8aeWJW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 96,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60d Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-60d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "LXuDtTGg54qdcwsX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 5,
+        "weightLb": 3,
+        "cost": 111,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60d Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "YcGcdWoYlrPMOXHP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 105,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60d Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "igmcUhE1lEq2NPcP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 105,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60e Helm",
+      "localizedNames": {
+        "fr": "Casque T-60e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "FheuMFwO0W6c9nGf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 2,
+        "cost": 128,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60e Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-60e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "jDw4c8ElBglnHYHP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 7,
+        "weightLb": 4,
+        "cost": 148,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60e Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "8CQVJWspeg2CQmHI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 3,
+        "cost": 140,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60e Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "ZiNEsPVsZJflvKVh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 3,
+        "cost": 140,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60f Helm",
+      "localizedNames": {
+        "fr": "Casque T-60f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "iiIFQHQgzaPihtGA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 3,
+        "cost": 160,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60f Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-60f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "uQYF58G4PuexOVGS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 8,
+        "weightLb": 5,
+        "cost": 185,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60f Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "hqDB2ZzF92HmuN64",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 175,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 142,
+      "type": "apparel_mod",
+      "sourceName": "T-60f Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-60 Power Armor Upgrade mod defined directly by the Core p.142 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "eP0k4kn5PUwNE7OE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          142
+        ],
+        "fr": [
+          142
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 175,
         "perks": "Armorer 3, Science! 2",
         "installSkill": "Repair",
         "errataReviewed": true
