@@ -2642,8 +2642,11 @@ test("Core Armor p.131 Metal and Combat tables are source-complete", async () =>
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    assert.equal(entry.certification.descriptionReviewed, false);
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.materialModsReviewed, true);
     assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.ok(entry.sourcePages.en.includes(134));
+    assert.ok(entry.sourcePages.fr.includes(134));
   }
 
   for (const language of ["en", "fr"]) {
@@ -2818,3 +2821,128 @@ test("Core Armor p.133 Raider and Leather descriptions and Material mods are sou
   assert.ok(frMods.get("CY6POFBbU0qeLsHG").system.description.startsWith(shadowedFr));
   assert.ok(frMods.get("Au7oeIQaSymmXqnP").system.description.startsWith(shadowedFr));
 });
+
+test("Core Armor p.134 Metal and Combat descriptions and Material mods are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 136 && catalog.certifiedThrough.en.sourcePage >= 134);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 137 && catalog.certifiedThrough.fr.sourcePage >= 134);
+
+  const metalIds = new Set([
+    "mHzuqe2DaDduUxJs","Yq8LSP8WI8hkaeIh","oSfwWZHqhaoBlJlG","1INSoLtiLJ9carIR","x9NMj9JoWYEOJdDs","sGXPYqACKtkrBAhx",
+    "Dz2dC6613RP6KqA9","X1lZVeTRwlll5KDL","7dmvo8Xlhqt5ZrCa","6sBpDpcwfP4yRDaf","HoENHW1I1IwXWvbr","qo1Ronb9wh7MnpXI",
+    "QqkYk9XZKuzQvFFb","DacGyxZmdShxIBTi","Ece0BCI67om6qF2y","gyQbcEzyP00f1OZt","MoUxwJnXAhE0g8Vx","MPPkcoTlL9Ccu92E"
+  ]);
+  const combatIds = new Set([
+    "fEynmIak6yIuBFXW","9Joxg8p3lwcIDyYn","CiIPyniHdWUcmTWD","Nss40H02BrRolRLM","feCOuP7GQkP0kHFW","crVLXWXaVEkAIOG9",
+    "kA4GLtGmdIoqMmPP","8Try1WliRR1U2s5z","FMIxSD1qOjPkn1NB","fqiqy8TsiH2y4ZW4","KecolhJEc6uRNCDP","R5svV8jJwgZSd2So",
+    "cWQkvo0MZ17HuKE4","JoAG6npPBsUrc4ox","AYWFgC8JcoSbQIHK","xeg9hpAU6eauic3p","zkC1k0Z55VIsnYKA","GELhqQk4utDnWXmE"
+  ]);
+
+  const descriptions = {
+    en: {
+      metal: "<p>Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat.</p><p>Each piece of Metal armor other than helmets can accept two mods, one of which is a Material, the other of which is an Upgrade. Metal helmets may only accept a Material mod. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). All Metal Armor Material mods are installed with the Repair skill.</p>",
+      combat: "<p>Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission.</p><p>Each piece of Combat armor other than helmets can accept two mods, one of which is a Material, the other of which is an Upgrade. Combat helmets may only accept a Material mod. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). All Combat Armor Material mods are installed with the Repair skill.</p>"
+    },
+    fr: {
+      metal: "<p>Des plaques de métal forgé reliées les unes aux autres et maintenues sur le corps du porteur par des sangles en cuir ou en tissu qui fournissent une protection décente contre les impacts balistiques tels que les attaques de corps à corps et les tirs, mais moins contre les attaques énergétiques, car les plaques en métal conduisent la chaleur.</p><p>Chaque pièce d’armure de métal, mis à part le casque, peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Un casque en métal ne peut accepter qu’un mod de matériau. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste seul). Tous les mods de matériau de l’armure de métal s’installent avec la compétence Réparation.</p>",
+      combat: "<p>Des pièces d’armures spécialement fabriquées, conçues avant la Grande Guerre et distribuées aux soldats de l’armée des États-Unis. Cette armure a été construite pour protéger son porteur contre les attaques balistiques comme énergétiques, sans pour autant être encombrante ou gêner les mouvements. La Confrérie de l’Acier a tendance à utiliser des armures de combat pour ses troupes quand elle manque d’armures assistées ou qu’une telle armure ne convient pas à la mission concernée.</p><p>Chaque pièce d’armure de combat mis à part le casque peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Un casque d’armure de combat ne peut accepter qu’un mod de matériau. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste seul). Tous les mods de matériau de l’armure de combat s’installent avec la compétence Réparation.</p>"
+    }
+  };
+
+  const metalLimb = ["l0RhqycI1tg5viug","d0avgvGTDFSOEcMP","EYNQabnyteOkkeoP","plJeCoLSGJIVzF69","gySESs8tqQfig1qH"];
+  const metalTorso = ["yo6HaIGzpgIuuEMD","JhWkQaODUdoyEp7d","dAP4X9pvIKfDE56r","HzkbfPbv401sMTXA","Kt14LMMm7zn0V5w2"];
+  const combatLimb = ["DSrje3suQ5wYyMYp","EBkTneYU3Usezhgt","gW3K5z7MFRZoBDQa","FRPz5uD3tZ7hMjir"];
+  const combatTorso = ["WCywfTr7TSWsWCPm","i5ocwMr1TQ96nsi7","b3YiI203jynIQG7V","LAb83LVky6vSxUuH"];
+
+  const modSpecs = {
+    "l0RhqycI1tg5viug":{"en":"Painted Metal","fr":"Métal peint","p":1,"e":1,"r":0,"w":1,"c":10,"shadowed":false},
+    "yo6HaIGzpgIuuEMD":{"en":"Painted Metal (Torso)","fr":"Métal peint (Torse)","p":1,"e":1,"r":0,"w":2,"c":20,"shadowed":false},
+    "d0avgvGTDFSOEcMP":{"en":"Enameled Metal","fr":"Métal émaillé","p":2,"e":2,"r":0,"w":2,"c":20,"shadowed":false},
+    "JhWkQaODUdoyEp7d":{"en":"Enameled Metal (Torso)","fr":"Métal émaillé (Torse)","p":2,"e":2,"r":0,"w":4,"c":40,"shadowed":false},
+    "EYNQabnyteOkkeoP":{"en":"Shadowed Metal","fr":"Métal ombré","p":2,"e":2,"r":0,"w":2,"c":25,"shadowed":true},
+    "dAP4X9pvIKfDE56r":{"en":"Shadowed Metal (Torso)","fr":"Métal ombré (Torse)","p":2,"e":2,"r":0,"w":4,"c":50,"shadowed":true},
+    "plJeCoLSGJIVzF69":{"en":"Alloyed Metal","fr":"Métal allié","p":3,"e":3,"r":0,"w":3,"c":30,"shadowed":false},
+    "HzkbfPbv401sMTXA":{"en":"Alloyed Metal (Torso)","fr":"Métal allié (Torse)","p":3,"e":3,"r":0,"w":6,"c":60,"shadowed":false},
+    "gySESs8tqQfig1qH":{"en":"Polished Metal","fr":"Métal poli","p":4,"e":4,"r":0,"w":4,"c":40,"shadowed":false},
+    "Kt14LMMm7zn0V5w2":{"en":"Polished Metal (Torso)","fr":"Métal poli (Torse)","p":4,"e":4,"r":0,"w":8,"c":80,"shadowed":false},
+    "DSrje3suQ5wYyMYp":{"en":"Reinforced","fr":"Renforcé","p":1,"e":1,"r":0,"w":1,"c":15,"shadowed":false},
+    "WCywfTr7TSWsWCPm":{"en":"Reinforced (Torso)","fr":"Renforcé (Torse)","p":1,"e":1,"r":0,"w":2,"c":30,"shadowed":false},
+    "EBkTneYU3Usezhgt":{"en":"Shadowed","fr":"Ombré","p":1,"e":1,"r":0,"w":1,"c":15,"shadowed":true},
+    "i5ocwMr1TQ96nsi7":{"en":"Shadowed (Torso)","fr":"Ombré (Torse)","p":1,"e":1,"r":0,"w":2,"c":30,"shadowed":true},
+    "gW3K5z7MFRZoBDQa":{"en":"Fiberglass","fr":"Fibre de verre","p":2,"e":2,"r":0,"w":1,"c":30,"shadowed":false},
+    "b3YiI203jynIQG7V":{"en":"Fiberglass (Torso)","fr":"Fibre de verre (Torse)","p":2,"e":2,"r":0,"w":2,"c":60,"shadowed":false},
+    "FRPz5uD3tZ7hMjir":{"en":"Polymer","fr":"Polymère","p":3,"e":3,"r":0,"w":2,"c":45,"shadowed":false},
+    "LAb83LVky6vSxUuH":{"en":"Polymer (Torso)","fr":"Polymère (Torse)","p":3,"e":3,"r":0,"w":4,"c":90,"shadowed":false}
+  };
+
+  const p131Families = catalog.entries.filter(entry => entry.page === 131 && entry.pack === "apparel" && (metalIds.has(entry.documentId) || combatIds.has(entry.documentId)));
+  assert.equal(p131Families.length, 36);
+  for (const entry of p131Families) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.materialModsReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.ok(entry.sourcePages.en.includes(134));
+    assert.ok(entry.sourcePages.fr.includes(134));
+    const helmet = entry.sourceName.includes("Helmet");
+    assert.equal(entry.certification.maxMods, helmet ? 1 : 2);
+    assert.equal(entry.certification.materialSlots, 1);
+    assert.equal(entry.certification.upgradeSlots, helmet ? 0 : 1);
+  }
+
+  const p134Rules = catalog.entries.filter(entry => entry.page === 134 && entry.type === "rule_text" && entry.status === "out_of_scope");
+  assert.deepEqual(p134Rules.map(entry => entry.sourceName).sort(), ["Combat Armor","Metal Armor"]);
+  const p134Tables = catalog.entries.filter(entry => entry.page === 134 && entry.type === "table" && entry.status === "out_of_scope");
+  assert.deepEqual(p134Tables.map(entry => entry.sourceName).sort(), ["Unique Combat Armor Material Mods","Unique Metal Armor Material Mods"]);
+  const metalTable = p134Tables.find(entry => entry.sourceName === "Unique Metal Armor Material Mods");
+  assert.ok(metalTable.certification.errataNote.includes("Rust Devils NPC Pack"));
+
+  const p134Mods = catalog.entries.filter(entry => entry.page === 134 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p134Mods.length, Object.keys(modSpecs).length);
+  assert.deepEqual(new Set(p134Mods.map(entry => entry.documentId)), new Set(Object.keys(modSpecs)));
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const [id, family] of [...[...metalIds].map(id => [id,"metal"]), ...[...combatIds].map(id => [id,"combat"])]) {
+      const doc = apparel.get(id);
+      assert.ok(doc, `${language}/apparel/${id} missing`);
+      assert.equal(doc.system.description, descriptions[language][family], `${language}/apparel/${id} p.134 family description`);
+      const isTorso = doc.system.location.torso;
+      const expectedMaterial = family === "metal" ? (isTorso ? metalTorso : metalLimb) : (isTorso ? combatTorso : combatLimb);
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      const actualMaterial = embedded.filter(([,value]) => value.system.modType === "material").map(([modId]) => modId);
+      assert.deepEqual(new Set(actualMaterial), new Set(expectedMaterial), `${language}/apparel/${id} Material mods`);
+      const helmet = doc.system.location.head;
+      assert.equal(doc.system.mods.max, helmet ? 1 : 2, `${language}/apparel/${id} mod-slot maximum`);
+      if (helmet) {
+        const upgrades = embedded.filter(([,value]) => value.system.modType === "upgrade");
+        assert.equal(upgrades.length, 0, `${language}/apparel/${id} helmet must not accept Upgrade mods`);
+      }
+    }
+
+    for (const [id,spec] of Object.entries(modSpecs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, `${language}/apparel-mods/${id} missing`);
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 134, `${language}/apparel-mods/${id} source page`);
+      assert.equal(source?.errataReviewed, true, `${language}/apparel-mods/${id} errata review`);
+      assert.equal(doc.name, language === "en" ? spec.en : spec.fr, `${language}/apparel-mods/${id} name`);
+      assert.equal(doc.system.apparelType, "armor");
+      assert.equal(doc.system.modType, "material");
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2, `${language}/apparel-mods/${id} weight`);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.shadowed, spec.shadowed);
+    }
+
+    for (const id of ["EYNQabnyteOkkeoP","dAP4X9pvIKfDE56r","EBkTneYU3Usezhgt","i5ocwMr1TQ96nsi7"]) {
+      const doc = mods.get(id);
+      assert.ok(doc.system.description.length > 0, `${language}/apparel-mods/${id} Shadowed rule description`);
+      assert.match(doc.system.description, language === "en" ? /Shadowed armor has a darker/ : /Une armure ombrée présente une surface plus sombre/);
+    }
+  }
+});
+

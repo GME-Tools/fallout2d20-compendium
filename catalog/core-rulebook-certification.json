@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 135,
-      "sourcePage": 133
+      "pdfPage": 136,
+      "sourcePage": 134
     },
     "fr": {
-      "pdfPage": 136,
-      "sourcePage": 133
+      "pdfPage": 137,
+      "sourcePage": 134
     }
   },
   "pageReviews": [
@@ -2181,6 +2181,22 @@
       "language": "fr",
       "pdfPage": 136,
       "sourcePage": 133,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 136,
+      "sourcePage": 134,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 137,
+      "sourcePage": 134,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -21564,15 +21580,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Metal Helmet",
         "apparelType": "armor",
@@ -21587,7 +21605,12 @@
         "weightLb": 3,
         "cost": 15,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -21605,15 +21628,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Metal Chest Piece",
         "apparelType": "armor",
@@ -21628,7 +21653,11 @@
         "weightLb": 6,
         "cost": 40,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21646,15 +21675,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Metal Arm",
         "apparelType": "armor",
@@ -21669,7 +21700,11 @@
         "weightLb": 3,
         "cost": 15,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21687,15 +21722,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Metal Arm",
         "apparelType": "armor",
@@ -21710,7 +21747,11 @@
         "weightLb": 3,
         "cost": 15,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21728,15 +21769,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Metal Leg",
         "apparelType": "armor",
@@ -21751,7 +21794,11 @@
         "weightLb": 3,
         "cost": 15,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21769,15 +21816,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Metal Leg",
         "apparelType": "armor",
@@ -21792,7 +21841,11 @@
         "weightLb": 3,
         "cost": 15,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21810,15 +21863,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Metal Helmet",
         "apparelType": "armor",
@@ -21833,7 +21888,12 @@
         "weightLb": 8,
         "cost": 65,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -21851,15 +21911,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Metal Chest Piece",
         "apparelType": "armor",
@@ -21874,7 +21936,11 @@
         "weightLb": 16,
         "cost": 115,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21892,15 +21958,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Metal Arm",
         "apparelType": "armor",
@@ -21915,7 +21983,11 @@
         "weightLb": 8,
         "cost": 65,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21933,15 +22005,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Metal Arm",
         "apparelType": "armor",
@@ -21956,7 +22030,11 @@
         "weightLb": 8,
         "cost": 65,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -21974,15 +22052,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Metal Leg",
         "apparelType": "armor",
@@ -21997,7 +22077,11 @@
         "weightLb": 8,
         "cost": 65,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22015,15 +22099,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Metal Leg",
         "apparelType": "armor",
@@ -22038,7 +22124,11 @@
         "weightLb": 8,
         "cost": 65,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22056,15 +22146,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Metal Helmet",
         "apparelType": "armor",
@@ -22079,7 +22171,12 @@
         "weightLb": 12,
         "cost": 115,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -22097,15 +22194,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Metal Chest Piece",
         "apparelType": "armor",
@@ -22120,7 +22219,11 @@
         "weightLb": 23,
         "cost": 190,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22138,15 +22241,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Metal Arm",
         "apparelType": "armor",
@@ -22161,7 +22266,11 @@
         "weightLb": 12,
         "cost": 115,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22179,15 +22288,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Metal Arm",
         "apparelType": "armor",
@@ -22202,7 +22313,11 @@
         "weightLb": 12,
         "cost": 115,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22220,15 +22335,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Metal Leg",
         "apparelType": "armor",
@@ -22243,7 +22360,11 @@
         "weightLb": 12,
         "cost": 115,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22261,15 +22382,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Metal Leg",
         "apparelType": "armor",
@@ -22284,7 +22407,11 @@
         "weightLb": 12,
         "cost": 115,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22302,15 +22429,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Combat Helmet",
         "apparelType": "armor",
@@ -22325,7 +22454,12 @@
         "weightLb": 4,
         "cost": 25,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -22343,15 +22477,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Combat Chest Piece",
         "apparelType": "armor",
@@ -22366,7 +22502,11 @@
         "weightLb": 8,
         "cost": 60,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22384,15 +22524,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Combat Arm",
         "apparelType": "armor",
@@ -22407,7 +22549,11 @@
         "weightLb": 2,
         "cost": 25,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22425,15 +22571,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Combat Arm",
         "apparelType": "armor",
@@ -22448,7 +22596,11 @@
         "weightLb": 2,
         "cost": 25,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22466,15 +22618,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Combat Leg",
         "apparelType": "armor",
@@ -22489,7 +22643,11 @@
         "weightLb": 2,
         "cost": 25,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22507,15 +22665,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Combat Leg",
         "apparelType": "armor",
@@ -22530,7 +22690,11 @@
         "weightLb": 2,
         "cost": 25,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22548,15 +22712,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Combat Helmet",
         "apparelType": "armor",
@@ -22571,7 +22737,12 @@
         "weightLb": 5,
         "cost": 105,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -22589,15 +22760,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Combat Chest Piece",
         "apparelType": "armor",
@@ -22612,7 +22785,11 @@
         "weightLb": 12,
         "cost": 140,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22630,15 +22807,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Combat Arm",
         "apparelType": "armor",
@@ -22653,7 +22832,11 @@
         "weightLb": 5,
         "cost": 105,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22671,15 +22854,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Combat Arm",
         "apparelType": "armor",
@@ -22694,7 +22879,11 @@
         "weightLb": 5,
         "cost": 105,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22712,15 +22901,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Combat Leg",
         "apparelType": "armor",
@@ -22735,7 +22926,11 @@
         "weightLb": 5,
         "cost": 105,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22753,15 +22948,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Combat Leg",
         "apparelType": "armor",
@@ -22776,7 +22973,11 @@
         "weightLb": 5,
         "cost": 105,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22794,15 +22995,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Combat Helmet",
         "apparelType": "armor",
@@ -22817,7 +23020,12 @@
         "weightLb": 7,
         "cost": 185,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -22835,15 +23043,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Combat Chest Piece",
         "apparelType": "armor",
@@ -22858,7 +23068,11 @@
         "weightLb": 16,
         "cost": 220,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22876,15 +23090,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Combat Arm",
         "apparelType": "armor",
@@ -22899,7 +23115,11 @@
         "weightLb": 7,
         "cost": 145,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22917,15 +23137,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Combat Arm",
         "apparelType": "armor",
@@ -22940,7 +23162,11 @@
         "weightLb": 7,
         "cost": 145,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22958,15 +23184,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Combat Leg",
         "apparelType": "armor",
@@ -22981,7 +23209,11 @@
         "weightLb": 7,
         "cost": 185,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -22999,15 +23231,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          131
+          131,
+          134
         ],
         "fr": [
-          131
+          131,
+          134
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Combat Leg",
         "apparelType": "armor",
@@ -23022,7 +23256,11 @@
         "weightLb": 7,
         "cost": 185,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.134; exact Upgrade-mod acceptance remains pending the later armor-mod pages.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -24766,6 +25004,865 @@
         },
         "weightLb": 4,
         "cost": 50,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "rule_text",
+      "sourceName": "Metal Armor",
+      "localizedNames": {
+        "fr": "Armure de métal"
+      },
+      "scope": "out_of_scope",
+      "justification": "Armor-family description and modification rules are represented on the reusable Metal armor Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 2,
+        "helmetMaxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 1,
+        "helmetUpgradeSlots": 0,
+        "torsoWeightCostMultiplier": 2,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "table",
+      "sourceName": "Unique Metal Armor Material Mods",
+      "localizedNames": {
+        "fr": "Mods de matériau réservés à l’armure de métal"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining reusable Metal Armor Material mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 5,
+        "torsoVariantsDerivedByRule": true,
+        "materialInstallSkill": "Repair",
+        "errataNote": "Errata V6 contains a Painted Metal table only under the Rust Devils NPC Pack robot-armor errata (pp.31–32 of that publication). It is not a Core Rulebook p.134 correction and is not applied here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "rule_text",
+      "sourceName": "Combat Armor",
+      "localizedNames": {
+        "fr": "Armure de combat"
+      },
+      "scope": "out_of_scope",
+      "justification": "Armor-family description and modification rules are represented on the reusable Combat armor Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 2,
+        "helmetMaxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 1,
+        "helmetUpgradeSlots": 0,
+        "torsoWeightCostMultiplier": 2,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "table",
+      "sourceName": "Unique Combat Armor Material Mods",
+      "localizedNames": {
+        "fr": "Mods de matériau réservés à l’armure de combat"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining reusable Combat Armor Material mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 4,
+        "torsoVariantsDerivedByRule": true,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Painted Metal",
+      "localizedNames": {
+        "fr": "Métal peint"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Metal Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "l0RhqycI1tg5viug",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Painted Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 10,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false,
+        "errataNote": "Errata V6 contains a Painted Metal table only under the Rust Devils NPC Pack robot-armor errata (pp.31–32 of that publication). It is not a Core Rulebook p.134 correction and is not applied here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Painted Metal (Torso)",
+      "localizedNames": {
+        "fr": "Métal peint (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Painted Metal row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "yo6HaIGzpgIuuEMD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Painted Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false,
+        "errataNote": "Errata V6 contains a Painted Metal table only under the Rust Devils NPC Pack robot-armor errata (pp.31–32 of that publication). It is not a Core Rulebook p.134 correction and is not applied here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Enameled Metal",
+      "localizedNames": {
+        "fr": "Métal émaillé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Metal Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "d0avgvGTDFSOEcMP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Enameled Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Enameled Metal (Torso)",
+      "localizedNames": {
+        "fr": "Métal émaillé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Enameled Metal row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "JhWkQaODUdoyEp7d",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Enameled Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 40,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Shadowed Metal",
+      "localizedNames": {
+        "fr": "Métal ombré"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Metal Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "EYNQabnyteOkkeoP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Shadowed Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 25,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": true,
+        "shadowedRuleReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Shadowed Metal (Torso)",
+      "localizedNames": {
+        "fr": "Métal ombré (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Shadowed Metal row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "dAP4X9pvIKfDE56r",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Shadowed Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 50,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": true,
+        "shadowedRuleReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Alloyed Metal",
+      "localizedNames": {
+        "fr": "Métal allié"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Metal Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "plJeCoLSGJIVzF69",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Alloyed Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 3,
+        "cost": 30,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Alloyed Metal (Torso)",
+      "localizedNames": {
+        "fr": "Métal allié (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Alloyed Metal row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "HzkbfPbv401sMTXA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Alloyed Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 6,
+        "cost": 60,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Polished Metal",
+      "localizedNames": {
+        "fr": "Métal poli"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Metal Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "gySESs8tqQfig1qH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Polished Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 40,
+        "perks": [
+          "Armorer 2"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Polished Metal (Torso)",
+      "localizedNames": {
+        "fr": "Métal poli (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Polished Metal row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "Kt14LMMm7zn0V5w2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Polished Metal",
+        "armorFamily": "Metal",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 8,
+        "cost": 80,
+        "perks": [
+          "Armorer 2"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Reinforced",
+      "localizedNames": {
+        "fr": "Renforcé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Combat Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "DSrje3suQ5wYyMYp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Reinforced",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 15,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Reinforced (Torso)",
+      "localizedNames": {
+        "fr": "Renforcé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Reinforced row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "WCywfTr7TSWsWCPm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Reinforced",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 30,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Shadowed",
+      "localizedNames": {
+        "fr": "Ombré"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Combat Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "EBkTneYU3Usezhgt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Shadowed",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 15,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": true,
+        "shadowedRuleReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Shadowed (Torso)",
+      "localizedNames": {
+        "fr": "Ombré (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Shadowed row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "i5ocwMr1TQ96nsi7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Shadowed",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 30,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": true,
+        "shadowedRuleReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Fiberglass",
+      "localizedNames": {
+        "fr": "Fibre de verre"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Combat Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "gW3K5z7MFRZoBDQa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Fiberglass",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 30,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Fiberglass (Torso)",
+      "localizedNames": {
+        "fr": "Fibre de verre (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Fiberglass row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "b3YiI203jynIQG7V",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Fiberglass",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 60,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Polymer",
+      "localizedNames": {
+        "fr": "Polymère"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Combat Armor Material mod defined by the Core p.134 source table.",
+      "pack": "apparel-mods",
+      "documentId": "FRPz5uD3tZ7hMjir",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Polymer",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 45,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 134,
+      "type": "apparel_mod",
+      "sourceName": "Polymer (Torso)",
+      "localizedNames": {
+        "fr": "Polymère (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.134 Polymer row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "LAb83LVky6vSxUuH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          134
+        ],
+        "fr": [
+          134
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Polymer",
+        "armorFamily": "Combat",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 90,
         "perks": [
           "Armorer 1"
         ],

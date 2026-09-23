@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–135, through printed/source page 133.
-- FR PDF physical pages 1–136, through printed/source page 133.
+- EN PDF physical pages 1–136, through printed/source page 134.
+- FR PDF physical pages 1–137, through printed/source page 134.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 6
   (source pp.42–81), and Chapter Four through Clothing, Outfits and Headgear
@@ -191,7 +191,9 @@ Current completed boundary:
 
 ## Next lot
 
-Continue page-by-page at printed/source p.134 with the Metal Armor and Combat Armor family descriptions and their unique Material mod tables. The Shadowed Armor sidebar itself is already certified from p.133; only audit its application where p.134 references it. Do not re-audit pp.1–133.
+Source p.134 is now certified for the Metal Armor and Combat Armor family descriptions and all 18 published Material-mod identities (nine source rows plus torso-specific doubled weight/cost variants). The six Metal/Combat helmet Items now enforce the source rule that helmets accept only one Material mod and no Upgrade mod; four base Combat limb Items were corrected to the source two-slot rule for non-helmets. The official FR family descriptions are restored. The Painted Metal occurrence in Errata V6 is explicitly scoped to the Rust Devils NPC Pack robot-armor section and is not applied to Core p.134.
+
+Continue page-by-page at printed/source p.135 with the Synth Armor family description and unique Material mod table, then the Vault-Tec Security Armor description on the same page. Do not re-audit pp.1–134.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -199,7 +201,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–133
+There are no unresolved anomalies or owner decisions in the completed p.1–134
 boundary.
 
 ## Validation
