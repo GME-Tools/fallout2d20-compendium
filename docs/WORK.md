@@ -30,13 +30,14 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–134, through printed/source page 132.
-- FR PDF physical pages 1–135, through printed/source page 132.
+- EN PDF physical pages 1–135, through printed/source page 133.
+- FR PDF physical pages 1–136, through printed/source page 133.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 6
   (source pp.42–81), and Chapter Four through Clothing, Outfits and Headgear
-  (source pp.84–132), including all weapon sections, Dog Armor, Ballistic Weave,
-  Vault Jumpsuit linings, and the p.130 Raider/Leather armor-piece tables.
+  (source pp.84–133), including all weapon sections, Dog Armor, Ballistic Weave,
+  Vault Jumpsuit linings, the p.130–132 armor-piece tables, and the p.133
+  Raider/Leather family descriptions and Material mods.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
@@ -186,9 +187,11 @@ Current completed boundary:
 - Source p.131 certifies the Metal Armor and Combat Armor reference tables and all 36 reusable side-specific armor-piece identities derived from their 24 side-neutral source rows. Canonical resistances, locations, weights, costs, rarities and EN names already match the source, and FR metric weights match the official table. Six right-leg French names were normalized from the masculine side suffix “(droit)” to the grammatically correct “(droite)”. Family descriptions and Material/Upgrade mod lists remain pending for their later source pages.
 - Source p.132 certifies the Synth Armor and Vault-Tec Security Armor reference tables, covering 18 side-specific Synth pieces plus the two direct Vault-Tec Security Items. The audit corrects Synth Arm rarity from 3 to the source value 4 on both sides, fixes Sturdy Synth Right Arm coverage from left to right arm, fixes Heavy Synth Right Arm coverage from right leg to right arm, and normalizes the three French right-leg suffixes to “(droite)”. The aggregate random-armor identities remain distinct and are not sourced to p.132.
 
+- Source p.133 certifies the Raider and Leather armor-family descriptions, the shared Shadowed Armor rule, and all 18 published Material-mod identities (nine source rows plus their torso-specific doubled weight/cost variants). The official FR family and Shadowed texts replace earlier paraphrases; Upgrade-mod acceptance remains pending its later source tables.
+
 ## Next lot
 
-Continue page-by-page at printed/source p.133 with the Raider Armor and Leather Armor family descriptions, Shadowed Armor sidebar, and their unique Material mod tables. Do not re-audit pp.1–132.
+Continue page-by-page at printed/source p.134 with the Metal Armor and Combat Armor family descriptions and their unique Material mod tables. The Shadowed Armor sidebar itself is already certified from p.133; only audit its application where p.134 references it. Do not re-audit pp.1–133.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -196,7 +199,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–132
+There are no unresolved anomalies or owner decisions in the completed p.1–133
 boundary.
 
 ## Validation

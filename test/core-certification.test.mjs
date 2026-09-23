@@ -2549,7 +2549,7 @@ test("Core Armor p.130 Raider and Leather tables are source-complete", async () 
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    assert.equal(entry.certification.descriptionReviewed, false);
+    assert.equal(entry.certification.descriptionReviewed, true);
     assert.equal(entry.certification.acceptedModsReviewed, false);
   }
 
@@ -2744,4 +2744,77 @@ test("Core Armor p.132 Synth and Vault-Tec Security tables are source-complete",
       assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 132);
     }
   }
+});
+
+
+test("Core Armor p.133 Raider and Leather descriptions and Material mods are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 135 && catalog.certifiedThrough.en.sourcePage >= 133);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 136 && catalog.certifiedThrough.fr.sourcePage >= 133);
+
+  const raiderIds = new Set(["F15SCdqO8m3rhpkc","CCrzErrpyLp7Ruz4","U38QzZYOaKw1oC3h","lW7UmLaX9cJtuYIV","C5ifa1Dx7rIxx65I","TMaT9gY04hSW3fF8","UolcghI8rwVUXpam","LVtFl6zabIs1mrcb","sEsSb1c3LzdTMpM2","eFk2o4BJK1wcWTDN","aA9RTmukDKwJd59o","ZyjXbSyiFKjT20iR","1kOtnBKd9CjpYOHW","rCNWvE2OVtQErwSa","YZyjpoAFfRJDvufP"]);
+  const leatherIds = new Set(["hLHlZT5mDbRSzXOp","UYhmJZwhnlwIR8fD","f23UwUVmMqA60No3","uC3L44Jd1lpnTteV","UYuniDcNwxokqGHW","1UDHhxbyQuOtX9EH","I2KcUoQK3ZNCZ4F4","oVvBb3T24ydKgaiy","HClBdbJwrzkUCuZZ","g5Y59atwvxDXMvoE","v55iaviJCqWOVY2Q","6GQTHH3zEYZdMSQk","SbGvygde4xeHRGJt","nu0CMwCsoeJfTVUx","17SJL8PoJweKD216"]);
+  const descriptions = { en: { raider: "<p>Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts.</p><p>Each piece of raider armor can accept two mods, one of which is a Material, the other of which is an Upgrade. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). Super mutant characters may only wear Raider armor. All Raider Armor Material mods are installed with the Repair skill.</p>", leather: "<p>Made from tanned and treated animal hide, these hardened leather pieces provide modest protection from physical impacts and gunshots, as well as serving to insulate the wearer from fire and other dangerous energies.</p><p>Each piece of leather armor can accept two mods, one of which is a Material, the other of which is an Upgrade. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). All Leather Armor Material mods are installed with the Repair skill.</p>" }, fr: { raider: "<p>Une armure de bric et de broc portée par les pillards et autres coupe-jarrets des Terres désolées. Sa qualité et son apparence varient considérablement selon les cas, mais elle a tendance à être composée de morceaux de ferraille grossièrement martelés pour prendre à peu près la forme voulue, renforcés par des barres de métal, du fil de fer et des sangles de cuir. Cet aspect barbare est fréquemment intensifié par de macabres trophées tels que des crânes ou d’autres parties de cadavre.</p><p>Chaque pièce d’armure de pillard peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste). Les personnages super mutants ne peuvent pas porter d’autre armure que l’armure de pillard. Tous les mods de matériau de l’armure de pillard s’installent avec la compétence Réparation.</p>", leather: "<p>Fabriquées à partir de peaux d’animaux tannées et traitées, ces pièces de cuir durci fournissent une protection modeste contre les impacts physiques et les tirs. Elles contribuent aussi à isoler celui qui les porte du feu et des autres énergies dangereuses.</p><p>Chaque pièce d’armure de cuir peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste seul). Tous les mods de matériau de l’armure de cuir s’installent avec la compétence Réparation.</p>" } };
+  const shadowedFr = "<p>Une grande partie des types d’armures énumérés dans cette section peuvent recevoir un module pour devenir ombrées. Une armure ombrée présente une surface plus sombre et qui reflète moins la lumière pour qu’il soit plus difficile de voir celui qui la porte sous une lumière faible ou dans le noir.</p><ul><li>Si vous portez 1 ou 2 pièces d’armure ombrée, vous pouvez ignorer la première complication obtenue sur un test de Discrétion que vous tentez avec une lumière faible ou dans le noir.</li><li>Si vous portez 3 pièces d’armure ombrée ou plus, vous pouvez relancer une fois par scène un seul d20 sur un test de Discrétion que vous tentez sous une lumière faible ou dans le noir.</li><li>Si vous portez 5 pièces d’armure ombrée ou plus, vous pouvez relancer un seul d20 sur tout test de Discrétion que vous tentez sous une lumière faible ou dans le noir.</li></ul><p>Pour les besoins de cette règle, une armure couvrant le buste compte comme 2 pièces d’armure. Une armure ombrée ne fournit aucun bonus si vous êtes à l’intérieur d’une armure assistée.</p>";
+  const modSpecs = {"0wIVX8zUon56LDsB":{"en":"Welded","fr":"Soudé","p":1,"e":1,"r":0,"w":1,"c":3,"shadowed":false},"nq7nPjVuJCN7lGpz":{"en":"Welded (Torso)","fr":"Soudé (Torse)","p":1,"e":1,"r":0,"w":2,"c":6,"shadowed":false},"Oawiwwrdx2ZU0xgA":{"en":"Tempered","fr":"Trempé","p":2,"e":2,"r":0,"w":1,"c":6,"shadowed":false},"uLZD28tMAPybOcdn":{"en":"Tempered (Torso)","fr":"Trempé (Torse)","p":2,"e":2,"r":0,"w":2,"c":12,"shadowed":false},"gI1rYMmsXnPOqctB":{"en":"Hardened","fr":"Renforcé","p":3,"e":3,"r":0,"w":2,"c":9,"shadowed":false},"yoRbLyIzNTy0VwGT":{"en":"Hardened (Torso)","fr":"Renforcé (Torse)","p":3,"e":3,"r":0,"w":4,"c":18,"shadowed":false},"GDI7gRGYrMxEpm99":{"en":"Buttressed","fr":"Étayé","p":4,"e":4,"r":0,"w":3,"c":12,"shadowed":false},"ttjB1mPeas5mpm8O":{"en":"Buttressed (Torso)","fr":"Étayé (Torse)","p":4,"e":4,"r":0,"w":6,"c":24,"shadowed":false},"sWsqLIvepWlGgTtY":{"en":"Boiled Leather","fr":"Cuir bouilli","p":1,"e":1,"r":0,"w":1,"c":5,"shadowed":false},"BEH1dYkTDpTKwNHX":{"en":"Boiled Leather (Torso)","fr":"Cuir bouilli (Torse)","p":1,"e":1,"r":0,"w":2,"c":10,"shadowed":false},"NKMOWl7fiN0nIl1G":{"en":"Girded Leather","fr":"Cuir armé","p":2,"e":2,"r":0,"w":1,"c":10,"shadowed":false},"67Crgv7xKULJ0j9J":{"en":"Girded Leather (Torso)","fr":"Cuir armé (Torse)","p":2,"e":2,"r":0,"w":2,"c":20,"shadowed":false},"4OR9FcaH6xrrKpBo":{"en":"Treated Leather","fr":"Cuir traité","p":3,"e":3,"r":0,"w":1,"c":15,"shadowed":false},"IbLyK0Sjkfks5BL3":{"en":"Treated Leather (Torso)","fr":"Cuir traité (Torse)","p":3,"e":3,"r":0,"w":2,"c":30,"shadowed":false},"CY6POFBbU0qeLsHG":{"en":"Shadowed Leather","fr":"Cuir ombré","p":3,"e":3,"r":0,"w":1,"c":20,"shadowed":true},"Au7oeIQaSymmXqnP":{"en":"Shadowed Leather (Torso)","fr":"Cuir ombré (Torse)","p":3,"e":3,"r":0,"w":2,"c":40,"shadowed":true},"IIhwRw2S19A9hrEV":{"en":"Studded Leather","fr":"Cuir clouté","p":4,"e":4,"r":0,"w":2,"c":25,"shadowed":false},"yYvoh87QTiCX6J8Q":{"en":"Studded Leather (Torso)","fr":"Cuir clouté (Torse)","p":4,"e":4,"r":0,"w":4,"c":50,"shadowed":false}};
+
+  const p130Families = catalog.entries.filter(entry => entry.page === 130 && entry.pack === "apparel" && (raiderIds.has(entry.documentId) || leatherIds.has(entry.documentId)));
+  assert.equal(p130Families.length, 30);
+  for (const entry of p130Families) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.materialModsReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.ok(entry.sourcePages.en.includes(133));
+    assert.ok(entry.sourcePages.fr.includes(133));
+  }
+
+  const p133Mods = catalog.entries.filter(entry => entry.page === 133 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p133Mods.length, Object.keys(modSpecs).length);
+  assert.deepEqual(new Set(p133Mods.map(entry => entry.documentId)), new Set(Object.keys(modSpecs)));
+
+  const expectedRaiderLimb = ["0wIVX8zUon56LDsB","Oawiwwrdx2ZU0xgA","gI1rYMmsXnPOqctB","GDI7gRGYrMxEpm99"];
+  const expectedRaiderTorso = ["nq7nPjVuJCN7lGpz","uLZD28tMAPybOcdn","yoRbLyIzNTy0VwGT","ttjB1mPeas5mpm8O"];
+  const expectedLeatherLimb = ["sWsqLIvepWlGgTtY","NKMOWl7fiN0nIl1G","4OR9FcaH6xrrKpBo","CY6POFBbU0qeLsHG","IIhwRw2S19A9hrEV"];
+  const expectedLeatherTorso = ["BEH1dYkTDpTKwNHX","67Crgv7xKULJ0j9J","IbLyK0Sjkfks5BL3","Au7oeIQaSymmXqnP","yYvoh87QTiCX6J8Q"];
+
+  for (const language of ["en", "fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of raiderIds) {
+      const doc = apparel.get(id); assert.ok(doc, `${language}/apparel/${id} missing`);
+      assert.equal(doc.system.description, descriptions[language].raider, `${language}/apparel/${id} Raider p.133 description`);
+      const expected = doc.system.location.torso ? expectedRaiderTorso : expectedRaiderLimb;
+      const keys = new Set(Object.keys(doc.system.mods));
+      for (const modId of expected) assert.ok(keys.has(modId), `${language}/apparel/${id} missing Raider Material mod ${modId}`);
+    }
+    for (const id of leatherIds) {
+      const doc = apparel.get(id); assert.ok(doc, `${language}/apparel/${id} missing`);
+      assert.equal(doc.system.description, descriptions[language].leather, `${language}/apparel/${id} Leather p.133 description`);
+      const expected = doc.system.location.torso ? expectedLeatherTorso : expectedLeatherLimb;
+      const keys = new Set(Object.keys(doc.system.mods));
+      for (const modId of expected) assert.ok(keys.has(modId), `${language}/apparel/${id} missing Leather Material mod ${modId}`);
+    }
+
+    for (const [id, spec] of Object.entries(modSpecs)) {
+      const doc = mods.get(id); assert.ok(doc, `${language}/apparel-mods/${id} missing`);
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 133, `${language}/apparel-mods/${id} source page`);
+      assert.equal(source?.errataReviewed, true, `${language}/apparel-mods/${id} errata review`);
+      assert.equal(doc.name, language === "en" ? spec.en : spec.fr, `${language}/apparel-mods/${id} name`);
+      assert.equal(doc.system.apparelType, "armor");
+      assert.equal(doc.system.modType, "material");
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2, `${language}/apparel-mods/${id} weight`);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.shadowed, spec.shadowed);
+    }
+  }
+
+  const frRecords = await generatedDocuments("fr");
+  const frMods = new Map(frRecords.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+  assert.ok(frMods.get("CY6POFBbU0qeLsHG").system.description.startsWith(shadowedFr));
+  assert.ok(frMods.get("Au7oeIQaSymmXqnP").system.description.startsWith(shadowedFr));
 });

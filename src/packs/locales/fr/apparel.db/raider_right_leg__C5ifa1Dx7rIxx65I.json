@@ -3,7 +3,7 @@
   "_file": "de_pillard_jambe_droite__C5ifa1Dx7rIxx65I.json",
   "values": {
     "/name": "Jambe de pillard (droite)",
-    "/system/description": "<p>Armure improvisée des pillards et autres coupe-gorges, faite de ferraille martelée, renforcée de barres, fils et sangles de cuir, souvent ornée de trophées macabres. Chaque pièce accepte un Matériau et une Amélioration. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Les super mutants ne peuvent porter que l’armure de pillard. Installation avec Réparation. Matériaux : Soudé, Trempé, Renforcé, Étayé.</p>",
+    "/system/description": "<p>Une armure de bric et de broc portée par les pillards et autres coupe-jarrets des Terres désolées. Sa qualité et son apparence varient considérablement selon les cas, mais elle a tendance à être composée de morceaux de ferraille grossièrement martelés pour prendre à peu près la forme voulue, renforcés par des barres de métal, du fil de fer et des sangles de cuir. Cet aspect barbare est fréquemment intensifié par de macabres trophées tels que des crânes ou d’autres parties de cadavre.</p><p>Chaque pièce d’armure de pillard peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste). Les personnages super mutants ne peuvent pas porter d’autre armure que l’armure de pillard. Tous les mods de matériau de l’armure de pillard s’installent avec la compétence Réparation.</p>",
     "/system/mods/0wIVX8zUon56LDsB/system/weight": 0.5,
     "/system/mods/FySCG1SWS7SABvE7/system/weight": 1,
     "/system/mods/GDI7gRGYrMxEpm99/system/weight": 1.5,

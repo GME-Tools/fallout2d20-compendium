@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 134,
-      "sourcePage": 132
+      "pdfPage": 135,
+      "sourcePage": 133
     },
     "fr": {
-      "pdfPage": 135,
-      "sourcePage": 132
+      "pdfPage": 136,
+      "sourcePage": 133
     }
   },
   "pageReviews": [
@@ -2165,6 +2165,22 @@
       "language": "fr",
       "pdfPage": 135,
       "sourcePage": 132,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 135,
+      "sourcePage": 133,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 136,
+      "sourcePage": 133,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -20174,15 +20190,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Raider Chest Piece",
         "apparelType": "armor",
@@ -20197,7 +20215,8 @@
         "weightLb": 7,
         "cost": 18,
         "rarity": 0,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20215,15 +20234,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Raider Arm",
         "apparelType": "armor",
@@ -20238,7 +20259,8 @@
         "weightLb": 3,
         "cost": 6,
         "rarity": 0,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20256,15 +20278,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Raider Arm",
         "apparelType": "armor",
@@ -20279,7 +20303,8 @@
         "weightLb": 3,
         "cost": 6,
         "rarity": 0,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20297,15 +20322,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Raider Leg",
         "apparelType": "armor",
@@ -20320,7 +20347,8 @@
         "weightLb": 3,
         "cost": 8,
         "rarity": 0,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20338,15 +20366,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Raider Leg",
         "apparelType": "armor",
@@ -20361,7 +20391,8 @@
         "weightLb": 3,
         "cost": 8,
         "rarity": 0,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20379,15 +20410,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Raider Chest Piece",
         "apparelType": "armor",
@@ -20402,7 +20435,8 @@
         "weightLb": 12,
         "cost": 33,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20420,15 +20454,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Raider Arm",
         "apparelType": "armor",
@@ -20443,7 +20479,8 @@
         "weightLb": 7,
         "cost": 8,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20461,15 +20498,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Raider Arm",
         "apparelType": "armor",
@@ -20484,7 +20523,8 @@
         "weightLb": 7,
         "cost": 8,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20502,15 +20542,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Raider Leg",
         "apparelType": "armor",
@@ -20525,7 +20567,8 @@
         "weightLb": 7,
         "cost": 13,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20543,15 +20586,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Raider Leg",
         "apparelType": "armor",
@@ -20566,7 +20611,8 @@
         "weightLb": 7,
         "cost": 13,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20584,15 +20630,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Raider Chest Piece",
         "apparelType": "armor",
@@ -20607,7 +20655,8 @@
         "weightLb": 17,
         "cost": 48,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20625,15 +20674,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Raider Arm",
         "apparelType": "armor",
@@ -20648,7 +20699,8 @@
         "weightLb": 10,
         "cost": 15,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20666,15 +20718,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Raider Arm",
         "apparelType": "armor",
@@ -20689,7 +20743,8 @@
         "weightLb": 10,
         "cost": 15,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20707,15 +20762,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Raider Leg",
         "apparelType": "armor",
@@ -20730,7 +20787,8 @@
         "weightLb": 10,
         "cost": 18,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20748,15 +20806,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Raider Leg",
         "apparelType": "armor",
@@ -20771,7 +20831,8 @@
         "weightLb": 10,
         "cost": 18,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20789,15 +20850,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Leather Chest Piece",
         "apparelType": "armor",
@@ -20812,7 +20875,8 @@
         "weightLb": 5,
         "cost": 25,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20830,15 +20894,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Leather Arm",
         "apparelType": "armor",
@@ -20853,7 +20919,8 @@
         "weightLb": 2,
         "cost": 8,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20871,15 +20938,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Leather Arm",
         "apparelType": "armor",
@@ -20894,7 +20963,8 @@
         "weightLb": 2,
         "cost": 8,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20912,15 +20982,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Leather Leg",
         "apparelType": "armor",
@@ -20935,7 +21007,8 @@
         "weightLb": 2,
         "cost": 10,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20953,15 +21026,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Leather Leg",
         "apparelType": "armor",
@@ -20976,7 +21051,8 @@
         "weightLb": 2,
         "cost": 10,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -20994,15 +21070,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Leather Chest Piece",
         "apparelType": "armor",
@@ -21017,7 +21095,8 @@
         "weightLb": 10,
         "cost": 50,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21035,15 +21114,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Leather Arm",
         "apparelType": "armor",
@@ -21058,7 +21139,8 @@
         "weightLb": 5,
         "cost": 18,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21076,15 +21158,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Leather Arm",
         "apparelType": "armor",
@@ -21099,7 +21183,8 @@
         "weightLb": 5,
         "cost": 18,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21117,15 +21202,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Leather Leg",
         "apparelType": "armor",
@@ -21140,7 +21227,8 @@
         "weightLb": 5,
         "cost": 20,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21158,15 +21246,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Leather Leg",
         "apparelType": "armor",
@@ -21181,7 +21271,8 @@
         "weightLb": 5,
         "cost": 20,
         "rarity": 2,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21199,15 +21290,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Leather Chest Piece",
         "apparelType": "armor",
@@ -21222,7 +21315,8 @@
         "weightLb": 15,
         "cost": 75,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21240,15 +21334,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Leather Arm",
         "apparelType": "armor",
@@ -21263,7 +21359,8 @@
         "weightLb": 7,
         "cost": 28,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21281,15 +21378,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Leather Arm",
         "apparelType": "armor",
@@ -21304,7 +21403,8 @@
         "weightLb": 7,
         "cost": 28,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21322,15 +21422,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Leather Leg",
         "apparelType": "armor",
@@ -21345,7 +21447,8 @@
         "weightLb": 7,
         "cost": 30,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -21363,15 +21466,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          130
+          130,
+          133
         ],
         "fr": [
-          130
+          130,
+          133
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Leather Leg",
         "apparelType": "armor",
@@ -21386,7 +21491,8 @@
         "weightLb": 7,
         "cost": 30,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+        "note": "Family description and unique Material mods are certified at p.133; Upgrade mods remain pending the later armor-mod pages.",
+        "materialModsReviewed": true
       }
     },
     {
@@ -23794,6 +23900,878 @@
         "cost": 16,
         "rarity": 1,
         "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "rule_text",
+      "sourceName": "Raider Armor",
+      "localizedNames": {
+        "fr": "Armure de pillard"
+      },
+      "scope": "out_of_scope",
+      "justification": "Armor-family description and modification rules are represented on the reusable Raider armor Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1,
+        "torsoWeightCostMultiplier": 2,
+        "superMutantRestriction": true,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "sidebar",
+      "sourceName": "Shadowed Armor",
+      "localizedNames": {
+        "fr": "Armures ombrées"
+      },
+      "scope": "out_of_scope",
+      "justification": "Shared armor rule text; reusable Shadowed material mods carry this rule in their descriptions.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "torsoCountsAsPieces": 2,
+        "powerArmorBenefit": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "table",
+      "sourceName": "Unique Raider Armor Material Mods",
+      "localizedNames": {
+        "fr": "Mods de matériau réservés à l’armure de pillard"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining reusable Raider Armor Material mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 4,
+        "torsoVariantsDerivedByRule": true,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "rule_text",
+      "sourceName": "Leather Armor",
+      "localizedNames": {
+        "fr": "Armure de cuir"
+      },
+      "scope": "out_of_scope",
+      "justification": "Armor-family description and modification rules are represented on the reusable Leather armor Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1,
+        "torsoWeightCostMultiplier": 2,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "table",
+      "sourceName": "Unique Leather Armor Material Mods",
+      "localizedNames": {
+        "fr": "Mods de matériau réservés à l’armure de cuir"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining reusable Leather Armor Material mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 5,
+        "torsoVariantsDerivedByRule": true,
+        "materialInstallSkill": "Repair",
+        "errataNote": "Errata V6 corrects the later p.212 crafting inventory's second Boiled Leather entry to Studded Leather; the p.133 source table already names Studded Leather correctly."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Welded",
+      "localizedNames": {
+        "fr": "Soudé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Raider Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "0wIVX8zUon56LDsB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Welded",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 3,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Welded (Torso)",
+      "localizedNames": {
+        "fr": "Soudé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Welded row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "nq7nPjVuJCN7lGpz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Welded",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 6,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Tempered",
+      "localizedNames": {
+        "fr": "Trempé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Raider Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "Oawiwwrdx2ZU0xgA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Tempered",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 6,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Tempered (Torso)",
+      "localizedNames": {
+        "fr": "Trempé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Tempered row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "uLZD28tMAPybOcdn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Tempered",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 12,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Hardened",
+      "localizedNames": {
+        "fr": "Renforcé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Raider Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "gI1rYMmsXnPOqctB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hardened",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 9,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Hardened (Torso)",
+      "localizedNames": {
+        "fr": "Renforcé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Hardened row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "yoRbLyIzNTy0VwGT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hardened",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 18,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Buttressed",
+      "localizedNames": {
+        "fr": "Étayé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Raider Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "GDI7gRGYrMxEpm99",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Buttressed",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 3,
+        "cost": 12,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Buttressed (Torso)",
+      "localizedNames": {
+        "fr": "Étayé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Buttressed row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "ttjB1mPeas5mpm8O",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Buttressed",
+        "armorFamily": "Raider",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 6,
+        "cost": 24,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Boiled Leather",
+      "localizedNames": {
+        "fr": "Cuir bouilli"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Leather Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "sWsqLIvepWlGgTtY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Boiled Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 5,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Boiled Leather (Torso)",
+      "localizedNames": {
+        "fr": "Cuir bouilli (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Boiled Leather row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "BEH1dYkTDpTKwNHX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Boiled Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 10,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Girded Leather",
+      "localizedNames": {
+        "fr": "Cuir armé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Leather Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "NKMOWl7fiN0nIl1G",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Girded Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 10,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Girded Leather (Torso)",
+      "localizedNames": {
+        "fr": "Cuir armé (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Girded Leather row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "67Crgv7xKULJ0j9J",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Girded Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Treated Leather",
+      "localizedNames": {
+        "fr": "Cuir traité"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Leather Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "4OR9FcaH6xrrKpBo",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Treated Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 15,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Treated Leather (Torso)",
+      "localizedNames": {
+        "fr": "Cuir traité (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Treated Leather row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "IbLyK0Sjkfks5BL3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Treated Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 30,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Shadowed Leather",
+      "localizedNames": {
+        "fr": "Cuir ombré"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Leather Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "CY6POFBbU0qeLsHG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Shadowed Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 20,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": true,
+        "shadowedRuleReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Shadowed Leather (Torso)",
+      "localizedNames": {
+        "fr": "Cuir ombré (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Shadowed Leather row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "Au7oeIQaSymmXqnP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Shadowed Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 40,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": true,
+        "shadowedRuleReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Studded Leather",
+      "localizedNames": {
+        "fr": "Cuir clouté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Leather Armor Material mod defined by the Core p.133 source table.",
+      "pack": "apparel-mods",
+      "documentId": "IIhwRw2S19A9hrEV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Studded Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 25,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 133,
+      "type": "apparel_mod",
+      "sourceName": "Studded Leather (Torso)",
+      "localizedNames": {
+        "fr": "Cuir clouté (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.133 Studded Leather row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "yYvoh87QTiCX6J8Q",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          133
+        ],
+        "fr": [
+          133
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Studded Leather",
+        "armorFamily": "Leather",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 50,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "shadowed": false
       }
     }
   ]

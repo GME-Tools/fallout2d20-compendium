@@ -3,7 +3,7 @@
   "_file": "de_cuir_bras_droit__f23UwUVmMqA60No3.json",
   "values": {
     "/name": "Brassard en cuir (droit)",
-    "/system/description": "<p>Fabriquées en peau animale tannée et traitée, ces pièces de cuir durci protègent modestement des impacts et tirs tout en isolant de la chaleur et des autres énergies dangereuses. Chaque pièce accepte deux mods : un Matériau et une Amélioration. Pour le torse, doublez poids et coût, sauf si déjà indiqué. Tous les mods de Matériau s’installent avec Réparation. Matériaux : Cuir bouilli, Cuir armé, Cuir traité, Cuir ombré, Cuir clouté.</p>",
+    "/system/description": "<p>Fabriquées à partir de peaux d’animaux tannées et traitées, ces pièces de cuir durci fournissent une protection modeste contre les impacts physiques et les tirs. Elles contribuent aussi à isoler celui qui les porte du feu et des autres énergies dangereuses.</p><p>Chaque pièce d’armure de cuir peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste seul). Tous les mods de matériau de l’armure de cuir s’installent avec la compétence Réparation.</p>",
     "/system/mods/3d0refqygOWlr08D/system/weight": 0.5,
     "/system/mods/4OR9FcaH6xrrKpBo/system/weight": 0.5,
     "/system/mods/CY6POFBbU0qeLsHG/system/weight": 0.5,
