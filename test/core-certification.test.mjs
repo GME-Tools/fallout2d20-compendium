@@ -3245,8 +3245,9 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    assert.equal(entry.certification.descriptionReviewed, false);
-    assert.equal(entry.certification.acceptedModsReviewed, false);
+    const isFrame = entry.documentId === "lp5ZpYjbFhe8IUcx";
+    assert.equal(entry.certification.descriptionReviewed, isFrame);
+    assert.equal(entry.certification.acceptedModsReviewed, isFrame);
     assert.equal(entry.certification.apparelType, "powerArmor");
   }
 
@@ -3282,6 +3283,68 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     const entry = p137Items.find(item => item.documentId === id);
     assert.match(entry.certification.note, /source-exact/);
     assert.equal(entry.certification.cost, 10);
+  }
+});
+
+test("Core Power Armor p.138 Armor Frame rules are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 140 && catalog.certifiedThrough.en.sourcePage >= 138);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 141 && catalog.certifiedThrough.fr.sourcePage >= 138);
+
+  const frameEntry = catalog.entries.find(entry => entry.page === 137 && entry.documentId === "lp5ZpYjbFhe8IUcx");
+  assert.ok(frameEntry);
+  assert.deepEqual(frameEntry.sourcePages.en, [137,138]);
+  assert.deepEqual(frameEntry.sourcePages.fr, [137,138]);
+  assert.equal(frameEntry.certification.descriptionReviewed, true);
+  assert.equal(frameEntry.certification.acceptedModsReviewed, true);
+  assert.equal(frameEntry.certification.maxMods, 0);
+  assert.equal(frameEntry.certification.frameRulesReviewed, true);
+  assert.equal(frameEntry.certification.operation.enterOrLeaveAction, "major");
+  assert.equal(frameEntry.certification.operation.fusionCoreChargesPerScene, 1);
+  assert.equal(frameEntry.certification.operation.complicationsMayConsumeExtraCharges, true);
+  assert.equal(frameEntry.certification.impactLanding.fallDamageIgnored, true);
+  assert.equal(frameEntry.certification.impactLanding.damageDice, 3);
+  assert.equal(frameEntry.certification.impactLanding.worksUnpowered, true);
+  assert.equal(frameEntry.certification.enhancedStrength.strength, 11);
+  assert.equal(frameEntry.certification.enhancedStrength.ignoreFrameAndAttachedArmorWeight, true);
+  assert.equal(frameEntry.certification.enhancedStrength.requiresPower, true);
+  assert.equal(frameEntry.certification.sealedEnvironment.requiresAllLocationsPresent, true);
+  assert.equal(frameEntry.certification.sealedEnvironment.requiresNoDamagedComponents, true);
+  assert.equal(frameEntry.certification.sealedEnvironment.breathableAtmosphere, true);
+  assert.equal(frameEntry.certification.sealedEnvironment.requiresPower, true);
+  assert.equal(frameEntry.certification.ablativeResilience.armorPieceTakesPostResistanceDamage, true);
+  assert.equal(frameEntry.certification.ablativeResilience.damagedOnCriticalHit5Plus, true);
+  assert.equal(frameEntry.certification.ablativeResilience.damagedAtZeroHP, true);
+  assert.equal(frameEntry.certification.ablativeResilience.damagedPieceStopsProtecting, true);
+  assert.equal(frameEntry.certification.technological.noNaturalHealing, true);
+  assert.equal(frameEntry.certification.technological.noStimpaks, true);
+  assert.equal(frameEntry.certification.technological.noMedicine, true);
+  assert.equal(frameEntry.certification.technological.repairedLikeRobots, true);
+  assert.equal(frameEntry.certification.technological.affectedAsMachineOrRobot, true);
+
+  const rule = catalog.entries.find(entry => entry.page === 138 && entry.type === "rule_text" && entry.sourceName === "Armor Frame");
+  assert.ok(rule);
+  assert.equal(rule.status, "out_of_scope");
+  assert.equal(rule.certification.representedByDocumentId, "lp5ZpYjbFhe8IUcx");
+  assert.equal(rule.certification.errataReviewed, true);
+  assert.match(rule.certification.errataNote, /no p\.138 Armor Frame correction/);
+
+  const descriptions = {
+    en: "<p>The standard armor frame is a West Tek powered exoskeleton. It draws power from a back-mounted TX-28 micro-fusion reactor, which is compatible with standard fusion cores (p.94). An armor frame cannot be modded.</p>\n<ul>\n<li><strong>Operation:</strong> Entering or leaving an armor frame requires a major action. The armor consumes a single charge from its fusion core at the end of each scene it is used in. If this would reduce the fusion core to 0 charges, then the frame becomes unpowered. Complications on <strong>Athletics</strong> tests made while operating the Power Armor may result (at the GM&rsquo;s discretion) in extra charges being used, as strenuous activity consumes power more quickly.</li>\n<li><strong>Impact Landing:</strong> A character wearing Power Armor suffers no damage for falling or jumping down any height. In fact, landing from any height higher than a single-story building inflicts 3 @fos[DC] damage to any creatures (or other damageable objects) within Reach of you when you land. This applies even if the armor is unpowered.</li>\n<li><strong>Enhanced Strength:</strong> A character wearing Power Armor uses the armor frame&rsquo;s <strong>STR</strong> of 11 instead of their own, for all purposes (such as skill tests, carry weight, and melee damage bonus). In addition, the weight of the armor frame and any attached armor pieces is not counted towards the wearer&rsquo;s carry weight. These benefits are lost if the armor is unpowered.</li>\n<li><strong>Sealed Environment:</strong> So long as the armor is sealed (it has components for each location, and none of those components are damaged), it provides a breathable atmosphere, allowing the wearer to survive underwater, in toxic gas, or similar inhospitable conditions. This benefit is lost if the armor is unpowered.</li>\n<li><strong>Ablative Resilience:</strong> When a character in Power Armor is attacked or otherwise suffers damage, then the damage is reduced by the damage resistances of the armor piece on that location, and any remaining damage marks off the armor piece&rsquo;s Health points. If an armor piece would suffer a Critical Hit (5+ damage in one hit), or is reduced to 0 HP, then it is <strong>damaged</strong>. Damaged armor pieces no longer provide protection&mdash;hits to that location strike the wearer instead&mdash;using the wearer&rsquo;s damage resistances and HP.</li>\n<li><strong>Technological:</strong> Armor pieces do not regain HP naturally, and cannot be restored using Stimpaks or the <strong>Medicine</strong> skill. They must be repaired, in the same way as robots (p.34). Power Armor is affected by any effect which targets or affects machines or robots.</li>\n</ul>\n<p>&nbsp;</p>",
+    fr: "<p>Le châssis d’armure standard est un exosquelette motorisé de West Tek. Il est alimenté par une microcentrale à fusion TX-28 dorsal, compatible avec les réacteurs à fusion standard (voir page 94). Un châssis d’armure ne peut pas recevoir de module.</p>\n<ul>\n<li><strong>Utilisation :</strong> s’installer dans un châssis d’armure ou le quitter nécessite une action capitale. L’armure consomme 1 charge de son réacteur à fusion à la fin de chaque scène lors de laquelle elle est utilisée. Si cela en vient à faire tomber le réacteur à fusion à 0 charge, le châssis n’est plus alimenté en énergie. Si vous obtenez une complication sur un test d’<strong>Athlétisme</strong> effectué pendant que vous utilisez l’armure assistée, l’armure peut (si le MJ le décide) consommer des charges supplémentaires, car une activité physique intense nécessite davantage d’énergie.</li>\n<li><strong>Atterrissage à impact :</strong> un personnage qui porte une armure assistée ne subit pas de dégâts s’il chute ou se laisse tomber, quelle que soit la hauteur. D’ailleurs, lorsque vous atterrissez d’une hauteur supérieure à 3 mètres vous infligez 3 @fos[DC] de dégâts à toute créature (ou autre objet pouvant subir des dégâts) à portée de main au moment de l’impact. Ces dégâts s’appliquent même quand l’armure n’est plus alimentée en énergie.</li>\n<li><strong>Augmentation de Force :</strong> un personnage qui porte une armure assistée utilise la FOR de 11 du châssis d’armure au lieu de la sienne à toutes fins utiles (par exemple les tests de compétence, la charge maximale et le bonus aux dégâts de corps à corps). De plus, le poids du châssis d’armure et de toute pièce d’armure fixée dessus n’est pas comptabilisé pour déterminer si le porteur a ou non atteint sa charge maximale. Ces avantages sont perdus si l’armure n’est plus alimentée en énergie.</li>\n<li><strong>Environnement hermétique :</strong> tant que l’armure est hermétique (c’est-à-dire qu’elle a un composant pour chaque localisation et qu’aucun de ces composants n’est endommagé), elle fournit une atmosphère respirable, ce qui permet au porteur de survivre sous l’eau, dans un nuage de gaz toxique ou dans d’autres conditions normalement dommageables du même genre. Cet avantage est perdu si l’armure n’est plus alimentée en énergie.</li>\n<li><strong>Robustesse ablative :</strong> quand un personnage qui porte une armure assistée est attaqué ou subit des dégâts venant d’une autre source, la résistance aux dégâts appropriée de la pièce d’armure couvrant cette localisation est déduite des dégâts, et les dégâts restants sont déduits des points de vie de la pièce d’armure. Lorsqu’une pièce d’armure devrait subir un coup critique (5 points de dégâts ou plus en un seul coup) ou que ses PV tombent à 0, elle est <strong>endommagée</strong>. Les pièces d’armure endommagées ne fournissent plus de protection, les coups qui touchent cette localisation touchent donc le porteur et concernent les résistances aux dégâts et les PV du porteur.</li>\n<li><strong>Technologique :</strong> les pièces d’armure ne regagnent pas de PV naturellement et ne peuvent pas en regagner avec des Stimpaks ou avec la compétence <strong>Médecine</strong>. Elles doivent être réparées, de la même manière que les robots (voir page 34). Les armures assistées sont touchées par tous les effets qui ciblent ou touchent les machines ou les robots.</li>\n</ul>"
+  };
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const frame = records.find(({pack,document}) => pack === "apparel" && document._id === "lp5ZpYjbFhe8IUcx")?.document;
+    assert.ok(frame, language + "/apparel/Armor Frame missing");
+    assert.equal(frame.system.description, descriptions[language], language + " Armor Frame p.138 description");
+    assert.equal(frame.system.apparelType, "powerArmor");
+    assert.equal(frame.system.powerArmor.isFrame, true);
+    assert.equal(frame.system.mods.max, 0);
+    assert.equal(frame.system.mods.current, 0);
+    assert.equal(frame.system.mods.modded, false);
+    const embedded = Object.entries(frame.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+    assert.equal(embedded.length, 0, language + " Armor Frame must not expose mods");
   }
 });
 

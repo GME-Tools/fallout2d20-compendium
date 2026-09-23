@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 139,
-      "sourcePage": 137
+      "pdfPage": 140,
+      "sourcePage": 138
     },
     "fr": {
-      "pdfPage": 140,
-      "sourcePage": 137
+      "pdfPage": 141,
+      "sourcePage": 138
     }
   },
   "pageReviews": [
@@ -2245,6 +2245,22 @@
       "language": "fr",
       "pdfPage": 140,
       "sourcePage": 137,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 140,
+      "sourcePage": 138,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 141,
+      "sourcePage": 138,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -27586,16 +27602,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          138
         ],
         "fr": [
-          137
+          137,
+          138
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "Armor Frame",
         "apparelType": "powerArmor",
         "resistances": {
@@ -27609,7 +27627,44 @@
         "cost": 4500,
         "rarity": 4,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "Armor Frame table mechanics are certified at p.137; the complete operating rules and official EN/FR description are certified at p.138. The frame cannot be modded.",
+        "maxMods": 0,
+        "frameRulesReviewed": true,
+        "operation": {
+          "enterOrLeaveAction": "major",
+          "fusionCoreChargesPerScene": 1,
+          "complicationsMayConsumeExtraCharges": true
+        },
+        "impactLanding": {
+          "fallDamageIgnored": true,
+          "damageDice": 3,
+          "minimumHeight": "higher than a single-story building / FR: supérieure à 3 mètres",
+          "worksUnpowered": true
+        },
+        "enhancedStrength": {
+          "strength": 11,
+          "ignoreFrameAndAttachedArmorWeight": true,
+          "requiresPower": true
+        },
+        "sealedEnvironment": {
+          "requiresAllLocationsPresent": true,
+          "requiresNoDamagedComponents": true,
+          "breathableAtmosphere": true,
+          "requiresPower": true
+        },
+        "ablativeResilience": {
+          "armorPieceTakesPostResistanceDamage": true,
+          "damagedOnCriticalHit5Plus": true,
+          "damagedAtZeroHP": true,
+          "damagedPieceStopsProtecting": true
+        },
+        "technological": {
+          "noNaturalHealing": true,
+          "noStimpaks": true,
+          "noMedicine": true,
+          "repairedLikeRobots": true,
+          "affectedAsMachineOrRobot": true
+        }
       }
     },
     {
@@ -28840,6 +28895,39 @@
         "rarity": 5,
         "sideDerived": true,
         "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 138,
+      "type": "rule_text",
+      "sourceName": "Armor Frame",
+      "localizedNames": {
+        "fr": "Châssis d’armure"
+      },
+      "scope": "out_of_scope",
+      "justification": "The complete Armor Frame operating rules are represented on the reusable Armor Frame apparel Item rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          138
+        ],
+        "fr": [
+          138
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no p.138 Armor Frame correction; the p.137 Power Armor table errata does not alter these operating rules.",
+        "representedByDocumentId": "lp5ZpYjbFhe8IUcx",
+        "maxMods": 0,
+        "strength": 11,
+        "fusionCoreChargesPerScene": 1,
+        "impactLandingDamageDice": 3
       }
     }
   ]
