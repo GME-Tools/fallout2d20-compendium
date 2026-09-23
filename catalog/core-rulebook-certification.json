@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 132,
-      "sourcePage": 130
+      "pdfPage": 133,
+      "sourcePage": 131
     },
     "fr": {
-      "pdfPage": 133,
-      "sourcePage": 130
+      "pdfPage": 134,
+      "sourcePage": 131
     }
   },
   "pageReviews": [
@@ -2133,6 +2133,22 @@
       "language": "fr",
       "pdfPage": 133,
       "sourcePage": 130,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 133,
+      "sourcePage": 131,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 134,
+      "sourcePage": 131,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -21355,6 +21371,1536 @@
         "cost": 30,
         "rarity": 3,
         "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "table",
+      "sourceName": "Metal Armor",
+      "localizedNames": {
+        "fr": "Armure de métal"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the reusable Metal armor-piece Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 12,
+        "note": "The source has side-neutral Arm and Leg rows; published Foundry identities split those rows into left/right pieces, yielding 18 reusable Items."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "table",
+      "sourceName": "Combat Armor",
+      "localizedNames": {
+        "fr": "Armure de combat"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the reusable Combat armor-piece Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 12,
+        "note": "The source has side-neutral Arm and Leg rows; published Foundry identities split those rows into left/right pieces, yielding 18 reusable Items."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Metal Helmet",
+      "localizedNames": {
+        "fr": "Casque en métal"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "mHzuqe2DaDduUxJs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Metal Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 3,
+        "cost": 15,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Metal Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron en métal"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "Yq8LSP8WI8hkaeIh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Metal Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 6,
+        "cost": 40,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Metal Left Arm",
+      "localizedNames": {
+        "fr": "Brassard en métal (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "oSfwWZHqhaoBlJlG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Metal Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 3,
+        "cost": 15,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Metal Right Arm",
+      "localizedNames": {
+        "fr": "Brassard en métal (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "1INSoLtiLJ9carIR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Metal Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 3,
+        "cost": 15,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Metal Left Leg",
+      "localizedNames": {
+        "fr": "Jambière en métal (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "x9NMj9JoWYEOJdDs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Metal Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 3,
+        "cost": 15,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Metal Right Leg",
+      "localizedNames": {
+        "fr": "Jambière en métal (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "sGXPYqACKtkrBAhx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Metal Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 3,
+        "cost": 15,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Metal Helmet",
+      "localizedNames": {
+        "fr": "Casque en métal solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "Dz2dC6613RP6KqA9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Metal Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 8,
+        "cost": 65,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Metal Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron en métal solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "X1lZVeTRwlll5KDL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Metal Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 16,
+        "cost": 115,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Metal Left Arm",
+      "localizedNames": {
+        "fr": "Brassard en métal solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "7dmvo8Xlhqt5ZrCa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Metal Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 8,
+        "cost": 65,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Metal Right Arm",
+      "localizedNames": {
+        "fr": "Brassard en métal solide (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "6sBpDpcwfP4yRDaf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Metal Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 8,
+        "cost": 65,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Metal Left Leg",
+      "localizedNames": {
+        "fr": "Jambière en métal solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "HoENHW1I1IwXWvbr",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Metal Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 8,
+        "cost": 65,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Metal Right Leg",
+      "localizedNames": {
+        "fr": "Jambière en métal solide (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "qo1Ronb9wh7MnpXI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Metal Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 8,
+        "cost": 65,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Metal Helmet",
+      "localizedNames": {
+        "fr": "Casque en métal lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "QqkYk9XZKuzQvFFb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Metal Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 12,
+        "cost": 115,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Metal Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron en métal lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "DacGyxZmdShxIBTi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Metal Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 23,
+        "cost": 190,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Metal Left Arm",
+      "localizedNames": {
+        "fr": "Brassard en métal lourd (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "Ece0BCI67om6qF2y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Metal Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 12,
+        "cost": 115,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Metal Right Arm",
+      "localizedNames": {
+        "fr": "Brassard en métal lourd (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "gyQbcEzyP00f1OZt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Metal Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 12,
+        "cost": 115,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Metal Left Leg",
+      "localizedNames": {
+        "fr": "Jambière en métal lourde (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "MoUxwJnXAhE0g8Vx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Metal Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 12,
+        "cost": 115,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Metal Right Leg",
+      "localizedNames": {
+        "fr": "Jambière en métal lourde (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "MPPkcoTlL9Ccu92E",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Metal Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 12,
+        "cost": 115,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Combat Helmet",
+      "localizedNames": {
+        "fr": "Casque d’armure de combat"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "fEynmIak6yIuBFXW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Combat Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 4,
+        "cost": 25,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Combat Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron d’armure de combat"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "9Joxg8p3lwcIDyYn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Combat Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 8,
+        "cost": 60,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Combat Left Arm",
+      "localizedNames": {
+        "fr": "Brassard d’armure de combat (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "CiIPyniHdWUcmTWD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Combat Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 2,
+        "cost": 25,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Combat Right Arm",
+      "localizedNames": {
+        "fr": "Brassard d’armure de combat (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "Nss40H02BrRolRLM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Combat Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 2,
+        "cost": 25,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Combat Left Leg",
+      "localizedNames": {
+        "fr": "Jambière d’armure de combat (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "feCOuP7GQkP0kHFW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Combat Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 2,
+        "cost": 25,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Combat Right Leg",
+      "localizedNames": {
+        "fr": "Jambière d’armure de combat (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "crVLXWXaVEkAIOG9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Combat Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 2,
+        "cost": 25,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Combat Helmet",
+      "localizedNames": {
+        "fr": "Casque d’armure de combat solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "kA4GLtGmdIoqMmPP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Combat Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 5,
+        "cost": 105,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Combat Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron d’armure de combat solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "8Try1WliRR1U2s5z",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Combat Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 12,
+        "cost": 140,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Combat Left Arm",
+      "localizedNames": {
+        "fr": "Brassard d’armure de combat solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "FMIxSD1qOjPkn1NB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Combat Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 5,
+        "cost": 105,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Combat Right Arm",
+      "localizedNames": {
+        "fr": "Brassard d’armure de combat solide (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "fqiqy8TsiH2y4ZW4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Combat Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 5,
+        "cost": 105,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Combat Left Leg",
+      "localizedNames": {
+        "fr": "Jambière d’armure de combat solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "KecolhJEc6uRNCDP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Combat Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 5,
+        "cost": 105,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Sturdy Combat Right Leg",
+      "localizedNames": {
+        "fr": "Jambière d’armure de combat solide (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "R5svV8jJwgZSd2So",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Combat Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 5,
+        "cost": 105,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Combat Helmet",
+      "localizedNames": {
+        "fr": "Casque d’armure de combat lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "cWQkvo0MZ17HuKE4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Combat Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 7,
+        "cost": 185,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Combat Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron d’armure de combat lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "JoAG6npPBsUrc4ox",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Combat Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 16,
+        "cost": 220,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Combat Left Arm",
+      "localizedNames": {
+        "fr": "Brassard d’armure de combat lourd (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "AYWFgC8JcoSbQIHK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Combat Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 7,
+        "cost": 145,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Combat Right Arm",
+      "localizedNames": {
+        "fr": "Brassard d’armure de combat lourd (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "xeg9hpAU6eauic3p",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Combat Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 7,
+        "cost": 145,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Combat Left Leg",
+      "localizedNames": {
+        "fr": "Jambière d’armure de combat lourde (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "zkC1k0Z55VIsnYKA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Combat Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 7,
+        "cost": 185,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 131,
+      "type": "apparel",
+      "sourceName": "Heavy Combat Right Leg",
+      "localizedNames": {
+        "fr": "Jambière d’armure de combat lourde (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.131 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "GELhqQk4utDnWXmE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          131
+        ],
+        "fr": [
+          131
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Combat Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 7,
+        "cost": 185,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
       }
     }
   ]

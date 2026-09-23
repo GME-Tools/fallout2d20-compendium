@@ -2505,8 +2505,8 @@ test("Core Clothing and Outfits pp.124-129 are source-complete", async () => {
 
 
 test("Core Armor p.130 Raider and Leather tables are source-complete", async () => {
-  assert.deepEqual(catalog.certifiedThrough.en, { pdfPage: 132, sourcePage: 130 });
-  assert.deepEqual(catalog.certifiedThrough.fr, { pdfPage: 133, sourcePage: 130 });
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 132 && catalog.certifiedThrough.en.sourcePage >= 130);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 133 && catalog.certifiedThrough.fr.sourcePage >= 130);
 
   const expected = new Map([
     ["F15SCdqO8m3rhpkc", { en: "Raider Chest Piece", fr: "Plastron de pillard", table: "Raider Chest Piece", location: "torso", physical: 1, energy: 1, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 18, rarity: 0 }],
@@ -2583,6 +2583,97 @@ test("Core Armor p.130 Raider and Leather tables are source-complete", async () 
       assert.ok(record, `${language}/apparel/${id} later Raider Power Armor identity missing`);
       assert.equal(record.document.system.apparelType, "powerArmor");
       assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 130);
+    }
+  }
+});
+
+
+test("Core Armor p.131 Metal and Combat tables are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 133 && catalog.certifiedThrough.en.sourcePage >= 131);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 134 && catalog.certifiedThrough.fr.sourcePage >= 131);
+
+  const expected = new Map([
+    ["mHzuqe2DaDduUxJs", {"en":"Metal Helmet","fr":"Casque en métal","table":"Metal Helmet","location":"head","physical":2,"energy":1,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":15,"rarity":1}],
+    ["Yq8LSP8WI8hkaeIh", {"en":"Metal Chest Piece","fr":"Plastron en métal","table":"Metal Chest Piece","location":"torso","physical":2,"energy":1,"radiation":0,"enWeight":6,"frWeight":3,"cost":40,"rarity":1}],
+    ["oSfwWZHqhaoBlJlG", {"en":"Metal Left Arm","fr":"Brassard en métal (gauche)","table":"Metal Arm","location":"armL","physical":2,"energy":1,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":15,"rarity":1}],
+    ["1INSoLtiLJ9carIR", {"en":"Metal Right Arm","fr":"Brassard en métal (droit)","table":"Metal Arm","location":"armR","physical":2,"energy":1,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":15,"rarity":1}],
+    ["x9NMj9JoWYEOJdDs", {"en":"Metal Left Leg","fr":"Jambière en métal (gauche)","table":"Metal Leg","location":"legL","physical":2,"energy":1,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":15,"rarity":1}],
+    ["sGXPYqACKtkrBAhx", {"en":"Metal Right Leg","fr":"Jambière en métal (droite)","table":"Metal Leg","location":"legR","physical":2,"energy":1,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":15,"rarity":1}],
+    ["Dz2dC6613RP6KqA9", {"en":"Sturdy Metal Helmet","fr":"Casque en métal solide","table":"Sturdy Metal Helmet","location":"head","physical":3,"energy":2,"radiation":0,"enWeight":8,"frWeight":4,"cost":65,"rarity":2}],
+    ["X1lZVeTRwlll5KDL", {"en":"Sturdy Metal Chest Piece","fr":"Plastron en métal solide","table":"Sturdy Metal Chest Piece","location":"torso","physical":3,"energy":2,"radiation":0,"enWeight":16,"frWeight":8,"cost":115,"rarity":2}],
+    ["7dmvo8Xlhqt5ZrCa", {"en":"Sturdy Metal Left Arm","fr":"Brassard en métal solide (gauche)","table":"Sturdy Metal Arm","location":"armL","physical":3,"energy":2,"radiation":0,"enWeight":8,"frWeight":4,"cost":65,"rarity":2}],
+    ["6sBpDpcwfP4yRDaf", {"en":"Sturdy Metal Right Arm","fr":"Brassard en métal solide (droit)","table":"Sturdy Metal Arm","location":"armR","physical":3,"energy":2,"radiation":0,"enWeight":8,"frWeight":4,"cost":65,"rarity":2}],
+    ["HoENHW1I1IwXWvbr", {"en":"Sturdy Metal Left Leg","fr":"Jambière en métal solide (gauche)","table":"Sturdy Metal Leg","location":"legL","physical":3,"energy":2,"radiation":0,"enWeight":8,"frWeight":4,"cost":65,"rarity":2}],
+    ["qo1Ronb9wh7MnpXI", {"en":"Sturdy Metal Right Leg","fr":"Jambière en métal solide (droite)","table":"Sturdy Metal Leg","location":"legR","physical":3,"energy":2,"radiation":0,"enWeight":8,"frWeight":4,"cost":65,"rarity":2}],
+    ["QqkYk9XZKuzQvFFb", {"en":"Heavy Metal Helmet","fr":"Casque en métal lourd","table":"Heavy Metal Helmet","location":"head","physical":4,"energy":3,"radiation":0,"enWeight":12,"frWeight":6,"cost":115,"rarity":3}],
+    ["DacGyxZmdShxIBTi", {"en":"Heavy Metal Chest Piece","fr":"Plastron en métal lourd","table":"Heavy Metal Chest Piece","location":"torso","physical":4,"energy":3,"radiation":0,"enWeight":23,"frWeight":11.5,"cost":190,"rarity":3}],
+    ["Ece0BCI67om6qF2y", {"en":"Heavy Metal Left Arm","fr":"Brassard en métal lourd (gauche)","table":"Heavy Metal Arm","location":"armL","physical":4,"energy":3,"radiation":0,"enWeight":12,"frWeight":6,"cost":115,"rarity":3}],
+    ["gyQbcEzyP00f1OZt", {"en":"Heavy Metal Right Arm","fr":"Brassard en métal lourd (droit)","table":"Heavy Metal Arm","location":"armR","physical":4,"energy":3,"radiation":0,"enWeight":12,"frWeight":6,"cost":115,"rarity":3}],
+    ["MoUxwJnXAhE0g8Vx", {"en":"Heavy Metal Left Leg","fr":"Jambière en métal lourde (gauche)","table":"Heavy Metal Leg","location":"legL","physical":4,"energy":3,"radiation":0,"enWeight":12,"frWeight":6,"cost":115,"rarity":3}],
+    ["MPPkcoTlL9Ccu92E", {"en":"Heavy Metal Right Leg","fr":"Jambière en métal lourde (droite)","table":"Heavy Metal Leg","location":"legR","physical":4,"energy":3,"radiation":0,"enWeight":12,"frWeight":6,"cost":115,"rarity":3}],
+    ["fEynmIak6yIuBFXW", {"en":"Combat Helmet","fr":"Casque d’armure de combat","table":"Combat Helmet","location":"head","physical":2,"energy":2,"radiation":0,"enWeight":4,"frWeight":2,"cost":25,"rarity":2}],
+    ["9Joxg8p3lwcIDyYn", {"en":"Combat Chest Piece","fr":"Plastron d’armure de combat","table":"Combat Chest Piece","location":"torso","physical":2,"energy":2,"radiation":0,"enWeight":8,"frWeight":4,"cost":60,"rarity":2}],
+    ["CiIPyniHdWUcmTWD", {"en":"Combat Left Arm","fr":"Brassard d’armure de combat (gauche)","table":"Combat Arm","location":"armL","physical":2,"energy":2,"radiation":0,"enWeight":2,"frWeight":1,"cost":25,"rarity":2}],
+    ["Nss40H02BrRolRLM", {"en":"Combat Right Arm","fr":"Brassard d’armure de combat (droit)","table":"Combat Arm","location":"armR","physical":2,"energy":2,"radiation":0,"enWeight":2,"frWeight":1,"cost":25,"rarity":2}],
+    ["feCOuP7GQkP0kHFW", {"en":"Combat Left Leg","fr":"Jambière d’armure de combat (gauche)","table":"Combat Leg","location":"legL","physical":2,"energy":2,"radiation":0,"enWeight":2,"frWeight":1,"cost":25,"rarity":2}],
+    ["crVLXWXaVEkAIOG9", {"en":"Combat Right Leg","fr":"Jambière d’armure de combat (droite)","table":"Combat Leg","location":"legR","physical":2,"energy":2,"radiation":0,"enWeight":2,"frWeight":1,"cost":25,"rarity":2}],
+    ["kA4GLtGmdIoqMmPP", {"en":"Sturdy Combat Helmet","fr":"Casque d’armure de combat solide","table":"Sturdy Combat Helmet","location":"head","physical":3,"energy":3,"radiation":0,"enWeight":5,"frWeight":2.5,"cost":105,"rarity":3}],
+    ["8Try1WliRR1U2s5z", {"en":"Sturdy Combat Chest Piece","fr":"Plastron d’armure de combat solide","table":"Sturdy Combat Chest Piece","location":"torso","physical":3,"energy":3,"radiation":0,"enWeight":12,"frWeight":6,"cost":140,"rarity":3}],
+    ["FMIxSD1qOjPkn1NB", {"en":"Sturdy Combat Left Arm","fr":"Brassard d’armure de combat solide (gauche)","table":"Sturdy Combat Arm","location":"armL","physical":3,"energy":3,"radiation":0,"enWeight":5,"frWeight":2.5,"cost":105,"rarity":3}],
+    ["fqiqy8TsiH2y4ZW4", {"en":"Sturdy Combat Right Arm","fr":"Brassard d’armure de combat solide (droit)","table":"Sturdy Combat Arm","location":"armR","physical":3,"energy":3,"radiation":0,"enWeight":5,"frWeight":2.5,"cost":105,"rarity":3}],
+    ["KecolhJEc6uRNCDP", {"en":"Sturdy Combat Left Leg","fr":"Jambière d’armure de combat solide (gauche)","table":"Sturdy Combat Leg","location":"legL","physical":3,"energy":3,"radiation":0,"enWeight":5,"frWeight":2.5,"cost":105,"rarity":3}],
+    ["R5svV8jJwgZSd2So", {"en":"Sturdy Combat Right Leg","fr":"Jambière d’armure de combat solide (droite)","table":"Sturdy Combat Leg","location":"legR","physical":3,"energy":3,"radiation":0,"enWeight":5,"frWeight":2.5,"cost":105,"rarity":3}],
+    ["cWQkvo0MZ17HuKE4", {"en":"Heavy Combat Helmet","fr":"Casque d’armure de combat lourd","table":"Heavy Combat Helmet","location":"head","physical":4,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":185,"rarity":4}],
+    ["JoAG6npPBsUrc4ox", {"en":"Heavy Combat Chest Piece","fr":"Plastron d’armure de combat lourd","table":"Heavy Combat Chest Piece","location":"torso","physical":4,"energy":4,"radiation":0,"enWeight":16,"frWeight":8,"cost":220,"rarity":4}],
+    ["AYWFgC8JcoSbQIHK", {"en":"Heavy Combat Left Arm","fr":"Brassard d’armure de combat lourd (gauche)","table":"Heavy Combat Arm","location":"armL","physical":4,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":145,"rarity":4}],
+    ["xeg9hpAU6eauic3p", {"en":"Heavy Combat Right Arm","fr":"Brassard d’armure de combat lourd (droit)","table":"Heavy Combat Arm","location":"armR","physical":4,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":145,"rarity":4}],
+    ["zkC1k0Z55VIsnYKA", {"en":"Heavy Combat Left Leg","fr":"Jambière d’armure de combat lourde (gauche)","table":"Heavy Combat Leg","location":"legL","physical":4,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":185,"rarity":4}],
+    ["GELhqQk4utDnWXmE", {"en":"Heavy Combat Right Leg","fr":"Jambière d’armure de combat lourde (droite)","table":"Heavy Combat Leg","location":"legR","physical":4,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":185,"rarity":4}]
+  ]);
+
+  const tables = catalog.entries.filter(entry => entry.page === 131 && entry.type === "table" && entry.status === "out_of_scope");
+  assert.deepEqual(tables.map(entry => entry.sourceName).sort(), ["Combat Armor", "Metal Armor"]);
+
+  const p131 = catalog.entries.filter(entry => entry.page === 131 && entry.scope === "in_scope" && entry.pack === "apparel");
+  assert.equal(p131.length, expected.size);
+  assert.deepEqual(new Set(p131.map(entry => entry.documentId)), new Set(expected.keys()));
+  for (const entry of p131) {
+    const spec = expected.get(entry.documentId);
+    assert.equal(entry.sourceName, spec.en);
+    assert.equal(entry.localizedNames.fr, spec.fr);
+    assert.equal(entry.certification.sourceTableName, spec.table);
+    assert.equal(entry.certification.descriptionReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+  }
+
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "apparel");
+    for (const [id, spec] of expected) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/apparel/${id} missing`);
+      const { document } = record;
+      const source = document.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 131, `${language}/apparel/${id} source page`);
+      assert.equal(source?.errataReviewed, true, `${language}/apparel/${id} errata review`);
+      assert.equal(document.name, spec[language], `${language}/apparel/${id} name`);
+      assert.equal(document.system.apparelType, "armor", `${language}/apparel/${id} apparel type`);
+      assert.deepEqual(document.system.resistance, { energy: spec.energy, physical: spec.physical, radiation: spec.radiation }, `${language}/apparel/${id} resistances`);
+      assert.equal(document.system.weight, language === "en" ? spec.enWeight : spec.frWeight, `${language}/apparel/${id} weight`);
+      assert.equal(document.system.cost, spec.cost, `${language}/apparel/${id} cost`);
+      assert.equal(document.system.rarity, spec.rarity, `${language}/apparel/${id} rarity`);
+      for (const location of ["armL", "armR", "head", "legL", "legR", "torso"]) {
+        assert.equal(document.system.location[location], location === spec.location, `${language}/apparel/${id} location ${location}`);
+      }
+    }
+  }
+
+  const aggregateIds = new Set(["gqnFXfaRTRmuiUKr", "Uc0qmDLuWKDmnR4O", "8EDm7MYx0I9F1MR7", "uQyolHk8smMTNe0H", "jDM5n3gg5yoS2dx3", "Qefc7PpsmKmkFs0r"]);
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "apparel");
+    for (const id of aggregateIds) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/apparel/${id} aggregate armor identity missing`);
+      assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 131);
     }
   }
 });
