@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 120,
-      "sourcePage": 118
+      "pdfPage": 125,
+      "sourcePage": 123
     },
     "fr": {
-      "pdfPage": 121,
-      "sourcePage": 118
+      "pdfPage": 126,
+      "sourcePage": 123
     }
   },
   "pageReviews": [
@@ -1941,6 +1941,86 @@
       "language": "fr",
       "pdfPage": 121,
       "sourcePage": 118,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 121,
+      "sourcePage": 119,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 122,
+      "sourcePage": 120,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 123,
+      "sourcePage": 121,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 122,
+      "sourcePage": 119,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 123,
+      "sourcePage": 120,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 124,
+      "sourcePage": 121,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 124,
+      "sourcePage": 122,
+      "section": "Chapter Four — Equipment",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 125,
+      "sourcePage": 123,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 125,
+      "sourcePage": 122,
+      "section": "Chapter Four — Équipement",
+      "disposition": "no_in_scope_content",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 126,
+      "sourcePage": 123,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -17043,6 +17123,948 @@
       "pack": null,
       "documentId": null,
       "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "weapon_mod",
+      "sourceName": "Puncturing",
+      "localizedNames": {
+        "fr": "Perforant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Fist mod defined by the Core p.119 table.",
+      "pack": "weapon-mods",
+      "documentId": "LANB6wzhO8pIEsxK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          119
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRatingModifier": 2,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "weightLb": 1,
+        "cost": 45,
+        "perks": [
+          "Blacksmith 2"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "weapon_mod",
+      "sourceName": "Heating Coil",
+      "localizedNames": {
+        "fr": "Bobine thermique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Fist mod defined by the Core p.119 table.",
+      "pack": "weapon-mods",
+      "documentId": "MvrQv0wg5FE6j7TR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          119
+        ],
+        "fr": [
+          118
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "damageRatingModifier": 2,
+        "damageTypeOverride": "energy",
+        "weightLb": 0,
+        "cost": 100,
+        "perks": [
+          "Blacksmith 3"
+        ],
+        "installSkill": "Repair",
+        "weaponFamily": "meleeWeapons"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "weapon",
+      "sourceName": "Throwing Knives",
+      "localizedNames": {
+        "fr": "Couteaux de lancer"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable throwing weapon Item defined by the Core p.119 table.",
+      "pack": "weapons",
+      "documentId": "61inErKDohHmHoAV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          119
+        ],
+        "fr": [
+          119
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 3,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "concealed",
+          "suppressed",
+          "thrown"
+        ],
+        "weightLb": 0.5,
+        "cost": 10,
+        "rarity": 1,
+        "range": "C"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "weapon",
+      "sourceName": "Tomahawk",
+      "localizedNames": {
+        "fr": "Tomahawk"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable throwing weapon Item defined by the Core p.119 table.",
+      "pack": "weapons",
+      "documentId": "pYMfuytsOCR3mxW8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          119
+        ],
+        "fr": [
+          119
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "suppressed",
+          "thrown"
+        ],
+        "weightLb": 0.5,
+        "cost": 15,
+        "rarity": 2,
+        "range": "C"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "weapon",
+      "sourceName": "Javelin",
+      "localizedNames": {
+        "fr": "Javelot"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable throwing weapon Item defined by the Core p.119 table.",
+      "pack": "weapons",
+      "documentId": "iodz4xm3QDXNuhxf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          119
+        ],
+        "fr": [
+          119
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "piercing_x"
+        ],
+        "damageType": "physical",
+        "qualities": [
+          "suppressed",
+          "thrown"
+        ],
+        "weightLb": 4,
+        "cost": 10,
+        "rarity": 1,
+        "range": "M"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Baseball Grenade",
+      "localizedNames": {
+        "fr": "Grenade ronde"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "vXTMQj76ShuwQXkd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120
+        ],
+        "fr": [
+          119
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 5,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "blast",
+          "thrown"
+        ],
+        "weightLb": 1,
+        "cost": 40,
+        "rarity": 1,
+        "range": "M"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Frag Grenade",
+      "localizedNames": {
+        "fr": "Grenade à fragmentation"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "3CZ7jbXV7I5z757E",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120
+        ],
+        "fr": [
+          120
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "blast",
+          "thrown"
+        ],
+        "weightLb": 0.5,
+        "cost": 50,
+        "rarity": 2,
+        "range": "M"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Molotov Cocktail",
+      "localizedNames": {
+        "fr": "Cocktail Molotov"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "NXjKSH1aRmZkq5PJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          119,
+          120
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 4,
+        "damageEffects": [
+          "persistent"
+        ],
+        "damageType": "energy",
+        "qualities": [
+          "blast",
+          "thrown"
+        ],
+        "weightLb": 1,
+        "cost": 20,
+        "rarity": 1,
+        "range": "M"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Nuka Grenade",
+      "localizedNames": {
+        "fr": "Grenade Nuka"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "As1o8LGO3CIaY2mD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          119,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 9,
+        "damageEffects": [
+          "breaking",
+          "radioactive",
+          "vicious"
+        ],
+        "damageType": "energy",
+        "qualities": [
+          "blast",
+          "thrown"
+        ],
+        "weightLb": 1,
+        "cost": 100,
+        "rarity": 4,
+        "range": "M",
+        "errata": "Errata V6 confirms the damage effect is Breaking."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Plasma Grenade",
+      "localizedNames": {
+        "fr": "Grenade à plasma"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "tedK8NNLvjIQf4wm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          119,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 9,
+        "damageEffects": [],
+        "damageType": [
+          "physical",
+          "energy"
+        ],
+        "qualities": [
+          "blast",
+          "thrown"
+        ],
+        "weightLb": 0.5,
+        "cost": 135,
+        "rarity": 3,
+        "range": "M"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Pulse Grenade",
+      "localizedNames": {
+        "fr": "Grenade à impulsion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "LCUp8GGg6nyJ8wa9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          119,
+          120
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [
+          "stun"
+        ],
+        "damageType": "energy",
+        "qualities": [
+          "blast",
+          "thrown"
+        ],
+        "weightLb": 0.5,
+        "cost": 100,
+        "rarity": 3,
+        "range": "M"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Bottlecap Mine",
+      "localizedNames": {
+        "fr": "Mine à capsules"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "4YCB81rMWJSZcgRI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          120,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "blast",
+          "mine"
+        ],
+        "weightLb": 1,
+        "cost": 75,
+        "rarity": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Frag Mine",
+      "localizedNames": {
+        "fr": "Mine à fragmentation"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "Ai4EeSDZl48zoJoL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          120,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [],
+        "damageType": "physical",
+        "qualities": [
+          "blast",
+          "mine"
+        ],
+        "weightLb": 1,
+        "cost": 50,
+        "rarity": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Nuke Mine",
+      "localizedNames": {
+        "fr": "Mine nucléaire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "9wxUVAnr3YsD3Uol",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          120,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 9,
+        "damageEffects": [
+          "breaking",
+          "radioactive",
+          "vicious"
+        ],
+        "damageType": "energy",
+        "qualities": [
+          "blast",
+          "mine"
+        ],
+        "weightLb": 1,
+        "cost": 100,
+        "rarity": 4,
+        "errata": "Errata V6 replaces the printed Thrown (M) quality with Mine. Errata V6 confirms the damage effect is Breaking."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Plasma Mine",
+      "localizedNames": {
+        "fr": "Mine à plasma"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "AjqE0fT244w92onq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          120,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 9,
+        "damageEffects": [],
+        "damageType": [
+          "physical",
+          "energy"
+        ],
+        "qualities": [
+          "blast",
+          "mine"
+        ],
+        "weightLb": 0.5,
+        "cost": 135,
+        "rarity": 3,
+        "errata": "Errata V6 replaces the printed Thrown (M) quality with Mine."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "weapon",
+      "sourceName": "Pulse Mine",
+      "localizedNames": {
+        "fr": "Mine à impulsion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable explosive weapon Item defined by the Core p.120 table and detailed profiles on pp.120–121.",
+      "pack": "weapons",
+      "documentId": "eILamwepNIAhOY0J",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          120,
+          121
+        ],
+        "fr": [
+          120,
+          121
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "damageRating": 6,
+        "damageEffects": [
+          "stun"
+        ],
+        "damageType": "energy",
+        "qualities": [
+          "blast",
+          "mine"
+        ],
+        "weightLb": 0.5,
+        "cost": 100,
+        "rarity": 3,
+        "localizationNote": "The official FR p.120 table misprints the Pulse Mine with the Plasma Mine profile (9 CD, no Stun, Thrown (M), cost 135); canonical EN + Errata retains 6 CD, Stun, Mine, cost 100.",
+        "errata": "Errata V6 replaces the printed Thrown (M) quality with Mine."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "rule_text",
+      "sourceName": "Throwing Weapons Complications",
+      "localizedNames": {
+        "fr": "Complications des projectiles"
+      },
+      "scope": "out_of_scope",
+      "justification": "General complication guidance; concrete reusable throwing weapons are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          119
+        ],
+        "fr": [
+          119
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "rule_text",
+      "sourceName": "Explosives Complications",
+      "localizedNames": {
+        "fr": "Complications des explosifs"
+      },
+      "scope": "out_of_scope",
+      "justification": "General complication guidance; concrete reusable explosives are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          120
+        ],
+        "fr": [
+          120
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 119,
+      "type": "rules_or_profile_section",
+      "sourceName": "Power Fist and Throwing Weapon profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 120,
+      "type": "rules_or_profile_section",
+      "sourceName": "Explosive weapon profiles",
+      "scope": "out_of_scope",
+      "justification": "Descriptive source sections on pp.120–121 represented by their weapon Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope"
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 122,
+      "type": "rule_text",
+      "sourceName": "Apparel, Clothing, Outfits, Armor Pieces and Headgear",
+      "localizedNames": {
+        "fr": "Habillement, Vêtements, Tenues, Pièces d’armure et Couvre-chefs"
+      },
+      "scope": "out_of_scope",
+      "justification": "General apparel layering, coverage and equipment rules; reusable apparel Items are certified from their source tables.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          122
+        ],
+        "fr": [
+          122
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 122,
+      "type": "rule_text",
+      "sourceName": "Armor for Super Mutants and Robots",
+      "localizedNames": {
+        "fr": "Armure de super mutant et armure de robot"
+      },
+      "scope": "out_of_scope",
+      "justification": "General species-specific armor guidance; concrete armor and robot upgrades are certified where their profiles are defined.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          122
+        ],
+        "fr": [
+          122
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 123,
+      "type": "rule_text",
+      "sourceName": "Power Armor overview",
+      "localizedNames": {
+        "fr": "Armure assistée"
+      },
+      "scope": "out_of_scope",
+      "justification": "General overview pointing to the later Power Armor rules and profiles.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          123
+        ],
+        "fr": [
+          123
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 123,
+      "type": "rule_text",
+      "sourceName": "Robot Armor overview",
+      "localizedNames": {
+        "fr": "Armure de robot"
+      },
+      "scope": "out_of_scope",
+      "justification": "General overview pointing to the later robot armor rules and profiles.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          123
+        ],
+        "fr": [
+          123
+        ]
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 123,
+      "type": "apparel",
+      "sourceName": "Dog Helmet",
+      "localizedNames": {
+        "fr": "Casque de chien"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable canine armor Item defined by the Core p.123 Dog Armor table.",
+      "pack": "apparel",
+      "documentId": "C5I8RYOlLIq7prve",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          123
+        ],
+        "fr": [
+          123
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 1,
+        "cost": 7,
+        "rarity": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 123,
+      "type": "apparel",
+      "sourceName": "Light Dog Armor",
+      "localizedNames": {
+        "fr": "Armure de chien légère"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable canine armor Item defined by the Core p.123 Dog Armor table.",
+      "pack": "apparel",
+      "documentId": "OXTYwe4rWp0n9xVC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          123
+        ],
+        "fr": [
+          123
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso",
+          "legs"
+        ],
+        "weightLb": 1,
+        "cost": 10,
+        "rarity": 1
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 123,
+      "type": "apparel",
+      "sourceName": "Medium Dog Armor",
+      "localizedNames": {
+        "fr": "Armure de chien moyenne"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable canine armor Item defined by the Core p.123 Dog Armor table.",
+      "pack": "apparel",
+      "documentId": "2RZM0aGaGT2bYY0l",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          123
+        ],
+        "fr": [
+          123
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso",
+          "legs"
+        ],
+        "weightLb": 2,
+        "cost": 15,
+        "rarity": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 123,
+      "type": "apparel",
+      "sourceName": "Heavy Dog Armor",
+      "localizedNames": {
+        "fr": "Armure de chien lourde"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable canine armor Item defined by the Core p.123 Dog Armor table.",
+      "pack": "apparel",
+      "documentId": "uK2iQe7F74HQwsNs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          123
+        ],
+        "fr": [
+          123
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso",
+          "legs"
+        ],
+        "weightLb": 2,
+        "cost": 20,
+        "rarity": 3
+      }
     }
   ]
 }

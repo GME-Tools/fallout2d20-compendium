@@ -7,7 +7,7 @@
   "system": {
     "attachable": true,
     "attached": false,
-    "cost": 180,
+    "cost": 100,
     "favorite": false,
     "modEffects": {
       "ammo": "",
@@ -66,7 +66,7 @@
           "radiation": false
         },
         "overrideDamage": "modify",
-        "rating": 1,
+        "rating": 2,
         "weaponQuality": {
           "accurate": {
             "rank": 0,
@@ -205,29 +205,30 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-owner-mod-icon",
-        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods.",
+        "page": 119
       },
       "weaponModRecipes": [
         {
-          "key": "meleeWeapons/super-sledge/Heating Coil",
+          "key": "meleeWeapons/power-fist/Heating Coil",
           "source": "core_rulebook",
           "page": 225,
           "station": "weapons",
           "family": "meleeWeapons",
-          "group": "super-sledge",
-          "complexity": 3,
+          "group": "power-fist",
+          "complexity": 4,
           "perks": [
             null
           ],
           "rarity": "uncommon",
           "materials": {
-            "common": 4,
-            "uncommon": 2,
+            "common": 5,
+            "uncommon": 3,
             "rare": 0
           },
           "resolution": "exact-id",

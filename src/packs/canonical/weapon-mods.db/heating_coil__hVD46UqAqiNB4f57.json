@@ -215,20 +215,20 @@
       },
       "weaponModRecipes": [
         {
-          "key": "meleeWeapons/power-fist/Heating Coil",
+          "key": "meleeWeapons/super-sledge/Heating Coil",
           "source": "core_rulebook",
           "page": 225,
           "station": "weapons",
           "family": "meleeWeapons",
-          "group": "power-fist",
-          "complexity": 4,
+          "group": "super-sledge",
+          "complexity": 3,
           "perks": [
             null
           ],
           "rarity": "uncommon",
           "materials": {
-            "common": 5,
-            "uncommon": 3,
+            "common": 4,
+            "uncommon": 2,
             "rare": 0
           },
           "resolution": "exact-id",

@@ -1574,3 +1574,116 @@ test("Core Melee Weapons pp.111-118 are source-complete and retain source correc
   assert.equal(byLanguage.fr.get("weapon-mods/t2DeDQRZXpZyN9ux").system.perks, "Forgeron 2; Scientifique 1");
   assert.equal(catalog.entries.some(e => ["LANB6wzhO8pIEsxK", "MvrQv0wg5FE6j7TR"].includes(e.documentId) && e.page <= 118), false);
 });
+
+test("Core Power Fist mods, Throwing Weapons and Explosives pp.119-121 are source-complete", async () => {
+  const powerFistMods = catalog.entries.filter(e => e.page === 119 && e.pack === "weapon-mods" && e.status === "verified");
+  const throwingWeapons = catalog.entries.filter(e => e.page === 119 && e.pack === "weapons" && e.status === "verified");
+  const explosives = catalog.entries.filter(e => e.page === 120 && e.pack === "weapons" && e.status === "verified");
+  assert.equal(powerFistMods.length, 2);
+  assert.equal(throwingWeapons.length, 3);
+  assert.equal(explosives.length, 11);
+
+  const byLanguage = {};
+  for (const language of ["en", "fr"]) {
+    byLanguage[language] = new Map((await generatedDocuments(language)).map(({pack, document}) => [`${pack}/${document._id}`, document]));
+    for (const entry of [...powerFistMods, ...throwingWeapons, ...explosives]) {
+      const document = byLanguage[language].get(`${entry.pack}/${entry.documentId}`);
+      assert.ok(document, `${language}/${entry.documentId} missing`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, `${language}/${entry.documentId} errata review`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, entry.page, `${language}/${entry.documentId} provenance`);
+    }
+  }
+
+  const puncturing = byLanguage.en.get("weapon-mods/LANB6wzhO8pIEsxK");
+  assert.equal(puncturing.system.cost, 45);
+  assert.equal(puncturing.system.weight, 1);
+  assert.equal(puncturing.system.perks, "Blacksmith 2");
+  assert.equal(puncturing.system.modEffects.damage.rating, 2);
+  assert.equal(puncturing.system.modEffects.damage.damageEffect.piercing_x.value, 1);
+  const powerHeating = byLanguage.en.get("weapon-mods/MvrQv0wg5FE6j7TR");
+  assert.equal(powerHeating.system.cost, 100);
+  assert.equal(powerHeating.system.perks, "Blacksmith 3");
+  assert.equal(powerHeating.system.modEffects.damage.rating, 2);
+  assert.equal(powerHeating.system.modEffects.damage.damageType.energy, true);
+  assert.equal(powerHeating.flags["fallout2d20-compendium"].weaponModRecipes[0].group, "power-fist");
+  const superSledgeHeating = byLanguage.en.get("weapon-mods/hVD46UqAqiNB4f57");
+  assert.equal(superSledgeHeating.system.cost, 180);
+  assert.equal(superSledgeHeating.system.perks, "Blacksmith 2");
+  assert.equal(superSledgeHeating.flags["fallout2d20-compendium"].weaponModRecipes[0].group, "super-sledge");
+  assert.equal(byLanguage.fr.get("weapon-mods/MvrQv0wg5FE6j7TR").system.perks, "Forgeron 3");
+
+  const expected = new Map([
+    ["61inErKDohHmHoAV", [3, 0.5, 10, 1]], ["pYMfuytsOCR3mxW8", [4, 0.5, 15, 2]],
+    ["iodz4xm3QDXNuhxf", [4, 4, 10, 1]], ["vXTMQj76ShuwQXkd", [5, 1, 40, 1]],
+    ["3CZ7jbXV7I5z757E", [6, 0.5, 50, 2]], ["NXjKSH1aRmZkq5PJ", [4, 1, 20, 1]],
+    ["As1o8LGO3CIaY2mD", [9, 1, 100, 4]], ["tedK8NNLvjIQf4wm", [9, 0.5, 135, 3]],
+    ["LCUp8GGg6nyJ8wa9", [6, 0.5, 100, 3]], ["4YCB81rMWJSZcgRI", [6, 1, 75, 2]],
+    ["Ai4EeSDZl48zoJoL", [6, 1, 50, 2]], ["9wxUVAnr3YsD3Uol", [9, 1, 100, 4]],
+    ["AjqE0fT244w92onq", [9, 0.5, 135, 3]], ["eILamwepNIAhOY0J", [6, 0.5, 100, 3]]
+  ]);
+  for (const [id, [damage, weight, cost, rarity]] of expected) {
+    const en = byLanguage.en.get(`weapons/${id}`);
+    const fr = byLanguage.fr.get(`weapons/${id}`);
+    assert.equal(en.system.damage.rating, damage, id);
+    assert.equal(en.system.weight, weight, id);
+    assert.equal(fr.system.weight, weight / 2, `${id} FR weight`);
+    assert.equal(en.system.cost, cost, id);
+    assert.equal(en.system.rarity, rarity, id);
+  }
+  for (const id of ["9wxUVAnr3YsD3Uol", "AjqE0fT244w92onq", "eILamwepNIAhOY0J"]) {
+    const weapon = byLanguage.en.get(`weapons/${id}`);
+    assert.equal(weapon.system.damage.weaponQuality.mine.value, 1, `${id} Mine errata`);
+    assert.equal(weapon.system.damage.weaponQuality.thrown.value, 0, `${id} no Thrown errata`);
+  }
+  assert.equal(byLanguage.en.get("weapons/As1o8LGO3CIaY2mD").system.damage.damageEffect.breaking.value, 1);
+  assert.equal(byLanguage.en.get("weapons/9wxUVAnr3YsD3Uol").system.damage.damageEffect.breaking.value, 1);
+  const pulseMine = byLanguage.en.get("weapons/eILamwepNIAhOY0J");
+  assert.equal(pulseMine.system.damage.rating, 6);
+  assert.equal(pulseMine.system.damage.damageEffect.stun.value, 1);
+  assert.equal(pulseMine.system.cost, 100);
+});
+
+test("Core Apparel overview and Dog Armor pp.122-123 are source-complete", async () => {
+  const dogArmor = catalog.entries.filter(e => e.page === 123 && e.pack === "apparel" && e.status === "verified");
+  assert.equal(dogArmor.length, 4);
+  const expected = new Map([
+    ["C5I8RYOlLIq7prve", { resistance: [2, 1, 0], weight: 1, cost: 7, rarity: 2, head: true }],
+    ["OXTYwe4rWp0n9xVC", { resistance: [1, 1, 0], weight: 1, cost: 10, rarity: 1 }],
+    ["2RZM0aGaGT2bYY0l", { resistance: [2, 2, 0], weight: 2, cost: 15, rarity: 2 }],
+    ["uK2iQe7F74HQwsNs", { resistance: [3, 3, 0], weight: 2, cost: 20, rarity: 3 }]
+  ]);
+  for (const language of ["en", "fr"]) {
+    const records = new Map((await generatedDocuments(language))
+      .filter(({pack}) => pack === "apparel")
+      .map(({document}) => [document._id, document]));
+    for (const entry of dogArmor) {
+      const document = records.get(entry.documentId);
+      const spec = expected.get(entry.documentId);
+      assert.ok(document, `${language}/${entry.documentId} missing`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, 123);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.deepEqual(
+        [document.system.resistance.physical, document.system.resistance.energy, document.system.resistance.radiation],
+        spec.resistance
+      );
+      assert.equal(document.system.weight, language === "en" ? spec.weight : spec.weight / 2);
+      assert.equal(document.system.cost, spec.cost);
+      assert.equal(document.system.rarity, spec.rarity);
+      assert.match(document.system.description, language === "en" ? /may obtain the following types of armor/ : /peut obtenir les types d’armures suivants/);
+      if (spec.head) {
+        assert.equal(document.system.location.head, true);
+        assert.equal(document.system.location.torso, false);
+      } else {
+        assert.equal(document.system.location.head, false);
+        assert.equal(document.system.location.torso, true);
+        // A quadruped's source “Legs” coverage maps to both front and rear limb slots.
+        assert.equal(document.system.location.armL, true);
+        assert.equal(document.system.location.armR, true);
+        assert.equal(document.system.location.legL, true);
+        assert.equal(document.system.location.legR, true);
+      }
+    }
+  }
+  const overview = catalog.entries.filter(e => e.scope === "out_of_scope" && e.page >= 122 && e.page <= 123);
+  assert.equal(overview.length, 4);
+});

@@ -3,13 +3,13 @@
   "_file": "grenade_nuka__As1o8LGO3CIaY2mD.json",
   "values": {
     "/system/description": "<p>Une minuscule arme nucléaire tactique portative. Utiliser une grenade Nuka est extrêmement dangereux (faites très, très attention à ne pas la faire tomber), mais elle est d’une efficacité dévastatrice, comparable à celle d’une mini-bombe nucléaire tirée par le Fat Man.</p>",
-    "/system/weight": 0.25,
+    "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/page": "95-121",
+    "/flags/fallout2d20-compendium/source/page": 120,
     "/flags/fallout2d20-compendium/source/translatedFrom": "As1o8LGO3CIaY2mD",
     "/flags/fallout2d20-compendium/source/extraction": "pdftotext-raw",
-    "/flags/fallout2d20-compendium/source/translationReviewed": false,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/name": "Grenade Nuka"
   }
 }

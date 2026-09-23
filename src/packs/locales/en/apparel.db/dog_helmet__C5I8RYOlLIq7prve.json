@@ -3,9 +3,12 @@
   "_file": "dog_helmet__C5I8RYOlLIq7prve.json",
   "values": {
     "/name": "Dog Helmet",
-    "/system/description": "<p>Characters who have taken the Dogmeat perk (p.63) are accompanied by a trusted canine companion, and they&rsquo;ll probably want to protect Man&rsquo;s Best Friend from the dangers of the wasteland.</p>",
+    "/system/description": "<p>Characters who have taken the Dogmeat perk (p.63) are accompanied by a trusted canine companion, and they&rsquo;ll probably want to protect Man&rsquo;s Best Friend from the dangers of the wasteland. A character with the Dogmeat perk may obtain the following types of armor to protect their dog:</p>",
     "/system/weight": 1,
     "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/page": 123,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
     "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303"
   }

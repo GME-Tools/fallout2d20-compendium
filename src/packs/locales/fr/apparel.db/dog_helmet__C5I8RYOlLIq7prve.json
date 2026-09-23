@@ -3,14 +3,15 @@
   "_file": "casque_pour_chien__C5I8RYOlLIq7prve.json",
   "values": {
     "/name": "Casque de chien",
-    "/system/description": "<p>Les personnages qui ont pris l’aptitude Canigou (voir page 61) sont accompagnés d’un fidèle partenaire canin et ils vont sans doute vouloir protéger le meilleur ami de l’homme contre les dangers des Terres désolées.</p>",
+    "/system/description": "<p>Les personnages qui ont pris l’aptitude Canigou (voir page 61) sont accompagnés d’un fidèle partenaire canin et ils vont sans doute vouloir protéger le meilleur ami de l’homme contre les dangers des Terres désolées. Un personnage possédant l’aptitude Canigou peut obtenir les types d’armures suivants pour protéger son chien :</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/page": 123,
     "/flags/fallout2d20-compendium/source/translatedFrom": "C5I8RYOlLIq7prve",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true
   }
 }

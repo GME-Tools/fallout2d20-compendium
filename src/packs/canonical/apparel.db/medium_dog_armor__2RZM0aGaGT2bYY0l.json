@@ -54,7 +54,8 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
+        "page": 123,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "repository alias for Medium Dog Armor"
