@@ -3578,3 +3578,127 @@ test("Core Power Armor p.140 T-45 family and unique upgrades are source-complete
   }
 });
 
+test("Core Power Armor p.141 T-51 family and unique upgrades are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 143 && catalog.certifiedThrough.en.sourcePage >= 141);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 144 && catalog.certifiedThrough.fr.sourcePage >= 141);
+
+  const t51Ids = new Set(["ZhmOXmBcKKxcPEv8","BeGAdzye5MeP3kUO","X9cMnQidJyiDg29B","g3Y0zWDI9VUNoUWK","VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP"]);
+  const descriptions = {
+    en: "<p>The T-51b was the most advanced Power Armor in wide-scale use before the outbreak of the Great War. First seeing service, and inherently, great success, in the Anchorage Reclamation campaign, the T-51 Power Armor soon became standard issue for the army’s armored infantry regiments. The T-51 was the peak of pre-War Power Armor technology, deployed widely enough that it can still be found centuries later in the wastelands.</p><p>Constructed of a polylaminate composite, the outer shell of T-51 armor is surprisingly lightweight and features an ablative silver alloy coating which refracts and dissipates laser emissions efficiently.</p><p>Each piece of T-51 Power Armor can accept three mods: an upgrade mod, one plating mod, and a system. All Unique T-51 Power Armor Upgrade Mods are installed with the Repair Skill.</p>",
+    fr: "<p>L’armure assistée T-51b était le modèle le plus avancé à être utilisé à grande échelle avant le début de la Grande Guerre. Employée pour la première fois, naturellement avec beaucoup de succès, lors de la Réclamation d’Anchorage, l’armure assistée T-51 devint rapidement l’armure standard pour les régiments d’infanterie lourde de l’armée. La T-51 était l’apogée de la technologie d’armure assistée d’avant-guerre, déployée à une échelle suffisamment vaste pour être encore présente plusieurs siècles plus tard dans les Terres désolées.</p><p>Fabriquée à partir d’un composé de polylaminé, la carapace externe d’une armure T-51 est étonnamment légère et intègre un revêtement ablatif dans un alliage d’argent qui réfracte et dissipe efficacement les émissions laser.</p><p>Chaque pièce d’armure assistée T-51 peut accepter 3 mods : 1 mod d’amélioration, 1 mod de blindage et 1 mod de système. Tous les mods d’amélioration réservés à l’armure assistée T-51 s’installent avec la compétence Réparation.</p>"
+  };
+
+  const specs = {
+    "VL3DtHbWeTyr8Kjb": {en:"T-51b Helm",fr:"Casque T-51b",loc:"Head",p:0,e:0,r:0,hp:1,w:1,c:4,perks:"Armorer 1"},
+    "dZdw4Kj5WZ3Y01Lh": {en:"T-51b Chest Piece",fr:"Plastron T-51b",loc:"Torso",p:1,e:0,r:0,hp:1,w:1,c:9,perks:"Armorer 1"},
+    "YSEXVlKztyVBQ0f4": {en:"T-51b Arm",fr:"Brassard T-51b",loc:"Arm",p:0,e:0,r:0,hp:1,w:1,c:6,perks:"Armorer 1"},
+    "HYslGbiJZcpnqQdh": {en:"T-51b Leg",fr:"Jambière T-51b",loc:"Leg",p:0,e:0,r:0,hp:1,w:1,c:6,perks:"Armorer 1"},
+    "ItcCB3lRheDwUokU": {en:"T-51c Helm",fr:"Casque T-51c",loc:"Head",p:0,e:1,r:0,hp:1,w:1,c:8,perks:"Armorer 2"},
+    "bGnNLaG7QGVNRLmT": {en:"T-51c Chest Piece",fr:"Plastron T-51c",loc:"Torso",p:1,e:1,r:0,hp:3,w:2,c:18,perks:"Armorer 2"},
+    "r1vFai9QqhzIhXiA": {en:"T-51c Arm",fr:"Brassard T-51c",loc:"Arm",p:1,e:1,r:0,hp:1,w:2,c:13,perks:"Armorer 2"},
+    "19b26SvJv3xOMCC4": {en:"T-51c Leg",fr:"Jambière T-51c",loc:"Leg",p:1,e:1,r:0,hp:1,w:2,c:13,perks:"Armorer 2"},
+    "sX2oKETLQ733d01Z": {en:"T-51d Helm",fr:"Casque T-51d",loc:"Head",p:1,e:1,r:0,hp:2,w:2,c:12,perks:"Armorer 2, Science! 1"},
+    "JI5elkyiOp0sq33b": {en:"T-51d Chest Piece",fr:"Plastron T-51d",loc:"Torso",p:1,e:1,r:0,hp:4,w:3,c:27,perks:"Armorer 2, Science! 1"},
+    "WQ9FY8kJaZyYOshD": {en:"T-51d Arm",fr:"Brassard T-51d",loc:"Arm",p:1,e:1,r:0,hp:2,w:2,c:19,perks:"Armorer 2, Science! 1"},
+    "vSd1iRQkY71KJirx": {en:"T-51d Leg",fr:"Jambière T-51d",loc:"Leg",p:1,e:1,r:0,hp:2,w:2,c:19,perks:"Armorer 2, Science! 1"},
+    "owac6l9MM0H8RoLF": {en:"T-51e Helm",fr:"Casque T-51e",loc:"Head",p:1,e:1,r:0,hp:3,w:2,c:16,perks:"Armorer 3, Science! 1"},
+    "RsBNLi8xBR14JKwj": {en:"T-51e Chest Piece",fr:"Plastron T-51e",loc:"Torso",p:2,e:1,r:0,hp:6,w:4,c:36,perks:"Armorer 3, Science! 1"},
+    "EGyC3Cs5bYfGmIbh": {en:"T-51e Arm",fr:"Brassard T-51e",loc:"Arm",p:1,e:2,r:0,hp:3,w:3,c:26,perks:"Armorer 3, Science! 1"},
+    "LBXtsM7QHqmo4gnH": {en:"T-51e Leg",fr:"Jambière T-51e",loc:"Leg",p:1,e:2,r:0,hp:3,w:3,c:26,perks:"Armorer 3, Science! 1"},
+    "i9dDeSF3mXAeJgEZ": {en:"T-51f Helm",fr:"Casque T-51f",loc:"Head",p:1,e:2,r:0,hp:3,w:3,c:20,perks:"Armorer 3, Science! 2"},
+    "5b56DVzDm2X2ueX4": {en:"T-51f Chest Piece",fr:"Plastron T-51f",loc:"Torso",p:2,e:2,r:0,hp:7,w:5,c:45,perks:"Armorer 3, Science! 2"},
+    "i4FIoiiBSSxvToiZ": {en:"T-51f Arm",fr:"Brassard T-51f",loc:"Arm",p:2,e:2,r:0,hp:3,w:4,c:32,perks:"Armorer 3, Science! 2"},
+    "bCszZlE3SxSa2e1G": {en:"T-51f Leg",fr:"Jambière T-51f",loc:"Leg",p:2,e:2,r:0,hp:3,w:4,c:32,perks:"Armorer 3, Science! 2"}
+  };
+
+  const p137T51 = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && t51Ids.has(entry.documentId));
+  assert.equal(p137T51.length, 6);
+  for (const entry of p137T51) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
+    assert.equal(entry.certification.maxMods, 3);
+    assert.equal(entry.certification.upgradeSlots, 1);
+    assert.equal(entry.certification.platingSlots, 1);
+    assert.equal(entry.certification.systemSlots, 1);
+    assert.equal(entry.certification.uniqueUpgradeModsReviewed, true);
+    assert.ok(entry.sourcePages.en.includes(141));
+    assert.ok(entry.sourcePages.fr.includes(141));
+  }
+
+  const rule = catalog.entries.find(entry => entry.page === 141 && entry.type === "rule_text" && entry.sourceName === "T-51 Power Armor");
+  assert.ok(rule);
+  assert.equal(rule.certification.maxMods, 3);
+  assert.equal(rule.certification.upgradeSlots, 1);
+  assert.equal(rule.certification.platingSlots, 1);
+  assert.equal(rule.certification.systemSlots, 1);
+  assert.deepEqual(rule.certification.genericSystemAndPlatingReferencePages, [144,145]);
+
+  const table = catalog.entries.find(entry => entry.page === 141 && entry.type === "table" && entry.sourceName === "Unique T-51 Power Armor Upgrade Mods");
+  assert.ok(table);
+  assert.equal(table.certification.rowCount, 20);
+  assert.match(table.certification.errataNote, /no Core p\.141 T-51 Power Armor correction/);
+
+  const p141Mods = catalog.entries.filter(entry => entry.page === 141 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p141Mods.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p141Mods.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+
+  const upgradeIds = {
+    head: new Set(["VL3DtHbWeTyr8Kjb","ItcCB3lRheDwUokU","sX2oKETLQ733d01Z","owac6l9MM0H8RoLF","i9dDeSF3mXAeJgEZ"]),
+    torso: new Set(["dZdw4Kj5WZ3Y01Lh","bGnNLaG7QGVNRLmT","JI5elkyiOp0sq33b","RsBNLi8xBR14JKwj","5b56DVzDm2X2ueX4"]),
+    arm: new Set(["YSEXVlKztyVBQ0f4","r1vFai9QqhzIhXiA","WQ9FY8kJaZyYOshD","EGyC3Cs5bYfGmIbh","i4FIoiiBSSxvToiZ"]),
+    leg: new Set(["HYslGbiJZcpnqQdh","19b26SvJv3xOMCC4","vSd1iRQkY71KJirx","LBXtsM7QHqmo4gnH","bCszZlE3SxSa2e1G"])
+  };
+  const systemIds = {
+    head: new Set(["2SqnqGHd7D3y4O5E","42Qe82QKBhubp9xU","En57MQ3hn0DkcHJy","zALOB7gLXndAThjj"]),
+    torso: new Set(["908vI94cQ4wdtSaI","Fi4sOOvTpfCKlBVS","Fov5IU0CbgDuZUuO","HdcX4nu2ZKYDf9hG","HlZVuMrkMKwSx0gT","JCala9JIwLsgpDig","dCYE8deU6qI7GARe","gCQROCvacrax9ukk","t2wGFT9GqqzS3Qt9","vuySzeWEI174mwLc"]),
+    arm: new Set(["K63y4mcKxr792XLB","ZsGBPsT9kf1lVrFw","cMFQXRN9ZrDIU23Y","zX0aUfac1HnsEvZO"]),
+    leg: new Set(["JpGZrBzUJTLieuRJ","RrhtyBPhjtENsF6w","pZ2FIyhKvuL7EPT0"])
+  };
+  const platingIds = {
+    generic: new Set(["7iRkK1Elj5iRfANw","8fvlLrbWjODf6BCe","DxewSX1ooPKoNPPs","WKklumSE0xUCXFmc","kGts8ZQ6Lr4bkF9M","mgzavWT1TZT1qdoR"]),
+    torso: new Set(["7IO8gCf1f2bCK4a0","JAN0jzOhkMyI3U1w","faqvoA7iZx90tXnH","hJDcOKYapml78um8","lqvdGQ6axRjBfNoe","vZs57HCeBc9iOVUR"])
+  };
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of t51Ids) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language], language + "/apparel/" + id + " T-51 p.141 description");
+      assert.equal(doc.system.mods.max, 3, language + "/apparel/" + id + " max mods");
+
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      const group = doc.system.location.head ? "head" : doc.system.location.torso ? "torso" : (doc.system.location.armL || doc.system.location.armR) ? "arm" : "leg";
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "upgrade").map(([mid]) => mid)), upgradeIds[group], language + "/apparel/" + id + " T-51 upgrades");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "system").map(([mid]) => mid)), systemIds[group], language + "/apparel/" + id + " systems");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "plating").map(([mid]) => mid)), group === "torso" ? platingIds.torso : platingIds.generic, language + "/apparel/" + id + " plating");
+
+      for (const [mid,value] of embedded.filter(([,value]) => value.system.modType === "upgrade")) {
+        assert.equal(value.system.perks, specs[mid].perks, language + "/apparel/" + id + " embedded " + mid + " perks");
+      }
+    }
+
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 141, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, "upgrade");
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+    }
+  }
+});
+
