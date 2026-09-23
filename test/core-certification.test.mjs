@@ -3245,9 +3245,9 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    const isFrame = entry.documentId === "lp5ZpYjbFhe8IUcx";
-    assert.equal(entry.certification.descriptionReviewed, isFrame);
-    assert.equal(entry.certification.acceptedModsReviewed, isFrame);
+    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN"].includes(entry.documentId);
+    assert.equal(entry.certification.descriptionReviewed, reviewedLater);
+    assert.equal(entry.certification.acceptedModsReviewed, reviewedLater);
     assert.equal(entry.certification.apparelType, "powerArmor");
   }
 
@@ -3345,6 +3345,113 @@ test("Core Power Armor p.138 Armor Frame rules are source-complete", async () =>
     assert.equal(frame.system.mods.modded, false);
     const embedded = Object.entries(frame.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
     assert.equal(embedded.length, 0, language + " Armor Frame must not expose mods");
+  }
+});
+
+test("Core Power Armor p.139 Raider family and unique mods are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 141 && catalog.certifiedThrough.en.sourcePage >= 139);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 142 && catalog.certifiedThrough.fr.sourcePage >= 139);
+
+  const raiderIds = new Set(["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN"]);
+  const descriptions = {
+    en: "<p>Makeshift armor pieces made from scrap metal and salvaged Power Armor parts too damaged to undergo proper repair. Due to the improvised nature of its design, raider Power Armor is relatively weak compared to its fully functional counterparts.</p><p>Each piece of Raider Power Armor can accept two mods: an upgrade mod and a system mod. All Unique Raider Power Upgrade Mods are installed with the Repair Skill.</p><p>Raider Power Armor can make use of all the normal system mods (p.144) except for Tesla Arms, and may also use the following system mod which is installed with the Repair Skill:</p>",
+    fr: "<p>Des pièces d’armure artisanales fabriquées à partir de ferraille et de pièces d’armure assistée récupérées après avoir été jetées par le propriétaire d’origine, car trop endommagées pour être réparées correctement. Comme c’est une amure totalement improvisée avec les moyens du bord, l’armure assistée de pillard est relativement faible par rapport aux armures assistées en bon état.</p><p>Chaque pièce d’armure assistée de pillard peut accepter 2 mods, dont l’un est un mod d’amélioration et l’autre un mod de système. Tous les mods d’amélioration réservés à l’armure assistée de pillard s’installent avec la compétence Réparation.</p><p>L’armure assistée de pillard peut utiliser tous les mods de système normaux (voir page 144) sauf les bracelets Tesla, et peut aussi utiliser le mod de système ci-dessous, lequel s’installe avec la compétence Réparation :</p>"
+  };
+
+  const specs = {
+    "hZZpdrBclyd6MzHk": {en:"Raider II Helm",fr:"Casque Raider II",type:"upgrade",loc:"Head",p:1,e:0,r:0,hp:3,w:1,c:5,perks:"Armorer 1"},
+    "4Oo36CKsvvcXj9o6": {en:"Raider II Chest Piece",fr:"Plastron Raider II",type:"upgrade",loc:"Torso",p:1,e:0,r:0,hp:4,w:2,c:10,perks:"Armorer 1"},
+    "8ctHjfdxTRHeBlXp": {en:"Raider II Arm",fr:"Brassard Raider II",type:"upgrade",loc:"Arm",p:1,e:0,r:0,hp:3,w:2,c:7,perks:"Armorer 1"},
+    "6qONvqbWs9mgnwZ2": {en:"Raider II Leg",fr:"Jambière Raider II",type:"upgrade",loc:"Leg",p:1,e:0,r:0,hp:3,w:2,c:7,perks:"Armorer 1"},
+    "R7MSARmaFbVPiunS": {en:"Welded Rebar",fr:"Barre d’armature soudée",type:"system",loc:"Torso",p:0,e:0,r:0,hp:0,w:2,c:25,perks:"Armorer 1",effectEn:"<p>Enemies who attack you with a melee or unarmed attack and suffer a complication suffer 2 @fos[DC] damage</p>",effectFr:"<p>Les ennemis qui vous portent une attaque de corps à corps ou à mains nues et subissent une complication subissent 2 @fos[DC] de dégâts</p>"}
+  };
+
+  const p137Raiders = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && raiderIds.has(entry.documentId));
+  assert.equal(p137Raiders.length, 6);
+  for (const entry of p137Raiders) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
+    assert.equal(entry.certification.maxMods, 2);
+    assert.equal(entry.certification.upgradeSlots, 1);
+    assert.equal(entry.certification.systemSlots, 1);
+    assert.equal(entry.certification.platingSlots, 0);
+    assert.ok(entry.sourcePages.en.includes(139));
+    assert.ok(entry.sourcePages.fr.includes(139));
+    assert.match(entry.certification.raiderSystemException, /Tesla/);
+  }
+
+  const rule = catalog.entries.find(entry => entry.page === 139 && entry.type === "rule_text" && entry.sourceName === "Raider Power Armor");
+  assert.ok(rule);
+  assert.equal(rule.certification.maxMods, 2);
+  assert.equal(rule.certification.platingSlots, 0);
+  assert.equal(rule.certification.teslaArmsExcluded, true);
+  assert.equal(rule.certification.normalSystemModsReferencePage, 144);
+
+  const p139Tables = catalog.entries.filter(entry => entry.page === 139 && entry.type === "table");
+  assert.deepEqual(p139Tables.map(entry => entry.sourceName).sort(), ["Unique Raider Power Armor System Mod","Unique Raider Power Armor Upgrade Mods"]);
+  assert.equal(p139Tables.find(entry => entry.sourceName === "Unique Raider Power Armor Upgrade Mods").certification.rowCount, 4);
+  assert.equal(p139Tables.find(entry => entry.sourceName === "Unique Raider Power Armor System Mod").certification.rowCount, 1);
+
+  const p139Mods = catalog.entries.filter(entry => entry.page === 139 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p139Mods.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p139Mods.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+
+  const allowedSystems = {
+    head: new Set(["2SqnqGHd7D3y4O5E","42Qe82QKBhubp9xU","En57MQ3hn0DkcHJy","zALOB7gLXndAThjj"]),
+    torso: new Set(["908vI94cQ4wdtSaI","Fi4sOOvTpfCKlBVS","Fov5IU0CbgDuZUuO","HdcX4nu2ZKYDf9hG","HlZVuMrkMKwSx0gT","JCala9JIwLsgpDig","R7MSARmaFbVPiunS","dCYE8deU6qI7GARe","gCQROCvacrax9ukk","t2wGFT9GqqzS3Qt9","vuySzeWEI174mwLc"]),
+    arm: new Set(["ZsGBPsT9kf1lVrFw","cMFQXRN9ZrDIU23Y","zX0aUfac1HnsEvZO"]),
+    leg: new Set(["JpGZrBzUJTLieuRJ","RrhtyBPhjtENsF6w","pZ2FIyhKvuL7EPT0"])
+  };
+  const expectedUpgrade = {
+    head:"hZZpdrBclyd6MzHk",
+    torso:"4Oo36CKsvvcXj9o6",
+    arm:"8ctHjfdxTRHeBlXp",
+    leg:"6qONvqbWs9mgnwZ2"
+  };
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of raiderIds) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language], language + "/apparel/" + id + " Raider p.139 description");
+      assert.equal(doc.system.mods.max, 2, language + "/apparel/" + id + " max mods");
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      assert.equal(embedded.filter(([,value]) => value.system.modType === "plating").length, 0, language + "/apparel/" + id + " must not accept plating");
+      assert.ok(!embedded.some(([,value]) => value.name === "Tesla Bracers" || value.name === "Bracelets Tesla"), language + "/apparel/" + id + " must exclude Tesla Arms/Bracers");
+
+      const group = doc.system.location.head ? "head" : doc.system.location.torso ? "torso" : (doc.system.location.armL || doc.system.location.armR) ? "arm" : "leg";
+      const systems = new Set(embedded.filter(([,value]) => value.system.modType === "system").map(([mid]) => mid));
+      assert.deepEqual(systems, allowedSystems[group], language + "/apparel/" + id + " accepted system mods");
+      const upgrades = embedded.filter(([,value]) => value.system.modType === "upgrade");
+      assert.equal(upgrades.length, 1, language + "/apparel/" + id + " unique upgrade count");
+      assert.equal(upgrades[0][0], expectedUpgrade[group], language + "/apparel/" + id + " unique Raider II identity");
+      assert.equal(upgrades[0][1].system.perks, "Armorer 1", language + "/apparel/" + id + " embedded Raider II perk");
+      if (group === "torso") assert.equal(doc.system.mods.R7MSARmaFbVPiunS.system.location, "Torso");
+    }
+
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 139, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, spec.type);
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+      if (spec.effectEn) assert.equal(doc.system.effect, language === "en" ? spec.effectEn : spec.effectFr);
+    }
   }
 });
 

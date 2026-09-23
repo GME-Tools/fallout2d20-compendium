@@ -72,7 +72,7 @@ export const FRENCH_CORE_SUPPORT_EFFECTS={
     "Tesla Bracers":p("Tant que l’armure est alimentée, vos attaques à mains nues infligent +2 @fos[DC] de dégâts et deviennent énergétiques."),
     "Tesla Coils":p("Tant que l’armure est alimentée, un ennemi qui vous attaque au corps à corps subit 4 @fos[DC] de dégâts énergétiques."),
     "Weighted":p("Les attaques de corps à corps et à mains nues gagnent Perforant 1"),
-    "Welded Rebar":p("Un ennemi qui vous attaque au corps à corps ou à mains nues et subit une complication reçoit 2 @fos[DC] de dégâts.")
+    "Welded Rebar":p("Les ennemis qui vous portent une attaque de corps à corps ou à mains nues et subissent une complication subissent 2 @fos[DC] de dégâts")
   },
   "robot-modules":{
     "Behavioral Analysis Mod":p("Réduisez de 1 la difficulté des tests de Discours (minimum 0)."),

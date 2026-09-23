@@ -63,65 +63,13 @@
           "isJunk": false,
           "location": "Torso",
           "modType": "upgrade",
-          "perks": "2",
+          "perks": "Armorer 1",
           "quantity": 1,
           "rarity": "common",
           "resistance": {
             "energy": 0,
             "physical": 1,
             "radiation": 0
-          },
-          "shadowed": false,
-          "source": "core_rulebook",
-          "stashed": false,
-          "summary": ""
-        },
-        "type": "apparel_mod"
-      },
-      "7IO8gCf1f2bCK4a0": {
-        "_id": "7IO8gCf1f2bCK4a0",
-        "_stats": {
-          "compendiumSource": null,
-          "coreVersion": "12.331",
-          "createdTime": 1744526767170,
-          "duplicateSource": null,
-          "lastModifiedBy": "LbffuJGmFEdJvA7X",
-          "modifiedTime": 1744526770450,
-          "systemId": "fallout",
-          "systemVersion": "11.14.3"
-        },
-        "effects": [],
-        "flags": {},
-        "folder": "0sZTfWE1J7mKvvnK",
-        "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
-        "name": "Lead Plating (Torso)",
-        "ownership": {
-          "LbffuJGmFEdJvA7X": 3,
-          "default": 0
-        },
-        "sort": 300000,
-        "system": {
-          "apparelType": "powerArmor",
-          "attachable": true,
-          "attached": false,
-          "canBeScrapped": true,
-          "cost": 20,
-          "description": "<p>Installed with the <strong>Repair</strong> skill.</p>",
-          "effect": "",
-          "favorite": false,
-          "health": {
-            "value": 0
-          },
-          "isJunk": false,
-          "location": "Torso",
-          "modType": "plating",
-          "perks": "Armorer 1",
-          "quantity": 1,
-          "rarity": "common",
-          "resistance": {
-            "energy": 0,
-            "physical": 0,
-            "radiation": 2
           },
           "shadowed": false,
           "source": "core_rulebook",
@@ -385,58 +333,6 @@
         },
         "type": "apparel_mod"
       },
-      "JAN0jzOhkMyI3U1w": {
-        "_id": "JAN0jzOhkMyI3U1w",
-        "_stats": {
-          "compendiumSource": null,
-          "coreVersion": "12.331",
-          "createdTime": 1744526770409,
-          "duplicateSource": null,
-          "lastModifiedBy": "LbffuJGmFEdJvA7X",
-          "modifiedTime": 1744526770450,
-          "systemId": "fallout",
-          "systemVersion": "11.14.3"
-        },
-        "effects": [],
-        "flags": {},
-        "folder": "0sZTfWE1J7mKvvnK",
-        "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
-        "name": "Prism Shielding (Torso)",
-        "ownership": {
-          "LbffuJGmFEdJvA7X": 3,
-          "default": 0
-        },
-        "sort": 400000,
-        "system": {
-          "apparelType": "powerArmor",
-          "attachable": true,
-          "attached": false,
-          "canBeScrapped": true,
-          "cost": 20,
-          "description": "<p>Installed with the <strong>Science </strong>skill.</p>",
-          "effect": "",
-          "favorite": false,
-          "health": {
-            "value": 0
-          },
-          "isJunk": false,
-          "location": "Torso",
-          "modType": "plating",
-          "perks": "Science! 2",
-          "quantity": 1,
-          "rarity": "common",
-          "resistance": {
-            "energy": 3,
-            "physical": 0,
-            "radiation": 0
-          },
-          "shadowed": false,
-          "source": "core_rulebook",
-          "stashed": false,
-          "summary": ""
-        },
-        "type": "apparel_mod"
-      },
       "JCala9JIwLsgpDig": {
         "_id": "JCala9JIwLsgpDig",
         "_stats": {
@@ -522,7 +418,7 @@
             "value": 0
           },
           "isJunk": false,
-          "location": "",
+          "location": "Torso",
           "modType": "system",
           "perks": "Armorer 1",
           "quantity": 1,
@@ -591,58 +487,6 @@
         },
         "type": "apparel_mod"
       },
-      "faqvoA7iZx90tXnH": {
-        "_id": "faqvoA7iZx90tXnH",
-        "_stats": {
-          "compendiumSource": null,
-          "coreVersion": "12.331",
-          "createdTime": 1744526773337,
-          "duplicateSource": null,
-          "lastModifiedBy": "LbffuJGmFEdJvA7X",
-          "modifiedTime": 1744526773337,
-          "systemId": "fallout",
-          "systemVersion": "11.14.3"
-        },
-        "effects": [],
-        "flags": {},
-        "folder": "0sZTfWE1J7mKvvnK",
-        "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
-        "name": "Winterized Coating (Torso)",
-        "ownership": {
-          "LbffuJGmFEdJvA7X": 3,
-          "default": 0
-        },
-        "sort": 0,
-        "system": {
-          "apparelType": "powerArmor",
-          "attachable": true,
-          "attached": false,
-          "canBeScrapped": true,
-          "cost": 20,
-          "description": "<p>Installed with the <strong>Repair</strong> skill.</p>\n<p>Cannot be installed on <strong>X-01 Power Armor</strong>.</p>",
-          "effect": "",
-          "favorite": false,
-          "health": {
-            "value": 0
-          },
-          "isJunk": false,
-          "location": "Torso",
-          "modType": "plating",
-          "perks": "Armorer 1",
-          "quantity": 1,
-          "rarity": "common",
-          "resistance": {
-            "energy": 1,
-            "physical": 0,
-            "radiation": 0
-          },
-          "shadowed": false,
-          "source": "core_rulebook",
-          "stashed": false,
-          "summary": ""
-        },
-        "type": "apparel_mod"
-      },
       "gCQROCvacrax9ukk": {
         "_id": "gCQROCvacrax9ukk",
         "_stats": {
@@ -694,112 +538,8 @@
         },
         "type": "apparel_mod"
       },
-      "hJDcOKYapml78um8": {
-        "_id": "hJDcOKYapml78um8",
-        "_stats": {
-          "compendiumSource": null,
-          "coreVersion": "12.331",
-          "createdTime": 1744526771719,
-          "duplicateSource": null,
-          "lastModifiedBy": "LbffuJGmFEdJvA7X",
-          "modifiedTime": 1744526771719,
-          "systemId": "fallout",
-          "systemVersion": "11.14.3"
-        },
-        "effects": [],
-        "flags": {},
-        "folder": "0sZTfWE1J7mKvvnK",
-        "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
-        "name": "Titanium Plating (Torso)",
-        "ownership": {
-          "LbffuJGmFEdJvA7X": 3,
-          "default": 0
-        },
-        "sort": 0,
-        "system": {
-          "apparelType": "powerArmor",
-          "attachable": true,
-          "attached": false,
-          "canBeScrapped": true,
-          "cost": 20,
-          "description": "<p>Installed with the <strong>Repair</strong> skill.</p>",
-          "effect": "",
-          "favorite": false,
-          "health": {
-            "value": 2
-          },
-          "isJunk": false,
-          "location": "Helm, Arms, Legs",
-          "modType": "plating",
-          "perks": "Armorer 3",
-          "quantity": 1,
-          "rarity": "common",
-          "resistance": {
-            "energy": 0,
-            "physical": 0,
-            "radiation": 0
-          },
-          "shadowed": false,
-          "source": "core_rulebook",
-          "stashed": false,
-          "summary": ""
-        },
-        "type": "apparel_mod"
-      },
       "installedMods": "",
       "list": "",
-      "lqvdGQ6axRjBfNoe": {
-        "_id": "lqvdGQ6axRjBfNoe",
-        "_stats": {
-          "compendiumSource": null,
-          "coreVersion": "12.331",
-          "createdTime": 1744526768587,
-          "duplicateSource": null,
-          "lastModifiedBy": "LbffuJGmFEdJvA7X",
-          "modifiedTime": 1744526770450,
-          "systemId": "fallout",
-          "systemVersion": "11.14.3"
-        },
-        "effects": [],
-        "flags": {},
-        "folder": "0sZTfWE1J7mKvvnK",
-        "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
-        "name": "Photovoltaic Plating (Torso)",
-        "ownership": {
-          "LbffuJGmFEdJvA7X": 3,
-          "default": 0
-        },
-        "sort": 500000,
-        "system": {
-          "apparelType": "powerArmor",
-          "attachable": true,
-          "attached": false,
-          "canBeScrapped": true,
-          "cost": 20,
-          "description": "<p>Installed with the <strong>Science </strong>skill.</p>",
-          "effect": "<p>+1 AP at the start of a scene if in direct sunlight (only applies once)</p>",
-          "favorite": false,
-          "health": {
-            "value": 0
-          },
-          "isJunk": false,
-          "location": "Torso",
-          "modType": "plating",
-          "perks": "Science! 3",
-          "quantity": 1,
-          "rarity": "common",
-          "resistance": {
-            "energy": 0,
-            "physical": 0,
-            "radiation": 0
-          },
-          "shadowed": false,
-          "source": "core_rulebook",
-          "stashed": false,
-          "summary": ""
-        },
-        "type": "apparel_mod"
-      },
       "max": 2,
       "modded": false,
       "t2wGFT9GqqzS3Qt9": {
@@ -839,58 +579,6 @@
           "location": "Torso",
           "modType": "system",
           "perks": "Science! 3",
-          "quantity": 1,
-          "rarity": "common",
-          "resistance": {
-            "energy": 0,
-            "physical": 0,
-            "radiation": 0
-          },
-          "shadowed": false,
-          "source": "core_rulebook",
-          "stashed": false,
-          "summary": ""
-        },
-        "type": "apparel_mod"
-      },
-      "vZs57HCeBc9iOVUR": {
-        "_id": "vZs57HCeBc9iOVUR",
-        "_stats": {
-          "compendiumSource": null,
-          "coreVersion": "12.331",
-          "createdTime": 1744526765771,
-          "duplicateSource": null,
-          "lastModifiedBy": "LbffuJGmFEdJvA7X",
-          "modifiedTime": 1744526770450,
-          "systemId": "fallout",
-          "systemVersion": "11.14.3"
-        },
-        "effects": [],
-        "flags": {},
-        "folder": "0sZTfWE1J7mKvvnK",
-        "img": "systems/fallout/assets/icons/items/apparel_mod.svg",
-        "name": "Explosive Shielding (Torso)",
-        "ownership": {
-          "LbffuJGmFEdJvA7X": 3,
-          "default": 0
-        },
-        "sort": 200000,
-        "system": {
-          "apparelType": "powerArmor",
-          "attachable": true,
-          "attached": false,
-          "canBeScrapped": true,
-          "cost": 20,
-          "description": "<p>Installed with the <strong>Science</strong> skill.</p>",
-          "effect": "<p>+2 to all damage resistances vs Blast weapons.</p>",
-          "favorite": false,
-          "health": {
-            "value": 0
-          },
-          "isJunk": false,
-          "location": "Torso",
-          "modType": "plating",
-          "perks": "Science! 1",
           "quantity": 1,
           "rarity": "common",
           "resistance": {
