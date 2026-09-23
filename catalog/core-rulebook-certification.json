@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 136,
-      "sourcePage": 134
+      "pdfPage": 137,
+      "sourcePage": 135
     },
     "fr": {
-      "pdfPage": 137,
-      "sourcePage": 134
+      "pdfPage": 138,
+      "sourcePage": 135
     }
   },
   "pageReviews": [
@@ -2197,6 +2197,22 @@
       "language": "fr",
       "pdfPage": 137,
       "sourcePage": 134,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 137,
+      "sourcePage": 135,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 138,
+      "sourcePage": 135,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -23331,15 +23347,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Synth Helmet",
         "apparelType": "armor",
@@ -23354,7 +23372,12 @@
         "weightLb": 3,
         "cost": 33,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -23372,15 +23395,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Synth Chest Piece",
         "apparelType": "armor",
@@ -23395,7 +23420,11 @@
         "weightLb": 7,
         "cost": 75,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23413,15 +23442,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Synth Arm",
         "apparelType": "armor",
@@ -23436,7 +23467,11 @@
         "weightLb": 3,
         "cost": 30,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23454,15 +23489,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Synth Arm",
         "apparelType": "armor",
@@ -23477,7 +23514,11 @@
         "weightLb": 3,
         "cost": 30,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23495,15 +23536,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Synth Leg",
         "apparelType": "armor",
@@ -23518,7 +23561,11 @@
         "weightLb": 3,
         "cost": 30,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23536,15 +23583,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Synth Leg",
         "apparelType": "armor",
@@ -23559,7 +23608,11 @@
         "weightLb": 3,
         "cost": 30,
         "rarity": 3,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23577,15 +23630,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Synth Helmet",
         "apparelType": "armor",
@@ -23600,7 +23655,12 @@
         "weightLb": 7,
         "cost": 70,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -23618,15 +23678,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Synth Chest Piece",
         "apparelType": "armor",
@@ -23641,7 +23703,11 @@
         "weightLb": 12,
         "cost": 125,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23659,15 +23725,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Synth Arm",
         "apparelType": "armor",
@@ -23682,7 +23750,11 @@
         "weightLb": 7,
         "cost": 70,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23700,15 +23772,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Synth Arm",
         "apparelType": "armor",
@@ -23723,7 +23797,11 @@
         "weightLb": 7,
         "cost": 70,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23741,15 +23819,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Synth Leg",
         "apparelType": "armor",
@@ -23764,7 +23844,11 @@
         "weightLb": 7,
         "cost": 80,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23782,15 +23866,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Sturdy Synth Leg",
         "apparelType": "armor",
@@ -23805,7 +23891,11 @@
         "weightLb": 7,
         "cost": 80,
         "rarity": 4,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23823,15 +23913,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Synth Helmet",
         "apparelType": "armor",
@@ -23846,7 +23938,12 @@
         "weightLb": 10,
         "cost": 110,
         "rarity": 5,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 0,
+        "helmetMaterialOnlyReviewed": true
       }
     },
     {
@@ -23864,15 +23961,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Synth Chest Piece",
         "apparelType": "armor",
@@ -23887,7 +23986,11 @@
         "weightLb": 17,
         "cost": 175,
         "rarity": 5,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23905,15 +24008,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Synth Arm",
         "apparelType": "armor",
@@ -23928,7 +24033,11 @@
         "weightLb": 10,
         "cost": 110,
         "rarity": 5,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23946,15 +24055,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Synth Arm",
         "apparelType": "armor",
@@ -23969,7 +24080,11 @@
         "weightLb": 10,
         "cost": 110,
         "rarity": 5,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -23987,15 +24102,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Synth Leg",
         "apparelType": "armor",
@@ -24010,7 +24127,11 @@
         "weightLb": 10,
         "cost": 130,
         "rarity": 5,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -24028,15 +24149,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Heavy Synth Leg",
         "apparelType": "armor",
@@ -24051,7 +24174,11 @@
         "weightLb": 10,
         "cost": 130,
         "rarity": 5,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Family description, mod-slot rule and unique Material mods are certified at p.135; exact Upgrade-mod acceptance remains pending the later armor-mod page.",
+        "materialModsReviewed": true,
+        "maxMods": 2,
+        "materialSlots": 1,
+        "upgradeSlots": 1
       }
     },
     {
@@ -24069,15 +24196,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Vault-Tec Security Helmet",
         "apparelType": "armor",
@@ -24092,7 +24221,7 @@
         "weightLb": 2,
         "cost": 20,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Vault-Tec Security family description is certified at p.135; the armor-upgrade exclusion is stated on the following source page and remains pending."
       }
     },
     {
@@ -24110,15 +24239,17 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          132
+          132,
+          135
         ],
         "fr": [
-          132
+          132,
+          135
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "acceptedModsReviewed": false,
         "sourceTableName": "Vault-Tec Security Armor",
         "apparelType": "armor",
@@ -24137,7 +24268,7 @@
         "weightLb": 8,
         "cost": 16,
         "rarity": 1,
-        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+        "note": "Vault-Tec Security family description is certified at p.135; the armor-upgrade exclusion is stated on the following source page and remains pending."
       }
     },
     {
@@ -25869,6 +26000,410 @@
         "installSkill": "Repair",
         "torsoDerived": true,
         "shadowed": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "rule_text",
+      "sourceName": "Synth Armor",
+      "localizedNames": {
+        "fr": "Armure de synthétique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Armor-family description and modification rules are represented on the reusable Synth armor Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 2,
+        "helmetMaxMods": 1,
+        "materialSlots": 1,
+        "upgradeSlots": 1,
+        "helmetUpgradeSlots": 0,
+        "torsoWeightCostMultiplier": 2,
+        "materialInstallSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "table",
+      "sourceName": "Unique Synth Armor Material Mods",
+      "localizedNames": {
+        "fr": "Mods de matériau réservés à l’armure de synthétique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining reusable Synth Armor Material mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 4,
+        "torsoVariantsDerivedByRule": true,
+        "materialInstallSkill": "Repair",
+        "errataNote": "Errata V6 p.136 corrects the separate Armor Upgrade Mods table on the following Core source page: Laminated, Resin and Microcarbon were incorrectly listed there as upgrades. It does not alter the p.135 Unique Synth Armor Material Mods table certified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "rule_text",
+      "sourceName": "Vault-Tec Security Armor",
+      "localizedNames": {
+        "fr": "Armure de sécurité Vault-Tec"
+      },
+      "scope": "out_of_scope",
+      "justification": "Armor-family description is represented on the published Vault-Tec Security Armor and Helmet Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Laminated",
+      "localizedNames": {
+        "fr": "Stratifié"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Synth Armor Material mod defined by the Core p.135 source table.",
+      "pack": "apparel-mods",
+      "documentId": "9FlKDaWEsEDXBCMP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Laminated",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 5,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Laminated (Torso)",
+      "localizedNames": {
+        "fr": "Stratifié (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.135 Laminated row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "ZhrilZpyh7l9kkQD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Laminated",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 10,
+        "perks": [],
+        "installSkill": "Repair",
+        "torsoDerived": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Resin",
+      "localizedNames": {
+        "fr": "Résineux"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Synth Armor Material mod defined by the Core p.135 source table.",
+      "pack": "apparel-mods",
+      "documentId": "hWUuQFc4H82qxPec",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Resin",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 1,
+        "cost": 10,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Resin (Torso)",
+      "localizedNames": {
+        "fr": "Résineux (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.135 Resin row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "SW0MOzUjhhMYjJrr",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Resin",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 20,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Microcarbon",
+      "localizedNames": {
+        "fr": "Microfibre de carbone"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Synth Armor Material mod defined by the Core p.135 source table.",
+      "pack": "apparel-mods",
+      "documentId": "lX3JRbJLh0mYyQJd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Microcarbon",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 2,
+        "cost": 15,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Microcarbon (Torso)",
+      "localizedNames": {
+        "fr": "Microfibre de carbone (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.135 Microcarbon row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "SUBvV0XNUQzeCfOH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Microcarbon",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "weightLb": 4,
+        "cost": 30,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Nanofilament",
+      "localizedNames": {
+        "fr": "Nanofilament"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Synth Armor Material mod defined by the Core p.135 source table.",
+      "pack": "apparel-mods",
+      "documentId": "tWP01ABVj2P3dPak",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Nanofilament",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 3,
+        "cost": 20,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": false
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 135,
+      "type": "apparel_mod",
+      "sourceName": "Nanofilament (Torso)",
+      "localizedNames": {
+        "fr": "Nanofilament (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Material mod identity materializing the Core p.135 Nanofilament row plus the source rule doubling weight and cost on Torso armor.",
+      "pack": "apparel-mods",
+      "documentId": "cVxi6JY2Z5HeVM4v",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          135
+        ],
+        "fr": [
+          135
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Nanofilament",
+        "armorFamily": "Synth",
+        "resistances": {
+          "physical": 4,
+          "energy": 4,
+          "radiation": 0
+        },
+        "weightLb": 6,
+        "cost": 40,
+        "perks": [
+          "Armorer 1"
+        ],
+        "installSkill": "Repair",
+        "torsoDerived": true
       }
     }
   ]

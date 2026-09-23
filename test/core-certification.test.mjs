@@ -2946,3 +2946,126 @@ test("Core Armor p.134 Metal and Combat descriptions and Material mods are sourc
   }
 });
 
+test("Core Armor p.135 Synth descriptions, Material mods, and Vault-Tec description are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 137 && catalog.certifiedThrough.en.sourcePage >= 135);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 138 && catalog.certifiedThrough.fr.sourcePage >= 135);
+
+  const synthIds = new Set([
+    "rJkPrPBc1LmIFMKu","O0JqnMYioFaGTVbM","y8xpvgAazNCC0qua","MmpO0xvqhLs7Z5v6","Xd2p6XdKQuDkXVqQ","otpTV8rjo98GRwZw",
+    "9F62PApg0a3qLdBi","z99d3r4zPwD4ZYMe","VQ5yHv7pOivssCrT","rzaHjoMSp3xL2dUF","tG3w6b6Bx5jFpeSW","nFohkafKN9JdtaY9",
+    "SEh4XYH6BXZDNAOk","j4paWkmIghe0FS59","UUBwEiScNx5pNBiE","Ey3twO4uaBQugVLc","bkqZSzYTzimVzixK","ot5oxDDNH4Fg18Id"
+  ]);
+  const vaultIds = new Set(["RuledpduIJ0kiNAN","ylQsJrmkFumlUEeC"]);
+  const descriptions = {
+    en: {
+      synth: "<p>Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it’s hard to acquire for anyone not on good terms with the Institute, and expensive even then.</p><p>Each piece of Synth armor other than helmets can accept two mods, one of which is a Material, the other of which is an Upgrade. Synth helmets may only accept a Material mod. For mods applied to Torso armor, double the weight and cost (this has already been done for Torso Only mods). All Synth Armor Material mods are installed with the Repair skill.</p>",
+      vault: "<p>Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn’t especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside.</p>"
+    },
+    fr: {
+      synth: "<p>Développée par l’Institut, l’armure de synthétique est clairement reconnaissable et fournit une excellente protection, surtout contre les armes à énergie, mais n’est véritablement présente que dans le Commonwealth et les autres lieux où se rendent les synthés de l’Institut. Comme les armures de cette facture sont rares, elles sont difficiles à acquérir pour quiconque n’est pas en bons termes avec l’Institut et chères même en remplissant cette condition.</p><p>Chaque pièce d’armure de synthétique mis à part le casque peut accepter 2 mods, dont l’un est un mod de matériau et l’autre un mod d’amélioration. Un casque de synthétique ne peut accepter qu’un mod de matériau. Pour les mods appliqués à l’armure portée sur le buste, doublez le poids et le coût (c’est déjà fait pour les mods réservés au buste seul). Tous les mods de matériau de l’armure de synthétique s’installent avec la compétence Réparation.</p>",
+      vault: "<p>Composée d’un long tablier pare-balles et d’épaulières et accompagnée d’un casque résistant aux chocs, cette armure fut distribuée en peu d’exemplaires à chaque Abri pour les habitants de l’Abri choisis pour jouer le rôle de personnel de sécurité. Elle fournit une protection modeste et n’est pas particulièrement volumineuse, mais ne tiendra probablement pas le coup face à des armes lourdes, pour la simple et bonne raison que les Abris étaient censés être des environnements contrôlés, dans lesquels l’armement redoutable du dehors n’était pas présent.</p>"
+    }
+  };
+
+  const limbMods = ["9FlKDaWEsEDXBCMP","hWUuQFc4H82qxPec","lX3JRbJLh0mYyQJd","tWP01ABVj2P3dPak"];
+  const torsoMods = ["ZhrilZpyh7l9kkQD","SW0MOzUjhhMYjJrr","SUBvV0XNUQzeCfOH","cVxi6JY2Z5HeVM4v"];
+  const modSpecs = {
+    "9FlKDaWEsEDXBCMP":{"en":"Laminated","fr":"Stratifié","p":1,"e":1,"r":0,"w":1,"c":5},
+    "ZhrilZpyh7l9kkQD":{"en":"Laminated (Torso)","fr":"Stratifié (Torse)","p":1,"e":1,"r":0,"w":2,"c":10},
+    "hWUuQFc4H82qxPec":{"en":"Resin","fr":"Résineux","p":2,"e":2,"r":0,"w":1,"c":10},
+    "SW0MOzUjhhMYjJrr":{"en":"Resin (Torso)","fr":"Résineux (Torse)","p":2,"e":2,"r":0,"w":2,"c":20},
+    "lX3JRbJLh0mYyQJd":{"en":"Microcarbon","fr":"Microfibre de carbone","p":3,"e":3,"r":0,"w":2,"c":15},
+    "SUBvV0XNUQzeCfOH":{"en":"Microcarbon (Torso)","fr":"Microfibre de carbone (Torse)","p":3,"e":3,"r":0,"w":4,"c":30},
+    "tWP01ABVj2P3dPak":{"en":"Nanofilament","fr":"Nanofilament","p":4,"e":4,"r":0,"w":3,"c":20},
+    "cVxi6JY2Z5HeVM4v":{"en":"Nanofilament (Torso)","fr":"Nanofilament (Torse)","p":4,"e":4,"r":0,"w":6,"c":40}
+  };
+
+  const p132Synth = catalog.entries.filter(entry => entry.page === 132 && entry.pack === "apparel" && synthIds.has(entry.documentId));
+  assert.equal(p132Synth.length, 18);
+  for (const entry of p132Synth) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.materialModsReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.ok(entry.sourcePages.en.includes(135));
+    assert.ok(entry.sourcePages.fr.includes(135));
+    const helmet = entry.sourceName.includes("Helmet");
+    assert.equal(entry.certification.maxMods, helmet ? 1 : 2);
+    assert.equal(entry.certification.materialSlots, 1);
+    assert.equal(entry.certification.upgradeSlots, helmet ? 0 : 1);
+  }
+
+  const p132Vault = catalog.entries.filter(entry => entry.page === 132 && entry.pack === "apparel" && vaultIds.has(entry.documentId));
+  assert.equal(p132Vault.length, 2);
+  for (const entry of p132Vault) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.ok(entry.sourcePages.en.includes(135));
+    assert.ok(entry.sourcePages.fr.includes(135));
+  }
+
+  const p135Rules = catalog.entries.filter(entry => entry.page === 135 && entry.type === "rule_text" && entry.status === "out_of_scope");
+  assert.deepEqual(p135Rules.map(entry => entry.sourceName).sort(), ["Synth Armor","Vault-Tec Security Armor"]);
+  const p135Tables = catalog.entries.filter(entry => entry.page === 135 && entry.type === "table" && entry.status === "out_of_scope");
+  assert.deepEqual(p135Tables.map(entry => entry.sourceName), ["Unique Synth Armor Material Mods"]);
+  assert.ok(p135Tables[0].certification.errataNote.includes("Armor Upgrade Mods table"));
+  assert.ok(p135Tables[0].certification.errataNote.includes("does not alter"));
+
+  const p135Mods = catalog.entries.filter(entry => entry.page === 135 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p135Mods.length, Object.keys(modSpecs).length);
+  assert.deepEqual(new Set(p135Mods.map(entry => entry.documentId)), new Set(Object.keys(modSpecs)));
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of synthIds) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language].synth, language + "/apparel/" + id + " p.135 Synth description");
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      const actualMaterial = embedded.filter(([,value]) => value.system.modType === "material").map(([modId]) => modId);
+      const expectedMaterial = doc.system.location.torso ? torsoMods : limbMods;
+      assert.deepEqual(new Set(actualMaterial), new Set(expectedMaterial), language + "/apparel/" + id + " Material mods");
+      const helmet = doc.system.location.head;
+      assert.equal(doc.system.mods.max, helmet ? 1 : 2, language + "/apparel/" + id + " mod-slot maximum");
+      if (helmet) {
+        const upgrades = embedded.filter(([,value]) => value.system.modType === "upgrade");
+        assert.equal(upgrades.length, 0, language + "/apparel/" + id + " Synth helmet must not accept Upgrade mods");
+      }
+    }
+
+    for (const id of vaultIds) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language].vault, language + "/apparel/" + id + " p.135 Vault-Tec description");
+    }
+
+    for (const [id,spec] of Object.entries(modSpecs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 135, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, language === "en" ? spec.en : spec.fr, language + "/apparel-mods/" + id + " name");
+      assert.equal(doc.system.apparelType, "armor");
+      assert.equal(doc.system.modType, "material");
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2, language + "/apparel-mods/" + id + " weight");
+      assert.equal(doc.system.cost, spec.c);
+    }
+  }
+
+  const aggregateIds = new Set(["74x1Ud7U3UdJkNG5","KHaYrUpFfR6ieQu9","c7zZXvkqJBtTSTsh","8jzwxVjy2Me2QUua"]);
+  for (const language of ["en","fr"]) {
+    const records = (await generatedDocuments(language)).filter(({pack}) => pack === "apparel");
+    for (const id of aggregateIds) {
+      const record = records.find(({document}) => document._id === id);
+      assert.ok(record, language + "/apparel/" + id + " aggregate identity missing");
+      assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 135);
+    }
+  }
+});
+
