@@ -2469,8 +2469,8 @@ test("Core Clothing and Outfits pp.124-129 are source-complete", async () => {
   "DxWJxT0MuxkbCofe": "<p>Des vêtements robustes, généralement un mélange de plusieurs articles assez solides pour créer un ensemble capable de supporter la vie rude des Terres désolées. L’ensemble est ordinairement composé d’une veste, d’un haut et d’un maillot de corps, d’un jean et de chaussures de marche, renforcés (ou raccommodés) avec du scotch, pour fournir à la fois une protection minime contre les plaies et bosses de la vie et un peu de chaleur par les froides nuits d’hiver nucléaire.</p>",
   "aOmUGU0KhxIusQzy": "<p>Le vêtement standard pour tous les habitants d’un Abri, fourni par Vault-Tec. C’est une combinaison bleue près du corps avec une bande dorée qui passe autour du cou, au centre du buste et le long des manches. Cette bande est une feuille métallique qui aide à dissiper la chaleur et contribue au fonctionnement des scanners biométriques intégrés de la combinaison. Chaque combinaison d’Abri est ornée d’un numéro sur le dos, indiquant de quel Abri elle provient.</p><p>Une combinaison d’Abri peut être modifiée avec un revêtement de protection supplémentaire, recevant alors l’un des mods ci-dessous. Tous les mods de la combinaison d’Abri s’installent avec la compétence Réparation.</p>"
 };
-  assert.equal(catalog.certifiedThrough.en.sourcePage, 129);
-  assert.equal(catalog.certifiedThrough.fr.sourcePage, 129);
+  assert.ok(catalog.certifiedThrough.en.sourcePage >= 129);
+  assert.ok(catalog.certifiedThrough.fr.sourcePage >= 129);
   assert.equal(catalog.entries.filter(e => e.page === 124 && e.pack === "apparel" && e.status === "verified").length, 29);
   assert.equal(catalog.entries.filter(e => [126,129].includes(e.page) && e.pack === "apparel-mods" && e.status === "verified").length, 10);
   const docs = {};

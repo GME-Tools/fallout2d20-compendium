@@ -5,7 +5,7 @@
   "folder": null,
   "img": "modules/fallout2d20-compendium/artwork/Apparel/Raider Right Arm.webp",
   "system": {
-    "apparelType": "outfit",
+    "apparelType": "armor",
     "canBeScrapped": true,
     "cost": 15,
     "equippable": true,
