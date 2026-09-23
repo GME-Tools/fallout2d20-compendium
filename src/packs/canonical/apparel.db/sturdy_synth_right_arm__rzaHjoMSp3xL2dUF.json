@@ -19,8 +19,8 @@
     },
     "isJunk": false,
     "location": {
-      "armL": true,
-      "armR": false,
+      "armL": false,
+      "armR": true,
       "head": false,
       "legL": false,
       "legR": false,
@@ -769,9 +769,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 132
       }
     }
   },

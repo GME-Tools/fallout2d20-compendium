@@ -2677,3 +2677,71 @@ test("Core Armor p.131 Metal and Combat tables are source-complete", async () =>
     }
   }
 });
+
+
+test("Core Armor p.132 Synth and Vault-Tec Security tables are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 134 && catalog.certifiedThrough.en.sourcePage >= 132);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 135 && catalog.certifiedThrough.fr.sourcePage >= 132);
+
+  const expected = new Map([
+    ["rJkPrPBc1LmIFMKu", {"en":"Synth Helmet","fr":"Casque de synthétique","table":"Synth Helmet","location":"head","physical":2,"energy":3,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":33,"rarity":3}],
+    ["O0JqnMYioFaGTVbM", {"en":"Synth Chest Piece","fr":"Plastron de synthétique","table":"Synth Chest Piece","location":"torso","physical":2,"energy":3,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":75,"rarity":3}],
+    ["y8xpvgAazNCC0qua", {"en":"Synth Left Arm","fr":"Brassard de synthétique (gauche)","table":"Synth Arm","location":"armL","physical":2,"energy":3,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":30,"rarity":4}],
+    ["MmpO0xvqhLs7Z5v6", {"en":"Synth Right Arm","fr":"Brassard de synthétique (droit)","table":"Synth Arm","location":"armR","physical":2,"energy":3,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":30,"rarity":4}],
+    ["Xd2p6XdKQuDkXVqQ", {"en":"Synth Left Leg","fr":"Jambière de synthétique (gauche)","table":"Synth Leg","location":"legL","physical":2,"energy":3,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":30,"rarity":3}],
+    ["otpTV8rjo98GRwZw", {"en":"Synth Right Leg","fr":"Jambière de synthétique (droite)","table":"Synth Leg","location":"legR","physical":2,"energy":3,"radiation":0,"enWeight":3,"frWeight":1.5,"cost":30,"rarity":3}],
+    ["9F62PApg0a3qLdBi", {"en":"Sturdy Synth Helmet","fr":"Casque de synthétique solide","table":"Sturdy Synth Helmet","location":"head","physical":3,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":70,"rarity":4}],
+    ["z99d3r4zPwD4ZYMe", {"en":"Sturdy Synth Chest Piece","fr":"Plastron de synthétique solide","table":"Sturdy Synth Chest Piece","location":"torso","physical":3,"energy":4,"radiation":0,"enWeight":12,"frWeight":6,"cost":125,"rarity":4}],
+    ["VQ5yHv7pOivssCrT", {"en":"Sturdy Synth Left Arm","fr":"Brassard de synthétique solide (gauche)","table":"Sturdy Synth Arm","location":"armL","physical":3,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":70,"rarity":4}],
+    ["rzaHjoMSp3xL2dUF", {"en":"Sturdy Synth Right Arm","fr":"Brassard de synthétique solide (droit)","table":"Sturdy Synth Arm","location":"armR","physical":3,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":70,"rarity":4}],
+    ["tG3w6b6Bx5jFpeSW", {"en":"Sturdy Synth Left Leg","fr":"Jambière de synthétique solide (gauche)","table":"Sturdy Synth Leg","location":"legL","physical":3,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":80,"rarity":4}],
+    ["nFohkafKN9JdtaY9", {"en":"Sturdy Synth Right Leg","fr":"Jambière de synthétique solide (droite)","table":"Sturdy Synth Leg","location":"legR","physical":3,"energy":4,"radiation":0,"enWeight":7,"frWeight":3.5,"cost":80,"rarity":4}],
+    ["SEh4XYH6BXZDNAOk", {"en":"Heavy Synth Helmet","fr":"Casque de synthétique lourd","table":"Heavy Synth Helmet","location":"head","physical":4,"energy":5,"radiation":0,"enWeight":10,"frWeight":5,"cost":110,"rarity":5}],
+    ["j4paWkmIghe0FS59", {"en":"Heavy Synth Chest Piece","fr":"Plastron de synthétique lourd","table":"Heavy Synth Chest Piece","location":"torso","physical":4,"energy":5,"radiation":0,"enWeight":17,"frWeight":8.5,"cost":175,"rarity":5}],
+    ["UUBwEiScNx5pNBiE", {"en":"Heavy Synth Left Arm","fr":"Brassard de synthétique lourd (gauche)","table":"Heavy Synth Arm","location":"armL","physical":4,"energy":5,"radiation":0,"enWeight":10,"frWeight":5,"cost":110,"rarity":5}],
+    ["Ey3twO4uaBQugVLc", {"en":"Heavy Synth Right Arm","fr":"Brassard de synthétique lourd (droit)","table":"Heavy Synth Arm","location":"armR","physical":4,"energy":5,"radiation":0,"enWeight":10,"frWeight":5,"cost":110,"rarity":5}],
+    ["bkqZSzYTzimVzixK", {"en":"Heavy Synth Left Leg","fr":"Jambière de synthétique lourde (gauche)","table":"Heavy Synth Leg","location":"legL","physical":4,"energy":5,"radiation":0,"enWeight":10,"frWeight":5,"cost":130,"rarity":5}],
+    ["ot5oxDDNH4Fg18Id", {"en":"Heavy Synth Right Leg","fr":"Jambière de synthétique lourde (droite)","table":"Heavy Synth Leg","location":"legR","physical":4,"energy":5,"radiation":0,"enWeight":10,"frWeight":5,"cost":130,"rarity":5}],
+    ["RuledpduIJ0kiNAN", {"en":"Vault-Tec Security Helmet","fr":"Casque de sécurité Vault-Tec","table":"Vault-Tec Security Helmet","location":"head","physical":2,"energy":0,"radiation":0,"enWeight":2,"frWeight":1,"cost":20,"rarity":1}],
+    ["ylQsJrmkFumlUEeC", {"en":"Vault-Tec Security Armor","fr":"Armure de sécurité Vault-Tec","table":"Vault-Tec Security Armor","location":"body","physical":2,"energy":0,"radiation":2,"enWeight":8,"frWeight":4,"cost":16,"rarity":1}]
+  ]);
+
+  const tables = catalog.entries.filter(entry => entry.page === 132 && entry.type === "table" && entry.status === "out_of_scope");
+  assert.deepEqual(tables.map(entry => entry.sourceName).sort(), ["Synth Armor", "Vault-Tec Security Armor"]);
+
+  const p132 = catalog.entries.filter(entry => entry.page === 132 && entry.scope === "in_scope" && entry.pack === "apparel");
+  assert.equal(p132.length, expected.size);
+  assert.deepEqual(new Set(p132.map(entry => entry.documentId)), new Set(expected.keys()));
+
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "apparel");
+    for (const [id, spec] of expected) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/apparel/${id} missing`);
+      const { document } = record;
+      const source = document.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 132, `${language}/apparel/${id} source page`);
+      assert.equal(source?.errataReviewed, true, `${language}/apparel/${id} errata review`);
+      assert.equal(document.name, spec[language], `${language}/apparel/${id} name`);
+      assert.equal(document.system.apparelType, "armor", `${language}/apparel/${id} apparel type`);
+      assert.deepEqual(document.system.resistance, { energy: spec.energy, physical: spec.physical, radiation: spec.radiation }, `${language}/apparel/${id} resistances`);
+      assert.equal(document.system.weight, language === "en" ? spec.enWeight : spec.frWeight, `${language}/apparel/${id} weight`);
+      assert.equal(document.system.cost, spec.cost, `${language}/apparel/${id} cost`);
+      assert.equal(document.system.rarity, spec.rarity, `${language}/apparel/${id} rarity`);
+      const expectedLocations = spec.location === "body" ? new Set(["armL","armR","legL","legR","torso"]) : new Set([spec.location]);
+      for (const location of ["armL", "armR", "head", "legL", "legR", "torso"]) {
+        assert.equal(document.system.location[location], expectedLocations.has(location), `${language}/apparel/${id} location ${location}`);
+      }
+    }
+  }
+
+  const aggregateIds = new Set(["74x1Ud7U3UdJkNG5", "KHaYrUpFfR6ieQu9", "c7zZXvkqJBtTSTsh", "8jzwxVjy2Me2QUua"]);
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "apparel");
+    for (const id of aggregateIds) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/apparel/${id} aggregate armor identity missing`);
+      assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 132);
+    }
+  }
+});

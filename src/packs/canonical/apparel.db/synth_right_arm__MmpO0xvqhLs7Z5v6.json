@@ -754,7 +754,7 @@
       "powered": false
     },
     "quantity": 1,
-    "rarity": 3,
+    "rarity": 4,
     "resistance": {
       "energy": 3,
       "physical": 2,
@@ -769,9 +769,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 132
       }
     }
   },

@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 133,
-      "sourcePage": 131
+      "pdfPage": 134,
+      "sourcePage": 132
     },
     "fr": {
-      "pdfPage": 134,
-      "sourcePage": 131
+      "pdfPage": 135,
+      "sourcePage": 132
     }
   },
   "pageReviews": [
@@ -2149,6 +2149,22 @@
       "language": "fr",
       "pdfPage": 134,
       "sourcePage": 131,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 134,
+      "sourcePage": 132,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 135,
+      "sourcePage": 132,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -22901,6 +22917,883 @@
         "cost": 185,
         "rarity": 4,
         "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.131 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "table",
+      "sourceName": "Synth Armor",
+      "localizedNames": {
+        "fr": "Armure de synthétique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the reusable Synth armor-piece Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 12,
+        "note": "The source has side-neutral Arm and Leg rows; published Foundry identities split those rows into left/right pieces, yielding 18 reusable Items."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "table",
+      "sourceName": "Vault-Tec Security Armor",
+      "localizedNames": {
+        "fr": "Armure de sécurité Vault-Tec"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the reusable Vault-Tec Security Helmet and Armor Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 2
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Synth Helmet",
+      "localizedNames": {
+        "fr": "Casque de synthétique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "rJkPrPBc1LmIFMKu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Synth Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 3,
+        "cost": 33,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Synth Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron de synthétique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "O0JqnMYioFaGTVbM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Synth Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 7,
+        "cost": 75,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Synth Left Arm",
+      "localizedNames": {
+        "fr": "Brassard de synthétique (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "y8xpvgAazNCC0qua",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Synth Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 3,
+        "cost": 30,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Synth Right Arm",
+      "localizedNames": {
+        "fr": "Brassard de synthétique (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "MmpO0xvqhLs7Z5v6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Synth Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 3,
+        "cost": 30,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Synth Left Leg",
+      "localizedNames": {
+        "fr": "Jambière de synthétique (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "Xd2p6XdKQuDkXVqQ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Synth Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 3,
+        "cost": 30,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Synth Right Leg",
+      "localizedNames": {
+        "fr": "Jambière de synthétique (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "otpTV8rjo98GRwZw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Synth Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 3,
+        "cost": 30,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Sturdy Synth Helmet",
+      "localizedNames": {
+        "fr": "Casque de synthétique solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "9F62PApg0a3qLdBi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Synth Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 7,
+        "cost": 70,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Sturdy Synth Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron de synthétique solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "z99d3r4zPwD4ZYMe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Synth Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 12,
+        "cost": 125,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Sturdy Synth Left Arm",
+      "localizedNames": {
+        "fr": "Brassard de synthétique solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "VQ5yHv7pOivssCrT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Synth Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 7,
+        "cost": 70,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Sturdy Synth Right Arm",
+      "localizedNames": {
+        "fr": "Brassard de synthétique solide (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "rzaHjoMSp3xL2dUF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Synth Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 7,
+        "cost": 70,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Sturdy Synth Left Leg",
+      "localizedNames": {
+        "fr": "Jambière de synthétique solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "tG3w6b6Bx5jFpeSW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Synth Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 7,
+        "cost": 80,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Sturdy Synth Right Leg",
+      "localizedNames": {
+        "fr": "Jambière de synthétique solide (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "nFohkafKN9JdtaY9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Synth Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 7,
+        "cost": 80,
+        "rarity": 4,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Heavy Synth Helmet",
+      "localizedNames": {
+        "fr": "Casque de synthétique lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "SEh4XYH6BXZDNAOk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Synth Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 10,
+        "cost": 110,
+        "rarity": 5,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Heavy Synth Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron de synthétique lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "j4paWkmIghe0FS59",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Synth Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 17,
+        "cost": 175,
+        "rarity": 5,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Heavy Synth Left Arm",
+      "localizedNames": {
+        "fr": "Brassard de synthétique lourd (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "UUBwEiScNx5pNBiE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Synth Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 10,
+        "cost": 110,
+        "rarity": 5,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Heavy Synth Right Arm",
+      "localizedNames": {
+        "fr": "Brassard de synthétique lourd (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "Ey3twO4uaBQugVLc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Synth Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 10,
+        "cost": 110,
+        "rarity": 5,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Heavy Synth Left Leg",
+      "localizedNames": {
+        "fr": "Jambière de synthétique lourde (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "bkqZSzYTzimVzixK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Synth Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 10,
+        "cost": 130,
+        "rarity": 5,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Heavy Synth Right Leg",
+      "localizedNames": {
+        "fr": "Jambière de synthétique lourde (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.132 Synth Armor table; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "ot5oxDDNH4Fg18Id",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Synth Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 4,
+          "energy": 5,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 10,
+        "cost": 130,
+        "rarity": 5,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Vault-Tec Security Helmet",
+      "localizedNames": {
+        "fr": "Casque de sécurité Vault-Tec"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Vault-Tec Security apparel Item defined directly by the Core p.132 armor table.",
+      "pack": "apparel",
+      "documentId": "RuledpduIJ0kiNAN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Vault-Tec Security Helmet",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "head"
+        ],
+        "weightLb": 2,
+        "cost": 20,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 132,
+      "type": "apparel",
+      "sourceName": "Vault-Tec Security Armor",
+      "localizedNames": {
+        "fr": "Armure de sécurité Vault-Tec"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Vault-Tec Security apparel Item defined directly by the Core p.132 armor table.",
+      "pack": "apparel",
+      "documentId": "ylQsJrmkFumlUEeC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          132
+        ],
+        "fr": [
+          132
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Vault-Tec Security Armor",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 2
+        },
+        "locationsCovered": [
+          "armL",
+          "armR",
+          "legL",
+          "legR",
+          "torso"
+        ],
+        "weightLb": 8,
+        "cost": 16,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted mods occur on later source pages and are not certified by the p.132 table lot."
       }
     }
   ]
