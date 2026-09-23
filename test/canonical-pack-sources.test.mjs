@@ -4,7 +4,7 @@ import path from "node:path";
 import test from "node:test";
 import { LANGUAGES, PACKS } from "../scripts/config.mjs";
 import { listFiles } from "../scripts/lib/files.mjs";
-import { loadCanonicalPack, materializeLocalizedDocument, splitLocalizedDocument } from "../scripts/lib/canonical-pack-sources.mjs";
+import { loadCanonicalPack, materializeLocalizedDocument, resolveCanonicalReferences, splitLocalizedDocument } from "../scripts/lib/canonical-pack-sources.mjs";
 import { PACK_FOLDER_DEFINITIONS } from "../scripts/data/pack-folders.mjs";
 
 test("localized source packs are generated rather than maintained", async () => {
@@ -41,17 +41,33 @@ test("each RollTable and all of its results share one source file", async () => 
   }
 });
 
-test("canonical sources contain only language-neutral pack references", async () => {
+test("canonical sources contain only valid language-neutral pack references", async () => {
   const files = await listFiles(path.resolve("src/packs"), file => file.endsWith(".json"));
-  let references = 0;
   for (const file of files) {
     const text = await readFile(file, "utf8");
     assert.doesNotMatch(text, /Compendium\.fallout2d20-compendium\.(?:en|fr)-/, file);
-    references += (text.match(/"\$ref"/g) ?? []).length;
   }
-  assert.equal(references, 455);
-});
 
+  const loaded = new Map();
+  const documentsByPack = new Map();
+  for (const pack of PACKS) {
+    const entries = await loadCanonicalPack("en", pack.name);
+    loaded.set(pack.name, entries);
+    documentsByPack.set(
+      pack.name,
+      new Map(entries.filter(entry => /^!(?:items|actors|tables)!/.test(entry.document._key ?? "")).map(entry => [entry.document._id, entry.document]))
+    );
+  }
+
+  for (const pack of PACKS) {
+    for (const { document } of loaded.get(pack.name)) {
+      assert.doesNotThrow(
+        () => resolveCanonicalReferences(document, documentsByPack, `canonical/${pack.name}/${document._id}`),
+        `${pack.name}/${document.name}: invalid canonical reference`
+      );
+    }
+  }
+});
 test("embedded document overlays target stable identities instead of array positions", () => {
   const english = { items: [{ _id: "first", name: "First" }, { _id: "second", name: "Second" }] };
   const french = { items: [{ _id: "second", name: "Deuxième" }, { _id: "first", name: "Premier" }] };

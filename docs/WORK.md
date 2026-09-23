@@ -30,11 +30,13 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–125, through printed/source page 123.
-- FR PDF physical pages 1–126, through printed/source page 123.
+- EN PDF physical pages 1–131, through printed/source page 129.
+- FR PDF physical pages 1–132, through printed/source page 129.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
-  Rules / Règles du jeu), Chapter Two (Combat), and Chapter Three through Step 6
-  (source pp.42–81), including the complete Core perk catalogue and starting-equipment section.
+  Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 6
+  (source pp.42–81), and Chapter Four through Clothing, Outfits and Headgear
+  (source pp.84–129), including all weapon sections, Dog Armor, Ballistic Weave
+  and Vault Jumpsuit linings.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
