@@ -3187,3 +3187,101 @@ test("Core Armor p.136 Upgrade mods and accepted upgrade sets are source-complet
   }
 });
 
+test("Core Power Armor p.137 table is source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 139 && catalog.certifiedThrough.en.sourcePage >= 137);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 140 && catalog.certifiedThrough.fr.sourcePage >= 137);
+
+  const specs = {
+    "lp5ZpYjbFhe8IUcx": {en:"Armor Frame",fr:"Châssis d’armure",table:"Armor Frame",loc:"all",p:0,e:0,r:0,hp:0,w:150,c:4500,rarity:4},
+    "XCxUCHrYFRdsgCqk": {en:"Raider Helm",fr:"Casque A. A. de pillard",table:"Raider Helm",loc:"head",p:6,e:4,r:7,hp:7,w:14,c:50,rarity:2},
+    "qEljKwu1UzA9BoL6": {en:"Raider Chest Piece",fr:"Plastron A. A. de pillard",table:"Raider Chest Piece",loc:"torso",p:8,e:6,r:9,hp:10,w:22,c:100,rarity:2},
+    "Fn3CiQjQCfE9IMy4": {en:"Raider Left Arm",fr:"Brassard A. A. de pillard (gauche)",table:"Raider Arm",loc:"armL",p:4,e:3,r:7,hp:7,w:16,c:75,rarity:2},
+    "th5iQbnAiLsKzIVV": {en:"Raider Right Arm",fr:"Brassard A. A. de pillard (droit)",table:"Raider Arm",loc:"armR",p:4,e:3,r:7,hp:7,w:16,c:75,rarity:2},
+    "JTHWr7cr6HeS2mN5": {en:"Raider Left Leg",fr:"Jambière A. A. de pillard (gauche)",table:"Raider Leg",loc:"legL",p:4,e:3,r:7,hp:7,w:17,c:75,rarity:2},
+    "KSd9eiC0XaVlIXkN": {en:"Raider Right Leg",fr:"Jambière A. A. de pillard (droite)",table:"Raider Leg",loc:"legR",p:4,e:3,r:7,hp:7,w:17,c:75,rarity:2},
+    "IONsTORca0MOKJgh": {en:"T-45 Helm",fr:"Casque T-45",table:"T-45 Helm",loc:"head",p:6,e:4,r:7,hp:7,w:12,c:60,rarity:2},
+    "5T8HTf7E0y1Mu9Zu": {en:"T-45 Chest Piece",fr:"Plastron T-45",table:"T-45 Chest Piece",loc:"torso",p:8,e:7,r:9,hp:14,w:20,c:140,rarity:2},
+    "qlSLcOpcqCUgyb8V": {en:"T-45 Left Arm",fr:"Brassard T-45 (gauche)",table:"T-45 Arm",loc:"armL",p:4,e:3,r:7,hp:7,w:15,c:100,rarity:2},
+    "KLN1PeBwMBoPhlCd": {en:"T-45 Right Arm",fr:"Brassard T-45 (droit)",table:"T-45 Arm",loc:"armR",p:4,e:3,r:7,hp:7,w:15,c:100,rarity:2},
+    "3K2oXJT9AJviSub3": {en:"T-45 Left Leg",fr:"Jambière T-45 (gauche)",table:"T-45 Leg",loc:"legL",p:4,e:3,r:7,hp:7,w:15,c:130,rarity:2},
+    "qqDWrw8j82P7DPc9": {en:"T-45 Right Leg",fr:"Jambière T-45 (droite)",table:"T-45 Leg",loc:"legR",p:4,e:3,r:7,hp:7,w:15,c:130,rarity:2},
+    "ZhmOXmBcKKxcPEv8": {en:"T-51 Helm",fr:"Casque T-51",table:"T-51 Helm",loc:"head",p:6,e:5,r:7,hp:9,w:12,c:80,rarity:3},
+    "BeGAdzye5MeP3kUO": {en:"T-51 Chest Piece",fr:"Plastron T-51",table:"T-51 Chest Piece",loc:"torso",p:8,e:7,r:9,hp:18,w:20,c:180,rarity:3},
+    "X9cMnQidJyiDg29B": {en:"T-51 Left Arm",fr:"Brassard T-51 (gauche)",table:"T-51 Arm",loc:"armL",p:5,e:4,r:7,hp:9,w:15,c:130,rarity:3},
+    "g3Y0zWDI9VUNoUWK": {en:"T-51 Right Arm",fr:"Brassard T-51 (droit)",table:"T-51 Arm",loc:"armR",p:5,e:4,r:7,hp:9,w:15,c:130,rarity:3},
+    "VbocpE9suK7meAfY": {en:"T-51 Left Leg",fr:"Jambière T-51 (gauche)",table:"T-51 Leg",loc:"legL",p:5,e:4,r:7,hp:9,w:15,c:10,rarity:3},
+    "YYbLmTtpw4LbcQZP": {en:"T-51 Right Leg",fr:"Jambière T-51 (droite)",table:"T-51 Leg",loc:"legR",p:5,e:4,r:7,hp:9,w:15,c:10,rarity:3},
+    "giRILdjCelBn3rjL": {en:"T-60 Helm",fr:"Casque T-60",table:"T-60 Helm",loc:"head",p:7,e:6,r:7,hp:10,w:12,c:130,rarity:4},
+    "ctWJbJpYQ9Q30TWc": {en:"T-60 Chest Piece",fr:"Plastron T-60",table:"T-60 Chest Piece",loc:"torso",p:9,e:8,r:9,hp:21,w:20,c:250,rarity:4},
+    "z5Qy6X4pCeRPEWUs": {en:"T-60 Left Arm",fr:"Brassard T-60 (gauche)",table:"T-60 Arm",loc:"armL",p:6,e:5,r:7,hp:10,w:15,c:170,rarity:4},
+    "VcWcoUmXcFk6rOka": {en:"T-60 Right Arm",fr:"Brassard T-60 (droit)",table:"T-60 Arm",loc:"armR",p:6,e:5,r:7,hp:10,w:15,c:170,rarity:4},
+    "jRNRzVKtIkwZ0zN7": {en:"T-60 Left Leg",fr:"Jambière T-60 (gauche)",table:"T-60 Leg",loc:"legL",p:6,e:5,r:7,hp:10,w:15,c:170,rarity:4},
+    "zZa8B73OW8EyQoMu": {en:"T-60 Right Leg",fr:"Jambière T-60 (droite)",table:"T-60 Leg",loc:"legR",p:6,e:5,r:7,hp:10,w:15,c:170,rarity:4},
+    "NJm96SJKxbdONtKU": {en:"X-01 Helm",fr:"Casque X-01",table:"X-01 Helm",loc:"head",p:8,e:7,r:7,hp:12,w:12,c:140,rarity:5},
+    "71Syqx4X35IjLNdc": {en:"X-01 Chest Piece",fr:"Plastron X-01",table:"X-01 Chest Piece",loc:"torso",p:10,e:8,r:9,hp:24,w:20,c:280,rarity:5},
+    "XJ3mQc6tGsm9Q12N": {en:"X-01 Left Arm",fr:"Brassard X-01 (gauche)",table:"X-01 Arm",loc:"armL",p:7,e:6,r:7,hp:12,w:15,c:200,rarity:5},
+    "82hgjmzTXmd4VdEs": {en:"X-01 Right Arm",fr:"Brassard X-01 (droit)",table:"X-01 Arm",loc:"armR",p:7,e:6,r:7,hp:12,w:15,c:200,rarity:5},
+    "jrSZkw346rKVnTfc": {en:"X-01 Left Leg",fr:"Jambière X-01 (gauche)",table:"X-01 Leg",loc:"legL",p:7,e:6,r:7,hp:12,w:15,c:200,rarity:5},
+    "jv0C9MAbuq1t9wkX": {en:"X-01 Right Leg",fr:"Jambière X-01 (droite)",table:"X-01 Leg",loc:"legR",p:7,e:6,r:7,hp:12,w:15,c:200,rarity:5}
+  };
+
+  const table = catalog.entries.find(entry => entry.page === 137 && entry.type === "table" && entry.sourceName === "Power Armor");
+  assert.ok(table);
+  assert.equal(table.certification.rowCount, 21);
+  assert.equal(table.certification.publishedIdentityCount, 31);
+  assert.equal(table.certification.sideSpecificVariantsDerived, true);
+  assert.equal(table.certification.errataApplied, true);
+  assert.match(table.certification.errataNote, /Weight and Cost columns/);
+  assert.match(table.certification.localizationDiscrepancy, /T-45 Leg prints 100 instead of 130/);
+  assert.match(table.certification.localizationDiscrepancy, /T-60 Helm\/Chest\/Arm\/Leg/);
+  assert.match(table.certification.localizationDiscrepancy, /X-01 Helm\/Chest\/Arm\/Leg/);
+  assert.match(table.certification.localizationDiscrepancy, /T-51 Leg cost 10/);
+
+  const p137Items = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && entry.status === "verified");
+  assert.equal(p137Items.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p137Items.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+  for (const entry of p137Items) {
+    const spec = specs[entry.documentId];
+    assert.equal(entry.sourceName, spec.en);
+    assert.equal(entry.localizedNames.fr, spec.fr);
+    assert.equal(entry.certification.sourceTableName, spec.table);
+    assert.equal(entry.certification.descriptionReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+    assert.equal(entry.certification.apparelType, "powerArmor");
+  }
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 137, language + "/apparel/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel/" + id + " errata review");
+      assert.equal(doc.name, spec[language], language + "/apparel/" + id + " name");
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.health.max, spec.hp);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2, language + "/apparel/" + id + " weight");
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.rarity, spec.rarity);
+
+      const loc = doc.system.location;
+      for (const key of ["head","torso","armL","armR","legL","legR"]) {
+        assert.equal(loc[key], spec.loc === key, language + "/apparel/" + id + " location " + key);
+      }
+      if (spec.loc === "all") assert.ok(Object.values(loc).every(value => value === false), language + "/apparel/" + id + " frame location representation");
+    }
+  }
+
+  for (const id of ["VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP"]) {
+    const entry = p137Items.find(item => item.documentId === id);
+    assert.match(entry.certification.note, /source-exact/);
+    assert.equal(entry.certification.cost, 10);
+  }
+});
+

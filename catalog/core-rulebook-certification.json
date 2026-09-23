@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 138,
-      "sourcePage": 136
+      "pdfPage": 139,
+      "sourcePage": 137
     },
     "fr": {
-      "pdfPage": 139,
-      "sourcePage": 136
+      "pdfPage": 140,
+      "sourcePage": 137
     }
   },
   "pageReviews": [
@@ -2229,6 +2229,22 @@
       "language": "fr",
       "pdfPage": 139,
       "sourcePage": 136,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 139,
+      "sourcePage": 137,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 140,
+      "sourcePage": 137,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -27495,6 +27511,1335 @@
         "installSkill": "Repair",
         "torsoDerived": false,
         "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "rule_text",
+      "sourceName": "Power Armor",
+      "localizedNames": {
+        "fr": "Armures assistées"
+      },
+      "scope": "out_of_scope",
+      "justification": "General Power Armor setting/design prose introduces the equipment family but does not define a standalone Foundry document on this page.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "note": "Detailed Armor Frame operation and model-specific modification rules occur on later source pages and are not certified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "table",
+      "sourceName": "Power Armor",
+      "localizedNames": {
+        "fr": "Armure assistée"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining the Power Armor frame and armor-piece Items; side-neutral Arm and Leg rows are materialized as stable Left/Right Foundry identities.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 21,
+        "publishedIdentityCount": 31,
+        "sideSpecificVariantsDerived": true,
+        "errataApplied": true,
+        "errataNote": "Errata V6 states that the Weight and Cost columns for all Power Armor entries on p.137 are swapped back correctly. The February 2023 EN digital Core already presents the corrected column order, so its p.137 values are used directly.",
+        "localizationDiscrepancy": "The official FR p.137 table preserves the expected metric weights but differs from canonical EN costs in several rows: T-45 Leg prints 100 instead of 130; T-60 Helm/Chest/Arm/Leg print 650/750/700/700 instead of 130/250/170/170; X-01 Helm/Chest/Arm/Leg print 60/140/100/100 instead of 140/280/200/200. Canonical mechanics follow EN + Errata. The T-51 Leg cost 10 is printed in both EN and FR and is retained because Errata V6 does not change that row value."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Armor Frame",
+      "localizedNames": {
+        "fr": "Châssis d’armure"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "lp5ZpYjbFhe8IUcx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Armor Frame",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 0,
+        "location": "all",
+        "weightLb": 150,
+        "cost": 4500,
+        "rarity": 4,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Raider Helm",
+      "localizedNames": {
+        "fr": "Casque A. A. de pillard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "XCxUCHrYFRdsgCqk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Helm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "head",
+        "weightLb": 14,
+        "cost": 50,
+        "rarity": 2,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Raider Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron A. A. de pillard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "qEljKwu1UzA9BoL6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Chest Piece",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 8,
+          "energy": 6,
+          "radiation": 9
+        },
+        "healthPoints": 10,
+        "location": "torso",
+        "weightLb": 22,
+        "cost": 100,
+        "rarity": 2,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Raider Left Arm",
+      "localizedNames": {
+        "fr": "Brassard A. A. de pillard (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral Raider Arm row.",
+      "pack": "apparel",
+      "documentId": "Fn3CiQjQCfE9IMy4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "armL",
+        "weightLb": 16,
+        "cost": 75,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Raider Right Arm",
+      "localizedNames": {
+        "fr": "Brassard A. A. de pillard (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral Raider Arm row.",
+      "pack": "apparel",
+      "documentId": "th5iQbnAiLsKzIVV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "armR",
+        "weightLb": 16,
+        "cost": 75,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Raider Left Leg",
+      "localizedNames": {
+        "fr": "Jambière A. A. de pillard (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral Raider Leg row.",
+      "pack": "apparel",
+      "documentId": "JTHWr7cr6HeS2mN5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "legL",
+        "weightLb": 17,
+        "cost": 75,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "Raider Right Leg",
+      "localizedNames": {
+        "fr": "Jambière A. A. de pillard (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral Raider Leg row.",
+      "pack": "apparel",
+      "documentId": "KSd9eiC0XaVlIXkN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "legR",
+        "weightLb": 17,
+        "cost": 75,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-45 Helm",
+      "localizedNames": {
+        "fr": "Casque T-45"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "IONsTORca0MOKJgh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-45 Helm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 4,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "head",
+        "weightLb": 12,
+        "cost": 60,
+        "rarity": 2,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-45 Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-45"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "5T8HTf7E0y1Mu9Zu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-45 Chest Piece",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 8,
+          "energy": 7,
+          "radiation": 9
+        },
+        "healthPoints": 14,
+        "location": "torso",
+        "weightLb": 20,
+        "cost": 140,
+        "rarity": 2,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-45 Left Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-45 Arm row.",
+      "pack": "apparel",
+      "documentId": "qlSLcOpcqCUgyb8V",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-45 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "armL",
+        "weightLb": 15,
+        "cost": 100,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-45 Right Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45 (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-45 Arm row.",
+      "pack": "apparel",
+      "documentId": "KLN1PeBwMBoPhlCd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-45 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "armR",
+        "weightLb": 15,
+        "cost": 100,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-45 Left Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-45 Leg row.",
+      "pack": "apparel",
+      "documentId": "3K2oXJT9AJviSub3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-45 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "legL",
+        "weightLb": 15,
+        "cost": 130,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-45 Right Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45 (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-45 Leg row.",
+      "pack": "apparel",
+      "documentId": "qqDWrw8j82P7DPc9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-45 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 4,
+          "energy": 3,
+          "radiation": 7
+        },
+        "healthPoints": 7,
+        "location": "legR",
+        "weightLb": 15,
+        "cost": 130,
+        "rarity": 2,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-51 Helm",
+      "localizedNames": {
+        "fr": "Casque T-51"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "ZhmOXmBcKKxcPEv8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-51 Helm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 5,
+          "radiation": 7
+        },
+        "healthPoints": 9,
+        "location": "head",
+        "weightLb": 12,
+        "cost": 80,
+        "rarity": 3,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-51 Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-51"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "BeGAdzye5MeP3kUO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-51 Chest Piece",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 8,
+          "energy": 7,
+          "radiation": 9
+        },
+        "healthPoints": 18,
+        "location": "torso",
+        "weightLb": 20,
+        "cost": 180,
+        "rarity": 3,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-51 Left Arm",
+      "localizedNames": {
+        "fr": "Brassard T-51 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-51 Arm row.",
+      "pack": "apparel",
+      "documentId": "X9cMnQidJyiDg29B",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-51 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 5,
+          "energy": 4,
+          "radiation": 7
+        },
+        "healthPoints": 9,
+        "location": "armL",
+        "weightLb": 15,
+        "cost": 130,
+        "rarity": 3,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-51 Right Arm",
+      "localizedNames": {
+        "fr": "Brassard T-51 (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-51 Arm row.",
+      "pack": "apparel",
+      "documentId": "g3Y0zWDI9VUNoUWK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-51 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 5,
+          "energy": 4,
+          "radiation": 7
+        },
+        "healthPoints": 9,
+        "location": "armR",
+        "weightLb": 15,
+        "cost": 130,
+        "rarity": 3,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-51 Left Leg",
+      "localizedNames": {
+        "fr": "Jambière T-51 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-51 Leg row.",
+      "pack": "apparel",
+      "documentId": "VbocpE9suK7meAfY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-51 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 5,
+          "energy": 4,
+          "radiation": 7
+        },
+        "healthPoints": 9,
+        "location": "legL",
+        "weightLb": 15,
+        "cost": 10,
+        "rarity": 3,
+        "sideDerived": true,
+        "note": "The unusually low cost 10 is source-exact in both EN and FR p.137; Errata V6 only corrects the Weight/Cost column order and does not replace this row value."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-51 Right Leg",
+      "localizedNames": {
+        "fr": "Jambière T-51 (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-51 Leg row.",
+      "pack": "apparel",
+      "documentId": "YYbLmTtpw4LbcQZP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-51 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 5,
+          "energy": 4,
+          "radiation": 7
+        },
+        "healthPoints": 9,
+        "location": "legR",
+        "weightLb": 15,
+        "cost": 10,
+        "rarity": 3,
+        "sideDerived": true,
+        "note": "The unusually low cost 10 is source-exact in both EN and FR p.137; Errata V6 only corrects the Weight/Cost column order and does not replace this row value."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-60 Helm",
+      "localizedNames": {
+        "fr": "Casque T-60"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "giRILdjCelBn3rjL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-60 Helm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 7,
+          "energy": 6,
+          "radiation": 7
+        },
+        "healthPoints": 10,
+        "location": "head",
+        "weightLb": 12,
+        "cost": 130,
+        "rarity": 4,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-60 Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-60"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "ctWJbJpYQ9Q30TWc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-60 Chest Piece",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 9,
+          "energy": 8,
+          "radiation": 9
+        },
+        "healthPoints": 21,
+        "location": "torso",
+        "weightLb": 20,
+        "cost": 250,
+        "rarity": 4,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-60 Left Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-60 Arm row.",
+      "pack": "apparel",
+      "documentId": "z5Qy6X4pCeRPEWUs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-60 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 5,
+          "radiation": 7
+        },
+        "healthPoints": 10,
+        "location": "armL",
+        "weightLb": 15,
+        "cost": 170,
+        "rarity": 4,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-60 Right Arm",
+      "localizedNames": {
+        "fr": "Brassard T-60 (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-60 Arm row.",
+      "pack": "apparel",
+      "documentId": "VcWcoUmXcFk6rOka",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-60 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 5,
+          "radiation": 7
+        },
+        "healthPoints": 10,
+        "location": "armR",
+        "weightLb": 15,
+        "cost": 170,
+        "rarity": 4,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-60 Left Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-60 Leg row.",
+      "pack": "apparel",
+      "documentId": "jRNRzVKtIkwZ0zN7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-60 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 5,
+          "radiation": 7
+        },
+        "healthPoints": 10,
+        "location": "legL",
+        "weightLb": 15,
+        "cost": 170,
+        "rarity": 4,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "T-60 Right Leg",
+      "localizedNames": {
+        "fr": "Jambière T-60 (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral T-60 Leg row.",
+      "pack": "apparel",
+      "documentId": "zZa8B73OW8EyQoMu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "T-60 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 6,
+          "energy": 5,
+          "radiation": 7
+        },
+        "healthPoints": 10,
+        "location": "legR",
+        "weightLb": 15,
+        "cost": 170,
+        "rarity": 4,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "X-01 Helm",
+      "localizedNames": {
+        "fr": "Casque X-01"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "NJm96SJKxbdONtKU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "X-01 Helm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 8,
+          "energy": 7,
+          "radiation": 7
+        },
+        "healthPoints": 12,
+        "location": "head",
+        "weightLb": 12,
+        "cost": 140,
+        "rarity": 5,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "X-01 Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron X-01"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor frame/piece Item defined directly by the Core p.137 table.",
+      "pack": "apparel",
+      "documentId": "71Syqx4X35IjLNdc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "X-01 Chest Piece",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 10,
+          "energy": 8,
+          "radiation": 9
+        },
+        "healthPoints": 24,
+        "location": "torso",
+        "weightLb": 20,
+        "cost": 280,
+        "rarity": 5,
+        "sideDerived": false,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "X-01 Left Arm",
+      "localizedNames": {
+        "fr": "Brassard X-01 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral X-01 Arm row.",
+      "pack": "apparel",
+      "documentId": "XJ3mQc6tGsm9Q12N",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "X-01 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 7,
+          "energy": 6,
+          "radiation": 7
+        },
+        "healthPoints": 12,
+        "location": "armL",
+        "weightLb": 15,
+        "cost": 200,
+        "rarity": 5,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "X-01 Right Arm",
+      "localizedNames": {
+        "fr": "Brassard X-01 (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral X-01 Arm row.",
+      "pack": "apparel",
+      "documentId": "82hgjmzTXmd4VdEs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "X-01 Arm",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 7,
+          "energy": 6,
+          "radiation": 7
+        },
+        "healthPoints": 12,
+        "location": "armR",
+        "weightLb": 15,
+        "cost": 200,
+        "rarity": 5,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "X-01 Left Leg",
+      "localizedNames": {
+        "fr": "Jambière X-01 (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral X-01 Leg row.",
+      "pack": "apparel",
+      "documentId": "jrSZkw346rKVnTfc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "X-01 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 7,
+          "energy": 6,
+          "radiation": 7
+        },
+        "healthPoints": 12,
+        "location": "legL",
+        "weightLb": 15,
+        "cost": 200,
+        "rarity": 5,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 137,
+      "type": "apparel",
+      "sourceName": "X-01 Right Leg",
+      "localizedNames": {
+        "fr": "Jambière X-01 (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Published side-specific Power Armor identity derived from the Core p.137 side-neutral X-01 Leg row.",
+      "pack": "apparel",
+      "documentId": "jv0C9MAbuq1t9wkX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          137
+        ],
+        "fr": [
+          137
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "X-01 Leg",
+        "apparelType": "powerArmor",
+        "resistances": {
+          "physical": 7,
+          "energy": 6,
+          "radiation": 7
+        },
+        "healthPoints": 12,
+        "location": "legR",
+        "weightLb": 15,
+        "cost": 200,
+        "rarity": 5,
+        "sideDerived": true,
+        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
       }
     }
   ]
