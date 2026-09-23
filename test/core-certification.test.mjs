@@ -3245,7 +3245,7 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN"].includes(entry.documentId);
+    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9"].includes(entry.documentId);
     assert.equal(entry.certification.descriptionReviewed, reviewedLater);
     assert.equal(entry.certification.acceptedModsReviewed, reviewedLater);
     assert.equal(entry.certification.apparelType, "powerArmor");
@@ -3451,6 +3451,129 @@ test("Core Power Armor p.139 Raider family and unique mods are source-complete",
       assert.equal(doc.system.cost, spec.c);
       assert.equal(doc.system.perks, spec.perks);
       if (spec.effectEn) assert.equal(doc.system.effect, language === "en" ? spec.effectEn : spec.effectFr);
+    }
+  }
+});
+
+test("Core Power Armor p.140 T-45 family and unique upgrades are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 142 && catalog.certifiedThrough.en.sourcePage >= 140);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 143 && catalog.certifiedThrough.fr.sourcePage >= 140);
+
+  const t45Ids = new Set(["IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9"]);
+  const descriptions = {
+    en: "<p>Developed before the Great War, the T-45 was originally developed and manufactured for the United States Army by American defense contractor, West Tek. The T-45 Power Armor was the first version of Power Armor to be successfully deployed in battle, and as such, it remains relatively common more than 200 years later.</p><p>Each piece of T-45 Power Armor can accept three mods: an upgrade mod, one plating mod, and a system. All Unique T-45 Power Armor Upgrade Mods are installed with the Repair Skill.</p>",
+    fr: "<p>Développée avant la Grande Guerre, l’armure T-45 fut à l’origine conçue et fabriquée pour l’armée américaine par l’entreprise de Défense nationale américaine West Tek. L’armure assistée T-45 fut la première version de l’armure assistée à être utilisée avec succès au combat, en tant que telle, elle reste relativement répandue même plus de deux cents ans plus tard.</p><p>Chaque pièce d’armure assistée T-45 peut accepter 3 mods : 1 mod d’amélioration, 1 mod de blindage et 1 mod de système. Tous les mods d’amélioration réservés à l’armure assistée T-45 s’installent avec la compétence Réparation.</p>"
+  };
+
+  const specs = {
+    "7KURZ8oGIgDt6YxK": {en:"T-45b Helm",fr:"Casque T-45b",loc:"Head",p:0,e:0,r:0,hp:1,w:1,c:3,perks:"Armorer 1"},
+    "MYF3miuCrGR3jUjb": {en:"T-45b Chest Piece",fr:"Plastron T-45b",loc:"Torso",p:0,e:0,r:0,hp:1,w:1,c:7,perks:"Armorer 1"},
+    "6OY0YUH32cpkcCuH": {en:"T-45b Arm",fr:"Brassard T-45b",loc:"Arm",p:1,e:1,r:0,hp:1,w:1,c:7,perks:"Armorer 1"},
+    "AKhF3AMqHuvZ1STc": {en:"T-45b Leg",fr:"Jambière T-45b",loc:"Leg",p:1,e:1,r:0,hp:1,w:1,c:7,perks:"Armorer 1"},
+    "qH24ODPdUtNy87vp": {en:"T-45c Helm",fr:"Casque T-45c",loc:"Head",p:1,e:1,r:0,hp:2,w:1,c:6,perks:"Armorer 2"},
+    "wLaFI7WPiiBEFiN9": {en:"T-45c Chest Piece",fr:"Plastron T-45c",loc:"Torso",p:0,e:0,r:0,hp:4,w:2,c:14,perks:"Armorer 2"},
+    "RR7Vs2f9fJxRK7nq": {en:"T-45c Arm",fr:"Brassard T-45c",loc:"Arm",p:2,e:2,r:0,hp:2,w:2,c:10,perks:"Armorer 2"},
+    "gujEG9KDg5dMAUsY": {en:"T-45c Leg",fr:"Jambière T-45c",loc:"Leg",p:2,e:2,r:0,hp:2,w:2,c:10,perks:"Armorer 2"},
+    "8Z8lfXud9r26HHkZ": {en:"T-45d Helm",fr:"Casque T-45d",loc:"Head",p:1,e:1,r:0,hp:3,w:2,c:9,perks:"Armorer 2, Science! 1"},
+    "G1BevsRBcrOLIkSf": {en:"T-45d Chest Piece",fr:"Plastron T-45d",loc:"Torso",p:1,e:1,r:0,hp:5,w:3,c:21,perks:"Armorer 2, Science! 1"},
+    "DtPOAGbxzkA9Ypyj": {en:"T-45d Arm",fr:"Brassard T-45d",loc:"Arm",p:2,e:3,r:0,hp:3,w:2,c:15,perks:"Armorer 2, Science! 1"},
+    "qp17f82dYxaR8fGw": {en:"T-45d Leg",fr:"Jambière T-45d",loc:"Leg",p:2,e:3,r:0,hp:3,w:2,c:15,perks:"Armorer 2, Science! 1"},
+    "3wSPEqbGcAysqqaq": {en:"T-45e Helm",fr:"Casque T-45e",loc:"Head",p:1,e:2,r:0,hp:3,w:2,c:12,perks:"Armorer 3, Science! 1"},
+    "qWlZAyV7iemeqrmU": {en:"T-45e Chest Piece",fr:"Plastron T-45e",loc:"Torso",p:1,e:1,r:0,hp:7,w:4,c:28,perks:"Armorer 3, Science! 1"},
+    "Pfh0zvUkSVL49AeL": {en:"T-45e Arm",fr:"Brassard T-45e",loc:"Arm",p:3,e:3,r:0,hp:3,w:3,c:20,perks:"Armorer 3, Science! 1"},
+    "27Sls5dfZTAfQIgf": {en:"T-45e Leg",fr:"Jambière T-45e",loc:"Leg",p:3,e:3,r:0,hp:3,w:3,c:20,perks:"Armorer 3, Science! 1"},
+    "7B2xH72N9Xpe5HV0": {en:"T-45f Helm",fr:"Casque T-45f",loc:"Head",p:2,e:2,r:0,hp:4,w:3,c:15,perks:"Armorer 3, Science! 2"},
+    "j49aEIpiBTjvbGbO": {en:"T-45f Chest Piece",fr:"Plastron T-45f",loc:"Torso",p:1,e:1,r:0,hp:8,w:5,c:35,perks:"Armorer 3, Science! 2"},
+    "v6Y7ypBdjXorV8ek": {en:"T-45f Arm",fr:"Brassard T-45f",loc:"Arm",p:3,e:4,r:0,hp:4,w:4,c:25,perks:"Armorer 3, Science! 2"},
+    "Xm3NOI9pHqcAOiar": {en:"T-45f Leg",fr:"Jambière T-45f",loc:"Leg",p:3,e:4,r:0,hp:4,w:4,c:25,perks:"Armorer 3, Science! 2"}
+  };
+
+  const p137T45 = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && t45Ids.has(entry.documentId));
+  assert.equal(p137T45.length, 6);
+  for (const entry of p137T45) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
+    assert.equal(entry.certification.maxMods, 3);
+    assert.equal(entry.certification.upgradeSlots, 1);
+    assert.equal(entry.certification.platingSlots, 1);
+    assert.equal(entry.certification.systemSlots, 1);
+    assert.equal(entry.certification.uniqueUpgradeModsReviewed, true);
+    assert.ok(entry.sourcePages.en.includes(140));
+    assert.ok(entry.sourcePages.fr.includes(140));
+  }
+
+  const rule = catalog.entries.find(entry => entry.page === 140 && entry.type === "rule_text" && entry.sourceName === "T-45 Power Armor");
+  assert.ok(rule);
+  assert.equal(rule.certification.maxMods, 3);
+  assert.equal(rule.certification.upgradeSlots, 1);
+  assert.equal(rule.certification.platingSlots, 1);
+  assert.equal(rule.certification.systemSlots, 1);
+  assert.deepEqual(rule.certification.genericSystemAndPlatingReferencePages, [144,145]);
+
+  const table = catalog.entries.find(entry => entry.page === 140 && entry.type === "table" && entry.sourceName === "Unique T-45 Power Armor Upgrade Mods");
+  assert.ok(table);
+  assert.equal(table.certification.rowCount, 20);
+
+  const p140Mods = catalog.entries.filter(entry => entry.page === 140 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p140Mods.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p140Mods.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+
+  const upgradeIds = {
+    head: new Set(["7KURZ8oGIgDt6YxK","qH24ODPdUtNy87vp","8Z8lfXud9r26HHkZ","3wSPEqbGcAysqqaq","7B2xH72N9Xpe5HV0"]),
+    torso: new Set(["MYF3miuCrGR3jUjb","wLaFI7WPiiBEFiN9","G1BevsRBcrOLIkSf","qWlZAyV7iemeqrmU","j49aEIpiBTjvbGbO"]),
+    arm: new Set(["6OY0YUH32cpkcCuH","RR7Vs2f9fJxRK7nq","DtPOAGbxzkA9Ypyj","Pfh0zvUkSVL49AeL","v6Y7ypBdjXorV8ek"]),
+    leg: new Set(["AKhF3AMqHuvZ1STc","gujEG9KDg5dMAUsY","qp17f82dYxaR8fGw","27Sls5dfZTAfQIgf","Xm3NOI9pHqcAOiar"])
+  };
+  const systemIds = {
+    head: new Set(["2SqnqGHd7D3y4O5E","42Qe82QKBhubp9xU","En57MQ3hn0DkcHJy","zALOB7gLXndAThjj"]),
+    torso: new Set(["908vI94cQ4wdtSaI","Fi4sOOvTpfCKlBVS","Fov5IU0CbgDuZUuO","HdcX4nu2ZKYDf9hG","HlZVuMrkMKwSx0gT","JCala9JIwLsgpDig","dCYE8deU6qI7GARe","gCQROCvacrax9ukk","t2wGFT9GqqzS3Qt9","vuySzeWEI174mwLc"]),
+    arm: new Set(["K63y4mcKxr792XLB","ZsGBPsT9kf1lVrFw","cMFQXRN9ZrDIU23Y","zX0aUfac1HnsEvZO"]),
+    leg: new Set(["JpGZrBzUJTLieuRJ","RrhtyBPhjtENsF6w","pZ2FIyhKvuL7EPT0"])
+  };
+  const platingIds = {
+    generic: new Set(["7iRkK1Elj5iRfANw","8fvlLrbWjODf6BCe","DxewSX1ooPKoNPPs","WKklumSE0xUCXFmc","kGts8ZQ6Lr4bkF9M","mgzavWT1TZT1qdoR"]),
+    torso: new Set(["7IO8gCf1f2bCK4a0","JAN0jzOhkMyI3U1w","faqvoA7iZx90tXnH","hJDcOKYapml78um8","lqvdGQ6axRjBfNoe","vZs57HCeBc9iOVUR"])
+  };
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of t45Ids) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language], language + "/apparel/" + id + " T-45 p.140 description");
+      assert.equal(doc.system.mods.max, 3, language + "/apparel/" + id + " max mods");
+
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      const group = doc.system.location.head ? "head" : doc.system.location.torso ? "torso" : (doc.system.location.armL || doc.system.location.armR) ? "arm" : "leg";
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "upgrade").map(([mid]) => mid)), upgradeIds[group], language + "/apparel/" + id + " T-45 upgrades");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "system").map(([mid]) => mid)), systemIds[group], language + "/apparel/" + id + " systems");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "plating").map(([mid]) => mid)), group === "torso" ? platingIds.torso : platingIds.generic, language + "/apparel/" + id + " plating");
+
+      for (const [mid,value] of embedded.filter(([,value]) => value.system.modType === "upgrade")) {
+        assert.equal(value.system.perks, specs[mid].perks, language + "/apparel/" + id + " embedded " + mid + " perks");
+      }
+    }
+
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 140, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, "upgrade");
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
     }
   }
 });

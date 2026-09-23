@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 141,
-      "sourcePage": 139
+      "pdfPage": 142,
+      "sourcePage": 140
     },
     "fr": {
-      "pdfPage": 142,
-      "sourcePage": 139
+      "pdfPage": 143,
+      "sourcePage": 140
     }
   },
   "pageReviews": [
@@ -2277,6 +2277,22 @@
       "language": "fr",
       "pdfPage": 142,
       "sourcePage": 139,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 142,
+      "sourcePage": 140,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 143,
+      "sourcePage": 140,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -27986,16 +28002,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          140
         ],
         "fr": [
-          137
+          137,
+          140
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-45 Helm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28009,7 +28027,12 @@
         "cost": 60,
         "rarity": 2,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28027,16 +28050,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          140
         ],
         "fr": [
-          137
+          137,
+          140
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-45 Chest Piece",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28050,7 +28075,12 @@
         "cost": 140,
         "rarity": 2,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28068,16 +28098,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          140
         ],
         "fr": [
-          137
+          137,
+          140
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-45 Arm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28091,7 +28123,12 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28109,16 +28146,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          140
         ],
         "fr": [
-          137
+          137,
+          140
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-45 Arm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28132,7 +28171,12 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28150,16 +28194,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          140
         ],
         "fr": [
-          137
+          137,
+          140
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-45 Leg",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28173,7 +28219,12 @@
         "cost": 130,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -28191,16 +28242,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          140
         ],
         "fr": [
-          137
+          137,
+          140
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "T-45 Leg",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28214,7 +28267,12 @@
         "cost": 130,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true
       }
     },
     {
@@ -29278,6 +29336,852 @@
         "cost": 25,
         "perks": "Armorer 1",
         "effect": "Enemies who attack you with a melee or unarmed attack and suffer a complication suffer 2 CD damage",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "rule_text",
+      "sourceName": "T-45 Power Armor",
+      "localizedNames": {
+        "fr": "Armure assistée T-45"
+      },
+      "scope": "out_of_scope",
+      "justification": "Family description and three-slot modification rule are represented on the six reusable T-45 Power Armor piece Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "upgradeInstallSkill": "Repair",
+        "genericSystemAndPlatingReferencePages": [
+          144,
+          145
+        ],
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.140 T-45 Power Armor correction. The p.137 Power Armor cost errata does not alter the p.140 unique T-45 Upgrade table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "table",
+      "sourceName": "Unique T-45 Power Armor Upgrade Mods",
+      "localizedNames": {
+        "fr": "Mods d’amélioration réservés à l’armure assistée T-45"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining the 20 reusable T-45b through T-45f Power Armor Upgrade mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 20,
+        "installSkill": "Repair",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.140 T-45 Power Armor correction. The p.137 Power Armor cost errata does not alter the p.140 unique T-45 Upgrade table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45b Helm",
+      "localizedNames": {
+        "fr": "Casque T-45b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "7KURZ8oGIgDt6YxK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 3,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45b Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-45b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "MYF3miuCrGR3jUjb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 7,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45b Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "6OY0YUH32cpkcCuH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 7,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45b Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45b"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "AKhF3AMqHuvZ1STc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 7,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45c Helm",
+      "localizedNames": {
+        "fr": "Casque T-45c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "qH24ODPdUtNy87vp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 1,
+        "cost": 6,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45c Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-45c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "wLaFI7WPiiBEFiN9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 2,
+        "cost": 14,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45c Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "RR7Vs2f9fJxRK7nq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 10,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45c Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45c"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "gujEG9KDg5dMAUsY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 10,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45d Helm",
+      "localizedNames": {
+        "fr": "Casque T-45d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "8Z8lfXud9r26HHkZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 2,
+        "cost": 9,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45d Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-45d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "G1BevsRBcrOLIkSf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 5,
+        "weightLb": 3,
+        "cost": 21,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45d Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "DtPOAGbxzkA9Ypyj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 2,
+        "cost": 15,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45d Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45d"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "qp17f82dYxaR8fGw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 2,
+        "cost": 15,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45e Helm",
+      "localizedNames": {
+        "fr": "Casque T-45e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "3wSPEqbGcAysqqaq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 2,
+        "cost": 12,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45e Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-45e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "qWlZAyV7iemeqrmU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 7,
+        "weightLb": 4,
+        "cost": 28,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45e Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "Pfh0zvUkSVL49AeL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 3,
+        "cost": 20,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45e Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45e"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "27Sls5dfZTAfQIgf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 3,
+        "cost": 20,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45f Helm",
+      "localizedNames": {
+        "fr": "Casque T-45f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "7B2xH72N9Xpe5HV0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 3,
+        "cost": 15,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45f Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron T-45f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "j49aEIpiBTjvbGbO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 8,
+        "weightLb": 5,
+        "cost": 35,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45f Arm",
+      "localizedNames": {
+        "fr": "Brassard T-45f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "v6Y7ypBdjXorV8ek",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 25,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 140,
+      "type": "apparel_mod",
+      "sourceName": "T-45f Leg",
+      "localizedNames": {
+        "fr": "Jambière T-45f"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable T-45 Power Armor Upgrade mod defined directly by the Core p.140 unique-upgrade table.",
+      "pack": "apparel-mods",
+      "documentId": "Xm3NOI9pHqcAOiar",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          140
+        ],
+        "fr": [
+          140
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 25,
+        "perks": "Armorer 3, Science! 2",
         "installSkill": "Repair",
         "errataReviewed": true
       }
