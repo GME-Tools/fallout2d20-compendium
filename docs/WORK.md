@@ -30,13 +30,13 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–131, through printed/source page 129.
-- FR PDF physical pages 1–132, through printed/source page 129.
+- EN PDF physical pages 1–132, through printed/source page 130.
+- FR PDF physical pages 1–133, through printed/source page 130.
 - Completed editorial sections: front matter, Introduction, Chapter One (Core
   Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 6
   (source pp.42–81), and Chapter Four through Clothing, Outfits and Headgear
-  (source pp.84–129), including all weapon sections, Dog Armor, Ballistic Weave
-  and Vault Jumpsuit linings.
+  (source pp.84–130), including all weapon sections, Dog Armor, Ballistic Weave,
+  Vault Jumpsuit linings, and the p.130 Raider/Leather armor-piece tables.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
@@ -182,10 +182,11 @@ Current completed boundary:
 - The official FR p.120 table misprints Mine à impulsion with the Plasma Mine profile (9 CD, no Stun, Thrown (M), cost 135). Canonical EN + Errata retains 6 CD, Stun, Mine and cost 100; the localization discrepancy is recorded in the certification inventory.
 - Source pp.122–123 certify the Apparel overview and all four Dog Armor profiles. General clothing, outfit, armor-piece, headgear, super-mutant, Power Armor and robot-armor guidance is explicitly out of scope. The four canine Items retain exact resistances, coverage, weights, costs and rarities; their EN/FR descriptions now include the complete official acquisition sentence omitted by the earlier extraction.
 - Source pp.124–129 now certify the complete Clothing, Outfit and Headgear table (29 profiles), all five Ballistic Weave mods and all five Vault Jumpsuit lining mods. The audit corrects Hard Hat rarity to 1, Hazmat Suit head coverage and explicit radiation immunity, restricts Ballistic Weave to the six profiles named by source prose, removes Ballistic Weave from Vault Jumpsuit, converts reusable embedded mods to canonical `$ref` dependencies, restores the complete official FR profile text, removes stale EN sidebar page references, and records the FR p.124 misplaced COUVRE-CHEFS heading as a localization-layout discrepancy.
+- Source p.130 certifies the Raider Armor and Leather Armor reference tables and all 30 reusable side-specific armor-piece identities derived from their 18 side-neutral source rows. Canonical resistances, locations, weights, costs and rarities already matched EN; FR metric weights match the official table. Six right-leg French names were corrected from the masculine side suffix “(droit)” to the grammatically correct “(droite)”. The later family descriptions plus Material/Upgrade mod lists are deliberately not certified yet; they occur on later source pages.
 
 ## Next lot
 
-Continue page-by-page at printed/source p.130 with Armor and Armor Mods, beginning with the Raider Armor and Leather Armor tables. Do not re-audit pp.1–129.
+Continue page-by-page at printed/source p.131 with the Metal Armor and Combat Armor tables. Do not re-audit pp.1–130.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -193,7 +194,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–129
+There are no unresolved anomalies or owner decisions in the completed p.1–130
 boundary.
 
 ## Validation
@@ -203,7 +204,7 @@ boundary, explicit scope/status fields, bilingual identity/provenance for verifi
 entries, exact Skill and origin-Trait identities/source pages, the p.54 Mister Handy
 attachment mechanics/localization, targeted FR source-text regressions, and absence
 of unexplained Core documents with exact provenance within the certified boundary.
-It now also checks explicit source classification and canonical rule notes through p.123, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum, plus all 15 p.95 Small Guns with exact mechanics, weights, ammunition, accepted-mod identities, EN extraction repairs, p.97–99 errata and the two documented FR p.95 mechanical discrepancies. It also covers the p.101 Small Gun mod continuation, all five p.101 Energy Weapons, Laser Musket and Gamma Gun unique mods, all Energy Weapon mods through p.105, corrected same-name mod-family references, the Boosted Capacitor/stock/Signal Repeater fixes, and the FR Gamma Gun perk discrepancy. It additionally certifies all seven Big Guns and all 29 weapon-specific Big Gun mods through p.110, including the Flamer duplicate/range cleanup, Flamer perk errata, Gatling-only mod corrections, exact bilingual coordinates and the FR Flamer weight discrepancy, then the complete weapon closure through p.121: two Power Fist mods, three Throwing Weapons and 11 Explosives, including corrected Heating Coil identities, weights, mine errata and the FR Pulse Mine discrepancy. The p.122–123 regression accounts for all overview rules and verifies the complete four-item Dog Armor table, bilingual provenance, exact metric weights and descriptions. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
+It now also checks explicit source classification and canonical rule notes through p.123, including the EN LCK/FR CHA Availability discrepancy, the Q3 2026 unique-mod erratum, the source-derived weapon-rule vocabulary and Fire Rate/range contract from pp.88–90, the complete 28-identity ammunition inventory with p.91/p.93 provenance, source quantities/costs/rarities, FR weight conversion, syringe mechanics, and the p.94 Fusion Core Scrounger erratum, plus all 15 p.95 Small Guns with exact mechanics, weights, ammunition, accepted-mod identities, EN extraction repairs, p.97–99 errata and the two documented FR p.95 mechanical discrepancies. It also covers the p.101 Small Gun mod continuation, all five p.101 Energy Weapons, Laser Musket and Gamma Gun unique mods, all Energy Weapon mods through p.105, corrected same-name mod-family references, the Boosted Capacitor/stock/Signal Repeater fixes, and the FR Gamma Gun perk discrepancy. It additionally certifies all seven Big Guns and all 29 weapon-specific Big Gun mods through p.110, including the Flamer duplicate/range cleanup, Flamer perk errata, Gatling-only mod corrections, exact bilingual coordinates and the FR Flamer weight discrepancy, then the complete weapon closure through p.121: two Power Fist mods, three Throwing Weapons and 11 Explosives, including corrected Heating Coil identities, weights, mine errata and the FR Pulse Mine discrepancy. The p.122–123 regression accounts for all overview rules and verifies the complete four-item Dog Armor table, bilingual provenance, exact metric weights and descriptions. The p.130 regression then verifies the full Raider/Leather armor-table inventory as 30 stable side-specific Items, exact bilingual names/provenance, all resistances, locations, weights, costs and rarities, while guarding the distinct later Raider Power Armor identities. It checks the complete Step 6 source inventory through p.81, including all 16 equipment bundles and their bilingual referenced identities, current Farmhand/Skirmisher errata, the Trader FR quantity discrepancy, exact Random Trinkets results, all Tag Skill Item rows and the higher-level starting-equipment table. It also checks the certified perk identities through source p.64 plus targeted
 bilingual counterparts, their exact source coordinates and canonical requirement
 fields, restored combat-die symbols, source-exact EN names, the Armorer/Barbarian
 and Gun Nut errata regressions, the p.65–68 exact perk source/requirements contract,

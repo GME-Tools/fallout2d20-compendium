@@ -2502,3 +2502,87 @@ test("Core Clothing and Outfits pp.124-129 are source-complete", async () => {
   for (const id of ["mGCVgHtv7btlXFcj","j3Q6RHDSuhadGvdm","RWHypmbHATEbfGdU","sHVONLW2lTNyu8Mq","cdwX7EVolnIWRaZi"]) assert.doesNotMatch(docs.en.get(`apparel/${id}`).system.description, /see sidebar, p[.] 126/);
   assert.equal(docs.en.get("apparel/XzEQFrZXE4OPNs3g").name, "Engineer’s Armor"); assert.equal(docs.en.get("apparel/lVYblrMAgEfHnWTR").name, "Brotherhood Scribe’s Armor"); assert.equal(docs.en.get("apparel/1t9ZfJxVs14n5wTX").name, "Brotherhood Scribe’s Hat"); assert.equal(docs.en.get("apparel/xEiw9lX3nYE1uoT0").name, "Welder’s Visor");
 });
+
+
+test("Core Armor p.130 Raider and Leather tables are source-complete", async () => {
+  assert.deepEqual(catalog.certifiedThrough.en, { pdfPage: 132, sourcePage: 130 });
+  assert.deepEqual(catalog.certifiedThrough.fr, { pdfPage: 133, sourcePage: 130 });
+
+  const expected = new Map([
+    ["F15SCdqO8m3rhpkc", { en: "Raider Chest Piece", fr: "Plastron de pillard", table: "Raider Chest Piece", location: "torso", physical: 1, energy: 1, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 18, rarity: 0 }],
+    ["CCrzErrpyLp7Ruz4", { en: "Raider Left Arm", fr: "Bras de pillard (gauche)", table: "Raider Arm", location: "armL", physical: 1, energy: 1, radiation: 0, enWeight: 3, frWeight: 1.5, cost: 6, rarity: 0 }],
+    ["U38QzZYOaKw1oC3h", { en: "Raider Right Arm", fr: "Bras de pillard (droit)", table: "Raider Arm", location: "armR", physical: 1, energy: 1, radiation: 0, enWeight: 3, frWeight: 1.5, cost: 6, rarity: 0 }],
+    ["lW7UmLaX9cJtuYIV", { en: "Raider Left Leg", fr: "Jambe de pillard (gauche)", table: "Raider Leg", location: "legL", physical: 1, energy: 1, radiation: 0, enWeight: 3, frWeight: 1.5, cost: 8, rarity: 0 }],
+    ["C5ifa1Dx7rIxx65I", { en: "Raider Right Leg", fr: "Jambe de pillard (droite)", table: "Raider Leg", location: "legR", physical: 1, energy: 1, radiation: 0, enWeight: 3, frWeight: 1.5, cost: 8, rarity: 0 }],
+    ["TMaT9gY04hSW3fF8", { en: "Sturdy Raider Chest Piece", fr: "Plastron de pillard solide", table: "Sturdy Raider Chest Piece", location: "torso", physical: 2, energy: 2, radiation: 0, enWeight: 12, frWeight: 6, cost: 33, rarity: 1 }],
+    ["UolcghI8rwVUXpam", { en: "Sturdy Raider Left Arm", fr: "Bras de pillard solide (gauche)", table: "Sturdy Raider Arm", location: "armL", physical: 2, energy: 2, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 8, rarity: 1 }],
+    ["LVtFl6zabIs1mrcb", { en: "Sturdy Raider Right Arm", fr: "Bras de pillard solide (droit)", table: "Sturdy Raider Arm", location: "armR", physical: 2, energy: 2, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 8, rarity: 1 }],
+    ["sEsSb1c3LzdTMpM2", { en: "Sturdy Raider Left Leg", fr: "Jambe de pillard solide (gauche)", table: "Sturdy Raider Leg", location: "legL", physical: 2, energy: 2, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 13, rarity: 1 }],
+    ["eFk2o4BJK1wcWTDN", { en: "Sturdy Raider Right Leg", fr: "Jambe de pillard solide (droite)", table: "Sturdy Raider Leg", location: "legR", physical: 2, energy: 2, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 13, rarity: 1 }],
+    ["aA9RTmukDKwJd59o", { en: "Heavy Raider Chest Piece", fr: "Plastron de pillard lourd", table: "Heavy Raider Chest Piece", location: "torso", physical: 3, energy: 3, radiation: 0, enWeight: 17, frWeight: 8.5, cost: 48, rarity: 2 }],
+    ["ZyjXbSyiFKjT20iR", { en: "Heavy Raider Left Arm", fr: "Bras de pillard lourd (gauche)", table: "Heavy Raider Arm", location: "armL", physical: 3, energy: 3, radiation: 0, enWeight: 10, frWeight: 5, cost: 15, rarity: 2 }],
+    ["1kOtnBKd9CjpYOHW", { en: "Heavy Raider Right Arm", fr: "Bras de pillard lourd (droit)", table: "Heavy Raider Arm", location: "armR", physical: 3, energy: 3, radiation: 0, enWeight: 10, frWeight: 5, cost: 15, rarity: 2 }],
+    ["rCNWvE2OVtQErwSa", { en: "Heavy Raider Left Leg", fr: "Jambe de pillard lourde (gauche)", table: "Heavy Raider Leg", location: "legL", physical: 3, energy: 3, radiation: 0, enWeight: 10, frWeight: 5, cost: 18, rarity: 2 }],
+    ["YZyjpoAFfRJDvufP", { en: "Heavy Raider Right Leg", fr: "Jambe de pillard lourde (droite)", table: "Heavy Raider Leg", location: "legR", physical: 3, energy: 3, radiation: 0, enWeight: 10, frWeight: 5, cost: 18, rarity: 2 }],
+    ["hLHlZT5mDbRSzXOp", { en: "Leather Chest Piece", fr: "Plastron en cuir", table: "Leather Chest Piece", location: "torso", physical: 1, energy: 2, radiation: 0, enWeight: 5, frWeight: 2.5, cost: 25, rarity: 1 }],
+    ["UYhmJZwhnlwIR8fD", { en: "Leather Left Arm", fr: "Brassard en cuir (gauche)", table: "Leather Arm", location: "armL", physical: 1, energy: 2, radiation: 0, enWeight: 2, frWeight: 1, cost: 8, rarity: 1 }],
+    ["f23UwUVmMqA60No3", { en: "Leather Right Arm", fr: "Brassard en cuir (droit)", table: "Leather Arm", location: "armR", physical: 1, energy: 2, radiation: 0, enWeight: 2, frWeight: 1, cost: 8, rarity: 1 }],
+    ["uC3L44Jd1lpnTteV", { en: "Leather Left Leg", fr: "Jambière en cuir (gauche)", table: "Leather Leg", location: "legL", physical: 1, energy: 2, radiation: 0, enWeight: 2, frWeight: 1, cost: 10, rarity: 1 }],
+    ["UYuniDcNwxokqGHW", { en: "Leather Right Leg", fr: "Jambière en cuir (droite)", table: "Leather Leg", location: "legR", physical: 1, energy: 2, radiation: 0, enWeight: 2, frWeight: 1, cost: 10, rarity: 1 }],
+    ["1UDHhxbyQuOtX9EH", { en: "Sturdy Leather Chest Piece", fr: "Plastron en cuir solide", table: "Sturdy Leather Chest Piece", location: "torso", physical: 2, energy: 3, radiation: 0, enWeight: 10, frWeight: 5, cost: 50, rarity: 2 }],
+    ["I2KcUoQK3ZNCZ4F4", { en: "Sturdy Leather Left Arm", fr: "Brassard en cuir solide (gauche)", table: "Sturdy Leather Arm", location: "armL", physical: 2, energy: 3, radiation: 0, enWeight: 5, frWeight: 2.5, cost: 18, rarity: 2 }],
+    ["oVvBb3T24ydKgaiy", { en: "Sturdy Leather Right Arm", fr: "Brassard en cuir solide (droit)", table: "Sturdy Leather Arm", location: "armR", physical: 2, energy: 3, radiation: 0, enWeight: 5, frWeight: 2.5, cost: 18, rarity: 2 }],
+    ["HClBdbJwrzkUCuZZ", { en: "Sturdy Leather Left Leg", fr: "Jambière en cuir solide (gauche)", table: "Sturdy Leather Leg", location: "legL", physical: 2, energy: 3, radiation: 0, enWeight: 5, frWeight: 2.5, cost: 20, rarity: 2 }],
+    ["g5Y59atwvxDXMvoE", { en: "Sturdy Leather Right Leg", fr: "Jambière en cuir solide (droite)", table: "Sturdy Leather Leg", location: "legR", physical: 2, energy: 3, radiation: 0, enWeight: 5, frWeight: 2.5, cost: 20, rarity: 2 }],
+    ["v55iaviJCqWOVY2Q", { en: "Heavy Leather Chest Piece", fr: "Plastron en cuir lourd", table: "Heavy Leather Chest Piece", location: "torso", physical: 3, energy: 4, radiation: 0, enWeight: 15, frWeight: 7.5, cost: 75, rarity: 3 }],
+    ["6GQTHH3zEYZdMSQk", { en: "Heavy Leather Left Arm", fr: "Brassard en cuir lourd (gauche)", table: "Heavy Leather Arm", location: "armL", physical: 3, energy: 4, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 28, rarity: 3 }],
+    ["SbGvygde4xeHRGJt", { en: "Heavy Leather Right Arm", fr: "Brassard en cuir lourd (droit)", table: "Heavy Leather Arm", location: "armR", physical: 3, energy: 4, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 28, rarity: 3 }],
+    ["nu0CMwCsoeJfTVUx", { en: "Heavy Leather Left Leg", fr: "Jambière en cuir lourde (gauche)", table: "Heavy Leather Leg", location: "legL", physical: 3, energy: 4, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 30, rarity: 3 }],
+    ["17SJL8PoJweKD216", { en: "Heavy Leather Right Leg", fr: "Jambière en cuir lourde (droite)", table: "Heavy Leather Leg", location: "legR", physical: 3, energy: 4, radiation: 0, enWeight: 7, frWeight: 3.5, cost: 30, rarity: 3 }]
+  ]);
+
+  const p130 = catalog.entries.filter(entry => entry.page === 130 && entry.scope === "in_scope" && entry.pack === "apparel");
+  assert.equal(p130.length, expected.size);
+  assert.deepEqual(new Set(p130.map(entry => entry.documentId)), new Set(expected.keys()));
+  for (const entry of p130) {
+    const spec = expected.get(entry.documentId);
+    assert.equal(entry.sourceName, spec.en);
+    assert.equal(entry.localizedNames.fr, spec.fr);
+    assert.equal(entry.certification.sourceTableName, spec.table);
+    assert.equal(entry.certification.descriptionReviewed, false);
+    assert.equal(entry.certification.acceptedModsReviewed, false);
+  }
+
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "apparel");
+    for (const [id, spec] of expected) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/apparel/${id} missing`);
+      const { document } = record;
+      const source = document.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 130, `${language}/apparel/${id} source page`);
+      assert.equal(source?.errataReviewed, true, `${language}/apparel/${id} errata review`);
+      assert.equal(document.name, spec[language], `${language}/apparel/${id} name`);
+      assert.equal(document.system.apparelType, "armor", `${language}/apparel/${id} apparel type`);
+      assert.deepEqual(document.system.resistance, { energy: spec.energy, physical: spec.physical, radiation: spec.radiation }, `${language}/apparel/${id} resistances`);
+      assert.equal(document.system.weight, language === "en" ? spec.enWeight : spec.frWeight, `${language}/apparel/${id} weight`);
+      assert.equal(document.system.cost, spec.cost, `${language}/apparel/${id} cost`);
+      assert.equal(document.system.rarity, spec.rarity, `${language}/apparel/${id} rarity`);
+      for (const location of ["armL", "armR", "head", "legL", "legR", "torso"]) {
+        assert.equal(document.system.location[location], location === spec.location, `${language}/apparel/${id} location ${location}`);
+      }
+    }
+  }
+
+  const laterRaiderPowerArmorIds = new Set(["qEljKwu1UzA9BoL6", "Fn3CiQjQCfE9IMy4", "th5iQbnAiLsKzIVV", "JTHWr7cr6HeS2mN5", "KSd9eiC0XaVlIXkN", "XCxUCHrYFRdsgCqk"]);
+  assert.ok([...expected.keys()].every(id => !laterRaiderPowerArmorIds.has(id)));
+  for (const language of ["en", "fr"]) {
+    const records = (await generatedDocuments(language)).filter(({ pack }) => pack === "apparel");
+    for (const id of laterRaiderPowerArmorIds) {
+      const record = records.find(({ document }) => document._id === id);
+      assert.ok(record, `${language}/apparel/${id} later Raider Power Armor identity missing`);
+      assert.equal(record.document.system.apparelType, "powerArmor");
+      assert.notEqual(record.document.flags?.["fallout2d20-compendium"]?.source?.page, 130);
+    }
+  }
+});

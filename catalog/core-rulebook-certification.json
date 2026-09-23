@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 131,
-      "sourcePage": 129
+      "pdfPage": 132,
+      "sourcePage": 130
     },
     "fr": {
-      "pdfPage": 132,
-      "sourcePage": 129
+      "pdfPage": 133,
+      "sourcePage": 130
     }
   },
   "pageReviews": [
@@ -2117,6 +2117,22 @@
       "language": "fr",
       "pdfPage": 132,
       "sourcePage": 129,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 132,
+      "sourcePage": 130,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 133,
+      "sourcePage": 130,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -20029,6 +20045,1316 @@
           "Science! 4"
         ],
         "installSkill": "Repair"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "rule_text",
+      "sourceName": "Armor and Armor Mods",
+      "localizedNames": {
+        "fr": "Armures et mods d’armure"
+      },
+      "scope": "out_of_scope",
+      "justification": "General armor layering, piecemeal armor and Sturdy/Heavy variant guidance; concrete reusable armor Items are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "note": "Armor may be worn over clothing but not outfits; when both provide damage resistance, use the higher resistance of each type. Most armor has Sturdy and Heavy variants."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "table",
+      "sourceName": "Raider Armor",
+      "localizedNames": {
+        "fr": "Armure de pillard"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the reusable Raider armor-piece Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 9,
+        "note": "The source has side-neutral Arm and Leg rows; published Foundry identities split those rows into left/right pieces, yielding 15 reusable Items."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "table",
+      "sourceName": "Leather Armor",
+      "localizedNames": {
+        "fr": "Armure en cuir"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static reference table defining the reusable Leather armor-piece Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 9,
+        "note": "The source has side-neutral Arm and Leg rows; published Foundry identities split those rows into left/right pieces, yielding 15 reusable Items."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Raider Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron de pillard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "F15SCdqO8m3rhpkc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 7,
+        "cost": 18,
+        "rarity": 0,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Raider Left Arm",
+      "localizedNames": {
+        "fr": "Bras de pillard (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "CCrzErrpyLp7Ruz4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 3,
+        "cost": 6,
+        "rarity": 0,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Raider Right Arm",
+      "localizedNames": {
+        "fr": "Bras de pillard (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "U38QzZYOaKw1oC3h",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 3,
+        "cost": 6,
+        "rarity": 0,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Raider Left Leg",
+      "localizedNames": {
+        "fr": "Jambe de pillard (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "lW7UmLaX9cJtuYIV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 3,
+        "cost": 8,
+        "rarity": 0,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Raider Right Leg",
+      "localizedNames": {
+        "fr": "Jambe de pillard (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "C5ifa1Dx7rIxx65I",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Raider Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 3,
+        "cost": 8,
+        "rarity": 0,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Raider Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron de pillard solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "TMaT9gY04hSW3fF8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Raider Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 12,
+        "cost": 33,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Raider Left Arm",
+      "localizedNames": {
+        "fr": "Bras de pillard solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "UolcghI8rwVUXpam",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Raider Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 7,
+        "cost": 8,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Raider Right Arm",
+      "localizedNames": {
+        "fr": "Bras de pillard solide (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "LVtFl6zabIs1mrcb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Raider Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 7,
+        "cost": 8,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Raider Left Leg",
+      "localizedNames": {
+        "fr": "Jambe de pillard solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "sEsSb1c3LzdTMpM2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Raider Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 7,
+        "cost": 13,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Raider Right Leg",
+      "localizedNames": {
+        "fr": "Jambe de pillard solide (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "eFk2o4BJK1wcWTDN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Raider Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 7,
+        "cost": 13,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Raider Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron de pillard lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "aA9RTmukDKwJd59o",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Raider Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 17,
+        "cost": 48,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Raider Left Arm",
+      "localizedNames": {
+        "fr": "Bras de pillard lourd (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "ZyjXbSyiFKjT20iR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Raider Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 10,
+        "cost": 15,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Raider Right Arm",
+      "localizedNames": {
+        "fr": "Bras de pillard lourd (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "1kOtnBKd9CjpYOHW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Raider Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 10,
+        "cost": 15,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Raider Left Leg",
+      "localizedNames": {
+        "fr": "Jambe de pillard lourde (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "rCNWvE2OVtQErwSa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Raider Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 10,
+        "cost": 18,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Raider Right Leg",
+      "localizedNames": {
+        "fr": "Jambe de pillard lourde (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "YZyjpoAFfRJDvufP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Raider Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 10,
+        "cost": 18,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Leather Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron en cuir"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "hLHlZT5mDbRSzXOp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Leather Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 5,
+        "cost": 25,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Leather Left Arm",
+      "localizedNames": {
+        "fr": "Brassard en cuir (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "UYhmJZwhnlwIR8fD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Leather Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 2,
+        "cost": 8,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Leather Right Arm",
+      "localizedNames": {
+        "fr": "Brassard en cuir (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "f23UwUVmMqA60No3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Leather Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 2,
+        "cost": 8,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Leather Left Leg",
+      "localizedNames": {
+        "fr": "Jambière en cuir (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "uC3L44Jd1lpnTteV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Leather Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 2,
+        "cost": 10,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Leather Right Leg",
+      "localizedNames": {
+        "fr": "Jambière en cuir (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "UYuniDcNwxokqGHW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Leather Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 2,
+        "cost": 10,
+        "rarity": 1,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Leather Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron en cuir solide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "1UDHhxbyQuOtX9EH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Leather Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 10,
+        "cost": 50,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Leather Left Arm",
+      "localizedNames": {
+        "fr": "Brassard en cuir solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "I2KcUoQK3ZNCZ4F4",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Leather Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 5,
+        "cost": 18,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Leather Right Arm",
+      "localizedNames": {
+        "fr": "Brassard en cuir solide (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "oVvBb3T24ydKgaiy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Leather Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 5,
+        "cost": 18,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Leather Left Leg",
+      "localizedNames": {
+        "fr": "Jambière en cuir solide (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "HClBdbJwrzkUCuZZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Leather Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 5,
+        "cost": 20,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Sturdy Leather Right Leg",
+      "localizedNames": {
+        "fr": "Jambière en cuir solide (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "g5Y59atwvxDXMvoE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Sturdy Leather Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 5,
+        "cost": 20,
+        "rarity": 2,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Leather Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron en cuir lourd"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "v55iaviJCqWOVY2Q",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Leather Chest Piece",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "torso"
+        ],
+        "weightLb": 15,
+        "cost": 75,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Leather Left Arm",
+      "localizedNames": {
+        "fr": "Brassard en cuir lourd (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "6GQTHH3zEYZdMSQk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Leather Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armL"
+        ],
+        "weightLb": 7,
+        "cost": 28,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Leather Right Arm",
+      "localizedNames": {
+        "fr": "Brassard en cuir lourd (droit)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "SbGvygde4xeHRGJt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Leather Arm",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "armR"
+        ],
+        "weightLb": 7,
+        "cost": 28,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Leather Left Leg",
+      "localizedNames": {
+        "fr": "Jambière en cuir lourde (gauche)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "nu0CMwCsoeJfTVUx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Leather Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legL"
+        ],
+        "weightLb": 7,
+        "cost": 30,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 130,
+      "type": "apparel",
+      "sourceName": "Heavy Leather Right Leg",
+      "localizedNames": {
+        "fr": "Jambière en cuir lourde (droite)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable armor-piece Item defined by the Core p.130 armor tables; left/right identities preserve the published Foundry split of side-neutral Arm and Leg source rows.",
+      "pack": "apparel",
+      "documentId": "17SJL8PoJweKD216",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          130
+        ],
+        "fr": [
+          130
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "acceptedModsReviewed": false,
+        "sourceTableName": "Heavy Leather Leg",
+        "apparelType": "armor",
+        "resistances": {
+          "physical": 3,
+          "energy": 4,
+          "radiation": 0
+        },
+        "locationsCovered": [
+          "legR"
+        ],
+        "weightLb": 7,
+        "cost": 30,
+        "rarity": 3,
+        "note": "Detailed armor-family descriptions and accepted Material/Upgrade mods occur on later source pages and are not certified by the p.130 table lot."
       }
     }
   ]
