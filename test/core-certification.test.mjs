@@ -4000,8 +4000,12 @@ test("Core Power Armor pp.144-145 shared mods are source-complete", async () => 
   ]);
 
   const p144 = catalog.entries.filter(entry => entry.page === 144 && entry.pack === "apparel-mods" && entry.status === "verified");
-  assert.equal(p144.length, 12);
-  assert.deepEqual(new Set(p144.map(entry => entry.documentId)), new Set([...systems].filter(([,spec]) => spec.page === 144 || spec.page === 139).map(([id]) => id)));
+  assert.equal(p144.length, 11);
+  assert.deepEqual(new Set(p144.map(entry => entry.documentId)), new Set([...systems].filter(([,spec]) => spec.page === 144).map(([id]) => id)));
+  const repeatedWelded = catalog.entries.find(entry => entry.page === 144 && entry.type === "repeated_row" && entry.certification?.representedByDocumentId === "R7MSARmaFbVPiunS");
+  assert.ok(repeatedWelded);
+  assert.equal(repeatedWelded.status, "out_of_scope");
+  assert.equal(repeatedWelded.certification.firstCertifiedPage, 139);
 
   const p145 = catalog.entries.filter(entry => entry.page === 145 && entry.pack === "apparel-mods" && entry.status === "verified");
   assert.equal(p145.length, 22);

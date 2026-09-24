@@ -27823,7 +27823,7 @@
         "cost": 50,
         "rarity": 2,
         "sideDerived": false,
-        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
+        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal System-mod identities and their mechanics are now fully certified through pp.144–145. Raider Power Armor cannot accept plating mods.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
@@ -27878,7 +27878,7 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": false,
-        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
+        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal System-mod identities and their mechanics are now fully certified through pp.144–145. Raider Power Armor cannot accept plating mods.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
@@ -27933,7 +27933,7 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
+        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal System-mod identities and their mechanics are now fully certified through pp.144–145. Raider Power Armor cannot accept plating mods.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
@@ -27988,7 +27988,7 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
+        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal System-mod identities and their mechanics are now fully certified through pp.144–145. Raider Power Armor cannot accept plating mods.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
@@ -28043,7 +28043,7 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
+        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal System-mod identities and their mechanics are now fully certified through pp.144–145. Raider Power Armor cannot accept plating mods.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
@@ -28098,7 +28098,7 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
+        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal System-mod identities and their mechanics are now fully certified through pp.144–145. Raider Power Armor cannot accept plating mods.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
@@ -28153,7 +28153,7 @@
         "cost": 60,
         "rarity": 2,
         "sideDerived": false,
-        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28208,7 +28208,7 @@
         "cost": 140,
         "rarity": 2,
         "sideDerived": false,
-        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28263,7 +28263,7 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28318,7 +28318,7 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28373,7 +28373,7 @@
         "cost": 130,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28428,7 +28428,7 @@
         "cost": 130,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28483,7 +28483,7 @@
         "cost": 80,
         "rarity": 3,
         "sideDerived": false,
-        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28538,7 +28538,7 @@
         "cost": 180,
         "rarity": 3,
         "sideDerived": false,
-        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28593,7 +28593,7 @@
         "cost": 130,
         "rarity": 3,
         "sideDerived": true,
-        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28648,7 +28648,7 @@
         "cost": 130,
         "rarity": 3,
         "sideDerived": true,
-        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28703,7 +28703,7 @@
         "cost": 10,
         "rarity": 3,
         "sideDerived": true,
-        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "The unusually low T-51 Leg cost 10 is source-exact in both EN and FR p.137; Errata V6 only corrects the Weight/Cost column order and does not replace this row value. T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28758,7 +28758,7 @@
         "cost": 10,
         "rarity": 3,
         "sideDerived": true,
-        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "The unusually low T-51 Leg cost 10 is source-exact in both EN and FR p.137; Errata V6 only corrects the Weight/Cost column order and does not replace this row value. T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28813,7 +28813,7 @@
         "cost": 130,
         "rarity": 4,
         "sideDerived": false,
-        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28868,7 +28868,7 @@
         "cost": 250,
         "rarity": 4,
         "sideDerived": false,
-        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28923,7 +28923,7 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -28978,7 +28978,7 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29033,7 +29033,7 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29088,7 +29088,7 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
+        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29143,7 +29143,7 @@
         "cost": 140,
         "rarity": 5,
         "sideDerived": false,
-        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29199,7 +29199,7 @@
         "cost": 280,
         "rarity": 5,
         "sideDerived": false,
-        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29255,7 +29255,7 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29311,7 +29311,7 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29367,7 +29367,7 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29423,7 +29423,7 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities and their mechanics are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
@@ -29737,10 +29737,12 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          139
+          139,
+          144
         ],
         "fr": [
-          139
+          139,
+          144
         ]
       },
       "certification": {
@@ -33577,41 +33579,6 @@
       "publication": "core_rulebook",
       "page": 144,
       "type": "apparel_mod",
-      "sourceName": "Welded Rebar",
-      "localizedNames": {
-        "fr": "Barre d’armature soudée"
-      },
-      "scope": "in_scope",
-      "justification": "Repeated shared-table row for the Raider-only System mod first defined on p.139; same published identity.",
-      "pack": "apparel-mods",
-      "documentId": "R7MSARmaFbVPiunS",
-      "status": "verified",
-      "sourcePages": {
-        "en": [
-          139,
-          144
-        ],
-        "fr": [
-          139,
-          144
-        ]
-      },
-      "certification": {
-        "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "modType": "system",
-        "location": "Torso",
-        "weightLb": 2,
-        "cost": 25,
-        "perks": "Armorer 1",
-        "installSkill": "Repair",
-        "errataReviewed": true
-      }
-    },
-    {
-      "publication": "core_rulebook",
-      "page": 144,
-      "type": "apparel_mod",
       "sourceName": "Core Assembly",
       "localizedNames": {
         "fr": "Noyau de réacteur"
@@ -34670,6 +34637,34 @@
           "radiation": 0
         },
         "torsoDerived": true,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "repeated_row",
+      "sourceName": "Welded Rebar (Raider only)",
+      "localizedNames": {
+        "fr": "Barre d’armature soudée (armure de pillard seulement)"
+      },
+      "scope": "out_of_scope",
+      "justification": "Repeated shared-table row for the Raider-only System mod already represented and certified by the published Welded Rebar identity on p.139; p.144 adds no new identity or mechanics.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "representedByDocumentId": "R7MSARmaFbVPiunS",
+        "firstCertifiedPage": 139,
         "errataReviewed": true
       }
     }
