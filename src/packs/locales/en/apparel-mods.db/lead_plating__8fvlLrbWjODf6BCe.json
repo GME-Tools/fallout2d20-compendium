@@ -3,12 +3,13 @@
   "_file": "lead_plating__8fvlLrbWjODf6BCe.json",
   "values": {
     "/name": "Lead Plating",
-    "/system/description": "<p>Installed with the <strong>Repair</strong> skill.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Power Armor Station}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armorer} 1</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×4</li><li>Uncommon Materials ×2</li></ul></section>",
+    "/system/description": "<p>Power Armor mods apply to all the types of armor listed and are collected here to avoid repetition. There are two main kinds of Power Armor mod: systems, that provide additional features to the armor, and plating, which alters the outer surface of the armor.</p><p>Plating can be applied separately to any individual piece of Power Armor. However, due to size differences, the cost and weight of a plating mod applied to a chest piece is doubled. Raider Power Armor cannot take a plating mod, due to its makeshift nature. Each mod is listed with the skill required to install it.</p>\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Power Armor Station}</dd><dt>Complexity</dt><dd>3</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armorer} 1</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×4</li><li>Uncommon Materials ×2</li></ul></section>",
     "/system/weight": 2,
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
     "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
     "/flags/fallout2d20-compendium/recipe/skill": "Repair",
-    "/flags/fallout2d20-compendium/recipe/perks/0": "Armorer 1"
+    "/flags/fallout2d20-compendium/recipe/perks/0": "Armorer 1",
+    "/system/effect": "<p>+2 Radiation damage resistance</p>"
   }
 }

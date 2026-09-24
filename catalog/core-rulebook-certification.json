@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 145,
-      "sourcePage": 143
+      "pdfPage": 147,
+      "sourcePage": 145
     },
     "fr": {
-      "pdfPage": 146,
-      "sourcePage": 143
+      "pdfPage": 148,
+      "sourcePage": 145
     }
   },
   "pageReviews": [
@@ -2341,6 +2341,38 @@
       "language": "fr",
       "pdfPage": 146,
       "sourcePage": 143,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 146,
+      "sourcePage": 144,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 147,
+      "sourcePage": 144,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 147,
+      "sourcePage": 145,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 148,
+      "sourcePage": 145,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -27763,11 +27795,15 @@
       "sourcePages": {
         "en": [
           137,
-          139
+          139,
+          144,
+          145
         ],
         "fr": [
           137,
-          139
+          139,
+          144,
+          145
         ]
       },
       "certification": {
@@ -27787,12 +27823,15 @@
         "cost": 50,
         "rarity": 2,
         "sideDerived": false,
-        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal system-mod identities are resolved from the explicit p.144 reference only; their own mechanics remain pending pp.144–145. Raider Power Armor cannot accept plating mods.",
+        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
         "platingSlots": 0,
-        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded"
+        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded",
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": false,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -27811,11 +27850,15 @@
       "sourcePages": {
         "en": [
           137,
-          139
+          139,
+          144,
+          145
         ],
         "fr": [
           137,
-          139
+          139,
+          144,
+          145
         ]
       },
       "certification": {
@@ -27835,12 +27878,15 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": false,
-        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal system-mod identities are resolved from the explicit p.144 reference only; their own mechanics remain pending pp.144–145. Raider Power Armor cannot accept plating mods.",
+        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
         "platingSlots": 0,
-        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded"
+        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded",
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": false,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -27859,11 +27905,15 @@
       "sourcePages": {
         "en": [
           137,
-          139
+          139,
+          144,
+          145
         ],
         "fr": [
           137,
-          139
+          139,
+          144,
+          145
         ]
       },
       "certification": {
@@ -27883,12 +27933,15 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal system-mod identities are resolved from the explicit p.144 reference only; their own mechanics remain pending pp.144–145. Raider Power Armor cannot accept plating mods.",
+        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
         "platingSlots": 0,
-        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded"
+        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded",
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": false,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -27907,11 +27960,15 @@
       "sourcePages": {
         "en": [
           137,
-          139
+          139,
+          144,
+          145
         ],
         "fr": [
           137,
-          139
+          139,
+          144,
+          145
         ]
       },
       "certification": {
@@ -27931,12 +27988,15 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal system-mod identities are resolved from the explicit p.144 reference only; their own mechanics remain pending pp.144–145. Raider Power Armor cannot accept plating mods.",
+        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
         "platingSlots": 0,
-        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded"
+        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded",
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": false,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -27955,11 +28015,15 @@
       "sourcePages": {
         "en": [
           137,
-          139
+          139,
+          144,
+          145
         ],
         "fr": [
           137,
-          139
+          139,
+          144,
+          145
         ]
       },
       "certification": {
@@ -27979,12 +28043,15 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal system-mod identities are resolved from the explicit p.144 reference only; their own mechanics remain pending pp.144–145. Raider Power Armor cannot accept plating mods.",
+        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
         "platingSlots": 0,
-        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded"
+        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded",
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": false,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28003,11 +28070,15 @@
       "sourcePages": {
         "en": [
           137,
-          139
+          139,
+          144,
+          145
         ],
         "fr": [
           137,
-          139
+          139,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28027,12 +28098,15 @@
         "cost": 75,
         "rarity": 2,
         "sideDerived": true,
-        "note": "Raider family description and the unique Raider II/Welded Rebar identities are certified at p.139. Accepted normal system-mod identities are resolved from the explicit p.144 reference only; their own mechanics remain pending pp.144–145. Raider Power Armor cannot accept plating mods.",
+        "note": "Raider family and unique mods are certified at p.139; the shared System-mod table mechanics are now certified through pp.144–145. Raider Power Armor cannot accept plating and excludes Tesla Bracers.",
         "maxMods": 2,
         "upgradeSlots": 1,
         "systemSlots": 1,
         "platingSlots": 0,
-        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded"
+        "raiderSystemException": "Tesla Arms / Tesla Bracers excluded",
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": false,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28051,11 +28125,15 @@
       "sourcePages": {
         "en": [
           137,
-          140
+          140,
+          144,
+          145
         ],
         "fr": [
           137,
-          140
+          140,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28075,12 +28153,15 @@
         "cost": 60,
         "rarity": 2,
         "sideDerived": false,
-        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28099,11 +28180,15 @@
       "sourcePages": {
         "en": [
           137,
-          140
+          140,
+          144,
+          145
         ],
         "fr": [
           137,
-          140
+          140,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28123,12 +28208,15 @@
         "cost": 140,
         "rarity": 2,
         "sideDerived": false,
-        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28147,11 +28235,15 @@
       "sourcePages": {
         "en": [
           137,
-          140
+          140,
+          144,
+          145
         ],
         "fr": [
           137,
-          140
+          140,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28171,12 +28263,15 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28195,11 +28290,15 @@
       "sourcePages": {
         "en": [
           137,
-          140
+          140,
+          144,
+          145
         ],
         "fr": [
           137,
-          140
+          140,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28219,12 +28318,15 @@
         "cost": 100,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28243,11 +28345,15 @@
       "sourcePages": {
         "en": [
           137,
-          140
+          140,
+          144,
+          145
         ],
         "fr": [
           137,
-          140
+          140,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28267,12 +28373,15 @@
         "cost": 130,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28291,11 +28400,15 @@
       "sourcePages": {
         "en": [
           137,
-          140
+          140,
+          144,
+          145
         ],
         "fr": [
           137,
-          140
+          140,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28315,12 +28428,15 @@
         "cost": 130,
         "rarity": 2,
         "sideDerived": true,
-        "note": "T-45 family description and all 20 unique Upgrade mods are certified at p.140. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-45 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28339,11 +28455,15 @@
       "sourcePages": {
         "en": [
           137,
-          141
+          141,
+          144,
+          145
         ],
         "fr": [
           137,
-          141
+          141,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28363,12 +28483,15 @@
         "cost": 80,
         "rarity": 3,
         "sideDerived": false,
-        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28387,11 +28510,15 @@
       "sourcePages": {
         "en": [
           137,
-          141
+          141,
+          144,
+          145
         ],
         "fr": [
           137,
-          141
+          141,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28411,12 +28538,15 @@
         "cost": 180,
         "rarity": 3,
         "sideDerived": false,
-        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28435,11 +28565,15 @@
       "sourcePages": {
         "en": [
           137,
-          141
+          141,
+          144,
+          145
         ],
         "fr": [
           137,
-          141
+          141,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28459,12 +28593,15 @@
         "cost": 130,
         "rarity": 3,
         "sideDerived": true,
-        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28483,11 +28620,15 @@
       "sourcePages": {
         "en": [
           137,
-          141
+          141,
+          144,
+          145
         ],
         "fr": [
           137,
-          141
+          141,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28507,12 +28648,15 @@
         "cost": 130,
         "rarity": 3,
         "sideDerived": true,
-        "note": "T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28531,11 +28675,15 @@
       "sourcePages": {
         "en": [
           137,
-          141
+          141,
+          144,
+          145
         ],
         "fr": [
           137,
-          141
+          141,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28555,12 +28703,15 @@
         "cost": 10,
         "rarity": 3,
         "sideDerived": true,
-        "note": "The unusually low T-51 Leg cost 10 is source-exact in both EN and FR p.137; Errata V6 only corrects the Weight/Cost column order and does not replace this row value. T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28579,11 +28730,15 @@
       "sourcePages": {
         "en": [
           137,
-          141
+          141,
+          144,
+          145
         ],
         "fr": [
           137,
-          141
+          141,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28603,12 +28758,15 @@
         "cost": 10,
         "rarity": 3,
         "sideDerived": true,
-        "note": "The unusually low T-51 Leg cost 10 is source-exact in both EN and FR p.137; Errata V6 only corrects the Weight/Cost column order and does not replace this row value. T-51 family description and all 20 unique Upgrade mods are certified at p.141. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-51 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28627,11 +28785,15 @@
       "sourcePages": {
         "en": [
           137,
-          142
+          142,
+          144,
+          145
         ],
         "fr": [
           137,
-          142
+          142,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28651,12 +28813,15 @@
         "cost": 130,
         "rarity": 4,
         "sideDerived": false,
-        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28675,11 +28840,15 @@
       "sourcePages": {
         "en": [
           137,
-          142
+          142,
+          144,
+          145
         ],
         "fr": [
           137,
-          142
+          142,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28699,12 +28868,15 @@
         "cost": 250,
         "rarity": 4,
         "sideDerived": false,
-        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28723,11 +28895,15 @@
       "sourcePages": {
         "en": [
           137,
-          142
+          142,
+          144,
+          145
         ],
         "fr": [
           137,
-          142
+          142,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28747,12 +28923,15 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28771,11 +28950,15 @@
       "sourcePages": {
         "en": [
           137,
-          142
+          142,
+          144,
+          145
         ],
         "fr": [
           137,
-          142
+          142,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28795,12 +28978,15 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28819,11 +29005,15 @@
       "sourcePages": {
         "en": [
           137,
-          142
+          142,
+          144,
+          145
         ],
         "fr": [
           137,
-          142
+          142,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28843,12 +29033,15 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28867,11 +29060,15 @@
       "sourcePages": {
         "en": [
           137,
-          142
+          142,
+          144,
+          145
         ],
         "fr": [
           137,
-          142
+          142,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28891,12 +29088,15 @@
         "cost": 170,
         "rarity": 4,
         "sideDerived": true,
-        "note": "T-60 family description and all 20 unique Upgrade mods are certified at p.142. Accepted generic System/Plating identities are resolved from the shared pp.144–145 tables only; their own mechanics remain pending those source pages.",
+        "note": "T-60 family/unique upgrades are certified on their family page; shared System/Plating mechanics and accepted location-specific sets are now fully certified through pp.144–145.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
-        "uniqueUpgradeModsReviewed": true
+        "uniqueUpgradeModsReviewed": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28915,11 +29115,15 @@
       "sourcePages": {
         "en": [
           137,
-          143
+          143,
+          144,
+          145
         ],
         "fr": [
           137,
-          143
+          143,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28939,13 +29143,16 @@
         "cost": 140,
         "rarity": 5,
         "sideDerived": false,
-        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
         "uniqueUpgradeModsReviewed": true,
-        "winterizedPlatingExcluded": true
+        "winterizedPlatingExcluded": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -28964,11 +29171,15 @@
       "sourcePages": {
         "en": [
           137,
-          143
+          143,
+          144,
+          145
         ],
         "fr": [
           137,
-          143
+          143,
+          144,
+          145
         ]
       },
       "certification": {
@@ -28988,13 +29199,16 @@
         "cost": 280,
         "rarity": 5,
         "sideDerived": false,
-        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
         "uniqueUpgradeModsReviewed": true,
-        "winterizedPlatingExcluded": true
+        "winterizedPlatingExcluded": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -29013,11 +29227,15 @@
       "sourcePages": {
         "en": [
           137,
-          143
+          143,
+          144,
+          145
         ],
         "fr": [
           137,
-          143
+          143,
+          144,
+          145
         ]
       },
       "certification": {
@@ -29037,13 +29255,16 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
         "uniqueUpgradeModsReviewed": true,
-        "winterizedPlatingExcluded": true
+        "winterizedPlatingExcluded": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -29062,11 +29283,15 @@
       "sourcePages": {
         "en": [
           137,
-          143
+          143,
+          144,
+          145
         ],
         "fr": [
           137,
-          143
+          143,
+          144,
+          145
         ]
       },
       "certification": {
@@ -29086,13 +29311,16 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
         "uniqueUpgradeModsReviewed": true,
-        "winterizedPlatingExcluded": true
+        "winterizedPlatingExcluded": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -29111,11 +29339,15 @@
       "sourcePages": {
         "en": [
           137,
-          143
+          143,
+          144,
+          145
         ],
         "fr": [
           137,
-          143
+          143,
+          144,
+          145
         ]
       },
       "certification": {
@@ -29135,13 +29367,16 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
         "uniqueUpgradeModsReviewed": true,
-        "winterizedPlatingExcluded": true
+        "winterizedPlatingExcluded": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -29160,11 +29395,15 @@
       "sourcePages": {
         "en": [
           137,
-          143
+          143,
+          144,
+          145
         ],
         "fr": [
           137,
-          143
+          143,
+          144,
+          145
         ]
       },
       "certification": {
@@ -29184,13 +29423,16 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "note": "X-01 family and unique Mk II–VI/EMP Shielding mods are certified at p.143; shared System/Plating mechanics are now certified through pp.144–145. Winterized Coating remains explicitly excluded.",
         "maxMods": 3,
         "upgradeSlots": 1,
         "platingSlots": 1,
         "systemSlots": 1,
         "uniqueUpgradeModsReviewed": true,
-        "winterizedPlatingExcluded": true
+        "winterizedPlatingExcluded": true,
+        "sharedSystemModsReviewed": true,
+        "sharedPlatingModsReviewed": true,
+        "powerArmorModsRulesReviewed": true
       }
     },
     {
@@ -33078,6 +33320,1356 @@
         "installSkill": "Repair",
         "torsoDerived": true,
         "torsoDerivationRulePage": 144,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "rule_text",
+      "sourceName": "Power Armor Mods",
+      "localizedNames": {
+        "fr": "Mods d’armure assistée"
+      },
+      "scope": "out_of_scope",
+      "justification": "Shared Power Armor mod classification and plating rules are represented by reusable System/Plating mod Items and accepted-mod references on Power Armor pieces.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "systemsAndPlatingDefined": true,
+        "chestPlatingWeightCostMultiplier": 2,
+        "raiderPlatingExcluded": true,
+        "installSkillPerRow": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.144–145 Power Armor Mods correction. The p.137 Weight/Cost correction applies to base Power Armor pieces, not these mod tables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "table",
+      "sourceName": "Power Armor Mods — System Mods (part 1)",
+      "localizedNames": {
+        "fr": "Mods d’armure assistée — Mods de système (1re partie)"
+      },
+      "scope": "out_of_scope",
+      "justification": "First twelve rows of the shared System Mods table; the table continues on p.145.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 12,
+        "continuesOnPage": 145,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.144–145 Power Armor Mods correction. The p.137 Weight/Cost correction applies to base Power Armor pieces, not these mod tables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "table",
+      "sourceName": "Power Armor Mods — System Mods (continued)",
+      "localizedNames": {
+        "fr": "Mods d’armure assistée — Mods de système (suite)"
+      },
+      "scope": "out_of_scope",
+      "justification": "Final ten rows of the shared System Mods table.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 10,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.144–145 Power Armor Mods correction. The p.137 Weight/Cost correction applies to base Power Armor pieces, not these mod tables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "table",
+      "sourceName": "Power Armor Mods — Plating Mods",
+      "localizedNames": {
+        "fr": "Mods d’armure assistée — Mods de blindage"
+      },
+      "scope": "out_of_scope",
+      "justification": "Six source plating rows represented by generic non-torso and torso-specific published identities; torso identities materialize the p.144 double weight/cost rule.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 6,
+        "publishedIdentityCount": 12,
+        "torsoVariantsDerived": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.144–145 Power Armor Mods correction. The p.137 Weight/Cost correction applies to base Power Armor pieces, not these mod tables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Rad Scrubber",
+      "localizedNames": {
+        "fr": "Épurateur de radiations"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "2SqnqGHd7D3y4O5E",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Head",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 2",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Sensor Array",
+      "localizedNames": {
+        "fr": "Détecteur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "En57MQ3hn0DkcHJy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Head",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Targeting HUD",
+      "localizedNames": {
+        "fr": "ATH de visée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "42Qe82QKBhubp9xU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Head",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Internal Database",
+      "localizedNames": {
+        "fr": "Base de données interne"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "zALOB7gLXndAThjj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Head",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 2",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Welded Rebar",
+      "localizedNames": {
+        "fr": "Barre d’armature soudée"
+      },
+      "scope": "in_scope",
+      "justification": "Repeated shared-table row for the Raider-only System mod first defined on p.139; same published identity.",
+      "pack": "apparel-mods",
+      "documentId": "R7MSARmaFbVPiunS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          139,
+          144
+        ],
+        "fr": [
+          139,
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 25,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Core Assembly",
+      "localizedNames": {
+        "fr": "Noyau de réacteur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "t2wGFT9GqqzS3Qt9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Blood Cleanser",
+      "localizedNames": {
+        "fr": "Purificateur sanguin"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "Fov5IU0CbgDuZUuO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 1",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Emergency Protocols",
+      "localizedNames": {
+        "fr": "Protocoles d’urgence"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "dCYE8deU6qI7GARe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 4",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Motion-Assist Servos",
+      "localizedNames": {
+        "fr": "Servomoteurs de déplacement assisté"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "vuySzeWEI174mwLc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Kinetic Dynamo",
+      "localizedNames": {
+        "fr": "Dynamo cinétique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "Fi4sOOvTpfCKlBVS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 4",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Medic Pump",
+      "localizedNames": {
+        "fr": "Pompe médicale"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "gCQROCvacrax9ukk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 4",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 144,
+      "type": "apparel_mod",
+      "sourceName": "Reactive Plates",
+      "localizedNames": {
+        "fr": "Plaques réactives"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "JCala9JIwLsgpDig",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144
+        ],
+        "fr": [
+          144
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Armorer 4",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Tesla Coils",
+      "localizedNames": {
+        "fr": "Bobines Tesla"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "908vI94cQ4wdtSaI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Stealth Boy",
+      "localizedNames": {
+        "fr": "Stealth Boy"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "HlZVuMrkMKwSx0gT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 4",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Jetpack",
+      "localizedNames": {
+        "fr": "Jetpack"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "HdcX4nu2ZKYDf9hG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Torso",
+        "weightLb": 1,
+        "cost": 500,
+        "perks": "Armorer 4, Science! 4",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Rusty Knuckles",
+      "localizedNames": {
+        "fr": "Poing rouillé"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "zX0aUfac1HnsEvZO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Arm",
+        "weightLb": 1,
+        "cost": 50,
+        "perks": "Blacksmith 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Hydraulic Bracers",
+      "localizedNames": {
+        "fr": "Bracelets hydrauliques"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "cMFQXRN9ZrDIU23Y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Arm",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Blacksmith 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Optimized Bracers",
+      "localizedNames": {
+        "fr": "Bracelets optimisés"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "ZsGBPsT9kf1lVrFw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Arm",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Blacksmith 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Tesla Bracers",
+      "localizedNames": {
+        "fr": "Bracelets Tesla"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "K63y4mcKxr792XLB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Arm",
+        "weightLb": 1,
+        "cost": 150,
+        "perks": "Blacksmith 3, Science! 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Calibrated Shocks",
+      "localizedNames": {
+        "fr": "Amortisseurs calibrés"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "RrhtyBPhjtENsF6w",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Leg",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 2",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Explosive Vent",
+      "localizedNames": {
+        "fr": "Évent d’explosion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "JpGZrBzUJTLieuRJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Leg",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Overdrive Servos",
+      "localizedNames": {
+        "fr": "Servomoteurs à vitesse surmultipliée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Power Armor System mod defined directly by the shared Core table.",
+      "pack": "apparel-mods",
+      "documentId": "pZ2FIyhKvuL7EPT0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          145
+        ],
+        "fr": [
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "system",
+        "location": "Leg",
+        "weightLb": 1,
+        "cost": 100,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Titanium Plating",
+      "localizedNames": {
+        "fr": "Blindage en titane"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable non-torso Power Armor Plating mod defined by the Core p.145 table.",
+      "pack": "apparel-mods",
+      "documentId": "kGts8ZQ6Lr4bkF9M",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "weightLb": 1,
+        "cost": 10,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "healthPoints": 1,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "torsoDerived": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Titanium Plating (Torso)",
+      "localizedNames": {
+        "fr": "Blindage en titane (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Plating identity deriving doubled weight/cost from the Core p.144 chest-piece rule.",
+      "pack": "apparel-mods",
+      "documentId": "hJDcOKYapml78um8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "healthPoints": 2,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "torsoDerived": true,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Lead Plating",
+      "localizedNames": {
+        "fr": "Blindage en plomb"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable non-torso Power Armor Plating mod defined by the Core p.145 table.",
+      "pack": "apparel-mods",
+      "documentId": "8fvlLrbWjODf6BCe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "weightLb": 2,
+        "cost": 10,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 2
+        },
+        "torsoDerived": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Lead Plating (Torso)",
+      "localizedNames": {
+        "fr": "Blindage en plomb (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Plating identity deriving doubled weight/cost from the Core p.144 chest-piece rule.",
+      "pack": "apparel-mods",
+      "documentId": "7IO8gCf1f2bCK4a0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Torso",
+        "weightLb": 4,
+        "cost": 20,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 2
+        },
+        "torsoDerived": true,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Photovoltaic Plating",
+      "localizedNames": {
+        "fr": "Revêtement photovoltaïque"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable non-torso Power Armor Plating mod defined by the Core p.145 table.",
+      "pack": "apparel-mods",
+      "documentId": "DxewSX1ooPKoNPPs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "weightLb": 1,
+        "cost": 10,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "torsoDerived": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Photovoltaic Plating (Torso)",
+      "localizedNames": {
+        "fr": "Revêtement photovoltaïque (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Plating identity deriving doubled weight/cost from the Core p.144 chest-piece rule.",
+      "pack": "apparel-mods",
+      "documentId": "lqvdGQ6axRjBfNoe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": "Science! 3",
+        "installSkill": "Science",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "torsoDerived": true,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Winterized Coating",
+      "localizedNames": {
+        "fr": "Revêtement antigel"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable non-torso Power Armor Plating mod defined by the Core p.145 table.",
+      "pack": "apparel-mods",
+      "documentId": "mgzavWT1TZT1qdoR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "weightLb": 1,
+        "cost": 10,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 0
+        },
+        "torsoDerived": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Winterized Coating (Torso)",
+      "localizedNames": {
+        "fr": "Revêtement antigel (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Plating identity deriving doubled weight/cost from the Core p.144 chest-piece rule.",
+      "pack": "apparel-mods",
+      "documentId": "faqvoA7iZx90tXnH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 0
+        },
+        "torsoDerived": true,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Prism Shielding",
+      "localizedNames": {
+        "fr": "Blindage prismatique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable non-torso Power Armor Plating mod defined by the Core p.145 table.",
+      "pack": "apparel-mods",
+      "documentId": "WKklumSE0xUCXFmc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "weightLb": 2,
+        "cost": 10,
+        "perks": "Science! 2",
+        "installSkill": "Science",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 3,
+          "radiation": 0
+        },
+        "torsoDerived": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Prism Shielding (Torso)",
+      "localizedNames": {
+        "fr": "Blindage prismatique (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Plating identity deriving doubled weight/cost from the Core p.144 chest-piece rule.",
+      "pack": "apparel-mods",
+      "documentId": "JAN0jzOhkMyI3U1w",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Torso",
+        "weightLb": 4,
+        "cost": 20,
+        "perks": "Science! 2",
+        "installSkill": "Science",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 3,
+          "radiation": 0
+        },
+        "torsoDerived": true,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Explosive Shielding",
+      "localizedNames": {
+        "fr": "Blindage antiexplosion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable non-torso Power Armor Plating mod defined by the Core p.145 table.",
+      "pack": "apparel-mods",
+      "documentId": "7iRkK1Elj5iRfANw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "weightLb": 1,
+        "cost": 10,
+        "perks": "Science! 1",
+        "installSkill": "Science",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "torsoDerived": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 145,
+      "type": "apparel_mod",
+      "sourceName": "Explosive Shielding (Torso)",
+      "localizedNames": {
+        "fr": "Blindage antiexplosion (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific Plating identity deriving doubled weight/cost from the Core p.144 chest-piece rule.",
+      "pack": "apparel-mods",
+      "documentId": "vZs57HCeBc9iOVUR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          144,
+          145
+        ],
+        "fr": [
+          144,
+          145
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "modType": "plating",
+        "location": "Torso",
+        "weightLb": 2,
+        "cost": 20,
+        "perks": "Science! 1",
+        "installSkill": "Science",
+        "healthPoints": 0,
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "torsoDerived": true,
         "errataReviewed": true
       }
     }

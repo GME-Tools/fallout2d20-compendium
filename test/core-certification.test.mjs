@@ -3950,3 +3950,142 @@ test("Core Power Armor p.143 X-01 family and unique mods are source-complete", a
   }
 });
 
+test("Core Power Armor pp.144-145 shared mods are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 147 && catalog.certifiedThrough.en.sourcePage >= 145);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 148 && catalog.certifiedThrough.fr.sourcePage >= 145);
+
+  const intro = {
+    en: "<p>Power Armor mods apply to all the types of armor listed and are collected here to avoid repetition. There are two main kinds of Power Armor mod: systems, that provide additional features to the armor, and plating, which alters the outer surface of the armor.</p><p>Plating can be applied separately to any individual piece of Power Armor. However, due to size differences, the cost and weight of a plating mod applied to a chest piece is doubled. Raider Power Armor cannot take a plating mod, due to its makeshift nature. Each mod is listed with the skill required to install it.</p>",
+    fr: "<p>Les mods d’armure assistée s’appliquent à tous les types d’armures présentés juste avant (sauf exception) et sont rassemblés ci-dessous pour éviter de les répéter pour chaque armure. Il existe deux grands types de mod d’armure assistée : les mods de système, qui fournissent des fonctionnalités supplémentaires à l’armure, et les mods de blindage qui modifient la surface externe de l’armure.</p><p>Un blindage peut être appliqué séparément à n’importe quelle pièce d’armure assistée. Cependant, à cause des différences de taille, le coût et le poids d’un mod de blindage appliqué sur un plastron sont doublés. À cause de sa nature artisanale, l’armure assistée de pillard ne peut pas accepter de mod de blindage. La compétence requise pour installer chaque mod est indiquée dans sa ligne du tableau.</p>"
+  };
+
+  const systems = new Map([
+    ["2SqnqGHd7D3y4O5E",{page:144,en:"Rad Scrubber",fr:"Épurateur de radiations",loc:"Head",w:1,c:100,perks:"Science! 2",skill:"Science",enEffect:"<p>Ignore radiation from Irradiated food or drink consumed while armor is powered</p>",frEffect:"<p>Ignorez les dégâts de radiation venant de la nourriture ou des boissons Irradiées consommées tant que l’armure est alimentée en énergie</p>"}],
+    ["En57MQ3hn0DkcHJy",{page:144,en:"Sensor Array",fr:"Détecteur",loc:"Head",w:1,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>Re-roll 1d20 on all PER tests while armor is powered</p>",frEffect:"<p>Vous pouvez relancer 1d20 sur tous vos tests de PER tant que l’armure est alimentée en énergie</p>"}],
+    ["42Qe82QKBhubp9xU",{page:144,en:"Targeting HUD",fr:"ATH de visée",loc:"Head",w:1,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>When you take the Aim minor action, you may take a second minor action for 0 AP while armor is powered</p>",frEffect:"<p>Quand vous effectuez l’action mineure viser, vous pouvez effectuer une deuxième action mineure pour 0 PA tant que l’armure est alimentée en énergie</p>"}],
+    ["zALOB7gLXndAThjj",{page:144,en:"Internal Database",fr:"Base de données interne",loc:"Head",w:1,c:100,perks:"Science! 2",skill:"Science",enEffect:"<p>Re-roll 1d20 on all INT tests while armor is powered</p>",frEffect:"<p>Vous pouvez relancer 1d20 sur tous vos tests d’INT tant que l’armure est alimentée en énergie</p>"}],
+    ["R7MSARmaFbVPiunS",{page:139,en:"Welded Rebar",fr:"Barre d’armature soudée",loc:"Torso",w:2,c:25,perks:"Armorer 1",skill:"Repair",enEffect:"<p>Enemies who attack you with a melee or unarmed attack and suffer a complication suffer 2 @fos[DC] damage</p>",frEffect:"<p>Les ennemis qui vous portent une attaque de corps à corps ou à mains nues et subissent une complication subissent 2 @fos[DC] de dégâts</p>"}],
+    ["t2wGFT9GqqzS3Qt9",{page:144,en:"Core Assembly",fr:"Noyau de réacteur",loc:"Torso",w:2,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>While armor is powered, if you begin your turn and there is no AP in the group pool, add +1 AP</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, si au début de votre tour, la réserve du groupe ne contient pas de PA, ajoutez-y +1 PA</p>"}],
+    ["Fov5IU0CbgDuZUuO",{page:144,en:"Blood Cleanser",fr:"Purificateur sanguin",loc:"Torso",w:2,c:100,perks:"Science! 1",skill:"Science",enEffect:"<p>Re-roll addiction roll for addictive chems while armor is powered</p>",frEffect:"<p>Vous pouvez relancer le jet de dépendance pour les drogues addictives tant que l’armure est alimentée en énergie</p>"}],
+    ["dCYE8deU6qI7GARe",{page:144,en:"Emergency Protocols",fr:"Protocoles d’urgence",loc:"Torso",w:2,c:100,perks:"Science! 4",skill:"Science",enEffect:"<p>While armor is powered, if your current HP is below 1/4 of your maximum, add +1 to Defense and +3 to all damage resistances</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, si vos PV actuels sont en dessous du quart de votre maximum, ajoutez +1 à votre défense et +3 à toutes vos résistances aux dégâts</p>"}],
+    ["vuySzeWEI174mwLc",{page:144,en:"Motion-Assist Servos",fr:"Servomoteurs de déplacement assisté",loc:"Torso",w:2,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>Increase STR of armor frame to 13 while armor is powered</p>",frEffect:"<p>La FOR du châssis d’armure passe à 13 tant que l’armure est alimentée en énergie</p>"}],
+    ["Fi4sOOvTpfCKlBVS",{page:144,en:"Kinetic Dynamo",fr:"Dynamo cinétique",loc:"Torso",w:2,c:100,perks:"Science! 4",skill:"Science",enEffect:"<p>While armor is powered, when you suffer any damage (after reductions for damage resistances), add +1 to the group AP pool</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, si vous subissez des dégâts (après les réductions des résistances aux dégâts), ajoutez +1 à la réserve de PA du groupe</p>"}],
+    ["gCQROCvacrax9ukk",{page:144,en:"Medic Pump",fr:"Pompe médicale",loc:"Torso",w:2,c:100,perks:"Science! 4",skill:"Science",enEffect:"<p>While armor is powered, when your HP are reduced to below 1/2 of your maximum, you immediately use a Stimpak, regaining 3 HP or treating one Injury.</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, quand vos PV tombent en dessous de la moitié de votre maximum, vous utilisez immédiatement un Stimpak et vous regagnez 3 PV ou vous traitez 1 blessure</p>"}],
+    ["JCala9JIwLsgpDig",{page:144,en:"Reactive Plates",fr:"Plaques réactives",loc:"Torso",w:2,c:100,perks:"Armorer 4",skill:"Repair",enEffect:"<p>While armor is powered, when you suffer damage from a melee or unarmed attack, you inflict Physical damage back to the attacker equal to half the damage total rolled</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, quand vous subissez des dégâts venant d’une attaque de corps à corps ou à mains nues, vous infligez une quantité de dégâts balistiques égale à la moitié du total de dégâts obtenu sur le jet à l’attaquant en retour</p>"}],
+    ["908vI94cQ4wdtSaI",{page:145,en:"Tesla Coils",fr:"Bobines Tesla",loc:"Torso",w:2,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>While armor is powered, whenever an enemy makes a melee attack against you, they suffer 4 @fos[DC] Energy damage</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, chaque fois qu’un ennemi vous porte une attaque de corps à corps, il subit 4 @fos[DC] de dégâts énergétiques</p>"}],
+    ["HlZVuMrkMKwSx0gT",{page:145,en:"Stealth Boy",fr:"Stealth Boy",loc:"Torso",w:1,c:100,perks:"Science! 4",skill:"Science",enEffect:"<p>You may activate a Stealth Boy (p.171) once per scene by spending 1 charge</p>",frEffect:"<p>Vous pouvez activer un Stealth Boy (voir page 171) une fois par scène en dépensant 1 charge</p>"}],
+    ["HdcX4nu2ZKYDf9hG",{page:145,en:"Jetpack",fr:"Jetpack",loc:"Torso",w:1,c:500,perks:"Armorer 4, Science! 4",skill:"Repair",enEffect:"<p>When you move you may activate a jetpack by spending 1 charge; this allows you to move one additional zone (horizontally or vertically) or gain enough height for an impact landing</p>",frEffect:"<p>Quand vous vous déplacez, vous pouvez activer un jetpack en dépensant 1 charge, ce qui vous permet de vous déplacer de 1 zone supplémentaire (à l’horizontale ou à la verticale) ou de gagner suffisamment de hauteur pour effectuer un atterrissage à impact</p>"}],
+    ["zX0aUfac1HnsEvZO",{page:145,en:"Rusty Knuckles",fr:"Poing rouillé",loc:"Arm",w:1,c:50,perks:"Blacksmith 1",skill:"Repair",enEffect:"<p>Your unarmed attacks gain the Persistent damage effect</p>",frEffect:"<p>Vos attaques à mains nues gagnent l’effet de dégâts Persistant</p>"}],
+    ["cMFQXRN9ZrDIU23Y",{page:145,en:"Hydraulic Bracers",fr:"Bracelets hydrauliques",loc:"Arm",w:1,c:100,perks:"Blacksmith 3",skill:"Repair",enEffect:"<p>While armor is powered, your unarmed attacks inflict +2 @fos[DC] damage</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, vos attaques à mains nues infligent +2 @fos[DC] de dégâts</p>"}],
+    ["ZsGBPsT9kf1lVrFw",{page:145,en:"Optimized Bracers",fr:"Bracelets optimisés",loc:"Arm",w:1,c:100,perks:"Blacksmith 1",skill:"Repair",enEffect:"<p>While armor is powered, you may spend up to 4 AP on bonus damage for melee attacks</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, vous pouvez dépenser jusqu’à 4 PA en dégâts bonus pour les attaques de corps à corps</p>"}],
+    ["K63y4mcKxr792XLB",{page:145,en:"Tesla Bracers",fr:"Bracelets Tesla",loc:"Arm",w:1,c:150,perks:"Blacksmith 3, Science! 1",skill:"Repair",enEffect:"<p>While armor is powered, your unarmed attacks inflict +2 @fos[DC] damage and now inflict Energy damage</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, vos attaques à mains nues infligent +2 @fos[DC] de dégâts. Les dégâts de ces attaques sont énergétiques.</p>"}],
+    ["RrhtyBPhjtENsF6w",{page:145,en:"Calibrated Shocks",fr:"Amortisseurs calibrés",loc:"Leg",w:1,c:100,perks:"Science! 2",skill:"Science",enEffect:"<p>Your carry weight is increased by +50</p>",frEffect:"<p>Votre charge maximale augmente de +25</p>"}],
+    ["JpGZrBzUJTLieuRJ",{page:145,en:"Explosive Vent",fr:"Évent d’explosion",loc:"Leg",w:1,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>While the armor is powered, when you land from a height, you inflict 4 @fos[DC] damage to all creatures and damageable objects within Close range</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, quand vous atterrissez depuis une hauteur, vous infligez 4 @fos[DC] de dégâts à toutes les créatures et objets pouvant subir des dégâts à portée courte</p>"}],
+    ["pZ2FIyhKvuL7EPT0",{page:145,en:"Overdrive Servos",fr:"Servomoteurs à vitesse surmultipliée",loc:"Leg",w:1,c:100,perks:"Science! 3",skill:"Science",enEffect:"<p>While armor is powered, when you Sprint, you may spend +2 AP to move one additional zone</p>",frEffect:"<p>Tant que l’armure est alimentée en énergie, quand vous sprintez, vous pouvez dépenser +2 PA pour vous déplacer de 1 zone supplémentaire</p>"}]
+  ]);
+
+  const platings = new Map([
+    ["kGts8ZQ6Lr4bkF9M",{en:"Titanium Plating",fr:"Blindage en titane",loc:"Helm, Arms, Legs",w:1,c:10,perks:"Armorer 3",skill:"Repair",hp:1,e:0,r:0,enEffect:"<p>+1 HP to Armor Piece</p>",frEffect:"<p>+1 PV pour la pièce d’armure</p>"}],
+    ["hJDcOKYapml78um8",{en:"Titanium Plating (Torso)",fr:"Blindage en titane (Torse)",loc:"Torso",w:2,c:20,perks:"Armorer 3",skill:"Repair",hp:2,e:0,r:0,enEffect:"<p>+2 HP to Armor Piece</p>",frEffect:"<p>+2 PV pour la pièce d’armure</p>"}],
+    ["8fvlLrbWjODf6BCe",{en:"Lead Plating",fr:"Blindage en plomb",loc:"Helm, Arms, Legs",w:2,c:10,perks:"Armorer 1",skill:"Repair",hp:0,e:0,r:2,enEffect:"<p>+2 Radiation damage resistance</p>",frEffect:"<p>+2 résistance aux dégâts de radiation</p>"}],
+    ["7IO8gCf1f2bCK4a0",{en:"Lead Plating (Torso)",fr:"Blindage en plomb (Torse)",loc:"Torso",w:4,c:20,perks:"Armorer 1",skill:"Repair",hp:0,e:0,r:2,enEffect:"<p>+2 Radiation damage resistance</p>",frEffect:"<p>+2 résistance aux dégâts de radiation</p>"}],
+    ["DxewSX1ooPKoNPPs",{en:"Photovoltaic Plating",fr:"Revêtement photovoltaïque",loc:"Helm, Arms, Legs",w:1,c:10,perks:"Science! 3",skill:"Science",hp:0,e:0,r:0,enEffect:"<p>+1 AP at the start of a scene if in direct sunlight (only applies once)</p>",frEffect:"<p>+1 PA au début d’une scène si vous êtes directement exposé à la lumière du soleil (ne s’applique qu’une fois)</p>"}],
+    ["lqvdGQ6axRjBfNoe",{en:"Photovoltaic Plating (Torso)",fr:"Revêtement photovoltaïque (Torse)",loc:"Torso",w:2,c:20,perks:"Science! 3",skill:"Science",hp:0,e:0,r:0,enEffect:"<p>+1 AP at the start of a scene if in direct sunlight (only applies once)</p>",frEffect:"<p>+1 PA au début d’une scène si vous êtes directement exposé à la lumière du soleil (ne s’applique qu’une fois)</p>"}],
+    ["mgzavWT1TZT1qdoR",{en:"Winterized Coating",fr:"Revêtement antigel",loc:"Helm, Arms, Legs",w:1,c:10,perks:"Armorer 1",skill:"Repair",hp:0,e:1,r:0,enEffect:"<p>+1 Energy damage resistance</p>",frEffect:"<p>+1 résistance aux dégâts énergétiques</p>"}],
+    ["faqvoA7iZx90tXnH",{en:"Winterized Coating (Torso)",fr:"Revêtement antigel (Torse)",loc:"Torso",w:2,c:20,perks:"Armorer 1",skill:"Repair",hp:0,e:1,r:0,enEffect:"<p>+1 Energy damage resistance</p>",frEffect:"<p>+1 résistance aux dégâts énergétiques</p>"}],
+    ["WKklumSE0xUCXFmc",{en:"Prism Shielding",fr:"Blindage prismatique",loc:"Helm, Arms, Legs",w:2,c:10,perks:"Science! 2",skill:"Science",hp:0,e:3,r:0,enEffect:"<p>+3 Energy damage resistance</p>",frEffect:"<p>+3 résistance aux dégâts énergétiques</p>"}],
+    ["JAN0jzOhkMyI3U1w",{en:"Prism Shielding (Torso)",fr:"Blindage prismatique (Torse)",loc:"Torso",w:4,c:20,perks:"Science! 2",skill:"Science",hp:0,e:3,r:0,enEffect:"<p>+3 Energy damage resistance</p>",frEffect:"<p>+3 résistance aux dégâts énergétiques</p>"}],
+    ["7iRkK1Elj5iRfANw",{en:"Explosive Shielding",fr:"Blindage antiexplosion",loc:"Helm, Arms, Legs",w:1,c:10,perks:"Science! 1",skill:"Science",hp:0,e:0,r:0,enEffect:"<p>+2 to all damage resistances vs Blast weapons.</p>",frEffect:"<p>+2 à toutes les résistances aux dégâts contre les armes à Zone d’impact</p>"}],
+    ["vZs57HCeBc9iOVUR",{en:"Explosive Shielding (Torso)",fr:"Blindage antiexplosion (Torse)",loc:"Torso",w:2,c:20,perks:"Science! 1",skill:"Science",hp:0,e:0,r:0,enEffect:"<p>+2 to all damage resistances vs Blast weapons.</p>",frEffect:"<p>+2 à toutes les résistances aux dégâts contre les armes à Zone d’impact</p>"}]
+  ]);
+
+  const p144 = catalog.entries.filter(entry => entry.page === 144 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p144.length, 12);
+  assert.deepEqual(new Set(p144.map(entry => entry.documentId)), new Set([...systems].filter(([,spec]) => spec.page === 144 || spec.page === 139).map(([id]) => id)));
+
+  const p145 = catalog.entries.filter(entry => entry.page === 145 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p145.length, 22);
+  assert.deepEqual(new Set(p145.map(entry => entry.documentId)), new Set([...systems].filter(([,spec]) => spec.page === 145).map(([id]) => id).concat([...platings.keys()])));
+
+  const sharedRule = catalog.entries.find(entry => entry.page === 144 && entry.type === "rule_text" && entry.sourceName === "Power Armor Mods");
+  assert.ok(sharedRule);
+  assert.equal(sharedRule.certification.chestPlatingWeightCostMultiplier, 2);
+  assert.equal(sharedRule.certification.raiderPlatingExcluded, true);
+  assert.equal(sharedRule.certification.errataReviewed, true);
+  assert.match(sharedRule.certification.errataNote, /no Core p\.144–145 Power Armor Mods correction/);
+
+  const powerArmorEntries = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && entry.documentId !== "lp5ZpYjbFhe8IUcx");
+  assert.equal(powerArmorEntries.length, 30);
+  for (const entry of powerArmorEntries) {
+    assert.ok(entry.sourcePages.en.includes(144) && entry.sourcePages.en.includes(145), entry.sourceName + " EN shared-mod dependency");
+    assert.ok(entry.sourcePages.fr.includes(144) && entry.sourcePages.fr.includes(145), entry.sourceName + " FR shared-mod dependency");
+    assert.equal(entry.certification.sharedSystemModsReviewed, true, entry.sourceName + " System mods reviewed");
+    assert.equal(entry.certification.powerArmorModsRulesReviewed, true, entry.sourceName + " shared rules reviewed");
+    assert.equal(entry.certification.sharedPlatingModsReviewed, !entry.sourceName.startsWith("Raider "), entry.sourceName + " Plating review");
+  }
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+
+    for (const [id,spec] of systems) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, spec.page, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, "system");
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.effect, language === "en" ? spec.enEffect : spec.frEffect);
+      if (id !== "R7MSARmaFbVPiunS") {
+        assert.ok(doc.system.description.startsWith(intro[language]), language + "/apparel-mods/" + id + " shared source description");
+        assert.match(doc.system.description, /data-f2d20-recipe="core"/, language + "/apparel-mods/" + id + " recipe retained");
+      }
+    }
+
+    for (const [id,spec] of platings) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 145, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true);
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, "plating");
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.deepEqual(doc.system.resistance, {energy:spec.e,physical:0,radiation:spec.r});
+      assert.equal(doc.system.effect, language === "en" ? spec.enEffect : spec.frEffect);
+      assert.ok(doc.system.description.startsWith(intro[language]), language + "/apparel-mods/" + id + " shared source description");
+      assert.match(doc.system.description, /data-f2d20-recipe="core"/, language + "/apparel-mods/" + id + " recipe retained");
+    }
+
+    for (const entry of powerArmorEntries) {
+      const piece = apparel.get(entry.documentId);
+      assert.ok(piece, language + "/apparel/" + entry.documentId + " missing");
+      const embedded = Object.entries(piece.system.mods || {}).filter(([,value]) => value && typeof value === "object" && value.system);
+      for (const [id, embeddedMod] of embedded) {
+        if (!systems.has(id) && !platings.has(id)) continue;
+        const central = mods.get(id);
+        assert.ok(central, language + "/apparel-mods/" + id + " central mod missing");
+        assert.equal(embeddedMod.system.modType, central.system.modType, language + "/apparel/" + entry.documentId + "/" + id + " modType");
+        assert.equal(embeddedMod.system.location, central.system.location, language + "/apparel/" + entry.documentId + "/" + id + " location");
+        assert.equal(embeddedMod.system.cost, central.system.cost, language + "/apparel/" + entry.documentId + "/" + id + " cost");
+        assert.equal(embeddedMod.system.perks, central.system.perks, language + "/apparel/" + entry.documentId + "/" + id + " perks");
+        assert.deepEqual(embeddedMod.system.resistance, central.system.resistance, language + "/apparel/" + entry.documentId + "/" + id + " resistances");
+        assert.equal(embeddedMod.system.health.value, central.system.health.value, language + "/apparel/" + entry.documentId + "/" + id + " health");
+        assert.equal(embeddedMod.system.weight, central.system.weight, language + "/apparel/" + entry.documentId + "/" + id + " weight");
+      }
+    }
+  }
+});
+
