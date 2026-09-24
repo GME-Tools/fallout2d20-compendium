@@ -38,10 +38,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Factory Armor (Optics)"
+        "artworkSource": "repository alias for Factory Armor (Optics)",
+        "page": 146
       },
       "recipe": {
         "source": "core_rulebook",

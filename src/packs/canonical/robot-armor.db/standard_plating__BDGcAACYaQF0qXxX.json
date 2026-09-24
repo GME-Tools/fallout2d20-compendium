@@ -38,10 +38,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "repository alias for Standard Plating"
+        "artworkSource": "repository alias for Standard Plating",
+        "page": 146
       }
     }
   },

@@ -4093,3 +4093,106 @@ test("Core Power Armor pp.144-145 shared mods are source-complete", async () => 
   }
 });
 
+test("Core Robot Armor pp.146–147 table is source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 149 && catalog.certifiedThrough.en.sourcePage >= 147);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 150 && catalog.certifiedThrough.fr.sourcePage >= 147);
+
+  const identities = [
+    ["hNlPV160j8Uk9qAZ","actuated_frame","arm_1"],["l2R15upfww3XvNHA","actuated_frame","arm_2"],["ByXJVAAdbklXkx4F","actuated_frame","arm_3"],["0d7qFZHVsWYFhFoI","actuated_frame","main_body"],["HYNVUjwQxMO4KXIe","actuated_frame","optics"],["LLnQeNnD1C4zlqXv","actuated_frame","thruster"],
+    ["Bw8LJy7nJMkiXcBo","factory_armor","arm_1"],["eBkpFQgUgEY577D8","factory_armor","arm_2"],["bjYeD4BiCQS4kEGu","factory_armor","arm_3"],["WaHiQ6eWFNacsUJ3","factory_armor","main_body"],["ItAAKsRwZQEbmwIF","factory_armor","optics"],["bCVyhEfW7raPOUnE","factory_armor","thruster"],
+    ["mqCbnQQasrmkZsvU","factory_storage_armor","main_body"],
+    ["JDKYtZyqEV2lQvFx","hydraulic_frame","arm_1"],["OkcwSvkgUoyWp5s1","hydraulic_frame","arm_2"],["agLROEPeyQHPmptB","hydraulic_frame","arm_3"],["WfmNUwj6vf1J1B1D","hydraulic_frame","main_body"],["D8Y0T7cpVY4XgXWq","hydraulic_frame","optics"],["QBX0JeYQ35RQR7N8","hydraulic_frame","thruster"],
+    ["TsWbvZ5RsybpeN2y","mister_gutsy_plating",null],
+    ["Kf577cR3G6pb7Mkt","noxious_plate","arm_1"],["f51NNsrFdLVVsNqJ","noxious_plate","arm_2"],["g81eSQdioCxlp7Dm","noxious_plate","arm_3"],["ShuSwxf2xbRbpn9D","noxious_plate","main_body"],["tH4nPzaOhBjnfmpC","noxious_plate","optics"],["yWyTsnEUgTIAwldJ","noxious_plate","thruster"],
+    ["9EqSrg7jA5qcLniC","primal_plate","arm_1"],["i3ORYuQ06JEuR1Sg","primal_plate","arm_2"],["2B6NdSIDwwqjTqZn","primal_plate","arm_3"],["RDjyaSvAT6HzfEBn","primal_plate","main_body"],["oXFQizWTeO3HB4GA","primal_plate","optics"],["Qe00ZMs3pujwwgjs","primal_plate","thruster"],
+    ["F0EnePOunzae56lJ","serrated_plate","arm_1"],["vqETiW7Kb0SgXV43","serrated_plate","arm_2"],["UCJpZzvuttkA0QgE","serrated_plate","arm_3"],["VgbaAYRw7EgisEiA","serrated_plate","main_body"],["SfpbSl7s62PyLVD1","serrated_plate","optics"],["MIbiWiYfApYYj1ft","serrated_plate","thruster"],
+    ["BDGcAACYaQF0qXxX","standard_plating",null],
+    ["MOmIwergCNwfesgP","toxic_plate","arm_1"],["q13iMNcRH0zc729C","toxic_plate","arm_2"],["wGGosbG83Om5a1ac","toxic_plate","arm_3"],["wS4PyRQOedMKih10","toxic_plate","main_body"],["acP42rzsrff1QOU2","toxic_plate","optics"],["p6isTJnOmQhUGLck","toxic_plate","thruster"],
+    ["IU0gtAAG6EOwvSXA","voltaic_frame","arm_1"],["5922ioSDVB2hnY72","voltaic_frame","arm_2"],["c7bdRUlaii4Yn8oH","voltaic_frame","arm_3"],["ai8sQG55s9dcHrH2","voltaic_frame","main_body"],["KIeIEy9kJXroD5wH","voltaic_frame","optics"],["qAnuaudKfDpd72Sl","voltaic_frame","thruster"]
+  ];
+  assert.equal(identities.length, 51);
+
+  const families = {
+    actuated_frame:{en:"Actuated Frame",fr:"Châssis actif",p:1,e:1,perks:"",cost:{optics:15,main_body:30,arm:15,thruster:15},carry:{optics:10,main_body:20,arm:10,thruster:10}},
+    factory_armor:{en:"Factory Armor",fr:"Armure d’usine",p:1,e:1,perks:"",cost:{optics:10,main_body:20,arm:10,thruster:10},carry:{optics:0,main_body:0,arm:0,thruster:0}},
+    factory_storage_armor:{en:"Factory Storage Armor",fr:"Armure de stockage d’usine",p:1,e:1,perks:"Armorer 1",cost:{main_body:25},carry:{main_body:20}},
+    hydraulic_frame:{en:"Hydraulic Frame",fr:"Châssis hydraulique",p:3,e:3,perks:"Armorer 3",cost:{optics:30,main_body:60,arm:30,thruster:30},carry:{optics:5,main_body:10,arm:5,thruster:5}},
+    mister_gutsy_plating:{en:"Mister Gutsy Plating",fr:"Blindage Mister Gutsy",p:2,e:2,perks:"",cost:{all:0},carry:{all:-10}},
+    noxious_plate:{en:"Noxious Plate",fr:"Plaque néfaste",p:2,e:0,perks:"Armorer 1",cost:{optics:15,main_body:30,arm:15,thruster:15},carry:{optics:-10,main_body:-20,arm:-10,thruster:-10}},
+    primal_plate:{en:"Primal Plate",fr:"Plaque de base",p:2,e:0,perks:"",cost:{optics:10,main_body:20,arm:10,thruster:10},carry:{optics:-10,main_body:-20,arm:-10,thruster:-10}},
+    serrated_plate:{en:"Serrated Plate",fr:"Plaque dentelée",p:2,e:0,perks:"Armorer 1",cost:{optics:15,main_body:30,arm:15,thruster:15},carry:{optics:-10,main_body:-20,arm:-10,thruster:-10}},
+    standard_plating:{en:"Standard Plating",fr:"Blindage standard",p:2,e:0,perks:"",cost:{all:0},carry:{all:0}},
+    toxic_plate:{en:"Toxic Plate",fr:"Plaque toxique",p:2,e:0,perks:"Armorer 3",cost:{optics:15,main_body:30,arm:15,thruster:15},carry:{optics:-10,main_body:-20,arm:-10,thruster:-10}},
+    voltaic_frame:{en:"Voltaic Frame",fr:"Châssis voltaïque",p:2,e:2,perks:"Armorer 2",cost:{optics:20,main_body:40,arm:20,thruster:20},carry:{optics:10,main_body:20,arm:10,thruster:10}}
+  };
+  const enSuffix={optics:"Optics",main_body:"Main Body",arm_1:"Arm 1",arm_2:"Arm 2",arm_3:"Arm 3",thruster:"Thruster"};
+  const frSuffix={optics:"Optiques",main_body:"Corps principal",arm_1:"Bras 1",arm_2:"Bras 2",arm_3:"Bras 3",thruster:"Propulseur"};
+  const described=new Set(["standard_plating","mister_gutsy_plating","factory_armor","factory_storage_armor","primal_plate"]);
+  const desc = {
+    en:{
+      standard_plating:"<p>The default factory plating provided with all brand-new Mister Handy models. This has no cost, as it&rsquo;s the default which a Mister Handy character begins with most of the time.</p>",
+      mister_gutsy_plating:"<p>Like the standard plating, but with better thermal absorption properties to reinforce it against energy weaponry, this is the standard plating for a Mister Gutsy. It is the default for all Mister Handy characters who select the Mister Gutsy starting package.</p>",
+      factory_armor:"<p>A standardized, factory-made set of armor plating designed to fit any Mister Handy model.</p>",
+      factory_storage_armor:"<p>A factory-made set of standard armor which also provides additional storage compartments to increase a robot&rsquo;s carrying capacity.</p>",
+      primal_plate:"<p>Makeshift supplementary armor that can be affixed to a robot&rsquo;s structure to provide extra protection from physical hazards. The bulk and crude design reduce the robot&rsquo;s carrying capacity, however.</p>"
+    },
+    fr:{
+      standard_plating:"<p>Le blindage sorti d’usine par défaut fourni avec tous les modèles neufs de Mister Handy. Le coût n’est pas indiqué, car c’est le blindage par défaut avec lequel un personnage Mister Handy commence le jeu la plupart du temps.</p>",
+      mister_gutsy_plating:"<p>Identique au blindage standard, mais avec de meilleures propriétés d’absorption thermique pour le renforcer contre les armes à énergie. Ce blindage est le blindage standard pour un Mister Gutsy. C’est donc aussi le blindage par défaut pour tous les personnages Mister Handy qui choisissent le pack d’équipement de départ Mister Gutsy.</p>",
+      factory_armor:"<p>Un ensemble de blindage d’armure standardisé fabriqué en usine conçu pour pouvoir être monté sur n’importe quel modèle de Mister Handy.</p>",
+      factory_storage_armor:"<p>Une armure standard fabriquée en usine qui fournit également des compartiments de stockage supplémentaires pour augmenter la charge que peut porter le robot.</p>",
+      primal_plate:"<p>Une armure complémentaire artisanale qui peut être fixée sur la structure d’un robot pour fournir une protection supplémentaire contre les dangers physiques. Cependant, le volume et le design rudimentaire de cette armure réduisent la charge que le robot peut porter.</p>"
+    }
+  };
+
+  const table = catalog.entries.find(entry => entry.page === 146 && entry.type === "table" && entry.sourceName === "Robot Armor Types");
+  assert.ok(table);
+  assert.equal(table.certification.rowCount, 35);
+  assert.equal(table.certification.publishedIdentityCount, 51);
+  assert.equal(table.certification.armVariantsDerived, true);
+  assert.equal(table.certification.sourceArmsCoverAllThree, true);
+  assert.match(table.certification.errataNote, /Wasteland Wanderer/);
+  assert.match(table.certification.errataNote, /Rust Devils NPC Pack/);
+
+  const robotEntries = catalog.entries.filter(entry => entry.pack === "robot-armor" && [146,147].includes(entry.page) && entry.status === "verified");
+  assert.equal(robotEntries.length, 51);
+  assert.deepEqual(new Set(robotEntries.map(entry => entry.documentId)), new Set(identities.map(([id]) => id)));
+
+  for(const [family] of Object.entries(families)){
+    const arms=robotEntries.filter(entry => entry.certification.sourceTableName === families[family].en && entry.certification.sourceRowLocation === "Arms");
+    if(["standard_plating","mister_gutsy_plating","factory_storage_armor"].includes(family)) assert.equal(arms.length,0);
+    else {
+      assert.equal(arms.length,3,family+" published arm variants");
+      assert.deepEqual(new Set(arms.map(entry=>entry.certification.armVariant)),new Set([1,2,3]));
+    }
+  }
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "robot-armor").map(({document}) => [document._id, document]));
+    assert.equal(docs.size, 51);
+
+    for (const [id,family,suffix] of identities) {
+      const f=families[family], doc=docs.get(id);
+      assert.ok(doc,language+"/robot-armor/"+id+" missing");
+      const locKey=suffix?.startsWith("arm_")?"arm":(suffix||"all");
+      const page=(family==="voltaic_frame"||family==="hydraulic_frame"||(family==="actuated_frame"&&suffix==="thruster"))?147:146;
+      const expectedName=f[language]+(suffix?" ("+(language==="en"?enSuffix[suffix]:frSuffix[suffix])+")":"");
+      assert.equal(doc.name,expectedName,language+"/robot-armor/"+id+" name");
+      assert.deepEqual(doc.system.resistance,{energy:f.e,physical:f.p,radiation:0},language+"/robot-armor/"+id+" resistances");
+      assert.equal(doc.system.cost,f.cost[locKey],language+"/robot-armor/"+id+" cost");
+      assert.equal(doc.system.perks,f.perks,language+"/robot-armor/"+id+" perks");
+      assert.equal(doc.system.carry,language==="en"?f.carry[locKey]:f.carry[locKey]/2,language+"/robot-armor/"+id+" carry");
+      const source=doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page,page,language+"/robot-armor/"+id+" source page");
+      assert.equal(source?.errataReviewed,true,language+"/robot-armor/"+id+" errata review");
+      const catEntry=robotEntries.find(entry=>entry.documentId===id);
+      assert.equal(catEntry.certification.descriptionReviewed,described.has(family));
+      if(described.has(family)){
+        assert.ok(doc.system.description.startsWith(desc[language][family]),language+"/robot-armor/"+id+" p.147 description");
+        if(!["standard_plating","mister_gutsy_plating"].includes(family)) assert.match(doc.system.description,/data-f2d20-recipe="core"/,language+"/robot-armor/"+id+" recipe retained");
+      }
+    }
+  }
+});
+

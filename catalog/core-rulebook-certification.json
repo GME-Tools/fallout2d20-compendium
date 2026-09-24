@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 147,
-      "sourcePage": 145
+      "pdfPage": 149,
+      "sourcePage": 147
     },
     "fr": {
-      "pdfPage": 148,
-      "sourcePage": 145
+      "pdfPage": 150,
+      "sourcePage": 147
     }
   },
   "pageReviews": [
@@ -2373,6 +2373,38 @@
       "language": "fr",
       "pdfPage": 148,
       "sourcePage": 145,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 148,
+      "sourcePage": 146,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 149,
+      "sourcePage": 146,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 149,
+      "sourcePage": 147,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 150,
+      "sourcePage": 147,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -34665,6 +34697,2281 @@
         "canonicalMechanicsReviewed": true,
         "representedByDocumentId": "R7MSARmaFbVPiunS",
         "firstCertifiedPage": 139,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "rule_text",
+      "sourceName": "Robot Armor",
+      "localizedNames": {
+        "fr": "Armure de robot"
+      },
+      "scope": "out_of_scope",
+      "justification": "General Mister Handy equipment, hit-location and installation rules govern the reusable robot-armor Items rather than defining a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "robotLocations": [
+          "Optics",
+          "Main Body",
+          "Arms 1-3",
+          "Thruster"
+        ],
+        "armsCoveredTogether": true,
+        "carryWeightMayBeModified": true,
+        "installSkill": "Repair",
+        "platingException": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "table",
+      "sourceName": "Robot Armor Types",
+      "localizedNames": {
+        "fr": "Types d’armure de robot"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table spanning pp.146–147 and defining reusable robot-armor Items. Generic Arms rows are materialized as stable Arm 1/2/3 Foundry identities.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 35,
+        "publishedIdentityCount": 51,
+        "armVariantsDerived": true,
+        "sourceArmsCoverAllThree": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "rule_text",
+      "sourceName": "Standard Plating",
+      "localizedNames": {
+        "fr": "Blindage standard"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description is applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "rule_text",
+      "sourceName": "Mister Gutsy Plating",
+      "localizedNames": {
+        "fr": "Blindage Mister Gutsy"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description is applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "rule_text",
+      "sourceName": "Factory Armor",
+      "localizedNames": {
+        "fr": "Armure d’usine"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description is applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "rule_text",
+      "sourceName": "Factory Storage Armor",
+      "localizedNames": {
+        "fr": "Armure de stockage d’usine"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description is applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "rule_text",
+      "sourceName": "Primal Plate",
+      "localizedNames": {
+        "fr": "Plaque de base"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description is applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has no Core Rulebook Robot Armor correction on source pp.146–147. Its p.146/p.147 entries are under Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack; neither is applied to the Core table."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Actuated Frame (Arm 1)",
+      "localizedNames": {
+        "fr": "Châssis actif (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Actuated Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "hNlPV160j8Uk9qAZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Actuated Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 15,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Actuated Frame (Arm 2)",
+      "localizedNames": {
+        "fr": "Châssis actif (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Actuated Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "l2R15upfww3XvNHA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Actuated Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 15,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Actuated Frame (Arm 3)",
+      "localizedNames": {
+        "fr": "Châssis actif (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Actuated Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "ByXJVAAdbklXkx4F",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Actuated Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 15,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Actuated Frame (Main Body)",
+      "localizedNames": {
+        "fr": "Châssis actif (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "0d7qFZHVsWYFhFoI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Actuated Frame",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 20,
+        "carryWeightFr": 10,
+        "cost": 30,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Actuated Frame (Optics)",
+      "localizedNames": {
+        "fr": "Châssis actif (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "HYNVUjwQxMO4KXIe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Actuated Frame",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 15,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Actuated Frame (Thruster)",
+      "localizedNames": {
+        "fr": "Châssis actif (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "LLnQeNnD1C4zlqXv",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Actuated Frame",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 15,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Armor (Arm 1)",
+      "localizedNames": {
+        "fr": "Armure d’usine (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Factory Armor Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "Bw8LJy7nJMkiXcBo",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Armor",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Armor (Arm 2)",
+      "localizedNames": {
+        "fr": "Armure d’usine (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Factory Armor Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "eBkpFQgUgEY577D8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Armor",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Armor (Arm 3)",
+      "localizedNames": {
+        "fr": "Armure d’usine (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Factory Armor Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "bjYeD4BiCQS4kEGu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Armor",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Armor (Main Body)",
+      "localizedNames": {
+        "fr": "Armure d’usine (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "WaHiQ6eWFNacsUJ3",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Armor",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 20,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Armor (Optics)",
+      "localizedNames": {
+        "fr": "Armure d’usine (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "ItAAKsRwZQEbmwIF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Armor",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Armor (Thruster)",
+      "localizedNames": {
+        "fr": "Armure d’usine (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "bCVyhEfW7raPOUnE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Armor",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Factory Storage Armor (Main Body)",
+      "localizedNames": {
+        "fr": "Armure de stockage d’usine (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "mqCbnQQasrmkZsvU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Factory Storage Armor",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "carryWeightLb": 20,
+        "carryWeightFr": 10,
+        "cost": 25,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Hydraulic Frame (Arm 1)",
+      "localizedNames": {
+        "fr": "Châssis hydraulique (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Hydraulic Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "JDKYtZyqEV2lQvFx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hydraulic Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "carryWeightLb": 5,
+        "carryWeightFr": 2.5,
+        "cost": 30,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Hydraulic Frame (Arm 2)",
+      "localizedNames": {
+        "fr": "Châssis hydraulique (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Hydraulic Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "OkcwSvkgUoyWp5s1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hydraulic Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "carryWeightLb": 5,
+        "carryWeightFr": 2.5,
+        "cost": 30,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Hydraulic Frame (Arm 3)",
+      "localizedNames": {
+        "fr": "Châssis hydraulique (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Hydraulic Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "agLROEPeyQHPmptB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hydraulic Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "carryWeightLb": 5,
+        "carryWeightFr": 2.5,
+        "cost": 30,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Hydraulic Frame (Main Body)",
+      "localizedNames": {
+        "fr": "Châssis hydraulique (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "WfmNUwj6vf1J1B1D",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hydraulic Frame",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 60,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Hydraulic Frame (Optics)",
+      "localizedNames": {
+        "fr": "Châssis hydraulique (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "D8Y0T7cpVY4XgXWq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hydraulic Frame",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "carryWeightLb": 5,
+        "carryWeightFr": 2.5,
+        "cost": 30,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Hydraulic Frame (Thruster)",
+      "localizedNames": {
+        "fr": "Châssis hydraulique (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "QBX0JeYQ35RQR7N8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Hydraulic Frame",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 3,
+          "energy": 3,
+          "radiation": 0
+        },
+        "carryWeightLb": 5,
+        "carryWeightFr": 2.5,
+        "cost": 30,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Mister Gutsy Plating",
+      "localizedNames": {
+        "fr": "Blindage Mister Gutsy"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "TsWbvZ5RsybpeN2y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Mister Gutsy Plating",
+        "sourceRowLocation": "All",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 0,
+        "perks": "",
+        "installSkill": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Noxious Plate (Arm 1)",
+      "localizedNames": {
+        "fr": "Plaque néfaste (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Noxious Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "Kf577cR3G6pb7Mkt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Noxious Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Noxious Plate (Arm 2)",
+      "localizedNames": {
+        "fr": "Plaque néfaste (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Noxious Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "f51NNsrFdLVVsNqJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Noxious Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Noxious Plate (Arm 3)",
+      "localizedNames": {
+        "fr": "Plaque néfaste (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Noxious Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "g81eSQdioCxlp7Dm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Noxious Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Noxious Plate (Main Body)",
+      "localizedNames": {
+        "fr": "Plaque néfaste (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "ShuSwxf2xbRbpn9D",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Noxious Plate",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -20,
+        "carryWeightFr": -10,
+        "cost": 30,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Noxious Plate (Optics)",
+      "localizedNames": {
+        "fr": "Plaque néfaste (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "tH4nPzaOhBjnfmpC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Noxious Plate",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Noxious Plate (Thruster)",
+      "localizedNames": {
+        "fr": "Plaque néfaste (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "yWyTsnEUgTIAwldJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Noxious Plate",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Primal Plate (Arm 1)",
+      "localizedNames": {
+        "fr": "Plaque de base (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Primal Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "9EqSrg7jA5qcLniC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Primal Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Primal Plate (Arm 2)",
+      "localizedNames": {
+        "fr": "Plaque de base (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Primal Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "i3ORYuQ06JEuR1Sg",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Primal Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Primal Plate (Arm 3)",
+      "localizedNames": {
+        "fr": "Plaque de base (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Primal Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "2B6NdSIDwwqjTqZn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Primal Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Primal Plate (Main Body)",
+      "localizedNames": {
+        "fr": "Plaque de base (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "RDjyaSvAT6HzfEBn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Primal Plate",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -20,
+        "carryWeightFr": -10,
+        "cost": 20,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Primal Plate (Optics)",
+      "localizedNames": {
+        "fr": "Plaque de base (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "oXFQizWTeO3HB4GA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Primal Plate",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Primal Plate (Thruster)",
+      "localizedNames": {
+        "fr": "Plaque de base (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "Qe00ZMs3pujwwgjs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Primal Plate",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Serrated Plate (Arm 1)",
+      "localizedNames": {
+        "fr": "Plaque dentelée (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Serrated Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "F0EnePOunzae56lJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Serrated Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Serrated Plate (Arm 2)",
+      "localizedNames": {
+        "fr": "Plaque dentelée (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Serrated Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "vqETiW7Kb0SgXV43",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Serrated Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Serrated Plate (Arm 3)",
+      "localizedNames": {
+        "fr": "Plaque dentelée (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Serrated Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "UCJpZzvuttkA0QgE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Serrated Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Serrated Plate (Main Body)",
+      "localizedNames": {
+        "fr": "Plaque dentelée (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "VgbaAYRw7EgisEiA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Serrated Plate",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -20,
+        "carryWeightFr": -10,
+        "cost": 30,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Serrated Plate (Optics)",
+      "localizedNames": {
+        "fr": "Plaque dentelée (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "SfpbSl7s62PyLVD1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Serrated Plate",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Serrated Plate (Thruster)",
+      "localizedNames": {
+        "fr": "Plaque dentelée (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "MIbiWiYfApYYj1ft",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Serrated Plate",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Standard Plating",
+      "localizedNames": {
+        "fr": "Blindage standard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "BDGcAACYaQF0qXxX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146,
+          147
+        ],
+        "fr": [
+          146,
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": true,
+        "sourceTableName": "Standard Plating",
+        "sourceRowLocation": "All",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": 0,
+        "carryWeightFr": 0,
+        "cost": 0,
+        "perks": "",
+        "installSkill": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Toxic Plate (Arm 1)",
+      "localizedNames": {
+        "fr": "Plaque toxique (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Toxic Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "MOmIwergCNwfesgP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Toxic Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Toxic Plate (Arm 2)",
+      "localizedNames": {
+        "fr": "Plaque toxique (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Toxic Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "q13iMNcRH0zc729C",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Toxic Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Toxic Plate (Arm 3)",
+      "localizedNames": {
+        "fr": "Plaque toxique (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Toxic Plate Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "wGGosbG83Om5a1ac",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Toxic Plate",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Toxic Plate (Main Body)",
+      "localizedNames": {
+        "fr": "Plaque toxique (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "wS4PyRQOedMKih10",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Toxic Plate",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -20,
+        "carryWeightFr": -10,
+        "cost": 30,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Toxic Plate (Optics)",
+      "localizedNames": {
+        "fr": "Plaque toxique (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "acP42rzsrff1QOU2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Toxic Plate",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 146,
+      "type": "robot_armor",
+      "sourceName": "Toxic Plate (Thruster)",
+      "localizedNames": {
+        "fr": "Plaque toxique (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "p6isTJnOmQhUGLck",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          146
+        ],
+        "fr": [
+          146
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Toxic Plate",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 0,
+          "radiation": 0
+        },
+        "carryWeightLb": -10,
+        "carryWeightFr": -5,
+        "cost": 15,
+        "perks": "Armorer 3",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Voltaic Frame (Arm 1)",
+      "localizedNames": {
+        "fr": "Châssis voltaïque (Bras 1)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 1 identity derived from the Core Voltaic Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "IU0gtAAG6EOwvSXA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Voltaic Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 1,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 20,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Voltaic Frame (Arm 2)",
+      "localizedNames": {
+        "fr": "Châssis voltaïque (Bras 2)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 2 identity derived from the Core Voltaic Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "5922ioSDVB2hnY72",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Voltaic Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 2,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 20,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Voltaic Frame (Arm 3)",
+      "localizedNames": {
+        "fr": "Châssis voltaïque (Bras 3)"
+      },
+      "scope": "in_scope",
+      "justification": "Published Arm 3 identity derived from the Core Voltaic Frame Arms row. The source states all three Mister Handy arms are covered together; the module retains stable per-arm Foundry identities.",
+      "pack": "robot-armor",
+      "documentId": "c7bdRUlaii4Yn8oH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Voltaic Frame",
+        "sourceRowLocation": "Arms",
+        "armVariant": 3,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 20,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Voltaic Frame (Main Body)",
+      "localizedNames": {
+        "fr": "Châssis voltaïque (Corps principal)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "ai8sQG55s9dcHrH2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Voltaic Frame",
+        "sourceRowLocation": "Main Body",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": 20,
+        "carryWeightFr": 10,
+        "cost": 40,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Voltaic Frame (Optics)",
+      "localizedNames": {
+        "fr": "Châssis voltaïque (Optiques)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "KIeIEy9kJXroD5wH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Voltaic Frame",
+        "sourceRowLocation": "Optics",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 20,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 147,
+      "type": "robot_armor",
+      "sourceName": "Voltaic Frame (Thruster)",
+      "localizedNames": {
+        "fr": "Châssis voltaïque (Propulseur)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable robot-armor identity defined by the Core pp.146–147 table.",
+      "pack": "robot-armor",
+      "documentId": "qAnuaudKfDpd72Sl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          147
+        ],
+        "fr": [
+          147
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "sourceTableName": "Voltaic Frame",
+        "sourceRowLocation": "Thruster",
+        "armVariant": null,
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "carryWeightLb": 10,
+        "carryWeightFr": 5,
+        "cost": 20,
+        "perks": "Armorer 2",
+        "installSkill": "Repair",
         "errataReviewed": true
       }
     }
