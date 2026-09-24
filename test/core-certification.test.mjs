@@ -3245,7 +3245,7 @@ test("Core Power Armor p.137 table is source-complete", async () => {
     assert.equal(entry.sourceName, spec.en);
     assert.equal(entry.localizedNames.fr, spec.fr);
     assert.equal(entry.certification.sourceTableName, spec.table);
-    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9","ZhmOXmBcKKxcPEv8","BeGAdzye5MeP3kUO","X9cMnQidJyiDg29B","g3Y0zWDI9VUNoUWK","VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP","giRILdjCelBn3rjL","ctWJbJpYQ9Q30TWc","z5Qy6X4pCeRPEWUs","VcWcoUmXcFk6rOka","jRNRzVKtIkwZ0zN7","zZa8B73OW8EyQoMu"].includes(entry.documentId);
+    const reviewedLater = entry.documentId === "lp5ZpYjbFhe8IUcx" || ["XCxUCHrYFRdsgCqk","qEljKwu1UzA9BoL6","Fn3CiQjQCfE9IMy4","th5iQbnAiLsKzIVV","JTHWr7cr6HeS2mN5","KSd9eiC0XaVlIXkN","IONsTORca0MOKJgh","5T8HTf7E0y1Mu9Zu","qlSLcOpcqCUgyb8V","KLN1PeBwMBoPhlCd","3K2oXJT9AJviSub3","qqDWrw8j82P7DPc9","ZhmOXmBcKKxcPEv8","BeGAdzye5MeP3kUO","X9cMnQidJyiDg29B","g3Y0zWDI9VUNoUWK","VbocpE9suK7meAfY","YYbLmTtpw4LbcQZP","giRILdjCelBn3rjL","ctWJbJpYQ9Q30TWc","z5Qy6X4pCeRPEWUs","VcWcoUmXcFk6rOka","jRNRzVKtIkwZ0zN7","zZa8B73OW8EyQoMu","NJm96SJKxbdONtKU","71Syqx4X35IjLNdc","XJ3mQc6tGsm9Q12N","82hgjmzTXmd4VdEs","jrSZkw346rKVnTfc","jv0C9MAbuq1t9wkX"].includes(entry.documentId);
     assert.equal(entry.certification.descriptionReviewed, reviewedLater);
     assert.equal(entry.certification.acceptedModsReviewed, reviewedLater);
     assert.equal(entry.certification.apparelType, "powerArmor");
@@ -3811,6 +3811,133 @@ test("Core Power Armor p.142 T-60 family and unique upgrades are source-complete
       assert.equal(doc.name, spec[language]);
       assert.equal(doc.system.apparelType, "powerArmor");
       assert.equal(doc.system.modType, "upgrade");
+      assert.equal(doc.system.location, spec.loc);
+      assert.equal(doc.system.resistance.physical, spec.p);
+      assert.equal(doc.system.resistance.energy, spec.e);
+      assert.equal(doc.system.resistance.radiation, spec.r);
+      assert.equal(doc.system.health.value, spec.hp);
+      assert.equal(doc.system.weight, language === "en" ? spec.w : spec.w / 2);
+      assert.equal(doc.system.cost, spec.c);
+      assert.equal(doc.system.perks, spec.perks);
+    }
+  }
+});
+
+test("Core Power Armor p.143 X-01 family and unique mods are source-complete", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 145 && catalog.certifiedThrough.en.sourcePage >= 143);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 146 && catalog.certifiedThrough.fr.sourcePage >= 143);
+
+  const x01Ids = new Set(["NJm96SJKxbdONtKU","71Syqx4X35IjLNdc","XJ3mQc6tGsm9Q12N","82hgjmzTXmd4VdEs","jrSZkw346rKVnTfc","jv0C9MAbuq1t9wkX"]);
+  const descriptions = {
+    en: "<p>Developed shortly before the bombs fell, the X-01 series of Power Armor was still in the prototype stages at the end of the Great War. Work was completed by remnants of the U.S. military after the bombs dropped. It offers superior protection to earlier models of Power Armor, but it has never been manufactured in large quantities, making it especially rare.</p><p>Each piece of X-01 Power Armor can accept three mods: an upgrade mod, one plating mod, and a system. All Unique X-01 Power Armor Upgrade Mods are installed with the Repair Skill.</p><p>X-01 Power Armor can make use of all the normal system mods (p.144) and all the normal plating mods apart from Winterized, and may also use the following plating mod, which is installed with the Repair skill:</p>",
+    fr: "<p>Développée peu avant la chute des bombes, la série X-01 d’armures assistées en était encore au stade de prototype à la fin de la Grande Guerre. Le travail fut achevé par ce qui restait de l’armée des États-Unis après l’explosion des engins nucléaires. Cette armure offre une protection supérieure à celle des modèles d’armure assistée antérieurs, mais n’a jamais été fabriquée en grandes quantités, ce qui la rend particulièrement rare.</p><p>Chaque pièce d’armure assistée X-01 peut accepter 3 mods : 1 mod d’amélioration, 1 mod de blindage et 1 mod de système. Tous les mods d’amélioration réservés à l’armure assistée X-01 s’installent avec la compétence Réparation.</p><p>L’armure assistée X-01 peut utiliser tous les mods de système normaux (voir page 144) et tous les mods de blindage normaux sauf Revêtement antigel. Elle peut aussi utiliser le mod de blindage ci-dessous, lequel s’installe avec la compétence Réparation :</p>"
+  };
+
+  const specs = {
+    "qIO7j6PYi4ocPi9h": {en:"Mk II Helm",fr:"Casque Mk II",loc:"Head",type:"upgrade",p:0,e:0,r:0,hp:1,w:1,c:7,perks:""},
+    "f2TJFwW2vfMqrmAY": {en:"Mk II Chest Piece",fr:"Plastron Mk II",loc:"Torso",type:"upgrade",p:0,e:0,r:0,hp:1,w:1,c:14,perks:""},
+    "qwU5VY4f3vsx4i6z": {en:"Mk II Arm",fr:"Brassard Mk II",loc:"Arm",type:"upgrade",p:1,e:1,r:0,hp:0,w:1,c:10,perks:""},
+    "suU2pnzcO5KYUF9N": {en:"Mk II Leg",fr:"Jambière Mk II",loc:"Leg",type:"upgrade",p:1,e:1,r:0,hp:0,w:1,c:10,perks:""},
+    "jQN0cvQRoPLzNwi5": {en:"Mk III Helm",fr:"Casque Mk III",loc:"Head",type:"upgrade",p:1,e:0,r:0,hp:1,w:1,c:14,perks:"Armorer 1, Science! 1"},
+    "4S9R2wqowQKgJ3q5": {en:"Mk III Chest Piece",fr:"Plastron Mk III",loc:"Torso",type:"upgrade",p:0,e:1,r:0,hp:2,w:2,c:28,perks:"Armorer 1, Science! 1"},
+    "YswtxgeapixbJdL6": {en:"Mk III Arm",fr:"Brassard Mk III",loc:"Arm",type:"upgrade",p:1,e:1,r:0,hp:1,w:2,c:20,perks:"Armorer 1, Science! 1"},
+    "YsLy9bVbtP056YN7": {en:"Mk III Leg",fr:"Jambière Mk III",loc:"Leg",type:"upgrade",p:1,e:1,r:0,hp:1,w:2,c:20,perks:"Armorer 1, Science! 1"},
+    "20FKglk8LkB8A1c0": {en:"Mk IV Helm",fr:"Casque Mk IV",loc:"Head",type:"upgrade",p:1,e:1,r:0,hp:2,w:2,c:21,perks:"Armorer 2, Science! 1"},
+    "PCloS69pzVlT1gUM": {en:"Mk IV Chest Piece",fr:"Plastron Mk IV",loc:"Torso",type:"upgrade",p:1,e:1,r:0,hp:3,w:3,c:42,perks:"Armorer 2, Science! 1"},
+    "R6Z0Qp7iPfeZr0lp": {en:"Mk IV Arm",fr:"Brassard Mk IV",loc:"Arm",type:"upgrade",p:1,e:1,r:0,hp:2,w:2,c:30,perks:"Armorer 2, Science! 1"},
+    "LQGTYf4MpGnQ8bi7": {en:"Mk IV Leg",fr:"Jambière Mk IV",loc:"Leg",type:"upgrade",p:1,e:1,r:0,hp:2,w:2,c:30,perks:"Armorer 2, Science! 1"},
+    "Su9jHSoBdvTPSMD8": {en:"Mk V Helm",fr:"Casque Mk V",loc:"Head",type:"upgrade",p:2,e:1,r:0,hp:2,w:2,c:28,perks:"Armorer 3, Science! 1"},
+    "kcEI3V2j23v89jGT": {en:"Mk V Chest Piece",fr:"Plastron Mk V",loc:"Torso",type:"upgrade",p:1,e:2,r:0,hp:4,w:4,c:56,perks:"Armorer 3, Science! 1"},
+    "ae5urfGJTUVqw7C6": {en:"Mk V Arm",fr:"Brassard Mk V",loc:"Arm",type:"upgrade",p:2,e:2,r:0,hp:2,w:3,c:40,perks:"Armorer 3, Science! 1"},
+    "nrkgX6ccemqUDUb1": {en:"Mk V Leg",fr:"Jambière Mk V",loc:"Leg",type:"upgrade",p:2,e:2,r:0,hp:2,w:3,c:40,perks:"Armorer 3, Science! 1"},
+    "Aqhxp38UDkBJ1EJ0": {en:"Mk VI Helm",fr:"Casque Mk VI",loc:"Head",type:"upgrade",p:2,e:2,r:0,hp:3,w:3,c:35,perks:"Armorer 3, Science! 2"},
+    "1QSjzncDxrx59OUf": {en:"Mk VI Chest Piece",fr:"Plastron Mk VI",loc:"Torso",type:"upgrade",p:2,e:2,r:0,hp:5,w:5,c:70,perks:"Armorer 3, Science! 2"},
+    "VWq6f7jz0J0TRGUS": {en:"Mk VI Arm",fr:"Brassard Mk VI",loc:"Arm",type:"upgrade",p:2,e:3,r:0,hp:4,w:4,c:50,perks:"Armorer 3, Science! 2"},
+    "zt3R2qkvtmgV3WLH": {en:"Mk VI Leg",fr:"Jambière Mk VI",loc:"Leg",type:"upgrade",p:2,e:3,r:0,hp:4,w:4,c:50,perks:"Armorer 3, Science! 2"},
+    "143I7SjRcQBq9sht": {en:"EMP Shielding",fr:"Protection IEM",loc:"Helm, Arms, Legs",type:"plating",p:0,e:2,r:0,hp:0,w:1,c:20,perks:"Armorer 1"},
+    "9WnVnLYY7epjkydJ": {en:"EMP Shielding (Torso)",fr:"Protection IEM (Torse)",loc:"Torso",type:"plating",p:0,e:2,r:0,hp:0,w:2,c:40,perks:"Armorer 1"}
+  };
+
+  const p137X01 = catalog.entries.filter(entry => entry.page === 137 && entry.pack === "apparel" && x01Ids.has(entry.documentId));
+  assert.equal(p137X01.length, 6);
+  for (const entry of p137X01) {
+    assert.equal(entry.certification.descriptionReviewed, true);
+    assert.equal(entry.certification.acceptedModsReviewed, true);
+    assert.equal(entry.certification.maxMods, 3);
+    assert.equal(entry.certification.upgradeSlots, 1);
+    assert.equal(entry.certification.platingSlots, 1);
+    assert.equal(entry.certification.systemSlots, 1);
+    assert.equal(entry.certification.winterizedPlatingExcluded, true);
+    assert.ok(entry.sourcePages.en.includes(143));
+    assert.ok(entry.sourcePages.fr.includes(143));
+  }
+
+  const rule = catalog.entries.find(entry => entry.page === 143 && entry.type === "rule_text" && entry.sourceName === "X-01 Power Armor");
+  assert.ok(rule);
+  assert.equal(rule.certification.maxMods, 3);
+  assert.equal(rule.certification.winterizedPlatingExcluded, true);
+  assert.deepEqual(rule.certification.genericSystemAndPlatingReferencePages, [144,145]);
+
+  const upgradeTable = catalog.entries.find(entry => entry.page === 143 && entry.type === "table" && entry.sourceName === "Unique X-01 Power Armor Upgrade Mods");
+  assert.ok(upgradeTable);
+  assert.equal(upgradeTable.certification.rowCount, 20);
+  const platingTable = catalog.entries.find(entry => entry.page === 143 && entry.type === "table" && entry.sourceName === "Unique X-01 Power Armor Plating Mod");
+  assert.ok(platingTable);
+  assert.equal(platingTable.certification.rowCount, 1);
+  assert.equal(platingTable.certification.publishedIdentityCount, 2);
+  assert.equal(platingTable.certification.torsoVariantDerivedByRulePage, 144);
+
+  const p143Mods = catalog.entries.filter(entry => entry.page === 143 && entry.pack === "apparel-mods" && entry.status === "verified");
+  assert.equal(p143Mods.length, Object.keys(specs).length);
+  assert.deepEqual(new Set(p143Mods.map(entry => entry.documentId)), new Set(Object.keys(specs)));
+
+  const upgradeIds = {
+    head: new Set(["qIO7j6PYi4ocPi9h","jQN0cvQRoPLzNwi5","20FKglk8LkB8A1c0","Su9jHSoBdvTPSMD8","Aqhxp38UDkBJ1EJ0"]),
+    torso: new Set(["f2TJFwW2vfMqrmAY","4S9R2wqowQKgJ3q5","PCloS69pzVlT1gUM","kcEI3V2j23v89jGT","1QSjzncDxrx59OUf"]),
+    arm: new Set(["qwU5VY4f3vsx4i6z","YswtxgeapixbJdL6","R6Z0Qp7iPfeZr0lp","ae5urfGJTUVqw7C6","VWq6f7jz0J0TRGUS"]),
+    leg: new Set(["suU2pnzcO5KYUF9N","YsLy9bVbtP056YN7","LQGTYf4MpGnQ8bi7","nrkgX6ccemqUDUb1","zt3R2qkvtmgV3WLH"])
+  };
+  const systemIds = {
+    head: new Set(["2SqnqGHd7D3y4O5E","42Qe82QKBhubp9xU","En57MQ3hn0DkcHJy","zALOB7gLXndAThjj"]),
+    torso: new Set(["908vI94cQ4wdtSaI","Fi4sOOvTpfCKlBVS","Fov5IU0CbgDuZUuO","HdcX4nu2ZKYDf9hG","HlZVuMrkMKwSx0gT","JCala9JIwLsgpDig","dCYE8deU6qI7GARe","gCQROCvacrax9ukk","t2wGFT9GqqzS3Qt9","vuySzeWEI174mwLc"]),
+    arm: new Set(["K63y4mcKxr792XLB","ZsGBPsT9kf1lVrFw","cMFQXRN9ZrDIU23Y","zX0aUfac1HnsEvZO"]),
+    leg: new Set(["JpGZrBzUJTLieuRJ","RrhtyBPhjtENsF6w","pZ2FIyhKvuL7EPT0"])
+  };
+  const platingIds = {
+    generic: new Set(["143I7SjRcQBq9sht","7iRkK1Elj5iRfANw","8fvlLrbWjODf6BCe","DxewSX1ooPKoNPPs","WKklumSE0xUCXFmc","kGts8ZQ6Lr4bkF9M"]),
+    torso: new Set(["9WnVnLYY7epjkydJ","7IO8gCf1f2bCK4a0","JAN0jzOhkMyI3U1w","hJDcOKYapml78um8","lqvdGQ6axRjBfNoe","vZs57HCeBc9iOVUR"])
+  };
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const apparel = new Map(records.filter(({pack}) => pack === "apparel").map(({document}) => [document._id, document]));
+    const mods = new Map(records.filter(({pack}) => pack === "apparel-mods").map(({document}) => [document._id, document]));
+
+    for (const id of x01Ids) {
+      const doc = apparel.get(id);
+      assert.ok(doc, language + "/apparel/" + id + " missing");
+      assert.equal(doc.system.description, descriptions[language], language + "/apparel/" + id + " X-01 p.143 description");
+      assert.equal(doc.system.mods.max, 3, language + "/apparel/" + id + " max mods");
+      const embedded = Object.entries(doc.system.mods).filter(([,value]) => value && typeof value === "object" && value.system);
+      const group = doc.system.location.head ? "head" : doc.system.location.torso ? "torso" : (doc.system.location.armL || doc.system.location.armR) ? "arm" : "leg";
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "upgrade").map(([mid]) => mid)), upgradeIds[group], language + "/apparel/" + id + " X-01 upgrades");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "system").map(([mid]) => mid)), systemIds[group], language + "/apparel/" + id + " systems");
+      assert.deepEqual(new Set(embedded.filter(([,value]) => value.system.modType === "plating").map(([mid]) => mid)), group === "torso" ? platingIds.torso : platingIds.generic, language + "/apparel/" + id + " plating");
+      assert.ok(!embedded.some(([mid]) => mid === "mgzavWT1TZT1qdoR" || mid === "faqvoA7iZx90tXnH"), language + "/apparel/" + id + " must exclude Winterized plating");
+      for (const [mid,value] of embedded.filter(([,value]) => value.system.modType === "upgrade")) {
+        assert.equal(value.system.perks, specs[mid].perks, language + "/apparel/" + id + " embedded " + mid + " perks");
+      }
+    }
+
+    for (const [id,spec] of Object.entries(specs)) {
+      const doc = mods.get(id);
+      assert.ok(doc, language + "/apparel-mods/" + id + " missing");
+      const source = doc.flags?.["fallout2d20-compendium"]?.source;
+      assert.equal(source?.page, 143, language + "/apparel-mods/" + id + " source page");
+      assert.equal(source?.errataReviewed, true, language + "/apparel-mods/" + id + " errata review");
+      assert.equal(doc.name, spec[language]);
+      assert.equal(doc.system.apparelType, "powerArmor");
+      assert.equal(doc.system.modType, spec.type);
       assert.equal(doc.system.location, spec.loc);
       assert.equal(doc.system.resistance.physical, spec.p);
       assert.equal(doc.system.resistance.energy, spec.e);

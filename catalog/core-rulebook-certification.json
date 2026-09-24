@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 144,
-      "sourcePage": 142
+      "pdfPage": 145,
+      "sourcePage": 143
     },
     "fr": {
-      "pdfPage": 145,
-      "sourcePage": 142
+      "pdfPage": 146,
+      "sourcePage": 143
     }
   },
   "pageReviews": [
@@ -2325,6 +2325,22 @@
       "language": "fr",
       "pdfPage": 145,
       "sourcePage": 142,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 145,
+      "sourcePage": 143,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 146,
+      "sourcePage": 143,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -28898,16 +28914,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          143
         ],
         "fr": [
-          137
+          137,
+          143
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "X-01 Helm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28921,7 +28939,13 @@
         "cost": 140,
         "rarity": 5,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true,
+        "winterizedPlatingExcluded": true
       }
     },
     {
@@ -28939,16 +28963,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          143
         ],
         "fr": [
-          137
+          137,
+          143
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "X-01 Chest Piece",
         "apparelType": "powerArmor",
         "resistances": {
@@ -28962,7 +28988,13 @@
         "cost": 280,
         "rarity": 5,
         "sideDerived": false,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true,
+        "winterizedPlatingExcluded": true
       }
     },
     {
@@ -28980,16 +29012,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          143
         ],
         "fr": [
-          137
+          137,
+          143
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "X-01 Arm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -29003,7 +29037,13 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true,
+        "winterizedPlatingExcluded": true
       }
     },
     {
@@ -29021,16 +29061,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          143
         ],
         "fr": [
-          137
+          137,
+          143
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "X-01 Arm",
         "apparelType": "powerArmor",
         "resistances": {
@@ -29044,7 +29086,13 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true,
+        "winterizedPlatingExcluded": true
       }
     },
     {
@@ -29062,16 +29110,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          143
         ],
         "fr": [
-          137
+          137,
+          143
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "X-01 Leg",
         "apparelType": "powerArmor",
         "resistances": {
@@ -29085,7 +29135,13 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true,
+        "winterizedPlatingExcluded": true
       }
     },
     {
@@ -29103,16 +29159,18 @@
       "status": "verified",
       "sourcePages": {
         "en": [
-          137
+          137,
+          143
         ],
         "fr": [
-          137
+          137,
+          143
         ]
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
-        "acceptedModsReviewed": false,
+        "descriptionReviewed": true,
+        "acceptedModsReviewed": true,
         "sourceTableName": "X-01 Leg",
         "apparelType": "powerArmor",
         "resistances": {
@@ -29126,7 +29184,13 @@
         "cost": 200,
         "rarity": 5,
         "sideDerived": true,
-        "note": "Model-specific descriptions and modification rules occur on later Power Armor pages and remain uncertified here."
+        "note": "X-01 family description, all 20 Mk II–VI Upgrade mods, the Winterized exclusion, and unique EMP Shielding are certified at p.143. Generic System/Plating identities are resolved from pp.144–145 only as the explicit p.143 dependency; their own mechanics remain pending.",
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "uniqueUpgradeModsReviewed": true,
+        "winterizedPlatingExcluded": true
       }
     },
     {
@@ -31991,6 +32055,1029 @@
         "cost": 175,
         "perks": "Armorer 3, Science! 2",
         "installSkill": "Repair",
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "rule_text",
+      "sourceName": "X-01 Power Armor",
+      "localizedNames": {
+        "fr": "Armure assistée X-01"
+      },
+      "scope": "out_of_scope",
+      "justification": "Family description, three-slot modification rule, Winterized exclusion and unique-plating rule are represented on the six reusable X-01 Power Armor piece Items rather than as a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionAppliedToItems": true,
+        "maxMods": 3,
+        "upgradeSlots": 1,
+        "platingSlots": 1,
+        "systemSlots": 1,
+        "upgradeInstallSkill": "Repair",
+        "platingInstallSkill": "Repair",
+        "winterizedPlatingExcluded": true,
+        "genericSystemAndPlatingReferencePages": [
+          144,
+          145
+        ],
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.143 X-01 Power Armor correction. Its p.137 X-01 base-piece cost correction remains separately enforced."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "table",
+      "sourceName": "Unique X-01 Power Armor Upgrade Mods",
+      "localizedNames": {
+        "fr": "Mods d’amélioration réservés à l’armure assistée X-01"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining the 20 reusable Mk II–VI X-01 Power Armor Upgrade mod Items.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 20,
+        "installSkill": "Repair",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.143 X-01 Power Armor correction. Its p.137 X-01 base-piece cost correction remains separately enforced."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "table",
+      "sourceName": "Unique X-01 Power Armor Plating Mod",
+      "localizedNames": {
+        "fr": "Mod de blindage réservé à l’armure assistée X-01"
+      },
+      "scope": "out_of_scope",
+      "justification": "Static source table defining EMP Shielding; the published Torso variant materializes the shared Power Armor plating rule on p.144 that doubles chest-piece weight and cost.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "rowCount": 1,
+        "publishedIdentityCount": 2,
+        "installSkill": "Repair",
+        "torsoVariantDerivedByRulePage": 144,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core p.143 X-01 Power Armor correction. Its p.137 X-01 base-piece cost correction remains separately enforced."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk II Helm",
+      "localizedNames": {
+        "fr": "Casque Mk II"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "qIO7j6PYi4ocPi9h",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "sourceLocation": "Head",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 7,
+        "perks": "",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk II Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron Mk II"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "f2TJFwW2vfMqrmAY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "sourceLocation": "Torso",
+        "resistances": {
+          "physical": 0,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 14,
+        "perks": "",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk II Arm",
+      "localizedNames": {
+        "fr": "Brassard Mk II"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "qwU5VY4f3vsx4i6z",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "sourceLocation": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 0,
+        "weightLb": 1,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk II Leg",
+      "localizedNames": {
+        "fr": "Jambière Mk II"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "suU2pnzcO5KYUF9N",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "sourceLocation": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 0,
+        "weightLb": 1,
+        "cost": 10,
+        "perks": "",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk III Helm",
+      "localizedNames": {
+        "fr": "Casque Mk III"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "jQN0cvQRoPLzNwi5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "sourceLocation": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 0,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 1,
+        "cost": 14,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk III Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron Mk III"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "4S9R2wqowQKgJ3q5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "sourceLocation": "Torso",
+        "resistances": {
+          "physical": 0,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 28,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk III Arm",
+      "localizedNames": {
+        "fr": "Brassard Mk III"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "YswtxgeapixbJdL6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "sourceLocation": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 2,
+        "cost": 20,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk III Leg",
+      "localizedNames": {
+        "fr": "Jambière Mk III"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "YsLy9bVbtP056YN7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "sourceLocation": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 1,
+        "weightLb": 2,
+        "cost": 20,
+        "perks": "Armorer 1, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk IV Helm",
+      "localizedNames": {
+        "fr": "Casque Mk IV"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "20FKglk8LkB8A1c0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "sourceLocation": "Head",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 21,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk IV Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron Mk IV"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "PCloS69pzVlT1gUM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "sourceLocation": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 3,
+        "cost": 42,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk IV Arm",
+      "localizedNames": {
+        "fr": "Brassard Mk IV"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "R6Z0Qp7iPfeZr0lp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "sourceLocation": "Arm",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 30,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk IV Leg",
+      "localizedNames": {
+        "fr": "Jambière Mk IV"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "LQGTYf4MpGnQ8bi7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "sourceLocation": "Leg",
+        "resistances": {
+          "physical": 1,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 30,
+        "perks": "Armorer 2, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk V Helm",
+      "localizedNames": {
+        "fr": "Casque Mk V"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "Su9jHSoBdvTPSMD8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "sourceLocation": "Head",
+        "resistances": {
+          "physical": 2,
+          "energy": 1,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 2,
+        "cost": 28,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk V Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron Mk V"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "kcEI3V2j23v89jGT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "sourceLocation": "Torso",
+        "resistances": {
+          "physical": 1,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 56,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk V Arm",
+      "localizedNames": {
+        "fr": "Brassard Mk V"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "ae5urfGJTUVqw7C6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "sourceLocation": "Arm",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 3,
+        "cost": 40,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk V Leg",
+      "localizedNames": {
+        "fr": "Jambière Mk V"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "nrkgX6ccemqUDUb1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "sourceLocation": "Leg",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 2,
+        "weightLb": 3,
+        "cost": 40,
+        "perks": "Armorer 3, Science! 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk VI Helm",
+      "localizedNames": {
+        "fr": "Casque Mk VI"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "Aqhxp38UDkBJ1EJ0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Head",
+        "sourceLocation": "Head",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 3,
+        "weightLb": 3,
+        "cost": 35,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk VI Chest Piece",
+      "localizedNames": {
+        "fr": "Plastron Mk VI"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "1QSjzncDxrx59OUf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Torso",
+        "sourceLocation": "Torso",
+        "resistances": {
+          "physical": 2,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 5,
+        "weightLb": 5,
+        "cost": 70,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk VI Arm",
+      "localizedNames": {
+        "fr": "Brassard Mk VI"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "VWq6f7jz0J0TRGUS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Arm",
+        "sourceLocation": "Arm",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 50,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "Mk VI Leg",
+      "localizedNames": {
+        "fr": "Jambière Mk VI"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Upgrade mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "zt3R2qkvtmgV3WLH",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "upgrade",
+        "location": "Leg",
+        "sourceLocation": "Leg",
+        "resistances": {
+          "physical": 2,
+          "energy": 3,
+          "radiation": 0
+        },
+        "healthPoints": 4,
+        "weightLb": 4,
+        "cost": 50,
+        "perks": "Armorer 3, Science! 2",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "EMP Shielding",
+      "localizedNames": {
+        "fr": "Protection IEM"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable X-01 Power Armor Plating mod defined by the Core p.143 source table.",
+      "pack": "apparel-mods",
+      "documentId": "143I7SjRcQBq9sht",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "plating",
+        "location": "Helm, Arms, Legs",
+        "sourceLocation": "Any",
+        "resistances": {
+          "physical": 0,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 0,
+        "weightLb": 1,
+        "cost": 20,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "torsoDerived": false,
+        "torsoDerivationRulePage": null,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 143,
+      "type": "apparel_mod",
+      "sourceName": "EMP Shielding (Torso)",
+      "localizedNames": {
+        "fr": "Protection IEM (Torse)"
+      },
+      "scope": "in_scope",
+      "justification": "Published torso-specific EMP Shielding identity derived from the Core p.143 unique plating row plus the shared p.144 plating rule doubling chest-piece weight and cost.",
+      "pack": "apparel-mods",
+      "documentId": "9WnVnLYY7epjkydJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          143
+        ],
+        "fr": [
+          143
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "descriptionReviewed": false,
+        "modType": "plating",
+        "location": "Torso",
+        "sourceLocation": "Any",
+        "resistances": {
+          "physical": 0,
+          "energy": 2,
+          "radiation": 0
+        },
+        "healthPoints": 0,
+        "weightLb": 2,
+        "cost": 40,
+        "perks": "Armorer 1",
+        "installSkill": "Repair",
+        "torsoDerived": true,
+        "torsoDerivationRulePage": 144,
         "errataReviewed": true
       }
     }

@@ -18,7 +18,7 @@
     "isJunk": false,
     "location": "Torso",
     "modType": "upgrade",
-    "perks": "5",
+    "perks": "Armorer 3, Science! 2",
     "quantity": 1,
     "rarity": 0,
     "resistance": {
@@ -36,12 +36,13 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Mod.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-owner-mod-icon",
-        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods."
+        "artworkSharingJustification": "Owner supplied one common illustration for all weapon, apparel and robot mods.",
+        "page": 143
       },
       "recipe": {
         "source": "core_rulebook",

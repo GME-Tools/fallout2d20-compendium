@@ -2,7 +2,7 @@
   "_key": "!items!PCloS69pzVlT1gUM",
   "_file": "mk_iv_chestpiece__PCloS69pzVlT1gUM.json",
   "values": {
-    "/name": "Mk IV ChestPiece",
+    "/name": "Mk IV Chest Piece",
     "/system/description": "\n<section data-f2d20-recipe=\"core\"><h3>Crafting recipe</h3><dl><dt>Station</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftPowerArmor01]{Power Armor Station}</dd><dt>Complexity</dt><dd>5</dd><dt>Skill</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.ZQw4TLZbaLm5F0BW]{Repair}</dd><dt>Perks</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.EQjZHUxYinodOU6G]{Armorer} 2, @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.UzRkuAJkvYqK8jrl]{Science!} 2</dd><dt>Rarity</dt><dd>Uncommon</dd></dl><h4>Materials</h4><ul><li>Common Materials ×6</li><li>Uncommon Materials ×5</li><li>Rare Materials ×2</li></ul></section>",
     "/system/weight": 3,
     "/flags/fallout2d20-compendium/source/language": "en",
