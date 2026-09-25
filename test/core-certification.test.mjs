@@ -5133,3 +5133,158 @@ test("Core Consumables p.154 bilingual food descriptions are source-exact", asyn
     }
   }
 });
+
+
+test("Core Consumables p.155 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 157 && catalog.certifiedThrough.en.sourcePage >= 155);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 158 && catalog.certifiedThrough.fr.sourcePage >= 155);
+
+  const enP155 = new Set([
+    "8Ju0FLCWLvXs5zXw","yW3xNGa8YuPtoonL","u3cKPD3k6CLScHVC","JjjhTOQLnB2htZe0",
+    "c97rLLOxIIQCFFQi","2Huj9yJeWsIQTrZs","r5HGZTe9sYtWopL7","7MwNIxhzzbQUGbX4",
+    "zP8u8sVBiiSGbcTB"
+  ]);
+  const frP155 = new Set([
+    "jGk6pqXEHojFBnHc","wvr60yBKV9FfAMOv","xTlLPA95S9y3Neqk","u3cKPD3k6CLScHVC",
+    "ohCdi9MG6PoEnyJr","8pR2J9OAo0Mtx0D4","ELoNzoPfKq3BE9gc","KZOctNYYrsfYycGB",
+    "jpJw3rIHZILDnp9p"
+  ]);
+  assert.equal(enP155.size, 9);
+  assert.equal(frP155.size, 9);
+
+  const specs = {
+    "8Ju0FLCWLvXs5zXw": {
+      enPages:[155], frPages:[156],
+      en:"Flakes and fragments of mirelurk meat, mixed with mirelurk egg to bind it together into a patty and then cooked. In addition to some modest nutritional value, eating mirelurk cake allows you to survive underwater for longer.",
+      fr:"Des lamelles et des fragments de viande de fangeux mélangés à des œufs de fangeux pour solidifier la mixture et donner une sorte de boulette qui est ensuite cuite. En plus d’une modeste valeur nutritionnelle, manger du pâté de fangeux vous permet de survivre sous l’eau pendant plus longtemps."
+    },
+    "yW3xNGa8YuPtoonL": {
+      enPages:[155], frPages:[154],
+      en:"Eggs found in mirelurk nests. Normally found in clutches of 2-3, these eggs hatch into mirelurk hatchlings if left undisturbed. Mirelurk eggs are a key ingredient of both Mirelurk Egg Omelette and Mirelurk Cake.",
+      fr:"Les œufs qui se trouvent dans les nids de fangeux. Normalement présents par grappes de deux ou trois, ces œufs éclosent et donnent de jeunes fangeux si personne ne perturbe le processus. Les œufs de fangeux sont un ingrédient clé de l’omelette d’œufs de fangeux et du pâté de fangeux."
+    },
+    "u3cKPD3k6CLScHVC": {
+      enPages:[155], frPages:[155],
+      en:"An omelette made from a mirelurk egg. In addition to their nutritional value, when properly prepared, these omelettes can leave you feeling energized and ready for action.",
+      fr:"Une omelette préparée à partir d’un œuf de fangeux. En plus de leur valeur nutritionnelle, quand elles sont cuisinées correctement, ces omelettes peuvent vous donner un regain d’énergie et bien vous préparer à l’action."
+    },
+    "JjjhTOQLnB2htZe0": {
+      enPages:[155], frPages:[158],
+      en:"The meat from dead mirelurks. This tends to be tougher and of poorer quality than the meat which comes from the weaker softshell mirelurk, but it is still entirely edible. Mirelurk meat is a key ingredient in Mirelurk Cake and can be cooked to produce roasted mirelurk meat.",
+      fr:"La viande venant d’un fangeux mort. Elle a tendance à être plus coriace et de moins bonne qualité que la viande qui vient du fangeux à carapace molle plus faible, mais reste parfaitement comestible. La viande de fangeux est un ingrédient clé du pâté de fangeux et peut être cuisinée pour produire du rôti de fangeux."
+    },
+    "c97rLLOxIIQCFFQi": {
+      enPages:[155], frPages:[157],
+      en:"The rare, nutrient-rich meat of a mirelurk Queen, when properly prepared, can fortify the body and provide a surge of health and vitality, making you feel healthier and more resilient for a while after eating.",
+      fr:"Quand elle est bien préparée, la viande rare et riche en nutriments d’une reine des fangeux peut fortifier le corps et vous fournir un regain de santé et de vitalité. Vous vous sentez en meilleure forme et plus résistant pendant un moment après l’avoir mangée."
+    },
+    "2Huj9yJeWsIQTrZs": {
+      enPages:[155], frPages:[157],
+      en:"Pieces of mole rat meat which’ve been cooked over a fire. The meat is somewhat tough and chewy, but leaves a feeling of vigor, as if your reserves of stamina have increased.",
+      fr:"Des morceaux de viande de rataupe qui ont été cuisinés sur le feu. La viande est assez coriace et filandreuse, mais donne un sentiment de vigueur, comme si vos réserves d’endurance avaient augmenté."
+    },
+    "r5HGZTe9sYtWopL7": {
+      enPages:[155], frPages:[159],
+      en:"A chunk of meat taken from a dead mole rat. Mole rat meat can be cooked to make Mole Rat Chunks.",
+      fr:"Une pièce de viande découpée sur la carcasse d’un rataupe. La viande de rataupe peut être cuisinée pour produire du steak de rataupe."
+    },
+    "7MwNIxhzzbQUGbX4": {
+      enPages:[155], frPages:[157],
+      en:"A chunk of meat taken from a mongrel dog. Mongrel Dog Meat can be cooked to make Mutt Chops.",
+      fr:"Une pièce de viande découpée sur la carcasse d’un chien errant. La viande de chien errant peut être cuisinée pour produire des côtes de chien."
+    },
+    "zP8u8sVBiiSGbcTB": {
+      enPages:[155], frPages:[153],
+      en:"A piece of mutant hound meat cooked to make it safer to eat. For reasons unknown, once cooked, the meat helps absorb radiation already in the body, lessening the effects of radiation poisoning. This effect doesn’t compare to proper anti-radiation meds like RadAway, but it can be useful to have a few on hand to soak up the radiation you picked up during an excursion.",
+      fr:"Une pièce de viande de molosse mutant cuisinée pour rendre sa consommation moins dangereuse. Pour des raisons inconnues, une fois cuite, la viande aide le corps à absorber les radiations qu’il a déjà encaissées, amoindrissant les effets de l’empoisonnement aux radiations. Cet effet est loin d’être aussi puissant que celui des véritables médicaments antiradiations comme le RadAway, mais avoir quelques côtes de molosse mutant sous la main peut servir à absorber les radiations que vous avez récoltées durant une expédition."
+    },
+    "jGk6pqXEHojFBnHc": {
+      enPages:[157], frPages:[155],
+      en:"The egg of a radscorpion. Not easy to get hold of, as they tend to be found in places where there are radscorpions. Radscorpion Eggs can be used to make Radscorpion Egg Omelette.",
+      fr:"L’œuf d’un radscorpion. Difficile à obtenir, car il a tendance à se trouver dans un endroit abritant des radscorpions. Un œuf de radscorpion peut être utilisé pour produire de l’omelette d’œufs de radscorpion."
+    },
+    "wvr60yBKV9FfAMOv": {
+      enPages:[153], frPages:[155],
+      en:"A large egg laid by a deathclaw. Dangerous to obtain, as deathclaws lay them and hatch from them, but potentially valuable as they can be used in a few recipes which produce highly nutritious food. A deathclaw egg is a key ingredient in deathclaw omelettes.",
+      fr:"Un gros œuf pondu par un écorcheur. En obtenir un est dangereux, car c’est le mode de reproduction des écorcheurs ce qui signifie qu’ils les protègent, mais il peut avoir beaucoup de valeur, car il est utilisé dans plusieurs recettes qui produisent de la nourriture très nutritive. Un œuf d’écorcheur est un ingrédient clé de l’omelette d’œufs d’écorcheur."
+    },
+    "xTlLPA95S9y3Neqk": {
+      enPages:[159], frPages:[155],
+      en:"Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War.",
+      fr:"Des œufs durs fourrés avec une mayonnaise épicée et qui ont été préservés et scellés pour rester frais avant la Grande Guerre."
+    },
+    "ohCdi9MG6PoEnyJr": {
+      enPages:[157], frPages:[155],
+      en:"Made from a radscorpion egg, these omelettes are highly prized by those who make considerable use of combat drugs, as something about the food cleanses the body to remove chemical dependencies and addictions.",
+      fr:"Préparée à partir d’un œuf de radscorpion, cette omelette est très recherchée par ceux qui utilisent beaucoup les drogues de combat, car quelque chose dans cette nourriture purifie le corps et soigne les dépendances aux drogues."
+    },
+    "8pR2J9OAo0Mtx0D4": {
+      enPages:[153], frPages:[155],
+      en:"An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body, allowing a person to recover more quickly from harm for a while after eating.",
+      fr:"Une omelette préparée à partir d’un œuf d’écorcheur. En plus d’être très nutritive, elle stimule le processus de guérison naturelle du corps, ce qui permet à une personne de récupérer plus rapidement de ses blessures pendant un moment après l’avoir mangée."
+    },
+    "ELoNzoPfKq3BE9gc": {
+      enPages:[154], frPages:[155],
+      en:"A small white box of food marked with the symbol of the Institute. Each box contains enriched ration bars filled with essential nutrients. Each ration bar contains your daily requirements of forty different vitamins, minerals, and nutrients, which are listed on the back of the box.",
+      fr:"Une petite boîte blanche portant le symbole de l’Institut et contenant de la nourriture. Chaque boîte contient des barres de ration enrichies remplies de nutriments essentiels. Chaque barre de ration inclut la dose quotidienne recommandée de quarante vitamines, minéraux et nutriments différents, énumérés au dos de la boîte."
+    },
+    "KZOctNYYrsfYycGB": {
+      enPages:[158], frPages:[155],
+      en:"A small, sweetened pastry or baked confection normally made as a treat for children or people who need a bit of cheering up.",
+      fr:"Une petite pâtisserie ou viennoiserie sucrée qui est généralement préparée pour faire plaisir à un enfant ou à quelqu’un qui a besoin de réconfort."
+    },
+    "jpJw3rIHZILDnp9p": {
+      enPages:[154], frPages:[155],
+      en:"In the years before the Great War, several charter schools across America entered an experimental program: The Nutritional Alternative Paste Program (NAPP). Developed by Vault-Tec in conjunction with the Federal Government, this supplied participating schools with a supply of food paste, fortified with vitamins, minerals and all the nutrients a growing body needs, and which would remain unspoiled for over a century. The paste is a flavorless mush, garish pink in color, and may have unknown long-term effects on psychology or physiology. It does, however, make the body healthier after consumption.",
+      fr:"Lors des années précédant la Grande Guerre, plusieurs écoles publiques américaines participèrent à un programme expérimental: le Programme de Pâte Nutritive Alternative (PPNA). Développé par Vault-Tec en collaboration avec le gouvernement fédéral, ce programme fournissait aux écoles participantes de la pâte comestible, fortifiée avec des vitamines, des minéraux et tous les nutriments nécessaires à un corps en pleine croissance. Elle se conserverait pendant plus d’un siècle. Cette pâte est une purée sans goût d’un rose criard qui pourrait avoir des effets à long terme inconnus sur le psychisme ou la physiologie. Cependant, il est vrai qu’elle rend le corps plus sain après consommation."
+    }
+  };
+
+  assert.equal(Object.keys(specs).length, 17);
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP155) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.155 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(155), "EN p.155 description coordinate missing for " + id);
+  }
+  for (const id of frP155) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.155 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(155), "FR p.155 description coordinate missing for " + id);
+  }
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "p.155 description certification entry missing for " + id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set([
+    "8Ju0FLCWLvXs5zXw","u3cKPD3k6CLScHVC","c97rLLOxIIQCFFQi","2Huj9yJeWsIQTrZs",
+    "zP8u8sVBiiSGbcTB","ohCdi9MG6PoEnyJr","8pR2J9OAo0Mtx0D4"
+  ]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+      if (recipeIds.has(id)) {
+        assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+      }
+    }
+  }
+});

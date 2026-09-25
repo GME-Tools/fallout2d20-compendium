@@ -3,7 +3,7 @@
   "_file": "viande_de_rataupe__r5HGZTe9sYtWopL7.json",
   "values": {
     "/name": "Viande de rataupe",
-    "/system/description": "<p>Morceau de viande prélevé sur un rat-taupe mort. Il permet de préparer des morceaux de rat-taupe.</p>",
+    "/system/description": "<p>Une pièce de viande découpée sur la carcasse d’un rataupe.</p>\n<p>La viande de rataupe peut être cuisinée pour produire du steak de rataupe.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "r5HGZTe9sYtWopL7",

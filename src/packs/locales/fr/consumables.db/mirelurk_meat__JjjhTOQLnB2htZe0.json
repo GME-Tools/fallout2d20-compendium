@@ -3,7 +3,7 @@
   "_file": "viande_de_fangeux__JjjhTOQLnB2htZe0.json",
   "values": {
     "/name": "Viande de fangeux",
-    "/system/description": "<p>Viande de fangeux, plus dure et moins fine que celle des fangeux à carapace molle mais parfaitement comestible. Elle entre dans le gâteau de fangeux et se cuisine rôtie.</p>",
+    "/system/description": "<p>La viande venant d’un fangeux mort. Elle a tendance à être plus coriace et de moins bonne qualité que la viande qui vient du fangeux à carapace molle plus faible, mais reste parfaitement comestible.</p>\n<p>La viande de fangeux est un ingrédient clé du pâté de fangeux et peut être cuisinée pour produire du rôti de fangeux.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "JjjhTOQLnB2htZe0",

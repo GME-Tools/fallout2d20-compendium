@@ -3,7 +3,7 @@
   "_file": "viande_de_chien_errant__7MwNIxhzzbQUGbX4.json",
   "values": {
     "/name": "Viande de chien errant",
-    "/system/description": "<p>Morceau de viande prélevé sur un chien bâtard. Il peut être cuisiné en côtelettes de cabot.</p>",
+    "/system/description": "<p>Une pièce de viande découpée sur la carcasse d’un chien errant.</p>\n<p>La viande de chien errant peut être cuisinée pour produire des côtes de chien.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "7MwNIxhzzbQUGbX4",
