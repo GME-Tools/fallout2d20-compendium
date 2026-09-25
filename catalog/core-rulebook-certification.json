@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 167,
-      "sourcePage": 165
+      "pdfPage": 168,
+      "sourcePage": 166
     },
     "fr": {
-      "pdfPage": 168,
-      "sourcePage": 165
+      "pdfPage": 169,
+      "sourcePage": 166
     }
   },
   "pageReviews": [
@@ -2693,6 +2693,22 @@
       "language": "fr",
       "pdfPage": 168,
       "sourcePage": 165,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 168,
+      "sourcePage": 166,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 169,
+      "sourcePage": 166,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -42663,7 +42679,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42704,7 +42731,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42745,7 +42783,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42786,7 +42835,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42827,7 +42887,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42868,7 +42939,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42909,7 +42991,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42950,7 +43043,19 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            166
+          ],
+          "fr": [
+            166,
+            167
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -42991,7 +43096,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            167
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {
@@ -43032,7 +43148,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            171
+          ],
+          "fr": [
+            166
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
       }
     },
     {

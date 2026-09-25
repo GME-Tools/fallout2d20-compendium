@@ -2,7 +2,7 @@
   "_key": "!items!UMI1gGwZLhCGTFVK",
   "_file": "daddy_o__UMI1gGwZLhCGTFVK.json",
   "values": {
-    "/system/description": "<p>Apprécié des beatniks et intellectuels avant la Grande Guerre, le Daddy-O aiguise les facultés cognitives, la vigilance et le traitement de l’information, mais pousse à une concentration excessive qui rend les interactions difficiles. <strong>Dépendance au Daddy-O :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, augmentez de +1 la difficulté de tous vos tests de PER et d’INT.</p>",
+    "/system/description": "<p>Populaire auprès des hippies et des intellectuels avant la Grande Guerre, le Daddy-O augmente les facultés cognitives de celui qui en prend, le rendant plus alerte et plus à même de traiter les informations, mais les utilisateurs ont tendance à se concentrer de façon exclusive sur les tâches qu’ils sont en train d’accomplir, ce qui rend les interactions avec eux difficiles.</p>\n<ul><li><strong>Dépendance au Daddy-O:</strong> si vous ratez votre jet de dépendance, vous devenez dépendant au Daddy-O. La difficulté de tous vos tests de PER et d’INT augmente de +1 quand vous n’êtes pas sous l’effet du Daddy-O.</li></ul>",
     "/system/effect": "<p>Réduit de 1 la difficulté de tous vos tests de PER et d’INT (0 minimum), augmente de +1 la difficulté de vos tests de CHR</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",

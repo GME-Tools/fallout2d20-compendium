@@ -6475,4 +6475,107 @@ test("Core Consumables p.165 closes the Chem Items table source-exact", async ()
     assert.ok(entry.sourcePages.en.includes(165) || entry.sourcePages.fr.includes(165), id + " p.165 coordinate");
   }
 });
+test("Core Consumables p.166 begins chem descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 168 && catalog.certifiedThrough.en.sourcePage >= 166);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 169 && catalog.certifiedThrough.fr.sourcePage >= 166);
+
+  const byId = new Map(catalog.entries.filter(entry => entry.pack === "consumables" && entry.status === "verified").map(entry => [entry.documentId, entry]));
+  const enP166 = new Set(["SHoKAwc6q8kNlt0r","FyAoifDWRgBOPtMV","RkEPnMsHQmgy4olE","fP4pQsWzcH6F83q4","o0at3QFpM8FKxvZj","7e60Vl5tVoU4MIlJ","MW9UpIocnupsmcFt","UMI1gGwZLhCGTFVK"]);
+  const frP166 = new Set(["SHoKAwc6q8kNlt0r","FyAoifDWRgBOPtMV","AcJArmB6p1XrVWL9","YFGiyWiFUG7icRPa","fP4pQsWzcH6F83q4","o0at3QFpM8FKxvZj","7e60Vl5tVoU4MIlJ","MW9UpIocnupsmcFt","UMI1gGwZLhCGTFVK"]);
+  assert.equal(enP166.size, 8);
+  assert.equal(frP166.size, 9);
+  assert.equal(new Set([...enP166,...frP166]).size, 10);
+
+  for (const id of enP166) assert.ok(byId.get(id)?.certification?.descriptionSourcePages?.en?.includes(166), "EN p.166 description coordinate " + id);
+  for (const id of frP166) assert.ok(byId.get(id)?.certification?.descriptionSourcePages?.fr?.includes(166), "FR p.166 description coordinate " + id);
+
+  const specs = {
+    "SHoKAwc6q8kNlt0r":{
+      pages:{en:[166],fr:[166]},
+      en:"A powerful and effective pre-War medicine which cleanses the body of the effects of addiction and the withdrawal symptoms that accompany it. It doesn’t, however, prevent subsequent addictions, especially in the cases of long-term or habitual drug abuse. It can take some time to work, especially in severe cases, and tends to have a few side-effects, such as nausea and dizziness, while it is taking effect.",
+      fr:"Un médicament d’avant-guerre puissant et efficace qui débarrasse le corps des effets de la dépendance et des symptômes de manque qui l’accompagnent. Cependant, il n’empêche pas de redevenir dépendant ultérieurement, surtout dans des cas de grosse consommation de drogues habituelle ou à long terme. L’Addictol peut mettre un certain temps à faire effet, en particulier dans les cas sévères et a tendance à avoir quelques effets secondaires, par exemple des nausées et des vertiges, pendant qu’il est en train de faire effet."
+    },
+    "FyAoifDWRgBOPtMV":{
+      pages:{en:[166],fr:[166]},
+      en:"A dose of potent, broad-spectrum antibiotics that’ll help clear out pretty much any infection or disease. Taking too many can be damaging to health overall, but these are rare enough that taking too many is rarely a problem.",
+      fr:"Une dose de puissants antibiotiques à large spectre qui aidera à chasser presque n’importe quelle infection ou maladie. En prendre trop peut être mauvais pour l’état de santé général, mais ils sont assez rares pour que cela représente soit un véritable problème."
+    },
+    "RkEPnMsHQmgy4olE":{
+      pages:{en:[166],fr:[168]},
+      en:"A portion of Mentats reformulated to promote brain activity and memory. Mentat Addiction: A failed addiction roll renders you addicted to Mentats. You increase the difficulty of all CHA tests by +1 whenever you are not under the effects of a type of Mentat (ordinary Mentats, or the Berry, Grape, or Orange versions).",
+      fr:"Une dose de Mentats avec une nouvelle formule conçue pour favoriser l’activité cérébrale et la mémoire. Dépendance aux Mentats : si vous ratez votre jet de dépendance, vous devenez dépendant aux Mentats. La difficulté de tous vos tests de CHR augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Mentats (les Mentats ordinaires ou les versions fruits rouges, orange ou raisin)."
+    },
+    "fP4pQsWzcH6F83q4":{
+      pages:{en:[166],fr:[166]},
+      en:"A potent, if highly addictive mixture of Buffout and Jet, providing a boost to physical prowess, heightened reflexes, and a burst of adrenaline. Buffout Addiction: A failed addiction roll renders you addicted to Buffout. You increase the difficulty of all STR and END tests by +1 whenever you are not under the effects of a type of Buffout (Buffout, Buffjet, or Bufftats).",
+      fr:"Un mélange puissant, mais très addictif de Buffout et de Jet qui augmente les capacités physiques, aiguise les réflexes et provoque un pic d’adrénaline. Dépendance au Buffout : si vous ratez votre jet de dépendance, vous devenez dépendant au Buffout. La difficulté de tous vos tests de FOR et d’END augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Buffout (Buffout, Buffjet ou Bufftats)."
+    },
+    "o0at3QFpM8FKxvZj":{
+      pages:{en:[166],fr:[166]},
+      en:"A powerful and quick-acting steroid which gained popularity with athletes prior to the Great War. For a few minutes, it makes one stronger and tougher. Buffout Addiction: A failed addiction roll renders you addicted to Buffout. You increase the difficulty of all STR and END tests by +1 whenever you are not under the effects of a type of Buffout (Buffout, Buffjet, or Bufftats).",
+      fr:"Des stéroïdes puissants qui agissent vite. Le Buffout était très utilisé par les sportifs avant la Grande Guerre. Pendant quelques minutes, il vous rend plus fort et plus résistant. Dépendance au Buffout : si vous ratez votre jet de dépendance, vous devenez dépendant au Buffout. La difficulté de tous vos tests de FOR et d’END augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Buffout (Buffout, Buffjet ou Bufftats)."
+    },
+    "7e60Vl5tVoU4MIlJ":{
+      pages:{en:[166],fr:[166]},
+      en:"An addictive cocktail of Buffout steroids and Mentats, heightening both physical prowess and awareness. Buffout Addiction: A failed addiction roll renders you addicted to Buffout. You increase the difficulty of all STR and END tests by +1 whenever you are not under the effects of a type of Buffout (Buffout, Buffjet, or Bufftats).",
+      fr:"Un cocktail addictif de stéroïdes du Buffout et de Mentats, augmentant à la fois les capacités physiques et la vigilance. Dépendance au Buffout : si vous ratez votre jet de dépendance, vous devenez dépendant au Buffout. La difficulté de tous vos tests de FOR et d’END augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Buffout (Buffout, Buffjet ou Bufftats)."
+    },
+    "MW9UpIocnupsmcFt":{
+      pages:{en:[166],fr:[166]},
+      en:"A light tranquilizer used to calm the nerves. It isn’t potent enough to function as a painkiller, but a dose can quiet anxieties and fears, keeping panic from disturbing delicate activities. Calmex Addiction: A failed addiction roll renders you addicted to Calmex. You suffer complications on AGI tests on all rolls of 18 or higher whenever you are not under the effects of Calmex.",
+      fr:"Un tranquillisant léger utilisé pour calmer les nerfs. Il n’est pas assez puissant pour avoir aussi les effets d’un antidouleur, mais une dose peut apaiser les anxiétés et les peurs, empêchant la panique de perturber les activités délicates. Dépendance au Calmex: si vous ratez votre jet de dépendance, vous devenez dépendant au Calmex. Vous subissez des complications sur vos tests d’AGI sur un résultat de 18 ou plus quand vous n’êtes pas sous l’effet du Calmex."
+    },
+    "UMI1gGwZLhCGTFVK":{
+      pages:{en:[166],fr:[166,167]},
+      en:"Popular with beatniks and intellectuals before the Great War, Daddy-O heightens the user’s cognitive faculties, making them more alert and more able to process information, but users tend to hyper-focus on the tasks in front of them, making it awkward to interact with them. Daddy-O Addiction: A failed addiction roll renders you addicted to Daddy-O. You increase the difficulty of all PER and INT tests by +1 whenever you are not under the effects of Daddy-O.",
+      fr:"Populaire auprès des hippies et des intellectuels avant la Grande Guerre, le Daddy-O augmente les facultés cognitives de celui qui en prend, le rendant plus alerte et plus à même de traiter les informations, mais les utilisateurs ont tendance à se concentrer de façon exclusive sur les tâches qu’ils sont en train d’accomplir, ce qui rend les interactions avec eux difficiles. Dépendance au Daddy-O: si vous ratez votre jet de dépendance, vous devenez dépendant au Daddy-O. La difficulté de tous vos tests de PER et d’INT augmente de +1 quand vous n’êtes pas sous l’effet du Daddy-O."
+    },
+    "AcJArmB6p1XrVWL9":{
+      pages:{en:[167],fr:[166]},
+      en:"A salve or ointment which can be applied to reduce pain and speed recovery from injury, typically made from several natural herbal ingredients. Use: Healing salve can be used in one of two ways: it can be applied using the Take Chem minor action, healing 2 HP immediately, or it can be applied as part of a First Aid action, adding +2 to the number of HP healed overall.",
+      fr:"Un baume ou un onguent qui peut être appliqué pour calmer la douleur et accélérer la guérison des blessures, généralement fabriqué à partir de plusieurs ingrédients végétaux naturels. Utilisation: le baume de soin peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant immédiatement 2 PV ou il peut être appliqué dans le cadre d’une action porter secours, ajoutant +2 au nombre total de PV guéris."
+    },
+    "YFGiyWiFUG7icRPa":{
+      pages:{en:[171],fr:[166]},
+      en:"Derived from the secretions of a Bloodbug, and the curative properties of some wasteland plants, Skeeto Spit is a wasteland remedy which dulls the user’s ability to feel pain. It’s effective, lasts a reasonable amount of time, and is non-addictive, but it normally has to be homemade as it isn’t generally produced in large quantities.",
+      fr:"Dérivée des sécrétions d’une tique et des propriétés curatives de certaines plantes des Terres désolées, la bave de scrito est un remède des Terres désolées qui émousse la perception de la douleur chez l’utilisateur. Elle est efficace, son effet dure assez longtemps et elle n’est pas addictive, mais elle doit normalement être fabriquée de manière artisanale, car elle n’est presque jamais produite en grande quantité."
+    }
+  };
+  assert.equal(Object.keys(specs).length, 10);
+
+  const descriptionText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&mdash;/g, "—")
+    .replace(/&hellip;/g, "…")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = byId.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata");
+    assert.match(entry.certification.descriptionErrataNote, /no Core Rulebook p\.166 correction/, id + " description errata note");
+  }
+
+  const recipeIds = new Set(["FyAoifDWRgBOPtMV","RkEPnMsHQmgy4olE","fP4pQsWzcH6F83q4","7e60Vl5tVoU4MIlJ","YFGiyWiFUG7icRPa"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(descriptionText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+    }
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+  }
+});
 

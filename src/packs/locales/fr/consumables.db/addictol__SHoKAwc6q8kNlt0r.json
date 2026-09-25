@@ -2,7 +2,7 @@
   "_key": "!items!SHoKAwc6q8kNlt0r",
   "_file": "addictol__SHoKAwc6q8kNlt0r.json",
   "values": {
-    "/system/description": "<p>Puissant médicament d’avant-guerre, l’Addictol débarrasse le corps des effets d’une dépendance et des symptômes de manque associés. Il n’empêche toutefois pas les dépendances ultérieures, surtout en cas d’abus prolongé ou habituel. Son action peut prendre du temps dans les cas graves et s’accompagne souvent d’effets secondaires comme nausées et vertiges.</p>",
+    "/system/description": "<p>Un médicament d’avant-guerre puissant et efficace qui débarrasse le corps des effets de la dépendance et des symptômes de manque qui l’accompagnent. Cependant, il n’empêche pas de redevenir dépendant ultérieurement, surtout dans des cas de grosse consommation de drogues habituelle ou à long terme. L’Addictol peut mettre un certain temps à faire effet, en particulier dans les cas sévères et a tendance à avoir quelques effets secondaires, par exemple des nausées et des vertiges, pendant qu’il est en train de faire effet.</p>",
     "/system/effect": "<p>Soigne toutes les dépendances</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",

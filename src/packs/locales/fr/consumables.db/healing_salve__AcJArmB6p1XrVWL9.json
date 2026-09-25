@@ -3,7 +3,7 @@
   "_file": "baume_de_soin__AcJArmB6p1XrVWL9.json",
   "values": {
     "/name": "Baume de soin",
-    "/system/description": "<p>Baume composé de plantes qui réduit la douleur et accélère la guérison. <strong>Utilisation :</strong> par l’action mineure Prendre une drogue, il soigne immédiatement 2 Santé ; appliqué pendant une action de Premiers secours, il ajoute +2 au total de Santé récupérée.</p>",
+    "/system/description": "<p>Un baume ou un onguent qui peut être appliqué pour calmer la douleur et accélérer la guérison des blessures, généralement fabriqué à partir de plusieurs ingrédients végétaux naturels.</p>\n<ul><li><strong>Utilisation:</strong> le baume de soin peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant immédiatement 2 PV ou il peut être appliqué dans le cadre d’une action porter secours, ajoutant +2 au nombre total de PV guéris.</li></ul>",
     "/system/effect": "<p>Guérit 2 PV (voir description)</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
