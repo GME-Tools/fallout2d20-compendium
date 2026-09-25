@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 160,
-      "sourcePage": 158
+      "pdfPage": 161,
+      "sourcePage": 159
     },
     "fr": {
-      "pdfPage": 161,
-      "sourcePage": 158
+      "pdfPage": 162,
+      "sourcePage": 159
     }
   },
   "pageReviews": [
@@ -2581,6 +2581,22 @@
       "language": "fr",
       "pdfPage": 161,
       "sourcePage": 158,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 161,
+      "sourcePage": 159,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 162,
+      "sourcePage": 159,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -41107,7 +41123,19 @@
         "rarity": 3,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            159
+          ],
+          "fr": [
+            159,
+            160
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no numbered p.159 entry and no Core Rulebook correction applicable to this food description."
       }
     }
   ]

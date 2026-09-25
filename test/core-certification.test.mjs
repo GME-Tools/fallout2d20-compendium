@@ -5591,3 +5591,72 @@ test("Core Consumables p.158 bilingual food descriptions are source-exact", asyn
   }
 });
 
+test("Core Consumables p.159 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 161 && catalog.certifiedThrough.en.sourcePage >= 159);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 162 && catalog.certifiedThrough.fr.sourcePage >= 159);
+
+  const enP159 = new Set([
+    "nOUCuf8jnEhLJkcJ","9vI0sFShvxahqMSW","vYcmjWOnJQnrv2gq",
+    "Th2rOMBm5trq0s4h","xTlLPA95S9y3Neqk"
+  ]);
+  const frP159 = new Set([
+    "wiBxvaJTsmYQuAof","r5HGZTe9sYtWopL7","VIoOx0NE579BpX4t",
+    "2Jc0kY7glK0GVaYe","9vI0sFShvxahqMSW"
+  ]);
+  assert.equal(enP159.size, 5);
+  assert.equal(frP159.size, 5);
+  assert.equal(new Set([...enP159, ...frP159]).size, 9);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP159) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.159 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(159), "EN p.159 description coordinate missing for " + id);
+  }
+  for (const id of frP159) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.159 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(159), "FR p.159 description coordinate missing for " + id);
+  }
+  for (const id of new Set([...enP159, ...frP159])) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+
+  const yao = catalogById.get("9vI0sFShvxahqMSW");
+  assert.deepEqual(yao.certification.descriptionSourcePages, {en:[159],fr:[159,160]}, "Yao Guai Meat bilingual description span");
+  assert.match(yao.certification.descriptionErrataNote, /no numbered p\.159 entry/, "Yao Guai Meat p.159 errata review");
+  assert.match(catalogById.get("Th2rOMBm5trq0s4h").certification.descriptionErrataNote, /Royal Flush/, "Yao Guai Roast keeps the p.156 errata scope");
+  assert.match(catalogById.get("2Jc0kY7glK0GVaYe").certification.descriptionErrataNote, /Winter of Atom/, "Bloodbug Meat keeps the p.152 errata scope");
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const expected = {
+    en:"Another dangerous meat to obtain, Yao Guai meat comes from the bodies of slain Yao Guai, a ferocious mutated form of bear that roams the wastelands. The meat is highly prized and nutritious, though still irradiated if consumed raw. Yao Guai meat can be cooked to make Yao Guai Ribs or Yao Guai Roast.",
+    fr:"Une autre viande dangereuse à obtenir. La viande de yao guai vient des carcasses des yao guai, une forme mutante féroce d’ours qui rôde dans les Terres désolées. Leur viande est très prisée, car très nutritive, même si elle reste irradiée si vous la consommez crue. La viande de yao guai peut être cuisinée pour produire des côtelettes de yao guai ou du Rôti de yao guai."
+  };
+  const recipeIds = new Set(["nOUCuf8jnEhLJkcJ","vYcmjWOnJQnrv2gq","Th2rOMBm5trq0s4h"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    const yaoDoc = docs.get("9vI0sFShvxahqMSW");
+    assert.ok(yaoDoc, language + "/consumables/9vI0sFShvxahqMSW missing");
+    assert.equal(htmlText(yaoDoc.system.description), expected[language], language + "/consumables/Yao Guai Meat source description");
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing for recipe check");
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+  }
+});
+
