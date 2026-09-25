@@ -4585,7 +4585,12 @@ test("Core Consumables p.151 closes the Food Items table", async () => {
     assert.ok(entry.sourcePages?.fr?.includes(151), "FR p.151 coordinate missing for " + id);
   }
 
-  const foodTable = catalog.entries.filter(entry => entry.pack === "consumables" && entry.certification?.tableRowReviewed === true);
+  const foodTable = catalog.entries.filter(entry =>
+    entry.pack === "consumables" &&
+    entry.certification?.tableRowReviewed === true &&
+    entry.page >= 149 &&
+    entry.page <= 151
+  );
   assert.equal(foodTable.length, 75);
   assert.equal(new Set(foodTable.map(entry => entry.documentId)).size, 75);
 
