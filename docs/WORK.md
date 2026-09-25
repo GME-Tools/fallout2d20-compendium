@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–152, through printed/source page 150.
-- FR PDF physical pages 1–153, through printed/source page 150.
+- EN PDF physical pages 1–153, through printed/source page 151.
+- FR PDF physical pages 1–154, through printed/source page 151.
 - Completed editorial sections: front matter, Introduction, Chapters One–Three, and
   Chapter Four through the end of Robot Armor (source pp.84–148), including all
   weapon sections, clothing, conventional armor, Power Armor and Robot Armor.
@@ -254,9 +254,22 @@ while EN says until the end of the next scene; the FR overlay now follows the
 EN-authoritative duration while retaining official terminology. Errata V6 contains
 no Core p.150 or p.151 correction applicable to these food rows.
 
+Source p.151 is now certified as the final Food Items table lot. The EN page has 29
+rows and the FR page has 26 rows; after combining the independently ordered tables,
+the complete Core Food Items catalogue is now closed at 75 stable bilingual
+consumable identities across pp.149–151. Eleven identities are newly certified on
+p.151; all remaining p.151 rows were already certified as targeted bilingual
+counterparts from the preceding two lots. The newly reached records now have exact
+p.151 provenance, source weights, completed errata review and explicit non-alcoholic
+metadata. Potted Meat / Viande en boîte correctly retains the printed 1 CD irradiated
+column while its special rule overrides consumption to 2 CD radiation damage; the
+canonical radiation-damage field is 2 and this distinction is now regression-tested.
+Official French table wording has been restored for the five p.151 secondary-effect
+rows that previously used paraphrases. Errata V6 contains no Core p.151 correction.
+
 ## Next lot
 
-Continue page-by-page at printed/source p.151, the final Food Items table continuation. Do not re-audit pp.1–150.
+Continue page-by-page at printed/source p.152, where the detailed Food descriptions begin. Do not re-audit pp.1–151.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -286,7 +299,7 @@ exact page evidence until the corresponding perk is source-certified.
 
 The p.148 regression verifies all six remaining Robot Armor family descriptions and special rules across all 36 stable location variants, exact official FR wording, recipe retention, the Voltaic stacking rule, and the printed EN Noxious/Toxic “serrated plate” cross-reference discrepancy.
 
-The p.149 regression verifies the three opening Consumables/Food rule blocks, all 29 bilingual food identities reached from the independently ordered EN/FR p.149 tables plus their targeted later-language counterparts, exact HP/irradiation/weight/cost/rarity/effect fields, explicit non-alcoholic metadata and source provenance, the official French secondary-effect wording, and the recorded Fancy Lads FR weight discrepancy without advancing pp.150–151 page coverage. The p.150 regression then verifies the complete 30-row EN and 34-row FR source-page sets as 50 stable bilingual identities, all 35 newly reached identities with exact mechanics/provenance/weights/effects, and the deliberate FR Food Paste duration adaptation from the printed current-scene wording to the EN-authoritative next-scene mechanic.
+The p.149 regression verifies the three opening Consumables/Food rule blocks, all 29 bilingual food identities reached from the independently ordered EN/FR p.149 tables plus their targeted later-language counterparts, exact HP/irradiation/weight/cost/rarity/effect fields, explicit non-alcoholic metadata and source provenance, the official French secondary-effect wording, and the recorded Fancy Lads FR weight discrepancy without advancing pp.150–151 page coverage. The p.150 regression then verifies the complete 30-row EN and 34-row FR source-page sets as 50 stable bilingual identities, all 35 newly reached identities with exact mechanics/provenance/weights/effects, and the deliberate FR Food Paste duration adaptation from the printed current-scene wording to the EN-authoritative next-scene mechanic. The p.151 regression closes the 75-identity Food Items table, verifies the complete EN/FR page sets and the 11 final identities, and locks the Potted Meat 1-CD table-column versus 2-CD consumption override.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

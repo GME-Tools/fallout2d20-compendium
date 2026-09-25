@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 152,
-      "sourcePage": 150
+      "pdfPage": 153,
+      "sourcePage": 151
     },
     "fr": {
-      "pdfPage": 153,
-      "sourcePage": 150
+      "pdfPage": 154,
+      "sourcePage": 151
     }
   },
   "pageReviews": [
@@ -2453,6 +2453,22 @@
       "language": "fr",
       "pdfPage": 153,
       "sourcePage": 150,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 153,
+      "sourcePage": 151,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 154,
+      "sourcePage": 151,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -39749,6 +39765,421 @@
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
         "officialFrenchEffect": "+2 @fos[DC] aux attaques de corps à corps jusqu’à la fin de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Potted Meat",
+      "localizedNames": {
+        "fr": "Viande en boîte"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "O8ozF1U9N1ZZ9axl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": "Roll 2 @fos[DC] rather than 1 for determining Radiation damage when consumed",
+        "irradiated": true,
+        "irradiatedCombatDice": 2,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 25,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "officialFrenchEffect": "Lancez 2 @fos[DC] au lieu de 1 pour déterminer les dégâts de radiation quand consommé",
+        "tableIrradiatedColumnCombatDice": 1,
+        "radiationDamageOverrideCombatDice": 2,
+        "radiationDamageOverrideReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Queen Mirelurk Meat",
+      "localizedNames": {
+        "fr": "Viande de reine des fangeux"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "VIoOx0NE579BpX4t",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 10,
+        "otherEffect": "May re-roll 1d20 on all END tests until end of next scene",
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 22,
+        "rarity": 4,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous les tests d’END jusqu’à la fin de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Radscorpion Meat",
+      "localizedNames": {
+        "fr": "Viande de radscorpion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "wiBxvaJTsmYQuAof",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 9,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 55,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Radscorpion Steak",
+      "localizedNames": {
+        "fr": "Steak de radscorpion"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "rzdZZUKOl7QaMRPt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 12,
+        "otherEffect": "+2 Energy damage resistance until end of next scene",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 65,
+        "rarity": 3,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "officialFrenchEffect": "+2 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Radstag Meat",
+      "localizedNames": {
+        "fr": "Viande de radcerf"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "VszpkDVgQA22ZCmx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 8,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 50,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Roasted Mirelurk Meat",
+      "localizedNames": {
+        "fr": "Viande de fangeux rôtie"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "Mu6IEkhB5z32qzjY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 8,
+        "otherEffect": "Gain +1 AP at start of next scene",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 40,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Salisbury Steak",
+      "localizedNames": {
+        "fr": "Steak Salisbury"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "kkMJnvGEeqJQKhfT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 5,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 20,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Softshell Mirelurk Meat",
+      "localizedNames": {
+        "fr": "Viande de fangeux à carapace molle"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "cNP3hldtBtuAG5eu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 22,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Stingwing Meat",
+      "localizedNames": {
+        "fr": "Viande de darillon"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "AMCmZ1rbCC4adfMT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 8,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 30,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Vegetable Soup",
+      "localizedNames": {
+        "fr": "Soupe de légumes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "nOUCuf8jnEhLJkcJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 7,
+        "otherEffect": "+2 Radiation damage resistance until end of next scene",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 13,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "officialFrenchEffect": "+2 résistance aux dégâts de radiation jusqu’à la fin de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Yao Guai Meat",
+      "localizedNames": {
+        "fr": "Viande de yao guai"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "9vI0sFShvxahqMSW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 9,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 85,
+        "rarity": 3,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
       }
     }
   ]

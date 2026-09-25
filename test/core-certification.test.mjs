@@ -4548,3 +4548,129 @@ test("Core Consumables p.150 food table continuation is source-exact", async () 
     }
   }
 });
+
+
+test("Core Consumables p.151 closes the Food Items table", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 153 && catalog.certifiedThrough.en.sourcePage >= 151);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 154 && catalog.certifiedThrough.fr.sourcePage >= 151);
+
+  const enP151 = new Set([
+    "O8ozF1U9N1ZZ9axl","VIoOx0NE579BpX4t","i1BhSDEcs5JNub1v","jGk6pqXEHojFBnHc","ohCdi9MG6PoEnyJr",
+    "wiBxvaJTsmYQuAof","rzdZZUKOl7QaMRPt","VszpkDVgQA22ZCmx","n6asYMleVsDYBbdC","KgKwCYEKl95sQQZN",
+    "nMvfzS3mTgqejqh2","Mu6IEkhB5z32qzjY","kkMJnvGEeqJQKhfT","lrllDzCjzc9atRUy","cNP3hldtBtuAG5eu",
+    "JoLgVDbxQV3bT11R","e9NVSnBtY4oWIam9","qJUTRSy9Ic1L18BG","WU676EmpwjUR59Cg","AMCmZ1rbCC4adfMT",
+    "KAvEuz7SKIaCWEF8","KZOctNYYrsfYycGB","Bvn11vBFx1OnUoJr","4Z3zGSnBGJcgR5c2","nOUCuf8jnEhLJkcJ",
+    "9vI0sFShvxahqMSW","vYcmjWOnJQnrv2gq","Th2rOMBm5trq0s4h","xTlLPA95S9y3Neqk"
+  ]);
+  const frP151 = new Set([
+    "nOUCuf8jnEhLJkcJ","jC25W4O796xzZr0O","XEZtPJZ7SBhlIfGq","rzdZZUKOl7QaMRPt","2Huj9yJeWsIQTrZs",
+    "c97rLLOxIIQCFFQi","gpsiVMF0IkQQiy6A","kkMJnvGEeqJQKhfT","VUNnTzfG6Kywnt5O","aLYfeWM0Uxv7H1Ax",
+    "7MwNIxhzzbQUGbX4","AMCmZ1rbCC4adfMT","mGyKuUfzHD8BwTMp","JjjhTOQLnB2htZe0","cNP3hldtBtuAG5eu",
+    "xqBDl5Gnc7Q335BN","Mu6IEkhB5z32qzjY","Dh09YQNclfQtitwT","gKcwpsDkmmUMmxP9","VszpkDVgQA22ZCmx",
+    "wiBxvaJTsmYQuAof","r5HGZTe9sYtWopL7","VIoOx0NE579BpX4t","2Jc0kY7glK0GVaYe","9vI0sFShvxahqMSW",
+    "O8ozF1U9N1ZZ9axl"
+  ]);
+  assert.equal(enP151.size, 29);
+  assert.equal(frP151.size, 26);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP151) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "missing EN p.151 consumable " + id);
+    assert.ok(entry.sourcePages?.en?.includes(151), "EN p.151 coordinate missing for " + id);
+  }
+  for (const id of frP151) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "missing FR p.151 consumable " + id);
+    assert.ok(entry.sourcePages?.fr?.includes(151), "FR p.151 coordinate missing for " + id);
+  }
+
+  const foodTable = catalog.entries.filter(entry => entry.pack === "consumables" && entry.certification?.tableRowReviewed === true);
+  assert.equal(foodTable.length, 75);
+  assert.equal(new Set(foodTable.map(entry => entry.documentId)).size, 75);
+
+  const expected = [
+    ["O8ozF1U9N1ZZ9axl","Potted Meat","Viande en boîte",6,true,2,1,0.5,25,0],
+    ["VIoOx0NE579BpX4t","Queen Mirelurk Meat","Viande de reine des fangeux",10,true,1,0,0,22,4],
+    ["wiBxvaJTsmYQuAof","Radscorpion Meat","Viande de radscorpion",9,true,1,1,0.5,55,2],
+    ["rzdZZUKOl7QaMRPt","Radscorpion Steak","Steak de radscorpion",12,false,0,1,0.5,65,3],
+    ["VszpkDVgQA22ZCmx","Radstag Meat","Viande de radcerf",8,true,1,1,0.5,50,1],
+    ["Mu6IEkhB5z32qzjY","Roasted Mirelurk Meat","Viande de fangeux rôtie",8,false,0,0,0,40,2],
+    ["kkMJnvGEeqJQKhfT","Salisbury Steak","Steak Salisbury",5,true,1,0,0,20,0],
+    ["cNP3hldtBtuAG5eu","Softshell Mirelurk Meat","Viande de fangeux à carapace molle",6,true,1,0,0,22,2],
+    ["AMCmZ1rbCC4adfMT","Stingwing Meat","Viande de darillon",8,true,1,0,0,30,1],
+    ["nOUCuf8jnEhLJkcJ","Vegetable Soup","Soupe de légumes",7,false,0,1,0.5,13,2],
+    ["9vI0sFShvxahqMSW","Yao Guai Meat","Viande de yao guai",9,true,1,1,0.5,85,3]
+  ].map(([id,enName,frName,hp,irradiated,radiationDamage,enWeight,frWeight,cost,rarity]) => ({
+    id,enName,frName,hp,irradiated,radiationDamage,enWeight,frWeight,cost,rarity
+  }));
+
+  const effects = {
+    en: {
+      "O8ozF1U9N1ZZ9axl":"Roll 2 @fos[DC] rather than 1 for determining Radiation damage when consumed",
+      "VIoOx0NE579BpX4t":"May re-roll 1d20 on all END tests until end of next scene",
+      "rzdZZUKOl7QaMRPt":"+2 Energy damage resistance until end of next scene",
+      "Mu6IEkhB5z32qzjY":"Gain +1 AP at start of next scene",
+      "nOUCuf8jnEhLJkcJ":"+2 Radiation damage resistance until end of next scene"
+    },
+    fr: {
+      "O8ozF1U9N1ZZ9axl":"Lancez 2 @fos[DC] au lieu de 1 pour déterminer les dégâts de radiation quand consommé",
+      "VIoOx0NE579BpX4t":"Vous pouvez relancer 1d20 sur tous les tests d’END jusqu’à la fin de la prochaine scène",
+      "rzdZZUKOl7QaMRPt":"+2 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène",
+      "Mu6IEkhB5z32qzjY":"Vous gagnez +1 PA au début de la prochaine scène",
+      "nOUCuf8jnEhLJkcJ":"+2 résistance aux dégâts de radiation jusqu’à la fin de la prochaine scène"
+    }
+  };
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const item of expected) {
+    const entry = catalogById.get(item.id);
+    assert.ok(entry, "missing p.151 lot entry " + item.id);
+    assert.equal(entry.page, 151);
+    assert.deepEqual(entry.sourcePages?.en, [151]);
+    assert.deepEqual(entry.sourcePages?.fr, [151]);
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.hpHealed, item.hp);
+    assert.equal(entry.certification.irradiated, item.irradiated);
+    assert.equal(entry.certification.irradiatedCombatDice, item.radiationDamage);
+    assert.equal(entry.certification.weightLb, item.enWeight === 0 ? "<1" : item.enWeight);
+    assert.equal(entry.certification.weightFr, item.frWeight === 0 ? "<0.5" : item.frWeight);
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.alcoholic, false);
+    assert.equal(entry.certification.errataReviewed, true);
+  }
+
+  const potted = catalogById.get("O8ozF1U9N1ZZ9axl");
+  assert.equal(potted.certification.tableIrradiatedColumnCombatDice, 1);
+  assert.equal(potted.certification.radiationDamageOverrideCombatDice, 2);
+  assert.equal(potted.certification.radiationDamageOverrideReviewed, true);
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const item of expected) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.name, language === "en" ? item.enName : item.frName);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, 151);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(document.system.hp, item.hp);
+      assert.equal(document.system.irradiated, item.irradiated);
+      assert.equal(document.system.radiationDamage, item.radiationDamage || 1);
+      assert.equal(document.system.alcoholic, false);
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight);
+      assert.equal(document.system.cost, item.cost);
+      assert.equal(document.system.rarity, item.rarity);
+      assert.equal(plainText(document.system.effect), effects[language][item.id] ?? "");
+    }
+  }
+});

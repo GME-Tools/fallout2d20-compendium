@@ -7,7 +7,7 @@
   "system": {
     "addiction": 0,
     "addictive": false,
-    "alcoholic": true,
+    "alcoholic": false,
     "butchery": false,
     "consumableGroup": "",
     "consumableType": "food",
@@ -25,16 +25,18 @@
     "rarity": 3,
     "source": "core_rulebook",
     "stashed": false,
-    "thirstReduction": 0
+    "thirstReduction": 0,
+    "weight": 1
   },
   "type": "consumable",
   "flags": {
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 151
       },
       "recipe": {
         "source": "core_rulebook",

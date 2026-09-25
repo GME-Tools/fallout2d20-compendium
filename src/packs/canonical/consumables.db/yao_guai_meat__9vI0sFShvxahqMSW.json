@@ -7,7 +7,7 @@
   "system": {
     "addiction": 0,
     "addictive": false,
-    "alcoholic": true,
+    "alcoholic": false,
     "butchery": true,
     "consumableGroup": "",
     "consumableType": "food",
@@ -25,17 +25,19 @@
     "rarity": 3,
     "source": "core_rulebook",
     "stashed": false,
-    "thirstReduction": 0
+    "thirstReduction": 0,
+    "weight": 1
   },
   "type": "consumable",
   "flags": {
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated",
-        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Yao Guai Meat.webp; recorded 2026-09-08"
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Yao Guai Meat.webp; recorded 2026-09-08",
+        "page": 151
       }
     }
   },
