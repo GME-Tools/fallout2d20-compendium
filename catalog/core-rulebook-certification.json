@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 159,
-      "sourcePage": 157
+      "pdfPage": 160,
+      "sourcePage": 158
     },
     "fr": {
-      "pdfPage": 160,
-      "sourcePage": 157
+      "pdfPage": 161,
+      "sourcePage": 158
     }
   },
   "pageReviews": [
@@ -2565,6 +2565,22 @@
       "language": "fr",
       "pdfPage": 160,
       "sourcePage": 157,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 160,
+      "sourcePage": 158,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 161,
+      "sourcePage": 158,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"

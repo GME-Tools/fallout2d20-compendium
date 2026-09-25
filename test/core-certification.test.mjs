@@ -5530,3 +5530,64 @@ test("Core Consumables p.157 bilingual food descriptions are source-exact", asyn
   }
 });
 
+test("Core Consumables p.158 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 160 && catalog.certifiedThrough.en.sourcePage >= 158);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 161 && catalog.certifiedThrough.fr.sourcePage >= 158);
+
+  const enP158 = new Set([
+    "JoLgVDbxQV3bT11R","e9NVSnBtY4oWIam9","qJUTRSy9Ic1L18BG","WU676EmpwjUR59Cg",
+    "AMCmZ1rbCC4adfMT","KAvEuz7SKIaCWEF8","KZOctNYYrsfYycGB","Bvn11vBFx1OnUoJr",
+    "4Z3zGSnBGJcgR5c2"
+  ]);
+  const frP158 = new Set([
+    "mGyKuUfzHD8BwTMp","cNP3hldtBtuAG5eu","xqBDl5Gnc7Q335BN","Mu6IEkhB5z32qzjY",
+    "JjjhTOQLnB2htZe0","Dh09YQNclfQtitwT","gKcwpsDkmmUMmxP9","VszpkDVgQA22ZCmx"
+  ]);
+  assert.equal(enP158.size, 9);
+  assert.equal(frP158.size, 8);
+  assert.equal(new Set([...enP158, ...frP158]).size, 17);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP158) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.158 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(158), "EN p.158 description coordinate missing for " + id);
+  }
+  for (const id of frP158) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.158 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(158), "FR p.158 description coordinate missing for " + id);
+  }
+  for (const id of new Set([...enP158, ...frP158])) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+
+  // Every p.158 identity was already locked to exact bilingual source prose by an earlier
+  // targeted-counterpart regression. Guard representative scope notes so page closure
+  // cannot flatten those more precise earlier reviews.
+  assert.match(catalogById.get("JoLgVDbxQV3bT11R").certification.descriptionErrataNote, /Winter of Atom/, "Squirrel Bits keeps the p.152 errata scope");
+  assert.match(catalogById.get("e9NVSnBtY4oWIam9").certification.descriptionErrataNote, /p\.153/, "Squirrel on a Stick keeps the p.153 review");
+  assert.match(catalogById.get("Dh09YQNclfQtitwT").certification.descriptionErrataNote, /Royal Flush/, "Mutant Hound Meat keeps the p.156 errata scope");
+  assert.match(catalogById.get("VszpkDVgQA22ZCmx").certification.descriptionErrataNote, /Settlers Guide Book/, "Radstag Meat keeps the p.157 errata scope");
+
+  const allIds = new Set([...enP158, ...frP158]);
+  const recipeIds = new Set([
+    "e9NVSnBtY4oWIam9","qJUTRSy9Ic1L18BG","WU676EmpwjUR59Cg",
+    "xqBDl5Gnc7Q335BN","Mu6IEkhB5z32qzjY"
+  ]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const id of allIds) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+    }
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+  }
+});
+
