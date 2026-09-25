@@ -30,14 +30,11 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–136, through printed/source page 134.
-- FR PDF physical pages 1–137, through printed/source page 134.
-- Completed editorial sections: front matter, Introduction, Chapter One (Core
-  Rules / Règles du jeu), Chapter Two (Combat), Chapter Three through Step 6
-  (source pp.42–81), and Chapter Four through Clothing, Outfits and Headgear
-  (source pp.84–133), including all weapon sections, Dog Armor, Ballistic Weave,
-  Vault Jumpsuit linings, the p.130–132 armor-piece tables, and the p.133
-  Raider/Leather family descriptions and Material mods.
+- EN PDF physical pages 1–150, through printed/source page 148.
+- FR PDF physical pages 1–151, through printed/source page 148.
+- Completed editorial sections: front matter, Introduction, Chapters One–Three, and
+  Chapter Four through the end of Robot Armor (source pp.84–148), including all
+  weapon sections, clothing, conventional armor, Power Armor and Robot Armor.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
   later pages without treating those intervening pages as page-certified coverage.
@@ -189,7 +186,11 @@ Current completed boundary:
 
 - Source p.133 certifies the Raider and Leather armor-family descriptions, the shared Shadowed Armor rule, and all 18 published Material-mod identities (nine source rows plus their torso-specific doubled weight/cost variants). The official FR family and Shadowed texts replace earlier paraphrases; Upgrade-mod acceptance remains pending its later source tables.
 
-## Next lot
+## Recent certified lots
+
+The summaries below preserve the state reached at each lot. Any “pending” language
+inside an older summary is historical; the current boundary above and the explicit
+Next lot below are authoritative.
 
 Source p.134 is certified for the Metal Armor and Combat Armor family descriptions and all 18 published Material-mod identities (nine source rows plus torso-specific doubled weight/cost variants). The six Metal/Combat helmet Items enforce the source Material-only rule, four base Combat limb Items were corrected to the source two-slot rule for non-helmets, and the unrelated Rust Devils Painted Metal erratum is explicitly excluded.
 
@@ -201,7 +202,7 @@ Source p.137 is certified for the Power Armor introduction and complete 21-row P
 
 Source p.138 is certified for the complete Armor Frame rules: entering/leaving the frame, fusion-core consumption, Impact Landing, Enhanced Strength, Sealed Environment, Ablative Resilience and Technological. The existing EN Item text already matched the February 2023 source; the earlier condensed FR paraphrase has been replaced by the complete official French text. The frame remains non-moddable, with STR 11, one fusion-core charge consumed per used scene, 3 CD Impact Landing damage above the source threshold, and the source-exact damage/repair behavior documented in the certification catalog. Errata V6 contains no p.138 correction.
 
-Source p.139 is certified for Raider Power Armor: the complete EN/FR family description and slot rule, all four Raider II Upgrade mods, and Welded Rebar. The Raider II canonical perk requirements were corrected to Armorer 1. Raider Power Armor no longer exposes any plating mods, and its arm pieces no longer expose Tesla Bracers, matching the source rule that Raider pieces accept exactly one Upgrade and one System and may use normal systems except Tesla Arms. The p.144–145 system tables were read only as the explicit dependency needed to resolve that accepted-system identity set; those system-mod mechanics remain uncertified until their own pages. The official FR Welded Rebar effect replaces the earlier paraphrase. Errata V6 contains no p.139 correction.
+Source p.139 is certified for Raider Power Armor: the complete EN/FR family description and slot rule, all four Raider II Upgrade mods, and Welded Rebar. The Raider II canonical perk requirements were corrected to Armorer 1. Raider Power Armor no longer exposes any plating mods, and its arm pieces no longer expose Tesla Bracers, matching the source rule that Raider pieces accept exactly one Upgrade and one System and may use normal systems except Tesla Arms. The p.144–145 system tables were read only as the explicit dependency needed to resolve that accepted-system identity set; those system-mod mechanics were subsequently fully certified on their own pages. The official FR Welded Rebar effect replaces the earlier paraphrase. Errata V6 contains no p.139 correction.
 
 Source p.140 is certified for T-45 Power Armor: the complete EN/FR family description, the three-slot Upgrade/Plating/System rule, and all 20 T-45b through T-45f Upgrade identities. All six T-45 armor pieces were corrected from two to three mod slots. The earlier numeric-only Upgrade perk fields were normalized to the source requirements: Armorer 1 for T-45b, Armorer 2 for T-45c, Armorer 2 + Science! 1 for T-45d, Armorer 3 + Science! 1 for T-45e, and Armorer 3 + Science! 2 for T-45f, including their embedded copies. The official FR family text replaces the earlier paraphrase. Generic System/Plating acceptance was initially resolved from pp.144–145 as an explicit dependency; those shared mod mechanics are now fully certified through p.145. Errata V6 contains no p.140 correction.
 
@@ -209,13 +210,17 @@ Source p.141 is certified for T-51 Power Armor: the complete EN/FR family descri
 
 Source p.142 is now certified for T-60 Power Armor: the complete EN/FR family description, the three-slot Upgrade/Plating/System rule, and all 20 T-60b through T-60f Upgrade identities. All six T-60 armor pieces were corrected from two to three mod slots. The T-60b rows now correctly have no perk requirement; later numeric-only fields were normalized to Armorer 1 + Science! 1 for T-60c, Armorer 2 + Science! 1 for T-60d, Armorer 3 + Science! 1 for T-60e, and Armorer 3 + Science! 2 for T-60f, including embedded copies. The official FR family text replaces the earlier paraphrase. Generic System/Plating acceptance was initially resolved from pp.144–145 as an explicit dependency; those shared mod mechanics are now fully certified through p.145. Errata V6 contains no p.142 correction; its p.137 T-60 base-cost corrections remain separately enforced.
 
-Source p.143 is now certified for X-01 Power Armor: the complete EN/FR family description, the three-slot Upgrade/Plating/System rule, all 20 Mk II–VI Upgrade identities, the explicit Winterized plating exclusion, and the unique EMP Shielding plating mod. All 20 X-01 Upgrade perk requirements were normalized from legacy numeric placeholders to the source values: no requirement for Mk II; Armorer 1 + Science! 1 for Mk III; Armorer 2 + Science! 1 for Mk IV; Armorer 3 + Science! 1 for Mk V; Armorer 3 + Science! 2 for Mk VI. The EN Mk IV/Mk VI Chest Piece names were corrected from the fused “ChestPiece” spelling. EMP Shielding now uses the published non-torso and torso identities, with the torso variant deriving doubled weight/cost from the shared p.144 plating rule. All six X-01 pieces exclude Winterized plating and retain exactly one Upgrade, one Plating and one System slot. Generic System/Plating acceptance is resolved from pp.144–145 only as the explicit dependency required by p.143; those later mod mechanics remain uncertified. Errata V6 contains no p.143 X-01 correction; its p.137 X-01 base-cost correction remains separately enforced.
+Source p.143 is now certified for X-01 Power Armor: the complete EN/FR family description, the three-slot Upgrade/Plating/System rule, all 20 Mk II–VI Upgrade identities, the explicit Winterized plating exclusion, and the unique EMP Shielding plating mod. All 20 X-01 Upgrade perk requirements were normalized from legacy numeric placeholders to the source values: no requirement for Mk II; Armorer 1 + Science! 1 for Mk III; Armorer 2 + Science! 1 for Mk IV; Armorer 3 + Science! 1 for Mk V; Armorer 3 + Science! 2 for Mk VI. The EN Mk IV/Mk VI Chest Piece names were corrected from the fused “ChestPiece” spelling. EMP Shielding now uses the published non-torso and torso identities, with the torso variant deriving doubled weight/cost from the shared p.144 plating rule. All six X-01 pieces exclude Winterized plating and retain exactly one Upgrade, one Plating and one System slot. Generic System/Plating acceptance was initially resolved from pp.144–145 only as the explicit dependency required by p.143; those later mod mechanics are now fully certified through p.145. Errata V6 contains no p.143 X-01 correction; its p.137 X-01 base-cost correction remains separately enforced.
 
 Source pp.144–145 are now certified as one clean Power Armor Mods table lot. The shared rule distinguishes System and Plating mods, doubles plating weight/cost on chest pieces, forbids plating on Raider Power Armor, and records each row’s install skill. All 22 System rows are certified, including the repeated Raider-only Welded Rebar identity from p.139. All six Plating rows are certified as 12 published identities after materializing torso variants. Official EN/FR names, effects and metric weights were restored; notably Sensor Array is officially “Détecteur”, Targeting HUD is “ATH de visée”, and Calibrated Shocks gives +50 carry weight in EN / +25 in FR metric localization. The Titanium Plating torso identity and all embedded chest-piece copies were corrected from the non-torso location string to Torso. T-45/T-51/T-60/X-01 accepted System/Plating sets are now mechanically closed; Raider remains no-plating and excludes Tesla Bracers, while X-01 remains unable to take Winterized Coating. Errata V6 contains no p.144–145 correction.
 
 Source pp.146–147 are now certified as one Robot Armor table lot. The 35 source rows are represented by 51 stable `robot-armor` identities because each generic Arms row is materialized as Arm 1/2/3 Foundry variants; the certification records the source rule that a Mister Handy armor Arms entry covers all three arms together. All resistances, carry-weight adjustments, costs and perk requirements match the Core EN table, with official FR carry values using the published metric halving. Exact source provenance is split correctly between p.146 and the table continuation on p.147. The official FR descriptions for Standard Plating, Mister Gutsy Plating, Factory Armor, Factory Storage Armor and Primal Plate replace earlier paraphrases while preserving crafting recipes. Errata V6 has no Core Robot Armor correction here: its p.146/p.147 entries belong to Wasteland Wanderer, and its Robot Armor material-mod entry belongs to the Rust Devils NPC Pack.
 
-Continue page-by-page at printed/source p.148 with the remaining Robot Armor family descriptions and special effects (Serrated Plate, Noxious Plate, Toxic Plate, Actuated Frame, Voltaic Frame and Hydraulic Frame). Do not re-audit pp.1–147.
+Source p.148 is now certified for the six remaining Robot Armor family descriptions and special rules: Serrated Plate, Noxious Plate, Toxic Plate, Actuated Frame, Voltaic Frame and Hydraulic Frame. The official French descriptions replace earlier paraphrases across every stable location variant while retaining each crafting recipe. The EN text was already source-exact. The EN Noxious and Toxic paragraphs both print “arms fitted with serrated plate”; the official FR book instead refers to the matching néfaste/toxique family. Errata V6 does not correct this wording, so the two official locale texts are preserved as printed and the discrepancy is recorded rather than silently normalized.
+
+## Next lot
+
+Continue page-by-page at printed/source p.149, the start of Consumables. Do not re-audit pp.1–148.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -223,7 +228,7 @@ Known later Core suspects to re-check against source rather than assume true:
 - Shielded Barrel crafting/recipe handling.
 - Denizen Actor and embedded-Item completeness, especially salvage/butchery.
 
-There are no unresolved anomalies or owner decisions in the completed p.1–147
+There are no unresolved anomalies or owner decisions in the completed p.1–148
 boundary.
 
 ## Validation
@@ -242,6 +247,8 @@ Dogmeat / Canigou Actor including embedded Bite and abilities, and the final
 p.69–73 31-perk inventory with exact bilingual coordinates plus Science!, Quick
 Hands and Pyromaniac regressions. Legacy broad provenance ranges are not treated as
 exact page evidence until the corresponding perk is source-certified.
+
+The p.148 regression verifies all six remaining Robot Armor family descriptions and special rules across all 36 stable location variants, exact official FR wording, recipe retention, the Voltaic stacking rule, and the printed EN Noxious/Toxic “serrated plate” cross-reference discrepancy.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

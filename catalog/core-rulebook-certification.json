@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 149,
-      "sourcePage": 147
+      "pdfPage": 150,
+      "sourcePage": 148
     },
     "fr": {
-      "pdfPage": 150,
-      "sourcePage": 147
+      "pdfPage": 151,
+      "sourcePage": 148
     }
   },
   "pageReviews": [
@@ -2405,6 +2405,22 @@
       "language": "fr",
       "pdfPage": 150,
       "sourcePage": 147,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 150,
+      "sourcePage": 148,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 151,
+      "sourcePage": 148,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -34928,7 +34944,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Actuated Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 1,
@@ -34942,7 +34958,9 @@
         "cost": 15,
         "perks": "",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -34968,7 +34986,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Actuated Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 2,
@@ -34982,7 +35000,9 @@
         "cost": 15,
         "perks": "",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35008,7 +35028,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Actuated Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 3,
@@ -35022,7 +35042,9 @@
         "cost": 15,
         "perks": "",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35048,7 +35070,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Actuated Frame",
         "sourceRowLocation": "Main Body",
         "armVariant": null,
@@ -35062,7 +35084,9 @@
         "cost": 30,
         "perks": "",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35088,7 +35112,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Actuated Frame",
         "sourceRowLocation": "Optics",
         "armVariant": null,
@@ -35102,7 +35126,9 @@
         "cost": 15,
         "perks": "",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35128,7 +35154,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Actuated Frame",
         "sourceRowLocation": "Thruster",
         "armVariant": null,
@@ -35142,7 +35168,9 @@
         "cost": 15,
         "perks": "",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35462,7 +35490,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Hydraulic Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 1,
@@ -35476,7 +35504,9 @@
         "cost": 30,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35502,7 +35532,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Hydraulic Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 2,
@@ -35516,7 +35546,9 @@
         "cost": 30,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35542,7 +35574,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Hydraulic Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 3,
@@ -35556,7 +35588,9 @@
         "cost": 30,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35582,7 +35616,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Hydraulic Frame",
         "sourceRowLocation": "Main Body",
         "armVariant": null,
@@ -35596,7 +35630,9 @@
         "cost": 60,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35622,7 +35658,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Hydraulic Frame",
         "sourceRowLocation": "Optics",
         "armVariant": null,
@@ -35636,7 +35672,9 @@
         "cost": 30,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35662,7 +35700,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Hydraulic Frame",
         "sourceRowLocation": "Thruster",
         "armVariant": null,
@@ -35676,7 +35714,9 @@
         "cost": 30,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35744,7 +35784,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Noxious Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 1,
@@ -35758,7 +35798,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35784,7 +35826,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Noxious Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 2,
@@ -35798,7 +35840,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35824,7 +35868,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Noxious Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 3,
@@ -35838,7 +35882,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35864,7 +35910,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Noxious Plate",
         "sourceRowLocation": "Main Body",
         "armVariant": null,
@@ -35878,7 +35924,9 @@
         "cost": 30,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35904,7 +35952,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Noxious Plate",
         "sourceRowLocation": "Optics",
         "armVariant": null,
@@ -35918,7 +35966,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -35944,7 +35994,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Noxious Plate",
         "sourceRowLocation": "Thruster",
         "armVariant": null,
@@ -35958,7 +36008,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36236,7 +36288,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Serrated Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 1,
@@ -36250,7 +36302,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36276,7 +36330,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Serrated Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 2,
@@ -36290,7 +36344,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36316,7 +36372,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Serrated Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 3,
@@ -36330,7 +36386,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36356,7 +36414,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Serrated Plate",
         "sourceRowLocation": "Main Body",
         "armVariant": null,
@@ -36370,7 +36428,9 @@
         "cost": 30,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36396,7 +36456,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Serrated Plate",
         "sourceRowLocation": "Optics",
         "armVariant": null,
@@ -36410,7 +36470,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36436,7 +36498,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Serrated Plate",
         "sourceRowLocation": "Thruster",
         "armVariant": null,
@@ -36450,7 +36512,9 @@
         "cost": 15,
         "perks": "Armorer 1",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36518,7 +36582,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Toxic Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 1,
@@ -36532,7 +36596,9 @@
         "cost": 15,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36558,7 +36624,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Toxic Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 2,
@@ -36572,7 +36638,9 @@
         "cost": 15,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36598,7 +36666,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Toxic Plate",
         "sourceRowLocation": "Arms",
         "armVariant": 3,
@@ -36612,7 +36680,9 @@
         "cost": 15,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36638,7 +36708,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Toxic Plate",
         "sourceRowLocation": "Main Body",
         "armVariant": null,
@@ -36652,7 +36722,9 @@
         "cost": 30,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36678,7 +36750,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Toxic Plate",
         "sourceRowLocation": "Optics",
         "armVariant": null,
@@ -36692,7 +36764,9 @@
         "cost": 15,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36718,7 +36792,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Toxic Plate",
         "sourceRowLocation": "Thruster",
         "armVariant": null,
@@ -36732,7 +36806,9 @@
         "cost": 15,
         "perks": "Armorer 3",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36758,7 +36834,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Voltaic Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 1,
@@ -36772,7 +36848,9 @@
         "cost": 20,
         "perks": "Armorer 2",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36798,7 +36876,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Voltaic Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 2,
@@ -36812,7 +36890,9 @@
         "cost": 20,
         "perks": "Armorer 2",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36838,7 +36918,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Voltaic Frame",
         "sourceRowLocation": "Arms",
         "armVariant": 3,
@@ -36852,7 +36932,9 @@
         "cost": 20,
         "perks": "Armorer 2",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36878,7 +36960,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Voltaic Frame",
         "sourceRowLocation": "Main Body",
         "armVariant": null,
@@ -36892,7 +36974,9 @@
         "cost": 40,
         "perks": "Armorer 2",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36918,7 +37002,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Voltaic Frame",
         "sourceRowLocation": "Optics",
         "armVariant": null,
@@ -36932,7 +37016,9 @@
         "cost": 20,
         "perks": "Armorer 2",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
       }
     },
     {
@@ -36958,7 +37044,7 @@
       },
       "certification": {
         "canonicalMechanicsReviewed": true,
-        "descriptionReviewed": false,
+        "descriptionReviewed": true,
         "sourceTableName": "Voltaic Frame",
         "sourceRowLocation": "Thruster",
         "armVariant": null,
@@ -36972,7 +37058,209 @@
         "cost": 20,
         "perks": "Armorer 2",
         "installSkill": "Repair",
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionSourcePage": 148,
+        "specialEffectReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 148,
+      "type": "rule_text",
+      "sourceName": "Serrated Plate",
+      "localizedNames": {
+        "fr": "Plaque dentelée"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description and special rule are applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          148
+        ],
+        "fr": [
+          148
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "specialEffectReviewed": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
+        "retaliationOnMeleeComplication": {
+          "damageDice": 2,
+          "damageType": "Physical",
+          "damageEffect": "Persistent"
+        },
+        "armMeleeDamageEffect": "Persistent (Physical)"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 148,
+      "type": "rule_text",
+      "sourceName": "Noxious Plate",
+      "localizedNames": {
+        "fr": "Plaque néfaste"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description and special rule are applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          148
+        ],
+        "fr": [
+          148
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "specialEffectReviewed": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
+        "retaliationOnMeleeComplication": {
+          "damageDice": 2,
+          "damageType": "Poison",
+          "damageEffect": "Persistent"
+        },
+        "armMeleeDamageEffect": "Persistent (Poison)",
+        "englishArmReference": "serrated plate (as printed)",
+        "frenchArmReference": "plaque néfaste",
+        "sourceDiscrepancyRecorded": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 148,
+      "type": "rule_text",
+      "sourceName": "Toxic Plate",
+      "localizedNames": {
+        "fr": "Plaque toxique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description and special rule are applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          148
+        ],
+        "fr": [
+          148
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "specialEffectReviewed": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
+        "retaliationOnMeleeComplication": {
+          "damageDice": 2,
+          "damageType": "Radiation"
+        },
+        "armMeleeDamageEffect": "Radioactive",
+        "englishArmReference": "serrated plate (as printed)",
+        "frenchArmReference": "plaque toxique",
+        "sourceDiscrepancyRecorded": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 148,
+      "type": "rule_text",
+      "sourceName": "Actuated Frame",
+      "localizedNames": {
+        "fr": "Châssis actif"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description and special rule are applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          148
+        ],
+        "fr": [
+          148
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "specialEffectReviewed": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
+        "armMeleeDamageBonusDice": 1,
+        "thrusterAllowsMoveAndSprintSameTurn": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 148,
+      "type": "rule_text",
+      "sourceName": "Voltaic Frame",
+      "localizedNames": {
+        "fr": "Châssis voltaïque"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description and special rule are applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          148
+        ],
+        "fr": [
+          148
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "specialEffectReviewed": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
+        "energyAttackDamageBonusDiceByFittedLocations": {
+          "1-2": 1,
+          "3-4": 2,
+          "5+": 3
+        }
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 148,
+      "type": "rule_text",
+      "sourceName": "Hydraulic Frame",
+      "localizedNames": {
+        "fr": "Châssis hydraulique"
+      },
+      "scope": "out_of_scope",
+      "justification": "Robot-armor family description and special rule are applied to the corresponding reusable robot-armor Item identities rather than published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          148
+        ],
+        "fr": [
+          148
+        ]
+      },
+      "certification": {
+        "descriptionAppliedToItems": true,
+        "specialEffectReviewed": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
+        "armMeleeDamageBonusDice": 1,
+        "armMeleeDamageEffect": "Stun"
       }
     }
   ]

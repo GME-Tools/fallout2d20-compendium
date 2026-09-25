@@ -4187,7 +4187,7 @@ test("Core Robot Armor pp.146–147 table is source-complete", async () => {
       assert.equal(source?.page,page,language+"/robot-armor/"+id+" source page");
       assert.equal(source?.errataReviewed,true,language+"/robot-armor/"+id+" errata review");
       const catEntry=robotEntries.find(entry=>entry.documentId===id);
-      assert.equal(catEntry.certification.descriptionReviewed,described.has(family));
+      assert.equal(catEntry.certification.descriptionReviewed,described.has(family) || catEntry.certification.descriptionSourcePage === 148);
       if(described.has(family)){
         assert.ok(doc.system.description.startsWith(desc[language][family]),language+"/robot-armor/"+id+" p.147 description");
         if(!["standard_plating","mister_gutsy_plating"].includes(family)) assert.match(doc.system.description,/data-f2d20-recipe="core"/,language+"/robot-armor/"+id+" recipe retained");
@@ -4196,3 +4196,84 @@ test("Core Robot Armor pp.146–147 table is source-complete", async () => {
   }
 });
 
+
+
+test("Core Robot Armor p.148 descriptions and special effects are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 150 && catalog.certifiedThrough.en.sourcePage >= 148);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 151 && catalog.certifiedThrough.fr.sourcePage >= 148);
+
+  const families = {
+    serrated_plate: {
+      sourceName: "Serrated Plate",
+      ids: ["F0EnePOunzae56lJ","vqETiW7Kb0SgXV43","UCJpZzvuttkA0QgE","VgbaAYRw7EgisEiA","SfpbSl7s62PyLVD1","MIbiWiYfApYYj1ft"],
+      en: "Makeshift armor plating with jagged, serrated edges. Like primal plate, but more hazardous to those who would do the robot ill, as the sharp protrusions can lead to injury. Special: When a melee attack is made against a location fitted with serrated plate, and the attacker suffers a complication, then the attacker suffers 2 @fos[DC] Persistent (Physical) damage. In addition, melee attacks made using arms fitted with serrated plate gain the Persistent (Physical) damage effect.",
+      fr: "Un blindage d’armure artisanal aux bords dentelés et tranchants. Fournit la même protection que la plaque de base, mais s’avère plus dangereux pour ceux qui voudraient faire du mal au robot, car les excroissances aiguisées peuvent causer des blessures. Spécial : quand une attaque de corps à corps est portée sur une localisation équipée de plaque dentelée et que l’attaquant subit une complication, l’attaquant subit 2 @fos[DC] de dégâts Persistants (balistiques). De plus, les attaques de corps à corps portées avec des bras équipés de plaque dentelée gagnent l’effet de dégâts Persistant (balistiques)."
+    },
+    noxious_plate: {
+      sourceName: "Noxious Plate",
+      ids: ["Kf577cR3G6pb7Mkt","f51NNsrFdLVVsNqJ","g81eSQdioCxlp7Dm","ShuSwxf2xbRbpn9D","tH4nPzaOhBjnfmpC","yWyTsnEUgTIAwldJ"],
+      en: "Makeshift armor coated in toxic materials which are hazardous to the health of any who seeks to inflict harm upon the robot or its companions. Special: When a melee attack is made against a location fitted with noxious plate, and the attacker suffers a complication, then the attacker suffers 2 @fos[DC] Persistent (Poison) damage. In addition, melee attacks made using arms fitted with serrated plate gain the Persistent (Poison) damage effect.",
+      fr: "Une armure artisanale recouverte d’une couche de matériaux toxiques représentant un risque pour la santé de quiconque cherche à infliger des dommages au robot ou à ses compagnons. Spécial : quand une attaque de corps à corps est portée sur une localisation équipée de plaque néfaste et que l’attaquant subit une complication, l’attaquant subit 2 @fos[DC] de dégâts Persistants (de poison). De plus, les attaques de corps à corps portées avec des bras équipés de plaque néfaste gagnent l’effet de dégâts Persistant (de poison)."
+    },
+    toxic_plate: {
+      sourceName: "Toxic Plate",
+      ids: ["MOmIwergCNwfesgP","q13iMNcRH0zc729C","wGGosbG83Om5a1ac","wS4PyRQOedMKih10","acP42rzsrff1QOU2","p6isTJnOmQhUGLck"],
+      en: "Makeshift armor made with irradiated metal plating, dangerous to living creatures nearby. Special: When a melee attack is made against a location fitted with toxic plate, and the attacker suffers a complication, then the attacker suffers 2 @fos[DC] Radiation damage. In addition, melee attacks made using arms fitted with serrated plate gain the Radioactive damage effect.",
+      fr: "Une armure artisanale fabriquée avec des plaques de métal irradié, dangereuse pour les créatures vivantes à proximité. Spécial : quand une attaque de corps à corps est portée sur une localisation équipée de plaque toxique et que l’attaquant subit une complication, l’attaquant subit 2 @fos[DC] de dégâts de radiation. De plus, les attaques de corps à corps portées avec des bras équipés de plaque toxique gagnent l’effet de dégâts Radioactif."
+    },
+    actuated_frame: {
+      sourceName: "Actuated Frame",
+      ids: ["hNlPV160j8Uk9qAZ","l2R15upfww3XvNHA","ByXJVAAdbklXkx4F","0d7qFZHVsWYFhFoI","HYNVUjwQxMO4KXIe","LLnQeNnD1C4zlqXv"],
+      en: "A specially made set of armor plates fitted with actuators and motive systems which aid the robot’s actions. Special: Melee attacks made from arms fitted with an actuated frame inflict +1 @fos[DC] damage. If the robot’s Thruster is fitted with an actuated frame, it may make both a Move minor action and a Sprint major action in the same turn.",
+      fr: "Un ensemble de plaques d’armure de confection spéciale équipé d’actionneurs et de systèmes moteurs qui facilitent les actions du robot. Spécial : les attaques de corps à corps portées avec des bras équipés d’un châssis actif infligent +1 @fos[DC] de dégâts. Si le propulseur du robot est équipé d’un châssis actif, le robot peut effectuer à la fois une action mineure se déplacer et une action capitale sprinter lors du même tour."
+    },
+    voltaic_frame: {
+      sourceName: "Voltaic Frame",
+      ids: ["IU0gtAAG6EOwvSXA","5922ioSDVB2hnY72","c7bdRUlaii4Yn8oH","ai8sQG55s9dcHrH2","KIeIEy9kJXroD5wH","qAnuaudKfDpd72Sl"],
+      en: "A specially made set of armor plates fitted with additional conduits and capacitors to bolster the effectiveness of energy weaponry. Special: Any of the robot’s attacks which deal energy damage inflict +1 @fos[DC] if the robot is fitted with any voltaic frame armor. This bonus increases by +1 @fos[DC] for every two additional locations fitted with Voltaic Frame (so +2 @fos[DC] for 3 pieces, or +3 @fos[DC] for 5 or more pieces)",
+      fr: "Un ensemble de plaques d’armure de confection spéciale équipé de conduits et de condensateurs supplémentaires pour renforcer l’efficacité des armes à énergie. Spécial : toute attaque du robot infligeant des dégâts énergétiques inflige +1 @fos[DC] de dégâts si le robot est équipé d’au moins une pièce d’armure châssis voltaïque. Ce bonus augmente de +1 @fos[DC] par tranche de 2 localisations supplémentaires équipées d’un revêtement voltaïque (donc +2 @fos[DC] pour 3 pièces ou +3 @fos[DC] pour 5 pièces ou plus)."
+    },
+    hydraulic_frame: {
+      sourceName: "Hydraulic Frame",
+      ids: ["JDKYtZyqEV2lQvFx","OkcwSvkgUoyWp5s1","agLROEPeyQHPmptB","WfmNUwj6vf1J1B1D","D8Y0T7cpVY4XgXWq","QBX0JeYQ35RQR7N8"],
+      en: "A specially made set of armor plates which conceal powerful hydraulics which enhance the robot’s movements. Special: Melee attacks made from arms fitted with a hydraulic frame inflict +1 @fos[DC] damage and gain the Stun damage effect.",
+      fr: "Un ensemble de plaques d’armure de confection spéciale dissimulant de puissants systèmes hydrauliques qui augmentent la force des mouvements du robot. Spécial : les attaques de corps à corps portées avec des bras équipés d’un châssis hydraulique infligent +1 @fos[DC] de dégâts et gagnent l’effet de dégâts Étourdissant."
+    }
+  };
+
+  const p148Rules = catalog.entries.filter(entry => entry.page === 148 && entry.type === "rule_text");
+  assert.equal(p148Rules.length, 6);
+  assert.deepEqual(new Set(p148Rules.map(entry => entry.sourceName)), new Set(Object.values(families).map(f => f.sourceName)));
+  for (const rule of p148Rules) {
+    assert.equal(rule.status, "out_of_scope");
+    assert.equal(rule.certification.descriptionAppliedToItems, true);
+    assert.equal(rule.certification.specialEffectReviewed, true);
+    assert.equal(rule.certification.errataReviewed, true);
+  }
+  assert.equal(p148Rules.find(r => r.sourceName === "Noxious Plate").certification.englishArmReference, "serrated plate (as printed)");
+  assert.equal(p148Rules.find(r => r.sourceName === "Toxic Plate").certification.englishArmReference, "serrated plate (as printed)");
+
+  const htmlText = value => value
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "robot-armor").map(({document}) => [document._id, document]));
+    for (const family of Object.values(families)) {
+      for (const id of family.ids) {
+        const doc = docs.get(id);
+        assert.ok(doc, language + "/robot-armor/" + id + " missing");
+        assert.equal(htmlText(doc.system.description), family[language], language + "/robot-armor/" + id + " p.148 text");
+        assert.match(doc.system.description, /data-f2d20-recipe="core"/, language + "/robot-armor/" + id + " recipe retained");
+        const entry = catalog.entries.find(candidate => candidate.documentId === id);
+        assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+        assert.equal(entry.certification.descriptionSourcePage, 148, id + " description source page");
+        assert.equal(entry.certification.specialEffectReviewed, true, id + " special effect reviewed");
+      }
+    }
+  }
+});
