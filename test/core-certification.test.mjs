@@ -6212,4 +6212,129 @@ test("Core Consumables p.163 closes beverage descriptions source-exact", async (
     );
   }
 });
+test("Core Consumables p.164 opens the Chem Items table source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 166 && catalog.certifiedThrough.en.sourcePage >= 164);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 167 && catalog.certifiedThrough.fr.sourcePage >= 164);
+
+  const rulesByName = new Map(catalog.entries.filter(entry => entry.page === 164 && entry.type === "rule_text").map(entry => [entry.sourceName, entry]));
+  const useRule = rulesByName.get("Chems — administration, durations and stacking");
+  const addictionRule = rulesByName.get("Chems — addiction procedure");
+  const durationRule = rulesByName.get("Chem Duration");
+  assert.ok(useRule && addictionRule && durationRule, "p.164 chem rule inventory");
+  assert.equal(useRule.status, "out_of_scope");
+  assert.equal(useRule.certification.canAdministerToSelf, true);
+  assert.equal(useRule.certification.canAdministerToOther, true);
+  assert.equal(useRule.certification.otherRecipientMustBeWilling, true);
+  assert.equal(useRule.certification.targetRange, "Reach");
+  assert.equal(useRule.certification.action, "Take Chem");
+  assert.equal(useRule.certification.actionType, "minor");
+  assert.equal(useRule.certification.benefitsDoNotStack, true);
+  assert.equal(useRule.certification.sameBenefitMostRecentTakesPrecedence, true);
+  assert.equal(useRule.certification.sameChemMostRecentTakesPrecedence, true);
+  assert.equal(addictionRule.status, "out_of_scope");
+  assert.equal(addictionRule.certification.addictiveDoseCheckCombatDicePerDoseTakenThisSession, 1);
+  assert.equal(addictionRule.certification.addictionOccursWhenEffectsMeetOrExceedChemAddictionNumber, true);
+  assert.equal(durationRule.status, "out_of_scope");
+  assert.deepEqual(durationRule.certification.durationExtenders, ["Chemist perk","BioCommMesh armor upgrade"]);
+  assert.equal(durationRule.certification.instantUnaffected, true);
+  assert.equal(durationRule.certification.briefBaseRounds, 1);
+  assert.equal(durationRule.certification.briefExtendedRounds, 2);
+  assert.equal(durationRule.certification.lastingExtendedTo, "end of next scene");
+  for (const rule of [useRule,addictionRule,durationRule]) {
+    assert.match(rule.certification.errataNote, /Wasteland Wanderer/, rule.sourceName + " errata scoping");
+  }
+
+  const enP164 = new Set([
+    "SHoKAwc6q8kNlt0r","FyAoifDWRgBOPtMV","RkEPnMsHQmgy4olE","fP4pQsWzcH6F83q4",
+    "o0at3QFpM8FKxvZj","7e60Vl5tVoU4MIlJ","MW9UpIocnupsmcFt","UMI1gGwZLhCGTFVK"
+  ]);
+  const frP164 = new Set([
+    "SHoKAwc6q8kNlt0r","FyAoifDWRgBOPtMV","AcJArmB6p1XrVWL9","YFGiyWiFUG7icRPa",
+    "fP4pQsWzcH6F83q4","o0at3QFpM8FKxvZj","7e60Vl5tVoU4MIlJ","MW9UpIocnupsmcFt",
+    "UMI1gGwZLhCGTFVK"
+  ]);
+  assert.equal(enP164.size, 8);
+  assert.equal(frP164.size, 9);
+  assert.equal(new Set([...enP164,...frP164]).size, 10);
+
+  const expected = [
+    ["SHoKAwc6q8kNlt0r","Addictol","Addictol",164,164,"Removes all addictions","Soigne toutes les dépendances","instant",false,0,125,3],
+    ["FyAoifDWRgBOPtMV","Antibiotics","Antibiotiques",164,164,"Cures all illnesses","Soigne toutes les maladies","instant",false,0,75,3],
+    ["RkEPnMsHQmgy4olE","Berry Mentats","Mentats fruits rouges",164,165,"Reduce the difficulty of INT tests by 2 (minimum 0)","Réduit de 2 la difficulté de vos tests d’INT (0 minimum)","lasting",true,2,60,3],
+    ["fP4pQsWzcH6F83q4","Buffjet","Buffjet",164,164,"Reduce the difficulty of all STR and END tests by 1 (minimum 0). +4 Max HP, Gain 3 AP immediately (lost if not spent), Extra actions cost 1 less AP","Réduit de 1 la difficulté de tous vos tests de FOR et d’END (0 minimum), +4 PV max, gagnez immédiatement 3 PA (perdus s’ils ne sont pas dépensés), les actions supplémentaires coûtent 1 PA de moins","brief",true,1,75,4],
+    ["o0at3QFpM8FKxvZj","Buffout","Buffout",164,164,"Re-roll 1d20 on all STR and END tests, +3 Max HP","Vous pouvez relancer 1d20 sur tous vos tests de FOR et d’END, +3 PV max","lasting",true,2,45,2],
+    ["7e60Vl5tVoU4MIlJ","Bufftats","Bufftats",164,164,"Reduce the difficulty of all STR, PER, and END tests by 1 (minimum 0), +4 Max HP","Réduit de 1 la difficulté de tous vos tests de FOR, de PER et d’END (0 minimum), +4 PV max","lasting",true,1,75,4],
+    ["MW9UpIocnupsmcFt","Calmex","Calmex",164,164,"Re-roll 1d20 on all PER and AGI tests, +2 @fos[DC] to sneak attack damage","Vous pouvez relancer 1d20 sur tous vos tests de PER et d’AGI, +2 @fos[DC] aux dégâts des attaques furtives","lasting",true,1,100,4],
+    ["UMI1gGwZLhCGTFVK","Daddy-O","Daddy-O",164,164,"Reduce the difficulty of all PER and INT tests by 1 (minimum 0), +1 difficulty to CHA tests","Réduit de 1 la difficulté de tous vos tests de PER et d’INT (0 minimum), augmente de +1 la difficulté de vos tests de CHR","lasting",true,1,50,2],
+    ["AcJArmB6p1XrVWL9","Healing Salve","Baume de soin",165,164,"Heals 2 HP (see description)","Guérit 2 PV (voir description)","instant",false,0,20,1],
+    ["YFGiyWiFUG7icRPa","Skeeto Spit","Bave de scrito",165,164,"+2 Max HP","+2 PV max","lasting",false,0,40,2]
+  ].map(([id,enName,frName,enPage,frPage,enEffect,frEffect,duration,addictive,addiction,cost,rarity]) => ({
+    id,enName,frName,enPage,frPage,enEffect,frEffect,duration,addictive,addiction,cost,rarity
+  }));
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP164) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.164 chem row missing for " + id);
+    assert.ok(entry.sourcePages?.en?.includes(164), "EN p.164 coordinate missing for " + id);
+  }
+  for (const id of frP164) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.164 chem row missing for " + id);
+    assert.ok(entry.sourcePages?.fr?.includes(164), "FR p.164 coordinate missing for " + id);
+  }
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const item of expected) {
+    const entry = catalogById.get(item.id);
+    assert.ok(entry, "missing p.164 chem entry " + item.id);
+    assert.equal(entry.page, item.enPage, item.enName + " canonical source page");
+    assert.deepEqual(entry.sourcePages, {en:[item.enPage],fr:[item.frPage]}, item.enName + " source coordinates");
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.status, "verified");
+    assert.equal(entry.certification.canonicalMechanicsReviewed, true);
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.consumableType, "chem");
+    assert.equal(entry.certification.effect, item.enEffect);
+    assert.equal(entry.certification.duration, item.duration);
+    assert.equal(entry.certification.addictive, item.addictive);
+    assert.equal(entry.certification.addictionNumber, item.addictive ? item.addiction : null);
+    assert.equal(entry.certification.weightLb, "<1");
+    assert.equal(entry.certification.weightFr, "<0.5");
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.alcoholic, false);
+    assert.equal(entry.certification.irradiated, false);
+    assert.match(entry.certification.errataNote, /Wasteland Wanderer/, item.enName + " errata scoping");
+  }
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const item of expected) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.name, language === "en" ? item.enName : item.frName);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, item.enPage);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(document.system.consumableType, "chem");
+      assert.equal(document.system.alcoholic, false);
+      assert.equal(document.system.irradiated, false);
+      assert.equal(document.system.weight, 0);
+      assert.equal(document.system.duration, item.duration);
+      assert.equal(document.system.addictive, item.addictive);
+      assert.equal(document.system.addiction, item.addiction);
+      assert.equal(document.system.cost, item.cost);
+      assert.equal(document.system.rarity, item.rarity);
+      assert.equal(plainText(document.system.effect), language === "en" ? item.enEffect : item.frEffect, language + "/" + item.enName + " table effect");
+    }
+  }
+});
 
