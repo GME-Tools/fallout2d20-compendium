@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 164,
-      "sourcePage": 162
+      "pdfPage": 165,
+      "sourcePage": 163
     },
     "fr": {
-      "pdfPage": 165,
-      "sourcePage": 162
+      "pdfPage": 166,
+      "sourcePage": 163
     }
   },
   "pageReviews": [
@@ -2645,6 +2645,22 @@
       "language": "fr",
       "pdfPage": 165,
       "sourcePage": 162,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 165,
+      "sourcePage": 163,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 166,
+      "sourcePage": 163,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -41980,7 +41996,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Gagnez immédiatement +5 PA"
+        "officialFrenchEffect": "Gagnez immédiatement +5 PA",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.163 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -42119,7 +42146,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer 1d20 sur vos tests d’AGI"
+        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer 1d20 sur vos tests d’AGI",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.163 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -42295,7 +42333,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings.",
-        "officialFrenchEffect": "Alcoolisée"
+        "officialFrenchEffect": "Alcoolisée",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.163 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -42334,7 +42383,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings.",
-        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer jusqu’à 2d20 (au total) sur vos tests de FOR"
+        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer jusqu’à 2d20 (au total) sur vos tests de FOR",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.163 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -42373,7 +42433,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings.",
-        "officialFrenchEffect": "Alcoolisée, gagnez immédiatement +1 PA"
+        "officialFrenchEffect": "Alcoolisée, gagnez immédiatement +1 PA",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.163 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {

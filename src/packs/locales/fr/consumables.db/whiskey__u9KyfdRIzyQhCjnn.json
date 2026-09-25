@@ -3,7 +3,7 @@
   "_file": "whisky__u9KyfdRIzyQhCjnn.json",
   "values": {
     "/name": "Whisky",
-    "/system/description": "<p>Alcool distillé trois fois à partir d’un moût de céréales. Avant la Guerre, il était produit aux États-Unis et ailleurs ; quelques distilleries des Terres désolées en fabriquent encore avec du maïs et du razigrain.</p>",
+    "/system/description": "<p>Une boisson alcoolisée distillée trois fois fabriquée à base de malt. Les versions d’avant-guerre étaient produites un peu partout aux États-Unis et dans d’autres pays. Certaines distilleries des Terres désolées produisent des versions d’après-guerre en utilisant du maïs et du blé surin.</p>",
     "/system/effect": "<p>Vous pouvez relancer jusqu’à 2d20 (au total) sur vos tests de FOR</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",

@@ -3,7 +3,7 @@
   "_file": "rhum__eH5lYeN88g16VbYT.json",
   "values": {
     "/name": "Rhum",
-    "/system/description": "<p>Alcool obtenu par fermentation puis distillation de mélasse de canne à sucre. Historiquement lié aux traditions navales et maritimes, il se trouve surtout dans les régions côtières proches d’anciens ports, même si peu de navires parcourent encore les mers irradiées.</p>",
+    "/system/description": "<p>Une liqueur fabriquée en fermentant puis en distillant de la mélasse de canne à sucre. Historiquement, le rhum est étroitement lié aux traditions navales et maritimes, même s’il reste très peu de navires qui voguent sur les mers irradiées. Il est donc souvent présent dans les régions côtières, surtout près des anciens ports.</p>",
     "/system/effect": "<p>Vous pouvez relancer 1d20 sur vos tests d’AGI</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",

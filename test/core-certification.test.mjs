@@ -6116,4 +6116,100 @@ test("Core Consumables p.162 continues beverage descriptions source-exact", asyn
     );
   }
 });
+test("Core Consumables p.163 closes beverage descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 165 && catalog.certifiedThrough.en.sourcePage >= 163);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 166 && catalog.certifiedThrough.fr.sourcePage >= 163);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  const enP163 = new Set([
+    "KXreAKBJPNwyBwMb","xuXzlEC3V0co3w3h","rj3fi0X9aQNceJF6","eH5lYeN88g16VbYT",
+    "FqwVy0rYtfInhHoH","MlGblqUyUcVhqQLY","pGaN2EDIWl3lUsrx","u9KyfdRIzyQhCjnn",
+    "afPpMSnBCqxLyaxx"
+  ]);
+  const frP163 = new Set([
+    "Uxxc3gTKcLNpcBLU","KXreAKBJPNwyBwMb","69jE7Uteh1NARMBL","YQPVshPe6pooP0zZ",
+    "eH5lYeN88g16VbYT","PVf7RRNJLAIY2b2t","afPpMSnBCqxLyaxx","pGaN2EDIWl3lUsrx",
+    "u9KyfdRIzyQhCjnn"
+  ]);
+  assert.equal(enP163.size, 9);
+  assert.equal(frP163.size, 9);
+  assert.equal(new Set([...enP163,...frP163]).size, 13);
+
+  for (const id of enP163) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.163 beverage description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(163), "EN p.163 description coordinate missing for " + id);
+  }
+  for (const id of frP163) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.163 beverage description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(163), "FR p.163 description coordinate missing for " + id);
+  }
+
+  const specs = {
+    "KXreAKBJPNwyBwMb": {
+      en:"Introduced the same day the bombs fell, and thus difficult to find, Nuka-Cola Quantum was the newest flavor of Nuka-Cola to be released to the public, with twice the calories, twice the carbohydrates, twice, the caffeine, and twice the taste. The drink’s distinctive blue glow comes from the (safe for human consumption) isotope additive developed by beverageers working with the United States military. Most bottles found were from special pre-release batches sent to chosen retailers or found in trucks in the process of shipping the product. The drink’s effects are extremely potent. You receive 1 cap upon opening and drinking a bottle of Nuka-Cola Quantum.",
+      fr:"Mis sur le marché le jour où les bombes tombèrent, et donc difficile à trouver, le Nuka Cola Quantum était la toute nouvelle saveur de Nuka Cola offerte au public, avec deux fois plus de calories, deux fois plus de glucides, deux fois plus de caféine et deux fois plus de goût. La couleur bleu brillant caractéristique de cette boisson vient de l’additif à base d’isotopes (mais propre à la consommation humaine et sans danger de ce point de vue) développé par les concepteurs de boissons travaillant avec l’armée des États-Unis. La plupart des bouteilles présentes dans les Terres désolées viennent de lots spéciaux mis sur le marché en avant-première qui avaient été envoyés à certains commerces triés sur le volet ou de camions qui étaient en train d’expédier le produit. Les effets de cette boisson sont extrêmement puissants. Quand vous ouvrez et buvez une bouteille de Nuka Cola Quantum, vous recevez 1 capsule."
+    },
+    "eH5lYeN88g16VbYT": {
+      en:"A liquor made from fermenting then distilling sugarcane molasses. Rum has strong historic ties to naval and maritime traditions, though there are few boats left that ply the irradiated seas, so it turns up often in coastal regions, particularly near to old harbors and ports.",
+      fr:"Une liqueur fabriquée en fermentant puis en distillant de la mélasse de canne à sucre. Historiquement, le rhum est étroitement lié aux traditions navales et maritimes, même s’il reste très peu de navires qui voguent sur les mers irradiées. Il est donc souvent présent dans les régions côtières, surtout près des anciens ports."
+    },
+    "pGaN2EDIWl3lUsrx": {
+      en:"A clear distilled alcoholic beverage, made from fermented rye, wheat, potatoes, or sugar beet molasses, typically imported from the Soviet Union Pre-War.",
+      fr:"Une boisson alcoolisée distillée transparente, fabriquée en faisant fermenter du seigle, du blé, des pommes de terre ou de la mélasse de betterave à sucre, généralement importée d’Union soviétique avant la Guerre."
+    },
+    "u9KyfdRIzyQhCjnn": {
+      en:"A triple-distilled alcoholic beverage made using grain mash. Pre-War versions were created across the United States and beyond. Some wasteland distilleries exist producing post-War versions using corn and razorgrain.",
+      fr:"Une boisson alcoolisée distillée trois fois fabriquée à base de malt. Les versions d’avant-guerre étaient produites un peu partout aux États-Unis et dans d’autres pays. Certaines distilleries des Terres désolées produisent des versions d’après-guerre en utilisant du maïs et du blé surin."
+    },
+    "afPpMSnBCqxLyaxx": {
+      en:"An alcoholic beverage made from the fermentation of grape juice. There are numerous pre-War vintages to be found across the wasteland, often collected by the wealthy before the bombs fell, and a survivor who stumbles across an intact wine cellar can enjoy a drunken stupor for weeks or months.",
+      fr:"Une boisson alcoolisée fabriquée en faisant fermenter du jus de raisin. De nombreuses cuvées d’avant-guerre sont encore présentes dans les Terres désolées, souvent collectionnées par les riches avant la chute des bombes. Un survivant qui tombe sur une cave à vins intacte peut se saouler pendant des semaines ou même des mois."
+    }
+  };
+  assert.equal(Object.keys(specs).length, 5);
+
+  for (const id of Object.keys(specs)) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:[163],fr:[163]}, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+    assert.match(entry.certification.descriptionErrataNote, /p\.216.?217/, id + " later beverage errata scope");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&hellip;/g, "…")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+    }
+  }
+
+  for (const id of [
+    "Uxxc3gTKcLNpcBLU","69jE7Uteh1NARMBL","YQPVshPe6pooP0zZ","PVf7RRNJLAIY2b2t",
+    "xuXzlEC3V0co3w3h","rj3fi0X9aQNceJF6","FqwVy0rYtfInhHoH","MlGblqUyUcVhqQLY"
+  ]) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " prior targeted description retained");
+    assert.ok(
+      entry.certification.descriptionSourcePages.en.includes(163) || entry.certification.descriptionSourcePages.fr.includes(163),
+      id + " crosses the certified p.163 boundary"
+    );
+  }
+});
 
