@@ -4338,10 +4338,10 @@ test("Core Consumables p.149 rules and bilingual food rows are source-exact", as
   const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
   for (const item of expected) {
     const entry = catalogById.get(item.id);
-    assert.ok(entry, \`certification entry missing for consumable \${item.id}\`);
-    assert.equal(entry.page, item.enPage, \`\${item.enName} canonical source page\`);
-    assert.deepEqual(entry.sourcePages?.en, [item.enPage], \`\${item.enName} EN coordinate\`);
-    assert.deepEqual(entry.sourcePages?.fr, [item.frPage], \`\${item.enName} FR coordinate\`);
+    assert.ok(entry, `certification entry missing for consumable ${item.id}`);
+    assert.equal(entry.page, item.enPage, `${item.enName} canonical source page`);
+    assert.deepEqual(entry.sourcePages?.en, [item.enPage], `${item.enName} EN coordinate`);
+    assert.deepEqual(entry.sourcePages?.fr, [item.frPage], `${item.enName} FR coordinate`);
     assert.equal(entry.sourceName, item.enName);
     assert.equal(entry.localizedNames?.fr, item.frName);
     assert.equal(entry.certification.tableRowReviewed, true);
@@ -4369,19 +4369,19 @@ test("Core Consumables p.149 rules and bilingual food rows are source-exact", as
     const docs = new Map(records.filter(({ pack }) => pack === "consumables").map(({ document }) => [document._id, document]));
     for (const item of expected) {
       const document = docs.get(item.id);
-      assert.ok(document, \`\${language}/consumables/\${item.id} missing\`);
-      assert.equal(document.name, language === "en" ? item.enName : item.frName, \`\${language}/\${item.enName} name\`);
-      assert.equal(document.flags["fallout2d20-compendium"].source.page, item.enPage, \`\${language}/\${item.enName} source page\`);
-      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, \`\${language}/\${item.enName} errata review\`);
-      assert.equal(document.system.hp, item.hp, \`\${language}/\${item.enName} HP\`);
-      assert.equal(document.system.irradiated, item.irradiated, \`\${language}/\${item.enName} irradiated\`);
-      if (item.irradiated) assert.equal(document.system.radiationDamage, 1, \`\${language}/\${item.enName} irradiation damage\`);
-      assert.equal(document.system.alcoholic, false, \`\${language}/\${item.enName} must not be alcoholic\`);
-      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight, \`\${language}/\${item.enName} weight\`);
-      assert.equal(document.system.cost, item.cost, \`\${language}/\${item.enName} cost\`);
-      assert.equal(document.system.rarity, item.rarity, \`\${language}/\${item.enName} rarity\`);
+      assert.ok(document, `${language}/consumables/${item.id} missing`);
+      assert.equal(document.name, language === "en" ? item.enName : item.frName, `${language}/${item.enName} name`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, item.enPage, `${language}/${item.enName} source page`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, `${language}/${item.enName} errata review`);
+      assert.equal(document.system.hp, item.hp, `${language}/${item.enName} HP`);
+      assert.equal(document.system.irradiated, item.irradiated, `${language}/${item.enName} irradiated`);
+      if (item.irradiated) assert.equal(document.system.radiationDamage, 1, `${language}/${item.enName} irradiation damage`);
+      assert.equal(document.system.alcoholic, false, `${language}/${item.enName} must not be alcoholic`);
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight, `${language}/${item.enName} weight`);
+      assert.equal(document.system.cost, item.cost, `${language}/${item.enName} cost`);
+      assert.equal(document.system.rarity, item.rarity, `${language}/${item.enName} rarity`);
       const expectedEffect = language === "en" ? item.enEffect : item.frEffect;
-      assert.equal(plainText(document.system.effect), expectedEffect, \`\${language}/\${item.enName} table effect\`);
+      assert.equal(plainText(document.system.effect), expectedEffect, `${language}/${item.enName} table effect`);
     }
   }
 });
