@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 166,
-      "sourcePage": 164
+      "pdfPage": 167,
+      "sourcePage": 165
     },
     "fr": {
-      "pdfPage": 167,
-      "sourcePage": 164
+      "pdfPage": 168,
+      "sourcePage": 165
     }
   },
   "pageReviews": [
@@ -2677,6 +2677,22 @@
       "language": "fr",
       "pdfPage": 167,
       "sourcePage": 164,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 167,
+      "sourcePage": 165,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 168,
+      "sourcePage": 165,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -43017,6 +43033,962 @@
         "irradiated": false,
         "errataReviewed": true,
         "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.164 correction applies to the Chems rules or rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Day Tripper",
+      "localizedNames": {
+        "fr": "Daytripper"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "hWlAJa2j3N2LaiPx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Reduce the difficulty of CHA and LCK tests by 1 (minimum 0), +1 difficulty to STR tests",
+        "officialFrenchEffect": "Réduit de 1 la difficulté de vos tests de CHR et de CHA (0 minimum), augmente de +1 la difficulté de vos tests de FOR",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 40,
+        "rarity": 3,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Fury",
+      "localizedNames": {
+        "fr": "Fureur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "MPGzjHEzGF9yW97k",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+3 Physical damage resistance. +3 @fos[DC] to melee damage, +2 difficulty to all PER tests",
+        "officialFrenchEffect": "+3 résistance aux dégâts balistiques, +3 @fos[DC] aux dégâts de corps à corps, augmente de +2 la difficulté de tous vos tests de PER",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 30,
+        "rarity": 4,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Grape Mentats",
+      "localizedNames": {
+        "fr": "Mentats raisin"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "ue9pFVAT1prcq70t",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Reduce the difficulty of CHA tests by 2, to a minimum of 0, Re-roll 1d20 on Barter tests.",
+        "officialFrenchEffect": "Réduit de 2 la difficulté de vos tests de CHR (0 minimum). Vous pouvez relancer 1d20 sur vos tests de Troc",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 2,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 60,
+        "rarity": 3,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Jet",
+      "localizedNames": {
+        "fr": "Jet"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "Bomq1g7X0eVXrssc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Extra actions cost 1 less AP",
+        "officialFrenchEffect": "Les actions supplémentaires coûtent 1 PA de moins",
+        "duration": "brief",
+        "officialFrenchDuration": "Brève",
+        "addictive": true,
+        "addictionNumber": 2,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 50,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Jet Fuel",
+      "localizedNames": {
+        "fr": "Jet Fuel"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "3ZJaIPmXe788xhiz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Gain 1 free AP at the start of each turn",
+        "officialFrenchEffect": "Vous gagnez 1 PA gratuit au début de chaque tour",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 60,
+        "rarity": 3,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Med-X",
+      "localizedNames": {
+        "fr": "Med-X"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "pV3wtJn1fqwTcBMj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+3 Physical damage resistance",
+        "officialFrenchEffect": "+3 résistance aux dégâts balistiques",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 2,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 50,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Mentats",
+      "localizedNames": {
+        "fr": "Mentats"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "hc8DSkMGN2GxugAF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Re-roll 1d20 on PER and INT tests",
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur vos tests de PER et d’INT",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 3,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 50,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Orange Mentats",
+      "localizedNames": {
+        "fr": "Mentats orange"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "Efc2oDGC3pdttSJF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Reduce the difficulty of PER tests by 2 (min. 0), Aim minor action lets you re-roll one additional d20.",
+        "officialFrenchEffect": "Réduit de 2 la difficulté de vos tests de PER (0 minimum), l’action mineure viser vous permet de relancer 1d20 supplémentaire",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 2,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 60,
+        "rarity": 3,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Overdrive",
+      "localizedNames": {
+        "fr": "Overdrive"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "RcNc9VxnJn25PmUF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+3 @fos[DC] damage to all attacks, May re-roll up to 3 @fos[DC] per damage roll",
+        "officialFrenchEffect": "+3 @fos[DC] de dégâts sur toutes vos attaques, vous pouvez relancer jusqu’à 3 @fos[DC] par jet de dégâts",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 55,
+        "rarity": 3,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Psycho",
+      "localizedNames": {
+        "fr": "Psycho"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "r464WdcRwusnzFtm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+2 @fos[DC] damage to all attacks, +3 Physical damage resistance",
+        "officialFrenchEffect": "+2 @fos[DC] de dégâts sur toutes vos attaques, +3 résistance aux dégâts balistiques",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 2,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 50,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Psycho Jet",
+      "localizedNames": {
+        "fr": "Psycho Jet"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "ukyP2t9KtJiQ7uP6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+2 @fos[DC] damage to all attacks, +4 Physical damage resistance. Gain 4 AP immediately (lost if not spent)",
+        "officialFrenchEffect": "+2 @fos[DC] de dégâts sur toutes vos attaques, +4 résistance aux dégâts balistiques, gagnez immédiatement 4 PA (perdus s’ils ne sont pas dépensés)",
+        "duration": "brief",
+        "officialFrenchDuration": "Brève",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 70,
+        "rarity": 4,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Psychobuff",
+      "localizedNames": {
+        "fr": "Psychobuff"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "NE0ZUJrG0TMiG5f9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+2 @fos[DC] damage to all attacks, +4 Max HP. Reduce difficulty of all STR and END tests by 1 (minimum 0).",
+        "officialFrenchEffect": "+2 @fos[DC] de dégâts sur toutes vos attaques, +4 PV max, réduit de 1 la difficulté de tous vos tests de FOR et d’END (0 minimum)",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 70,
+        "rarity": 4,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Psychotats",
+      "localizedNames": {
+        "fr": "Psychotats"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "xgOqumIzZGxJgMOX",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+2 @fos[DC] damage to all attacks, +2 Physical damage resistance, Reduce difficulty of PER tests by 1 (min. 0)",
+        "officialFrenchEffect": "+2 @fos[DC] de dégâts sur toutes vos attaques, +2 résistance aux dégâts balistiques, réduit de 1 la difficulté de vos tests de PER (0 minimum)",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 70,
+        "rarity": 4,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Rad-X",
+      "localizedNames": {
+        "fr": "Rad-X"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "MN5XQI0NJPPPlmsj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+6 Radiation damage resistance",
+        "officialFrenchEffect": "+6 résistance aux dégâts de radiation",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 40,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Rad-X (Diluted)",
+      "localizedNames": {
+        "fr": "Rad-X (dilué)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "R9JlPSqlCfooNqFz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "+3 Radiation damage resistance",
+        "officialFrenchEffect": "+3 résistance aux dégâts de radiation",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 25,
+        "rarity": 1,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "RadAway",
+      "localizedNames": {
+        "fr": "RadAway"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "vDzTAi2iRrZ5XTcc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Heals 4 Radiation damage (see description)",
+        "officialFrenchEffect": "Guérit 4 points de dégâts de radiation (voir description)",
+        "duration": "instant",
+        "officialFrenchDuration": "Instantanée",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 80,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "RadAway (Diluted)",
+      "localizedNames": {
+        "fr": "RadAway (dilué)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "C9aDwtqBulwGksyh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Heals 2 Radiation damage (see description)",
+        "officialFrenchEffect": "Guérit 2 points de dégâts de radiation (voir description)",
+        "duration": "instant",
+        "officialFrenchDuration": "Instantanée",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 50,
+        "rarity": 1,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Stimpak",
+      "localizedNames": {
+        "fr": "Stimpak"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "860ofdvpufUzSqE7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Heals 4 HP (see description)",
+        "officialFrenchEffect": "Guérit 4 PV (voir description)",
+        "duration": "instant",
+        "officialFrenchDuration": "Instantanée",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 50,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Stimpak (Diluted)",
+      "localizedNames": {
+        "fr": "Stimpak (dilué)"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "ItcIh4WKCACIyolW",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Heals 2 HP (see description)",
+        "officialFrenchEffect": "Guérit 2 PV (voir description)",
+        "duration": "instant",
+        "officialFrenchDuration": "Instantanée",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 30,
+        "rarity": 1,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Super Stimpak",
+      "localizedNames": {
+        "fr": "Super Stimpak"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "PT1qFvfqES9PgAHY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Heals 8 HP (see description)",
+        "officialFrenchEffect": "Guérit 8 PV (voir description)",
+        "duration": "instant",
+        "officialFrenchDuration": "Instantanée",
+        "addictive": false,
+        "addictionNumber": null,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 90,
+        "rarity": 4,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "Ultra Jet",
+      "localizedNames": {
+        "fr": "Ultra Jet"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "jhYtRwmXiTvaMuvY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "Gain 6 AP immediately (lost if not spent), Extra actions cost 1 less AP",
+        "officialFrenchEffect": "Gagnez immédiatement 6 PA (perdus s’ils ne sont pas dépensés), les actions supplémentaires coûtent 1 PA de moins",
+        "duration": "brief",
+        "officialFrenchDuration": "Brève",
+        "addictive": true,
+        "addictionNumber": 3,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 67,
+        "rarity": 2,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "printedEnglishLabel": "Ultra jet"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable",
+      "sourceName": "X-Cell",
+      "localizedNames": {
+        "fr": "X-Cell"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable chem consumable identity defined by the Core p.165 Chem Items table.",
+      "pack": "consumables",
+      "documentId": "28PbGcZHEDssWMfB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          165
+        ],
+        "fr": [
+          165
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "chem",
+        "effect": "First d20 bought on all tests is free",
+        "officialFrenchEffect": "Le premier d20 acheté sur tous vos tests est gratuit",
+        "duration": "lasting",
+        "officialFrenchDuration": "Durable",
+        "addictive": true,
+        "addictionNumber": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 60,
+        "rarity": 4,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 165,
+      "type": "consumable_reference",
+      "sourceName": "Stimpak Diffuser",
+      "localizedNames": {
+        "fr": "Diffuseur à Stimpak"
+      },
+      "scope": "in_scope",
+      "justification": "The EN p.165 Chem Items row conflicts with the later EN p.170 Other Consumables row and the official FR p.170 row. The stable document is retained for the later detailed identity audit; no source value is silently chosen here.",
+      "pack": "consumables",
+      "documentId": "YbjXflCRhEgdvW0p",
+      "status": "ambiguous",
+      "identityRole": "reference",
+      "certificationScope": "p.165 conflicting table reference only; full Stimpak Diffuser identity is deferred to the p.170 Other Consumables audit.",
+      "sourcePages": {
+        "en": [
+          165,
+          170
+        ],
+        "fr": [
+          170
+        ]
+      },
+      "certification": {
+        "p165ChemRow": {
+          "effect": "Heals 4 HP to all within Close range",
+          "duration": "instant",
+          "addictive": false,
+          "weightLb": "<1",
+          "cost": 200,
+          "rarity": 5
+        },
+        "p170OtherConsumablesRow": {
+          "effect": "Heals 4 HP to all within Close range",
+          "weightLb": 1,
+          "cost": 100,
+          "rarity": 5
+        },
+        "frP170OtherConsumablesRow": {
+          "effect": "Guérit 4 PV pour tous les personnages à portée courte",
+          "weightKg": 0.5,
+          "cost": 100,
+          "rarity": 5
+        },
+        "internalSourceConflict": true,
+        "deferredToSourcePage": 170,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook Stimpak Diffuser correction resolving the p.165 versus p.170 conflict.",
+        "currentRepositoryUsesP170CostAndCategory": true,
+        "repositoryWeightDeferred": true
       }
     }
   ]

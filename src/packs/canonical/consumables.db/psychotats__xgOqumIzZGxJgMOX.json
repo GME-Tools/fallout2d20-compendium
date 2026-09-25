@@ -8,7 +8,7 @@
   "system": {
     "addiction": 1,
     "addictive": true,
-    "alcoholic": true,
+    "alcoholic": false,
     "butchery": false,
     "consumableGroup": "Psycho",
     "consumableType": "chem",
@@ -17,7 +17,7 @@
     "favorite": false,
     "group": "",
     "hp": 0,
-    "irradiated": true,
+    "irradiated": false,
     "prepared": false,
     "providesCap": false,
     "quantity": 1,
@@ -33,10 +33,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated",
-        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Psycho.webp; recorded 2026-09-08"
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Psycho.webp; recorded 2026-09-08",
+        "page": 165
       }
     }
   },

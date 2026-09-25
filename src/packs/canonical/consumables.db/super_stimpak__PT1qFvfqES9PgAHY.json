@@ -8,7 +8,7 @@
   "system": {
     "addiction": 0,
     "addictive": false,
-    "alcoholic": true,
+    "alcoholic": false,
     "butchery": false,
     "consumableGroup": "",
     "consumableType": "chem",
@@ -17,7 +17,7 @@
     "favorite": false,
     "group": "",
     "hp": 8,
-    "irradiated": true,
+    "irradiated": false,
     "prepared": false,
     "providesCap": false,
     "quantity": 1,
@@ -33,9 +33,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 165
       }
     }
   },

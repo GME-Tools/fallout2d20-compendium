@@ -6337,4 +6337,142 @@ test("Core Consumables p.164 opens the Chem Items table source-exact", async () 
     }
   }
 });
+test("Core Consumables p.165 closes the Chem Items table source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 167 && catalog.certifiedThrough.en.sourcePage >= 165);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 168 && catalog.certifiedThrough.fr.sourcePage >= 165);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  const enP165 = new Set([
+    "hWlAJa2j3N2LaiPx","MPGzjHEzGF9yW97k","ue9pFVAT1prcq70t","AcJArmB6p1XrVWL9",
+    "Bomq1g7X0eVXrssc","3ZJaIPmXe788xhiz","pV3wtJn1fqwTcBMj","hc8DSkMGN2GxugAF",
+    "Efc2oDGC3pdttSJF","RcNc9VxnJn25PmUF","r464WdcRwusnzFtm","ukyP2t9KtJiQ7uP6",
+    "NE0ZUJrG0TMiG5f9","xgOqumIzZGxJgMOX","MN5XQI0NJPPPlmsj","R9JlPSqlCfooNqFz",
+    "vDzTAi2iRrZ5XTcc","C9aDwtqBulwGksyh","YFGiyWiFUG7icRPa","860ofdvpufUzSqE7",
+    "ItcIh4WKCACIyolW","PT1qFvfqES9PgAHY","YbjXflCRhEgdvW0p","jhYtRwmXiTvaMuvY",
+    "28PbGcZHEDssWMfB"
+  ]);
+  const frP165 = new Set([
+    "hWlAJa2j3N2LaiPx","MPGzjHEzGF9yW97k","Bomq1g7X0eVXrssc","3ZJaIPmXe788xhiz",
+    "pV3wtJn1fqwTcBMj","hc8DSkMGN2GxugAF","RkEPnMsHQmgy4olE","Efc2oDGC3pdttSJF",
+    "ue9pFVAT1prcq70t","RcNc9VxnJn25PmUF","r464WdcRwusnzFtm","NE0ZUJrG0TMiG5f9",
+    "ukyP2t9KtJiQ7uP6","xgOqumIzZGxJgMOX","vDzTAi2iRrZ5XTcc","C9aDwtqBulwGksyh",
+    "MN5XQI0NJPPPlmsj","R9JlPSqlCfooNqFz","860ofdvpufUzSqE7","ItcIh4WKCACIyolW",
+    "PT1qFvfqES9PgAHY","jhYtRwmXiTvaMuvY","28PbGcZHEDssWMfB"
+  ]);
+  assert.equal(enP165.size, 25);
+  assert.equal(frP165.size, 23);
+  assert.equal(new Set([...enP165, ...frP165]).size, 26);
+  for (const id of enP165) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.165 row missing for " + id);
+    assert.ok(entry.sourcePages?.en?.includes(165), "EN p.165 coordinate missing for " + id);
+  }
+  for (const id of frP165) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.165 row missing for " + id);
+    assert.ok(entry.sourcePages?.fr?.includes(165), "FR p.165 coordinate missing for " + id);
+  }
+
+  const specs = [
+    ["hWlAJa2j3N2LaiPx","lasting",true,1,40,3,"Reduce the difficulty of CHA and LCK tests by 1 (minimum 0), +1 difficulty to STR tests","Réduit de 1 la difficulté de vos tests de CHR et de CHA (0 minimum), augmente de +1 la difficulté de vos tests de FOR"],
+    ["MPGzjHEzGF9yW97k","lasting",true,1,30,4,"+3 Physical damage resistance. +3 @fos[DC] to melee damage, +2 difficulty to all PER tests","+3 résistance aux dégâts balistiques, +3 @fos[DC] aux dégâts de corps à corps, augmente de +2 la difficulté de tous vos tests de PER"],
+    ["ue9pFVAT1prcq70t","lasting",true,2,60,3,"Reduce the difficulty of CHA tests by 2, to a minimum of 0, Re-roll 1d20 on Barter tests.","Réduit de 2 la difficulté de vos tests de CHR (0 minimum). Vous pouvez relancer 1d20 sur vos tests de Troc"],
+    ["Bomq1g7X0eVXrssc","brief",true,2,50,2,"Extra actions cost 1 less AP","Les actions supplémentaires coûtent 1 PA de moins"],
+    ["3ZJaIPmXe788xhiz","lasting",true,1,60,3,"Gain 1 free AP at the start of each turn","Vous gagnez 1 PA gratuit au début de chaque tour"],
+    ["pV3wtJn1fqwTcBMj","lasting",true,2,50,2,"+3 Physical damage resistance","+3 résistance aux dégâts balistiques"],
+    ["hc8DSkMGN2GxugAF","lasting",true,3,50,2,"Re-roll 1d20 on PER and INT tests","Vous pouvez relancer 1d20 sur vos tests de PER et d’INT"],
+    ["Efc2oDGC3pdttSJF","lasting",true,2,60,3,"Reduce the difficulty of PER tests by 2 (min. 0), Aim minor action lets you re-roll one additional d20.","Réduit de 2 la difficulté de vos tests de PER (0 minimum), l’action mineure viser vous permet de relancer 1d20 supplémentaire"],
+    ["RcNc9VxnJn25PmUF","lasting",true,1,55,3,"+3 @fos[DC] damage to all attacks, May re-roll up to 3 @fos[DC] per damage roll","+3 @fos[DC] de dégâts sur toutes vos attaques, vous pouvez relancer jusqu’à 3 @fos[DC] par jet de dégâts"],
+    ["r464WdcRwusnzFtm","lasting",true,2,50,2,"+2 @fos[DC] damage to all attacks, +3 Physical damage resistance","+2 @fos[DC] de dégâts sur toutes vos attaques, +3 résistance aux dégâts balistiques"],
+    ["ukyP2t9KtJiQ7uP6","brief",true,1,70,4,"+2 @fos[DC] damage to all attacks, +4 Physical damage resistance. Gain 4 AP immediately (lost if not spent)","+2 @fos[DC] de dégâts sur toutes vos attaques, +4 résistance aux dégâts balistiques, gagnez immédiatement 4 PA (perdus s’ils ne sont pas dépensés)"],
+    ["NE0ZUJrG0TMiG5f9","lasting",true,1,70,4,"+2 @fos[DC] damage to all attacks, +4 Max HP. Reduce difficulty of all STR and END tests by 1 (minimum 0).","+2 @fos[DC] de dégâts sur toutes vos attaques, +4 PV max, réduit de 1 la difficulté de tous vos tests de FOR et d’END (0 minimum)"],
+    ["xgOqumIzZGxJgMOX","lasting",true,1,70,4,"+2 @fos[DC] damage to all attacks, +2 Physical damage resistance, Reduce difficulty of PER tests by 1 (min. 0)","+2 @fos[DC] de dégâts sur toutes vos attaques, +2 résistance aux dégâts balistiques, réduit de 1 la difficulté de vos tests de PER (0 minimum)"],
+    ["MN5XQI0NJPPPlmsj","lasting",false,0,40,2,"+6 Radiation damage resistance","+6 résistance aux dégâts de radiation"],
+    ["R9JlPSqlCfooNqFz","lasting",false,0,25,1,"+3 Radiation damage resistance","+3 résistance aux dégâts de radiation"],
+    ["vDzTAi2iRrZ5XTcc","instant",false,0,80,2,"Heals 4 Radiation damage (see description)","Guérit 4 points de dégâts de radiation (voir description)"],
+    ["C9aDwtqBulwGksyh","instant",false,0,50,1,"Heals 2 Radiation damage (see description)","Guérit 2 points de dégâts de radiation (voir description)"],
+    ["860ofdvpufUzSqE7","instant",false,0,50,2,"Heals 4 HP (see description)","Guérit 4 PV (voir description)"],
+    ["ItcIh4WKCACIyolW","instant",false,0,30,1,"Heals 2 HP (see description)","Guérit 2 PV (voir description)"],
+    ["PT1qFvfqES9PgAHY","instant",false,0,90,4,"Heals 8 HP (see description)","Guérit 8 PV (voir description)"],
+    ["jhYtRwmXiTvaMuvY","brief",true,3,67,2,"Gain 6 AP immediately (lost if not spent), Extra actions cost 1 less AP","Gagnez immédiatement 6 PA (perdus s’ils ne sont pas dépensés), les actions supplémentaires coûtent 1 PA de moins"],
+    ["28PbGcZHEDssWMfB","lasting",true,1,60,4,"First d20 bought on all tests is free","Le premier d20 acheté sur tous vos tests est gratuit"]
+  ].map(([id,duration,addictive,addiction,cost,rarity,enEffect,frEffect]) => ({id,duration,addictive,addiction,cost,rarity,enEffect,frEffect}));
+  assert.equal(specs.length, 22);
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const item of specs) {
+    const entry = catalogById.get(item.id);
+    assert.equal(entry.page, 165, item.id + " canonical page");
+    assert.equal(entry.status, "verified", item.id + " status");
+    assert.equal(entry.certification.tableRowReviewed, true, item.id + " table review");
+    assert.equal(entry.certification.duration, item.duration, item.id + " duration");
+    assert.equal(entry.certification.addictive, item.addictive, item.id + " addictive");
+    assert.equal(entry.certification.addictionNumber, item.addictive ? item.addiction : null, item.id + " addiction");
+    assert.equal(entry.certification.cost, item.cost, item.id + " cost");
+    assert.equal(entry.certification.rarity, item.rarity, item.id + " rarity");
+    assert.equal(entry.certification.alcoholic, false, item.id + " alcoholic");
+    assert.equal(entry.certification.irradiated, false, item.id + " irradiated");
+  }
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const item of specs) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, 165, language + "/" + item.id + " page");
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, language + "/" + item.id + " errata");
+      assert.equal(document.system.consumableType, "chem", language + "/" + item.id + " type");
+      assert.equal(document.system.alcoholic, false, language + "/" + item.id + " alcoholic");
+      assert.equal(document.system.irradiated, false, language + "/" + item.id + " irradiated");
+      assert.equal(document.system.weight, 0, language + "/" + item.id + " <1/<0.5 weight sentinel");
+      assert.equal(document.system.duration, item.duration, language + "/" + item.id + " duration");
+      assert.equal(document.system.addictive, item.addictive, language + "/" + item.id + " addictive");
+      assert.equal(document.system.addiction, item.addiction, language + "/" + item.id + " addiction");
+      assert.equal(document.system.cost, item.cost, language + "/" + item.id + " cost");
+      assert.equal(document.system.rarity, item.rarity, language + "/" + item.id + " rarity");
+      assert.equal(plainText(document.system.effect), language === "en" ? item.enEffect : item.frEffect, language + "/" + item.id + " source effect");
+    }
+  }
+
+  const diffuser = catalogById.get("YbjXflCRhEgdvW0p");
+  assert.ok(diffuser, "Stimpak Diffuser p.165 reference missing");
+  assert.equal(diffuser.status, "ambiguous");
+  assert.equal(diffuser.identityRole, "reference");
+  assert.equal(diffuser.certification.internalSourceConflict, true);
+  assert.deepEqual(diffuser.certification.p165ChemRow, {
+    effect:"Heals 4 HP to all within Close range",duration:"instant",addictive:false,weightLb:"<1",cost:200,rarity:5
+  });
+  assert.deepEqual(diffuser.certification.p170OtherConsumablesRow, {
+    effect:"Heals 4 HP to all within Close range",weightLb:1,cost:100,rarity:5
+  });
+  assert.deepEqual(diffuser.certification.frP170OtherConsumablesRow, {
+    effect:"Guérit 4 PV pour tous les personnages à portée courte",weightKg:0.5,cost:100,rarity:5
+  });
+  assert.equal(diffuser.certification.deferredToSourcePage, 170);
+  assert.equal(diffuser.certification.currentRepositoryUsesP170CostAndCategory, true);
+  assert.equal(diffuser.certification.repositoryWeightDeferred, true);
+  assert.match(diffuser.certification.errataNote, /no Core Rulebook Stimpak Diffuser correction/);
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const diffuserDoc = records.find(({pack,document}) => pack === "consumables" && document._id === "YbjXflCRhEgdvW0p")?.document;
+    assert.ok(diffuserDoc, language + "/Stimpak Diffuser missing");
+    assert.notEqual(diffuserDoc.flags["fallout2d20-compendium"].source.page, 165, language + "/Stimpak Diffuser must remain deferred");
+    assert.equal(diffuserDoc.system.consumableType, "other", language + "/Stimpak Diffuser current category");
+    assert.equal(diffuserDoc.system.cost, 100, language + "/Stimpak Diffuser current detailed-table cost");
+  }
+
+  for (const id of ["RkEPnMsHQmgy4olE","AcJArmB6p1XrVWL9","YFGiyWiFUG7icRPa"]) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "p.165 carried identity missing " + id);
+    assert.ok(entry.sourcePages.en.includes(165) || entry.sourcePages.fr.includes(165), id + " p.165 coordinate");
+  }
+});
 
