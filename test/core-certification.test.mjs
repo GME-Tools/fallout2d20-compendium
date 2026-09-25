@@ -6978,8 +6978,8 @@ test("Core Consumables p.170 closes chems and certifies Other Consumables", asyn
     assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata");
   }
   assert.ok(byId.get("860ofdvpufUzSqE7").certification.descriptionSourcePages.en.includes(170), "Stimpak EN p.170 continuation retained");
-  assert.equal(byId.get("1yXCbQZHNLtwuPcT").certification.descriptionReviewed, false, "Stealth Boy description deferred to p.171");
-  assert.equal(byId.get("1yXCbQZHNLtwuPcT").certification.descriptionDeferredToSourcePage, 171);
+  assert.equal(byId.get("1yXCbQZHNLtwuPcT").certification.descriptionReviewed, true, "Stealth Boy description is closed by the subsequent p.171 lot");
+  assert.deepEqual(byId.get("1yXCbQZHNLtwuPcT").certification.descriptionSourcePages, {en:[171],fr:[171]}, "Stealth Boy keeps its p.171-only description provenance");
 
   const recipeIds = new Set(["jhYtRwmXiTvaMuvY","RXpTSDERvwv1nuZ5"]);
   for (const language of ["en","fr"]) {
