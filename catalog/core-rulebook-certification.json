@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 155,
-      "sourcePage": 153
+      "pdfPage": 156,
+      "sourcePage": 154
     },
     "fr": {
-      "pdfPage": 156,
-      "sourcePage": 153
+      "pdfPage": 157,
+      "sourcePage": 154
     }
   },
   "pageReviews": [
@@ -2501,6 +2501,22 @@
       "language": "fr",
       "pdfPage": 156,
       "sourcePage": 153,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 156,
+      "sourcePage": 154,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 157,
+      "sourcePage": 154,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -38945,7 +38961,18 @@
         "canonicalFrenchEffect": "Vous pouvez relancer 1d20 sur tous vos tests d’END jusqu’à la fin de la prochaine scène",
         "sourceDiscrepancyRecorded": true,
         "localizationAdaptedToCanonical": true,
-        "discrepancyNote": "The official FR p.150 Food Paste row ends the re-roll benefit at the end of the current scene, while the EN-authoritative p.150 row says the end of the next scene. The FR overlay follows the EN duration."
+        "discrepancyNote": "The official FR p.150 Food Paste row ends the re-roll benefit at the end of the current scene, while the EN-authoritative p.150 row says the end of the next scene. The FR overlay follows the EN duration.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            155
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39030,7 +39057,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39068,7 +39106,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
-        "officialFrenchEffect": "Votre charge maximale augmente de +12,5 jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "Votre charge maximale augmente de +12,5 jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39105,7 +39154,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39142,7 +39202,18 @@
         "rarity": 3,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39179,7 +39250,18 @@
         "rarity": 0,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39216,7 +39298,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            155
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39253,7 +39346,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39328,7 +39432,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            155
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39627,7 +39742,18 @@
         "rarity": 0,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39738,7 +39864,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39776,7 +39913,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
-        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous vos tests de PER jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous vos tests de PER jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39813,7 +39961,18 @@
         "rarity": 3,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {
@@ -39850,7 +40009,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.154 correction applicable to these food descriptions."
       }
     },
     {

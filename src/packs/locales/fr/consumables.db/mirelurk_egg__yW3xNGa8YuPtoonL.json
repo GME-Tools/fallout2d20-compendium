@@ -3,7 +3,7 @@
   "_file": "uf_de_fangeux__yW3xNGa8YuPtoonL.json",
   "values": {
     "/name": "Œuf de fangeux",
-    "/system/description": "<p>Œufs trouvés par groupes de deux ou trois dans les nids de fangeux ; laissés intacts, ils éclosent en jeunes fangeux. Ils sont essentiels à l’omelette d’œuf de fangeux et au gâteau de fangeux.</p>",
+    "/system/description": "<p>Les œufs qui se trouvent dans les nids de fangeux. Normalement présents par grappes de deux ou trois, ces œufs éclosent et donnent de jeunes fangeux si personne ne perturbe le processus.</p>\n<p>Les œufs de fangeux sont un ingrédient clé de l’omelette d’œufs de fangeux et du pâté de fangeux.</p>",
     "/system/effect": "",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",

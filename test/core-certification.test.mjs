@@ -4958,3 +4958,178 @@ test("Core Consumables p.153 bilingual food descriptions are source-exact", asyn
     }
   }
 });
+
+
+test("Core Consumables p.154 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 156 && catalog.certifiedThrough.en.sourcePage >= 154);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 157 && catalog.certifiedThrough.fr.sourcePage >= 154);
+
+  const enP154 = new Set([
+    "nhavbYpdWvlnL7tR","jpJw3rIHZILDnp9p","Qe3DSub3iHONeRaO","D2s5huShfKCtulYC",
+    "vKPqt12nZaVKaTM4","vSv5EkpiV6z5XRHh","5uXBOucct2TglTlF","uxikQYkupNqpmTyR",
+    "jC25W4O796xzZr0O","joFpcSrCDtsWQxme","ELoNzoPfKq3BE9gc","TlRxjXMYh0k1ljWl"
+  ]);
+  const frP154 = new Set([
+    "PuL9AevtWz8clHFZ","nMvfzS3mTgqejqh2","WU676EmpwjUR59Cg","ABPjUugdAt6VthAw",
+    "Bvn11vBFx1OnUoJr","lrllDzCjzc9atRUy","g2KCQ2KwunOMVBh8","TlRxjXMYh0k1ljWl",
+    "qvvShn56H3E1bb1O","yW3xNGa8YuPtoonL"
+  ]);
+  assert.equal(enP154.size, 12);
+  assert.equal(frP154.size, 10);
+
+  const specs = {
+    "nhavbYpdWvlnL7tR": {
+      enPages:[153,154], frPages:[152],
+      en:"Small, frosted cakes, so laden with sugar and other sweeteners than they’re essentially preserved forever. Proclaimed in advertising to be “America’s Favorite Snackfood”, these cakes can be found across the wastelands, in many teeth-achingly sweet varieties. Sometimes, preserved boxes of Fancy Lads Snack Cakes can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"De petits biscuits avec glaçage tellement bourrés de sucre et autres édulcorants qu’ils se conserveront pour toujours en pratique. La publicité à leur sujet les décrit comme « la sucrerie préférée des Américains ». Ces biscuits sont présents un peu partout dans les Terres désolées, avec de nombreuses saveurs différentes, mais toujours sucrées à vous en donner des caries. Parfois, les aventuriers trouvent des boîtes préservées de biscuits Fancy Lads. Ces biscuits sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1."
+    },
+    "jpJw3rIHZILDnp9p": {
+      enPages:[154], frPages:[155],
+      en:"In the years before the Great War, several charter schools across America entered an experimental program: The Nutritional Alternative Paste Program (NAPP). Developed by Vault-Tec in conjunction with the Federal Government, this supplied participating schools with a supply of food paste, fortified with vitamins, minerals and all the nutrients a growing body needs, and which would remain unspoiled for over a century. The paste is a flavorless mush, garish pink in color, and may have unknown long-term effects on psychology or physiology. It does, however, make the body healthier after consumption.",
+      fr:"Lors des années précédant la Grande Guerre, plusieurs écoles publiques américaines participèrent à un programme expérimental: le Programme de Pâte Nutritive Alternative (PPNA). Développé par Vault-Tec en collaboration avec le gouvernement fédéral, ce programme fournissait aux écoles participantes de la pâte comestible, fortifiée avec des vitamines, des minéraux et tous les nutriments nécessaires à un corps en pleine croissance. Elle se conserverait pendant plus d’un siècle. Cette pâte est une purée sans goût d’un rose criard qui pourrait avoir des effets à long terme inconnus sur le psychisme ou la physiologie. Cependant, il est vrai qu’elle rend le corps plus sain après consommation."
+    },
+    "Qe3DSub3iHONeRaO": {
+      enPages:[154], frPages:[153],
+      en:"A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be scooped out and eaten or used in cooking, while the outer skin is often carved and used as decoration.",
+      fr:"Un gros fruit comestible, charnu avec une peau dure, comme une citrouille. La pulpe à l’intérieur peut être récupérée et mangée ou utilisée pour cuisiner, tandis que la peau extérieure est souvent taillée et utilisée comme décoration."
+    },
+    "D2s5huShfKCtulYC": {
+      enPages:[154], frPages:[156],
+      en:"A grilled chunk of meat taken from a radroach. Not especially appetizing, especially if you know where it came from, but sufficiently nutritious and filling for those with few other choices.",
+      fr:"Une pièce de viande grillée prise sur un radcafard. Pas spécialement appétissante, surtout si vous savez d’où elle vient, mais assez nutritive et nourrissante pour ceux qui n’ont pas vraiment le choix."
+    },
+    "vKPqt12nZaVKaTM4": {
+      enPages:[154], frPages:[156],
+      en:"A grilled rack of ribs from a radstag. Easy enough to make when you’ve got the main ingredient—radstag meat—but tasty and satisfying enough that your burdens feel a little lighter once you’ve finished eating.",
+      fr:"Un carré de côtes grillé venant d’un radcerf. Relativement facile à cuisiner une fois que vous avez l’ingrédient principal, la viande de radcerf, mais savoureux et suffisamment nourrissant pour que votre fardeau vous semble un peu plus léger après ce repas."
+    },
+    "vSv5EkpiV6z5XRHh": {
+      enPages:[154], frPages:[152],
+      en:"A pre-War confection, gum drops are small drops of congealed gelatin sweetened and flavored with a variety of overpowering flavors. The most common variety to survive the War, ironically, were labelled as radioactive for their powerful sour flavor. Long years sat in cupboards and on shelves has made this more literal, however.",
+      fr:"Une confiserie d’avant-guerre. Les boules de gomme sont de petites boules de gélatine solidifiée sucrée et parfumée avec diverses saveurs artificielles extrêmement fortes. Ironie du sort, la variété qui a le plus survécu à la Guerre était commercialisée sous le nom « boules de gomme radioactives » à cause de son goût très acide. Mais les années passées dans les placards et sur les étagères ont rendu l’appellation littérale."
+    },
+    "5uXBOucct2TglTlF": {
+      enPages:[154], frPages:[156],
+      en:"Chunks of raw iguana meat, in a small can or another sealed container. At least, you hope that’s iguana meat. You don’t see many iguanas around. Iguana bits are an ingredient in Iguana on a Stick and Iguana Soup.",
+      fr:"Une petite boîte de conserve ou un autre conteneur hermétique abritant des morceaux de viande d’iguane crue. Du moins, vous espérez que c’est de l’iguane. Vous n’avez pas vu beaucoup d’iguanes dans les Terres désolées. Le ragoût d’iguane est un ingrédient de la brochette d’iguane et de la soupe d’iguane."
+    },
+    "uxikQYkupNqpmTyR": {
+      enPages:[154], frPages:[153],
+      en:"Chunks of iguana meat on a wooden skewer, which have then been cooked. Not the best meal, but it’ll do the trick if you’re desperate or need to secure the loyalty of a canine companion.",
+      fr:"Des morceaux de viande d’iguane embrochés sur un pic en bois et cuits. Pas le meilleur repas, mais il fera l’affaire si vous n’avez pas vraiment le choix ou si vous voulez vous attirer la loyauté d’un compagnon canin."
+    },
+    "jC25W4O796xzZr0O": {
+      enPages:[154], frPages:[157],
+      en:"A soup made with carrot and iguana bits. A more satisfying meal than any of the ingredients would have been alone.",
+      fr:"Une soupe préparée avec de la carotte et du ragoût d’iguane. Un repas plus nourrissant que n’importe lequel de ses ingrédients pris isolément."
+    },
+    "joFpcSrCDtsWQxme": {
+      enPages:[154], frPages:[156],
+      en:"A packet of freeze-dried powdered mashed potato still sealed inside its cardboard box. Just add water! Sometimes, preserved boxes of InstaMash can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"Un sachet de purée de pommes de terre en poudre lyophilisée encore scellé dans sa boîte en carton. Il vous suffit d’ajouter de l’eau! Parfois, les aventuriers trouvent des boîtes préservées de Purée-minute. Ces purées sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiées et leur rareté augmente de +1."
+    },
+    "ELoNzoPfKq3BE9gc": {
+      enPages:[154], frPages:[155],
+      en:"A small white box of food marked with the symbol of the Institute. Each box contains enriched ration bars filled with essential nutrients. Each ration bar contains your daily requirements of forty different vitamins, minerals, and nutrients, which are listed on the back of the box.",
+      fr:"Une petite boîte blanche portant le symbole de l’Institut et contenant de la nourriture. Chaque boîte contient des barres de ration enrichies remplies de nutriments essentiels. Chaque barre de ration inclut la dose quotidienne recommandée de quarante vitamines, minéraux et nutriments différents, énumérés au dos de la boîte."
+    },
+    "TlRxjXMYh0k1ljWl": {
+      enPages:[154], frPages:[154],
+      en:"A large, green, juicy fruit with a hard outer rind. Melons are grown in wasteland farms, or found growing wild in the wasteland. Either way, once cut open they’re often very satisfying, sating hunger and quenching thirst all in one go. Melons grown in non-irradiated conditions (such as within vaults or similar locations) are not irradiated but increase their rarity by +1.",
+      fr:"Un gros fruit vert juteux avec une écorce externe dure. Les melons sont cultivés dans les fermes des Terres désolées, ou poussent à l’état sauvage un peu partout. Dans les deux cas, une fois ouverts, ils font souvent un excellent repas, rassasiant la faim et étanchant la soif en même temps. Les melons cultivés à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiés, mais leur rareté augmente de +1."
+    },
+    "PuL9AevtWz8clHFZ": {
+      enPages:[152], frPages:[154],
+      en:"An off-white mushroom which resembles a brain, and which tends to be found in clusters growing in dark, dank corners. Slightly irradiated due simply to growing in the wastelands, but otherwise harmless, despite its slightly alarming name and appearance. Brain fungus is an ingredient in Mentats.",
+      fr:"Un champignon de couleur crème qui ressemble à un cerveau et a tendance à pousser en grappes dans des coins sombres et humides. Légèrement irradié simplement parce qu’il pousse dans les Terres désolées, mais inoffensif en dehors de cela malgré son apparence un peu alarmante. La fausse morille est un ingrédient des Mentats."
+    },
+    "nMvfzS3mTgqejqh2": {
+      enPages:[157], frPages:[154],
+      en:"A grilled piece of meat from a brahmin. The closest thing to a pre-War steak you’re likely to find, a good piece of grilled brahmin makes for a satisfying meal.",
+      fr:"Une pièce de viande grillée venant d’une brahmine. C’est ce que vous pouvez trouver dans les Terres désolées qui se rapproche le plus d’un steak d’avant-guerre. Une bonne pièce de brahmine grillée est un repas très satisfaisant."
+    },
+    "WU676EmpwjUR59Cg": {
+      enPages:[158], frPages:[154],
+      en:"A cooked piece of stingwing meat. Not the most appetizing of foods, but surprisingly useful for those surviving in the wastelands, as it can sharpen the senses and make you feel more aware of your surroundings.",
+      fr:"Une pièce de viande de darillon cuisinée. Pas la nourriture la plus appétissante, mais étonnamment utile pour ceux qui survivent dans les Terres désolées, car elle peut aiguiser les sens et vous donner une meilleure perception de votre environnement."
+    },
+    "ABPjUugdAt6VthAw": {
+      enPages:[156], frPages:[154],
+      en:"Pronounced “mute-fruit”, and short for mutated fruit, mutfruit is a mutated form of apple, which comes in several different varieties depending on where you are. These different varieties are cultivated for their sweet flavor, their use in cooking, and even medicinal properties in some rare cases. Mutfruit is part of a few different recipes, including being turned into Mutfruit Juice. Mutfruits grown in non-irradiated conditions (such as within vaults or similar locations) are not irradiated but increase their rarity by +1.",
+      fr:"Le fruit mutant est plus précisément une forme mutante de pomme qui existe en plusieurs variétés différentes selon l’endroit où vous vous trouvez. Ces variétés sont cultivées pour leur goût sucré, leur utilité en cuisine et même leurs propriétés médicinales dans de rares cas. Le fruit mutant fait partie de plusieurs recettes différentes, notamment celle du jus de fruit mutant. Les fruits mutants cultivés à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiés, mais leur rareté augmente de +1."
+    },
+    "Bvn11vBFx1OnUoJr": {
+      enPages:[158], frPages:[154],
+      en:"Small purple berries of the Tarberry plant, a watergrown crop similar to pre-War cranberries. A useful ingredient in several recipes, but difficult to cultivate in any location without a decent supply of reasonably clean water. Communities able to grow tarberries often need to protect their crop from raiders.",
+      fr:"Une petite baie violette, semblable aux canneberges d’avant-guerre, qui pousse sur les plants de goudrelle. Sa culture est gourmande en eau. Un ingrédient utile dans plusieurs recettes, mais difficile à cultiver dans un endroit qui n’inclut pas d’approvisionnement correct en eau relativement propre. Les communautés qui parviennent à faire pousser des goudrelles doivent souvent protéger leur récolte contre les pillards."
+    },
+    "lrllDzCjzc9atRUy": {
+      enPages:[157], frPages:[154],
+      en:"Growing from the vine of a silt bean plant, silt beans are red-brown pods of legumes growing in the wilderness. They’re not easily cultivated for farming, though many have tried. The beans are an ingredient in a few recipes, such as radstag stew.",
+      fr:"Poussant sur la tige d’un plant de haricots envasés, les haricots envasés sont des cosses de légumes d’un brun rougeâtre existant à l’état sauvage. Ils ne sont pas faciles à cultiver dans une ferme, même si beaucoup d’agriculteurs ont essayé. Les haricots sont un ingrédient dans plusieurs recettes, par exemple le ragoût de radcerf."
+    },
+    "g2KCQ2KwunOMVBh8": {
+      enPages:[152], frPages:[154],
+      en:"A pre-War fast-food product found in the wasteland many years later. the normally found in brightly colored boxes with an image of the food—ready-made macaroni and cheese—on the front. Sometimes, preserved boxes of BlamCo Brand Mac and Cheese can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"De la malbouffe d’avant-guerre encore présente dans les Terres désolées bien des années plus tard. Ce type d’objet est normalement stocké dans une boîte aux couleurs vives avec une image représentant la nourriture concernée (des macaronis au fromage tout prêts) sur le devant. Parfois, les aventuriers trouvent des boîtes préservées de macaronis Blamco. Ces macaronis sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1."
+    },
+    "qvvShn56H3E1bb1O": {
+      enPages:[152], frPages:[154],
+      en:"A piece of Bloatfly meat, cooked with dry heat. The resultant food is unappetizing but filling and helps absorb radioactive contamination in the body for a while after eating.",
+      fr:"Un morceau de viande de mouche bouffie, cuisiné à la chaleur sèche. La nourriture qui en résulte n’est pas très appétissante, mais rassasie bien et aide le corps à absorber la contamination radioactive pendant un moment après la consommation."
+    },
+    "yW3xNGa8YuPtoonL": {
+      enPages:[155], frPages:[154],
+      en:"Eggs found in mirelurk nests. Normally found in clutches of 2-3, these eggs hatch into mirelurk hatchlings if left undisturbed. Mirelurk eggs are a key ingredient of both Mirelurk Egg Omelette and Mirelurk Cake.",
+      fr:"Les œufs qui se trouvent dans les nids de fangeux. Normalement présents par grappes de deux ou trois, ces œufs éclosent et donnent de jeunes fangeux si personne ne perturbe le processus. Les œufs de fangeux sont un ingrédient clé de l’omelette d’œufs de fangeux et du pâté de fangeux."
+    }
+  };
+
+  assert.equal(Object.keys(specs).length, 21);
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP154) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.154 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(154), "EN p.154 description coordinate missing for " + id);
+  }
+  for (const id of frP154) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.154 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(154), "FR p.154 description coordinate missing for " + id);
+  }
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "p.154 description certification entry missing for " + id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set([
+    "D2s5huShfKCtulYC","vKPqt12nZaVKaTM4","uxikQYkupNqpmTyR","jC25W4O796xzZr0O",
+    "nMvfzS3mTgqejqh2","WU676EmpwjUR59Cg"
+  ]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+      if (recipeIds.has(id)) {
+        assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+      }
+    }
+  }
+});

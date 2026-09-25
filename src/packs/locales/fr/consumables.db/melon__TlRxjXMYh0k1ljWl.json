@@ -2,7 +2,7 @@
   "_key": "!items!TlRxjXMYh0k1ljWl",
   "_file": "melon__TlRxjXMYh0k1ljWl.json",
   "values": {
-    "/system/description": "<p>Gros fruit vert et juteux à peau dure, cultivé ou sauvage. Une fois ouvert, il rassasie et étanche la soif. Cultivé dans un environnement non irradié, il n’est pas irradié mais sa rareté augmente de +1.</p>",
+    "/system/description": "<p>Un gros fruit vert juteux avec une écorce externe dure. Les melons sont cultivés dans les fermes des Terres désolées, ou poussent à l’état sauvage un peu partout. Dans les deux cas, une fois ouverts, ils font souvent un excellent repas, rassasiant la faim et étanchant la soif en même temps.</p>\n<p>Les melons cultivés à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiés, mais leur rareté augmente de +1.</p>",
     "/system/effect": "",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",

@@ -3,7 +3,7 @@
   "_file": "fruit_mutant__ABPjUugdAt6VthAw.json",
   "values": {
     "/name": "Fruit mutant",
-    "/system/description": "<p>Prononcé « mut-fruit », ce fruit mutant issu de la pomme possède plusieurs variétés selon les régions. On les cultive pour leur douceur, leurs usages culinaires et parfois médicinaux. Il entre dans plusieurs recettes, dont le jus de mutfruit. Cultivé sans radiations, il n’est pas irradié mais sa rareté augmente de +1.</p>",
+    "/system/description": "<p>Le fruit mutant est plus précisément une forme mutante de pomme qui existe en plusieurs variétés différentes selon l’endroit où vous vous trouvez. Ces variétés sont cultivées pour leur goût sucré, leur utilité en cuisine et même leurs propriétés médicinales dans de rares cas.</p>\n<p>Le fruit mutant fait partie de plusieurs recettes différentes, notamment celle du jus de fruit mutant.</p>\n<p>Les fruits mutants cultivés à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiés, mais leur rareté augmente de +1.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "ABPjUugdAt6VthAw",
