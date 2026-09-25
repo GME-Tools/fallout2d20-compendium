@@ -3,7 +3,7 @@
   "_file": "uf_d_ecorcheur__wvr60yBKV9FfAMOv.json",
   "values": {
     "/name": "Œuf d’écorcheur",
-    "/system/description": "<p>Gros œuf pondu par un écorcheur. Dangereux à obtenir, mais précieux dans plusieurs recettes très nutritives, notamment l’omelette d’œuf d’écorcheur.</p>",
+    "/system/description": "<p>Un gros œuf pondu par un écorcheur. En obtenir un est dangereux, car c’est le mode de reproduction des écorcheurs ce qui signifie qu’ils les protègent, mais il peut avoir beaucoup de valeur, car il est utilisé dans plusieurs recettes qui produisent de la nourriture très nutritive.</p>\n<p>Un œuf d’écorcheur est un ingrédient clé de l’omelette d’œufs d’écorcheur.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "wvr60yBKV9FfAMOv",

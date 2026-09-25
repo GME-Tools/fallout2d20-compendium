@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 154,
-      "sourcePage": 152
+      "pdfPage": 155,
+      "sourcePage": 153
     },
     "fr": {
-      "pdfPage": 155,
-      "sourcePage": 152
+      "pdfPage": 156,
+      "sourcePage": 153
     }
   },
   "pageReviews": [
@@ -2485,6 +2485,22 @@
       "language": "fr",
       "pdfPage": 155,
       "sourcePage": 152,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 155,
+      "sourcePage": 153,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 156,
+      "sourcePage": 153,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -37829,7 +37845,18 @@
         "cost": 3,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -37866,7 +37893,18 @@
         "rarity": 3,
         "alcoholic": false,
         "errataReviewed": true,
-        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène"
+        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -37902,7 +37940,18 @@
         "cost": 6,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -37938,7 +37987,18 @@
         "cost": 25,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -37985,7 +38045,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38021,7 +38081,18 @@
         "cost": 7,
         "rarity": 0,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38057,7 +38128,18 @@
         "cost": 69,
         "rarity": 3,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            155
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38093,7 +38175,18 @@
         "cost": 110,
         "rarity": 3,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38144,7 +38237,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38416,7 +38509,18 @@
         "cost": 15,
         "rarity": 2,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38452,7 +38556,18 @@
         "cost": 33,
         "rarity": 2,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38488,7 +38603,18 @@
         "cost": 3,
         "rarity": 0,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38524,7 +38650,18 @@
         "cost": 7,
         "rarity": 0,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38561,7 +38698,18 @@
         "rarity": 4,
         "alcoholic": false,
         "errataReviewed": true,
-        "officialFrenchEffect": "+2 résistance aux dégâts balistiques jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "+2 résistance aux dégâts balistiques jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            159
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38597,7 +38745,18 @@
         "cost": 12,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38634,7 +38793,18 @@
         "rarity": 3,
         "alcoholic": false,
         "errataReviewed": true,
-        "officialFrenchEffect": "Guérit 2 points de dégâts de radiation"
+        "officialFrenchEffect": "Guérit 2 points de dégâts de radiation",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            155
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38672,7 +38842,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
-        "officialFrenchEffect": "Si la prochaine scène est un combat, vous regagnez 1 PV au début de chaque tour"
+        "officialFrenchEffect": "Si la prochaine scène est un combat, vous regagnez 1 PV au début de chaque tour",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            155
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38710,7 +38891,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
-        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous vos tests de FOR jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous vos tests de FOR jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {
@@ -38790,7 +38982,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            153
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.153 correction applicable to these food descriptions."
       }
     },
     {

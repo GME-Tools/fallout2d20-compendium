@@ -3,7 +3,7 @@
   "_file": "viande_d_ecorcheur__mGyKuUfzHD8BwTMp.json",
   "values": {
     "/name": "Viande d’écorcheur",
-    "/system/description": "<p>Morceau de viande d’écorcheur, dangereux à obtenir mais extrêmement nutritif lorsqu’il est correctement préparé. Il peut être cuisiné en steak d’écorcheur.</p>",
+    "/system/description": "<p>Une pièce de viande découpée sur la carcasse d’un écorcheur. En obtenir une est dangereux, car il faut nécessairement tuer un écorcheur ou se la procurer auprès de quelqu’un qui a tué un écorcheur, mais elle a beaucoup de valeur, car elle peut être extrêmement nutritive, surtout quand elle est bien préparée.</p>\n<p>La viande d’écorcheur peut être cuisinée pour produire du steak d’écorcheur.</p>",
     "/system/effect": "",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",

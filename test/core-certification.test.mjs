@@ -4793,3 +4793,168 @@ test("Core Consumables p.152 bilingual food descriptions are source-exact", asyn
     }
   }
 });
+
+
+test("Core Consumables p.153 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 155 && catalog.certifiedThrough.en.sourcePage >= 153);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 156 && catalog.certifiedThrough.fr.sourcePage >= 153);
+
+  const enP153 = new Set([
+    "8Fv9dZQm5Dax1INF","xqBDl5Gnc7Q335BN","qeN8bq9CJ3EYwwAE","zCjOPQmaqITpaspN","vo4udlZQUOjzx402",
+    "e6tIVbIcM6krBmSu","wvr60yBKV9FfAMOv","mGyKuUfzHD8BwTMp","8pR2J9OAo0Mtx0D4","XEZtPJZ7SBhlIfGq",
+    "nhavbYpdWvlnL7tR"
+  ]);
+  const frP153 = new Set([
+    "e9NVSnBtY4oWIam9","uxikQYkupNqpmTyR","8Fv9dZQm5Dax1INF","i1BhSDEcs5JNub1v","OMWPk4ci2lfZmc6X",
+    "vYcmjWOnJQnrv2gq","0lnW7AJMNs7SxdpP","zP8u8sVBiiSGbcTB","Qe3DSub3iHONeRaO","zCjOPQmaqITpaspN",
+    "qeN8bq9CJ3EYwwAE"
+  ]);
+  assert.equal(enP153.size, 11);
+  assert.equal(frP153.size, 11);
+
+  const specs = {
+    "8Fv9dZQm5Dax1INF": {
+      enPages:[153], frPages:[153],
+      en:"A slightly mutated form of the common, orange root vegetable. Easy enough to grow in decent quantities, and useful for a variety of recipes, small wasteland farms often include a few carrot patches. Carrot is a component of several different recipes for food items. Carrots grown in non-irradiated conditions (such as within vaults or similar locations) are not irradiated but increase their rarity by +1.",
+      fr:"Une forme légèrement mutante du légume-racine orange ordinaire. Comme elle est facile à faire pousser en quantités tout à fait correctes et utile pour de nombreuses recettes, les petites fermes des Terres désolées cultivent souvent quelques parcelles de carottes. La carotte est un composant de plusieurs recettes différentes de nourriture. Les carottes cultivées à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiées, mais leur rareté augmente de +1."
+    },
+    "xqBDl5Gnc7Q335BN": {
+      enPages:[153], frPages:[158],
+      en:"The softer meat from mirelurks, cooked into a rough steak. A high-energy meal, those who eat cooked softshell meat are often invigorated and eager for action for a while afterwards.",
+      fr:"La viande tendre d’un fangeux à carapace molle, cuisinée pour obtenir un steak grossier. Ce repas est très chargé en énergie: ceux qui mangent de la viande de fangeux grillé se sentent souvent revigorés et avides d’action pendant un moment."
+    },
+    "qeN8bq9CJ3EYwwAE": {
+      enPages:[153], frPages:[153],
+      en:"A highly versatile crop cultivated across the Americas for centuries. Corn remains largely unchanged by the War, and it remains a staple of wasteland agriculture. Corn grown in non-irradiated conditions (such as within vaults or similar locations) is not irradiated but increases its rarity by +1. In addition to its use as food, corn is a main ingredient in vegetable starch, which can be used to make adhesives for crafting.",
+      fr:"Une plante aux nombreux usages cultivée un peu partout en Amérique depuis des siècles. Le maïs n’a presque pas été modifié par la Guerre et reste un élément essentiel de l’agriculture dans les Terres désolées. Les épis de maïs cultivés à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiés, mais leur rareté augmente de +1. En plus de servir de nourriture, l’épi de maïs est l’un des ingrédients principaux de l’amidon végétal, lequel peut être utilisé pour créer des adhésifs servant eux-mêmes lors de la fabrication."
+    },
+    "zCjOPQmaqITpaspN": {
+      enPages:[153], frPages:[153],
+      en:"A tin of processed meat produced in vast quantities pre-War to address food shortages and serve as a meat ration for soldiers. The tin, with an easy-open pull tab, helps keep the contents preserved for long periods, making Cram more useful for survivalists and those scavenging for food.",
+      fr:"Une conserve de viande transformée produite en très grandes quantités avant la Guerre pour répondre à des pénuries de nourriture et servir de ration de viande pour les soldats. La conserve, facile à ouvrir avec sa tirette, aide à préserver le contenu pendant de longues périodes, ce qui rend le Cram particulièrement utile pour les survivalistes et pour ceux qui récupèrent leur nourriture en fouillant l’environnement."
+    },
+    "vo4udlZQUOjzx402": {
+      enPages:[153], frPages:[152],
+      en:"Chunks of squirrel meat, which have been fried until crispy, often found held together on a skewer. An easy way to get a little nutrition, and not so heavy a meal that it weighs you down while you digest it.",
+      fr:"Des morceaux de viande d’écureuil, qui ont été frits jusqu’à devenir croustillants, souvent embrochés les uns à la suite des autres sur un pic à brochette. Quelques calories facilement raflées et un repas assez léger pour ne pas vous alourdir pendant que vous le digérez."
+    },
+    "e6tIVbIcM6krBmSu": {
+      enPages:[153], frPages:[156],
+      en:"Candied apples produced by the Dandy Boy company. An extremely sweet fruit-based snack packaged in a cardboard box. Normally well-preserved due to the high sugar content, boxes of these can still be found in the ruins of convenience stores and groceries across the wasteland, and in the possession of people who’ve recently raided said ruined convenience stores and groceries.",
+      fr:"Des pommes caramélisées produites par l’entreprise Dandy Boy. Un en-cas extrêmement sucré à base de fruit stocké dans une boîte en carton. Normalement bien conservé en raison du très haut taux de sucre. Des boîtes de pommes Dandy Boy sont encore présentes dans les ruines d’épiceries et de supermarchés un peu partout dans les Terres désolées ou sont entre les mains des gens qui ont récemment pillé ces ruines."
+    },
+    "wvr60yBKV9FfAMOv": {
+      enPages:[153], frPages:[155],
+      en:"A large egg laid by a deathclaw. Dangerous to obtain, as deathclaws lay them and hatch from them, but potentially valuable as they can be used in a few recipes which produce highly nutritious food. A deathclaw egg is a key ingredient in deathclaw omelettes.",
+      fr:"Un gros œuf pondu par un écorcheur. En obtenir un est dangereux, car c’est le mode de reproduction des écorcheurs ce qui signifie qu’ils les protègent, mais il peut avoir beaucoup de valeur, car il est utilisé dans plusieurs recettes qui produisent de la nourriture très nutritive. Un œuf d’écorcheur est un ingrédient clé de l’omelette d’œufs d’écorcheur."
+    },
+    "mGyKuUfzHD8BwTMp": {
+      enPages:[153], frPages:[158],
+      en:"A cut of meat from a deathclaw. Dangerous to obtain, as it can only be taken from a dead deathclaw or someone who killed a deathclaw, but valuable as they can be extremely nutritious, especially when properly prepared. Deathclaw meat can be cooked to produce deathclaw steak.",
+      fr:"Une pièce de viande découpée sur la carcasse d’un écorcheur. En obtenir une est dangereux, car il faut nécessairement tuer un écorcheur ou se la procurer auprès de quelqu’un qui a tué un écorcheur, mais elle a beaucoup de valeur, car elle peut être extrêmement nutritive, surtout quand elle est bien préparée. La viande d’écorcheur peut être cuisinée pour produire du steak d’écorcheur."
+    },
+    "8pR2J9OAo0Mtx0D4": {
+      enPages:[153], frPages:[155],
+      en:"An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body, allowing a person to recover more quickly from harm for a while after eating.",
+      fr:"Une omelette préparée à partir d’un œuf d’écorcheur. En plus d’être très nutritive, elle stimule le processus de guérison naturelle du corps, ce qui permet à une personne de récupérer plus rapidement de ses blessures pendant un moment après l’avoir mangée."
+    },
+    "XEZtPJZ7SBhlIfGq": {
+      enPages:[153], frPages:[157],
+      en:"A slab of cooked deathclaw meat. Sufficiently filling and nutritious that it could easily be your only meal for the day, while also leaving you feeling fitter and stronger for a while after eating.",
+      fr:"Une pièce de viande d’écorcheur cuisinée. Assez nourrissante et nutritive pour qu’un seul repas avec ce steak puisse facilement suffire pour toute une journée, tout en vous donnant un sentiment de force et d’énergie pendant un moment après l’avoir mangé."
+    },
+    "nhavbYpdWvlnL7tR": {
+      enPages:[153,154], frPages:[152],
+      en:"Small, frosted cakes, so laden with sugar and other sweeteners than they’re essentially preserved forever. Proclaimed in advertising to be “America’s Favorite Snackfood”, these cakes can be found across the wastelands, in many teeth-achingly sweet varieties. Sometimes, preserved boxes of Fancy Lads Snack Cakes can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"De petits biscuits avec glaçage tellement bourrés de sucre et autres édulcorants qu’ils se conserveront pour toujours en pratique. La publicité à leur sujet les décrit comme « la sucrerie préférée des Américains ». Ces biscuits sont présents un peu partout dans les Terres désolées, avec de nombreuses saveurs différentes, mais toujours sucrées à vous en donner des caries. Parfois, les aventuriers trouvent des boîtes préservées de biscuits Fancy Lads. Ces biscuits sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1."
+    },
+    "e9NVSnBtY4oWIam9": {
+      enPages:[158], frPages:[153],
+      en:"Chunks of squirrel meat skewered on a thin piece of wood for cooking, and then roasted over an open flame. Not enough meat for a decent meal, but certainly enough for a snack.",
+      fr:"Des morceaux de viande d’écureuil enfilés sur un fin pic de bois pour les cuisiner, puis rôtis au feu. Pas assez de viande pour un repas décent, mais suffisamment pour un en-cas."
+    },
+    "uxikQYkupNqpmTyR": {
+      enPages:[154], frPages:[153],
+      en:"Chunks of iguana meat on a wooden skewer, which have then been cooked. Not the best meal, but it’ll do the trick if you’re desperate or need to secure the loyalty of a canine companion.",
+      fr:"Des morceaux de viande d’iguane embrochés sur un pic en bois et cuits. Pas le meilleur repas, mais il fera l’affaire si vous n’avez pas vraiment le choix ou si vous voulez vous attirer la loyauté d’un compagnon canin."
+    },
+    "i1BhSDEcs5JNub1v": {
+      enPages:[156], frPages:[153],
+      en:"Meat from the mutated, irradiated cockroaches known commonly as radroaches. The meat is mildly radioactive and offers little in the way of nourishment or satisfaction, and it isn’t especially appetizing either. Cooking it provides only a marginal improvement. Radroach meat can be cooked to make Grilled Radroach.",
+      fr:"La chair des cafards mutant irradiés communément appelés les radcafards. Cette chair est faiblement radioactive et très peu nourrissante, sans être non plus particulièrement appétissante. La cuisiner ne l’améliore que très modérément. La chair de radcafard peut être cuisinée pour produire du radcafard grillé."
+    },
+    "OMWPk4ci2lfZmc6X": {
+      enPages:[156], frPages:[153],
+      en:"A can of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, you can still find the odd pack of these in most places where people lived or worked.",
+      fr:"Un tube de chips de pomme de terre salés ou avec divers parfums, scellés dans un environnement inerte pour rester frais. C’était un en-cas très répandu avant la guerre et quelques paquets traînent encore dans la plupart des lieux où des gens vivaient ou travaillaient."
+    },
+    "vYcmjWOnJQnrv2gq": {
+      enPages:[159], frPages:[153],
+      en:"A rack of ribs made with Yao Guai meat. Yao Guai ribs are both a satisfying meal and inspire a sense of invincibility, while also boosting your tolerance for pain for a short while.",
+      fr:"Un carré de côtelettes de viande de yao guai. Les côtelettes de yao guai sont un repas nourrissant qui donne également un sentiment d’invincibilité, tout en augmentant votre tolérance à la douleur pendant une courte période."
+    },
+    "0lnW7AJMNs7SxdpP": {
+      enPages:[156], frPages:[153],
+      en:"Cuts of mongrel dog meat cooked to make them more nutritious and edible.",
+      fr:"Des pièces de viande de chien errant cuisinées pour les rendre plus nutritives et plus… comestibles."
+    },
+    "zP8u8sVBiiSGbcTB": {
+      enPages:[155], frPages:[153],
+      en:"A piece of mutant hound meat cooked to make it safer to eat. For reasons unknown, once cooked, the meat helps absorb radiation already in the body, lessening the effects of radiation poisoning. This effect doesn’t compare to proper anti-radiation meds like RadAway, but it can be useful to have a few on hand to soak up the radiation you picked up during an excursion.",
+      fr:"Une pièce de viande de molosse mutant cuisinée pour rendre sa consommation moins dangereuse. Pour des raisons inconnues, une fois cuite, la viande aide le corps à absorber les radiations qu’il a déjà encaissées, amoindrissant les effets de l’empoisonnement aux radiations. Cet effet est loin d’être aussi puissant que celui des véritables médicaments antiradiations comme le RadAway, mais avoir quelques côtes de molosse mutant sous la main peut servir à absorber les radiations que vous avez récoltées durant une expédition."
+    },
+    "Qe3DSub3iHONeRaO": {
+      enPages:[154], frPages:[153],
+      en:"A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be scooped out and eaten or used in cooking, while the outer skin is often carved and used as decoration.",
+      fr:"Un gros fruit comestible, charnu avec une peau dure, comme une citrouille. La pulpe à l’intérieur peut être récupérée et mangée ou utilisée pour cuisiner, tandis que la peau extérieure est souvent taillée et utilisée comme décoration."
+    }
+  };
+
+  assert.equal(Object.keys(specs).length, 19);
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP153) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.153 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(153), "EN p.153 description coordinate missing for " + id);
+  }
+  for (const id of frP153) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.153 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(153), "FR p.153 description coordinate missing for " + id);
+  }
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "p.153 description certification entry missing for " + id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set([
+    "xqBDl5Gnc7Q335BN","vo4udlZQUOjzx402","8pR2J9OAo0Mtx0D4","XEZtPJZ7SBhlIfGq",
+    "e9NVSnBtY4oWIam9","uxikQYkupNqpmTyR","vYcmjWOnJQnrv2gq","0lnW7AJMNs7SxdpP","zP8u8sVBiiSGbcTB"
+  ]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+      if (recipeIds.has(id)) {
+        assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+      }
+    }
+  }
+});

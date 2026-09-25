@@ -3,7 +3,7 @@
   "_file": "carotte__8Fv9dZQm5Dax1INF.json",
   "values": {
     "/name": "Carotte",
-    "/system/description": "<p>Version légèrement mutée de la racine orange commune, facile à cultiver et utile à diverses recettes. Les carottes issues d’un environnement non irradié, comme un Abri, ne sont pas irradiées mais leur rareté augmente de +1.</p>",
+    "/system/description": "<p>Une forme légèrement mutante du légume-racine orange ordinaire. Comme elle est facile à faire pousser en quantités tout à fait correctes et utile pour de nombreuses recettes, les petites fermes des Terres désolées cultivent souvent quelques parcelles de carottes.</p>\n<p>La carotte est un composant de plusieurs recettes différentes de nourriture. Les carottes cultivées à l’abri des radiations (par exemple dans des Abris ou des endroits similaires) ne sont pas irradiées, mais leur rareté augmente de +1.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "8Fv9dZQm5Dax1INF",
