@@ -3,7 +3,7 @@
   "_file": "bouchees_d_ecureuil__JoLgVDbxQV3bT11R.json",
   "values": {
     "/name": "Bouchées d’écureuil",
-    "/system/description": "<p>Quelques morceaux de viande d’écureuil, un animal trop petit pour en fournir beaucoup. Ils permettent de préparer des morceaux croustillants, un écureuil en brochette ou un ragoût d’écureuil.</p>",
+    "/system/description": "<p>Quelques lamelles et fragments de viande d’écureuil. Comme les écureuils ne sont pas de très gros animaux, ils ne donnent pas beaucoup de viande.</p>\n<p>Les bouchées d’écureuil peuvent être cuisinées pour produire des bouchées d’écureuil croustillantes, de la brochette d’écureuil ou du ragoût d’écureuil.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "JoLgVDbxQV3bT11R",

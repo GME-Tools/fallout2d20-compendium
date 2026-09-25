@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 153,
-      "sourcePage": 151
+      "pdfPage": 154,
+      "sourcePage": 152
     },
     "fr": {
-      "pdfPage": 154,
-      "sourcePage": 151
+      "pdfPage": 155,
+      "sourcePage": 152
     }
   },
   "pageReviews": [
@@ -2469,6 +2469,22 @@
       "language": "fr",
       "pdfPage": 154,
       "sourcePage": 151,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 154,
+      "sourcePage": 152,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 155,
+      "sourcePage": 152,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -37436,7 +37452,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "officialFrenchEffect": "+2 résistance aux dégâts de radiation"
+        "officialFrenchEffect": "+2 résistance aux dégâts de radiation",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37472,7 +37499,18 @@
         "cost": 10,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37508,7 +37546,18 @@
         "cost": 8,
         "rarity": 0,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37544,7 +37593,18 @@
         "cost": 8,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            159
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37581,7 +37641,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "officialFrenchEffect": "+3 PV max jusqu’à la fin de la scène suivante"
+        "officialFrenchEffect": "+3 PV max jusqu’à la fin de la scène suivante",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37617,7 +37688,18 @@
         "cost": 28,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37653,7 +37735,18 @@
         "cost": 6,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            154
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37689,7 +37782,18 @@
         "cost": 6,
         "rarity": 0,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            152
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -37870,7 +37974,18 @@
         "cost": 6,
         "rarity": 2,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -38017,7 +38132,19 @@
         "errataReviewed": true,
         "sourceDiscrepancyRecorded": true,
         "frenchPrintedWeightKg": 0.5,
-        "canonicalWeightResolution": "Retain the EN-authoritative <1 lb value; the normal FR metric form would be <0.5 kg, so the printed 0.5 kg is not promoted over canonical mechanics."
+        "canonicalWeightResolution": "Retain the EN-authoritative <1 lb value; the normal FR metric form would be <0.5 kg, so the printed 0.5 kg is not promoted over canonical mechanics.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            153,
+            154
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -38053,7 +38180,18 @@
         "cost": 5,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -38089,7 +38227,18 @@
         "cost": 20,
         "rarity": 2,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -38126,7 +38275,18 @@
         "rarity": 0,
         "alcoholic": false,
         "errataReviewed": true,
-        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène"
+        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -38162,7 +38322,18 @@
         "cost": 4,
         "rarity": 1,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {
@@ -38198,7 +38369,18 @@
         "cost": 5,
         "rarity": 0,
         "alcoholic": false,
-        "errataReviewed": true
+        "errataReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            154
+          ],
+          "fr": [
+            152
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook correction applicable to these p.152 food descriptions. The errata entry numbered p.152 belongs to Winter of Atom."
       }
     },
     {

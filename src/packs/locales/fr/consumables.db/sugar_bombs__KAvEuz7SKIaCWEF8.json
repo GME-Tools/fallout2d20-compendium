@@ -3,7 +3,7 @@
   "_file": "bombes_sucrees__KAvEuz7SKIaCWEF8.json",
   "values": {
     "/name": "Bombes sucrées",
-    "/system/description": "<p>Céréales d’avant-guerre au « goût explosif », en formes de bombes atomiques stylisées couvertes de sucre. Certaines boîtes promettent un cadeau. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
+    "/system/description": "<p>Des céréales pour le petit-déjeuner datant d’avant la Grande Guerre avec un « super goût explosif ». La boîte contient de petits flocons de céréales en forme de bombes atomiques stylisées enrobés d’une bonne quantité de sucre. Certaines boîtes affirment contenir un jouet surprise à l’intérieur.</p>\n<p>Parfois, les aventuriers trouvent des boîtes préservées de bombes sucrées. Ces céréales sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiées et leur rareté augmente de +1.</p>",
     "/system/effect": "<p>Vous gagnez +1 PA au début de la prochaine scène</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "KAvEuz7SKIaCWEF8",

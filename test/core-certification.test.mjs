@@ -4674,3 +4674,122 @@ test("Core Consumables p.151 closes the Food Items table", async () => {
     }
   }
 });
+
+
+test("Core Consumables p.152 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 154 && catalog.certifiedThrough.en.sourcePage >= 152);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 155 && catalog.certifiedThrough.fr.sourcePage >= 152);
+
+  const specs = {
+    "qvvShn56H3E1bb1O": {
+      enPages:[152], frPages:[154],
+      en:"A piece of Bloatfly meat, cooked with dry heat. The resultant food is unappetizing but filling and helps absorb radioactive contamination in the body for a while after eating.",
+      fr:"Un morceau de viande de mouche bouffie, cuisiné à la chaleur sèche. La nourriture qui en résulte n’est pas très appétissante, mais rassasie bien et aide le corps à absorber la contamination radioactive pendant un moment après la consommation."
+    },
+    "g2KCQ2KwunOMVBh8": {
+      enPages:[152], frPages:[154],
+      en:"A pre-War fast-food product found in the wasteland many years later. the normally found in brightly colored boxes with an image of the food—ready-made macaroni and cheese—on the front. Sometimes, preserved boxes of BlamCo Brand Mac and Cheese can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"De la malbouffe d’avant-guerre encore présente dans les Terres désolées bien des années plus tard. Ce type d’objet est normalement stocké dans une boîte aux couleurs vives avec une image représentant la nourriture concernée (des macaronis au fromage tout prêts) sur le devant. Parfois, les aventuriers trouvent des boîtes préservées de macaronis Blamco. Ces macaronis sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1."
+    },
+    "gKcwpsDkmmUMmxP9": {
+      enPages:[152], frPages:[158],
+      en:"A rough chunk of meat cut from the body of a dead Bloatfly. Filling and nutritious, but unappetizing even when cooked. Bloatfly meat can be cooked to produce Baked Bloatfly.",
+      fr:"Une pièce de viande grossière découpée sur la carcasse d’une mouche bouffie. Nourrissante et nutritive, mais peu appétissante même une fois cuisinée. La viande de mouche bouffie peut être cuisinée pour produire de la mouche bouffie grillée."
+    },
+    "2Jc0kY7glK0GVaYe": {
+      enPages:[152], frPages:[159],
+      en:"A chunk of bloody meat from a Bloodbug, a large and aggressive mutant mosquito that normally preys on livestock and other large animals. Bloodbug meat can be cooked to produce Bloodbug steak.",
+      fr:"Une pièce de viande sanglante venant d’une tique des Terres désolées, un énorme moustique mutant agressif qui s’attaque d’ordinaire au bétail et aux autres gros animaux. La viande de tique peut être cuisinée pour produire du steak de tique."
+    },
+    "gpsiVMF0IkQQiy6A": {
+      enPages:[152], frPages:[157],
+      en:"A piece of Bloodbug meat cooked over an open flame. If you can stand to eat it, and can ignore the aftertaste, it’s reasonably nutritious and even leaves a feeling of renewed vigor and health for a while after eating.",
+      fr:"Une pièce de viande de tique cuisinée au feu. Si vous arrivez à la manger et à ignorer l’arrière-goût, elle nourrit assez bien et donne même un sentiment de regain de vigueur et de santé pendant un moment après l’avoir mangée."
+    },
+    "aLYfeWM0Uxv7H1Ax": {
+      enPages:[152], frPages:[157],
+      en:"A slab of meat from the two-headed mutant cattle that roam the wastelands. Not massively dissimilar to beef from before the War, though somewhat radioactive due to coming from a mutant animal. Can be cooked to produce ribeye steak.",
+      fr:"Un morceau de viande venant de l’un des spécimens du bétail mutant à deux têtes qui parcourt les Terres désolées. Il ressemble assez au bœuf d’avant la Guerre, mais s’avère quelque peu radioactif, car il vient d’un animal mutant. La viande de brahmine peut être cuisinée pour produire du faux-filet."
+    },
+    "PuL9AevtWz8clHFZ": {
+      enPages:[152], frPages:[154],
+      en:"An off-white mushroom which resembles a brain, and which tends to be found in clusters growing in dark, dank corners. Slightly irradiated due simply to growing in the wastelands, but otherwise harmless, despite its slightly alarming name and appearance. Brain fungus is an ingredient in Mentats.",
+      fr:"Un champignon de couleur crème qui ressemble à un cerveau et a tendance à pousser en grappes dans des coins sombres et humides. Légèrement irradié simplement parce qu’il pousse dans les Terres désolées, mais inoffensif en dehors de cela malgré son apparence un peu alarmante. La fausse morille est un ingrédient des Mentats."
+    },
+    "gg2H82rn5B2SXOrF": {
+      enPages:[152], frPages:[156],
+      en:"A metal can of processed meat intended to be fed to dogs. Despite being made for dogs, it’s entirely edible by humans, and the sealed can keeps the food within preserved and relatively safe to eat for long periods.",
+      fr:"Une boîte de conserve en métal de viande transformée censée être donnée à manger à un chien. Même si cette nourriture est conçue pour les chiens, les humains peuvent tout à fait en manger sans risque et la boîte hermétique conserve la nourriture à l’intérieur, donc elle reste globalement propre à la consommation pendant de longues périodes."
+    },
+    "nhavbYpdWvlnL7tR": {
+      enPages:[153,154], frPages:[152],
+      en:"Small, frosted cakes, so laden with sugar and other sweeteners than they’re essentially preserved forever. Proclaimed in advertising to be “America’s Favorite Snackfood”, these cakes can be found across the wastelands, in many teeth-achingly sweet varieties. Sometimes, preserved boxes of Fancy Lads Snack Cakes can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"De petits biscuits avec glaçage tellement bourrés de sucre et autres édulcorants qu’ils se conserveront pour toujours en pratique. La publicité à leur sujet les décrit comme « la sucrerie préférée des Américains ». Ces biscuits sont présents un peu partout dans les Terres désolées, avec de nombreuses saveurs différentes, mais toujours sucrées à vous en donner des caries. Parfois, les aventuriers trouvent des boîtes préservées de biscuits Fancy Lads. Ces biscuits sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1."
+    },
+    "KgKwCYEKl95sQQZN": {
+      enPages:[157], frPages:[152],
+      en:"A tall, fast-growing grass similar to wheat, which can be ground down to make flour for making bread and other staple foods. Razorgrain is an ingredient in a few recipes.",
+      fr:"Une céréale haute semblable au blé qui pousse vite et peut être moulue pour produire de la farine afin de donner du pain ou d’autres nourritures de base. Le blé surin est un ingrédient dans plusieurs recettes."
+    },
+    "gezE6P44AYqRQvim": {
+      enPages:[156], frPages:[152],
+      en:"A simple cup of noodle soup.Moderately filling and thirst-quenching, and simple enough to make if you can find the ingredients.",
+      fr:"Un simple bol de soupe de nouilles. Rassasie la faim et étanche la soif à un degré modéré. Il est relativement simple à préparer si vous arrivez à trouver les ingrédients."
+    },
+    "KAvEuz7SKIaCWEF8": {
+      enPages:[158], frPages:[152],
+      en:"A pre-War breakfast cereal with “explosive great taste”, the box contains little cereal shapes resembling stylized atomic bombs coated in copious amounts of sugar. Some boxes claim to contain a prize inside. Sometimes, preserved boxes of Sugar Bombs can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"Des céréales pour le petit-déjeuner datant d’avant la Grande Guerre avec un « super goût explosif ». La boîte contient de petits flocons de céréales en forme de bombes atomiques stylisées enrobés d’une bonne quantité de sucre. Certaines boîtes affirment contenir un jouet surprise à l’intérieur. Parfois, les aventuriers trouvent des boîtes préservées de bombes sucrées. Ces céréales sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiées et leur rareté augmente de +1."
+    },
+    "vo4udlZQUOjzx402": {
+      enPages:[153], frPages:[152],
+      en:"Chunks of squirrel meat, which have been fried until crispy, often found held together on a skewer. An easy way to get a little nutrition, and not so heavy a meal that it weighs you down while you digest it.",
+      fr:"Des morceaux de viande d’écureuil, qui ont été frits jusqu’à devenir croustillants, souvent embrochés les uns à la suite des autres sur un pic à brochette. Quelques calories facilement raflées et un repas assez léger pour ne pas vous alourdir pendant que vous le digérez."
+    },
+    "JoLgVDbxQV3bT11R": {
+      enPages:[158], frPages:[152],
+      en:"A few scraps and chunks of squirrel meat. Squirrels, not being especially large creatures, do not have much meat on them. Squirrel bits can be cooked to make Crispy Squirrel Bits, Squirrel on a Stick, or Squirrel Stew.",
+      fr:"Quelques lamelles et fragments de viande d’écureuil. Comme les écureuils ne sont pas de très gros animaux, ils ne donnent pas beaucoup de viande. Les bouchées d’écureuil peuvent être cuisinées pour produire des bouchées d’écureuil croustillantes, de la brochette d’écureuil ou du ragoût d’écureuil."
+    },
+    "vSv5EkpiV6z5XRHh": {
+      enPages:[154], frPages:[152],
+      en:"A pre-War confection, gum drops are small drops of congealed gelatin sweetened and flavored with a variety of overpowering flavors. The most common variety to survive the War, ironically, were labelled as radioactive for their powerful sour flavor. Long years sat in cupboards and on shelves has made this more literal, however.",
+      fr:"Une confiserie d’avant-guerre. Les boules de gomme sont de petites boules de gélatine solidifiée sucrée et parfumée avec diverses saveurs artificielles extrêmement fortes. Ironie du sort, la variété qui a le plus survécu à la Guerre était commercialisée sous le nom « boules de gomme radioactives » à cause de son goût très acide. Mais les années passées dans les placards et sur les étagères ont rendu l’appellation littérale."
+    }
+  };
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "p.152 description certification entry missing for " + id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+    assert.match(entry.certification.descriptionErrataNote, /Winter of Atom/, id + " p.152 errata scoping");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set(["qvvShn56H3E1bb1O","gpsiVMF0IkQQiy6A","gezE6P44AYqRQvim","vo4udlZQUOjzx402"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+      if (recipeIds.has(id)) {
+        assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+      }
+    }
+  }
+});

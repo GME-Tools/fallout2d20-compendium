@@ -3,7 +3,7 @@
   "_file": "viande_de_tique__2Jc0kY7glK0GVaYe.json",
   "values": {
     "/name": "Viande de tique",
-    "/system/description": "<p>Morceau sanguinolent de tique, moustique mutant géant et agressif qui s’attaque au bétail et aux grands animaux. Il permet de préparer un steak de tique.</p>",
+    "/system/description": "<p>Une pièce de viande sanglante venant d’une tique des Terres désolées, un énorme moustique mutant agressif qui s’attaque d’ordinaire au bétail et aux autres gros animaux.</p>\n<p>La viande de tique peut être cuisinée pour produire du steak de tique.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "2Jc0kY7glK0GVaYe",
