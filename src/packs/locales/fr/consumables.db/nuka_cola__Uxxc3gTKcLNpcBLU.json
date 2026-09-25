@@ -3,7 +3,7 @@
   "_file": "nuka_cola__Uxxc3gTKcLNpcBLU.json",
   "values": {
     "/name": "Nuka Cola",
-    "/system/description": "<p>Commercialisé en 2044, le Nuka-Cola devint rapidement le soda numéro un des États-Unis puis la boisson la plus populaire au monde. Dix-sept essences de fruits équilibrent son goût de cola. Chaque bouteille contient 120 % de la dose quotidienne recommandée de sucre, énormément de caféine, ainsi que vitamines, minéraux et « fortifiants ». Produit en masse, il reste abondant et apprécié malgré sa température et ses bulles disparues. Vous récupérez 1 capsule en ouvrant et buvant une bouteille.</p>",
+    "/system/description": "<p>Mis sur le marché pour la première fois en 2044, le Nuka Cola devint rapidement la boisson sucrée numéro un aux États-Unis et peu après, la boisson la plus populaire du monde. C’est un mélange de dix-sept essences de fruits, précisément équilibré pour mettre en valeur la saveur de cola classique. Chaque bouteille contient cent vingt pour cent de la dose quotidienne de sucre recommandée, et des quantités excessives de caféine, mais elle est aussi fortifiée avec des vitamines, des minéraux et des « toniques ». Comme il était incroyablement populaire, il est encore présent en grande quantité dans les Terres désolées et demeure populaire même si les bouteilles sont maintenant chaudes et si les bulles ont disparu voilà bien longtemps.</p>\n<p>Quand vous ouvrez et buvez une bouteille de Nuka Cola, vous recevez 1 capsule.</p>",
     "/system/effect": "<p>Gagnez immédiatement +1 PA</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",

@@ -5995,4 +5995,125 @@ test("Core Consumables p.161 closes the Beverage Items table and begins descript
     }
   }
 });
+test("Core Consumables p.162 continues beverage descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 164 && catalog.certifiedThrough.en.sourcePage >= 162);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 165 && catalog.certifiedThrough.fr.sourcePage >= 162);
+
+  const sidebar = catalog.entries.find(entry => entry.page === 162 && entry.type === "rule_text" && entry.sourceName === "Nuka-Cola Addiction");
+  assert.ok(sidebar, "p.162 Nuka-Cola Addiction sidebar inventory");
+  assert.equal(sidebar.status, "out_of_scope");
+  assert.deepEqual(sidebar.sourcePages, {en:[162],fr:[162]});
+  assert.equal(sidebar.certification.differsFromStandardAddictions, true);
+  assert.equal(sidebar.certification.mayAffectEncounteredNpcs, true);
+  assert.equal(sidebar.certification.playerCharactersDoNotRiskNukaColaAddiction, true);
+  assert.equal(sidebar.certification.errataReviewed, true);
+  assert.match(sidebar.certification.errataNote, /p\.216.?217/, "Nuka-Cola sidebar keeps later beverage errata separate");
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  const enP162 = new Set([
+    "PVf7RRNJLAIY2b2t","fW1WgqRVyT76erlQ","66gEaC4Wd4cVuutB",
+    "Anqgdr6ITj1TUFuj","bq6e2Hcl5CL3jpYU","Uxxc3gTKcLNpcBLU"
+  ]);
+  const frP162 = new Set([
+    "xuXzlEC3V0co3w3h","smWip05JhGyTXRU1","FZqdiNkmpwz5NBJ3","Anqgdr6ITj1TUFuj",
+    "FqwVy0rYtfInhHoH","fW1WgqRVyT76erlQ","MlGblqUyUcVhqQLY","mk8SR0w1UisPaDy1",
+    "bq6e2Hcl5CL3jpYU","Uxxc3gTKcLNpcBLU"
+  ]);
+  assert.equal(enP162.size, 6);
+  assert.equal(frP162.size, 10);
+
+  for (const id of enP162) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.162 beverage description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(162), "EN p.162 description coordinate missing for " + id);
+  }
+  for (const id of frP162) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.162 beverage description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(162), "FR p.162 description coordinate missing for " + id);
+  }
+
+  const specs = {
+    "PVf7RRNJLAIY2b2t": {
+      pages:{en:[162],fr:[163]},
+      en:"A blood bag filled with discolored—often green— blood-like fluid. About as useful a beverage as a normal blood pack, but highly irradiated. Special: Roll 2 @fos[DC] when determining if the drink inflicts Radiation damage, rather than 1 @fos[DC]. You suffer 1 Radiation damage, ignoring damage resistance, for each Effect rolled.",
+      fr:"Une poche de sang remplie d’un fluide sanguin, mais décoloré et souvent vert. Une boisson à peu près aussi utile qu’une poche de sang classique, mais très chargée en radiations. Spécial: lancez 2 @fos[DC] au lieu de 1 @fos[DC] pour déterminer si cette boisson vous inflige des dégâts de radiation. Vous subissez 1 point de dégâts de radiation, qui ignore la résistance aux dégâts, pour chaque Effet obtenu."
+    },
+    "fW1WgqRVyT76erlQ": {
+      pages:{en:[162],fr:[162]},
+      en:"Juice made from pressing the pulp of a melon. A refreshing and healthy drink, which promotes the body’s natural healing.",
+      fr:"Du jus obtenu en pressant la pulpe d’un melon. Une boisson rafraîchissante et saine qui accélère la guérison naturelle du corps."
+    },
+    "Anqgdr6ITj1TUFuj": {
+      pages:{en:[162],fr:[162]},
+      en:"Juice made from pressing the pulp of a mutfruit. A sharp and invigorating drink, which wakes up the mind and helps get the body moving.",
+      fr:"Du jus obtenu en pressant la pulpe d’un fruit mutant. Une boisson âpre et revigorante qui réveille l’esprit et aide le corps à se mettre en branle."
+    },
+    "bq6e2Hcl5CL3jpYU": {
+      pages:{en:[162],fr:[162]},
+      en:"Produced by the Nuka-Cola Corporation after it bought the patent for a rival beverage, Merle’s Very Cherry Soda, Nuka-Cherry is a blend of the typical beloved Nuka-Cola recipe with a distinctive cherry flavoring and a bright red color. The refreshing taste and high sugar and caffeine contents of the drink make it an ideal pick-me-up for those needing a burst of energy. You receive 1 cap upon opening and drinking a bottle of Nuka-Cherry.",
+      fr:"Produit par Nuka Cola Corporation après avoir racheté le brevet d’une boisson rivale, le Merle’s Very Cherry Soda, le Nuka Cherry est un mélange de la recette classique de Nuka Cola si appréciée du public avec une saveur cerise clairement reconnaissable et un colorant rouge vif. Le goût rafraîchissant et les forts taux de sucre et de caféine de la boisson en font un remontant idéal pour ceux qui ont besoin d’un coup de fouet. Quand vous ouvrez et buvez une bouteille de Nuka Cherry, vous recevez 1 capsule."
+    },
+    "Uxxc3gTKcLNpcBLU": {
+      pages:{en:[162],fr:[162,163]},
+      en:"First entering the market in 2044, Nuka-Cola rapidly became the number one soft drink in the United States and was the most popular beverage in the world soon after. A combination of seventeen fruit essences, precisely balanced to enhance the classic cola flavor. Each bottle contains 120% of the recommended daily amount of sugar, and excessive amounts of caffeine, but is also fortified with vitamins, minerals and “health tonics”. Due to its popularity, it can still be found in vast quantities in the wasteland, and it is still popular even if the bottles are now warm and the carbonated fizz went flat long ago. You receive 1 cap upon opening and drinking a bottle of Nuka-Cola.",
+      fr:"Mis sur le marché pour la première fois en 2044, le Nuka Cola devint rapidement la boisson sucrée numéro un aux États-Unis et peu après, la boisson la plus populaire du monde. C’est un mélange de dix-sept essences de fruits, précisément équilibré pour mettre en valeur la saveur de cola classique. Chaque bouteille contient cent vingt pour cent de la dose quotidienne de sucre recommandée, et des quantités excessives de caféine, mais elle est aussi fortifiée avec des vitamines, des minéraux et des « toniques ». Comme il était incroyablement populaire, il est encore présent en grande quantité dans les Terres désolées et demeure populaire même si les bouteilles sont maintenant chaudes et si les bulles ont disparu voilà bien longtemps. Quand vous ouvrez et buvez une bouteille de Nuka Cola, vous recevez 1 capsule."
+    },
+    "FqwVy0rYtfInhHoH": {
+      pages:{en:[163],fr:[162]},
+      en:"Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action.",
+      fr:"Du jus obtenu en pressant des goudrelles. Boire du jus de goudrelle a un puissant effet stimulant, rendant le buveur énergique et prêt à l’action."
+    },
+    "MlGblqUyUcVhqQLY": {
+      pages:{en:[163],fr:[162]},
+      en:"Juice made from pressing Tatos. Despite the unpleasant taste, Tato juice is a fine way to prepare for vigorous action, as it allows the drinker to dig more deeply into reserves of stamina and push themselves further.",
+      fr:"Du jus obtenu en pressant des pomates. Malgré son goût déplaisant, le jus de pomate est un très bon moyen de se préparer à un effort important, car il permet au buveur de puiser davantage dans ses réserves d’endurance et de tenir plus longtemps."
+    }
+  };
+  assert.equal(Object.keys(specs).length, 7);
+
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+    assert.match(entry.certification.descriptionErrataNote, /p\.216.?217/, id + " later beverage errata scope");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&hellip;/g, "…")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set(["fW1WgqRVyT76erlQ","Anqgdr6ITj1TUFuj","FqwVy0rYtfInhHoH","MlGblqUyUcVhqQLY"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+    }
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+  }
+
+  for (const id of ["66gEaC4Wd4cVuutB","smWip05JhGyTXRU1","FZqdiNkmpwz5NBJ3","mk8SR0w1UisPaDy1","xuXzlEC3V0co3w3h"]) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " prior targeted description retained");
+    assert.ok(
+      entry.certification.descriptionSourcePages.en.includes(162) || entry.certification.descriptionSourcePages.fr.includes(162),
+      id + " crosses the certified p.162 boundary"
+    );
+  }
+});
 
