@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–151, through printed/source page 149.
-- FR PDF physical pages 1–152, through printed/source page 149.
+- EN PDF physical pages 1–152, through printed/source page 150.
+- FR PDF physical pages 1–153, through printed/source page 150.
 - Completed editorial sections: front matter, Introduction, Chapters One–Three, and
   Chapter Four through the end of Robot Armor (source pp.84–148), including all
   weapon sections, clothing, conventional armor, Power Armor and Robot Armor.
@@ -237,9 +237,26 @@ Errata V6 has no Core p.149 correction: its p.149 entry belongs to the Settlers 
 Detailed consumable descriptive prose remains pending until its own source pages are
 reached.
 
+Source p.150 is now certified as the second Food Items table lot. Because the EN and
+FR food tables are alphabetized independently, the source page contains 30 EN rows
+and 34 FR rows, resolving to 50 stable bilingual consumable identities when combined.
+Fifteen of those identities had already been source-certified as targeted bilingual
+counterparts from p.149; the remaining 35 are now fully inventoried and certified.
+Targeted counterpart rows on source p.151 were read only where required to resolve
+bilingual identity and EN-authoritative mechanics and do not advance page-certified
+coverage beyond p.150. All newly reached food identities now carry exact first EN
+table provenance, completed errata review, explicit non-alcoholic metadata, and
+source weights (including 1 lb / 0.5 kg rows rather than legacy missing weights).
+French secondary-effect text was aligned to the official table wording. One genuine
+localization discrepancy is recorded and mechanically adapted: FR Food Paste / Pâte
+comestible says the END re-roll benefit lasts until the end of the current scene,
+while EN says until the end of the next scene; the FR overlay now follows the
+EN-authoritative duration while retaining official terminology. Errata V6 contains
+no Core p.150 or p.151 correction applicable to these food rows.
+
 ## Next lot
 
-Continue page-by-page at printed/source p.150, continuing the Food Items table and beginning the detailed food descriptions. Do not re-audit pp.1–149.
+Continue page-by-page at printed/source p.151, the final Food Items table continuation. Do not re-audit pp.1–150.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -269,7 +286,7 @@ exact page evidence until the corresponding perk is source-certified.
 
 The p.148 regression verifies all six remaining Robot Armor family descriptions and special rules across all 36 stable location variants, exact official FR wording, recipe retention, the Voltaic stacking rule, and the printed EN Noxious/Toxic “serrated plate” cross-reference discrepancy.
 
-The p.149 regression verifies the three opening Consumables/Food rule blocks, all 29 bilingual food identities reached from the independently ordered EN/FR p.149 tables plus their targeted later-language counterparts, exact HP/irradiation/weight/cost/rarity/effect fields, explicit non-alcoholic metadata and source provenance, the official French secondary-effect wording, and the recorded Fancy Lads FR weight discrepancy without advancing pp.150–151 page coverage.
+The p.149 regression verifies the three opening Consumables/Food rule blocks, all 29 bilingual food identities reached from the independently ordered EN/FR p.149 tables plus their targeted later-language counterparts, exact HP/irradiation/weight/cost/rarity/effect fields, explicit non-alcoholic metadata and source provenance, the official French secondary-effect wording, and the recorded Fancy Lads FR weight discrepancy without advancing pp.150–151 page coverage. The p.150 regression then verifies the complete 30-row EN and 34-row FR source-page sets as 50 stable bilingual identities, all 35 newly reached identities with exact mechanics/provenance/weights/effects, and the deliberate FR Food Paste duration adaptation from the printed current-scene wording to the EN-authoritative next-scene mechanic.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

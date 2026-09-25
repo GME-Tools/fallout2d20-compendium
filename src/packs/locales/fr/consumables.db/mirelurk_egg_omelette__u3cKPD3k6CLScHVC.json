@@ -4,7 +4,7 @@
   "values": {
     "/name": "Omelette d’œufs de fangeux",
     "/system/description": "<p>Une omelette d’œuf de fangeux qui, correctement préparée, nourrit et procure une poussée d’énergie.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>2</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1]{Eau sale} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.yW3xNGa8YuPtoonL]{Œuf de fangeux} ×1</li></ul></section>",
-    "/system/effect": "<p>Ajoutez immédiatement 2 PA à la réserve commune.</p>",
+    "/system/effect": "<p>Ajoutez immédiatement 2 PA à la réserve du groupe</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "u3cKPD3k6CLScHVC",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,

@@ -7,7 +7,7 @@
   "system": {
     "addiction": 0,
     "addictive": false,
-    "alcoholic": true,
+    "alcoholic": false,
     "butchery": false,
     "consumableType": "food",
     "cost": 8,
@@ -32,9 +32,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 150
       }
     }
   },

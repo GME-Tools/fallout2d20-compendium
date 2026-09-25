@@ -4385,3 +4385,166 @@ test("Core Consumables p.149 rules and bilingual food rows are source-exact", as
     }
   }
 });
+
+
+test("Core Consumables p.150 food table continuation is source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 152 && catalog.certifiedThrough.en.sourcePage >= 150);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 153 && catalog.certifiedThrough.fr.sourcePage >= 150);
+
+  const enP150 = new Set([
+    "8pR2J9OAo0Mtx0D4","XEZtPJZ7SBhlIfGq","nhavbYpdWvlnL7tR","jpJw3rIHZILDnp9p","Qe3DSub3iHONeRaO",
+    "D2s5huShfKCtulYC","vKPqt12nZaVKaTM4","vSv5EkpiV6z5XRHh","5uXBOucct2TglTlF","uxikQYkupNqpmTyR",
+    "jC25W4O796xzZr0O","joFpcSrCDtsWQxme","ELoNzoPfKq3BE9gc","TlRxjXMYh0k1ljWl","8Ju0FLCWLvXs5zXw",
+    "yW3xNGa8YuPtoonL","u3cKPD3k6CLScHVC","JjjhTOQLnB2htZe0","c97rLLOxIIQCFFQi","2Huj9yJeWsIQTrZs",
+    "r5HGZTe9sYtWopL7","7MwNIxhzzbQUGbX4","zP8u8sVBiiSGbcTB","Dh09YQNclfQtitwT","ABPjUugdAt6VthAw",
+    "0lnW7AJMNs7SxdpP","gezE6P44AYqRQvim","VUNnTzfG6Kywnt5O","6Y5Gv5LAizj0KDUw","OMWPk4ci2lfZmc6X"
+  ]);
+  const frP150 = new Set([
+    "Qe3DSub3iHONeRaO","zCjOPQmaqITpaspN","qeN8bq9CJ3EYwwAE","PuL9AevtWz8clHFZ","nMvfzS3mTgqejqh2",
+    "WU676EmpwjUR59Cg","ABPjUugdAt6VthAw","Bvn11vBFx1OnUoJr","lrllDzCjzc9atRUy","g2KCQ2KwunOMVBh8",
+    "TlRxjXMYh0k1ljWl","qvvShn56H3E1bb1O","wvr60yBKV9FfAMOv","yW3xNGa8YuPtoonL","jGk6pqXEHojFBnHc",
+    "xTlLPA95S9y3Neqk","8pR2J9OAo0Mtx0D4","u3cKPD3k6CLScHVC","ohCdi9MG6PoEnyJr","ELoNzoPfKq3BE9gc",
+    "KZOctNYYrsfYycGB","jpJw3rIHZILDnp9p","8Ju0FLCWLvXs5zXw","gg2H82rn5B2SXOrF","4Z3zGSnBGJcgR5c2",
+    "e6tIVbIcM6krBmSu","6Y5Gv5LAizj0KDUw","joFpcSrCDtsWQxme","D2s5huShfKCtulYC","vKPqt12nZaVKaTM4",
+    "qJUTRSy9Ic1L18BG","n6asYMleVsDYBbdC","5uXBOucct2TglTlF","Th2rOMBm5trq0s4h"
+  ]);
+  assert.equal(enP150.size, 30);
+  assert.equal(frP150.size, 34);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP150) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "missing EN p.150 consumable " + id);
+    assert.ok(entry.sourcePages?.en?.includes(150), "EN p.150 coordinate missing for " + id);
+    assert.equal(entry.status, "verified");
+  }
+  for (const id of frP150) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "missing FR p.150 consumable " + id);
+    assert.ok(entry.sourcePages?.fr?.includes(150), "FR p.150 coordinate missing for " + id);
+    assert.equal(entry.status, "verified");
+  }
+
+  const expected = [
+    ["8pR2J9OAo0Mtx0D4","Deathclaw Omelette","Omelette d’œufs d’écorcheur",150,150,11,false,0,0,80,4],
+    ["XEZtPJZ7SBhlIfGq","Deathclaw Steak","Steak d’écorcheur",150,151,14,false,1,0.5,130,4],
+    ["jpJw3rIHZILDnp9p","Food Paste","Pâte comestible",150,150,7,false,0,0,0,2],
+    ["Qe3DSub3iHONeRaO","Gourd","Courge",150,150,3,true,1,0.5,6,1],
+    ["D2s5huShfKCtulYC","Grilled Radroach","Radcafard grillé",150,150,5,false,0,0,7,1],
+    ["vKPqt12nZaVKaTM4","Grilled Radstag","Radcerf grillé",150,150,11,false,1,0.5,60,2],
+    ["5uXBOucct2TglTlF","Iguana Bits","Ragoût d’iguane",150,150,4,true,0,0,8,1],
+    ["jC25W4O796xzZr0O","Iguana Soup","Soupe d’iguane",150,151,10,false,1,0.5,21,3],
+    ["joFpcSrCDtsWQxme","InstaMash","Purée-minute",150,150,4,true,0,0,20,0],
+    ["ELoNzoPfKq3BE9gc","Institute Food Packet","Pack de nourriture de l’Institut",150,150,5,false,0,0,10,2],
+    ["TlRxjXMYh0k1ljWl","Melon","Melon",150,150,3,true,1,0.5,6,1],
+    ["8Ju0FLCWLvXs5zXw","Mirelurk Cake","Pâté de fangeux",150,150,12,false,0,0,35,3],
+    ["yW3xNGa8YuPtoonL","Mirelurk Egg","Œuf de fangeux",150,150,3,true,1,0.5,0,2],
+    ["u3cKPD3k6CLScHVC","Mirelurk Egg Omelette","Omelette d’œufs de fangeux",150,150,7,false,0,0,30,3],
+    ["JjjhTOQLnB2htZe0","Mirelurk Meat","Viande de fangeux",150,151,6,true,0,0,18,1],
+    ["c97rLLOxIIQCFFQi","Mirelurk Queen Steak","Steak de reine des fangeux",150,151,14,false,1,0.5,130,5],
+    ["2Huj9yJeWsIQTrZs","Mole Rat Chunks","Steak de rataupe",150,151,7,false,0,0,8,1],
+    ["r5HGZTe9sYtWopL7","Mole Rat Meat","Viande de rataupe",150,151,5,true,0,0,5,0],
+    ["7MwNIxhzzbQUGbX4","Mongrel Dog Meat","Viande de chien errant",150,151,4,true,0,0,8,0],
+    ["Dh09YQNclfQtitwT","Mutant Hound Meat","Viande de molosse mutant",150,151,5,true,0,0,8,2],
+    ["ABPjUugdAt6VthAw","Mutfruit","Fruit mutant",150,150,3,true,0,0,8,0],
+    ["VUNnTzfG6Kywnt5O","Perfectly Preserved Pie","Tarte parfaitement conservée",150,151,5,false,0,0,20,3],
+    ["6Y5Gv5LAizj0KDUw","Pork 'n' Beans","Porc aux haricots",150,150,4,true,0,0,10,0],
+    ["nMvfzS3mTgqejqh2","Ribeye Steak","Faux-filet",151,150,10,false,1,0.5,40,2],
+    ["WU676EmpwjUR59Cg","Stingwing Filet","Filet de darillon",151,150,11,false,0,0,35,2],
+    ["Bvn11vBFx1OnUoJr","Tarberry","Goudrelle",151,150,3,true,0,0,5,3],
+    ["lrllDzCjzc9atRUy","Silt Bean","Haricot envasé",151,150,3,true,0,0,6,1],
+    ["jGk6pqXEHojFBnHc","Radscorpion Egg","Œuf de radscorpion",151,150,6,true,0,0,48,3],
+    ["xTlLPA95S9y3Neqk","Yum-Yum Deviled Eggs","Œufs mimosas miam-miam",151,150,4,true,0,0,20,0],
+    ["ohCdi9MG6PoEnyJr","Radscorpion Egg Omelette","Omelette d’œufs de radscorpion",151,150,9,false,0,0,65,4],
+    ["KZOctNYYrsfYycGB","Sweet Roll","Pain brioché",151,150,4,true,0,0,9,1],
+    ["4Z3zGSnBGJcgR5c2","Tato","Pomate",151,150,3,true,0,0,7,1],
+    ["qJUTRSy9Ic1L18BG","Squirrel Stew","Ragoût d’écureuil",151,150,10,false,1,0.5,24,2],
+    ["n6asYMleVsDYBbdC","Radstag Stew","Ragoût de radcerf",151,150,12,false,1,0.5,60,3],
+    ["Th2rOMBm5trq0s4h","Yao Guai Roast","Rôti de yao guai",151,150,14,false,1,0.5,110,4]
+  ].map(([id,enName,frName,enPage,frPage,hp,irradiated,enWeight,frWeight,cost,rarity]) => ({
+    id,enName,frName,enPage,frPage,hp,irradiated,enWeight,frWeight,cost,rarity
+  }));
+
+  const effects = {
+    en: {
+      "8pR2J9OAo0Mtx0D4":"If next scene is combat, regain 1HP at the start of each turn",
+      "XEZtPJZ7SBhlIfGq":"May re-roll 1d20 on all STR tests until end of next scene",
+      "jpJw3rIHZILDnp9p":"May re-roll 1d20 on all END tests until end of next scene",
+      "vKPqt12nZaVKaTM4":"Carry weight increases by +25 until end of next scene",
+      "8Ju0FLCWLvXs5zXw":"Can breathe underwater until end of next scene",
+      "u3cKPD3k6CLScHVC":"Immediately add 2 AP to the group pool",
+      "c97rLLOxIIQCFFQi":"Reduce the difficulty of all END tests by 1 until the end of the next scene",
+      "2Huj9yJeWsIQTrZs":"+1 Maximum AP in group pool until the end of the current scene",
+      "WU676EmpwjUR59Cg":"May re-roll 1d20 on all PER tests until end of next scene",
+      "ohCdi9MG6PoEnyJr":"Cure all addictions",
+      "n6asYMleVsDYBbdC":"+3 Energy damage resistance until end of next scene",
+      "Th2rOMBm5trq0s4h":"+2 @fos[DC] to melee attacks until end of next scene"
+    },
+    fr: {
+      "8pR2J9OAo0Mtx0D4":"Si la prochaine scène est un combat, vous regagnez 1 PV au début de chaque tour",
+      "XEZtPJZ7SBhlIfGq":"Vous pouvez relancer 1d20 sur tous vos tests de FOR jusqu’à la fin de la prochaine scène",
+      "jpJw3rIHZILDnp9p":"Vous pouvez relancer 1d20 sur tous vos tests d’END jusqu’à la fin de la prochaine scène",
+      "vKPqt12nZaVKaTM4":"Votre charge maximale augmente de +12,5 jusqu’à la fin de la prochaine scène",
+      "8Ju0FLCWLvXs5zXw":"Vous pouvez respirer sous l’eau jusqu’à la fin de la prochaine scène",
+      "u3cKPD3k6CLScHVC":"Ajoutez immédiatement 2 PA à la réserve du groupe",
+      "c97rLLOxIIQCFFQi":"Réduit de 1 la difficulté de tous les tests d’END jusqu’à la fin de la prochaine scène",
+      "2Huj9yJeWsIQTrZs":"+1 PA max dans la réserve du groupe jusqu’à la fin de la scène en cours",
+      "WU676EmpwjUR59Cg":"Vous pouvez relancer 1d20 sur tous vos tests de PER jusqu’à la fin de la prochaine scène",
+      "ohCdi9MG6PoEnyJr":"Soigne toutes les dépendances",
+      "n6asYMleVsDYBbdC":"+3 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène",
+      "Th2rOMBm5trq0s4h":"+2 @fos[DC] aux attaques de corps à corps jusqu’à la fin de la prochaine scène"
+    }
+  };
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const item of expected) {
+    const entry = catalogById.get(item.id);
+    assert.ok(entry, "missing p.150 lot entry " + item.id);
+    assert.equal(entry.page, item.enPage, item.enName + " canonical source page");
+    assert.deepEqual(entry.sourcePages?.en, [item.enPage], item.enName + " EN coordinate");
+    assert.deepEqual(entry.sourcePages?.fr, [item.frPage], item.enName + " FR coordinate");
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.hpHealed, item.hp);
+    assert.equal(entry.certification.irradiated, item.irradiated);
+    assert.equal(entry.certification.weightLb, item.enWeight === 0 ? "<1" : item.enWeight);
+    assert.equal(entry.certification.weightFr, item.frWeight === 0 ? "<0.5" : item.frWeight);
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.alcoholic, false);
+    assert.equal(entry.certification.errataReviewed, true);
+  }
+
+  const paste = catalogById.get("jpJw3rIHZILDnp9p");
+  assert.equal(paste.certification.sourceDiscrepancyRecorded, true);
+  assert.equal(paste.certification.localizationAdaptedToCanonical, true);
+  assert.match(paste.certification.officialFrenchPrintedEffect, /fin de la scène$/);
+  assert.match(paste.certification.canonicalFrenchEffect, /fin de la prochaine scène$/);
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const item of expected) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.name, language === "en" ? item.enName : item.frName, language + "/" + item.enName + " name");
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, item.enPage, language + "/" + item.enName + " source page");
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, language + "/" + item.enName + " errata review");
+      assert.equal(document.system.hp, item.hp, language + "/" + item.enName + " HP");
+      assert.equal(document.system.irradiated, item.irradiated, language + "/" + item.enName + " irradiated");
+      if (item.irradiated) assert.equal(document.system.radiationDamage, 1, language + "/" + item.enName + " irradiation damage");
+      assert.equal(document.system.alcoholic, false, language + "/" + item.enName + " must not be alcoholic");
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight, language + "/" + item.enName + " weight");
+      assert.equal(document.system.cost, item.cost, language + "/" + item.enName + " cost");
+      assert.equal(document.system.rarity, item.rarity, language + "/" + item.enName + " rarity");
+      assert.equal(plainText(document.system.effect), effects[language][item.id] ?? "", language + "/" + item.enName + " table effect");
+    }
+  }
+});

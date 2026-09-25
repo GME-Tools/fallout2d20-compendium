@@ -4,7 +4,7 @@
   "values": {
     "/name": "Pâte comestible",
     "/system/description": "<p>Avant la Grande Guerre, plusieurs écoles participèrent au Programme de pâte alimentaire alternative de Vault-Tec et du gouvernement fédéral. Enrichie en vitamines, minéraux et nutriments nécessaires à la croissance, cette pâte se conserve plus d’un siècle. C’est une bouillie rose vif sans goût, aux effets psychologiques ou physiologiques à long terme inconnus, mais qui améliore la santé après consommation.</p>",
-    "/system/effect": "<p>Relancez 1d20 lors de tous les tests d’END jusqu’à la fin de la scène.</p>",
+    "/system/effect": "<p>Vous pouvez relancer 1d20 sur tous vos tests d’END jusqu’à la fin de la prochaine scène</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "jpJw3rIHZILDnp9p",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
