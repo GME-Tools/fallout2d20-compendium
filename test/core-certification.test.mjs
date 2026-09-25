@@ -6578,4 +6578,85 @@ test("Core Consumables p.166 begins chem descriptions source-exact", async () =>
     }
   }
 });
+test("Core Consumables p.167 continues chem descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 169 && catalog.certifiedThrough.en.sourcePage >= 167);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 170 && catalog.certifiedThrough.fr.sourcePage >= 167);
+
+  const byId = new Map(catalog.entries.filter(entry => entry.pack === "consumables" && entry.status === "verified").map(entry => [entry.documentId, entry]));
+  const sidebar = catalog.entries.find(entry => entry.page === 167 && entry.type === "rule_text" && entry.sourceName === "Ghouls and Chems");
+  assert.ok(sidebar, "Ghouls and Chems sidebar inventory");
+  assert.equal(sidebar.status, "out_of_scope");
+  assert.equal(sidebar.certification.healingItemsWorkNormally, true);
+  assert.equal(sidebar.certification.radXAndRadAwayHaveNoObviousEffectBecauseRadiationImmune, true);
+  assert.equal(sidebar.certification.addictolAndAntibioticsWorkNormally, true);
+  assert.equal(sidebar.certification.ghoulsLessLikelyToBecomeAddicted, true);
+  assert.equal(sidebar.certification.ghoulsUnaffectedByManyDiseases, true);
+  assert.equal(sidebar.certification.otherChemsRequireTwoDosesForEffect, true);
+
+  const specs = {
+    "hWlAJa2j3N2LaiPx":{
+      pages:{en:[167],fr:[167]},
+      en:"A mild pre-War relaxant and hallucinogen, Day Tripper was favored by Americans seeking a brief escape from reality. The resulting high made users more laid-back and relaxed, while also making them less inclined to exert themselves physically. It was popular amongst many social groups during the stresses of the Great War, food riots, and general societal problems in the years before the bombs fell. Day Tripper Addiction: A failed addiction roll renders you addicted to Day Tripper. You increase the difficulty of all CHA and LCK tests by +1 whenever you are not under the effects of Day Tripper.",
+      fr:"Un relaxant et un hallucinogène léger d’avant-guerre. Le Daytripper était apprécié des Américains cherchant à s’évader brièvement de la réalité. Le trip qui en résultait rendait les consommateurs plus calmes et détendus, tout en leur rendant l’effort physique désagréable. Beaucoup de groupes sociaux prenaient du Daytripper pendant les périodes de tension de la Grande Guerre, des émeutes de pénurie alimentaire et des problèmes de société en général lors des années précédant la chute des bombes. Dépendance au Daytripper: si vous ratez votre jet de dépendance, vous devenez dépendant au Daytripper. La difficulté de tous vos tests de CHR et de CHA augmente de +1 quand vous n’êtes pas sous l’effet du Daytripper."
+    },
+    "MPGzjHEzGF9yW97k":{
+      pages:{en:[167],fr:[167]},
+      en:"An extremely powerful combat stimulant, Fury grants users a sense of invincibility, rendering them nearly immune to pain and recklessly dangerous in melee combat, while also rendering them largely oblivious to everything else as well. Fury Addiction: A failed addiction roll renders you addicted to Fury. You increase the difficulty of all STR and PER tests by +1 whenever you are not under the effects of Fury.",
+      fr:"Un stimulant de combat extrêmement puissant. La Fureur donne un sentiment d’invincibilité à ceux qui en prennent. Ils deviennent quasi insensibles à la douleur et très dangereux à cause de leur témérité en combat au corps à corps, mais ne perçoivent plus rien d’autre que le combat. Dépendance à la Fureur : si vous ratez votre jet de dépendance, vous devenez dépendant à la Fureur. La difficulté de tous vos tests de FOR et de PER augmente de +1 quand vous n’êtes pas sous l’effet de la Fureur."
+    },
+    "ue9pFVAT1prcq70t":{
+      pages:{en:[167],fr:[168]},
+      en:"A tin of Mentats, their formula altered to reduce social anxiety, boost confidence, and make users more aware of body language and other social cues. Mentat Addiction: A failed addiction roll renders you addicted to Mentats. You increase the difficulty of all CHA tests by +1 whenever you are not under the effects of a type of Mentat (ordinary Mentats, or the Berry, Grape, or Orange versions).",
+      fr:"Une boîte de Mentats, avec une nouvelle formule conçue pour réduire l’anxiété sociale, augmenter la confiance en soi et donner aux utilisateurs une meilleure perception du langage corporel et des autres signaux sociaux subtils. Dépendance aux Mentats : si vous ratez votre jet de dépendance, vous devenez dépendant aux Mentats. La difficulté de tous vos tests de CHR augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Mentats (les Mentats ordinaires ou les versions fruits rouges, orange ou raisin)."
+    },
+    "Bomq1g7X0eVXrssc":{
+      pages:{en:[167],fr:[167]},
+      en:"Jet is an inhaled stimulant which creates an altered state of consciousness where time appears to slow, heightening reflexes and allowing the user to act more quickly during a moment of crisis. Jet Addiction: A failed addiction roll renders you addicted to Jet. You increase the difficulty of all AGI tests by +1 whenever you are not under the effects of a type of Jet (Jet, or Jet Fuel; Ultra Jet has a different addiction effect).",
+      fr:"Le Jet est un stimulant en aérosol qui provoque un état modifié de conscience dans lequel le temps semble ralentir, aiguisant les réflexes et permettant à l’utilisateur d’agir plus rapidement dans un moment d’urgence. Dépendance au Jet : si vous ratez votre jet de dépendance, vous devenez dépendant au Jet. La difficulté de tous vos tests d’AGI augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Jet (le Jet ou le Jet Fuel; l’Ultra Jet a un effet de dépendance différent)."
+    },
+    "3ZJaIPmXe788xhiz":{
+      pages:{en:[168],fr:[167]},
+      en:"A volatile variant of Jet, Jet Fuel provides a massive burst of energy in the user, allowing them to act more swiftly and decisively. Jet Addiction: A failed addiction roll renders you addicted to Jet. You increase the difficulty of all AGI tests by +1 whenever you are not under the effects of a type of Jet (Jet, or Jet Fuel; Ultra jet has a different addiction effect).",
+      fr:"Une variante instable du Jet. Le Jet Fuel provoque un énorme pic d’énergie chez l’utilisateur, lui permettant d’agir plus rapidement et plus résolument. Dépendance au Jet : si vous ratez votre jet de dépendance, vous devenez dépendant au Jet. La difficulté de tous vos tests d’AGI augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Jet (le Jet ou le Jet Fuel; l’Ultra Jet a un effet de dépendance différent)."
+    },
+    "pV3wtJn1fqwTcBMj":{
+      pages:{en:[168],fr:[167]},
+      en:"Med-X is a potent opiate analgesic which significantly reduces both the perception of pain and the natural emotional response to pain. In short, it’s a powerful painkiller. Med-X Addiction: A failed addiction roll renders you addicted to Med-X. You increase the difficulty of all AGI tests by +1, and suffer +1 @fos[DC] additional damage from all physical attacks whenever you are not under the effects of Med-X.",
+      fr:"Le Med-X est un puissant opiacé analgésique qui réduit énormément à la fois la perception de la douleur et la réaction émotionnelle naturelle à la douleur. En bref, c’est un antidouleur costaud. Dépendance au Med-X: si vous ratez votre jet de dépendance, vous devenez dépendant au Med-X. La difficulté de tous vos tests d’AGI augmente de +1 et vous subissez +1 @fos[DC] de dégâts supplémentaires sur toutes les attaques balistiques quand vous n’êtes pas sous l’effet du Med-X."
+    },
+    "hc8DSkMGN2GxugAF":{
+      pages:{en:[168],fr:[167,168]},
+      en:"Mentats were a popular recreational and performance-enhancing drug before the Great War, which enhance memory and speed mental processes. It was popular amongst students studying for exams, and amongst armchair philosophers and those in jobs requiring intensive thought. The effect lasts only a short time, leaving the user feeling tired and unfocused afterwards, and they are addictive by design, with withdrawal causing migraines and irritability. Mentat Addiction: A failed addiction roll renders you addicted to Mentats. You increase the difficulty of all CHA tests by +1 whenever you are not under the effects of a type of Mentat (ordinary Mentats, or the Berry, Grape, or Orange versions).",
+      fr:"Les Mentats étaient une drogue récréative et dopante populaire avant la Grande Guerre. Ils améliorent la mémoire et accélèrent le traitement des informations. Ils étaient très utilisés par les étudiants qui se préparaient à leurs examens, par les philosophes à la petite semaine et par ceux occupant des emplois qui nécessitaient beaucoup de réflexion. Les effets ne durent que peu de temps et après la redescente l’utilisateur éprouve fatigue et difficultés à se concentrer. Les Mentats ont délibérément été rendus addictifs et le manque cause des migraines et de l’irritabilité. Dépendance aux Mentats : si vous ratez votre jet de dépendance, vous devenez dépendant aux Mentats. La difficulté de tous vos tests de CHR augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Mentats (les Mentats ordinaires ou les versions fruits rouges, orange ou raisin)."
+    }
+  };
+
+  const descriptionText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&mdash;/g, "—")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set(["MPGzjHEzGF9yW97k","ue9pFVAT1prcq70t","Bomq1g7X0eVXrssc","3ZJaIPmXe788xhiz","hc8DSkMGN2GxugAF"]);
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = byId.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata");
+  }
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " description");
+    }
+    for (const id of recipeIds) assert.match(docs.get(id).system.description, /data-f2d20-recipe="core"/, language + "/" + id + " recipe retained");
+  }
+
+  assert.ok(byId.get("UMI1gGwZLhCGTFVK").certification.descriptionSourcePages.fr.includes(167), "Daddy-O FR continuation retained");
+  assert.ok(byId.get("AcJArmB6p1XrVWL9").certification.descriptionSourcePages.en.includes(167), "Healing Salve EN p.167 retained");
+});
 

@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 168,
-      "sourcePage": 166
+      "pdfPage": 169,
+      "sourcePage": 167
     },
     "fr": {
-      "pdfPage": 169,
-      "sourcePage": 166
+      "pdfPage": 170,
+      "sourcePage": 167
     }
   },
   "pageReviews": [
@@ -2709,6 +2709,22 @@
       "language": "fr",
       "pdfPage": 169,
       "sourcePage": 166,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 169,
+      "sourcePage": 167,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 170,
+      "sourcePage": 167,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -43200,7 +43216,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            167
+          ],
+          "fr": [
+            167
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -43241,7 +43268,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            167
+          ],
+          "fr": [
+            167
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -43282,7 +43320,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            167
+          ],
+          "fr": [
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -43323,7 +43372,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            167
+          ],
+          "fr": [
+            167
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -43364,7 +43424,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            168
+          ],
+          "fr": [
+            167
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -43405,7 +43476,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            168
+          ],
+          "fr": [
+            167
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -43446,7 +43528,19 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            168
+          ],
+          "fr": [
+            167,
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     },
     {
@@ -44116,6 +44210,39 @@
         "errataNote": "Errata V6 contains no Core Rulebook Stimpak Diffuser correction resolving the p.165 versus p.170 conflict.",
         "currentRepositoryUsesP170CostAndCategory": true,
         "repositoryWeightDeferred": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 167,
+      "type": "rule_text",
+      "sourceName": "Ghouls and Chems",
+      "localizedNames": {
+        "fr": "Les goules et les drogues"
+      },
+      "scope": "out_of_scope",
+      "justification": "Species-specific chem interaction guidance modifies existing consumable use rather than defining a standalone reusable Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          167
+        ],
+        "fr": [
+          167
+        ]
+      },
+      "certification": {
+        "healingItemsWorkNormally": true,
+        "radXAndRadAwayHaveNoObviousEffectBecauseRadiationImmune": true,
+        "addictolAndAntibioticsWorkNormally": true,
+        "ghoulsLessLikelyToBecomeAddicted": true,
+        "ghoulsUnaffectedByManyDiseases": true,
+        "otherChemsRequireTwoDosesForEffect": true,
+        "reason": "Ghoul regeneration fixes chem-induced changes too quickly otherwise.",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
       }
     }
   ]

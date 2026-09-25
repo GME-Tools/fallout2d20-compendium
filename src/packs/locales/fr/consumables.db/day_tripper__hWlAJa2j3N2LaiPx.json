@@ -3,7 +3,7 @@
   "_file": "daytripper__hWlAJa2j3N2LaiPx.json",
   "values": {
     "/name": "Daytripper",
-    "/system/description": "<p>Relaxant et hallucinogène léger d’avant-guerre, le Day Tripper offrait une brève échappatoire à la réalité. Il rend détendu mais peu enclin à l’effort physique et fut très populaire durant les tensions précédant les bombes. <strong>Dépendance au Day Tripper :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, augmentez de +1 la difficulté de tous vos tests de CHA et de CHC.</p>",
+    "/system/description": "<p>Un relaxant et un hallucinogène léger d’avant-guerre. Le Daytripper était apprécié des Américains cherchant à s’évader brièvement de la réalité. Le trip qui en résultait rendait les consommateurs plus calmes et détendus, tout en leur rendant l’effort physique désagréable. Beaucoup de groupes sociaux prenaient du Daytripper pendant les périodes de tension de la Grande Guerre, des émeutes de pénurie alimentaire et des problèmes de société en général lors des années précédant la chute des bombes.</p>\n<ul><li><strong>Dépendance au Daytripper:</strong> si vous ratez votre jet de dépendance, vous devenez dépendant au Daytripper. La difficulté de tous vos tests de CHR et de CHA augmente de +1 quand vous n’êtes pas sous l’effet du Daytripper.</li></ul>",
     "/system/effect": "<p>Réduit de 1 la difficulté de vos tests de CHR et de CHA (0 minimum), augmente de +1 la difficulté de vos tests de FOR</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
