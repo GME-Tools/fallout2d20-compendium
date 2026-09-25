@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 150,
-      "sourcePage": 148
+      "pdfPage": 151,
+      "sourcePage": 149
     },
     "fr": {
-      "pdfPage": 151,
-      "sourcePage": 148
+      "pdfPage": 152,
+      "sourcePage": 149
     }
   },
   "pageReviews": [
@@ -2421,6 +2421,22 @@
       "language": "fr",
       "pdfPage": 151,
       "sourcePage": 148,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 151,
+      "sourcePage": 149,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 152,
+      "sourcePage": 149,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -37261,6 +37277,1150 @@
         "errataNote": "Errata V6 contains no Core Rulebook p.148 correction. Its nearby p.146/p.147 entries belong to Wasteland Wanderer and are not applied to Core Robot Armor.",
         "armMeleeDamageBonusDice": 1,
         "armMeleeDamageEffect": "Stun"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "rule_text",
+      "sourceName": "Consumables — use and robot restrictions",
+      "localizedNames": {
+        "fr": "Consommables — utilisation et restrictions des robots"
+      },
+      "scope": "out_of_scope",
+      "justification": "General consumable-use rules are not a standalone reusable Foundry document; their mechanics are retained in the certification inventory.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "consumedOncePerItem": true,
+        "robotsCannotUseConsumablesExcept": [
+          "repair kits",
+          "Stealth Boys"
+        ],
+        "misterHandyBeverageException": "May imbibe/taste beverages but gains no benefits or drawbacks and does not require food or drink.",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.149 correction. Its p.149 entry belongs to the Settlers Guide and is not applicable to Core Consumables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "rule_text",
+      "sourceName": "Irradiated Food and Drink",
+      "localizedNames": {
+        "fr": "Boissons et nourriture irradiées"
+      },
+      "scope": "out_of_scope",
+      "justification": "General irradiation procedure applies to consumable Items rather than being published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "irradiatedConsumptionCombatDice": 1,
+        "effectCausesRadiationDamage": 1,
+        "ignoresEquipmentAndArmorResistance": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.149 correction. Its p.149 entry belongs to the Settlers Guide and is not applicable to Core Consumables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "rule_text",
+      "sourceName": "Food",
+      "localizedNames": {
+        "fr": "Nourriture"
+      },
+      "scope": "out_of_scope",
+      "justification": "General food-use timing rules apply to food consumable Items rather than being published as a standalone document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "typicallyRestoresHealth": true,
+        "mayHaveSecondaryBenefits": true,
+        "cannotConsumeDuringCombat": true,
+        "maxFoodItemsOutsideCombatPerScene": 1,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.149 correction. Its p.149 entry belongs to the Settlers Guide and is not applicable to Core Consumables."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Baked Bloatfly",
+      "localizedNames": {
+        "fr": "Mouche bouffie grillée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "qvvShn56H3E1bb1O",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": "+2 Radiation damage resistance",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 15,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "officialFrenchEffect": "+2 résistance aux dégâts de radiation"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "BlamCo Brand Mac and Cheese",
+      "localizedNames": {
+        "fr": "Macaronis Blamco"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "g2KCQ2KwunOMVBh8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 4,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 10,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Bloatfly Meat",
+      "localizedNames": {
+        "fr": "Viande de mouche bouffie"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.151 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "gKcwpsDkmmUMmxP9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 2,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 8,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Bloodbug Meat",
+      "localizedNames": {
+        "fr": "Viande de tique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.151 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "2Jc0kY7glK0GVaYe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 7,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 8,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Bloodbug Steak",
+      "localizedNames": {
+        "fr": "Steak de tique"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.151 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "gpsiVMF0IkQQiy6A",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 10,
+        "otherEffect": "Max HP +3 until end of following scene",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 18,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "officialFrenchEffect": "+3 PV max jusqu’à la fin de la scène suivante"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Brahmin Meat",
+      "localizedNames": {
+        "fr": "Viande de brahmine"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.151 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "aLYfeWM0Uxv7H1Ax",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 28,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Brain Fungus",
+      "localizedNames": {
+        "fr": "Fausse morille"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "PuL9AevtWz8clHFZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 6,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Canned Dog Food",
+      "localizedNames": {
+        "fr": "Pâtée pour chien"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "gg2H82rn5B2SXOrF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 6,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Carrot",
+      "localizedNames": {
+        "fr": "Carotte"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "8Fv9dZQm5Dax1INF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 3,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Cooked Softshell Meat",
+      "localizedNames": {
+        "fr": "Viande de fangeux grillée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.151 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "xqBDl5Gnc7Q335BN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 9,
+        "otherEffect": "Gain +1 AP at start of next scene",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 40,
+        "rarity": 3,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Corn",
+      "localizedNames": {
+        "fr": "Épi de maïs"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "qeN8bq9CJ3EYwwAE",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 6,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Cram",
+      "localizedNames": {
+        "fr": "Cram"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "zCjOPQmaqITpaspN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 5,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 25,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Crispy Squirrel Bits",
+      "localizedNames": {
+        "fr": "Bouchées d’écureuil croustillantes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table.",
+      "pack": "consumables",
+      "documentId": "vo4udlZQUOjzx402",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": null,
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 6,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Dandy Boy Apples",
+      "localizedNames": {
+        "fr": "Pommes dandy boy"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "e6tIVbIcM6krBmSu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 7,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Deathclaw Egg",
+      "localizedNames": {
+        "fr": "Œuf d’écorcheur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.150 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "wvr60yBKV9FfAMOv",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          150
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 7,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 69,
+        "rarity": 3,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 149,
+      "type": "consumable",
+      "sourceName": "Deathclaw Meat",
+      "localizedNames": {
+        "fr": "Viande d’écorcheur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The FR p.151 counterpart was read only to resolve the official localization encountered from EN p.149; this does not advance FR page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "mGyKuUfzHD8BwTMp",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          149
+        ],
+        "fr": [
+          151
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 9,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 110,
+        "rarity": 3,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Fancy Lads Snack Cakes",
+      "localizedNames": {
+        "fr": "Biscuits Fancy Lads"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "nhavbYpdWvlnL7tR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": 0.5,
+        "cost": 18,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "sourceDiscrepancyRecorded": true,
+        "frenchPrintedWeightKg": 0.5,
+        "canonicalWeightResolution": "Retain the EN-authoritative <1 lb value; the normal FR metric form would be <0.5 kg, so the printed 0.5 kg is not promoted over canonical mechanics."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Razorgrain",
+      "localizedNames": {
+        "fr": "Blé surin"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.151 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "KgKwCYEKl95sQQZN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 5,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Noodle Cup",
+      "localizedNames": {
+        "fr": "Bol de nouilles"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "gezE6P44AYqRQvim",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": null,
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 20,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Sugar Bombs",
+      "localizedNames": {
+        "fr": "Bombes sucrées"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.151 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "KAvEuz7SKIaCWEF8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 4,
+        "otherEffect": "Gain +1 AP at start of next scene",
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 11,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Squirrel Bits",
+      "localizedNames": {
+        "fr": "Bouchées d’écureuil"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.151 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "JoLgVDbxQV3bT11R",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 4,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 4,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Gum Drops",
+      "localizedNames": {
+        "fr": "Boules de gomme"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "vSv5EkpiV6z5XRHh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 5,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Squirrel on a Stick",
+      "localizedNames": {
+        "fr": "Brochette d’écureuil"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.151 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "e9NVSnBtY4oWIam9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 7,
+        "otherEffect": null,
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 15,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Iguana on a Stick",
+      "localizedNames": {
+        "fr": "Brochette d’iguane"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "uxikQYkupNqpmTyR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": null,
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 33,
+        "rarity": 2,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Radroach Meat",
+      "localizedNames": {
+        "fr": "Chair de radcafard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.151 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "i1BhSDEcs5JNub1v",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 4,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 3,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Potato Crisps",
+      "localizedNames": {
+        "fr": "Chips"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "OMWPk4ci2lfZmc6X",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 3,
+        "otherEffect": null,
+        "irradiated": true,
+        "irradiatedCombatDice": 1,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 7,
+        "rarity": 0,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 151,
+      "type": "consumable",
+      "sourceName": "Yao Guai Ribs",
+      "localizedNames": {
+        "fr": "Côtelettes de yao guai"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.151 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "vYcmjWOnJQnrv2gq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          151
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 13,
+        "otherEffect": "+2 Physical damage resistance until end of next scene",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 90,
+        "rarity": 4,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "officialFrenchEffect": "+2 résistance aux dégâts balistiques jusqu’à la fin de la prochaine scène"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Mutt Chops",
+      "localizedNames": {
+        "fr": "Côtes de chien"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "0lnW7AJMNs7SxdpP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 6,
+        "otherEffect": null,
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 12,
+        "rarity": 1,
+        "alcoholic": false,
+        "errataReviewed": true
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 150,
+      "type": "consumable",
+      "sourceName": "Mutant Hound Chops",
+      "localizedNames": {
+        "fr": "Côtes de molosse mutant"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable food consumable identity defined by the Core Food Items table. The EN p.150 counterpart was read only to resolve the identity and EN-authoritative mechanics encountered on FR p.149; this does not advance EN page-certified coverage beyond p.149.",
+      "pack": "consumables",
+      "documentId": "zP8u8sVBiiSGbcTB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          150
+        ],
+        "fr": [
+          149
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 8,
+        "otherEffect": "Heals 2 Radiation damage",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 12,
+        "rarity": 3,
+        "alcoholic": false,
+        "errataReviewed": true,
+        "officialFrenchEffect": "Guérit 2 points de dégâts de radiation"
       }
     }
   ]

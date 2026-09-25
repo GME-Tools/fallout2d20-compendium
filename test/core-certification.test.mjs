@@ -4277,3 +4277,111 @@ test("Core Robot Armor p.148 descriptions and special effects are source-exact",
     }
   }
 });
+
+
+test("Core Consumables p.149 rules and bilingual food rows are source-exact", async () => {
+  const rules = new Map(
+    catalog.entries
+      .filter(entry => entry.page === 149 && entry.type === "rule_text")
+      .map(entry => [entry.sourceName, entry])
+  );
+  assert.deepEqual(
+    new Set(rules.keys()),
+    new Set(["Consumables — use and robot restrictions", "Irradiated Food and Drink", "Food"])
+  );
+  assert.deepEqual(rules.get("Consumables — use and robot restrictions").certification.robotsCannotUseConsumablesExcept, ["repair kits", "Stealth Boys"]);
+  assert.equal(rules.get("Irradiated Food and Drink").certification.irradiatedConsumptionCombatDice, 1);
+  assert.equal(rules.get("Irradiated Food and Drink").certification.effectCausesRadiationDamage, 1);
+  assert.equal(rules.get("Irradiated Food and Drink").certification.ignoresEquipmentAndArmorResistance, true);
+  assert.equal(rules.get("Food").certification.cannotConsumeDuringCombat, true);
+  assert.equal(rules.get("Food").certification.maxFoodItemsOutsideCombatPerScene, 1);
+  for (const rule of rules.values()) {
+    assert.equal(rule.status, "out_of_scope");
+    assert.equal(rule.certification.errataReviewed, true);
+    assert.match(rule.certification.errataNote, /Settlers Guide/);
+  }
+
+  const expected = [
+    ["qvvShn56H3E1bb1O", "Baked Bloatfly", "Mouche bouffie grillée", 149, 150, 6, false, 0, 0, 15, 1, "+2 Radiation damage resistance", "+2 résistance aux dégâts de radiation"],
+    ["g2KCQ2KwunOMVBh8", "BlamCo Brand Mac and Cheese", "Macaronis Blamco", 149, 150, 4, true, 0, 0, 10, 1, "", ""],
+    ["gKcwpsDkmmUMmxP9", "Bloatfly Meat", "Viande de mouche bouffie", 149, 151, 2, true, 0, 0, 8, 0, "", ""],
+    ["2Jc0kY7glK0GVaYe", "Bloodbug Meat", "Viande de tique", 149, 151, 7, true, 0, 0, 8, 1, "", ""],
+    ["gpsiVMF0IkQQiy6A", "Bloodbug Steak", "Steak de tique", 149, 151, 10, false, 0, 0, 18, 2, "Max HP +3 until end of following scene", "+3 PV max jusqu’à la fin de la scène suivante"],
+    ["aLYfeWM0Uxv7H1Ax", "Brahmin Meat", "Viande de brahmine", 149, 151, 3, true, 1, 0.5, 28, 1, "", ""],
+    ["PuL9AevtWz8clHFZ", "Brain Fungus", "Fausse morille", 149, 150, 3, true, 0, 0, 6, 1, "", ""],
+    ["gg2H82rn5B2SXOrF", "Canned Dog Food", "Pâtée pour chien", 149, 150, 3, true, 0, 0, 6, 0, "", ""],
+    ["8Fv9dZQm5Dax1INF", "Carrot", "Carotte", 149, 149, 3, true, 0, 0, 3, 1, "", ""],
+    ["xqBDl5Gnc7Q335BN", "Cooked Softshell Meat", "Viande de fangeux grillée", 149, 151, 9, false, 0, 0, 40, 3, "Gain +1 AP at start of next scene", "Vous gagnez +1 PA au début de la prochaine scène"],
+    ["qeN8bq9CJ3EYwwAE", "Corn", "Épi de maïs", 149, 150, 3, true, 0, 0, 6, 1, "", ""],
+    ["zCjOPQmaqITpaspN", "Cram", "Cram", 149, 150, 5, true, 0, 0, 25, 1, "", ""],
+    ["vo4udlZQUOjzx402", "Crispy Squirrel Bits", "Bouchées d’écureuil croustillantes", 149, 149, 6, false, 0, 0, 6, 2, "", ""],
+    ["e6tIVbIcM6krBmSu", "Dandy Boy Apples", "Pommes dandy boy", 149, 150, 3, true, 0, 0, 7, 0, "", ""],
+    ["wvr60yBKV9FfAMOv", "Deathclaw Egg", "Œuf d’écorcheur", 149, 150, 7, true, 0, 0, 69, 3, "", ""],
+    ["mGyKuUfzHD8BwTMp", "Deathclaw Meat", "Viande d’écorcheur", 149, 151, 9, true, 1, 0.5, 110, 3, "", ""],
+    ["nhavbYpdWvlnL7tR", "Fancy Lads Snack Cakes", "Biscuits Fancy Lads", 150, 149, 3, true, 0, 0, 18, 0, "", ""],
+    ["KgKwCYEKl95sQQZN", "Razorgrain", "Blé surin", 151, 149, 3, true, 0, 0, 5, 1, "", ""],
+    ["gezE6P44AYqRQvim", "Noodle Cup", "Bol de nouilles", 150, 149, 6, false, 0, 0, 20, 2, "", ""],
+    ["KAvEuz7SKIaCWEF8", "Sugar Bombs", "Bombes sucrées", 151, 149, 4, true, 0, 0, 11, 0, "Gain +1 AP at start of next scene", "Vous gagnez +1 PA au début de la prochaine scène"],
+    ["JoLgVDbxQV3bT11R", "Squirrel Bits", "Bouchées d’écureuil", 151, 149, 4, true, 0, 0, 4, 1, "", ""],
+    ["vSv5EkpiV6z5XRHh", "Gum Drops", "Boules de gomme", 150, 149, 3, true, 0, 0, 5, 0, "", ""],
+    ["e9NVSnBtY4oWIam9", "Squirrel on a Stick", "Brochette d’écureuil", 151, 149, 7, false, 0, 0, 15, 2, "", ""],
+    ["uxikQYkupNqpmTyR", "Iguana on a Stick", "Brochette d’iguane", 150, 149, 6, false, 0, 0, 33, 2, "", ""],
+    ["i1BhSDEcs5JNub1v", "Radroach Meat", "Chair de radcafard", 151, 149, 4, true, 0, 0, 3, 0, "", ""],
+    ["OMWPk4ci2lfZmc6X", "Potato Crisps", "Chips", 150, 149, 3, true, 0, 0, 7, 0, "", ""],
+    ["vYcmjWOnJQnrv2gq", "Yao Guai Ribs", "Côtelettes de yao guai", 151, 149, 13, false, 1, 0.5, 90, 4, "+2 Physical damage resistance until end of next scene", "+2 résistance aux dégâts balistiques jusqu’à la fin de la prochaine scène"],
+    ["0lnW7AJMNs7SxdpP", "Mutt Chops", "Côtes de chien", 150, 149, 6, false, 0, 0, 12, 1, "", ""],
+    ["zP8u8sVBiiSGbcTB", "Mutant Hound Chops", "Côtes de molosse mutant", 150, 149, 8, false, 0, 0, 12, 3, "Heals 2 Radiation damage", "Guérit 2 points de dégâts de radiation"]
+  ].map(([id, enName, frName, enPage, frPage, hp, irradiated, enWeight, frWeight, cost, rarity, enEffect, frEffect]) => ({
+    id, enName, frName, enPage, frPage, hp, irradiated, enWeight, frWeight, cost, rarity, enEffect, frEffect
+  }));
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const item of expected) {
+    const entry = catalogById.get(item.id);
+    assert.ok(entry, \`certification entry missing for consumable \${item.id}\`);
+    assert.equal(entry.page, item.enPage, \`\${item.enName} canonical source page\`);
+    assert.deepEqual(entry.sourcePages?.en, [item.enPage], \`\${item.enName} EN coordinate\`);
+    assert.deepEqual(entry.sourcePages?.fr, [item.frPage], \`\${item.enName} FR coordinate\`);
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.hpHealed, item.hp);
+    assert.equal(entry.certification.irradiated, item.irradiated);
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.alcoholic, false);
+    assert.equal(entry.certification.errataReviewed, true);
+  }
+  const fancy = catalogById.get("nhavbYpdWvlnL7tR");
+  assert.equal(fancy.certification.sourceDiscrepancyRecorded, true);
+  assert.equal(fancy.certification.frenchPrintedWeightKg, 0.5);
+  assert.match(fancy.certification.canonicalWeightResolution, /EN-authoritative <1 lb/);
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const language of ["en", "fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({ pack }) => pack === "consumables").map(({ document }) => [document._id, document]));
+    for (const item of expected) {
+      const document = docs.get(item.id);
+      assert.ok(document, \`\${language}/consumables/\${item.id} missing\`);
+      assert.equal(document.name, language === "en" ? item.enName : item.frName, \`\${language}/\${item.enName} name\`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, item.enPage, \`\${language}/\${item.enName} source page\`);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true, \`\${language}/\${item.enName} errata review\`);
+      assert.equal(document.system.hp, item.hp, \`\${language}/\${item.enName} HP\`);
+      assert.equal(document.system.irradiated, item.irradiated, \`\${language}/\${item.enName} irradiated\`);
+      if (item.irradiated) assert.equal(document.system.radiationDamage, 1, \`\${language}/\${item.enName} irradiation damage\`);
+      assert.equal(document.system.alcoholic, false, \`\${language}/\${item.enName} must not be alcoholic\`);
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight, \`\${language}/\${item.enName} weight\`);
+      assert.equal(document.system.cost, item.cost, \`\${language}/\${item.enName} cost\`);
+      assert.equal(document.system.rarity, item.rarity, \`\${language}/\${item.enName} rarity\`);
+      const expectedEffect = language === "en" ? item.enEffect : item.frEffect;
+      assert.equal(plainText(document.system.effect), expectedEffect, \`\${language}/\${item.enName} table effect\`);
+    }
+  }
+});

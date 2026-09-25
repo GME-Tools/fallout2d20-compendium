@@ -7,7 +7,7 @@
   "system": {
     "addiction": 0,
     "addictive": false,
-    "alcoholic": true,
+    "alcoholic": false,
     "butchery": false,
     "consumableType": "food",
     "cost": 10,
@@ -32,10 +32,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated",
-        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Blamco Mac and Cheese (Irr).webp; recorded 2026-09-08"
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Blamco Mac and Cheese (Irr).webp; recorded 2026-09-08",
+        "page": 149
       }
     }
   },

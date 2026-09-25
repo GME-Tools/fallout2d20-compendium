@@ -30,8 +30,8 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–150, through printed/source page 148.
-- FR PDF physical pages 1–151, through printed/source page 148.
+- EN PDF physical pages 1–151, through printed/source page 149.
+- FR PDF physical pages 1–152, through printed/source page 149.
 - Completed editorial sections: front matter, Introduction, Chapters One–Three, and
   Chapter Four through the end of Robot Armor (source pp.84–148), including all
   weapon sections, clothing, conventional armor, Power Armor and Robot Armor.
@@ -218,9 +218,28 @@ Source pp.146–147 are now certified as one Robot Armor table lot. The 35 sourc
 
 Source p.148 is now certified for the six remaining Robot Armor family descriptions and special rules: Serrated Plate, Noxious Plate, Toxic Plate, Actuated Frame, Voltaic Frame and Hydraulic Frame. The official French descriptions replace earlier paraphrases across every stable location variant while retaining each crafting recipe. The EN text was already source-exact. The EN Noxious and Toxic paragraphs both print “arms fitted with serrated plate”; the official FR book instead refers to the matching néfaste/toxique family. Errata V6 does not correct this wording, so the two official locale texts are preserved as printed and the discrepancy is recorded rather than silently normalized.
 
+Source p.149 is now certified as the opening Consumables/Food lot. The page-level
+rules for consumable use, robot restrictions, irradiated food/drink and food timing
+are explicitly inventoried as out of compendium scope. The source-driven table
+inventory contains the 16 EN p.149 food rows and the 15 FR p.149 rows, resolving to
+29 stable bilingual consumable identities after accounting for Carrot/Carotte and
+Crispy Squirrel Bits/Bouchées d’écureuil croustillantes appearing on both pages.
+Later counterpart table rows on EN pp.150–151 and FR pp.150–151 were read only as
+targeted bilingual identity/localization dependencies; those pages are not treated
+as page-certified coverage. All 29 reached food identities now carry exact first EN
+table provenance, an explicit completed errata review and non-alcoholic metadata;
+the three one-pound EN rows are explicitly stored as weight 1. The six reached rows
+with secondary effects use the source-exact EN text and official FR table wording.
+The FR p.149 Fancy Lads row prints 0.5 kg while the EN-authoritative row is <1 lb and
+the normal metric rendering for that value is <0.5 kg; canonical mechanics therefore
+retain the EN value and the printed FR discrepancy is recorded rather than promoted.
+Errata V6 has no Core p.149 correction: its p.149 entry belongs to the Settlers Guide.
+Detailed consumable descriptive prose remains pending until its own source pages are
+reached.
+
 ## Next lot
 
-Continue page-by-page at printed/source p.149, the start of Consumables. Do not re-audit pp.1–148.
+Continue page-by-page at printed/source p.150, continuing the Food Items table and beginning the detailed food descriptions. Do not re-audit pp.1–149.
 
 
 Known later Core suspects to re-check against source rather than assume true:
@@ -249,6 +268,8 @@ Hands and Pyromaniac regressions. Legacy broad provenance ranges are not treated
 exact page evidence until the corresponding perk is source-certified.
 
 The p.148 regression verifies all six remaining Robot Armor family descriptions and special rules across all 36 stable location variants, exact official FR wording, recipe retention, the Voltaic stacking rule, and the printed EN Noxious/Toxic “serrated plate” cross-reference discrepancy.
+
+The p.149 regression verifies the three opening Consumables/Food rule blocks, all 29 bilingual food identities reached from the independently ordered EN/FR p.149 tables plus their targeted later-language counterparts, exact HP/irradiation/weight/cost/rarity/effect fields, explicit non-alcoholic metadata and source provenance, the official French secondary-effect wording, and the recorded Fancy Lads FR weight discrepancy without advancing pp.150–151 page coverage.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

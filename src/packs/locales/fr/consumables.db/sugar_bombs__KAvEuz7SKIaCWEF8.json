@@ -4,7 +4,7 @@
   "values": {
     "/name": "Bombes sucrées",
     "/system/description": "<p>Céréales d’avant-guerre au « goût explosif », en formes de bombes atomiques stylisées couvertes de sucre. Certaines boîtes promettent un cadeau. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
-    "/system/effect": "<p>Gagnez 1 PA au début de la scène suivante.</p>",
+    "/system/effect": "<p>Vous gagnez +1 PA au début de la prochaine scène</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "KAvEuz7SKIaCWEF8",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
