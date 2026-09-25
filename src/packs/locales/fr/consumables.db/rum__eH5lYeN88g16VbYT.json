@@ -4,7 +4,7 @@
   "values": {
     "/name": "Rhum",
     "/system/description": "<p>Alcool obtenu par fermentation puis distillation de mélasse de canne à sucre. Historiquement lié aux traditions navales et maritimes, il se trouve surtout dans les régions côtières proches d’anciens ports, même si peu de navires parcourent encore les mers irradiées.</p>",
-    "/system/effect": "<p>Relancez 1d20 lors des tests d’AGI.</p>",
+    "/system/effect": "<p>Vous pouvez relancer 1d20 sur vos tests d’AGI</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "eH5lYeN88g16VbYT",

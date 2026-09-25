@@ -4,7 +4,7 @@
   "values": {
     "/name": "Poche de sang",
     "/system/description": "<p>Une poche plastique stérile et scellée contenant du sang conservé, utilisée avant la Guerre pour les transfusions. Ce n’est pas la boisson la plus conventionnelle, mais elle peut sauver les désespérés. Certains finissent même par en apprécier le goût.</p>",
-    "/system/weight": 0.05,
+    "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "69jE7Uteh1NARMBL",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,

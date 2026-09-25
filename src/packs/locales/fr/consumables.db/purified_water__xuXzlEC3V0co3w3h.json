@@ -4,7 +4,7 @@
   "values": {
     "/name": "Eau purifiée",
     "/system/description": "<p>Eau débarrassée des contaminants et radiations, trouvée dans des contenants scellés ou produite par filtration et ébullition. Dans les régions arides, cette ressource propre est particulièrement précieuse.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>1</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Fréquente</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.smWip05JhGyTXRU1]{Eau sale} ×3</li></ul></section>",
-    "/system/weight": 0.25,
+    "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "xuXzlEC3V0co3w3h",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,

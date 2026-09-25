@@ -4,7 +4,7 @@
   "values": {
     "/name": "Gnôle des Terres désolées",
     "/system/description": "<p>Boisson extrêmement alcoolisée mêlant whisky, Nuka-Cola et mutfruit. Elle produit les effets habituels de l’alcool, mais bien plus fortement.</p>\n<section data-f2d20-recipe=\"core\"><h3>Recette de fabrication</h3><dl><dt>Établi</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-crafting-stations.Item.CrftCookStation1]{Poste de cuisine}</dd><dt>Complexité</dt><dd>3</dd><dt>Compétence</dt><dd>@UUID[Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ]{Survie}</dd><dt>Aptitudes</dt><dd>Aucune</dd><dt>Rareté</dt><dd>Rare</dd></dl><h4>Matériaux</h4><ul><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.ABPjUugdAt6VthAw]{Fruit mutant} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.Uxxc3gTKcLNpcBLU]{Nuka Cola} ×1</li><li>@UUID[Compendium.fallout2d20-compendium.{language}-consumables.Item.u9KyfdRIzyQhCjnn]{Whisky} ×2</li></ul></section>",
-    "/system/effect": "<p>Réduisez de 1 la difficulté de tous les tests de FOR et augmentez de 2 celle de tous les tests d’INT.</p>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté de tous vos tests de FOR et augmentez de 2 (au total) la difficulté de tous vos tests d’INT</p>",
     "/system/weight": 0.5,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "FZqdiNkmpwz5NBJ3",

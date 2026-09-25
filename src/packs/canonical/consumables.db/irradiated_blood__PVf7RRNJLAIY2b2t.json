@@ -32,10 +32,11 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "dedicated",
-        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Irradiated Blood.webp; recorded 2026-09-08"
+        "artworkSource": "Owner-supplied repository asset: artwork/Consumables/Irradiated Blood.webp; recorded 2026-09-08",
+        "page": 160
       }
     }
   },

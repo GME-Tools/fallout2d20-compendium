@@ -5659,4 +5659,149 @@ test("Core Consumables p.159 bilingual food descriptions are source-exact", asyn
     }
   }
 });
+test("Core Consumables p.160 opens the Beverage Items table source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 162 && catalog.certifiedThrough.en.sourcePage >= 160);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 163 && catalog.certifiedThrough.fr.sourcePage >= 160);
+
+  const rulesByName = new Map(catalog.entries.filter(entry => entry.page === 160 && entry.type === "rule_text").map(entry => [entry.sourceName, entry]));
+  const useRule = rulesByName.get("Beverages — use and scene limit");
+  const durationRule = rulesByName.get("Beverages — effect duration");
+  const alcoholRule = rulesByName.get("Alcoholic beverages and addiction");
+  assert.ok(useRule && durationRule && alcoholRule, "p.160 beverage rule inventory");
+  assert.equal(useRule.status, "out_of_scope");
+  assert.equal(useRule.certification.canConsumeDuringCombat, true);
+  assert.equal(useRule.certification.fullBottleAction, "major");
+  assert.equal(useRule.certification.maxBeveragesPerScene, 1);
+  assert.equal(durationRule.status, "out_of_scope");
+  assert.equal(durationRule.certification.defaultDuration, "until end of current scene");
+  assert.deepEqual(durationRule.certification.instantExceptions, ["HP healed","AP gained","healing Radiation damage","curing addictions"]);
+  assert.equal(alcoholRule.status, "out_of_scope");
+  assert.deepEqual(alcoholRule.certification.untilEndOfSceneReroll1d20On, ["STR","CHA"]);
+  assert.equal(alcoholRule.certification.untilEndOfSceneIntDifficultyIncrease, 1);
+  assert.equal(alcoholRule.certification.addictionCheckCombatDicePerAlcoholicDrinkConsumedThisSession, 1);
+  assert.equal(alcoholRule.certification.addictionThresholdEffects, 2);
+  assert.equal(alcoholRule.certification.addictedDifficultyIncreaseWhenNotUnderAlcohol, 1);
+  assert.deepEqual(alcoholRule.certification.addictedAffectedTests, ["CHA","AGI"]);
+  assert.equal(alcoholRule.certification.partyBoyGirlPreventsAlcoholAddiction, true);
+  assert.deepEqual(alcoholRule.certification.perkReferencePages, {en:69,fr:64});
+  for (const rule of [useRule,durationRule,alcoholRule]) {
+    assert.match(rule.certification.errataNote, /p\.216.?217/, rule.sourceName + " later beverage errata scope");
+  }
+
+  const enP160 = new Set([
+    "UlhNGl3T0UejS5ZW","69jE7Uteh1NARMBL","68eulbmhBZbFJlcs","mk8SR0w1UisPaDy1",
+    "FZqdiNkmpwz5NBJ3","smWip05JhGyTXRU1","YQPVshPe6pooP0zZ","PVf7RRNJLAIY2b2t",
+    "fW1WgqRVyT76erlQ","66gEaC4Wd4cVuutB","Anqgdr6ITj1TUFuj","bq6e2Hcl5CL3jpYU",
+    "Uxxc3gTKcLNpcBLU","KXreAKBJPNwyBwMb","xuXzlEC3V0co3w3h","rj3fi0X9aQNceJF6",
+    "eH5lYeN88g16VbYT","FqwVy0rYtfInhHoH"
+  ]);
+  const frP160 = new Set([
+    "UlhNGl3T0UejS5ZW","rj3fi0X9aQNceJF6","68eulbmhBZbFJlcs","66gEaC4Wd4cVuutB",
+    "xuXzlEC3V0co3w3h","smWip05JhGyTXRU1","FZqdiNkmpwz5NBJ3","Anqgdr6ITj1TUFuj",
+    "FqwVy0rYtfInhHoH","fW1WgqRVyT76erlQ","MlGblqUyUcVhqQLY","mk8SR0w1UisPaDy1",
+    "bq6e2Hcl5CL3jpYU"
+  ]);
+  assert.equal(enP160.size, 18);
+  assert.equal(frP160.size, 13);
+  assert.equal(new Set([...enP160, ...frP160]).size, 19);
+
+  const expected = [
+    ["UlhNGl3T0UejS5ZW","Beer","Bière",160,160,0,false,1,0.5,5,1,true,"",""],
+    ["69jE7Uteh1NARMBL","Blood Pack","Poche de sang",160,161,3,false,0,0,10,2,false,"",""],
+    ["68eulbmhBZbFJlcs","Bourbon","Bourbon",160,160,0,false,1,0.5,7,2,true,"Reroll 1d20 on END tests","Vous pouvez relancer 1d20 sur vos tests d’END"],
+    ["mk8SR0w1UisPaDy1","Brahmin Milk","Lait de brahmine",160,160,1,false,0,0,15,2,false,"Heals 2 Radiation damage","Guérit 2 points de dégâts de radiation"],
+    ["FZqdiNkmpwz5NBJ3","Dirty Wastelander","Gnôle des Terres désolées",160,160,0,false,1,0.5,10,3,true,"Reduce difficulty of all STR tests by 1 and increase difficulty of all INT tests by 2 (in total)","Réduisez de 1 la difficulté de tous vos tests de FOR et augmentez de 2 (au total) la difficulté de tous vos tests d’INT"],
+    ["smWip05JhGyTXRU1","Dirty Water","Eau sale",160,160,2,true,0,0,5,0,false,"",""],
+    ["YQPVshPe6pooP0zZ","Glowing Blood Pack","Poche de sang luminescent",160,161,4,false,0,0,30,3,false,"+5 to Radiation damage resistance","+5 résistance aux dégâts de radiation"],
+    ["PVf7RRNJLAIY2b2t","Irradiated Blood","Sang irradié",160,161,3,true,0,0,50,2,false,"Roll 2 @fos[DC] rather than 1 for determining Radiation damage when consumed","Lancez 2 @fos[DC] au lieu de 1 pour déterminer les dégâts de radiation quand consommé"],
+    ["fW1WgqRVyT76erlQ","Melon Juice","Jus de melon",160,160,3,false,0,0,6,2,false,"Heal 1HP at the start of each turn","Vous guérissez 1 PV au début de chaque tour"],
+    ["66gEaC4Wd4cVuutB","Moonshine","Eau de vie",160,160,0,false,0,0,30,3,true,"+2 Max HP","+2 PV max"],
+    ["Anqgdr6ITj1TUFuj","Mutfruit Juice","Jus de fruit mutant",160,160,3,false,0,0,8,2,false,"Reroll 1d20 on all AGI tests","Vous pouvez relancer 1d20 sur tous vos tests d’AGI"],
+    ["bq6e2Hcl5CL3jpYU","Nuka-Cherry","Nuka Cherry",160,160,3,true,1,0.5,40,3,false,"Immediately gain +2 AP","Gagnez immédiatement +2 PA"],
+    ["Uxxc3gTKcLNpcBLU","Nuka-Cola","Nuka Cola",160,161,2,true,1,0.5,20,2,false,"Immediately gain +1 AP","Gagnez immédiatement +1 PA"],
+    ["KXreAKBJPNwyBwMb","Nuka-Cola Quantum","Nuka Cola Quantum",160,161,10,true,1,0.5,50,5,false,"Immediately gain +5 AP","Gagnez immédiatement +5 PA"],
+    ["xuXzlEC3V0co3w3h","Purified Water","Eau purifiée",160,160,3,false,0,0,20,1,false,"",""],
+    ["rj3fi0X9aQNceJF6","Refreshing Beverage","Boisson rafraîchissante",160,160,11,false,1,0.5,110,5,false,"Heals 10 Radiation damage, Cures all addictions","Guérit 10 points de dégâts de radiation, soigne toutes les dépendances"],
+    ["eH5lYeN88g16VbYT","Rum","Rhum",160,161,0,false,1,0.5,8,2,true,"Reroll 1d20 on AGI tests","Vous pouvez relancer 1d20 sur vos tests d’AGI"],
+    ["FqwVy0rYtfInhHoH","Tarberry Juice","Jus de goudrelle",160,160,3,false,0,0,5,4,false,"Immediately gain +6 AP","Gagnez immédiatement +6 PA"],
+    ["MlGblqUyUcVhqQLY","Tato Juice","Jus de pomate",161,160,3,false,0,0,7,3,false,"Group AP pool can hold 1 AP more than normal","La réserve de PA du groupe peut contenir 1 PA de plus que la normale"]
+  ].map(([id,enName,frName,enPage,frPage,hp,irradiated,enWeight,frWeight,cost,rarity,alcoholic,enEffect,frEffect]) => ({
+    id,enName,frName,enPage,frPage,hp,irradiated,enWeight,frWeight,cost,rarity,alcoholic,enEffect,frEffect
+  }));
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP160) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "missing EN p.160 beverage " + id);
+    assert.ok(entry.sourcePages?.en?.includes(160), "EN p.160 coordinate missing for " + id);
+  }
+  for (const id of frP160) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "missing FR p.160 beverage " + id);
+    assert.ok(entry.sourcePages?.fr?.includes(160), "FR p.160 coordinate missing for " + id);
+  }
+
+  for (const item of expected) {
+    const entry = catalogById.get(item.id);
+    assert.ok(entry, "missing p.160 beverage entry " + item.id);
+    assert.equal(entry.page, item.enPage, item.enName + " canonical source page");
+    assert.deepEqual(entry.sourcePages, {en:[item.enPage],fr:[item.frPage]}, item.enName + " bilingual source coordinates");
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.status, "verified");
+    assert.equal(entry.certification.canonicalMechanicsReviewed, true);
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.hpHealed, item.hp);
+    assert.equal(entry.certification.irradiated, item.irradiated);
+    assert.equal(entry.certification.weightLb, item.enWeight === 0 ? "<1" : item.enWeight);
+    assert.equal(entry.certification.weightFr, item.frWeight === 0 ? "<0.5" : item.frWeight);
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.alcoholic, item.alcoholic);
+    assert.equal(entry.certification.errataReviewed, true);
+    assert.match(entry.certification.errataNote, /p\.216.?217/, item.enName + " later beverage errata scope");
+  }
+
+  const irradiatedBlood = catalogById.get("PVf7RRNJLAIY2b2t");
+  assert.equal(irradiatedBlood.certification.tableIrradiatedColumnCombatDice, 1);
+  assert.equal(irradiatedBlood.certification.radiationDamageOverrideCombatDice, 2);
+  assert.equal(irradiatedBlood.certification.radiationDamageOverrideReviewed, true);
+
+  // FR p.160 begins with two Food-description continuations already certified from
+  // earlier cross-language reads; closing p.160 must retain their exact provenance.
+  const potted = catalogById.get("O8ozF1U9N1ZZ9axl");
+  const yao = catalogById.get("9vI0sFShvxahqMSW");
+  assert.ok(potted.certification.descriptionSourcePages?.fr?.includes(160), "Potted Meat FR p.160 description coordinate");
+  assert.ok(yao.certification.descriptionSourcePages?.fr?.includes(160), "Yao Guai Meat FR p.160 continuation coordinate");
+  assert.match(potted.certification.descriptionErrataNote, /Royal Flush/, "Potted Meat keeps the p.156 errata scope");
+  assert.match(yao.certification.descriptionErrataNote, /no numbered p\.159 entry/, "Yao Guai Meat keeps the p.159 errata review");
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const item of expected) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.name, language === "en" ? item.enName : item.frName);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, item.enPage);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(document.system.consumableType, "beverage", language + "/" + item.enName + " type");
+      assert.equal(document.system.hp, item.hp);
+      assert.equal(document.system.irradiated, item.irradiated);
+      assert.equal(document.system.radiationDamage, item.id === "PVf7RRNJLAIY2b2t" ? 2 : 1);
+      assert.equal(document.system.alcoholic, item.alcoholic);
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight);
+      assert.equal(document.system.cost, item.cost);
+      assert.equal(document.system.rarity, item.rarity);
+      assert.equal(plainText(document.system.effect), language === "en" ? item.enEffect : item.frEffect, language + "/" + item.enName + " table effect");
+    }
+  }
+});
 
