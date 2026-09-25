@@ -6,17 +6,17 @@
   "img": "modules/fallout2d20-compendium/artwork/Consumables/Stimpak Diffuser.webp",
   "system": {
     "addiction": 0,
-    "addictive": "0",
-    "alcoholic": true,
+    "addictive": false,
+    "alcoholic": false,
     "butchery": false,
     "consumableGroup": "",
     "consumableType": "other",
     "cost": 100,
-    "duration": "Instant",
+    "duration": "",
     "favorite": false,
     "group": "",
     "hp": 0,
-    "irradiated": true,
+    "irradiated": false,
     "prepared": false,
     "providesCap": false,
     "quantity": 1,
@@ -33,9 +33,10 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated"
+        "artworkStatus": "dedicated",
+        "page": 170
       }
     }
   },

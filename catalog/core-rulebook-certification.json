@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 171,
-      "sourcePage": 169
+      "pdfPage": 172,
+      "sourcePage": 170
     },
     "fr": {
-      "pdfPage": 172,
-      "sourcePage": 169
+      "pdfPage": 173,
+      "sourcePage": 170
     }
   },
   "pageReviews": [
@@ -2757,6 +2757,22 @@
       "language": "fr",
       "pdfPage": 172,
       "sourcePage": 169,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 172,
+      "sourcePage": 170,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 173,
+      "sourcePage": 170,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -44206,7 +44222,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            170
+          ],
+          "fr": [
+            170
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry."
       }
     },
     {
@@ -44248,7 +44275,18 @@
         "irradiated": false,
         "errataReviewed": true,
         "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
-        "printedEnglishLabel": "Ultra jet"
+        "printedEnglishLabel": "Ultra jet",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            170
+          ],
+          "fr": [
+            170
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry."
       }
     },
     {
@@ -44289,7 +44327,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            170
+          ],
+          "fr": [
+            170
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry."
       }
     },
     {
@@ -44301,12 +44350,12 @@
         "fr": "Diffuseur à Stimpak"
       },
       "scope": "in_scope",
-      "justification": "The EN p.165 Chem Items row conflicts with the later EN p.170 Other Consumables row and the official FR p.170 row. The stable document is retained for the later detailed identity audit; no source value is silently chosen here.",
+      "justification": "The EN p.165 Chem Items row is a genuine printed but internally inconsistent reference. The dedicated EN p.170 Other Consumables table, its adjacent detailed-description section, and the official FR p.170 table all identify the published Stimpak Diffuser as an Other Consumable at cost 100 and 1 lb / 0.5 kg. The p.170 identity is therefore authoritative for the reusable Foundry document while the p.165 conflicting row is preserved here as a certified source discrepancy.",
       "pack": "consumables",
       "documentId": "YbjXflCRhEgdvW0p",
-      "status": "ambiguous",
+      "status": "verified",
       "identityRole": "reference",
-      "certificationScope": "p.165 conflicting table reference only; full Stimpak Diffuser identity is deferred to the p.170 Other Consumables audit.",
+      "certificationScope": "p.165 printed conflicting reference only; the reusable Stimpak Diffuser identity is certified at p.170.",
       "sourcePages": {
         "en": [
           165,
@@ -44342,7 +44391,15 @@
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook Stimpak Diffuser correction resolving the p.165 versus p.170 conflict.",
         "currentRepositoryUsesP170CostAndCategory": true,
-        "repositoryWeightDeferred": true
+        "repositoryWeightDeferred": false,
+        "resolvedAtSourcePage": 170,
+        "resolution": "Use the dedicated p.170 Other Consumables identity for the reusable document; retain the p.165 Chem row only as a documented internal source discrepancy.",
+        "resolutionBasis": [
+          "EN p.170 dedicated Other Consumables table",
+          "EN p.171 detailed Stimpak Diffuser description",
+          "FR p.170 Other Consumables table and detailed Stimpak Diffuser description"
+        ],
+        "currentRepositoryUsesP170Weight": true
       }
     },
     {
@@ -44410,6 +44467,178 @@
         "maximumChemsAppliedThisWayPerFirstAidAction": 1,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no numbered p.169 entry."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 170,
+      "type": "rule_text",
+      "sourceName": "Other Consumables",
+      "localizedNames": {
+        "fr": "Autres consommables"
+      },
+      "scope": "out_of_scope",
+      "justification": "The introductory category statement explains the following consumable table rather than defining a standalone reusable Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          170
+        ],
+        "fr": [
+          170
+        ]
+      },
+      "certification": {
+        "categoryPurpose": "Consumables that do not fit the Food, Beverage, or Chem categories above.",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered p.170 entry."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 170,
+      "type": "consumable",
+      "sourceName": "Robot Repair Kit",
+      "localizedNames": {
+        "fr": "Kit de réparation de robot"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Other Consumable identity defined by the Core p.170 Other Consumables table.",
+      "pack": "consumables",
+      "documentId": "RXpTSDERvwv1nuZ5",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          170
+        ],
+        "fr": [
+          170
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "other",
+        "effect": "Heal 4 HP to a Robot or Power Armor (see description)",
+        "officialFrenchEffect": "Guérit 4 PV pour un robot ou une armure assistée (voir description)",
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 48,
+        "rarity": 2,
+        "addictive": false,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered p.170 entry.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            171
+          ],
+          "fr": [
+            170,
+            171
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry. Targeted p.171 counterpart reading does not advance the p.171 certified boundary."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 170,
+      "type": "consumable",
+      "sourceName": "Stealth Boy",
+      "localizedNames": {
+        "fr": "Stealth Boy"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Other Consumable identity defined by the Core p.170 Other Consumables table.",
+      "pack": "consumables",
+      "documentId": "1yXCbQZHNLtwuPcT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          170
+        ],
+        "fr": [
+          170
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "other",
+        "effect": "Invisibility (see description)",
+        "officialFrenchEffect": "Invisibilité (voir description)",
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 100,
+        "rarity": 3,
+        "addictive": false,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered p.170 entry.",
+        "descriptionReviewed": false,
+        "descriptionDeferredToSourcePage": 171
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 170,
+      "type": "consumable",
+      "sourceName": "Stimpak Diffuser",
+      "localizedNames": {
+        "fr": "Diffuseur à Stimpak"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Other Consumable identity defined by the dedicated p.170 table and detailed section; the conflicting EN p.165 Chem-row reference remains separately recorded.",
+      "pack": "consumables",
+      "documentId": "YbjXflCRhEgdvW0p",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          170
+        ],
+        "fr": [
+          170
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "consumableType": "other",
+        "effect": "Heals 4 HP to all within Close range",
+        "officialFrenchEffect": "Guérit 4 PV pour tous les personnages à portée courte",
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 100,
+        "rarity": 5,
+        "addictive": false,
+        "alcoholic": false,
+        "irradiated": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered p.170 entry.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            171
+          ],
+          "fr": [
+            170
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry. Targeted p.171 counterpart reading does not advance the p.171 certified boundary.",
+        "internalSourceConflictReviewed": true,
+        "p165ConflictingChemRow": {
+          "weightLb": "<1",
+          "cost": 200
+        },
+        "resolution": "The dedicated p.170 Other Consumables table and bilingual detailed identity control the reusable document."
       }
     }
   ]

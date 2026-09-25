@@ -2,7 +2,7 @@
   "_key": "!items!28PbGcZHEDssWMfB",
   "_file": "x_cell__28PbGcZHEDssWMfB.json",
   "values": {
-    "/system/description": "<p>Améliorateur général de performances encore en développement avant la Grande Guerre. Inachevés, ses prototypes circulèrent au marché noir puis parmi les récupérateurs. Il améliore toutes les capacités pendant quelques minutes, mais provoque une dépendance extrême et un manque tout aussi étendu. <strong>Dépendance au X-Cell :</strong> un jet de dépendance raté vous rend dépendant. Hors de ses effets, augmentez de +1 la difficulté de tous vos tests.</p>",
+    "/system/description": "<p>Le X-Cell était un dopant générique encore en développement avant la Grande Guerre. Le développement ne fut jamais terminé, mais des prototypes ont été distribués sur le marché noir et par des gens ayant fouillé les installations après la Guerre. Le X-Cell améliore toutes les capacités de l’utilisateur pendant quelques minutes, mais il est extrêmement addictif et les symptômes de manque sont aussi massifs que les effets.</p>\n<ul><li><strong>Dépendance au X-Cell:</strong> si vous ratez votre jet de dépendance, vous devenez dépendant au X-Cell. La difficulté de tous vos tests augmente de +1 quand vous n’êtes pas sous l’effet du X-Cell.</li></ul>",
     "/system/effect": "<p>Le premier d20 acheté sur tous vos tests est gratuit</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",

@@ -2,7 +2,7 @@
 
 - Current release: `1.2.0`, tag `v1.2.0`.
 - Qualified V1.2.0 matrix: Foundry 14.367, Fallout 11.17.1, Node 24.20.0.
-- Active work: exhaustive Core Rulebook certification; source pages 1–169 are the current certified boundary and p.170 is the next lot; the Stimpak Diffuser p.165/p.170 source conflict is explicitly deferred to the p.170 audit.
+- Active work: exhaustive Core Rulebook certification; source pages 1–170 are the current certified boundary and p.171 is the next lot; the Stimpak Diffuser p.165/p.170 source conflict is resolved in favor of the dedicated bilingual p.170 Other Consumables identity while retaining the p.165 discrepancy.
 - Astoundingly Awesome Tales issues 1–7 remediation is paused while Core certification is active.
 - Temporary work checklist: [`docs/WORK.md`](WORK.md).
 - V1.2.0 was released with an explicit owner waiver for known AAT completeness,

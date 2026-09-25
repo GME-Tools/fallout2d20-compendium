@@ -6363,7 +6363,9 @@ test("Core Consumables p.165 closes the Chem Items table source-exact", async ()
   assert.equal(frP165.size, 23);
   assert.equal(new Set([...enP165, ...frP165]).size, 26);
   for (const id of enP165) {
-    const entry = catalogById.get(id);
+    const entry = id === "YbjXflCRhEgdvW0p"
+      ? catalog.entries.find(candidate => candidate.page === 165 && candidate.documentId === id && candidate.identityRole === "reference")
+      : catalogById.get(id);
     assert.ok(entry, "EN p.165 row missing for " + id);
     assert.ok(entry.sourcePages?.en?.includes(165), "EN p.165 coordinate missing for " + id);
   }
@@ -6441,9 +6443,13 @@ test("Core Consumables p.165 closes the Chem Items table source-exact", async ()
     }
   }
 
-  const diffuser = catalogById.get("YbjXflCRhEgdvW0p");
+  const diffuser = catalog.entries.find(entry =>
+    entry.page === 165 &&
+    entry.documentId === "YbjXflCRhEgdvW0p" &&
+    entry.identityRole === "reference"
+  );
   assert.ok(diffuser, "Stimpak Diffuser p.165 reference missing");
-  assert.equal(diffuser.status, "ambiguous");
+  assert.equal(diffuser.status, "verified");
   assert.equal(diffuser.identityRole, "reference");
   assert.equal(diffuser.certification.internalSourceConflict, true);
   assert.deepEqual(diffuser.certification.p165ChemRow, {
@@ -6456,8 +6462,11 @@ test("Core Consumables p.165 closes the Chem Items table source-exact", async ()
     effect:"Guérit 4 PV pour tous les personnages à portée courte",weightKg:0.5,cost:100,rarity:5
   });
   assert.equal(diffuser.certification.deferredToSourcePage, 170);
+  assert.equal(diffuser.certification.resolvedAtSourcePage, 170);
+  assert.match(diffuser.certification.resolution, /dedicated p\.170 Other Consumables identity/);
   assert.equal(diffuser.certification.currentRepositoryUsesP170CostAndCategory, true);
-  assert.equal(diffuser.certification.repositoryWeightDeferred, true);
+  assert.equal(diffuser.certification.repositoryWeightDeferred, false);
+  assert.equal(diffuser.certification.currentRepositoryUsesP170Weight, true);
   assert.match(diffuser.certification.errataNote, /no Core Rulebook Stimpak Diffuser correction/);
 
   for (const language of ["en","fr"]) {
@@ -6855,6 +6864,144 @@ test("Core Consumables p.169 continues chem descriptions source-exact", async ()
     const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
     for (const [id,spec] of Object.entries(specs)) {
       assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " description");
+    }
+    for (const id of recipeIds) {
+      assert.match(docs.get(id).system.description, /data-f2d20-recipe="core"/, language + "/" + id + " recipe retained");
+    }
+  }
+});
+test("Core Consumables p.170 closes chems and certifies Other Consumables", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 172 && catalog.certifiedThrough.en.sourcePage >= 170);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 173 && catalog.certifiedThrough.fr.sourcePage >= 170);
+
+  const byId = new Map(catalog.entries.filter(entry => entry.pack === "consumables" && entry.status === "verified").map(entry => [entry.documentId, entry]));
+
+  const intro = catalog.entries.find(entry => entry.page === 170 && entry.type === "rule_text" && entry.sourceName === "Other Consumables");
+  assert.ok(intro, "p.170 Other Consumables intro inventory");
+  assert.equal(intro.status, "out_of_scope");
+  assert.deepEqual(intro.sourcePages, {en:[170],fr:[170]});
+  assert.match(intro.certification.categoryPurpose, /do not fit the Food, Beverage, or Chem categories/);
+  assert.match(intro.certification.errataNote, /no numbered p\.170 entry/);
+
+  const otherIds = new Set(["RXpTSDERvwv1nuZ5","1yXCbQZHNLtwuPcT","YbjXflCRhEgdvW0p"]);
+  assert.equal(otherIds.size, 3);
+  const expectedOther = [
+    ["RXpTSDERvwv1nuZ5","Robot Repair Kit","Kit de réparation de robot","Heal 4 HP to a Robot or Power Armor (see description)","Guérit 4 PV pour un robot ou une armure assistée (voir description)",0,0,48,2],
+    ["1yXCbQZHNLtwuPcT","Stealth Boy","Stealth Boy","Invisibility (see description)","Invisibilité (voir description)",1,0.5,100,3],
+    ["YbjXflCRhEgdvW0p","Stimpak Diffuser","Diffuseur à Stimpak","Heals 4 HP to all within Close range","Guérit 4 PV pour tous les personnages à portée courte",1,0.5,100,5]
+  ].map(([id,enName,frName,enEffect,frEffect,enWeight,frWeight,cost,rarity]) => ({
+    id,enName,frName,enEffect,frEffect,enWeight,frWeight,cost,rarity
+  }));
+
+  const plainText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const item of expectedOther) {
+    const entry = catalog.entries.find(candidate => candidate.page === 170 && candidate.type === "consumable" && candidate.documentId === item.id);
+    assert.ok(entry, "p.170 Other Consumable missing " + item.id);
+    assert.equal(entry.status, "verified");
+    assert.deepEqual(entry.sourcePages, {en:[170],fr:[170]});
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.consumableType, "other");
+    assert.equal(entry.certification.effect, item.enEffect);
+    assert.equal(entry.certification.officialFrenchEffect, item.frEffect);
+    assert.equal(entry.certification.weightLb, item.enWeight === 0 ? "<1" : item.enWeight);
+    assert.equal(entry.certification.weightFr, item.frWeight === 0 ? "<0.5" : item.frWeight);
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.addictive, false);
+    assert.equal(entry.certification.alcoholic, false);
+    assert.equal(entry.certification.irradiated, false);
+    assert.match(entry.certification.errataNote, /no numbered p\.170 entry/);
+  }
+
+  const diffuserRef = catalog.entries.find(entry => entry.page === 165 && entry.documentId === "YbjXflCRhEgdvW0p" && entry.identityRole === "reference");
+  assert.ok(diffuserRef, "resolved p.165 Stimpak Diffuser reference");
+  assert.equal(diffuserRef.status, "verified");
+  assert.equal(diffuserRef.certification.internalSourceConflict, true);
+  assert.equal(diffuserRef.certification.resolvedAtSourcePage, 170);
+  assert.match(diffuserRef.certification.resolution, /dedicated p\.170 Other Consumables identity/);
+  assert.deepEqual(diffuserRef.certification.resolutionBasis, [
+    "EN p.170 dedicated Other Consumables table",
+    "EN p.171 detailed Stimpak Diffuser description",
+    "FR p.170 Other Consumables table and detailed Stimpak Diffuser description"
+  ]);
+
+  const descriptionSpecs = {
+    "PT1qFvfqES9PgAHY":{
+      pages:{en:[170],fr:[170]},
+      en:"A super Stimpak is an enhanced version of the standard Stimpak, with an additional vial of medicine and a leather strap to secure the needle to the patient’s arm during treatment. A more potent cocktail of medication is used in a super Stimpak, allowing it to heal much more effectively. Use: A super Stimpak can be used in one of two ways: it can be applied using the Take Chem minor action, healing 8 HP or treating up to two Injuries immediately, or it can be applied as part of a First Aid action, healing 8 HP or treating up to two Injuries in addition to any other healing done.",
+      fr:"Un Super Stimpak est une version améliorée du Stimpak standard, avec une fiole de médicament supplémentaire et une lanière de cuir pour fixer fermement l’aiguille dans le bras du patient pendant le traitement. Un Super Stimpak utilise un cocktail de médicaments plus puissants, ce qui lui permet de guérir bien plus efficacement. Utilisation: un Super Stimpak peut être utilisé de deux façons: il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant 8 PV ou traitant jusqu’à deux blessures immédiatement, ou il peut être appliqué dans le cadre d’une action porter secours, guérissant 8 PV ou traitant jusqu’à deux blessures en plus de tout autre effet de guérison."
+    },
+    "jhYtRwmXiTvaMuvY":{
+      pages:{en:[170],fr:[170]},
+      en:"An extremely concentrated form of Jet, it is significantly more potent, and affects Ghouls as easily as it does humans due to its potency. Ultra Jet Addiction: A failed addiction roll renders you addicted to Ultra Jet. You increase the difficulty of all AGI tests by +1, and you generate one fewer AP whenever you succeed at a skill test (minimum 0) whenever you are not under the effects of Ultra Jet. This addiction is permanent and cannot be cured by any known means.",
+      fr:"Une forme de Jet extrêmement concentrée, significativement plus puissante, qui fait effet sur les goules aussi facilement que sur les humains. Dépendance à l’Ultra Jet : si vous ratez votre jet de dépendance, vous devenez dépendant à l’Ultra Jet. La difficulté de tous vos tests d’AGI augmente de +1 et, si vous réussissez un test de compétence, vous générez 1 PA de moins (0 minimum) quand vous n’êtes pas sous l’effet de l’Ultra Jet. Cette dépendance est permanente et ne peut être soignée par aucun moyen connu."
+    },
+    "28PbGcZHEDssWMfB":{
+      pages:{en:[170],fr:[170]},
+      en:"X-cell was a general-purpose performance enhancer still being developed before the Great War. Development was never finished, but prototype versions were distributed through the black market and by scavengers after the War. It enhances all aspects of a user’s abilities for a few minutes, but it is extremely addictive, and the withdrawal symptoms are as far-reaching as the effects. X-Cell Addiction: A failed addiction roll renders you addicted to X-Cell. You increase the difficulty of all tests by +1 whenever you are not under the effects of X-Cell.",
+      fr:"Le X-Cell était un dopant générique encore en développement avant la Grande Guerre. Le développement ne fut jamais terminé, mais des prototypes ont été distribués sur le marché noir et par des gens ayant fouillé les installations après la Guerre. Le X-Cell améliore toutes les capacités de l’utilisateur pendant quelques minutes, mais il est extrêmement addictif et les symptômes de manque sont aussi massifs que les effets. Dépendance au X-Cell: si vous ratez votre jet de dépendance, vous devenez dépendant au X-Cell. La difficulté de tous vos tests augmente de +1 quand vous n’êtes pas sous l’effet du X-Cell."
+    },
+    "RXpTSDERvwv1nuZ5":{
+      pages:{en:[171],fr:[170,171]},
+      en:"A device which can help to repair and reactivate damaged robots or Power Armor. Most robots have internal self-diagnostic and repair protocols, which are activated when the robot performs repairs or is repaired by someone else. A robot repair kit helps jump-start and accelerate these protocols. Use: A robot repair kit can be used in one of two ways: it can be applied using the Take Chem minor action, healing 4 HP or treating an Injury immediately, or it can be applied as part of a First Aid action, healing 4 HP or treating an Injury in addition to any other healing done. As with any repairs to a robot or Power Armor, this is done using the Repair skill rather than the Medicine skill, but the actions used are otherwise the same.",
+      fr:"Un appareil qui peut aider à réparer et à réactiver les robots ou les armures assistées endommagés. La plupart des robots ont des protocoles d’autodiagnostic et de réparation internes, lesquels s’activent quand le robot effectue des réparations ou se fait réparer par quelqu’un d’autre. Un kit de réparation de robot aide à lancer rapidement et accélérer ces protocoles. Utilisation: un kit de réparation de robot peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant 4 PV ou traitant une blessure immédiatement ou il peut être appliqué dans le cadre d’une action porter secours, guérissant 4 PV ou traitant une blessure en plus de tout autre effet de guérison. Comme pour n’importe quelle autre réparation d’un robot ou d’une armure assistée, celle-ci fait appel à la compétence Réparation et non à la compétence Médecine, mais en dehors de cela, les actions utilisées sont les mêmes."
+    },
+    "YbjXflCRhEgdvW0p":{
+      pages:{en:[171],fr:[170]},
+      en:"This delivery mechanism allows the contents of a super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area. Use: When deployed, using the Interact minor action, it produces a cloud which immediately heals 4 HP on everyone (other than robots) within Close range. One super Stimpak is consumed every time the Stimpak diffuser is used.",
+      fr:"Ce mécanisme de diffusion permet au contenu d’un Super Stimpak d’être dispersé dans l’air sous forme de nuage d’aérosol, générant un brouillard de vapeur médicinale sur une petite zone. Utilisation: quand il est déployé en utilisant l’action mineure interagir, le diffuseur à Stimpak produit un nuage qui guérit immédiatement 4 PV pour tous ceux qui se trouvent à portée courte (sauf les robots). Chaque fois que le diffuseur à Stimpak est utilisé, il consomme un Super Stimpak."
+    }
+  };
+
+  const descriptionText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&mdash;/g, "—")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const [id,spec] of Object.entries(descriptionSpecs)) {
+    const entry = byId.get(id);
+    assert.ok(entry, "p.170 description entry missing " + id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata");
+  }
+  assert.ok(byId.get("860ofdvpufUzSqE7").certification.descriptionSourcePages.en.includes(170), "Stimpak EN p.170 continuation retained");
+  assert.equal(byId.get("1yXCbQZHNLtwuPcT").certification.descriptionReviewed, false, "Stealth Boy description deferred to p.171");
+  assert.equal(byId.get("1yXCbQZHNLtwuPcT").certification.descriptionDeferredToSourcePage, 171);
+
+  const recipeIds = new Set(["jhYtRwmXiTvaMuvY","RXpTSDERvwv1nuZ5"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const item of expectedOther) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.name, language === "en" ? item.enName : item.frName);
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, 170);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(document.system.consumableType, "other");
+      assert.equal(document.system.addictive, false);
+      assert.equal(document.system.alcoholic, false);
+      assert.equal(document.system.irradiated, false);
+      assert.equal(document.system.cost, item.cost);
+      assert.equal(document.system.rarity, item.rarity);
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight);
+      assert.equal(plainText(document.system.effect), language === "en" ? item.enEffect : item.frEffect, language + "/" + item.enName + " table effect");
+    }
+    for (const [id,spec] of Object.entries(descriptionSpecs)) {
+      assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " source description");
     }
     for (const id of recipeIds) {
       assert.match(docs.get(id).system.description, /data-f2d20-recipe="core"/, language + "/" + id + " recipe retained");

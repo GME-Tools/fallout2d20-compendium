@@ -2,7 +2,7 @@
   "_key": "!items!PT1qFvfqES9PgAHY",
   "_file": "super_stimpak__PT1qFvfqES9PgAHY.json",
   "values": {
-    "/system/description": "<p>Version améliorée du Stimpak dotée d’un flacon supplémentaire et d’une sangle maintenant l’aiguille au bras, son cocktail plus puissant soigne bien davantage. <strong>Utilisation :</strong> par l’action mineure Prendre une drogue, il soigne immédiatement 8 Santé ou jusqu’à deux Blessures ; pendant une action de Premiers secours, il soigne 8 Santé ou jusqu’à deux Blessures en plus des autres soins.</p>",
+    "/system/description": "<p>Un Super Stimpak est une version améliorée du Stimpak standard, avec une fiole de médicament supplémentaire et une lanière de cuir pour fixer fermement l’aiguille dans le bras du patient pendant le traitement. Un Super Stimpak utilise un cocktail de médicaments plus puissants, ce qui lui permet de guérir bien plus efficacement.</p>\n<ul><li><strong>Utilisation:</strong> un Super Stimpak peut être utilisé de deux façons: il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant 8 PV ou traitant jusqu’à deux blessures immédiatement, ou il peut être appliqué dans le cadre d’une action porter secours, guérissant 8 PV ou traitant jusqu’à deux blessures en plus de tout autre effet de guérison.</li></ul>",
     "/system/effect": "<p>Guérit 8 PV (voir description)</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
