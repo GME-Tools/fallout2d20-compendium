@@ -6659,4 +6659,103 @@ test("Core Consumables p.167 continues chem descriptions source-exact", async ()
   assert.ok(byId.get("UMI1gGwZLhCGTFVK").certification.descriptionSourcePages.fr.includes(167), "Daddy-O FR continuation retained");
   assert.ok(byId.get("AcJArmB6p1XrVWL9").certification.descriptionSourcePages.en.includes(167), "Healing Salve EN p.167 retained");
 });
+test("Core Consumables p.168 continues chem descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 170 && catalog.certifiedThrough.en.sourcePage >= 168);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 171 && catalog.certifiedThrough.fr.sourcePage >= 168);
+
+  const byId = new Map(catalog.entries.filter(entry => entry.pack === "consumables" && entry.status === "verified").map(entry => [entry.documentId, entry]));
+  const enP168 = new Set([
+    "3ZJaIPmXe788xhiz","pV3wtJn1fqwTcBMj","hc8DSkMGN2GxugAF",
+    "Efc2oDGC3pdttSJF","RcNc9VxnJn25PmUF","r464WdcRwusnzFtm"
+  ]);
+  const frP168 = new Set([
+    "hc8DSkMGN2GxugAF","RkEPnMsHQmgy4olE","Efc2oDGC3pdttSJF","ue9pFVAT1prcq70t",
+    "RcNc9VxnJn25PmUF","r464WdcRwusnzFtm","NE0ZUJrG0TMiG5f9","ukyP2t9KtJiQ7uP6"
+  ]);
+  assert.equal(enP168.size, 6);
+  assert.equal(frP168.size, 8);
+  assert.equal(new Set([...enP168, ...frP168]).size, 10);
+
+  for (const id of enP168) {
+    const entry = byId.get(id);
+    assert.ok(entry, "EN p.168 chem description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(168), "EN p.168 description coordinate missing for " + id);
+  }
+  for (const id of frP168) {
+    const entry = byId.get(id);
+    assert.ok(entry, "FR p.168 chem description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(168), "FR p.168 description coordinate missing for " + id);
+  }
+
+  const specs = {
+    "Efc2oDGC3pdttSJF":{
+      pages:{en:[168],fr:[168]},
+      en:"A variant of Mentats which heighten awareness and sensory acuity. Mentat Addiction: A failed addiction roll renders you addicted to Mentats. You increase the difficulty of all CHA tests by +1 whenever you are not under the effects of a type of Mentat (ordinary Mentats, or the Berry, Grape, or Orange versions).",
+      fr:"Une variante des Mentats qui augmente la vigilance et l’acuité sensorielle. Dépendance aux Mentats : si vous ratez votre jet de dépendance, vous devenez dépendant aux Mentats. La difficulté de tous vos tests de CHR augmente de +1 quand vous n’êtes pas sous l’effet d’un type de Mentats (les Mentats ordinaires ou les versions fruits rouges, orange ou raisin)."
+    },
+    "RcNc9VxnJn25PmUF":{
+      pages:{en:[168],fr:[168]},
+      en:"An enhanced form of Psycho which massively stimulates aggression, making the user more dangerous in combat. Overdrive Addiction: A failed addiction roll renders you addicted to Overdrive. You increase the difficulty of all STR and AGI tests by +1 whenever you are not under the effects of Overdrive.",
+      fr:"Une forme plus puissante de Psycho qui stimule énormément l’agressivité, rendant l’utilisateur plus dangereux en combat. Dépendance à l’Overdrive: si vous ratez votre jet de dépendance, vous devenez dépendant à l’Overdrive. La difficulté de tous vos tests de FOR et d’AGI augmente de +1 quand vous n’êtes pas sous l’effet de l’Overdrive."
+    },
+    "r464WdcRwusnzFtm":{
+      pages:{en:[168],fr:[168]},
+      en:"A potent combat stimulant created by the U.S. Army to enhance the effectiveness of their soldiers. It’s still common in the wasteland, as the post-War plant Hubflower has proven to replicate several of the ingredients of the pre-War version. Psycho stimulates aggression and dulls pain receptors, allowing the user to fight harder with less care for their own safety. Psycho Addiction: A failed addiction roll renders you addicted to Psycho. You increase the difficulty of all STR tests by +1 and suffer +1 @fos[DC] damage from all physical attacks whenever you are not under the effects of a type of Psycho (ordinary Psycho, Psycho Jet, Psychobuff, or Psychotats).",
+      fr:"Un puissant stimulant de combat créé par l’armée des États-Unis pour améliorer l’efficacité de ses soldats. Il est encore répandu dans les Terres désolées, car il se trouve que l’axidée, une fleur apparue après la Guerre, peut remplacer plusieurs des ingrédients de la version d’avant-guerre. Le Psycho augmente l’agressivité et émousse la perception de la douleur, permettant à l’utilisateur de se battre plus violemment en se souciant moins de sa propre sécurité. Dépendance au Psycho: si vous ratez votre jet de dépendance, vous devenez dépendant au Psycho. La difficulté de tous vos tests de FOR augmente de +1 et vous subissez +1 @fos[DC] de dégâts sur toutes les attaques balistiques quand vous n’êtes pas sous l’effet d’un type de Psycho (le Psycho ordinaire, le Psycho Jet, le Psychobuff ou les Psychotats)."
+    },
+    "NE0ZUJrG0TMiG5f9":{
+      pages:{en:[169],fr:[168]},
+      en:"A highly addictive cocktail of Psycho and Buffout steroids, combining the effects of the two drugs to produce a period of extreme strength, durability, and aggression. Psycho Addiction: A failed addiction roll renders you addicted to Psycho. You increase the difficulty of all STR tests by +1 and suffer +1 @fos[DC] damage from all physical attacks whenever you are not under the effects of a type of Psycho (ordinary Psycho, Psycho Jet, Psychobuff, or Psychotats).",
+      fr:"Un cocktail très addictif de Psycho et des stéroïdes du Buffout, combinant les effets des deux drogues pour donner une période de force, de résistance et d’agressivité extrême. Dépendance au Psycho: si vous ratez votre jet de dépendance, vous devenez dépendant au Psycho. La difficulté de tous vos tests de FOR augmente de +1 et vous subissez +1 @fos[DC] de dégâts sur toutes les attaques balistiques quand vous n’êtes pas sous l’effet d’un type de Psycho (le Psycho ordinaire, le Psycho Jet, le Psychobuff ou les Psychotats)."
+    },
+    "ukyP2t9KtJiQ7uP6":{
+      pages:{en:[169],fr:[168,169]},
+      en:"A powerful, addictive cocktail of Psycho and Jet, which enhances aggression, dulls pain, and augment’s a target’s reflexes and energy levels. The effect lasts only for a short while—under a minute—but the effects are always an explosive burst of extreme violence. Psycho Addiction: A failed addiction roll renders you addicted to Psycho. You increase the difficulty of all STR tests by +1 and suffer +1 @fos[DC] damage from all physical attacks whenever you are not under the effects of a type of Psycho (ordinary Psycho, Psycho Jet, Psychobuff, or Psychotats).",
+      fr:"Un puissant cocktail très addictif de Psycho et de Jet qui stimule l’agressivité, émousse la douleur et augmente les réflexes et l’énergie de l’utilisateur. L’effet ne dure que pendant une très courte période (moins d’une minute), mais c’est toujours une explosion de violence extrême. Dépendance au Psycho: si vous ratez votre jet de dépendance, vous devenez dépendant au Psycho. La difficulté de tous vos tests de FOR augmente de +1 et vous subissez +1 @fos[DC] de dégâts sur toutes les attaques balistiques quand vous n’êtes pas sous l’effet d’un type de Psycho (le Psycho ordinaire, le Psycho Jet, le Psychobuff ou les Psychotats)."
+    }
+  };
+
+  const descriptionText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&mdash;/g, "—")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = byId.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata");
+    assert.match(entry.certification.descriptionErrataNote, /Settlers Guide Book/, id + " p.168 errata scope");
+    if (spec.pages.en.includes(169) || spec.pages.fr.includes(169)) {
+      assert.match(entry.certification.descriptionErrataNote, /no numbered p\.169 entry/, id + " p.169 targeted read errata review");
+    }
+  }
+
+  const priorNotes = [
+    ["3ZJaIPmXe788xhiz",/no Core Rulebook p\.167 correction/],
+    ["pV3wtJn1fqwTcBMj",/no Core Rulebook p\.167 correction/],
+    ["hc8DSkMGN2GxugAF",/no Core Rulebook p\.167 correction/],
+    ["RkEPnMsHQmgy4olE",/no Core Rulebook p\.166 correction/],
+    ["ue9pFVAT1prcq70t",/no Core Rulebook p\.167 correction/]
+  ];
+  for (const [id,prior] of priorNotes) {
+    const note = byId.get(id).certification.descriptionErrataNote;
+    assert.match(note, prior, id + " prior errata note retained");
+    assert.match(note, /Settlers Guide Book/, id + " p.168 errata scope appended");
+  }
+
+  const recipeIds = new Set(Object.keys(specs));
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " description");
+      assert.match(docs.get(id).system.description, /data-f2d20-recipe="core"/, language + "/" + id + " recipe retained");
+    }
+  }
+});
 

@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 169,
-      "sourcePage": 167
+      "pdfPage": 170,
+      "sourcePage": 168
     },
     "fr": {
-      "pdfPage": 170,
-      "sourcePage": 167
+      "pdfPage": 171,
+      "sourcePage": 168
     }
   },
   "pageReviews": [
@@ -2725,6 +2725,22 @@
       "language": "fr",
       "pdfPage": 170,
       "sourcePage": 167,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 170,
+      "sourcePage": 168,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 171,
+      "sourcePage": 168,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -42810,7 +42826,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.166 correction applicable to these chem descriptions. Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43331,7 +43347,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar. Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43435,7 +43451,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar. Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43487,7 +43503,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar. Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43540,7 +43556,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar."
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.167 correction applicable to these chem descriptions or the Ghouls and Chems sidebar. Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43581,7 +43597,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            168
+          ],
+          "fr": [
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43622,7 +43649,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            168
+          ],
+          "fr": [
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43663,7 +43701,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            168
+          ],
+          "fr": [
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies."
       }
     },
     {
@@ -43704,7 +43753,19 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            169
+          ],
+          "fr": [
+            168,
+            169
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies. Errata V6 contains no numbered p.169 entry."
       }
     },
     {
@@ -43745,7 +43806,18 @@
         "alcoholic": false,
         "irradiated": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows."
+        "errataNote": "Errata V6’s numbered p.164–165 correction belongs to Wasteland Wanderer, not the Core Rulebook; no Core Rulebook p.165 correction applies to the Chem Items rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            169
+          ],
+          "fr": [
+            168
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.168 entry belongs to Settlers Guide Book (X6-88), not the Core Rulebook; no Core Rulebook p.168 chem-description correction applies. Errata V6 contains no numbered p.169 entry."
       }
     },
     {
