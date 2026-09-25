@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 158,
-      "sourcePage": 156
+      "pdfPage": 159,
+      "sourcePage": 157
     },
     "fr": {
-      "pdfPage": 159,
-      "sourcePage": 156
+      "pdfPage": 160,
+      "sourcePage": 157
     }
   },
   "pageReviews": [
@@ -2549,6 +2549,22 @@
       "language": "fr",
       "pdfPage": 159,
       "sourcePage": 156,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 159,
+      "sourcePage": 157,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 160,
+      "sourcePage": 157,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -40688,7 +40704,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            159
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40726,7 +40753,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
-        "officialFrenchEffect": "+2 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "+2 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40763,7 +40801,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40801,7 +40850,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
-        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène"
+        "officialFrenchEffect": "Vous gagnez +1 PA au début de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40838,7 +40898,18 @@
         "rarity": 0,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40875,7 +40946,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40912,7 +40994,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction."
+        "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {
@@ -40950,7 +41043,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
-        "officialFrenchEffect": "+2 résistance aux dégâts de radiation jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "+2 résistance aux dégâts de radiation jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            159
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.157 entry belongs to Settlers Guide Book, not the Core Rulebook; no Core Rulebook p.157 food-description correction applies."
       }
     },
     {

@@ -5411,3 +5411,122 @@ test("Core Consumables p.156 bilingual food descriptions are source-exact", asyn
   }
 });
 
+test("Core Consumables p.157 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 159 && catalog.certifiedThrough.en.sourcePage >= 157);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 160 && catalog.certifiedThrough.fr.sourcePage >= 157);
+
+  const enP157 = new Set([
+    "jGk6pqXEHojFBnHc","ohCdi9MG6PoEnyJr","wiBxvaJTsmYQuAof","rzdZZUKOl7QaMRPt",
+    "VszpkDVgQA22ZCmx","n6asYMleVsDYBbdC","KgKwCYEKl95sQQZN","nMvfzS3mTgqejqh2",
+    "Mu6IEkhB5z32qzjY","kkMJnvGEeqJQKhfT","lrllDzCjzc9atRUy","cNP3hldtBtuAG5eu"
+  ]);
+  const frP157 = new Set([
+    "Th2rOMBm5trq0s4h","nOUCuf8jnEhLJkcJ","jC25W4O796xzZr0O","rzdZZUKOl7QaMRPt",
+    "2Huj9yJeWsIQTrZs","c97rLLOxIIQCFFQi","gpsiVMF0IkQQiy6A","XEZtPJZ7SBhlIfGq",
+    "kkMJnvGEeqJQKhfT","VUNnTzfG6Kywnt5O","aLYfeWM0Uxv7H1Ax","7MwNIxhzzbQUGbX4",
+    "AMCmZ1rbCC4adfMT"
+  ]);
+  assert.equal(enP157.size, 12);
+  assert.equal(frP157.size, 13);
+  assert.equal(new Set([...enP157, ...frP157]).size, 23);
+
+  const specs = {
+    "wiBxvaJTsmYQuAof": {
+      enPages:[157], frPages:[159],
+      en:"Meat taken from inside the carapace of a radscorpion, normally form the tail or one of the legs where it’s easier to get to. Difficult to obtain, as it requires killing a radscorpion or taking it from something that killed a radscorpion. Radscorpion meat can be cooked to make Radscorpion Steak.",
+      fr:"La viande récupérée à l’intérieur de la carapace d’un radscorpion, généralement dans la queue ou l’une des pattes, plus facilement accessibles. Difficile à obtenir, car cela nécessite de tuer un radscorpion ou de la prendre à quelque chose qui a tué un radscorpion. La viande de radscorpion peut être cuisinée pour produire du steak de radscorpion."
+    },
+    "rzdZZUKOl7QaMRPt": {
+      enPages:[157], frPages:[157],
+      en:"A cooked slab of radscorpion meat. The process of cooking the meat has reduced the radiation within below dangerous levels and enhanced the nutritional value. Further, eating Radscorpion Steak heightens your resistance to extreme heat for a while.",
+      fr:"Un pavé de viande de radscorpion cuisinée. Le processus de cuisson de la viande fait tomber le niveau de radiations contenues en dessous du seuil de danger et améliore la valeur nutritionnelle. De plus, manger du steak de radscorpion augmente votre résistance à la chaleur extrême pendant un moment."
+    },
+    "VszpkDVgQA22ZCmx": {
+      enPages:[157], frPages:[158],
+      en:"A piece of meat cut from the body of a dead radstag. It’s bulky but can produce nutritious and satisfying meals. Radstag meat can be cooked to make Grilled Radstag or used as an ingredient to make Radstag Stew.",
+      fr:"Une pièce de viande découpée sur la carcasse d’un radcerf. Elle est encombrante, mais peut donner des repas nutritifs et roboratifs. La viande de radcerf peut être cuisinée pour produire du radcerf grillé ou utilisée comme ingrédient pour produire du ragoût de radcerf."
+    },
+    "Mu6IEkhB5z32qzjY": {
+      enPages:[157], frPages:[158],
+      en:"A cooked portion of meat from a mirelurk. Though not to the same extent as the softshell meat, roasted mirelurk meat invigorates the body and mind and leaves you ready for action.",
+      fr:"Une portion de viande de fangeux cuisinée. Même si elle est moins efficace que la viande de fangeux à carapace molle grillée, la viande de fangeux rôtie revigore le corps et l’esprit et après l’avoir mangée, vous êtes prêt à l’action."
+    },
+    "kkMJnvGEeqJQKhfT": {
+      enPages:[157], frPages:[157],
+      en:"A ready-to-eat meal of ground beef mixed with breadcrumbs, onion, and egg, served with gravy. The meal is pre-packaged, preserved, and sealed for freshness, and requires only heat to be made properly edible again. Sometimes, preserved boxes of Salisbury Steak can be found. These are identical to the listed version, but are not irradiated, and increase their rarity by +1.",
+      fr:"Un repas tout prêt de viande de bœuf hachée mélangée à des miettes de pain, des oignons et des œufs, servi avec de la sauce brune. Le repas est emballé sous vide, préservé et scellé pour rester frais, il doit seulement être réchauffé pour redevenir totalement comestible. Parfois, les aventuriers trouvent des boîtes préservées de steak Salisbury. Ces steaks sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1."
+    },
+    "cNP3hldtBtuAG5eu": {
+      enPages:[157], frPages:[158],
+      en:"Meat from a softshell mirelurk. Compared to normal mirelurk meat, this is especially tender and flaky, and makes for a much more satisfying food. Softshell Mirelurk meat can be cooked to produce Cooked Softshell Meat.",
+      fr:"La viande venant d’un fangeux à carapace molle. Par rapport à la viande de fangeux normale, elle est particulièrement tendre et friable, et donne de la nourriture beaucoup plus nutritive. La viande de fangeux à carapace molle peut être cuisinée pour produire de la viande de fangeux grillée."
+    },
+    "nOUCuf8jnEhLJkcJ": {
+      enPages:[159], frPages:[157],
+      en:"A simple soup made with carrot and tato. A reasonably filling meal, sating both hunger and thirst, while also helping to fortify the body against radiation poisoning for a while.",
+      fr:"Une soupe simple à base de carotte et de pomate. Un repas qui calme assez bien la faim comme la soif, tout en aidant aussi à fortifier le corps contre l’empoisonnement aux radiations pendant un moment."
+    },
+    "AMCmZ1rbCC4adfMT": {
+      enPages:[158], frPages:[157],
+      en:"Meat taken from the body of a stingwing, a mutated scorpionfly with a nasty sting. Doesn’t look especially tasty, but it cooks reasonably well once you’ve pried the exoskeleton off. Stingwing meat can be cooked to create Stingwing Filet.",
+      fr:"De la viande découpée sur la carcasse d’un darillon, une mouche scorpion mutante à la piqûre très douloureuse. Elle n’a pas l’air particulièrement savoureuse, mais elle est assez bonne une fois détachée de l’exosquelette et cuisinée. La viande de darillon peut être cuisinée pour produire du filet de darillon."
+    }
+  };
+  assert.equal(Object.keys(specs).length, 8);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP157) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.157 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(157), "EN p.157 description coordinate missing for " + id);
+  }
+  for (const id of frP157) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.157 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(157), "FR p.157 description coordinate missing for " + id);
+  }
+  for (const id of new Set([...enP157, ...frP157])) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.match(entry.certification.descriptionErrataNote, /Settlers Guide Book/, id + " p.157 errata scoping");
+  }
+  assert.match(catalogById.get("Th2rOMBm5trq0s4h").certification.descriptionErrataNote, /Royal Flush/, "Yao Guai Roast keeps the p.156 errata scope");
+  assert.match(catalogById.get("KgKwCYEKl95sQQZN").certification.descriptionErrataNote, /Winter of Atom/, "Razorgrain keeps the p.152 errata scope");
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set([
+    "ohCdi9MG6PoEnyJr","rzdZZUKOl7QaMRPt","n6asYMleVsDYBbdC","nMvfzS3mTgqejqh2",
+    "Mu6IEkhB5z32qzjY","Th2rOMBm5trq0s4h","nOUCuf8jnEhLJkcJ","jC25W4O796xzZr0O",
+    "2Huj9yJeWsIQTrZs","c97rLLOxIIQCFFQi","gpsiVMF0IkQQiy6A","XEZtPJZ7SBhlIfGq"
+  ]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+    }
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing for recipe check");
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+  }
+});
+

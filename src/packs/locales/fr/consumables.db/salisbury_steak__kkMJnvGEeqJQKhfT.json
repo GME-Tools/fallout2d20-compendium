@@ -3,7 +3,7 @@
   "_file": "steak_salisbury__kkMJnvGEeqJQKhfT.json",
   "values": {
     "/name": "Steak Salisbury",
-    "/system/description": "<p>Repas prêt à consommer de viande hachée mêlée de chapelure, oignon et œuf, servi avec une sauce. Emballé et scellé pour rester frais, il suffit de le réchauffer. Des boîtes préservées identiques mais non irradiées existent avec une rareté supérieure de +1.</p>",
+    "/system/description": "<p>Un repas tout prêt de viande de bœuf hachée mélangée à des miettes de pain, des oignons et des œufs, servi avec de la sauce brune. Le repas est emballé sous vide, préservé et scellé pour rester frais, il doit seulement être réchauffé pour redevenir totalement comestible.</p>\n<p>Parfois, les aventuriers trouvent des boîtes préservées de steak Salisbury. Ces steaks sont identiques à la version indiquée dans le tableau, mais ne sont pas irradiés et leur rareté augmente de +1.</p>",
     "/system/effect": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "kkMJnvGEeqJQKhfT",
