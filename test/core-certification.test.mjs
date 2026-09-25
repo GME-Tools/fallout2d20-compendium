@@ -6536,7 +6536,7 @@ test("Core Consumables p.166 begins chem descriptions source-exact", async () =>
       fr:"Un baume ou un onguent qui peut être appliqué pour calmer la douleur et accélérer la guérison des blessures, généralement fabriqué à partir de plusieurs ingrédients végétaux naturels. Utilisation: le baume de soin peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant immédiatement 2 PV ou il peut être appliqué dans le cadre d’une action porter secours, ajoutant +2 au nombre total de PV guéris."
     },
     "YFGiyWiFUG7icRPa":{
-      pages:{en:[171],fr:[166]},
+      pages:{en:[169],fr:[166]},
       en:"Derived from the secretions of a Bloodbug, and the curative properties of some wasteland plants, Skeeto Spit is a wasteland remedy which dulls the user’s ability to feel pain. It’s effective, lasts a reasonable amount of time, and is non-addictive, but it normally has to be homemade as it isn’t generally produced in large quantities.",
       fr:"Dérivée des sécrétions d’une tique et des propriétés curatives de certaines plantes des Terres désolées, la bave de scrito est un remède des Terres désolées qui émousse la perception de la douleur chez l’utilisateur. Elle est efficace, son effet dure assez longtemps et elle n’est pas addictive, mais elle doit normalement être fabriquée de manière artisanale, car elle n’est presque jamais produite en grande quantité."
     }
@@ -6754,6 +6754,109 @@ test("Core Consumables p.168 continues chem descriptions source-exact", async ()
     const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
     for (const [id,spec] of Object.entries(specs)) {
       assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " description");
+      assert.match(docs.get(id).system.description, /data-f2d20-recipe="core"/, language + "/" + id + " recipe retained");
+    }
+  }
+});
+test("Core Consumables p.169 continues chem descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 171 && catalog.certifiedThrough.en.sourcePage >= 169);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 172 && catalog.certifiedThrough.fr.sourcePage >= 169);
+
+  const byId = new Map(catalog.entries.filter(entry => entry.pack === "consumables" && entry.status === "verified").map(entry => [entry.documentId, entry]));
+  const enP169 = new Set([
+    "ukyP2t9KtJiQ7uP6","NE0ZUJrG0TMiG5f9","xgOqumIzZGxJgMOX",
+    "MN5XQI0NJPPPlmsj","vDzTAi2iRrZ5XTcc","YFGiyWiFUG7icRPa","860ofdvpufUzSqE7"
+  ]);
+  const frP169 = new Set([
+    "ukyP2t9KtJiQ7uP6","xgOqumIzZGxJgMOX","vDzTAi2iRrZ5XTcc",
+    "MN5XQI0NJPPPlmsj","860ofdvpufUzSqE7"
+  ]);
+  assert.equal(enP169.size, 7);
+  assert.equal(frP169.size, 5);
+  assert.equal(new Set([...enP169, ...frP169]).size, 7);
+
+  for (const id of enP169) {
+    const entry = byId.get(id);
+    assert.ok(entry, "EN p.169 chem description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(169), "EN p.169 description coordinate missing for " + id);
+  }
+  for (const id of frP169) {
+    const entry = byId.get(id);
+    assert.ok(entry, "FR p.169 chem description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(169), "FR p.169 description coordinate missing for " + id);
+  }
+
+  const firstAid = catalog.entries.find(entry => entry.page === 169 && entry.type === "rule_text" && entry.sourceName === "First Aid");
+  assert.ok(firstAid, "p.169 First Aid sidebar inventory");
+  assert.equal(firstAid.status, "out_of_scope");
+  assert.deepEqual(firstAid.sourcePages, {en:[169],fr:[169]});
+  assert.deepEqual(firstAid.certification.applicableConsumables, ["Healing Salve","RadAway","Stimpak"]);
+  assert.equal(firstAid.certification.canBeAppliedDuringFirstAidAction, true);
+  assert.equal(firstAid.certification.boostsFirstAidInItemSpecificWay, true);
+  assert.equal(firstAid.certification.maximumChemsAppliedThisWayPerFirstAidAction, 1);
+  assert.match(firstAid.certification.errataNote, /no numbered p\.169 entry/);
+
+  const specs = {
+    "xgOqumIzZGxJgMOX":{
+      pages:{en:[169],fr:[169]},
+      en:"A cocktail of Psycho and Mentats. The heightened awareness granted by the Mentats and the aggression and pain insensitivity somewhat cancel one another out, but the resultant effects are a short period of high aggression, enhanced sensory acuity, and boosted pain tolerance. Psycho Addiction: A failed addiction roll renders you addicted to Psycho. You increase the difficulty of all STR tests by +1 and suffer +1 @fos[DC] damage from all physical attacks whenever you are not under the effects of a type of Psycho (ordinary Psycho, Psycho Jet, Psychobuff, or Psychotats).",
+      fr:"Un cocktail de Psycho et de Mentats. La vigilance extrême conférée par les Mentats et l’agressivité et l’insensibilité à la douleur s’annulent un peu l’une l’autre, mais l’effet qui en résulte est une courte période d’agressivité élevée, d’acuité sensorielle accrue et de meilleure tolérance de la douleur. Dépendance au Psycho: si vous ratez votre jet de dépendance, vous devenez dépendant au Psycho. La difficulté de tous vos tests de FOR augmente de +1 et vous subissez +1 @fos[DC] de dégâts sur toutes les attaques balistiques quand vous n’êtes pas sous l’effet d’un type de Psycho (le Psycho ordinaire, le Psycho Jet, le Psychobuff ou les Psychotats)."
+    },
+    "MN5XQI0NJPPPlmsj":{
+      pages:{en:[169],fr:[169]},
+      en:"A preventative medicine for those intending to enter areas with heightened risk of radiation exposure. A dose can help you resist the effects of radiation, especially when combined with other protective measures. Due to scarcity, it is often found diluted, reducing the effectiveness of a dose but allowing limited supplies to last longer. Diluted Rad-X is about half as effective, but easier to find.",
+      fr:"Un médicament préventif pour ceux qui comptent pénétrer dans des zones à haut risque d’exposition aux radiations. Une dose peut vous aider à résister aux effets des radiations, surtout combinée à d’autres mesures de protection. À cause de sa rareté, le Rad-X est souvent dilué, ce qui réduit l’efficacité d’une dose, mais permet à des réserves limitées de durer plus longtemps. Le Rad-X dilué est à peu près moitié moins efficace, mais plus facile à trouver."
+    },
+    "vDzTAi2iRrZ5XTcc":{
+      pages:{en:[169],fr:[169]},
+      en:"An intravenous drug which purges radiation from the user’s body, absorbing radiation as it circulates through the user’s bloodstream. It’s also a potent diuretic, expelling the radiation with the user’s urine, so it’s advisable to drink a lot of (clean) water shortly after taking a dose. Sometimes encountered in a diluted form, reducing its effectiveness as the user is only taking a partial dose. Diluted RadAway is only about half as effective, but it’s easier to find. Use: RadAway can be used in one of two ways: it can be applied using the Take Chem minor action, healing 4 Radiation damage immediately, or it can be applied as part of a First Aid action, healing 4 Radiation damage in addition to any other healing done (remove Radiation damage before applying other healing effects). Diluted RadAway works in the same way, but only heals 2 Radiation damage.",
+      fr:"Un médicament administré par intraveineuse qui purge les radiations du corps de l’utilisateur, en absorbant les radiations quand il circule dans le sang. C’est aussi un puissant diurétique qui expulse les radiations par l’urine de l’utilisateur, il est donc conseillé de boire beaucoup d’eau (propre) rapidement après avoir pris une dose. Le RadAway est parfois disponible sous forme diluée, ce qui réduit son efficacité, car l’utilisateur ne prend qu’une dose partielle. Le RadAway dilué est à peu près moitié moins efficace, mais plus facile à trouver. Utilisation: le RadAway peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant immédiatement 4 points de dégâts de radiation ou il peut être appliqué dans le cadre d’une action porter secours, guérissant 4 points de dégâts de radiation en plus de tout autre effet de guérison (enlevez les dégâts de radiation avant d’appliquer les autres effets de guérison). Le RadAway dilué fonctionne de la même manière, mais ne guérit que 2 points de dégâts de radiation."
+    },
+    "YFGiyWiFUG7icRPa":{
+      pages:{en:[169],fr:[166]},
+      en:"Derived from the secretions of a Bloodbug, and the curative properties of some wasteland plants, Skeeto Spit is a wasteland remedy which dulls the user’s ability to feel pain. It’s effective, lasts a reasonable amount of time, and is non-addictive, but it normally has to be homemade as it isn’t generally produced in large quantities.",
+      fr:"Dérivée des sécrétions d’une tique et des propriétés curatives de certaines plantes des Terres désolées, la bave de scrito est un remède des Terres désolées qui émousse la perception de la douleur chez l’utilisateur. Elle est efficace, son effet dure assez longtemps et elle n’est pas addictive, mais elle doit normalement être fabriquée de manière artisanale, car elle n’est presque jamais produite en grande quantité."
+    },
+    "860ofdvpufUzSqE7":{
+      pages:{en:[169,170],fr:[169]},
+      en:"A stimulation delivery package, or Stimpak, is a form of fast-acting medication used to bolster the body’s own healing and recuperative ability, and countless millions were produced for household and workplace first aid kits, hospitals, clinics, and other places. A wonder of pre-War science, a Stimpak is a single-use syringe filled with a variety of potent healing agents, stimulants, and painkillers, and can be applied in an intravenous or intramuscular fashion: literally stick it anywhere and it’ll work. Even so, it a Stimpak is most effective when applied by an Auto-Doc or someone with medical training alongside other treatment. Sometimes encountered in a diluted form, reducing its effectiveness as the user is only taking a partial dose. Diluted Stimpaks are only about half as effective, but they’re easier to find. Use: A Stimpak can be used in one of two ways: it can be applied using the Take Chem minor action, healing 4 HP or treating an Injury immediately, or it can be applied as part of a First Aid action, healing 4 HP or treating an Injury in addition to any other healing done. Diluted Stimpaks work in the same way, but only heal 2 HP, though they can still treat Injuries as normal.",
+      fr:"Un « stimulation delivery package » (pack d’administration de stimulation), ou Stimpak, est une forme de médicament à action rapide utilisé pour augmenter les capacités de guérison et de récupération du corps. Des millions de doses ont été produites pour les kits de premiers secours des foyers et des entreprises, les hôpitaux, les cliniques et d’autres endroits encore. Merveille de la science d’avant-guerre, le Stimpak est une seringue à usage unique remplie d’un cocktail de puissants agents de cicatrisation, stimulants et antidouleurs qui peut être injecté par voie intraveineuse ou intramusculaire: plantez l’aiguille littéralement n’importe où: ça marche. Cela dit, un Stimpak reste plus efficace quand il est administré par un Auto-Doc, ou par quelqu’un ayant une formation médicale, et combiné à d’autres traitements. Un Stimpak est parfois disponible sous forme diluée, ce qui réduit son efficacité, car l’utilisateur ne prend qu’une dose partielle. Un Stimpak dilué est à peu près moitié moins efficace, mais plus facile à trouver. Utilisation: un Stimpak peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant 4 PV ou traitant une blessure immédiatement, ou il peut être appliqué dans le cadre d’une action porter secours, guérissant 4 PV ou traitant une blessure en plus de tout autre effet de guérison. Les Stimpaks dilués fonctionnent de la même manière, mais ne guérissent que 2 PV (cela dit, ils traitent les blessures normalement)."
+    }
+  };
+
+  const descriptionText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = byId.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata");
+    assert.match(entry.certification.descriptionErrataNote, /p\.169/, id + " p.169 errata review");
+  }
+  assert.match(byId.get("YFGiyWiFUG7icRPa").certification.descriptionErrataNote, /p\.166/, "Skeeto Spit keeps prior p.166 errata note");
+  assert.match(byId.get("860ofdvpufUzSqE7").certification.descriptionErrataNote, /p\.170/, "Stimpak targeted p.170 errata review");
+
+  for (const id of ["NE0ZUJrG0TMiG5f9","ukyP2t9KtJiQ7uP6"]) {
+    assert.ok(byId.get(id).certification.descriptionSourcePages.en.includes(169), id + " targeted EN p.169 read now page-certified");
+  }
+
+  const recipeIds = new Set(["vDzTAi2iRrZ5XTcc","YFGiyWiFUG7icRPa","860ofdvpufUzSqE7"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " description");
+    }
+    for (const id of recipeIds) {
       assert.match(docs.get(id).system.description, /data-f2d20-recipe="core"/, language + "/" + id + " recipe retained");
     }
   }

@@ -2,7 +2,7 @@
   "_key": "!items!xgOqumIzZGxJgMOX",
   "_file": "psychotats__xgOqumIzZGxJgMOX.json",
   "values": {
-    "/system/description": "<p>Cocktail de Psycho et de Mentats, il combine vigilance accrue, agressivité, acuité sensorielle et tolérance à la douleur. <strong>Dépendance au Psycho :</strong> un jet de dépendance raté vous rend dépendant. Hors de l’effet d’un Psycho, Psycho Jet, Psychobuff ou Psychotats, augmentez de +1 la difficulté de tous vos tests de FOR et subissez +1 @fos[DC] dégât de toutes les attaques balistiques.</p>",
+    "/system/description": "<p>Un cocktail de Psycho et de Mentats. La vigilance extrême conférée par les Mentats et l’agressivité et l’insensibilité à la douleur s’annulent un peu l’une l’autre, mais l’effet qui en résulte est une courte période d’agressivité élevée, d’acuité sensorielle accrue et de meilleure tolérance de la douleur.</p>\n<ul><li><strong>Dépendance au Psycho:</strong> si vous ratez votre jet de dépendance, vous devenez dépendant au Psycho. La difficulté de tous vos tests de FOR augmente de +1 et vous subissez +1 @fos[DC] de dégâts sur toutes les attaques balistiques quand vous n’êtes pas sous l’effet d’un type de Psycho (le Psycho ordinaire, le Psycho Jet, le Psychobuff ou les Psychotats).</li></ul>",
     "/system/effect": "<p>+2 @fos[DC] de dégâts sur toutes vos attaques, +2 résistance aux dégâts balistiques, réduit de 1 la difficulté de vos tests de PER (0 minimum)</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
