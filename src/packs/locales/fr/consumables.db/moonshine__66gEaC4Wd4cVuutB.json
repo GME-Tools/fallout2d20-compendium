@@ -3,7 +3,7 @@
   "_file": "eau_de_vie__66gEaC4Wd4cVuutB.json",
   "values": {
     "/name": "Eau de vie",
-    "/system/description": "<p>Terme courant désignant les alcools très forts distillés clandestinement ou avec des moyens improvisés. Leurs origines incertaines les rendent dangereux et souvent contaminés. Ce qui ne vous tue pas vous laissera probablement insensible et imperméable à la douleur — à moins de vous assommer complètement.</p>",
+    "/system/description": "<p>Un terme générique pour désigner un alcool fort distillé produit de manière illégale ou artisanale. En raison de son origine peu orthodoxe et improvisée, consommer de l’eau-de-vie peut être dangereux, car elle est souvent contaminée par des produits chimiques toxiques. Ce qui ne vous tue pas… vous rendra probablement insensible à la douleur, si tant est que cela ne vous fasse pas tomber carrément inconscient.</p>",
     "/system/effect": "<p>+2 PV max</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",

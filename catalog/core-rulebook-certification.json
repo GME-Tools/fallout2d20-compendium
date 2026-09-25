@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 162,
-      "sourcePage": 160
+      "pdfPage": 163,
+      "sourcePage": 161
     },
     "fr": {
-      "pdfPage": 163,
-      "sourcePage": 160
+      "pdfPage": 164,
+      "sourcePage": 161
     }
   },
   "pageReviews": [
@@ -2613,6 +2613,22 @@
       "language": "fr",
       "pdfPage": 163,
       "sourcePage": 160,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 163,
+      "sourcePage": 161,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 164,
+      "sourcePage": 161,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -41296,7 +41312,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Alcoolisée"
+        "officialFrenchEffect": "Alcoolisée",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            161
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41334,7 +41361,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table."
+        "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41373,7 +41411,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer 1d20 sur vos tests d’END"
+        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer 1d20 sur vos tests d’END",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            161
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41412,7 +41461,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Guérit 2 points de dégâts de radiation"
+        "officialFrenchEffect": "Guérit 2 points de dégâts de radiation",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            162
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41451,7 +41511,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Alcoolisée, réduisez de 1 la difficulté de tous vos tests de FOR et augmentez de 2 (au total) la difficulté de tous vos tests d’INT"
+        "officialFrenchEffect": "Alcoolisée, réduisez de 1 la difficulté de tous vos tests de FOR et augmentez de 2 (au total) la difficulté de tous vos tests d’INT",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            162
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41489,7 +41560,18 @@
         "rarity": 0,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table."
+        "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            162
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41528,7 +41610,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "+5 résistance aux dégâts de radiation"
+        "officialFrenchEffect": "+5 résistance aux dégâts de radiation",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            161
+          ],
+          "fr": [
+            163
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41648,7 +41741,18 @@
         "alcoholic": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Alcoolisée, +2 PV max"
+        "officialFrenchEffect": "Alcoolisée, +2 PV max",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            162
+          ],
+          "fr": [
+            161
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41842,7 +41946,19 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table."
+        "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            161,
+            162
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41881,7 +41997,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
-        "officialFrenchEffect": "Guérit 10 points de dégâts de radiation, soigne toutes les dépendances"
+        "officialFrenchEffect": "Guérit 10 points de dégâts de radiation, soigne toutes les dépendances",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            163
+          ],
+          "fr": [
+            161
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to these beverage descriptions. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
       }
     },
     {
@@ -41999,6 +42126,160 @@
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.160 or p.161 correction applicable to the Beverage Items table. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings, not this table.",
         "officialFrenchEffect": "La réserve de PA du groupe peut contenir 1 PA de plus que la normale"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 161,
+      "type": "rule_text",
+      "sourceName": "Maximum HP",
+      "localizedNames": {
+        "fr": "PV maximum"
+      },
+      "scope": "out_of_scope",
+      "justification": "General temporary maximum-HP handling applies to consumable effects rather than being published as a standalone reusable Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          161
+        ],
+        "fr": [
+          161
+        ]
+      },
+      "certification": {
+        "maximumHpIncreaseAlsoAddsCurrentHp": true,
+        "example": {
+          "maximumHpBefore": 12,
+          "currentHpBefore": 8,
+          "maximumHpBonus": 2,
+          "maximumHpDuring": 14,
+          "currentHpDuring": 10
+        },
+        "maximumHpReturnsToNormalWhenEffectEnds": true,
+        "currentHpOtherwiseUnchangedWhenEffectEnds": true,
+        "currentHpCappedAtRestoredMaximum": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 161,
+      "type": "consumable",
+      "sourceName": "Vodka",
+      "localizedNames": {
+        "fr": "Vodka"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable beverage consumable identity defined by the Core Beverage Items table continuation.",
+      "pack": "consumables",
+      "documentId": "pGaN2EDIWl3lUsrx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          161
+        ],
+        "fr": [
+          161
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 2,
+        "tableOtherEffect": "Alcoholic",
+        "otherEffect": null,
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 5,
+        "rarity": 3,
+        "alcoholic": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings.",
+        "officialFrenchEffect": "Alcoolisée"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 161,
+      "type": "consumable",
+      "sourceName": "Whiskey",
+      "localizedNames": {
+        "fr": "Whisky"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable beverage consumable identity defined by the Core Beverage Items table continuation.",
+      "pack": "consumables",
+      "documentId": "u9KyfdRIzyQhCjnn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          161
+        ],
+        "fr": [
+          161
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 0,
+        "tableOtherEffect": "Alcoholic, Reroll up to two d20 on STR tests (in total)",
+        "otherEffect": "Reroll up to two d20 on STR tests (in total)",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 5,
+        "rarity": 3,
+        "alcoholic": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings.",
+        "officialFrenchEffect": "Alcoolisée, vous pouvez relancer jusqu’à 2d20 (au total) sur vos tests de FOR"
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 161,
+      "type": "consumable",
+      "sourceName": "Wine",
+      "localizedNames": {
+        "fr": "Vin"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable beverage consumable identity defined by the Core Beverage Items table continuation.",
+      "pack": "consumables",
+      "documentId": "afPpMSnBCqxLyaxx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          161
+        ],
+        "fr": [
+          161
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "tableRowReviewed": true,
+        "hpHealed": 0,
+        "tableOtherEffect": "Alcoholic, Immediately gain +1 AP",
+        "otherEffect": "Immediately gain +1 AP",
+        "irradiated": false,
+        "irradiatedCombatDice": 0,
+        "weightLb": 1,
+        "weightFr": 0.5,
+        "cost": 5,
+        "rarity": 3,
+        "alcoholic": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no Core Rulebook p.161 correction applicable to the Beverage Items continuation or Maximum HP rule. The 8 April 2021 p.216–217 beverage erratum concerns later crafting listings.",
+        "officialFrenchEffect": "Alcoolisée, gagnez immédiatement +1 PA"
       }
     }
   ]

@@ -3,7 +3,7 @@
   "_file": "lait_de_brahmine__mk8SR0w1UisPaDy1.json",
   "values": {
     "/name": "Lait de brahmine",
-    "/system/description": "<p>Du lait de brahmine. Cette boisson peut sauver une vie grâce à ses propriétés qui purgent l’organisme des radiations — du moins tant qu’elle n’a pas tourné.</p>",
+    "/system/description": "<p>Le lait d’une brahmine. Cette boisson peut véritablement vous sauver la vie, car elle purge l’empoisonnement aux radiations du corps… du moins si elle n’a pas encore tourné.</p>",
     "/system/effect": "<p>Guérit 2 points de dégâts de radiation</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",

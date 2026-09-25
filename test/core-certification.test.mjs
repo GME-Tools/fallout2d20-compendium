@@ -5809,4 +5809,190 @@ test("Core Consumables p.160 opens the Beverage Items table source-exact", async
     }
   }
 });
+test("Core Consumables p.161 closes the Beverage Items table and begins descriptions", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 163 && catalog.certifiedThrough.en.sourcePage >= 161);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 164 && catalog.certifiedThrough.fr.sourcePage >= 161);
+
+  const enP161Table = new Set([
+    "MlGblqUyUcVhqQLY","pGaN2EDIWl3lUsrx","u9KyfdRIzyQhCjnn","afPpMSnBCqxLyaxx"
+  ]);
+  const frP161Table = new Set([
+    "Uxxc3gTKcLNpcBLU","KXreAKBJPNwyBwMb","69jE7Uteh1NARMBL","YQPVshPe6pooP0zZ",
+    "eH5lYeN88g16VbYT","PVf7RRNJLAIY2b2t","afPpMSnBCqxLyaxx","pGaN2EDIWl3lUsrx",
+    "u9KyfdRIzyQhCjnn"
+  ]);
+  assert.equal(enP161Table.size, 4);
+  assert.equal(frP161Table.size, 9);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP161Table) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.161 beverage row missing for " + id);
+    assert.ok(entry.sourcePages?.en?.includes(161), "EN p.161 beverage coordinate missing for " + id);
+  }
+  for (const id of frP161Table) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.161 beverage row missing for " + id);
+    assert.ok(entry.sourcePages?.fr?.includes(161), "FR p.161 beverage coordinate missing for " + id);
+  }
+
+  const continuation = [
+    ["pGaN2EDIWl3lUsrx","Vodka","Vodka",2,"","",1,0.5,5,3],
+    ["u9KyfdRIzyQhCjnn","Whiskey","Whisky",0,"Reroll up to two d20 on STR tests (in total)","Vous pouvez relancer jusqu’à 2d20 (au total) sur vos tests de FOR",1,0.5,5,3],
+    ["afPpMSnBCqxLyaxx","Wine","Vin",0,"Immediately gain +1 AP","Gagnez immédiatement +1 PA",1,0.5,5,3]
+  ].map(([id,enName,frName,hp,enEffect,frEffect,enWeight,frWeight,cost,rarity]) => ({
+    id,enName,frName,hp,enEffect,frEffect,enWeight,frWeight,cost,rarity
+  }));
+  for (const item of continuation) {
+    const entry = catalogById.get(item.id);
+    assert.equal(entry.page, 161);
+    assert.deepEqual(entry.sourcePages, {en:[161],fr:[161]});
+    assert.equal(entry.sourceName, item.enName);
+    assert.equal(entry.localizedNames?.fr, item.frName);
+    assert.equal(entry.status, "verified");
+    assert.equal(entry.certification.tableRowReviewed, true);
+    assert.equal(entry.certification.hpHealed, item.hp);
+    assert.equal(entry.certification.irradiated, false);
+    assert.equal(entry.certification.weightLb, item.enWeight);
+    assert.equal(entry.certification.weightFr, item.frWeight);
+    assert.equal(entry.certification.cost, item.cost);
+    assert.equal(entry.certification.rarity, item.rarity);
+    assert.equal(entry.certification.alcoholic, true);
+    assert.equal(entry.certification.errataReviewed, true);
+  }
+
+  const maxHp = catalog.entries.find(entry => entry.page === 161 && entry.type === "rule_text" && entry.sourceName === "Maximum HP");
+  assert.ok(maxHp, "p.161 Maximum HP rule inventory");
+  assert.equal(maxHp.status, "out_of_scope");
+  assert.deepEqual(maxHp.sourcePages, {en:[161],fr:[161]});
+  assert.equal(maxHp.certification.maximumHpIncreaseAlsoAddsCurrentHp, true);
+  assert.deepEqual(maxHp.certification.example, {
+    maximumHpBefore:12,currentHpBefore:8,maximumHpBonus:2,maximumHpDuring:14,currentHpDuring:10
+  });
+  assert.equal(maxHp.certification.maximumHpReturnsToNormalWhenEffectEnds, true);
+  assert.equal(maxHp.certification.currentHpOtherwiseUnchangedWhenEffectEnds, true);
+  assert.equal(maxHp.certification.currentHpCappedAtRestoredMaximum, true);
+  assert.match(maxHp.certification.errataNote, /p\.216.?217/, "Maximum HP keeps later beverage errata separate");
+
+  const specs = {
+    "UlhNGl3T0UejS5ZW": {
+      enPages:[161], frPages:[161],
+      en:"One of the oldest beverages created by humans, beer is a carbonated alcoholic drink made from fermented cereal grains, popular pre-War to relax after a hard day’s work or during a sunny afternoon. Ale, beer, lager, stout, and a variety of similar beverages all have distinct combinations of ingredients, and each have their own proponents, but the effects are largely the same. You receive 1 cap upon opening and drinking a bottle of beer.",
+      fr:"La bière est l’une des plus vieilles boissons jamais créées par les humains. C’est une boisson gazeuse alcoolisée fabriquée à partir de céréales fermentées. Elle était populaire avant la Guerre pour se détendre après une dure journée de labeur ou par une après-midi ensoleillée. Les bières brunes, blondes, rousses, etc. ont toutes des combinaisons d’ingrédients différentes et chacune a ses aficionados, mais les effets sont globalement les mêmes. Quand vous ouvrez et buvez une bouteille de bière, vous recevez 1 capsule."
+    },
+    "69jE7Uteh1NARMBL": {
+      enPages:[161], frPages:[163],
+      en:"A sealed, sterile plastic bag of preserved blood used pre-War for blood transfusions. Not the most conventional of beverages, but useful if you’re desperate. Some people come to like the taste.",
+      fr:"Une poche en plastique scellée et stérile de sang préservé utilisé pour des transfusions avant la Guerre. Ce n’est pas une boisson très conventionnelle, mais elle fait l’affaire si vous n’avez pas vraiment le choix. Certains en viennent même à apprécier le goût."
+    },
+    "68eulbmhBZbFJlcs": {
+      enPages:[161], frPages:[161],
+      en:"A distinctly American type of whiskey, bourbon is a barrel-aged, distilled spirit made mainly of corn. Pre-War, those who favored it tended to get a reputation as being tough or rugged.",
+      fr:"Un type de whisky très américain. Le bourbon est un spiritueux distillé vieilli en fût fabriqué principalement à base de maïs. Avant la Guerre, ceux qui l’appréciaient avaient généralement une réputation de durs ou de costauds."
+    },
+    "mk8SR0w1UisPaDy1": {
+      enPages:[161], frPages:[162],
+      en:"Milk from a brahmin. This drink is a true lifesaver, as it has properties that cleanse radiation poisoning from the body… at least, if it hasn’t spoiled yet.",
+      fr:"Le lait d’une brahmine. Cette boisson peut véritablement vous sauver la vie, car elle purge l’empoisonnement aux radiations du corps… du moins si elle n’a pas encore tourné."
+    },
+    "FZqdiNkmpwz5NBJ3": {
+      enPages:[161], frPages:[162],
+      en:"An extremely potent alcoholic beverage, made from a blend of whiskey, Nuka-Cola, and Mutfruit, which has much the same effect as most alcoholic drinks… just moreso.",
+      fr:"Une boisson alcoolisée extrêmement forte, un mélange de whisky, de Nuka Cola et de jus de fruit mutant. Elle a globalement les mêmes effets que la plupart des boissons alcoolisées… mais en plus intenses."
+    },
+    "smWip05JhGyTXRU1": {
+      enPages:[161], frPages:[162],
+      en:"Water, collected from rivers, lakes, swimming pools, and any other unfiltered water source. It’s not recommended to drink dirty water without filtering or boiling it, as it contains a fair amount of radiation… but water is scarce in some places and the choice of clean water isn’t always available.",
+      fr:"De l’eau collectée dans une rivière, un lac, une piscine ou toute autre source d’eau non purifiée. Boire de l’eau sale sans la purifier ou la faire bouillir n’est pas recommandé, car elle contient une quantité non négligeable de radiations… mais l’eau est rare dans certains endroits et il n’est pas toujours possible de trouver de l’eau pure."
+    },
+    "YQPVshPe6pooP0zZ": {
+      enPages:[161], frPages:[163],
+      en:"A blood bag filled with a luminescent green fluid. If you can stomach the acrid, metallic taste, they have potent restorative properties and help protect the body against radiation poisoning for a short while.",
+      fr:"Une poche de sang rempli d’un fluide vert luminescent. Si vous arrivez à supporter le goût âcre et métallique, il est doté de puissantes propriétés curatives et aide à protéger le corps contre l’empoisonnement aux radiations pendant une courte période."
+    },
+    "rj3fi0X9aQNceJF6": {
+      enPages:[163], frPages:[161],
+      en:"A mysterious panacea made from medical supplies, this chemical concoction restores health and cleanses the body of radiation and chemical dependencies. The recipe has spread across the wasteland by word of mouth, but it requires numerous ingredients to produce, so it remains rare.",
+      fr:"Une mystérieuse panacée concoctée à partir de produits médicaux. Ce breuvage chimique redonne la santé et purifie le corps des radiations et des dépendances aux produits chimiques. La recette s’est répandue dans les Terres désolées par le bouche-à-oreille, mais elle nécessite de nombreux ingrédients qui contribuent à la rendre rare."
+    },
+    "66gEaC4Wd4cVuutB": {
+      enPages:[162], frPages:[161],
+      en:"Largely a slang term for high-proof distilled spirits produced in illicit or makeshift manner. Due to their unorthodox and improvised origins, moonshine can be dangerous to consume, often contaminated with dangerous chemicals. The stuff that doesn’t kill you… will probably render you insensible and impervious to pain if it doesn’t knock you out entirely.",
+      fr:"Un terme générique pour désigner un alcool fort distillé produit de manière illégale ou artisanale. En raison de son origine peu orthodoxe et improvisée, consommer de l’eau-de-vie peut être dangereux, car elle est souvent contaminée par des produits chimiques toxiques. Ce qui ne vous tue pas… vous rendra probablement insensible à la douleur, si tant est que cela ne vous fasse pas tomber carrément inconscient."
+    },
+    "xuXzlEC3V0co3w3h": {
+      enPages:[163], frPages:[161,162],
+      en:"Water which has been cleansed of any contaminants or radiation. Sometimes found in sealed cans or bottles in the wasteland, but often produced by taking water from other sources and boiling or filtering it. Locations with water pumps tend to tap into uncontaminated aquifers deep underground, giving them a consistent supply of clean water highly sought-after by survivors in the wasteland. In places where water is scarce, access to purified water is a precious commodity.",
+      fr:"De l’eau qui a été purgée de ses contaminants et radiations. Parfois trouvée dans des cannettes ou des bouteilles scellées dans les Terres désolées, mais souvent produite en prenant de l’eau à d’autres sources et en la faisant bouillir ou en la purifiant. Les lieux disposant de pompes à eau ont tendance à exploiter des nappes d’eau non contaminées situées très en profondeur, ce qui leur donne une source stable d’eau pure très recherchée par les survivants des Terres désolées. Dans les endroits où l’eau est rare, l’accès à l’eau purifiée est un bien précieux."
+    }
+  };
+  assert.equal(Object.keys(specs).length, 10);
+
+  const enP161Descriptions = new Set([
+    "UlhNGl3T0UejS5ZW","69jE7Uteh1NARMBL","68eulbmhBZbFJlcs","mk8SR0w1UisPaDy1",
+    "FZqdiNkmpwz5NBJ3","smWip05JhGyTXRU1","YQPVshPe6pooP0zZ"
+  ]);
+  const frP161Descriptions = new Set([
+    "UlhNGl3T0UejS5ZW","rj3fi0X9aQNceJF6","68eulbmhBZbFJlcs","66gEaC4Wd4cVuutB","xuXzlEC3V0co3w3h"
+  ]);
+  assert.equal(enP161Descriptions.size, 7);
+  assert.equal(frP161Descriptions.size, 5);
+  assert.equal(new Set([...enP161Descriptions,...frP161Descriptions]).size, 10);
+
+  for (const id of enP161Descriptions) {
+    const entry = catalogById.get(id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(161), "EN p.161 description coordinate missing for " + id);
+  }
+  for (const id of frP161Descriptions) {
+    const entry = catalogById.get(id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(161), "FR p.161 description coordinate missing for " + id);
+  }
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata reviewed");
+    assert.match(entry.certification.descriptionErrataNote, /p\.216.?217/, id + " later beverage errata scope");
+  }
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&hellip;/g, "…")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set(["FZqdiNkmpwz5NBJ3","YQPVshPe6pooP0zZ","rj3fi0X9aQNceJF6","xuXzlEC3V0co3w3h"]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+    }
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+    for (const item of continuation) {
+      const document = docs.get(item.id);
+      assert.ok(document, language + "/consumables/" + item.id + " missing");
+      assert.equal(document.flags["fallout2d20-compendium"].source.page, 161);
+      assert.equal(document.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(document.system.consumableType, "beverage");
+      assert.equal(document.system.hp, item.hp);
+      assert.equal(document.system.alcoholic, true);
+      assert.equal(document.system.weight, language === "en" ? item.enWeight : item.frWeight);
+      assert.equal(document.system.cost, item.cost);
+      assert.equal(document.system.rarity, item.rarity);
+      assert.equal(htmlText(document.system.effect), language === "en" ? item.enEffect : item.frEffect);
+    }
+  }
+});
 

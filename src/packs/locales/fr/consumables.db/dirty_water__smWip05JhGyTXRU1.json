@@ -3,7 +3,7 @@
   "_file": "eau_sale__smWip05JhGyTXRU1.json",
   "values": {
     "/name": "Eau sale",
-    "/system/description": "<p>Eau puisée dans les rivières, lacs, piscines et autres sources non filtrées. Il vaut mieux la filtrer ou la faire bouillir : elle contient beaucoup de radiations, mais l’eau potable est parfois trop rare pour laisser le choix.</p>",
+    "/system/description": "<p>De l’eau collectée dans une rivière, un lac, une piscine ou toute autre source d’eau non purifiée. Boire de l’eau sale sans la purifier ou la faire bouillir n’est pas recommandé, car elle contient une quantité non négligeable de radiations… mais l’eau est rare dans certains endroits et il n’est pas toujours possible de trouver de l’eau pure.</p>",
     "/system/weight": 0,
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "smWip05JhGyTXRU1",
