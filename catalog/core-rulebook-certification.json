@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 172,
-      "sourcePage": 170
+      "pdfPage": 173,
+      "sourcePage": 171
     },
     "fr": {
-      "pdfPage": 173,
-      "sourcePage": 170
+      "pdfPage": 174,
+      "sourcePage": 171
     }
   },
   "pageReviews": [
@@ -2773,6 +2773,22 @@
       "language": "fr",
       "pdfPage": 173,
       "sourcePage": 170,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 173,
+      "sourcePage": 171,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 174,
+      "sourcePage": 171,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -44543,7 +44559,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry. Targeted p.171 counterpart reading does not advance the p.171 certified boundary."
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry. Targeted p.171 counterpart reading does not advance the p.171 certified boundary. Errata V6’s numbered p.171 entries belong to Winter of Atom (Mister Gutsy Patriot) and Wasteland Wanderer (Caps table), not the Core Rulebook; no Core Rulebook p.171 correction applies to these Other Consumables descriptions."
       }
     },
     {
@@ -44582,8 +44598,17 @@
         "irradiated": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no numbered p.170 entry.",
-        "descriptionReviewed": false,
-        "descriptionDeferredToSourcePage": 171
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            171
+          ],
+          "fr": [
+            171
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.171 entries belong to Winter of Atom (Mister Gutsy Patriot) and Wasteland Wanderer (Caps table), not the Core Rulebook; no Core Rulebook p.171 correction applies to these Other Consumables descriptions."
       }
     },
     {
@@ -44632,7 +44657,7 @@
           ]
         },
         "descriptionErrataReviewed": true,
-        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry. Targeted p.171 counterpart reading does not advance the p.171 certified boundary.",
+        "descriptionErrataNote": "Errata V6 contains no numbered p.170 entry. Targeted p.171 counterpart reading does not advance the p.171 certified boundary. Errata V6’s numbered p.171 entries belong to Winter of Atom (Mister Gutsy Patriot) and Wasteland Wanderer (Caps table), not the Core Rulebook; no Core Rulebook p.171 correction applies to these Other Consumables descriptions.",
         "internalSourceConflictReviewed": true,
         "p165ConflictingChemRow": {
           "weightLb": "<1",

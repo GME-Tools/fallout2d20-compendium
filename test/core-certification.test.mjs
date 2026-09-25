@@ -7008,4 +7008,77 @@ test("Core Consumables p.170 closes chems and certifies Other Consumables", asyn
     }
   }
 });
+test("Core Consumables p.171 closes Other Consumables descriptions source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 173 && catalog.certifiedThrough.en.sourcePage >= 171);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 174 && catalog.certifiedThrough.fr.sourcePage >= 171);
+
+  const byId = new Map(
+    catalog.entries
+      .filter(entry => entry.page === 170 && entry.pack === "consumables" && entry.type === "consumable" && entry.status === "verified")
+      .map(entry => [entry.documentId, entry])
+  );
+  const enP171 = new Set(["RXpTSDERvwv1nuZ5","1yXCbQZHNLtwuPcT","YbjXflCRhEgdvW0p"]);
+  const frP171 = new Set(["RXpTSDERvwv1nuZ5","1yXCbQZHNLtwuPcT"]);
+  assert.equal(enP171.size, 3);
+  assert.equal(frP171.size, 2);
+  assert.equal(new Set([...enP171,...frP171]).size, 3);
+
+  for (const id of enP171) {
+    const entry = byId.get(id);
+    assert.ok(entry, "EN p.171 Other Consumable description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(171), "EN p.171 description coordinate missing for " + id);
+  }
+  for (const id of frP171) {
+    const entry = byId.get(id);
+    assert.ok(entry, "FR p.171 Other Consumable description missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(171), "FR p.171 description coordinate missing for " + id);
+  }
+
+  const specs = {
+    "RXpTSDERvwv1nuZ5":{
+      pages:{en:[171],fr:[170,171]},
+      en:"A device which can help to repair and reactivate damaged robots or Power Armor. Most robots have internal self-diagnostic and repair protocols, which are activated when the robot performs repairs or is repaired by someone else. A robot repair kit helps jump-start and accelerate these protocols. Use: A robot repair kit can be used in one of two ways: it can be applied using the Take Chem minor action, healing 4 HP or treating an Injury immediately, or it can be applied as part of a First Aid action, healing 4 HP or treating an Injury in addition to any other healing done. As with any repairs to a robot or Power Armor, this is done using the Repair skill rather than the Medicine skill, but the actions used are otherwise the same.",
+      fr:"Un appareil qui peut aider à réparer et à réactiver les robots ou les armures assistées endommagés. La plupart des robots ont des protocoles d’autodiagnostic et de réparation internes, lesquels s’activent quand le robot effectue des réparations ou se fait réparer par quelqu’un d’autre. Un kit de réparation de robot aide à lancer rapidement et accélérer ces protocoles. Utilisation: un kit de réparation de robot peut être utilisé de deux façons : il peut être appliqué en effectuant l’action mineure prendre une dose, guérissant 4 PV ou traitant une blessure immédiatement ou il peut être appliqué dans le cadre d’une action porter secours, guérissant 4 PV ou traitant une blessure en plus de tout autre effet de guérison. Comme pour n’importe quelle autre réparation d’un robot ou d’une armure assistée, celle-ci fait appel à la compétence Réparation et non à la compétence Médecine, mais en dehors de cela, les actions utilisées sont les mêmes."
+    },
+    "1yXCbQZHNLtwuPcT":{
+      pages:{en:[171],fr:[171]},
+      en:"One of the most interesting technologies developed before the War, the Stealth Boy 3001 is a compact device which generates a modulating refraction field which transmits light from one side of the field to the other. The result is near-perfect active camouflage, ranging from a sort of distorted transparency when moving to almost total invisibility when stationary. The Stealth Boy was reverse engineered from captured Chinese Stealth Armor during the War, and while the technology was never perfected—even the most advanced Stealth Boy consumes its battery in around 30 seconds—it was still seen to be reliable enough for service. Long-term use of Stealth Boy technology has been observed to cause permanent neurological changes, resulting in paranoid delusions, hallucinations, and other mental changes. Use: A Stealth Boy is activated using the Interact minor action. Once active, the device functions for three full turns: your current turn, your next turn, and your turn after that, after which, it ceases to function and is junk. When activated, a Stealth Boy renders you and the equipment you are carrying nearly invisible. Enemies add +2 to the difficulty of all tests to spot you; they may still hear you or notice your presence in other ways if they’re looking hard enough. In addition, even if you have been detected, the invisibility increases your Defense by +2.",
+      fr:"Le Stealth Boy 3001 est l’une des technologies les plus intéressantes développées avant la Guerre. C’est un appareil compact qui génère un champ de réfraction à modulation transmettant la lumière d’un côté du champ à l’autre, ce qui donne un camouflage actif quasi parfait, qui va d’une sorte de transparence déformée quand vous vous déplacez à l’invisibilité presque totale quand vous êtes immobile. Le Stealth Boy fut développé par ingénierie inverse à partir d’armures furtives chinoises récupérées sur des soldats ennemis pendant la Guerre et même si les États-Unis ne parvinrent jamais à reproduire parfaitement cette technologie (même le Stealth Boy le plus avancé consomme toute sa batterie en environ 30 secondes), le résultat fut tout de même considéré comme suffisamment fiable pour être utilisé. Selon les observations sur le terrain, l’usage de la technologie du Stealth Boy sur le long terme cause des changements neurologiques permanents qui provoquent des délires paranoïaques, des hallucinations et d’autres changements mentaux. Utilisation: un Stealth Boy s’active en utilisant l’action mineure interagir. Une fois activé, l’appareil fonctionne pendant trois tours entiers : votre tour actuel, votre prochain tour et votre tour après le prochain. Après quoi, le Stealth Boy cesse de fonctionner et ne sera plus jamais utilisable. Quand il est activé, un Stealth Boy vous rend presque invisible, y compris l’équipement que vous portez. La difficulté de tous les tests des ennemis pour vous repérer augmente de +2 (mais ils peuvent toujours effectuer des tests, car ils peuvent toujours vous entendre ou remarquer votre présence d’autres façons s’ils sont suffisamment attentifs). De plus, même si vous avez été détecté, l’invisibilité augmente votre défense de +2."
+    },
+    "YbjXflCRhEgdvW0p":{
+      pages:{en:[171],fr:[170]},
+      en:"This delivery mechanism allows the contents of a super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area. Use: When deployed, using the Interact minor action, it produces a cloud which immediately heals 4 HP on everyone (other than robots) within Close range. One super Stimpak is consumed every time the Stimpak diffuser is used.",
+      fr:"Ce mécanisme de diffusion permet au contenu d’un Super Stimpak d’être dispersé dans l’air sous forme de nuage d’aérosol, générant un brouillard de vapeur médicinale sur une petite zone. Utilisation: quand il est déployé en utilisant l’action mineure interagir, le diffuseur à Stimpak produit un nuage qui guérit immédiatement 4 PV pour tous ceux qui se trouvent à portée courte (sauf les robots). Chaque fois que le diffuseur à Stimpak est utilisé, il consomme un Super Stimpak."
+    }
+  };
+
+  const descriptionText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&mdash;/g, "—")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = byId.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.deepEqual(entry.certification.descriptionSourcePages, spec.pages, id + " description source pages");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata reviewed");
+    assert.match(entry.certification.descriptionErrataNote, /Winter of Atom/, id + " p.171 Winter of Atom errata scope");
+    assert.match(entry.certification.descriptionErrataNote, /Wasteland Wanderer/, id + " p.171 Wasteland Wanderer errata scope");
+  }
+  assert.match(byId.get("RXpTSDERvwv1nuZ5").certification.descriptionErrataNote, /no numbered p\.170 entry/, "Robot Repair Kit keeps p.170 errata note");
+  assert.match(byId.get("YbjXflCRhEgdvW0p").certification.descriptionErrataNote, /no numbered p\.170 entry/, "Stimpak Diffuser keeps p.170 errata note");
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      assert.equal(descriptionText(docs.get(id)?.system?.description), spec[language], language + "/" + id + " source description");
+    }
+    assert.match(docs.get("RXpTSDERvwv1nuZ5").system.description, /data-f2d20-recipe="core"/, language + "/Robot Repair Kit recipe retained");
+  }
+});
 
