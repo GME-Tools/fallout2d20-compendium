@@ -5288,3 +5288,126 @@ test("Core Consumables p.155 bilingual food descriptions are source-exact", asyn
     }
   }
 });
+test("Core Consumables p.156 bilingual food descriptions are source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 158 && catalog.certifiedThrough.en.sourcePage >= 156);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 159 && catalog.certifiedThrough.fr.sourcePage >= 156);
+
+  const enP156 = new Set([
+    "Dh09YQNclfQtitwT","ABPjUugdAt6VthAw","0lnW7AJMNs7SxdpP","gezE6P44AYqRQvim",
+    "VUNnTzfG6Kywnt5O","6Y5Gv5LAizj0KDUw","OMWPk4ci2lfZmc6X","O8ozF1U9N1ZZ9axl",
+    "VIoOx0NE579BpX4t","i1BhSDEcs5JNub1v"
+  ]);
+  const frP156 = new Set([
+    "8Ju0FLCWLvXs5zXw","gg2H82rn5B2SXOrF","4Z3zGSnBGJcgR5c2","e6tIVbIcM6krBmSu",
+    "6Y5Gv5LAizj0KDUw","joFpcSrCDtsWQxme","D2s5huShfKCtulYC","vKPqt12nZaVKaTM4",
+    "5uXBOucct2TglTlF","n6asYMleVsDYBbdC","qJUTRSy9Ic1L18BG","Th2rOMBm5trq0s4h"
+  ]);
+  assert.equal(enP156.size, 10);
+  assert.equal(frP156.size, 12);
+  assert.equal(new Set([...enP156, ...frP156]).size, 21);
+
+  const specs = {
+    "Dh09YQNclfQtitwT": {
+      enPages:[156], frPages:[158],
+      en:"A cut of meat taken from a dead mutant hound. This meat’s off-green color and lumpy texture suggests that it would be quite unpleasant to eat. Eaten raw, it contains a fair amount of radiation and is unpalatable. Cooked, they’re still not the tastiest food, but they’re not hazardous. Mutant Hound Meat can be cooked to make Mutant Hound Chops.",
+      fr:"Une pièce de viande découpée sur la carcasse d’un molosse mutant. La couleur vert sale et la texture grumeleuse de cette nourriture suggèrent que la consommer serait une expérience très déplaisante. Mangée crue, elle contient pas mal de radiations et a très mauvais goût. Cuite, elle reste moyennement appétissante, mais elle n’est pas dangereuse. La viande de molosse mutant peut être cuisinée pour produire des côtes de molosse mutant."
+    },
+    "VUNnTzfG6Kywnt5O": {
+      enPages:[156], frPages:[157],
+      en:"Contained within the storage of a Port-A-Diner, this slice of fruit pie has been shielded from the radioactive environment since before the Great War, meaning that isn’t irradiated at all. Copious quantities of preservatives were used in making the pie, so it’s still as edible as it was the day it was made.",
+      fr:"Stockée dans les entrailles d’un restomobile, cette part de tarte aux fruits est protégée de l’environnement radioactif depuis l’avant-guerre, ce qui veut dire qu’elle n’est pas irradiée du tout. Elle a été préparée avec une grande quantité de conservateurs, donc elle reste toujours aussi comestible qu’au jour de sa confection."
+    },
+    "6Y5Gv5LAizj0KDUw": {
+      enPages:[156], frPages:[156],
+      en:"A can containing a complete meal: beans stewed in a tomato sauce with chunks of cured pork belly. The tin may be slightly rusted, and the label has partly fallen off due to age and water damage, but the contents are still as edible as ever, though moreso if warmed up first.",
+      fr:"Une boîte de conserve contenant un repas complet : des haricots mijotant dans de la sauce tomate avec des morceaux de poitrine de porc cuite. Le métal est peut-être légèrement rouillé et l’étiquette s’est à moitié détachée à cause de l’âge et de l’humidité, mais le contenu reste aussi comestible qu’avant la Guerre. Meilleur s’il est réchauffé d’abord."
+    },
+    "O8ozF1U9N1ZZ9axl": {
+      enPages:[156], frPages:[160],
+      en:"A small metal tin of mixed processed meat, typically containing mixtures of meat from brahmin, radstags, mole rats, mongrel dogs, and anything else the maker can get their hands on (some of which may not be fit for human consumption). Special: Roll 2 @fos[DC] when determining if the food inflicts Radiation damage, rather than 1 @fos[DC]. You suffer 1 Radiation damage, ignoring damage resistance, for each Effect rolled.",
+      fr:"Une petite boîte de conserve en étain contenant de la viande transformée mixte, généralement un mélange de viande de brahmine, de radcerf, de rataupe, de chien errant et de tous les autres animaux que le cuisinier a pu attraper (dont certains peuvent être impropres à la consommation par un humain). Spécial : lancez 2 @fos[DC] au lieu de 1 pour déterminer si cette nourriture vous inflige des dégâts de radiation. Pour chaque Effet obtenu, vous subissez 1 point de dégâts de radiation qui ignore la résistance aux dégâts."
+    },
+    "VIoOx0NE579BpX4t": {
+      enPages:[156], frPages:[159],
+      en:"The meat from a dead mirelurk Queen. This meat can make for a great feast, as it is nutrient rich and incredibly filling, leaving a sense of health and wellbeing in any who eat it, even raw. When cooked, these effects are even more pronounced. Queen mirelurk meat can be cooked to produce Mirelurk Queen Steak.",
+      fr:"La viande venant d’une reine des fangeux morte. Cette viande peut constituer un festin de roi, car elle est riche en nutriments et incroyablement roborative, donnant un sentiment de bonne santé et de bien-être à quiconque la mange, même crue. Une fois cuisinée, ces effets sont encore plus prononcés. La viande de reine des fangeux peut être cuisinée pour produire du steak de reine des fangeux."
+    },
+    "4Z3zGSnBGJcgR5c2": {
+      enPages:[158], frPages:[156],
+      en:"A mutated hybrid of the pre-War tomato and potato plants, with the stem and reddish skin of the former and the brownish flesh of the latter. Tatos provide decent nutrition, but taste disgusting. However, they’re relatively easy to grow and thus are a staple of wasteland agriculture and is an ingredient in a variety of recipes.",
+      fr:"Un mélange hybride mutant entre la tomate et la pomme de terre d’avant-guerre, avec la queue et la peau rougeâtre de la première et la chair brunâtre de la deuxième. Les pomates sont assez nourrissantes, mais ont un goût répugnant. Cependant, elles sont relativement faciles à faire pousser et sont donc très présentes dans l’agriculture des Terres désolées. Cela fait d’elles un ingrédient évidemment présent dans de nombreuses recettes."
+    },
+    "n6asYMleVsDYBbdC": {
+      enPages:[157], frPages:[156],
+      en:"Strips of radstag meat, with vegetables and some alcohol, cooked to make a thick, hearty stew. Filling and satisfying, the stew also help fortify the body, making you more resistant to extreme heat for a while.",
+      fr:"Des lamelles de viande de radcerf accompagnées de légumes et d’un peu d’alcool, le tout cuit pour donner un ragoût épais et consistant. Bourratif et nutritif, le ragoût aide aussi à fortifier le corps, vous rendant plus résistant à la chaleur extrême pendant un moment."
+    },
+    "qJUTRSy9Ic1L18BG": {
+      enPages:[158], frPages:[156],
+      en:"Chunks of squirrel meat, along with carrot, tato, and some bloodleaf, cooked together to create a thick stew. More filling and appetizing than the ingredients individually.",
+      fr:"Des morceaux de viande d’écureuil avec de la carotte, de la pomate et un peu de sanguines, le tout cuit ensemble pour donner un ragoût épais. Plus nourrissant et appétissant que les ingrédients pris isolément."
+    },
+    "Th2rOMBm5trq0s4h": {
+      enPages:[159], frPages:[156,157],
+      en:"A roasted piece of Yao Guai meat cooked with carrot and tato. An extremely filling and satisfying meal, and many have claimed that it heightens their killer instinct and ability to inflict harm for a while after eating.",
+      fr:"Une pièce de viande de yao guai rôtie et cuisinée avec de la carotte et de la pomate. Un repas extrêmement nourrissant et nutritif. Beaucoup affirment que cette nourriture aiguise temporairement leur instinct de tueur et leur capacité à faire mal."
+    }
+  };
+  assert.equal(Object.keys(specs).length, 9);
+
+  const catalogById = new Map(catalog.entries.filter(entry => entry.pack === "consumables").map(entry => [entry.documentId, entry]));
+  for (const id of enP156) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "EN p.156 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.en?.includes(156), "EN p.156 description coordinate missing for " + id);
+  }
+  for (const id of frP156) {
+    const entry = catalogById.get(id);
+    assert.ok(entry, "FR p.156 description entry missing for " + id);
+    assert.ok(entry.certification.descriptionSourcePages?.fr?.includes(156), "FR p.156 description coordinate missing for " + id);
+  }
+  for (const id of new Set([...enP156, ...frP156])) {
+    const entry = catalogById.get(id);
+    assert.equal(entry.certification.descriptionReviewed, true, id + " description reviewed");
+    assert.equal(entry.certification.descriptionErrataReviewed, true, id + " description errata review");
+  }
+  for (const [id,spec] of Object.entries(specs)) {
+    const entry = catalogById.get(id);
+    assert.deepEqual(entry.certification.descriptionSourcePages, {en:spec.enPages,fr:spec.frPages}, id + " description source pages");
+    assert.match(entry.certification.descriptionErrataNote, /Royal Flush/, id + " p.156 errata scoping");
+  }
+  assert.match(catalogById.get("gezE6P44AYqRQvim").certification.descriptionErrataNote, /Winter of Atom/, "Noodle Cup keeps the p.152 errata scope");
+  assert.match(catalogById.get("gg2H82rn5B2SXOrF").certification.descriptionErrataNote, /Winter of Atom/, "Canned Dog Food keeps the p.152 errata scope");
+
+  const htmlText = value => String(value ?? "")
+    .split('<section data-f2d20-recipe="core">')[0]
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/&rsquo;/g, "’")
+    .replace(/\s+\./g, ".")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const recipeIds = new Set([
+    "0lnW7AJMNs7SxdpP","gezE6P44AYqRQvim","8Ju0FLCWLvXs5zXw","D2s5huShfKCtulYC",
+    "vKPqt12nZaVKaTM4","n6asYMleVsDYBbdC","qJUTRSy9Ic1L18BG","Th2rOMBm5trq0s4h"
+  ]);
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const docs = new Map(records.filter(({pack}) => pack === "consumables").map(({document}) => [document._id, document]));
+    for (const [id,spec] of Object.entries(specs)) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing");
+      assert.equal(htmlText(document.system.description), spec[language], language + "/consumables/" + id + " source description");
+    }
+    for (const id of recipeIds) {
+      const document = docs.get(id);
+      assert.ok(document, language + "/consumables/" + id + " missing for recipe check");
+      assert.match(document.system.description, /data-f2d20-recipe="core"/, language + "/consumables/" + id + " recipe retained");
+    }
+  }
+});
+

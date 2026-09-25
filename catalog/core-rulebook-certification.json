@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 157,
-      "sourcePage": 155
+      "pdfPage": 158,
+      "sourcePage": 156
     },
     "fr": {
-      "pdfPage": 158,
-      "sourcePage": 155
+      "pdfPage": 159,
+      "sourcePage": 156
     }
   },
   "pageReviews": [
@@ -2533,6 +2533,22 @@
       "language": "fr",
       "pdfPage": 158,
       "sourcePage": 155,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 158,
+      "sourcePage": 156,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 159,
+      "sourcePage": 156,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -39798,7 +39814,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            158
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -39883,7 +39910,18 @@
         "rarity": 3,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -39920,7 +39958,18 @@
         "rarity": 0,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -40343,7 +40392,18 @@
         "rarity": 1,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -40380,7 +40440,18 @@
         "rarity": 2,
         "alcoholic": false,
         "errataReviewed": true,
-        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows."
+        "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            158
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -40418,7 +40489,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
-        "officialFrenchEffect": "+3 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "+3 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            157
+          ],
+          "fr": [
+            156
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -40456,7 +40538,19 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.150 or p.151 correction applicable to these food rows.",
-        "officialFrenchEffect": "+2 @fos[DC] aux attaques de corps à corps jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "+2 @fos[DC] aux attaques de corps à corps jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            159
+          ],
+          "fr": [
+            156,
+            157
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -40497,7 +40591,18 @@
         "officialFrenchEffect": "Lancez 2 @fos[DC] au lieu de 1 pour déterminer les dégâts de radiation quand consommé",
         "tableIrradiatedColumnCombatDice": 1,
         "radiationDamageOverrideCombatDice": 2,
-        "radiationDamageOverrideReviewed": true
+        "radiationDamageOverrideReviewed": true,
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            160
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
@@ -40535,7 +40640,18 @@
         "alcoholic": false,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no Core Rulebook p.151 correction.",
-        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous les tests d’END jusqu’à la fin de la prochaine scène"
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur tous les tests d’END jusqu’à la fin de la prochaine scène",
+        "descriptionReviewed": true,
+        "descriptionSourcePages": {
+          "en": [
+            156
+          ],
+          "fr": [
+            159
+          ]
+        },
+        "descriptionErrataReviewed": true,
+        "descriptionErrataNote": "Errata V6’s numbered p.156 entry belongs to Royal Flush, not the Core Rulebook; no Core Rulebook p.156 food-description correction applies."
       }
     },
     {
