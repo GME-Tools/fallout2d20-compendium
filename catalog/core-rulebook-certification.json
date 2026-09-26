@@ -50042,7 +50042,7 @@
       "type": "roll_table",
       "sourceName": "Random Live & Love Issues",
       "localizedNames": {
-        "fr": "Numéros de Live & Love trouvés au hasard"
+        "fr": "Numéros aléatoires de Live & Love"
       },
       "scope": "in_scope",
       "justification": "Reusable d20 issue-selection RollTable printed on EN p.176 and resolved against the official FR p.180 counterpart.",
@@ -50120,7 +50120,8 @@
         ],
         "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
         "errataReviewed": true,
-        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction.",
+        "officialFrenchSourceLabel": "Numéros de Live & Love trouvés au hasard"
       }
     },
     {
