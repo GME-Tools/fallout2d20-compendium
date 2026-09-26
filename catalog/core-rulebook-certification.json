@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 173,
-      "sourcePage": 171
+      "pdfPage": 174,
+      "sourcePage": 172
     },
     "fr": {
-      "pdfPage": 174,
-      "sourcePage": 171
+      "pdfPage": 175,
+      "sourcePage": 172
     }
   },
   "pageReviews": [
@@ -2789,6 +2789,22 @@
       "language": "fr",
       "pdfPage": 174,
       "sourcePage": 171,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 174,
+      "sourcePage": 172,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 175,
+      "sourcePage": 172,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -44664,6 +44680,1192 @@
           "cost": 200
         },
         "resolution": "The dedicated p.170 Other Consumables table and bilingual detailed identity control the reusable document."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 172,
+      "type": "rule_text",
+      "sourceName": "Books and Magazines — discovery, shared statistics, and temporary perks",
+      "localizedNames": {
+        "fr": "Livres et magazines — découverte, caractéristiques communes et aptitudes temporaires"
+      },
+      "scope": "out_of_scope",
+      "justification": "Shared book/magazine acquisition and temporary-perk procedure applies across reusable publication Items rather than being a standalone Foundry document.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          172
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "randomPublicationRoll": "1d20",
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "magazineTemporaryPerkNormallyAppliesOnce": true,
+        "normalApplicationExamples": [
+          "single skill test",
+          "single attack",
+          "other distinct situation"
+        ],
+        "comprehensionPerkReference": {
+          "en": 62,
+          "fr": 62
+        },
+        "comprehensionMayAllowBenefitAgain": true,
+        "mayLearnUsedTemporaryPerkPermanentlyAtNextLevel": true,
+        "otherwiseMustFindAnotherCopyToRegainPerk": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 172,
+      "type": "rule_text",
+      "sourceName": "Astoundingly Awesome Tales — publication family rules",
+      "localizedNames": {
+        "fr": "Astoundingly Awesome Tales (Histoires à dormir debout) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "The family-level description and issue-selection rule are shared guidance; reusable issue Items and their roll table are certified when the EN issue table begins on source p.173.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          172
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "benefitTypes": [
+          "bonus damage",
+          "bonus damage resistance"
+        ],
+        "temporaryBenefitDuration": "one attack made or received, respectively",
+        "learnedBenefitAppliesToAllAttacks": true,
+        "issueTableDeferredToSourcePage": 173,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "rule_text",
+      "sourceName": "Guns and Bullets — publication family rules",
+      "localizedNames": {
+        "fr": "Guns and Bullets (Armes et munitions) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "The family-level description and once-per-scene learned-perk rule are shared guidance; the ten reusable issue Items, learned Perk documents, and issue roll table are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "temporaryBenefitUses": 1,
+        "learnedBenefitUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 172,
+      "type": "roll_table",
+      "sourceName": "Random Publication",
+      "localizedNames": {
+        "fr": "Publication aléatoire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 publication-selection RollTable printed on EN p.172; the official FR counterpart continues onto p.173.",
+      "pack": "roll-tables",
+      "documentId": "MrcHRXzMqh5yK1Kx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          172
+        ],
+        "fr": [
+          173
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 20,
+        "canonicalEnglishOrder": [
+          "¡La Fantoma!",
+          "Astoundingly Awesome Tales",
+          "Backwoodsman",
+          "Boxing Times",
+          "Duck and Cover!",
+          "Fixin’ Things",
+          "Future Weapons Today",
+          "Grognak the Barbarian",
+          "Guns and Bullets",
+          "Live & Love",
+          "Massachusetts Surgical Journal",
+          "Meeting People",
+          "Programmer’s Digest",
+          "Tales of a Junktown Jerky Vendor",
+          "Tesla Science Magazine",
+          "True Police Stories",
+          "Tumblers Today",
+          "Unstoppables",
+          "U.S. Covert Operations Manual",
+          "Wasteland Survival Guide"
+        ],
+        "officialFrenchPrintedOrder": [
+          "Duck and Cover!",
+          "Guns and Bullets",
+          "Meeting People",
+          "¡La Fantoma!",
+          "Tumblers Today",
+          "Grognak the Barbarian",
+          "Wasteland Survival Guide",
+          "Astoundingly Awesome Tales",
+          "Future Weapons Today",
+          "Backwoodsman",
+          "Boxing Times",
+          "Massachusetts Surgical Journal",
+          "Programmer’s Digest",
+          "Tales of a Junktown Jerky Vendor",
+          "Unstoppables",
+          "U.S. Covert Operations Manual",
+          "Fixin’ Things",
+          "Tesla Science Magazine",
+          "Live & Love",
+          "True Police Stories"
+        ],
+        "localizationDiscrepancy": "The official FR p.173 random-publication table uses a different d20 ordering from the authoritative EN p.172 table. The FR Foundry locale deliberately retains the EN canonical ranges while localizing the result labels/links.",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 172,
+      "type": "book_magazine",
+      "sourceName": "¡La Fantoma!",
+      "localizedNames": {
+        "fr": "Fantômes en tous genres"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Core book/magazine identity with a one-use temporary perk and a linked permanent learned-perk document.",
+      "pack": "books-and-magazines",
+      "documentId": "9Z4Asa5c915hem9w",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          172
+        ],
+        "fr": [
+          173
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created.",
+        "officialFrenchEffect": "Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée.",
+        "linkedPerkDocumentId": "wUoc5IDZQ0ye1TDw",
+        "targetedCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 172,
+      "type": "magazine_perk",
+      "sourceName": "¡La Fantoma!",
+      "localizedNames": {
+        "fr": "Fantômes en tous genres"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity explicitly enabled by the Core magazine rules and linked to its source publication.",
+      "pack": "perks",
+      "documentId": "wUoc5IDZQ0ye1TDw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          172
+        ],
+        "fr": [
+          173
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "9Z4Asa5c915hem9w",
+        "effect": "When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created.",
+        "officialFrenchEffect": "Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée.",
+        "learnedUse": "once per scene",
+        "targetedCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Duck and Cover!",
+      "localizedNames": {
+        "fr": "À couvert !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Core book/magazine identity with a one-use temporary perk and a linked permanent learned-perk document.",
+      "pack": "books-and-magazines",
+      "documentId": "ZTVTUHilc84UzoRP",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast.",
+        "officialFrenchEffect": "Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol (voir page 25). Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d’impact.",
+        "linkedPerkDocumentId": "gD1wycvvp1ivtXdY",
+        "targetedCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Duck and Cover!",
+      "localizedNames": {
+        "fr": "À couvert !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity explicitly enabled by the Core magazine rules and linked to its source publication.",
+      "pack": "perks",
+      "documentId": "gD1wycvvp1ivtXdY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "ZTVTUHilc84UzoRP",
+        "effect": "Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast.",
+        "officialFrenchEffect": "Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol (voir page 25). Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d’impact.",
+        "learnedUse": "whenever affected by a Blast weapon by spending 1 AP",
+        "targetedCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "roll_table",
+      "sourceName": "Random Guns and Bullets Issues",
+      "localizedNames": {
+        "fr": "Numéros aléatoires de Guns and Bullets"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable. It is reached on FR source p.172 and resolved against its authoritative EN p.175 counterpart without advancing the EN p.175 page boundary.",
+      "pack": "roll-tables",
+      "documentId": "anS2tzaEW0Tct41L",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 10,
+        "ranges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "issueDocumentIds": [
+          "DBYRYX03IcO2aTQG",
+          "qJ0xswPVJhHeBwLT",
+          "UvPtfBpiOmAmiKg2",
+          "mT0Wf89P2UGLZ83y",
+          "qcEZIWmadDggAT8K",
+          "4jcc9O3jIgAhUulK",
+          "yjknvThwoDmQwU3M",
+          "AJEifHfxya4EViFy",
+          "fYy1RCAJMGPRO9WJ",
+          "116TjNgfBwkNOSF6"
+        ],
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "The Future of Hunting?",
+      "localizedNames": {
+        "fr": "Quel avenir pour la chasse ?"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "DBYRYX03IcO2aTQG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          1,
+          2
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack against Robots inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque contre un Robot inflige +2 @fos[DC] de dégâts",
+        "linkedPerkDocumentId": "kBFXBzcatoT884Je",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "The Future of Hunting?",
+      "localizedNames": {
+        "fr": "Quel avenir pour la chasse ?"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "kBFXBzcatoT884Je",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "DBYRYX03IcO2aTQG",
+        "rollRange": [
+          1,
+          2
+        ],
+        "effect": "One attack against Robots inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque contre un Robot inflige +2 @fos[DC] de dégâts",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Lasers & Hunting: Acceptable Overkill",
+      "localizedNames": {
+        "fr": "Les lasers et la chasse : carnager c’est OK"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "qJ0xswPVJhHeBwLT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          3,
+          4
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack with a Laser weapon gains the Vicious damage effect if it didn’t already have it",
+        "officialFrenchEffect": "Une attaque avec une arme laser gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà",
+        "linkedPerkDocumentId": "nRkIZJRQqkTsqQV7",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Lasers & Hunting: Acceptable Overkill",
+      "localizedNames": {
+        "fr": "Les lasers et la chasse : carnager c’est OK"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "nRkIZJRQqkTsqQV7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "qJ0xswPVJhHeBwLT",
+        "rollRange": [
+          3,
+          4
+        ],
+        "effect": "One attack with a Laser weapon gains the Vicious damage effect if it didn’t already have it",
+        "officialFrenchEffect": "Une attaque avec une arme laser gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Little Guns for Little Ladies",
+      "localizedNames": {
+        "fr": "Petites armes pour petites dames"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "UvPtfBpiOmAmiKg2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          5,
+          6
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack with a Small Guns weapon gains the Vicious damage effect if it didn’t have it already",
+        "officialFrenchEffect": "Une attaque avec une arme maniée avec Armes légères gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà",
+        "linkedPerkDocumentId": "YUHxXpiMFWmEtbXB",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Little Guns for Little Ladies",
+      "localizedNames": {
+        "fr": "Petites armes pour petites dames"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "YUHxXpiMFWmEtbXB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "UvPtfBpiOmAmiKg2",
+        "rollRange": [
+          5,
+          6
+        ],
+        "effect": "One attack with a Small Guns weapon gains the Vicious damage effect if it didn’t have it already",
+        "officialFrenchEffect": "Une attaque avec une arme maniée avec Armes légères gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Street Guns of Detroit",
+      "localizedNames": {
+        "fr": "Flingues de rue à Détroit"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "mT0Wf89P2UGLZ83y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          7,
+          8
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Gain an extra 2 AP after one successful attack. This AP must be spent immediately: it cannot be saved",
+        "officialFrenchEffect": "Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus",
+        "linkedPerkDocumentId": "iQofqWEFwGokog1G",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Street Guns of Detroit",
+      "localizedNames": {
+        "fr": "Flingues de rue à Détroit"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "iQofqWEFwGokog1G",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "mT0Wf89P2UGLZ83y",
+        "rollRange": [
+          7,
+          8
+        ],
+        "effect": "Gain an extra 2 AP after one successful attack. This AP must be spent immediately: it cannot be saved",
+        "officialFrenchEffect": "Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Avoid Those Pesky Gun Laws!",
+      "localizedNames": {
+        "fr": "Éviter ces satanées lois contre les armes !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "qcEZIWmadDggAT8K",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          9,
+          10
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials",
+        "officialFrenchEffect": "Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent être dépensés que pour récupérer des unités de composants supplémentaires",
+        "linkedPerkDocumentId": "Zl8Mt7ll7IqbgFq2",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Avoid Those Pesky Gun Laws!",
+      "localizedNames": {
+        "fr": "Éviter ces satanées lois contre les armes !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "Zl8Mt7ll7IqbgFq2",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "qcEZIWmadDggAT8K",
+        "rollRange": [
+          9,
+          10
+        ],
+        "effect": "When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials",
+        "officialFrenchEffect": "Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent être dépensés que pour récupérer des unités de composants supplémentaires",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "The Moon: A Communist Doomsday Device?!",
+      "localizedNames": {
+        "fr": "La Lune : appareil de fin du monde communiste ?!"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "4jcc9O3jIgAhUulK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          11,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Gain +2 to Physical or Energy damage resistance against one attack at night",
+        "officialFrenchEffect": "Gagnez +2 à votre résistance aux dégâts balistiques ou énergétiques contre une attaque par nuit",
+        "linkedPerkDocumentId": "zZg9mSTuufYGzSib",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "The Moon: A Communist Doomsday Device?!",
+      "localizedNames": {
+        "fr": "La Lune : appareil de fin du monde communiste ?!"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "zZg9mSTuufYGzSib",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "4jcc9O3jIgAhUulK",
+        "rollRange": [
+          11,
+          12
+        ],
+        "effect": "Gain +2 to Physical or Energy damage resistance against one attack at night",
+        "officialFrenchEffect": "Gagnez +2 à votre résistance aux dégâts balistiques ou énergétiques contre une attaque par nuit",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Take Aim, Army Style",
+      "localizedNames": {
+        "fr": "Viser et tirer, comme à l’armée"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "yjknvThwoDmQwU3M",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          13,
+          14
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque avec visée portée avec une arme qui n’a pas la qualité Précis inflige +2 @fos[DC] de dégâts",
+        "linkedPerkDocumentId": "oRB1ZIvzhsUMElSc",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Take Aim, Army Style",
+      "localizedNames": {
+        "fr": "Viser et tirer, comme à l’armée"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "oRB1ZIvzhsUMElSc",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "yjknvThwoDmQwU3M",
+        "rollRange": [
+          13,
+          14
+        ],
+        "effect": "One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque avec visée portée avec une arme qui n’a pas la qualité Précis inflige +2 @fos[DC] de dégâts",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Bear-Proofing your Campsite",
+      "localizedNames": {
+        "fr": "Protéger son campement des ours"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "AJEifHfxya4EViFy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          15,
+          16
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack against Yao Guai inflicts +3CD damage",
+        "officialFrenchEffect": "Une attaque contre un yao guai inflige +3 @fos[DC] de dégâts",
+        "linkedPerkDocumentId": "5tgqF87DaXrrz59x",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Bear-Proofing your Campsite",
+      "localizedNames": {
+        "fr": "Protéger son campement des ours"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "5tgqF87DaXrrz59x",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "AJEifHfxya4EViFy",
+        "rollRange": [
+          15,
+          16
+        ],
+        "effect": "One attack against Yao Guai inflicts +3CD damage",
+        "officialFrenchEffect": "Une attaque contre un yao guai inflige +3 @fos[DC] de dégâts",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Plasma: The Weapon of Tomorrow",
+      "localizedNames": {
+        "fr": "Plasma : l’arme de demain"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "fYy1RCAJMGPRO9WJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          17,
+          18
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack with a Plasma weapon gains the Vicious damage effect if it didn’t already have it",
+        "officialFrenchEffect": "Une attaque avec une arme plasma gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà",
+        "linkedPerkDocumentId": "SbayR4I8JCyymq0a",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Plasma: The Weapon of Tomorrow",
+      "localizedNames": {
+        "fr": "Plasma : l’arme de demain"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "SbayR4I8JCyymq0a",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "fYy1RCAJMGPRO9WJ",
+        "rollRange": [
+          17,
+          18
+        ],
+        "effect": "One attack with a Plasma weapon gains the Vicious damage effect if it didn’t already have it",
+        "officialFrenchEffect": "Une attaque avec une arme plasma gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Guide to Hunting Commies!",
+      "localizedNames": {
+        "fr": "Guide de la chasse aux Rouges"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Guns and Bullets issue reached on FR p.172 and resolved against the authoritative EN p.175 table.",
+      "pack": "books-and-magazines",
+      "documentId": "116TjNgfBwkNOSF6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Guns and Bullets",
+        "rollRange": [
+          19,
+          20
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack against an enemy with a lower level than you inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque contre un ennemi au niveau inférieur au vôtre inflige +2 @fos[DC] de dégâts",
+        "linkedPerkDocumentId": "BoK3Po9WKYHAv4Y9",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Guide to Hunting Commies!",
+      "localizedNames": {
+        "fr": "Guide de la chasse aux Rouges"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Guns and Bullets issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "BoK3Po9WKYHAv4Y9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          172
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "116TjNgfBwkNOSF6",
+        "rollRange": [
+          19,
+          20
+        ],
+        "effect": "One attack against an enemy with a lower level than you inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque contre un ennemi au niveau inférieur au vôtre inflige +2 @fos[DC] de dégâts",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
       }
     }
   ]

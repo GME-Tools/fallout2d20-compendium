@@ -3,7 +3,7 @@
   "_file": "the_moon_a_communist_doomsday_device__zZg9mSTuufYGzSib.json",
   "values": {
     "/name": "The Moon: A Communist Doomsday Device?!",
-    "/system/description": "<p>Gain +2 to Physical or Energy damage resistance against one attack at night</p>",
+    "/system/description": "<p>Gain +2 to Physical or Energy damage resistance against one attack at night</p>\n<p>If you later learn the perk, you may use that benefit once per scene.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

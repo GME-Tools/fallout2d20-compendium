@@ -3,7 +3,7 @@
   "_file": "take_aim_army_style__oRB1ZIvzhsUMElSc.json",
   "values": {
     "/name": "Take Aim, Army Style",
-    "/system/description": "<p>One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage</p>",
+    "/system/description": "<p>One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage</p>\n<p>If you later learn the perk, you may use that benefit once per scene.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

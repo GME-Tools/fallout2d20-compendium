@@ -3,7 +3,7 @@
   "_file": "eviter_ces_satanees_lois_contre_les_armes__Zl8Mt7ll7IqbgFq2.json",
   "values": {
     "/name": "Éviter ces satanées lois contre les armes !",
-    "/system/description": "<p>Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent servir qu’à récupérer des unités de composants supplémentaires.</p>",
+    "/system/description": "<p>Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent être dépensés que pour récupérer des unités de composants supplémentaires</p>\n<p>Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

@@ -3,7 +3,7 @@
   "_file": "flingues_de_rue_a_detroit__iQofqWEFwGokog1G.json",
   "values": {
     "/name": "Flingues de rue à Détroit",
-    "/system/description": "<p>Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus.</p>",
+    "/system/description": "<p>Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus</p>\n<p>Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

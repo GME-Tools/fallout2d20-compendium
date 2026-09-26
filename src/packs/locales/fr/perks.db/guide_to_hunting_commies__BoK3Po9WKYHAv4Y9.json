@@ -3,7 +3,7 @@
   "_file": "guide_de_la_chasse_aux_rouges__BoK3Po9WKYHAv4Y9.json",
   "values": {
     "/name": "Guide de la chasse aux Rouges",
-    "/system/description": "<p>Une attaque contre un ennemi d’un niveau inférieur au vôtre inflige +2 @fos[DC] de dégâts.</p>",
+    "/system/description": "<p>Une attaque contre un ennemi au niveau inférieur au vôtre inflige +2 @fos[DC] de dégâts</p>\n<p>Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

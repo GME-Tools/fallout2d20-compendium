@@ -3,7 +3,7 @@
   "_file": "plasma_the_weapon_of_tomorrow__SbayR4I8JCyymq0a.json",
   "values": {
     "/name": "Plasma: The Weapon of Tomorrow",
-    "/system/description": "<p>One attack with a Plasma weapon gains the Vicious damage effect if it didn&rsquo;t already have it</p>",
+    "/system/description": "<p>One attack with a Plasma weapon gains the Vicious damage effect if it didn’t already have it</p>\n<p>If you later learn the perk, you may use that benefit once per scene.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

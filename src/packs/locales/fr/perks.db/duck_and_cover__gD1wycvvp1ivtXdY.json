@@ -3,7 +3,7 @@
   "_file": "a_couvert__gD1wycvvp1ivtXdY.json",
   "values": {
     "/name": "À couvert !",
-    "/system/description": "<p>Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol. Dans ce cas, ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme.</p>",
+    "/system/description": "<p>Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol (voir page 25). Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d’impact. Si vous apprenez cette aptitude plus tard, vous pouvez l’utiliser chaque fois que vous êtes touché par une arme à Zone d’impact en dépensant 1 PA.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

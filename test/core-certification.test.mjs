@@ -7081,4 +7081,215 @@ test("Core Consumables p.171 closes Other Consumables descriptions source-exact"
     assert.match(docs.get("RXpTSDERvwv1nuZ5").system.description, /data-f2d20-recipe="core"/, language + "/Robot Repair Kit recipe retained");
   }
 });
+test("Core Books and Magazines p.172 opens publications source-exact", async () => {
+  assert.ok(catalog.certifiedThrough.en.pdfPage >= 174 && catalog.certifiedThrough.en.sourcePage >= 172);
+  assert.ok(catalog.certifiedThrough.fr.pdfPage >= 175 && catalog.certifiedThrough.fr.sourcePage >= 172);
+
+  const general = catalog.entries.find(entry => entry.page === 172 && entry.type === "rule_text" && entry.sourceName.startsWith("Books and Magazines —"));
+  assert.ok(general, "p.172 Books and Magazines general rule inventory");
+  assert.equal(general.status, "out_of_scope");
+  assert.equal(general.certification.randomPublicationRoll, "1d20");
+  assert.equal(general.certification.weightLb, "<1");
+  assert.equal(general.certification.weightFr, "<0.5");
+  assert.equal(general.certification.cost, 100);
+  assert.equal(general.certification.rarity, 3);
+  assert.equal(general.certification.magazineTemporaryPerkNormallyAppliesOnce, true);
+  assert.equal(general.certification.mayLearnUsedTemporaryPerkPermanentlyAtNextLevel, true);
+  assert.match(general.certification.errataNote, /Winter of Atom/, "p.174 errata is not Core");
+
+  const awesomeFamily = catalog.entries.find(entry => entry.page === 172 && entry.sourceName === "Astoundingly Awesome Tales — publication family rules");
+  assert.ok(awesomeFamily, "Astoundingly Awesome Tales family rule inventory");
+  assert.equal(awesomeFamily.status, "out_of_scope");
+  assert.deepEqual(awesomeFamily.sourcePages, {en:[172],fr:[175]});
+  assert.equal(awesomeFamily.certification.issueTableDeferredToSourcePage, 173);
+  assert.equal(awesomeFamily.certification.learnedBenefitAppliesToAllAttacks, true);
+
+  const gunsFamily = catalog.entries.find(entry => entry.page === 175 && entry.sourceName === "Guns and Bullets — publication family rules");
+  assert.ok(gunsFamily, "Guns and Bullets family rule inventory");
+  assert.equal(gunsFamily.status, "out_of_scope");
+  assert.deepEqual(gunsFamily.sourcePages, {en:[175],fr:[172]});
+  assert.equal(gunsFamily.certification.temporaryBenefitUses, 1);
+  assert.equal(gunsFamily.certification.learnedBenefitUsesPerScene, 1);
+
+  const canonicalPublicationOrder = [
+    "¡La Fantoma!","Astoundingly Awesome Tales","Backwoodsman","Boxing Times","Duck and Cover!","Fixin’ Things",
+    "Future Weapons Today","Grognak the Barbarian","Guns and Bullets","Live & Love","Massachusetts Surgical Journal",
+    "Meeting People","Programmer’s Digest","Tales of a Junktown Jerky Vendor","Tesla Science Magazine","True Police Stories",
+    "Tumblers Today","Unstoppables","U.S. Covert Operations Manual","Wasteland Survival Guide"
+  ];
+  const frenchPrintedOrder = [
+    "Duck and Cover!","Guns and Bullets","Meeting People","¡La Fantoma!","Tumblers Today","Grognak the Barbarian",
+    "Wasteland Survival Guide","Astoundingly Awesome Tales","Future Weapons Today","Backwoodsman","Boxing Times",
+    "Massachusetts Surgical Journal","Programmer’s Digest","Tales of a Junktown Jerky Vendor","Unstoppables",
+    "U.S. Covert Operations Manual","Fixin’ Things","Tesla Science Magazine","Live & Love","True Police Stories"
+  ];
+  const publicationTableEntry = catalog.entries.find(entry => entry.pack === "roll-tables" && entry.documentId === "MrcHRXzMqh5yK1Kx");
+  assert.ok(publicationTableEntry, "Random Publication table inventory");
+  assert.equal(publicationTableEntry.page, 172);
+  assert.deepEqual(publicationTableEntry.sourcePages, {en:[172],fr:[173]});
+  assert.deepEqual(publicationTableEntry.certification.canonicalEnglishOrder, canonicalPublicationOrder);
+  assert.deepEqual(publicationTableEntry.certification.officialFrenchPrintedOrder, frenchPrintedOrder);
+  assert.match(publicationTableEntry.certification.localizationDiscrepancy, /different d20 ordering/);
+
+  const singletonSpecs = [
+    {
+      itemId:"9Z4Asa5c915hem9w", perkId:"wUoc5IDZQ0ye1TDw", page:172,
+      enName:"¡La Fantoma!", frName:"Fantômes en tous genres", sourcePages:{en:[172],fr:[173]},
+      enEffect:"When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created.",
+      frEffect:"Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée.",
+      enBook:"An issue of a pre-War comic book, detailing the adventures of ¡La Fantoma!, a master of stealth and infiltration. Perk: When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created. If you learn this perk, you may use it once per scene.",
+      frBook:"Un numéro d’un comic d’avant-guerre racontant les aventures de ¡La Fantoma!, un expert en discrétion et en infiltration. Aptitude: Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée. Si vous apprenez cette aptitude, vous pouvez l’utiliser une fois par scène.",
+      enPerk:"When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created. If you learn this perk, you may use it once per scene.",
+      frPerk:"Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée. Si vous apprenez cette aptitude, vous pouvez l’utiliser une fois par scène."
+    },
+    {
+      itemId:"ZTVTUHilc84UzoRP", perkId:"gD1wycvvp1ivtXdY", page:174,
+      enName:"Duck and Cover!", frName:"À couvert !", sourcePages:{en:[174],fr:[172]},
+      enEffect:"Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast.",
+      frEffect:"Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol (voir page 25). Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d’impact.",
+      enBook:"A pre-War book about the manufacture, use, and disarming of explosives. Perk: Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP.",
+      frBook:"Un livre d’avant-guerre sur la fabrication, l’utilisation et le désamorçage d’explosifs. Aptitude: Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol (voir page 25). Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d’impact. Si vous apprenez cette aptitude plus tard, vous pouvez l’utiliser chaque fois que vous êtes touché par une arme à Zone d’impact en dépensant 1 PA.",
+      enPerk:"Once, when you are affected by a Blast weapon, you may choose to fall prone (p.25). If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP.",
+      frPerk:"Une seule fois, quand vous êtes touché par une arme à Zone d’impact, vous pouvez choisir de tomber au sol (voir page 25). Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d’impact. Si vous apprenez cette aptitude plus tard, vous pouvez l’utiliser chaque fois que vous êtes touché par une arme à Zone d’impact en dépensant 1 PA."
+    }
+  ];
+
+  const guns = [
+    ["DBYRYX03IcO2aTQG","kBFXBzcatoT884Je","The Future of Hunting?","Quel avenir pour la chasse ?",[1,2],"One attack against Robots inflicts +2CD damage","Une attaque contre un Robot inflige +2 @fos[DC] de dégâts"],
+    ["qJ0xswPVJhHeBwLT","nRkIZJRQqkTsqQV7","Lasers & Hunting: Acceptable Overkill","Les lasers et la chasse : carnager c’est OK",[3,4],"One attack with a Laser weapon gains the Vicious damage effect if it didn’t already have it","Une attaque avec une arme laser gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà"],
+    ["UvPtfBpiOmAmiKg2","YUHxXpiMFWmEtbXB","Little Guns for Little Ladies","Petites armes pour petites dames",[5,6],"One attack with a Small Guns weapon gains the Vicious damage effect if it didn’t have it already","Une attaque avec une arme maniée avec Armes légères gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà"],
+    ["mT0Wf89P2UGLZ83y","iQofqWEFwGokog1G","Street Guns of Detroit","Flingues de rue à Détroit",[7,8],"Gain an extra 2 AP after one successful attack. This AP must be spent immediately: it cannot be saved","Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doivent être dépensés immédiatement, sinon ils sont perdus"],
+    ["qcEZIWmadDggAT8K","Zl8Mt7ll7IqbgFq2","Avoid Those Pesky Gun Laws!","Éviter ces satanées lois contre les armes !",[9,10],"When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials","Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent être dépensés que pour récupérer des unités de composants supplémentaires"],
+    ["4jcc9O3jIgAhUulK","zZg9mSTuufYGzSib","The Moon: A Communist Doomsday Device?!","La Lune : appareil de fin du monde communiste ?!",[11,12],"Gain +2 to Physical or Energy damage resistance against one attack at night","Gagnez +2 à votre résistance aux dégâts balistiques ou énergétiques contre une attaque par nuit"],
+    ["yjknvThwoDmQwU3M","oRB1ZIvzhsUMElSc","Take Aim, Army Style","Viser et tirer, comme à l’armée",[13,14],"One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage","Une attaque avec visée portée avec une arme qui n’a pas la qualité Précis inflige +2 @fos[DC] de dégâts"],
+    ["AJEifHfxya4EViFy","5tgqF87DaXrrz59x","Bear-Proofing your Campsite","Protéger son campement des ours",[15,16],"One attack against Yao Guai inflicts +3CD damage","Une attaque contre un yao guai inflige +3 @fos[DC] de dégâts"],
+    ["fYy1RCAJMGPRO9WJ","SbayR4I8JCyymq0a","Plasma: The Weapon of Tomorrow","Plasma : l’arme de demain",[17,18],"One attack with a Plasma weapon gains the Vicious damage effect if it didn’t already have it","Une attaque avec une arme plasma gagne l’effet de dégâts Brutal si elle ne l’avait pas déjà"],
+    ["116TjNgfBwkNOSF6","BoK3Po9WKYHAv4Y9","Guide to Hunting Commies!","Guide de la chasse aux Rouges",[19,20],"One attack against an enemy with a lower level than you inflicts +2CD damage","Une attaque contre un ennemi au niveau inférieur au vôtre inflige +2 @fos[DC] de dégâts"]
+  ].map(([itemId,perkId,enName,frName,range,enEffect,frEffect]) => ({itemId,perkId,enName,frName,range,enEffect,frEffect}));
+
+  const gunsTableEntry = catalog.entries.find(entry => entry.pack === "roll-tables" && entry.documentId === "anS2tzaEW0Tct41L");
+  assert.ok(gunsTableEntry, "Guns and Bullets issue table inventory");
+  assert.equal(gunsTableEntry.page, 175);
+  assert.deepEqual(gunsTableEntry.sourcePages, {en:[175],fr:[172]});
+  assert.deepEqual(gunsTableEntry.certification.ranges, guns.map(spec => spec.range));
+  assert.deepEqual(gunsTableEntry.certification.issueDocumentIds, guns.map(spec => spec.itemId));
+
+  const byPackAndId = new Map(catalog.entries.filter(entry => entry.documentId).map(entry => [entry.pack + "/" + entry.documentId, entry]));
+  for (const spec of singletonSpecs) {
+    const item = byPackAndId.get("books-and-magazines/" + spec.itemId);
+    const perk = byPackAndId.get("perks/" + spec.perkId);
+    assert.ok(item && perk, spec.enName + " item/perk inventory");
+    assert.equal(item.page, spec.page);
+    assert.equal(perk.page, spec.page);
+    assert.deepEqual(item.sourcePages, spec.sourcePages);
+    assert.deepEqual(perk.sourcePages, spec.sourcePages);
+    assert.equal(item.certification.linkedPerkDocumentId, spec.perkId);
+    assert.equal(perk.certification.linkedMagazineDocumentId, spec.itemId);
+    assert.equal(item.certification.weightLb, "<1");
+    assert.equal(item.certification.weightFr, "<0.5");
+    assert.equal(item.certification.cost, 100);
+    assert.equal(item.certification.rarity, 3);
+  }
+  for (const spec of guns) {
+    const item = byPackAndId.get("books-and-magazines/" + spec.itemId);
+    const perk = byPackAndId.get("perks/" + spec.perkId);
+    assert.ok(item && perk, spec.enName + " item/perk inventory");
+    assert.equal(item.page, 175);
+    assert.equal(perk.page, 175);
+    assert.deepEqual(item.sourcePages, {en:[175],fr:[172]});
+    assert.deepEqual(perk.sourcePages, {en:[175],fr:[172]});
+    assert.deepEqual(item.certification.rollRange, spec.range);
+    assert.deepEqual(perk.certification.rollRange, spec.range);
+    assert.equal(item.certification.effect, spec.enEffect);
+    assert.equal(item.certification.officialFrenchEffect, spec.frEffect);
+    assert.equal(item.certification.linkedPerkDocumentId, spec.perkId);
+    assert.equal(perk.certification.linkedMagazineDocumentId, spec.itemId);
+    assert.equal(perk.certification.learnedUsesPerScene, 1);
+  }
+
+  const htmlText = value => String(value ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&iexcl;/g, "¡")
+    .replace(/&rsquo;/g, "’")
+    .replace(/&ldquo;/g, "“")
+    .replace(/&rdquo;/g, "”")
+    .replace(/\s+/g, " ")
+    .trim();
+  const bookText = value => htmlText(String(value ?? "").split('<section data-f2d20-links="core">')[0]);
+
+  const enGunsDescription = "A magazine series catering to weapons enthusiasts, with articles dedicated to hunting, weapons, gun law, and the portrayal of practical use of firearms. Perk: Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found:";
+  const frGunsDescription = "Une série de magazines destinés aux passionnés d’armes, avec des articles sur la chasse, les armes, la législation sur les armes à feu et l’usage pratique des armes à feu. Aptitude: Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu’une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1d20 pour déterminer quel numéro vous trouvez:";
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const tables = new Map(records.filter(({pack}) => pack === "roll-tables").map(({document}) => [document._id, document]));
+    const books = new Map(records.filter(({pack}) => pack === "books-and-magazines").map(({document}) => [document._id, document]));
+    const perks = new Map(records.filter(({pack}) => pack === "perks").map(({document}) => [document._id, document]));
+
+    const publicationTable = tables.get("MrcHRXzMqh5yK1Kx");
+    assert.ok(publicationTable, language + "/Random Publication missing");
+    assert.equal(publicationTable.flags["fallout2d20-compendium"].source.page, 172);
+    assert.equal(publicationTable.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    assert.equal(publicationTable.formula, "1d20");
+    assert.deepEqual(publicationTable.results.map(result => result.range), Array.from({length:20},(_,i)=>[i+1,i+1]));
+    if (language === "en") assert.deepEqual(publicationTable.results.map(result => result.name), canonicalPublicationOrder);
+
+    const gunsTable = tables.get("anS2tzaEW0Tct41L");
+    assert.ok(gunsTable, language + "/Guns and Bullets issue table missing");
+    assert.equal(gunsTable.flags["fallout2d20-compendium"].source.page, 175);
+    assert.equal(gunsTable.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    assert.deepEqual(gunsTable.results.map(result => result.range), guns.map(spec => spec.range));
+    assert.deepEqual(gunsTable.results.map(result => result.name), guns.map(spec => language === "en" ? spec.enName : spec.frName));
+
+    for (const spec of singletonSpecs) {
+      const book = books.get(spec.itemId);
+      const perk = perks.get(spec.perkId);
+      assert.ok(book && perk, language + "/" + spec.enName + " item/perk missing");
+      assert.equal(book.name, language === "en" ? spec.enName : spec.frName);
+      assert.equal(perk.name, language === "en" ? spec.enName : spec.frName);
+      assert.equal(book.flags["fallout2d20-compendium"].source.page, spec.page);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.page, spec.page);
+      assert.equal(book.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(book.system.weight, 0);
+      assert.equal(book.system.cost, 100);
+      assert.equal(book.system.rarity, 3);
+      assert.equal(book.system.uses.max, 1);
+      assert.equal(htmlText(book.system.effect), language === "en" ? spec.enEffect : spec.frEffect);
+      assert.equal(bookText(book.system.description), language === "en" ? spec.enBook : spec.frBook);
+      assert.match(book.system.description, /data-f2d20-links="core"/, language + "/" + spec.enName + " perk link retained");
+      assert.equal(perk.system.rank.max, 1);
+      assert.ok(perk.system.requirementsEx.magazineUuids.some(uuid => uuid.includes(spec.itemId)));
+      assert.equal(htmlText(perk.system.description), language === "en" ? spec.enPerk : spec.frPerk);
+    }
+
+    for (const spec of guns) {
+      const book = books.get(spec.itemId);
+      const perk = perks.get(spec.perkId);
+      assert.ok(book && perk, language + "/" + spec.enName + " item/perk missing");
+      assert.equal(book.name, language === "en" ? spec.enName : spec.frName);
+      assert.equal(perk.name, language === "en" ? spec.enName : spec.frName);
+      assert.equal(book.flags["fallout2d20-compendium"].source.page, 175);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.page, 175);
+      assert.equal(book.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.equal(book.system.weight, 0);
+      assert.equal(book.system.cost, 100);
+      assert.equal(book.system.rarity, 3);
+      assert.equal(book.system.uses.max, 1);
+      assert.equal(book.system.publication, language === "en" ? "Guns and Bullets" : "Armes et munitions");
+      assert.equal(htmlText(book.system.effect), language === "en" ? spec.enEffect : spec.frEffect);
+      assert.equal(bookText(book.system.description), language === "en" ? enGunsDescription : frGunsDescription);
+      assert.match(book.system.description, /data-f2d20-links="core"/, language + "/" + spec.enName + " perk link retained");
+      assert.equal(perk.system.rank.max, 1);
+      assert.ok(perk.system.requirementsEx.magazineUuids.some(uuid => uuid.includes(spec.itemId)));
+      const expectedPerk = (language === "en" ? spec.enEffect : spec.frEffect) + " " +
+        (language === "en"
+          ? "If you later learn the perk, you may use that benefit once per scene."
+          : "Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.");
+      assert.equal(htmlText(perk.system.description), expectedPerk, language + "/" + spec.enName + " learned perk");
+    }
+  }
+});
 

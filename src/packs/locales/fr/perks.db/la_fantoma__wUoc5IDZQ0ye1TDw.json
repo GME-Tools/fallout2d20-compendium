@@ -3,7 +3,7 @@
   "_file": "fantomes_en_tous_genres__wUoc5IDZQ0ye1TDw.json",
   "values": {
     "/name": "Fantômes en tous genres",
-    "/system/description": "<p>Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion à portée moyenne ; le personnage qui a perdu le test en opposition se dirige vers cette diversion.</p>",
+    "/system/description": "<p>Quand vous réussissez un test de Discrétion pour éviter d’être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée. Si vous apprenez cette aptitude, vous pouvez l’utiliser une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true
