@@ -7293,3 +7293,59 @@ test("Core Books and Magazines p.172 opens publications source-exact", async () 
   }
 });
 
+
+
+test("Core source p.173 magazine issues preserve exact tables, provenance, and learned-use rules", async () => {
+  assert.equal(catalog.certifiedThrough.en.sourcePage, 173);
+  assert.equal(catalog.certifiedThrough.fr.sourcePage, 173);
+
+  const aatItems = ["mT6qkeV6xTG1pnex","J86ayEuqmagF9OH0","13RpvXhUn7TdKjEA","iiFcIlhklIMxjaoC","sNyzZdtR8zQeKE86","jPdCfq2T6pELwzbK","1bOiFImI3fM9CaIJ","6rHaK2QtsSPGvSpJ","zpcKGtIDvZn8Z1ut","0pTA0wlRQUQ2oAHk"];
+  const aatPerks = ["9uBD2OLMA2YtE3ST","Gn880XN7Auhdop6S","NNhKS3XzGuAnXNmq","LSUSRTgMyqfN1EQx","x6hpmUJFDTD3Iw82","Cx5ysG2Z0XPE6DZn","fMq7BDUKGUIZDOEY","YeQmWe6K2QMAEaep","fDu6KU5u17sqA1hf","pk42jPbAVMosmA0k"];
+  const backwoodsmanItems = ["yqeVKyCZWStLXitm","5k41CcVoWDkABFcI","uCmxHbctgoe8jQDo","mbkQ1d1IQjlSE6HG","fYekpImbXPFZgNkz","h5GN8irnNWKC3xMD","MsXLDa4RZ0UHMT2J","sJuyumHFWHrT4Kr0","0WGq8Aaq82V8nViB","9hZXkRhoJIX47mWS"];
+  const backwoodsmanPerks = ["6b46sO6gPyRRziMy","1aIYFwFQGic2zHjK","6XStNgfUJG92au27","5FSxhtSwphd72BS1","wwIthL6FW1dIq1MU","kQD85MOcz1B4KHsV","I7DFjAhnEzDZmdL7","3caIOATNwBm6EPuh","7vvLcpVth2gMnB7o","C2pRfk15zpFV3sgG"];
+  const expectedRanges = Array.from({ length: 10 }, (_, index) => [index * 2 + 1, index * 2 + 2]);
+
+  for (const language of ["en", "fr"]) {
+    const records = await generatedDocuments(language);
+    const byId = new Map(records.map(({ pack, document }) => [`${pack}/${document._id}`, document]));
+    const aatTable = byId.get("roll-tables/ICQJPDpxEpQP3kgC");
+    const backwoodsmanTable = byId.get("roll-tables/b0YDWI7LbsTTbsLR");
+    assert.deepEqual(aatTable.results.map(result => result.range), expectedRanges);
+    assert.deepEqual(backwoodsmanTable.results.map(result => result.range), expectedRanges);
+    assert.equal(aatTable.flags["fallout2d20-compendium"].source.page, 173);
+    assert.equal(backwoodsmanTable.flags["fallout2d20-compendium"].source.page, 173);
+    assert.equal(aatTable.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    assert.equal(backwoodsmanTable.flags["fallout2d20-compendium"].source.errataReviewed, true);
+
+    for (const id of [...aatItems, ...backwoodsmanItems, "zsdAyshPMJ7Clyis"]) {
+      const item = byId.get(`books-and-magazines/${id}`);
+      assert.ok(item, `${language}/books-and-magazines/${id} missing`);
+      assert.equal(item.flags["fallout2d20-compendium"].source.page, 173);
+      assert.equal(item.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    }
+    for (const id of [...aatPerks, ...backwoodsmanPerks, "9rp4u6tgFbJk9GRT"]) {
+      const perk = byId.get(`perks/${id}`);
+      assert.ok(perk, `${language}/perks/${id} missing`);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.page, 173);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    }
+
+    const meeting = byId.get("books-and-magazines/8nJBGtcrUsO2hUDG");
+    const meetingPerk = byId.get("perks/tKQ4oQiQxWoM10p6");
+    assert.equal(meeting.flags["fallout2d20-compendium"].source.page, 176);
+    assert.equal(meetingPerk.flags["fallout2d20-compendium"].source.page, 176);
+
+    if (language === "en") {
+      assert.match(byId.get("books-and-magazines/J86ayEuqmagF9OH0").system.effect, /\+1 @fos\[DC\]/);
+      assert.match(byId.get("books-and-magazines/5k41CcVoWDkABFcI").system.effect, /\+2 @fos\[DC\]/);
+      assert.match(byId.get("books-and-magazines/sJuyumHFWHrT4Kr0").system.effect, /\+2 @fos\[DC\]/);
+    } else {
+      assert.match(byId.get("books-and-magazines/mT6qkeV6xTG1pnex").system.description, /courts récits d’aventures excitants et audacieux/);
+      assert.match(byId.get("books-and-magazines/yqeVKyCZWStLXitm").system.description, /histoires vraies excitantes pour les hommes bruts de décoffrage/);
+      assert.match(byId.get("perks/6b46sO6gPyRRziMy").system.description, /une fois par scène/);
+      assert.match(meeting.system.description, /chercher un partenaire romantique/);
+      assert.match(meetingPerk.system.description, /une fois par scène/);
+      assert.match(byId.get("books-and-magazines/zsdAyshPMJ7Clyis").system.description, /analyses détaillées de matchs/);
+    }
+  }
+});

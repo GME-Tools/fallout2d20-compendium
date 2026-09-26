@@ -3,7 +3,7 @@
   "_file": "l_ermite_de_la_riviere_ohio__7vvLcpVth2gMnB7o.json",
   "values": {
     "/name": "L’ermite de la rivière Ohio",
-    "/system/description": "<p>Réduisez de 1 la difficulté pour réparer un objet endommagé, jusqu’à un minimum de 0.</p>",
+    "/system/description": "<p>Réduisez de 1 la difficulté pour réparer un objet endommagé (0 minimum).</p><p>Vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

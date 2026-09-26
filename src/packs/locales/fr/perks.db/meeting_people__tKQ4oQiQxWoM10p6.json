@@ -3,7 +3,7 @@
   "_file": "faire_des_rencontres__tKQ4oQiQxWoM10p6.json",
   "values": {
     "/name": "Faire des rencontres",
-    "/system/description": "<p>Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez les ignorer.</p>",
+    "/system/description": "<p>Quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez ignorer ces complications. Vous pouvez appliquer ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

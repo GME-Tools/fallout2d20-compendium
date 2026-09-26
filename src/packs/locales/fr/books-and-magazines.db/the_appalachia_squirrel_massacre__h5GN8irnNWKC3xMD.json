@@ -3,7 +3,7 @@
   "_file": "le_massacre_des_ecureuils_des_appalaches__h5GN8irnNWKC3xMD.json",
   "values": {
     "/name": "Le massacre des écureuils des Appalaches",
-    "/system/description": "<p>Une série de magazines contenant des articles et des histoires sur la survie en milieu naturel.</p><p><strong>Aptitude :</strong> Un aliment cuisiné que vous préparez et mangez guérit +3 PV.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.kQD85MOcz1B4KHsV]{Le massacre des écureuils des Appalaches}</p></section>",
+    "/system/description": "<p>Des histoires vraies excitantes pour les hommes bruts de décoffrage ! Backwoodsman est une série de magazines contenant des articles et des histoires sur la survie en milieu naturel, pour les gens qui aiment discuter de la survie dans la nature.</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu’une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</li></ul><p><strong>Effet du numéro :</strong> Un objet de nourriture cuisinée que vous préparez et que vous mangez guérit +3 PV.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.kQD85MOcz1B4KHsV]{Le massacre des écureuils des Appalaches}</p></section>",
     "/system/effect": "<p>Un aliment cuisiné que vous préparez et mangez guérit +3 PV.</p>",
     "/system/publication": "L’Homme des bois",
     "/flags/fallout2d20-compendium/source/language": "fr",
@@ -11,6 +11,6 @@
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

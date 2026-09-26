@@ -3,7 +3,7 @@
   "_file": "solide_comme_bigfoot__5FSxhtSwphd72BS1.json",
   "values": {
     "/name": "Solide comme Bigfoot",
-    "/system/description": "<p>Quand vous fouillez parmi des plantes, vous gagnez deux fois plus de Butin.</p>",
+    "/system/description": "<p>Quand vous fouillez parmi des plantes, vous gagnez deux fois plus de Butin.</p><p>Vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

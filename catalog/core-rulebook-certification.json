@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 174,
-      "sourcePage": 172
+      "pdfPage": 175,
+      "sourcePage": 173
     },
     "fr": {
-      "pdfPage": 175,
-      "sourcePage": 172
+      "pdfPage": 176,
+      "sourcePage": 173
     }
   },
   "pageReviews": [
@@ -2805,6 +2805,22 @@
       "language": "fr",
       "pdfPage": 175,
       "sourcePage": 172,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 175,
+      "sourcePage": 173,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 176,
+      "sourcePage": 173,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -45866,6 +45882,1953 @@
         "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no numbered Core Rulebook p.172 or p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "roll_table",
+      "sourceName": "Random Astoundingly Awesome Tales Issues",
+      "localizedNames": {
+        "fr": "Numéros aléatoires d’Astoundingly Awesome Tales"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable printed on EN p.173 and resolved against the official FR p.175 counterpart.",
+      "pack": "roll-tables",
+      "documentId": "ICQJPDpxEpQP3kgC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 10,
+        "ranges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "issueDocumentIds": [
+          "mT6qkeV6xTG1pnex",
+          "J86ayEuqmagF9OH0",
+          "13RpvXhUn7TdKjEA",
+          "iiFcIlhklIMxjaoC",
+          "sNyzZdtR8zQeKE86",
+          "jPdCfq2T6pELwzbK",
+          "1bOiFImI3fM9CaIJ",
+          "6rHaK2QtsSPGvSpJ",
+          "zpcKGtIDvZn8Z1ut",
+          "0pTA0wlRQUQ2oAHk"
+        ],
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Attack of the Fishmen!",
+      "localizedNames": {
+        "fr": "L’assaut des hommes-poisson !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "mT6qkeV6xTG1pnex",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          1,
+          2
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+1CD on attacks vs mirelurk",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques contre les fangeux.",
+        "linkedPerkDocumentId": "9uBD2OLMA2YtE3ST",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Attack of the Fishmen!",
+      "localizedNames": {
+        "fr": "L’assaut des hommes-poisson !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "9uBD2OLMA2YtE3ST",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "mT6qkeV6xTG1pnex",
+        "rollRange": [
+          1,
+          2
+        ],
+        "effect": "+1CD on attacks vs mirelurk",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques contre les fangeux.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Rise of the Mutants!",
+      "localizedNames": {
+        "fr": "L’ascension des mutants !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "J86ayEuqmagF9OH0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          3,
+          4
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+1CD on attacks vs super mutants",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques contre les super mutants.",
+        "linkedPerkDocumentId": "Gn880XN7Auhdop6S",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Rise of the Mutants!",
+      "localizedNames": {
+        "fr": "L’ascension des mutants !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "Gn880XN7Auhdop6S",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "J86ayEuqmagF9OH0",
+        "rollRange": [
+          3,
+          4
+        ],
+        "effect": "+1CD on attacks vs super mutants",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques contre les super mutants.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Attack of the Metal Men!",
+      "localizedNames": {
+        "fr": "L’attaque des hommes de métal"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "13RpvXhUn7TdKjEA",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          5,
+          6
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+2 to Physical and Energy damage resistances vs Robots",
+        "officialFrenchEffect": "Vous gagnez +2 aux résistances aux dégâts balistiques et énergétiques contre les Robots.",
+        "linkedPerkDocumentId": "NNhKS3XzGuAnXNmq",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Attack of the Metal Men!",
+      "localizedNames": {
+        "fr": "L’attaque des hommes de métal"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "NNhKS3XzGuAnXNmq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "13RpvXhUn7TdKjEA",
+        "rollRange": [
+          5,
+          6
+        ],
+        "effect": "+2 to Physical and Energy damage resistances vs Robots",
+        "officialFrenchEffect": "Vous gagnez +2 aux résistances aux dégâts balistiques et énergétiques contre les Robots.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "The Mad Russian’s Revenge!",
+      "localizedNames": {
+        "fr": "La vengeance du Russe dément !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "iiFcIlhklIMxjaoC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          7,
+          8
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+2 to Poison damage resistance",
+        "officialFrenchEffect": "Vous gagnez +2 en résistance aux dégâts de poison.",
+        "linkedPerkDocumentId": "LSUSRTgMyqfN1EQx",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "The Mad Russian’s Revenge!",
+      "localizedNames": {
+        "fr": "La vengeance du Russe dément !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "LSUSRTgMyqfN1EQx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "iiFcIlhklIMxjaoC",
+        "rollRange": [
+          7,
+          8
+        ],
+        "effect": "+2 to Poison damage resistance",
+        "officialFrenchEffect": "Vous gagnez +2 en résistance aux dégâts de poison.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "The Starlet Sniper!",
+      "localizedNames": {
+        "fr": "La starlette tireuse d’élite !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "sNyzZdtR8zQeKE86",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          9,
+          10
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+1CD on attacks with Accurate weapons",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques avec des armes Précises.",
+        "linkedPerkDocumentId": "x6hpmUJFDTD3Iw82",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "The Starlet Sniper!",
+      "localizedNames": {
+        "fr": "La starlette tireuse d’élite !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "x6hpmUJFDTD3Iw82",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "sNyzZdtR8zQeKE86",
+        "rollRange": [
+          9,
+          10
+        ],
+        "effect": "+1CD on attacks with Accurate weapons",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques avec des armes Précises.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Curse of the Burned!",
+      "localizedNames": {
+        "fr": "La malédiction des calcinés"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "jPdCfq2T6pELwzbK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          11,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+1CD on attacks vs Ghouls",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques contre les goules.",
+        "linkedPerkDocumentId": "Cx5ysG2Z0XPE6DZn",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Curse of the Burned!",
+      "localizedNames": {
+        "fr": "La malédiction des calcinés"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "Cx5ysG2Z0XPE6DZn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "jPdCfq2T6pELwzbK",
+        "rollRange": [
+          11,
+          12
+        ],
+        "effect": "+1CD on attacks vs Ghouls",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques contre les goules.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Giant Insects Invade!",
+      "localizedNames": {
+        "fr": "L’invasion des insectes géants !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "1bOiFImI3fM9CaIJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          13,
+          14
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+2 to Radiation damage resistance",
+        "officialFrenchEffect": "Vous gagnez +2 en résistance aux dégâts de radiation.",
+        "linkedPerkDocumentId": "fMq7BDUKGUIZDOEY",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Giant Insects Invade!",
+      "localizedNames": {
+        "fr": "L’invasion des insectes géants !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "fMq7BDUKGUIZDOEY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "1bOiFImI3fM9CaIJ",
+        "rollRange": [
+          13,
+          14
+        ],
+        "effect": "+2 to Radiation damage resistance",
+        "officialFrenchEffect": "Vous gagnez +2 en résistance aux dégâts de radiation.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Deadly Lasers!",
+      "localizedNames": {
+        "fr": "Lasers mortels !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "6rHaK2QtsSPGvSpJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          15,
+          16
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+1CD on attacks with Energy weapons",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques avec des armes à énergie.",
+        "linkedPerkDocumentId": "YeQmWe6K2QMAEaep",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Deadly Lasers!",
+      "localizedNames": {
+        "fr": "Lasers mortels !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "YeQmWe6K2QMAEaep",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "6rHaK2QtsSPGvSpJ",
+        "rollRange": [
+          15,
+          16
+        ],
+        "effect": "+1CD on attacks with Energy weapons",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques avec des armes à énergie.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Science Gone Mad!",
+      "localizedNames": {
+        "fr": "Science et démence !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "zpcKGtIDvZn8Z1ut",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          17,
+          18
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+2 to Energy damage resistance",
+        "officialFrenchEffect": "Vous gagnez +2 en résistance aux dégâts énergétiques.",
+        "linkedPerkDocumentId": "fDu6KU5u17sqA1hf",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Science Gone Mad!",
+      "localizedNames": {
+        "fr": "Science et démence !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "fDu6KU5u17sqA1hf",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "zpcKGtIDvZn8Z1ut",
+        "rollRange": [
+          17,
+          18
+        ],
+        "effect": "+2 to Energy damage resistance",
+        "officialFrenchEffect": "Vous gagnez +2 en résistance aux dégâts énergétiques.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Surrounded by the Dead!",
+      "localizedNames": {
+        "fr": "Encerclé par les morts !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Astoundingly Awesome Tales issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "0pTA0wlRQUQ2oAHk",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Astoundingly Awesome Tales",
+        "rollRange": [
+          19,
+          20
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "+1CD on attacks where you spend one or more Ammunition for bonus damage",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques quand vous dépensez un ou plusieurs tirs de munition pour obtenir des dégâts bonus.",
+        "linkedPerkDocumentId": "pk42jPbAVMosmA0k",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Surrounded by the Dead!",
+      "localizedNames": {
+        "fr": "Encerclé par les morts !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Astoundingly Awesome Tales issue; once learned, the listed benefit applies to all qualifying attacks.",
+      "pack": "perks",
+      "documentId": "pk42jPbAVMosmA0k",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          175
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "0pTA0wlRQUQ2oAHk",
+        "rollRange": [
+          19,
+          20
+        ],
+        "effect": "+1CD on attacks where you spend one or more Ammunition for bonus damage",
+        "officialFrenchEffect": "Vous gagnez +1 @fos[DC] sur vos attaques quand vous dépensez un ou plusieurs tirs de munition pour obtenir des dégâts bonus.",
+        "learnedUse": "applies to all qualifying attacks",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "rule_text",
+      "sourceName": "Backwoodsman — publication family rules",
+      "localizedNames": {
+        "fr": "Backwoodsman (L’Homme des bois) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "The family-level description and learned-use rule are shared guidance; reusable issue Items, learned Perks, and the issue RollTable are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "temporaryBenefitUses": 1,
+        "learnedBenefitUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "roll_table",
+      "sourceName": "Random Backwoodsman Issues",
+      "localizedNames": {
+        "fr": "Numéros aléatoires de Backwoodsman"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable printed on EN p.173 and resolved against the official FR pp.176–177 counterpart.",
+      "pack": "roll-tables",
+      "documentId": "b0YDWI7LbsTTbsLR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 10,
+        "ranges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "issueDocumentIds": [
+          "yqeVKyCZWStLXitm",
+          "5k41CcVoWDkABFcI",
+          "uCmxHbctgoe8jQDo",
+          "mbkQ1d1IQjlSE6HG",
+          "fYekpImbXPFZgNkz",
+          "h5GN8irnNWKC3xMD",
+          "MsXLDa4RZ0UHMT2J",
+          "sJuyumHFWHrT4Kr0",
+          "0WGq8Aaq82V8nViB",
+          "9hZXkRhoJIX47mWS"
+        ],
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Get Off My Lawn",
+      "localizedNames": {
+        "fr": "Dégage de ma pelouse !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "yqeVKyCZWStLXitm",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          1,
+          2
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Find twice as much meat from a butchered creature",
+        "officialFrenchEffect": "Vous trouvez deux fois plus de viande sur une créature dépecée.",
+        "linkedPerkDocumentId": "6b46sO6gPyRRziMy",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Get Off My Lawn",
+      "localizedNames": {
+        "fr": "Dégage de ma pelouse !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "6b46sO6gPyRRziMy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "yqeVKyCZWStLXitm",
+        "rollRange": [
+          1,
+          2
+        ],
+        "effect": "Find twice as much meat from a butchered creature",
+        "officialFrenchEffect": "Vous trouvez deux fois plus de viande sur une créature dépecée.",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Down Home Cookin’",
+      "localizedNames": {
+        "fr": "Cuisiner à la maison"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "5k41CcVoWDkABFcI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          3,
+          4
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Add +2CD damage to a Thrown weapon attack (other than an Explosive)",
+        "officialFrenchEffect": "Ajoutez +2 @fos[DC] de dégâts à une attaque d’arme de Lancer (autre qu’un explosif).",
+        "linkedPerkDocumentId": "1aIYFwFQGic2zHjK",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Down Home Cookin’",
+      "localizedNames": {
+        "fr": "Cuisiner à la maison"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "1aIYFwFQGic2zHjK",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "5k41CcVoWDkABFcI",
+        "rollRange": [
+          3,
+          4
+        ],
+        "effect": "Add +2CD damage to a Thrown weapon attack (other than an Explosive)",
+        "officialFrenchEffect": "Ajoutez +2 @fos[DC] de dégâts à une attaque d’arme de Lancer (autre qu’un explosif).",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Homesteading Horror",
+      "localizedNames": {
+        "fr": "L’horreur familiale"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "uCmxHbctgoe8jQDo",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          5,
+          6
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Reduce the difficulty of crafting a weapon by 1 (min. of 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté pour fabriquer une arme (0 minimum).",
+        "linkedPerkDocumentId": "6XStNgfUJG92au27",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Homesteading Horror",
+      "localizedNames": {
+        "fr": "L’horreur familiale"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "6XStNgfUJG92au27",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "uCmxHbctgoe8jQDo",
+        "rollRange": [
+          5,
+          6
+        ],
+        "effect": "Reduce the difficulty of crafting a weapon by 1 (min. of 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté pour fabriquer une arme (0 minimum).",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Hardy as a Sasquatch",
+      "localizedNames": {
+        "fr": "Solide comme Bigfoot"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "mbkQ1d1IQjlSE6HG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          7,
+          8
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When scavenging from plants, gain twice as much",
+        "officialFrenchEffect": "Quand vous fouillez parmi des plantes, vous gagnez deux fois plus de Butin.",
+        "linkedPerkDocumentId": "5FSxhtSwphd72BS1",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Hardy as a Sasquatch",
+      "localizedNames": {
+        "fr": "Solide comme Bigfoot"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "5FSxhtSwphd72BS1",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "mbkQ1d1IQjlSE6HG",
+        "rollRange": [
+          7,
+          8
+        ],
+        "effect": "When scavenging from plants, gain twice as much",
+        "officialFrenchEffect": "Quand vous fouillez parmi des plantes, vous gagnez deux fois plus de Butin.",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Carnivorous Rabbits of Appalachia",
+      "localizedNames": {
+        "fr": "Lapins carnivores des Appalaches"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "fYekpImbXPFZgNkz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          9,
+          10
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Add +2CD damage to an attack against a Mammal or Lizard",
+        "officialFrenchEffect": "Ajoutez +2 @fos[DC] de dégâts à une attaque contre un Mammifère ou un Lézard.",
+        "linkedPerkDocumentId": "wwIthL6FW1dIq1MU",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Carnivorous Rabbits of Appalachia",
+      "localizedNames": {
+        "fr": "Lapins carnivores des Appalaches"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "wwIthL6FW1dIq1MU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "fYekpImbXPFZgNkz",
+        "rollRange": [
+          9,
+          10
+        ],
+        "effect": "Add +2CD damage to an attack against a Mammal or Lizard",
+        "officialFrenchEffect": "Ajoutez +2 @fos[DC] de dégâts à une attaque contre un Mammifère ou un Lézard.",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "The Appalachia Squirrel Massacre",
+      "localizedNames": {
+        "fr": "Le massacre des écureuils des Appalaches"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "h5GN8irnNWKC3xMD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          11,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One item of cooked food you make and eat heals +3 HP",
+        "officialFrenchEffect": "Un objet de nourriture cuisinée que vous préparez et que vous mangez guérit +3 PV.",
+        "linkedPerkDocumentId": "kQD85MOcz1B4KHsV",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "The Appalachia Squirrel Massacre",
+      "localizedNames": {
+        "fr": "Le massacre des écureuils des Appalaches"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "kQD85MOcz1B4KHsV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "h5GN8irnNWKC3xMD",
+        "rollRange": [
+          11,
+          12
+        ],
+        "effect": "One item of cooked food you make and eat heals +3 HP",
+        "officialFrenchEffect": "Un objet de nourriture cuisinée que vous préparez et que vous mangez guérit +3 PV.",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Art of the Tomahawk",
+      "localizedNames": {
+        "fr": "L’art du tomahawk"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "MsXLDa4RZ0UHMT2J",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          13,
+          14
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Reduce difficulty of a test to resist catching a disease by 1 (min. of 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté d’un test pour ne pas attraper une maladie (0 minimum).",
+        "linkedPerkDocumentId": "I7DFjAhnEzDZmdL7",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Art of the Tomahawk",
+      "localizedNames": {
+        "fr": "L’art du tomahawk"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "I7DFjAhnEzDZmdL7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "MsXLDa4RZ0UHMT2J",
+        "rollRange": [
+          13,
+          14
+        ],
+        "effect": "Reduce difficulty of a test to resist catching a disease by 1 (min. of 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté d’un test pour ne pas attraper une maladie (0 minimum).",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "The Gunsmith of Harper’s Ferry",
+      "localizedNames": {
+        "fr": "L’armurier d’Harper’s Ferry"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "sJuyumHFWHrT4Kr0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          15,
+          16
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you find ammo, you find +2CD more shots",
+        "officialFrenchEffect": "Quand vous trouvez des munitions, vous en trouvez +2 @fos[DC] tirs supplémentaires.",
+        "linkedPerkDocumentId": "3caIOATNwBm6EPuh",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "The Gunsmith of Harper’s Ferry",
+      "localizedNames": {
+        "fr": "L’armurier d’Harper’s Ferry"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "3caIOATNwBm6EPuh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "sJuyumHFWHrT4Kr0",
+        "rollRange": [
+          15,
+          16
+        ],
+        "effect": "When you find ammo, you find +2CD more shots",
+        "officialFrenchEffect": "Quand vous trouvez des munitions, vous en trouvez +2 @fos[DC] tirs supplémentaires.",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "The Ohio River Hermit",
+      "localizedNames": {
+        "fr": "L’ermite de la rivière Ohio"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "0WGq8Aaq82V8nViB",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          17,
+          18
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Reduce the difficulty of repairing a damaged item by 1 (min. 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté pour réparer un objet endommagé (0 minimum).",
+        "linkedPerkDocumentId": "7vvLcpVth2gMnB7o",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "The Ohio River Hermit",
+      "localizedNames": {
+        "fr": "L’ermite de la rivière Ohio"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "7vvLcpVth2gMnB7o",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "0WGq8Aaq82V8nViB",
+        "rollRange": [
+          17,
+          18
+        ],
+        "effect": "Reduce the difficulty of repairing a damaged item by 1 (min. 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté pour réparer un objet endommagé (0 minimum).",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Nightmare in the Garden",
+      "localizedNames": {
+        "fr": "Cauchemar dans le jardin"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Backwoodsman issue from the p.173 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "9hZXkRhoJIX47mWS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Backwoodsman",
+        "rollRange": [
+          19,
+          20
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Heal +2HP when you consume an Alcoholic drink",
+        "officialFrenchEffect": "Guérissez +2 PV quand vous consommez une boisson Alcoolisée.",
+        "linkedPerkDocumentId": "C2pRfk15zpFV3sgG",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Nightmare in the Garden",
+      "localizedNames": {
+        "fr": "Cauchemar dans le jardin"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Backwoodsman issue; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "C2pRfk15zpFV3sgG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176,
+          177
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "9hZXkRhoJIX47mWS",
+        "rollRange": [
+          19,
+          20
+        ],
+        "effect": "Heal +2HP when you consume an Alcoholic drink",
+        "officialFrenchEffect": "Guérissez +2 PV quand vous consommez une boisson Alcoolisée.",
+        "learnedUsesPerScene": 1,
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "book_magazine",
+      "sourceName": "Boxing Times",
+      "localizedNames": {
+        "fr": "La boxe pour les passionnés"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable single magazine identity with a one-use temporary benefit and a linked permanent learned-perk document.",
+      "pack": "books-and-magazines",
+      "documentId": "zsdAyshPMJ7Clyis",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you succeed at an Unarmed attack, if you spend any AP to increase the damage you dealt, you may add the Stun damage effect to your attack.",
+        "officialFrenchEffect": "Une seule fois, quand vous réussissez une attaque avec la compétence Mains nues, si vous dépensez des PA pour augmenter les dégâts que vous infligez, vous pouvez ajouter l’effet de dégâts Étourdissant à votre attaque.",
+        "linkedPerkDocumentId": "9rp4u6tgFbJk9GRT",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 173,
+      "type": "magazine_perk",
+      "sourceName": "Boxing Times",
+      "localizedNames": {
+        "fr": "La boxe pour les passionnés"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for Boxing Times.",
+      "pack": "perks",
+      "documentId": "9rp4u6tgFbJk9GRT",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          173
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "zsdAyshPMJ7Clyis",
+        "effect": "On any successful Unarmed attack, if you spend any AP to increase the damage you dealt, you may add the Stun damage effect to your attack.",
+        "officialFrenchEffect": "Lors de toute attaque réussie avec la compétence Mains nues, si vous dépensez des PA pour augmenter les dégâts que vous infligez, vous pouvez ajouter l’effet de dégâts Étourdissant à votre attaque.",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Meeting People",
+      "localizedNames": {
+        "fr": "Faire des rencontres"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable single magazine identity encountered on FR p.173 and resolved against the authoritative EN p.176 counterpart.",
+      "pack": "books-and-magazines",
+      "documentId": "8nJBGtcrUsO2hUDG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          173
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you roll one or more complications on a Speech test, you may ignore those complications.",
+        "officialFrenchEffect": "Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez ignorer ces complications.",
+        "linkedPerkDocumentId": "tKQ4oQiQxWoM10p6",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Meeting People",
+      "localizedNames": {
+        "fr": "Faire des rencontres"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for Meeting People; the learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "tKQ4oQiQxWoM10p6",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          173
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "8nJBGtcrUsO2hUDG",
+        "effect": "When you roll one or more complications on a Speech test, you may ignore those complications.",
+        "officialFrenchEffect": "Quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez ignorer ces complications.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "rule_text",
+      "sourceName": "Tumblers Today — publication family rules",
+      "localizedNames": {
+        "fr": "Tumblers Today (Gorges et pênes) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "The family-level description and once-per-scene learned-use rule begin on FR p.173; the reusable issue table starts on FR p.174 and is therefore deferred to the next source-page lot.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          173
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "temporaryBenefitUses": 1,
+        "learnedBenefitUsesPerScene": 1,
+        "issueTableDeferredToFrenchSourcePage": 174,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
       }
     }
   ]

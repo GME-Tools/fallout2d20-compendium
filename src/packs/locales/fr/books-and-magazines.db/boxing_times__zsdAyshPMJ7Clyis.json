@@ -3,7 +3,7 @@
   "_file": "la_boxe_pour_les_passionnes__zsdAyshPMJ7Clyis.json",
   "values": {
     "/name": "La boxe pour les passionnés",
-    "/system/description": "<p>Un magazine d’avant-guerre destiné aux passionnés de boxe.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous réussissez une attaque avec Mains nues et dépensez des PA pour augmenter ses dégâts, vous pouvez lui ajouter l’effet Étourdissant.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.9rp4u6tgFbJk9GRT]{La boxe pour les passionnés}</p></section>",
+    "/system/description": "<p>Un magazine d’avant-guerre destiné aux fans de boxe qui contient souvent des portraits de boxeurs célèbres ou prometteurs, des débats sur les techniques et le matériel et des analyses détaillées de matchs.</p><ul><li><strong>Aptitude :</strong> Une seule fois, quand vous réussissez une attaque avec la compétence Mains nues, si vous dépensez des PA pour augmenter les dégâts que vous infligez, vous pouvez ajouter l’effet de dégâts Étourdissant à votre attaque. Si vous apprenez cette aptitude plus tard, vous pouvez l’utiliser lors de toute attaque réussie avec la compétence Mains nues.</li></ul>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.9rp4u6tgFbJk9GRT]{La boxe pour les passionnés}</p></section>",
     "/system/effect": "<p>Une seule fois, quand vous réussissez une attaque avec Mains nues et dépensez des PA pour augmenter ses dégâts, vous pouvez lui ajouter l’effet Étourdissant.</p>",
     "/system/publication": "La boxe pour les passionnés",
     "/flags/fallout2d20-compendium/source/language": "fr",
@@ -11,6 +11,6 @@
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

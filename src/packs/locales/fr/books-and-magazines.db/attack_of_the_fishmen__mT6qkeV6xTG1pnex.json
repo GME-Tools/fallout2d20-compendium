@@ -3,7 +3,7 @@
   "_file": "l_assaut_des_hommes_poisson__mT6qkeV6xTG1pnex.json",
   "values": {
     "/name": "L’assaut des hommes-poisson !",
-    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux.</p><p><strong>Aptitude :</strong> Vous gagnez +1 @fos[DC] sur vos attaques contre les fangeux.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.9uBD2OLMA2YtE3ST]{L’assaut des hommes-poisson !}</p></section>",
+    "/system/description": "<p>Un magazine contenant de courts récits d’aventures excitants et audacieux !</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, vous conférant des dégâts bonus ou des points de résistance aux dégâts bonus contre un seul adversaire ou un seul type d’attaque. Ce bonus ne s’applique que pour une seule attaque (portée ou reçue, respectivement) sauf si vous apprenez l’aptitude, auquel cas elle s’applique à toutes les attaques.</li></ul><p><strong>Effet du numéro :</strong> Vous gagnez +1 @fos[DC] sur vos attaques contre les fangeux.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.9uBD2OLMA2YtE3ST]{L’assaut des hommes-poisson !}</p></section>",
     "/system/effect": "<p>Vous gagnez +1 @fos[DC] sur vos attaques contre les fangeux.</p>",
     "/system/publication": "Histoires à dormir debout",
     "/flags/fallout2d20-compendium/source/language": "fr",
@@ -11,6 +11,6 @@
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }
