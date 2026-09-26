@@ -3,14 +3,14 @@
   "_file": "meilleurs_amis_pour_la_vie__uizbEBbI5Jl1tjeI.json",
   "values": {
     "/name": "Meilleurs amis pour la vie !",
-    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Tous les membres du groupe gagnent +1 PV maximum pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.SKyP3uQ4CQCcdKZs]{Meilleurs amis pour la vie !}</p></section>",
-    "/system/effect": "<p>Tous les membres du groupe gagnent +1 PV maximum pendant une scène.</p>",
+    "/system/description": "<p>Une série de magazines d’avant-guerre consacrés au quotidien et aux relations, souvent avec des articles sur des manifestations culturelles, des conseils de santé, des régimes, des conseils sur la vie amoureuse, etc.</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier que pendant une seule scène. Si vous apprenez cette aptitude plus tard, vous pouvez en bénéficier de manière permanente.</li></ul><p><strong>Effet du numéro :</strong> +1 point de vie maximum pour tous les membres du groupe pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.SKyP3uQ4CQCcdKZs]{Meilleurs amis pour la vie !}</p></section>",
+    "/system/effect": "<p>+1 point de vie maximum pour tous les membres du groupe pendant une scène.</p>",
     "/system/publication": "Vie et amour",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "uizbEBbI5Jl1tjeI",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

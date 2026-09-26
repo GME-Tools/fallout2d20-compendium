@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 177,
-      "sourcePage": 175
+      "pdfPage": 178,
+      "sourcePage": 176
     },
     "fr": {
-      "pdfPage": 178,
-      "sourcePage": 175
+      "pdfPage": 179,
+      "sourcePage": 176
     }
   },
   "pageReviews": [
@@ -2853,6 +2853,22 @@
       "language": "fr",
       "pdfPage": 178,
       "sourcePage": 175,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 178,
+      "sourcePage": 176,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 179,
+      "sourcePage": 176,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -49988,6 +50004,961 @@
         "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "rule_text",
+      "sourceName": "Live & Love — publication family rules",
+      "localizedNames": {
+        "fr": "Live & Love (Vie et amour) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "The family-level description and learned-use rule are shared guidance; reusable issue Items, learned Perks, and the issue RollTable are certified separately.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "temporaryBenefitDuration": "single scene",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "roll_table",
+      "sourceName": "Random Live & Love Issues",
+      "localizedNames": {
+        "fr": "Numéros de Live & Love trouvés au hasard"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable printed on EN p.176 and resolved against the official FR p.180 counterpart.",
+      "pack": "roll-tables",
+      "documentId": "7bCzBGx1Boi3WUK7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 10,
+        "ranges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "rerollRange": [
+          19,
+          20
+        ],
+        "issueDocumentIds": [
+          "uizbEBbI5Jl1tjeI",
+          "xT9LvN0vcacln4pN",
+          "ZVFaC4f8Ki48eTdx",
+          "PKilL8to3SDZHUAU",
+          "YFSFj5moNn7KNnT8",
+          "8uCaW6rs4fwDWJUF",
+          "hCRQEWSkpgvFluXe",
+          "LATCQmWWljVCwMnt",
+          "usR2XUJr38Er8QCh"
+        ],
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Life Long Best Friends!",
+      "localizedNames": {
+        "fr": "Meilleurs amis pour la vie !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "uizbEBbI5Jl1tjeI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          1,
+          2
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "+1 Maximum Health Points to all party members for one scene",
+        "officialFrenchEffect": "+1 point de vie maximum pour tous les membres du groupe pendant une scène.",
+        "linkedPerkDocumentId": "SKyP3uQ4CQCcdKZs",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Life Long Best Friends!",
+      "localizedNames": {
+        "fr": "Meilleurs amis pour la vie !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "SKyP3uQ4CQCcdKZs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "uizbEBbI5Jl1tjeI",
+        "rollRange": [
+          1,
+          2
+        ],
+        "effect": "+1 Maximum Health Points to all party members for one scene",
+        "officialFrenchEffect": "+1 point de vie maximum pour tous les membres du groupe pendant une scène.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Nuke-the-Man!",
+      "localizedNames": {
+        "fr": "Explose ce gars !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "xT9LvN0vcacln4pN",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          3,
+          4
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "+1CD damage to attacks from all party members for one scene",
+        "officialFrenchEffect": "+1 @fos[DC] de dégâts sur les attaques de tous les membres du groupe pendant une scène.",
+        "linkedPerkDocumentId": "H27K9ike953ZIyRl",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Nuke-the-Man!",
+      "localizedNames": {
+        "fr": "Explose ce gars !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "H27K9ike953ZIyRl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "xT9LvN0vcacln4pN",
+        "rollRange": [
+          3,
+          4
+        ],
+        "effect": "+1CD damage to attacks from all party members for one scene",
+        "officialFrenchEffect": "+1 @fos[DC] de dégâts sur les attaques de tous les membres du groupe pendant une scène.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Trim the Fat!",
+      "localizedNames": {
+        "fr": "En finir avec le gras !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "ZVFaC4f8Ki48eTdx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          5,
+          6
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "Regain twice as many HP from fruit or vegetables eaten in one scene",
+        "officialFrenchEffect": "Vous regagnez deux fois plus de PV en mangeant des fruits ou des légumes pendant une scène.",
+        "linkedPerkDocumentId": "siFrRn6TjSmxGKas",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Trim the Fat!",
+      "localizedNames": {
+        "fr": "En finir avec le gras !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "siFrRn6TjSmxGKas",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "ZVFaC4f8Ki48eTdx",
+        "rollRange": [
+          5,
+          6
+        ],
+        "effect": "Regain twice as many HP from fruit or vegetables eaten in one scene",
+        "officialFrenchEffect": "Vous regagnez deux fois plus de PV en mangeant des fruits ou des légumes pendant une scène.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "The Secretary Charmer",
+      "localizedNames": {
+        "fr": "Une si charmante secrétaire"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "PKilL8to3SDZHUAU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          7,
+          8
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "At the start of one scene, add +1 AP to the group pool",
+        "officialFrenchEffect": "Au début d’une scène, ajoutez +1 PA à la réserve du groupe.",
+        "linkedPerkDocumentId": "disfFslU7fhYTIlC",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "The Secretary Charmer",
+      "localizedNames": {
+        "fr": "Une si charmante secrétaire"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "disfFslU7fhYTIlC",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "PKilL8to3SDZHUAU",
+        "rollRange": [
+          7,
+          8
+        ],
+        "effect": "At the start of one scene, add +1 AP to the group pool",
+        "officialFrenchEffect": "Au début d’une scène, ajoutez +1 PA à la réserve du groupe.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Talk Yourself Sober",
+      "localizedNames": {
+        "fr": "Lève le coude, mais pas trop !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "YFSFj5moNn7KNnT8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          9,
+          10
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink",
+        "officialFrenchEffect": "Vous gagnez 1 point de Chance (perdu à la fin de la scène s’il n’est pas utilisé) quand vous consommez une boisson Alcoolisée.",
+        "linkedPerkDocumentId": "Jip3JdMpV9HTHujn",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Talk Yourself Sober",
+      "localizedNames": {
+        "fr": "Lève le coude, mais pas trop !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "Jip3JdMpV9HTHujn",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "YFSFj5moNn7KNnT8",
+        "rollRange": [
+          9,
+          10
+        ],
+        "effect": "Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink",
+        "officialFrenchEffect": "Vous gagnez 1 point de Chance (perdu à la fin de la scène s’il n’est pas utilisé) quand vous consommez une boisson Alcoolisée.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Advice from Married Men",
+      "localizedNames": {
+        "fr": "Conseils pour hommes mariés"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "8uCaW6rs4fwDWJUF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          11,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "+1 Physical damage resistance to all party members for one scene",
+        "officialFrenchEffect": "+1 résistance aux dégâts balistiques pour tous les membres du groupe pendant une scène.",
+        "linkedPerkDocumentId": "B5AHVLoXVF8buanM",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Advice from Married Men",
+      "localizedNames": {
+        "fr": "Conseils pour hommes mariés"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "B5AHVLoXVF8buanM",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "8uCaW6rs4fwDWJUF",
+        "rollRange": [
+          11,
+          12
+        ],
+        "effect": "+1 Physical damage resistance to all party members for one scene",
+        "officialFrenchEffect": "+1 résistance aux dégâts balistiques pour tous les membres du groupe pendant une scène.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Beware the Man Handler",
+      "localizedNames": {
+        "fr": "Méfiez-vous du dresseur d’hommes"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "hCRQEWSkpgvFluXe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          13,
+          14
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "The group AP pool may contain 1 AP more than normal for one scene",
+        "officialFrenchEffect": "La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène.",
+        "linkedPerkDocumentId": "BvqY6Zk4bfPSpIj7",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Beware the Man Handler",
+      "localizedNames": {
+        "fr": "Méfiez-vous du dresseur d’hommes"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "BvqY6Zk4bfPSpIj7",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "hCRQEWSkpgvFluXe",
+        "rollRange": [
+          13,
+          14
+        ],
+        "effect": "The group AP pool may contain 1 AP more than normal for one scene",
+        "officialFrenchEffect": "La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "An Experience to Remember",
+      "localizedNames": {
+        "fr": "Une expérience marquante"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "LATCQmWWljVCwMnt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          15,
+          16
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "Choose one other Magazine perk you have previously used but not learned; that now takes effect",
+        "officialFrenchEffect": "Choisissez une autre aptitude de magazine que vous avez déjà utilisée mais pas apprise ; elle s’applique maintenant.",
+        "linkedPerkDocumentId": "4iTCNKydcsh3PHwY",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "An Experience to Remember",
+      "localizedNames": {
+        "fr": "Une expérience marquante"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "4iTCNKydcsh3PHwY",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "LATCQmWWljVCwMnt",
+        "rollRange": [
+          15,
+          16
+        ],
+        "effect": "Choose one other Magazine perk you have previously used but not learned; that now takes effect",
+        "officialFrenchEffect": "Choisissez une autre aptitude de magazine que vous avez déjà utilisée mais pas apprise ; elle s’applique maintenant.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "I Married a Robot",
+      "localizedNames": {
+        "fr": "J’ai épousé un robot"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Live & Love issue from the p.176 issue table.",
+      "pack": "books-and-magazines",
+      "documentId": "usR2XUJr38Er8QCh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Live & Love",
+        "rollRange": [
+          17,
+          18
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryDuration": "single scene",
+        "effect": "+2 to all damage resistances against Robots for one scene",
+        "officialFrenchEffect": "+2 à toutes les résistances aux dégâts contre les Robots pendant une scène.",
+        "linkedPerkDocumentId": "xfBuEJQHYAmds5XG",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "I Married a Robot",
+      "localizedNames": {
+        "fr": "J’ai épousé un robot"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Live & Love issue; the family rule says the learned benefit applies constantly.",
+      "pack": "perks",
+      "documentId": "xfBuEJQHYAmds5XG",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          180
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "usR2XUJr38Er8QCh",
+        "rollRange": [
+          17,
+          18
+        ],
+        "effect": "+2 to all damage resistances against Robots for one scene",
+        "officialFrenchEffect": "+2 à toutes les résistances aux dégâts contre les Robots pendant une scène.",
+        "learnedBenefitDuration": "constant",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Massachusetts Surgical Journal",
+      "localizedNames": {
+        "fr": "Le chirurgien du Massachusetts"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable single magazine identity defined on source p.176.",
+      "pack": "books-and-magazines",
+      "documentId": "FQDIJeABc0a1g7Nt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1.",
+        "officialFrenchEffect": "Une seule fois, quand vous prodiguez des soins médicaux à un autre personnage et que vous fournissez une assistance à son test d’END + Survie pour guérir des blessures, vous pouvez considérer que votre dé d’assistance a donné un résultat de 1.",
+        "linkedPerkDocumentId": "scI8HRzH0QjDb1bh",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Massachusetts Surgical Journal",
+      "localizedNames": {
+        "fr": "Le chirurgien du Massachusetts"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding p.176 magazine.",
+      "pack": "perks",
+      "documentId": "scI8HRzH0QjDb1bh",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "FQDIJeABc0a1g7Nt",
+        "effect": "Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1.",
+        "officialFrenchEffect": "Une seule fois, quand vous prodiguez des soins médicaux à un autre personnage et que vous fournissez une assistance à son test d’END + Survie pour guérir des blessures, vous pouvez considérer que votre dé d’assistance a donné un résultat de 1.",
+        "learnedUse": "once per session",
+        "officialFrenchLearnedUse": "une fois par partie",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "book_magazine",
+      "sourceName": "Programmer’s Digest",
+      "localizedNames": {
+        "fr": "Le petit livre du programmeur"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable single magazine identity defined on source p.176.",
+      "pack": "books-and-magazines",
+      "documentId": "0QyGlHy565YJcdMI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt.",
+        "officialFrenchEffect": "Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal d’ordinateur et que votre accès devrait être bloqué (et donc que vous ne devriez pas pouvoir réessayer), vous pouvez décider que votre accès n’est pas bloqué, ce qui vous permet de faire une autre tentative.",
+        "linkedPerkDocumentId": "xmOWzjBpDXRfPa9Y",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 176,
+      "type": "magazine_perk",
+      "sourceName": "Programmer’s Digest",
+      "localizedNames": {
+        "fr": "Le petit livre du programmeur"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding p.176 magazine.",
+      "pack": "perks",
+      "documentId": "xmOWzjBpDXRfPa9Y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          176
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "0QyGlHy565YJcdMI",
+        "effect": "Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt.",
+        "officialFrenchEffect": "Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal d’ordinateur et que votre accès devrait être bloqué (et donc que vous ne devriez pas pouvoir réessayer), vous pouvez décider que votre accès n’est pas bloqué, ce qui vous permet de faire une autre tentative.",
+        "learnedUse": "whenever locked out of a computer",
+        "officialFrenchLearnedUse": "chaque fois que votre accès à un ordinateur devrait être bloqué",
+        "errataReviewed": true,
+        "errataNote": "Errata V6 has a numbered p.176 entry about Wise Mothman; it is not a Core Rulebook Books and Magazines correction."
       }
     }
   ]

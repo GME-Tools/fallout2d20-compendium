@@ -3,14 +3,14 @@
   "_file": "explose_ce_gars__xT9LvN0vcacln4pN.json",
   "values": {
     "/name": "Explose ce gars !",
-    "/system/description": "<p>Une série d’avant-guerre consacrée au quotidien, aux relations et aux conseils de vie.</p><p><strong>Aptitude :</strong> Les attaques de tous les membres du groupe infligent +1 @fos[DC] de dégâts pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.H27K9ike953ZIyRl]{Explose ce gars !}</p></section>",
-    "/system/effect": "<p>Les attaques de tous les membres du groupe infligent +1 @fos[DC] de dégâts pendant une scène.</p>",
+    "/system/description": "<p>Une série de magazines d’avant-guerre consacrés au quotidien et aux relations, souvent avec des articles sur des manifestations culturelles, des conseils de santé, des régimes, des conseils sur la vie amoureuse, etc.</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier que pendant une seule scène. Si vous apprenez cette aptitude plus tard, vous pouvez en bénéficier de manière permanente.</li></ul><p><strong>Effet du numéro :</strong> +1 @fos[DC] de dégâts sur les attaques de tous les membres du groupe pendant une scène.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.H27K9ike953ZIyRl]{Explose ce gars !}</p></section>",
+    "/system/effect": "<p>+1 @fos[DC] de dégâts sur les attaques de tous les membres du groupe pendant une scène.</p>",
     "/system/publication": "Vie et amour",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "xT9LvN0vcacln4pN",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

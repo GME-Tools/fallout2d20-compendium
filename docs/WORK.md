@@ -30,10 +30,10 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–177, through printed/source page 175.
-- FR PDF physical pages 1–178, through printed/source page 175.
+- EN PDF physical pages 1–178, through printed/source page 176.
+- FR PDF physical pages 1–179, through printed/source page 176.
 - Completed editorial sections: front matter, Introduction, Chapters One–Three, and
-  Chapter Four through source p.175, including weapons, apparel/armor, food and
+  Chapter Four through source p.176, including weapons, apparel/armor, food and
   beverages, chems, other consumables, and the opening Books and Magazines lots.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
@@ -305,6 +305,8 @@ Source p.173 closes the Astoundingly Awesome Tales issue table, the complete ten
 Source p.174 closes Grognak the Barbarian across its EN p.174–175 / FR p.174 table, with later EN rows treated as targeted counterparts only. EN p.174 also certifies Fixin’ Things and Future Weapons Today against their official FR counterparts. Because the official FR ordering reaches other families earlier, FR p.174 additionally closes the five Tumblers Today issues against EN p.178 and the seven Wasteland Survival Guide issues against EN p.180, without advancing those EN boundaries. Official French prose and effects were restored for these lots, including the source’s deterministic +10 lb / +5 charge-maximum Grognak carry-weight localization. Combat-die markup was normalized where legacy magazine text still used raw CD tokens. Errata V6 contains no numbered Core p.174 correction; its numbered p.174 entry belongs to Winter of Atom.
 
 Source p.175 closes only previously targeted magazine counterparts rather than introducing a new document family: EN p.175 contains the second half of the Grognak the Barbarian issue table and the complete Guns and Bullets family, while FR p.175 contains the Astoundingly Awesome Tales issue table, Future Weapons Today, and the first eight Backwoodsman rows. These identities, tables, learned perks, bilingual names/effects, and source coordinates were already resolved source-first during the earlier counterpart reads; p.175 now converts those targeted reads into page-certified coverage without changing their mechanics or stable IDs.
+
+Source p.176 certifies Live & Love, Massachusetts Surgical Journal and Programmer’s Digest on the EN side, while the FR page closes the Backwoodsman tail and presents Boxing Times, Massachusetts Surgical Journal and Programmer’s Digest. Live & Love is resolved against its official FR p.180 counterpart without advancing that later FR boundary. Its learned family rule is explicitly preserved: temporary issue benefits last one scene, while learned benefits apply constantly. Massachusetts Surgical Journal learns to once per session/partie; Programmer’s Digest learns to whenever computer lockout would occur. The official p.176 Errata V6 entry concerns Wise Mothman and does not alter these Core magazine rules.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

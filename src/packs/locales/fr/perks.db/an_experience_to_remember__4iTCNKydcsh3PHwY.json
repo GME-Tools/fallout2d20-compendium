@@ -3,7 +3,7 @@
   "_file": "une_experience_marquante__4iTCNKydcsh3PHwY.json",
   "values": {
     "/name": "Une expérience marquante",
-    "/system/description": "<p>Choisissez une autre aptitude de magazine déjà utilisée mais pas apprise : elle s’applique maintenant.</p>",
+    "/system/description": "<p>Choisissez une autre aptitude de magazine que vous avez déjà utilisée mais pas apprise ; elle s’applique maintenant. Si vous apprenez cette aptitude, vous pouvez en bénéficier de manière permanente.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

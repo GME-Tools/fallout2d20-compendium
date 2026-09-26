@@ -3,7 +3,7 @@
   "_file": "beware_the_man_handler__BvqY6Zk4bfPSpIj7.json",
   "values": {
     "/name": "Beware the Man Handler",
-    "/system/description": "<p>The group AP pool may contain 1 AP more than normal for one scene</p>",
+    "/system/description": "<p>The group AP pool may contain 1 AP more than normal for one scene This learned benefit applies constantly.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

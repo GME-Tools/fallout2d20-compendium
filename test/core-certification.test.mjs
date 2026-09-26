@@ -7393,8 +7393,8 @@ test("Core source p.174 closes Grognak and targeted FR publication families", as
 
 
 test("Core source p.175 closes previously targeted magazine counterparts", async () => {
-  assert.equal(catalog.certifiedThrough.en.sourcePage, 175);
-  assert.equal(catalog.certifiedThrough.fr.sourcePage, 175);
+  assert.ok(catalog.certifiedThrough.en.sourcePage >= 175);
+  assert.ok(catalog.certifiedThrough.fr.sourcePage >= 175);
 
   const enReview = catalog.pageReviews.find(review => review.language === "en" && review.sourcePage === 175);
   const frReview = catalog.pageReviews.find(review => review.language === "fr" && review.sourcePage === 175);
@@ -7443,6 +7443,65 @@ test("Core source p.175 closes previously targeted magazine counterparts", async
       assert.equal(backwoodsmanTable.results[0].name, "Dégage de ma pelouse !");
       assert.match(byId.get("books-and-magazines/IRIhIXR0X1PnThvd").system.description,
         /histoires vraies sur les armes à énergie en action/);
+    }
+  }
+});
+
+
+test("Core source p.176 certifies Live & Love and singleton magazine learned-use rules", async () => {
+  assert.equal(catalog.certifiedThrough.en.sourcePage, 176);
+  assert.equal(catalog.certifiedThrough.fr.sourcePage, 176);
+
+  const liveItems = ["uizbEBbI5Jl1tjeI","xT9LvN0vcacln4pN","ZVFaC4f8Ki48eTdx","PKilL8to3SDZHUAU","YFSFj5moNn7KNnT8","8uCaW6rs4fwDWJUF","hCRQEWSkpgvFluXe","LATCQmWWljVCwMnt","usR2XUJr38Er8QCh"];
+  const livePerks = ["SKyP3uQ4CQCcdKZs","H27K9ike953ZIyRl","siFrRn6TjSmxGKas","disfFslU7fhYTIlC","Jip3JdMpV9HTHujn","B5AHVLoXVF8buanM","BvqY6Zk4bfPSpIj7","4iTCNKydcsh3PHwY","xfBuEJQHYAmds5XG"];
+  const ranges = [[1,2],[3,4],[5,6],[7,8],[9,10],[11,12],[13,14],[15,16],[17,18],[19,20]];
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const byId = new Map(records.map(({ pack, document }) => [`${pack}/${document._id}`, document]));
+    const table = byId.get("roll-tables/7bCzBGx1Boi3WUK7");
+    assert.ok(table, `${language}/Live & Love table missing`);
+    assert.deepEqual(table.results.map(result => result.range), ranges);
+    assert.equal(table.flags["fallout2d20-compendium"].source.page, 176);
+    assert.equal(table.flags["fallout2d20-compendium"].source.errataReviewed, true);
+
+    for (const id of liveItems) {
+      const item = byId.get(`books-and-magazines/${id}`);
+      assert.ok(item, `${language}/Live & Love item ${id} missing`);
+      assert.equal(item.flags["fallout2d20-compendium"].source.page, 176);
+      assert.equal(item.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    }
+    for (const id of livePerks) {
+      const perk = byId.get(`perks/${id}`);
+      assert.ok(perk, `${language}/Live & Love perk ${id} missing`);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.page, 176);
+      assert.equal(perk.flags["fallout2d20-compendium"].source.errataReviewed, true);
+      assert.match(perk.system.description, language === "en" ? /applies constantly/ : /de manière permanente/);
+    }
+
+    const massItem = byId.get("books-and-magazines/FQDIJeABc0a1g7Nt");
+    const massPerk = byId.get("perks/scI8HRzH0QjDb1bh");
+    const programmerItem = byId.get("books-and-magazines/0QyGlHy565YJcdMI");
+    const programmerPerk = byId.get("perks/xmOWzjBpDXRfPa9Y");
+    for (const doc of [massItem,massPerk,programmerItem,programmerPerk]) {
+      assert.ok(doc);
+      assert.equal(doc.flags["fallout2d20-compendium"].source.page, 176);
+      assert.equal(doc.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    }
+
+    if (language === "en") {
+      assert.equal(programmerItem.name, "Programmer’s Digest");
+      assert.equal(programmerPerk.name, "Programmer’s Digest");
+      assert.match(byId.get("books-and-magazines/xT9LvN0vcacln4pN").system.effect, /\+1 @fos\[DC\]/);
+      assert.match(massPerk.system.description, /once per session/);
+      assert.match(programmerPerk.system.description, /whenever you are locked out of a computer/);
+    } else {
+      assert.equal(table.results.at(-1).name, "Relancez le dé");
+      assert.match(byId.get("books-and-magazines/uizbEBbI5Jl1tjeI").system.description, /manifestations culturelles/);
+      assert.match(massItem.system.description, /mine d’autres connaissances médicales utiles/);
+      assert.match(massPerk.system.description, /une fois par partie/);
+      assert.match(programmerItem.system.description, /techniques de cryptage ou de décryptage/);
+      assert.match(programmerPerk.system.description, /chaque fois que votre accès à un ordinateur devrait être bloqué/);
     }
   }
 });

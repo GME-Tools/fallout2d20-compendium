@@ -3,7 +3,7 @@
   "_file": "an_experience_to_remember__4iTCNKydcsh3PHwY.json",
   "values": {
     "/name": "An Experience to Remember",
-    "/system/description": "<p>Choose one other Magazine perk you have previously used but not learned; that now takes effect</p>",
+    "/system/description": "<p>Choose one other Magazine perk you have previously used but not learned; that now takes effect This learned benefit applies constantly.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

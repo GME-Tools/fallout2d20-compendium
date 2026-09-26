@@ -2,8 +2,8 @@
   "_key": "!items!xmOWzjBpDXRfPa9Y",
   "_file": "programmer_s_digest__xmOWzjBpDXRfPa9Y.json",
   "values": {
-    "/name": "Programmer's Digest",
-    "/system/description": "<p>Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt.</p>",
+    "/name": "Programmer’s Digest",
+    "/system/description": "<p>Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt. You may use this learned benefit whenever you are locked out of a computer.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

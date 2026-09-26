@@ -3,7 +3,7 @@
   "_file": "talk_yourself_sober__Jip3JdMpV9HTHujn.json",
   "values": {
     "/name": "Talk Yourself Sober",
-    "/system/description": "<p>Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink</p>",
+    "/system/description": "<p>Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink This learned benefit applies constantly.</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

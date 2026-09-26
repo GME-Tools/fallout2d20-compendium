@@ -3,7 +3,7 @@
   "_file": "meilleurs_amis_pour_la_vie__SKyP3uQ4CQCcdKZs.json",
   "values": {
     "/name": "Meilleurs amis pour la vie !",
-    "/system/description": "<p>Tous les membres du groupe gagnent +1 PV maximum pendant une scène.</p>",
+    "/system/description": "<p>+1 point de vie maximum pour tous les membres du groupe pendant une scène. Si vous apprenez cette aptitude, vous pouvez en bénéficier de manière permanente.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

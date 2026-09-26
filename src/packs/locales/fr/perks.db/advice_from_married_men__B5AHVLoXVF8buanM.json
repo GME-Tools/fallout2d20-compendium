@@ -3,7 +3,7 @@
   "_file": "conseils_pour_hommes_maries__B5AHVLoXVF8buanM.json",
   "values": {
     "/name": "Conseils pour hommes mariés",
-    "/system/description": "<p>Tous les membres du groupe gagnent +1 en résistance aux dégâts balistiques pendant une scène.</p>",
+    "/system/description": "<p>+1 résistance aux dégâts balistiques pour tous les membres du groupe pendant une scène. Si vous apprenez cette aptitude, vous pouvez en bénéficier de manière permanente.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true

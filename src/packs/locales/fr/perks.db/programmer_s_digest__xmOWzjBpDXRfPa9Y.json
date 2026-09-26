@@ -3,7 +3,7 @@
   "_file": "le_petit_livre_du_programmeur__xmOWzjBpDXRfPa9Y.json",
   "values": {
     "/name": "Le petit livre du programmeur",
-    "/system/description": "<p>Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau.</p>",
+    "/system/description": "<p>Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal d’ordinateur et que votre accès devrait être bloqué (et donc que vous ne devriez pas pouvoir réessayer), vous pouvez décider que votre accès n’est pas bloqué, ce qui vous permet de faire une autre tentative. Vous pouvez appliquer cette aptitude apprise chaque fois que votre accès à un ordinateur devrait être bloqué.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true
