@@ -30,10 +30,10 @@ existing packs.
 
 Current completed boundary:
 
-- EN PDF physical pages 1–176, through printed/source page 174.
-- FR PDF physical pages 1–177, through printed/source page 174.
+- EN PDF physical pages 1–177, through printed/source page 175.
+- FR PDF physical pages 1–178, through printed/source page 175.
 - Completed editorial sections: front matter, Introduction, Chapters One–Three, and
-  Chapter Four through source p.174, including weapons, apparel/armor, food and
+  Chapter Four through source p.175, including weapons, apparel/armor, food and
   beverages, chems, other consumables, and the opening Books and Magazines lots.
 - Because the EN and FR perk catalogues are alphabetized independently, bilingual
   identity checks for the perk lots also review targeted counterpart entries on
@@ -303,6 +303,8 @@ The p.149 regression verifies the three opening Consumables/Food rule blocks, al
 Source p.173 closes the Astoundingly Awesome Tales issue table, the complete ten-issue Backwoodsman table, and Boxing Times. The corresponding official French counterparts are targeted on pp.175–176 without advancing those later FR pages. FR source p.173 independently closes Meeting People against its EN p.176 counterpart and begins the Tumblers Today family rules; its issue table remains deferred to FR p.174. The twenty AAT/Backwoodsman issue Items and their twenty learned-Perk identities preserve the published IDs, exact d20 ranges, canonical EN mechanics, and official French names/effects. AAT learned benefits apply to all qualifying attacks, while Backwoodsman learned benefits remain once per scene. Boxing Times and Meeting People preserve their learned-use semantics. French magazine prose for these lots has been restored from the official edition, and missing combat-die markup in the EN AAT/Backwoodsman issue text has been normalized. Errata V6 contains no numbered Core Rulebook p.173 correction.
 
 Source p.174 closes Grognak the Barbarian across its EN p.174–175 / FR p.174 table, with later EN rows treated as targeted counterparts only. EN p.174 also certifies Fixin’ Things and Future Weapons Today against their official FR counterparts. Because the official FR ordering reaches other families earlier, FR p.174 additionally closes the five Tumblers Today issues against EN p.178 and the seven Wasteland Survival Guide issues against EN p.180, without advancing those EN boundaries. Official French prose and effects were restored for these lots, including the source’s deterministic +10 lb / +5 charge-maximum Grognak carry-weight localization. Combat-die markup was normalized where legacy magazine text still used raw CD tokens. Errata V6 contains no numbered Core p.174 correction; its numbered p.174 entry belongs to Winter of Atom.
+
+Source p.175 closes only previously targeted magazine counterparts rather than introducing a new document family: EN p.175 contains the second half of the Grognak the Barbarian issue table and the complete Guns and Bullets family, while FR p.175 contains the Astoundingly Awesome Tales issue table, Future Weapons Today, and the first eight Backwoodsman rows. These identities, tables, learned perks, bilingual names/effects, and source coordinates were already resolved source-first during the earlier counterpart reads; p.175 now converts those targeted reads into page-certified coverage without changing their mechanics or stable IDs.
 
 Run focused checks as each lot is added. Final completion still requires
 `npm audit --audit-level=high`, `npm run ci`, and disposable Foundry qualification

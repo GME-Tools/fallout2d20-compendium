@@ -7352,8 +7352,8 @@ test("Core source p.173 magazine issues preserve exact tables, provenance, and l
 
 
 test("Core source p.174 closes Grognak and targeted FR publication families", async () => {
-  assert.equal(catalog.certifiedThrough.en.sourcePage, 174);
-  assert.equal(catalog.certifiedThrough.fr.sourcePage, 174);
+  assert.ok(catalog.certifiedThrough.en.sourcePage >= 174);
+  assert.ok(catalog.certifiedThrough.fr.sourcePage >= 174);
 
   const grognakItems = ["qx4yMqnLv4ZI6Ppx","78JHpLZz5rQeTMP9","V8SOn4RCMzgkx4u0","9UgvihjW0x2I5vn9","hhLOBbowNeo4VSDe","n5iAbo8IerJqOQNR","vcIgVqypELu1vP9C","S71PQOPJq2vV0pH8","G88aHNSeg4SvaCo9","oR7Yb9XMHc1Yn49v"];
   const tumblersItems = ["YVmBhcEYI0eLLDM8","4lu6hamyxERQzWNa","ZHve7VSwmsyHRjom","M32bIhaLlqXttW9q","GUbEJnFDx9p0CvbD"];
@@ -7387,6 +7387,62 @@ test("Core source p.174 closes Grognak and targeted FR publication families", as
       assert.match(byId.get("books-and-magazines/mBOgGCUFastqsi1c").system.description, /mine d’informations/);
       assert.match(byId.get("books-and-magazines/IRIhIXR0X1PnThvd").system.description, /histoires vraies sur les armes à énergie en action/);
       assert.match(byId.get("books-and-magazines/G88aHNSeg4SvaCo9").system.effect, /\+5 à votre charge maximale/);
+    }
+  }
+});
+
+
+test("Core source p.175 closes previously targeted magazine counterparts", async () => {
+  assert.equal(catalog.certifiedThrough.en.sourcePage, 175);
+  assert.equal(catalog.certifiedThrough.fr.sourcePage, 175);
+
+  const enReview = catalog.pageReviews.find(review => review.language === "en" && review.sourcePage === 175);
+  const frReview = catalog.pageReviews.find(review => review.language === "fr" && review.sourcePage === 175);
+  assert.deepEqual(enReview, {
+    language: "en",
+    pdfPage: 177,
+    sourcePage: 175,
+    section: "Chapter Four — Equipment",
+    disposition: "contains_certified_entries",
+    status: "verified"
+  });
+  assert.deepEqual(frReview, {
+    language: "fr",
+    pdfPage: 178,
+    sourcePage: 175,
+    section: "Chapter Four — Équipement",
+    disposition: "contains_certified_entries",
+    status: "verified"
+  });
+
+  const grognakTail = ["n5iAbo8IerJqOQNR","vcIgVqypELu1vP9C","S71PQOPJq2vV0pH8","G88aHNSeg4SvaCo9","oR7Yb9XMHc1Yn49v"];
+  const guns = ["DBYRYX03IcO2aTQG","qJ0xswPVJhHeBwLT","UvPtfBpiOmAmiKg2","mT0Wf89P2UGLZ83y","qcEZIWmadDggAT8K","4jcc9O3jIgAhUulK","yjknvThwoDmQwU3M","AJEifHfxya4EViFy","fYy1RCAJMGPRO9WJ","116TjNgfBwkNOSF6"];
+
+  for (const language of ["en","fr"]) {
+    const records = await generatedDocuments(language);
+    const byId = new Map(records.map(({ pack, document }) => [`${pack}/${document._id}`, document]));
+
+    for (const id of [...grognakTail, ...guns]) {
+      const item = byId.get(`books-and-magazines/${id}`);
+      assert.ok(item, `${language}/books-and-magazines/${id} missing`);
+      assert.equal(item.flags["fallout2d20-compendium"].source.page, 175);
+      assert.equal(item.flags["fallout2d20-compendium"].source.errataReviewed, true);
+    }
+
+    const gunsTable = byId.get("roll-tables/anS2tzaEW0Tct41L");
+    assert.ok(gunsTable, `${language}/Guns and Bullets table missing`);
+    assert.equal(gunsTable.flags["fallout2d20-compendium"].source.page, 175);
+    assert.deepEqual(gunsTable.results.map(result => result.range),
+      [[1,2],[3,4],[5,6],[7,8],[9,10],[11,12],[13,14],[15,16],[17,18],[19,20]]);
+
+    const aatTable = byId.get("roll-tables/ICQJPDpxEpQP3kgC");
+    const backwoodsmanTable = byId.get("roll-tables/b0YDWI7LbsTTbsLR");
+    assert.ok(aatTable && backwoodsmanTable);
+    if (language === "fr") {
+      assert.equal(aatTable.results[0].name, "L’assaut des hommes-poisson !");
+      assert.equal(backwoodsmanTable.results[0].name, "Dégage de ma pelouse !");
+      assert.match(byId.get("books-and-magazines/IRIhIXR0X1PnThvd").system.description,
+        /histoires vraies sur les armes à énergie en action/);
     }
   }
 });
