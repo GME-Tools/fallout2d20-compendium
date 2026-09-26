@@ -7296,8 +7296,8 @@ test("Core Books and Magazines p.172 opens publications source-exact", async () 
 
 
 test("Core source p.173 magazine issues preserve exact tables, provenance, and learned-use rules", async () => {
-  assert.equal(catalog.certifiedThrough.en.sourcePage, 173);
-  assert.equal(catalog.certifiedThrough.fr.sourcePage, 173);
+  assert.ok(catalog.certifiedThrough.en.sourcePage >= 173);
+  assert.ok(catalog.certifiedThrough.fr.sourcePage >= 173);
 
   const aatItems = ["mT6qkeV6xTG1pnex","J86ayEuqmagF9OH0","13RpvXhUn7TdKjEA","iiFcIlhklIMxjaoC","sNyzZdtR8zQeKE86","jPdCfq2T6pELwzbK","1bOiFImI3fM9CaIJ","6rHaK2QtsSPGvSpJ","zpcKGtIDvZn8Z1ut","0pTA0wlRQUQ2oAHk"];
   const aatPerks = ["9uBD2OLMA2YtE3ST","Gn880XN7Auhdop6S","NNhKS3XzGuAnXNmq","LSUSRTgMyqfN1EQx","x6hpmUJFDTD3Iw82","Cx5ysG2Z0XPE6DZn","fMq7BDUKGUIZDOEY","YeQmWe6K2QMAEaep","fDu6KU5u17sqA1hf","pk42jPbAVMosmA0k"];

@@ -11,7 +11,7 @@ export const FRENCH_MAGAZINE_SERIES_2=Object.fromEntries([
   e("Massachusetts Surgical Journal","Massachusetts Surgical Journal","Le chirurgien du Massachusetts","Une seule fois, quand vous prodiguez des soins à un autre personnage et assistez son test d’END + Survie pour guérir des blessures, considérez que votre dé d’assistance a obtenu 1."),
   e("Programmer's Digest","Programmer's Digest","Le petit livre du programmeur","Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal et devriez être bloqué, votre accès n’est pas bloqué et vous pouvez tenter de nouveau."),
   e("Tales of a Junktown Jerky Vendor","Tales of a Junktown Jerky Vendor","Les aventures d’un vendeur de viande séchée de Junktown","Une seule fois, après un test de Troc pour marchander, réussi ou raté, dépensez 1 point de Chance pour modifier le prix de 10 % en votre faveur."),
-  e("Fixin' Things","Fixin' Things","Réparer tout et n’importe quoi","Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié les composants nécessaires, en arrondissant au supérieur."),
+  e("Fixin’ Things","Fixin’ Things","Réparer tout et n’importe quoi","Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié les composants nécessaires, en arrondissant au supérieur."),
   e("True Police Stories","True Police Stories","Vraies histoires de police","Une seule fois, quand vous lancez les dés de dégâts d’une attaque, dépensez 1 point de Chance pour choisir le résultat de jusqu’à 3 DC au lieu de les lancer."),
 
   e("Unstopables","Dr. Brainwash and His Army of De-Capitalists!","Dr. Brainwash et son armée de dé-capitalistes !","Vous pouvez dépenser 3 points de Chance pour éviter tous les dégâts infligés par une seule attaque ou un seul danger."),
@@ -57,7 +57,7 @@ export const FRENCH_PUBLICATION_LABELS_2={
   "Future Weapons Today":"L’avenir des armes est à vous","Boxing Times":"La boxe pour les passionnés",
   "Massachusetts Surgical Journal":"Le chirurgien du Massachusetts","Programmer's Digest":"Le petit livre du programmeur",
   "Tales of a Junktown Jerky Vendor":"Les aventures d’un vendeur de viande séchée de Junktown",
-  "Fixin' Things":"Réparer tout et n’importe quoi","True Police Stories":"Vraies histoires de police",
+  "Fixin’ Things":"Réparer tout et n’importe quoi","True Police Stories":"Vraies histoires de police",
   "Unstopables":"Les Increvables","U.S. Covert Operations Manual":"Manuel d’opérations secrètes de l’armée américaine",
   "Tesla Science Magazine":"Science Tesla","Live & Love":"Vie et amour"
 };
@@ -71,7 +71,7 @@ export const FRENCH_PUBLICATION_DESCRIPTIONS_2={
   "Massachusetts Surgical Journal":"Un périodique médical d’avant-guerre consacré aux sciences et technologies médicales.",
   "Programmer's Digest":"Un magazine consacré à l’informatique, à la programmation et au cryptage.",
   "Tales of a Junktown Jerky Vendor":"Une série artisanale d’après-guerre écrite par un vendeur de viande séchée de Junktown.",
-  "Fixin' Things":"Un magazine rempli de conseils pour réparer et rafistoler objets et matériaux.",
+  "Fixin’ Things":"Un magazine rempli de conseils pour réparer et rafistoler objets et matériaux.",
   "True Police Stories":"Un magazine pulp d’avant-guerre consacré aux enquêtes criminelles et arrestations célèbres.",
   "Unstopables":"Un comic d’Hubris Comics réunissant plusieurs de ses héros au sein des Increvables.",
   "U.S. Covert Operations Manual":"Un manuel militaire confidentiel consacré à l’art du subterfuge.",

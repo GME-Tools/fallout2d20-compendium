@@ -49365,7 +49365,7 @@
       "type": "roll_table",
       "sourceName": "Random Wasteland Survival Guide Issues",
       "localizedNames": {
-        "fr": "Numéros aléatoires de Wasteland Survival Guide"
+        "fr": "Numéros aléatoires du Guide de survie des Terres désolées"
       },
       "scope": "in_scope",
       "justification": "Reusable d20 issue-selection RollTable reached on FR p.174 and resolved against authoritative EN p.180.",
