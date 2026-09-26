@@ -3,7 +3,7 @@
   "_file": "blood_on_the_harp__56snTc6VYoTJqCMi.json",
   "values": {
     "/name": "Blood on the Harp",
-    "/system/description": "<p>One successful melee attack you make inflicts +2CD damage</p>",
+    "/system/description": "<p>One successful melee attack you make inflicts +2 @fos[DC] damage</p>",
     "/flags/fallout2d20-compendium/source/language": "en"
   }
 }

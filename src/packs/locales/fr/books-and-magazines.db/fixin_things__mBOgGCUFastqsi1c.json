@@ -3,14 +3,14 @@
   "_file": "reparer_tout_et_n_importe_quoi__mBOgGCUFastqsi1c.json",
   "values": {
     "/name": "Réparer tout et n’importe quoi",
-    "/system/description": "<p>Un magazine rempli de conseils pour réparer et rafistoler objets et matériaux.</p><p><strong>Aptitude :</strong> Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié les composants nécessaires, en arrondissant au supérieur.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.7gsRBEPt328MaEyI]{Réparer tout et n’importe quoi}</p></section>",
-    "/system/effect": "<p>Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié les composants nécessaires, en arrondissant au supérieur.</p>",
+    "/system/description": "<p>Un magazine destiné à ceux qui aiment réparer les choses eux-mêmes. Chaque numéro contient une mine d’informations sur la manière de réparer et de rafistoler divers objets et matériaux, des évaluations des meilleurs outils à utiliser et des exemples de réparations envoyés par les lecteurs.</p><ul><li><strong>Aptitude :</strong> Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié la quantité de composants nécessaires pour effectuer la réparation (arrondi au supérieur). Si vous apprenez cette aptitude plus tard, vous pouvez l’utiliser chaque fois que vous tentez des réparations.</li></ul>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.7gsRBEPt328MaEyI]{Réparer tout et n’importe quoi}</p></section>",
+    "/system/effect": "<p>Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié la quantité de composants nécessaires pour effectuer la réparation (arrondi au supérieur).</p>",
     "/system/publication": "Réparer tout et n’importe quoi",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "mBOgGCUFastqsi1c",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

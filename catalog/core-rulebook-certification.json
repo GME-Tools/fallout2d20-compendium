@@ -8,12 +8,12 @@
   "method": "PDF source -> Errata -> expected inventory -> canonical -> locale EN -> locale FR",
   "certifiedThrough": {
     "en": {
-      "pdfPage": 175,
-      "sourcePage": 173
+      "pdfPage": 176,
+      "sourcePage": 174
     },
     "fr": {
-      "pdfPage": 176,
-      "sourcePage": 173
+      "pdfPage": 177,
+      "sourcePage": 174
     }
   },
   "pageReviews": [
@@ -2821,6 +2821,22 @@
       "language": "fr",
       "pdfPage": 176,
       "sourcePage": 173,
+      "section": "Chapter Four — Équipement",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "en",
+      "pdfPage": 176,
+      "sourcePage": 174,
+      "section": "Chapter Four — Equipment",
+      "disposition": "contains_certified_entries",
+      "status": "verified"
+    },
+    {
+      "language": "fr",
+      "pdfPage": 177,
+      "sourcePage": 174,
       "section": "Chapter Four — Équipement",
       "disposition": "contains_certified_entries",
       "status": "verified"
@@ -47829,6 +47845,2133 @@
         "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
         "errataReviewed": true,
         "errataNote": "Errata V6 contains no numbered Core Rulebook p.173 correction. Its numbered p.174 entry belongs to Winter of Atom, not the Core Rulebook, and there is no numbered p.175 correction."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Fixin’ Things",
+      "localizedNames": {
+        "fr": "Réparer tout et n’importe quoi"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Core publication defined on EN source p.174 and resolved against its official French counterpart.",
+      "pack": "books-and-magazines",
+      "documentId": "mBOgGCUFastqsi1c",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          179
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up).",
+        "officialFrenchEffect": "Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié la quantité de composants nécessaires pour effectuer la réparation (arrondi au supérieur).",
+        "linkedPerkDocumentId": "7gsRBEPt328MaEyI",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Fixin’ Things",
+      "localizedNames": {
+        "fr": "Réparer tout et n’importe quoi"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity linked to the corresponding publication.",
+      "pack": "perks",
+      "documentId": "7gsRBEPt328MaEyI",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          179
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "mBOgGCUFastqsi1c",
+        "effect": "Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up).",
+        "officialFrenchEffect": "Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié la quantité de composants nécessaires pour effectuer la réparation (arrondi au supérieur).",
+        "learnedUse": "whenever you attempt repairs",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Future Weapons Today",
+      "localizedNames": {
+        "fr": "L’avenir des armes est à vous"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Core publication defined on EN source p.174 and resolved against its official French counterpart.",
+      "pack": "books-and-magazines",
+      "documentId": "IRIhIXR0X1PnThvd",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2CD for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down.",
+        "officialFrenchEffect": "Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez les dégâts de +2 @fos[DC] pour cette attaque. L’arme ne peut pas être utilisée pour porter une attaque durant le tour qui suit une attaque surchargée, car elle est en train de se refroidir.",
+        "linkedPerkDocumentId": "LJXpGjoI1HYU6Heb",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Future Weapons Today",
+      "localizedNames": {
+        "fr": "L’avenir des armes est à vous"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity linked to the corresponding publication.",
+      "pack": "perks",
+      "documentId": "LJXpGjoI1HYU6Heb",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          176
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "IRIhIXR0X1PnThvd",
+        "effect": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2CD for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down.",
+        "officialFrenchEffect": "Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez les dégâts de +2 @fos[DC] pour cette attaque. L’arme ne peut pas être utilisée pour porter une attaque durant le tour qui suit une attaque surchargée, car elle est en train de se refroidir.",
+        "learnedUse": "once per scene",
+        "targetedFrenchCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "rule_text",
+      "sourceName": "Grognak the Barbarian — publication family rules",
+      "localizedNames": {
+        "fr": "Grognak the Barbarian (Grognak le Barbare) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "Family-level description and once-per-scene learned-use rule are shared guidance; issue Items, learned Perks, and RollTable are separate reusable documents.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "temporaryBenefitUses": 1,
+        "learnedBenefitUsesPerScene": 1,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "roll_table",
+      "sourceName": "Random Grognak the Barbarian Issues",
+      "localizedNames": {
+        "fr": "Numéros aléatoires de Grognak le Barbare"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable beginning on EN p.174 and continuing on p.175; the official FR table is wholly on p.174.",
+      "pack": "roll-tables",
+      "documentId": "95C7laMPQoK9wwZj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174,
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 10,
+        "ranges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "issueDocumentIds": [
+          "qx4yMqnLv4ZI6Ppx",
+          "78JHpLZz5rQeTMP9",
+          "V8SOn4RCMzgkx4u0",
+          "9UgvihjW0x2I5vn9",
+          "hhLOBbowNeo4VSDe",
+          "n5iAbo8IerJqOQNR",
+          "vcIgVqypELu1vP9C",
+          "S71PQOPJq2vV0pH8",
+          "G88aHNSeg4SvaCo9",
+          "oR7Yb9XMHc1Yn49v"
+        ],
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Blood on the Harp",
+      "localizedNames": {
+        "fr": "Du sang sur la harpe"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "qx4yMqnLv4ZI6Ppx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          1,
+          2
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One successful melee attack you make inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque de corps à corps réussie que vous portez inflige +2 @fos[DC] de dégâts.",
+        "linkedPerkDocumentId": "56snTc6VYoTJqCMi",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Blood on the Harp",
+      "localizedNames": {
+        "fr": "Du sang sur la harpe"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "56snTc6VYoTJqCMi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "qx4yMqnLv4ZI6Ppx",
+        "rollRange": [
+          1,
+          2
+        ],
+        "effect": "One successful melee attack you make inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque de corps à corps réussie que vous portez inflige +2 @fos[DC] de dégâts.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Cometh the Trickster",
+      "localizedNames": {
+        "fr": "Ainsi s’en vint le Malicieux"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "78JHpLZz5rQeTMP9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          3,
+          4
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Add +1 to the difficulty of another character’s skill test to detect you",
+        "officialFrenchEffect": "Ajoutez +1 à la difficulté du test de compétence d’un autre personnage pour vous repérer.",
+        "linkedPerkDocumentId": "MKt5lgPvnlrnMV9S",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Cometh the Trickster",
+      "localizedNames": {
+        "fr": "Ainsi s’en vint le Malicieux"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "MKt5lgPvnlrnMV9S",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "78JHpLZz5rQeTMP9",
+        "rollRange": [
+          3,
+          4
+        ],
+        "effect": "Add +1 to the difficulty of another character’s skill test to detect you",
+        "officialFrenchEffect": "Ajoutez +1 à la difficulté du test de compétence d’un autre personnage pour vous repérer.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Jungle of the Bat-Babies",
+      "localizedNames": {
+        "fr": "La jungle des bébés chauves-souris"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "V8SOn4RCMzgkx4u0",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          5,
+          6
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you suffer Poison damage, gain +3 Poison damage resistance",
+        "officialFrenchEffect": "Quand vous subissez des dégâts de poison, vous gagnez +3 résistance aux dégâts de poison.",
+        "linkedPerkDocumentId": "FgiFIu2LmrckPy5Y",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Jungle of the Bat-Babies",
+      "localizedNames": {
+        "fr": "La jungle des bébés chauves-souris"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "FgiFIu2LmrckPy5Y",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "V8SOn4RCMzgkx4u0",
+        "rollRange": [
+          5,
+          6
+        ],
+        "effect": "When you suffer Poison damage, gain +3 Poison damage resistance",
+        "officialFrenchEffect": "Quand vous subissez des dégâts de poison, vous gagnez +3 résistance aux dégâts de poison.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "In the Bosom of the Corsair Queen",
+      "localizedNames": {
+        "fr": "Les charmes de la reine corsaire Queen"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "9UgvihjW0x2I5vn9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          7,
+          8
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One successful melee attack you make automatically inflicts a Critical Hit",
+        "officialFrenchEffect": "Une attaque de corps à corps réussie que vous portez inflige automatiquement un coup critique.",
+        "linkedPerkDocumentId": "bzXcVbZZtHhGCcOs",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "In the Bosom of the Corsair Queen",
+      "localizedNames": {
+        "fr": "Les charmes de la reine corsaire Queen"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "bzXcVbZZtHhGCcOs",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "9UgvihjW0x2I5vn9",
+        "rollRange": [
+          7,
+          8
+        ],
+        "effect": "One successful melee attack you make automatically inflicts a Critical Hit",
+        "officialFrenchEffect": "Une attaque de corps à corps réussie que vous portez inflige automatiquement un coup critique.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "book_magazine",
+      "sourceName": "Demon Slaves, Demon Sands",
+      "localizedNames": {
+        "fr": "Esclaves démoniaques, sables démoniaques"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "hhLOBbowNeo4VSDe",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          9,
+          10
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "One attack against Ghouls inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque portée contre des Goules inflige +2 @fos[DC] de dégâts.",
+        "linkedPerkDocumentId": "FHMZ8ohO5uegkBHL",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 174,
+      "type": "magazine_perk",
+      "sourceName": "Demon Slaves, Demon Sands",
+      "localizedNames": {
+        "fr": "Esclaves démoniaques, sables démoniaques"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "FHMZ8ohO5uegkBHL",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          174
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "hhLOBbowNeo4VSDe",
+        "rollRange": [
+          9,
+          10
+        ],
+        "effect": "One attack against Ghouls inflicts +2CD damage",
+        "officialFrenchEffect": "Une attaque portée contre des Goules inflige +2 @fos[DC] de dégâts.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": false,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Enter Maula: War Maiden of Mars",
+      "localizedNames": {
+        "fr": "Maula : la Vierge guerrière de Mars"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "n5iAbo8IerJqOQNR",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          11,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you make a melee attack with a Two-Handed melee weapon, gain the Piercing 1 damage effect (or +1 to any existing Piercing effect)",
+        "officialFrenchEffect": "Quand vous portez une attaque de corps à corps avec une arme de corps à corps à Deux mains, vous gagnez l’effet de dégâts Perforant 1 (ou +1 à tout effet Perforant déjà présent).",
+        "linkedPerkDocumentId": "OIVq6l91X8x6r6zi",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Enter Maula: War Maiden of Mars",
+      "localizedNames": {
+        "fr": "Maula : la Vierge guerrière de Mars"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "OIVq6l91X8x6r6zi",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "n5iAbo8IerJqOQNR",
+        "rollRange": [
+          11,
+          12
+        ],
+        "effect": "When you make a melee attack with a Two-Handed melee weapon, gain the Piercing 1 damage effect (or +1 to any existing Piercing effect)",
+        "officialFrenchEffect": "Quand vous portez une attaque de corps à corps avec une arme de corps à corps à Deux mains, vous gagnez l’effet de dégâts Perforant 1 (ou +1 à tout effet Perforant déjà présent).",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Fatherless Cur!",
+      "localizedNames": {
+        "fr": "Sale bâtard sans poils !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "vcIgVqypELu1vP9C",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          13,
+          14
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Ignore one complication on a melee attack",
+        "officialFrenchEffect": "Ignorez une complication obtenue sur une attaque de corps à corps.",
+        "linkedPerkDocumentId": "sWkveVPjKk45QqwF",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Fatherless Cur!",
+      "localizedNames": {
+        "fr": "Sale bâtard sans poils !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "sWkveVPjKk45QqwF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "vcIgVqypELu1vP9C",
+        "rollRange": [
+          13,
+          14
+        ],
+        "effect": "Ignore one complication on a melee attack",
+        "officialFrenchEffect": "Ignorez une complication obtenue sur une attaque de corps à corps.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "Lost in the Snows of Lust",
+      "localizedNames": {
+        "fr": "Égaré dans les neiges de la luxure"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "S71PQOPJq2vV0pH8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          15,
+          16
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Gain +2 Physical damage resistance against one attack",
+        "officialFrenchEffect": "Vous gagnez +2 résistance aux dégâts balistiques contre une attaque.",
+        "linkedPerkDocumentId": "pIGqn3CdOhsyQyhx",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "Lost in the Snows of Lust",
+      "localizedNames": {
+        "fr": "Égaré dans les neiges de la luxure"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "pIGqn3CdOhsyQyhx",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "S71PQOPJq2vV0pH8",
+        "rollRange": [
+          15,
+          16
+        ],
+        "effect": "Gain +2 Physical damage resistance against one attack",
+        "officialFrenchEffect": "Vous gagnez +2 résistance aux dégâts balistiques contre une attaque.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "The Lair of the Virgin Eaters",
+      "localizedNames": {
+        "fr": "L’antre des dévoreurs de vierges"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "G88aHNSeg4SvaCo9",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          17,
+          18
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Gain +10 Carry weight for one scene",
+        "officialFrenchEffect": "Vous gagnez +5 à votre charge maximale pendant une scène.",
+        "linkedPerkDocumentId": "KEpm4gH8RvMjhpoO",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom.",
+        "metricLocalization": "EN +10 lb Carry weight is localized by the official FR edition as +5 charge maximum."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "The Lair of the Virgin Eaters",
+      "localizedNames": {
+        "fr": "L’antre des dévoreurs de vierges"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "KEpm4gH8RvMjhpoO",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "G88aHNSeg4SvaCo9",
+        "rollRange": [
+          17,
+          18
+        ],
+        "effect": "Gain +10 Carry weight for one scene",
+        "officialFrenchEffect": "Vous gagnez +5 à votre charge maximale pendant une scène.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "book_magazine",
+      "sourceName": "What Sorcery is This?",
+      "localizedNames": {
+        "fr": "Quelle est donc cette sorcellerie ?"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Grognak the Barbarian issue; later EN rows are targeted counterparts required by the FR p.174 table.",
+      "pack": "books-and-magazines",
+      "documentId": "oR7Yb9XMHc1Yn49v",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Grognak the Barbarian",
+        "rollRange": [
+          19,
+          20
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Gain +2 Energy damage resistance against one attack",
+        "officialFrenchEffect": "Vous gagnez +2 résistance aux dégâts énergétiques contre une attaque.",
+        "linkedPerkDocumentId": "1KDDs6qPimKnwL9r",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 175,
+      "type": "magazine_perk",
+      "sourceName": "What Sorcery is This?",
+      "localizedNames": {
+        "fr": "Quelle est donc cette sorcellerie ?"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Grognak issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "1KDDs6qPimKnwL9r",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          175
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "oR7Yb9XMHc1Yn49v",
+        "rollRange": [
+          19,
+          20
+        ],
+        "effect": "Gain +2 Energy damage resistance against one attack",
+        "officialFrenchEffect": "Vous gagnez +2 résistance aux dégâts énergétiques contre une attaque.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "roll_table",
+      "sourceName": "Random Tumblers Today Issues",
+      "localizedNames": {
+        "fr": "Numéros aléatoires de Tumblers Today"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable reached on FR p.174 and resolved against authoritative EN p.178.",
+      "pack": "roll-tables",
+      "documentId": "D7o5WMWvssO5XNNq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 5,
+        "ranges": [
+          [
+            1,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            17,
+            20
+          ]
+        ],
+        "issueDocumentIds": [
+          "YVmBhcEYI0eLLDM8",
+          "4lu6hamyxERQzWNa",
+          "ZHve7VSwmsyHRjom",
+          "M32bIhaLlqXttW9q",
+          "GUbEJnFDx9p0CvbD"
+        ],
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "book_magazine",
+      "sourceName": "Mysteries of the Master Key Exposed!",
+      "localizedNames": {
+        "fr": "Les mystères du passe-partout révélés !"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Tumblers Today issue reached on FR p.174 and resolved against EN p.178.",
+      "pack": "books-and-magazines",
+      "documentId": "YVmBhcEYI0eLLDM8",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Tumblers Today",
+        "rollRange": [
+          1,
+          4
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "You may re-roll 1d20 on a single Lockpicking test",
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur un seul test de Crochetage.",
+        "linkedPerkDocumentId": "dx2dkCtFBWb5kukV",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "magazine_perk",
+      "sourceName": "Mysteries of the Master Key Exposed!",
+      "localizedNames": {
+        "fr": "Les mystères du passe-partout révélés !"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Tumblers Today issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "dx2dkCtFBWb5kukV",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "YVmBhcEYI0eLLDM8",
+        "rollRange": [
+          1,
+          4
+        ],
+        "effect": "You may re-roll 1d20 on a single Lockpicking test",
+        "officialFrenchEffect": "Vous pouvez relancer 1d20 sur un seul test de Crochetage.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "book_magazine",
+      "sourceName": "Bobby Pins: More Effective Than Lockpicks?",
+      "localizedNames": {
+        "fr": "Les épingles à cheveux : plus efficaces que les outils de crochetage ?"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Tumblers Today issue reached on FR p.174 and resolved against EN p.178.",
+      "pack": "books-and-magazines",
+      "documentId": "4lu6hamyxERQzWNa",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Tumblers Today",
+        "rollRange": [
+          5,
+          8
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When using a Bobby Pin, reduce the difficulty of a Lockpicking test by a further 1 (minimum 0)",
+        "officialFrenchEffect": "Quand vous utilisez une épingle à cheveux, réduisez de 2 au lieu de 1 la difficulté d’un test de Crochetage (0 minimum).",
+        "linkedPerkDocumentId": "Q6MhXT1qvcpX6fxU",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "magazine_perk",
+      "sourceName": "Bobby Pins: More Effective Than Lockpicks?",
+      "localizedNames": {
+        "fr": "Les épingles à cheveux : plus efficaces que les outils de crochetage ?"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Tumblers Today issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "Q6MhXT1qvcpX6fxU",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "4lu6hamyxERQzWNa",
+        "rollRange": [
+          5,
+          8
+        ],
+        "effect": "When using a Bobby Pin, reduce the difficulty of a Lockpicking test by a further 1 (minimum 0)",
+        "officialFrenchEffect": "Quand vous utilisez une épingle à cheveux, réduisez de 2 au lieu de 1 la difficulté d’un test de Crochetage (0 minimum).",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "book_magazine",
+      "sourceName": "Confessions of a Housebreaker",
+      "localizedNames": {
+        "fr": "Confessions d’un monte-en-l’air"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Tumblers Today issue reached on FR p.174 and resolved against EN p.178.",
+      "pack": "books-and-magazines",
+      "documentId": "ZHve7VSwmsyHRjom",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Tumblers Today",
+        "rollRange": [
+          9,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When scavenging or looting, spend 1 Luck to find 2+2CD Bobby Pins",
+        "officialFrenchEffect": "Quand vous fouillez ou quand vous récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2 + 2 @fos[DC] épingles à cheveux.",
+        "linkedPerkDocumentId": "PCA8zoHuaLjnsF7g",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "magazine_perk",
+      "sourceName": "Confessions of a Housebreaker",
+      "localizedNames": {
+        "fr": "Confessions d’un monte-en-l’air"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Tumblers Today issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "PCA8zoHuaLjnsF7g",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "ZHve7VSwmsyHRjom",
+        "rollRange": [
+          9,
+          12
+        ],
+        "effect": "When scavenging or looting, spend 1 Luck to find 2+2CD Bobby Pins",
+        "officialFrenchEffect": "Quand vous fouillez ou quand vous récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2 + 2 @fos[DC] épingles à cheveux.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "book_magazine",
+      "sourceName": "Open Any Lock in 5 Seconds Flat",
+      "localizedNames": {
+        "fr": "Ouvrez toutes les serrures en 5 secondes chrono"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Tumblers Today issue reached on FR p.174 and resolved against EN p.178.",
+      "pack": "books-and-magazines",
+      "documentId": "M32bIhaLlqXttW9q",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Tumblers Today",
+        "rollRange": [
+          13,
+          16
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you successfully pick a lock, you may use the Reduce Time AP option without spending AP",
+        "officialFrenchEffect": "Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l’option de PA Réduire la durée sans dépenser de PA.",
+        "linkedPerkDocumentId": "mrgLpKa5RkDmIWHq",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "magazine_perk",
+      "sourceName": "Open Any Lock in 5 Seconds Flat",
+      "localizedNames": {
+        "fr": "Ouvrez toutes les serrures en 5 secondes chrono"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Tumblers Today issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "mrgLpKa5RkDmIWHq",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "M32bIhaLlqXttW9q",
+        "rollRange": [
+          13,
+          16
+        ],
+        "effect": "When you successfully pick a lock, you may use the Reduce Time AP option without spending AP",
+        "officialFrenchEffect": "Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l’option de PA Réduire la durée sans dépenser de PA.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "book_magazine",
+      "sourceName": "Locksmith Certification Special — Pass with Flying Colors",
+      "localizedNames": {
+        "fr": "Certification de serrurier – Réussissez haut la main"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Tumblers Today issue reached on FR p.174 and resolved against EN p.178.",
+      "pack": "books-and-magazines",
+      "documentId": "GUbEJnFDx9p0CvbD",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Tumblers Today",
+        "rollRange": [
+          17,
+          20
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When suffer one or more complications on a Lockpicking test, spend 1 Luck point to ignore those complications",
+        "officialFrenchEffect": "Quand vous subissez une ou plusieurs complications sur un test de Crochetage, vous pouvez dépenser 1 point de Chance pour ignorer ces complications.",
+        "linkedPerkDocumentId": "xRA5ktVoyWDHRy8N",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 178,
+      "type": "magazine_perk",
+      "sourceName": "Locksmith Certification Special — Pass with Flying Colors",
+      "localizedNames": {
+        "fr": "Certification de serrurier – Réussissez haut la main"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Tumblers Today issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "xRA5ktVoyWDHRy8N",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          178
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "GUbEJnFDx9p0CvbD",
+        "rollRange": [
+          17,
+          20
+        ],
+        "effect": "When suffer one or more complications on a Lockpicking test, spend 1 Luck point to ignore those complications",
+        "officialFrenchEffect": "Quand vous subissez une ou plusieurs complications sur un test de Crochetage, vous pouvez dépenser 1 point de Chance pour ignorer ces complications.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "rule_text",
+      "sourceName": "Wasteland Survival Guide — publication family rules",
+      "localizedNames": {
+        "fr": "Wasteland Survival Guide (Guide de survie des Terres désolées) — règles de la série"
+      },
+      "scope": "out_of_scope",
+      "justification": "Family-level description and once-per-scene learned-use rule are shared guidance; FR p.174 reaches the full issue table, resolved against EN p.180.",
+      "pack": null,
+      "documentId": null,
+      "status": "out_of_scope",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "issueDependentPerks": true,
+        "temporaryBenefitUses": 1,
+        "learnedBenefitUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "roll_table",
+      "sourceName": "Random Wasteland Survival Guide Issues",
+      "localizedNames": {
+        "fr": "Numéros aléatoires de Wasteland Survival Guide"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable d20 issue-selection RollTable reached on FR p.174 and resolved against authoritative EN p.180.",
+      "pack": "roll-tables",
+      "documentId": "JFaApgVMo29GJFAu",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "formula": "1d20",
+        "rowCount": 7,
+        "ranges": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            13,
+            15
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "issueDocumentIds": [
+          "0GXqsrMeNMoA9iCS",
+          "NyoiFuBl8FN4iRiZ",
+          "EIzEOJH0iP4JzWnw",
+          "lc4MTpvhDkQ7ApOS",
+          "hQmjix9JtmveUaBz",
+          "l04nHOGBarXy6rxt",
+          "rzLGWCVR5aHjEyFy"
+        ],
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "Farming the Wastes",
+      "localizedNames": {
+        "fr": "Cultiver dans les Terres désolées"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "0GXqsrMeNMoA9iCS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          1,
+          3
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Consuming a fruit or vegetable food item heals twice as many HP",
+        "officialFrenchEffect": "Profiter d’un consommable qui est un fruit ou un légume guérit deux fois plus de PV.",
+        "linkedPerkDocumentId": "TmIh9ecBP1YvDwdF",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "Farming the Wastes",
+      "localizedNames": {
+        "fr": "Cultiver dans les Terres désolées"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "TmIh9ecBP1YvDwdF",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "0GXqsrMeNMoA9iCS",
+        "rollRange": [
+          1,
+          3
+        ],
+        "effect": "Consuming a fruit or vegetable food item heals twice as many HP",
+        "officialFrenchEffect": "Profiter d’un consommable qui est un fruit ou un légume guérit deux fois plus de PV.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "Insect Repellent Special",
+      "localizedNames": {
+        "fr": "Numéro spécial insecticides"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "NyoiFuBl8FN4iRiZ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          4,
+          6
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Increase all damage resistances by +2 vs an attack from an Insect",
+        "officialFrenchEffect": "Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.",
+        "linkedPerkDocumentId": "qxfqtIIZynyM2qIj",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "Insect Repellent Special",
+      "localizedNames": {
+        "fr": "Numéro spécial insecticides"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "qxfqtIIZynyM2qIj",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "NyoiFuBl8FN4iRiZ",
+        "rollRange": [
+          4,
+          6
+        ],
+        "effect": "Increase all damage resistances by +2 vs an attack from an Insect",
+        "officialFrenchEffect": "Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "The Bright Side of Radiation Poisoning",
+      "localizedNames": {
+        "fr": "Le bon côté de la contamination aux radiations"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "EIzEOJH0iP4JzWnw",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          7,
+          9
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you consume irradiated food or drink, heal additional HP equal to the roll on the CD",
+        "officialFrenchEffect": "Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du @fos[DC].",
+        "linkedPerkDocumentId": "BSi2qWkBGOJKFFED",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "The Bright Side of Radiation Poisoning",
+      "localizedNames": {
+        "fr": "Le bon côté de la contamination aux radiations"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "BSi2qWkBGOJKFFED",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "EIzEOJH0iP4JzWnw",
+        "rollRange": [
+          7,
+          9
+        ],
+        "effect": "When you consume irradiated food or drink, heal additional HP equal to the roll on the CD",
+        "officialFrenchEffect": "Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du @fos[DC].",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "Coupon Spectacular",
+      "localizedNames": {
+        "fr": "Spécial coupons"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "lc4MTpvhDkQ7ApOS",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          10,
+          12
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When buying food or drink items, the price is shifted an additional 10% in your favor",
+        "officialFrenchEffect": "Quand vous achetez de la nourriture ou des boissons, le prix est altéré de 10 % de plus en votre faveur.",
+        "linkedPerkDocumentId": "grJRadyKsz8Eu0cJ",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "Coupon Spectacular",
+      "localizedNames": {
+        "fr": "Spécial coupons"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "grJRadyKsz8Eu0cJ",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "lc4MTpvhDkQ7ApOS",
+        "rollRange": [
+          10,
+          12
+        ],
+        "effect": "When buying food or drink items, the price is shifted an additional 10% in your favor",
+        "officialFrenchEffect": "Quand vous achetez de la nourriture ou des boissons, le prix est altéré de 10 % de plus en votre faveur.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "Water Aerobics for Ghouls",
+      "localizedNames": {
+        "fr": "Gymnastique aquatique pour les goules"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "hQmjix9JtmveUaBz",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          13,
+          15
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Reduce the difficulty of an Athletics test to swim by 1 (min. 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté d’un test d’Athlétisme pour nager (0 minimum).",
+        "linkedPerkDocumentId": "xXZcXGsZY6g4QkTl",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "Water Aerobics for Ghouls",
+      "localizedNames": {
+        "fr": "Gymnastique aquatique pour les goules"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "xXZcXGsZY6g4QkTl",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "hQmjix9JtmveUaBz",
+        "rollRange": [
+          13,
+          15
+        ],
+        "effect": "Reduce the difficulty of an Athletics test to swim by 1 (min. 0)",
+        "officialFrenchEffect": "Réduisez de 1 la difficulté d’un test d’Athlétisme pour nager (0 minimum).",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "Self Defense Secrets",
+      "localizedNames": {
+        "fr": "Les secrets de l’autodéfense"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "l04nHOGBarXy6rxt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          16,
+          18
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "Gain +1 defense against a melee attack",
+        "officialFrenchEffect": "Votre défense augmente de +1 contre une attaque de corps à corps.",
+        "linkedPerkDocumentId": "yXOy24286aAjL5ID",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "Self Defense Secrets",
+      "localizedNames": {
+        "fr": "Les secrets de l’autodéfense"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "yXOy24286aAjL5ID",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "l04nHOGBarXy6rxt",
+        "rollRange": [
+          16,
+          18
+        ],
+        "effect": "Gain +1 defense against a melee attack",
+        "officialFrenchEffect": "Votre défense augmente de +1 contre une attaque de corps à corps.",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "book_magazine",
+      "sourceName": "Hunting in the Wastes",
+      "localizedNames": {
+        "fr": "Chasser dans les Terres désolées"
+      },
+      "scope": "in_scope",
+      "justification": "Reusable Wasteland Survival Guide issue reached on FR p.174 and resolved against EN p.180.",
+      "pack": "books-and-magazines",
+      "documentId": "rzLGWCVR5aHjEyFy",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "publication": "Wasteland Survival Guide",
+        "rollRange": [
+          19,
+          20
+        ],
+        "weightLb": "<1",
+        "weightFr": "<0.5",
+        "cost": 100,
+        "rarity": 3,
+        "temporaryUses": 1,
+        "effect": "When you butcher an animal you’ve killed, and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose (this AP is lost if not used)",
+        "officialFrenchEffect": "Quand vous dépecez un animal que vous avez tué et que la quantité de viande trouvée peut être augmentée en dépensant des PA, vous gagnez 1 PA bonus à cette fin (s’il n’est pas utilisé, il est perdu).",
+        "linkedPerkDocumentId": "p8cH2qolrlrnLKIt",
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
+      }
+    },
+    {
+      "publication": "core_rulebook",
+      "page": 180,
+      "type": "magazine_perk",
+      "sourceName": "Hunting in the Wastes",
+      "localizedNames": {
+        "fr": "Chasser dans les Terres désolées"
+      },
+      "scope": "in_scope",
+      "justification": "Permanent learned-perk identity for the corresponding Wasteland Survival Guide issue; learned benefit is usable once per scene.",
+      "pack": "perks",
+      "documentId": "p8cH2qolrlrnLKIt",
+      "status": "verified",
+      "sourcePages": {
+        "en": [
+          180
+        ],
+        "fr": [
+          174
+        ]
+      },
+      "certification": {
+        "canonicalMechanicsReviewed": true,
+        "maxRank": 1,
+        "linkedMagazineDocumentId": "rzLGWCVR5aHjEyFy",
+        "rollRange": [
+          19,
+          20
+        ],
+        "effect": "When you butcher an animal you’ve killed, and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose (this AP is lost if not used)",
+        "officialFrenchEffect": "Quand vous dépecez un animal que vous avez tué et que la quantité de viande trouvée peut être augmentée en dépensant des PA, vous gagnez 1 PA bonus à cette fin (s’il n’est pas utilisé, il est perdu).",
+        "learnedUsesPerScene": 1,
+        "targetedEnglishCounterpartReadDoesNotAdvanceBoundary": true,
+        "errataReviewed": true,
+        "errataNote": "Errata V6 contains no numbered Core Rulebook p.174 correction; the numbered p.174 entry belongs to Winter of Atom."
       }
     }
   ]

@@ -7349,3 +7349,44 @@ test("Core source p.173 magazine issues preserve exact tables, provenance, and l
     }
   }
 });
+
+
+test("Core source p.174 closes Grognak and targeted FR publication families", async () => {
+  assert.equal(catalog.certifiedThrough.en.sourcePage, 174);
+  assert.equal(catalog.certifiedThrough.fr.sourcePage, 174);
+
+  const grognakItems = ["qx4yMqnLv4ZI6Ppx","78JHpLZz5rQeTMP9","V8SOn4RCMzgkx4u0","9UgvihjW0x2I5vn9","hhLOBbowNeo4VSDe","n5iAbo8IerJqOQNR","vcIgVqypELu1vP9C","S71PQOPJq2vV0pH8","G88aHNSeg4SvaCo9","oR7Yb9XMHc1Yn49v"];
+  const tumblersItems = ["YVmBhcEYI0eLLDM8","4lu6hamyxERQzWNa","ZHve7VSwmsyHRjom","M32bIhaLlqXttW9q","GUbEJnFDx9p0CvbD"];
+  const wastelandItems = ["0GXqsrMeNMoA9iCS","NyoiFuBl8FN4iRiZ","EIzEOJH0iP4JzWnw","lc4MTpvhDkQ7ApOS","hQmjix9JtmveUaBz","l04nHOGBarXy6rxt","rzLGWCVR5aHjEyFy"];
+
+  for (const language of ["en", "fr"]) {
+    const records = await generatedDocuments(language);
+    const byId = new Map(records.map(({ pack, document }) => [`${pack}/${document._id}`, document]));
+
+    assert.deepEqual(byId.get("roll-tables/95C7laMPQoK9wwZj").results.map(result => result.range),
+      [[1,2],[3,4],[5,6],[7,8],[9,10],[11,12],[13,14],[15,16],[17,18],[19,20]]);
+    assert.deepEqual(byId.get("roll-tables/D7o5WMWvssO5XNNq").results.map(result => result.range),
+      [[1,4],[5,8],[9,12],[13,16],[17,20]]);
+    assert.deepEqual(byId.get("roll-tables/JFaApgVMo29GJFAu").results.map(result => result.range),
+      [[1,3],[4,6],[7,9],[10,12],[13,15],[16,18],[19,20]]);
+
+    for (const id of [...grognakItems, ...tumblersItems, ...wastelandItems, "mBOgGCUFastqsi1c", "IRIhIXR0X1PnThvd"]) {
+      assert.ok(byId.get(`books-and-magazines/${id}`), `${language}/books-and-magazines/${id} missing`);
+    }
+
+    if (language === "en") {
+      assert.equal(byId.get("books-and-magazines/mBOgGCUFastqsi1c").name, "Fixin’ Things");
+      assert.match(byId.get("books-and-magazines/qx4yMqnLv4ZI6Ppx").system.effect, /\+2 @fos\[DC\]/);
+      assert.match(byId.get("books-and-magazines/ZHve7VSwmsyHRjom").system.effect, /2\+2 @fos\[DC\]/);
+      assert.equal(byId.get("books-and-magazines/qx4yMqnLv4ZI6Ppx").flags["fallout2d20-compendium"].source.page, 174);
+      assert.equal(byId.get("books-and-magazines/n5iAbo8IerJqOQNR").flags["fallout2d20-compendium"].source.page, 175);
+    } else {
+      assert.match(byId.get("books-and-magazines/qx4yMqnLv4ZI6Ppx").system.description, /aventures pleines d’action du personnage éponyme/);
+      assert.match(byId.get("books-and-magazines/YVmBhcEYI0eLLDM8").system.description, /dernières avancées des serrures mécaniques/);
+      assert.match(byId.get("books-and-magazines/0GXqsrMeNMoA9iCS").system.description, /dessins grossiers au stylo/);
+      assert.match(byId.get("books-and-magazines/mBOgGCUFastqsi1c").system.description, /mine d’informations/);
+      assert.match(byId.get("books-and-magazines/IRIhIXR0X1PnThvd").system.description, /histoires vraies sur les armes à énergie en action/);
+      assert.match(byId.get("books-and-magazines/G88aHNSeg4SvaCo9").system.effect, /\+5 à votre charge maximale/);
+    }
+  }
+});

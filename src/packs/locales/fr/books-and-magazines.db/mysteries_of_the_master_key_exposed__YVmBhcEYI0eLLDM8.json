@@ -3,7 +3,7 @@
   "_file": "les_mysteres_du_passe_partout_reveles__YVmBhcEYI0eLLDM8.json",
   "values": {
     "/name": "Les mystères du passe-partout révélés !",
-    "/system/description": "<p>Un magazine d’avant-guerre consacré à l’art clandestin du crochetage et aux dernières avancées des serrures mécaniques.</p><p><strong>Aptitude :</strong> Vous pouvez relancer 1d20 sur un seul test de Crochetage.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.dx2dkCtFBWb5kukV]{Les mystères du passe-partout révélés !}</p></section>",
+    "/system/description": "<p>Tumblers Today est un magazine d’avant-guerre contenant des informations sur l’art clandestin du crochetage et sur les dernières avancées des serrures mécaniques des coffres-forts, des casiers et des portes. Les illustrations de la couverture du magazine mettent en évidence le sujet et la technique abordés dans le numéro.</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu’une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</li></ul><p><strong>Effet du numéro :</strong> Vous pouvez relancer 1d20 sur un seul test de Crochetage.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.dx2dkCtFBWb5kukV]{Les mystères du passe-partout révélés !}</p></section>",
     "/system/effect": "<p>Vous pouvez relancer 1d20 sur un seul test de Crochetage.</p>",
     "/system/publication": "Gorges et pênes",
     "/flags/fallout2d20-compendium/source/language": "fr",
@@ -11,6 +11,6 @@
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

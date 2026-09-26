@@ -3,9 +3,10 @@
   "_file": "egare_dans_les_neiges_de_la_luxure__pIGqn3CdOhsyQyhx.json",
   "values": {
     "/name": "Égaré dans les neiges de la luxure",
-    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts balistiques contre une attaque.</p>",
+    "/system/description": "<p>Vous gagnez +2 résistance aux dégâts balistiques contre une attaque. Vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
-    "/flags/fallout2d20-compendium/source/translationReviewed": true
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

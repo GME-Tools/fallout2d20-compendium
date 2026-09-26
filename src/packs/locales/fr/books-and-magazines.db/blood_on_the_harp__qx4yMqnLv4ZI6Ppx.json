@@ -3,7 +3,7 @@
   "_file": "du_sang_sur_la_harpe__qx4yMqnLv4ZI6Ppx.json",
   "values": {
     "/name": "Du sang sur la harpe",
-    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre, racontant les aventures pleines d’action de Grognak dans un monde préhistorique.</p><p><strong>Aptitude :</strong> Une attaque de corps à corps réussie que vous portez inflige +2 @fos[DC] de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.56snTc6VYoTJqCMi]{Du sang sur la harpe}</p></section>",
+    "/system/description": "<p>Une série de comics publiée par Hubris Comics avant la Grande Guerre. Ils racontent les aventures pleines d’action du personnage éponyme dans un monde préhistorique.</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu’une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</li></ul><p><strong>Effet du numéro :</strong> Une attaque de corps à corps réussie que vous portez inflige +2 @fos[DC] de dégâts.</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.56snTc6VYoTJqCMi]{Du sang sur la harpe}</p></section>",
     "/system/effect": "<p>Une attaque de corps à corps réussie que vous portez inflige +2 @fos[DC] de dégâts.</p>",
     "/system/publication": "Grognak le Barbare",
     "/flags/fallout2d20-compendium/source/language": "fr",
@@ -11,6 +11,6 @@
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

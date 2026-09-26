@@ -3,9 +3,10 @@
   "_file": "chasser_dans_les_terres_desolees__p8cH2qolrlrnLKIt.json",
   "values": {
     "/name": "Chasser dans les Terres désolées",
-    "/system/description": "<p>Quand vous dépecez un animal tué et pouvez augmenter la viande trouvée en dépensant des PA, gagnez 1 PA bonus à cette fin ; il est perdu s’il n’est pas utilisé.</p>",
+    "/system/description": "<p>Quand vous dépecez un animal que vous avez tué et que la quantité de viande trouvée peut être augmentée en dépensant des PA, vous gagnez 1 PA bonus à cette fin (s’il n’est pas utilisé, il est perdu). Vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
-    "/flags/fallout2d20-compendium/source/translationReviewed": true
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

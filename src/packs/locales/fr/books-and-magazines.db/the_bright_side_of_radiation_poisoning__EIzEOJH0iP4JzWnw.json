@@ -3,14 +3,14 @@
   "_file": "le_bon_cote_de_la_contamination_aux_radiations__EIzEOJH0iP4JzWnw.json",
   "values": {
     "/name": "Le bon côté de la contamination aux radiations",
-    "/system/description": "<p>Une série éducative d’après-guerre, rédigée et illustrée de dessins grossiers, copiée et distribuée dans les Terres désolées.</p><p><strong>Aptitude :</strong> Quand vous consommez un aliment ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du @fos[DC].</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.BSi2qWkBGOJKFFED]{Le bon côté de la contamination aux radiations}</p></section>",
-    "/system/effect": "<p>Quand vous consommez un aliment ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du @fos[DC].</p>",
+    "/system/description": "<p>Le Wasteland Survival Guide est une autre série de magazines éducatifs d’après-guerre, rédigés et illustrés avec des dessins grossiers au stylo. Il a été copié et distribué un peu partout dans les Terres désolées, mais il est nettement plus présent dans les villages près des Terres désolées de la Capitale.</p><ul><li><strong>Aptitude :</strong> Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu’une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène.</li></ul><p><strong>Effet du numéro :</strong> Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du @fos[DC].</p>\n<section data-f2d20-links=\"core\"><p><strong>Fiche d’aptitude associée:</strong> @UUID[Compendium.fallout2d20-compendium.{language}-perks.Item.BSi2qWkBGOJKFFED]{Le bon côté de la contamination aux radiations}</p></section>",
+    "/system/effect": "<p>Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du @fos[DC].</p>",
     "/system/publication": "Guide de survie des Terres désolées",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/translatedFrom": "EIzEOJH0iP4JzWnw",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/importedFromLegacy": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

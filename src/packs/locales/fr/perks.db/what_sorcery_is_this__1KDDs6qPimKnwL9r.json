@@ -3,9 +3,10 @@
   "_file": "quelle_est_donc_cette_sorcellerie__1KDDs6qPimKnwL9r.json",
   "values": {
     "/name": "Quelle est donc cette sorcellerie ?",
-    "/system/description": "<p>Vous gagnez +2 en résistance aux dégâts énergétiques contre une attaque.</p>",
+    "/system/description": "<p>Vous gagnez +2 résistance aux dégâts énergétiques contre une attaque. Vous pouvez utiliser ce bénéfice une fois par scène.</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
-    "/flags/fallout2d20-compendium/source/translationReviewed": true
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true
   }
 }

@@ -23,13 +23,14 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "errataReviewed": false,
+        "errataReviewed": true,
         "uuidLinksReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
         "artworkSource": "Owner-supplied repository asset: artwork/Books and Magazines/Future Weapons Today.webp; recorded 2026-09-08",
         "artworkSharingGroup": "shared-magazine-future-weapons-today",
-        "artworkSharingJustification": "Owner-approved magazine and associated perk sharing."
+        "artworkSharingJustification": "Owner-approved magazine and associated perk sharing.",
+        "page": 174
       }
     }
   },
