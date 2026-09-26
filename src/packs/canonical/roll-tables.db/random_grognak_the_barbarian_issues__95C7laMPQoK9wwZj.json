@@ -132,7 +132,7 @@
     "fallout2d20-compendium": {
       "source": {
         "book": "core_rulebook",
-        "page": "174-175",
+        "page": 174,
         "errataReviewed": true,
         "artworkReviewed": false,
         "artworkStatus": "placeholder"
