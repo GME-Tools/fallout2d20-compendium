@@ -322,6 +322,14 @@ footer{color:var(--muted);padding:20px 0 40px;font-size:12px}
 .panel-controls{padding:12px 18px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:180px 1fr 160px;gap:10px}
 .panel-content{padding:14px 18px 28px;overflow:auto;flex:1}
 .human-card{display:grid;gap:14px}
+.artwork-card{border:1px solid var(--line);border-radius:9px;padding:12px;text-align:center}
+.artwork-thumb{display:block;max-width:100%;width:auto;max-height:260px;margin:0 auto;border-radius:7px;object-fit:contain;cursor:zoom-in;background:var(--bg)}
+.artwork-caption{margin-top:7px;color:var(--muted);font-size:11px;overflow-wrap:anywhere}
+.artwork-dialog{border:0;border-radius:10px;padding:0;background:var(--panel);color:var(--text);max-width:min(92vw,1200px);max-height:92vh;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.artwork-dialog::backdrop{background:rgba(0,0,0,.72)}
+.artwork-dialog-inner{position:relative;padding:14px}
+.artwork-dialog img{display:block;max-width:calc(92vw - 28px);max-height:calc(92vh - 28px);object-fit:contain}
+.artwork-dialog-close{position:absolute;top:8px;right:8px;appearance:none;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--text);font-size:20px;line-height:1;width:36px;height:36px;cursor:pointer}
 .summary-card,.text-card,.table-card{border:1px solid var(--line);border-radius:9px;padding:12px}
 .summary-card h3,.text-card h3,.table-card h3{margin:0 0 10px;font-size:14px}
 .kv-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}
@@ -419,6 +427,13 @@ footer{color:var(--muted);padding:20px 0 40px;font-size:12px}
   </div>
   <div class="panel-content" id="panelContent"></div>
 </aside>
+
+<dialog class="artwork-dialog" id="artworkDialog">
+  <div class="artwork-dialog-inner">
+    <button type="button" class="artwork-dialog-close" id="artworkDialogClose" aria-label="Fermer">×</button>
+    <img id="artworkDialogImage" alt="">
+  </div>
+</dialog>
 
 <script>
 const DATA = ${payload};
@@ -670,6 +685,23 @@ function sanitizeHtml(html) {
   return template.innerHTML;
 }
 
+function artworkSrc(img) {
+  if (!img || typeof img !== "string") return null;
+  const prefix = "modules/fallout2d20-compendium/";
+  if (img.startsWith(prefix)) return "../" + img.slice(prefix.length);
+  if (img.startsWith("artwork/")) return "../" + img;
+  return null;
+}
+
+function artworkView(document) {
+  const src = artworkSrc(document?.img);
+  if (!src) return "";
+  return '<section class="artwork-card">'
+    + '<img class="artwork-thumb" src="' + esc(src) + '" alt="' + esc(document.name ?? "Artwork") + '" data-artwork-src="' + esc(src) + '" data-artwork-alt="' + esc(document.name ?? "Artwork") + '">'
+    + '<div class="artwork-caption"><code>' + esc(document.img) + '</code></div>'
+    + '</section>';
+}
+
 function humanSummary(document) {
   if (!document) return "";
   const fields = [
@@ -733,6 +765,7 @@ function humanDocument(label, record) {
   const isRollTable = Array.isArray(document.results);
   return '<section class="doc-pane"><h3>' + esc(label) + '</h3>' + pathHtml + errorHtml
     + '<div style="padding:12px" class="human-card">'
+    + artworkView(document)
     + humanSummary(document)
     + (isRollTable ? rollTableView(document) : "")
     + actorView(document)
@@ -887,6 +920,24 @@ document.querySelector("#panelClose").addEventListener("click", closePanel);
 document.querySelector("#panelBackdrop").addEventListener("click", closePanel);
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape" && activeDocumentKey) closePanel();
+});
+
+document.querySelector("#panelContent").addEventListener("click", function (event) {
+  const artwork = event.target.closest("[data-artwork-src]");
+  if (!artwork) return;
+  const dialog = document.querySelector("#artworkDialog");
+  const image = document.querySelector("#artworkDialogImage");
+  image.src = artwork.dataset.artworkSrc;
+  image.alt = artwork.dataset.artworkAlt || "Artwork";
+  if (typeof dialog.showModal === "function") dialog.showModal();
+});
+
+document.querySelector("#artworkDialogClose").addEventListener("click", function () {
+  document.querySelector("#artworkDialog").close();
+});
+
+document.querySelector("#artworkDialog").addEventListener("click", function (event) {
+  if (event.target === event.currentTarget) event.currentTarget.close();
 });
 
 render();
