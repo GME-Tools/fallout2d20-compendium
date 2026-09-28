@@ -20,7 +20,8 @@
     "validate": "npm run source:materialize --silent && node scripts/validate.mjs",
     "ci": "npm run source:materialize --silent && npm run artwork:check && node scripts/generate-artwork-inventory.mjs --check && node scripts/audit-content.mjs && node scripts/audit-french-weights.mjs && node scripts/validate.mjs && node --test test/*.test.mjs && node scripts/generate-manifest.mjs --check && node scripts/build-packs.mjs && node scripts/verify-built-packs.mjs && npm run stats:check && npm run package && node scripts/verify-release-package.mjs",
     "stats": "npm run source:materialize --silent && node scripts/content-stats.mjs",
-    "stats:check": "node scripts/content-stats.mjs --check"
+    "stats:check": "node scripts/content-stats.mjs --check",
+    "audit:core:view": "node scripts/generate-core-certification-html.mjs"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",
