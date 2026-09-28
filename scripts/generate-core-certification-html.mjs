@@ -316,8 +316,31 @@ footer{color:var(--muted);padding:20px 0 40px;font-size:12px}
 .panel-title{font-size:19px;font-weight:800}
 .panel-subtitle{color:var(--muted);font-size:12px;margin-top:3px}
 .panel-close{appearance:none;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--text);font-size:20px;line-height:1;padding:7px 10px;cursor:pointer}
+.panel-tabs{display:flex;gap:6px;padding:10px 18px 0;border-bottom:1px solid var(--line)}
+.panel-tab{appearance:none;border:1px solid var(--line);border-bottom:0;border-radius:7px 7px 0 0;background:var(--bg);color:var(--muted);padding:8px 12px;cursor:pointer;font-weight:700}
+.panel-tab.active{background:var(--panel);color:var(--text)}
 .panel-controls{padding:12px 18px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:180px 1fr 160px;gap:10px}
 .panel-content{padding:14px 18px 28px;overflow:auto;flex:1}
+.human-card{display:grid;gap:14px}
+.summary-card,.text-card,.table-card{border:1px solid var(--line);border-radius:9px;padding:12px}
+.summary-card h3,.text-card h3,.table-card h3{margin:0 0 10px;font-size:14px}
+.kv-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}
+.kv{display:grid;grid-template-columns:minmax(120px,.8fr) 1.2fr;gap:8px;border-bottom:1px solid var(--line);padding:5px 0}
+.kv .k{color:var(--muted);font-weight:650}
+.richtext{line-height:1.55}
+.richtext p:first-child{margin-top:0}
+.richtext p:last-child{margin-bottom:0}
+.richtext table{width:100%;border-collapse:collapse}
+.richtext td,.richtext th{border:1px solid var(--line);padding:5px 7px}
+.compare-table{width:100%;border-collapse:collapse;font-size:12px}
+.compare-table th,.compare-table td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left;overflow-wrap:anywhere}
+.compare-table th{background:var(--bg);position:sticky;top:0;z-index:1}
+.compare-diff{background:rgba(181,71,8,.08)}
+.compare-missing{color:var(--bad);font-style:italic}
+.mini-table{width:100%;border-collapse:collapse}
+.mini-table th,.mini-table td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.mini-table th{background:var(--bg)}
+.panel-note{color:var(--muted);font-size:12px;margin-bottom:10px}
 .doc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .doc-grid.single{grid-template-columns:1fr}
 .doc-pane{border:1px solid var(--line);border-radius:9px;min-width:0;overflow:hidden}
@@ -328,7 +351,7 @@ footer{color:var(--muted);padding:20px 0 40px;font-size:12px}
 .field-table th{width:45%;color:var(--muted);font-weight:600}
 .raw-json{margin:0;padding:12px;white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
 .panel-error{padding:10px 12px;color:var(--bad);border-bottom:1px solid var(--line)}
-@media(max-width:1050px){.doc-grid{grid-template-columns:1fr}.controls{grid-template-columns:1fr 1fr 1fr}.panel-controls{grid-template-columns:1fr 1fr}}
+@media(max-width:1050px){.doc-grid{grid-template-columns:1fr}.controls{grid-template-columns:1fr 1fr 1fr}.panel-controls{grid-template-columns:1fr 1fr}.kv-grid{grid-template-columns:1fr}}
 @media(max-width:900px){.page>summary{grid-template-columns:70px 1fr 100px}.page>summary>:nth-child(4),.page>summary>:nth-child(5){display:none}.grid{grid-template-columns:1fr}}
 @media(max-width:620px){.wrap{padding-left:12px;padding-right:12px}.controls,.panel-controls{grid-template-columns:1fr}.page>summary{grid-template-columns:65px 1fr}.page>summary>:nth-child(3){display:none}.side-panel{width:100vw}}
 </style>
@@ -376,6 +399,11 @@ footer{color:var(--muted);padding:20px 0 40px;font-size:12px}
     </div>
     <button class="panel-close" id="panelClose" type="button" aria-label="Fermer">×</button>
   </div>
+  <div class="panel-tabs" role="tablist">
+    <button type="button" class="panel-tab active" data-panel-tab="card">Fiche</button>
+    <button type="button" class="panel-tab" data-panel-tab="compare">Comparaison</button>
+    <button type="button" class="panel-tab" data-panel-tab="technical">Technique</button>
+  </div>
   <div class="panel-controls">
     <select id="panelView">
       <option value="all">Canonical + EN + FR</option>
@@ -395,6 +423,7 @@ footer{color:var(--muted);padding:20px 0 40px;font-size:12px}
 <script>
 const DATA = ${payload};
 let activeDocumentKey = null;
+let activePanelTab = "card";
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, function (ch) {
@@ -601,6 +630,153 @@ function render() {
   document.querySelector("#footer").textContent = visible + " page(s) affichée(s) · méthode: " + DATA.method;
 }
 
+
+function getValue(document, path) {
+  if (!document) return undefined;
+  return path.split(".").reduce(function (current, key) {
+    return current == null ? undefined : current[key];
+  }, document);
+}
+
+function firstDefined(document, paths) {
+  for (const path of paths) {
+    const value = getValue(document, path);
+    if (value !== undefined && value !== null && value !== "") return value;
+  }
+  return undefined;
+}
+
+function pretty(value) {
+  if (value === undefined) return "—";
+  if (value === null) return "null";
+  if (Array.isArray(value)) return value.join(", ");
+  if (typeof value === "object") return JSON.stringify(value);
+  if (typeof value === "boolean") return value ? "Oui" : "Non";
+  return String(value);
+}
+
+function sanitizeHtml(html) {
+  const template = document.createElement("template");
+  template.innerHTML = String(html ?? "");
+  template.content.querySelectorAll("script,style,iframe,object,embed,link,meta").forEach(function (node) { node.remove(); });
+  template.content.querySelectorAll("*").forEach(function (node) {
+    [...node.attributes].forEach(function (attribute) {
+      const name = attribute.name.toLowerCase();
+      const value = attribute.value.trim().toLowerCase();
+      if (name.startsWith("on")) node.removeAttribute(attribute.name);
+      if ((name === "href" || name === "src") && value.startsWith("javascript:")) node.removeAttribute(attribute.name);
+    });
+  });
+  return template.innerHTML;
+}
+
+function humanSummary(document) {
+  if (!document) return "";
+  const fields = [
+    ["Nom", document.name],
+    ["Type", document.type],
+    ["Formule", document.formula],
+    ["Poids", firstDefined(document, ["system.weight", "system.weight.value", "weight"])],
+    ["Coût", firstDefined(document, ["system.cost", "system.cost.value", "system.value", "cost"])],
+    ["Rareté", firstDefined(document, ["system.rarity", "system.rarity.value", "rarity"])],
+    ["Portée", firstDefined(document, ["system.range", "system.range.value", "range"])],
+    ["Cadence", firstDefined(document, ["system.fireRate", "system.fire_rate", "system.fireRate.value"])],
+    ["Dégâts", firstDefined(document, ["system.damage", "system.damage.rating", "system.damage.value"])],
+    ["Type de dégâts", firstDefined(document, ["system.damageType", "system.damage.type", "system.damage_type"])],
+    ["Rangs", firstDefined(document, ["system.ranks", "system.rank", "system.maxRank"])],
+    ["Attribut", firstDefined(document, ["system.defaultAttribute", "system.attribute", "system.attribute.value"])]
+  ].filter(function (entry) { return entry[1] !== undefined && entry[1] !== null && entry[1] !== ""; });
+
+  if (!fields.length) return "";
+  return '<section class="summary-card"><h3>Résumé</h3><div class="kv-grid">'
+    + fields.map(function (entry) {
+      return '<div class="kv"><div class="k">' + esc(entry[0]) + '</div><div>' + esc(pretty(entry[1])) + '</div></div>';
+    }).join("")
+    + '</div></section>';
+}
+
+function rollTableView(document) {
+  if (!document?.results || !Array.isArray(document.results)) return "";
+  const rows = document.results.map(function (result) {
+    const range = Array.isArray(result.range) ? result.range.join("–") : pretty(result.range);
+    return '<tr><td>' + esc(range) + '</td><td>' + esc(result.name ?? "") + '</td><td>' + esc(result.description ?? "") + '</td></tr>';
+  }).join("");
+  return '<section class="table-card"><h3>Résultats</h3><table class="mini-table"><thead><tr><th>Jet</th><th>Nom</th><th>Description</th></tr></thead><tbody>' + rows + '</tbody></table></section>';
+}
+
+function actorView(document) {
+  if (!document || document.type === undefined) return "";
+  const special = firstDefined(document, ["system.special", "system.attributes"]);
+  if (!special || typeof special !== "object" || Array.isArray(special)) return "";
+  const rows = Object.entries(special).map(function (entry) {
+    return '<tr><th>' + esc(entry[0]) + '</th><td>' + esc(pretty(entry[1])) + '</td></tr>';
+  }).join("");
+  return '<section class="table-card"><h3>Caractéristiques</h3><table class="mini-table"><tbody>' + rows + '</tbody></table></section>';
+}
+
+function descriptionView(document, label) {
+  const description = firstDefined(document, ["description", "system.description", "system.description.value"]);
+  if (!description || typeof description !== "string") return "";
+  const looksHtml = /<\/?[a-z][\s\S]*>/i.test(description);
+  return '<section class="text-card"><h3>' + esc(label) + '</h3><div class="richtext">'
+    + (looksHtml ? sanitizeHtml(description) : '<p>' + esc(description) + '</p>')
+    + '</div></section>';
+}
+
+function humanDocument(label, record) {
+  if (!record) {
+    return '<section class="doc-pane"><h3>' + esc(label) + '</h3><div class="empty" style="padding:12px">Vue indisponible.</div></section>';
+  }
+  const document = record.document ?? record;
+  const pathHtml = record.path ? '<div class="doc-source"><code>' + esc(record.path) + '</code></div>' : "";
+  const errorHtml = record.resolutionError ? '<div class="panel-error">Résolution partielle : ' + esc(record.resolutionError) + '</div>' : "";
+  const isRollTable = Array.isArray(document.results);
+  return '<section class="doc-pane"><h3>' + esc(label) + '</h3>' + pathHtml + errorHtml
+    + '<div style="padding:12px" class="human-card">'
+    + humanSummary(document)
+    + (isRollTable ? rollTableView(document) : "")
+    + actorView(document)
+    + descriptionView(document, "Description")
+    + '</div></section>';
+}
+
+function flattenedMap(record) {
+  if (!record) return new Map();
+  const document = record.document ?? record;
+  return new Map(flatten(document).map(function (row) { return [row[0], row[1]]; }));
+}
+
+function compareView(view, query) {
+  const selected = document.querySelector("#panelView").value;
+  const labels = [];
+  if (selected === "all" || selected === "canonical") labels.push(["canonical","Canonical"]);
+  if (selected === "all" || selected === "en") labels.push(["en","EN"]);
+  if (selected === "all" || selected === "fr") labels.push(["fr","FR"]);
+
+  const maps = Object.fromEntries(labels.map(function (entry) { return [entry[0], flattenedMap(view[entry[0]])]; }));
+  const paths = [...new Set(labels.flatMap(function (entry) { return [...maps[entry[0]].keys()]; }))].sort();
+  const q = query.trim().toLowerCase();
+  const filtered = paths.filter(function (path) {
+    if (!q) return true;
+    const values = labels.map(function (entry) { return maps[entry[0]].get(path); });
+    return (path + " " + values.map(pretty).join(" ")).toLowerCase().includes(q);
+  });
+
+  const header = '<tr><th>Champ</th>' + labels.map(function (entry) { return '<th>' + esc(entry[1]) + '</th>'; }).join("") + '</tr>';
+  const body = filtered.map(function (path) {
+    const values = labels.map(function (entry) { return maps[entry[0]].has(path) ? maps[entry[0]].get(path) : undefined; });
+    const normalized = values.map(function (value) { return JSON.stringify(value); });
+    const differs = new Set(normalized).size > 1;
+    return '<tr' + (differs ? ' class="compare-diff"' : '') + '><th>' + esc(path) + '</th>'
+      + values.map(function (value) {
+          return '<td>' + (value === undefined ? '<span class="compare-missing">—</span>' : esc(pretty(value))) + '</td>';
+        }).join("")
+      + '</tr>';
+  }).join("");
+
+  return '<div class="panel-note">Les lignes surlignées diffèrent entre les vues sélectionnées.</div><table class="compare-table"><thead>' + header + '</thead><tbody>' + body + '</tbody></table>';
+}
+
 function documentPane(label, record, query, mode) {
   if (!record) {
     return '<section class="doc-pane"><h3>' + esc(label) + '</h3><div class="empty" style="padding:12px">Vue indisponible.</div></section>';
@@ -628,26 +804,40 @@ function renderPanel() {
   const selected = document.querySelector("#panelView").value;
   const query = document.querySelector("#panelSearch").value;
   const mode = document.querySelector("#panelMode").value;
+  const content = document.querySelector("#panelContent");
+
+  document.querySelector("#panelMode").style.display = activePanelTab === "technical" ? "" : "none";
+  document.querySelector("#panelSearch").placeholder = activePanelTab === "card"
+    ? "Filtrer les vues techniques si besoin…"
+    : "Filtrer les champs, chemins ou valeurs…";
+
+  if (activePanelTab === "compare") {
+    content.innerHTML = compareView(view, query);
+    return;
+  }
+
   const panes = [];
+  if (activePanelTab === "card") {
+    if (selected === "all" || selected === "canonical") panes.push(humanDocument("Canonical", view.canonical));
+    if (selected === "all" || selected === "en") panes.push(humanDocument("EN", view.en));
+    if (selected === "all" || selected === "fr") panes.push(humanDocument("FR", view.fr));
+  } else {
+    if (selected === "all" || selected === "canonical") panes.push(documentPane("Canonical brut", view.canonical, query, mode));
+    if (selected === "all" || selected === "en") panes.push(documentPane("EN reconstruit", view.en, query, mode));
+    if (selected === "all" || selected === "fr") panes.push(documentPane("FR reconstruit", view.fr, query, mode));
+  }
 
-  if (selected === "all" || selected === "canonical") {
-    panes.push(documentPane("Canonical brut", view.canonical, query, mode));
-  }
-  if (selected === "all" || selected === "en") {
-    panes.push(documentPane("EN reconstruit", view.en, query, mode));
-  }
-  if (selected === "all" || selected === "fr") {
-    panes.push(documentPane("FR reconstruit", view.fr, query, mode));
-  }
-
-  document.querySelector("#panelContent").innerHTML =
-    '<div class="doc-grid' + (panes.length === 1 ? " single" : "") + '">' + panes.join("") + '</div>';
+  content.innerHTML = '<div class="doc-grid' + (panes.length === 1 ? " single" : "") + '">' + panes.join("") + '</div>';
 }
 
 function openPanel(documentKey, sourceName) {
   const view = DATA.documentViews[documentKey];
   if (!view) return;
   activeDocumentKey = documentKey;
+  activePanelTab = "card";
+  document.querySelectorAll("[data-panel-tab]").forEach(function (tab) {
+    tab.classList.toggle("active", tab.dataset.panelTab === "card");
+  });
   document.querySelector("#panelTitle").textContent = sourceName || documentKey;
   document.querySelector("#panelSubtitle").textContent = view.pack + " / " + view.documentId;
   const globalLanguage = document.querySelector("#language").value;
@@ -674,6 +864,16 @@ function closePanel() {
 
 ["panelView", "panelSearch", "panelMode"].forEach(function (id) {
   document.querySelector("#" + id).addEventListener("input", renderPanel);
+});
+
+document.querySelectorAll("[data-panel-tab]").forEach(function (button) {
+  button.addEventListener("click", function () {
+    activePanelTab = button.dataset.panelTab;
+    document.querySelectorAll("[data-panel-tab]").forEach(function (tab) {
+      tab.classList.toggle("active", tab === button);
+    });
+    renderPanel();
+  });
 });
 
 pagesEl.addEventListener("click", function (event) {
