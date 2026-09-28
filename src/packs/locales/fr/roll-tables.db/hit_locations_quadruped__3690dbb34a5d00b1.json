@@ -3,7 +3,7 @@
   "_file": "hit_locations_quadruped__3690dbb34a5d00b1.json",
   "values": {
     "/name": "Localisation des dégâts (quadrupèdes)",
-    "/description": "<p>Livre de règles, p. 28 ; ajout de l’Errata V6.</p>",
+    "/description": "",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/results/@7686652dbe92baf5/name": "Tête",
     "/results/@7686652dbe92baf5/description": "Tête",
