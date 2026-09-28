@@ -717,7 +717,7 @@ function actorView(document) {
 function descriptionView(document, label) {
   const description = firstDefined(document, ["description", "system.description", "system.description.value"]);
   if (!description || typeof description !== "string") return "";
-  const looksHtml = /<\/?[a-z][\s\S]*>/i.test(description);
+  const looksHtml = description.includes("<") && description.includes(">");
   return '<section class="text-card"><h3>' + esc(label) + '</h3><div class="richtext">'
     + (looksHtml ? sanitizeHtml(description) : '<p>' + esc(description) + '</p>')
     + '</div></section>';
