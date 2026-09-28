@@ -225,7 +225,11 @@ const DATA = ${payload};
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, function (ch) {
-    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch];
+    if (ch === "&") return "&amp;";
+    if (ch === "<") return "&lt;";
+    if (ch === ">") return "&gt;";
+    if (ch === String.fromCharCode(34)) return "&quot;";
+    return "&#39;";
   });
 }
 
