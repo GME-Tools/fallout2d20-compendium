@@ -48,3 +48,29 @@ test("AAT #3 complete actors and armor have French counterparts", async () => {
   assert.equal(byId(frDenizens, "772d0f6d939dfad5").name, "Drone de sécurité, Protectron");
   assert.equal(byId(frApparel, "e26b938157cfb19b").name, "Champ de suppression inertielle");
 });
+
+test("AAT #3 Core reprints reuse identities with Issue #3 appearances", async () => {
+  const [enConsumables, frConsumables, enDenizens, frDenizens] = await Promise.all([documents("en","consumables"),documents("fr","consumables"),documents("en","denizens"),documents("fr","denizens")]);
+  for (const id of ["i1BhSDEcs5JNub1v","D2s5huShfKCtulYC","PVf7RRNJLAIY2b2t","smWip05JhGyTXRU1","UlhNGl3T0UejS5ZW","u9KyfdRIzyQhCjnn"]) {
+    for (const doc of [byId(enConsumables,id),byId(frConsumables,id)]) {
+      assert.ok(doc); assert.equal(doc.system.source,"core_rulebook");
+      assert.ok(source(doc).appearances.some(entry => entry.book === "astoundingly_awesome_tales_3" && entry.page === 10 && entry.status === "identical"));
+    }
+  }
+  for (const [id,page] of [["Twv5p2s3w1avJkbO",8],["9uRMSgaooTRV8AiH",22]]) {
+    for (const doc of [byId(enDenizens,id),byId(frDenizens,id)]) assert.ok(source(doc).appearances.some(entry => entry.book === "astoundingly_awesome_tales_3" && entry.page === page && entry.status === "identical"));
+  }
+});
+
+test("AAT #3 actor mechanics retain source-specific attacks, abilities and butchery", async () => {
+  const denizens = await documents("en","denizens");
+  const ncr = byId(denizens,"91957f7226ee31a7");
+  assert.ok(ncr.items.some(item => item.name === "Gun Bash" && item.system.damage.rating === 3));
+  assert.ok(ncr.items.some(item => item.name === "Combat Knife" && item.system.damage.rating === 3));
+  const rattler = byId(denizens,"1b4ce0097ed5198a");
+  assert.equal(rattler.system.butchery.tn,1); assert.equal(rattler.system.butchery.common,2);
+  assert.ok(rattler.items.some(item => item.name === "Big"));
+  assert.ok(rattler.items.some(item => item.flags?.["fallout2d20-compendium"]?.embeddedYield && item.flags["fallout2d20-compendium"].canonicalItemId === "5a66ba7e1ed41064"));
+  const drone = byId(denizens,"772d0f6d939dfad5");
+  assert.ok(drone.items.some(item => item.name === "Immune to Disease"));
+});

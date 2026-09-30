@@ -673,6 +673,23 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "bb40737632730bb4",
+      "type": "special_ability",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {},
+      "system": {
+        "description": "",
+        "favorite": false,
+        "source": ""
+      },
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],

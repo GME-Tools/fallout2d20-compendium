@@ -36,6 +36,8 @@
     "/items/@2d197858236c4bfa/name": "Let Rip",
     "/items/@2d197858236c4bfa/system/description": "<p>Once per combat add Fire Rate to Arm Lasers damage without ammunition.</p>",
     "/items/@8e5a0b3d326cc54f/name": "Self-Destruct",
-    "/items/@8e5a0b3d326cc54f/system/description": "<p>At half HP or with both arms injured, move to the nearest enemy and self-destruct.</p>"
+    "/items/@8e5a0b3d326cc54f/system/description": "<p>At half HP or with both arms injured, move to the nearest enemy and self-destruct.</p>",
+    "/items/@bb40737632730bb4/name": "Immune to Disease",
+    "/items/@bb40737632730bb4/system/description": "<p>The Protectron is immune to the effects and symptoms of all diseases.</p>"
   }
 }

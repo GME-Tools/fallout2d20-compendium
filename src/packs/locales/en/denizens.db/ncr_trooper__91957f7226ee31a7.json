@@ -37,6 +37,10 @@
     "/items/@b4492c994a7544e3/name": "Speech",
     "/items/@dafbf541555fc076/name": "Survival",
     "/items/@db1a97cd2574292f/name": "Throwing",
-    "/items/@ae909f0137b7471e/name": "Unarmed"
+    "/items/@ae909f0137b7471e/name": "Unarmed",
+    "/items/@a7e7702f0d23f35c/name": "Gun Bash",
+    "/items/@a7e7702f0d23f35c/system/description": "<p>STR + Melee Weapons (TN 7), 3 DC Physical damage, Stun, Two-Handed.</p>",
+    "/items/@d1eb7fb531140a98/name": "Combat Knife",
+    "/items/@d1eb7fb531140a98/system/description": "<p>STR + Melee Weapons (TN 7), 3 DC Piercing Physical damage.</p>"
   }
 }

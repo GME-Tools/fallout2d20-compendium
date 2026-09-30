@@ -49,6 +49,12 @@
     "/items/@b4492c994a7544e3/name": "Discours",
     "/items/@dafbf541555fc076/name": "Survie",
     "/items/@db1a97cd2574292f/name": "Lancer",
-    "/items/@ae909f0137b7471e/name": "Mains nues"
+    "/items/@ae909f0137b7471e/name": "Mains nues",
+    "/items/@a7e7702f0d23f35c/name": "Coup de crosse",
+    "/items/@a7e7702f0d23f35c/system/description": "<p>FOR + Armes de corps à corps (SR 7), 3 DC de dégâts balistiques, Étourdissants, Deux mains.</p>",
+    "/items/@a7e7702f0d23f35c/system/weight": 0,
+    "/items/@d1eb7fb531140a98/name": "Couteau de combat",
+    "/items/@d1eb7fb531140a98/system/description": "<p>FOR + Armes de corps à corps (SR 7), 3 DC de dégâts balistiques Perforants.</p>",
+    "/items/@d1eb7fb531140a98/system/weight": 0
   }
 }

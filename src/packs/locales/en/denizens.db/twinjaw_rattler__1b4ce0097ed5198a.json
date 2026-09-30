@@ -28,6 +28,10 @@
     "/items/@c3ead089d805fbc5/name": "Death Rattle",
     "/items/@c3ead089d805fbc5/system/description": "<p>Once per combat, it may use a minor action to give its Bite the Stun effect for the turn.</p>",
     "/items/@874f27668b728ecd/name": "Immune to Poison",
-    "/items/@874f27668b728ecd/system/description": "<p>This character cannot suffer damage or effects from poison.</p>"
+    "/items/@874f27668b728ecd/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
+    "/items/@cc88320becd3eb20/name": "Big",
+    "/items/@cc88320becd3eb20/system/description": "<p>The Twinjaw Rattler gains +1 HP per level (included), has Defense reduced by 1 to a minimum of 1, and only suffers a Critical Hit from 7+ damage after resistance.</p>",
+    "/items/@rattlerButcheryEx/name": "Butchery",
+    "/items/@rattlerButcheryEx/system/description": "<p>END + Survival, difficulty 1: yields 2 DC portions of mutant rattler meat and 2 common materials. An Effect also yields one giant two-headed rattlesnake fang (Machete); two Effects instead allow harvesting a poison sack containing 2 ammo of Rattler venom.</p>"
   }
 }
