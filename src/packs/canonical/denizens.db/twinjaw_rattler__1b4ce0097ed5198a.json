@@ -308,8 +308,7 @@
         },
         "/flags/fallout2d20-compendium/canonicalPack": "consumables",
         "/flags/fallout2d20-compendium/canonicalItemId": "5a66ba7e1ed41064",
-        "/flags/fallout2d20-compendium/embeddedYield": true,
-        "/system/description": "<p>END + Survival, difficulty 1: yields 2 DC portions of mutant rattler meat and 2 common materials. An Effect also yields one giant two-headed rattlesnake fang (Machete); two Effects instead allow harvesting a poison sack containing 2 ammo of Rattler venom.</p>"
+        "/flags/fallout2d20-compendium/embeddedYield": true
       }
     },
     {

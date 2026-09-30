@@ -4,7 +4,7 @@
   "values": {
     "/name": "Crotale à deux têtes",
     "/token/name": "Crotale à deux têtes",
-    "/system/biography": "<p>Un crotale géant à deux têtes issu d’expériences zetanes.</p>",
+    "/system/biography": "<p>Un crotale géant à deux têtes issu d’expériences zetanes.</p><p><strong>Dépeçage :</strong> END + Survie, difficulté 1 ; rapporte 2 DC portions de viande de crotale mutant et 2 matériaux communs. Un Effet permet aussi de récupérer un croc de crotale géant à deux têtes (Machette) ; deux Effets permettent à la place de récupérer une poche de poison contenant 2 munitions de venin de crotale.</p>",
     "/system/origin": "Reptile mutant",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
@@ -39,7 +39,6 @@
     "/items/@874f27668b728ecd/name": "Immunisé contre le poison",
     "/items/@874f27668b728ecd/system/description": "<p>Ce personnage ne peut subir ni dégâts ni effets dus au poison.</p>",
     "/items/@cc88320becd3eb20/name": "Grand",
-    "/items/@cc88320becd3eb20/system/description": "<p>Le Crotale à deux têtes gagne +1 PV par niveau (inclus), sa Défense est réduite de 1 avec un minimum de 1, et il ne subit un Coup critique qu’à partir de 7 dégâts après résistance.</p>",
-    "/items/@rattlerMeatYield/system/description": "<p>END + Survie, difficulté 1 : rapporte 2 DC portions de viande de crotale mutant et 2 matériaux communs. Un Effet permet aussi de récupérer un croc de crotale géant à deux têtes (Machette) ; deux Effets permettent à la place de récupérer une poche de poison contenant 2 munitions de venin de crotale.</p>"
+    "/items/@cc88320becd3eb20/system/description": "<p>Le Crotale à deux têtes gagne +1 PV par niveau (inclus), sa Défense est réduite de 1 avec un minimum de 1, et il ne subit un Coup critique qu’à partir de 7 dégâts après résistance.</p>"
   }
 }
