@@ -1,0 +1,48 @@
+{
+  "_id": "43269fe9b66161a6",
+  "_key": "!items!43269fe9b66161a6",
+  "effects": [],
+  "folder": null,
+  "img": "icons/svg/item-bag.svg",
+  "name": "",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "chem",
+    "cost": 50,
+    "duration": "instant",
+    "favorite": false,
+    "group": "",
+    "hp": 0,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 0,
+    "rarity": 4,
+    "source": "astoundingly_awesome_tales_3",
+    "stashed": false,
+    "thirstReduction": 0,
+    "description": "",
+    "effect": "",
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_3",
+        "page": 9,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "placeholder",
+        "artworkSource": "No subject-specific reusable artwork was selected from the owned Issue #3 PDF; neutral Foundry placeholder retained."
+      }
+    }
+  },
+  "$folder": "chems"
+}

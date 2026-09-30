@@ -1,0 +1,12 @@
+{
+  "_key": "!items!ec62006c4cfe41ed",
+  "_file": "skull_canyon_shot__ec62006c4cfe41ed.json",
+  "values": {
+    "/name": "Skull Canyon Shot",
+    "/system/description": "<p>A Skull Canyon drink made from liquid from a power cell mixed with vodka.</p>",
+    "/system/effect": "<p>Alcoholic. Heal 4 HP; +3 Radiation damage resistance, Lasting; suffer 1 Radiation damage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

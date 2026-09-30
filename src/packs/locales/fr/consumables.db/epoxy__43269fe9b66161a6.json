@@ -1,0 +1,18 @@
+{
+  "_key": "!items!43269fe9b66161a6",
+  "_file": "epoxy__43269fe9b66161a6.json",
+  "values": {
+    "/name": "Époxy",
+    "/system/description": "<p>Un dispositif semblable à une seringue, rempli d’une substance argentée et métallique qui durcit en une couche résistante sur les surfaces endommagées.</p>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Réparation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "43269fe9b66161a6",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

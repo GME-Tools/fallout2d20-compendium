@@ -1,0 +1,18 @@
+{
+  "_key": "!items!5a66ba7e1ed41064",
+  "_file": "viande_de_crotale_mutant__5a66ba7e1ed41064.json",
+  "values": {
+    "/name": "Viande de crotale mutant",
+    "/system/description": "<p>De la viande de crotale mutant vendue à l’étal de Hungry Hank.</p>",
+    "/system/effect": "<p>Soignez 10 PV ; subissez 1 dégât de radiation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "5a66ba7e1ed41064",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

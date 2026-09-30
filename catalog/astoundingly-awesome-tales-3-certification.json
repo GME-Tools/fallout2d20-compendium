@@ -1,0 +1,418 @@
+{
+  "publication": "astoundingly_awesome_tales_3",
+  "source": {
+    "title": "Astoundingly Awesome Tales Issue #3 — Showdown in Skull Canyon",
+    "language": "en",
+    "edition": "en-digital-2023",
+    "pagesReviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "method": "PDF source -> expected inventory -> repository -> canonical -> EN -> FR -> tests",
+  "pageReview": [
+    {
+      "page": 1,
+      "status": "reviewed",
+      "notes": "Cover only."
+    },
+    {
+      "page": 2,
+      "status": "reviewed",
+      "notes": "Credits and legal text only."
+    },
+    {
+      "page": 3,
+      "status": "reviewed",
+      "notes": "Contents only."
+    },
+    {
+      "page": 4,
+      "status": "reviewed",
+      "notes": "Adventure synopsis only."
+    },
+    {
+      "page": 5,
+      "status": "reviewed",
+      "notes": "Hooks and quest-level guidance only."
+    },
+    {
+      "page": 6,
+      "status": "reviewed",
+      "notes": "Encounter prose and references to existing weapons; no complete guard profile."
+    },
+    {
+      "page": 7,
+      "status": "reviewed",
+      "notes": "Narrative NPCs and vendor setup; Strobe Beacon is named but not mechanically defined."
+    },
+    {
+      "page": 8,
+      "status": "reviewed",
+      "notes": "Wastelander complete profile; static vendor price lists are not random."
+    },
+    {
+      "page": 9,
+      "status": "reviewed",
+      "notes": "Biogel and Epoxy are fully structured consumables."
+    },
+    {
+      "page": 10,
+      "status": "reviewed",
+      "notes": "Food and drink catalogue: eight new Issue #3 consumables plus six identical Core reprints."
+    },
+    {
+      "page": 11,
+      "status": "reviewed",
+      "notes": "Narrative meeting with Xarn; no complete profile."
+    },
+    {
+      "page": 12,
+      "status": "reviewed",
+      "notes": "Twinjaw Rattler complete creature profile with butchery."
+    },
+    {
+      "page": 13,
+      "status": "reviewed",
+      "notes": "Named Ranger variants are modifications to the NCR Trooper rather than complete standalone profiles."
+    },
+    {
+      "page": 14,
+      "status": "reviewed",
+      "notes": "NCR Trooper complete profile."
+    },
+    {
+      "page": 15,
+      "status": "reviewed",
+      "notes": "Narrative information only."
+    },
+    {
+      "page": 16,
+      "status": "reviewed",
+      "notes": "Investigation/factory prose; artifacts lack reusable mechanics."
+    },
+    {
+      "page": 17,
+      "status": "reviewed",
+      "notes": "Narrative investigation and medical technology only."
+    },
+    {
+      "page": 18,
+      "status": "reviewed",
+      "notes": "Act synopsis only."
+    },
+    {
+      "page": 19,
+      "status": "reviewed",
+      "notes": "Encounter uses existing profiles; no new complete profile."
+    },
+    {
+      "page": 20,
+      "status": "reviewed",
+      "notes": "Corporal Brown narrative and security procedure; no complete Brown profile."
+    },
+    {
+      "page": 21,
+      "status": "reviewed",
+      "notes": "Security Drone, Protectron complete profile."
+    },
+    {
+      "page": 22,
+      "status": "reviewed",
+      "notes": "Printed Super Mutant profile is mechanically identical to the Core profile; collection reconciliation remains source-dependent."
+    },
+    {
+      "page": 23,
+      "status": "reviewed",
+      "notes": "Quest prose only."
+    },
+    {
+      "page": 24,
+      "status": "reviewed",
+      "notes": "Act synopsis only."
+    },
+    {
+      "page": 25,
+      "status": "reviewed",
+      "notes": "Extended Test and encounter composition; not a random RollTable."
+    },
+    {
+      "page": 26,
+      "status": "reviewed",
+      "notes": "Skull Canyon Zetan complete profile and Inertia Suppression Field."
+    },
+    {
+      "page": 27,
+      "status": "reviewed",
+      "notes": "Encounter composition; Alien disintegrator is named but not defined here."
+    },
+    {
+      "page": 28,
+      "status": "reviewed",
+      "notes": "Conclusion and rewards only."
+    }
+  ],
+  "candidates": [
+    {
+      "page": 8,
+      "name": "Wastelander",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "reuse",
+      "id": "Twv5p2s3w1avJkbO",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 9,
+      "name": "Biogel",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "19a0de054c5e6f95"
+    },
+    {
+      "page": 9,
+      "name": "Epoxy",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "43269fe9b66161a6"
+    },
+    {
+      "page": 10,
+      "name": "Living “mutant” worm",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "679a3443938974ac"
+    },
+    {
+      "page": 10,
+      "name": "Worm kabob",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "58c0e3499281f80f"
+    },
+    {
+      "page": 10,
+      "name": "Squid Calamari",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "d1ce79d676261c49"
+    },
+    {
+      "page": 10,
+      "name": "Stuffed Squid",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "8b4bbbe3fabed364"
+    },
+    {
+      "page": 10,
+      "name": "Mutant Rattler Meat",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "5a66ba7e1ed41064"
+    },
+    {
+      "page": 10,
+      "name": "Grilled Rattler",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "edcbf433f3f8c98f"
+    },
+    {
+      "page": 10,
+      "name": "Skull Canyon Shot",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "ec62006c4cfe41ed"
+    },
+    {
+      "page": 10,
+      "name": "Mutant Rattler Venom Shot",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "create",
+      "id": "cc5020d669b48a0f"
+    },
+    {
+      "page": 10,
+      "name": "Radroach Meat",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "reuse",
+      "id": "i1BhSDEcs5JNub1v",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 10,
+      "name": "Grilled Radroach",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "reuse",
+      "id": "D2s5huShfKCtulYC",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 10,
+      "name": "Irradiated Blood",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "reuse",
+      "id": "PVf7RRNJLAIY2b2t",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 10,
+      "name": "Dirty Water",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "reuse",
+      "id": "smWip05JhGyTXRU1",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 10,
+      "name": "Beer",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "reuse",
+      "id": "UlhNGl3T0UejS5ZW",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 10,
+      "name": "Whiskey",
+      "type": "Consumable",
+      "pack": "consumables",
+      "status": "reuse",
+      "id": "u9KyfdRIzyQhCjnn",
+      "relationship": "identical Core reprint"
+    },
+    {
+      "page": 12,
+      "name": "Twinjaw Rattler",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "existing-correct",
+      "id": "1b4ce0097ed5198a"
+    },
+    {
+      "page": 14,
+      "name": "NCR Trooper",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "existing-correct",
+      "id": "91957f7226ee31a7"
+    },
+    {
+      "page": 21,
+      "name": "Security Drone, Protectron",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "existing-pending-collection-recheck",
+      "id": "772d0f6d939dfad5",
+      "note": "Issue #3 prints Energy DR 4 (All); repository currently carries 3 (All), apparently from the later collection. The collection PDF is unavailable in this task."
+    },
+    {
+      "page": 22,
+      "name": "Super Mutant",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "reuse",
+      "id": "9uRMSgaooTRV8AiH",
+      "relationship": "identical Core reprint",
+      "note": "Later collection data in the repository uses an Abomination correction/rename that cannot be independently re-certified without the collection PDF."
+    },
+    {
+      "page": 26,
+      "name": "Skull Canyon Zetan",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "existing-correct",
+      "id": "74e0af7608dece91"
+    },
+    {
+      "page": 26,
+      "name": "Inertia Suppression Field",
+      "type": "Apparel",
+      "pack": "apparel",
+      "status": "existing-correct",
+      "id": "e26b938157cfb19b"
+    }
+  ],
+  "excluded": [
+    {
+      "pages": [
+        7,
+        11,
+        13,
+        20,
+        22,
+        25,
+        27
+      ],
+      "kind": "narrative NPCs/encounter variants",
+      "reason": "No complete standalone stat profile; base-profile modifications remain encounter guidance."
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "kind": "vendor/food price tables",
+      "reason": "Static catalogues are not random RollTables."
+    },
+    {
+      "pages": [
+        16,
+        17
+      ],
+      "kind": "alien artifacts/medical technology",
+      "reason": "Narrative objects without sufficient reusable mechanics."
+    }
+  ],
+  "rollTables": [],
+  "artworkDecisions": {
+    "newConsumables": "neutral placeholder; no subject-specific interior illustration was suitable",
+    "twinjawRattler": "existing cover art is directly relevant to the giant two-headed rattler encounter",
+    "otherExistingIssue3Documents": "existing cover assignments retained but remain artwork-review debt"
+  },
+  "unresolved": [
+    "The Astoundingly Awesome Tales Issues #1–5 collection PDF is not available in the repository or this conversation. Collection-derived differences already present in the repository, notably Security Drone Energy DR and the Abomination/Super Mutant correction, cannot be independently re-certified here."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_key": "!items!19a0de054c5e6f95",
+  "_file": "biogel__19a0de054c5e6f95.json",
+  "values": {
+    "/name": "Biogel",
+    "/system/description": "<p>Un petit contenant sphérique rempli d’un gel translucide à la faible lueur bleue. Appliqué sur les blessures, il accélère la guérison et referme rapidement les plaies.</p>",
+    "/system/effect": "<p>Soignez 5 PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.5,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "19a0de054c5e6f95",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

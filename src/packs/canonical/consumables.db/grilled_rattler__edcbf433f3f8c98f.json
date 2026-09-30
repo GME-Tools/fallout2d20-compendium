@@ -1,0 +1,48 @@
+{
+  "_id": "edcbf433f3f8c98f",
+  "_key": "!items!edcbf433f3f8c98f",
+  "effects": [],
+  "folder": null,
+  "img": "icons/svg/item-bag.svg",
+  "name": "",
+  "system": {
+    "addiction": 0,
+    "addictive": false,
+    "alcoholic": false,
+    "butchery": false,
+    "consumableGroup": "",
+    "consumableType": "food",
+    "cost": 60,
+    "duration": "instant",
+    "favorite": false,
+    "group": "",
+    "hp": 12,
+    "irradiated": false,
+    "prepared": false,
+    "providesCap": false,
+    "quantity": 1,
+    "radiation": 0,
+    "radiationDamage": 0,
+    "rarity": 3,
+    "source": "astoundingly_awesome_tales_3",
+    "stashed": false,
+    "thirstReduction": 0,
+    "description": "",
+    "effect": "",
+    "weight": 0.1
+  },
+  "type": "consumable",
+  "flags": {
+    "fallout2d20-compendium": {
+      "source": {
+        "book": "astoundingly_awesome_tales_3",
+        "page": 10,
+        "errataReviewed": true,
+        "artworkReviewed": true,
+        "artworkStatus": "placeholder",
+        "artworkSource": "No subject-specific reusable artwork was selected from the owned Issue #3 PDF; neutral Foundry placeholder retained."
+      }
+    }
+  },
+  "$folder": "food"
+}

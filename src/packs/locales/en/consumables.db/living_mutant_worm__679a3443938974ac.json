@@ -1,0 +1,12 @@
+{
+  "_key": "!items!679a3443938974ac",
+  "_file": "living_mutant_worm__679a3443938974ac.json",
+  "values": {
+    "/name": "Living “mutant” worm",
+    "/system/description": "<p>A living worm sold as food at Hungry Hank’s stall in Skull Canyon.</p>",
+    "/system/effect": "<p>Add 1 AP to the group pool.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

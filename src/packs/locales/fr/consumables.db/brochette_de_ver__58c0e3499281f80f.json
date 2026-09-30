@@ -1,0 +1,18 @@
+{
+  "_key": "!items!58c0e3499281f80f",
+  "_file": "brochette_de_ver__58c0e3499281f80f.json",
+  "values": {
+    "/name": "Brochette de ver",
+    "/system/description": "<p>Une brochette de ver vendue par Hungry Hank à Skull Canyon.</p>",
+    "/system/effect": "<p>Soignez 7 PV.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "58c0e3499281f80f",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

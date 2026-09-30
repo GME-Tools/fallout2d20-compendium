@@ -1,0 +1,12 @@
+{
+  "_key": "!items!43269fe9b66161a6",
+  "_file": "epoxy__43269fe9b66161a6.json",
+  "values": {
+    "/name": "Epoxy",
+    "/system/description": "<p>A syringe-like device filled with thick metallic-silver material which hardens into a durable coating on damaged surfaces.</p>",
+    "/system/effect": "<p>Reduce the difficulty of Repair tests by 1.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

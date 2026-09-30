@@ -1,0 +1,18 @@
+{
+  "_key": "!items!cc5020d669b48a0f",
+  "_file": "shooter_au_venin_de_crotale_mutant__cc5020d669b48a0f.json",
+  "values": {
+    "/name": "Shooter au venin de crotale mutant",
+    "/system/description": "<p>Une boisson de Skull Canyon préparée avec du venin de crotale mutant.</p>",
+    "/system/effect": "<p>+3 à la résistance aux dégâts de poison ; subissez 1 dégât de radiation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "cc5020d669b48a0f",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

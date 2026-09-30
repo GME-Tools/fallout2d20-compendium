@@ -1,0 +1,12 @@
+{
+  "_key": "!items!8b4bbbe3fabed364",
+  "_file": "stuffed_squid__8b4bbbe3fabed364.json",
+  "values": {
+    "/name": "Stuffed Squid",
+    "/system/description": "<p>Stuffed squid sold by Hungry Hank in Skull Canyon.</p>",
+    "/system/effect": "<p>Heal 6 HP; suffer 1 Radiation damage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

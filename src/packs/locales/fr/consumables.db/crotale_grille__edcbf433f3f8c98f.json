@@ -1,0 +1,18 @@
+{
+  "_key": "!items!edcbf433f3f8c98f",
+  "_file": "crotale_grille__edcbf433f3f8c98f.json",
+  "values": {
+    "/name": "Crotale grillé",
+    "/system/description": "<p>De la viande de crotale préparée et vendue par Hungry Hank à Skull Canyon.</p>",
+    "/system/effect": "<p>Soignez 12 PV. Vous pouvez relancer 1d20 lors de tous les tests d’AGI jusqu’à la fin de la prochaine scène.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "edcbf433f3f8c98f",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

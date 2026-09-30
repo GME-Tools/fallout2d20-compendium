@@ -1,0 +1,18 @@
+{
+  "_key": "!items!8b4bbbe3fabed364",
+  "_file": "calmar_farci__8b4bbbe3fabed364.json",
+  "values": {
+    "/name": "Calmar farci",
+    "/system/description": "<p>Un calmar farci vendu par Hungry Hank à Skull Canyon.</p>",
+    "/system/effect": "<p>Soignez 6 PV ; subissez 1 dégât de radiation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "8b4bbbe3fabed364",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

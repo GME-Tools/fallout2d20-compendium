@@ -1,0 +1,18 @@
+{
+  "_key": "!items!679a3443938974ac",
+  "_file": "ver_mutant_vivant__679a3443938974ac.json",
+  "values": {
+    "/name": "Ver « mutant » vivant",
+    "/system/description": "<p>Un ver vivant vendu comme nourriture à l’étal de Hungry Hank, à Skull Canyon.</p>",
+    "/system/effect": "<p>Ajoutez 1 PA à la réserve du groupe.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "679a3443938974ac",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

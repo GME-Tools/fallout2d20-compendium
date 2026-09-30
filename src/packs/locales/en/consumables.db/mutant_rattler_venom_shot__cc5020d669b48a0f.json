@@ -1,0 +1,12 @@
+{
+  "_key": "!items!cc5020d669b48a0f",
+  "_file": "mutant_rattler_venom_shot__cc5020d669b48a0f.json",
+  "values": {
+    "/name": "Mutant Rattler Venom Shot",
+    "/system/description": "<p>A Skull Canyon drink prepared with mutant rattler venom.</p>",
+    "/system/effect": "<p>+3 Poison damage resistance; suffer 1 Radiation damage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

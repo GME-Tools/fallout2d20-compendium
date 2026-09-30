@@ -1,0 +1,12 @@
+{
+  "_key": "!items!5a66ba7e1ed41064",
+  "_file": "mutant_rattler_meat__5a66ba7e1ed41064.json",
+  "values": {
+    "/name": "Mutant Rattler Meat",
+    "/system/description": "<p>Meat from a mutant rattler, sold at Hungry Hank’s stall.</p>",
+    "/system/effect": "<p>Heal 10 HP; suffer 1 Radiation damage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_key": "!items!58c0e3499281f80f",
+  "_file": "worm_kabob__58c0e3499281f80f.json",
+  "values": {
+    "/name": "Worm kabob",
+    "/system/description": "<p>A worm kabob sold by Hungry Hank in Skull Canyon.</p>",
+    "/system/effect": "<p>Heal 7 HP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

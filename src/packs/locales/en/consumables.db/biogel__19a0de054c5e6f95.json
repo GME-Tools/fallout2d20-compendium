@@ -1,0 +1,12 @@
+{
+  "_key": "!items!19a0de054c5e6f95",
+  "_file": "biogel__19a0de054c5e6f95.json",
+  "values": {
+    "/name": "Biogel",
+    "/system/description": "<p>A small spherical container of translucent, softly glowing gel. Applied to wounds, it accelerates healing and rapidly seals injuries.</p>",
+    "/system/effect": "<p>Heal 5 HP.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

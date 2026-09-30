@@ -1,0 +1,12 @@
+{
+  "_key": "!items!d1ce79d676261c49",
+  "_file": "squid_calamari__d1ce79d676261c49.json",
+  "values": {
+    "/name": "Squid Calamari",
+    "/system/description": "<p>A squid dish sold by Hungry Hank in Skull Canyon.</p>",
+    "/system/effect": "<p>Heal 3 HP; suffer 1 Radiation damage.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}

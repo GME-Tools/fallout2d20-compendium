@@ -1,0 +1,18 @@
+{
+  "_key": "!items!d1ce79d676261c49",
+  "_file": "calamars__d1ce79d676261c49.json",
+  "values": {
+    "/name": "Calamars",
+    "/system/description": "<p>Un plat de calmar vendu par Hungry Hank à Skull Canyon.</p>",
+    "/system/effect": "<p>Soignez 3 PV ; subissez 1 dégât de radiation.</p>",
+    "/flags/fallout2d20-compendium/source/language": "fr",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/system/weight": 0.05,
+    "/flags/fallout2d20-compendium/source/translatedFrom": "d1ce79d676261c49",
+    "/flags/fallout2d20-compendium/source/structuralBaseline": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
+  }
+}

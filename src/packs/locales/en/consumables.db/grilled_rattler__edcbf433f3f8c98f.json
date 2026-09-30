@@ -1,0 +1,12 @@
+{
+  "_key": "!items!edcbf433f3f8c98f",
+  "_file": "grilled_rattler__edcbf433f3f8c98f.json",
+  "values": {
+    "/name": "Grilled Rattler",
+    "/system/description": "<p>Prepared rattler meat sold by Hungry Hank in Skull Canyon.</p>",
+    "/system/effect": "<p>Heal 12 HP. May re-roll 1d20 on all AGI tests until the end of the next scene.</p>",
+    "/flags/fallout2d20-compendium/source/language": "en",
+    "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
+    "/flags/fallout2d20-compendium/source/translation": "original"
+  }
+}
