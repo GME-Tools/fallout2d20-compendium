@@ -38,7 +38,7 @@
         "book": "astoundingly_awesome_tales_3",
         "page": 9,
         "errataReviewed": true,
-        "artworkReviewed": true,
+        "artworkReviewed": false,
         "artworkStatus": "placeholder",
         "artworkSource": "No subject-specific reusable artwork was selected from the owned Issue #3 PDF; neutral Foundry placeholder retained."
       }

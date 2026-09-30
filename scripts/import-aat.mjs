@@ -38,11 +38,15 @@ function sourceFlags(definition) {
     book,
     page: definition.page,
     errataReviewed: true,
-    artworkReviewed: true,
-    artworkStatus: "shared",
-    artworkSource: `Owned official PDF cover: Astoundingly Awesome Tales Issue No. ${definition.issue}.`,
-    artworkSharingGroup: `aat-${definition.issue}-official-cover`,
-    artworkSharingJustification: "The official adventure cover identifies and represents this publication's reusable structured content."
+    artworkReviewed: definition.artworkStatus === "placeholder" ? false : true,
+    artworkStatus: definition.artworkStatus ?? "shared",
+    artworkSource: definition.artworkStatus === "placeholder"
+      ? "No subject-specific reusable artwork was selected from the owned Issue PDF; neutral Foundry placeholder retained."
+      : `Owned official PDF cover: Astoundingly Awesome Tales Issue No. ${definition.issue}.`,
+    ...(definition.artworkStatus === "placeholder" ? {} : {
+      artworkSharingGroup: `aat-${definition.issue}-official-cover`,
+      artworkSharingJustification: "The official adventure cover identifies and represents this publication's reusable structured content."
+    })
   };
 }
 
@@ -132,10 +136,28 @@ async function writeActor(definition, templates) {
   actor.folder = null;
   actor.flags = { [MODULE_ID]: { source: sourceFlags(definition) } };
   actor.system = actorSystem(definition, base);
+  if (definition.butchery) actor.system.butchery = { ...(actor.system.butchery ?? {}), ...definition.butchery };
   actor.$folder = `aat-${definition.issue}`;
   for (const [index, entry] of (definition.skills ?? []).entries()) actor.items.push(skill(entry, definition.id, index, templates.skill));
   for (const [index, attack] of (definition.attacks ?? []).entries()) actor.items.push(weapon({ ...attack, issue: definition.issue }, definition.id, index, templates.weapon));
   for (const [index, entry] of (definition.abilities ?? []).entries()) actor.items.push(ability(entry, definition.id, index));
+  for (const entry of definition.yields ?? []) actor.items.push({
+    "$ref": { pack: entry.pack, id: entry.id },
+    "$overrides": {
+      "/_id": entry.embeddedId,
+      "/_key": { "$delete": true },
+      "/folder": null,
+      "/sort": 0,
+      "/system/quantity": 1,
+      "/system/quantityRoll": entry.quantityRoll,
+      "/system/butchery": true,
+      "/system/description": html(entry.text_en),
+      "/flags/fallout2d20-compendium/source": { "$delete": true },
+      "/flags/fallout2d20-compendium/canonicalPack": entry.pack,
+      "/flags/fallout2d20-compendium/canonicalItemId": entry.id,
+      "/flags/fallout2d20-compendium/embeddedYield": true
+    }
+  });
 
   const file = `${slug(definition.en)}__${definition.id}.json`;
   await writeJson(path.join(sourceRoot, "canonical", "denizens.db", file), actor);
@@ -168,6 +190,7 @@ async function writeActor(definition, templates) {
       values[`/items/@${id}/system/description`] = html(entry[`text_${language}`]);
     }
     for (const [index, entry] of (definition.skills ?? []).entries()) values[`/items/@${actor.items[index]._id}/name`] = entry[language];
+    for (const entry of definition.yields ?? []) values[`/items/@${entry.embeddedId}/system/description`] = html(entry[`text_${language}`]);
     const overlay = { _key: actor._key, _file: `${slug(definition[language])}__${definition.id}.json`, values };
     await writeJson(path.join(sourceRoot, "locales", language, "denizens.db", overlay._file), overlay);
   }
@@ -268,6 +291,8 @@ const actors = [
   {
     issue: 3, page: 12, collectionPage: 56, kind: "creature", en: "Twinjaw Rattler", fr: "Crotale à deux têtes", bio_en: "A giant two-headed rattlesnake created by Zetan experimentation.", bio_fr: "Un crotale géant à deux têtes issu d’expériences zetanes.", origin_en: "Mutated Reptile", origin_fr: "Reptile mutant", level: 5, xp: 45, power: "normal", body: 6, mind: 5, melee: 4, guns: 0, other: 2, hp: 16, initiative: 13, defense: 1, dr: { physical: "0", energy: "0", radiation: "2 (All)", poison: "Immune" },
     attacks: [W("Bite", "Morsure", 4, ["physical"], "Body + Melee (TN 10); Persistent (Poison).", "Corps + Corps à corps (SR 10) ; Persistants (poison).", { effects: ["persistent"], weaponType: "melee" })],
+    butchery: { common: 2, uncommon: 0, rare: 0, tn: 1 },
+    yields: [{ pack:"consumables", id:"5a66ba7e1ed41064", embeddedId:"rattlerMeatYield", quantityRoll:"2dc", text_en:"END + Survival, difficulty 1: yields 2 DC portions of mutant rattler meat and 2 common materials. An Effect also yields one giant two-headed rattlesnake fang (Machete); two Effects instead allow harvesting a poison sack containing 2 ammo of Rattler venom.", text_fr:"END + Survie, difficulté 1 : rapporte 2 DC portions de viande de crotale mutant et 2 matériaux communs. Un Effet permet aussi de récupérer un croc de crotale géant à deux têtes (Machette) ; deux Effets permettent à la place de récupérer une poche de poison contenant 2 munitions de venin de crotale." }],
     abilities: [A("Fast Movement", "Déplacement rapide", "The rattler gains +2 Initiative (included).", "Le crotale gagne +2 en Initiative (inclus)."), A("Twin Heads", "Deux têtes", "It may make two Bite attacks in a single turn.", "Il peut effectuer deux attaques de Morsure au cours d’un même tour."), A("Death Rattle", "Sonnette de mort", "Once per combat, it may use a minor action to give its Bite the Stun effect for the turn.", "Une fois par combat, il peut consacrer une action mineure pour conférer Étourdissants à sa Morsure pendant ce tour."), commonAbilities.poison, A("Big", "Grand", "The rattler gains +1 HP per level (included), has Defense reduced by 1 to a minimum of 1, and only suffers a Critical Hit from 7+ damage after resistance.", "Le crotale gagne +1 PV par niveau (inclus), sa Défense est réduite de 1 avec un minimum de 1, et il ne subit un Coup critique qu’à partir de 7 dégâts après résistance.")]
   },
   {
