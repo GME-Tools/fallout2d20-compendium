@@ -44,20 +44,20 @@
     "/name": "Super mutant",
     "/flags/fallout2d20-compendium/source/appearances": [
       {
-        "book": "astoundingly_awesome_tales_3",
-        "language": "fr",
-        "edition": "fr-project-1.2.0",
-        "translation": "project",
-        "status": "identical",
-        "page": 14
-      },
-      {
         "book": "astoundingly_awesome_tales_1_5",
         "language": "fr",
         "edition": "fr-project-1.2.0",
         "translation": "project",
         "status": "identical",
         "page": 58
+      },
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 22
       }
     ]
   }

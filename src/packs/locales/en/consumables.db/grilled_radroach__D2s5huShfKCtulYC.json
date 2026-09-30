@@ -8,6 +8,16 @@
     "/flags/fallout2d20-compendium/source/upstream": "Muttley/foundryvtt-fallout",
     "/flags/fallout2d20-compendium/source/upstreamRevision": "35260a1c2d82fb24d2fa4db9ad713f1dd788e303",
     "/flags/fallout2d20-compendium/recipe/skill": "Survival",
-    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Radroach Meat"
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Radroach Meat",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "en",
+        "edition": "en-digital-2023",
+        "translation": "original",
+        "status": "identical",
+        "page": 10
+      }
+    ]
   }
 }

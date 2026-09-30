@@ -12,6 +12,16 @@
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
     "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
     "/flags/fallout2d20-compendium/recipe/skill": "Survie",
-    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Chair de radcafard"
+    "/flags/fallout2d20-compendium/recipe/materials/0/name": "Chair de radcafard",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_3",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "identical",
+        "page": 10
+      }
+    ]
   }
 }
