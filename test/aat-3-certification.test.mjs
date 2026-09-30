@@ -11,11 +11,13 @@ async function documents(language, pack) {
 const byId = (list, id) => list.find(document => document._id === id);
 const source = document => document.flags?.["fallout2d20-compendium"]?.source;
 
-test("AAT #3 checkpoint is limited to source pages 1-11 and has no fake RollTable", () => {
-  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11]);
-  assert.deepEqual(catalog.checkpoint.nextSourcePages, [12,13,14,15]);
+test("AAT #3 checkpoint is limited to source pages 1-15 and has no fake RollTable", () => {
+  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]);
+  assert.deepEqual(catalog.checkpoint.nextSourcePages, [16,17,18,19]);
   assert.equal(catalog.rollTables.length, 0);
-  assert.ok(catalog.pageReview.every(entry => entry.page <= 11));
+  assert.ok(catalog.pageReview.every(entry => entry.page <= 15));
+  assert.equal(catalog.pageReview.find(entry => entry.page === 13)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 15)?.status, "out_of_scope");
 });
 
 test("AAT #3 p.8 Wastelander is a distinct mechanical variant", async () => {
@@ -87,4 +89,70 @@ test("verified collection differences stay explicit pending project approval", a
   const en = await documents("en","consumables");
   assert.doesNotMatch(byId(en,"43269fe9b66161a6").system.effect, /minimum of 0/i);
   assert.match(byId(en,"ec62006c4cfe41ed").system.effect, /Lasting/);
+});
+
+
+test("AAT #3 p.12 Twinjaw Rattler keeps source mechanics and structured butchery", async () => {
+  const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
+  for (const actor of [byId(en,"1b4ce0097ed5198a"), byId(fr,"1b4ce0097ed5198a")]) {
+    assert.ok(actor);
+    assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
+    assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
+    assert.equal(source(actor).page, 12);
+    assert.equal(actor.system.level.value, 5);
+    assert.equal(actor.system.health.max, 16);
+    assert.equal(actor.system.initiative.value, 13);
+    assert.equal(actor.system.butchery.tn, 1);
+    assert.equal(actor.system.butchery.common, 2);
+    assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+  }
+  const actor = byId(en,"1b4ce0097ed5198a");
+  const bite = actor.items.find(item => item.name === "Bite");
+  assert.equal(bite.system.attribute, "body");
+  assert.equal(bite.system.skill, "melee");
+  assert.equal(bite.system.damage.rating, 4);
+  assert.equal(bite.system.damage.damageEffect.persistent.value, true);
+  const yieldItem = actor.items.find(item => item.flags?.["fallout2d20-compendium"]?.embeddedYield);
+  assert.ok(yieldItem);
+  assert.equal(yieldItem.flags["fallout2d20-compendium"].canonicalPack, "consumables");
+  assert.equal(yieldItem.flags["fallout2d20-compendium"].canonicalItemId, "5a66ba7e1ed41064");
+  assert.equal(yieldItem.system.quantityRoll, "2dc");
+  assert.match(actor.system.biography, /poison sack/i);
+});
+
+test("AAT #3 p.14 NCR Trooper embedded attacks execute the printed tests", async () => {
+  const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
+  const actor = byId(en,"91957f7226ee31a7");
+  const actorFr = byId(fr,"91957f7226ee31a7");
+  assert.ok(actor);
+  assert.ok(actorFr);
+  assert.equal(source(actor).page, 14);
+  assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => actor.system.attributes[k].value), [5,6,5,5,6,7,4]);
+  assert.equal(actor.system.health.max, 12);
+  assert.equal(actor.system.initiative.value, 13);
+  assert.equal(actor.system.defense.value, 1);
+  assert.equal(actor.system.carryWeight.base, 200);
+  assert.equal(actorFr.system.carryWeight.base, 100);
+  assert.equal(actor.items.find(item => item.name === "Athletics")?.system.tag, true);
+  assert.equal(actor.items.find(item => item.name === "Small Guns")?.system.tag, true);
+  assert.equal(actor.items.find(item => item.name === "Big Guns")?.system.value, 2);
+  assert.equal(actor.items.find(item => item.name === "Melee Weapons")?.system.value, 2);
+  const attacks = new Map(actor.items.filter(item => item.type === "weapon").map(item => [item.name,item]));
+  assert.deepEqual([attacks.get("Unarmed Strike")?.system.attribute, attacks.get("Unarmed Strike")?.system.skill], ["str","unarmed"]);
+  assert.deepEqual([attacks.get("10mm Pistol")?.system.attribute, attacks.get("10mm Pistol")?.system.skill], ["agi","smallGuns"]);
+  assert.deepEqual([attacks.get("Combat Rifle")?.system.attribute, attacks.get("Combat Rifle")?.system.skill], ["agi","smallGuns"]);
+  assert.deepEqual([attacks.get("Gun Bash")?.system.attribute, attacks.get("Gun Bash")?.system.skill], ["str","meleeWeapons"]);
+  assert.deepEqual([attacks.get("Combat Knife")?.system.attribute, attacks.get("Combat Knife")?.system.skill], ["str","meleeWeapons"]);
+  assert.equal(attacks.get("Gun Bash")?.system.damage.damageEffect.stun.value, true);
+  assert.equal(attacks.get("Combat Knife")?.system.damage.damageEffect.piercing.value, true);
+  assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+});
+
+test("AAT #3 pp.12-15 collection divergences remain explicit unless already approved", () => {
+  const diffs = catalog.collectionReview.verifiedDifferences;
+  assert.equal(diffs.find(entry => entry.sourcePage === 12 && entry.scope === "approved_project_correction")?.collectionPage, 54);
+  assert.ok(diffs.some(entry => entry.sourcePage === 12 && entry.scope === "open_arbitration" && /poison-sack/.test(entry.difference)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 14 && entry.collectionPage === 56 && entry.scope === "open_arbitration" && /LUC/.test(entry.difference)));
+  assert.ok(catalog.openArbitrations.some(entry => /Twinjaw Rattler/.test(entry)));
+  assert.ok(catalog.openArbitrations.some(entry => /NCR Trooper/.test(entry)));
 });

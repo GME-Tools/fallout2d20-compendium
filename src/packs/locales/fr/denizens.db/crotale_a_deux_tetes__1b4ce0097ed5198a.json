@@ -17,16 +17,6 @@
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/errataReviewed": true,
-    "/flags/fallout2d20-compendium/source/appearances": [
-      {
-        "book": "astoundingly_awesome_tales_1_5",
-        "language": "fr",
-        "edition": "fr-project-1.2.0",
-        "translation": "project",
-        "status": "identical",
-        "page": 56
-      }
-    ],
     "/items/@ffd618061ee50c50/name": "Morsure",
     "/items/@ffd618061ee50c50/system/description": "<p>Corps + Corps à corps (SR 10) ; Persistants (poison).</p>",
     "/items/@ffd618061ee50c50/system/weight": 0,

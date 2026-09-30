@@ -12,20 +12,24 @@
       8,
       9,
       10,
-      11
-    ],
-    "nextSourcePages": [
+      11,
       12,
       13,
       14,
       15
+    ],
+    "nextSourcePages": [
+      16,
+      17,
+      18,
+      19
     ]
   },
   "source": {
     "title": "Astoundingly Awesome Tales Issue #3 — Showdown in Skull Canyon",
     "language": "en",
     "edition": "en-digital-2023",
-    "pagination": "PDF/source pages 1–3 are unnumbered front matter; PDF/source pages 4–11 match printed pages 4–11."
+    "pagination": "PDF/source pages 1–3 are unnumbered front matter; PDF/source pages 4–15 match printed pages 4–15."
   },
   "authority": {
     "primary": "Individual Issue #3 (2023)",
@@ -99,6 +103,30 @@
       "printedPage": 11,
       "status": "out_of_scope",
       "notes": "Meeting Xarn is narrative scenario material; no complete reusable profile."
+    },
+    {
+      "page": 12,
+      "printedPage": 12,
+      "status": "existing_correct",
+      "notes": "Complete Twinjaw Rattler profile. Existing Issue #3 identity verified. Structured butchery points to the p.10 Mutant Rattler Meat identity under the previously approved project normalization while retaining the individual issue's fang/poison-sack branches."
+    },
+    {
+      "page": 13,
+      "printedPage": 13,
+      "status": "out_of_scope",
+      "notes": "Named Ranger personalities plus optional tactical modifiers to the NCR Trooper baseline. These are scenario-specific optional modifications, not autonomous complete reusable profiles; no separate Actor identities created."
+    },
+    {
+      "page": 14,
+      "printedPage": 14,
+      "status": "corrected",
+      "notes": "Complete NCR Trooper profile. Existing Issue #3 identity retained; embedded attack Items were corrected so their executable attribute/skill pairs match the printed STR/AGI + skill tests."
+    },
+    {
+      "page": 15,
+      "printedPage": 15,
+      "status": "out_of_scope",
+      "notes": "NCR information and investigation clues only; Brown and Aurelius are narrative references without autonomous complete profiles on this page."
     }
   ],
   "candidates": [
@@ -247,11 +275,31 @@
       "status": "identical_reprint",
       "id": "u9KyfdRIzyQhCjnn",
       "firstAppearance": "core_rulebook"
+    },
+    {
+      "page": 12,
+      "name": "Twinjaw Rattler",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "existing_correct",
+      "id": "1b4ce0097ed5198a",
+      "firstAppearance": "astoundingly_awesome_tales_3",
+      "note": "First structured appearance is Issue #3 p.12. Butchery is structured with 2 DC Mutant Rattler Meat via the existing p.10 identity, 2 common materials, fang on an Effect, and the individual issue's poison-sack branch on two Effects."
+    },
+    {
+      "page": 14,
+      "name": "NCR Trooper",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "corrected",
+      "id": "91957f7226ee31a7",
+      "firstAppearance": "astoundingly_awesome_tales_3",
+      "note": "First structured appearance is Issue #3 p.14. Canonical profile retains LUC 4 and the individual issue inventory; embedded attacks now execute with the printed STR/AGI + skill pairings."
     }
   ],
   "collectionReview": {
     "edition": "en-digital-2024",
-    "mapping": "Individual printed/source pages 4–11 correspond to collection printed pages 46–53.",
+    "mapping": "Individual printed/source pages 4–15 correspond to collection printed pages 46–57.",
     "verifiedDifferences": [
       {
         "sourcePage": 7,
@@ -282,6 +330,36 @@
         "collectionPage": 52,
         "scope": "identical_mechanics",
         "difference": "Living “mutant” worm rewords the AP benefit as 'Immediately gain 1 AP'; treated as wording-only in this checkpoint."
+      },
+      {
+        "sourcePage": 12,
+        "collectionPage": 54,
+        "scope": "approved_project_correction",
+        "difference": "Butchery changes the yield name from 'Twinjaw Rattler meat' to 'Mutant Rattler meat'. The project had already approved reuse of the p.10 Mutant Rattler Meat identity for the structured yield, so that normalization remains applied."
+      },
+      {
+        "sourcePage": 12,
+        "collectionPage": 54,
+        "scope": "open_arbitration",
+        "difference": "Twin Heads is expanded to tie the two bites to a Major attack action and explicitly allow different targets; Death Rattle changes to once per battle and grants Stun to all attacks until end of turn; the poison-sack butchery branch is removed. These collection changes were not found as previously approved project corrections, so the individual-issue mechanics remain canonical."
+      },
+      {
+        "sourcePage": 13,
+        "collectionPage": 55,
+        "scope": "out_of_scope",
+        "difference": "The collection adds a Core p.337 cross-reference for making Sergeant Jackson Notable; the optional named-Ranger modifiers remain scenario guidance rather than autonomous complete profiles."
+      },
+      {
+        "sourcePage": 14,
+        "collectionPage": 56,
+        "scope": "open_arbitration",
+        "difference": "The collection changes the NCR Trooper's LUC from 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval for those mechanical changes was located; the individual 2023 profile is retained."
+      },
+      {
+        "sourcePage": 15,
+        "collectionPage": 57,
+        "scope": "out_of_scope",
+        "difference": "Negotiation procedure and NCR-information prose are revised in the collection, but these are scenario procedures rather than reusable compendium documents."
       }
     ]
   },
@@ -309,6 +387,14 @@
       ],
       "kind": "static vendor catalogues",
       "reason": "Price lists are static and are not genuinely random RollTables."
+    },
+    {
+      "pages": [
+        13,
+        15
+      ],
+      "kind": "scenario-specific NPC modifiers and narrative investigation content",
+      "reason": "No autonomous reusable structured document is fully defined on these pages; the complete reusable NCR Trooper baseline is on p.14."
     }
   ],
   "artworkDecisions": {
@@ -317,6 +403,8 @@
   },
   "openArbitrations": [
     "Epoxy: the collected edition p.51 adds a minimum-0 floor to the Repair difficulty reduction; this difference is verified but was not found as a previously approved project correction.",
-    "Skull Canyon Shot: the collected edition p.52 removes Lasting from the +3 Radiation damage resistance; this difference is verified but was not found as a previously approved project correction."
+    "Skull Canyon Shot: the collected edition p.52 removes Lasting from the +3 Radiation damage resistance; this difference is verified but was not found as a previously approved project correction.",
+    "Twinjaw Rattler: collection p.54 expands Twin Heads, changes Death Rattle timing/scope, and removes the individual issue's poison-sack butchery branch. No prior project approval was found for those changes; Issue #3 p.12 remains canonical for them.",
+    "NCR Trooper: collection p.56 changes LUC 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval was found; Issue #3 p.14 remains canonical."
   ]
 }

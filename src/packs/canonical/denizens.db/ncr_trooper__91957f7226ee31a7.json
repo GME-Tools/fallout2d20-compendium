@@ -318,8 +318,8 @@
         "weaponType": "unarmed",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "str",
+        "skill": "unarmed",
         "damage": {
           "rating": 2,
           "damageType": {
@@ -494,8 +494,8 @@
         "weaponType": "smallGuns",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "agi",
+        "skill": "smallGuns",
         "damage": {
           "rating": 4,
           "damageType": {
@@ -670,8 +670,8 @@
         "weaponType": "smallGuns",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "agi",
+        "skill": "smallGuns",
         "damage": {
           "rating": 5,
           "damageType": {
@@ -863,8 +863,8 @@
         "weaponType": "meleeWeapons",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "str",
+        "skill": "meleeWeapons",
         "damage": {
           "rating": 3,
           "damageType": {
@@ -1039,8 +1039,8 @@
         "weaponType": "meleeWeapons",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "body",
-        "skill": "melee",
+        "attribute": "str",
+        "skill": "meleeWeapons",
         "damage": {
           "rating": 3,
           "damageType": {

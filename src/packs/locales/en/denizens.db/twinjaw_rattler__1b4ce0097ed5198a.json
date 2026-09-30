@@ -9,16 +9,6 @@
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
     "/flags/fallout2d20-compendium/source/translation": "original",
-    "/flags/fallout2d20-compendium/source/appearances": [
-      {
-        "book": "astoundingly_awesome_tales_1_5",
-        "language": "en",
-        "edition": "en-digital-2024",
-        "translation": "original",
-        "status": "identical",
-        "page": 56
-      }
-    ],
     "/items/@ffd618061ee50c50/name": "Bite",
     "/items/@ffd618061ee50c50/system/description": "<p>Body + Melee (TN 10); Persistent (Poison).</p>",
     "/items/@ae8752d687eca7fe/name": "Fast Movement",
