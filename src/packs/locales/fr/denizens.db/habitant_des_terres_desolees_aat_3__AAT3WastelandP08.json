@@ -1,12 +1,12 @@
 {
-  "_key": "!actors!Twv5p2s3w1avJkbO",
-  "_file": "habitant_des_terres_desolees__Twv5p2s3w1avJkbO.json",
+  "_key": "!actors!AAT3WastelandP08",
+  "_file": "habitant_des_terres_desolees_aat_3__AAT3WastelandP08.json",
   "values": {
     "/items/@O0GOoAmCfcN8pf1i/system/weight": 0,
     "/items/@O0GOoAmCfcN8pf1i/name": "Attaque à mains nues",
     "/items/@O0GOoAmCfcN8pf1i/system/description": "<p><strong>FOR + Mains nues (SR 7)</strong>, 2 DC de dégâts balistiques.</p>",
     "/items/@2TR0yWRaj0zGYgN8/system/weight": 0,
-    "/items/@2TR0yWRaj0zGYgN8/system/effect": "<p>Cuirs de route, machette, fusil à double canon, 10 + 5 DC cartouches de calibre 12, richesse 1.</p>",
+    "/items/@2TR0yWRaj0zGYgN8/system/effect": "<p>Cuirs de route, fusil à double canon, richesse 1.</p>",
     "/items/@2TR0yWRaj0zGYgN8/name": "Inventaire",
     "/items/@NggwFXubWn1To9mq/name": "Réparation",
     "/items/@QgMXytq386mfJ6OA/name": "Troc",
@@ -23,10 +23,10 @@
     "/items/@VH9DHfc0hFLXhIhF/system/weight": 4.5,
     "/items/@VH9DHfc0hFLXhIhF/name": "Fusil à double canon",
     "/flags/fallout2d20-compendium/source/language": "fr",
-    "/flags/fallout2d20-compendium/source/translatedFrom": "Twv5p2s3w1avJkbO",
+    "/flags/fallout2d20-compendium/source/translatedFrom": "AAT3WastelandP08",
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
-    "/flags/fallout2d20-compendium/source/translationReviewed": false,
-    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": false,
+    "/flags/fallout2d20-compendium/source/translationReviewed": true,
+    "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
@@ -35,19 +35,13 @@
     "/flags/fallout2d20-compendium/source/embeddedWeaponTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/embeddedMiscellanyTextTranslationReviewed": true,
     "/flags/fallout2d20-compendium/source/extractionBleedReviewed": true,
-    "/system/carryWeight/base": 105,
+    "/system/carryWeight/base": 100,
     "/system/origin": "Humain",
-    "/system/biography": "<p>« Habitants des Terres désolées » est le nom donné aux très nombreux individus qui errent, voyagent et se fixent dans tout le territoire. Beaucoup d’entre eux n’ont rien de remarquable, et ne cherchent qu’à survivre à tout prix. Certains sortent de l’ordinaire et savent manier les armes, par exemple, pendant que d’autres peuvent maîtriser des compétences uniques, reflétant leur expérience de la vie et leur passé. Ils peuvent venir de n’importe quel village du Commonwealth et de toutes les strates de la société.</p>",
-    "/name": "Habitant des Terres désolées",
-    "/flags/fallout2d20-compendium/source/appearances": [
-      {
-        "book": "astoundingly_awesome_tales_1_5",
-        "language": "fr",
-        "edition": "fr-project-1.2.0",
-        "translation": "project",
-        "status": "identical",
-        "page": 58
-      }
-    ]
+    "/system/biography": "<p>Profil d’un Habitant des Terres désolées utilisé pour la voleuse à l’étal de Vexx, à Skull Canyon. Cette traduction de projet conserve les mécaniques imprimées dans l’Issue n° 3 individuelle de 2023.</p>",
+    "/name": "Habitant des Terres désolées (AAT n° 3)",
+    "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
+    "/flags/fallout2d20-compendium/source/translation": "project",
+    "/token/name": "Habitant des Terres désolées (AAT n° 3)",
+    "/flags/fallout2d20-compendium/source/errataReviewed": true
   }
 }
