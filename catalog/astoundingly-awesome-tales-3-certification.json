@@ -463,13 +463,13 @@
         "sourcePage": 9,
         "collectionPage": 51,
         "scope": "approved_project_correction",
-        "difference": "Epoxy adds '(to a minimum of 0)' to the Repair difficulty reduction. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "Epoxy adds '(to a minimum of 0)' to the Repair difficulty reduction. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the floor is applied."
       },
       {
         "sourcePage": 10,
         "collectionPage": 52,
         "scope": "approved_project_correction",
-        "difference": "Skull Canyon Shot omits the individual issue's Lasting keyword. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "Skull Canyon Shot omits the individual issue's Lasting keyword. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; Lasting is removed."
       },
       {
         "sourcePage": 10,
@@ -487,7 +487,7 @@
         "sourcePage": 12,
         "collectionPage": 54,
         "scope": "approved_project_correction",
-        "difference": "Twin Heads is expanded to tie the two bites to a Major attack action and explicitly allow different targets; Death Rattle changes to once per battle and grants Stun to all attacks until end of turn; the poison-sack butchery branch is removed. These collection changes were not found as previously approved project corrections, so the individual-issue mechanics remain canonical. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "Twin Heads is expanded to tie the two bites to a Major attack action and allow different targets; Death Rattle becomes once per battle and grants Stun to all attacks until end of turn; the poison-sack butchery branch is removed. Owner decision 2026-10-01 makes these 2024 mechanics authoritative and they are applied."
       },
       {
         "sourcePage": 13,
@@ -499,7 +499,7 @@
         "sourcePage": 14,
         "collectionPage": 56,
         "scope": "approved_project_correction",
-        "difference": "The collection changes the NCR Trooper's LUC from 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval for those mechanical changes was located; the individual 2023 profile is retained. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "The collection changes the NCR Trooper's LUC from 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; both changes are applied."
       },
       {
         "sourcePage": 15,
@@ -535,13 +535,13 @@
         "sourcePage": 21,
         "collectionPage": 63,
         "scope": "approved_project_correction",
-        "difference": "Security Drone, Protectron changes Energy DR from 4 (All) in the individual 2023 issue to 3 (All) in the 2024 collection. No prior project approval for this mechanical correction was found, so the individual issue's Energy DR 4 remains canonical for the Issue #3 identity and the collection is not marked as an identical appearance. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "Security Drone, Protectron changes Energy DR from 4 (All) to 3 (All). Owner decision 2026-10-01 makes the 2024 collected edition authoritative; Energy DR 3 is applied."
       },
       {
         "sourcePage": 22,
         "collectionPage": 62,
         "scope": "approved_project_correction",
-        "difference": "The collection replaces the individual issue's fully armed Super Mutant profile with an Abomination profile that keeps the same base SPECIAL/skills but only the Unarmed Strike attack and a different inventory (Board, Scrapped and Damaged Armor, assorted human bones, Wealth 1). No prior project approval was found, so the Issue #3 Super Mutant remains a distinct 2023 variant and the existing collection Abomination remains a separate identity. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "The collection replaces the individual issue's Super Mutant with an Abomination profile using the same base SPECIAL/skills but only Unarmed Strike and Inventory: Board, Scrapped and Damaged Armor, assorted human bones, Wealth 1. Owner decision 2026-10-01 makes the 2024 Abomination authoritative; the 2023 Super Mutant is retained only as a historical source variant."
       },
       {
         "sourcePage": 23,
@@ -565,7 +565,7 @@
         "sourcePage": 26,
         "collectionPage": 66,
         "scope": "approved_project_correction",
-        "difference": "Skull Canyon Zetan changes from Mutated Reptile, Normal Creature (45 XP) in the 2023 issue to Mutated Alien, Normal Creature (38 XP) in the 2024 collection; the collection also adds that Xarn and Nok are Mighty Creatures with +2 Mind. No prior project approval for these mechanical changes was found, so the 2023 profile remains canonical and the collection is not marked identical for this Actor. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "Skull Canyon Zetan changes from Mutated Reptile, 45 XP to Mutated Alien, 38 XP; Xarn and Nok are identified as Mighty Creatures with +2 Mind. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the base Zetan profile is corrected, while Xarn/Nok remain scenario-specific incomplete variant guidance."
       },
       {
         "sourcePage": 26,
@@ -577,7 +577,7 @@
         "sourcePage": 27,
         "collectionPage": 67,
         "scope": "approved_project_correction",
-        "difference": "The collection replaces the individual issue's round/excess-attempt reinforcement wording with breakthrough-count tables and adds a concrete Sally Jessup profile based on the Core Mercenary stat block (+2 STR/END/AGI, HP 18, Defense 2, 90 XP). No prior project approval for these collection-only mechanical additions was found, so they are not integrated into the 2023 source inventory. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
+        "difference": "The collection replaces the individual issue's reinforcement wording with breakthrough-count tables and adds a complete Sally Jessup profile derived from the Core Mercenary (+2 STR/END/AGI, HP 18, Defense 2, 90 XP). Owner decision 2026-10-01 makes the 2024 edition authoritative; Sally is integrated and the reinforcement scaling remains scenario procedure outside reusable compendium scope."
       },
       {
         "sourcePage": 28,
