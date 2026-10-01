@@ -11,13 +11,15 @@ async function documents(language, pack) {
 const byId = (list, id) => list.find(document => document._id === id);
 const source = document => document.flags?.["fallout2d20-compendium"]?.source;
 
-test("AAT #3 checkpoint is limited to source pages 1-15 and has no fake RollTable", () => {
-  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]);
-  assert.deepEqual(catalog.checkpoint.nextSourcePages, [16,17,18,19]);
+test("AAT #3 checkpoint is limited to source pages 1-19 and has no fake RollTable", () => {
+  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
+  assert.deepEqual(catalog.checkpoint.nextSourcePages, [20,21,22,23]);
   assert.equal(catalog.rollTables.length, 0);
-  assert.ok(catalog.pageReview.every(entry => entry.page <= 15));
-  assert.equal(catalog.pageReview.find(entry => entry.page === 13)?.status, "out_of_scope");
-  assert.equal(catalog.pageReview.find(entry => entry.page === 15)?.status, "out_of_scope");
+  assert.ok(catalog.pageReview.every(entry => entry.page <= 19));
+  assert.equal(catalog.pageReview.find(entry => entry.page === 16)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 17)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 18)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 19)?.status, "existing_reuse");
 });
 
 test("AAT #3 p.8 Wastelander is a distinct mechanical variant", async () => {
@@ -155,4 +157,38 @@ test("AAT #3 pp.12-15 collection divergences remain explicit unless already appr
   assert.ok(diffs.some(entry => entry.sourcePage === 14 && entry.collectionPage === 56 && entry.scope === "open_arbitration" && /LUC/.test(entry.difference)));
   assert.ok(catalog.openArbitrations.some(entry => /Twinjaw Rattler/.test(entry)));
   assert.ok(catalog.openArbitrations.some(entry => /NCR Trooper/.test(entry)));
+});
+
+
+test("AAT #3 pp.16-19 create no duplicate reusable identities and keep p.12 Twinjaw provenance", async () => {
+  assert.equal(catalog.candidates.filter(entry => entry.page >= 16 && entry.page <= 19).length, 0);
+  const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
+  for (const actor of [byId(en,"1b4ce0097ed5198a"), byId(fr,"1b4ce0097ed5198a")]) {
+    assert.ok(actor);
+    assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
+    assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
+    assert.equal(source(actor).page, 12);
+    assert.equal(actor.system.butchery.tn, 1);
+    assert.equal(actor.system.butchery.common, 2);
+    const yieldItem = actor.items.find(item => item.flags?.["fallout2d20-compendium"]?.embeddedYield);
+    assert.ok(yieldItem);
+    assert.equal(yieldItem.flags["fallout2d20-compendium"].canonicalItemId, "5a66ba7e1ed41064");
+  }
+});
+
+test("AAT #3 pp.16-19 collection differences stay narrative-only and unapplied", () => {
+  const diffs = catalog.collectionReview.verifiedDifferences;
+  const p16 = diffs.find(entry => entry.sourcePage === 16);
+  const p17 = diffs.find(entry => entry.sourcePage === 17);
+  const p19 = diffs.find(entry => entry.sourcePage === 19);
+  assert.equal(p16?.collectionPage, 58);
+  assert.equal(p17?.collectionPage, 59);
+  assert.equal(p19?.collectionPage, 60);
+  assert.equal(p16?.scope, "out_of_scope");
+  assert.equal(p17?.scope, "out_of_scope");
+  assert.equal(p19?.scope, "out_of_scope");
+  assert.match(p16?.difference ?? "", /critical success/);
+  assert.match(p16?.difference ?? "", /PER \+ Sneak/);
+  assert.match(p19?.difference ?? "", /unaware/);
+  assert.match(p19?.difference ?? "", /Sneak Attack/);
 });
