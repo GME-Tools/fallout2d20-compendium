@@ -1,10 +1,10 @@
 {
   "_id": "AAT3SuperMutP022",
   "type": "npc",
-  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Super%20Mutant.webp",
   "token": {
     "name": "Super Mutant (AAT #3)",
-    "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+    "img": "modules/fallout2d20-compendium/artwork/Creatures/Super%20Mutant.webp",
     "displayName": 40,
     "actorLink": false,
     "width": 1,
@@ -60,9 +60,9 @@
         "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 3.",
-        "artworkSharingGroup": "aat-3-official-cover",
-        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+        "artworkSource": "Repository-reviewed Fallout illustration reused from the Core Super Mutant identity.",
+        "artworkSharingGroup": "core-super-mutant-artwork",
+        "artworkSharingJustification": "The historical 2023 profile is explicitly a Super Mutant; the Core Super Mutant illustration is representative even though the mechanics are a distinct source variant."
       }
     }
   },
