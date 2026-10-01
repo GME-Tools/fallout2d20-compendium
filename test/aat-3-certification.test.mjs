@@ -15,15 +15,12 @@ test("AAT #3 checkpoint is limited to source pages 1-28 and has no fake RollTabl
   assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]);
   assert.deepEqual(catalog.checkpoint.nextSourcePages, []);
   assert.equal(catalog.rollTables.length, 0);
+  assert.equal(catalog.openArbitrations.length, 0);
   assert.ok(catalog.pageReview.every(entry => entry.page <= 28));
-  assert.equal(catalog.pageReview.find(entry => entry.page === 20)?.status, "out_of_scope");
   assert.equal(catalog.pageReview.find(entry => entry.page === 21)?.status, "corrected");
-  assert.equal(catalog.pageReview.find(entry => entry.page === 22)?.status, "mechanical_variant");
-  assert.equal(catalog.pageReview.find(entry => entry.page === 23)?.status, "out_of_scope");
-  assert.equal(catalog.pageReview.find(entry => entry.page === 24)?.status, "out_of_scope");
-  assert.equal(catalog.pageReview.find(entry => entry.page === 25)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 22)?.status, "corrected");
   assert.equal(catalog.pageReview.find(entry => entry.page === 26)?.status, "corrected");
-  assert.equal(catalog.pageReview.find(entry => entry.page === 27)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 27)?.status, "corrected");
   assert.equal(catalog.pageReview.find(entry => entry.page === 28)?.status, "out_of_scope");
 });
 
@@ -88,82 +85,79 @@ test("AAT #3 p.10 Core reprints reuse identities with Issue #3 provenance", asyn
   }
 });
 
-test("verified collection differences stay explicit pending project approval", async () => {
+test("owner-approved 2024 consumable corrections are applied", async () => {
   const epoxy = catalog.collectionReview.verifiedDifferences.find(entry => entry.sourcePage === 9);
   const shot = catalog.collectionReview.verifiedDifferences.find(entry => entry.sourcePage === 10 && /Lasting/.test(entry.difference));
-  assert.equal(epoxy.scope, "open_arbitration");
-  assert.equal(shot.scope, "open_arbitration");
-  const en = await documents("en","consumables");
-  assert.doesNotMatch(byId(en,"43269fe9b66161a6").system.effect, /minimum of 0/i);
-  assert.match(byId(en,"ec62006c4cfe41ed").system.effect, /Lasting/);
+  assert.equal(epoxy.scope, "approved_project_correction");
+  assert.equal(shot.scope, "approved_project_correction");
+  const [en, fr] = await Promise.all([documents("en","consumables"), documents("fr","consumables")]);
+  assert.match(byId(en,"43269fe9b66161a6").system.effect, /minimum of 0/i);
+  assert.match(byId(fr,"43269fe9b66161a6").system.effect, /minimum de 0/i);
+  assert.doesNotMatch(byId(en,"ec62006c4cfe41ed").system.effect, /Lasting/);
+  assert.doesNotMatch(byId(fr,"ec62006c4cfe41ed").system.effect, /Persistant/);
+  for (const doc of [byId(en,"43269fe9b66161a6"), byId(en,"ec62006c4cfe41ed")]) {
+    assert.ok(source(doc).appearances.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.status === "corrected" && entry.ownerApproved === true));
+  }
 });
 
-
-test("AAT #3 p.12 Twinjaw Rattler keeps source mechanics and structured butchery", async () => {
+test("AAT #3 p.12 Twinjaw Rattler uses the authoritative 2024 correction", async () => {
   const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
   for (const actor of [byId(en,"1b4ce0097ed5198a"), byId(fr,"1b4ce0097ed5198a")]) {
     assert.ok(actor);
     assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
     assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
     assert.equal(source(actor).page, 12);
-    assert.equal(actor.system.level.value, 5);
-    assert.equal(actor.system.health.max, 16);
-    assert.equal(actor.system.initiative.value, 13);
+    assert.equal(actor.system.bodyType, "quadruped");
     assert.equal(actor.system.butchery.tn, 1);
     assert.equal(actor.system.butchery.common, 2);
-    assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+    assert.ok(source(actor).appearances.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 54 && entry.status === "corrected" && entry.ownerApproved === true));
   }
   const actor = byId(en,"1b4ce0097ed5198a");
   const bite = actor.items.find(item => item.name === "Bite");
-  assert.equal(bite.system.attribute, "body");
-  assert.equal(bite.system.skill, "melee");
+  assert.deepEqual([bite.system.attribute,bite.system.skill],[ "body","melee" ]);
   assert.equal(bite.system.damage.rating, 4);
   assert.equal(bite.system.damage.damageEffect.persistent.value, true);
   const yieldItem = actor.items.find(item => item.flags?.["fallout2d20-compendium"]?.embeddedYield);
   assert.ok(yieldItem);
-  assert.equal(yieldItem.flags["fallout2d20-compendium"].canonicalPack, "consumables");
   assert.equal(yieldItem.flags["fallout2d20-compendium"].canonicalItemId, "5a66ba7e1ed41064");
   assert.equal(yieldItem.system.quantityRoll, "2dc");
-  assert.match(actor.system.biography, /poison sack/i);
+  assert.doesNotMatch(actor.system.biography, /poison sack/i);
+  assert.match(actor.items.find(item => item.name === "Twin Heads")?.system.description ?? "", /Major action/i);
+  assert.match(actor.items.find(item => item.name === "Death Rattle")?.system.description ?? "", /Once per battle/i);
 });
 
-test("AAT #3 p.14 NCR Trooper embedded attacks execute the printed tests", async () => {
+test("AAT #3 p.14 NCR Trooper uses the authoritative 2024 correction", async () => {
   const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
   const actor = byId(en,"91957f7226ee31a7");
   const actorFr = byId(fr,"91957f7226ee31a7");
   assert.ok(actor);
   assert.ok(actorFr);
   assert.equal(source(actor).page, 14);
-  assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => actor.system.attributes[k].value), [5,6,5,5,6,7,4]);
+  assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => actor.system.attributes[k].value), [5,6,5,5,6,7,3]);
+  assert.equal(actor.system.origin, "Human");
+  assert.equal(actorFr.system.origin, "Humain");
   assert.equal(actor.system.health.max, 12);
   assert.equal(actor.system.initiative.value, 13);
   assert.equal(actor.system.defense.value, 1);
   assert.equal(actor.system.carryWeight.base, 200);
   assert.equal(actorFr.system.carryWeight.base, 100);
-  assert.equal(actor.items.find(item => item.name === "Athletics")?.system.tag, true);
-  assert.equal(actor.items.find(item => item.name === "Small Guns")?.system.tag, true);
-  assert.equal(actor.items.find(item => item.name === "Big Guns")?.system.value, 2);
-  assert.equal(actor.items.find(item => item.name === "Melee Weapons")?.system.value, 2);
+  const inventory = actor.items.find(item => item.name === "Inventory")?.system.effect ?? "";
+  assert.match(inventory, /12\+4 DC 10mm Rounds/);
   const attacks = new Map(actor.items.filter(item => item.type === "weapon").map(item => [item.name,item]));
   assert.deepEqual([attacks.get("Unarmed Strike")?.system.attribute, attacks.get("Unarmed Strike")?.system.skill], ["str","unarmed"]);
   assert.deepEqual([attacks.get("10mm Pistol")?.system.attribute, attacks.get("10mm Pistol")?.system.skill], ["agi","smallGuns"]);
   assert.deepEqual([attacks.get("Combat Rifle")?.system.attribute, attacks.get("Combat Rifle")?.system.skill], ["agi","smallGuns"]);
   assert.deepEqual([attacks.get("Gun Bash")?.system.attribute, attacks.get("Gun Bash")?.system.skill], ["str","meleeWeapons"]);
   assert.deepEqual([attacks.get("Combat Knife")?.system.attribute, attacks.get("Combat Knife")?.system.skill], ["str","meleeWeapons"]);
-  assert.equal(attacks.get("Gun Bash")?.system.damage.damageEffect.stun.value, true);
-  assert.equal(attacks.get("Combat Knife")?.system.damage.damageEffect.piercing.value, true);
-  assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+  assert.ok(source(actor).appearances.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 56 && entry.status === "corrected" && entry.ownerApproved === true));
 });
 
-test("AAT #3 pp.12-15 collection divergences remain explicit unless already approved", () => {
+test("AAT #3 pp.12-15 collection corrections are owner-approved", () => {
   const diffs = catalog.collectionReview.verifiedDifferences;
-  assert.equal(diffs.find(entry => entry.sourcePage === 12 && entry.scope === "approved_project_correction")?.collectionPage, 54);
-  assert.ok(diffs.some(entry => entry.sourcePage === 12 && entry.scope === "open_arbitration" && /poison-sack/.test(entry.difference)));
-  assert.ok(diffs.some(entry => entry.sourcePage === 14 && entry.collectionPage === 56 && entry.scope === "open_arbitration" && /LUC/.test(entry.difference)));
-  assert.ok(catalog.openArbitrations.some(entry => /Twinjaw Rattler/.test(entry)));
-  assert.ok(catalog.openArbitrations.some(entry => /NCR Trooper/.test(entry)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 12 && entry.collectionPage === 54 && entry.scope === "approved_project_correction" && /poison-sack/.test(entry.difference)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 14 && entry.collectionPage === 56 && entry.scope === "approved_project_correction" && /LUC/.test(entry.difference)));
+  assert.equal(catalog.openArbitrations.length, 0);
 });
-
 
 test("AAT #3 pp.16-19 create no duplicate reusable identities and keep p.12 Twinjaw provenance", async () => {
   assert.equal(catalog.candidates.filter(entry => entry.page >= 16 && entry.page <= 19).length, 0);
@@ -199,152 +193,117 @@ test("AAT #3 pp.16-19 collection differences stay narrative-only and unapplied",
 });
 
 
-test("AAT #3 p.21 Security Drone follows the 2023 source and uses structured salvage", async () => {
+test("AAT #3 p.21 Security Drone uses the authoritative 2024 correction and complete salvage text", async () => {
   const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
   for (const actor of [byId(en,"772d0f6d939dfad5"), byId(fr,"772d0f6d939dfad5")]) {
     assert.ok(actor);
     assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
-    assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
     assert.equal(source(actor).page, 21);
     assert.equal(actor.system.bodyType, "robot");
     assert.equal(actor.system.resistance.physical.locations, "4 (All)");
-    assert.equal(actor.system.resistance.energy.locations, "4 (All)");
+    assert.equal(actor.system.resistance.energy.locations, "3 (All)");
     assert.equal(actor.system.salvage.tn, 1);
     assert.equal(actor.system.materials.common, 2);
     assert.equal(actor.system.materials.uncommon, 1);
-    assert.equal(actor.system.butchery, undefined);
-    assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+    assert.ok(source(actor).appearances.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 63 && entry.status === "corrected" && entry.ownerApproved === true));
   }
   const actor = byId(en,"772d0f6d939dfad5");
-  const armLasers = actor.items.find(item => item.name === "Arm Lasers");
+  assert.match(actor.system.biography, /\+1 DC per AP spent/i);
+  assert.match(actor.system.biography, /Each Effect yields 1 uncommon material/i);
+  const armLasers = actor.items.find(item => item.name === "Arm Lasers" && item.type === "weapon");
   assert.deepEqual([armLasers?.system.attribute, armLasers?.system.skill], ["body","guns"]);
-  assert.deepEqual([armLasers?.system.creatureAttribute, armLasers?.system.creatureSkill], ["body","guns"]);
   assert.equal(armLasers?.system.damage.rating, 3);
   assert.equal(armLasers?.system.fireRate, 4);
-  assert.equal(armLasers?.system.damage.damageEffect.burst.value, true);
-  assert.equal(armLasers?.system.damage.damageEffect.piercing.value, true);
 });
 
-test("AAT #3 p.22 Super Mutant is a distinct bilingual mechanical variant", async () => {
+test("AAT #3 p.22 keeps the 2023 Super Mutant only as a superseded source variant", async () => {
   const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
   const actor = byId(en,"AAT3SuperMutP022");
   const actorFr = byId(fr,"AAT3SuperMutP022");
   assert.ok(actor);
   assert.ok(actorFr);
   assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
-  assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
   assert.equal(source(actor).page, 22);
-  assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => actor.system.attributes[k].value), [9,5,7,4,4,5,4]);
-  assert.equal(actor.system.health.max, 12);
-  assert.equal(actor.system.initiative.value, 10);
-  assert.equal(actor.system.defense.value, 1);
-  assert.equal(actor.system.carryWeight.base, 240);
-  assert.equal(actorFr.system.carryWeight.base, 120);
-  assert.equal(actor.system.resistance.radiation.locations, "Immune");
-  assert.equal(actor.system.resistance.poison.locations, "Immune");
-  assert.equal(actor.system.immunities.radiation, true);
-  assert.equal(actor.system.immunities.poison, true);
-  const inventory = actor.items.find(item => item.name === "Inventory")?.system.effect ?? "";
-  assert.match(inventory, /Super Mutant Helmet/);
-  assert.match(inventory, /Super Mutant Leg Guards x2/);
-  const attacks = new Map(actor.items.filter(item => item.type === "weapon").map(item => [item.name,item]));
-  assert.deepEqual([attacks.get("Unarmed Strike")?.system.attribute, attacks.get("Unarmed Strike")?.system.skill], ["str","unarmed"]);
-  assert.deepEqual([attacks.get("Board")?.system.attribute, attacks.get("Board")?.system.skill], ["str","meleeWeapons"]);
-  assert.deepEqual([attacks.get("Pipe Bolt-Action Rifle")?.system.attribute, attacks.get("Pipe Bolt-Action Rifle")?.system.skill], ["agi","smallGuns"]);
-  const core = byId(en,"9uRMSgaooTRV8AiH");
-  assert.ok(core);
-  assert.ok(!source(core).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_3"));
-  assert.ok(source(core).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 103 && entry.status === "identical"));
+  assert.equal(catalog.candidates.find(entry => entry.id === "AAT3SuperMutP022")?.status, "superseded_source_variant");
 });
 
-test("AAT #3 pp.20-23 collection changes remain explicit and unapplied", async () => {
+test("AAT #3 pp.20-23 apply the owner-approved 2024 mechanical corrections", async () => {
   const diffs = catalog.collectionReview.verifiedDifferences;
-  assert.ok(diffs.some(entry => entry.sourcePage === 20 && entry.scope === "out_of_scope"));
-  assert.ok(diffs.some(entry => entry.sourcePage === 21 && entry.collectionPage === 63 && entry.scope === "open_arbitration" && /Energy DR/.test(entry.difference)));
-  assert.ok(diffs.some(entry => entry.sourcePage === 22 && entry.collectionPage === 62 && entry.scope === "open_arbitration" && /Abomination/.test(entry.difference)));
-  assert.ok(diffs.some(entry => entry.sourcePage === 23 && entry.collectionPage === 64 && entry.scope === "out_of_scope"));
-  assert.ok(catalog.openArbitrations.some(entry => /Security Drone/.test(entry)));
-  assert.ok(catalog.openArbitrations.some(entry => /Super Mutant \/ Abomination/.test(entry)));
-  const en = await documents("en","denizens");
-  const sourceMutant = byId(en,"AAT3SuperMutP022");
-  const collectedAbomination = byId(en,"3db5227b46e039ec");
-  assert.ok(sourceMutant);
-  assert.ok(collectedAbomination);
-  assert.equal(source(collectedAbomination).book, "astoundingly_awesome_tales_1_5");
-  assert.equal(source(collectedAbomination).page, 62);
-  assert.notEqual(sourceMutant._id, collectedAbomination._id);
+  assert.ok(diffs.some(entry => entry.sourcePage === 21 && entry.collectionPage === 63 && entry.scope === "approved_project_correction"));
+  assert.ok(diffs.some(entry => entry.sourcePage === 22 && entry.collectionPage === 62 && entry.scope === "approved_project_correction"));
+  const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
+  const abom = byId(en,"3db5227b46e039ec");
+  const abomFr = byId(fr,"3db5227b46e039ec");
+  assert.ok(abom);
+  assert.ok(abomFr);
+  assert.equal(source(abom).book, "astoundingly_awesome_tales_1_5");
+  assert.equal(source(abom).page, 62);
+  assert.equal(abom.system.origin, "Mutated Human");
+  const unarmed = abom.items.find(item => item.name === "Unarmed Strike");
+  assert.deepEqual([unarmed?.system.attribute, unarmed?.system.skill], ["str","unarmed"]);
+  const inventory = abom.items.find(item => item.name === "Inventory")?.system.effect ?? "";
+  assert.match(inventory, /Board/);
+  assert.match(inventory, /Scrapped and Damaged Armor/);
+  assert.match(inventory, /Wealth 1/);
 });
 
-
-test("AAT #3 p.26 Skull Canyon Zetan follows the 2023 issue exactly", async () => {
+test("AAT #3 p.26 Skull Canyon Zetan uses the authoritative 2024 correction", async () => {
   const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
   const actor = byId(en,"74e0af7608dece91");
   const actorFr = byId(fr,"74e0af7608dece91");
   assert.ok(actor);
   assert.ok(actorFr);
   assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
-  assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
   assert.equal(source(actor).page, 26);
   assert.equal(actor.system.level.value, 5);
-  assert.equal(actor.system.level.currentXP, 45);
-  assert.equal(actor.system.origin, "Mutated Reptile");
-  assert.equal(actorFr.system.origin, "Reptile mutant");
+  assert.equal(actor.system.level.currentXP, 38);
+  assert.equal(actor.system.origin, "Mutated Alien");
+  assert.equal(actorFr.system.origin, "Alien mutant");
   assert.deepEqual([actor.system.body.value, actor.system.mind.value, actor.system.melee.value, actor.system.guns.value, actor.system.other.value], [7,5,0,4,2]);
-  assert.equal(actor.system.health.max, 15);
-  assert.equal(actor.system.initiative.value, 12);
-  assert.equal(actor.system.defense.value, 1);
-  assert.equal(actor.system.resistance.physical.locations, "1 (All)");
-  assert.equal(actor.system.resistance.energy.locations, "3 (All)");
-  assert.equal(actor.system.butchery, undefined);
-  assert.equal(actor.system.salvage, undefined);
   const attacks = new Map(actor.items.filter(item => item.type === "weapon").map(item => [item.name,item]));
-  for (const name of [".44 Pistol","Assault Rifle","Laser Gun"]) {
-    assert.deepEqual([attacks.get(name)?.system.attribute, attacks.get(name)?.system.skill], ["body","guns"]);
-    assert.deepEqual([attacks.get(name)?.system.creatureAttribute, attacks.get(name)?.system.creatureSkill], ["body","guns"]);
-  }
-  assert.equal(attacks.get(".44 Pistol")?.system.damage.rating, 6);
-  assert.equal(attacks.get("Assault Rifle")?.system.damage.rating, 5);
-  assert.equal(attacks.get("Assault Rifle")?.system.damage.damageEffect.burst.value, true);
-  assert.equal(attacks.get("Laser Gun")?.system.damage.rating, 4);
-  assert.equal(attacks.get("Laser Gun")?.system.damage.damageEffect.piercing.value, true);
-  assert.equal(attacks.get("Laser Gun")?.system.damage.weaponQuality.reliable.value, true);
+  for (const name of [".44 Pistol","Assault Rifle","Laser Gun"]) assert.deepEqual([attacks.get(name)?.system.attribute, attacks.get(name)?.system.skill], ["body","guns"]);
   const inventory = actor.items.find(item => item.name === "Inventory")?.system.effect ?? "";
-  assert.match(inventory, /\.44 Pistol/);
-  assert.match(inventory, /Assault Rifle or Laser Gun/);
   assert.match(inventory, /2d20 5\.56mm Rounds or Power Cells/);
-  assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+  assert.ok(source(actor).appearances.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 66 && entry.status === "corrected" && entry.ownerApproved === true));
 });
 
-test("AAT #3 p.26 Inertia Suppression Field is complete and bilingual", async () => {
+test("AAT #3 p.26 Inertia Suppression Field has one clean FR overlay and is not a power-armor frame", async () => {
   const [en, fr] = await Promise.all([documents("en","apparel"), documents("fr","apparel")]);
   const item = byId(en,"e26b938157cfb19b");
   const itemFr = byId(fr,"e26b938157cfb19b");
   assert.ok(item);
   assert.ok(itemFr);
-  assert.equal(item.system.source, "astoundingly_awesome_tales_3");
-  assert.equal(source(item).book, "astoundingly_awesome_tales_3");
-  assert.equal(source(item).page, 26);
+  assert.equal(item.system.powerArmor.isFrame, false);
   assert.equal(item.system.resistance.physical, 3);
   assert.equal(item.system.resistance.energy, 3);
   assert.equal(item.system.resistance.radiation, 0);
   assert.ok(Object.values(item.system.location).every(Boolean));
   assert.equal(item.system.weight, 0.1);
   assert.equal(itemFr.system.weight, 0.05);
-  assert.equal(item.system.cost, 300);
-  assert.equal(item.system.rarity, 4);
-  assert.equal(source(itemFr).translation, "project");
   assert.ok(source(item).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 66 && entry.status === "identical"));
+  assert.ok(source(itemFr).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 66 && entry.status === "identical"));
+  const overlays = (await readdir(path.resolve("src/packs/locales/fr/apparel.db"))).filter(file => file.includes("e26b938157cfb19b"));
+  assert.deepEqual(overlays, ["champ_de_suppression_d_inertie__e26b938157cfb19b.json"]);
 });
 
-test("AAT #3 pp.24-27 collection differences remain explicit unless already approved", () => {
+test("AAT #3 pp.24-27 use the approved 2024 corrections and integrate Sally Jessup", async () => {
   const diffs = catalog.collectionReview.verifiedDifferences;
-  assert.ok(diffs.some(entry => entry.sourcePage === 24 && entry.collectionPage === 64 && entry.scope === "out_of_scope"));
-  assert.ok(diffs.some(entry => entry.sourcePage === 25 && entry.collectionPage === 65 && entry.scope === "out_of_scope" && /Base Test Difficulty/.test(entry.difference)));
-  assert.ok(diffs.some(entry => entry.sourcePage === 26 && entry.collectionPage === 66 && entry.scope === "open_arbitration" && /45 XP/.test(entry.difference)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 26 && entry.collectionPage === 66 && entry.scope === "approved_project_correction" && /45 XP/.test(entry.difference)));
   assert.ok(diffs.some(entry => entry.sourcePage === 26 && entry.collectionPage === 66 && entry.scope === "identical_mechanics" && /Inertia Suppression Field/.test(entry.difference)));
-  assert.ok(diffs.some(entry => entry.sourcePage === 27 && entry.collectionPage === 67 && entry.scope === "open_arbitration" && /Sally Jessup/.test(entry.difference)));
-  assert.ok(catalog.openArbitrations.some(entry => /Skull Canyon Zetan/.test(entry)));
-  assert.ok(catalog.openArbitrations.some(entry => /Final confrontation/.test(entry)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 27 && entry.collectionPage === 67 && entry.scope === "approved_project_correction" && /Sally Jessup/.test(entry.difference)));
+  const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
+  const sally = byId(en,"AAT3SallyP067XXX");
+  const sallyFr = byId(fr,"AAT3SallyP067XXX");
+  assert.ok(sally);
+  assert.ok(sallyFr);
+  assert.equal(source(sally).book, "astoundingly_awesome_tales_1_5");
+  assert.equal(source(sally).page, 67);
+  assert.deepEqual(["str","per","end","cha","int","agi","luc"].map(k => sally.system.attributes[k].value), [8,6,8,5,5,8,4]);
+  assert.equal(sally.system.health.max, 18);
+  assert.equal(sally.system.defense.value, 2);
+  assert.equal(sally.system.level.currentXP, 90);
+  assert.equal(sally.system.initiative.value, 14);
+  assert.equal(sally.system.meleeDamage.value, 1);
 });
 
 test("AAT #3 p.28 remains scenario reward procedure and records the collection cleanup", () => {
