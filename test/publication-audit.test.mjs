@@ -69,7 +69,9 @@ test("provenance distinguishes an identical reprint from correction and mechanic
   base.document.flags["fallout2d20-compendium"].source.appearances = [{ book: "pilot_book", language: "en", edition: "en-1", status: "variant" }];
   assert.match(auditPublicationDocuments({ registry, records: [base] }).errors[0], /mechanical variant cannot be an appearance/);
   base.document.flags["fallout2d20-compendium"].source.appearances[0].status = "corrected";
-  assert.match(auditPublicationDocuments({ registry, records: [base] }).errors[0], /requires owner arbitration/);
+  assert.match(auditPublicationDocuments({ registry, records: [base] }).errors[0], /requires explicit owner approval/);
+  base.document.flags["fallout2d20-compendium"].source.appearances[0].ownerApproved = true;
+  assert.doesNotMatch(auditPublicationDocuments({ registry, records: [base] }).errors.join("\n"), /corrected re-edition/);
   base.document.flags["fallout2d20-compendium"].source.appearances[0].status = "identical";
   assert.doesNotMatch(auditPublicationDocuments({ registry, records: [base] }).errors.join("\n"), /appearance/);
 });

@@ -84,8 +84,8 @@ export function validateProvenance(document, { moduleId = "fallout2d20-compendiu
       fail(`${appearanceField}.edition`, `unknown edition ${JSON.stringify(appearance.edition)} for publication ${JSON.stringify(appearance.book)} and language ${JSON.stringify(appearance.language)}`);
     }
     if (appearance.status === "variant") fail(`${appearanceField}.status`, "mechanical variants require a distinct document id; a mechanical variant cannot be an appearance");
-    if (appearance.status === "corrected") fail(`${appearanceField}.status`, "corrected re-edition requires owner arbitration before changing the canonical document");
-    if (appearance.status !== "identical") fail(`${appearanceField}.status`, "must be \"identical\"; appearances are identical reprints only");
+    if (appearance.status === "corrected" && appearance.ownerApproved !== true) fail(`${appearanceField}.status`, "corrected re-edition requires explicit owner approval");
+    if (!["identical", "corrected"].includes(appearance.status)) fail(`${appearanceField}.status`, "must be \"identical\" or an owner-approved \"corrected\" re-edition");
     if (appearance.translation !== undefined && !TRANSLATIONS.has(appearance.translation)) fail(`${appearanceField}.translation`, "must be original, official, or project");
     const signature = `${appearance.book}/${appearance.edition}/${appearance.language}`;
     if (seen.has(signature)) fail(appearanceField, `duplicates secondary appearance ${JSON.stringify(signature)}`);

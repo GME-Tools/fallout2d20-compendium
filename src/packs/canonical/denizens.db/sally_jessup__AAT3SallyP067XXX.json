@@ -1,10 +1,10 @@
 {
-  "_id": "91957f7226ee31a7",
+  "_id": "AAT3SallyP067XXX",
   "type": "npc",
-  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+  "img": "icons/svg/mystery-man.svg",
   "token": {
-    "name": "NCR Trooper",
-    "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+    "name": "",
+    "img": "icons/svg/mystery-man.svg",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -35,7 +35,13 @@
     "bar2": {
       "attribute": ""
     },
-    "flags": {},
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
     "randomImg": false,
     "tint": null,
     "lightColor": null,
@@ -45,271 +51,23 @@
   },
   "items": [
     {
-      "_id": "b66e86611fec94a7",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 2,
-        "tag": true,
-        "defaultAttribute": "str",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "7c08bd0d720fd826",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 100000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 2,
-        "tag": false,
-        "defaultAttribute": "end",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "d185912a8af614d4",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 1,
-        "tag": false,
-        "defaultAttribute": "int",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "56faf0d766ad4e9a",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 2,
-        "tag": false,
-        "defaultAttribute": "str",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "6cd1d44abf11799a",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 400000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 1,
-        "tag": false,
-        "defaultAttribute": "int",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "14694bcd564ddaa3",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 500000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 3,
-        "tag": true,
-        "defaultAttribute": "agi",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "e4bfe4ae45c16f7e",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 600000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 1,
-        "tag": false,
-        "defaultAttribute": "agi",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "b4492c994a7544e3",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 700000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 1,
-        "tag": false,
-        "defaultAttribute": "cha",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "dafbf541555fc076",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 800000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 2,
-        "tag": false,
-        "defaultAttribute": "end",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "db1a97cd2574292f",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 900000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 1,
-        "tag": false,
-        "defaultAttribute": "agi",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "ae909f0137b7471e",
-      "type": "skill",
-      "img": "systems/fallout/assets/ico/thumb-up.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 1000000,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "value": 1,
-        "tag": false,
-        "defaultAttribute": "str",
-        "summary": ""
-      },
-      "ownership": {
-        "default": 0,
-        "U6A1xCj2ogp2gdEu": 3,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
+      "_id": "O0GOoAmCfcN8pf1i",
       "type": "weapon",
-      "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Unarmmed%20Strike.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_id": "c4098c7ee5071119",
+      "sort": -100000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
       "system": {
-        "description": "",
+        "description": null,
         "favorite": false,
         "cost": "0",
-        "quantity": 1,
+        "quantity": 0,
         "rarity": 0,
         "stashed": false,
         "equippable": true,
@@ -318,8 +76,8 @@
         "weaponType": "unarmed",
         "ammo": "",
         "ammoPerShot": 1,
-        "attribute": "str",
-        "skill": "unarmed",
+        "attribute": "",
+        "skill": "",
         "damage": {
           "rating": 2,
           "damageType": {
@@ -347,7 +105,7 @@
             "piercing": {
               "label": "Piercing",
               "value": false,
-              "rank": 1,
+              "rank": 0,
               "description": ""
             },
             "radioactive": {
@@ -460,27 +218,26 @@
         "mods": {
           "max": 0,
           "current": 0,
-          "list": ""
-        },
-        "source": "astoundingly_awesome_tales_3",
-        "creatureAttribute": "body",
-        "creatureSkill": "melee",
-        "weight": "0"
+          "list": null
+        }
       },
       "ownership": {
         "default": 0,
         "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
+      }
     },
     {
-      "type": "weapon",
-      "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+      "_id": "2TR0yWRaj0zGYgN8",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
       "effects": [],
       "folder": null,
-      "sort": 100000,
-      "flags": {},
-      "_id": "67a6214b08614c6e",
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.5jwQMeycCKWDROpB"
+        }
+      },
       "system": {
         "description": "",
         "favorite": false,
@@ -488,16 +245,301 @@
         "quantity": 1,
         "rarity": 0,
         "stashed": false,
+        "source": "core_rulebook"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "tCqXzXuEq8aG33Ad",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.kCGaEuF27yXyE04i"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": true,
+        "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "LXg2emQO5LvR1Rzb",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.R8YnBNUwhZhG89iQ"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "end",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "scbIXaQWTbCqlgfV",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.jAJPNJpHYawNBp2h"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "per",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "SgcgGpFd9GMQ4h1J",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.F4uIprrKWh9ApMaU"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "mdmalfeRdPgTMLFz",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.UZDBirrZeUxrAk7b"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 3,
+        "tag": true,
+        "defaultAttribute": "agi",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "dYaePJuuOrKl0L5y",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.UrVd0BmoXkAxmrvv"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "int",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "zRmZJxCQGUy2InSP",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.HEegw2EUmmEzfdDM"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 2,
+        "tag": true,
+        "defaultAttribute": "agi",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "wB2y97IRsPks0bgh",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.dOTrlwZ60XWqegQA"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "cha",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "kXJgvmqJqtu6VNkz",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.p3GhRmIwrYTJmuhr"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "end",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "CUqkWopyc1PZg77A",
+      "type": "skill",
+      "img": "systems/fallout/assets/ico/thumb-up.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fallout2d20-compendium.{language}-skills.Item.5xAG0eRrcvDeJAFk"
+        }
+      },
+      "system": {
+        "description": "",
+        "favorite": false,
+        "value": 1,
+        "tag": false,
+        "defaultAttribute": "str",
+        "summary": ""
+      },
+      "ownership": {
+        "default": 0,
+        "U6A1xCj2ogp2gdEu": 3,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "xlqotTvCXVWMY9Ew",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Combat_rifleFO4.webp",
+      "effects": [],
+      "folder": null,
+      "sort": -75000,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        }
+      },
+      "system": {
+        "favorite": false,
+        "cost": "117",
+        "quantity": 1,
+        "rarity": 2,
+        "stashed": false,
         "equippable": true,
         "equipped": false,
         "melee": false,
         "weaponType": "smallGuns",
-        "ammo": "",
+        "ammo": ".45 Rounds",
         "ammoPerShot": 1,
-        "attribute": "agi",
-        "skill": "smallGuns",
+        "attribute": "",
+        "skill": "",
         "damage": {
-          "rating": 4,
+          "rating": 2,
           "damageType": {
             "physical": true,
             "energy": false,
@@ -523,183 +565,7 @@
             "piercing": {
               "label": "Piercing",
               "value": false,
-              "rank": 1,
-              "description": ""
-            },
-            "radioactive": {
-              "label": "Radioactive",
-              "value": false,
-              "description": ""
-            },
-            "spread": {
-              "label": "Spread",
-              "value": false,
-              "description": ""
-            },
-            "stun": {
-              "label": "Stun",
-              "value": false,
-              "description": ""
-            },
-            "vicious": {
-              "label": "Vicious",
-              "value": false,
-              "description": ""
-            }
-          },
-          "weaponQuality": {
-            "accurate": {
-              "label": "Accurate",
-              "value": false,
-              "description": ""
-            },
-            "blast": {
-              "label": "Blast",
-              "value": false,
-              "description": ""
-            },
-            "closeQuarters": {
-              "label": "Close Quarters",
-              "value": true,
-              "description": ""
-            },
-            "concealed": {
-              "label": "Concealed",
-              "value": false,
-              "description": ""
-            },
-            "debilitating": {
-              "label": "Debilitating",
-              "value": false,
-              "description": ""
-            },
-            "gatling": {
-              "label": "Gatling",
-              "value": false,
-              "description": ""
-            },
-            "inaccurate": {
-              "label": "Inaccurate",
-              "value": false,
-              "description": ""
-            },
-            "mine": {
-              "label": "Mine",
-              "value": false,
-              "description": ""
-            },
-            "nightVision": {
-              "label": "Night Vision",
-              "value": false,
-              "description": ""
-            },
-            "parry": {
-              "label": "Parry",
-              "value": false,
-              "description": ""
-            },
-            "recon": {
-              "label": "Recon",
-              "value": false,
-              "description": ""
-            },
-            "reliable": {
-              "label": "Reliable",
-              "value": true,
-              "description": ""
-            },
-            "suppressed": {
-              "label": "Suppressed",
-              "value": false,
-              "description": ""
-            },
-            "thrown": {
-              "label": "Thrown",
-              "value": false,
-              "description": ""
-            },
-            "twoHanded": {
-              "label": "Two-Handed",
-              "value": false,
-              "description": ""
-            },
-            "unreliable": {
-              "label": "Unreliable",
-              "value": false,
-              "description": ""
-            }
-          }
-        },
-        "range": "close",
-        "fireRate": 2,
-        "condition": "",
-        "mods": {
-          "max": 0,
-          "current": 0,
-          "list": ""
-        },
-        "source": "astoundingly_awesome_tales_3",
-        "creatureAttribute": "body",
-        "creatureSkill": "melee",
-        "weight": "0"
-      },
-      "ownership": {
-        "default": 0,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "type": "weapon",
-      "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "flags": {},
-      "_id": "473e41340c9a876c",
-      "system": {
-        "description": "",
-        "favorite": false,
-        "cost": "0",
-        "quantity": 1,
-        "rarity": 0,
-        "stashed": false,
-        "equippable": true,
-        "equipped": false,
-        "melee": false,
-        "weaponType": "smallGuns",
-        "ammo": "",
-        "ammoPerShot": 1,
-        "attribute": "agi",
-        "skill": "smallGuns",
-        "damage": {
-          "rating": 5,
-          "damageType": {
-            "physical": true,
-            "energy": false,
-            "radiation": false,
-            "poison": false
-          },
-          "damageEffect": {
-            "burst": {
-              "label": "Burst",
-              "value": false,
-              "description": ""
-            },
-            "breaking": {
-              "label": "Breaking",
-              "value": false,
-              "description": ""
-            },
-            "persistent": {
-              "label": "Persistent",
-              "value": false,
-              "description": ""
-            },
-            "piercing": {
-              "label": "Piercing",
-              "value": false,
-              "rank": 1,
+              "rank": 0,
               "description": ""
             },
             "radioactive": {
@@ -810,63 +676,44 @@
         "fireRate": 2,
         "condition": "",
         "mods": {
-          "max": 0,
+          "max": 6,
           "current": 0,
-          "list": ""
-        },
-        "source": "astoundingly_awesome_tales_3",
-        "creatureAttribute": "body",
-        "creatureSkill": "melee",
-        "weight": "0"
+          "list": "<p><span class=\"fontstyle0\">A Combat Rifle can accept one each of the following mods:</span></p>\n<p><span class=\"fontstyle3\"><strong>Receiver:</strong> @Compendium[fallout2d20-compendium.weapon-mods.lZXmmJghkwx2Cfth]{Calibrated}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.6BSZSiI20H86MtAb]{Hardened}, @Compendium[fallout2d20-compendium.weapon-mods.WCJ0QR5lOk9qBuxo]{Automatic}, @Compendium[fallout2d20-compendium.weapon-mods.pNv4YuXn6LxkcLnj]{Hair Trigger}, @Compendium[fallout2d20-compendium.weapon-mods.7EV6l9KqHJ6KJpQi]{Powerful}, @Compendium[fallout2d20-compendium.weapon-mods.hXHvlCvphIQ8x4be]{Advanced}</span>, @Compendium[fallout2d20-compendium.weapon-mods.aGA8OrDQbWtDLvim]{.38 Receiver}, @Compendium[fallout2d20-compendium.weapon-mods.TPOttLy9XWIZ5c2g]{.308 Receiver}<span class=\"fontstyle0\">.</span></p>\n<p>&nbsp;</p>\n<p><strong><span class=\"fontstyle3\">Barrel: </span></strong><span class=\"fontstyle3\">@Compendium[fallout2d20-compendium.weapon-mods.6py6TtlkeywhWQl1]{Long Barrel}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.cvoae6Grdf6NGVM4]{Ported Barrel}, @Compendium[fallout2d20-compendium.weapon-mods.ww3t5WpfftCxGRsb]{Vented Barrel}</span></p>\n<p>&nbsp;</p>\n<p><span class=\"fontstyle3\"><strong>Stock:</strong> @Compendium[fallout2d20-compendium.weapon-mods.ryaBZCITyZP3DoOP]{Full Stock}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.GcvxfPv8mm8bpxM7]{Marksman's Stock}, @Compendium[fallout2d20-compendium.weapon-mods.esTu2kHbvyxBdSFV]{Recoil Compensating Stock}</span></p>\n<p>&nbsp;</p>\n<p><span class=\"fontstyle3\"><strong>Magazine:</strong> @Compendium[fallout2d20-compendium.weapon-mods.COx7kAmBX5tY55ty]{Large Magazine}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.lcYV8De9jKX8legK]{Quick-Eject Magazine}, @Compendium[fallout2d20-compendium.weapon-mods.eTh6sOdMe4xVwPOj]{Large Quick-Eject Magazine}</span></p>\n<p>&nbsp;</p>\n<p><span class=\"fontstyle3\"><strong>Sights:</strong> @Compendium[fallout2d20-compendium.weapon-mods.WZAnlfreDNUAaX4Y]{Reflex Sight}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.9IW2T8sgBoIzzxn8]{Short Scope}, @Compendium[fallout2d20-compendium.weapon-mods.0mBcFGCDPdhVRPsP]{Long Scope}, @Compendium[fallout2d20-compendium.weapon-mods.aQLTpQYLnuRen9xP]{Short Night Vision Scope}, @Compendium[fallout2d20-compendium.weapon-mods.HXoyLcCUhPOtbnse]{Long Night Vision Scope}, @Compendium[fallout2d20-compendium.weapon-mods.K8ZOSxg9heUurjsM]{Recon Scope}</span></p>\n<p>&nbsp;</p>\n<p><span class=\"fontstyle3\"><strong>Muzzle:</strong> @Compendium[fallout2d20-compendium.weapon-mods.cjhhUXRxUhsF8kUZ]{Bayonet}, @Compendium[fallout2d20-compendium.weapon-mods.yc9XrK9oHlAwskcS]{Compensator}</span><span class=\"fontstyle0\">, @Compendium[fallout2d20-compendium.weapon-mods.pjfCBe11xshHLSZP]{Suppressor}</span></p>"
+        }
       },
       "ownership": {
         "default": 0,
         "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "_id": "9e15b13fa21c79b7",
-      "type": "special_ability",
-      "img": "icons/svg/aura.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "system": {
-        "description": "",
-        "favorite": false,
-        "source": "astoundingly_awesome_tales_3"
-      },
-      "ownership": {
-        "default": 0
       }
     },
     {
+      "_id": "yMYdVzXOmvX5WQEN",
       "type": "weapon",
-      "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Double-barrel_shotgun_%2528Fallout_4%2529.webp",
       "effects": [],
       "folder": null,
-      "sort": 300000,
-      "flags": {},
-      "_id": "a7e7702f0d23f35c",
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        }
+      },
       "system": {
-        "description": "",
         "favorite": false,
-        "cost": "0",
+        "cost": "39",
         "quantity": 1,
-        "rarity": 0,
+        "rarity": 1,
         "stashed": false,
         "equippable": true,
         "equipped": false,
         "melee": false,
-        "weaponType": "meleeWeapons",
-        "ammo": "",
+        "weaponType": "smallGuns",
+        "ammo": "Shotgun Shells",
         "ammoPerShot": 1,
-        "attribute": "str",
-        "skill": "meleeWeapons",
+        "attribute": "agi",
+        "skill": "smallGuns",
         "damage": {
-          "rating": 3,
+          "rating": 6,
           "damageType": {
             "physical": true,
             "energy": false,
@@ -892,7 +739,182 @@
             "piercing": {
               "label": "Piercing",
               "value": false,
-              "rank": 1,
+              "rank": 0,
+              "description": ""
+            },
+            "radioactive": {
+              "label": "Radioactive",
+              "value": false,
+              "description": ""
+            },
+            "spread": {
+              "label": "Spread",
+              "value": true,
+              "description": ""
+            },
+            "stun": {
+              "label": "Stun",
+              "value": false,
+              "description": ""
+            },
+            "vicious": {
+              "label": "Vicious",
+              "value": true,
+              "description": ""
+            }
+          },
+          "weaponQuality": {
+            "accurate": {
+              "label": "Accurate",
+              "value": false,
+              "description": ""
+            },
+            "blast": {
+              "label": "Blast",
+              "value": false,
+              "description": ""
+            },
+            "closeQuarters": {
+              "label": "Close Quarters",
+              "value": false,
+              "description": ""
+            },
+            "concealed": {
+              "label": "Concealed",
+              "value": false,
+              "description": ""
+            },
+            "debilitating": {
+              "label": "Debilitating",
+              "value": false,
+              "description": ""
+            },
+            "gatling": {
+              "label": "Gatling",
+              "value": false,
+              "description": ""
+            },
+            "inaccurate": {
+              "label": "Inaccurate",
+              "value": true,
+              "description": ""
+            },
+            "mine": {
+              "label": "Mine",
+              "value": false,
+              "description": ""
+            },
+            "nightVision": {
+              "label": "Night Vision",
+              "value": false,
+              "description": ""
+            },
+            "parry": {
+              "label": "Parry",
+              "value": false,
+              "description": ""
+            },
+            "recon": {
+              "label": "Recon",
+              "value": false,
+              "description": ""
+            },
+            "reliable": {
+              "label": "Reliable",
+              "value": false,
+              "description": ""
+            },
+            "suppressed": {
+              "label": "Suppressed",
+              "value": false,
+              "description": ""
+            },
+            "thrown": {
+              "label": "Thrown",
+              "value": false,
+              "description": ""
+            },
+            "twoHanded": {
+              "label": "Two-Handed",
+              "value": true,
+              "description": ""
+            },
+            "unreliable": {
+              "label": "Unreliable",
+              "value": false,
+              "description": ""
+            }
+          }
+        },
+        "range": "close",
+        "fireRate": 0,
+        "condition": "",
+        "mods": {
+          "max": 5,
+          "current": 0,
+          "list": "<p><span class=\"fontstyle0\">A Double-Barrel Shotgun can accept one each of the following mods:</span></p>\n<p><span class=\"fontstyle0\"><strong>Receiver:</strong> </span><span class=\"fontstyle2\">@Compendium[fallout2d20-compendium.weapon-mods.6BSZSiI20H86MtAb]{Hardened Receiver},&nbsp; @Compendium[fallout2d20-compendium.weapon-mods.pNv4YuXn6LxkcLnj]{Hair Trigger},&nbsp; @Compendium[fallout2d20-compendium.weapon-mods.7EV6l9KqHJ6KJpQi]{Powerful Receiver}, @Compendium[fallout2d20-compendium.weapon-mods.hXHvlCvphIQ8x4be]{Advanced Receiver}</span></p>\n<p><strong><span class=\"fontstyle3\">Barrel: </span></strong><span class=\"fontstyle3\">@Compendium[fallout2d20-compendium.weapon-mods.6py6TtlkeywhWQl1]{Long Barrel}, @Compendium[fallout2d20-compendium.weapon-mods.X0puCM01tdYXaMSF]{Sawed-off Barrel}&nbsp;</span></p>\n<p><span class=\"fontstyle3\"><strong>Stock:</strong> @Compendium[fallout2d20-compendium.weapon-mods.ryaBZCITyZP3DoOP]{Full Stock}</span></p>\n<p><span class=\"fontstyle3\"><strong>Sights:</strong> @Compendium[fallout2d20-compendium.weapon-mods.WZAnlfreDNUAaX4Y]{Reflex Sight}</span></p>\n<p><span class=\"fontstyle3\"><strong>Muzzle:</strong></span><span class=\"fontstyle0\"> @Compendium[fallout2d20-compendium.weapon-mods.G8G71ZleOMUrMWSK]{Muzzle Brake}</span></p>"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      }
+    },
+    {
+      "_id": "zUfodpdE5WZldWoJ",
+      "type": "weapon",
+      "img": "modules/fallout2d20-compendium/artwork/Weapons/Molotov%20Cocktail.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.K1As981vs4yqOUUf"
+        },
+        "autoanimations": {}
+      },
+      "system": {
+        "favorite": false,
+        "cost": "20",
+        "quantity": 1,
+        "rarity": 1,
+        "stashed": false,
+        "equippable": true,
+        "equipped": false,
+        "melee": false,
+        "weaponType": "explosives",
+        "ammo": "",
+        "ammoPerShot": 1,
+        "attribute": "per",
+        "skill": "explosives",
+        "damage": {
+          "rating": 4,
+          "damageType": {
+            "physical": false,
+            "energy": true,
+            "radiation": false,
+            "poison": false
+          },
+          "damageEffect": {
+            "burst": {
+              "label": "Burst",
+              "value": false,
+              "description": ""
+            },
+            "breaking": {
+              "label": "Breaking",
+              "value": false,
+              "description": ""
+            },
+            "persistent": {
+              "label": "Persistent",
+              "value": true,
+              "description": ""
+            },
+            "piercing": {
+              "label": "Piercing",
+              "value": false,
+              "rank": 0,
               "description": ""
             },
             "radioactive": {
@@ -907,7 +929,7 @@
             },
             "stun": {
               "label": "Stun",
-              "value": true,
+              "value": false,
               "description": ""
             },
             "vicious": {
@@ -924,7 +946,7 @@
             },
             "blast": {
               "label": "Blast",
-              "value": false,
+              "value": true,
               "description": ""
             },
             "closeQuarters": {
@@ -984,183 +1006,7 @@
             },
             "thrown": {
               "label": "Thrown",
-              "value": false,
-              "description": ""
-            },
-            "twoHanded": {
-              "label": "Two-Handed",
               "value": true,
-              "description": ""
-            },
-            "unreliable": {
-              "label": "Unreliable",
-              "value": false,
-              "description": ""
-            }
-          }
-        },
-        "range": "close",
-        "fireRate": 0,
-        "condition": "",
-        "mods": {
-          "max": 0,
-          "current": 0,
-          "list": ""
-        },
-        "source": "astoundingly_awesome_tales_3",
-        "creatureAttribute": "body",
-        "creatureSkill": "melee",
-        "weight": "0"
-      },
-      "ownership": {
-        "default": 0,
-        "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
-    },
-    {
-      "type": "weapon",
-      "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 400000,
-      "flags": {},
-      "_id": "d1eb7fb531140a98",
-      "system": {
-        "description": "",
-        "favorite": false,
-        "cost": "0",
-        "quantity": 1,
-        "rarity": 0,
-        "stashed": false,
-        "equippable": true,
-        "equipped": false,
-        "melee": false,
-        "weaponType": "meleeWeapons",
-        "ammo": "",
-        "ammoPerShot": 1,
-        "attribute": "str",
-        "skill": "meleeWeapons",
-        "damage": {
-          "rating": 3,
-          "damageType": {
-            "physical": true,
-            "energy": false,
-            "radiation": false,
-            "poison": false
-          },
-          "damageEffect": {
-            "burst": {
-              "label": "Burst",
-              "value": false,
-              "description": ""
-            },
-            "breaking": {
-              "label": "Breaking",
-              "value": false,
-              "description": ""
-            },
-            "persistent": {
-              "label": "Persistent",
-              "value": false,
-              "description": ""
-            },
-            "piercing": {
-              "label": "Piercing",
-              "value": true,
-              "rank": 1,
-              "description": ""
-            },
-            "radioactive": {
-              "label": "Radioactive",
-              "value": false,
-              "description": ""
-            },
-            "spread": {
-              "label": "Spread",
-              "value": false,
-              "description": ""
-            },
-            "stun": {
-              "label": "Stun",
-              "value": false,
-              "description": ""
-            },
-            "vicious": {
-              "label": "Vicious",
-              "value": false,
-              "description": ""
-            }
-          },
-          "weaponQuality": {
-            "accurate": {
-              "label": "Accurate",
-              "value": false,
-              "description": ""
-            },
-            "blast": {
-              "label": "Blast",
-              "value": false,
-              "description": ""
-            },
-            "closeQuarters": {
-              "label": "Close Quarters",
-              "value": false,
-              "description": ""
-            },
-            "concealed": {
-              "label": "Concealed",
-              "value": false,
-              "description": ""
-            },
-            "debilitating": {
-              "label": "Debilitating",
-              "value": false,
-              "description": ""
-            },
-            "gatling": {
-              "label": "Gatling",
-              "value": false,
-              "description": ""
-            },
-            "inaccurate": {
-              "label": "Inaccurate",
-              "value": false,
-              "description": ""
-            },
-            "mine": {
-              "label": "Mine",
-              "value": false,
-              "description": ""
-            },
-            "nightVision": {
-              "label": "Night Vision",
-              "value": false,
-              "description": ""
-            },
-            "parry": {
-              "label": "Parry",
-              "value": false,
-              "description": ""
-            },
-            "recon": {
-              "label": "Recon",
-              "value": false,
-              "description": ""
-            },
-            "reliable": {
-              "label": "Reliable",
-              "value": false,
-              "description": ""
-            },
-            "suppressed": {
-              "label": "Suppressed",
-              "value": false,
-              "description": ""
-            },
-            "thrown": {
-              "label": "Thrown",
-              "value": false,
               "description": ""
             },
             "twoHanded": {
@@ -1175,49 +1021,40 @@
             }
           }
         },
-        "range": "close",
+        "range": "medium",
         "fireRate": 0,
         "condition": "",
         "mods": {
           "max": 0,
           "current": 0,
-          "list": ""
-        },
-        "source": "astoundingly_awesome_tales_3",
-        "creatureAttribute": "body",
-        "creatureSkill": "melee",
-        "weight": "0"
+          "list": null
+        }
       },
       "ownership": {
         "default": 0,
         "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
+      }
     },
     {
-      "_id": "AAT3NCRInvP056XX",
-      "type": "miscellany",
-      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "_id": "7O8DC1WSGUsW8Fl3",
+      "type": "special_ability",
+      "img": "modules/fallout2d20-compendium/artwork/Creature Abilities/let-rip.webp",
       "effects": [],
       "folder": null,
-      "sort": 500000,
-      "flags": {},
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.bXl361asqDDzZnLf"
+        }
+      },
       "system": {
-        "description": "",
         "favorite": false,
-        "cost": "0",
-        "quantity": 1,
-        "rarity": 0,
-        "stashed": false,
-        "source": "astoundingly_awesome_tales_3",
-        "effect": "",
-        "weight": 0
+        "source": "core_rulebook"
       },
       "ownership": {
         "default": 0,
         "I8FU1gA0rIKN7NHn": 3
-      },
-      "name": ""
+      }
     }
   ],
   "effects": [],
@@ -1226,70 +1063,63 @@
   "flags": {
     "fallout2d20-compendium": {
       "source": {
-        "book": "astoundingly_awesome_tales_3",
-        "page": 14,
+        "book": "astoundingly_awesome_tales_1_5",
+        "page": 67,
         "errataReviewed": true,
-        "artworkReviewed": true,
-        "artworkStatus": "shared",
-        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 3.",
-        "artworkSharingGroup": "aat-3-official-cover",
-        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder",
+        "artworkSource": "No Sally-specific artwork selected during mechanical certification; dedicated artwork review pending."
       }
     }
   },
   "system": {
     "level": {
-      "value": 7,
-      "currentXP": 52,
+      "value": 6,
+      "currentXP": 90,
       "nextLevelXP": 0
     },
     "description": "",
     "trait": "",
     "health": {
-      "value": 12,
+      "value": 18,
       "min": 0,
-      "max": 12,
+      "max": 18,
       "mod": 0
     },
     "defense": {
       "base": 0,
-      "value": 1,
+      "value": 2,
       "mod": 0
     },
     "carryWeight": {
       "value": 0,
-      "mod": 0,
-      "base": 200
+      "mod": 0
     },
     "initiative": {
       "base": 0,
-      "value": 13,
+      "value": 14,
       "mod": 0
     },
     "resistance": {
       "physical": {
-        "locations": "2 (Head, Torso)",
-        "value": 0
+        "locations": "2 (Arms, Legs, Torso)"
       },
       "energy": {
-        "locations": "2 (Head, Torso); 1 (Arms, Legs)",
-        "value": 0
+        "locations": "2 (Arms, Legs, Torso)"
       },
       "radiation": {
-        "locations": "0",
-        "value": 0
+        "locations": "0"
       },
       "poison": {
-        "locations": "0",
-        "value": 0
+        "locations": "0"
       }
     },
     "meleeDamage": {
       "base": 0,
-      "value": 0,
+      "value": 1,
       "mod": 0
     },
-    "luckPoints": null,
+    "luckPoints": 0,
     "conditions": {
       "hunger": 0,
       "thirst": 0,
@@ -1298,41 +1128,39 @@
     },
     "attributes": {
       "str": {
-        "value": 5
+        "value": 8
       },
       "per": {
         "value": 6
       },
       "end": {
-        "value": 5
+        "value": 8
       },
       "cha": {
         "value": 5
       },
       "int": {
-        "value": 6
+        "value": 5
       },
       "agi": {
-        "value": 7
+        "value": 8
       },
       "luc": {
-        "value": 3
+        "value": 4
       }
     },
     "injuries": "",
-    "source": "astoundingly_awesome_tales_3",
+    "source": "astoundingly_awesome_tales_1_5",
     "bodyType": "humanoid",
     "immunities": {
       "poison": false,
       "radiation": false
     },
-    "origin": "Human",
-    "biography": "",
     "body_parts": {
       "head": {
         "resistance": {
-          "physical": 2,
-          "energy": 2,
+          "physical": 0,
+          "energy": 0,
           "radiation": 0,
           "poison": 0
         }
@@ -1347,43 +1175,44 @@
       },
       "armL": {
         "resistance": {
-          "physical": 0,
-          "energy": 1,
+          "physical": 2,
+          "energy": 2,
           "radiation": 0,
           "poison": 0
         }
       },
       "armR": {
         "resistance": {
-          "physical": 0,
-          "energy": 1,
+          "physical": 2,
+          "energy": 2,
           "radiation": 0,
           "poison": 0
         }
       },
       "legL": {
         "resistance": {
-          "physical": 0,
-          "energy": 1,
+          "physical": 2,
+          "energy": 2,
           "radiation": 0,
           "poison": 0
         }
       },
       "legR": {
         "resistance": {
-          "physical": 0,
-          "energy": 1,
+          "physical": 2,
+          "energy": 2,
           "radiation": 0,
           "poison": 0
         }
       }
-    }
+    },
+    "origin": "Human"
   },
   "ownership": {
     "default": 0,
     "I8FU1gA0rIKN7NHn": 3
   },
-  "_key": "!actors!91957f7226ee31a7",
-  "name": "",
-  "$folder": "wastelanders"
+  "_key": "!actors!AAT3SallyP067XXX",
+  "$folder": "wastelanders",
+  "name": ""
 }

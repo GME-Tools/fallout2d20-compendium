@@ -45,6 +45,20 @@
     "/items/@a7e7702f0d23f35c/system/weight": 0,
     "/items/@d1eb7fb531140a98/name": "Couteau de combat",
     "/items/@d1eb7fb531140a98/system/description": "<p>FOR + Armes de corps à corps (SR 7), 3 DC de dégâts balistiques Perforants.</p>",
-    "/items/@d1eb7fb531140a98/system/weight": 0
+    "/items/@d1eb7fb531140a98/system/weight": 0,
+    "/items/@AAT3NCRInvP056XX/name": "Inventaire",
+    "/items/@AAT3NCRInvP056XX/system/effect": "<p>Treillis militaire, casque d’armure de combat, plastron d’armure de combat, pistolet 10 mm, 12+4 DC cartouches de 10 mm, fusil de combat, couteau de combat, Richesse 2.</p>",
+    "/items/@AAT3NCRInvP056XX/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "corrected",
+        "ownerApproved": true,
+        "page": 56
+      }
+    ]
   }
 }

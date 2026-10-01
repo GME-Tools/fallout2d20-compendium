@@ -55,7 +55,9 @@ appropriate reviewed status.
 - Identical reprints reuse the oldest document identity and add an appearance.
 - Mechanically different profiles are distinct reviewed documents.
 - Corrected re-editions require explicit editorial authority before changing canonical
-  mechanics or classifying the relationship.
+  mechanics or classifying the relationship. Once approved, record the secondary appearance
+  with `status: "corrected"` and `ownerApproved: true`; unapproved corrected appearances
+  remain invalid.
 - Never duplicate the first source in `appearances`.
 - Never mark a reprint `identical` without comparing the relevant mechanics.
 

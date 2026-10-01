@@ -209,7 +209,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
@@ -385,7 +385,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "guns",
         "weight": "0"
@@ -561,7 +561,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
@@ -583,7 +583,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -600,7 +600,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -617,7 +617,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -634,7 +634,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -651,7 +651,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -668,7 +668,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -685,7 +685,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -773,7 +773,7 @@
       },
       "energy": {
         "value": 0,
-        "locations": "4 (All)"
+        "locations": "3 (All)"
       },
       "radiation": {
         "value": 0,
@@ -799,7 +799,7 @@
       "head": {
         "resistance": {
           "physical": 4,
-          "energy": 4,
+          "energy": 3,
           "radiation": 0,
           "poison": 0
         }
@@ -807,7 +807,7 @@
       "torso": {
         "resistance": {
           "physical": 4,
-          "energy": 4,
+          "energy": 3,
           "radiation": 0,
           "poison": 0
         }
@@ -815,7 +815,7 @@
       "armL": {
         "resistance": {
           "physical": 4,
-          "energy": 4,
+          "energy": 3,
           "radiation": 0,
           "poison": 0
         }
@@ -823,7 +823,7 @@
       "armR": {
         "resistance": {
           "physical": 4,
-          "energy": 4,
+          "energy": 3,
           "radiation": 0,
           "poison": 0
         }
@@ -831,7 +831,7 @@
       "legL": {
         "resistance": {
           "physical": 4,
-          "energy": 4,
+          "energy": 3,
           "radiation": 0,
           "poison": 0
         }
@@ -839,7 +839,7 @@
       "legR": {
         "resistance": {
           "physical": 4,
-          "energy": 4,
+          "energy": 3,
           "radiation": 0,
           "poison": 0
         }
@@ -861,5 +861,5 @@
   },
   "_key": "!actors!772d0f6d939dfad5",
   "name": "",
-  "$folder": "aat-3"
+  "$folder": "robots"
 }

@@ -5,7 +5,7 @@
     "/name": "Zetan de Skull Canyon",
     "/token/name": "Zetan de Skull Canyon",
     "/system/biography": "<p>Un Zetan de Skull Canyon équipé d’armes humaines récupérées.</p>",
-    "/system/origin": "Reptile mutant",
+    "/system/origin": "Alien mutant",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
     "/flags/fallout2d20-compendium/source/translation": "project",
@@ -31,6 +31,17 @@
     "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
     "/items/@AAT3ZetanInvP26X/name": "Inventaire",
     "/items/@AAT3ZetanInvP26X/system/effect": "<p>Pistolet .44, fusil d’assaut ou arme laser, 2d20 cartouches de 5,56 mm ou cellules énergétiques.</p>",
-    "/items/@AAT3ZetanInvP26X/system/weight": 0
+    "/items/@AAT3ZetanInvP26X/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "corrected",
+        "ownerApproved": true,
+        "page": 66
+      }
+    ]
   }
 }

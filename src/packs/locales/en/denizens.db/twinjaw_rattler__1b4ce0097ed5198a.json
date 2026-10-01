@@ -4,7 +4,7 @@
   "values": {
     "/name": "Twinjaw Rattler",
     "/token/name": "Twinjaw Rattler",
-    "/system/biography": "<p>A giant two-headed rattlesnake created by Zetan experimentation.</p><p><strong>Butchery:</strong> END + Survival, difficulty 1; yields 2 DC portions of mutant rattler meat and 2 common materials. An Effect also yields one giant two-headed rattlesnake fang (Machete); two Effects instead allow harvesting a poison sack containing 2 ammo of Rattler venom.</p>",
+    "/system/biography": "<p>A giant two-headed rattlesnake created by Zetan experimentation.</p><p><strong>Butchery:</strong> END + Survival, difficulty 1; yields 2 DC portions of Mutant Rattler Meat and 2 common materials. An Effect also yields one giant two-headed rattlesnake fang (Machete).</p>",
     "/system/origin": "Mutated Reptile",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
@@ -14,12 +14,23 @@
     "/items/@ae8752d687eca7fe/name": "Fast Movement",
     "/items/@ae8752d687eca7fe/system/description": "<p>The rattler gains +2 Initiative (included).</p>",
     "/items/@55817b80582020a5/name": "Twin Heads",
-    "/items/@55817b80582020a5/system/description": "<p>It may make two Bite attacks in a single turn.</p>",
+    "/items/@55817b80582020a5/system/description": "<p>When the Twinjaw Rattler uses a Major action to attack, it may make two Bite attacks, which may target different creatures in range.</p>",
     "/items/@c3ead089d805fbc5/name": "Death Rattle",
-    "/items/@c3ead089d805fbc5/system/description": "<p>Once per combat, it may use a minor action to give its Bite the Stun effect for the turn.</p>",
+    "/items/@c3ead089d805fbc5/system/description": "<p>Once per battle, as a minor action, the Twinjaw Rattler may shake its deathrattle. Until the end of its turn, attacks made by it gain the Stun damage effect.</p>",
     "/items/@874f27668b728ecd/name": "Immune to Poison",
     "/items/@874f27668b728ecd/system/description": "<p>This character cannot suffer damage or effects from poison.</p>",
     "/items/@cc88320becd3eb20/name": "Big",
-    "/items/@cc88320becd3eb20/system/description": "<p>The Twinjaw Rattler gains +1 HP per level (included), has Defense reduced by 1 to a minimum of 1, and only suffers a Critical Hit from 7+ damage after resistance.</p>"
+    "/items/@cc88320becd3eb20/system/description": "<p>The Twinjaw Rattler gains +1 HP per level (included), has Defense reduced by 1 to a minimum of 1, and only suffers a Critical Hit from 7+ damage after resistance.</p>",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "corrected",
+        "ownerApproved": true,
+        "page": 54
+      }
+    ]
   }
 }

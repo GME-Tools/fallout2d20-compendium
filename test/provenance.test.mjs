@@ -72,7 +72,9 @@ test("mechanical variants are rejected as appearances and accepted as distinct d
   assert.throws(() => validateProvenance(invalid, { registry }), /mechanical variants require a distinct document id/);
 
   invalid.flags["fallout2d20-compendium"].source.appearances[0].status = "corrected";
-  assert.throws(() => validateProvenance(invalid, { registry }), /corrected re-edition requires owner arbitration/);
+  assert.throws(() => validateProvenance(invalid, { registry }), /corrected re-edition requires explicit owner approval/);
+  invalid.flags["fallout2d20-compendium"].source.appearances[0].ownerApproved = true;
+  assert.doesNotThrow(() => validateProvenance(invalid, { registry }));
 
   const variant = {
     _id: "VariantDoc000001",
