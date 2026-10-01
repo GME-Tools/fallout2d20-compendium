@@ -19,7 +19,7 @@
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/errataReviewed": true,
     "/items/@fd444057a2781ca6/name": "Mains nues",
-    "/items/@fd444057a2781ca6/system/description": "<p>FOR + Mains nues (SR 11).</p>",
+    "/items/@fd444057a2781ca6/system/description": "<p>FOR + Mains nues (SR 11), 4 DC de dégâts balistiques.</p>",
     "/items/@fd444057a2781ca6/system/weight": 0,
     "/items/@9d85f1375d6a9b79/name": "Barbare",
     "/items/@9d85f1375d6a9b79/system/description": "<p>+2 aux RD balistique et énergétique (inclus).</p>",
@@ -31,6 +31,9 @@
     "/items/@660cae34c50e30f3/name": "Armes de corps à corps",
     "/items/@26b74ac5dcc9458f/name": "Armes légères",
     "/items/@8345721c4ad2b6d1/name": "Survie",
-    "/items/@ec1817479d2c5172/name": "Mains nues"
+    "/items/@ec1817479d2c5172/name": "Mains nues",
+    "/items/@AAT3AbomInvP062X/name": "Inventaire",
+    "/items/@AAT3AbomInvP062X/system/effect": "<p>Planche, armure mise au rebut et endommagée, ossements humains divers, Richesse 1.</p>",
+    "/items/@AAT3AbomInvP062X/system/weight": 0
   }
 }
