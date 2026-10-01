@@ -1,10 +1,10 @@
 {
   "_id": "74e0af7608dece91",
   "type": "creature",
-  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Zetan%20(Alien).webp",
   "token": {
     "name": "Skull Canyon Zetan",
-    "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+    "img": "modules/fallout2d20-compendium/artwork/Creatures/Zetan%20(Alien).webp",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -607,9 +607,9 @@
         "errataReviewed": true,
         "artworkReviewed": true,
         "artworkStatus": "shared",
-        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 3.",
-        "artworkSharingGroup": "aat-3-official-cover",
-        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+        "artworkSource": "Repository-reviewed Fallout illustration reused from the Core Zetan (Alien) identity.",
+        "artworkSharingGroup": "core-zetan-artwork",
+        "artworkSharingJustification": "The authoritative 2024 profile identifies the Skull Canyon creature as a Mutated Alien/Zetan; the Core Zetan illustration is the closest exact established species artwork in the repository."
       }
     }
   },

@@ -1,10 +1,10 @@
 {
   "_id": "AAT3WastelandP08",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Wastelander.webp",
   "token": {
     "name": "",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "modules/fallout2d20-compendium/artwork/Creatures/Wastelander.webp",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -838,9 +838,11 @@
         "book": "astoundingly_awesome_tales_3",
         "page": 8,
         "errataReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder",
-        "artworkSource": "No subject-specific reusable artwork was selected for the Issue #3 p.8 Wastelander variant; neutral Foundry placeholder retained."
+        "artworkReviewed": true,
+        "artworkStatus": "shared",
+        "artworkSource": "Repository-reviewed Fallout illustration reused from the Core Wastelander identity.",
+        "artworkSharingGroup": "core-wastelander-artwork",
+        "artworkSharingJustification": "The Issue #3 Wastelander is a mechanical variant of the same generic wastelander archetype; the Core Wastelander illustration remains representative."
       }
     }
   },
