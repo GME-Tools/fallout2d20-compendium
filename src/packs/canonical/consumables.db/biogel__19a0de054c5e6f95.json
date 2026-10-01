@@ -3,7 +3,7 @@
   "_key": "!items!19a0de054c5e6f95",
   "effects": [],
   "folder": null,
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Consumables/Biogel%20AAT3.webp",
   "name": "",
   "system": {
     "addiction": 0,
@@ -38,9 +38,9 @@
         "book": "astoundingly_awesome_tales_3",
         "page": 9,
         "errataReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder",
-        "artworkSource": "No suitable subject-specific artwork was found in the owned Issue #3 / collected PDFs, existing repository assets, or reviewed web results during the AAT #3 artwork pass; neutral Foundry placeholder retained."
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "User-approved generated artwork for AAT Issue #3 Biogel, based on the official AAT #3 description and book art direction; 512x512 WEBP."
       }
     }
   },
