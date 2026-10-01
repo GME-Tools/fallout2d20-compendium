@@ -4,7 +4,7 @@
   "values": {
     "/name": "Époxy",
     "/system/description": "<p>Un dispositif semblable à une seringue, rempli d’une substance argentée et métallique qui durcit en une couche résistante sur les surfaces endommagées.</p>",
-    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Réparation.</p>",
+    "/system/effect": "<p>Réduisez de 1 la difficulté des tests de Réparation (jusqu’à un minimum de 0).</p>",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
     "/flags/fallout2d20-compendium/source/translation": "project",
@@ -13,6 +13,17 @@
     "/flags/fallout2d20-compendium/source/structuralBaseline": false,
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
-    "/flags/fallout2d20-compendium/source/errataReviewed": true
+    "/flags/fallout2d20-compendium/source/errataReviewed": true,
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "fr",
+        "edition": "fr-project-1.2.0",
+        "translation": "project",
+        "status": "corrected",
+        "ownerApproved": true,
+        "page": 51
+      }
+    ]
   }
 }
