@@ -1,10 +1,10 @@
 {
   "_id": "3db5227b46e039ec",
   "type": "npc",
-  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%205.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Creatures/Abomination%20AAT%203.webp",
   "token": {
     "name": "Abomination",
-    "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%205.webp",
+    "img": "modules/fallout2d20-compendium/artwork/Creatures/Abomination%20AAT%203.webp",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -161,7 +161,7 @@
     },
     {
       "type": "weapon",
-      "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%205.webp",
+      "img": "modules/fallout2d20-compendium/artwork/Creatures/Abomination%20AAT%203.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -422,10 +422,8 @@
         "page": 62,
         "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "shared",
-        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 5.",
-        "artworkSharingGroup": "aat-5-official-cover",
-        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+        "artworkStatus": "dedicated",
+        "artworkSource": "Owned official PDF: Astoundingly Awesome Tales Issues #1–5 (EN digital 2024), PDF p. 66 / Issue #3 p. 62; direct Abomination illustration cropped for Foundry."
       }
     }
   },
