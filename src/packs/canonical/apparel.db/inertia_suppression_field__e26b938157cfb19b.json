@@ -35,7 +35,7 @@
     },
     "powerArmor": {
       "frameId": "",
-      "isFrame": true,
+      "isFrame": false,
       "powered": false
     },
     "quantity": 1,
