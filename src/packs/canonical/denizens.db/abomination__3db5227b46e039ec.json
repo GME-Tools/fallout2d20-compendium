@@ -1,10 +1,10 @@
 {
   "_id": "3db5227b46e039ec",
   "type": "npc",
-  "img": "modules/fallout2d20-compendium/artwork/Creatures/Abomination.webp",
+  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%205.webp",
   "token": {
     "name": "Abomination",
-    "img": "modules/fallout2d20-compendium/artwork/Creatures/Abomination.webp",
+    "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%205.webp",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -422,8 +422,10 @@
         "page": 62,
         "errataReviewed": true,
         "artworkReviewed": true,
-        "artworkStatus": "dedicated",
-        "artworkSource": "Owned official PDF: Astoundingly Awesome Tales Issues #1–5, English digital collected edition (2024), printed page 62 / PDF page 66; cropped from owner-held PDF."
+        "artworkStatus": "shared",
+        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 5.",
+        "artworkSharingGroup": "aat-5-official-cover",
+        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
       }
     }
   },
