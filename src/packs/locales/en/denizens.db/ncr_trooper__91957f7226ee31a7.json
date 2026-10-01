@@ -31,6 +31,20 @@
     "/items/@a7e7702f0d23f35c/name": "Gun Bash",
     "/items/@a7e7702f0d23f35c/system/description": "<p>STR + Melee Weapons (TN 7), 3 DC Physical damage, Stun, Two-Handed.</p>",
     "/items/@d1eb7fb531140a98/name": "Combat Knife",
-    "/items/@d1eb7fb531140a98/system/description": "<p>STR + Melee Weapons (TN 7), 3 DC Piercing Physical damage.</p>"
+    "/items/@d1eb7fb531140a98/system/description": "<p>STR + Melee Weapons (TN 7), 3 DC Piercing Physical damage.</p>",
+    "/items/@AAT3NCRInvP056XX/name": "Inventory",
+    "/items/@AAT3NCRInvP056XX/system/effect": "<p>Military Fatigues, Combat Armor Helmet, Combat Armor Chest Piece, 10mm Pistol, 12+4 DC 10mm Rounds, Combat Rifle, Combat Knife, Wealth 2.</p>",
+    "/items/@AAT3NCRInvP056XX/system/weight": "0",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "corrected",
+        "ownerApproved": true,
+        "page": 56
+      }
+    ]
   }
 }
