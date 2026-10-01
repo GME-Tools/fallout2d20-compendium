@@ -17,8 +17,8 @@ test("Astoundingly Awesome Tales has bilingual identity parity without reprint d
     assert.deepEqual(new Set(aat(en).map(document => document._id)),new Set(aat(fr).map(document => document._id)),pack);
   }
   const actors = (await documents("en","denizens")).filter(document => root(document) && String(document.flags?.["fallout2d20-compendium"]?.source?.book ?? "").startsWith("astoundingly_awesome_tales"));
-  assert.equal(actors.length,39);
-  assert.equal(new Set(actors.map(document => document._id)).size,39);
+  assert.equal(actors.length,41);
+  assert.equal(new Set(actors.map(document => document._id)).size,41);
 });
 
 test("the collection is authoritative while first appearance and French translation status remain explicit", async () => {
