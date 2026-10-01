@@ -1,10 +1,10 @@
 {
   "_id": "91957f7226ee31a7",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fallout2d20-compendium/artwork/Characters/NCR%20Trooper%20AAT3.webp",
   "token": {
     "name": "NCR Trooper",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "modules/fallout2d20-compendium/artwork/Characters/NCR%20Trooper%20AAT3.webp",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -1229,9 +1229,9 @@
         "book": "astoundingly_awesome_tales_3",
         "page": 14,
         "errataReviewed": true,
-        "artworkReviewed": false,
-        "artworkStatus": "placeholder",
-        "artworkSource": "No suitable NCR Trooper-specific artwork was found in the owned Issue #3 / collected PDFs, existing repository assets, or reviewed web results during the AAT #3 artwork pass; neutral Foundry placeholder retained."
+        "artworkReviewed": true,
+        "artworkStatus": "dedicated",
+        "artworkSource": "Custom AI-generated artwork approved by the module maintainer for the AAT #3 NCR Trooper, visually guided by the official Fallout 2d20 New Vegas Setting Guide, Royal Flush, and Astoundingly Awesome Tales #3 art direction; normalized to 512x512 WebP."
       }
     }
   },
