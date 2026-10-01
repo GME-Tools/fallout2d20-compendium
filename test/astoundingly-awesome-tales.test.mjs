@@ -17,8 +17,8 @@ test("Astoundingly Awesome Tales has bilingual identity parity without reprint d
     assert.deepEqual(new Set(aat(en).map(document => document._id)),new Set(aat(fr).map(document => document._id)),pack);
   }
   const actors = (await documents("en","denizens")).filter(document => root(document) && document.img?.includes("Astoundingly%20Awesome%20Tales"));
-  assert.equal(actors.length,38);
-  assert.equal(new Set(actors.map(document => document._id)).size,38);
+  assert.equal(actors.length,39);
+  assert.equal(new Set(actors.map(document => document._id)).size,39);
 });
 
 test("the collection is authoritative while first appearance and French translation status remain explicit", async () => {

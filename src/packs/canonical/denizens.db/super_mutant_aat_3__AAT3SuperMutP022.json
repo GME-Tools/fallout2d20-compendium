@@ -102,10 +102,10 @@
         "locations": "2 (All)"
       },
       "radiation": {
-        "locations": "0"
+        "locations": "Immune"
       },
       "poison": {
-        "locations": "0"
+        "locations": "Immune"
       }
     },
     "meleeDamage": {

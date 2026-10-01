@@ -235,8 +235,8 @@ test("AAT #3 p.22 Super Mutant is a distinct bilingual mechanical variant", asyn
   assert.equal(actor.system.defense.value, 1);
   assert.equal(actor.system.carryWeight.base, 240);
   assert.equal(actorFr.system.carryWeight.base, 120);
-  assert.equal(actor.system.resistance.radiation.locations, "0");
-  assert.equal(actor.system.resistance.poison.locations, "0");
+  assert.equal(actor.system.resistance.radiation.locations, "Immune");
+  assert.equal(actor.system.resistance.poison.locations, "Immune");
   assert.equal(actor.system.immunities.radiation, true);
   assert.equal(actor.system.immunities.poison, true);
   const inventory = actor.items.find(item => item.name === "Inventory")?.system.effect ?? "";

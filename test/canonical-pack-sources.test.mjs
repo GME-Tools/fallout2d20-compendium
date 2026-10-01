@@ -26,7 +26,7 @@ test("localized source packs are generated rather than maintained", async () => 
     }
     assert.deepEqual(keys.en, keys.fr, pack.name);
   }
-  assert.equal(records, 2806);
+  assert.equal(records, 2808);
 });
 
 test("each RollTable and all of its results share one source file", async () => {

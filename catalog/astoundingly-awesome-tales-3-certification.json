@@ -370,7 +370,7 @@
       "status": "mechanical_variant",
       "id": "AAT3SuperMutP022",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "Issue #3 p.22 has the Core-like level-5 profile but adds Super Mutant Helmet and Super Mutant Leg Guards x2 to Inventory and prints Radiation/Poison DR as 0 while retaining explicit immunity abilities. Kept distinct from the Core Super Mutant and from the collection-only Abomination."
+      "note": "Issue #3 p.22 has the Core-like level-5 profile but adds Super Mutant Helmet and Super Mutant Leg Guards x2 to Inventory. The printed table shows Radiation/Poison DR 0 while its explicit abilities grant immunity; canonical structured resistance therefore records Immune. Kept distinct from the Core Super Mutant and from the collection-only Abomination."
     }
   ],
   "collectionReview": {
