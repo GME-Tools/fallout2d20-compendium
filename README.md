@@ -1,7 +1,7 @@
 # Fallout 2d20 Compendium
 
 Private bilingual English/French compendium module for Fallout 2d20 on Foundry
-Virtual Tabletop v14. Version 1.2.0 completes the source-driven French Core Rulebook
+Virtual Tabletop v14. Version 1.3.0 extends the source-driven Core Rulebook
 localization audit; Astoundingly Awesome Tales coverage remains under remediation.
 
 The project uses readable document sources, reproducible LevelDB packs, automated

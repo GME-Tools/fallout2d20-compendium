@@ -2,6 +2,35 @@
 
 All notable changes to this private module are documented here.
 
+## 1.3.0 — 2026-10-01
+
+### Added
+
+- Add source-driven Core Rulebook certification through source page 176,
+  including structured inventories and regression coverage for character
+  options, equipment, consumables, armor, weapons, mods, and magazines.
+- Add a bilingual canonical inspection panel and generated Core certification
+  view for human review of source-backed content.
+- Complete the Astoundingly Awesome Tales issue 3 integration and artwork pass,
+  including its actors, items, tables, provenance, localization, and dedicated
+  artwork.
+
+### Changed
+
+- Apply current Core errata and repair source provenance, French localization,
+  stable-identity relationships, embedded records, and extracted rules markup
+  across the certified range.
+- Simplify repository documentation and validation workflows around canonical
+  sources, reviewed inventories, durable editorial decisions, and focused
+  release gates.
+
+### Validation
+
+- Require the complete CI, package verification, artwork review, and disposable
+  Foundry qualification on the exact release commit before publication.
+- Core certification remains active beyond source page 176; this release does
+  not claim completion of the full Core Rulebook certification project.
+
 ## 1.2.0 — 2026-09-21
 
 ### Added
