@@ -98,13 +98,13 @@
       "page": 9,
       "printedPage": 9,
       "status": "corrected",
-      "notes": "Biogel and Epoxy are fully structured consumables already present from earlier remediation; verified against the individual issue."
+      "notes": "Biogel verified. Epoxy is corrected per the owner-approved authoritative 2024 collection: Repair difficulty -1 to a minimum of 0."
     },
     {
       "page": 10,
       "printedPage": 10,
       "status": "corrected",
-      "notes": "Eight Issue #3 consumables verified; six Core consumables are identical reprints using existing identities."
+      "notes": "Issue #3 consumables verified. Skull Canyon Shot follows the owner-approved 2024 correction and no longer has Lasting; six Core consumables remain identical reprints using existing identities."
     },
     {
       "page": 11,
@@ -116,7 +116,7 @@
       "page": 12,
       "printedPage": 12,
       "status": "corrected",
-      "notes": "Complete Twinjaw Rattler profile. Existing Issue #3 identity verified. Structured butchery points to the p.10 Mutant Rattler Meat identity under the previously approved project normalization while retaining the individual issue's fang/poison-sack branches."
+      "notes": "Twinjaw Rattler corrected to the owner-approved 2024 collected mechanics: Major-action Twin Heads with split targets, once-per-battle Death Rattle affecting all attacks for the turn, Mutant Rattler Meat butchery, and no poison-sack branch. Foundry body type is quadruped."
     },
     {
       "page": 13,
@@ -128,7 +128,7 @@
       "page": 14,
       "printedPage": 14,
       "status": "corrected",
-      "notes": "Complete NCR Trooper profile. Existing Issue #3 identity retained; embedded attack Items were corrected so their executable attribute/skill pairs match the printed STR/AGI + skill tests."
+      "notes": "NCR Trooper corrected to the owner-approved 2024 collected profile: LUC 3 and 12+4 DC 10mm Rounds in Inventory; embedded attacks execute the printed STR/AGI + skill tests."
     },
     {
       "page": 15,
@@ -170,13 +170,13 @@
       "page": 21,
       "printedPage": 21,
       "status": "corrected",
-      "notes": "Complete Security Drone, Protectron profile. The existing Issue #3 identity is retained and corrected to the individual issue: Energy DR 4 (All), BODY + Guns for Arm Lasers, robot origin/body type, and structured robot salvage (2 DC common materials, +1 DC per AP spent, each Effect yielding 1 uncommon material)."
+      "notes": "Security Drone, Protectron corrected to the owner-approved 2024 collected profile: Energy DR 3 (All), BODY + Guns Arm Lasers, robot body type/origin, and complete salvage procedure retained in text plus structured material fields."
     },
     {
       "page": 22,
       "printedPage": 22,
       "status": "corrected",
-      "notes": "Complete Super Mutant profile. Its Issue #3 inventory includes Super Mutant Helmet and Super Mutant Leg Guards x2, so it is not an identical reprint of the Core Super Mutant. A distinct Issue #3 identity is used. The later collection replaces this profile with a mechanically different Abomination; that change is not applied to the 2023 source identity."
+      "notes": "The owner-approved 2024 collection replaces the individual issue's Super Mutant with the Abomination profile. The Abomination is authoritative; the 2023 Super Mutant identity is retained only as a historical source variant."
     },
     {
       "page": 23,
@@ -200,13 +200,13 @@
       "page": 26,
       "printedPage": 26,
       "status": "corrected",
-      "notes": "Complete Skull Canyon Zetan Actor and Inertia Suppression Field apparel profile. The existing Actor is corrected to the 2023 issue: Mutated Reptile, 45 XP, BODY + Guns for all three attacks, explicit inventory text, and no salvage/butchery. The apparel identity is retained, its bilingual coverage completed, and its collection appearance corrected to printed p.66."
+      "notes": "Skull Canyon Zetan corrected to the owner-approved 2024 collection: Mutated Alien and 38 XP while retaining the same attacks/inventory. Xarn/Nok Mighty +2 Mind guidance is scenario-specific incomplete variant guidance. Inertia Suppression Field remains mechanically identical and its FR/provenance metadata is cleaned."
     },
     {
       "page": 27,
       "printedPage": 27,
       "status": "corrected",
-      "notes": "Final-confrontation scenario procedure and reinforcement guidance only. The individual issue gives no autonomous Sally profile and refers to alien abominations 'see p.26' even though p.26 contains no abomination stat block; no new identity is inferred from that internal inconsistency."
+      "notes": "The owner-approved 2024 collection's reinforcement scaling is recorded as scenario procedure, and its complete Mercenary-derived Sally Jessup profile is integrated as a bilingual Actor."
     },
     {
       "page": 28,
