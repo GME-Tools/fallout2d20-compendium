@@ -28,6 +28,9 @@ All notable changes to this private module are documented here.
 
 - Require the complete CI, package verification, artwork review, and disposable
   Foundry qualification on the exact release commit before publication.
+- The owner explicitly waived the remaining browser-automation rerun after the
+  full CI passed and the disposable Windows Foundry 14.368 / Fallout 11.17.1
+  world loaded the candidate packs successfully.
 - Core certification remains active beyond source page 176; this release does
   not claim completion of the full Core Rulebook certification project.
 
