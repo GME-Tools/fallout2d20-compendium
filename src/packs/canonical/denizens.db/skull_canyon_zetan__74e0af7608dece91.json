@@ -209,7 +209,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "guns",
         "weight": "0"
@@ -385,7 +385,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "guns",
         "weight": "0"
@@ -561,7 +561,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "guns",
         "weight": "0"
@@ -616,7 +616,7 @@
   "system": {
     "level": {
       "value": 5,
-      "currentXP": 45,
+      "currentXP": 38,
       "nextLevelXP": 0
     },
     "description": "",
@@ -697,7 +697,7 @@
       "poison": false,
       "radiation": false
     },
-    "origin": "Mutated Reptile",
+    "origin": "Mutated Alien",
     "biography": "",
     "body_parts": {
       "head": {
@@ -756,5 +756,5 @@
   },
   "_key": "!actors!74e0af7608dece91",
   "name": "",
-  "$folder": "aat-3"
+  "$folder": "mutated-humanoids"
 }
