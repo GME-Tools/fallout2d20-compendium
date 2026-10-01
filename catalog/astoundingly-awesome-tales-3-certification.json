@@ -97,13 +97,13 @@
     {
       "page": 9,
       "printedPage": 9,
-      "status": "existing_correct",
+      "status": "corrected",
       "notes": "Biogel and Epoxy are fully structured consumables already present from earlier remediation; verified against the individual issue."
     },
     {
       "page": 10,
       "printedPage": 10,
-      "status": "existing_correct",
+      "status": "corrected",
       "notes": "Eight Issue #3 consumables verified; six Core consumables are identical reprints using existing identities."
     },
     {
@@ -115,7 +115,7 @@
     {
       "page": 12,
       "printedPage": 12,
-      "status": "existing_correct",
+      "status": "corrected",
       "notes": "Complete Twinjaw Rattler profile. Existing Issue #3 identity verified. Structured butchery points to the p.10 Mutant Rattler Meat identity under the previously approved project normalization while retaining the individual issue's fang/poison-sack branches."
     },
     {
@@ -175,7 +175,7 @@
     {
       "page": 22,
       "printedPage": 22,
-      "status": "mechanical_variant",
+      "status": "corrected",
       "notes": "Complete Super Mutant profile. Its Issue #3 inventory includes Super Mutant Helmet and Super Mutant Leg Guards x2, so it is not an identical reprint of the Core Super Mutant. A distinct Issue #3 identity is used. The later collection replaces this profile with a mechanically different Abomination; that change is not applied to the 2023 source identity."
     },
     {
@@ -205,7 +205,7 @@
     {
       "page": 27,
       "printedPage": 27,
-      "status": "out_of_scope",
+      "status": "corrected",
       "notes": "Final-confrontation scenario procedure and reinforcement guidance only. The individual issue gives no autonomous Sally profile and refers to alien abominations 'see p.26' even though p.26 contains no abomination stat block; no new identity is inferred from that internal inconsistency."
     },
     {
@@ -239,9 +239,9 @@
       "name": "Epoxy",
       "type": "Consumable",
       "pack": "consumables",
-      "status": "existing_correct",
+      "status": "corrected",
       "id": "43269fe9b66161a6",
-      "note": "Individual issue: Repair difficulty -1. Collection p.51 adds a minimum of 0; no prior project approval for that correction was located in this lot."
+      "note": "The 2024 collected edition is owner-approved as authoritative: Repair difficulty is reduced by 1 to a minimum of 0."
     },
     {
       "page": 10,
@@ -296,9 +296,9 @@
       "name": "Skull Canyon Shot",
       "type": "Consumable",
       "pack": "consumables",
-      "status": "existing_correct",
+      "status": "corrected",
       "id": "ec62006c4cfe41ed",
-      "note": "Individual issue grants +3 Radiation DR, Lasting. Collection p.52 omits Lasting; no prior project approval for that change was located in this lot."
+      "note": "The 2024 collected edition is owner-approved as authoritative: the +3 Radiation damage resistance no longer has Lasting."
     },
     {
       "page": 10,
@@ -367,10 +367,10 @@
       "name": "Twinjaw Rattler",
       "type": "Actor",
       "pack": "denizens",
-      "status": "existing_correct",
+      "status": "corrected",
       "id": "1b4ce0097ed5198a",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "First structured appearance is Issue #3 p.12. Butchery is structured with 2 DC Mutant Rattler Meat via the existing p.10 identity, 2 common materials, fang on an Effect, and the individual issue's poison-sack branch on two Effects."
+      "note": "The 2024 collected edition is owner-approved as authoritative: Twin Heads is tied to a Major attack action and may split targets, Death Rattle is once per battle and affects all attacks until end of turn, and the poison-sack butchery branch is removed. Foundry body type is modeled as quadruped, the closest available non-humanoid hit-location family for a giant snake."
     },
     {
       "page": 14,
@@ -380,7 +380,7 @@
       "status": "corrected",
       "id": "91957f7226ee31a7",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "First structured appearance is Issue #3 p.14. Canonical profile retains LUC 4 and the individual issue inventory; embedded attacks now execute with the printed STR/AGI + skill pairings."
+      "note": "The 2024 collected edition is owner-approved as authoritative: LUC 3 and 12+4 DC 10mm Rounds in Inventory. Canonical origin and embedded provenance were cleaned."
     },
     {
       "page": 21,
@@ -390,17 +390,17 @@
       "status": "corrected",
       "id": "772d0f6d939dfad5",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "First structured appearance is Issue #3 p.21. Corrected to Energy DR 4 (All), BODY + Guns Arm Lasers, robot body type/origin, and structured salvage: difficulty 1, 2 DC common materials with +1 DC per AP spent, each Effect yielding 1 uncommon material."
+      "note": "The 2024 collected edition is owner-approved as authoritative: Energy DR 3 (All). Full salvage procedure is preserved in localized biography text alongside structured difficulty/material fields."
     },
     {
       "page": 22,
       "name": "Super Mutant (AAT #3)",
       "type": "Actor",
       "pack": "denizens",
-      "status": "mechanical_variant",
+      "status": "superseded_source_variant",
       "id": "AAT3SuperMutP022",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "Issue #3 p.22 has the Core-like level-5 profile but adds Super Mutant Helmet and Super Mutant Leg Guards x2 to Inventory. The printed table shows Radiation/Poison DR 0 while its explicit abilities grant immunity; canonical structured resistance therefore records Immune. Kept distinct from the Core Super Mutant and from the collection-only Abomination."
+      "note": "Historical 2023 source profile retained under its published identity for source fidelity, but superseded for current Issue #3 mechanics by the authoritative 2024 Abomination profile (3db5227b46e039ec)."
     },
     {
       "page": 26,
@@ -410,7 +410,7 @@
       "status": "corrected",
       "id": "74e0af7608dece91",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "Issue #3 p.26 is the first complete profile. Retains the individual issue's Mutated Reptile classification and 45 XP; all embedded attacks use BODY + Guns, inventory is explicit, and no salvage/butchery is present. The 2024 collection changes the classification to Mutated Alien and XP to 38, so it is not recorded as an identical appearance without project approval."
+      "note": "The 2024 collected edition is owner-approved as authoritative: Mutated Alien, 38 XP. Xarn/Nok Mighty +2 Mind guidance remains scenario-specific incomplete variant guidance and does not create autonomous Actors."
     },
     {
       "page": 26,
@@ -420,7 +420,27 @@
       "status": "corrected",
       "id": "e26b938157cfb19b",
       "firstAppearance": "astoundingly_awesome_tales_3",
-      "note": "Complete p.26 armor/shield profile: Physical 3, Energy 3, Radiation 0, all locations, weight <1, cost 300, rarity 4. Existing identity retained; missing FR overlay added and the identical 2024 collection appearance corrected to printed p.66."
+      "note": "Mechanics are identical in 2023/2024. Stale duplicate FR overlay removed, collection appearance fixed to p.66, and erroneous power-armor-frame metadata cleared."
+    },
+    {
+      "page": 22,
+      "name": "Abomination",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "corrected_edition",
+      "id": "3db5227b46e039ec",
+      "firstAppearance": "astoundingly_awesome_tales_1_5",
+      "note": "Authoritative 2024 replacement for the individual issue's p.22 Super Mutant. Complete collected-edition profile includes STR + Unarmed, Barbarian/immunities, and Inventory: Board, Scrapped and Damaged Armor, assorted human bones, Wealth 1."
+    },
+    {
+      "page": 27,
+      "name": "Sally Jessup",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "corrected_edition",
+      "id": "AAT3SallyP067XXX",
+      "firstAppearance": "astoundingly_awesome_tales_1_5",
+      "note": "The owner-approved 2024 collection p.67 supplies a complete derived profile: Core Mercenary with STR/END/AGI +2, HP 18, Defense 2 and 90 XP. Integrated as a distinct bilingual Actor; derived Initiative and melee bonus follow the changed attributes."
     }
   ],
   "collectionReview": {
@@ -442,14 +462,14 @@
       {
         "sourcePage": 9,
         "collectionPage": 51,
-        "scope": "open_arbitration",
-        "difference": "Epoxy adds '(to a minimum of 0)' to the Repair difficulty reduction."
+        "scope": "approved_project_correction",
+        "difference": "Epoxy adds '(to a minimum of 0)' to the Repair difficulty reduction. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 10,
         "collectionPage": 52,
-        "scope": "open_arbitration",
-        "difference": "Skull Canyon Shot omits the individual issue's Lasting keyword."
+        "scope": "approved_project_correction",
+        "difference": "Skull Canyon Shot omits the individual issue's Lasting keyword. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 10,
@@ -466,8 +486,8 @@
       {
         "sourcePage": 12,
         "collectionPage": 54,
-        "scope": "open_arbitration",
-        "difference": "Twin Heads is expanded to tie the two bites to a Major attack action and explicitly allow different targets; Death Rattle changes to once per battle and grants Stun to all attacks until end of turn; the poison-sack butchery branch is removed. These collection changes were not found as previously approved project corrections, so the individual-issue mechanics remain canonical."
+        "scope": "approved_project_correction",
+        "difference": "Twin Heads is expanded to tie the two bites to a Major attack action and explicitly allow different targets; Death Rattle changes to once per battle and grants Stun to all attacks until end of turn; the poison-sack butchery branch is removed. These collection changes were not found as previously approved project corrections, so the individual-issue mechanics remain canonical. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 13,
@@ -478,8 +498,8 @@
       {
         "sourcePage": 14,
         "collectionPage": 56,
-        "scope": "open_arbitration",
-        "difference": "The collection changes the NCR Trooper's LUC from 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval for those mechanical changes was located; the individual 2023 profile is retained."
+        "scope": "approved_project_correction",
+        "difference": "The collection changes the NCR Trooper's LUC from 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval for those mechanical changes was located; the individual 2023 profile is retained. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 15,
@@ -514,14 +534,14 @@
       {
         "sourcePage": 21,
         "collectionPage": 63,
-        "scope": "open_arbitration",
-        "difference": "Security Drone, Protectron changes Energy DR from 4 (All) in the individual 2023 issue to 3 (All) in the 2024 collection. No prior project approval for this mechanical correction was found, so the individual issue's Energy DR 4 remains canonical for the Issue #3 identity and the collection is not marked as an identical appearance."
+        "scope": "approved_project_correction",
+        "difference": "Security Drone, Protectron changes Energy DR from 4 (All) in the individual 2023 issue to 3 (All) in the 2024 collection. No prior project approval for this mechanical correction was found, so the individual issue's Energy DR 4 remains canonical for the Issue #3 identity and the collection is not marked as an identical appearance. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 22,
         "collectionPage": 62,
-        "scope": "open_arbitration",
-        "difference": "The collection replaces the individual issue's fully armed Super Mutant profile with an Abomination profile that keeps the same base SPECIAL/skills but only the Unarmed Strike attack and a different inventory (Board, Scrapped and Damaged Armor, assorted human bones, Wealth 1). No prior project approval was found, so the Issue #3 Super Mutant remains a distinct 2023 variant and the existing collection Abomination remains a separate identity."
+        "scope": "approved_project_correction",
+        "difference": "The collection replaces the individual issue's fully armed Super Mutant profile with an Abomination profile that keeps the same base SPECIAL/skills but only the Unarmed Strike attack and a different inventory (Board, Scrapped and Damaged Armor, assorted human bones, Wealth 1). No prior project approval was found, so the Issue #3 Super Mutant remains a distinct 2023 variant and the existing collection Abomination remains a separate identity. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 23,
@@ -544,8 +564,8 @@
       {
         "sourcePage": 26,
         "collectionPage": 66,
-        "scope": "open_arbitration",
-        "difference": "Skull Canyon Zetan changes from Mutated Reptile, Normal Creature (45 XP) in the 2023 issue to Mutated Alien, Normal Creature (38 XP) in the 2024 collection; the collection also adds that Xarn and Nok are Mighty Creatures with +2 Mind. No prior project approval for these mechanical changes was found, so the 2023 profile remains canonical and the collection is not marked identical for this Actor."
+        "scope": "approved_project_correction",
+        "difference": "Skull Canyon Zetan changes from Mutated Reptile, Normal Creature (45 XP) in the 2023 issue to Mutated Alien, Normal Creature (38 XP) in the 2024 collection; the collection also adds that Xarn and Nok are Mighty Creatures with +2 Mind. No prior project approval for these mechanical changes was found, so the 2023 profile remains canonical and the collection is not marked identical for this Actor. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 26,
@@ -556,8 +576,8 @@
       {
         "sourcePage": 27,
         "collectionPage": 67,
-        "scope": "open_arbitration",
-        "difference": "The collection replaces the individual issue's round/excess-attempt reinforcement wording with breakthrough-count tables and adds a concrete Sally Jessup profile based on the Core Mercenary stat block (+2 STR/END/AGI, HP 18, Defense 2, 90 XP). No prior project approval for these collection-only mechanical additions was found, so they are not integrated into the 2023 source inventory."
+        "scope": "approved_project_correction",
+        "difference": "The collection replaces the individual issue's round/excess-attempt reinforcement wording with breakthrough-count tables and adds a concrete Sally Jessup profile based on the Core Mercenary stat block (+2 STR/END/AGI, HP 18, Defense 2, 90 XP). No prior project approval for these collection-only mechanical additions was found, so they are not integrated into the 2023 source inventory. Owner decision 2026-10-01 makes the 2024 collected edition authoritative; the correction is now applied where structurally in scope."
       },
       {
         "sourcePage": 28,
@@ -565,7 +585,8 @@
         "scope": "out_of_scope",
         "difference": "The collection makes narrative/editorial cleanup and revises Quest Rewards wording: the individual issue's 'another 20 Caps each in addition to the 15 already received' becomes 'another 20 Caps each in addition to the caps already received', and the final Secret Manipulation reward is clarified as '60 XP each'. These are scenario reward/bookkeeping rules rather than reusable compendium documents, so no repository normalization is applied."
       }
-    ]
+    ],
+    "authority": "Owner decision 2026-10-01: for verified Issue #3 divergences, the 2024 collected edition is authoritative and its mechanical corrections are applied."
   },
   "rollTables": [],
   "excluded": [
@@ -634,14 +655,8 @@
     "securityDrone": "existing AAT #3 official-cover shared artwork retained",
     "superMutantVariant": "AAT #3 official-cover shared artwork used to distinguish the publication-specific mechanical variant"
   },
-  "openArbitrations": [
-    "Epoxy: the collected edition p.51 adds a minimum-0 floor to the Repair difficulty reduction; this difference is verified but was not found as a previously approved project correction.",
-    "Skull Canyon Shot: the collected edition p.52 removes Lasting from the +3 Radiation damage resistance; this difference is verified but was not found as a previously approved project correction.",
-    "Twinjaw Rattler: collection p.54 expands Twin Heads, changes Death Rattle timing/scope, and removes the individual issue's poison-sack butchery branch. No prior project approval was found for those changes; Issue #3 p.12 remains canonical for them.",
-    "NCR Trooper: collection p.56 changes LUC 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval was found; Issue #3 p.14 remains canonical.",
-    "Security Drone, Protectron: collection p.63 changes Energy DR from the individual issue's 4 (All) to 3 (All). No prior project approval was found, so Issue #3 p.21 remains canonical at Energy DR 4 and the collection is not classified as an identical appearance.",
-    "Super Mutant / Abomination: collection p.62 replaces the individual Issue #3 p.22 Super Mutant profile with a mechanically different Abomination and different inventory. No prior project approval was found; the 2023 Super Mutant is retained as its own AAT #3 variant and the collection Abomination remains separate.",
-    "Skull Canyon Zetan: collection p.66 changes the individual Issue #3 p.26 classification from Mutated Reptile to Mutated Alien and XP from 45 to 38, and adds Mighty/+2 Mind guidance for Xarn and Nok. No prior project approval was found; the 2023 profile remains canonical and the collection is not classified as an identical Actor appearance.",
-    "Final confrontation: collection p.67 rewrites reinforcement scaling around breakthroughs and adds a Mercenary-based Sally Jessup profile (+2 STR/END/AGI, HP 18, Defense 2, 90 XP). These collection-only mechanics have no located prior approval and are not applied to the 2023 source lot."
+  "openArbitrations": [],
+  "modelingDecisions": [
+    "Twinjaw Rattler bodyType: quadruped. The source identifies a giant two-headed rattlesnake; quadruped is the closest available Foundry non-humanoid hit-location family and avoids the incorrect humanoid classification."
   ]
 }
