@@ -3,7 +3,7 @@
   "_key": "!items!e26b938157cfb19b",
   "effects": [],
   "folder": null,
-  "img": "modules/fallout2d20-compendium/artwork/Astoundingly%20Awesome%20Tales/AAT%203.webp",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "apparelType": "armor",
     "canBeScrapped": true,
@@ -58,11 +58,9 @@
         "book": "astoundingly_awesome_tales_3",
         "page": 26,
         "errataReviewed": true,
-        "artworkReviewed": true,
-        "artworkStatus": "shared",
-        "artworkSource": "Owned official PDF cover: Astoundingly Awesome Tales Issue No. 3.",
-        "artworkSharingGroup": "aat-3-official-cover",
-        "artworkSharingJustification": "The official adventure cover identifies and represents this publication's reusable structured content."
+        "artworkReviewed": false,
+        "artworkStatus": "placeholder",
+        "artworkSource": "No suitable personal Inertia Suppression Field artwork was found in the owned Issue #3 / collected PDFs, existing repository assets, or reviewed web results during the AAT #3 artwork pass; neutral Foundry placeholder retained."
       }
     }
   },
