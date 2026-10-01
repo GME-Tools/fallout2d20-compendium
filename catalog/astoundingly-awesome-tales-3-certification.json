@@ -20,20 +20,24 @@
       16,
       17,
       18,
-      19
-    ],
-    "nextSourcePages": [
+      19,
       20,
       21,
       22,
       23
+    ],
+    "nextSourcePages": [
+      24,
+      25,
+      26,
+      27
     ]
   },
   "source": {
     "title": "Astoundingly Awesome Tales Issue #3 — Showdown in Skull Canyon",
     "language": "en",
     "edition": "en-digital-2023",
-    "pagination": "PDF/source pages 1–3 are unnumbered front matter; PDF/source pages 4–19 match printed pages 4–19."
+    "pagination": "PDF/source pages 1–3 are unnumbered front matter; PDF/source pages 4–23 match printed pages 4–23."
   },
   "authority": {
     "primary": "Individual Issue #3 (2023)",
@@ -155,6 +159,30 @@
       "printedPage": 19,
       "status": "existing_reuse",
       "notes": "Awash with Conflict reuses the already-certified Twinjaw Rattler encounter identity from p.12 plus previously established NCR/Wastelander references; no new stat block, embedded Item, salvage or butchery data appears, so no duplicate identity or provenance change is created."
+    },
+    {
+      "page": 20,
+      "printedPage": 20,
+      "status": "out_of_scope",
+      "notes": "The Lone Wolf and Investigating the Rangers’ Motivation are scenario prose. Corporal Brown has no complete reusable profile; the security drones are encounter references whose complete profile first appears on p.21."
+    },
+    {
+      "page": 21,
+      "printedPage": 21,
+      "status": "corrected",
+      "notes": "Complete Security Drone, Protectron profile. The existing Issue #3 identity is retained and corrected to the individual issue: Energy DR 4 (All), BODY + Guns for Arm Lasers, robot origin/body type, and structured robot salvage (2 DC common materials, +1 DC per AP spent, each Effect yielding 1 uncommon material)."
+    },
+    {
+      "page": 22,
+      "printedPage": 22,
+      "status": "mechanical_variant",
+      "notes": "Complete Super Mutant profile. Its Issue #3 inventory includes Super Mutant Helmet and Super Mutant Leg Guards x2, so it is not an identical reprint of the Core Super Mutant. A distinct Issue #3 identity is used. The later collection replaces this profile with a mechanically different Abomination; that change is not applied to the 2023 source identity."
+    },
+    {
+      "page": 23,
+      "printedPage": 23,
+      "status": "out_of_scope",
+      "notes": "Secret Manipulation is scenario narrative. Private Mark Aurelius is referenced but receives no autonomous complete reusable profile on this page."
     }
   ],
   "candidates": [
@@ -323,11 +351,31 @@
       "id": "91957f7226ee31a7",
       "firstAppearance": "astoundingly_awesome_tales_3",
       "note": "First structured appearance is Issue #3 p.14. Canonical profile retains LUC 4 and the individual issue inventory; embedded attacks now execute with the printed STR/AGI + skill pairings."
+    },
+    {
+      "page": 21,
+      "name": "Security Drone, Protectron",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "corrected",
+      "id": "772d0f6d939dfad5",
+      "firstAppearance": "astoundingly_awesome_tales_3",
+      "note": "First structured appearance is Issue #3 p.21. Corrected to Energy DR 4 (All), BODY + Guns Arm Lasers, robot body type/origin, and structured salvage: difficulty 1, 2 DC common materials with +1 DC per AP spent, each Effect yielding 1 uncommon material."
+    },
+    {
+      "page": 22,
+      "name": "Super Mutant (AAT #3)",
+      "type": "Actor",
+      "pack": "denizens",
+      "status": "mechanical_variant",
+      "id": "AAT3SuperMutP022",
+      "firstAppearance": "astoundingly_awesome_tales_3",
+      "note": "Issue #3 p.22 has the Core-like level-5 profile but adds Super Mutant Helmet and Super Mutant Leg Guards x2 to Inventory and prints Radiation/Poison DR as 0 while retaining explicit immunity abilities. Kept distinct from the Core Super Mutant and from the collection-only Abomination."
     }
   ],
   "collectionReview": {
     "edition": "en-digital-2024",
-    "mapping": "Individual printed/source pages 4–19 correspond to collection printed pages 46–61.",
+    "mapping": "Individual printed/source pages 4–19 correspond to collection printed pages 46–61. From source p.20 onward the collection reflows and rewrites this section, so pp.20–23 are compared by heading/stat block rather than by a fixed page offset.",
     "verifiedDifferences": [
       {
         "sourcePage": 7,
@@ -406,6 +454,30 @@
         "collectionPage": 60,
         "scope": "out_of_scope",
         "difference": "The collection revises the failed snake-warning result from 'surprised' to 'unaware' and explicitly points to the Core Rulebook Sneak Attack rule; this is encounter procedure only. The existing p.12 Twinjaw Rattler identity and butchery remain unchanged."
+      },
+      {
+        "sourcePage": 20,
+        "collectionPage": "61–62",
+        "scope": "out_of_scope",
+        "difference": "The collection clarifies the infiltration alternatives (including difficulty 4 for the Repair route), success wording, and the duration of recurring security-drone waves. These are scenario procedures rather than reusable compendium documents."
+      },
+      {
+        "sourcePage": 21,
+        "collectionPage": 63,
+        "scope": "open_arbitration",
+        "difference": "Security Drone, Protectron changes Energy DR from 4 (All) in the individual 2023 issue to 3 (All) in the 2024 collection. No prior project approval for this mechanical correction was found, so the individual issue's Energy DR 4 remains canonical for the Issue #3 identity and the collection is not marked as an identical appearance."
+      },
+      {
+        "sourcePage": 22,
+        "collectionPage": 62,
+        "scope": "open_arbitration",
+        "difference": "The collection replaces the individual issue's fully armed Super Mutant profile with an Abomination profile that keeps the same base SPECIAL/skills but only the Unarmed Strike attack and a different inventory (Board, Scrapped and Damaged Armor, assorted human bones, Wealth 1). No prior project approval was found, so the Issue #3 Super Mutant remains a distinct 2023 variant and the existing collection Abomination remains a separate identity."
+      },
+      {
+        "sourcePage": 23,
+        "collectionPage": 64,
+        "scope": "out_of_scope",
+        "difference": "Secret Manipulation is reflowed into collection p.64 without defining a reusable profile for Mark Aurelius; no compendium normalization is applied."
       }
     ]
   },
@@ -451,16 +523,28 @@
       ],
       "kind": "narrative investigation, synopsis, and encounter reuse",
       "reason": "These pages define no new autonomous reusable profiles. Page 19 reuses the existing Twinjaw Rattler identity from p.12 and introduces no additional embedded Items, salvage, or butchery structure."
+    },
+    {
+      "pages": [
+        20,
+        23
+      ],
+      "kind": "scenario narrative and investigation content",
+      "reason": "Corporal Brown and Mark Aurelius are narrative NPC references on these pages without complete autonomous reusable profiles."
     }
   ],
   "artworkDecisions": {
     "wastelanderVariant": "neutral placeholder; mechanics were not blocked on artwork",
-    "issue3Consumables": "existing placeholder decisions retained"
+    "issue3Consumables": "existing placeholder decisions retained",
+    "securityDrone": "existing AAT #3 official-cover shared artwork retained",
+    "superMutantVariant": "AAT #3 official-cover shared artwork used to distinguish the publication-specific mechanical variant"
   },
   "openArbitrations": [
     "Epoxy: the collected edition p.51 adds a minimum-0 floor to the Repair difficulty reduction; this difference is verified but was not found as a previously approved project correction.",
     "Skull Canyon Shot: the collected edition p.52 removes Lasting from the +3 Radiation damage resistance; this difference is verified but was not found as a previously approved project correction.",
     "Twinjaw Rattler: collection p.54 expands Twin Heads, changes Death Rattle timing/scope, and removes the individual issue's poison-sack butchery branch. No prior project approval was found for those changes; Issue #3 p.12 remains canonical for them.",
-    "NCR Trooper: collection p.56 changes LUC 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval was found; Issue #3 p.14 remains canonical."
+    "NCR Trooper: collection p.56 changes LUC 4 to 3 and adds 12+4 DC 10mm Rounds to Inventory. No prior project approval was found; Issue #3 p.14 remains canonical.",
+    "Security Drone, Protectron: collection p.63 changes Energy DR from the individual issue's 4 (All) to 3 (All). No prior project approval was found, so Issue #3 p.21 remains canonical at Energy DR 4 and the collection is not classified as an identical appearance.",
+    "Super Mutant / Abomination: collection p.62 replaces the individual Issue #3 p.22 Super Mutant profile with a mechanically different Abomination and different inventory. No prior project approval was found; the 2023 Super Mutant is retained as its own AAT #3 variant and the collection Abomination remains separate."
   ]
 }

@@ -17,16 +17,6 @@
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/errataReviewed": true,
-    "/flags/fallout2d20-compendium/source/appearances": [
-      {
-        "book": "astoundingly_awesome_tales_1_5",
-        "language": "fr",
-        "edition": "fr-project-1.2.0",
-        "translation": "project",
-        "status": "identical",
-        "page": 63
-      }
-    ],
     "/items/@f30aae0d2e34d967/name": "Pinces",
     "/items/@f30aae0d2e34d967/system/description": "<p>Corps + Corps à corps (SR 7).</p>",
     "/items/@f30aae0d2e34d967/system/weight": 0,
