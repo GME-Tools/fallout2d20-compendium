@@ -11,15 +11,19 @@ async function documents(language, pack) {
 const byId = (list, id) => list.find(document => document._id === id);
 const source = document => document.flags?.["fallout2d20-compendium"]?.source;
 
-test("AAT #3 checkpoint is limited to source pages 1-23 and has no fake RollTable", () => {
-  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23]);
-  assert.deepEqual(catalog.checkpoint.nextSourcePages, [24,25,26,27]);
+test("AAT #3 checkpoint is limited to source pages 1-27 and has no fake RollTable", () => {
+  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]);
+  assert.deepEqual(catalog.checkpoint.nextSourcePages, [28]);
   assert.equal(catalog.rollTables.length, 0);
-  assert.ok(catalog.pageReview.every(entry => entry.page <= 23));
+  assert.ok(catalog.pageReview.every(entry => entry.page <= 27));
   assert.equal(catalog.pageReview.find(entry => entry.page === 20)?.status, "out_of_scope");
   assert.equal(catalog.pageReview.find(entry => entry.page === 21)?.status, "corrected");
   assert.equal(catalog.pageReview.find(entry => entry.page === 22)?.status, "mechanical_variant");
   assert.equal(catalog.pageReview.find(entry => entry.page === 23)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 24)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 25)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 26)?.status, "corrected");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 27)?.status, "out_of_scope");
 });
 
 test("AAT #3 p.8 Wastelander is a distinct mechanical variant", async () => {
@@ -268,4 +272,76 @@ test("AAT #3 pp.20-23 collection changes remain explicit and unapplied", async (
   assert.equal(source(collectedAbomination).book, "astoundingly_awesome_tales_1_5");
   assert.equal(source(collectedAbomination).page, 62);
   assert.notEqual(sourceMutant._id, collectedAbomination._id);
+});
+
+
+test("AAT #3 p.26 Skull Canyon Zetan follows the 2023 issue exactly", async () => {
+  const [en, fr] = await Promise.all([documents("en","denizens"), documents("fr","denizens")]);
+  const actor = byId(en,"74e0af7608dece91");
+  const actorFr = byId(fr,"74e0af7608dece91");
+  assert.ok(actor);
+  assert.ok(actorFr);
+  assert.equal(actor.system.source, "astoundingly_awesome_tales_3");
+  assert.equal(source(actor).book, "astoundingly_awesome_tales_3");
+  assert.equal(source(actor).page, 26);
+  assert.equal(actor.system.level.value, 5);
+  assert.equal(actor.system.level.currentXP, 45);
+  assert.equal(actor.system.origin, "Mutated Reptile");
+  assert.equal(actorFr.system.origin, "Reptile mutant");
+  assert.deepEqual([actor.system.body.value, actor.system.mind.value, actor.system.melee.value, actor.system.guns.value, actor.system.other.value], [7,5,0,4,2]);
+  assert.equal(actor.system.health.max, 15);
+  assert.equal(actor.system.initiative.value, 12);
+  assert.equal(actor.system.defense.value, 1);
+  assert.equal(actor.system.resistance.physical.locations, "1 (All)");
+  assert.equal(actor.system.resistance.energy.locations, "3 (All)");
+  assert.equal(actor.system.butchery, undefined);
+  assert.equal(actor.system.salvage, undefined);
+  const attacks = new Map(actor.items.filter(item => item.type === "weapon").map(item => [item.name,item]));
+  for (const name of [".44 Pistol","Assault Rifle","Laser Gun"]) {
+    assert.deepEqual([attacks.get(name)?.system.attribute, attacks.get(name)?.system.skill], ["body","guns"]);
+    assert.deepEqual([attacks.get(name)?.system.creatureAttribute, attacks.get(name)?.system.creatureSkill], ["body","guns"]);
+  }
+  assert.equal(attacks.get(".44 Pistol")?.system.damage.rating, 6);
+  assert.equal(attacks.get("Assault Rifle")?.system.damage.rating, 5);
+  assert.equal(attacks.get("Assault Rifle")?.system.damage.damageEffect.burst.value, true);
+  assert.equal(attacks.get("Laser Gun")?.system.damage.rating, 4);
+  assert.equal(attacks.get("Laser Gun")?.system.damage.damageEffect.piercing.value, true);
+  assert.equal(attacks.get("Laser Gun")?.system.damage.weaponQuality.reliable.value, true);
+  const inventory = actor.items.find(item => item.name === "Inventory")?.system.effect ?? "";
+  assert.match(inventory, /\.44 Pistol/);
+  assert.match(inventory, /Assault Rifle or Laser Gun/);
+  assert.match(inventory, /2d20 5\.56mm Rounds or Power Cells/);
+  assert.ok(!source(actor).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5"));
+});
+
+test("AAT #3 p.26 Inertia Suppression Field is complete and bilingual", async () => {
+  const [en, fr] = await Promise.all([documents("en","apparel"), documents("fr","apparel")]);
+  const item = byId(en,"e26b938157cfb19b");
+  const itemFr = byId(fr,"e26b938157cfb19b");
+  assert.ok(item);
+  assert.ok(itemFr);
+  assert.equal(item.system.source, "astoundingly_awesome_tales_3");
+  assert.equal(source(item).book, "astoundingly_awesome_tales_3");
+  assert.equal(source(item).page, 26);
+  assert.equal(item.system.resistance.physical, 3);
+  assert.equal(item.system.resistance.energy, 3);
+  assert.equal(item.system.resistance.radiation, 0);
+  assert.ok(Object.values(item.system.location).every(Boolean));
+  assert.equal(item.system.weight, 0.1);
+  assert.equal(itemFr.system.weight, 0.05);
+  assert.equal(item.system.cost, 300);
+  assert.equal(item.system.rarity, 4);
+  assert.equal(source(itemFr).translation, "project");
+  assert.ok(source(item).appearances?.some(entry => entry.book === "astoundingly_awesome_tales_1_5" && entry.page === 66 && entry.status === "identical"));
+});
+
+test("AAT #3 pp.24-27 collection differences remain explicit unless already approved", () => {
+  const diffs = catalog.collectionReview.verifiedDifferences;
+  assert.ok(diffs.some(entry => entry.sourcePage === 24 && entry.collectionPage === 64 && entry.scope === "out_of_scope"));
+  assert.ok(diffs.some(entry => entry.sourcePage === 25 && entry.collectionPage === 65 && entry.scope === "out_of_scope" && /Base Test Difficulty/.test(entry.difference)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 26 && entry.collectionPage === 66 && entry.scope === "open_arbitration" && /45 XP/.test(entry.difference)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 26 && entry.collectionPage === 66 && entry.scope === "identical_mechanics" && /Inertia Suppression Field/.test(entry.difference)));
+  assert.ok(diffs.some(entry => entry.sourcePage === 27 && entry.collectionPage === 67 && entry.scope === "open_arbitration" && /Sally Jessup/.test(entry.difference)));
+  assert.ok(catalog.openArbitrations.some(entry => /Skull Canyon Zetan/.test(entry)));
+  assert.ok(catalog.openArbitrations.some(entry => /Final confrontation/.test(entry)));
 });

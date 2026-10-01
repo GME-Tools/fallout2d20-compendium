@@ -5,7 +5,7 @@
     "/name": "Zetan de Skull Canyon",
     "/token/name": "Zetan de Skull Canyon",
     "/system/biography": "<p>Un Zetan de Skull Canyon équipé d’armes humaines récupérées.</p>",
-    "/system/origin": "Alien mutant",
+    "/system/origin": "Reptile mutant",
     "/flags/fallout2d20-compendium/source/language": "fr",
     "/flags/fallout2d20-compendium/source/edition": "fr-project-1.2.0",
     "/flags/fallout2d20-compendium/source/translation": "project",
@@ -17,16 +17,6 @@
     "/flags/fallout2d20-compendium/source/translationReviewed": true,
     "/flags/fallout2d20-compendium/source/diceSymbolsReviewed": true,
     "/flags/fallout2d20-compendium/source/errataReviewed": true,
-    "/flags/fallout2d20-compendium/source/appearances": [
-      {
-        "book": "astoundingly_awesome_tales_1_5",
-        "language": "fr",
-        "edition": "fr-project-1.2.0",
-        "translation": "project",
-        "status": "identical",
-        "page": 68
-      }
-    ],
     "/items/@a664131b234d1e12/name": "Pistolet .44",
     "/items/@a664131b234d1e12/system/description": "<p>Corps + Distance (SR 11), portée C, cadence de tir 1.</p>",
     "/items/@a664131b234d1e12/system/weight": 0,
@@ -35,6 +25,12 @@
     "/items/@049d38dda0dff043/system/weight": 0,
     "/items/@ca5fedcacbfe6549/name": "Arme laser",
     "/items/@ca5fedcacbfe6549/system/description": "<p>Corps + Distance (SR 11), Perforants 1, portée C, cadence de tir 2, Fiable.</p>",
-    "/items/@ca5fedcacbfe6549/system/weight": 0
+    "/items/@ca5fedcacbfe6549/system/weight": 0,
+    "/flags/fallout2d20-compendium/source/nameTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/originTranslationReviewed": true,
+    "/flags/fallout2d20-compendium/source/biographyTranslationReviewed": true,
+    "/items/@AAT3ZetanInvP26X/name": "Inventaire",
+    "/items/@AAT3ZetanInvP26X/system/effect": "<p>Pistolet .44, fusil d’assaut ou arme laser, 2d20 cartouches de 5,56 mm ou cellules énergétiques.</p>",
+    "/items/@AAT3ZetanInvP26X/system/weight": 0
   }
 }
