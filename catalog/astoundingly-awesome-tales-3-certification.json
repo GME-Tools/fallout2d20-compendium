@@ -28,11 +28,10 @@
       24,
       25,
       26,
-      27
-    ],
-    "nextSourcePages": [
+      27,
       28
-    ]
+    ],
+    "nextSourcePages": []
   },
   "source": {
     "title": "Astoundingly Awesome Tales Issue #3 — Showdown in Skull Canyon",
@@ -208,6 +207,12 @@
       "printedPage": 27,
       "status": "out_of_scope",
       "notes": "Final-confrontation scenario procedure and reinforcement guidance only. The individual issue gives no autonomous Sally profile and refers to alien abominations 'see p.26' even though p.26 contains no abomination stat block; no new identity is inferred from that internal inconsistency."
+    },
+    {
+      "page": 28,
+      "printedPage": 28,
+      "status": "out_of_scope",
+      "notes": "Conclusion, Fallout and Quest Rewards contain scenario-resolution outcomes, Caps/XP rewards, access/discount consequences and future hooks, but no autonomous reusable Actor, Item or genuinely random RollTable. No canonical/EN/FR document is created."
     }
   ],
   "candidates": [
@@ -553,6 +558,12 @@
         "collectionPage": 67,
         "scope": "open_arbitration",
         "difference": "The collection replaces the individual issue's round/excess-attempt reinforcement wording with breakthrough-count tables and adds a concrete Sally Jessup profile based on the Core Mercenary stat block (+2 STR/END/AGI, HP 18, Defense 2, 90 XP). No prior project approval for these collection-only mechanical additions was found, so they are not integrated into the 2023 source inventory."
+      },
+      {
+        "sourcePage": 28,
+        "collectionPage": 68,
+        "scope": "out_of_scope",
+        "difference": "The collection makes narrative/editorial cleanup and revises Quest Rewards wording: the individual issue's 'another 20 Caps each in addition to the 15 already received' becomes 'another 20 Caps each in addition to the caps already received', and the final Secret Manipulation reward is clarified as '60 XP each'. These are scenario reward/bookkeeping rules rather than reusable compendium documents, so no repository normalization is applied."
       }
     ]
   },

@@ -11,11 +11,11 @@ async function documents(language, pack) {
 const byId = (list, id) => list.find(document => document._id === id);
 const source = document => document.flags?.["fallout2d20-compendium"]?.source;
 
-test("AAT #3 checkpoint is limited to source pages 1-27 and has no fake RollTable", () => {
-  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]);
-  assert.deepEqual(catalog.checkpoint.nextSourcePages, [28]);
+test("AAT #3 checkpoint is limited to source pages 1-28 and has no fake RollTable", () => {
+  assert.deepEqual(catalog.checkpoint.sourcePagesReviewed, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]);
+  assert.deepEqual(catalog.checkpoint.nextSourcePages, []);
   assert.equal(catalog.rollTables.length, 0);
-  assert.ok(catalog.pageReview.every(entry => entry.page <= 27));
+  assert.ok(catalog.pageReview.every(entry => entry.page <= 28));
   assert.equal(catalog.pageReview.find(entry => entry.page === 20)?.status, "out_of_scope");
   assert.equal(catalog.pageReview.find(entry => entry.page === 21)?.status, "corrected");
   assert.equal(catalog.pageReview.find(entry => entry.page === 22)?.status, "mechanical_variant");
@@ -24,6 +24,7 @@ test("AAT #3 checkpoint is limited to source pages 1-27 and has no fake RollTabl
   assert.equal(catalog.pageReview.find(entry => entry.page === 25)?.status, "out_of_scope");
   assert.equal(catalog.pageReview.find(entry => entry.page === 26)?.status, "corrected");
   assert.equal(catalog.pageReview.find(entry => entry.page === 27)?.status, "out_of_scope");
+  assert.equal(catalog.pageReview.find(entry => entry.page === 28)?.status, "out_of_scope");
 });
 
 test("AAT #3 p.8 Wastelander is a distinct mechanical variant", async () => {
@@ -344,4 +345,13 @@ test("AAT #3 pp.24-27 collection differences remain explicit unless already appr
   assert.ok(diffs.some(entry => entry.sourcePage === 27 && entry.collectionPage === 67 && entry.scope === "open_arbitration" && /Sally Jessup/.test(entry.difference)));
   assert.ok(catalog.openArbitrations.some(entry => /Skull Canyon Zetan/.test(entry)));
   assert.ok(catalog.openArbitrations.some(entry => /Final confrontation/.test(entry)));
+});
+
+test("AAT #3 p.28 remains scenario reward procedure and records the collection cleanup", () => {
+  assert.equal(catalog.candidates.filter(entry => entry.page === 28).length, 0);
+  const diff = catalog.collectionReview.verifiedDifferences.find(entry => entry.sourcePage === 28 && entry.collectionPage === 68);
+  assert.equal(diff?.scope, "out_of_scope");
+  assert.match(diff?.difference ?? "", /15 already received/);
+  assert.match(diff?.difference ?? "", /caps already received/);
+  assert.match(diff?.difference ?? "", /60 XP each/);
 });
