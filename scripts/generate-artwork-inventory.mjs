@@ -51,7 +51,14 @@ const outputs = contactSheetOnly
 if (check) {
   for (const [file, expected] of outputs) {
     const actual = await exists(file);
-    if (actual !== expected) throw new Error(`${file}: generated output is missing or stale`);
+    if (actual !== expected) {
+      const actualLines = String(actual ?? "").split("\n");
+      const expectedLines = String(expected).split("\n");
+      const limit = Math.max(actualLines.length, expectedLines.length);
+      let line = 0;
+      while (line < limit && actualLines[line] === expectedLines[line]) line++;
+      throw new Error(`${file}: generated output is missing or stale at line ${line + 1}\nexpected: ${expectedLines[line] ?? "<EOF>"}\nactual: ${actualLines[line] ?? "<EOF>"}`);
+    }
   }
   console.log(`Artwork inventory verified (${rows.length} unique canonical pairs; deterministic outputs current).`);
 } else {
