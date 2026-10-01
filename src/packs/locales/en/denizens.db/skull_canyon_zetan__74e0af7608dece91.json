@@ -5,7 +5,7 @@
     "/name": "Skull Canyon Zetan",
     "/token/name": "Skull Canyon Zetan",
     "/system/biography": "<p>A Zetan inhabitant of Skull Canyon equipped with scavenged human weapons.</p>",
-    "/system/origin": "Mutated Reptile",
+    "/system/origin": "Mutated Alien",
     "/flags/fallout2d20-compendium/source/language": "en",
     "/flags/fallout2d20-compendium/source/edition": "en-digital-2023",
     "/flags/fallout2d20-compendium/source/translation": "original",
@@ -17,6 +17,17 @@
     "/items/@ca5fedcacbfe6549/system/description": "<p>Body + Guns (TN 11), Piercing 1, Range C, Fire Rate 2, Reliable.</p>",
     "/items/@AAT3ZetanInvP26X/name": "Inventory",
     "/items/@AAT3ZetanInvP26X/system/effect": "<p>.44 Pistol, Assault Rifle or Laser Gun, 2d20 5.56mm Rounds or Power Cells</p>",
-    "/items/@AAT3ZetanInvP26X/system/weight": "0"
+    "/items/@AAT3ZetanInvP26X/system/weight": "0",
+    "/flags/fallout2d20-compendium/source/appearances": [
+      {
+        "book": "astoundingly_awesome_tales_1_5",
+        "language": "en",
+        "edition": "en-digital-2024",
+        "translation": "original",
+        "status": "corrected",
+        "ownerApproved": true,
+        "page": 66
+      }
+    ]
   }
 }
