@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "classic-level": "^3.0.0",
-    "sharp": "^0.35.4",
+    "sharp": "^0.35.5",
     "yazl": "^3.3.1"
   }
 }
