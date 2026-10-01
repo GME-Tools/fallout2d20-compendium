@@ -462,7 +462,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
@@ -638,7 +638,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
@@ -814,7 +814,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
@@ -836,7 +836,7 @@
       "system": {
         "description": "",
         "favorite": false,
-        "source": ""
+        "source": "astoundingly_awesome_tales_3"
       },
       "ownership": {
         "default": 0
@@ -1007,7 +1007,7 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
@@ -1183,10 +1183,35 @@
           "current": 0,
           "list": ""
         },
-        "source": "core_rulebook",
+        "source": "astoundingly_awesome_tales_3",
         "creatureAttribute": "body",
         "creatureSkill": "melee",
         "weight": "0"
+      },
+      "ownership": {
+        "default": 0,
+        "I8FU1gA0rIKN7NHn": 3
+      },
+      "name": ""
+    },
+    {
+      "_id": "AAT3NCRInvP056XX",
+      "type": "miscellany",
+      "img": "modules/fallout2d20-compendium/artwork/Tools and Utility Items/Backpack, Large.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "system": {
+        "description": "",
+        "favorite": false,
+        "cost": "0",
+        "quantity": 1,
+        "rarity": 0,
+        "stashed": false,
+        "source": "astoundingly_awesome_tales_3",
+        "effect": "",
+        "weight": 0
       },
       "ownership": {
         "default": 0,
@@ -1291,7 +1316,7 @@
         "value": 7
       },
       "luc": {
-        "value": 4
+        "value": 3
       }
     },
     "injuries": "",
@@ -1301,7 +1326,7 @@
       "poison": false,
       "radiation": false
     },
-    "origin": "Synth",
+    "origin": "Human",
     "biography": "",
     "body_parts": {
       "head": {
@@ -1360,5 +1385,5 @@
   },
   "_key": "!actors!91957f7226ee31a7",
   "name": "",
-  "$folder": "aat-3"
+  "$folder": "wastelanders"
 }
